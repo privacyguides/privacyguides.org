@@ -15,7 +15,7 @@ schema:
     "@context": http://schema.org
     "@type": MobileApplication
     name: drip.
-    image: /assets/img/health-and-wellness/drip.svg
+    image: /assets/img/health-and-wellness/drip.png
     url: https://bloodyhealth.gitlab.io/
     applicationCategory: Period Tracker
     operatingSystem:
@@ -28,7 +28,7 @@ schema:
     "@context": http://schema.org
     "@type": MobileApplication
     name: Euki
-    image: /assets/img/health-and-wellness/euki.svg
+    image: /assets/img/health-and-wellness/Euki.png
     url: https://eukiapp.org/
     applicationCategory: Period Tracker
     operatingSystem:
