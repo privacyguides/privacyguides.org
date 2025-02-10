@@ -1,9 +1,9 @@
 ---
 meta_title: "Privacy Respecting Health and Wellness apps for Android and iOS - Privacy Guides"
-title: "Mobile Browsers"
-icon: material/cellphone-information
+title: "Health and Wellness Apps"
+icon: material/FitnessCenter
 description: These applications are what we currently recommend for all health and fitness-related activites on your phone.
-cover: health-and-fitness.webp
+cover: health-and-fitness.placeholder
 schema:
   -
     "@context": http://schema.org
@@ -37,18 +37,6 @@ schema:
     subjectOf:
       "@type": WebPage
       url: "./"
-  -
-    "@context": http://schema.org
-    "@type": MobileApplication
-    name: Safari
-    image: /assets/img/browsers/safari.svg
-    url: https://apple.com/safari
-    applicationCategory: Web Browser
-    operatingSystem:
-      - iOS
-    subjectOf:
-      "@type": WebPage
-      url: "./"
 ---
 <small>Protects against the following threat(s):</small>
 
@@ -56,7 +44,7 @@ schema:
 - [:material-account-cash: Mass Surveillance](basics/common-threats.md#mass-surveillance){ .pg-red }
 
 
-These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead.
+Placeholder
 
 # Period Trackers
 
