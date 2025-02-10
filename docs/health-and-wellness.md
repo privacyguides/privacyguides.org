@@ -76,7 +76,7 @@ Placeholder description
 
 <div class="admonition recommendation" markdown>
 
-![Euki logo](assets/img/health-and-wellness/euki.png){ align=right }
+![Euki logo](assets/img/health-and-wellness/Euki.png){ align=right }
 
 **Euki** is a 
 
