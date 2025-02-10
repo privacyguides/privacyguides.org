@@ -64,7 +64,7 @@ These are our currently recommended **mobile web browsers** and configurations f
 
 <div class="admonition recommendation" markdown>
 
-![drip logo](assets/img/health-and-wellness/drip.svg){ align=right }
+![drip logo](assets/img/health-and-wellness/drip.png){ align=right }
 
 Placeholder description
 
@@ -88,7 +88,7 @@ Placeholder description
 
 <div class="admonition recommendation" markdown>
 
-![Euki logo](assets/img/browsers/cromite.svg){ align=right }
+![Euki logo](assets/img/health-and-wellness/euki.png){ align=right }
 
 **Euki** is a 
 
