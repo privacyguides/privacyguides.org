@@ -58,9 +58,9 @@ schema:
 
 These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead.
 
-## Period Trackers
+# Period Trackers
 
-### drip.
+## drip.
 
 <div class="admonition recommendation" markdown>
 
