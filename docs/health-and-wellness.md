@@ -69,16 +69,16 @@ These are our currently recommended **mobile web browsers** and configurations f
 Placeholder description
 
 [:octicons-home-16: Homepage](https://bloodyhealth.gitlab.io/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://bloodyhealth.gitlab.io/privacy-policy.html){ .card-link title="Privacy Policy" }
+[:octicons-code-16:](https://gitlab.com/bloodyhealth/drip){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1052879175)
-- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.drip)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/drip/id1584564949)
+- [:simple-android: F-Droid](https://f-droid.org/packages/com.drip/)
+- [:simple-gitlab: GitLab](https://gitlab.com/bloodyhealth/drip)
 
 </details>
 
@@ -93,15 +93,13 @@ Placeholder description
 **Euki** is a 
 
 [:octicons-home-16: Homepage](https://eukiapp.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](Placeholder){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](Placeholder){ .card-link title="Documentation" }
-[:octicons-code-16:](Placeholder){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://eukiapp.org/privacy-policy){ .card-link title="Privacy Policy" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-android: F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
-- [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/euki/id1469213846?ls=1)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.kollectivemobile.euki)
 
 </details>
 
