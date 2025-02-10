@@ -102,5 +102,5 @@ Placeholder description
 - Must support automatic updates.
 - Must not collect personal data or store it outside of the device.
 - Must function offline.
-- Must be reliably maintained in the foreseeable future. 
+- Must be reliably maintained for the foreseeable future. 
 - Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
