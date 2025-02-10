@@ -58,17 +58,17 @@ Had Proton Wallet added support for Monero or a similarly private cryptocurrency
 
 Proton Wallet *is* in beta, like many of Proton's products are when newly released, and available via the web, an Android app, and an iOS [TestFlight](https://testflight.apple.com/join/6OIcXtQN).
 
-![Proton wallet registration page](../assets/images/proton-wallet-review/1.png)
+![Proton wallet registration page](../assets/images/proton-wallet-review/1.webp)
 
 Creating your wallet is a simple process, after registering you'll be asked to choose a name for your wallet and a default currency. You can also optionally set a passphrase to secure your account. Note that this isn't merely a passphrase securing your account on Proton's servers beyond your usual account credentials, it's a [BIP39 extension word](https://en.bitcoin.it/wiki/Seed_phrase#Two-factor_seed_phrases), meaning that if you lose it your wallet will be completely unrecoverable, **even if** you back up your 12 word seed phrase.
 
-![Proton wallet setup page](../assets/images/proton-wallet-review/2.png)
+![Proton wallet setup page](../assets/images/proton-wallet-review/2.webp)
 
 The default currency here isn't the currency being *stored* in Proton Wallet. It is just used to show you the current conversion rate between Bitcoin and your local currency.
 
 Once you're in, Proton Wallet is fairly straightforward. In fact, there's not much to explore beyond finding your wallet address and buying Bitcoin. Clicking the **Recieve** button brings up a panel which shows your address and allows you to generate a new one on the fly. When you generate a new address, all of your previous addresses will continue to work, but are no longer displayed anywhere.
 
-![Proton wallet address QR code and text displayed in sidebar](../assets/images/proton-wallet-review/3.png)
+![Proton wallet address QR code and text displayed in sidebar](../assets/images/proton-wallet-review/3.webp)
 
 Buying Bitcoin is simple as well. Proton is working with two providers, Banxa and Ramp, and if you're in the United States like I am both are available, so you can choose the one with the best exchange rate to go with. Before you purchase, Proton Wallet asks you for your current country, so that will determine which providers it's possible to use.
 
@@ -78,7 +78,7 @@ There's no private payment methods though, you're stuck with credit card, Google
 
 The flagship feature of Proton Wallet is something they call **Bitcoin via Email**, which integrates with Proton Mail to allow you to send Bitcoin to any email address. Opening your wallet settings lets you enable Proton's *Receive Bitcoin via Email* feature, which allows other Proton Wallet users to send Bitcoin to your account with just your Proton Mail address.
 
-![Proton wallet receive Bitcoin via email settings page](../assets/images/proton-wallet-review/4.png)
+![Proton wallet receive Bitcoin via email settings page](../assets/images/proton-wallet-review/4.webp)
 
 If you have multiple addresses on your Proton account, such as aliases or addresses on a custom domain, only one address can be linked to your wallet. This can be a bit annoying for people who have given out different Proton addresses to others in the past, like if you gave out your @protonmail.com address to some people, before later migrating to @proton.me when that domain became available.
 

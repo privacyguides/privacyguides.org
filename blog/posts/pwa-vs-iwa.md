@@ -30,7 +30,7 @@ Isolated Web Apps (IWAs) build on the work done on PWAs and [Web Packaging](http
 Google [distinguishes](https://chromeos.dev/en/web/isolated-web-apps) between the drive by web, PWAs, and IWAs. The drive by web requires more conservative access to the system as the most accessible and is therefore least trusted. PWAs are a bit more trusted and can integrate a bit more deeply into the system as a result. IWAs are the most trusted and, as such, can have deeper access into the system and more powerful capabilities.
 
 <figure markdown>
-  ![Diagram showing the drive by web, a PWA, and then a dotted line separating them from IWAs](../assets/images/pwa-vs-iwa/iwa-diagram.png)
+  ![Diagram showing the drive by web, a PWA, and then a dotted line separating them from IWAs](../assets/images/pwa-vs-iwa/iwa-diagram.webp)
   <figcaption>source: <a href="https://chromeos.dev/en/web/isolated-web-apps">chromeos.dev</a></figcaption>
 </figure>
 

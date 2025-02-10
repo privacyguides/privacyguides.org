@@ -15,7 +15,7 @@ schema_type: NewsArticle
 ---
 # Delisting Wire From Privacy Guides
 
-!["Delisting Wire" cover image](../assets/images/delisting-wire/cover.png)
+!["Delisting Wire" cover image](../assets/images/delisting-wire/cover.avif)
 
 <small aria-hidden="true">Illustration: Jonah Aragon / Privacy Guides | Photo: Unsplash</small>
 

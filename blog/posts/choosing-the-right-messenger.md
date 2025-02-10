@@ -16,7 +16,7 @@ schema_type: AnalysisNewsArticle
 ---
 # Choosing the Right Messenger
 
-!["Choosing The Right Messenger" cover image](../assets/images/choosing-the-right-messenger/cover.png)
+!["Choosing The Right Messenger" cover image](../assets/images/choosing-the-right-messenger/cover.webp)
 
 <small aria-hidden="true">Illustration: Jonah Aragon / Privacy Guides | Photo: Unsplash</small>
 

@@ -17,6 +17,8 @@ schema_type: OpinionNewsArticle
 ---
 # Threads Is the Perfect Twitter Alternative, Just Not for You
 
+!["Threads Cover Image" cover image](../assets/images/threads-launch-twitter/cover.webp)
+
 Silicon Valley could well be built on the principle of scrapping principles. Now Elon Musk, perhaps the ultimate tech bro, is shredding another well-regarded convention with an *original business strategy*.<!-- more -->
 
 Generally, in business, it is sensible to provide your customers with what they want. With Twitter, the meme-makers' favourite billionaire is doing the opposite. The cyber-trucker is trying his best to [cull](https://jottings.lol/2022/12/bravo-elon) his customer base. Instead of finding gaps in the market, Musk is helping to create them. Ever the [copycat](https://blog.privacyguides.org/2022/04/04/move-fast-and-break-things/), Mark Zuckerberg wants to give these innovative tactics a try. Enter the-company formerly-known-as-Facebook's rival to the birdsite: Threads.
