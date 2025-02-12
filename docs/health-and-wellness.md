@@ -93,7 +93,7 @@ Properitary menstrual trackers like [Flo](https://techcrunch.com/2021/01/13/flo-
 
 </div>
 
-However, Euki is not open source and can only be obtained through properitary app stores.
+Euki is not open source and can only be obtained through properitary app stores.
 
 ## Criteria
 
