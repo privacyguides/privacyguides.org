@@ -95,6 +95,57 @@ Popular menstrual trackers like [Flo](https://techcrunch.com/2021/01/13/flo-gets
 
 Euki is not open source and can only be obtained through properitary app stores.
 
+## Fitness Trackers
+
+These general purpose apps can do everything from counting steps and tracking sleep to measuring your heartbeat.
+
+### Gadgebridge
+
+<div class="admonition recommendation" markdown>
+  
+![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge.png){ align=right }
+
+**Gadgetbridge** allows you to pair and manage your bluetooth devices without using the vendor’s application. When paired with a compatible smartwatch, it can mimic the health and wellness functionality of these watches without third-party data collection. Gadgetbridge features include but are not limited to: a step counter, sleep tracker, and a heartbeat rate monitor.
+
+[:octicons-home-16: Homepage](https://gadgetbridge.org/){ .md-button .md-button--primary }
+[:octicons-code-16:](https://codeberg.org/Freeyourgadget/website){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-android: F-Droid](https://f-droid.org/packages/nodomain.freeyourgadget.gadgetbridge/)
+- [:simple-code: Codeberg](https://codeberg.org/Freeyourgadget/Gadgetbridge)
+
+</details>
+
+</div>
+
+## Health Records
+
+These apps help you collect and manage personal health data and share it with health providers, organizations and other apps.
+
+### Commonhealth
+ 
+<div class="admonition recommendation" markdown>
+
+![Commonhealth logo](assets/img/health-and-wellness/commonhealth.png){ align=right }
+
+**Commonhealth** is a privacy-respecting android alternative to Apple Health Records. It allows people to access their electronic health records and securely share it to providers.
+
+[:octicons-home-16: Homepage](https://www.commonhealth.org/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.commonhealth.org/privacy){ .card-link title="Privacy Policy" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?hl=en_US&id=org.thecommonsproject.android.phr)
+
+</details>
+
+</div>
+
+Commonhealth is only available in the United States. It may not work on rooted devices or devices with a custom ROM like Graphene OS. Although the app itself is closed source, the [developer SDK is open source](https://github.com/the-commons-project).
+
 ## Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
@@ -104,4 +155,4 @@ Euki is not open source and can only be obtained through properitary app stores.
 - Must support automatic updates.
 - Must not store personal data outside of the device.
 - Must function offline.
-- Must be reliably maintained for the foreseeable future. 
+- Must be reliably maintained for the foreseeable future.
