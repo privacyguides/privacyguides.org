@@ -102,7 +102,6 @@ However, Euki is not open source and can only be obtained through properitary ap
 ### Minimum Requirements
 
 - Must support automatic updates.
-- Must not collect personal data or store it outside of the device.
+- Must not store personal data outside of the device.
 - Must function offline.
 - Must be reliably maintained for the foreseeable future. 
-- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
