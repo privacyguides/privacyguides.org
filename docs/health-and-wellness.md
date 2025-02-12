@@ -46,7 +46,7 @@ Keep track of your health and fitness-related goals with these apps. Unlike thei
 
 ## Menstrual Cycle Tracking 
 
-Properitary menstrual trackers like [Flo](https://techcrunch.com/2021/01/13/flo-gets-ftc-slap-for-sharing-user-data-when-it-promised-privacy/) are notorious for collecting and sharing your user data. Depending on your jurisidiction, this may lead to [legal consquences](https://www.forbes.com/sites/abigaildubiniecki/2024/11/14/post-roe-your-period-app-data-could-be-used-against-you/) affecting your reproductive autonomy.
+Popular menstrual trackers like [Flo](https://techcrunch.com/2021/01/13/flo-gets-ftc-slap-for-sharing-user-data-when-it-promised-privacy/) are notorious for collecting and sharing your user data. Depending on your jurisidiction, this may lead to [legal consquences](https://www.forbes.com/sites/abigaildubiniecki/2024/11/14/post-roe-your-period-app-data-could-be-used-against-you/) affecting your reproductive autonomy.
 
 ### drip.
 
