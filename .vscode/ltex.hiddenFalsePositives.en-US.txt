@@ -1,0 +1,8 @@
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QImage Credit: Yipeng Lu\\E$"}
+{"rule":"CLOSE_SCRUTINY","sentence":"^\\QThis technology can work using only 2D footage and doesn't even require close proximity or high resolution sensors like other forms of biometrics.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QCompanies like TypingDNA claim to be able to identify users by how they type.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QImage Credit: Alireza Bilesan, Saeed Behzadipour, Teppei Tsujita, Shunsuke Komizunai, and Atsushi Konno\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QImage Credit: Yousef, R.N., Khalil, A.T., Samra, A.S. et al.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QImage Credit: clockit.io\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QExample of finger minutiae including forks (where one line splits into multiple lines), ends (where a line ends), islands (isolated dots), and inclosures (lines that split into two and then reconnect)\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIllustration: Jonah Aragon / Privacy Guides | Photo: Jair Lázaro / Unsplash\\E$"}

@@ -20,7 +20,18 @@
 
 {
     "git.ignoreLimitWarning": true,
-    "ltex.diagnosticSeverity": "hint",
+    "ltex.diagnosticSeverity": {
+      "COMMA_COMPOUND_SENTENCE": "error",
+      "MORFOLOGIK_RULE_EN_US": "information",
+      "HE_VERB_AGR": "hint",
+      "WHETHER": "hint",
+      "MAKE_SINCE": "information",
+      "CLOSE_SCRUTINY": "information",
+      "EN_COMPOUNDS": "warning",
+      "ADMIT_ENJOY_VB": "hint",
+      "ABOUT_WHO_TO": "warning",
+      "default": "hint"
+    },
     "editor.unicodeHighlight.ambiguousCharacters": true,
     "editor.unicodeHighlight.invisibleCharacters": true,
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",

@@ -142,6 +142,7 @@ plugins:
       - Tutorials
       - News
       - Reviews
+      - Explainers
   rss:
     match_path: posts/.*
     abstract_chars_count: -1
