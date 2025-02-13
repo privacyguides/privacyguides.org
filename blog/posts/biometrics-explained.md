@@ -201,11 +201,11 @@ They claim it can uniquely identify individuals as well as penetrate walls, a wo
 
 ### :material-cloud-off: Local Storage
 
-TODO
+As with most things, keeping everything on your device is the key to private biometrics. A secure and private biometric authentication system should store any biometric data fully on-device and further, shouldn't make it acessible at all, even to the user. Biometric data is so incredibly sensitive and uniquely identifying that it needs to be treated with the utmost care. For example, apps on your phone don't have direct access to your fingerprint or face data, they must use an [API](https://developer.apple.com/documentation/localauthentication) to use biometric authentication.
 
 ### :material-chip: Secure Element
 
-All forms of biometric authentication rely on proper hardware such as a secure element in order to be secure. The secure element provides a secure and tamper-resistant place to store your biometric data, so it can't be easily extracted. Examples include Apple's [Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/web) and Google's [Titan M](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) series of chips. You should avoid devices that lack a secure element; they won't be able to properly implement secure biometrics without one.
+All forms of biometric authentication rely on proper hardware such as a secure element in order to be secure. The secure element provides a secure and tamper-resistant place to store your biometric data separate from the rest of the system, so it can't be easily extracted. Examples include Apple's [Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/web) and Google's [Titan M](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) series of chips. You should avoid devices that lack a secure element; they won't be able to properly implement secure biometrics without one.
 
 ### Final thoughts
 
