@@ -174,7 +174,7 @@ It's possible to identify individuals using [sensors](https://www.amti.biz/produ
 
 >Scanalytics floor sensors capture up to 100% of foot traffic through your buildings and spaces. Capturing individual foot steps and the paths they form, we are able to monitor and analyze complete space movements and usage. 
 
-Floor sensors are expecially concerning since they're completely invisible to you.
+Floor sensors are especially concerning since they're completely invisible to you.
 
 ### :material-radar: Radar
 
