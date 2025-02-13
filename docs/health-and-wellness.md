@@ -99,7 +99,27 @@ Popular menstrual trackers like [Flo](https://techcrunch.com/2021/01/13/flo-gets
 
 These general purpose apps can do everything from counting steps and tracking sleep to measuring your heartbeat.
 
-### Gadgebridge
+### Apple Health
+
+<div class="admonition recommendation" markdown>
+  
+![Apple logo](assets/img/health-and-wellness/apple-health.png){ align=right }
+
+**Apple Health** is the default healh and fitness app in iOS. Their privacy policy states that your personal data in encrypted at-rest and in-transit. Apple Health utilizes end-to-end encryption when syncing across multiple devices. Additionally, almost all measured data is processed on your phone. 
+
+[:octicons-home-16: Homepage](https://www.apple.com/health/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.apple.com/legal/privacy/consumer-health-personal-data/en-ww/){ .card-link title="Privacy Policy" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/apple-health/id1242545199)
+
+</details>
+
+</div>
+
+### Gadgetbridge
 
 <div class="admonition recommendation" markdown>
   
@@ -120,9 +140,31 @@ These general purpose apps can do everything from counting steps and tracking sl
 
 </div>
 
+Make sure to review the smartwatch compatibility list before purchasing a device. Some brands require you to download their app and connect the smartwatch to their servers prior to installing Gadgetbridge. 
+
 ## Health Records
 
 These apps help you collect and manage personal health data and share it with health providers, organizations and other apps.
+
+### Apple Health Records
+
+<div class="admonition recommendation" markdown>
+  
+![Apple logo](assets/img/health-and-wellness/apple-health.png){ align=right }
+
+**Apple Health Records** is a built-in feature within **Apple Health** that allows you to view, store, and share your health records. It shares the security and privacy features of Apple Health.
+
+[:octicons-home-16: Homepage](https://www.apple.com/health/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.apple.com/legal/privacy/consumer-health-personal-data/en-ww/){ .card-link title="Privacy Policy" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/apple-health/id1242545199)
+
+</details>
+
+</div>
 
 ### Commonhealth
  
@@ -144,7 +186,7 @@ These apps help you collect and manage personal health data and share it with he
 
 </div>
 
-Commonhealth is only available in the United States. It may not work on rooted devices or devices with a custom ROM like Graphene OS. Although the app itself is closed source, the [developer SDK is open source](https://github.com/the-commons-project).
+Commonhealth is only available in the United States. It may not work on [rooted devices](https://www.commonhealth.org/ehr-implementation-guide#ehr-link-7) or devices with a custom ROM like Graphene OS. Although the app itself is closed source, the [developer SDK is open source](https://github.com/the-commons-project).
 
 ## Criteria
 
