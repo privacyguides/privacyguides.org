@@ -126,6 +126,18 @@ It uses near-infrared light to reveal highly unique patterns independent of the 
 
 The extremely short distance this technology operates at makes it very difficult for someone to unlock your device without you noticing, and you can simply close your eyes to prevent someone from forcing you to unlock it.
 
+## :material-chip: Secure Element
+
+All forms of biometric authentication rely on proper hardware such as a secure element in order to be secure. The secure element provides a secure and tamper-resistant place to store your biometric data so it can't be easily extracted. Examples include Apple's [Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/web) and Google's [Titan M](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) series of chips. You should avoid devices that lack a secure element; they won't be able to properly implement secure biometrics without one.
+
+## :material-matrix: Algorithm
+
+Because biometric systems need to translate the physical properties of your body to data, they rely on an algorithm to determine if their reading matches closely enough. 
+
+[Android](https://source.android.com/docs/security/features/biometric) has guidelines on how OEMs should implement biometrics and how they can [test](https://source.android.com/docs/security/features/biometric/measure) them for security. If you're performing your own security research, you should look here for guidance on testing methodology.
+
+There is also independent research into the security of biometric systems. This combination of external and internal rigor helps ensure the security of these systems, although more well known brands like Apple and Google will receive more scrutiny than lesser-known ones.
+
 ## :material-keyboard: Typing Biometrics
 
 Companies like [TypingDNA](https://www.typingdna.com) claim to be able to identify users by how they type.
@@ -187,15 +199,3 @@ Using a continuous wave (CW) radar that's constantly emitting a signal, it's pos
 >It is also possible to identify the intruder’s unique radio gait IDs and capture them in a database. Any intruder with an unknown radio gait ID detected within the premises will trigger an alarm, and the intruder’s location will be tracked down.
 
 They claim it can uniquely identify individuals as well as penetrate walls, a worrying combination.
-
-## :material-chip: Secure Element
-
-All forms of biometric authentication rely on proper hardware such as a secure element in order to be secure. The secure element provides a secure and tamper-resistant place to store your biometric data so it can't be easily extracted. Examples include Apple's [Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/web) and Google's [Titan M](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) series of chips. You should avoid devices that lack a secure element; they won't be able to properly implement secure biometrics without one.
-
-## :material-matrix: Algorithm
-
-Because biometric systems need to translate the physical properties of your body to data, they rely on an algorithm to determine if their reading matches closely enough. 
-
-[Android](https://source.android.com/docs/security/features/biometric) has guidelines on how OEMs should implement biometrics and how they can [test](https://source.android.com/docs/security/features/biometric/measure) them for security. If you're performing your own security research, you should look here for guidance on testing methodology.
-
-There is also independent research into the security of biometric systems. This combination of external and internal rigor helps ensure the security of these systems, although more well known brands like Apple and Google will receive more scrutiny than lesser-known ones.
