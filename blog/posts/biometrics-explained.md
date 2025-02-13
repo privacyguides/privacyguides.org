@@ -27,7 +27,7 @@ There are three main types of fingerprint: loops, whorls, and arches. Fingerprin
 
 <small aria-hidden="true">Image Credit: <a href="https://engines.egr.uh.edu/episode/2529">University of Houston</a></small>
 
-[Finger minutiae](https://sites.rutgers.edu/fingerprinting/no-two-finger-prints-are-alike/) data is used to identify a fingerprint as unique. This data consists of the points on your fingerprint where lines split, abruptly end, individual dots, etc. Two people can have the same number of arches, loops, and whorls, but they won't have the exact same configurations of minutiae.
+[Finger minutiae](https://sites.rutgers.edu/fingerprinting/no-two-finger-prints-are-alike/) data is used to identify a fingerprint as unique. This data consists of the points on your fingerprint where lines split, abruptly end, individual dots, etc. Two people can have the same number of arches, loops, and whorls, but they won't have the exact same configurations of minutiae. (1)
 { .annotate }
 
 1. :material-fingerprint: It's theorized that the reason humans have fingerprints in the first place is to [enhance our sense of touch](https://www.science.org/doi/10.1126/science.1166467).
