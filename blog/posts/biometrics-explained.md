@@ -11,7 +11,7 @@ license: BY-SA
 ---
 # Biometrics Explained
 
-![Glowing fingerprint on glass](../assets/images/biometrics-explained/cover.jpg)
+![Glowing fingerprint on glass](../assets/images/biometrics-explained/cover.webp)
 
 <small aria-hidden="true">Photo: George Prentzas / Unsplash</small>
 
@@ -23,7 +23,7 @@ One of the most recognizable types of biometric authentication has to be the fin
 
 There are three main types of fingerprint: loops, whorls, and arches. Fingerprint sensors categorize your finger into these groups before using other details to uniquely identify your fingerprint. You might think that you could count the number of arches/whorls/loops, but there can be many people with the same configuration and number of these. Also fingerprint sensors won't be able to see your entire fingerprint most of the time, they are designed to work at weird angles and with a partial scan, so it's not viable.
 
-![Examples of loop, whorl, and arch fingerprints](../assets/images/biometrics-explained/types-of-fingerprint.jpeg)
+![Examples of loop, whorl, and arch fingerprints](../assets/images/biometrics-explained/types-of-fingerprint.webp)
 
 <small aria-hidden="true">Image Credit: <a href="https://engines.egr.uh.edu/episode/2529">University of Houston</a></small>
 
@@ -32,7 +32,7 @@ There are three main types of fingerprint: loops, whorls, and arches. Fingerprin
 
 1. :material-fingerprint: It's theorized that the reason humans have fingerprints in the first place is to [enhance our sense of touch](https://www.science.org/doi/10.1126/science.1166467).
 
-![Example of finger minutiae including forks (where one line splits into mulitple lines), ends (where a line ends), islands (isolated dots), and inclosures (lines that split into two and then reconnect)](../assets/images/biometrics-explained/finger-minutiae.jpeg)
+![Example of finger minutiae including forks (where one line splits into mulitple lines), ends (where a line ends), islands (isolated dots), and inclosures (lines that split into two and then reconnect)](../assets/images/biometrics-explained/finger-minutiae.webp)
 
 <small aria-hidden="true">Image Credit: <a href="https://sites.rutgers.edu/fingerprinting/no-two-finger-prints-are-alike/">Rutgers University</a></small>
 
@@ -44,7 +44,7 @@ There are [three](https://www.androidauthority.com/how-fingerprint-scanners-work
 
 An optical sensor works by taking a picture of your fingerprint and turning it into data. They are the cheapest and least secure option. Since optical sensors capture two-dimensional images, an attacker may gain access by simply taking a picture of your fingerprint.
 
-![Diagram showing a closeup of how an optical fingerprint sensor works by reflecting light off the skin](../assets/images/biometrics-explained/optical-diagram.jpeg)
+![Diagram showing a closeup of how an optical fingerprint sensor works by reflecting light off the skin](../assets/images/biometrics-explained/optical-diagram.webp)
 
 <small aria-hidden="true">Image Credit: <a href="https://clockit.io/fingerprint-scanner/">clockit.io</a></small>
 
@@ -56,7 +56,7 @@ Optical sensors can struggle in the presence of bright sunlight, which is an iss
 
 Capacitive sensors measure the electrical conductivity of your finger. These are much more secure than optical sensors since they can't be fooled with an image. They're also tough to fool with prosthetics as different materials will have different electrical properties.
 
-![Diagram showing a closeup of how a capacitive fingerprint sensor works by detecting the electrical difference in the ridges and valleys of a finger](../assets/images/biometrics-explained/capacitve-diagram.jpeg)
+![Diagram showing a closeup of how a capacitive fingerprint sensor works by detecting the electrical difference in the ridges and valleys of a finger](../assets/images/biometrics-explained/capacitve-diagram.webp)
 
 <small aria-hidden="true">Image Credit: <a href="https://www.bayometric.com/capacitive-vs-optical/">Bayometric</a></small>
 
@@ -68,7 +68,7 @@ Conveniently they also don't require a light source under them to work, although
 
 Ultrasonic fingerprint sensors use sound to create a detailed 3D representation of your fingerprint using ultrasound waves (sound waves with a frequency greater than 20khz). It's a similar concept to what's used to map the ocean floor: sound is emitted from transducers and bounces off your skin. By measuring the time it takes for the sound to reach the microphones, your phone can create a detailed map of the ridges and valleys in your finger.
 
-![Diagram showing the transducers emitting ultrasound waves and reflecting off the finger tissue bouncing back and then being picked up by microphones](../assets/images/biometrics-explained/ultrasonic-diagram.png)
+![Diagram showing the transducers emitting ultrasound waves and reflecting off the finger tissue bouncing back and then being picked up by microphones](../assets/images/biometrics-explained/ultrasonic-diagram.webp)
 
 <small aria-hidden="true">source: <a href="https://www.researchgate.net/publication/285770473_Piezoelectric_Micromachined_Ultrasonic_Transducers_for_Fingerprint_Sensing">Yipeng Lu</a></small>
 
@@ -150,7 +150,7 @@ There are two approaches for extracting biometric data from video.
 
 This approach attempts to model the human body in order to track the different parts of it. A well-known example of this approach is the Microsoft Kinect, which only consists of a fairly low-resolution camera. It simplifies the human body into a stick figure, which you can see in footage of the [Kinect](https://www.youtube.com/watch?v=33AsuE-WP64) in action. It then uses the distances and joint angles of the model for gait recognition.
 
-![Diagram showing the kinect's model of the human body, a 2D skeleton made up of various parts](../assets/images/biometrics-explained/kinect-skeleton.jpeg)
+![Diagram showing the kinect's model of the human body, a 2D skeleton made up of various parts](../assets/images/biometrics-explained/kinect-skeleton.webp)
 
 <small aria-hidden="true">Image Credit: <a href="https://www.researchgate.net/publication/334049964_Markerless_Human_Motion_Tracking_Using_Microsoft_Kinect_SDK_and_Inverse_Kinematics">Alireza Bilesan, Saeed Behzadipour, Teppei Tsujita, Shunsuke Komizunai, and Atsushi Konno</a></small>
 
