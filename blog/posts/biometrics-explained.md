@@ -170,7 +170,11 @@ Accelerometers work by measuring the accelerations in 3D space in X, Y, and Z co
 
 ### :material-foot-print: Floor Sensor
 
-It's possible to identify individuals using [sensors](https://www.amti.biz/product/bms464508/) in the floor that measure the pressure of your steps as you take them.
+It's possible to identify individuals using [sensors](https://www.amti.biz/product/bms464508/) in the floor that measure the pressure of your steps as you take them. There are already companies offering software/hardware [installations](https://www.scanalyticsinc.com/how-it-works) for tracking customers within a store using this technology.
+
+>Scanalytics floor sensors capture up to 100% of foot traffic through your buildings and spaces. Capturing individual foot steps and the paths they form, we are able to monitor and analyze complete space movements and usage. 
+
+Floor sensors are expecially concerning since they're completely invisible to you.
 
 ### :material-radar: Radar
 
