@@ -21,7 +21,7 @@ Biometrics are a convenient and secure way to authenticate our devices. Many of 
 
 One of the most recognizable types of biometric authentication has to be the fingerprint reader. The idea is that everyone has a fairly unique fingerprint, so we should be able to distinguish between your fingerprint and someone else's reliably.
 
-There are three main types of fingerprint: loops, whorls, and arches. Fingerprint sensors categorize your finger into these groups before using other details to uniquely identify your fingerprint. You might think that you could count the number of arches/whorls/loops, but there can be many people with the same configuration and number of these. Also fingerprint sensors won't be able to see your entire fingerprint most of the time, they are designed to work at weird angles and with a partial scan, so it's not viable.
+There are three main types of fingerprint: loops, whorls, and arches. Fingerprint sensors categorize your finger into these groups before using other details to uniquely identify your fingerprint. You might think that you could count the number of arches/whorls/loops, but there can be many people with the same configuration and number of these. Also fingerprint sensors won't be able to see your entire fingerprint most of the time, they are designed to work at weird angles and with a partial scan, so it's not viable to use the whole fingerprit for authentication.
 
 ![Examples of loop, whorl, and arch fingerprints](../assets/images/biometrics-explained/types-of-fingerprint.webp)
 
