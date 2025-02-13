@@ -19,7 +19,16 @@ Biometrics are a convenient and secure way to authenticate our devices. Many of 
 
 ## :material-fingerprint: Fingerprint
 
-One of the most recognizable types of biometric authentication has to be the fingerprint reader. The idea is that everyone has a fairly unique fingerprint, so we should be able to distinguish between your fingerprint and someone else's reliably. (1) [Finger minutiae](https://sites.rutgers.edu/fingerprinting/no-two-finger-prints-are-alike/) data is used to identify a fingerprint as unique. This data consists of the points on your fingerprint where lines split, abruptly end, individual dots, etc. Two people can have the same number of arches, loops, and whorls, but they won't have the exact same configurations of minutiae.
+One of the most recognizable types of biometric authentication has to be the fingerprint reader. The idea is that everyone has a fairly unique fingerprint, so we should be able to distinguish between your fingerprint and someone else's reliably. (1) 
+
+There are three main types of fingerprint: loops, whorls, and arches. Fingerprint sensors categorize your finger into these groups before using other details to uniquely identify your fingerprint. You might think that you could count the number of arches/whorls/loops, but there can be many people with the same configuration and number of these. Also fingerprint sensors won't be able to see your entire fingerprint most of the time, they are designed to work at weird angles and with a partial scan, so it's not viable.
+
+<figure markdown>
+  ![Examples of loop, whorl, and arch fingerprints](../assets/images/biometrics-explained/types-of-fingerprint.jpeg)
+  <figcaption>source: <a href="https://engines.egr.uh.edu/episode/2529">University of Houston</a></figcaption>
+</figure>
+
+[Finger minutiae](https://sites.rutgers.edu/fingerprinting/no-two-finger-prints-are-alike/) data is used to identify a fingerprint as unique. This data consists of the points on your fingerprint where lines split, abruptly end, individual dots, etc. Two people can have the same number of arches, loops, and whorls, but they won't have the exact same configurations of minutiae.
 { .annotate }
 
 1. :material-fingerprint: It's theorized that the reason humans have fingerprints in the first place is to [enhance our sense of touch](https://www.science.org/doi/10.1126/science.1166467).
