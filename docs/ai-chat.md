@@ -25,7 +25,7 @@ Alternatively, you can run AI models locally so that your data never leaves your
 
 ### Hardware for Local AI Models
 
-Local models are also fairly accessible. It's possible to run smaller models at lower speeds on as little as 8GB of RAM. Using more powerful hardware such as a dedicated GPU with sufficient VRAM or a modern system with fast LPDDR5X memory offers the best experience.
+Local models are also fairly accessible. It's possible to run smaller models at lower speeds on as little as 8 GB of RAM. Using more powerful hardware such as a dedicated GPU with sufficient VRAM or a modern system with fast LPDDR5X memory offers the best experience.
 
 LLMs can usually be differentiated by the number of parameters, which can vary between 1.3B to 405B for open-source models available for end users. For example, models below 6.7B parameters are only good for basic tasks like text summaries, while models between 7B and 13B are a great compromise between quality and speed. Models with advanced reasoning capabilities are generally around 70B.
 
@@ -33,9 +33,9 @@ For consumer-grade hardware, it is generally recommended to use [quantized model
 
 | Model Size (in Parameters) | Minimum RAM | Minimum Processor |
 |---|---|---|
-| 7B | 8GB | Modern CPU (AVX2 support) |
-| 13B | 16GB | Modern CPU (AVX2 support) |
-| 70B | 72GB | GPU with VRAM |
+| 7B | 8 GB | Modern CPU (AVX2 support) |
+| 13B | 16 GB | Modern CPU (AVX2 support) |
+| 70B | 72 GB | GPU with VRAM |
 
 To run AI locally, you need both an AI model and an AI client.
 
@@ -143,7 +143,7 @@ Llamafile also supports LLaVA. However, it doesn't support speech recognition or
 
 </div>
 
-Mozilla has made llamafiles available for only some Llama and Mistral models, while there are few third-party llamafiles available. Moreover, Windows limits `.exe` files to 4GB, and most models are larger than that.
+Mozilla has made llamafiles available for only some Llama and Mistral models, while there are few third-party llamafiles available. Moreover, Windows limits `.exe` files to 4 GB, and most models are larger than that.
 
 To circumvent these issues, you can [load external weights](https://github.com/Mozilla-Ocho/llamafile#using-llamafile-with-external-weights).
 
@@ -162,7 +162,7 @@ To check the authenticity and safety of the model, look for:
 - Matching checksums[^1]
     - On Hugging Face, you can find the hash by clicking on a model file and looking for the **Copy SHA256** button below it. You should compare this checksum with the one from the model file you downloaded.
 
-A downloaded model is generally safe if it satisfies all of the above checks.
+A downloaded model is generally safe if it satisfies all the above checks.
 
 ## Criteria
 
@@ -174,14 +174,14 @@ Please note we are not affiliated with any of the projects we recommend. In addi
 - Must not transmit personal data, including chat data.
 - Must be multi-platform.
 - Must not require a GPU.
-- Must have support for GPU-powered fast inference.
+- Must support GPU-powered fast inference.
 - Must not require an internet connection.
 
 ### Best-Case
 
 Our best-case criteria represent what we *would* like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
-- Should be easy to download and set up, e.g. with a one-click install process.
+- Should be easy to download and set up, e.g. with a one-click installation process.
 - Should have a built-in model downloader option.
 - The user should be able to modify the LLM parameters, such as its system prompt or temperature.
 

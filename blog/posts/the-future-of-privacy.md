@@ -54,9 +54,9 @@ On the good side of regulatory influence, there are regulations like the [Genera
 
 ### What is the GDPR
 
-The GDPR is a data privacy regulation that was adopted by the European Union (EU) in 2016 and became effective in May 2018. Its scope encompasses all of the EU member states as well as all the countries part of the European Economic Area (EEA), which together count 30 countries to this day. The United Kingdom also uses an [amended version](https://www.gdpreu.org/differences-between-the-uk-and-eu-gdpr-regulations/) of the GDPR post-Brexit.
+The GDPR is a data privacy regulation that was adopted by the European Union (EU) in 2016 and became effective in May 2018. Its scope encompasses all the EU member states as well as all the countries part of the European Economic Area (EEA), which together count 30 countries to this day. The United Kingdom also uses an [amended version](https://www.gdpreu.org/differences-between-the-uk-and-eu-gdpr-regulations/) of the GDPR post-Brexit.
 
-However, the reach of the GDPR isn't limited to Europe. Every organization based *outside of the EU* that is offering goods or services to, or is monitoring the behavior of, individuals located in the EU [must comply](https://commission.europa.eu/law/law-topic/data-protection/rules-business-and-organisations/application-regulation/who-does-data-protection-law-apply_en) as well. This means that **most organizations operating worldwide, regardless of where they are located in the world, must comply** with the GDPR.
+However, the reach of the GDPR isn't limited to Europe. Every organization based *outside the EU* that is offering goods or services to, or is monitoring the behavior of, individuals located in the EU [must comply](https://commission.europa.eu/law/law-topic/data-protection/rules-business-and-organisations/application-regulation/who-does-data-protection-law-apply_en) as well. This means that **most organizations operating worldwide, regardless of where they are located in the world, must comply** with the GDPR.
 
 As is often the case with data privacy laws, it took a few years before [Data Subjects](https://www.gdprsummary.com/gdpr-definitions/data-subject/) (your legal designation under the GDPR) noticed any concrete changes. One change that has become prominent in the past few years, and is likely a direct product of the GDPR, is data deletion features within apps and accounts.
 
@@ -77,7 +77,7 @@ If you wish to exercise or have questions related to your Right to Erasure or Ri
 
 ## Chat Control wants to break end-to-end encryption
 
-If you are not European, please bear with me. First of all, everyone outside of Europe should care about what is happening in Europe, regardless. But even if you don't care, you should know **this kind of mass surveillance proposition will inevitably leak west**, and if adopted will affect us all globally.
+If you are not European, please bear with me. First, everyone outside of Europe should care about what is happening in Europe, regardless. But even if you don't care, you should know **this kind of mass surveillance proposition will inevitably leak west**, and if adopted will affect us all globally.
 
 ### What is Chat Control
 
@@ -91,7 +91,7 @@ Such legislation might sound like a noble cause at first, but consider this: Sca
 
 Chat Control would hurt everyone, [including the children](https://digitalcommons.law.uw.edu/wlr/vol99/iss1/9/). Not only would mass scanning of all messages be [ineffective](https://volteuropa.org/news/chat-control-wont-protect-children) at reducing CSAM, but it would endanger the children even further by also scanning their communications. Because yes, children also communicate online. Parents also communicate sensitive information about their children online, with trusted family or doctors. All this data would get scanned and collected, only [one breach away](https://techcrunch.com/2025/01/28/powerschool-begins-notifying-students-and-teachers-after-massive-data-breach/) from being made public.
 
-*Protecting the children* is a pretext regularly used to implement abusive regulations undermining individual liberties and protections. Do not get fooled by this demagogical stratagem. **Chat Control is the opposite of protecting the children.**
+*Protecting the children* is a pretext regularly used to implement abusive regulations undermining individual liberties and protections. Do not get fooled by this demagogic stratagem. **Chat Control is the opposite of protecting the children.**
 
 Chat Control would only lead to destroying the end-to-end encryption messaging features that are protecting us and the children so well already. Criminals exploiting children would simply move to underground channels, unbothered.
 
@@ -109,7 +109,7 @@ Age Verification policies generally start with the premise that some content sho
 
 ### Who will decide what content should be walled online?
 
-First of all, even putting aside the fact that there is plenty of disturbing content accessible *outside* the internet (newspapers, television, movies, radio, advertising, etc), who would be [the deciders](https://www.eff.org/deeplinks/2025/01/impact-age-verification-measures-goes-beyond-porn-sites) of which specific content can be accessed by children or not? This can be extremely problematic, to say the least.
+First, even putting aside the fact that there is plenty of disturbing content accessible *outside* the internet (newspapers, television, movies, radio, advertising, etc.), who would be [the deciders](https://www.eff.org/deeplinks/2025/01/impact-age-verification-measures-goes-beyond-porn-sites) of which specific content can be accessed by children or not? This can be extremely problematic, to say the least.
 
 There is no objective measure to decide on this, and what might be deemed appropriate by one might not be by another. More importantly in the context of our discussion, what one government might judge appropriate might be very different from the next or previous administration.
 

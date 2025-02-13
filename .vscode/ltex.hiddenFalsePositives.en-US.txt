@@ -29,3 +29,18 @@
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QOnion Browser is an open-source app created by Mike Tigas, who has worked closely with Tor Project in the past and was previously an investigative journalist at ProPublica (he is currently an advisor at the FTC).\\E$"}
 {"rule":"MISSING_COMMA_AFTER_INTRODUCTORY_PHRASE","sentence":"^\\QBesides leaving it blank for the default, it comes with three built-in user agent strings you can choose from, or you can enter your own.\\E$"}
 {"rule":"COMMA_COMPOUND_SENTENCE_2","sentence":"^\\QStartpage CEO Robert Beens discusses the investment from Privacy One / System1\nWhat is Startpage's relationship with Privacy One/System1 and what does this mean for my privacy protections?\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QSelect :material-dots-vertical: > Settings > Privacy\n Turn off Show Calls in Recents\\E$"}
+{"rule":"COMMA_COMPOUND_SENTENCE","sentence":"^\\QWhile this change makes sense from the perspective of making it so you cannot \"hold a number hostage\" as long as you keep checking in, it is particularly important for people who've used disposable phone numbers to know this.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QPhoto: ev / Unsplash\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QEnter the-company formerly-known-as-Facebook's rival to the birdsite: Threads.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThreads' naffness won't stop its success.\\E$"}
+{"rule":"EXTREME_ADJECTIVES","sentence":"^\\QIt feels really good.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QSam is an elearning designer and privacy advocate interested in free (libre) software and how it can protect civil liberties.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThis article was originally published on my personal blog at samhowell.uk, on February 15th, 2019.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q:japanese_goblin:{ .lg .middle } Kevin Pham\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q2022: ISO/IEC 27001:2013^1 Compliance Certification by TÜV Rheinland InterCert Kft\n2021: Penetration Testing by Computest\nThis review assessed the security of the Tresorit web client, Android app, Windows app, and associated infrastructure.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q2022: ISO/IEC 27001:2013^1 Compliance Certification by TÜV Rheinland InterCert Kft\n2021: Penetration Testing by Computest\nThis review assessed the security of the Tresorit web client, Android app, Windows app, and associated infrastructure.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QFirefox sends data about your Firefox version and language; device operating system and hardware configuration; memory, basic information about crashes and errors; outcome of automated processes like updates, safebrowsing, and activation to us.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QNewPipe is a free and open-source Android application for YouTube, SoundCloud, media.ccc.de, Bandcamp, and PeerTube (1).\\E$"}
+{"rule":"ADD_AN_ADDITIONAL","sentence":"^\\QThis setting adds an additional Adblock Plus list that may increase the effectiveness of Cromite's content blocking.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QUncheck the autoupdate setting\\E$"}
