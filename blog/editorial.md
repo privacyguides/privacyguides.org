@@ -30,7 +30,7 @@ Privacy Guides contributors must always be independent voices in the privacy com
 
 ### Fairness and Impartiality
 
-Many stories have at least two sides. While we are not obligated to present every viewpoint in every article we publish, our stories are balanced and add context. Our impertial reporting is a significant part of why our community has trust and confidence in our work.
+Many stories have at least two sides. While we are not obligated to present every viewpoint in every article we publish, our stories are balanced and add context. Our impartial reporting is a significant part of why our community has trust and confidence in our work.
 
 ### Humanity
 
@@ -68,7 +68,7 @@ We trust the integrity of our contributors and the accuracy of content published
 
 ## Unnamed Sources Policy
 
-Privacy Guides will only used unnamed sources in our news reporting if:
+Privacy Guides will only use unnamed sources in our news reporting if:
 
 1. The material is informative, not opinion or speculation.
 2. The material is vital to the news report.

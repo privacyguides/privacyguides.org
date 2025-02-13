@@ -64,3 +64,7 @@
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIf you were removed as moderator from a Subreddit through Reddit request it is because your lack of response and lack of activity qualified the Subreddit for an r/redditrequest transfer.\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIf you were removed as moderator from a subreddit through Reddit request it is because your lack of response and lack of activity qualified the subreddit for an r/redditrequest transfer.\\E$"}
 {"rule":"IN_OR_WITH_REGARDS_TO_OF","sentence":"^\\QRetaliation from any moderator with regards to removal requests is disallowed.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QPhoto: Dimmis Vart / Unsplash\\E$"}
+{"rule":"SENT_START_CONJUNCTIVE_LINKING_ADVERB_COMMA","sentence":"^\\QFurther develop an individual story or line of coverage.\\E$"}
+{"rule":"DOUBLE_PUNCTUATION","sentence":"^\\QOur readership is entitled to as much information as possible in order to judge the reliability of our sources themselves..\\E$"}
+{"rule":"DOUBLE_PUNCTUATION","sentence":"^\\QOur contributors should always question the motives behind a source requesting anonymity..\\E$"}
