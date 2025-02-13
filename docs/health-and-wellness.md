@@ -107,7 +107,7 @@ These general purpose apps can do everything from counting steps and tracking sl
 
 </div>
 
-Make sure to review the smartwatch compatibility list before purchasing a device. Some brands require you to download their app and connect the smartwatch to their servers prior to installing Gadgetbridge. 
+Make sure to review the smartwatch [compatibility list](https://gadgetbridge.org/gadgets/) before purchasing a device. Some brands require you to download their app and connect the smartwatch to their servers prior to installing Gadgetbridge. 
 
 ## Health Records
 
