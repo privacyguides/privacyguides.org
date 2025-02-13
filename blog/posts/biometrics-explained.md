@@ -33,7 +33,7 @@ There are three main types of fingerprint: loops, whorls, and arches. Fingerprin
 
 1. :material-fingerprint: It's theorized that the reason humans have fingerprints in the first place is to [enhance our sense of touch](https://www.science.org/doi/10.1126/science.1166467).
 
-![Example of finger minutiae including forks (where one line splits into mulitple lines), ends (where a line ends), islands (isolated dots), and inclosures (lines that split into two and then reconnect)](../assets/images/biometrics-explained/finger-minutiae.webp)
+![Example of finger minutiae including forks (where one line splits into multiple lines), ends (where a line ends), islands (isolated dots), and inclosures (lines that split into two and then reconnect)](../assets/images/biometrics-explained/finger-minutiae.webp)
 
 <small aria-hidden="true">Image Credit: <a href="https://sites.rutgers.edu/fingerprinting/no-two-finger-prints-are-alike/">Rutgers University</a></small>
 
@@ -73,7 +73,7 @@ Ultrasonic fingerprint sensors use sound to create a detailed 3D representation 
 
 <small aria-hidden="true">Image Credit: <a href="https://www.researchgate.net/publication/285770473_Piezoelectric_Micromachined_Ultrasonic_Transducers_for_Fingerprint_Sensing">Yipeng Lu</a></small>
 
-This is the most expensive type of sensor but it produces the most accurate readings with the highest reliability. It doesn't matter if your finger is a bit dirty or wet, it will still work unlike optical or capacitive sensors.
+This is the most expensive type of sensor, but it produces the most accurate readings with the highest reliability. It doesn't matter if your finger is a bit dirty or wet, it will still work unlike optical or capacitive sensors.
 
 Ultrasonic sensors can't be fooled by 2D images.
 
@@ -123,7 +123,7 @@ Some devices allow for unlocking with a facemask. This is less secure than witho
 
 A spy movie classic but newcomer in the consumer electronics field, iris sensors offer authentication via the unique properties of your eyes. The Apple Vision Pro is the most notable example with its [Optic ID](https://support.apple.com/en-us/118483).
 
-It uses near-infrared light to reveal highly unique patterns independent of the pigmentation of your eyes. Apple estimates the liklihood of a random person being able to unlock your Optic ID at less than 1 in 1,000,000, similar to Face ID.
+It uses near-infrared light to reveal highly unique patterns independent of the pigmentation of your eyes. Apple estimates the likelihood of a random person being able to unlock your Optic ID at less than 1 in 1,000,000, similar to Face ID.
 
 The extremely short distance this technology operates at makes it very difficult for someone to unlock your device without you noticing, and you can simply close your eyes to prevent someone from forcing you to unlock it.
 
@@ -139,7 +139,7 @@ There is also independent research into the security of biometric systems. This 
 
 Companies like [TypingDNA](https://www.typingdna.com) claim to be able to identify users by how they type.
 
-The stated usecase is 2FA and continuous authentication for employee devices. Likely you'll only encounter this technology on work devices, especially since this type of biometrics will be affected by the type of keyboard you're using. It only really makes since to authenticate on a specific device that you'll be using continuously and typing on a lot, such as a work laptop.
+The stated use case is 2FA and continuous authentication for employee devices. Likely you'll only encounter this technology on work devices, especially since this type of biometrics will be affected by the type of keyboard you're using. It only really makes sense to authenticate on a specific device that you'll be using continuously and typing on a lot, such as a work laptop.
 
 It could also be used on websites to uniquely identify you, so type in a text editor program then copy/paste into the browser window to avoid this specific type of fingerprinting.
 
@@ -173,7 +173,7 @@ Model-free approaches don't try to model the human body but instead use the whol
 
 ### :material-axis-arrow: Accelerometer
 
-Accelerometers such as those found in your smartphone can also be used for gait recognition. These need to be worn on a person's body so they can't be used from long distance like camera-based approaches.
+Accelerometers such as those found in your smartphone can also be used for gait recognition. These need to be worn on a person's body, so they can't be used from long distance like camera-based approaches.
 
 Accelerometers work by measuring the accelerations in 3D space in X, Y, and Z coordinates. They tend to also utilize gyroscopes, which measure the orientation of a device.
 
@@ -181,7 +181,7 @@ Accelerometers work by measuring the accelerations in 3D space in X, Y, and Z co
 
 It's possible to identify individuals using [sensors](https://www.amti.biz/product/bms464508/) in the floor that measure the pressure of your steps as you take them. There are already companies offering software/hardware [installations](https://www.scanalyticsinc.com/how-it-works) for tracking customers within a store using this technology.
 
->Scanalytics floor sensors capture up to 100% of foot traffic through your buildings and spaces. Capturing individual foot steps and the paths they form, we are able to monitor and analyze complete space movements and usage.
+>Scanalytics floor sensors capture up to 100% of foot traffic through your buildings and spaces. Capturing individual footsteps and the paths they form, we are able to monitor and analyze complete space movements and usage.
 
 Floor sensors are especially concerning since they're completely invisible to you.
 
@@ -205,7 +205,7 @@ TODO
 
 ### :material-chip: Secure Element
 
-All forms of biometric authentication rely on proper hardware such as a secure element in order to be secure. The secure element provides a secure and tamper-resistant place to store your biometric data so it can't be easily extracted. Examples include Apple's [Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/web) and Google's [Titan M](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) series of chips. You should avoid devices that lack a secure element; they won't be able to properly implement secure biometrics without one.
+All forms of biometric authentication rely on proper hardware such as a secure element in order to be secure. The secure element provides a secure and tamper-resistant place to store your biometric data, so it can't be easily extracted. Examples include Apple's [Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/web) and Google's [Titan M](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) series of chips. You should avoid devices that lack a secure element; they won't be able to properly implement secure biometrics without one.
 
 ### Final thoughts
 
@@ -213,6 +213,6 @@ Like all technology, biometrics aren't inherently good or bad. They're used to s
 
 >Our patent-pending AI technology identifies hidden patterns in signatures and online or mobile user interactions. These patterns can reflect behaviors and personal characteristics relevant to creditworthiness and reliability.
 
-It should go without saying that making decisions about who to give a loan to based on... how they sign their name or some other mystery movement data is ludicrous, laughable if it wasn't affecting real people's lives. Now more than ever we need to be educated about the biometric technology that we use and that's used against us. The [EFF](https://sls.eff.org/technologies/biometric-surveillance) is a great resource that documents and fights against abuses of biometric technology.
+It should go without saying that making decisions about whom to give a loan to based on... how they sign their name or some other mystery movement data is ludicrous, laughable if it wasn't affecting real people's lives. Now more than ever we need to be educated about the biometric technology that we use and that's used against us. The [EFF](https://sls.eff.org/technologies/biometric-surveillance) is a great resource that documents and fights against abuses of biometric technology.
 
 Many of the same technologies used for mass surveillance are also used for [helpful](https://www.amti.biz/2024/08/28/amti-technology-featured-in-triple-crown-power-5-fastpitch-tournament/) purposes. It's up to us to ensure responsible use of technology going forward.
