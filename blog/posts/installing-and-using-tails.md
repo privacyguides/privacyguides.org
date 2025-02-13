@@ -28,7 +28,7 @@ This article will help people in such situations learn how to browse the interne
 
 If you feel at very high risk in your home or country, and the device you are currently using to read this article could be accessed by a person or group meaning you harm, I recommend you ask a *trusted ally* who does not experience the same level of threat to complete this tutorial for you on their device instead. This will help with minimizing any digital traces left on your device that could endanger you.
 
-Then, I recommend that **you erase your browsing history (ideally, delete this and related websites only) and clear your browser's cache and cookies**. If you have a Google account and used Google to find this article, also make sure to [**delete your Google search history**](https://support.google.com/websearch/answer/6096136).
+Then, I recommend that you [**erase your browsing history**](clearing-browsing-data.md) (ideally, delete this and related websites only) and clear your browser's cache and cookies. If you have a Google account and used Google to find this article, also make sure to [**delete your Google search history**](https://support.google.com/websearch/answer/6096136).
 
 Once you have securely reached out to a trusted ally to request their help, and erased your browser's data for this site, do not consult this article again *if the digital traces of it might put you in danger*.
 
