@@ -13,7 +13,7 @@ license: BY-SA
 
 ![Glowing fingerprint on glass](../assets/images/biometrics-explained/cover.jpg)
 
-<small aria-hidden="true">Photo: Unsplash</small>
+<small aria-hidden="true">Photo: George Prentzas / Unsplash</small>
 
 Biometrics are a convenient and secure way to authenticate our devices. Many of us use and trust the biometrics of our devices without much thought, but are they really secure? With so many different [options](https://www.biometricsinstitute.org/what-is-biometrics/types-of-biometrics/), which ones are the best?<!-- more -->
 
