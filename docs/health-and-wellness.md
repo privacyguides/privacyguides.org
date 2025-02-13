@@ -3,7 +3,7 @@ meta_title: "Privacy Respecting Health and Wellness apps for Android and iOS - P
 title: "Health and Wellness Apps"
 icon: material/FitnessCenter
 description: These applications are what we currently recommend for all health and fitness-related activites on your phone.
-cover: health-and-fitness.placeholder
+cover: health-cover.jpg
 schema:
   -
     "@context": http://schema.org
@@ -17,7 +17,7 @@ schema:
     name: drip.
     image: /assets/img/health-and-wellness/drip.png
     url: https://bloodyhealth.gitlab.io/
-    applicationCategory: Period Tracker
+    applicationCategory: Menstrual Cycle Tracker
     operatingSystem:
       - Android
       - iOS
@@ -30,10 +30,58 @@ schema:
     name: Euki
     image: /assets/img/health-and-wellness/Euki.png
     url: https://eukiapp.org/
-    applicationCategory: Period Tracker
+    applicationCategory: Menstrual Cycle Tracker
     operatingSystem:
       - iOS
       - Android
+    subjectOf:
+      "@type": WebPage
+      url: "./"
+  -
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Apple Health
+    image: /assets/img/health-and-wellness/apple-health.png
+    url: https://www.apple.com/health/
+    applicationCategory: Fitness Tracker
+    operatingSystem:
+      - iOS
+    subjectOf:
+      "@type": WebPage
+      url: "./"
+  -
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Gadgetbridge
+    image: /assets/img/health-and-wellness/gadgetbridge.png
+    url: https://gadgetbridge.org/
+    applicationCategory: Fitness Tracker
+    operatingSystem:
+      - Android
+    subjectOf:
+      "@type": WebPage
+      url: "./"
+  -
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Apple Health Records
+    image: /assets/img/health-and-wellness/apple-health.png
+    url: https://www.apple.com/healthcare/health-records/
+    applicationCategory: Health Records
+    operatingSystem:
+      - iOS
+    subjectOf:
+      "@type": WebPage
+      url: "./"
+-
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Commonhealth
+    image: /assets/img/health-and-wellness/commonhealth.png
+    url: https://www.commonhealth.org/
+    applicationCategory: Health Records
+    operatingSystem:
+      - iOS
     subjectOf:
       "@type": WebPage
       url: "./"
