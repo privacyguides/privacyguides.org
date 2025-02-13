@@ -9,7 +9,7 @@ We self-host [Umami](https://umami.is) to create a nice visualization of our tra
 
 With this process:
 
-- Your information is never shared with a third-party, it stays on servers we control
+- Your information is never shared with a third party, it stays on servers we control
 - Your personal data is never saved, we only collect data in aggregate
 - No client-side JavaScript is used
 

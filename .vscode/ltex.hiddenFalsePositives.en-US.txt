@@ -45,3 +45,22 @@
 {"rule":"ADD_AN_ADDITIONAL","sentence":"^\\QThis setting adds an additional Adblock Plus list that may increase the effectiveness of Cromite's content blocking.\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QUncheck the autoupdate setting\\E$"}
 {"rule":"CLEAN_UP","sentence":"^\\QIf your device supports it, you can use the Clean Up feature to pixelate faces or remove objects from images.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QTurn off AutoPlay: Enabled\nDisallow Autoplay for nonvolume devices: Enabled\nSet the default behavior for AutoRun: Enabled\nDefault AutoRun Behavior: Do not execute any AutoRun commands\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QLorem ipsum dolor sit amet, consectetur adipiscing elit.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QNulla et euismod nulla.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QCurabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThe name of the Subreddit is r/PrivacyGuides or the Privacy Guides Subreddit.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QTurn off Remove the XML declaration\nx Turn on Remove metadata\nx Turn on Remove comments\nx Turn on Embedded raster images\nx Turn on Enable viewboxing\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QSource: plainlanguage.gov\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QKathy McGinty offers tongue-in-cheek instructions for bulking up your simple, direct sentences:\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIn France, you can take a look at the Technopolice website maintained by the non-profit association La Quadrature du Net.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QFIDO (Fast IDentity Online)\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThe entropy per word in a diceware passphrase is calculated as    log 2  ( WordsInList )\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QTo calculate the amount of possible passphrases, all we have to do is   WordsInList WordsInPhrase\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThey ultimately paid two companies (Chainalysis and Integra Fec) a combined $1.25 million to further develop tools to do so.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QWe also especially thank our dedicated community moderation team on Matrix and our forum: Austin Huang, namazso, hik, riley, and Valynor.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QPortions of this notice itself were adopted from opensource.guide on GitHub.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Qr/redditrequest is Reddit's way of making sure communities have active moderators and is part of the Moderator Code of Conduct.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIf you were removed as moderator from a Subreddit through Reddit request it is because your lack of response and lack of activity qualified the Subreddit for an r/redditrequest transfer.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIf you were removed as moderator from a subreddit through Reddit request it is because your lack of response and lack of activity qualified the subreddit for an r/redditrequest transfer.\\E$"}
+{"rule":"IN_OR_WITH_REGARDS_TO_OF","sentence":"^\\QRetaliation from any moderator with regards to removal requests is disallowed.\\E$"}
