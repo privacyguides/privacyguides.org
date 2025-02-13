@@ -35,7 +35,7 @@ microG is a partially open-source re-implementation of Google Play Services.[^1]
 
 When using Sandboxed Google Play, you have the option to reroute location requests to the Play Services API back to the OS location API, which uses satellite based location services. With microG, you have the option to choose between different backend location providers, including *shifting trust* to another location backend, like Mozilla; using [DejaVu](https://github.com/n76/DejaVu), a location backend that locally collects and saves RF-based location data to an offline database which can be used when GPS is not available; or to simply not use a network location backend at all.
 
-Network location providers like Play Services or Mozilla rely the on the MAC addresses of surrounding WiFi access points and Bluetooth devices being submitted for location approximation. Choosing a network location like Mozilla to use with microG provides little to no privacy benefit over Google because you are still submitting the same data and trusting them to not profile you.
+Network location providers like Play Services or Mozilla rely the on the MAC addresses of surrounding Wi-Fi access points and Bluetooth devices being submitted for location approximation. Choosing a network location like Mozilla to use with microG provides little to no privacy benefit over Google because you are still submitting the same data and trusting them to not profile you.
 
 Local RF location backends like DejaVu require that the phone has a working GPS first for the local RF data collected to be useful. This makes them less effective as location providers, as the job of a location provider is to assist location approximation when satellite based services are not working.
 
@@ -51,9 +51,9 @@ Larger apps, especially games, require [Play Asset Delivery](https://android-dev
 
 Currently, eSIM activation is tied to a privileged proprietary application by Google. The app has the `READ_PRIVILEGED_PHONE_STATE` permission, giving Google access to your hardware identifiers such as the IMEI.
 
-On GrapheneOS, the app comes disabled and you can *optionally* enable it after installing Sandboxed Google Play.
+On GrapheneOS, the app comes disabled, and you can *optionally* enable it after installing Sandboxed Google Play.
 
-On CalyxOS, the app comes installed by default (regardless of whether you choose to have microG or not) and you cannot opt-out. This means that Google still has access to your hardware identifiers regardless of whether or not you need eSIM activation and they can be accessed persistently.
+On CalyxOS, the app comes installed by default (regardless of whether you choose to have microG or not) and you cannot opt out. This means that Google still has access to your hardware identifiers regardless of whether you need eSIM activation, and they can be accessed persistently.
 
 ## Privileged App Extensions
 
@@ -61,11 +61,11 @@ Android 12 comes with special support for seamless app updates with [third-party
 
 CalyxOS includes the [privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged), which may lower device security.
 
-On the other hand, GrapheneOS officially recommends [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play) instead. Many FOSS Android apps are also in Google's Play Store but sometimes they are not (like [NewPipe](https://www.privacyguides.org/frontends#newpipe-android)). In those cases, you can [keep up with updates using RSS](https://www.privacyguides.org/android/#manually-with-rss-notifications).
+On the other hand, GrapheneOS officially recommends [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play) instead. Many FOSS Android apps are also in Google's Play Store, but sometimes they are not (like [NewPipe](https://www.privacyguides.org/frontends#newpipe-android)). In those cases, you can [keep up with updates using RSS](https://www.privacyguides.org/android/#manually-with-rss-notifications).
 
 ## Profiles
 
-GrapheneOS significantly improves [user profiles](https://www.privacyguides.org/android/overview#user-profiles) in [multiple ways](https://grapheneos.org/features#improved-user-profiles), such as increasing the limit of how many profiles you can create (32 instead of the standard 4), allowing you to log out of user profiles, disabling app installation, and notification forwarding. All of these improvements make it so user profiles can be daily driven without sacrificing too much usability.
+GrapheneOS significantly improves [user profiles](https://www.privacyguides.org/android/overview#user-profiles) in [multiple ways](https://grapheneos.org/features#improved-user-profiles), such as increasing the limit of how many profiles you can create (32 instead of the standard 4), allowing you to log out of user profiles, disabling app installation, and notification forwarding. All of these improvements make it so that user profiles can be daily driven without sacrificing too much usability.
 
 CalyxOS doesn't feature any improvements to user profiles over AOSP, and instead includes a device controller app so that the [work profile](https://www.privacyguides.org/android/overview#work-profile) can be used without needing to download a third party app such as [Shelter](https://www.privacyguides.org/android/#shelter). However, work profiles are not nearly as flexible (as you're limited to only one) and don't provide the same amount of isolation and security.
 

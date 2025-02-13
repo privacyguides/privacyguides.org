@@ -34,7 +34,7 @@ Once you have securely reached out to a trusted ally to request their help, and 
 
 </div>
 
-If you are completing this installation for someone else, or if the device your are currently using cannot put you at risk, here's why, when, and how you can install and use the portable system Tails:
+If you are completing this installation for someone else, or if the device you are currently using cannot put you at risk, here's why, when, and how you can install and use the portable system Tails:
 
 ## What is Tails?
 
@@ -94,7 +94,7 @@ Tails protects some data very well, but it will not magically protect everything
 
 - Be careful with using any mobile data network to connect to the internet. Information related to [your mobile device could identify you](https://tails.net/doc/anonymous_internet/no-wifi/index.en.html).
 
-- A very powerful adversary, such as a government, could potentially reidentify some information despite you using Tails. Read more about Tails' limitations here: [https://tails.net/doc/about/warnings/index.en.html](https://tails.net/doc/about/warnings/index.en.html)
+- A very powerful adversary, such as a government, could potentially identify some information despite you using Tails. Read more about Tails' limitations here: [https://tails.net/doc/about/warnings/index.en.html](https://tails.net/doc/about/warnings/index.en.html)
 
 ### When you should **not** use Tails
 
@@ -232,7 +232,7 @@ Depending on your macOS version, your Mac might open a popup window saying '**Ve
 
 ![Screenshot of a macOS popup with a warning message with the options to Cancel or Open.](../assets/images/installing-and-using-tails/tails-installation-mac-8.png)
 
-4.2. Open *balenaEtcher* and click on the settings gear button on the upper-right. Disable the option  "**Anonymously report errors and usage statistics to balena.io**", then click "**OK**".
+4.2. Open *balenaEtcher* and click on the settings gear button on the upper-right. Disable the option "**Anonymously report errors and usage statistics to balena.io**", then click "**OK**".
 
 ![Screenshot of a balenaEtcher window showing a gear icon on the upper-right, and a disabled option to share anonymous error reports.](../assets/images/installing-and-using-tails/tails-installation-mac-9.webp)
 
@@ -295,7 +295,7 @@ If you see a notification about a USB stick that appears to be unreadable, click
 
 ### Step 5: Continue this tutorial from paper or from another device (if you can do so safely)
 
-For the rest of this tutorial, you will have to shut down the computer you will be using or testing Tails with. If this is the same computer you are currently using, you will need an aternative way to keep following along with the instructions. Make sure you either:
+For the rest of this tutorial, you will have to shut down the computer you will be using or testing Tails with. If this is the same computer you are currently using, you will need an alternative way to keep following along with the instructions. Make sure you either:
 
 - Note the rest of the instructions in advance on something that will be easy to delete/erase/destroy after.
 
@@ -312,7 +312,7 @@ If the computer you will be using Tails with is a [Mac with a T2 Security Chip](
 
 Here's how to modify options in your Mac's [Startup Security Utility](https://support.apple.com/en-us/102522) to make this works:
 
-1. Turn off your Mac, then turn it on again and right away press and hold **Command(⌘)+R**, this will enter your Mac's recovery mode. The startup process will take longer than usual and you will see the screen flashing a few times, this is normal.
+1. Turn off your Mac, then turn it on again and right away press and hold **Command(⌘)+R**, this will enter your Mac's recovery mode. The startup process will take longer than usual, and you will see the screen flashing a few times, this is normal.
 
 2. You will see a "**Language**" menu appear, select a language then click on the arrow at the bottom-right.
 
@@ -322,7 +322,7 @@ Here's how to modify options in your Mac's [Startup Security Utility](https://su
 
 5. Once you see a window with 4 options, select none of these and instead go to the upper-left menu to select the "**Utilities**" drop-menu, then select "**Startup Security Utility**".
 
-6. You will see an "**Authentication Needed**" window appear and you will need to enter your macOS user password again.
+6. You will see an "**Authentication Needed**" window appear, and you will need to enter your macOS user password again.
 
 7. Once you see the "**Startup Security Utility**" window with 5 options, in the "**Secure Boot**" section select "**No Security**" and in the "**External Boot**" or "**Allowed Boot Media**" section select "**Allow booting from external or removable media**".
 
@@ -396,7 +396,7 @@ If Windows does not display a "**Boot Menu**", plug in your Tails USB stick then
 
 ## Starting and using Tails
 
-If the installation was successful and the process of booting from the USB stick went well, you will see Tails starting. You will see some grey screens, you will see some flashes, you will see some black screen with lots of white text rolling down very quickly!
+If the installation was successful and the process of booting from the USB stick went well, you will see Tails starting. You will see some gray screens, you will see some flashes, you will see some black screen with lots of white text rolling down very quickly!
 
 Don't panic! This is normal :thumbsup:
 
@@ -409,15 +409,15 @@ There, you will see language options, the [Persistent Storage](https://tails.net
 <div class="admonition bug" markdown>
 <p class="admonition-title">No keyboard! No mouse!</p>
 
-At this point you might realize your mouse and/or keyboard are not working. If this happens, you can use a wired (or dongle) mouse and a wired (or dongle) keyboard to fix this problem quickly. If you plug a peripheral in and it is still not working, leave all peripherals plugged in and restart Tails (see [Step 6](#step-6-boot-your-computer-from-your-tails-usb-stick)).
+At this point you might realize your mouse and/or keyboard are not working. If this happens, you can use a wired (or dongle) mouse and a wired (or dongle) keyboard to fix this problem quickly. If it is still not working after plugging one in, leave all peripherals plugged in and restart Tails (see [Step 6](#step-6-boot-your-computer-from-your-tails-usb-stick)).
 
 </div>
 
 ### Using Persistent Storage
 
-Make sure to test this feature works well multiple times before storing anything of value there. If you forget the Persistent Storage's password or if a bug occurs, you might no be able to access these files anymore. Know that you also have the option to plug in a separate (ideally encrypted) USB stick to store files on it, even while using Tails. If you encounter a problem when using Tails' Persistent Storage feature, you can troubleshoot it here: [https://tails.net/doc/persistent_storage/fsck/index.en.html](https://tails.net/doc/persistent_storage/fsck/index.en.html)
+Make sure to test this feature works well multiple times before storing anything of value there. If you forget the Persistent Storage's password or if a bug occurs, you might not be able to access these files anymore. Know that you also have the option to plug in a separate (ideally encrypted) USB stick to store files on it, even while using Tails. If you encounter a problem when using Tails' Persistent Storage feature, you can troubleshoot it here: [https://tails.net/doc/persistent_storage/fsck/index.en.html](https://tails.net/doc/persistent_storage/fsck/index.en.html)
 
-If you decide to setup Persistent Storage:
+If you decide to set up Persistent Storage:
 
 1. Choose a long passphrase that is **not** something known like music lyrics or movie quotes. Choose something you do not usually say/write and that you could not Google. Choose **something long and unique**, that nobody else has used before, and that you will be able to remember well. Practice this passphrase in your head regularly.
 
@@ -438,7 +438,7 @@ If using Tor is dangerous for you, read more about the other options before deci
 
 ![Screenshot of a window within Tails titled "Tor Connection" and showing various options.](../assets/images/installing-and-using-tails/tails-usage-torconnection.webp)
 
-If the connection is successful, you should see this window and you will be ready to browse the internet anonymously:
+If the connection is successful, you should see this window, and you will be ready to browse the internet anonymously:
 
 ![Screenshot of a window within Tails titled "Tor Connection" indicating the connection to Tor was successful. There is a button at the bottom labeled "Start Tor Browser".](../assets/images/installing-and-using-tails/tails-usage-torconnection-successful.webp)
 

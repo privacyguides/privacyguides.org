@@ -66,7 +66,7 @@ Creating your wallet is a simple process, after registering you'll be asked to c
 
 The default currency here isn't the currency being *stored* in Proton Wallet. It is just used to show you the current conversion rate between Bitcoin and your local currency.
 
-Once you're in, Proton Wallet is fairly straightforward. In fact, there's not much to explore beyond finding your wallet address and buying Bitcoin. Clicking the **Recieve** button brings up a panel which shows your address and allows you to generate a new one on the fly. When you generate a new address, all of your previous addresses will continue to work, but are no longer displayed anywhere.
+Once you're in, Proton Wallet is fairly straightforward. In fact, there's not much to explore beyond finding your wallet address and buying Bitcoin. Clicking the **Receive** button brings up a panel which shows your address and allows you to generate a new one on the fly. When you generate a new address, all of your previous addresses will continue to work, but are no longer displayed anywhere.
 
 ![Proton wallet address QR code and text displayed in sidebar](../assets/images/proton-wallet-review/3.webp)
 
@@ -92,7 +92,7 @@ I'm not convinced this is particularly revolutionary though. Many Bitcoin wallet
 
 ## What else sets it apart?
 
-There isn't much separating Proton Wallet from the existing options on the market. It is a *non-custodial* wallet, meaning that you control the private keys rather than Proton. This is a huge step-up in security compared to keeping your Bitcoin in an online exchange like Coinbase, but it isn't a big differentiator from other software wallets where non-custodial key storage is typically the norm.
+There isn't much separating Proton Wallet from the existing options on the market. It is a *noncustodial* wallet, meaning that you control the private keys rather than Proton. This is a huge step-up in security compared to keeping your Bitcoin in an online exchange like Coinbase, but it isn't a big differentiator from other software wallets where noncustodial key storage is typically the norm.
 
 Besides that, and Bitcoin via Email, if you visit Proton's website to see how else they differentiate themselves the best third reason they could muster up is:
 

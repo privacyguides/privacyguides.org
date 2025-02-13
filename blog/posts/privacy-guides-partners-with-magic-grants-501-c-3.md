@@ -14,9 +14,9 @@ schema_type: BackgroundNewsArticle
 
 <small aria-hidden="true">Illustration: Jonah Aragon / Privacy Guides</small>
 
-In February, the OpenCollective Foundation (OCF)—[our fiscal host of 4 years](https://blog.privacyguides.org/2019/10/31/weve-joined-the-open-collective-foundation/)—sent us an email to [announce](https://docs.opencollective.foundation/) that they would be shutting down, and they would no longer be able to collect donations on our behalf (or for any of the hundreds of projects they provided fiscal hosting services to). We immediately began to consider multiple options for the future of this project, including forming our own non-profit or finding another [fiscal host](https://en.wikipedia.org/wiki/Fiscal_sponsorship).<!-- more -->
+In February, the OpenCollective Foundation (OCF)—[our fiscal host of 4 years](https://blog.privacyguides.org/2019/10/31/weve-joined-the-open-collective-foundation/)—emailed us to [announce](https://docs.opencollective.foundation/) that they would be shutting down, and they would no longer be able to collect donations on our behalf (or for any of the hundreds of projects they provided fiscal hosting services to). We immediately began to consider multiple options for the future of this project, including forming our own non-profit or finding another [fiscal host](https://en.wikipedia.org/wiki/Fiscal_sponsorship).<!-- more -->
 
-We're excited to announce a [partnership](https://magicgrants.org/2024/07/22/Privacy-Guides-Fund) with MAGIC Grants, a Public 501(c)(3) charity with the mission of supporting privacy projects like ours and providing undergraduate scholarships for students interested in cryptocurrencies and privacy. They will immediately take over all of the operations previously provided by OCF, including accepting donations on our behalf, handling any of our accounting and taxes, reimbursing team members and volunteers, and taking legal ownership of assets like our domains and servers.
+We're excited to announce a [partnership](https://magicgrants.org/2024/07/22/Privacy-Guides-Fund) with MAGIC Grants, a Public 501(c)(3) charity with the mission of supporting privacy projects like ours and providing undergraduate scholarships for students interested in cryptocurrencies and privacy. They will immediately take over all the operations previously provided by OCF, including accepting donations on our behalf, handling any of our accounting and taxes, reimbursing team members and volunteers, and taking legal ownership of assets like our domains and servers.
 
 This last point is important, because we want to ensure Privacy Guides is never fully reliant on a single individual like myself. This setup ensures Privacy Guides never strays from its mission of providing free and accessible privacy and security resources to protect consumers.
 
@@ -24,7 +24,7 @@ Of course, all of our projects including the [open-source](https://github.com/pr
 
 MAGIC Grants was the right choice for our project for a number of reasons:
 
-1. They are a 501(c)(3) non-profit, which allows us to retain our tax deductible status in the United States, and means there are legal safeguards in place to prevent Privacy Guides from being used for personal profit.
+1. They are a 501(c)(3) non-profit, which allows us to retain our tax-deductible status in the United States, and means there are legal safeguards in place to prevent Privacy Guides from being used for personal profit.
 2. They've provided us with a great deal of flexibility and independence over how we run our project, and added many safeguards to ensure the current Privacy Guides team retains ultimate control over the project. This means that nothing about Privacy Guides will change, now or in the future, due to outside influence.
 3. They've generously offered to provide their services to us for no fee, in support of our shared core mission of creating great educational materials.
 

@@ -177,7 +177,7 @@ Each time you create a new document, no matter which type, you will have the fol
 
 ### Self-destruction
 
-For any sensitive document, it's a great idea to enable the auto-destruction feature, even if it's far in the future. This adds an additional layer of security in case you lose your password, forget about an important file that shouldn't be lingering around, or for any other sensitive situations.
+For any sensitive document, it's a great idea to enable the auto-destruction feature, even if it's far in the future. This adds a layer of security in case you lose your password, forget about an important file that shouldn't be lingering around, or for any other sensitive situations.
 
 ### Password lock
 
@@ -313,7 +313,7 @@ CryptPad uses a variety of reputable algorithms for its encryption needs. Here's
 - For hashes: The [SHA-512](https://en.wikipedia.org/wiki/SHA-2) algorithm.
 - For all other cryptographic operations: The [TweetNaCl.js](https://tweetnacl.js.org/#/) library.
 
-You can read more details about how CryptPad implements encryption in [CryptPad's whitepaper](https://blog.cryptpad.org/2023/02/02/Whitepaper/).
+You can read more details about how CryptPad implements encryption in [CryptPad's white paper](https://blog.cryptpad.org/2023/02/02/Whitepaper/).
 
 You can read more on a comparison of cryptography libraries CryptPad uses in [CryptPad's Blueprints](https://blueprints.cryptpad.org/review/libraries/).
 
@@ -341,13 +341,13 @@ Here's a few things you should remember to keep your CryptPad data secure and pr
 
 **IP address:** Don't forget that whenever you connect to a server, website, or any service online, you are sharing your IP address, which can be used to identify and locate you, more or less accurately. If this is a threat to you, consider using a trustworthy VPN or the Tor network to protect your IP address.
 
-**HTTPS:** Make sure the CryptPad instance's address you use starts with "https".
+**HTTPS:** Make sure the CryptPad instance's address you use starts with "HTTPS".
 
-**Document links:** Because CryptPad includes the keys to decrypt your document in the links you use and share, anyone who can access your browsing history could potentially read your decrypted document. This is also true for anything in your browser or device that can access your browser's history (extensions, synced accounts, screen-sharing, Windows Recall, etc). To mitigate this, you should [enable](https://docs.cryptpad.org/en/user_guide/user_account.html#security-privacy) the option "Safe links" in "Settings" > "Security & Privacy".
+**Document links:** Because CryptPad includes the keys to decrypt your document in the links you use and share, anyone who can access your browsing history could potentially read your decrypted document. This is also true for anything in your browser or device that can access your browser's history (extensions, synced accounts, screen-sharing, Windows Recall, etc.). To mitigate this, you should [enable](https://docs.cryptpad.org/en/user_guide/user_account.html#security-privacy) the option "Safe links" in "Settings" > "Security & Privacy".
 
 **Password:** It's important to safeguard your password properly and *choose a password that is unique, complex, and long*. No matter how good the encryption is, if someone guesses your password, it's game over.
 
-**Multi-factor authentication:** As soon as you create an account, you should enable a second factor of authentication. This will help protect your data against account takeover, in case your password were to be guessed or leaked. This is true for any account you have.
+**Multifactor authentication:** As soon as you create an account, you should enable a second factor of authentication. This will help protect your data against account takeover, in case your password were to be guessed or leaked. This is true for any account you have.
 
 **Document accesses:** Be careful to reduce the document's access to the minimum access required for functionality. For example, if you share a document link publicly, make sure it's a read-only link that doesn't allow anyone to edit it.
 

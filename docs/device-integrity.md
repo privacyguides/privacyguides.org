@@ -28,7 +28,7 @@ This means an attacker would have to regularly re-infect your device to retain a
 If any of the following tools indicate a potential compromise by spyware such as Pegasus, Predator, or KingsPawn, we advise that you contact:
 
 - If you are a human rights defender, journalist, or from a civil society organization: [Amnesty International's Security Lab](https://securitylab.amnesty.org/contact-us)
-- If a business or government device is compromised: the appropriate security liason at your enterprise, department, or agency
+- If a business or government device is compromised: the appropriate security liaison at your enterprise, department, or agency
 - Local law enforcement
 
 **We are unable to help you directly beyond this.** We are happy to discuss your specific situation or circumstances and review your results in our [community](https://discuss.privacyguides.net) spaces, but it is unlikely we can assist you beyond what is written on this page.
@@ -128,7 +128,7 @@ MVT allows you to perform deeper scans/analysis if your device is jailbroken. Un
 
 </div>
 
-iMazing automates and interactively guides you through the process of using [MVT](#mobile-verification-toolkit) to scan your device for publicly-accessible indicators of compromise published by various threat researchers. All of the information and warnings which apply to MVT apply to this tool as well, so we suggest you also familiarize yourself with the notes on MVT in the sections above.
+iMazing automates and interactively guides you through the process of using [MVT](#mobile-verification-toolkit) to scan your device for publicly-accessible indicators of compromise published by various threat researchers. All the information and warnings which apply to MVT apply to this tool as well, so we suggest you also familiarize yourself with the notes on MVT in the sections above.
 
 ## On-Device Verification
 

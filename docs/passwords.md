@@ -228,7 +228,7 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
 
 With the acquisition of SimpleLogin in April 2022, Proton has offered a "hide-my-email" feature that lets you create 10 aliases (free plan) or unlimited aliases (paid plans).
 
-The Proton Pass mobile apps and browser extension underwent an audit performed by Cure53 throughout May and June of 2023. The security analysis company concluded:
+The Proton Pass mobile apps and browser extension underwent an audit performed by Cure53 throughout May and June 2023. The security analysis company concluded:
 
 > Proton Pass apps and components leave a rather positive impression in terms of security.
 
@@ -327,7 +327,7 @@ These options allow you to manage an encrypted password database locally.
 
 ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
 
-**KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bugfixes to provide a feature-rich, cross-platform, and modern open-source password manager.
+**KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bug fixes to provide a feature-rich, cross-platform, and modern open-source password manager.
 
 [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
@@ -357,7 +357,7 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
 ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
 
-**KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms in a secure way. The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
+**KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms securely. The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
 
 [:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Documentation" }

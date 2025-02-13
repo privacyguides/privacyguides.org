@@ -42,19 +42,19 @@ Please note that the English version of the site is the primary version, meaning
 
 #### Some tips for translators
 
-Crowdin has good documentation and we suggest looking at their [Getting Started](https://support.crowdin.com/crowdin-intro/) guide. Our site is in [Markdown](https://en.wikipedia.org/wiki/Markdown), so it should be easy to chip in.
+Crowdin has good documentation, and we suggest looking at their [Getting Started](https://support.crowdin.com/crowdin-intro/) guide. Our site is in [Markdown](https://en.wikipedia.org/wiki/Markdown), so it should be easy to chip in.
 
 #### Admonitions
 
 Throughout the site we use MkDocs's [admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#usage), to show information to readers about the products such as `example`, `warning`, `tip`, etc.
 
-By default when admonitions are used they will have an English string on the site. This can be [customized](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#changing-the-title), without too much effort. For example if you were translating and admonition of type [warning](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#type:warning) to Dutch, this is how you would write it:
+By default, when admonitions are used they will have an English string on the site. This can be [customized](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#changing-the-title), without too much effort. For example if you were translating and admonition of type [warning](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#type:warning) to Dutch, this is how you would write it:
 
 ```text
 !!! warning "Waarschuwing"
 ```
 
-Downloads are a [custom admonition](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#custom-admonitions) that we use and you would write that like:
+Downloads are a [custom admonition](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#custom-admonitions) that we use, and you would write that like:
 
 ```text
 ??? downloads "Downloaden"
@@ -76,6 +76,6 @@ For example:
 ![Software logo](assets/img/path/to/image.svg){ align=right }
 ```
 
-We have sometimes found that the syntax for inserting an image like above was missing the `![` or an extra space was placed between the text and the path, eg `](`. If a translation string is clearly not correct, we encourage you to **delete** it by pressing the trash icon [or vote](https://support.crowdin.com/enterprise/getting-started-for-volunteers/#voting-view) which one you think sounds best. When invalid strings are deleted they are removed from the organization's [translation memory](https://support.crowdin.com/enterprise/translation-memory), meaning that when the source string is seen again, it won't suggest the incorrect translation.
+We have sometimes found that the syntax for inserting an image like above was missing the `![` or an extra space was placed between the text and the path, e.g. `](`. If a translation string is clearly not correct, we encourage you to **delete** it by pressing the trash icon [or vote](https://support.crowdin.com/enterprise/getting-started-for-volunteers/#voting-view) which one you think sounds best. When invalid strings are deleted they are removed from the organization's [translation memory](https://support.crowdin.com/enterprise/translation-memory), meaning that when the source string is seen again, it won't suggest the incorrect translation.
 
 We'd like to thank the [translation team](https://crowdin.com/project/privacyguides/reports/top-members) who spent many hours on translating the content, that we now have. We're going to launch in Dutch, French and Hebrew.

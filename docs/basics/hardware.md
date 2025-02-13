@@ -55,7 +55,7 @@ Most implementations of face authentication require you to be looking at your ph
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-Some devices do not have the proper hardware for secure face authentication. There's two main types of face authentication: 2D and 3D. 3D face authentication makes use of a dot projector that lets the device create a 3D depth map of your face. Make sure that your device has this capability.
+Some devices do not have the proper hardware for secure face authentication. There are two main types of face authentication: 2D and 3D. 3D face authentication makes use of a dot projector that lets the device create a 3D depth map of your face. Make sure that your device has this capability.
 
 </div>
 
@@ -102,7 +102,7 @@ A dead man's switch stops a piece of machinery from operating without the presen
 
 Some laptops are able to [detect](https://support.microsoft.com/en-us/windows/managing-presence-sensing-settings-in-windows-11-82285c93-440c-4e15-9081-c9e38c1290bb) when you're present and can lock automatically when you aren't sitting in front of the screen. You should check the settings in your OS to see if your computer supports this feature.
 
-You can also get cables, like [Buskill](https://buskill.in), that will lock or wipe your computer when the cable is disconnected.
+You can also get cables, like [BusKill](https://buskill.in), that will lock or wipe your computer when the cable is disconnected.
 
 ### Anti-Interdiction/Evil Maid Attack
 

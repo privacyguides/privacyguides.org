@@ -64,7 +64,7 @@ We should try to avoid abbreviations where possible, but technology is full of a
 
 ## Be concise
 
-> Unnecessary words waste your audience’s time. Great writing is like a conversation. Omit information that the audience doesn’t need to know. This can be difficult as a subject matter expert so it’s important to have someone look at the information from the audience’s perspective.
+> Unnecessary words waste your audience’s time. Great writing is like a conversation. Omit information that the audience doesn’t need to know. This can be difficult as a subject-matter expert, so it’s important to have someone look at the information from the audience’s perspective.
 
 Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 

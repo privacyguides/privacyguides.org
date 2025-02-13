@@ -24,7 +24,7 @@ All of our [recommended password managers](../passwords.md) include a built-in p
 
 You should avoid changing passwords that you have to remember (such as your password manager's master password) too often unless you have reason to believe it has been compromised, as changing it too often exposes you to the risk of forgetting it.
 
-When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multi-factor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
+When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multifactor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Checking for data breaches</p>
@@ -54,13 +54,13 @@ To generate a diceware passphrase using real dice, follow these steps:
 <div class="admonition Note" markdown>
 <p class="admonition-title">Note</p>
 
-These instructions assume that you are using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other wordlists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
+These instructions assume that you are using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other word lists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
 
 </div>
 
 1. Roll a six-sided die five times, noting down the number after each roll.
 
-2. As an example, let's say you rolled `2-5-2-6-6`. Look through the [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
+2. As an example, let's say you rolled `2-5-2-6-6`. Look through the [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
 
 3. You will find the word `encrypt`. Write that word down.
 
@@ -75,12 +75,12 @@ You should **not** re-roll words until you get a combination of words that appea
 
 If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords.
 
-We recommend using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [other wordlists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
+We recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
 
 <details class="note" markdown>
 <summary>Explanation of entropy and strength of diceware passphrases</summary>
 
-To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
 
 One metric to determine the strength of a diceware passphrase is how much entropy it has. The entropy per word in a diceware passphrase is calculated as <math>
   <mrow>
@@ -132,19 +132,19 @@ Therefore, each word in the aforementioned list results in ~12.9 bits of entropy
   </mrow>
 </math>).
 
-The [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is <math>
+The [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is <math>
   <msup>
     <mtext>WordsInList</mtext>
     <mtext>WordsInPhrase</mtext>
   </msup>
 </math>, or in our case, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
 
-Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+Let's put all of this in perspective: A seven word passphrase using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
 
 On average, it takes trying 50% of all the possible combinations to guess your phrase. With that in mind, even if your adversary is capable of ~1,000,000,000,000 guesses per second, it would still take them ~27,255,689 years to guess your passphrase. That is the case even if the following things are true:
 
 - Your adversary knows that you used the diceware method.
-- Your adversary knows the specific wordlist that you used.
+- Your adversary knows the specific word list that you used.
 - Your adversary knows how many words your passphrase contains.
 
 </details>
@@ -164,7 +164,7 @@ There are many good options to choose from, both cloud-based and local. Choose o
 <div class="admonition warning" markdown>
 <p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
 
-When using [TOTP codes as multi-factor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
+When using [TOTP codes as multifactor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
 
 Storing your TOTP tokens in the same place as your passwords, while convenient, reduces the accounts to a single factor in the event that an adversary gains access to your password manager.
 

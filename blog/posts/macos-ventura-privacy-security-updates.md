@@ -69,7 +69,7 @@ Some other device functionality is limited with Lockdown Mode enabled as well. I
 
 Using a passkey stored on your phone is supported by most browsers in macOS, but only Safari currently allows you to use a passkey stored on your Mac. Passkeys generated on your iPhone or Mac are stored in iCloud Keychain, which is end-to-end encrypted with your phone or computer's lock screen password. In Safari, passkeys are replacing the single-device WebAuthn registration, which allowed you to use your computer as a hardware key with Touch ID.
 
-The benefits of passkeys are fairly limited at the moment, until more services support the standard for primary or multi-factor authentication.
+The benefits of passkeys are fairly limited at the moment, until more services support the standard for primary or multifactor authentication.
 
 ## Rapid Security Responses
 
