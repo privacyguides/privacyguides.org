@@ -207,3 +207,5 @@ Like all technology, biometrics aren't inherently good or bad. They're used to s
 >Our patent-pending AI technology identifies hidden patterns in signatures and online or mobile user interactions. These patterns can reflect behaviors and personal characteristics relevant to creditworthiness and reliability.
 
 It should go without saying that making decisions about who to give a loan to based on... how they sign their name or some other mystery movement data is ludicrous, laughable if it wasn't affecting real people's lives. Now more than ever we need to be educated about the biometric technology that we use and that's used against us. The [EFF](https://sls.eff.org/technologies/biometric-surveillance) is a great resource that documents and fights against abuses of biometric technology.
+
+Many of the same technologies used for mass surveillance are also used for [helpful](https://www.amti.biz/2024/08/28/amti-technology-featured-in-triple-crown-power-5-fastpitch-tournament/) purposes. It's up to us to ensure responsible use of technology going forward.
