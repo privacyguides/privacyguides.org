@@ -495,3 +495,5 @@ privacytools
 trai
 PrivacyGuides
 @dngray
+simple-youtube
+simple-peertube
