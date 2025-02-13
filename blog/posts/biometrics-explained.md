@@ -70,7 +70,7 @@ Ultrasonic fingerprint sensors use sound to create a detailed 3D representation 
 
 ![Diagram showing the transducers emitting ultrasound waves and reflecting off the finger tissue bouncing back and then being picked up by microphones](../assets/images/biometrics-explained/ultrasonic-diagram.webp)
 
-<small aria-hidden="true">source: <a href="https://www.researchgate.net/publication/285770473_Piezoelectric_Micromachined_Ultrasonic_Transducers_for_Fingerprint_Sensing">Yipeng Lu</a></small>
+<small aria-hidden="true">Image Credit: <a href="https://www.researchgate.net/publication/285770473_Piezoelectric_Micromachined_Ultrasonic_Transducers_for_Fingerprint_Sensing">Yipeng Lu</a></small>
 
 This is the most expensive type of sensor but it produces the most accurate readings with the highest reliability. It doesn't matter if your finger is a bit dirty or wet, it will still work unlike optical or capacitive sensors.
 
