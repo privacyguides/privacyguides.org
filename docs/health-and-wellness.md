@@ -43,7 +43,7 @@ Popular menstrual trackers like [Flo](https://techcrunch.com/2021/01/13/flo-gets
 
 <div class="admonition recommendation" markdown>
 
-![Euki logo](assets/img/health-and-wellness/Euki.svg){ align=right }
+![Euki logo](assets/img/health-and-wellness/euki.png){ align=right }
 
 **Euki** is a nonprofit-backed menstrual cycle tracker that also doubles as a medication tracker and sexual wellness knowledge base. It allows you to regularly delete personal data through scheduled "sweeps" and features no third-party tracking. Pin protection is also included with this app.
 
@@ -90,7 +90,7 @@ These general purpose apps can do everything from counting steps and tracking sl
 
 <div class="admonition recommendation" markdown>
   
-![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge.svg){ align=right }
+![Gadgetbridge logo](assets/img/health-and-wellness/Gadgetbridge.svg){ align=right }
 
 **Gadgetbridge** allows you to pair and manage your bluetooth devices without using the vendor’s application. When paired with a compatible smartwatch, it can mimic the health and wellness functionality of these watches without third-party data collection. Gadgetbridge features include but are not limited to: a step counter, sleep tracker, and a heartbeat rate monitor.
 
