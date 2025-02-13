@@ -209,7 +209,7 @@ All forms of biometric authentication rely on proper hardware such as a secure e
 
 ### Final thoughts
 
-Like all technology, biometrics aren't inherently good or bad. They're used to secure out devices and make authentication smooth and easy, but they're also used for [mass surveillance](https://therecord.media/europe-gait-recognition-study-pilot-program). Especially now with the rise of AI, we've started to leave the realm of scientifically rigorous usages and into the realm of digital snake oil, with companies like Cursor Insight launching their [MotionScore](https://www.motionscore.ai) product.
+Like all technology, biometrics aren't inherently good or bad. They're used to secure our devices and make authentication smooth and easy, but they're also used for [mass surveillance](https://therecord.media/europe-gait-recognition-study-pilot-program). Especially now with the rise of AI, we've started to leave the realm of scientifically rigorous usages and into the realm of digital snake oil, with companies like Cursor Insight launching their [MotionScore](https://www.motionscore.ai) product.
 
 >Our patent-pending AI technology identifies hidden patterns in signatures and online or mobile user interactions. These patterns can reflect behaviors and personal characteristics relevant to creditworthiness and reliability.
 
