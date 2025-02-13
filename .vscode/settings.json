@@ -73,6 +73,11 @@
       "UNLIKELY_OPENING_PUNCTUATION": "hint",
       "SMALL_NUMBER_OF": "hint",
       "A_UNCOUNTABLE": "hint",
+      "AFFORD_VB": "hint",
+      "AN_INVITE": "hint",
+      "HAVE_PART_AGREEMENT": "hint",
+      "PHRASE_REPETITION": "hint",
+      "THIS_NNS_VB": "hint",
       "default": "error"
     },
     "editor.unicodeHighlight.ambiguousCharacters": true,

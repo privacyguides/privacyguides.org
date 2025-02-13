@@ -44,3 +44,4 @@
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QNewPipe is a free and open-source Android application for YouTube, SoundCloud, media.ccc.de, Bandcamp, and PeerTube (1).\\E$"}
 {"rule":"ADD_AN_ADDITIONAL","sentence":"^\\QThis setting adds an additional Adblock Plus list that may increase the effectiveness of Cromite's content blocking.\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QUncheck the autoupdate setting\\E$"}
+{"rule":"CLEAN_UP","sentence":"^\\QIf your device supports it, you can use the Clean Up feature to pixelate faces or remove objects from images.\\E$"}
