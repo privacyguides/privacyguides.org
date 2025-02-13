@@ -30,7 +30,7 @@ Privacy Guides contributors must always be independent voices in the privacy com
 
 ### Fairness and Impartiality
 
-Many stories have at least two sides. While we are not obligated to present every viewpoint in every article we publish, our stories are balanced and add context. Our impertial reporting is a significant part of why our community has trust and confidence in our work.
+Many stories have at least two sides. While we are not obligated to present every viewpoint in every article we publish, our stories are balanced and add context. Our impartial reporting is a significant part of why our community has trust and confidence in our work.
 
 ### Humanity
 
