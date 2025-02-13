@@ -497,3 +497,7 @@ PrivacyGuides
 @dngray
 simple-youtube
 simple-peertube
+simple-bluesky
+dngray
+bsky
+@freddy
