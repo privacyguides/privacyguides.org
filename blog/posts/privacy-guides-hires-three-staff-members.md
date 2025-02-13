@@ -33,7 +33,7 @@ We’re excited to welcome Em (she/her), our new journalist, who will play an im
 
 We also welcome Jordan Warne (they/them), our new content producer who will manage our channels on various video platforms! Jordan has a strong background in video production and content strategy, and we’re confident that they will help us expand our reach and connect with a broader audience. Through informative, easy-to-understand videos, Jordan will simplify complex privacy topics and keep our community engaged. Expect a significantly larger presence on our [PeerTube](https://neat.tube/c/privacyguides/videos) and [YouTube](https://www.youtube.com/@privacyguides) channels in the coming months!
 
-*Jordan is a passionate creative with an education in both cybersecurity and photography. Having completed a Diploma of Digital Imaging at Billy Blue College of Design, Jordan is equipped with the skills and experience to take Privacy Guides' video content to the next level. Having recently completed a Diploma of Information Technology (Cybersecurity) Jordan has the unique skillset to simplify complex cybersecurity topics and turn them into engaging and approachable content.*
+*Jordan is a passionate creative with an education in both cybersecurity and photography. Having completed a Diploma of Digital Imaging at Billy Blue College of Design, Jordan is equipped with the skills and experience to take Privacy Guides' video content to the next level. Having recently completed a Diploma of Information Technology (Cybersecurity) Jordan has the unique skill set to simplify complex cybersecurity topics and turn them into engaging and approachable content.*
 
 *Outside producing high-quality videos, Jordan enjoys exploring the Australian bush, capturing intricate details of its flora and fauna through photography.*
 
@@ -47,7 +47,7 @@ Last but not least, we are excited to start working with Kevin Pham (he/him), ou
 
 *Kevin is a senior at Tufts University studying Political Science and Science & Technology Studies. Originally from Florida, he is now freezing up in the greater Boston area. Kevin is passionate about usable security and privacy for vulnerable populations. He has previously worked with Freedom of the Press Foundation's Digital Security Team and Cornell Tech's Clinic to End Tech Abuse to help journalists and domestic violence survivors alike.*
 
-*Besides doomscrolling on social media, he loves cooking new recipes, reading philosophy essays, and perpetuating his caffeine addiction with Vietnamese coffee. Please feel free to reach out to him to discuss anything regarding best operational security practices and threat modeling...or just say hi!*
+*Besides doom scrolling on social media, he loves cooking new recipes, reading philosophy essays, and perpetuating his caffeine addiction with Vietnamese coffee. Please feel free to reach out to him to discuss anything regarding best operational security practices and threat modeling...or just say hi!*
 
 [:material-mastodon: Follow Kevin at @kevpham@mastodon.social](https://mastodon.social/@kevpham)
 

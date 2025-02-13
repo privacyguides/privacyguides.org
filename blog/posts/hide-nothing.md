@@ -32,7 +32,7 @@ In countries were organizing around political dissent is legal, that doesn't mea
 
 And even if you break away from the legal aspects, we all have something to hide. You may not be ready to reveal your sexual or gender identity, but your internet usage could potentially do that for you. You don't want to make your bank account public; you have that information to hide. And you can continue to list things about your life you'd just rather not make public, regardless of potential legality.
 
-In July of 2021, a Catholic priest by the name of Jeffrey Burrill lost his job and was forced to resign after data collected through his cell phone showed that he was active on the gay dating app Grindr, and that he had visited multiple gay bars in the area. [According](https://www.washingtonpost.com/religion/2021/07/20/bishop-misconduct-resign-burrill/) to the *Washington Post*:
+In July 2021, a Catholic priest by the name of Jeffrey Burrill lost his job and was forced to resign after data collected through his cell phone showed that he was active on the gay dating app Grindr, and that he had visited multiple gay bars in the area. [According](https://www.washingtonpost.com/religion/2021/07/20/bishop-misconduct-resign-burrill/) to the *Washington Post*:
 
 > “A mobile device correlated to Burrill emitted app data signals from the location-based hookup app Grindr on a near-daily basis during parts of 2018, 2019, and 2020 —– at both his USCCB office and his USCCB-owned residence, as well as during USCCB meetings and events in other cities,” the Pillar reported.
 >

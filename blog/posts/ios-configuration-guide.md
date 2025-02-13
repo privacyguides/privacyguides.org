@@ -35,7 +35,7 @@ Select **iCloud Backup**
 
 - [ ] Turn off **Back Up This iPhone**
 
-**Private Relay** is a paid ([**iCloud+**](https://support.apple.com/en-us/HT201318)) proxy service which relays your Safari traffic through two servers: one owned by Apple and one owned by Cloudflare. Because Private Relay is still in beta and it only covers the Safari browser, we recommend you choose a proper [VPN](https://www.privacyguides.org/vpn/) instead.
+**Private Relay** is a paid ([**iCloud+**](https://support.apple.com/en-us/HT201318)) proxy service which relays your Safari traffic through two servers: one owned by Apple and one owned by Cloudflare. Because Private Relay is still in beta, and it only covers the Safari browser, we recommend you choose a proper [VPN](https://www.privacyguides.org/vpn/) instead.
 
 Select **Private Relay**
 
@@ -108,7 +108,7 @@ If you don't want anyone to be able to control your phone with Siri when it is l
 
 ## Face ID or Touch ID & Passcode
 
-Setting a strong password on your phone is the most important step you can take for physical device security. You'll have to make tradeoffs here between security and convenience: A longer password will be annoying to type in every time, but a shorter password or PIN will be easier to guess. Setting up Face ID or Touch ID along with a strong password can be a good compromise between usability and security.
+Setting a strong password on your phone is the most important step you can take for physical device security. You'll have to make trade-offs here between security and convenience: A longer password will be annoying to type in every time, but a shorter password or PIN will be easier to guess. Setting up Face ID or Touch ID along with a strong password can be a good compromise between usability and security.
 
 Select **Turn Passcode On** or **Change Passcode** > **Passcode Options** > **Custom Alphanumeric Code**. Make sure that you create a [secure password](https://www.privacyguides.org/basics/passwords-overview/).
 
@@ -116,7 +116,7 @@ If you wish to use Face ID or Touch ID, you can go ahead and set it up now. Your
 
 If you use biometrics, you should know how to turn them off quickly in an emergency. Holding down the side or power button and *either* volume button until you see the Slide to Power Off slider will disable biometrics, requiring your passcode to unlock. Your passcode will also be required after device restarts.
 
-On some older devices, you may have to press the power button five times to disable biometrics instead, or for devices with Touch ID you may just have to hold down the power button and nothing else. Make sure you try this in advance so you know which method works for your device.
+On some older devices, you may have to press the power button five times to disable biometrics instead, or for devices with Touch ID you may just have to hold down the power button and nothing else. Make sure you try this in advance, so you know which method works for your device.
 
 **Allow Access When Locked** gives you options for what you can allow when your phone is locked. The more of these options you disable, the less someone without your password can do, but the less convenient it will be for you. Pick and choose which of these you don't want someone to have access to if they get their hands on your phone.
 
@@ -193,7 +193,7 @@ If either you or your messaging partner have iCloud Backup enabled, the encrypti
 
 ### Blacking Out Faces/Information
 
-If you need to hide information in a photo, you can use Apple's built-in tools to do so. Open the photo you want to edit, press edit at the top right corner of the screen, then press the markup symbol at the top right. Press the plus at the bottom right of the screen, then press the rectangle icon. Now, you can place a rectangle anywhere on the image. Make sure to press the shape icon at the bottom left and select the filled-in rectangle. **Don't** use the highlighter to obfuscate information, because its opacity is not quite 100%.
+If you need to hide information in a photo, you can use Apple's built-in tools to do so. Open the photo you want to edit, press edit in the top right corner of the screen, then press the markup symbol at the top right. Press the plus at the bottom right of the screen, then press the rectangle icon. Now, you can place a rectangle anywhere on the image. Make sure to press the shape icon at the bottom left and select the filled-in rectangle. **Don't** use the highlighter to obfuscate information, because its opacity is not quite 100%.
 
 ### Installing Beta Versions of iOS
 
@@ -201,4 +201,4 @@ Apple always makes beta versions of iOS available early for those that wish to h
 
 ### Before First Unlock
 
-If your threat model includes forensic tools and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. The state *after* a reboot but *before* unlocking your device is referred to as "Before First Unlock" (BFU), and when your device is in that state it makes it [significantly more difficult](https://belkasoft.com/checkm8_glossary) for forensic tools to exploit vulnerabilities to access your data. This BFU state allows you to receive notifications for calls, texts, and alarms, but most of the data on your device is still encrypted and inaccessible. This can be impractical, so consider whether these trade-offs make sense for your situation.
+If your threat model includes forensic tools, and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. The state *after* a reboot but *before* unlocking your device is referred to as "Before First Unlock" (BFU), and when your device is in that state it makes it [significantly more difficult](https://belkasoft.com/checkm8_glossary) for forensic tools to exploit vulnerabilities to access your data. This BFU state allows you to receive notifications for calls, texts, and alarms, but most of the data on your device is still encrypted and inaccessible. This can be impractical, so consider whether these trade-offs make sense for your situation.
