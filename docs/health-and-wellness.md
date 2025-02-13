@@ -3,7 +3,7 @@ meta_title: "Privacy Respecting Health and Wellness apps for Android and iOS - P
 title: "Health and Wellness Apps"
 icon: material/FitnessCenter
 description: These applications are what we currently recommend for all health and fitness-related activites on your phone.
-cover: health-cover.jpg
+cover: health-cover.svg
 ---
 <small>Protects against the following threat(s):</small>
 
@@ -19,7 +19,7 @@ Popular menstrual trackers like [Flo](https://techcrunch.com/2021/01/13/flo-gets
 
 <div class="admonition recommendation" markdown>
 
-![drip logo](assets/img/health-and-wellness/drip.png){ align=right }
+![drip logo](assets/img/health-and-wellness/drip.svg){ align=right }
 
 **drip.** is a gender-inclusive and open source menstrual cycle tracker available on all mobile platforms. It relies on the sympto-thermal method to predict ovulation. In addition to pin protection, all user data is stored locally on the device.
 
@@ -43,7 +43,7 @@ Popular menstrual trackers like [Flo](https://techcrunch.com/2021/01/13/flo-gets
 
 <div class="admonition recommendation" markdown>
 
-![Euki logo](assets/img/health-and-wellness/Euki.png){ align=right }
+![Euki logo](assets/img/health-and-wellness/Euki.svg){ align=right }
 
 **Euki** is a nonprofit-backed menstrual cycle tracker that also doubles as a medication tracker and sexual wellness knowledge base. It allows you to regularly delete personal data through scheduled "sweeps" and features no third-party tracking. Pin protection is also included with this app.
 
@@ -70,7 +70,7 @@ These general purpose apps can do everything from counting steps and tracking sl
 
 <div class="admonition recommendation" markdown>
   
-![Apple logo](assets/img/health-and-wellness/apple-health.png){ align=right }
+![Apple logo](assets/img/health-and-wellness/apple-health.svg){ align=right }
 
 **Apple Health** is the default healh and fitness app in iOS. Their privacy policy states that your personal data in encrypted at-rest and in-transit. Apple Health utilizes end-to-end encryption when syncing across multiple devices. Additionally, almost all measured data is processed on your phone. 
 
@@ -90,7 +90,7 @@ These general purpose apps can do everything from counting steps and tracking sl
 
 <div class="admonition recommendation" markdown>
   
-![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge.png){ align=right }
+![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge.svg){ align=right }
 
 **Gadgetbridge** allows you to pair and manage your bluetooth devices without using the vendor’s application. When paired with a compatible smartwatch, it can mimic the health and wellness functionality of these watches without third-party data collection. Gadgetbridge features include but are not limited to: a step counter, sleep tracker, and a heartbeat rate monitor.
 
@@ -117,7 +117,7 @@ These apps help you collect and manage personal health data and share it with he
 
 <div class="admonition recommendation" markdown>
   
-![Apple logo](assets/img/health-and-wellness/apple-health.png){ align=right }
+![Apple logo](assets/img/health-and-wellness/apple-health.svg){ align=right }
 
 **Apple Health Records** is a built-in feature within **Apple Health** that allows you to view, store, and share your health records. It shares the security and privacy features of Apple Health.
 
@@ -137,7 +137,7 @@ These apps help you collect and manage personal health data and share it with he
  
 <div class="admonition recommendation" markdown>
 
-![Commonhealth logo](assets/img/health-and-wellness/commonhealth.png){ align=right }
+![Commonhealth logo](assets/img/health-and-wellness/commonhealth.svg){ align=right }
 
 **Commonhealth** is a privacy-respecting android alternative to Apple Health Records. It allows people to access their electronic health records and securely share it to providers.
 
