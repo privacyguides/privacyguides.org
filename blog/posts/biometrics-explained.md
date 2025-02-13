@@ -199,3 +199,11 @@ Using a continuous wave (CW) radar that's constantly emitting a signal, it's pos
 >It is also possible to identify the intruder’s unique radio gait IDs and capture them in a database. Any intruder with an unknown radio gait ID detected within the premises will trigger an alarm, and the intruder’s location will be tracked down.
 
 They claim it can uniquely identify individuals as well as penetrate walls, a worrying combination.
+
+## Conclusion
+
+Like all technology, biometrics aren't inherently good or bad. They're used to secure out devices and make authentication smooth and easy, but they're also used for [mass surveillance](https://therecord.media/europe-gait-recognition-study-pilot-program). Especially now with the rise of AI, we've started to leave the realm of scientifically rigorous usages and into the realm of digital snake oil, with companies like Cursor Insight launching their [MotionScore](https://www.motionscore.ai) product.
+
+>Our patent-pending AI technology identifies hidden patterns in signatures and online or mobile user interactions. These patterns can reflect behaviors and personal characteristics relevant to creditworthiness and reliability.
+
+It should go without saying that making decisions about who to give a loan to based on... how they sign their name or some other mystery movement data is ludicrous, laughable if it wasn't affecting real people's lives. Now more than ever we need to be educated about the biometric technology that we use and that's used against us. The [EFF](https://sls.eff.org/technologies/biometric-surveillance) is a great resource that documents and fights against abuses of biometric technology.
