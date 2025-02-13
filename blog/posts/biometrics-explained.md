@@ -159,6 +159,7 @@ This approach attempts to model the human body in order to track the different p
 Model-free approaches don't try to model the human body but instead use the whole motion of human silhouettes. This gives a few advantages, namely it works regardless of camera quality and it takes significantly fewer resources.
 
 ![Diagram showing the process of turning raw camera input into a silhouette useful for giat recognition](../assets/images/biometrics-explained/model-free-gait.webp)
+
 <small aria-hidden="true">Image Credit: <a href="https://doi.org/10.1007/s11227-023-05156-9">Yousef, R.N., Khalil, A.T., Samra, A.S. et al.</a></small>
 
 ### :material-axis-arrow: Accelerometer
