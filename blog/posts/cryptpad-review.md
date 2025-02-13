@@ -4,6 +4,7 @@ template: review-article.html
 schema_type: ReviewNewsArticle
 date:
     created: 2025-02-07T19:00:00
+    updated: 2025-02-12T17:45:00
 categories:
     - Reviews
 authors:
@@ -62,13 +63,13 @@ There are many reasons that CryptPad is a great tool and a perfect replacement t
 
 ## What makes CryptPad trustworthy
 
-Why trust CryptPad more than Google? First, the end-to-end encryption that CryptPad utilizes uses [strong and modern algorithms](#privacy-and-encryption). When encryption like this is well implemented, it means the content of your data can never be accessed by CryptPad themselves. In contrast, services like Google hold the decryption keys to your data at all times, placing it at risk of being misused or compromised in a data breach. With CryptPad, if their servers experienced a data breach and your encrypted content was stolen, your content would still be protected as long as you've used a unique, complex, and long password and protected it well.
+Why trust CryptPad more than Google? First, the end-to-end encryption the CryptPad software utilizes uses [strong and modern algorithms](#privacy-and-encryption). When encryption like this is well implemented, it means the content of your data can never be accessed by the CryptPad instance (server) operators. In contrast, services like Google hold the decryption keys to your data at all times, placing it at risk of being misused or compromised in a data breach. With CryptPad, if a CryptPad instance that has well implemented the software experienced a data breach and your encrypted content was stolen, your content would still be protected as long as you've used a unique, complex, and long password and protected it well.
 
-Second, because its code is open, what CryptPad promises can be verified. Making source code open doesn't magically make it secure, but CryptPad is a project that had many eyes on in GitHub, has been around for over 10 years, and is actively maintained by a team experienced with open-source software.
+Second, because CryptPad's code is open, what it promises can be verified. Making source code open doesn't magically make it secure, but the CryptPad software is a project that had many eyes on in GitHub, has been around for over 10 years, and is actively maintained by a team experienced with open-source software.
 
-Additionally, CryptPad's flagship instance is hosted in France. This isn't magical either, but because European Union countries are all subjected to the GDPR most have adopted stronger data privacy practices by default. While these other factors are not technical guarantees, they all serve to increase the level of trust we feel comfortable giving CryptPad.
+Additionally, if you decide to use CryptPad's flagship instance, your data will be hosted in France. This isn't magical either, but because European Union countries are all subjected to the GDPR most have adopted stronger data privacy practices by default. While these other factors are not technical guarantees, they all serve to increase the level of trust we feel comfortable giving CryptPad's software and flagship instance.
 
-Finally, if you do not trust CryptPad at all, the good news is you don't have to. You can [download the code for yourself](https://github.com/cryptpad/cryptpad) and create your own CryptPad instance only controlled by you.
+Finally, if you do not trust CryptPad at all, the good news is you don't have to. If you prefer to use an instance that is not run by the CryptPad team, you can look for [other organizations](https://cryptpad.org/instances/) hosting instances of CryptPad open to the public. Of course make sure to pick an instance worthy of your trust. If you decide you do not trust anyone else, you can [download the code for yourself](https://github.com/cryptpad/cryptpad) and create your own CryptPad instance only controlled by you.
 
 ## Starting with CryptPad
 
@@ -87,7 +88,7 @@ Anyone with the link will be able to see your file. Additionally, if this link i
 
 </div>
 
-Whether you create an account or not, the only information that could identify you when using CryptPad on a trustworthy instance (server) is your IP address and your browser and device information. Depending on your threat model, to mitigate this you might want to use a trustworthy [VPN service](https://www.privacyguides.org/en/vpn/) and/or the [Tor network](https://www.privacyguides.org/en/tor/), coupled with a [browser](https://www.privacyguides.org/en/desktop-browsers/) hardened to reduce [fingerprinting](https://coveryourtracks.eff.org/).
+Whether you create an account or not, the only information that could identify you when using CryptPad on a trustworthy instance is your IP address and your browser and device information. Depending on your threat model, to mitigate this you might want to use a trustworthy [VPN service](https://www.privacyguides.org/en/vpn/) and/or the [Tor network](https://www.privacyguides.org/en/tor/), coupled with a [browser](https://www.privacyguides.org/en/desktop-browsers/) hardened to reduce [fingerprinting](https://coveryourtracks.eff.org/).
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">If you are at risk of targeted attacks</p>
@@ -137,11 +138,11 @@ Additionally, you can change the theme to either Light or Dark in "Appearance", 
 
 ## CryptPad's instances & hosting
 
-CryptPad offers a flagship instance at [CryptPad.fr](https://cryptpad.fr/) that makes it easy to start using it quickly. Depending on your preference and circumstances, you might choose a different instance or even choose to host an instance yourself.
+The CryptPad team offers a flagship instance at [CryptPad.fr](https://cryptpad.fr/) that makes it easy to start using CryptPad quickly. Depending on your preference and circumstances, you might choose a different instance or even choose to host an instance yourself.
 
 ### Different instances
 
-For a list of third-party instances that have passed a series of checks from CryptPad to ensure they are up-to-date and use recommended settings, you can visit this page: [https://cryptpad.org/instances/](https://cryptpad.org/instances/)
+For a list of third-party instances that have passed a series of checks from the CryptPad team to ensure they are up-to-date and use recommended settings, you can visit this page: [https://cryptpad.org/instances/](https://cryptpad.org/instances/)
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">When using third-party instances</p>
@@ -322,11 +323,11 @@ Like many other applications using encryption, CryptPad is preparing for the [po
 
 This is all very new as the [National Institute of Standards and Technology](https://www.nist.gov/) (NIST) just selected newly proposed post-quantum resistant algorithms [last summer](https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards) to establish new encryption standards and recommendations.
 
-Preparing now to harden encryption standards against future quantum computers possibly capable of breaking currently used cryptographic algorithms is very important. CryptPad is already preparing for this and [plans to transition](https://blueprints.cryptpad.org/review/agility/) towards NIST's post-quantum new standards.
+Preparing now to harden encryption standards against future quantum computers possibly capable of breaking currently used cryptographic algorithms is very important. The CryptPad development team is already preparing for this and [plans to transition](https://blueprints.cryptpad.org/review/agility/) towards NIST's post-quantum new standards.
 
 ### Perfect forward secrecy
 
-CryptPad is also [planning](https://xwiki.com/en/Blog/CryptPad-overview-2024/) on implementing [perfect forward secrecy](https://www.geeksforgeeks.org/perfect-forward-secrecy/) for its next generation. This will be a great improvement to secure communication within CryptPad, because it makes each session key unique. This means that if a session key was to be compromised, this would not affect any other sessions, significantly reducing the scope and damage of an attack.
+CryptPad's team is also [planning](https://xwiki.com/en/Blog/CryptPad-overview-2024/) on implementing [perfect forward secrecy](https://www.geeksforgeeks.org/perfect-forward-secrecy/) for its next generation. This will be a great improvement to secure communication within CryptPad, because it makes each session key unique. This means that if a session key was to be compromised, this would not affect any other sessions, significantly reducing the scope and damage of an attack.
 
 ### Keeping CryptPad secure
 
@@ -354,7 +355,7 @@ Here's a few things you should remember to keep your CryptPad data secure and pr
 
 **Static keys:** CryptPad uses static keys to encrypt your documents. This means that once you have shared a document, and therefore its static keys, you cannot revoke this access. By default, anyone you have shared a link to your document with will retain this access indefinitely. If you wish to revoke access, you can make a copy of the document then destroy the original. This will also erase the document's history.
 
-To learn more about CryptPad's recommendations on the most secure way to use CryptPad, you can read [this article](https://blog.cryptpad.org/2024/03/14/Most-Secure-CryptPad-Usage/).
+To learn more about the CryptPad team's recommendations on the most secure way to use CryptPad, you can read [this article](https://blog.cryptpad.org/2024/03/14/Most-Secure-CryptPad-Usage/).
 
 ## Downsides
 
@@ -386,3 +387,7 @@ If you wish to support this free and open-source project, you can help CryptPad 
 - [Donating on Open Collective](https://opencollective.com/cryptpad/contribute/)
 - [Contributing on GitHub](https://github.com/cryptpad)
 - [Watching CryptPad's videos on PeerTube](https://peertube.xwiki.com/c/cryptpad_channel/videos)
+
+---
+
+***Editor's Note (Feb. 12):** This article was updated to clarify the difference between CryptPad (the open source software) and instances of CryptPad like CryptPad.fr (the hosted cloud instance of CryptPad operated by CryptPad's creators) in certain contexts.*
