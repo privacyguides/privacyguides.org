@@ -1,19 +1,20 @@
 ---
 date:
-    created: 2025-02-13
+    created: 2025-02-13T19:00:00
 categories:
-    - Opinion
+    - Explainers
 authors:
     - fria
 tags:
     - Biometrics
 license: BY-SA
+schema_type: BackgroundNewsArticle
 ---
 # Biometrics Explained
 
-![Glowing fingerprint on glass](../assets/images/biometrics-explained/cover.webp)
+![Glowing fingerprint on glass](../assets/images/biometrics-explained/biometrics.webp)
 
-<small aria-hidden="true">Photo: George Prentzas / Unsplash</small>
+<small aria-hidden="true">Illustration: Jonah Aragon / Privacy Guides | Photo: Jair Lázaro / Unsplash</small>
 
 Biometrics are a convenient and secure way to authenticate our devices. Many of us use and trust the biometrics of our devices without much thought, but are they really secure? With so many different [options](https://www.biometricsinstitute.org/what-is-biometrics/types-of-biometrics/), which ones are the best?<!-- more -->
 
@@ -132,7 +133,7 @@ All forms of biometric authentication rely on proper hardware such as a secure e
 
 ## :material-matrix: Algorithm
 
-Because biometric systems need to translate the physical properties of your body to data, they rely on an algorithm to determine if their reading matches closely enough. 
+Because biometric systems need to translate the physical properties of your body to data, they rely on an algorithm to determine if their reading matches closely enough.
 
 [Android](https://source.android.com/docs/security/features/biometric) has guidelines on how OEMs should implement biometrics and how they can [test](https://source.android.com/docs/security/features/biometric/measure) them for security. If you're performing your own security research, you should look here for guidance on testing methodology.
 
@@ -184,7 +185,7 @@ Accelerometers work by measuring the accelerations in 3D space in X, Y, and Z co
 
 It's possible to identify individuals using [sensors](https://www.amti.biz/product/bms464508/) in the floor that measure the pressure of your steps as you take them. There are already companies offering software/hardware [installations](https://www.scanalyticsinc.com/how-it-works) for tracking customers within a store using this technology.
 
->Scanalytics floor sensors capture up to 100% of foot traffic through your buildings and spaces. Capturing individual foot steps and the paths they form, we are able to monitor and analyze complete space movements and usage. 
+>Scanalytics floor sensors capture up to 100% of foot traffic through your buildings and spaces. Capturing individual foot steps and the paths they form, we are able to monitor and analyze complete space movements and usage.
 
 Floor sensors are especially concerning since they're completely invisible to you.
 
