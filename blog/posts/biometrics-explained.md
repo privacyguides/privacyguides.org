@@ -33,6 +33,7 @@ There are three main types of fingerprint: loops, whorls, and arches. Fingerprin
 1. :material-fingerprint: It's theorized that the reason humans have fingerprints in the first place is to [enhance our sense of touch](https://www.science.org/doi/10.1126/science.1166467).
 
 ![Example of finger minutiae including forks (where one line splits into mulitple lines), ends (where a line ends), islands (isolated dots), and inclosures (lines that split into two and then reconnect)](../assets/images/biometrics-explained/finger-minutiae.jpeg)
+
 <small aria-hidden="true">Image Credit: <a href="https://sites.rutgers.edu/fingerprinting/no-two-finger-prints-are-alike/">Rutgers University</a></small>
 
 Using these details for identification gives several advantages over trying to read the whole fingerprint. It allows the device to use less processing power, as well as providing some flexibility in case your finger is smudged or at a strange angle. The sensor doesn't even need to see your whole fingerprint. You might notice some fingerprint readers are very thin and might be located in a convenient place like a power button; finger minutiae is what allows them to still operate securely.
