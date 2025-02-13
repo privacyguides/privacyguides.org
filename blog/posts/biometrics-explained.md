@@ -182,6 +182,12 @@ Radar works by transmitting a signal and measuring how long it takes for that si
 
 Using a continuous wave (CW) radar that's constantly emitting a signal, it's possible to measure the movements of all the different parts of your body during your gait to identify you uniquely. This is called a [micro-Doppler](https://books.google.com/books?hl=en&lr=&id=SVCQDwAAQBAJ&oi=fnd&pg=PA1&ots=cqJxAh_rPv&sig=bBz1w4h-C4nDrzNwiRvZUexKbnc#v=onepage&q&f=false) signature. These sensors can even be sensitive enough that they can pick up breathing and heartbeats of humans trapped in rubble during rescue operations.
 
+[GaitMetrics](https://gaitmetrics.com/applications/) is a company claiming to offer mmWave gait recognition technology.
+
+>It is also possible to identify the intruder’s unique radio gait IDs and capture them in a database. Any intruder with an unknown radio gait ID detected within the premises will trigger an alarm, and the intruder’s location will be tracked down.
+
+They claim it can uniquely identify individuals as well as penetrate walls, a worrying combination.
+
 ## :material-chip: Secure Element
 
 All forms of biometric authentication rely on proper hardware such as a secure element in order to be secure. The secure element provides a secure and tamper-resistant place to store your biometric data so it can't be easily extracted. Examples include Apple's [Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/web) and Google's [Titan M](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) series of chips. You should avoid devices that lack a secure element; they won't be able to properly implement secure biometrics without one.
