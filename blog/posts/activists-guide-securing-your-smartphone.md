@@ -273,7 +273,7 @@ The backup situation on Android is not nearly as robust unfortunately, but you c
 
 ### Keep Your Device Locked
 
-You should always use your camera to take pictures or videos while your phone is locked, in case your device is taken while filming. This is easier if you've [disabled biometrics](#disable-biometic-authentication), because Face ID or similar features might unlock your device automatically when you don't want that to happen.
+You should always use your camera to take pictures or videos while your phone is locked, in case your device is taken while filming. This is easier if you've [disabled biometrics](#disable-biometric-authentication), because Face ID or similar features might unlock your device automatically when you don't want that to happen.
 
 On an iPhone you can hold down the camera icon on the lock screen to open the camera without unlocking your device. You could also configure the Action Button to open the camera, or use the dedicated camera button on the latest iPhone model.
 
