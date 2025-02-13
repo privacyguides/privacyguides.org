@@ -3,7 +3,7 @@ meta_title: "Privacy Respecting Health and Wellness apps for Android and iOS - P
 title: "Health and Wellness Apps"
 icon: material/FitnessCenter
 description: These applications are what we currently recommend for all health and fitness-related activites on your phone.
-cover: health-cover.svg
+cover: health-cover.jpg
 ---
 <small>Protects against the following threat(s):</small>
 
