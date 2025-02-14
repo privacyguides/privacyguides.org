@@ -98,7 +98,7 @@ Main privacy features include:
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-Metadata is not currently deleted from video files but that is planned.
+Metadata is not currently deleted from video files, but that is planned.
 
 The image orientation metadata is not deleted. If you enable location (in Secure Camera) that **won't** be deleted either. If you want to delete that later you will need to use an external app such as [ExifEraser](../data-redaction.md#exiferaser-android).
 

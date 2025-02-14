@@ -74,7 +74,7 @@ To view the safety number for a particular contact, you need to follow these ste
 
 Once you've compared the safety numbers on both devices, you can mark that contact as **Verified**.
 
-A checkmark will appear in the chat header by your contact's name when the safety number is marked as verified. It will remain verified unless the safety number changes or you manually change the verification status.
+A checkmark will appear in the chat header by your contact's name when the safety number is marked as verified. It will remain verified unless the safety number changes, or you manually change the verification status.
 
 After doing that, any time the safety number changes, you'll be notified.
 
@@ -188,7 +188,7 @@ You can learn more about Signal's proxy support on their [website](https://suppo
 
 ### Disable Signal Call History (iOS)
 
-Signal allows you to see your call history from your regular phone app. This allows your iOS device to sync your call history with iCloud, including who you spoke to, when, and for how long.
+Signal allows you to see your call history from your regular phone app. This allows your iOS device to sync your call history with iCloud, including whom you spoke to, when, and for how long.
 
 If you use iCloud and you don’t want to share call history on Signal, confirm it’s turned off:
 
@@ -205,7 +205,7 @@ Avoid linking your Signal account to a desktop device to reduce your attack surf
 
 ### Molly (Android)
 
-If you use [Molly](https://www.privacyguides.org/en/real-time-communication/#molly-android) on Android to access the Signal network, there are a number of privacy- and security-enhancing features that you may want to explore.
+If you use [Molly](https://www.privacyguides.org/en/real-time-communication/#molly-android) on Android to access the Signal network, there are many privacy and security-enhancing features that you may want to explore.
 
 #### Privacy and Security Features
 

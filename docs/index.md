@@ -90,7 +90,7 @@ Trying to protect all your data from everyone all the time is impractical, expen
 
     ---
 
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG is based in Genève, Switzerland. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
+    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 
     [:octicons-arrow-right-24: Read Full Review](email.md#proton-mail)
 
@@ -98,7 +98,7 @@ Trying to protect all your data from everyone all the time is impractical, expen
 
     ---
 
-    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with up to 2GB storage, which can be upgraded as needed.
+    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
     [:octicons-arrow-right-24: Read Full Review](email.md#mailboxorg)
 
@@ -106,7 +106,7 @@ Trying to protect all your data from everyone all the time is impractical, expen
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1GB of storage.
+    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1 GB of storage.
 
     [:octicons-arrow-right-24: Read Full Review](email.md#tuta)
 
@@ -176,7 +176,7 @@ As seen in **WIRED**, **Tweakers.net**, **The New York Times**, and many other p
 <div markdown>
 ## What are privacy tools?
 
-We recommend a wide variety of **privacy tools** (a.k.a. *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can adopt to improve your privacy. Many of the tools we recommend are completely free to use and open-source software, while some are commercial services available for purchase. Switching from mainstream data-hungry software like Google Chrome and Windows to privacy-focused tools like [Brave](desktop-browsers.md#brave) and [Linux](desktop.md) can go a long way towards controlling the information you share with companies and others.
+We recommend a wide variety of **privacy tools** (a.k.a. *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can use to improve your privacy. Many of the tools we recommend are completely free to use and open-source software, while some are commercial services available for purchase. Switching from mainstream data-hungry software like Google Chrome and Windows to privacy-focused tools like [Brave](desktop-browsers.md#brave) and [Linux](desktop.md) can go a long way towards controlling the information you share with companies and others.
 
 [:material-check-all: Our General Criteria](about/criteria.md){ class="md-button" }
 </div>

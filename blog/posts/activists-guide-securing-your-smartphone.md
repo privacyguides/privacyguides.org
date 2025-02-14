@@ -84,7 +84,7 @@ Barring a massive security exploit (more on this [later](#consider-your-phones-s
 
 In the United States and many other countries it is legal to refuse to unlock your phone or provide your passcode to law enforcement. **Know your rights** wherever you're located before attending a protest, so you aren't blindly following orders later.
 
-### Disable Biometic Authentication
+### Disable Biometric Authentication
 
 We commonly recommend using biometric features like Face ID or Touch ID to prevent "shoulder surfing" attacks, where an attacker steals your PIN by discreetly watching you enter it, or where your PIN is recorded by surveillance cameras in the area.
 
@@ -194,7 +194,7 @@ Even after mitigating the risks of 2G networks, your cellular activity can still
 
 To prevent this, you should keep your phone turned off or use Airplane Mode to disable cellular connections whenever possible. Ideally you should only connect to networks in an emergency situation to communicate with others in your group, otherwise keeping messages and network transmissions to a minimum is key.
 
-If you absolutely need internet connectivity and it's possible, you should keep Airplane Mode on and connect to a public Wi-Fi network instead, which brings me to:
+If you absolutely need internet connectivity, and if it's possible, you should keep Airplane Mode on and connect to a public Wi-Fi network instead, which brings me to:
 
 ### Use Public Wi-Fi
 
@@ -245,7 +245,7 @@ Signal is battle-tested for this situation. [Signal has responded to 6 governmen
 
 Keep in mind that using Signal could still expose your phone's location, simply due to making a network request as we covered above. You should still keep your phone in [Airplane Mode](#use-airplane-mode-frequently) and minimize the use of Signal or any other networked app during the event.
 
-There *are* other [encrypted messengers](https://www.privacyguides.org/en/real-time-communication/), some of them even making use of technologies developed by Signal. However, they all come with trade-offs that could easily compromise your security. WhatsApp and Facebook Messenger are end-to-end encrypted for example, but they collect copious amounts of *metadata* about your messages, such as who you're sending them to, when you're sending them, your location when you're sending them, etc. Apple's iMessage service in the Messages app has strong encryption but similar metadata concerns, and only works if everyone in your group has an iPhone.
+There *are* other [encrypted messengers](https://www.privacyguides.org/en/real-time-communication/), some of them even making use of technologies developed by Signal. However, they all come with trade-offs that could easily compromise your security. WhatsApp and Facebook Messenger are end-to-end encrypted for example, but they collect copious amounts of *metadata* about your messages, such as whom you're sending them to, when you're sending them, your location when you're sending them, etc. Apple's iMessage service in the Messages app has strong encryption but similar metadata concerns, and only works if everyone in your group has an iPhone.
 
 ### Protect Your Access to Information
 
@@ -273,7 +273,7 @@ The backup situation on Android is not nearly as robust unfortunately, but you c
 
 ### Keep Your Device Locked
 
-You should always use your camera to take pictures or videos while your phone is locked, in case your device is taken while filming. This is easier if you've [disabled biometrics](#disable-biometic-authentication), because Face ID or similar features might unlock your device automatically when you don't want that to happen.
+You should always use your camera to take pictures or videos while your phone is locked, in case your device is taken while filming. This is easier if you've [disabled biometrics](#disable-biometric-authentication), because Face ID or similar features might unlock your device automatically when you don't want that to happen.
 
 On an iPhone you can hold down the camera icon on the lock screen to open the camera without unlocking your device. You could also configure the Action Button to open the camera, or use the dedicated camera button on the latest iPhone model.
 

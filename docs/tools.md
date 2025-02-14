@@ -186,7 +186,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG is based in Genève, Switzerland. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
+    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
 
@@ -194,7 +194,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with up to 2GB storage, which can be upgraded as needed.
+    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#mailboxorg)
 
@@ -202,7 +202,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1GB of storage.
+    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1 GB of storage.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#tuta)
 
@@ -226,7 +226,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
 <div class="grid cards" markdown>
 
-- ![mailcow logo](assets/img/email/mailcow.svg){ .twemoji loading=lazy } [mailcow](email.md#self-hosting-email)
+- ![Mailcow logo](assets/img/email/mailcow.svg){ .twemoji loading=lazy } [Mailcow](email.md#self-hosting-email)
 - ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email.md#self-hosting-email)
 
 </div>
@@ -652,10 +652,10 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 - ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ .twemoji loading=lazy } [Qubes OS (Xen VM Distribution)](desktop.md#qubes-os)
 - ![Fedora logo](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Workstation](desktop.md#fedora-workstation)
-- ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji loading=lazy } [OpenSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
+- ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji loading=lazy } [openSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
 - ![Arch logo](assets/img/linux-desktop/archlinux.svg){ .twemoji loading=lazy } [Arch Linux](desktop.md#arch-linux)
 - ![Fedora logo](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Atomic Desktops](desktop.md#fedora-atomic-desktops)
-- ![nixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji loading=lazy } [NixOS](desktop.md#nixos)
+- ![NixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji loading=lazy } [NixOS](desktop.md#nixos)
 - ![Whonix logo](assets/img/linux-desktop/whonix.svg){ .twemoji loading=lazy } [Whonix (Tor)](desktop.md#whonix)
 - ![Tails logo](assets/img/linux-desktop/tails.svg){ .twemoji loading=lazy } [Tails (Live Boot)](desktop.md#tails)
 - ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ .twemoji loading=lazy } [Kicksecure](desktop.md#kicksecure)

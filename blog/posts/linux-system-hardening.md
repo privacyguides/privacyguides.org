@@ -23,7 +23,7 @@ A [firewall](https://en.wikipedia.org/wiki/Firewall_(computing)) may be used to 
 
 Red Hat distributions (such as Fedora) are typically configured through [firewalld](https://en.wikipedia.org/wiki/Firewalld). Red Hat has plenty of [documentation](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_networking/using-and-configuring-firewalld_configuring-and-managing-networking) regarding this topic. There is also the [Uncomplicated Firewall](https://en.wikipedia.org/wiki/Uncomplicated_Firewall) which can be used as an alternative.
 
-You could also set your default firewall zone to drop packets. If you're on a Redhat based distribution, such as Fedora this can be done with the following commands:
+You could also set your default firewall zone to drop packets. If you're on a Red Hat based distribution, such as Fedora this can be done with the following commands:
 
 !!! Example
 
@@ -80,9 +80,9 @@ If you are using Whonix, Kicksecure or the AUR package, consider setting up `LD_
 
 If you are not using openSUSE, consider changing the default [umask](https://en.wikipedia.org/wiki/Umask) for both regular user accounts and root to 077. Changing umask to 077 can break snapper on openSUSE and is **not** recommended.
 
-## Mountpoint hardening
+## Mount point hardening
 
-Consider adding the [following options](https://man7.org/linux/man-pages/man8/mount.8.html) `nodev`, `noexec`, and `nosuid` to [mountpoints](https://en.wikipedia.org/wiki/Mount_(computing)) which do not need them. Typically, these could be applied to `/boot`, `/boot/efi`, and `/var`.
+Consider adding the [following options](https://man7.org/linux/man-pages/man8/mount.8.html) `nodev`, `noexec`, and `nosuid` to [mount points](https://en.wikipedia.org/wiki/Mount_(computing)) which do not need them. Typically, these could be applied to `/boot`, `/boot/efi`, and `/var`.
 
 These flags could also be applied to `/home` and `/root` as well, however, `noexec` will prevent applications from working that require binary execution in those locations. This includes products such as Flatpak and Snap.
 
@@ -102,7 +102,7 @@ Users of other distributions can adapt the permission hardener to their own syst
 
 ## Secure Time Synchronization
 
-Most Linux distributions by default (especially Arch based distributions with `systemd-timesyncd`) use un-encrypted NTP for time synchronization. Securing NTP can be achieved by [configuring NTS with chronyd](https://fedoramagazine.org/secure-ntp-with-nts/) or by using [swdate](https://github.com/Kicksecure/sdwdate) on Debian based distributions.
+Most Linux distributions by default (especially Arch based distributions with `systemd-timesyncd`) use unencrypted NTP for time synchronization. Securing NTP can be achieved by [configuring NTS with chronyd](https://fedoramagazine.org/secure-ntp-with-nts/) or by using [swdate](https://github.com/Kicksecure/sdwdate) on Debian based distributions.
 
 ## Linux Pluggable Authentication Modules (PAM)
 
@@ -124,17 +124,17 @@ Another alternative option if you’re using the [linux-hardened](#linux-hardene
 
 ## Secure Boot
 
-[Secure Boot](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface#Secure_Boot) can be used to secure the boot process by preventing the loading of [unsigned](https://en.wikipedia.org/wiki/Public-key_cryptography) [UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface) drivers or [boot loaders](https://en.wikipedia.org/wiki/Bootloader).
+[Secure Boot](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface#Secure_Boot) can be used to secure the boot process by preventing the loading of [unsigned](https://en.wikipedia.org/wiki/Public-key_cryptography) [UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface) drivers or [bootloaders](https://en.wikipedia.org/wiki/Bootloader).
 
-One of the problems with Secure Boot, particularly on Linux is, that only the [chainloader](https://en.wikipedia.org/wiki/Chain_loading#Chain_loading_in_boot_manager_programs) (shim), the [boot loader](https://en.wikipedia.org/wiki/Bootloader) (GRUB), and the [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)) are verified and that's where verification stops. The [initramfs](https://en.wikipedia.org/wiki/Initial_ramdisk) is often left unverified, unencrypted, and open up the window for an [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attack. The firmware on most devices is also configured to trust Microsoft's keys for Windows and its partners, leading to a large attacks surface.
+One of the problems with Secure Boot, particularly on Linux is, that only the [chain loader](https://en.wikipedia.org/wiki/Chain_loading#Chain_loading_in_boot_manager_programs) (shim), the [bootloader](https://en.wikipedia.org/wiki/Bootloader) (GRUB), and the [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)) are verified and that's where verification stops. The [initramfs](https://en.wikipedia.org/wiki/Initial_ramdisk) is often left unverified, unencrypted, and open up the window for an [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attack. The firmware on most devices is also configured to trust Microsoft's keys for Windows and its partners, leading to a large attacks surface.
 
 To eliminate the need to trust Microsoft's keys, follow the "Using your own keys" section on the [Arch Wiki](https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot). The important thing that needs to be done here is to replace the OEM's key with your own Platform Key.
 
 - If you enroll your own keys as described above, and your distribution supports Secure Boot by default, you can add your distribution's EFI Key into the list of trusted keys (db keys). It can then be enrolled into the firmware. Then, you should move all of your keys off your local storage device.
-- If you enroll your own keys as described above, and your distribution does **not** support Secure Boot out of the box (like Arch Linux), you have to leave the keys on the disk and setup automatic signing of the [kernel](https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot#Signing_the_kernel_with_a_pacman_hook) and bootloader. If you are using Grub, you can install it with the `--no-shim-lock` option and remove the need for the chainloader.
+- If you enroll your own keys as described above, and your distribution does **not** support Secure Boot out of the box (like Arch Linux), you have to leave the keys on the disk and setup automatic signing of the [kernel](https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot#Signing_the_kernel_with_a_pacman_hook) and bootloader. If you are using Grub, you can install it with the `--no-shim-lock` option and remove the need for the chain loader.
 
-The second option is to creating an [EFI Boot Stub](https://wiki.archlinux.org/title/Unified_kernel_image) that contains the [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)), [initramfs](https://en.wikipedia.org/wiki/Initial_ramdisk), and [microcode](https://en.wikipedia.org/wiki/Microcode). This EFI stub can then be signed. If you use [dracut](https://en.wikipedia.org/wiki/Dracut_(software)) this can easily be done with the [`--uefi-stub` switch](https://man7.org/linux/man-pages/man8/dracut.8.html) or the [`uefi_stub` config](https://www.man7.org/linux/man-pages/man5/dracut.conf.5.html) option. This option also requires you to leave the keys on the disk to setup automatic signing, which weakens the security model.
+The second option is creating an [EFI Boot Stub](https://wiki.archlinux.org/title/Unified_kernel_image) that contains the [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)), [initramfs](https://en.wikipedia.org/wiki/Initial_ramdisk), and [microcode](https://en.wikipedia.org/wiki/Microcode). This EFI stub can then be signed. If you use [dracut](https://en.wikipedia.org/wiki/Dracut_(software)) this can easily be done with the [`--uefi-stub` switch](https://man7.org/linux/man-pages/man8/dracut.8.html) or the [`uefi_stub` config](https://www.man7.org/linux/man-pages/man5/dracut.conf.5.html) option. This option also requires you to leave the keys on the disk to set up automatic signing, which weakens the security model.
 
 After setting up Secure Boot it is crucial that you set a “firmware password” (also called a “supervisor password”, “BIOS password” or “UEFI password”), otherwise an adversary can simply disable Secure Boot.
 
-These recommendations can make you a little more resistant to [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attacks, but they not good as a proper verified boot process such as that found on [Android](https://source.android.com/security/verifiedboot), [ChromeOS](https://www.chromium.org/chromium-os/chromiumos-design-docs/security-overview/#verified-boot), [macOS](https://support.apple.com/en-us/HT208198), or [Windows](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process).
+These recommendations can make you a little more resistant to [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attacks, but they are not good as a proper verified boot process such as that found on [Android](https://source.android.com/security/verifiedboot), [ChromeOS](https://www.chromium.org/chromium-os/chromiumos-design-docs/security-overview/#verified-boot), [macOS](https://support.apple.com/en-us/HT208198), or [Windows](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process).
