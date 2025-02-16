@@ -7,7 +7,7 @@ cover: health-cover.jpg
 ---
 <small>Protects against the following threat(s):</small>
 
-- :material-server-network: Service Providers{ .pg-teal }
+- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
 Keep track of your health and fitness-related goals with these apps. Unlike their mainstream alternatives, your personal health information will be kept private. 
 
