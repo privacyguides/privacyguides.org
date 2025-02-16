@@ -79,4 +79,4 @@ jobs:
           secret_key: ${{ secrets.PROD_GARAGE_SECRET_KEY }}
           bucket: ${{ vars.PROD_GARAGE_BUCKET }}
           source: ./site/en/index.html
-          target: /en
+          target: /en/index.html

@@ -39,20 +39,20 @@ done
 DISCOURSE_URL="$source"
 
 # Fetch the JSON data
-json_data=$(curl -s $DISCOURSE_URL)
+json_data="$(curl -s "$DISCOURSE_URL")"
 
 # Extract the first 3 topics
-topics=$(echo $json_data | jq -r ".topic_list.topics[:$count]")
+topics=$(echo "$json_data" | jq -r ".topic_list.topics[:$count]")
 
-users=$(echo $json_data | jq -r ".users")
+users=$(echo "$json_data" | jq -r ".users")
 # Generate HTML for the first 3 posts
 html_output=""
 for row in $(echo "${topics}" | jq -r '.[] | @base64'); do
   _jq() {
-    echo ${row} | base64 --decode | jq -r ${1}
+    echo "${row}" | base64 --decode | jq -r "${1}"
   }
 
-  title=$(_jq '.title')
+  title="$(_jq '.title')"
   id=$(_jq '.id')
   like_count=$(_jq '.like_count')
   reply_count=$(_jq '.posts_count')
@@ -83,7 +83,7 @@ for row in $(echo "${topics}" | jq -r '.[] | @base64'); do
 done
 
 tempfile=$(mktemp)
-echo "$html_output" > $tempfile
+echo "$html_output" > "$tempfile"
 
 # Insert the HTML output between the comments in index.html
-sed -i'.bak' "/<!-- start $tag -->/,/<!-- end $tag -->/{//!d;}; /<!-- start $tag -->/r $tempfile" $destination
+sed -i'.bak' "/<!-- start $tag -->/,/<!-- end $tag -->/{//!d;}; /<!-- start $tag -->/r $tempfile" "$destination"
