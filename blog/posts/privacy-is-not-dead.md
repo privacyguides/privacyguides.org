@@ -6,7 +6,7 @@ categories:
 authors:
     - em
 description: Privacy is only dead if we let it die. Be careful about the all-or-nothing mindset in data privacy, it can do more damage than good to the cause. While striving for improvements, do not forget to cheer and celebrate each small win.
-schema_type: AnalysisNewsArticle
+schema_type: OpinionNewsArticle
 ---
 # No, Privacy is Not Dead: Beware the All-or-Nothing Mindset
 
@@ -14,7 +14,7 @@ schema_type: AnalysisNewsArticle
 
 <small aria-hidden="true">Photo: Markus Spiske (filtered) / Pexels</small>
 
-In my work as a privacy advocate, I regularly encounter two types of discourse that I find very damaging to privacy as a whole. The first one is the idea that *Privacy is Dead* implying it's not worth putting any effort to protect personal data anymore. This is the abdication mindset. This attitude is the one that scares me the most because without giving it a fight then of course the battle is lost in advance. **Like a self-fulfilling prophecy, privacy is dead if you let it die.**<!-- more -->
+In my work as a privacy advocate, I regularly encounter two types of discourse that I find very damaging to privacy as a whole. The first one is the idea that *privacy is dead*, implying it's not worth putting any effort to protect personal data anymore. This is the abdication mindset. This attitude is the one that scares me the most because without giving it a fight then of course the battle is lost in advance. **Like a self-fulfilling prophecy, privacy is dead if you let it die.**<!-- more -->
 
 All human rights have seen advancements and improvements in history through long battles and hard-earned victories. There needs to be people willing to fight in order to win the fight. Losing a human right is easy. Protecting a human right always requires lots of effort.
 
@@ -36,6 +36,6 @@ When someone replies things like that, it only has the effect of discouraging pe
 
 I understand that we are all very passionate about data privacy and would love others to move so much faster to meet us here. But our impatience can sometimes create more damage to the cause. It is critical to push hard for privacy rights and practices with *governments* and *organizations*. Yes, push hard there, be relentless. Institutions only listen to the people when the people screams. But with *individuals*, when someone shares their excitement for data privacy, when someone shares their PrivacyProduct™️ recommendation that, even if imperfect, is still a great tool without misleading information, then **we should all celebrate and support this**.
 
-Privacy isn't just about the tools we use. **Privacy is a culture we need to build.** Cultures come with mindsets and customs. I would love to see the privacy community thrive and celebrate together every win we get. **Tolerate imperfection and treasure improvement.** Every little step on the path to better privacy rights and better privacy practices is a win.
+Privacy isn't just about the tools we use. Privacy is a culture we need to build. Cultures come with mindsets and customs. I would love to see the privacy community thrive and celebrate together every win we get. **Tolerate imperfection and treasure improvement.** Every little step on the path to better privacy rights and better privacy practices is a win.
 
 Celebrate and cheer loudly each little privacy win. This is how we all win.
