@@ -5,7 +5,7 @@ categories:
     - Opinion
 authors:
     - em
-description: Privacy is only dead if we let it die. Be careful about the all-of-nothing mindset in data privacy, it can do more damage than good to the cause. While striving for improvements, do not forget to cheer and celebrate each small win.
+description: Privacy is only dead if we let it die. Be careful about the all-or-nothing mindset in data privacy, it can do more damage than good to the cause. While striving for improvements, do not forget to cheer and celebrate each small win.
 schema_type: AnalysisNewsArticle
 ---
 
