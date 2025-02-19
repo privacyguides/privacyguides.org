@@ -283,7 +283,7 @@ It is important to note that using a VPN provider will not make you anonymous, b
 
 ### Technology
 
-We require all our recommended VPN providers to provide standard configuration files which can be used in a generic, open source client. **If** a VPN provides their own custom client, we require a killswitch to block network data leaks when disconnected.
+We require all our recommended VPN providers to provide standard configuration files which can be used in a generic, open-source client. **If** a VPN provides their own custom client, we require a killswitch to block network data leaks when disconnected.
 
 **Minimum to Qualify:**
 
