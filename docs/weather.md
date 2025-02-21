@@ -32,7 +32,7 @@ The app comes in two different flavors, both of which are fully open-source and 
 [:octicons-home-16: Homepage](https://github.com/breezy-weather/breezy-weather?tab=readme-ov-file#breezy-weather)
 { .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/breezy-weather/breezy-weather/blob/main/PRIVACY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:]([:octicons-info-16:](https://github.com/breezy-weather/breezy-weather/blob/main/README.md)){ .card-link title="Documentation" }
+[:octicons-info-16:](https://github.com/breezy-weather/breezy-weather/blob/main/README.md)){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/breezy-weather/breezy-weather){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/breezy-weather/breezy-weather.git){ .card-link title="Contribute" }
 
@@ -71,7 +71,7 @@ The app only supports  two sources : Open-Meteo and OpenWeatherMap([API key](htt
 
 <div class="admonition recommendation" markdown>
 
-![Weather Master logo](master.svg){ align=right }
+![Weather Master logo](assets/img/weather/master.svg){ align=right }
 
 Weather Master is a powerful weather with lot of information, 15 weather sources and customisation.
 
