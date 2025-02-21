@@ -162,6 +162,6 @@ Commonhealth is only available in the United States. It may not work on [rooted 
 ### Minimum Requirements
 
 - Must support automatic updates.
-- Must not store personal data outside of the device.
+- Must not store unencrypted data outside of the device.
 - Must function offline.
 - Must be reliably maintained for the foreseeable future.
