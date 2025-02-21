@@ -31,7 +31,7 @@ The app comes in two different flavors, both of which are fully open-source and 
 
 [:octicons-home-16: Homepage](https://github.com/breezy-weather/breezy-weather?tab=readme-ov-file#breezy-weather)
 { .md-button .md-button--primary }
-[:octicons-eye-16: Privacy Policy](https://github.com/breezy-weather/breezy-weather/blob/main/PRIVACY.md){ .card-link title="Privacy Policy" }
+[:octicons-eye-16:](https://github.com/breezy-weather/breezy-weather/blob/main/PRIVACY.md){ .card-link title="Privacy Policy" }
 [:octicons-info-16:]([:octicons-info-16:](https://github.com/breezy-weather/breezy-weather/blob/main/README.md)){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/breezy-weather/breezy-weather){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/breezy-weather/breezy-weather.git){ .card-link title="Contribute" }
@@ -55,9 +55,9 @@ QuickWeather is a no-fluss weather app that boasts being "really fast". Looking 
 
 The app only supports  two sources : Open-Meteo and OpenWeatherMap([API key](https://home.openweathermap.org/subscriptions/unauth_subscribe/onecall_30/base) needed.)
 
-[:octicons-home-16: Homepage](https://github.com/TylerWilliamson/QuickWeather)
-[:octicons-eye-16: Privacy Policy](https://github.com/TylerWilliamson/QuickWeather/blob/master/PrivacyPolicy.md)
-[:octicons-info-16: Documentation](https://github.com/TylerWilliamson/QuickWeather/tree/master?tab=readme-ov-file#-quickweather)
+[:octicons-home-16: Homepage](https://github.com/TylerWilliamson/QuickWeather){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/TylerWilliamson/QuickWeather/blob/master/PrivacyPolicy.md){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/TylerWilliamson/QuickWeather/tree/master?tab=readme-ov-file#-quickweather){ .card-link title="Documentation" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>\
@@ -81,9 +81,9 @@ The app doesn't support Android approximate location permission, but you can eas
 
 The app is highly customisable, allowing you not only to select which wheather source you want between the 15 proposed, but also what forecasting model you want to use and what map provider you prefer.
 
-[:octicons-home-16: Homepage](https://github.com/PranshulGG/WeatherMaster)
-[:octicons-eye-16: Privacy Policy](https://github.com/PranshulGG/WeatherMaster/blob/master/app/src/main/assets/pages/aboutPages/PrivacyPolicy.html)
-[:octicons-info-16: Documentation](https://github.com/PranshulGG/WeatherMaster?tab=readme-ov-file#-weathermaster)
+[:octicons-home-16: Homepage](https://github.com/PranshulGG/WeatherMaster{ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/PranshulGG/WeatherMaster/blob/master/app/src/main/assets/pages/aboutPages/PrivacyPolicy.html{ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/PranshulGG/WeatherMaster?tab=readme-ov-file#-weathermaster){ .card-link title="Documentation" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -103,12 +103,12 @@ OSSWeather is a weather available on both on iOS and Android. While the interfac
 
 Unfortunately, it onky support 3 weather sources and doesn't support iOS or Android's 'Approximate location' permission.
 
-[:octicons-home-16: Homepage](https://github.com/Akylas/oss-weather)
-[:octicons-info-16: Documentation](https://github.com/Akylas/oss-weather)
-[:octicons-heart-16: Donate](https://github.com/sponsors/farfromrefug)
+[:octicons-home-16: Homepage](https://github.com/Akylas/oss-weather){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Akylas/oss-weather){ .card-link title="Documentation" }
+[:octicons-heart-16:](https://github.com/sponsors/farfromrefug){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
-<summary<>>Downloads</summary>
+<summary>Downloads</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/en/app/oss-weather/id1499117252)
 - [:simple-googleplay: Google Play Store](https://play.google.com/store/apps/details?id=com.akylas.weather)
