@@ -18,8 +18,40 @@ definitions:
       material/book-open-page-variant
     {%- endif -%}
 
+  - &page_color >-
+    {%- if page.meta.preview and page.meta.preview.color -%}
+      {{- page.meta.preview.color -}}
+    {%- else -%}
+      #FFD06F
+    {%- endif -%}
+
+  - &text_color >-
+    {%- if page.meta.preview and page.meta.preview.text_color -%}
+      {{- page.meta.preview.text_color -}}
+    {%- else -%}
+      #2d2d2d
+    {%- endif -%}
+
+  - &background_transparency >-
+    {%- if page.meta.preview and page.meta.preview.color -%}
+      {{- page.meta.preview.color -}}99
+    {%- else -%}
+      #FFD06F99
+    {%- endif -%}
+
+  - &icon_transparency >-
+    {%- if page.meta.preview and page.meta.preview.text_color -%}
+      {{- page.meta.preview.text_color -}}33
+    {%- else -%}
+      #00000033
+    {%- endif -%}
+
   - &logo >-
-    theme/assets/brand/logos/svg/logo/privacy-guides-logo-notext-colorbg.svg
+    {%- if page.meta.preview and page.meta.preview.site_logo -%}
+      theme/assets/brand/logos/svg/logo/{{- page.meta.preview.site_logo -}}
+    {%- else -%}
+      theme/assets/brand/logos/svg/logo/privacy-guides-logo-notext-colorbg.svg
+    {%- endif -%}
 
   - &updated_time >-
     {% if page.config.date.updated %}
@@ -80,7 +112,7 @@ size: { width: 1200, height: 630 }
 layers:
   # Background
   - background:
-      color: "#FFD06F"
+      color: *page_color
 
   - size: { width: 512, height: 512 }
     offset: { x: 600, y: 59 }
@@ -88,14 +120,14 @@ layers:
       image: *page_logo
 
   - background:
-      color: "#FFD06F99"
+      color: *background_transparency
 
   # Page icon
   - size: { width: 630, height: 630 }
     offset: { x: 570, y: 0 }
     icon:
       value: *page_icon
-      color: "#00000033"
+      color: *icon_transparency
 
   # Logo
   - size: { width: 64, height: 64 }
@@ -108,20 +140,20 @@ layers:
     offset: { x: 160, y: 78 }
     typography:
       content: *site_name
-      color: "#2d2d2d"
+      color: *text_color
       font:
         family: Bagnard
         style: Bold
 
   # Page title
-  - size: { width: 864, height: 256 }
+  - size: { width: 864, height: 360 }
     offset: { x: 62, y: 192 }
     typography:
       content: *page_title
       align: start
-      color: "#2d2d2d"
+      color: *text_color
       line:
-        amount: 3
+        amount: 4
         height: 1.5
       font:
         family: Bagnard
