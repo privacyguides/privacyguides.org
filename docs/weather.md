@@ -9,13 +9,13 @@ cover: weather.jpg
 
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-**Weather apps** often ask for your location to provide accurate weather info. Often, they don't let you manually input your location. This is because the way they make money is by sellong your location to third-parties.
+**Weather apps** often ask for your location to provide accurate weather info. Often, they don't let you manually input your location. This is because the way they make money is by selling your location to third-parties.
 
-When any weather app ask for location, only grant it 'Approximate location' and select 'Only while using the app'. If the app claim you didn't give it location access, the app is lying to you, and this should be a red flag.
+When any weather app ask for location, only grant it 'Approximate location' and select 'Only while using the app'. You can temporarily change it to "Always" if you need it for travel. If the app claim you didn't give it location access, the app is lying to you. It could because of out-of-date knowledge of Android APIs, or because the app want to give precise location, either because it is easier for them to use this as opposed to Approximate location, or to sell the data.
 
-While the steps mentionned above will protect you from most of the tracking, it will not stop non-location tracking. Furthermore, Privacy Guides believe that we shouldn't rely only on ourselves to consitently uphold our privacy.
+While the steps mentioned above will protect you from most of the tracking, it will not stop non-location tracking. Furthermore, Privacy Guides believe that we shouldn't rely only on ourselves to consitently uphold our privacy.
 
-The tools recommended below are fully private and are open-source. See the criterias section at the end for more.
+The tools recommended below are fully **private** and are **open-source**. See the criterias section at the end for more.
 
 ## Breezy Weather
 
@@ -23,11 +23,13 @@ The tools recommended below are fully private and are open-source. See the crite
 
 ![Breezy Weather logo](assets/img/weather/breezy.webp){ align= right }
 
-Breezy Weather is an Android weather app with a modern and neat interface, similar to Big Tech ones. It is highly customizable, allowing you for example to change icons and choose your prefered weather sources.
+Breezy Weather is an Android weather app with a modern and neat interface, similar to Big Tech ones. It is highly customizable, allowing you for example to change icons and choose your preferred weather sources.
 
-The app unfortunately doesn't support [Android approximate location permision](https://developer.android.com/codelabs/approximate-location), so you will have to manually type where you live in if you don't want to give the app your exact location.
+The app supports [Android approximate location permision](https://developer.android.com/codelabs/approximate-location), altough you might need to wait a bit or try a few times, as it first say "Location not found" when using it.
 
 The app comes in two different flavors, both of which are fully open-source and contain no proprietary components. The standard flavor has all of the 50 weather sources (only some sources are available in your country), while the FreeNet one only contains sources that are libre and self-hostable, like OpenMeteo.
+
+The app gives severe weather alerts as well as precipations alerts.
 
 [:octicons-home-16: Homepage](https://github.com/breezy-weather/breezy-weather?tab=readme-ov-file#breezy-weather)
 { .md-button .md-button--primary }
@@ -51,9 +53,11 @@ The app comes in two different flavors, both of which are fully open-source and 
 
 ![QuickWeather logo](assets/img/weather/quick.png){ align=right }
 
-QuickWeather is a no-fluss weather app that boasts being "really fast". Looking away from the name, we see a couple of nice features. The app supports the 'Approximate location' permission, which is a good middle-ground between privacy and convenience. Furthermore, the app also has a rain radar, allowing you to quickly see whether it will rain where you live.
+QuickWeather is a no-fuss weather app that boasts being "really fast". Looking away from the name, we see a couple of nice features. The app supports the 'Approximate location' permission, which is a good middle-ground between privacy and convenience. Furthermore, the app also has a rain radar, allowing you to quickly see whether it will rain where you live.
 
 The app only supports  two sources : Open-Meteo and OpenWeatherMap([API key](https://home.openweathermap.org/subscriptions/unauth_subscribe/onecall_30/base) needed.)
+
+The app can give notifications about current weather, but "weather alerts" are only available if you give the app access to _precise_ location, something we don't recommend.
 
 [:octicons-home-16: Homepage](https://github.com/TylerWilliamson/QuickWeather){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/TylerWilliamson/QuickWeather/blob/master/PrivacyPolicy.md){ .card-link title="Privacy Policy" }
@@ -75,11 +79,13 @@ The app only supports  two sources : Open-Meteo and OpenWeatherMap([API key](htt
 
 Weather Master is a powerful weather with lot of information, 15 weather sources and customisation.
 
-The app not only informs you about the weather, but also about air pollution, air quality, UV index, pollen level, humidity level, and [many more](https://github.com/PranshulGG/WeatherMaster?tab=readme-ov-file#-features).
+The app not only informs you about the weather, but also about air pollution, air quality, UV index, pollen level, humidity level, and [many more](https://github.com/PranshulGG/WeatherMaster?tab=readme-ov-file#-features). The app also has a weather radar.
 
 The app doesn't support Android approximate location permission, but you can easily type where you live and it will remember it.
 
-The app is highly customisable, allowing you not only to select which wheather source you want between the 15 proposed, but also what forecasting model you want to use and what map provider you prefer.
+Unfortunately, the app doesn't support Android's pop-up notifications, so any alert - including severe weather alerts - will only be displayed in the app.
+
+The app is highly customisable, allowing you not only to select which weather source you want between the 15 proposed, but also what forecasting model you want to use and what map provider you prefer.
 
 [:octicons-home-16: Homepage](https://github.com/PranshulGG/WeatherMaster{ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/PranshulGG/WeatherMaster/blob/master/app/src/main/assets/pages/aboutPages/PrivacyPolicy.html{ .card-link title="Privacy Policy" }
@@ -99,9 +105,9 @@ The app is highly customisable, allowing you not only to select which wheather s
 
 [OSSWeather logo](assets/img/weather/oss.png){ align=right }
 
-OSSWeather is a weather available on both on iOS and Android. While the interface can be overwhelming at first, it is highly customisable. For example, you can change the number of days,  hours, and minutes available for forecasts. It is also designed for pros, with the option to chose between more than 15 forecasting models (with a few variants per model), and even compare 3 models in one chart.
+OSSWeather is a weather app available on both on iOS and Android. While the interface can be overwhelming at first, it is highly customisable. For example, you can change the number of days,  hours, and minutes available for forecasts. It is also designed for pros, with the option to chose between more than 15 forecasting models (with a few variants per model), and even compare 3 models in one chart.
 
-Unfortunately, it onky support 3 weather sources and doesn't support iOS or Android's 'Approximate location' permission.
+Unfortunately, it only support 3 weather sources and doesn't support iOS or Android's 'Approximate location' permission. It also doesn't give severe weather alerts.
 
 [:octicons-home-16: Homepage](https://github.com/Akylas/oss-weather){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Akylas/oss-weather){ .card-link title="Documentation" }
@@ -126,6 +132,7 @@ Unfortunately, it onky support 3 weather sources and doesn't support iOS or Andr
 
 - Be open-source
 - Doesn't require an account or doesn't exclusively use sources that require an account
+- Have enough weather sources to cover most countries.
 - Allow manual input of location
 - Doesn't contain any telemetry
 
@@ -133,3 +140,4 @@ Unfortunately, it onky support 3 weather sources and doesn't support iOS or Andr
 
 - Support giving only 'Approximate location' permission instead of potentially risky precise location.
 - Allow you to choose between a wide variety of weather sources and forecast models.
+- Support for emergency weather alerts
