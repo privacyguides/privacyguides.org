@@ -481,6 +481,29 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [Learn more :material-arrow-right-drop-circle:](frontends.md)
 
+### Health and Wellness Apps
+
+<div class="grid cards" markdown>
+
+#### Menstrual Cycle Tracking
+
+- ![drip. logo](assets/img/health-and-wellness/drip.svg){ .twemoji loading=lazy } [drip.](health-and-wellness.md#drip)
+- ![Euki logo](assets/img/health-and-wellness/euki.png){ .twemoji loading=lazy } [Euki](health-and-wellness.md#euki)
+
+#### Fitness Trackers
+
+- ![Apple Health logo](assets/img/health-and-wellness/apple-health.svg){ .twemoji loading=lazy } [Apple Health](health-and-wellness.md#apple-health)
+- ![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge.svg){ .twemoji loading=lazy } [Gadgetbridge](health-and-wellness.md#gadgetbridge)
+
+#### Health Records
+
+- ![Apple Health logo](assets/img/health-and-wellness/apple-health.svg){ .twemoji loading=lazy } [Apple Health Records](health-and-wellness.md#apple-health-records)
+- ![CommonHealth logo](assets/img/health-and-wellness/commonhealth.svg){ .twemoji loading=lazy } [CommonHealth](health-and-wellness.md#commonhealth)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](health-and-wellness.md)
+
 ### Language Tools
 
 <div class="grid cards" markdown>
