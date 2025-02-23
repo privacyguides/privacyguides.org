@@ -11,9 +11,9 @@ cover: weather.jpg
 
 **Weather apps** often ask for your location to provide accurate weather info. Often, they don't let you manually input your location. This is because the way they make money is by selling your location to third-parties.
 
-When any weather app ask for location, only grant it 'Approximate location' and select 'Only while using the app'. You can temporarily change it to "Always" if you need it for travel. If the app claim you didn't give it location access, the app is lying to you. It could because of out-of-date knowledge of Android APIs, or because the app want to give precise location, either because it is easier for them to use this as opposed to Approximate location, or to sell the data.
+When any weather app ask for location, only grant it 'Approximate location' and select 'Only while using the app'. You can temporarily change it to "Always" if you need it for travel. If the app claim you didn't give it location access, the app is lying to you. It could be because of out-of-date knowledge of Android APIs, or because the app wants you to give it precise location access, either because it is easier for them to use this as opposed to Approximate location, or to sell the data.
 
-While the steps mentioned above will protect you from most of the tracking, it will not stop non-location tracking. Furthermore, Privacy Guides believe that we shouldn't rely only on ourselves to consitently uphold our privacy.
+While the steps mentioned above will protect you from most of the tracking, it will not stop non-location tracking. Furthermore, Privacy Guides believes that you shouldn't rely only on yourself to consitently uphold your privacy.
 
 The tools recommended below are fully **private** and are **open-source**. See the criterias section at the end for more.
 
@@ -25,9 +25,9 @@ The tools recommended below are fully **private** and are **open-source**. See t
 
 Breezy Weather is an Android weather app with a modern and neat interface, similar to Big Tech ones. It is highly customizable, allowing you for example to change icons and choose your preferred weather sources.
 
-The app supports [Android approximate location permision](https://developer.android.com/codelabs/approximate-location), altough you might need to wait a bit or try a few times, as it first say "Location not found" when using it.
+The app supports [Android approximate location permision](https://developer.android.com/codelabs/approximate-location), although you might need to wait a bit or try a few times, as it first says "Location not found" when using it.
 
-The app comes in two different flavors, both of which are fully open-source and contain no proprietary components. The standard flavor has all of the 50 weather sources (only some sources are available in your country), while the FreeNet one only contains sources that are libre and self-hostable, like OpenMeteo.
+The app comes in two different flavors, both of which are fully open-source and contain no proprietary components. The standard flavor has all of the 50 weather sources (only some sources will be available in your country), while the FreeNet one only contains sources that are libre and self-hostable, like OpenMeteo.
 
 The app gives severe weather alerts as well as precipations alerts.
 
@@ -77,13 +77,13 @@ The app can give notifications about current weather, but "weather alerts" are o
 
 ![Weather Master logo](assets/img/weather/master.svg){ align=right }
 
-Weather Master is a powerful weather with lot of information, 15 weather sources and customisation.
+Weather Master is a powerful weather app with a lot of information, 15 weather sources and customisation.
 
-The app not only informs you about the weather, but also about air pollution, air quality, UV index, pollen level, humidity level, and [many more](https://github.com/PranshulGG/WeatherMaster?tab=readme-ov-file#-features). The app also has a weather radar.
+The app not only informs you about the weather, but also about air pollution, air quality, UV index, pollen level, humidity level, and [more](https://github.com/PranshulGG/WeatherMaster?tab=readme-ov-file#-features). The app also has a weather radar.
 
 The app doesn't support Android approximate location permission, but you can easily type where you live and it will remember it.
 
-Unfortunately, the app doesn't support Android's pop-up notifications, so any alert - including severe weather alerts - will only be displayed in the app.
+Unfortunately, the app doesn't support Android's pop-up notifications, so any alerts - including severe weather alerts - will only be displayed in the app.
 
 The app is highly customisable, allowing you not only to select which weather source you want between the 15 proposed, but also what forecasting model you want to use and what map provider you prefer.
 
