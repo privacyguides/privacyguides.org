@@ -34,8 +34,10 @@ cover: pastebins.webp
 **Paaster** is a secure and user-friendly pastebin application that prioritizes privacy and simplicity. With end-to-end encryption and paste history, Paaster ensures that your pasted code remains confidential and accessible.
 
 [:octicons-home-16: Homepage](https://paaster.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://paaster.io/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/WardPearce/paaster?tab=readme-ov-file#security){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/WardPearce/paaster){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/sponsors/WardPearce){ .card-link title="Contribute" }
 
 </div>
 
