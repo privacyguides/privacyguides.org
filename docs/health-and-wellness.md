@@ -133,13 +133,13 @@ These apps help you collect and manage personal health data and share it with he
 
 </div>
 
-### Commonhealth
+### CommonHealth
  
 <div class="admonition recommendation" markdown>
 
-![Commonhealth logo](assets/img/health-and-wellness/commonhealth.svg){ align=right }
+![CommonHealth logo](assets/img/health-and-wellness/commonhealth.svg){ align=right }
 
-**Commonhealth** is a privacy-respecting android alternative to Apple Health Records. It allows people to access their electronic health records and securely share it to providers.
+**CommonHealth** is a privacy-respecting android alternative to Apple Health Records. It allows people to access their electronic health records and securely share it to providers.
 
 [:octicons-home-16: Homepage](https://www.commonhealth.org/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://www.commonhealth.org/privacy){ .card-link title="Privacy Policy" }
@@ -153,7 +153,7 @@ These apps help you collect and manage personal health data and share it with he
 
 </div>
 
-Commonhealth is only available in the United States. It may not work on [rooted devices](https://www.commonhealth.org/ehr-implementation-guide#ehr-link-7) or devices with a custom ROM like Graphene OS. Although the app itself is closed source, the [developer SDK is open source](https://github.com/the-commons-project).
+CommonHealth is only available in the United States. It may not work on [rooted devices](https://www.commonhealth.org/ehr-implementation-guide#ehr-link-7) or devices with a custom ROM like Graphene OS. Although the app itself is closed source, the [developer SDK is open source](https://github.com/the-commons-project).
 
 ## Criteria
 
