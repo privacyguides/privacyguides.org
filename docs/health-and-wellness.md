@@ -90,7 +90,7 @@ These general purpose apps can do everything from counting steps and tracking sl
 
 <div class="admonition recommendation" markdown>
   
-![Gadgetbridge logo](assets/img/health-and-wellness/Gadgetbridge.svg){ align=right }
+![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge.svg){ align=right }
 
 **Gadgetbridge** allows you to pair and manage your bluetooth devices without using the vendor’s application. When paired with a compatible smartwatch, it can mimic the health and wellness functionality of these watches without third-party data collection. Gadgetbridge features include but are not limited to: a step counter, sleep tracker, and a heartbeat rate monitor.
 
