@@ -48,8 +48,10 @@ Popular menstrual trackers like [Flo](https://techcrunch.com/2021/01/13/flo-gets
 **Euki** is a nonprofit-backed menstrual cycle tracker that also doubles as a medication tracker and sexual wellness knowledge base. It allows you to regularly delete personal data through scheduled "sweeps" and features no third-party tracking. Pin protection is also included with this app.
 
 [:octicons-home-16: Homepage](https://eukiapp.org){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/Euki-Inc/Euki-Android){ .card-link title="Source Code" }
 [:octicons-eye-16:](https://eukiapp.org/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-code-16:](https://github.com/Euki-Inc/Euki-Android){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.every.org/euki-app){ .card-link title="Contribute" }
+
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
