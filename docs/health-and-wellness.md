@@ -139,7 +139,7 @@ These apps help you collect and manage personal health data and share it with he
  
 <div class="admonition recommendation" markdown>
 
-![CommonHealth logo](assets/img/health-and-wellness/commonhealth.svg){ align=right }
+![CommonHealth logo](assets/img/health-and-wellness/commonhealth.png){ align=right }
 
 **CommonHealth** is a privacy-respecting android alternative to Apple Health Records. It allows people to access their electronic health records and securely share it to providers.
 
