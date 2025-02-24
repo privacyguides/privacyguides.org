@@ -19,7 +19,7 @@ Popular menstrual trackers like [Flo](https://techcrunch.com/2021/01/13/flo-gets
 
 <div class="admonition recommendation" markdown>
 
-![drip logo](assets/img/health-and-wellness/drip.svg){ align=right }
+![drip logo](assets/img/health-and-wellness/drip.png){ align=right }
 
 **drip.** is a gender-inclusive and open source menstrual cycle tracker available on all mobile platforms. It relies on the sympto-thermal method to predict ovulation. In addition to pin protection, all user data is stored locally on the device.
 
