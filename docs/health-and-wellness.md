@@ -72,7 +72,7 @@ These general purpose apps can do everything from counting steps and tracking sl
 
 <div class="admonition recommendation" markdown>
   
-![Apple logo](assets/img/health-and-wellness/apple-health.svg){ align=right }
+![Apple logo](assets/img/health-and-wellness/apple-health.png){ align=right }
 
 **Apple Health** is the default healh and fitness app in iOS. Their privacy policy states that your personal data in encrypted at-rest and in-transit. Apple Health utilizes end-to-end encryption when syncing across multiple devices. Additionally, almost all measured data is processed on your phone. 
 
@@ -120,7 +120,7 @@ These apps help you collect and manage personal health data and share it with he
 
 <div class="admonition recommendation" markdown>
   
-![Apple logo](assets/img/health-and-wellness/apple-health.svg){ align=right }
+![Apple logo](assets/img/health-and-wellness/apple-health.png){ align=right }
 
 **Apple Health Records** is a built-in feature within **Apple Health** that allows you to view, store, and share your health records. It shares the security and privacy features of Apple Health.
 
