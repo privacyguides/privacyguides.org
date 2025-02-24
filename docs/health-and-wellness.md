@@ -97,6 +97,7 @@ These general purpose apps can do everything from counting steps and tracking sl
 **Gadgetbridge** allows you to pair and manage your bluetooth devices without using the vendor’s application. When paired with a compatible smartwatch, it can mimic the health and wellness functionality of these watches without third-party data collection. Gadgetbridge features include but are not limited to: a step counter, sleep tracker, and a heartbeat rate monitor.
 
 [:octicons-home-16: Homepage](https://gadgetbridge.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://gadgetbridge.org/basics/){ .card-link title="Documentation" }
 [:octicons-code-16:](https://codeberg.org/Freeyourgadget/website){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -144,7 +145,6 @@ These apps help you collect and manage personal health data and share it with he
 **CommonHealth** is a privacy-respecting android alternative to Apple Health Records. It allows people to access their electronic health records and securely share it to providers.
 
 [:octicons-home-16: Homepage](https://www.commonhealth.org/){ .md-button .md-button--primary }
-[:octicons-info-16:](https://gadgetbridge.org/basics/){ .card-link title="Documentation" }
 [:octicons-eye-16:](https://www.commonhealth.org/privacy){ .card-link title="Privacy Policy" }
 
 <details class="downloads" markdown>
