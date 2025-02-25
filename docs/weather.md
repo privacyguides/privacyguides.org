@@ -128,7 +128,7 @@ Unfortunately, it only support 3 weather sources and doesn't support iOS or Andr
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-### Minimum qualifications
+### Minimum Requirements
 
 - Be open-source
 - Doesn't require an account or doesn't exclusively use sources that require an account
@@ -136,7 +136,7 @@ Unfortunately, it only support 3 weather sources and doesn't support iOS or Andr
 - Allow manual input of location
 - Doesn't contain any telemetry
 
-### Best-case scenario
+### Best-Case scenario
 
 - Support giving only 'Approximate location' permission instead of potentially risky precise location.
 - Allow you to choose between a wide variety of weather sources and forecast models.
