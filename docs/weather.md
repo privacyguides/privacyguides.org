@@ -40,8 +40,8 @@ The app gives severe weather alerts as well as precipations alerts.
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-android: Github](<https://github.com/breezy-weather/b> reezy-weather/releases)
--[:simple-obtainium: Obtainium](https://github.com/breezy-weather/breezy-weather/blob/main/INSTALL.md#obtainium)
+- [:simple-android: Github](https://github.com/breezy-weather/breezy-weather/releases)
+- [:simple-obtainium: Obtainium](https://github.com/breezy-weather/breezy-weather/blob/main/INSTALL.md#obtainium)
 
 </details>
 </div>
