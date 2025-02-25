@@ -57,7 +57,7 @@ QuickWeather is a no-fuss weather app that boasts being "really fast". Looking a
 
 The app only supports  two sources : Open-Meteo and OpenWeatherMap([API key](https://home.openweathermap.org/subscriptions/unauth_subscribe/onecall_30/base) needed.)
 
-The app can give notifications about current weather, but "weather alerts" are only available if you give the app access to _precise_ location, something we don't recommend.
+The app can give notifications about current weather, but "weather alerts" are only available if you give the app access to *precise* location, something we don't recommend.
 
 [:octicons-home-16: Homepage](https://github.com/TylerWilliamson/QuickWeather){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/TylerWilliamson/QuickWeather/blob/master/PrivacyPolicy.md){ .card-link title="Privacy Policy" }
@@ -87,8 +87,8 @@ Unfortunately, the app doesn't support Android's pop-up notifications, so any al
 
 The app is highly customisable, allowing you not only to select which weather source you want between the 15 proposed, but also what forecasting model you want to use and what map provider you prefer.
 
-[:octicons-home-16: Homepage](https://github.com/PranshulGG/WeatherMaster{ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/PranshulGG/WeatherMaster/blob/master/app/src/main/assets/pages/aboutPages/PrivacyPolicy.html{ .card-link title="Privacy Policy" }
+[:octicons-home-16: Homepage](https://github.com/PranshulGG/WeatherMaster){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/PranshulGG/WeatherMaster/blob/master/app/src/main/assets/pages/aboutPages/PrivacyPolicy.html){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/PranshulGG/WeatherMaster?tab=readme-ov-file#-weathermaster){ .card-link title="Documentation" }
 
 <details class="downloads" markdown>
