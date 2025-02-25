@@ -1,6 +1,6 @@
 ---
 title: " Private Weather Apps"
-icon: "material/weather"
+icon: "material/weather-partly-snowy-rainy"
 description: "Weather apps often ask for your location and share it with advertisers. Instead, use private open-source weather apps."
 cover: weather.jpg
 ---
@@ -103,7 +103,7 @@ The app is highly customisable, allowing you not only to select which weather so
 
 <div class="admonition recommendation" markdown>
 
-[OSSWeather logo](assets/img/weather/oss.png){ align=right }
+![OSSWeather logo](assets/img/weather/oss.png){ align=right }
 
 OSSWeather is a weather app available on both on iOS and Android. While the interface can be overwhelming at first, it is highly customisable. For example, you can change the number of days,  hours, and minutes available for forecasts. It is also designed for pros, with the option to chose between more than 15 forecasting models (with a few variants per model), and even compare 3 models in one chart.
 
