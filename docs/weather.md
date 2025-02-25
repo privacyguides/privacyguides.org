@@ -21,7 +21,7 @@ The tools recommended below are fully **private** and are **open-source**. See t
 
 <div class="admonition recommendation" markdown>
 
-![Breezy Weather logo](assets/img/weather/breezy.webp){ align= right }
+![Breezy Weather logo](assets/img/weather/breezy.webp){ align=right }
 
 Breezy Weather is an Android weather app with a modern and neat interface, similar to Big Tech ones. It is highly customizable, allowing you for example to change icons and choose your preferred weather sources.
 
@@ -34,9 +34,9 @@ The app gives severe weather alerts as well as precipations alerts.
 [:octicons-home-16: Homepage](https://github.com/breezy-weather/breezy-weather?tab=readme-ov-file#breezy-weather)
 { .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/breezy-weather/breezy-weather/blob/main/PRIVACY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/breezy-weather/breezy-weather/blob/main/README.md)){ .card-link title="Documentation" }
+[:octicons-info-16:](https://github.com/breezy-weather/breezy-weather/blob/main/README.md){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/breezy-weather/breezy-weather){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/breezy-weather/breezy-weather.git){ .card-link title="Contribute" }
+[:octicons-heart-16:](https://github.com/breezy-weather/breezy-weather?tab=readme-ov-file#contribute){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
