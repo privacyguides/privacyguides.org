@@ -31,8 +31,7 @@ The app comes in two different flavors, both of which are fully open-source and 
 
 The app gives severe weather alerts as well as precipations alerts.
 
-[:octicons-home-16: Homepage](https://github.com/breezy-weather/breezy-weather?tab=readme-ov-file#breezy-weather)
-{ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://github.com/breezy-weather/breezy-weather?tab=readme-ov-file#breezy-weather){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/breezy-weather/breezy-weather/blob/main/PRIVACY.md){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/breezy-weather/breezy-weather/blob/main/README.md){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/breezy-weather/breezy-weather){ .card-link title="Source Code" }
@@ -41,7 +40,7 @@ The app gives severe weather alerts as well as precipations alerts.
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
--[:simple-android: Github](https://github.com/breezy-weather/breezy-weather/releases)
+- [:simple-android: Github](<https://github.com/breezy-weather/b> reezy-weather/releases)
 -[:simple-obtainium: Obtainium](https://github.com/breezy-weather/breezy-weather/blob/main/INSTALL.md#obtainium)
 
 </details>
@@ -64,9 +63,10 @@ The app can give notifications about current weather, but "weather alerts" are o
 [:octicons-info-16:](https://github.com/TylerWilliamson/QuickWeather/tree/master?tab=readme-ov-file#-quickweather){ .card-link title="Documentation" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>\
-[:simple-googleplay: Google Play Store](https://play.google.com/store/apps/details?id=com.ominous.quickweather)
-[:simple-android: Github](https://github.com/TylerWilliamson/QuickWeather/releases)
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.ominous.quickweather)
+- [:simple-android: Github](https://github.com/TylerWilliamson/QuickWeather/releases)
 
 </details>
 </div>
@@ -117,7 +117,7 @@ Unfortunately, it only support 3 weather sources and doesn't support iOS or Andr
 <summary>Downloads</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/en/app/oss-weather/id1499117252)
-- [:simple-googleplay: Google Play Store](https://play.google.com/store/apps/details?id=com.akylas.weather)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.akylas.weather)
 - [:simple-android: Github](https://github.com/Akylas/oss-weather/releases)
 
 </details>
