@@ -11,7 +11,7 @@ tags:
     - United States
 links:
     - posts/hide-nothing.md
-canonical: https://www.jonaharagon.com/posts/restrict-act/
+canonical_url: https://www.jonaharagon.com/posts/restrict-act/
 description: The RESTRICT Act would grant the government broad powers to restrict access to any site or service they claim could pose a threat to national security, akin to China's Great Firewall.
 schema_type: OpinionNewsArticle
 ---

@@ -156,5 +156,5 @@ layers:
         amount: 4
         height: 1.5
       font:
-        family: Bagnard
+        family: Public Sans
         style: Bold

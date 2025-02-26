@@ -34,7 +34,9 @@
     {% elif config.site_author %}
     <meta name="author" content="{{ config.site_author }}">
     {% endif %}
-    {% if page.canonical_url %}
+    {% if page.meta and page.meta.canonical_url %}
+    <link rel="canonical" href="{{ page.meta.canonical_url }}">
+    {% elif page.canonical_url %}
     <link rel="canonical" href="{{ page.canonical_url }}">
     {% endif %}
     {% if page.previous_page %}
