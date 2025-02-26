@@ -366,6 +366,16 @@ markdown_extensions:
 
 nav:
   - !ENV [NAV_HOME, "Home"]: "index.md"
+  - !ENV [NAV_GETTING_STARTED, "Getting Started"]:
+      - "getting-started/index.md"
+      - "getting-started/big-tech.md"
+      - "getting-started/mass-surveillance.md"
+      - "getting-started/censorship-avoidance.md"
+      - "getting-started/digital-security.md"
+      - "getting-started/publishing.md"
+      - "getting-started/stalking-abuse.md"
+      - "getting-started/targeted-attacks.md"
+      - "getting-started/digital-rights.md"
   - !ENV [NAV_KNOWLEDGE_BASE, "Knowledge Base"]:
       - "basics/why-privacy-matters.md"
       - "basics/threat-modeling.md"
