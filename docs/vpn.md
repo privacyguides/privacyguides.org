@@ -2,7 +2,7 @@
 meta_title: "Private VPN Service Recommendations and Comparison, No Sponsors or Ads - Privacy Guides"
 title: "VPN Services"
 icon: material/vpn
-description: The best VPN services for protecting your privacy and security online. Find a provider here that isn’t out to spy on you.
+description: The best VPN services for protecting your privacy and security online. Find a provider here that isn't out to spy on you.
 cover: vpn.webp
 global:
  - [randomize-element, "table tbody"]
@@ -283,11 +283,11 @@ It is important to note that using a VPN provider will not make you anonymous, b
 
 ### Technology
 
-We require all our recommended VPN providers to provide OpenVPN configuration files to be used in any client. **If** a VPN provides their own custom client, we require a kill switch to block network data leaks when disconnected.
+We require all our recommended VPN providers to provide standard configuration files which can be used in a generic, open-source client. **If** a VPN provides their own custom client, we require a kill switch to block network data leaks when disconnected.
 
 **Minimum to Qualify:**
 
-- Support for strong protocols such as WireGuard & OpenVPN.
+- Support for strong protocols such as WireGuard.
 - Kill switch built in to clients.
 - Multi-hop support. Multi-hopping is important to keep data private in case of a single node compromise.
 - If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what the program is actually doing.
@@ -317,7 +317,7 @@ We prefer our recommended providers to collect as little data as possible. Not c
 
 ### Security
 
-A VPN is pointless if it can't even provide adequate security. We require all our recommended providers to abide by current security standards for their OpenVPN connections. Ideally, they would use more future-proof encryption schemes by default. We also require an independent third-party to audit the provider's security, ideally in a very comprehensive manner and on a repeated (yearly) basis.
+A VPN is pointless if it can't even provide adequate security. We require all our recommended providers to abide by current security standards. Ideally, they would use more future-proof encryption schemes by default. We also require an independent third-party to audit the provider's security, ideally in a very comprehensive manner and on a repeated (yearly) basis.
 
 **Minimum to Qualify:**
 
