@@ -55,11 +55,11 @@ This sets you up on a nice schedule to re-review each website approximately ever
 
 Once you have opted-out of all of these sites for the first time, it's best to wait a week or two for the requests to propagate to all their sites. Then, you can start to search and opt-out of any remaining sites you find. It can be a good idea to use a web crawler like [Google's *Results about you*](#google-results-about-you-free) tool to help find any data that remains on the internet.
 
-Otherwise, privacy journalist Yael Grauer has compiled an excellent list of data broker sites with direct links to their search tools and opt-out pages. You can take some time to go though each site to determine whether they have your information, and remove it:
+Otherwise, privacy journalist Yael Grauer has compiled an excellent list of data broker sites with direct links to their search tools and opt-out pages. You can take some time to go through each site to determine whether they have your information, and remove it:
 
 [:simple-github: Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List){ .md-button }
 
-If you don't use an automatic scanner to find results about you, consider setting a reminder to re-do this process every 3, 6, or 12 months depending on your risk level and the amount of personal data you have out there. Unfortunately, it is common for your data to re-appear over time or show up on brand new people search sites even after you opt-out.
+If you don't use an automatic scanner to find results about you, consider setting a reminder to re-do this process every 3, 6, or 12 months depending on your risk level and the amount of personal data you have out there. Unfortunately, it is common for your data to re-appear over time or show up on brand-new people search sites even after you opt out.
 
 ## EasyOptOuts <small>Paid</small>
 
@@ -124,7 +124,7 @@ In our testing, this tool worked to reliably remove people search sites from Goo
 
 Our picks for removal services are primarily based on independent professional testing from third-parties as noted in the sections above, our own internal testing, and aggregated reviews from our community.
 
-- Must not be a whitelabeled service or reseller of another provider.
+- Must not be a white labeled service or reseller of another provider.
 - Must not be affiliated with the data broker industry or purchase advertising on people search sites.
 - Must only use your personal data for the purposes of opting you out of data broker databases and people search sites.
 

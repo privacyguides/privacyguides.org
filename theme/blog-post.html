@@ -244,6 +244,26 @@
 
     <!-- Page content -->
     <article class="md-content__inner md-typeset">
+      {% set postyear = page.config.date.created.strftime('%s') | int %}
+      {% set currentyear = build_date_utc.strftime('%s') | int %}
+      {% set difference = (currentyear / 2628000) - (postyear / 2628000) %}
+      {% if difference > 18 %}
+      {% set yearsdifference = ((difference - 1) / 12) | int %}
+      <div>
+        <div class="admonition info" style="max-width: 14rem">
+          <p class="admonition-title" title="Some information may no longer be relevant or accurate. We encourage you to conduct your own research to verify if any changes have occurred.">
+            This article is more than {{ yearsdifference }}
+            {% if yearsdifference == 1 %}
+              year
+            {% else %}
+              years
+            {% endif %}
+            old
+          </p>
+        </div>
+      </div>
+      {% endif %}
+
       {% block content %}
         {% include "partials/content.html" %}
       {% endblock %}

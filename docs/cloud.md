@@ -27,7 +27,7 @@ Nextcloud is [still a recommended tool](document-collaboration.md#nextcloud) for
 
 ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail). The initial free storage is limited to 2GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5GB.
+**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail). The initial free storage is limited to 2 GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5 GB.
 
 [:octicons-home-16: Homepage](https://proton.me/drive){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/drive/privacy-policy){ .card-link title="Privacy Policy" }
@@ -120,7 +120,7 @@ Running a local version of Peergos alongside a registered account on their paid,
 
 Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November 2024 by Radically Open Security and all issues were fixed. They were previously [audited](https://cure53.de/pentest-report_peergos.pdf) by Cure53 in June 2019, and all found issues were subsequently fixed.
 
-An Android app is not available but it is [in the works](https://discuss.privacyguides.net/t/peergos-private-storage-sharing-social-media-and-application-platform/11825/25). The current workaround is to use the mobile [PWA](https://peergos.net) instead.
+An Android app is not available, but it is [in the works](https://discuss.privacyguides.net/t/peergos-private-storage-sharing-social-media-and-application-platform/11825/25). The current workaround is to use the mobile [PWA](https://peergos.net) instead.
 
 ## Criteria
 
@@ -130,7 +130,7 @@ An Android app is not available but it is [in the works](https://discuss.privacy
 
 - Must enforce end-to-end encryption.
 - Must offer a free plan or trial period for testing.
-- Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
+- Must support TOTP or FIDO2 multifactor authentication, or passkey logins.
 - Must offer a web interface which supports basic file management functionality.
 - Must allow for easy exports of all files/documents.
 

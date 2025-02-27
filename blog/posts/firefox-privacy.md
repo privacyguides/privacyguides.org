@@ -19,13 +19,13 @@ schema_type: AnalysisNewsArticle
 
 <small aria-hidden="true">Illustration: Jonah Aragon / Privacy Guides | Photo: Unsplash</small>
 
-Mozilla Firefox is one of the most popular web browsers around, and for good reason. It's fast, secure, open-source, and it's backed by an organization that actually respects your privacy. Unlike many other Chrome alternatives and forks, it has a massive development team behind it that publishes new updates on a constant, regular basis. Regular updates doesn't only mean shiny new features, it means you'll also receive security updates that will keep you protected as you browse the web.<!-- more -->
+Mozilla Firefox is one of the most popular web browsers around, and for good reason. It's fast, secure, open-source, and it's backed by an organization that actually respects your privacy. Unlike many other Chrome alternatives and forks, it has a massive development team behind it that publishes new updates on a constant, regular basis. Regular updates don't only mean shiny new features, it means you'll also receive security updates that will keep you protected as you browse the web.<!-- more -->
 
 Because of all of this, [we recommend Firefox](https://www.privacyguides.org/desktop-browsers/#firefox) as our general-purpose browser for most users. It's the best alternative to Chrome and Edge for privacy conscious individuals.
 
 Firefox is fantastic out of the box, but where it really shines is customizability. By adjusting Firefox privacy settings and using helpful add-ons, you can increase your privacy and security even further. Making those changes is what we're going to go over in this Firefox privacy guide.
 
-Before we get started, there's a couple things that should be noted that are not only applicable to this guide, but privacy in general:
+Before we get started, there's a couple of things that should be noted that are not only applicable to this guide, but privacy in general:
 
 ## Considerations
 
@@ -33,7 +33,7 @@ Protecting your privacy online is a tricky proposition, there are so many factor
 
 ### Threat Modeling
 
-What is [threat modeling](https://www.privacyguides.org/basics/threat-modeling/)? Consider who you're trying to keep your data hidden from. Do you need to keep your information hidden from the government, or just the average stranger? Maybe you are just looking to alternatives to Big Tech like Google and Facebook. You'll also want to consider how much time and resources you want to spend hiding your data from those "threats". Some solutions might not be feasible from a financial or time standpoint and you'll have to make compromises. Taking all those questions into account creates a basic threat model for you to work with.
+What is [threat modeling](https://www.privacyguides.org/basics/threat-modeling/)? Consider who you're trying to keep your data hidden from. Do you need to keep your information hidden from the government, or just the average stranger? Maybe you are just looking to alternatives to Big Tech like Google and Facebook. You'll also want to consider how much time and resources you want to spend hiding your data from those "threats". Some solutions might not be feasible from a financial or time standpoint, and you'll have to make compromises. Taking all those questions into account creates a basic threat model for you to work with.
 
 We want to publish a more complete guide on threat modeling in the future, so stay tuned to this blog for further updates. But for now, just keep those thoughts in the back of your mind as we go through this article. Not every solution might be for you, or conversely you may need to pay more attention to certain areas we aren't able to cover completely.
 
@@ -41,7 +41,7 @@ We want to publish a more complete guide on threat modeling in the future, so st
 
 Another consideration is your browser's fingerprint. When you visit a web page, your browser voluntarily sends information about its configuration, such as available fonts, browser type, and add-ons. If this combination of information is unique, it may be possible to identify and track you without using more common tracking tools, like cookies.
 
-That's right, add-ons contribute to your fingerprint. Another thing a lot of people miss when they are setting up their browser is that more is not always the best solution to their problems. You don't need to use every add-on and tweak we recommend installed, and the more you configure the greater chance there is that your browser will appear more unique to websites. Think about your specific situation and pick and choose the add-ons and tweaks we recommend only if you think they will help you.
+That's right, add-ons contribute to your fingerprint. Another thing a lot of people miss when they are setting up their browser is that more is not always the best solution to their problems. You don't need to use every add-on and tweak we recommend installed, and the more you configure, the greater chance there is that your browser will appear more unique to websites. Think about your specific situation and pick and choose the add-ons and tweaks we recommend only if you think they will help you.
 
 ## Firefox Privacy Settings
 
@@ -55,7 +55,7 @@ Encrypted DNS takes many forms: DNS over HTTPS (DoH), DNS over TLS, DNSCrypt, et
 
 Keep in mind that by using DoH you're sending all your queries to a single provider, probably Cloudflare unless you choose [another provider](https://www.privacyguides.org/dns/) that supports DNS over HTTPS. While it may add some privacy protection from your ISP, you're only shifting that trust to the DoH provider. Make sure that's something you want to do.
 
-It should also be noted that even with DoH, your ISP will still be able to see what domain you're connecting to because of a technology called Server Name Indication (SNI). Until SNI is encrypted as well, there's no getting around it. Encrypted SNI (eSNI) is in the works — and can actually be [enabled on Firefox](https://blog.cloudflare.com/encrypt-that-sni-firefox-edition/) today — but it only works with a small number of servers, mainly ones operated by Cloudflare, so its use is limited currently. Therefore, while DoH provides some additional privacy and integrity protections, its use as a privacy tool is limited until other supplemental tools like eSNI and [DNSSEC](https://www.icann.org/resources/pages/dnssec-what-is-it-why-important-2019-03-05-en) are finalized and implemented.
+It should also be noted that even with DoH, your ISP will still be able to see what domain you're connecting to because of a technology called Server Name Indication (SNI). Until SNI is encrypted as well, there's no getting around it. Encrypted SNI (eSNI) is in the works — and can actually be [enabled on Firefox](https://blog.cloudflare.com/encrypt-that-sni-firefox-edition/) today — but it only works with a few servers, mainly ones operated by Cloudflare, so its use is limited currently. Therefore, while DoH provides some additional privacy and integrity protections, its use as a privacy tool is limited until other supplemental tools like eSNI and [DNSSEC](https://www.icann.org/resources/pages/dnssec-what-is-it-why-important-2019-03-05-en) are finalized and implemented.
 
 ### Change Your Search Engine
 
@@ -67,11 +67,11 @@ Now we'll delve into the biggest set of options for people like us, Firefox's **
 
 In rare occasions, Strict browsing protections might cause some of the websites you visit to not function properly. But there's no need to worry! If you suspect the Strict browsing protection is breaking a website you visit frequently, you can disable it on a site by site basis with the shield icon in the address bar.
 
-Disabling Enhanced Tracking Protection will of course decrease your privacy on that site, so you will have consider whether that's something you are willing to compromise on, on a site-by-site basis.
+Disabling Enhanced Tracking Protection will of course decrease your privacy on that site, so you will have to consider whether that's something you are willing to compromise on, on a site-by-site basis.
 
 Another benefit of Firefox's Enhanced Tracking Protection is that it can actually speed up your browsing! Advertising networks and social media embeds can sometimes make your browser download huge files just to show an ad or a like button, and blocking those out trims the fat, in a sense.
 
-### Disabling Telemetrics
+### Disabling Telemetry
 
 When you use Firefox, Mozilla collects information about what you do, what kind of extensions you have installed, and various other aspects of your browser. While they claim to do this in a privacy-respecting way, sending as little data as possible is always preferred from a privacy standpoint, so we would go ahead and uncheck all the boxes under **Firefox Data Collection and Use** just to be safe.
 
@@ -81,7 +81,7 @@ This one is for more advanced users, so if you don't understand what this is doi
 
 This will likely log you out of websites quite often, so make sure that's an inconvenience you're willing to put up with for enhanced privacy.
 
-## Firefox Privacy Add-Ons
+## Firefox Privacy Add-ons
 
 Of course, just the browser settings alone won't go quite far enough to protect your privacy. Mozilla has made a lot of compromises in order to provide a more functional browsing experience for the average user, which is completely understandable. But, we can take it even further with some browser add-ons that prevent tracking and make your experience more private and secure.
 
@@ -99,7 +99,7 @@ Out of the box, these add-ons only complement the settings we've described in th
 
 ### uBlock Origin
 
-[**uBlock Origin**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) is an efficient ad- and tracker-blocker that is easy on memory, and yet can load and enforce thousands more filters than competing blockers. We trust it because it is completely open-source. Additionally, unlike its competitors it has no monetization strategy: There's no "Acceptable" ads program or a similar whitelist like many other adblockers feature.
+[**uBlock Origin**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) is an efficient ad- and tracker-blocker that is easy on memory, and yet can load and enforce thousands more filters than competing blockers. We trust it because it is completely open-source. Additionally, unlike its competitors it has no monetization strategy: There's no "Acceptable" ads program or a similar whitelist like many other ad blockers feature.
 
 ### HTTPS Everywhere
 
@@ -111,11 +111,11 @@ Of course, it only works with sites that support HTTPS on the server's side, so 
 
 ### Decentraleyes
 
-When you connect to many websites, your browser is most likely making connections to a myriad of "Content Delivery Networks" like Google Fonts, Akamai, and Cloudflare, to download fonts and Javascript that make the website run. This generally makes websites look and feel better, but it means you're constantly making connections to these servers, allowing them to build a fairly accurate tracking profile of you.
+When you connect to many websites, your browser is most likely making connections to a myriad of "Content Delivery Networks" like Google Fonts, Akamai, and Cloudflare, to download fonts and JavaScript that make the website run. This generally makes websites look and feel better, but it means you're constantly making connections to these servers, allowing them to build a fairly accurate tracking profile of you.
 
 [**Decentraleyes**](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes) works by impersonating those CDNs locally in your browser. When a website wants to download a program like jQuery, instead of connecting to a remote CDN Decentraleyes will serve the file from its own cache of files. This means that you'll won't have to make remote CDN connections for the files that Decentraleyes supports, and therefore the remote CDNs can't track your browser. Because everything is stored locally instead of on a far away server, Decentraleyes has the added benefit of speeding up your browsing as well. Everything happens instantly, and you won't see a difference in the websites you visit.
 
-### Additional Privacy Add-Ons
+### Additional Privacy Add-ons
 
 There is of course more functionality that can be achieved at the expense of more time spent configuring your browser and reduced website functionality. If you're looking for the most privacy options possible however, they may be for you. Check out our [desktop browsers recommendations page](https://www.privacyguides.org/desktop-browsers/) for further information and additional resources.
 
@@ -125,7 +125,7 @@ Firefox has developed a number of other privacy tools that can be used to enhanc
 
 ### Firefox Private Network
 
-Firefox Private Network is a new extension developed by Mozilla that serves as a [Virtual Private Network](https://www.privacyguides.org/basics/vpn-overview/) (VPN), securing you on public WiFi networks and other situations where you might trust Mozilla more than the ISP or network administrator. It is free in beta, but will likely be available at some subscription pricing once the test pilot ends.
+Firefox Private Network is a new extension developed by Mozilla that serves as a [Virtual Private Network](https://www.privacyguides.org/basics/vpn-overview/) (VPN), securing you on public Wi-Fi networks and other situations where you might trust Mozilla more than the ISP or network administrator. It is free in beta, but will likely be available at some subscription pricing once the test pilot ends.
 
 Firefox Private Network is still just a VPN, and there are a number of drawbacks you would want to consider before using it. We wrote an entire article on [choosing a VPN provider](https://www.jonaharagon.com/posts/choosing-a-vpn/) that is worth a read, but it boils down to the fact that your VPN provider will be able to see your web traffic. All you are accomplishing is shifting the trust from your network to the VPN provider, in this case *Cloudflare*, the operators behind this service.
 
@@ -139,13 +139,13 @@ If you require a Virtual Private Network, we would look elsewhere. There are a n
 
 Mozilla has an in-house add-on called [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers) that allows you to isolate websites from each other. For example, you could have Facebook in a container separate from your other browsing. In this situation, Facebook would only be able to set cookies with your profile on sites within the container, keeping your other browsing protected.
 
-A containers setup may be a good alternative to techniques like regularly deleting cookies, but requires a lot of manual intervention to setup and maintain. If you want complete control of what websites can do in your browser, it's definitely worth looking into, but we wouldn't call it a necessary addition by any means.
+A containers setup may be a good alternative to techniques like regularly deleting cookies, but requires a lot of manual intervention to set up and maintain. If you want complete control of what websites can do in your browser, it's definitely worth looking into, but we wouldn't call it a necessary addition by any means.
 
 ## Additional Resources
 
 [Desktop Browsers (Privacy Guides)](https://www.privacyguides.org/desktop-browsers/) — Our comprehensive set of recommendations for browsers and tweaks you can make to enhance your privacy is a great next step for more advanced users looking to protect their privacy online.
 
-[arkenfox user.js](https://github.com/arkenfox/user.js) — For more advanced users, the arkenfox user.js  is a "configuration file that can control hundreds of Firefox settings [...] which aims to provide as much privacy and enhanced security as possible, and to reduce tracking and fingerprinting as much as possible - while minimizing any loss of functionality and breakage".
+[Arkenfox user.js](https://github.com/arkenfox/user.js) — For more advanced users, the Arkenfox user.js is a "configuration file that can control hundreds of Firefox settings [...] which aims to provide as much privacy and enhanced security as possible, and to reduce tracking and fingerprinting as much as possible - while minimizing any loss of functionality and breakage".
 
 [Mozilla's Privacy Policy](https://www.mozilla.org/en-US/privacy/) — Of course, we always recommend reading through the privacy statement of any organization you deal with, and Mozilla is no exception.
 

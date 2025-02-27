@@ -56,7 +56,7 @@ This article will not get into the complexities of the best kinds of end-to-end 
 
 The popular messaging app Telegram has come under fire the most for this. Telegram says on their homepage that, “Telegram messages are heavily encrypted and can self-destruct.” Yet, this statement is only partially true. Yes, you can set your messages to self-destruct, a great privacy feature for some, and yes, they do offer encryption, but what they don’t tell users is that encryption isn’t turned on by default.
 
-In an [interview](https://web.archive.org/web/20210729190737/https://gizmodo.com/why-you-should-stop-using-telegram-right-now-1782557415) with Gizmodo, Christopher Soghoian, Principal Technologist and Senior Policy Analyst at the American Civil Liberties Union said that, "There are many Telegram users who think they are communicating in an [end-to-end] encrypted way, when they’re not because they don’t realize that they have to turn on an additional setting,” he continued to say that while he’s happy they offer the encryption, it’s not useful if it’s turned off.
+In an [interview](https://web.archive.org/web/20210729190737/https://gizmodo.com/why-you-should-stop-using-telegram-right-now-1782557415) with Gizmodo, Christopher Soghoian, Principal Technologist and Senior Policy Analyst at the American Civil Liberties Union said that, "There are many Telegram users who think they are communicating in an [end-to-end] encrypted way, when they’re not because they don’t realize that they have to turn on an additional setting," he continued to say that while he’s happy they offer the encryption, it’s not useful if it’s turned off.
 
 Apps such as Signal, Keybase, and Wickr offer E2EE by default. Less popular but quickly growing apps such as Element, offer E2EE but like Telegram, have not made it a default setting, though the Matrix.org team has [said](https://web.archive.org/web/20210729190737/https://github.com/vector-im/element-web/issues/6779) that default encryption is on their road map.
 
@@ -66,7 +66,7 @@ Ensuring your conversations and metadata are E2EE is one of the best practices y
 
 When it comes to your goals and threat model, you will need to decide how much, if any, information you’re willing to give this company on signup. Do they require a phone number and or SIM card? Do they require an email address, or do they allow completely anonymous signups, and how anonymous is anonymous? Are they storing that info (remember the metadata) unencrypted?
 
-Giving up your phone number or email won’t be a big deal for many, as any good privacy policy will state they won’t use it for any purpose other than those you’ve granted permission for. Yet, for those avoiding state-sponsored surveillance, you may have a regularly changing number, no number, or would rather not risk giving that information up. Same goes for email.
+Giving up your phone number or email won’t be a big deal for many, as any good privacy policy will state they won’t use it for any purpose other than those you’ve granted permission for. Yet, for those avoiding state-sponsored surveillance, you may have a regularly changing number, no number, or would rather not risk giving that information up. The same goes for email.
 
 So, you will want to find a service that fits this need. While Signal is currently testing signup without a phone number, currently you’re unable to do so. Element, Wickr, many XMPP services, don’t require anything but choosing a username.
 
@@ -86,9 +86,9 @@ If you’re unsure what to do here, it’s always a safe bet to stick with open 
 
 ## Ownership & Trust
 
-An often overlooked, but increasingly important part of choosing a secure messenger is, who owns the company that’s providing your service? What would the gain or lose from selling your data and who does the company answer to?
+An often overlooked, but increasingly important part of choosing a secure messenger is, who owns the company that’s providing your service? What would the gain or lose from selling your data, and who does the company answer to?
 
-Wire [recently lost](https://web.archive.org/web/20210729190737/https://blog.privacytools.io/delisting-wire/) a great deal of trust and standing in the privacy world because they quietly sold their company and moved it to the US. They also changed parts of their privacy policy making it harder for users to tell when Wire would share customer data. They did all of this while never updating their current users of such changes, either to the change of the privacy policy, or the move to the US.
+Wire [recently lost](https://web.archive.org/web/20210729190737/https://blog.privacytools.io/delisting-wire/) a great deal of trust and standing in the privacy world because they quietly sold their company and moved it to the US. They also changed parts of their privacy policy, making it harder for users to tell when Wire would share customer data. They did all of this while never updating their current users of such changes, either to the change of the privacy policy, or the move to the US.
 
 Wire also took in more than $8 million in venture capital funding. So now, users wanted to know more about who owned their data and what jurisdictional rights were changing with the move from Europe to the United States?
 
@@ -98,7 +98,7 @@ Signal on the other hand is a [non-profit](https://signal.org/blog/signal-founda
 
 Matrix.org (the service Element uses) runs a similar business model as Signal, located in the UK instead of the US, they reply on donations, partnerships, and grants. Matrix.org is heavily supported by New Vector, a venture capital backed company, however, Matrix.org as a non-profit is transparent about its spending, income, and influences.
 
-Not all services are non-profit, and that should not rule them out immediately. You can also follow their funding goals. Wire lost credibility because instead of simply relying on user signups, they wanted to be the next Skype for Business and wanted to build a larger enough user base to get the attention of investors. Meanwhile apps such as Wickr, while for-profit, is transparent about taking limited investors to become sustainable on subscriptions.
+Not all services are non-profit, and that should not rule them out immediately. You can also follow their funding goals. Wire lost credibility because instead of simply relying on user signups, they wanted to be the next Skype for Business and wanted to build a larger enough user base to get the attention of investors. Meanwhile, apps such as Wickr, while for-profit, is transparent about taking limited investors to become sustainable on subscriptions.
 
 This can take some time, because it’s important to know who the investors are, and what the organizational goals are. Will they eventually need to resort to data harvesting to sustain itself, if they do, and you decide to leave the platform, will you leave behind data you don’t want them to get their hands on?
 
@@ -110,7 +110,7 @@ You’ll need to decide who you trust, and who your other contacts trust, and th
 
 The important thing to remember is there is no one size fits all for messengers, and that each user must decide what is best for them. If someone is an avid WhatsApp or Facebook Messenger user, even Telegram is a step in the right direction. Yet, if that user is concerned with more than just giving data over to Facebook, they may need to look at more secure options.
 
-Ensure you keep your messenger apps up to date. You don’t want to discover you’ve been compromised because a bug found in version 1 was fixed in version 2 but you didn’t bother upgrading your apps.
+Ensure you keep your messenger apps up to date. You don’t want to discover you’ve been compromised because a bug found in version 1 was fixed in version 2, but you didn’t bother upgrading your apps.
 
 One last piece of advice is that users need to be diligent and never become complacent in their decision. You must be willing to change services if the goals and values of your messenger of choice change in a way that no longer match yours. Look for news of sales, mergers, or acquisitions that could compromise the organization.
 

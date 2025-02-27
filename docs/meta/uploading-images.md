@@ -48,7 +48,7 @@ In the **SVG Output** tab under **Document options**:
 - [ ] Turn off **Remove the XML declaration**
 - [x] Turn on **Remove metadata**
 - [x] Turn on **Remove comments**
-- [x] Turn on **Embeded raster images**
+- [x] Turn on **Embedded raster images**
 - [x] Turn on **Enable viewboxing**
 
 In the **SVG Output** under **Pretty-printing**:

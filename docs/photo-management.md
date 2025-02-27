@@ -18,7 +18,7 @@ Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon
 ![Ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
 ![Ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
-**Ente Photos** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Their code is fully open-source, both on the client side and on the server side. It is also [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting). The free plan offers 5GB of storage as long as you use the service at least once a year.
+**Ente Photos** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Their code is fully open-source, both on the client side and on the server side. It is also [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting). The free plan offers 5 GB of storage as long as you use the service at least once a year.
 
 [:octicons-home-16: Homepage](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
@@ -50,7 +50,7 @@ Ente Photos underwent an [audit by Cure53](https://ente.io/blog/cryptography-aud
 ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ align=right }
 ![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
 
-**Stingle** is a gallery and camera application with built-in, end-to-end encrypted backup and sync functionality for your photos and videos. Storage starts at 1GB for free accounts on their cloud, or you can host your own Stingle API server for total independence.
+**Stingle** is a gallery and camera application with built-in, end-to-end encrypted backup and sync functionality for your photos and videos. Storage starts at 1 GB for free accounts on their cloud, or you can host your own Stingle API server for total independence.
 
 [:octicons-home-16: Homepage](https://stingle.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://stingle.org/privacy){ .card-link title="Privacy Policy" }
@@ -99,7 +99,7 @@ Ente Photos underwent an [audit by Cure53](https://ente.io/blog/cryptography-aud
 
 - Cloud-hosted providers must enforce end-to-end encryption.
 - Must offer a free plan or trial period for testing.
-- Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
+- Must support TOTP or FIDO2 multifactor authentication, or passkey logins.
 - Must offer a web interface which supports basic file management functionality.
 - Must allow for easy exports of all files/documents.
 - Must be open source.

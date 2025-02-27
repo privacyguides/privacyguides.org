@@ -24,8 +24,8 @@ HELLOTUX is a family business who have been making high quality merchandise for 
 
 We're excited to launch a range of dashing t-shirts and Polo shirts, along with our very own hoodies and jackets. Check them out at [`www.hellotux.com/privacyguides`](https://www.hellotux.com/privacyguides).
 
-Buying our merch is a great way to support us financially. We get between three to five dollars per garment, depending on the product. Privacy Guides is a non-profit, socially motivated website so all the money we receive will be put towards improving our site and community. Our finances can be viewed publicly via the [Open Collective](https://opencollective.com/privacyguides).
+Buying our merch is a great way to support us financially. We get between three and five dollars per garment, depending on the product. Privacy Guides is a non-profit, socially motivated website so all the money we receive will be put towards improving our site and community. Our finances can be viewed publicly via the [Open Collective](https://opencollective.com/privacyguides).
 
-A fun fact about HELLOTUX is that they make everything with Linux: the embroidery, the website, the customer service - the whole shebang. They also offer a money back guarantee. If you're not happy with your order, just send it back within three months, and they will sort you out with a replacement or refund.
+A fun fact about HELLOTUX is that they make everything with Linux: the embroidery, the website, the customer service - the whole shebang. They also offer a money-back guarantee. If you're not happy with your order, just send it back within three months, and they will sort you out with a replacement or refund.
 
 So go ahead: bag yourself some Privacy Guides swag today!

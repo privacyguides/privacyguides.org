@@ -5,7 +5,7 @@ description: These are policies formally adopted by our executive committee, and
 
 These are policies formally adopted by Privacy Guides' executive committee, and take precedence over all other statements expressed on this website.
 
-The key words **must**, **must not**, **required**, **shall**, **shall not**, **should**, **should not**, **recommended**, **may**, and **optional** are to be interpreted as described in [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119).
+The keywords **must**, **must not**, **required**, **shall**, **shall not**, **should**, **should not**, **recommended**, **may**, and **optional** are to be interpreted as described in [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119).
 
 ## EP1: Freely-Provided Product Samples
 
