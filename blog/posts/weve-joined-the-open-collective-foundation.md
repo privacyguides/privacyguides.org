@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2019-10-31
+    created: 2019-10-31T19:00:00Z
 categories:
     - Announcements
 authors:

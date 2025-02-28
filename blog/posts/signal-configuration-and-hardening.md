@@ -1,7 +1,7 @@
 ---
 date:
-    created: 2022-07-07
-    updated: 2024-08-23
+    created: 2022-07-07T19:00:00Z
+    updated: 2024-08-23T19:00:00Z
 authors:
     - contributors
     - matchboxbananasynergy

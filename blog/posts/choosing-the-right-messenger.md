@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2019-11-27
+    created: 2019-11-27T19:00:00Z
 categories:
     - Opinion
 authors:

@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2024-07-22
+    created: 2024-07-22T19:00:00Z
 categories:
     - Announcements
 authors:
