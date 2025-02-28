@@ -31,7 +31,7 @@ In addition to our core team, [many other people](about/contributors.md) have ma
 
 ## Contact Us
 
-[:simple-discourse: Join the Privacy Guides forum](https://discuss.privacyguides.net/){ .md-button .md-button--primary }
+[:simple-discourse: Join the Privacy Guides forum](https://discuss.privacyguides.net){ .md-button .md-button--primary }
 
 The best way to get individual help is from our community on Discourse. If you notice an issue with our website, please open a discussion in the [Site Development](https://discuss.privacyguides.net/c/site-development/7) category on our forum. If you have a question about anything we cover, please ask it in the [Questions](https://discuss.privacyguides.net/c/privacy/questions/8) category on our forum.
 
@@ -120,7 +120,7 @@ The project executive committee consists of five volunteers charged with managem
 
 ## Staff
 
-Our staff are paid to contribute to supplemental content at Privacy Guides, like [video production](https://www.youtube.com/@privacyguides), [news articles and tutorials](https://www.privacyguides.org/articles/), and our discussion communities and social media. Most are available and paid on a full-time basis to assist the organization.
+Our staff are paid to contribute to supplemental content at Privacy Guides, like [video production](https://www.youtube.com/@privacyguides), [news articles and tutorials](https://www.privacyguides.org/articles), and our discussion communities and social media. Most are available and paid on a full-time basis to assist the organization.
 
 <div class="grid cards" markdown>
 
