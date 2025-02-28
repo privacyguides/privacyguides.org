@@ -554,7 +554,6 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 - ![Psono logo](assets/img/password-management/psono.svg){ .twemoji loading=lazy } [Psono](passwords.md#psono)
 - ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ .twemoji loading=lazy } [KeePassXC](passwords.md#keepassxc)
 - ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ .twemoji loading=lazy } [KeePassDX (Android)](passwords.md#keepassdx-android)
-- ![Strongbox logo](assets/img/password-management/strongbox.svg){ .twemoji loading=lazy } [Strongbox (iOS & macOS)](passwords.md#strongbox-ios-macos)
 - ![gopass logo](assets/img/password-management/gopass.svg){ .twemoji loading=lazy } [gopass (CLI)](passwords.md#gopass-cli)
 
 </div>
