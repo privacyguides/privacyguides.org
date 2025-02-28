@@ -5,14 +5,12 @@ categories:
     - News
 authors:
     - em
-description: The UK government has served a technical capability notice to Apple under the UK Investigatory Act. Apple's response was to remove the Advanced Data Protection feature from the UK this week. What does this mean for Apple users in the UK and for encryption rights worldwide.
-schema_type: AnalysisNewsArticle
+description: The UK government has served a technical capability notice to Apple under the UK Investigatory Act. Apple's response was to remove the Advanced Data Protection feature from the UK this week. What does this mean for Apple users in the UK and for encryption rights worldwide?
+schema_type: ReportageNewsArticle
 ---
-
-
 # The UK Government Forced Apple to Remove Advanced Data Protection in the UK: What Does This Mean for You?
 
-![Photo of a person reading a book. The book is George Orwell's 1984. On the upper left corner is an Apple logo with two bites taken off.](../assets/images/uk-forced-apple-to-remove-adp/cover.webp)
+![Photo of a person reading a book. The book is George Orwell's 1984. In the upper left corner is an Apple logo with two bites taken off.](../assets/images/uk-forced-apple-to-remove-adp/cover.webp)
 
 <small aria-hidden="true">Illustration: Em / Privacy Guides | Photo: Edward Eyer / Pexels</small>
 
@@ -28,7 +26,7 @@ This is a terrible news for anyone in the UK, and a frightening omen for everyon
 
 **End-to-end encryption is a *crucial* technology for digital privacy and security.** When data is encrypted end-to-end, this means that only the sender(s)/owner(s) and intended recipient(s) (if any) can access it.
 
-For example, if data stored on Apple's servers is end-to-end encrypted, this means that even Apple could not read this data. If a government wanted to scan all of the end-to-end data stored by Apple, it would be impossible to do because even Apple does not possess the keys to decrypt (read) this data.
+For example, if data stored on Apple's servers is end-to-end encrypted, this means that even Apple could not read this data. If a government wanted to scan all the end-to-end data stored by Apple, it would be impossible to do because even Apple does not possess the keys to decrypt (read) this data.
 
 In the same line, if a criminal were to steal end-to-end encrypted data from Apple's servers, they would not be able to decrypt it either. **End-to-end encryption is the best defense against unauthorized access**, including data stolen by criminals or negligently leaked by organizations with poor security.
 
@@ -54,7 +52,7 @@ Removing the lock on everyone's entry door possibly *could* make it easier for l
 
 The price of removing the locks on everyone's doors is too high. Similarly, **the price of removing the locks on everyone's digital doors is also too high**.
 
-Moreover, these governments always seem to assume that they, all well-intended benevolent governments of course, are assuredly reasonable and will only use this access to monitor the worse of criminals. Even if that was undoubtedly true *now*, these supposedly benevolent governments fail to consider these conditions might not always stay true.
+Moreover, these governments always seem to assume that they, all well-intended benevolent governments of course, are assuredly reasonable and will only use this access to monitor the worst of criminals. Even if that was undoubtedly true *now*, these supposedly benevolent governments fail to consider these conditions might not always stay true.
 
 What is a benevolent government today might very well turn into an authoritarian nightmare tomorrow.
 
@@ -64,7 +62,7 @@ Once implemented into the system, **the tools for mass surveillance can quickly 
 
 Apple first introduced Advanced Data Protection in 2022. At the time, there was already in [a potential conflict](https://www.theguardian.com/technology/2022/dec/08/privacy-changes-apple-uk-government-online-safety-bill) with the UK's forthcoming Online Safety *Bill*, which despite [strong opposition](https://www.openrightsgroup.org/campaign/online-safety-bill-campaign-hub/) became law in 2023 and is now the [Online Safety *Act*](https://en.wikipedia.org/wiki/Online_Safety_Act_2023).
 
-Although attacks on encryption coming from governments aren't new, policy makers in favor of mass surveillance have recently increased the pressure on tech organizations to implement and normalize systemic monitoring, even in democratic countries. This is an **extremely dangerous threat to privacy rights** and [human rights](https://www.amnesty.org/en/latest/news/2025/02/uk-encryption-order-threatens-global-privacy-rights/) around the world.
+Although attacks on encryption coming from governments aren't new, policymakers in favor of mass surveillance have recently increased the pressure on tech organizations to implement and normalize systemic monitoring, even in democratic countries. This is an **extremely dangerous threat to privacy rights** and [human rights](https://www.amnesty.org/en/latest/news/2025/02/uk-encryption-order-threatens-global-privacy-rights/) around the world.
 
 The giant Apple has long complied with law enforcement around the world and offers extensive [documentation](https://www.apple.com/legal/privacy/law-enforcement-guidelines-outside-us.pdf) to facilitate legal processes. However, when law enforcement requests access to data protected by end-to-end encryption, Apple does *not* have access to this data, by definition.
 
@@ -90,7 +88,7 @@ Some Apple services that aren't part of ADP will remain end-to-end encrypted in 
 
 Apple's applications that still benefit from end-to-end encryption to this day in the UK include: Passwords and Keychain, Health data, Journal data, Home data, iMessage (only if iCloud Backup is *disabled*), Payment information, Apple Card transactions, Maps, QuickType Keyboard, Safari, Screen Time, Siri information, Wi-Fi passwords, Memoji.
 
-However, **this is only completely true if a device's iCloud Backup is disabled**. If [iCloud Backup](https://support.apple.com/en-ca/108770) is enable on a device, [the encryption keys are accessible to Apple](https://support.apple.com/en-ca/102651), or any group submitting a legal request to Apple. In this situation, all the information contained on the device that was not synced separately to iCloud could technically be accessed by Apple, or any group submitting a legal request to Apple.
+However, **this is only completely true if a device's iCloud Backup is disabled**. If [iCloud Backup](https://support.apple.com/en-ca/108770) is enabled on a device, [the encryption keys are accessible to Apple](https://support.apple.com/en-ca/102651), or any group submitting a legal request to Apple. In this situation, all the information contained on the device that was not synced separately to iCloud could technically be accessed by Apple, or any group submitting a legal request to Apple.
 
 You can read more information about how Apple uses encryption for each application on [this page](https://support.apple.com/en-ca/102651).
 

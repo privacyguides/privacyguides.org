@@ -68,3 +68,5 @@
 {"rule":"SENT_START_CONJUNCTIVE_LINKING_ADVERB_COMMA","sentence":"^\\QFurther develop an individual story or line of coverage.\\E$"}
 {"rule":"DOUBLE_PUNCTUATION","sentence":"^\\QOur readership is entitled to as much information as possible in order to judge the reliability of our sources themselves..\\E$"}
 {"rule":"DOUBLE_PUNCTUATION","sentence":"^\\QOur contributors should always question the motives behind a source requesting anonymity..\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIllustration: Em / Privacy Guides | Photo: Edward Eyer / Pexels\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QOn February 7th this year, Joseph Menn reported from The Washington Post that officials in the United Kingdom had contacted Apple to demand the company allows them to access data from any iCloud user worldwide.\\E$"}
