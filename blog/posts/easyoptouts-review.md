@@ -119,7 +119,7 @@ Using standard engine search results is one of the most common methods of discov
 
 </div>
 
-We also performed a manual search for their information on 15 different "high-priority" data brokers. These brokers represent either the most commonly used people-search sites, and/or cover a large number of people-search sites with their databases, so having your data removed from these companies can have an outsized positive effect on your overall privacy.
+We also performed a manual search for their information on 15 different "high-priority" data brokers. These brokers represent either the most commonly used people-search sites, and/or cover numerous people-search sites with their databases, so having your data removed from these companies can have an outsized positive effect on your overall privacy.
 
 | Service | Person A | Person B |
 | ----- | ----- | ----- |
@@ -140,7 +140,7 @@ We also performed a manual search for their information on 15 different "high-pr
 | spyfly.com | :warning: Found | :warning: Found |
 | **Remaining Results** | **100%** | **100%** |
 
-It should be noted that EasyOptOuts does not claim or advertise that they have the ability to opt you out of some of the websites above, so we do not expect 100% coverage. However, the site compatibility of EasyOptOuts *is* a real-world limitation of the service we think you should consider before making a decision, so we intentionally did not limit our review to only the sites they advertise support for. The sites EasyOptOuts does *not* advertise support for are marked with an asterisk (*).
+It should be noted that EasyOptOuts does not claim or advertise that they have the ability to opt you out of some websites above, so we do not expect 100% coverage. However, the site compatibility of EasyOptOuts *is* a real-world limitation of the service we think you should consider before making a decision, so we intentionally did not limit our review to only the sites they advertise support for. The sites EasyOptOuts does *not* advertise support for are marked with an asterisk (*).
 
 ## User Experience
 
@@ -312,7 +312,7 @@ In addition to the websites we performed an [initial search](#initial-search) wi
 
 **Person A:**
 
-??? warning "We found your information and performed opt outs for the following 112 sites"
+??? warning "We found your information and performed opt-outs for the following 112 sites"
 
     - 411.com
     - advancedbackgroundchecks.com
@@ -427,7 +427,7 @@ In addition to the websites we performed an [initial search](#initial-search) wi
     - whitepages.com
     - yellowbook.com
 
-??? info "We checked the following 10 sites, but didn't find any personal information, so we didn't perform opt outs"
+??? info "We checked the following 10 sites, but didn't find any personal information, so we didn't perform opt-outs"
 
     - americaphonebook.com
     - floridaresidentsdirectory.com
@@ -446,7 +446,7 @@ In addition to the websites we performed an [initial search](#initial-search) wi
 
 **Person B:**
 
-??? warning "We found your information and performed opt outs for the following 107 sites"
+??? warning "We found your information and performed opt-outs for the following 107 sites"
 
     - 411.com
     - advancedbackgroundchecks.com
@@ -556,7 +556,7 @@ In addition to the websites we performed an [initial search](#initial-search) wi
     - whitepages.com
     - yellowbook.com
 
-??? info "We checked the following 15 sites, but didn't find any personal information, so we didn't perform opt outs"
+??? info "We checked the following 15 sites, but didn't find any personal information, so we didn't perform opt-outs"
 
     - americaphonebook.com
     - clustrmaps.com
@@ -578,7 +578,7 @@ In addition to the websites we performed an [initial search](#initial-search) wi
 
 </div>
 
-In addition, for all subscriptions EasyOptOuts says that "the following 10 sites aren't freely searchable. We always perform opt outs for them:"
+In addition, for all subscriptions EasyOptOuts says that "the following 10 sites aren't freely searchable. We always perform opt-outs for them:"
 
 - acxiom.com
 - adstradata.com

@@ -25,7 +25,7 @@ Terrible acronym aside, the RESTRICT Act claims to...
 
 In reality, this act would grant the government broad powers to restrict access to any site or service they claim could pose a threat to national security, akin to China's "[great firewall](https://en.wikipedia.org/wiki/Great_Firewall)."
 
-Currently, if you go on the internet and try and find out what the RESTRICT Act *actually does*, you'll find a lot of confusing and conflicting information. This is by design, not from a lack of analysis. Simply put, the RESTRICT Act has been interpreted in so many different ways because the wording is so broad that it *can* be interpreted in so many different ways. This is obviously a problematic form of government overreach.
+Currently, if you go on the internet and try and find out what the RESTRICT Act *actually does*, you'll find a lot of confusing and conflicting information. This is by design, not from a lack of analysis. Simply put, the RESTRICT Act has been interpreted in so many ways because the wording is so broad that it *can* be interpreted in so many ways. This is obviously a problematic form of government overreach.
 
 So what does it actually do? Well, nothing! For now anyway: Like many bills lately, this bill has no immediate effects, but it does grant the White House power to create rules and regulations which will have the power of law. Section 8 grants the Secretary of Commerce the power to "establish such rules, regulations, and procedures as the Secretary considers appropriate." These rules can include almost anything as long as they are targeting an entity covered by the bill.
 
@@ -52,7 +52,7 @@ Ultimately, the provisions in this bill are so broad that it is inconceivable th
 
 ## Is this good privacy regulation?
 
-Absolutely not. Fundamentally, the RESTRICT Act does nothing to address the actual privacy concerns of American citizens, it only ensures that the digital data of Americans is exploited *exclusively* by America-friendly companies. If Congress was legitimately concerned about data collection in America, they could implement strong consumer protections that enhance individuals' control and rights over their personal data on *every* platform instead of playing whac-a-mole with every foreign technology entity.
+Absolutely not. Fundamentally, the RESTRICT Act does nothing to address the actual privacy concerns of American citizens, it only ensures that the digital data of Americans is exploited *exclusively* by America-friendly companies. If Congress was legitimately concerned about data collection in America, they could implement strong consumer protections that enhance individuals' control and rights over their personal data on *every* platform instead of playing whack-a-mole with every foreign technology entity.
 
 You may still be thinking that this bill would only really impact large, foreign entities like China/TikTok, but we've seen time and time again how bills like this that are sold as attacks on huge, nebulous entities like "terrorists" and "foreign state adversaries" wind up mainly used to attack the little guy with minor infractions.
 

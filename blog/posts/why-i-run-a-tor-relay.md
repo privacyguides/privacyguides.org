@@ -41,7 +41,7 @@ And this is when it struck me, as I hope it struck many others at that talk: Am 
 
 It struck me that I have enough money, time and access to the right information to run my own relay. So it begged the question: Why *wouldn’t* I?
 
-At the time of writing my relay has been flagged ‘valid’, ‘running’ and ‘fast’ and is on track to have relayed around 750GB by the end of the month. It feels good. It feels really good.
+At the time of writing my relay has been flagged ‘valid’, ‘running’ and ‘fast’ and is on track to have relayed around 750 GB by the end of the month. It feels good. It feels really good.
 
 ---
 

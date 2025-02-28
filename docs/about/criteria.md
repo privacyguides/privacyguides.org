@@ -24,7 +24,7 @@ We have these requirements in regard to developers which wish to submit their pr
 
 - Must disclose affiliation, i.e. your position within the project being submitted.
 
-- Must have a security whitepaper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
+- Must have a security white paper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
     - Regarding third party audit status, we want to know if you have undergone one, or have requested one. If possible please mention who will be conducting the audit.
 
 - Must explain what the project brings to the table in regard to privacy.
