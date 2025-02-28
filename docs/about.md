@@ -23,7 +23,7 @@ schema:
 [:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Homepage }
 [:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
 
-Privacy Guides is built by volunteers and staff members around the world. All changes to our recommendations and resources are reviewed by at least two [trusted](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all) individuals, and we work diligently to ensure our content is updated as quickly as possible to adapt to the ever changing cybersecurity threat landscape.
+Privacy Guides is built by volunteers and staff members around the world. All changes to our recommendations and resources are reviewed by at least two [trusted](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all) individuals, and we work diligently to ensure our content is updated as quickly as possible to adapt to the ever-changing cybersecurity threat landscape.
 
 In addition to our core team, [many other people](about/contributors.md) have made contributions to the project. You can too! We're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
 
@@ -31,7 +31,7 @@ In addition to our core team, [many other people](about/contributors.md) have ma
 
 ## Contact Us
 
-[:simple-discourse: Join the Privacy Guides forum](https://discuss.privacyguides.net/){ .md-button .md-button--primary }
+[:simple-discourse: Join the Privacy Guides forum](https://discuss.privacyguides.net){ .md-button .md-button--primary }
 
 The best way to get individual help is from our community on Discourse. If you notice an issue with our website, please open a discussion in the [Site Development](https://discuss.privacyguides.net/c/site-development/7) category on our forum. If you have a question about anything we cover, please ask it in the [Questions](https://discuss.privacyguides.net/c/privacy/questions/8) category on our forum.
 
@@ -120,7 +120,7 @@ The project executive committee consists of five volunteers charged with managem
 
 ## Staff
 
-Our staff are paid to contribute to supplemental content at Privacy Guides, like [video production](https://www.youtube.com/@privacyguides), [news articles and tutorials](https://www.privacyguides.org/articles/), and our discussion communities and social media. Most are available and paid on a full-time basis to assist the organization.
+Our staff are paid to contribute to supplemental content at Privacy Guides, like [video production](https://www.youtube.com/@privacyguides), [news articles and tutorials](https://www.privacyguides.org/articles), and our discussion communities and social media. Most are available and paid on a full-time basis to assist the organization.
 
 <div class="grid cards" markdown>
 
