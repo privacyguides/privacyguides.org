@@ -68,7 +68,7 @@ Although attacks on encryption coming from governments aren't new, policy makers
 
 The giant Apple has long complied with law enforcement around the world and offers extensive [documentation](https://www.apple.com/legal/privacy/law-enforcement-guidelines-outside-us.pdf) to facilitate legal processes. However, when law enforcement requests access to data protected by end-to-end encryption, Apple does *not* have access to this data, by definition. 
 
-The only way for Apple to provide law enforcement with access to end-to-end encrypted data would be to either lie to customers and secretly break the encryption, or remove the feature entirely. Apple chose the later this week.
+The only way for Apple to provide law enforcement with access to end-to-end encrypted data would be to either lie to customers and secretly break the encryption, or remove the feature entirely. Apple chose the latter this week.
 
 This is horrifying news for anyone located in the UK losing access to this great protection. Moreover, it sets a dangerous precedent for other controlling governments to follow suit. 
 
