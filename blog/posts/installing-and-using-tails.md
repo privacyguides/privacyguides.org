@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2025-01-29T22:00:00
+    created: 2025-01-29T22:00:00Z
 categories:
     - Tutorials
 authors:

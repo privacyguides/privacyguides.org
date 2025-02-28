@@ -1,7 +1,7 @@
 ---
 date:
-    created: 2025-01-23T19:15:00
-    updated: 2025-01-27T20:00:00
+    created: 2025-01-23T19:15:00Z
+    updated: 2025-01-27T20:00:00Z
 categories:
     - Tutorials
 authors:

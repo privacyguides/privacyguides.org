@@ -4,7 +4,7 @@ template: review-article.html
 schema_type: ReviewNewsArticle
 description: "It may well be that Proton Wallet is the easiest way to start using Bitcoin, but is a Bitcoin wallet the solution people need to improve their financial privacy?"
 date:
-    created: 2024-09-08
+    created: 2024-09-08T19:00:00Z
 categories:
     - Reviews
 authors:
