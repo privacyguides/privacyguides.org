@@ -18,9 +18,7 @@ Text inputted to grammar, spelling, and style checkers, as well as translation s
 ![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ align=right }
 ![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ align=right }
 
-**LanguageTool** is a multilingual grammar, style and spell checker that supports more than 20 languages. The software is [self-hostable](https://dev.languagetool.org/http-server), and the extensions do not send your input text to their server.
-
-LanguageTool offers integration with a variety of [office suites](https://languagetool.org/services#text_editors) and [email clients](https://languagetool.org/services#mail_clients).
+**LanguageTool** is a multilingual grammar, style and spell checker that supports more than 20 languages. According to their privacy policy, they do not store any content sent to their service for review, but for higher assurance the software is [self-hostable](https://dev.languagetool.org/http-server).
 
 [:octicons-home-16: Homepage](https://languagetool.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="Privacy Policy" }
@@ -41,6 +39,8 @@ LanguageTool offers integration with a variety of [office suites](https://langua
 </details>
 
 </div>
+
+LanguageTool offers integration with a variety of [office suites](https://languagetool.org/services#text_editors) and [email clients](https://languagetool.org/services#mail_clients).
 
 ## Criteria
 
