@@ -48,7 +48,7 @@ American cryptographer Bruce Schneier [explains](https://www.schneier.com/blog/a
 
 No matter how good a reason a third-party might have to decrypt a single piece of end-to-end encrypted data, if there is a way to access it by an unauthorized entity, then it offers no protection at all against any other accesses, whether legal or criminal.
 
-Besides the this-is-actually-mathematically-impossible argument, let's say we were to remove entirely end-to-end encryption protections for everyone everywhere (which a backdoor would effectively do). The other problem governments and law enforcement seem to fail to understand is that **citizens' rights and safety should be the priority**. 
+Besides the this-is-actually-mathematically-impossible argument, let's say we were to remove end-to-end encryption protections entirely for everyone everywhere (which a backdoor would effectively do). The other problem governments and law enforcement seem to fail to understand is that **citizens' rights and safety should be the priority**. 
 
 Removing the lock on everyone's entry door possibly *could* make it easier for law enforcement to catch *some* criminals, it's true. But this would also **expose *everyone* to home invasion**, theft, vandalism, physical harm, and worse. 
 
