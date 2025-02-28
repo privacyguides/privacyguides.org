@@ -72,7 +72,7 @@
       "OUTSIDE_OF": "warning",
       "UNLIKELY_OPENING_PUNCTUATION": "hint",
       "SMALL_NUMBER_OF": "hint",
-      "A_UNCOUNTABLE": "hint",
+      "A_UNCOUNTABLE": "information",
       "AFFORD_VB": "hint",
       "AN_INVITE": "hint",
       "HAVE_PART_AGREEMENT": "hint",
