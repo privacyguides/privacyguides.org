@@ -2,7 +2,7 @@
 date:
     created: 2025-02-28T19:00:00Z
 categories:
-    - Opinion
+    - Explainers
 authors:
     - fria
 tags:
@@ -14,3 +14,13 @@ license: BY-SA
 # Toward a Passwordless Future
 
 Passwords are annoying, vulnerable to attack, and open to human error. The multitude of issues with passwords has cost billions of dollars and forced terrible bandaid solutions in how we handle signing up for, logging in to, and securing online accounts. I'd like to break down some of these design paradigms that have entrenched themselves in our lives and how passkeys can lead to more secure and more private online accounts.<!-- more -->
+
+## How did we get here?
+
+Passwords are a surprisingly old concept, dating all the way back to ancient Rome. The ancient Roman historian Polybius in his *[Histories](http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0234%3Abook%3D6%3Achapter%3D34)* describes how the Roman military would pass around a wooden tablet inscribed with a "watchword" that would allow them to identify each other as friendly.
+
+During Prohibition in 1920's US, speakeasies, or private, unlicensed bars selling illegal alcohol, would require a spoken [password](https://prohibition.themobmuseum.org/the-history/the-prohibition-underworld/the-speakeasies-of-the-1920s/) to gain entry. The name comes from how quietly you had to say the password so law enforcement didn't overhear.
+
+It wasn't long after the dawn of the digital age that a solution for authentication was needed. Computers in the 1950's were expensive and slow, only able to handle one problem at a time. MIT's Compatible Time Sharing System (CTSS), pioneered by Fernando Corbató, aimed to solve this problem by allowing multiple users to do work at the same time, but they needed a way to authenticate specific users. "Putting a password on for each individual user as a lock seemed like a very straightforward solution" Corbató told Wired in an [interview](https://www.wired.com/2012/01/computer-password/). These passwords weren't designed to be very secure. Fred Schneider, a computer science professor at Cornell University, said in the same Wired article "nobody wanted to devote many machine resources to this authentication stuff."
+
+The first password breach occured not long after in 1962, detailed in a [pamphlet](https://www.multicians.org/thvv/compatible-time-sharing-system.pdf) written to commemorate the CTSS. Allan Scherr, a Ph.D. researcher at MIT, wanted more time for his detailed simulations. He knew that the passwords were stored in a plaintext file, so he requested it to be printed offline and that was that: he now had everyone's password and all the time he could ask for.
