@@ -18,7 +18,7 @@ On February 7th this year, Joseph Menn [reported](https://www.washingtonpost.com
 
 Sources familiar with the matter told the *BBC* and the *Washington Post* that UK's Home Office served a [technical capability notice](https://arstechnica.com/tech-policy/2017/05/investigatory-powers-act-legal-analysis/) to Apple under the UK Investigatory Powers Act. Details are scarce about exactly what happened between the UK government and Apple because [neither Apple nor the Home Office](https://www.bbc.co.uk/news/articles/cgj54eq4vejo) have publicly commented on the notice.
 
-However, [this week](https://www.eff.org/deeplinks/2025/02/cornered-uks-demand-encryption-backdoor-apple-turns-its-strongest-security-setting) apparently in response, Apple has completely removed the opt-in Advanced Data Protection feature from the UK. As of today, Apple users located in the UK cannot activate Advanced Data Protection (end-to-end encryption) for their iCloud Drive, iCloud Backup, Photos, Notes, and more.
+However, [last week](https://www.eff.org/deeplinks/2025/02/cornered-uks-demand-encryption-backdoor-apple-turns-its-strongest-security-setting) apparently in response, Apple has completely removed the opt-in Advanced Data Protection feature from the UK. As of the 21st, Apple users located in the UK cannot activate Advanced Data Protection (end-to-end encryption) for their iCloud Drive, iCloud Backup, Photos, Notes, and more.
 
 This is terrible news for anyone in the UK, and a frightening omen for everyone worldwide.
 
