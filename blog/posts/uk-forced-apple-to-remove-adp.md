@@ -86,11 +86,7 @@ With ADP enabled, Apple users can benefit from end-to-end encryption on many mor
 
 Some Apple services that aren't part of ADP will remain end-to-end encrypted in the UK (for now). Regardless, considering the political climate, it's likely a good idea to start [moving to alternatives](https://www.privacyguides.org/en/tools/) that are perhaps less likely to get compromised or removed in the near future.
 
-Apple's applications that still benefit from end-to-end encryption to this day in the UK include: Passwords and Keychain, Health data, Journal data, Home data, iMessage (only if iCloud Backup is *disabled*), Payment information, Apple Card transactions, Maps, QuickType Keyboard, Safari, Screen Time, Siri information, Wi-Fi passwords, Memoji.
-
-However, **this is only completely true if a device's iCloud Backup is disabled**. If [iCloud Backup](https://support.apple.com/108770) is enabled on a device, [the encryption keys are accessible to Apple](https://support.apple.com/102651), or any group submitting a legal request to Apple. In this situation, all the information contained on the device that was not synced separately to iCloud could technically be accessed by Apple, or any group submitting a legal request to Apple.
-
-You can read more information about how Apple uses encryption for each application on [this page](https://support.apple.com/102651).
+Apple's applications that [still benefit](https://support.apple.com/102651) from end-to-end encryption to this day in the UK include: Passwords and Keychain, Health data, Journal data, Home data, iMessage (only if iCloud Backup is *disabled*!), Payment information, Apple Card transactions, Maps, QuickType Keyboard, Safari, Screen Time, Siri information, Wi-Fi passwords, Memoji.
 
 ## What does this mean for people in the UK, and the rest of the world?
 
