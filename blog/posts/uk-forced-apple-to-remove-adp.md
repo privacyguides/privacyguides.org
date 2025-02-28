@@ -130,7 +130,7 @@ Here are a few things that might help you protect your data better from now on, 
 
 - [x] If you can, [disable Siri entirely](https://www.digitaltrends.com/mobile/how-to-turn-off-siri/).
 
-- [x] Go through all your Apple devices' settings and be mindful to disable each option that could send data to Apple's servers if you do not want this data to potentially get scanned by a government or other entities.
+- [x] Go through all your Apple devices' settings, and be mindful to disable each option that could send data to Apple's servers if you do not want this data to potentially be scanned by a government or other entities.
 
 - [x] Look for more privacy-respectful alternatives to Apple's products by browsing our [recommendations](https://www.privacyguides.org/en/tools/) section.
 
@@ -140,17 +140,17 @@ Here are a few things that might help you protect your data better from now on, 
 
 Get information from and support organizations defending encryption rights like:
 
-- [x] [Global Encryption Coalition](https://www.globalencryption.org/about/) (you can even [join the coalition](https://www.globalencryption.org/about/members/)!)
+- [Global Encryption Coalition](https://www.globalencryption.org/about/) (you can even [join the coalition](https://www.globalencryption.org/about/members/)!)
 
-- [x] [Amnesty Tech](https://www.amnesty.org/en/tech/)
+- [Amnesty Tech](https://www.amnesty.org/en/tech/)
 
-- [x] [Center for Democracy & Technology](https://cdt.org/insights/cdt-joins-global-encryption-coalition-letter-on-uk-governments-use-of-investigatory-powers-act-to-attack-end-to-end-encryption/)
+- [Center for Democracy & Technology](https://cdt.org/insights/cdt-joins-global-encryption-coalition-letter-on-uk-governments-use-of-investigatory-powers-act-to-attack-end-to-end-encryption/)
 
-- [x] [EFF](https://www.eff.org/deeplinks/2024/12/defending-encryption-us-and-abroad)
+- [EFF](https://www.eff.org/deeplinks/2024/12/defending-encryption-us-and-abroad)
 
-- [x] [Fight for the Future](https://www.makedmssafe.com/)
+- [Fight for the Future](https://www.makedmssafe.com/)
 
-- [x] [Privacy Guides](https://donate.magicgrants.org/privacyguides) 💛
+- [Privacy Guides](https://donate.magicgrants.org/privacyguides) 💛
 
 Use end-to-end encryption everywhere you can:
 
