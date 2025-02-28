@@ -3,8 +3,8 @@ title: "CryptPad Review: Replacing Google Docs"
 template: review-article.html
 schema_type: ReviewNewsArticle
 date:
-    created: 2025-02-07T19:00:00
-    updated: 2025-02-12T17:45:00
+    created: 2025-02-07T19:00:00Z
+    updated: 2025-02-12T17:45:00Z
 categories:
     - Reviews
 authors:

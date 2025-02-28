@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2024-07-14
+    created: 2024-07-14T19:00:00Z
 categories:
     - News
 authors:
