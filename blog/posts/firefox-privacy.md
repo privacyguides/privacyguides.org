@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2019-11-09
+    created: 2019-11-09T19:00:00Z
 categories:
     - Reviews
 authors:

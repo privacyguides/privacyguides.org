@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2022-10-15
+    created: 2022-10-15T19:00:00Z
 categories:
     - News
 authors:

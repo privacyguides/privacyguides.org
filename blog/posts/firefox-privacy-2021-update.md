@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2021-12-01
+    created: 2021-12-01T19:00:00Z
 categories:
     - Reviews
 authors:
