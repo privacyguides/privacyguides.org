@@ -96,7 +96,7 @@ You can read more information about how Apple uses encryption for each applicati
 
 ## What does this mean for people in the UK, and the rest of the world?
 
-For people in the UK, this is of course a bad news and a very disappointing development. If this regional ADP block is maintained, it is a huge drawback for any Apple user's privacy rights, and a loss of data security as well.
+For people in the UK, this is of course bad news and a very disappointing development. If this regional ADP block is maintained, it is a huge drawback for any Apple user's privacy rights, and a loss of data security as well.
 
 For people outside the UK, **this is a loud warning alarm**. The UK government isn't the only one that has repeatedly tried to undermine encryption and privacy rights. While this might sound obvious for some authoritarian regimes, it's sadly also true for other governments considered open and democratic. 
 
