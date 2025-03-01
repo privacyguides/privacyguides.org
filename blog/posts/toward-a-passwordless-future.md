@@ -17,7 +17,7 @@ Passwords are annoying, vulnerable to attack, and open to human error. The multi
 
 ## How did we get here?
 
-Passwords are a surprisingly old concept, dating all the way back to ancient Rome. The ancient Roman historian Polybius in his *[Histories](http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0234%3Abook%3D6%3Achapter%3D34)* describes how the Roman military would pass around a wooden tablet inscribed with a "watchword" that would allow them to identify each other as friendly.
+Passwords are a surprisingly old concept, dating all the way back to ancient Rome. The ancient Roman historian Polybius in his *[Histories](http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0234%3Abook%3D6%3Achapter%3D34)* describes how the Roman military would pass around a wooden tablet, or tessera, inscribed with a "watchword" that would allow them to identify each other as friendly.
 
 During Prohibition in 1920's US, speakeasies, or private, unlicensed bars selling illegal alcohol, would require a spoken [password](https://prohibition.themobmuseum.org/the-history/the-prohibition-underworld/the-speakeasies-of-the-1920s/) to gain entry. The name comes from how quietly you had to say the password so law enforcement didn't overhear.
 
