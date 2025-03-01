@@ -1,0 +1,50 @@
+---
+date:
+    created: 2025-02-28T19:00:00Z
+categories:
+    - Explainers
+authors:
+    - fria
+tags:
+    - Passkeys
+    - Passwords
+license: BY-SA
+---
+
+# Toward a Passwordless Future
+
+Passwords are annoying, vulnerable to attack, and open to human error. The multitude of issues with passwords has cost billions of dollars and forced terrible bandaid solutions in how we handle signing up for, logging in to, and securing online accounts. I'd like to break down some of these design paradigms that have entrenched themselves in our lives and how passkeys can lead to more secure and more private online accounts.<!-- more -->
+
+## How did we get here?
+
+Passwords are a surprisingly old concept, dating all the way back to ancient Rome. The ancient Roman historian Polybius in his *[Histories](http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0234%3Abook%3D6%3Achapter%3D34)* describes how the Roman military would pass around a wooden tablet, or tessera, inscribed with a "watchword" that would allow them to identify each other as friendly.
+
+During Prohibition in 1920's US, speakeasies, or private, unlicensed bars selling illegal alcohol, would require a spoken [password](https://prohibition.themobmuseum.org/the-history/the-prohibition-underworld/the-speakeasies-of-the-1920s/) to gain entry. The name comes from how quietly you had to say the password so law enforcement didn't overhear.
+
+The US military later used [countersigns](https://en.wikipedia.org/wiki/Countersign_(military)#cite_note-2), consisting of a challenge and a password to identify allies. On D-Day, they used the challenge "flash" and the password "thunder." Thunder was used specifically because it was difficult for Germans to pronounce, since the English "th" sound doesn't exist in German. This is an example of a shibboleth, or a way of distinguishing groups of people based on cultural differences.
+
+It wasn't long after the dawn of the electronic computer that a solution for authentication was needed. Computers in the 1950's were expensive and slow, only able to handle one problem at a time. MIT's Compatible Time Sharing System (CTSS), pioneered by Fernando Corbató, aimed to solve this problem by allowing multiple users to do work at the same time, but they needed a way to authenticate specific users. "Putting a password on for each individual user as a lock seemed like a very straightforward solution" Corbató told Wired in an [interview](https://www.wired.com/2012/01/computer-password/). These passwords weren't designed to be very secure. Fred Schneider, a computer science professor at Cornell University, said in the same Wired article "nobody wanted to devote many machine resources to this authentication stuff."
+
+The first password breach occured not long after in 1962, detailed in a [pamphlet](https://www.multicians.org/thvv/compatible-time-sharing-system.pdf) written to commemorate the CTSS. Allan Scherr, a Ph.D. researcher at MIT, wanted more time for his detailed simulations. He knew that the passwords were stored in a plaintext file, so he requested it to be printed offline and that was that: he now had everyone's password and all the time he could ask for. A later incident in 1966 saw all users' passwords being printed at login due to the administrator accidentally swapping the master password file and the message of the day.
+
+Clearly there was work to be done on securely storing passwords. A [paper](https://rist.tech.cornell.edu/6431papers/MorrisThompson1979.pdf) from 1979 by Robert Morris and Ken Thompson of Bell Labs outlines some requirements to bolster the security of passwords on a UNIX system. One of which is the need for passwords to not be stored in plaintext on the system, instead recommending storing a hash. A hash is a one-way function: you give a certain input and it spits out data that can't be easily reversed back to the input, even knowing the algorithm that was used. But, given the same input, you'll get the same output, allowing you to compare an inputted user password to a stored one. In order to make it hard to bruteforce, the hashing algorithm should be fairly slow. They recommend certain requirements on the password entry program such as the classic 6-character minimum password length to prevent easily guessable passwords. Password salting, a technique wherein a random string of characters is added to the end of the user's password before hashing, gets a mention as well. This prevents an attacker from simply pre-computing many password hashes ahead of time, and also prevents an attacker from knowing if the same password has been used on multiple systems just from comparing the hashes. These guidelines would remain mostly unchanged for decades, save for improved hashing and salting algorithms.
+
+## Unforeseen Consequences
+
+What was originally a system designed for a few people sharing a computer in an academic setting has somehow remained almost unchanged decades later. Instead of remembering a single password for your computer, you now have potentially hundreds of passwords for various online accounts. A recent [survey](https://nordpass.com/blog/how-many-passwords-does-average-person-have/) by NordPass estimates that the average person has around 255 accounts, with a nearly 70% increase in just the last three years since the survey was taken. This is an untennable number of passwords for a human to remember, and so, we don't.
+
+With the ever-present threat of users forgetting their passwords and therefore losing access to their account irrevocably, there needed to be a way to recover the account. By the end of the dotcom bubble, email was fairly ubiquitous so it made sense as a fallback way of authenticating. This had the added benefit of giving companies a way of contacting (read: spamming with ads) their customers. While it's hard to say when it started happening, major websites like Amazon were requiring email addresses on signup as far back as [2001](https://web.archive.org/web/20011107052853/http://www.amazon.com/exec/obidos/flex-sign-in/?opt=oa&page=recs/sign-in-secure.html&response=tg/recs/recs-post-login-dispatch/-/recs). And so the precedent of requiring personal contact information to sign up for an account was born, at least partially due to the shortcomings of passwords.
+
+On top of the extra personal data now required for each online account, email acts as a one-stop shop for attackers looking to hack your accounts, either by getting into your email account itself or by sending you convincing password reset emails that send you to a phishing page that looks exactly like the real page. With the advent of AI, phishing attacks have only gotten cheaper and easier. Laughably, we're told to "look for typos" or "just feel out the vibes man" in order to defend against these attacks. What hope did we ever have? This intersects a bit with how I think email is a terrible, outdated protocol that needs to be replaced but that's a blog post for another day.
+
+What's followed as a consequence of the tech industry's refusal to adapt to the security landscape is an unprecedented cybercrime industry, stealing an estimated [$44.2 million](https://aag-it.com/the-latest-phishing-statistics/) in 2021 through phishing scams. These are people whose only contribution to society is draining grandma's bank account and they're absolutely raking it in.
+
+But even if you do everything right and never fall for a phishiing email, you can still be compromised due to the negligence of any one of the hundreds of service providers you rely on. Passwords need to be stored on a server somewhere, and if a service provider doesn't hash and salt them properly, a data breach will leave your account vulnerable. Even if the *service provider* does everything right in terms of storing the password (which you have absolutely no way of verifying), in the event of a data breach the attackers will still have a hash of your password to attack. There's typically also a period between the server receiving your password from the encrypted HTTPS tunnel and storing it securely as a hash where it handles your password in plaintext in order to compare it with what it has on file. Any vulnerabilities in the hardware could be catastrophic. If you think this sounds like minor nitpicking, consider that in 2019, Facebook realized it had accidentally been storing [hundreds of millions of user passwords in plaintext](https://about.fb.com/news/2019/03/keeping-passwords-secure/).
+
+Even ignoring all of that, passwords rely on randomness to be secure, but they also rely on humans to generate them. Humans are very bad at generating random numbers. We're so bad at it that it's possible to [uniquely identify](https://pubmed.ncbi.nlm.nih.gov/23626943/) you based on your pattern of "random" numbers. That doesn't even matter though, since passwords, by requiring the user to type them whenever they want to log in and requiring the user to remember them, encourage minimum randomness and minimum length. Most of us, even [IT experts](https://www.hipaajournal.com/92-of-it-leaders-guilty-of-password-reuse/), reuse passwords because we are so heavily incentivized to do so by how they fundamentally work. The strategy historically has been to shame people for using bad passwords whenever their account gets hacked, which has prevented us from seeing the fundamental issues with the way we authenticate and instead making it every individual's responsibility to somehow fight the incentives of the system they rely on. Imagine if every time you connected to a website with HTTPS, you had to come up with your own encryption key. Would that be a secure system?
+
+## Bandaid Solutions
+
+A common theme with passwords, and frankly many other things in the tech world, is stapling bandaid solutions on top of them to try and make them fit a modern usecase they were never meant to serve.
+
+Password managers solve the issue of forgetting your passwords by acting as a secure repository for of all your passwords. You can even conveniently have them autofill your information for you on the login screen. Passwords 
