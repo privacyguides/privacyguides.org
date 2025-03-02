@@ -13,7 +13,7 @@ Keep track of your health and fitness-related goals with these apps. Unlike thei
 
 ## Menstrual Cycle Tracking 
 
-Popular menstrual trackers like [Flo](https://techcrunch.com/2021/01/13/flo-gets-ftc-slap-for-sharing-user-data-when-it-promised-privacy/) are notorious for collecting and sharing your user data. Depending on your jurisidiction, this may lead to [legal consquences](https://www.forbes.com/sites/abigaildubiniecki/2024/11/14/post-roe-your-period-app-data-could-be-used-against-you/) affecting your reproductive autonomy.
+Popular menstrual trackers like [Flo](https://techcrunch.com/2021/01/13/flo-gets-ftc-slap-for-sharing-user-data-when-it-promised-privacy) are notorious for collecting and sharing your user data. Depending on your jurisdiction, this may lead to [legal consquences](https://forbes.com/sites/abigaildubiniecki/2024/11/14/post-roe-your-period-app-data-could-be-used-against-you) affecting your reproductive autonomy.
 
 ### drip.
 
@@ -23,8 +23,9 @@ Popular menstrual trackers like [Flo](https://techcrunch.com/2021/01/13/flo-gets
 
 **drip.** is a gender-inclusive and open source menstrual cycle tracker available on all mobile platforms. It relies on the sympto-thermal method to predict ovulation. In addition to pin protection, all user data is stored locally on the device.
 
-[:octicons-home-16: Homepage](https://bloodyhealth.gitlab.io/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://bloodyhealth.gitlab.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bloodyhealth.gitlab.io/privacy-policy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://bloodyhealth.gitlab.io/faq){ .card-link title="Documentation" }
 [:octicons-code-16:](https://gitlab.com/bloodyhealth/drip){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -50,7 +51,7 @@ Popular menstrual trackers like [Flo](https://techcrunch.com/2021/01/13/flo-gets
 [:octicons-home-16: Homepage](https://eukiapp.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://eukiapp.org/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-code-16:](https://github.com/Euki-Inc/Euki-Android){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.every.org/euki-app){ .card-link title="Contribute" }
+[:octicons-heart-16:](https://every.org/euki-app){ .card-link title="Contribute" }
 
 
 <details class="downloads" markdown>
@@ -76,13 +77,13 @@ These general purpose apps can do everything from counting steps and tracking sl
 
 **Apple Health** is the default healh and fitness app in iOS. Their privacy policy states that your personal data in encrypted at-rest and in-transit. Apple Health utilizes end-to-end encryption when syncing across multiple devices. Additionally, almost all measured data is processed on your phone. 
 
-[:octicons-home-16: Homepage](https://www.apple.com/health/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.apple.com/legal/privacy/consumer-health-personal-data/en-ww/){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Homepage](https://apple.com/health){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/consumer-health-personal-data/en-ww){ .card-link title="Privacy Policy" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/apple-health/id1242545199)
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-health/id1242545199)
 
 </details>
 
@@ -114,7 +115,7 @@ Make sure to review the smartwatch [compatibility list](https://gadgetbridge.org
 
 ## Health Records
 
-These apps help you collect and manage personal health data and share it with health providers, organizations and other apps.
+These apps help you collect and manage personal health data and share it with health providers, organizations, and other apps.
 
 ### Apple Health Records
 
@@ -124,13 +125,13 @@ These apps help you collect and manage personal health data and share it with he
 
 **Apple Health Records** is a built-in feature within **Apple Health** that allows you to view, store, and share your health records. It shares the security and privacy features of Apple Health.
 
-[:octicons-home-16: Homepage](https://www.apple.com/health/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.apple.com/legal/privacy/consumer-health-personal-data/en-ww/){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Homepage](https://apple.com/health){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/consumer-health-personal-data/en-ww){ .card-link title="Privacy Policy" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/apple-health/id1242545199)
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-health/id1242545199)
 
 </details>
 
@@ -144,13 +145,13 @@ These apps help you collect and manage personal health data and share it with he
 
 **CommonHealth** is a privacy-respecting android alternative to Apple Health Records. It allows people to access their electronic health records and securely share it to providers.
 
-[:octicons-home-16: Homepage](https://www.commonhealth.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.commonhealth.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Homepage](https://commonhealth.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://commonhealth.org/privacy){ .card-link title="Privacy Policy" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?hl=en_US&id=org.thecommonsproject.android.phr)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thecommonsproject.android.phr)
 
 </details>
 
