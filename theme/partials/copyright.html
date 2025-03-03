@@ -35,6 +35,11 @@
         {% endfor %}
       </a>
       {{ copyright.copyright.date }} {{ copyright.copyright.author }}
+      {% for link in copyright.links %}
+        <a href="{{ link.url }}">
+          <strong>{{ link.name }}</strong>
+        </a>
+      {% endfor %}
     </div>
   {% endif %}
 </div>

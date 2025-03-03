@@ -51,11 +51,14 @@ extra:
       copyright:
         author:
           !ENV [FOOTER_COPYRIGHT_AUTHOR, "Privacy Guides and contributors."]
-        date: !ENV [FOOTER_COPYRIGHT_DATE, "2019-2024"]
+        date: !ENV [FOOTER_COPYRIGHT_DATE, "2019-2025"]
       license:
         - fontawesome/brands/creative-commons
         - fontawesome/brands/creative-commons-by
         - fontawesome/brands/creative-commons-sa
+      links:
+        - name: !ENV [FOOTER_PRIVACY_NOTICE, "Privacy notice."]
+          url: https://www.privacyguides.org/en/privacy/
     homepage:
       description:
         !ENV [
@@ -454,7 +457,7 @@ nav:
       - "about/criteria.md"
       - "about/executive-policy.md"
       - "about/notices.md"
-      - "about/privacy-policy.md"
+      - "privacy.md"
       - "about/jobs.md"
       - !ENV [NAV_COMMUNITY, "Community"]:
           - !ENV [NAV_ONLINE_SERVICES, "Online Services"]: "about/services.md"

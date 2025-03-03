@@ -70,3 +70,7 @@
 {"rule":"DOUBLE_PUNCTUATION","sentence":"^\\QOur contributors should always question the motives behind a source requesting anonymity..\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIllustration: Em / Privacy Guides | Photo: Edward Eyer / Pexels\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QOn February 7th this year, Joseph Menn reported from the Washington Post that officials in the United Kingdom had contacted Apple to demand the company allows them to access data from any iCloud user worldwide.\\E$"}
+{"rule":"DO_VBZ","sentence":"^\\QDoes Privacy Guides sell my personal information?\\E$"}
+{"rule":"DO_VBZ","sentence":"^\\QDoes Privacy Guides use personal information for marketing purposes?\\E$"}
+{"rule":"DO_VBZ","sentence":"^\\QWhere does Privacy Guides store data about me?\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QPrivacy Guides relies on the European Commission's standard contractual clauses for international transfers(SCCs) to legally transfer personal data out of the European Economic Area.\\E$"}

@@ -42,7 +42,7 @@ extra:
       copyright:
         author:
           !ENV [FOOTER_COPYRIGHT_AUTHOR, "Privacy Guides and contributors."]
-        date: !ENV [FOOTER_COPYRIGHT_DATE, "2019-2024"]
+        date: !ENV [FOOTER_COPYRIGHT_DATE, "2019-2025"]
       license:
         - fontawesome/brands/creative-commons
         - fontawesome/brands/creative-commons-by
