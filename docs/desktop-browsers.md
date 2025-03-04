@@ -64,6 +64,14 @@ These are our currently recommended **desktop web browsers** and configurations 
 
 If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
 
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning about Canvas Fingerprinting</p>
+
+The Canvas API in HTML5, designed for drawing graphics via JavaScript and HTML, can also be used for fingerprinting. Browsers that protect against this will break images you upload and make some sites more difficult to use. An example is Proton Drive, where thumbnails generated for uploaded images are broken because the site generates thumbnails on the user's computer using the Canvas API.
+
+</div>
+
+
 ## Mullvad Browser
 
 <div class="admonition recommendation" markdown>
