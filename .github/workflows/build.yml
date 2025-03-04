@@ -63,7 +63,6 @@ jobs:
       - name: Set Metadata for International Builds
         if: inputs.lang != 'en'
         run: |
-          echo "GITREVISIONDATE=false" >> "$GITHUB_ENV"
           echo "GITAUTHORS=false" >> "$GITHUB_ENV"
 
       - name: Set Metadata for Offline Mode
