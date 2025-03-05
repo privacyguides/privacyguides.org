@@ -57,6 +57,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 - [:fontawesome-brands-windows: Windows](https://onionshare.org/#download)
 - [:simple-apple: macOS](https://onionshare.org/#download)
 - [:simple-linux: Linux](https://onionshare.org/#download)
+- [:simple-flathub: Flathub](https://flathub.org/apps/org.onionshare.OnionShare)
 
 </details>
 
