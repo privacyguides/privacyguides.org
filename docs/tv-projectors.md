@@ -18,7 +18,7 @@ In general, the TV industry has moved toward making them "smart", meaning that i
 
 <div class="admonition recommendation" markdown>
 
-![Kodi logo](assets/img/tv-projectors/kodi.svg#only-light){ align=right }
+![Kodi logo](assets/img/tv-projectors/kodi.svg){ align=right }
 
 **Kodi** is a Free and Open Source (FOSS) client that can replace the interface of the likes of Smart TVs, it supports all variety of entertainment including TV (PVR), Music, Games, Videos (TV Shows, Movies) and Pictures. Kodi relies on content being stored locally or on the internet for things like Youtube or hardware to interface with things like TV (PVR) and you can use add-ons<sup>1.</sup> to extend the experience. Kodi is compatible with most operating systems and hardware, including Apple, Raspberry Pi, Linux, and Android, see the [requirements here](https://kodi.wiki/view/Supported_hardware) for running Kodi.
 
@@ -46,7 +46,7 @@ If you're willing to go the used route. You could find used TVs on selling sites
 
 <div class="admonition recommendation" markdown>
 
-![Raspberry Pi logo](assets/img/tv-projectors/raspberrypi.svg#only-light){ align=right }
+![Raspberry Pi logo](assets/img/tv-projectors/raspberrypi.svg){ align=right }
 
 The Raspberry Pi is a single board computer that is able to use the POGO pins to extend functionality like the [TV HAT](https://www.raspberrypi.com/products/raspberry-pi-tv-hat/) to be used as a TV. It also uses Linux as it's main operating system which also supports the software above, making it a private alternative to the "smart" features we get, it and hopefully other SBC's having something like the TV Hat means that if the consumer still wants television (PVR) or other functionalities still with their monitor, they can use that as an extension.
 
