@@ -38,7 +38,7 @@ In general, the TV industry has moved toward making them "smart", meaning that i
 ### Display
 #### Monitors (Recommended)
 Generally speaking, unless you want to go the used route, it is impossible if not rare to find "dumb" TVs in stores nowadays, so one of the general recommendations is to buy a monitor in the size of a TV (not ultra-wide ones) or the one you want, and adding something like our software recommendations above and devices below makes for a generally much more private alternative than buying a Smart TV.
-### Used TVs
+#### Used TVs
 If you're willing to go the used route. You could find used TVs on selling sites like craiglist (with necessary precautions) or your local e-waste store which could be a better alternative than the ladder which will generally be "dumbed down" however it does come with downsides which is why the monitor approach is recommended. Also, these TVs will generally be either CRTs or LCDs and we would recommend avoiding used CRT TVs unless you know the risks with them or are willing to be more "janky", especially as CRTs suffer from [burn-in](https://en.wikipedia.org/wiki/Screen_burn-in) and are complex to maintain and generally do not have modern ports like HDMI. And of course for LCDs, old LCD TVs generally do not have the best quality over modern LED, LCD or OLED TVs or monitors, but old LCD is your best bet here.
 
 ### Devices
