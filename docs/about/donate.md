@@ -31,7 +31,7 @@ Thank you to those who have significantly supported Privacy Guides. A membership
 
 ### Past Supporters
 
-- [Safing](https://safing.io){ rel=nofollow target=_blank } – 2019 – 2021
+- [Safing](https://safing.io){ rel=nofollow target=_blank }: 2019 – 2021
 
 ## Active Members
 

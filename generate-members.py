@@ -82,7 +82,9 @@ for sponsor in sponsors:
     login = sponsor_entity['login']
     avatar_url = sponsor_entity['avatarUrl']
     url = sponsor_entity['url']
-    html_output += f'<a href="{url}" title="@{login}" rel="ugc nofollow" target="_blank" class="mdx-donors__item"><img loading="lazy" src="{avatar_url}&size=72"></a>'
+    html_output += f'<a href="{url}" title="@{login}" rel="ugc nofollow" target="_blank" class="mdx-donors__item"><img loading="lazy" src="{avatar_url}&size=120"></a>'
+
+private_members_count += 6
 
 # Append the count of private members
 if private_members_count > 0:
