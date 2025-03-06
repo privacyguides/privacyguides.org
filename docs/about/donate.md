@@ -50,7 +50,7 @@ Privacy Guides would not be possible without those generous enough to donate on 
 
 <small markdown>
 
-This is a list of our **active** [members](https://donate.magicgrants.org/privacyguides/membership) and donors on GitHub, who have chosen to make their donation public. Hundreds more have donated in the past or privately, and their support is hugely appreciated as well.
+This is a list of our **active** [members](https://donate.magicgrants.org/privacyguides/membership), plus donors on GitHub, who have chosen to make their donation public. Hundreds more have donated in the past or privately, and their support is hugely appreciated as well.
 
 </small>
 
