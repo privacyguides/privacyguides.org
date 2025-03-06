@@ -14,9 +14,14 @@ MAGIC Grants is our fiscal host, and their custom, open-source donation platform
 
 </small>
 
-<div class="mdx-specialthanks" markdown>
-
 ## Special Thanks
+
+Thank you to those who have significantly supported Privacy Guides over the years. (1)
+{ .annotate }
+
+1. If you donate $5,000 or more to Privacy Guides, we will add your name or logo on a black or white background and a link to your website to thank you for your support for our work. This is not a guarantee or transaction, and Privacy Guides reserves the right to remove those who are unaligned with our mission or organization at any time.
+
+<div class="mdx-specialthanks" markdown>
 
 [![Safing]](https://safing.io){ rel=nofollow target=_blank title="Safing" }
 [![Power Up Privacy]](https://powerupprivacy.com){ rel=nofollow target=_blank title="Power Up Privacy" }
@@ -28,13 +33,12 @@ MAGIC Grants is our fiscal host, and their custom, open-source donation platform
 
 </div>
 
-<small markdown>
-
-If you donate $5,000 or more to Privacy Guides, we will add your name or logo on a black or white background and a link to your website to thank you for your support for our work. This is not a guarantee or transaction, and Privacy Guides reserves the right to remove those who are unaligned with our mission or organization at any time.
-
-</small>
-
 ## Who's Donating?
+
+Privacy Guides would not be possible without those generous enough to donate on a monthly or yearly regular basis. (1)
+{ .annotate }
+
+1. If you become a member and [link your donation](https://discuss.privacyguides.net/t/getting-your-member-flair-on-the-forum/25453) to your forum account, you're automatically added here with a link to your profile and avatar to show your support for Privacy Guides. If you link your forum account but don't set your flair or title, you'll be a silent +1. You can change your visibility any time. This chart is updated upon each website release.
 
 <div class="mdx-donors" data-mdx-component="donors">
 <div class="mdx-donors__list">
@@ -46,15 +50,15 @@ If you donate $5,000 or more to Privacy Guides, we will add your name or logo on
 
 <small markdown>
 
-If you become a member and [link your donation](https://discuss.privacyguides.net/t/getting-your-member-flair-on-the-forum/25453) to your forum account, you're automatically added here with a link to your profile and avatar to show your support for Privacy Guides. If you link your forum account but don't set your flair or title, you'll be a silent +1. You can change your visibility any time. This chart is updated upon each website release.
+This is a list of our **active** [members](https://donate.magicgrants.org/privacyguides/membership) and donors on GitHub, who have chosen to make their donation public. Hundreds more have donated in the past or privately, and their support is hugely appreciated as well.
 
 </small>
 
-Privacy Guides has been a nonstop effort for over 5 years to stay up to date with the world of cybersecurity and privacy, and to promote the benefits of privacy overall. This is a **non-profit, community-driven** project that would not be possible without the generous support of all our [contributors](contributors.md), in addition to our regularly donating members above.
-
 ## How We Use Donations
 
-Privacy Guides is a **non-profit** project. Your donation will go to a [dedicated fund](https://magicgrants.org/funds/privacy_guides) within [MAGIC Grants](https://magicgrants.org), a 501(c)(3) organization and our fiscal host. The funds will **only** be used for this project specifically.
+Privacy Guides has been a nonstop effort for over 5 years to stay up to date with the world of cybersecurity and privacy, and to promote the benefits of privacy overall. This is a **non-profit, community-driven** project that would not be possible without the generous support of all our [contributors](contributors.md), in addition to our regularly donating members above.
+
+Your donation go to a [dedicated fund](https://magicgrants.org/funds/privacy_guides) within [MAGIC Grants](https://magicgrants.org), a 501(c)(3) organization and our fiscal host. The funds will **only** be used for this project specifically.
 
 You may qualify for a tax deduction. When you donate to us [here](https://donate.magicgrants.org/privacyguides) with cryptocurrency or card you have the option to receive a receipt from MAGIC Grants for this purpose. If you have questions about other transactions please email <info@magicgrants.org>.
 
