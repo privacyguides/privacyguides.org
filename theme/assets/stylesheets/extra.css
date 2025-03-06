@@ -528,22 +528,38 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
     padding-inline-start: 1em;
 }
 
-/* Sponsorship */
-.md-typeset .mdx-sponsorship__list {
+/* Donations */
+.md-typeset .mdx-specialthanks p {
+  margin:2em 0;
+  text-align:center
+}
+.md-typeset .mdx-specialthanks img {
+  height:3.25rem
+}
+.md-typeset .mdx-specialthanks p:last-child {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center
+}
+.md-typeset .mdx-specialthanks p:last-child>a {
+  display:block;
+  flex-shrink:0
+}
+.md-typeset .mdx-donors__list {
   margin:2em 0
 }
-.md-typeset .mdx-sponsorship__list:after {
+.md-typeset .mdx-donors__list:after {
   clear:both;
   content:"";
   display:block
 }
-[dir=ltr] .md-typeset .mdx-sponsorship__item {
+[dir=ltr] .md-typeset .mdx-donors__item {
   float:left
 }
-[dir=rtl] .md-typeset .mdx-sponsorship__item {
+[dir=rtl] .md-typeset .mdx-donors__item {
   float:right
 }
-.md-typeset .mdx-sponsorship__item {
+.md-typeset .mdx-donors__item {
   border-radius:100%;
   display:block;
   height:3rem;
@@ -553,15 +569,15 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
   transition:color 125ms,transform 125ms;
   width:3rem
 }
-.md-typeset .mdx-sponsorship__item:focus,
-.md-typeset .mdx-sponsorship__item:hover {
+.md-typeset .mdx-donors__item:focus,
+.md-typeset .mdx-donors__item:hover {
   transform:scale(1.1)
 }
-.md-typeset .mdx-sponsorship__item:focus img,
-.md-typeset .mdx-sponsorship__item:hover img {
+.md-typeset .mdx-donors__item:focus img,
+.md-typeset .mdx-donors__item:hover img {
   filter:grayscale(0)
 }
-.md-typeset .mdx-sponsorship__item--private {
+.md-typeset .mdx-donors__item--private {
   background:var(--md-default-fg-color--lightest);
   color:var(--md-default-fg-color--lighter);
   font-size:.8rem;
@@ -569,17 +585,17 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
   line-height:2.9rem;
   text-align:center
 }
-.md-typeset .mdx-sponsorship__item img {
+.md-typeset .mdx-donors__item img {
   display:block;
   filter:grayscale(100%) opacity(75%);
   height:auto;
   transition:filter 125ms;
   width:100%
 }
-.md-typeset .mdx-sponsorship-button {
+.md-typeset .mdx-donors-button {
   font-weight:400
 }
-.md-typeset .mdx-sponsorship-count,
-.md-typeset .mdx-sponsorship-total {
+.md-typeset .mdx-donors-count,
+.md-typeset .mdx-donors-total {
   font-weight:700
 }

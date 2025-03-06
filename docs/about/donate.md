@@ -16,8 +16,8 @@ MAGIC Grants is our fiscal host, and their custom, open-source donation platform
 
 ## Who's Donating?
 
-<div class="mdx-sponsorship" data-mdx-component="sponsorship">
-<div class="mdx-sponsorship__list">
+<div class="mdx-donors" data-mdx-component="donors">
+<div class="mdx-donors__list">
 
 --8<-- "includes/members.md"
 
