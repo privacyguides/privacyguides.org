@@ -63,6 +63,8 @@ jobs:
       context: production
       continue-on-error: false
       cache: false
+    secrets:
+      RO_DISCOURSE_API_KEY: ${{ secrets.RO_DISCOURSE_API_KEY }}
 
   build_blog:
     needs: submodule
