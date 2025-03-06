@@ -475,7 +475,7 @@ nav:
               - "meta/uploading-images.md"
               - "meta/git-recommendations.md"
               - "meta/commit-messages.md"
-  - !ENV [NAV_DONATE, "Donate"]: https://donate.magicgrants.org/privacyguides
+  - !ENV [NAV_DONATE, "Donate"]: /en/about/donate/
   - !ENV [NAV_FORUM, "Forum"]:
       !ENV [NAV_FORUM_LINK, "https://discuss.privacyguides.net/"]
 

@@ -5,10 +5,14 @@ description: The charitable mission of Privacy Guides relies on contributions fr
 <!-- markdownlint-disable MD036 -->
 Donate to Privacy Guides and support our mission to defend digital rights and spread the word about mass surveillance programs and other daily privacy invasions. You can help Privacy Guides researchers, activists, and maintainers create informative content, host private digital services, and protect privacy rights at a time when the world needs it most.
 
-[:material-heart:{ .pg-red } Donate](https://donate.magicgrants.org/privacyguides){ class="md-button md-button--primary" }
-[:simple-github: Donate on GitHub](https://github.com/sponsors/privacyguides){ class="md-button" }
+[:material-heart:{ .pg-red } Become a Member](https://donate.magicgrants.org/privacyguides/membership){ class="md-button md-button--primary" }
+[:material-hand-coin: Make a Donation](https://donate.magicgrants.org/privacyguides/donate/privacyguides){ class="md-button md-button--primary" }
 
-<small markdown>MAGIC Grants is our fiscal host, and their custom, open-source donation platform allows you to donate to our project with **Monero**, **Bitcoin**, or **debit/credit card**.</small>
+<small markdown>
+
+MAGIC Grants is our fiscal host, and their custom, open-source donation platform allows you to donate to our project with **Monero**, **Bitcoin**, or **debit/credit card**. You can also [:simple-github: donate using GitHub Sponsors](https://github.com/sponsors/privacyguides)
+
+</small>
 
 ## Who's Donating?
 
@@ -20,7 +24,11 @@ Donate to Privacy Guides and support our mission to defend digital rights and sp
 </div>
 </div>
 
-<small markdown>If you donate publicly and [link your donation](https://discuss.privacyguides.net/t/getting-your-member-flair-on-the-forum/25453) to your forum account, you're automatically added here with a link to your profile and avatar to show your support for Privacy Guides. If you link your forum account but don't set your flair or title, you'll be a silent +1. You can change your visibility any time. This chart is updated upon each website release.</small>
+<small markdown>
+
+If you become a member and [link your donation](https://discuss.privacyguides.net/t/getting-your-member-flair-on-the-forum/25453) to your forum account, you're automatically added here with a link to your profile and avatar to show your support for Privacy Guides. If you link your forum account but don't set your flair or title, you'll be a silent +1. You can change your visibility any time. This chart is updated upon each website release.
+
+</small>
 
 Privacy Guides has been a nonstop effort for over 5 years to stay up to date with the world of cybersecurity and privacy, and to promote the benefits of privacy overall. This is a **non-profit, community-driven** project that would not be possible without the generous support of all our [contributors](contributors.md), in addition to our regularly donating members above.
 

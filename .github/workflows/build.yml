@@ -176,7 +176,8 @@ jobs:
         env:
           DISCOURSE_API_KEY: ${{ secrets.RO_DISCOURSE_API_KEY }}
         run: |
-          python3 generate-members.py > includes/members.md
+          pip install requests
+          python generate-members.py > includes/members.md
 
       - name: Build Website
         run: |
