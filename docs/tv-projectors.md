@@ -69,10 +69,12 @@ In general, a computer that meets the hardware requirements for the above softwa
 - Must have functionality that can replace the likes of Smart TVs.
 ### Hardware
 For Displays:
+
 - Must not collect any sensitive data or otherwise be a "Smart" device
 - Must support the ports devices can use like HDMI, No adapters.
 
 For Devices:
+
 - Similar to Displays, software must not collect any sensitive data (out of the box).
 - Can use operating systems like Linux. 
 - Can use different peripherals for the likes of TV (PVR) and others and can use the recommended software.
