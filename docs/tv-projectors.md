@@ -31,7 +31,7 @@ In general, the TV industry has moved toward making them "smart", meaning that i
 
 </div>
 
-1. Kodi has an add-ons store to extend the out-of-the-box experience, but **keep in mind that add-ons are made by the community and the company itself, so be careful what you install** luckily most software add-ons are also FOSS, meaning the code on them can be inspected, but in general be careful what you install, see the [addons site](https://kodi.tv/addons/) for more.
+1. Kodi has an add-ons store to extend the out-of-the-box experience, but **keep in mind that add-ons are made by the community and the company itself, so be careful what you install,** luckily most software add-ons are also FOSS, meaning the code on them can be inspected, but in general be careful what you install, see the [addons site](https://kodi.tv/addons/) for more.
 
 
 ## Hardware
