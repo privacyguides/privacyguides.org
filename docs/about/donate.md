@@ -31,11 +31,11 @@ Thank you to those who have significantly supported Privacy Guides. An organizat
 
 ### Past Supporters
 
-- [Safing](https://safing.io) – 2019 – 2021
+- [Safing](https://safing.io){ rel=nofollow target=_blank } – 2019 – 2021
 
 ## Active Members
 
-Privacy Guides would not be possible without those generous enough to donate on a monthly or yearly regular basis. (1)
+Privacy Guides would not be possible without those generous enough to donate on a monthly or yearly basis. (1)
 { .annotate }
 
 1. If you become a member and [link your donation](https://discuss.privacyguides.net/t/getting-your-member-flair-on-the-forum/25453) to your forum account, you're automatically added here with a link to your profile and avatar to show your support for Privacy Guides. If you link your forum account but don't set your flair or title, you'll be a silent +1. You can change your visibility any time. This chart is updated upon each website release.
