@@ -13,7 +13,7 @@ schema_type: AnalysisNewsArticle
 ![Photo of YubiKey on a table between a MacBook and a phone.](../assets/images/yubikey-reset-and-backup/cover.webp)
 <small aria-hidden="true">Photo: Yubico</small>
 
-If you are not familiar with it already, YubiKey is a physical [security key](https://www.privacyguides.org/en/security-keys/) produced by [Yubico](https://www.yubico.com/) that can be used for various authentication and security purposes. One common usage is to use it as a second factor of authentication for a [service or product](https://www.yubico.com/works-with-yubikey/catalog/). This tutorial explains how to reset a YubiKey to factory defaults and create a near copy of it for backup purposes.<!-- more -->
+If you are not familiar with it already, a YubiKey is a physical [security key](https://www.privacyguides.org/en/security-keys/) produced by [Yubico](https://www.yubico.com/) that can be used for various authentication and security purposes. One common usage is to use it as a second factor of authentication for a [service or product](https://www.yubico.com/works-with-yubikey/catalog/). This tutorial explains how to reset a YubiKey to factory defaults and create a near copy of it for backup purposes.<!-- more -->
 
 The biggest security *advantage* to using a physical security key is that it's something you have that cannot be accessed remotely or easily emulated.
 
