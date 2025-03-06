@@ -582,7 +582,7 @@ In this case, you might want to skip the optional Steps 10.3, 10.4, and 10.5. Yo
 
 #### 10.1. Register and copy OATH Time-based One-Time Password (OATH-TOTP) codes
 
-To copy the OATH-TOTPs 6-digit authentication codes to your spare key, you will need to [use the same QR code](https://docs.yubico.com/software/yubikey/tools/authenticator/auth-guide/tips.html#oath-accounts) your were provided when originally registering an account on your main key.
+To copy the OATH-TOTP authentication codes to your spare key, you will need to [use the same QR code](https://docs.yubico.com/software/yubikey/tools/authenticator/auth-guide/tips.html#oath-accounts) your were provided when originally registering an account on your main key.
 
 When you [add a new account](https://docs.yubico.com/software/yubikey/tools/authenticator/auth-guide/oath.html#oath-add-an-account) to your YubiKey's OATH-TOTPs, keep a copy of the QR code provided by the service or product to be able to register it again with your spare key. Ideally, register both keys at once. Make sure to **secure this QR code properly**, as it could be used to register it with any other authenticator.
 
