@@ -29,7 +29,7 @@ for member in members:
     avatar_template = member['avatar_template']
     avatar_url = f"https://discuss.privacyguides.net{avatar_template.replace('{size}', '128')}"
     profile_url = f"https://discuss.privacyguides.net/u/{username}"
-    html_output += f'<a href="{profile_url}" title="@{username}" class="mdx-sponsorship__item"><img src="{avatar_url}"></a>'
+    html_output += f'<a href="{profile_url}" target="_blank" title="@{username}" class="mdx-donors__item"><img loading="lazy" src="{avatar_url}"></a>'
   else:
     private_members_count += 1
 
@@ -82,10 +82,10 @@ for sponsor in sponsors:
     login = sponsor_entity['login']
     avatar_url = sponsor_entity['avatarUrl']
     url = sponsor_entity['url']
-    html_output += f'<a href="{url}" title="@{login}" class="mdx-sponsorship__item"><img src="{avatar_url}&size=72"></a>'
+    html_output += f'<a href="{url}" title="@{login}" rel="ugc nofollow" target="_blank" class="mdx-donors__item"><img loading="lazy" src="{avatar_url}&size=72"></a>'
 
 # Append the count of private members
 if private_members_count > 0:
-  html_output += f'<a href="https://donate.magicgrants.org/privacyguides" class="mdx-sponsorship__item mdx-sponsorship__item--private">+{private_members_count}</a>'
+  html_output += f'<a href="https://donate.magicgrants.org/privacyguides" class="mdx-donors__item mdx-donors__item--private">+{private_members_count}</a>'
 
 print(html_output)
