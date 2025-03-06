@@ -54,7 +54,37 @@ This is a list of our **active** [members](https://donate.magicgrants.org/privac
 
 </small>
 
-## How We Use Donations
+## Merchandise
+
+Another option to support us is by buying our merchandise from HelloTux. We get a small commission for each item sold, and you get a quality product to show for it.
+
+[Buy on HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
+
+## Non-Financial Support
+
+It takes a lot of [people](contributors.md) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spread the word about privacy and mass surveillance. If you're looking for other ways to help out, consider getting involved by [editing the site](https://github.com/privacyguides/privacyguides.org), [joining our forum](https://discuss.privacyguides.net), or [contributing translations](https://crowdin.com/project/privacyguides).
+
+## FAQ
+
+### What is an organizational membership?
+
+Organizational membership to Privacy Guides is open to any company, private foundation, or organization that donates at least $5,000 per year and agrees to our membership pledge (below). While Privacy Guides does not endorse private companies or their products, we're grateful for their contributions. As a 501(c)(3) public charity the donation may be tax-deductible, and we will provide you with a receipt.
+
+You can become an organizational member by reaching out to <info@magicgrants.org> for more information.
+
+*Pledge*: By supporting Privacy Guides we share a commitment to improving access to privacy-friendly technology and education to all people around the world, without discrimination on the basis of race, religion, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex, gender, gender identity, gender expression, or age. We also understand that Privacy Guides does not endorse private companies or their products or services, regardless of organizational membership status. We will not use Privacy Guides badges or any other branding in a way which implies that Privacy Guides has endorsed our organization.
+
+### How are organizational members recognized?
+
+Organizational members that choose to be recognized publicly are included in our organizational members section (above), and occasionally at other opportunities where appropriate. Organizational member links include the rel="nofollow" attribute: We adopted this policy to screen out potential abuse of our program and site to raise the rank of third parties in search algorithms. Unfortunately, this is a growing problem for nonprofits. This was a complex decision since we know many of the sincere supporters behind these companies, but we decided that it was the best choice for us.
+
+### What is an active membership?
+
+Your monthly or yearly membership sustains Privacy Guides's services and public activism for privacy and cybersecurity year round. If you become a member we will recognize your support here on our website and our community forum, and occasionally in other areas like our videos, if you choose to make your membership publicly known.
+
+Our membership program is brand new, and we are still exploring other ways that we can share a token of our appreciation with you, while maintaining sustainable and ethical boundaries. Stay tuned!
+
+### How does Privacy Guides use donations?
 
 Privacy Guides has been a nonstop effort for over 5 years to stay up to date with the world of cybersecurity and privacy, and to promote the benefits of privacy overall. This is a **non-profit, community-driven** project that would not be possible without the generous support of all our [contributors](contributors.md), in addition to our regularly donating members above.
 
@@ -87,13 +117,3 @@ We use donations for a variety of purposes, including:
 Thank you to all those who support our mission! :material-heart:{ .pg-red }
 
 We strictly **cannot** use donations to support political campaigns/candidates or attempt to influence legislation. Earnings also will **not** inure to the benefit of any private shareholder or individual.
-
-## Merchandise
-
-Another option to support us is by buying our merchandise from HelloTux. We get a small commission for each item sold, and you get a quality product to show for it.
-
-[Buy on HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
-
-## Non-Financial Support
-
-It takes a lot of [people](contributors.md) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spread the word about privacy and mass surveillance. If you're looking for other ways to help out, consider getting involved by [editing the site](https://github.com/privacyguides/privacyguides.org), [joining our forum](https://discuss.privacyguides.net), or [contributing translations](https://crowdin.com/project/privacyguides).

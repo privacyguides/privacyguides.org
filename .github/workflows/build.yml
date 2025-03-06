@@ -270,6 +270,14 @@ jobs:
           path: site-${{ inputs.config }}-${{ inputs.lang }}.tar.gz
           retention-days: 1
 
+      - name: Upload members list
+        uses: actions/upload-artifact@v4
+        if: inputs.lang == 'en'
+        with:
+          name: members.md
+          path: includes/members.md
+          retention-days: 1
+
   offline_package:
     if: inputs.config == 'offline' && inputs.lang == 'en'
     needs: build
