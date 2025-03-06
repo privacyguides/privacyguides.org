@@ -8,7 +8,7 @@ cover: tv-projectors.webp
 <small>Protects against the following threat(s):</small>
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
-- [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance){ .pg-blue }
+- [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
 
 In general, the TV industry has moved toward making them "smart", meaning that it's super rare to find "dumb" TVs, if you can find a TV that doesn't spy on you. Projectors generally haven't followed the same path, but there are projectors that have "smart features" built in. Below are software and hardware recommendations to protect your privacy.
 
