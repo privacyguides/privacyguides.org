@@ -172,6 +172,12 @@ jobs:
           sudo apt install pngquant
           echo "EXTRA_FLAGS=""$EXTRA_FLAGS" --cmd=mkdocs"" >> "$GITHUB_ENV"
 
+      - name: Generate Donating Members List
+        env:
+          DISCOURSE_API_KEY: ${{ secrets.RO_DISCOURSE_API_KEY }}
+        run: |
+          python3 generate-members.py > includes/members.md
+
       - name: Build Website
         run: |
           eval ./run.sh --build --lang=${{ inputs.lang }} "$EXTRA_FLAGS"
