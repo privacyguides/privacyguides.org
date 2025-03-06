@@ -4,6 +4,7 @@ icon: material/tv
 description: Alternatives towards TVs and Projectors 
 cover: tv-projectors.webp
 ---
+
 <!---If material/tv exists otherwise change--->
 <small>Protects against the following threat(s):</small>
 
