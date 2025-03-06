@@ -227,7 +227,7 @@ Yubico makes the **ykman CLI** Python program files available on its [website](h
 
 :material-linux: From Linux (Ubuntu), using the Yubico developer's website:
 
-On [this page](https://developers.yubico.com/yubikey-manager/Releases/), download the latest **tar.gz** file and decompress it. Run the **ykman** Python program using the command line from the directory you have installed it in.
+On [this page](https://developers.yubico.com/yubikey-manager/Releases/), download the latest **`tar.gz`** file and decompress it. Run the **ykman** Python program using the command line from the directory you have installed it in.
 
 :material-linux: From Linux (Ubuntu), using Yubico's **yubico/stable PPA** type:
 
@@ -249,11 +249,11 @@ brew install ykman
 
 :material-apple: From macOS, using the Yubico developer's website:
 
-On [this page](https://developers.yubico.com/yubikey-manager/Releases/), download the latest **mac.pkg** file, then double-click on it to complete the installation.
+On [this page](https://developers.yubico.com/yubikey-manager/Releases/), download the latest **`mac.pkg`** file, then double-click on it to complete the installation.
 
 :material-microsoft-windows: From Windows, using the Yubico developer's website:
 
-On [this page](https://developers.yubico.com/yubikey-manager/Releases/), download the latest **win64.msi** file, then double-click on it to complete the installation.
+On [this page](https://developers.yubico.com/yubikey-manager/Releases/), download the latest **`win64.msi`** file, then double-click on it to complete the installation.
 
 #### 6.2. Navigate to the application directory
 
@@ -420,34 +420,34 @@ You can click on the "Use serial" star button on the right to generate a [ModHex
 <div class="admonition info" markdown>
 <p class="admonition-title">If you decide to manually type your Public ID</p>
 
-- Remember the string must be **12-character** long
+- Remember the string must be **12-characters** long
 
-- You must only choose characters comprised within: **bcdefghijklnrtuv**
+- You must only choose characters comprised within: **`bcdefghijklnrtuv`**
 
-- Because this string remains constant, to increase your privacy, favor a random string that isn't recognizable or specifically interesting. For example, resist the temptation to choose something irresistibly cool like "vvbetterdude" or "vvfiercenerd".
+- Because this string remains constant, to increase your privacy, favor a random string that isn't recognizable or specifically interesting. For example, resist the temptation to choose something irresistibly cool like "`vvbetterdude`" or "`vvfiercenerd`".
 
 </div>
 
 #### 8.3. For the Private ID field
 
-The [**Private ID**](https://developers.yubico.com/OTP/OTPs_Explained.html) of your YubiKey will also be 12-character long but will not show in your key's OTP string. This **Private ID** can be used to store a private identity that can be accessed by a remote validation server holding the AES key used to encrypt the OTP.
+The [**Private ID**](https://developers.yubico.com/OTP/OTPs_Explained.html) of your YubiKey will also be 12-characters long but will not show in your key's OTP string. This **Private ID** can be used to store a private identity that can be accessed by a remote validation server holding the AES key used to encrypt the OTP.
 
 You can click on the "Generate random" circle-arrow button on the right to generate a random ID, or you can type your own manually.
 
 <div class="admonition info" markdown>
 <p class="admonition-title">If you decide to manually type your Private ID</p>
 
-- Remember the string must be **12-character** long
+- Remember the string must be **12-characters** long
 
-- You must only choose characters comprised within: **abcdef0123456789**
+- You must only choose characters comprised within: **`abcdef0123456789`**
 
-- If you want to increase your privacy, again favor a random string that isn't recognizable or specifically interesting. For example, resist the overwhelming temptation to choose something unbearably cool like "c0de1337cafe" or "bada55babe42"
+- If you want to increase your privacy, again favor a random string that isn't recognizable or specifically interesting. For example, resist the overwhelming temptation to choose something unbearably cool like "`c0de1337cafe`" or "`bada55babe42`"
 
 </div>
 
 #### 8.4. For the Secret key field
 
-The **Secret key** of your YubiKey's OTP is a 32-character long random string. Again, you can click on the "Generate random" circle-arrow button on the right to generate a random Secret key, or you can type your own manually. If you decide to use your own Secret key, characters must be comprised within the allowed **abcdef0123456789**.
+The **Secret key** of your YubiKey's OTP is a 32-character long random string. Again, you can click on the "Generate random" circle-arrow button on the right to generate a random Secret key, or you can type your own manually. If you decide to use your own Secret key, characters must be comprised within the allowed **`abcdef0123456789`**.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">To remove automatic carriage return</p>
@@ -768,9 +768,9 @@ gpg --list-keys --keyid-format=long
 
 If you have multiple keys already stored on your computer, this command will list all of your keys.
 
-Only look at the last "key block" listed, and note its **key ID**. Each "key block" starts with a **pub** line, followed by an **uid** line(s), with potentially one or more **sub** lines (for subkeys).
+Only look at the last "key block" listed, and note its **key ID**. Each "key block" starts with a **`pub`** line, followed by a **`uid`** line(s), with potentially one or more **sub** lines (for subkeys).
 
-Your OpenPGP **key ID** will be a string of numbers and uppercase letters on the **pub** line, after the "rsa4096" key type, and separated by a **/** character as follows:
+Your OpenPGP **key ID** will be a string of numbers and uppercase letters on the **`pub`** line, after the "rsa4096" key type, and separated by a **/** character as follows:
 
 ``` console
 pub     rsa4096/[key_id]
@@ -797,7 +797,7 @@ In a terminal application, type:
 gpg --expert --edit-key [key_id]
 ```
 
-This will start a **gpg** program prompt in your terminal. From there, type:
+This will start a **`gpg`** program prompt in your terminal. From there, type:
 
 ``` console { .yaml .copy }
 addkey
@@ -807,7 +807,7 @@ addkey
 
 When prompted with "Please select what kind of key you want" type `8`.
 
-You will be asked to toggle on or off some subkey options.  Here, we will generate all 3 subkeys at once, but adjust this step to your required usage. You might also need different encryption algorithms for different subkeys (see options available from the previous **gpg** program question).
+You will be asked to toggle on or off some subkey options.  Here, we will generate all 3 subkeys at once, but adjust this step to your required usage. You might also need different encryption algorithms for different subkeys (see options available from the previous **`gpg`** program question).
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">To generate subkeys separately</p>
@@ -832,7 +832,7 @@ Select an **expiration date** again (it should be the **same as the main OpenPGP
 
 When prompted by your GPG software, enter your OpenPGP key's passphrase, then click "OK".
 
-Once the **gpg** prompt is back in your terminal, exit the program by typing `quit`, then save the changes with `y`.
+Once the **`gpg`** prompt is back in your terminal, exit the program by typing `quit`, then save the changes with `y`.
 
 <div class="admonition info" markdown>
 <p class="admonition-title">For more options on subkeys</p>
@@ -883,9 +883,9 @@ You will be prompted by your GPG software again to enter your OpenPGP key's pass
 gpg --edit-key [key_id]
 ```
 
-This will show the details for the OpenPGP key (**sec**) you just created and its subkeys (**ssb**).
+This will show the details for the OpenPGP key (**`sec`**) you just created and its subkeys (**`ssb`**).
 
-In the terminal **gpg** prompt, type the command:
+In the terminal **`gpg`** prompt, type the command:
 
 ``` console { .yaml .copy }
 keytocard
@@ -898,7 +898,7 @@ When prompted with "Really move the primary key? (y/N)" type `y`.
 <div class="admonition bug" markdown>
 <p class="admonition-title">If you encounter an error</p>
 
-If you encounter a problem at this step, you might want to exit the terminal **gpg** program with `quit`, unplug your YubiKey from your computer, plug it in again, then start [Step 11.6](#116-move-your-openpgp-key-and-subkeys-to-your-yubikeys) over.
+If you encounter a problem at this step, you might want to exit the terminal **`gpg`** program with `quit`, unplug your YubiKey from your computer, plug it in again, then start [Step 11.6](#116-move-your-openpgp-key-and-subkeys-to-your-yubikeys) over.
 
 </div>
 
@@ -913,11 +913,11 @@ Please select where to store the key:
 Your selection? 1
 ```
 
-Your GPG software will pop up and require you enter your OpenPGP key's passphrase. There will then be 2 more popups requiring you enter the OpenPGP application's **Admin PIN** you have just setup on [Step 11.1](/#111-secure-your-yubikeys-openpgp-application-with-a-new-pin-and-admin-pin). You will be asked for your Admin PIN *twice*.
+Your GPG software will pop up and require you enter your OpenPGP key's passphrase. There will then be 2 more popups requiring you enter the OpenPGP application's **Admin PIN** you have just setup on [Step 11.1](#111-secure-your-yubikeys-openpgp-application-with-a-new-pin-and-admin-pin). You will be asked for your Admin PIN *twice*.
 
 ![Screenshot of a GPG software popup window requiring to enter an Admin PIN.](../assets/images/yubikey-reset-and-backup/yubikey-45-config-pgpadminpin.webp)
 
-Back to the terminal **gpg** prompt, type `key 1` then `keytocard` again. This time select `2` to move the **Encryption subkey** to your YubiKey:
+Back to the terminal **`gpg`** prompt, type `key 1` then `keytocard` again. This time select `2` to move the **Encryption subkey** to your YubiKey:
 
 ``` console title="Terminal" hl_lines="1 5 8"
 gpg> key 1
@@ -932,7 +932,7 @@ Your selection? 2
 
 Again, enter your OpenPGP key's passphrase and your OpenPGP application's Admin PIN when prompted by your GPG software.
 
-Back to the terminal **gpg** prompt, type `key 1` then `key 2` then `keytocard` again. This time select `3` to move the **Authentication subkey** to your YubiKey:
+Back to the terminal **`gpg`** prompt, type `key 1` then `key 2` then `keytocard` again. This time select `3` to move the **Authentication subkey** to your YubiKey:
 
 ``` console title="Terminal" hl_lines="1 5 9 14"
 gpg> key 1
@@ -953,7 +953,7 @@ Your selection? 3
 
 Enter your OpenPGP key passphrase and your OpenPGP application's Admin PIN when prompted by your GPG software.
 
-Finally, type `quit`, then `y` to save the changes before exiting the **gpg** terminal program.
+Finally, type `quit`, then `y` to save the changes before exiting the **`gpg`** terminal program.
 
 #### 11.7. Verify that all your subkeys are stored properly to your YubiKey
 
@@ -985,9 +985,9 @@ If you have multiple keys listed, only look at the last block for OpenPGP key an
 
 Note carefully the **Keygrip** string for each key and subkeys.
 
-For your OpenPGP key, look at the lines starting with "sec>" on the left. The **Keygrip** string will be just above "Card serial no".
+For your OpenPGP key, look at the lines starting with "`sec>`" on the left. The **Keygrip** string will be just above "Card serial no".
 
-For the subkeys, look at each block starting with "ssb>" on the left. The **Keygrip** string will be on the second line for each. It should look something like this:
+For the subkeys, look at each block starting with "`ssb>`" on the left. The **Keygrip** string will be on the second line for each. It should look something like this:
 
 ``` console title="Terminal" hl_lines="3 7 9"
 sec>  rsa4096 2025-03-04 [SC] [expires: 2025-03-06]
@@ -1012,7 +1012,7 @@ For safety, it is recommended to keep a backup of your other keys as well before
 
 </div>
 
-You will need to send a delete command to the gpg agent in order to be able to restore and copy your subkeys to your spare YubiKey. Type the following command and replace `[key_grip]` with the string you have noted above:
+You will need to send a delete command to the GPG agent in order to be able to restore and copy your subkeys to your spare YubiKey. Type the following command and replace `[key_grip]` with the string you have noted above:
 
 ``` console
 gpg-connect-agent "DELETE_KEY [key_grip]" /bye
@@ -1083,7 +1083,7 @@ Once you have fully reset and reconfigured your 2 YubiKeys, make sure that you h
 
 - [x] Stored your spare key in a different secure location, once it's registered with your services and accounts.
 
-Finally, do not forget to register your freshly re-programmed YubiKey(s) with the services and accounts you had de-register it from. Do not leave your accounts unprotected!
+Finally, do not forget to register your freshly re-programmed YubiKey(s) with the services and accounts you had to remove it from. Do not leave your accounts unprotected!
 
 <div class="admonition info" markdown>
 <p class="admonition-title">More information</p>
