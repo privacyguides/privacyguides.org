@@ -287,11 +287,11 @@ theme:
     - search.highlight
 
 extra_css:
-  - assets/stylesheets/extra.css?v=20240802
+  - assets/stylesheets/extra.css?v=20250306
 extra_javascript:
-  - path: assets/javascripts/randomize-element.js?v=20240801
+  - path: assets/javascripts/randomize-element.js?v=20250306
     defer: true
-  - path: assets/javascripts/feedback.js?v=20240801
+  - path: assets/javascripts/feedback.js?v=20250306
     defer: true
 
 watch:
