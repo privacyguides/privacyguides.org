@@ -14,6 +14,26 @@ MAGIC Grants is our fiscal host, and their custom, open-source donation platform
 
 </small>
 
+<div class="mdx-specialthanks" markdown>
+
+## Special Thanks
+
+[![Safing]](https://safing.io){ rel=nofollow target=_blank title="Safing" }
+[![Power Up Privacy]](https://powerupprivacy.com){ rel=nofollow target=_blank title="Power Up Privacy" }
+[![DeleteMe]](https://joindeleteme.com){ rel=nofollow target=_blank title="DeleteMe" }
+
+  [Safing]: ../assets/img/donors/safing.webp
+  [Power Up Privacy]: ../assets/img/donors/power-up-privacy.webp
+  [DeleteMe]: ../assets/img/donors/deleteme.webp
+
+</div>
+
+<small markdown>
+
+If you donate $5,000 or more to Privacy Guides, we will add your name or logo on a black or white background and a link to your website to thank you for your support for our work. This is not a guarantee or transaction, and Privacy Guides reserves the right to remove those who are unaligned with our mission or organization at any time.
+
+</small>
+
 ## Who's Donating?
 
 <div class="mdx-donors" data-mdx-component="donors">
