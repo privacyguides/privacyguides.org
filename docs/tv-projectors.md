@@ -18,7 +18,7 @@ In general, the TV industry has moved toward making them "smart", meaning that i
 
 <div class="admonition recommendation" markdown>
 
-![Kodi logo](assets/img/router/kodi.svg#only-light){ align=right }
+![Kodi logo](assets/img/tv-projectors/kodi.svg#only-light){ align=right }
 
 **Kodi** is a Free and Open Source (FOSS) client that can replace the interface of the likes of Smart TVs, it supports all variety of entertainment including TV (PVR), Music, Games, Videos (TV Shows, Movies) and Pictures. Kodi relies on content being stored locally or on the internet for things like Youtube or hardware to interface with things like TV (PVR) and you can use add-ons<sup>1.</sup> to extend the experience. Kodi is compatible with most operating systems and hardware, including Apple, Raspberry Pi, Linux, and Android, see the [requirements here](https://kodi.wiki/view/Supported_hardware) for running Kodi.
 
