@@ -207,7 +207,7 @@ markdown_extensions:
   tables: {}
   footnotes: {}
   toc:
-    toc_depth: 4
+    toc_depth: 3
 
 nav:
   - !ENV [NAV_HOME, "Home"]: /en/
