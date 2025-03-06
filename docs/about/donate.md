@@ -14,26 +14,26 @@ MAGIC Grants is our fiscal host, and their custom, open-source donation platform
 
 </small>
 
-## Special Thanks
+## Organizational Members
 
-Thank you to those who have significantly supported Privacy Guides over the years. (1)
+Thank you to those who have significantly supported Privacy Guides. An organizational membership offers your organization the opportunity to join our movement for a more private future. (1)
 { .annotate }
 
-1. If you donate $5,000 or more to Privacy Guides, we will add your name or logo on a black or white background and a link to your website to thank you for your support for our work. This is not a guarantee or transaction, and Privacy Guides reserves the right to remove those who are unaligned with our mission or organization at any time.
+1. Please contact <info@magicgrants.org> to inquire about giving. This is not a guarantee or transaction, and Privacy Guides reserves the right to rescind the membership of those who are unaligned with our mission or organization at any time.
 
 <div class="mdx-specialthanks" markdown>
 
-[![Safing]](https://safing.io){ rel=nofollow target=_blank title="Safing" }
 [![Power Up Privacy]](https://powerupprivacy.com){ rel=nofollow target=_blank title="Power Up Privacy" }
-[![DeleteMe]](https://joindeleteme.com){ rel=nofollow target=_blank title="DeleteMe" }
 
-  [Safing]: ../assets/img/donors/safing.webp
   [Power Up Privacy]: ../assets/img/donors/power-up-privacy.webp
-  [DeleteMe]: ../assets/img/donors/deleteme.webp
 
 </div>
 
-## Who's Donating?
+### Past Supporters
+
+- [Safing](https://safing.io) – 2019 – 2021
+
+## Active Members
 
 Privacy Guides would not be possible without those generous enough to donate on a monthly or yearly regular basis. (1)
 { .annotate }
