@@ -19,7 +19,7 @@ The biggest security *advantage* to using a physical security key is that it's s
 
 The biggest security *disadvantage* of using a physical security key is the risk of losing it. This is why you should always **get two** physical security keys, to use the second one as a **backup**.
 
-There are many brands of physical security key, but this tutorial is specifically for YubiKey, one the most recommended brand.
+There are many brands of physical security key, but this tutorial is specifically for YubiKey, one of the [most recommended brands](https://www.privacyguides.org/en/security-keys/).
 
 To follow this tutorial, you will need to have **two YubiKeys** from either the series 5, 5 FIPS, 4, or 4 FIPS. Both these keys should not be currently in use with any of your accounts, as described in [Step 1](#step-1-remove-your-keys-from-all-accounts).
 
