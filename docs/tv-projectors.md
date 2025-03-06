@@ -1,7 +1,7 @@
 ---
 title: "TVs & Projectors"
 icon: material/tv 
-description: Alternativea towards TVs and Projectors 
+description: Alternatives towards TVs and Projectors 
 cover: tv-projectors.webp
 ---
 <!---If material/tv exists otherwise change--->
