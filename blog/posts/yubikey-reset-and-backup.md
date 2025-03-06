@@ -296,7 +296,7 @@ Once your main key is plugged in, in the terminal or command prompt type this li
 ykman openpgp reset
 ```
 
-When prompted with this warning, type `y`:
+When prompted with this warning, type ++y++:
 
 ``` console
 "WARNING! This will delete all stored OpenPGP keys and data and restore factory settings. Proceed? [y/N]:"
@@ -325,7 +325,7 @@ From the terminal, type this line:
 ykman hsmauth reset
 ```
 
-When prompted with this warning, type `y`:
+When prompted with this warning, type ++y++:
 
 ``` console
 "WARNING! This will delete all stored YubiHSM Auth data and restore factory setting. Proceed? [y/N]:"
@@ -452,7 +452,7 @@ The **Secret key** of your YubiKey's OTP is a 32-character long random string. A
 <div class="admonition tip" markdown>
 <p class="admonition-title">To remove automatic carriage return</p>
 
-Automatically once you have filled all the fields, the option "Append" will get a checkmark. This means that each time you trigger your key's OTP, a carriage return will be added so that you will not have to press *Enter* each time. If you do not wish this to happen, you can click on "Append" to disable it.
+Automatically once you have filled all the fields, the option "Append" will get a checkmark. This means that each time you trigger your key's OTP, a carriage return will be added so that you will not have to press ++return++ each time. If you do not wish this to happen, you can click on "Append" to disable it.
 
 </div>
 
@@ -631,7 +631,7 @@ To set up the [**Static password**](https://docs.yubico.com/software/yubikey/too
 
 ![Screenshot of the Yubico Authenticator application showing the Slots section with the Long touch slot selected, and the Static password button selected on the right.](../assets/images/yubikey-reset-and-backup/yubikey-34-config-static.webp)
 
-A section will pop up with a text field, click on the "Generate random" circle-arrow button on the right to generate a **Password**. You can click on "Append" to deselect the carriage return if you prefer it removed from the end of your Password. This means you will have to press *Enter* manually to confirm each entry.
+A section will pop up with a text field, click on the "Generate random" circle-arrow button on the right to generate a **Password**. You can click on "Append" to deselect the carriage return if you prefer it removed from the end of your Password. This means you will have to press ++return++ manually to confirm each entry.
 
 By default, the "Keyboard MODHEX" will be selected, but you can select a different "keyboard" if you prefer. This will change the type of characters used in your random Password.
 
@@ -675,7 +675,7 @@ If you type a Secret key that is longer than 32 characters, you might encounter 
 
 Keep a **secure copy of this Secret key in a local text file**. You will need it to register with the validation server for each account, and for your spare key.
 
-You can click on "Append" to deselect it if you prefer the carriage return not be included at the end of your Secret key. This means you will have to press *Enter* manually to confirm each entry. Select either "6 digits" or "8 digits" for your OATH-HOTP codes, then click "Save".
+You can click on "Append" to deselect it if you prefer the carriage return not be included at the end of your Secret key. This means you will have to press ++return++ manually to confirm each entry. Select either "6 digits" or "8 digits" for your OATH-HOTP codes, then click "Save".
 
 To configure your spare key for the [OATH-HOTP](https://www.yubico.com/resources/glossary/oath-hotp/) counter-based codes, you will need to repeat this step with your *spare* key and use the [same](https://docs.yubico.com/software/yubikey/tools/authenticator/auth-guide/tips.html#register-a-spare-yubikey) OATH-HOTP Secret key and OTP length as your main key's configuration.
 
@@ -752,7 +752,7 @@ When asked "What keysize do you want?", type `4096`. Type `4096` as well for the
 
 ![Screenshot of a terminal window showing an OpenPGP key generation.](../assets/images/yubikey-reset-and-backup/yubikey-40-config-pgpgeneratekey.webp)
 
-Follow the instructions to choose an expiration date for your OpenPGP key, and confirm with `y`.
+Follow the instructions to choose an expiration date for your OpenPGP key, and confirm with ++y++.
 
 When prompted with "GnuPG needs to construct a user ID to identify your key", enter the **name** and **email address** you wish to use with this key. Finally, enter a **comment** you want associated with this key (optional), and confirm with `O` for Okay.
 
@@ -820,19 +820,19 @@ To add an **Authentication subkey**: Toggle `S`, then toggle `E`, then toggle `A
 
 </div>
 
-To generate all 3 subkeys, type `A` to *enable* Authenticate as well (Sign and Encrypt will already be enabled). On the line above the options, you should now see "Current allowed actions: Sign Encrypt Authenticate".
+To generate all 3 subkeys, type ++A++ to *enable* Authenticate as well (Sign and Encrypt will already be enabled). On the line above the options, you should now see "Current allowed actions: Sign Encrypt Authenticate".
 
-The type `Q` to confirm your selection (Finished).
+The type ++Q++ to confirm your selection (Finished).
 
 ![Screenshot of a terminal window showing the option for subkey types.](../assets/images/yubikey-reset-and-backup/yubikey-43-config-pgp3subkeys.webp)
 
 You will then be asked to choose a keysize, type `4096`.
 
-Select an **expiration date** again (it should be the **same as the main OpenPGP key**). Confirm with `y` then `y` again.
+Select an **expiration date** again (it should be the **same as the main OpenPGP key**). Confirm with ++y++ then ++y++ again.
 
 When prompted by your GPG software, enter your OpenPGP key's passphrase, then click "OK".
 
-Once the **`gpg`** prompt is back in your terminal, exit the program by typing `quit`, then save the changes with `y`.
+Once the **`gpg`** prompt is back in your terminal, exit the program by typing `quit`, then save the changes with ++y++.
 
 <div class="admonition info" markdown>
 <p class="admonition-title">For more options on subkeys</p>
@@ -893,7 +893,7 @@ keytocard
 
 ![Screenshot of a terminal window showing details of the OpenPGP key and its subkeys.](../assets/images/yubikey-reset-and-backup/yubikey-44-config-pgpimportsubkeys.webp)
 
-When prompted with "Really move the primary key? (y/N)" type `y`.
+When prompted with "Really move the primary key? (y/N)" type ++y++.
 
 <div class="admonition bug" markdown>
 <p class="admonition-title">If you encounter an error</p>
@@ -953,7 +953,7 @@ Your selection? 3
 
 Enter your OpenPGP key passphrase and your OpenPGP application's Admin PIN when prompted by your GPG software.
 
-Finally, type `quit`, then `y` to save the changes before exiting the **`gpg`** terminal program.
+Finally, type `quit`, then ++y++ to save the changes before exiting the **`gpg`** terminal program.
 
 #### 11.7. Verify that all your subkeys are stored properly to your YubiKey
 
