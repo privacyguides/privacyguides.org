@@ -10,7 +10,7 @@ Donate to Privacy Guides and support our mission to defend digital rights and sp
 
 <small markdown>
 
-MAGIC Grants is our fiscal host, and their custom, open-source donation platform allows you to donate to our project with **Monero**, **Bitcoin**, or **debit/credit card**. You can also [:simple-github: donate using GitHub Sponsors](https://github.com/sponsors/privacyguides)
+MAGIC Grants is our fiscal host, and their custom, open-source donation platform allows you to donate to our project with **Monero**, **Bitcoin**, or **debit/credit card**. You can also donate using [:simple-github: GitHub Sponsors](https://github.com/sponsors/privacyguides).
 
 </small>
 

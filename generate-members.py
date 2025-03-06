@@ -2,7 +2,7 @@ import requests
 import os
 
 GITHUB_API_URL = "https://api.github.com/graphql"
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+GITHUB_TOKEN = os.getenv("GH_TOKEN")
 ORG_NAME = "privacyguides"
 
 # Fetch members from the API
@@ -70,7 +70,7 @@ data = response.json()
 if 'errors' in data:
     raise Exception(f"GraphQL query failed with errors: {data['errors']}")
 if 'data' not in data:
-    raise KeyError("Response JSON does not contain 'data' key")
+    raise KeyError(f"Response JSON does not contain 'data' key: {data}")
 
 sponsors = data['data']['organization']['sponsorshipsAsMaintainer']['nodes']
 

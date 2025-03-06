@@ -30,6 +30,9 @@ on:
       cache:
         type: boolean
         default: true
+    secrets:
+      RO_DISCOURSE_API_KEY:
+        required: false
 
 permissions:
   contents: read
@@ -173,6 +176,7 @@ jobs:
           echo "EXTRA_FLAGS=""$EXTRA_FLAGS" --cmd=mkdocs"" >> "$GITHUB_ENV"
 
       - name: Generate Donating Members List
+        continue-on-error: true
         env:
           DISCOURSE_API_KEY: ${{ secrets.RO_DISCOURSE_API_KEY }}
         run: |
