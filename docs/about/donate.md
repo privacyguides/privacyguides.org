@@ -16,7 +16,7 @@ MAGIC Grants is our fiscal host, and their custom, open-source donation platform
 
 ## Organizational Members
 
-Thank you to those who have significantly supported Privacy Guides. An organizational membership offers your organization the opportunity to join our movement for a more private future. (1)
+Thank you to those who have significantly supported Privacy Guides. A membership offers your organization the opportunity to join our movement for a more private future. (1)
 { .annotate }
 
 1. Please contact <info@magicgrants.org> to inquire about giving. This is not a guarantee or transaction, and Privacy Guides reserves the right to rescind the membership of those who are unaligned with our mission or organization at any time.
