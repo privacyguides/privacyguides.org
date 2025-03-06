@@ -305,7 +305,6 @@ plugins:
     enabled: !ENV [BUILD_PRIVACY, true]
   offline:
     enabled: !ENV [BUILD_OFFLINE, false]
-  minify_html: {}
   group:
     enabled: !ENV [BUILD_INSIDERS, false]
     plugins:
