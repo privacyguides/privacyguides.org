@@ -147,7 +147,6 @@ plugins:
   glightbox: {}
   tags: {}
   search: {}
-  minify_html: {}
   privacy:
     enabled: !ENV [BUILD_PRIVACY, true]
   offline:

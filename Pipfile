@@ -31,7 +31,6 @@ mkdocs-macros-plugin = "~=1.0"
 jieba = "~=0.42"
 mkdocs-rss-plugin = "*"
 mkdocs-glightbox = "*"
-mkdocs-minify-html-plugin = "*"
 
 [dev-packages]
 scour = "~=0.38"
