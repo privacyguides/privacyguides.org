@@ -820,9 +820,9 @@ To add an **Authentication subkey**: Toggle `S`, then toggle `E`, then toggle `A
 
 </div>
 
-To generate all 3 subkeys, type ++A++ to *enable* Authenticate as well (Sign and Encrypt will already be enabled). On the line above the options, you should now see "Current allowed actions: Sign Encrypt Authenticate".
+To generate all 3 subkeys, type ++a++ to *enable* Authenticate as well (Sign and Encrypt will already be enabled). On the line above the options, you should now see "Current allowed actions: Sign Encrypt Authenticate".
 
-The type ++Q++ to confirm your selection (Finished).
+The type ++q++ to confirm your selection (Finished).
 
 ![Screenshot of a terminal window showing the option for subkey types.](../assets/images/yubikey-reset-and-backup/yubikey-43-config-pgp3subkeys.webp)
 
