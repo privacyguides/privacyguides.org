@@ -70,7 +70,7 @@ In general, a computer that meets the hardware requirements for the above softwa
 ### Hardware
 For Displays:
 
-- Must not collect any sensitive data or otherwise be a "Smart" device
+- Must not collect any sensitive data or otherwise be a "Smart" device.
 - Must support the ports devices can use like HDMI, No adapters.
 
 For Devices:
