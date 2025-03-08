@@ -427,6 +427,7 @@ nav:
           - "health-and-wellness.md"
           - "language-tools.md"
           - "maps.md"
+          - "media-players.md"
           - "multi-factor-authentication.md"
           - "news-aggregators.md"
           - "notebooks.md"
@@ -434,7 +435,6 @@ nav:
           - "passwords.md"
           - "pastebins.md"
           - "real-time-communication.md"
-          - "media-players.md"
       - !ENV [NAV_HARDWARE, "Hardware"]:
           - "mobile-phones.md"
           - "security-keys.md"
