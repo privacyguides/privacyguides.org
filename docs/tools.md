@@ -423,6 +423,23 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </details>
 
+### Weather Apps
+
+<div class="grid cards" markdown>
+
+- ![Breezy Weather logo](assets/img/weather/breezy.webp){ .twemoji loading=lazy }
+[Breezy Weather](weather.md#breezy-weather)
+- ![QuickWeather logo](assets/img/weather/quick.png){ .twemoji loading=lazy }
+[QuickWeather](weather.md#quickweather)
+- ![Weather Master logo](assets/img/weather/master.svg){ .twemoji loading=lazy }
+[Weather Master](weather.md#weather-master)
+-![OSSWeather logo](assets/img/weather/oss.png){ .twemoji loading=lazy }
+ [OSSWeather](weather.md#ossweather)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](weather.md)
+
 #### Cross-platform Tools
 
 <div class="grid cards" markdown>
