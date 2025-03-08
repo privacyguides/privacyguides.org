@@ -28,12 +28,12 @@ cover: media-players.webp
 
 1. Kodi has an add-ons store to extend the out-of-the-box experience, but **keep in mind that add-ons are made by the community and the company itself, so be careful what you install,** luckily most software add-ons are also FOSS, meaning the code on them can be inspected, but in general be careful what you install, see the [addons site](https://kodi.tv/addons/) for more.
 
-
+## VLC Media Player
 <div class="admonition recommendation" markdown>
 
 ![VLC logo](assets/img/media-players/vlc.svg){ align=right }
 
-**VLC Media Player** is a Free and Open Source (FOSS) media player. It also supports all variety of entertainment including TV (PVR), Music and Videos. VLC Also relies on content being stored locally or can stream or play from the variety of hardware capture cards including tuner cards and online or on the local network too. Finally VLC is also fully cross-platform.
+**VLC Media Player** is a Free and Open Source (FOSS) media player. It also supports all variety of entertainment including TV (PVR), Music and Videos. VLC Also relies on content being stored locally or can stream or play from the variety of hardware capture cards including tuner cards and online or on the local network too. Finally VLC is also fully cross-platform and also has [Add-ons](https://addons.videolan.org/) to extend the experience like Kodi, the same caution above applies.
 
 [:octicons-home-16: Homepage](https://www.videolan.org/vlc/){ .md-button .md-button--primary }
 [:octicons-info-16:](https://wiki.videolan.org/Main_Page/){ .card-link title=Documentation}
