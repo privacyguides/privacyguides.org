@@ -485,7 +485,6 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 <div class="grid cards" markdown>
 
-
 - ![drip. logo](assets/img/health-and-wellness/drip.png){ .twemoji loading=lazy } [drip.](health-and-wellness.md#drip)
 - ![Euki logo](assets/img/health-and-wellness/euki.png){ .twemoji loading=lazy } [Euki](health-and-wellness.md#euki)
 - ![Apple Health logo](assets/img/health-and-wellness/apple-health.png){ .twemoji loading=lazy } [Apple Health](health-and-wellness.md#apple-health)
@@ -593,6 +592,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 <div class="grid cards" markdown>
 
 - ![PrivateBin logo](assets/img/pastebins/privatebin.svg){ .twemoji loading=lazy } [PrivateBin](pastebins.md#privatebin)
+- ![Paaster logo](assets/img/pastebins/paaster.svg){ .twemoji loading=lazy } [Paaster](pastebins.md#paaster)
 
 </div>
 
