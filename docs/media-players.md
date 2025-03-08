@@ -31,9 +31,9 @@ cover: media-players.webp
 ## VLC Media Player
 <div class="admonition recommendation" markdown>
 
-![VLC logo](assets/img/media-players/vlc.svg){ align=right }
+![VLC logo](assets/img/media-players/vlc.png){ align=right }
 
-**VLC Media Player** is a Free and Open Source (FOSS) media player. It also supports all variety of entertainment including TV (PVR), Music and Videos. VLC Also relies on content being stored locally or can stream or play from the variety of hardware capture cards including tuner cards and online or on the local network too. Finally VLC is also fully cross-platform and also has [Add-ons](https://addons.videolan.org/) to extend the experience like Kodi, the same caution above applies.
+**VLC Media Player is a Free and Open Source (FOSS) media player. It supports audio and video types of entertainment including TV (PVR), music and videos. VLC also relies on content being stored locally or can stream or play from the variety of hardware capture cards including tuner cards and online or on the local network too. Finally, VLC is also fully cross-platform and also has [add-ons] (https://addons.videolan.org/) to extend the experience like Kodi, the same caution applies above.
 
 [:octicons-home-16: Homepage](https://www.videolan.org/vlc/){ .md-button .md-button--primary }
 [:octicons-info-16:](https://wiki.videolan.org/Main_Page/){ .card-link title=Documentation}
@@ -43,7 +43,7 @@ cover: media-players.webp
 </details>
 
 </div>
-Unlike Kodi, VLC is meant to be a software that runs on your Device to open Media locally or streams (eg. TV) so it doesn't cater to the big screen experience like Kodi does and doesn't have native remote control support or other inputs like it. Finally while it supports opening images, it isn't a good experience over using an image viewer and doesn't support Games (which Kodi does do well).
+Unlike Kodi, VLC is meant to be a software that runs on your device to open media locally or streams (like TV), so it doesn't cater to the big screen experience like Kodi does and doesn't have native remote control support or other inputs like it. Finally, while it does support opening images, it's not a good experience over using an image viewer and doesn't support games (where Kodi does well in that regard).
 
 ## Criteria
 
