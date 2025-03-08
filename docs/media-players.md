@@ -33,7 +33,7 @@ cover: media-players.webp
 
 ![VLC logo](assets/img/media-players/vlc.png){ align=right }
 
-**VLC Media Player is a Free and Open Source (FOSS) media player. It supports audio and video types of entertainment including TV (PVR), music and videos. VLC also relies on content being stored locally or can stream or play from the variety of hardware capture cards including tuner cards and online or on the local network too. Finally, VLC is also fully cross-platform and also has [add-ons] (https://addons.videolan.org/) to extend the experience like Kodi, the same caution applies above.
+**VLC Media Player** is a Free and Open Source (FOSS) media player. It supports audio and video types of entertainment including TV (PVR), music and videos. VLC also relies on content being stored locally or can stream or play from the variety of hardware capture cards including tuner cards and online or on the local network too. Finally, VLC is also fully cross-platform and also has [add-ons] (https://addons.videolan.org/) to extend the experience like Kodi, the same caution applies above.
 
 [:octicons-home-16: Homepage](https://www.videolan.org/vlc/){ .md-button .md-button--primary }
 [:octicons-info-16:](https://wiki.videolan.org/Main_Page/){ .card-link title=Documentation}
