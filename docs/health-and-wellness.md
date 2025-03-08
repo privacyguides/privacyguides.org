@@ -13,7 +13,7 @@ Keep track of your health and fitness-related goals with these apps. Unlike thei
 
 ## Menstrual Cycle Tracking
 
-Popular menstrual trackers like [Flo](https://techcrunch.com/2021/01/13/flo-gets-ftc-slap-for-sharing-user-data-when-it-promised-privacy) are notorious for collecting and sharing your user data. Depending on your jurisdiction, this may lead to [legal consquences](https://forbes.com/sites/abigaildubiniecki/2024/11/14/post-roe-your-period-app-data-could-be-used-against-you) affecting your reproductive autonomy.
+Popular menstrual trackers like [Flo](https://techcrunch.com/2021/01/13/flo-gets-ftc-slap-for-sharing-user-data-when-it-promised-privacy) are notorious for collecting and sharing your user data. Depending on your jurisdiction, this may lead to [legal consequences](https://forbes.com/sites/abigaildubiniecki/2024/11/14/post-roe-your-period-app-data-could-be-used-against-you) affecting your reproductive autonomy.
 
 ### drip.
 
@@ -165,5 +165,5 @@ CommonHealth is only available in the United States. Although the app itself is 
 ### Minimum Requirements
 
 - Must support automatic updates.
-- Must not store unencrypted data outside of the device.
+- Must not store unencrypted data outside the device.
 - Must function offline.
