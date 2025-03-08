@@ -43,7 +43,7 @@ cover: media-players.webp
 </details>
 
 </div>
-Unlike Kodi, VLC is meant to be a software that runs on your Device to open Media locally or streams (eg. TV) so it doesn't cater to the big screen experience like Kodi does and doesn't have native remote control support or other inputs like it. Finally while it supports opening images, it isn't a great experience over using an image viewer and doesn't support Games (which Kodi does do well).
+Unlike Kodi, VLC is meant to be a software that runs on your Device to open Media locally or streams (eg. TV) so it doesn't cater to the big screen experience like Kodi does and doesn't have native remote control support or other inputs like it. Finally while it supports opening images, it isn't a good experience over using an image viewer and doesn't support Games (which Kodi does do well).
 
 ## Criteria
 
