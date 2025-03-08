@@ -74,3 +74,7 @@
 {"rule":"DO_VBZ","sentence":"^\\QDoes Privacy Guides use personal information for marketing purposes?\\E$"}
 {"rule":"DO_VBZ","sentence":"^\\QWhere does Privacy Guides store data about me?\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QPrivacy Guides relies on the European Commission's standard contractual clauses for international transfers(SCCs) to legally transfer personal data out of the European Economic Area.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIllustration: Jordan / Privacy Guides | Photo: Gowtham AGM / Unsplash\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThunder was used specifically because it was difficult for Germans to pronounce, since the English \"th\" sound doesn't exist in German.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QAllan Scherr, a Ph.D. researcher at MIT, wanted more time for his detailed simulations.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QYou can test out passkeys at webauthn.io.\\E$"}
