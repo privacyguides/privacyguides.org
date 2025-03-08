@@ -14,7 +14,7 @@ MAGIC Grants is our fiscal host, and their custom, open-source donation platform
 
 </small>
 
-## Organizational Members
+## Foundations & Organizations
 
 Thank you to those who have significantly supported Privacy Guides. A membership offers your organization the opportunity to join our movement for a more private future. (1)
 { .annotate }
