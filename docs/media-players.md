@@ -52,4 +52,4 @@ Unlike Kodi, VLC is meant to be a software that runs on your device to open medi
 - Must be open source.
 - Must support a wide variety of hardware.
 - Must have functionality that can replace the likes of Smart TVs. 
-<!--- Feel free to help with the criteria, I'm not sure PG's stance on those I'm going on my own --->
+<!--- Feel free to help with the criteria, I'm not sure PG's stance on those I'm going on my own.--->
