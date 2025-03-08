@@ -534,3 +534,8 @@ Corbató
 NordPass
 Syncable
 fontawesome-solid-glasses
+CommonHealth
+Euki
+sympto-thermal
+OsmAnd
+Paaster
