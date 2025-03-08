@@ -432,6 +432,7 @@ nav:
           - "passwords.md"
           - "pastebins.md"
           - "real-time-communication.md"
+          - "media-players.md"
       - !ENV [NAV_HARDWARE, "Hardware"]:
           - "mobile-phones.md"
           - "security-keys.md"
