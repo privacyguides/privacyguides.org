@@ -448,6 +448,8 @@ nav:
           - "device-integrity.md"
   - !ENV [NAV_BLOG, "Articles"]: "/articles/"
   - !ENV [NAV_VIDEOS, "Videos"]: /videos/
+  - !ENV [NAV_FORUM, "Forum"]:
+      !ENV [NAV_FORUM_LINK, "https://discuss.privacyguides.net/"]
   - !ENV [NAV_ABOUT, "About"]:
       - "about.md"
       - "about/donate.md"
@@ -475,9 +477,6 @@ nav:
               - "meta/uploading-images.md"
               - "meta/git-recommendations.md"
               - "meta/commit-messages.md"
-  - !ENV [NAV_DONATE, "Donate"]: /en/about/donate/
-  - !ENV [NAV_FORUM, "Forum"]:
-      !ENV [NAV_FORUM_LINK, "https://discuss.privacyguides.net/"]
 
 validation:
   nav:
