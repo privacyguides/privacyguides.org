@@ -529,3 +529,7 @@ subkeys
 subkey
 keysize
 Keygrip
+tessera
+Corbató
+NordPass
+Syncable
