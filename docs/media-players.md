@@ -1,6 +1,6 @@
 ---
 title: "Media Players"
-icon: material/play
+icon: material/video
 description: Alternative Media Players for Videos, TV and Audio.
 cover: media-players.webp
 ---
