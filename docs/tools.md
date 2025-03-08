@@ -507,6 +507,17 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [Learn more :material-arrow-right-drop-circle:](language-tools.md)
 
+### Maps and Navigation Apps
+
+<div class="grid cards" markdown>
+
+- ![Organic Maps logo](assets/img/maps/organic-maps.svg){ .twemoji loading=lazy } [Organic Maps](maps.md#organic-maps)
+- ![OsmAnd logo](assets/img/maps/osmand.svg){ .twemoji loading=lazy } [OsmAnd](maps.md#osmand)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](maps.md)
+
 ### Multi-Factor Authentication Tools
 
 **Note:** [Hardware security keys](#security-keys) have been moved to their own category.
