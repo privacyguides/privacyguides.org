@@ -4,7 +4,6 @@ icon: material/video
 description: Alternative Media Players for Videos, TV and Audio.
 cover: media-players.webp
 ---
-<!---If material/play-button exists otherwise change--->
 <small>Protects against the following threat(s):</small>
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
@@ -52,4 +51,4 @@ Unlike Kodi, VLC is meant to be a software that runs on your device to open medi
 - Must be open source.
 - Must support a wide variety of hardware.
 - Must have functionality that can replace the likes of Smart TVs. 
-<!--- Feel free to help with the criteria, I'm not sure PG's stance on those I'm going on my own.--->
+<!--- Feel free to help with the criteria, I'm not sure PG's stance on those I'm going on my own --->
