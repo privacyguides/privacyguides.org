@@ -16,18 +16,26 @@ MAGIC Grants is our fiscal host, and their custom, open-source donation platform
 
 ## Foundations & Organizations
 
-Thank you to these organizations who significantly support Privacy Guides. (1)
-{ .annotate }
+=== "Current Supporters"
 
-1. Please contact <info@magicgrants.org> to inquire about giving. Privacy Guides reserves the right to rescind the membership of those who are unaligned with our mission or organization at any time. Organizational members have no ability to influence what content is recommended on the Privacy Guides website. Learn more about our [donation acceptance policy](donation_acceptance_policy.md).
+    Thank you to these organizations who significantly support Privacy Guides. (1)
+    { .annotate }
 
-<div class="mdx-specialthanks" markdown>
+    1. Please contact <info@magicgrants.org> to inquire about giving. Privacy Guides reserves the right to rescind the membership of those who are unaligned with our mission or organization at any time. Organizational members have no ability to influence what content is recommended on the Privacy Guides website. Learn more about our [donation acceptance policy](donation-acceptance-policy.md).
 
-[![Power Up Privacy]](https://powerupprivacy.com){ rel=nofollow target=_blank title="Power Up Privacy" }
+    <div class="mdx-specialthanks" markdown>
 
-  [Power Up Privacy]: ../assets/img/donors/power-up-privacy.webp
+    [![Power Up Privacy]](https://powerupprivacy.com){ rel=nofollow target=_blank title="Power Up Privacy" }
 
-</div>
+      [Power Up Privacy]: ../assets/img/donors/power-up-privacy.webp
+
+    </div>
+
+=== "Past Supporters"
+
+    Thank you to these organizations who have substantially supported our project in the past.
+
+    - [Safing](https://safing.io){ rel=nofollow target=_blank }: 2019 – 2021
 
 ## Active Members
 
@@ -72,7 +80,7 @@ You can become an organizational member by reaching out to <info@magicgrants.org
 
 Organizational members that choose to be recognized publicly are included in our organizational members section (above), and occasionally at other opportunities where appropriate. Organizational member links include the `rel="nofollow"` attribute: We adopted this policy to screen out potential abuse of our program and site to raise the rank of third parties in search algorithms. Unfortunately, this is a growing problem for nonprofits. This was a complex decision since we know many of the sincere supporters behind these companies, but we decided that it was the best choice for us.
 
-Organizational members have no ability to influence what content is recommended on the Privacy Guides website. Learn more about our [donation acceptance policy](donation_acceptance_policy.md).
+Organizational members have no ability to influence what content is recommended on the Privacy Guides website. Learn more about our [donation acceptance policy](donation-acceptance-policy.md).
 
 ### What is an active membership?
 
@@ -109,9 +117,3 @@ We use donations for a variety of purposes, including:
 Thank you to all those who support our mission! :material-heart:{ .pg-red }
 
 We strictly **do not** use donations to support political campaigns/candidates or attempt to influence legislation. Earnings will **not** inure to the benefit of any private shareholder or individual.
-
-## Past Supporters
-
-Thank you to these organizations who have substantially supported our organization in the past.
-
-- [Safing](https://safing.io){ rel=nofollow target=_blank }: 2019 – 2021
