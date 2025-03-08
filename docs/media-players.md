@@ -4,7 +4,7 @@ icon: material/play-button
 description: Alternative Media Players for Videos, TV and Audio.
 cover: media-players.webp
 ---
-<!---If material/play exists otherwise change--->
+<!---If material/play-button exists otherwise change--->
 <small>Protects against the following threat(s):</small>
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
@@ -33,7 +33,7 @@ cover: media-players.webp
 
 ![VLC logo](assets/img/media-players/vlc.svg){ align=right }
 
-**VLC** is a Free and Open Source (FOSS) media player. It also supports all variety of entertainment including TV (PVR), Music and Videos. Unlike Kodi, VLC is meant to be a software that runs on your PC to open Media locally or streams (eg. TV) so it doesn't cater to the big screen experience like Kodi does and doesn't have native remote control support or other inputs like it. Finally while it supports opening images, it isn't a great experience over using an image viewer and doesn't support Games (which kodi does do well).
+**VLC** is a Free and Open Source (FOSS) media player. It also supports all variety of entertainment including TV (PVR), Music and Videos. VLC Also relies on content being stored locally or can stream or play from the variety of hardware capture cards including tuner cards and online or on the local network too.
 
 [:octicons-home-16: Homepage](https://www.videolan.org/vlc/){ .md-button .md-button--primary }
 [:octicons-info-16:](https://wiki.videolan.org/Main_Page/){ .card-link title=Documentation}
@@ -43,6 +43,7 @@ cover: media-players.webp
 </details>
 
 </div>
+Unlike Kodi, VLC is meant to be a software that runs on your PC to open Media locally or streams (eg. TV) so it doesn't cater to the big screen experience like Kodi does and doesn't have native remote control support or other inputs like it. Finally while it supports opening images, it isn't a great experience over using an image viewer and doesn't support Games (which Kodi does do well).
 
 ## Criteria
 
