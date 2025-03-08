@@ -84,7 +84,7 @@ Organizational members have no ability to influence what content is recommended 
 
 ### What is an active membership?
 
-Your monthly or yearly membership sustains Privacy Guides's services and public activism for privacy and cybersecurity year round. If you become a member, we will recognize your support here on our website and our community forum and occasionally in other areas like our videos if you choose to make your membership publicly known.
+Your monthly or yearly membership sustains Privacy Guides's services and public activism for privacy and cybersecurity year round. If you become a member, we will recognize your support here on our website, our community forum, and occasionally in other areas like our videos if you choose to make your membership publicly known.
 
 Our membership program is brand new, and we are still exploring other ways that we can share a token of our appreciation with you, while maintaining sustainable and ethical boundaries. Stay tuned!
 
