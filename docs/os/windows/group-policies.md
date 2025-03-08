@@ -127,6 +127,17 @@ This last setting disables OneDrive on your system; make sure to change it to **
 
 - Improve inking and typing recognition: **Disabled**
 
+#### Windows AI
+
+<div class="admonition info" markdown>
+<p class="admonition-title">Windows Recall</p>
+
+Windows 11 recently introduced a feature called **Recall**, which records all your activity and creates a searchable archive of that activity history. This is a massive privacy vulnerability, because those archives can potentially store highly sensitive information (essentially anything displayed on your screen), and can be trivially accessed by local administrators or malicious actors with user-level access to your device.
+
+</div>
+
+- Turn off saving snapshots of Windows: **Enabled**
+
 #### Windows Error Reporting
 
 - Do not send additional data: **Enabled**
