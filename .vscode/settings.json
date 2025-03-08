@@ -86,6 +86,7 @@
       "AUXILIARY_DO_WITH_INCORRECT_VERB_FORM": "hint",
       "MISSING_COMMA_AFTER_YEAR": "hint",
       "DO_VBZ": "hint",
+      "NOUN_AROUND_IT": "hint",
       "default": "error"
     },
     "editor.unicodeHighlight.ambiguousCharacters": true,
