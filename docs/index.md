@@ -70,7 +70,8 @@ Trying to protect all your data from everyone all the time is impractical, expen
 <div markdown>
 **Privacy Guides** has a dedicated [community](https://discuss.privacyguides.net) independently reviewing various *privacy tools* and services. Each of our recommendations comply with a strict set of criteria to ensure they provide the most value to most people, and provide the best balance of privacy, security, and convenience. As part of a non-profit **public charity**, Privacy Guides has strict **journalistic standards** and policies to ensure our recommendations are free of conflict of interest, and we do not partner with providers or affiliate programs that could sway our reviews and recommendations.
 
-[:material-heart:{.pg-red} Support Our Work](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary }
+[:material-heart:{.pg-red} Support Our Work](https://donate.magicgrants.org/privacyguides){ class="md-button md-button--primary" }
+
 </div>
 
 - [x] **Ad-Free Recommendations**
@@ -81,82 +82,6 @@ Trying to protect all your data from everyone all the time is impractical, expen
 - [x] **Trusted by Readers**
 
 </div>
-
-### Top 3 Private Email Providers
-
-<div class="grid cards" markdown>
-
--   ![Proton Mail logo](assets/img/email/protonmail.svg){ .lg .middle .twemoji loading=lazy } **Proton Mail**
-
-    ---
-
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
-
-    [:octicons-arrow-right-24: Read Full Review](email.md#proton-mail)
-
--   ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji loading=lazy } **Mailbox.org**
-
-    ---
-
-    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with up to 2 GB storage, which can be upgraded as needed.
-
-    [:octicons-arrow-right-24: Read Full Review](email.md#mailboxorg)
-
--   ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji loading=lazy } **Tuta**
-
-    ---
-
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1 GB of storage.
-
-    [:octicons-arrow-right-24: Read Full Review](email.md#tuta)
-
-</div>
-
-<div class="grid" markdown>
-<div markdown>
-### Best VPN Services
-
-<div class="grid cards" markdown>
-
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji loading=lazy } [Proton VPN](vpn.md#proton-vpn)
-- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji loading=lazy } [IVPN](vpn.md#ivpn)
-- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji loading=lazy } [Mullvad](vpn.md#mullvad)
-
-</div>
-</div>
-
-<div markdown>
-### Secure Cloud Storage Services
-
-<div class="grid cards" markdown>
-
-- ![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji loading=lazy } [Proton Drive](cloud.md#proton-drive)
-- ![Tresorit logo](assets/img/cloud/tresorit.svg){ .twemoji loading=lazy } [Tresorit](cloud.md#tresorit)
-- ![Peergos logo](assets/img/cloud/peergos.svg){ .twemoji loading=lazy } [Peergos](cloud.md#peergos)
-
-</div>
-</div>
-
-<div markdown>
-### Best Web Browsers
-
-<div class="grid cards" markdown>
-
-- ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .twemoji loading=lazy } [Mullvad Browser](desktop-browsers.md#mullvad-browser)
-- ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji loading=lazy } [Firefox](desktop-browsers.md#firefox)
-- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji loading=lazy } [Brave](desktop-browsers.md#brave)
-
-</div>
-</div>
-</div>
-
-[:material-format-list-checkbox: More Recommended **Privacy Tools**](tools.md){ class="md-button md-button--primary" }
-[Best Mobile Browsers](mobile-browsers.md){ .md-button }
-[Top Browser Extensions](browser-extensions.md){ .md-button }
-[DNS Servers](dns.md){ .md-button }
-[Email Aliasing Services](email-aliasing.md){ .md-button }
-[Photo Organization Tools](photo-management.md){ .md-button }
-[PC Operating Systems](desktop.md){ .md-button }
 
 ---
 
@@ -170,7 +95,7 @@ Established in 2021 due to the difficulty of finding unbiased reviewers in the V
 
 As seen in **WIRED**, **Tweakers.net**, **The New York Times**, and many other publications as a reliable source for privacy and security knowledge.
 
-[:material-information: More About Who We Are](about.md){ class="md-button md-button--primary" } [:material-email: Join our Newsletter](https://blog.privacyguides.org/#/portal/signup){ .md-button }
+[:material-information: More About Who We Are](about.md){ class="md-button" }
 
 <div class="grid" markdown>
 <div markdown>
@@ -188,6 +113,6 @@ In the modern age of digital data exploitation, your privacy has never been more
 
 Many people get the concepts of privacy, security, and anonymity confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
 
-[Privacy vs Security vs Anonymity](basics/why-privacy-matters.md#what-is-privacy){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
 </div>
 </div>

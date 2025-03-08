@@ -50,6 +50,8 @@ Take cookie consent forms, for example. You may encounter these dozens of times 
 
 Privacy is something we need to have baked into the [software and services](../tools.md) we use by default, you can't bend most apps into being private on your own.
 
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+
 ## Sources
 
 - [Why Privacy Matters](https://amazon.com/dp/0190939044) (2021) by Neil Richards
