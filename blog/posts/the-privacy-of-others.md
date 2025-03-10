@@ -54,7 +54,7 @@ We have reached a point where we need to develop a culture of individual respons
 
 This means caring not just for our own data, but **caring for everyone's data**, whether it's the data of our friends, our family, our employees, our patients, or even complete strangers in the streets, or online.
 
-This will take time and a lot of efforts, but we owe it to the next generations to start now.
+This will take a lot of time and effort, but we owe it to the next generations to start now.
 
 ## The principles we should consider in relation to privacy
 
