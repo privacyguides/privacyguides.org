@@ -424,7 +424,9 @@ nav:
           - "encryption.md"
           - "file-sharing.md"
           - "frontends.md"
+          - "health-and-wellness.md"
           - "language-tools.md"
+          - "maps.md"
           - "multi-factor-authentication.md"
           - "news-aggregators.md"
           - "notebooks.md"
@@ -453,13 +455,15 @@ nav:
       - "about/donate.md"
       - !ENV [NAV_ABOUT_TEAM_MEMBERS, "Team Members"]:
           https://discuss.privacyguides.net/u?group=team&order=solutions&period=all
-      - "about/contributors.md"
       - "about/criteria.md"
-      - "about/executive-policy.md"
-      - "about/notices.md"
-      - "privacy.md"
-      - "about/jobs.md"
+      - !ENV [NAV_ABOUT_POLICIES, "Policies"]:
+          - "about/donation-acceptance-policy.md"
+          - "about/executive-policy.md"
+          - "privacy.md"
+          - "about/notices.md"
       - !ENV [NAV_COMMUNITY, "Community"]:
+          - "about/jobs.md"
+          - "about/contributors.md"
           - !ENV [NAV_ONLINE_SERVICES, "Online Services"]: "about/services.md"
           - !ENV [NAV_CODE_OF_CONDUCT, "Code of Conduct"]: "CODE_OF_CONDUCT.md"
           - "about/statistics.md"
