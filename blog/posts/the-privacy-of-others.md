@@ -64,7 +64,7 @@ Some of these principles and values have become much more prevalent in our cultu
 
 **Consent** in privacy is incredibly important. What one person might feel comfortable sharing publicly might be completely different from another person, for example. Privacy cannot be established on a fixed basis without considering individuality and circumstances.
 
-Someone might be happy sharing their name on social media, and someone else might safeguard this information and only use pseudonyms. Someone might feel safe sharing their home address online, yet another person could get killed for doing this.
+Someone might be happy sharing their name on social media, and someone else might safeguard this information and only use pseudonyms. One person might feel safe sharing their home address online, yet another person could be killed for doing this.
 
 This is why *informed* and *explicit* individual consent (with true choices) should always be the center of such decisions, for any type of personal information.
 
