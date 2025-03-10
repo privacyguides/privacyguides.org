@@ -533,3 +533,4 @@ tessera
 Corbató
 NordPass
 Syncable
+fontawesome-solid-glasses
