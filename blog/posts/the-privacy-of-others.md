@@ -102,7 +102,7 @@ Additionally, be vigilant when importing your contact list in a new application.
 
 If someone trusted you with a file (photo, music, video, PDF, text file, etc.), always ask for consent before sharing this file with someone else.
 
-Additionally, always keep this file only locally or stored in a secure end-to-end encrypted service. If this person gives you consent to share this file, ensure that [metadata](https://www.privacyguides.org/en/data-redaction/) has been removed from it. This person might not be aware of the metadata on this file.
+Additionally, always keep this file only locally or stored in a secure end-to-end encrypted service. If this person gives you consent to share this file, ensure that metadata has been [removed](https://www.privacyguides.org/en/data-redaction/) from it. This person might not be aware of the metadata on this file.
 
 ### :material-heart: Keep confidences secret
 
