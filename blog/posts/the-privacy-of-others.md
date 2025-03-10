@@ -76,7 +76,7 @@ Of course, these are only a few principles indispensable to build a culture of d
 
 So, what concrete actions can we take *right now* to improve our culture around data privacy? What can we do today at the individual level to start better protecting the data of others?
 
-Here are a few practices you can adopt in your daily life to improve the data of the people around you. But I insist, do not just demand others do this for you, also **do this for others**. It needs to start with ourselves:
+Here are a few practices you can adopt in your daily life to improve the data of the people around you. However, I insist you not just demand others do this for you, but **do this for others too**. Re-shaping our culture needs to start with ourselves:
 
 ### :material-camera-off: Ask for consent before sharing/posting photos
 
