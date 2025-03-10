@@ -168,13 +168,13 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    - [x] **45+ Countries**
+    - [x] **49+ Countries**
     - [x] WireGuard Support
     - [x] Monero & Cash Payments
     - [ ] No Port Forwarding
     - [x] IPv6 Support
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
+    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#mullvad)
 
 </div>
 
