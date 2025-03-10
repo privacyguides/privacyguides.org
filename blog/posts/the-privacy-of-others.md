@@ -70,7 +70,7 @@ This is why *informed* and *explicit* individual consent (with true choices) sho
 
 Other principles we must integrate in our culture of data privacy include **empathy** (my threat model isn't your threat model), **trust and respect** (secure this data properly if you must collect it), **safety** (consider someone could get severely harmed by a data breach), and **individual liberties** (sharing data must be a personal choice, even if there's no danger, it's still valid even if it's just a preference).
 
-Of course, this is only a few principles indispensable to build a culture of data privacy. But since most people are already familiar with these, let's start here.
+Of course, these are only a few principles indispensable to build a culture of data privacy, but since most people are already familiar with these we'll start here.
 
 ## Practices we can all adopt right now to start building a better culture around data privacy
 
