@@ -44,7 +44,7 @@ Privacy is a human right, and a good starting point to protect any human right i
 
 That being said, **laws simply aren't enough**.
 
-To truly improve data privacy rights, we *must* integrate them into our *whole culture*. This might sound like an over-ambitious endeavor, but culture is flexible and evolves with people's needs. It always has.
+To truly improve data privacy rights, we *must* integrate them into our *whole culture*. This might sound like an over-ambitious endeavor, but culture is flexible and evolves with people's needs.
 
 Our culture and customs have partly shifted *against* data privacy in the past decades. Some of us are old enough to remember a time when everyone didn't have a camera in their pocket. At that time, it would have been considered unacceptable in most places to suddenly point a recording camera at a stranger in the street and start filming them without any explanation and without their consent.
 
