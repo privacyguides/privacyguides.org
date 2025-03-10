@@ -72,7 +72,7 @@ Other principles we must integrate in our culture of data privacy include **empa
 
 Of course, these are only a few principles indispensable to build a culture of data privacy, but since most people are already familiar with these we'll start here.
 
-## Practices we can all adopt right now to start building a better culture around data privacy
+## How we can start building a better culture around data privacy
 
 So, what concrete actions can we take *right now* to improve our culture around data privacy. What can we do today at the individual level to start better protecting the data of others?
 
