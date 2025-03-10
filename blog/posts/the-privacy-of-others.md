@@ -114,7 +114,7 @@ If you have private conversations on social media, be mindful not to spread this
 
 ### :material-heart-box: Safeguard and delete intimate pictures you received
 
-If someone trust you enough to send you intimate photos of themselves, take this responsibility *extremely* seriously. If they use an end-to-end encrypted service, do not move the photos out of there. If you do, you could inadvertently upload them in an unencrypted service and compromise the security of these pictures.
+If someone trust you enough to send you intimate photos of themselves, take this responsibility *extremely* seriously. If they use an end-to-end encrypted service, do not move the photos out of there. If you do, you could inadvertently upload them to an unencrypted service and compromise the security of these pictures.
 
 If your relationship with this person ends, you *should* delete all intimate pictures you have received. This is extremely important for their safety, and also possibly for *yours*. Things could get very problematic legally if your copies were to get accidentally leaked or stolen. No matter how difficult this might be emotionally, do the right thing and delete these pictures fully.
 
