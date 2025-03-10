@@ -62,7 +62,7 @@ Our society already has adopted or improved many ethical principles in the past 
 
 Some of these principles and values have become much more prevalent in our culture recently, consent being one great example for this.
 
-**Consent** in privacy is incredibly important. What someone might feel comfortable sharing publicly might be completely different from another person, for example. Privacy cannot be established on a fixed basis without considering individuality and circumstances.
+**Consent** in privacy is incredibly important. What one person might feel comfortable sharing publicly might be completely different from another person, for example. Privacy cannot be established on a fixed basis without considering individuality and circumstances.
 
 Someone might be happy sharing their name on social media, and someone else might safeguard this information and only use pseudonyms. Someone might feel safe sharing their home address online, yet another person could get killed for doing this.
 
