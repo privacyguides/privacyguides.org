@@ -30,7 +30,7 @@ Once you have control over someone else's data, **you become its guardian**.
 
 ## Data protection is a communal responsibility
 
-Now to be clear, this isn't necessarily in relationship with the law, although it can be part of it. In this context, I am referring more to ethics. What are our moral obligations to care for others and to protect others at least to the same level we wish to be protected ourselves.
+Now to be clear, this isn't necessarily in relationship with the law, although it can be part of it. In this context, I am referring more to ethics. Do we have a moral obligation to care for and protect others to at least the same level we wish to be protected ourselves?
 
 As a connected society, we constantly exchange information with each other. This information is now mostly stored on digital mediums, and can be very easily duplicated and shared elsewhere. Actually, on a technical level, it's even *difficult* not to constantly involuntarily create duplicates of this data and send it elsewhere.
 
