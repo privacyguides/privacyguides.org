@@ -84,7 +84,7 @@ Do not post photos of people online without their prior consent. Especially if t
 
 ### :material-face-recognition: Be mindful when sharing photos of protests
 
-Be very careful when taking pictures during a protest. There's a lot of nuance to this because it's also important to show protests and make them known, that's usually the goal. But in some circumstances, people might be put in danger if their faces are showed online associated with certain causes.
+Be very careful when [taking pictures during a protest](https://www.privacyguides.org/articles/2025/01/23/activists-guide-securing-your-smartphone/). There's a lot of nuance to this because it's also important to show protests and make them known (that's usually the goal!), but in some circumstances people might be put in danger if their faces are shown online associated with certain causes.
 
 Be mindful and make sure no one is singled out without consent in your pictures if you post them online. When possible, try to blur/block the faces of the people you couldn't ask for consent.
 
