@@ -18,7 +18,7 @@ In privacy, we talk a lot about how to protect our own data, but what about our 
 
 If you care about privacy rights, you must also care for the data of the people around you. To make privacy work, we need to develop a culture that normalizes caring for everyone's data, not just our own. Privacy cannot solely be a personal responsibility, data privacy is team work.<!-- more -->
 
-Whatever measures and tools you use to protect your own data, you would never be able to protect it fully without the collaboration of the people around you.
+Whatever measures and tools you use to protect your own data, you would never be able to protect it fully without the collaboration of others.
 
 In this context, the people around you might be your family or your friends, but also includes your boss, your doctor, your therapist, your school, your government, and any other person or organization that has control over some of your data.
 
