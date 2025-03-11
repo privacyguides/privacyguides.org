@@ -67,6 +67,32 @@ Please note that Organic Maps is a simple, basic app that lacks certain features
 
 Compared to Organic Maps, OsmAnd has more [features](https://wiki.openstreetmap.org/wiki/OsmAnd#Features) but is also more complicated to use. One noteworthy feature is the ability to overlay or underlay external map data, such as satellite images from Microsoft or [traffic data](https://web.archive.org/web/20211203063453/http://themm.net/public/osmand_traffic) from Google, although the latter is ignored by the automatic route planning. OsmAnd also has an optional integration of street view images provided by [Mapillary](https://mapillary.com).
 
+## Magic Earth
+
+<div class="admonition recommendation" markdown>
+
+![Magic Earth logo](assets/img/maps/magic-earth.png){ align=right }
+
+**Magic Earth** is a proprietary app based on OpenStreetMap data. Its features include turn-by-turn navigation, live traffic information for route planning, speed camera warnings, public transport info, 3D and satellite maps, and the ability to download maps for offline use. The app may send position data to Magic Earth's traffic provider to provide real-time traffic information, but the data is anonymized and only stored for 5 minutes.
+
+[:octicons-home-16: Homepage](https://www.magicearth.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.magicearth.com/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.magicearth.com/faq-en/){ .card-link title=Documentation}
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.generalmagic.magicearth&hl=en)
+- [:simple-appstore: App Store](https://itunes.apple.com/us/app/magic-earth-gps-navigation/id1007331679?mt=8)
+
+</details>
+
+</div>
+
+This app is useful for users who require real-time traffic info, which is available [in several countries](https://www.magicearth.com/feature-availablity/#hd_traffic).
+
+Magic Earth is free of cost for all end-users but the developer also has a paid SDK for business partners. Because of this business model, they have decided against open sourcing the app.
+
 ## Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
