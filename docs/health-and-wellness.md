@@ -13,7 +13,7 @@ Keep track of your health and fitness-related goals with these apps. Unlike thei
 
 ## Menstrual Cycle Tracking
 
-Popular menstrual trackers like [Flo](https://techcrunch.com/2021/01/13/flo-gets-ftc-slap-for-sharing-user-data-when-it-promised-privacy) are notorious for collecting and sharing your user data. Depending on your jurisdiction, this may lead to [legal consquences](https://forbes.com/sites/abigaildubiniecki/2024/11/14/post-roe-your-period-app-data-could-be-used-against-you) affecting your reproductive autonomy.
+Popular menstrual trackers like [Flo](https://techcrunch.com/2021/01/13/flo-gets-ftc-slap-for-sharing-user-data-when-it-promised-privacy) are notorious for collecting and sharing your user data. Depending on your jurisdiction, this may lead to [legal consequences](https://forbes.com/sites/abigaildubiniecki/2024/11/14/post-roe-your-period-app-data-could-be-used-against-you) affecting your reproductive autonomy.
 
 ### drip.
 
@@ -70,7 +70,7 @@ These general purpose apps can do everything from counting steps and tracking sl
 
 <div class="admonition recommendation" markdown>
 
-![Apple logo](assets/img/health-and-wellness/apple-health.png){ align=right }
+![Apple logo](assets/img/health-and-wellness/apple-health.svg#only-light){ align=right }![Apple logo](assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ align=right }
 
 **Apple Health** is the default health and fitness app for iOS. Apple Health always uses end-to-end encryption when syncing across multiple devices. Additionally, almost all measured data is processed on your device.
 
@@ -90,7 +90,7 @@ These general purpose apps can do everything from counting steps and tracking sl
 
 <div class="admonition recommendation" markdown>
 
-![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge.svg){ align=right }
+![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge.svg#only-light){ align=right }![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge-dark.svg#only-dark){ align=right }
 
 **Gadgetbridge** is an open-source Android application which allows you to pair and manage your Bluetooth device without relying on the vendor’s application. When paired with a compatible smartwatch, it can mimic the health and wellness functionality of these watches without third-party data collection.
 
@@ -120,7 +120,7 @@ These apps help you collect and manage personal health data and share it with he
 
 <div class="admonition recommendation" markdown>
 
-![Apple logo](assets/img/health-and-wellness/apple-health.png){ align=right }
+![Apple logo](assets/img/health-and-wellness/apple-health.svg#only-light){ align=right }![Apple logo](assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ align=right }
 
 **Apple Health Records** is a built-in feature within [Apple Health](#apple-health) that allows you to view, store, and share your health records. It shares the security and privacy features of Apple Health.
 
@@ -165,5 +165,5 @@ CommonHealth is only available in the United States. Although the app itself is 
 ### Minimum Requirements
 
 - Must support automatic updates.
-- Must not store unencrypted data outside of the device.
+- Must not store unencrypted data outside the device.
 - Must function offline.
