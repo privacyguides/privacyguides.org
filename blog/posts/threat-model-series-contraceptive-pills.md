@@ -15,7 +15,7 @@ schema_type: BackgroundNewsArticle
 
 # Threat Modelling Series: Purchasing Contraceptive Pills Online
 
-![Reproductive Health Supplies Coalition - Unsplashed] image](.../assets/images/threat-model-series-contraceptive-pills/Reproductive Health Supplies Coalition Unsplashed.jpg)
+![Reproductive Health Supplies Coalition - Unsplashed](.../assets/images/threat-model-series-contraceptive-pills/Reproductive Health Supplies Coalition Unsplashed.jpg)
 
 <small aria-hidden="true">Photo: Placeholder / Unsplash</small>
 
