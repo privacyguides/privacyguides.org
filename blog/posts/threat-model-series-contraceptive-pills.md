@@ -17,7 +17,7 @@ schema_type: BackgroundNewsArticle
 
 ![Reproductive Health Supplies Coalition - Unsplashed](.../assets/images/purchasing-contraceptive/Reproductive-Health-Supplies-Coalition.jpg)
 
-<small aria-hidden="true">Photo: Placeholder / Unsplash</small>
+<small aria-hidden="true">Photo: Reproductive Health Supplies Coalition / Unsplashed</small>
 
 [Privacy threat modeling](https://www.privacyguides.org/en/basics/threat-modeling/) could be an intimidating topic for most people. In this blog series, we introduce a hypothetical situation inspired by real-world usage cases. Each article will cover different recomendations already present in Privacy Guides' knowledge base. For today, we focus on Sally - a Texan college student seeking to purchase contraceptive pills online.
 
