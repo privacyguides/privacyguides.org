@@ -1,7 +1,7 @@
 ---
 title: Do you need a VPN?
 date:
-    created: 2024-12-12T20:00:00
+    created: 2024-12-12T20:00:00Z
 authors:
     - jordan
 description: Commercial Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world. This can have substantial privacy benefits, but not all VPNs are created equal.
