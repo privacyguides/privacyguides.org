@@ -44,7 +44,7 @@ MAGIC Grants is our fiscal host, and their custom, open-source donation platform
 Privacy Guides would not be possible without these individuals who generously donate on a monthly or yearly basis. (1)
 { .annotate }
 
-1. If you [become a member](https://donate.magicgrants.org/privacyguides/membership) and [link your donation](https://discuss.privacyguides.net/t/getting-your-member-flair-on-the-forum/25453) to your forum account, you're automatically added here with a link to your profile and avatar to show your support for Privacy Guides. If you link your forum account but don't set your flair or title, you'll be a silent +1. You can change your visibility any time. This chart is updated upon each website release.
+1. If you [become a member](https://donate.magicgrants.org/privacyguides/membership) and [link your donation](https://discuss.privacyguides.net/t/getting-your-member-flair-on-the-forum/25453) to your forum account, you're automatically added here with a link to your profile and avatar to show your support for Privacy Guides. If you don't make your membership public on the forum, you'll be a silent +1. You can change your visibility any time. This chart is updated upon each website release.
 
 <div class="mdx-donors" data-mdx-component="donors">
 <div class="mdx-donors__list">

@@ -18,6 +18,7 @@ if 'members' not in members_data:
   raise KeyError("Response JSON does not contain 'members' key")
 
 members = members_data['members']
+public_members_count = 0
 private_members_count = 0
 
 html_output = ""
@@ -30,8 +31,7 @@ for member in members:
     avatar_url = f"https://discuss.privacyguides.net{avatar_template.replace('{size}', '128')}"
     profile_url = f"https://discuss.privacyguides.net/u/{username}"
     html_output += f'<a href="{profile_url}" target="_blank" title="@{username}" class="mdx-donors__item"><img loading="lazy" src="{avatar_url}"></a>'
-  else:
-    private_members_count += 1
+    public_members_count += 1
 
 # print(html_output)
 
@@ -84,7 +84,16 @@ for sponsor in sponsors:
     url = sponsor_entity['url']
     html_output += f'<a href="{url}" title="@{login}" rel="ugc nofollow" target="_blank" class="mdx-donors__item"><img loading="lazy" src="{avatar_url}&size=120"></a>'
 
-private_members_count += 6
+# Fetch the number of active members from the Magic Grants API
+magic_grants_url = "https://donate.magicgrants.org/api/active-members?fund=privacyguides"
+magic_grants_response = requests.get(magic_grants_url)
+magic_grants_data = magic_grants_response.json()
+
+if 'members_count' not in magic_grants_data:
+  raise KeyError("Response JSON does not contain 'members_count' key")
+
+private_members_count += magic_grants_data['members_count']
+private_members_count -= public_members_count
 
 # Append the count of private members
 if private_members_count > 0:
