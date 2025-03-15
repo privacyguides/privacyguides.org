@@ -168,13 +168,13 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    - [x] **45+ Countries**
+    - [x] **49+ Countries**
     - [x] WireGuard Support
     - [x] Monero & Cash Payments
     - [ ] No Port Forwarding
     - [x] IPv6 Support
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
+    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#mullvad)
 
 </div>
 
@@ -482,6 +482,21 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [Learn more :material-arrow-right-drop-circle:](frontends.md)
 
+### Health and Wellness Apps
+
+<div class="grid cards" markdown>
+
+- ![drip. logo](assets/img/health-and-wellness/drip.png){ .twemoji loading=lazy } [drip.](health-and-wellness.md#drip)
+- ![Euki logo](assets/img/health-and-wellness/euki.svg){ .twemoji loading=lazy } [Euki](health-and-wellness.md#euki)
+- ![Apple Health logo](assets/img/health-and-wellness/apple-health.svg#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ .twemoji loading=lazy }[Apple Health](health-and-wellness.md#apple-health)
+- ![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge.svg#only-light){ .twemoji loading=lazy }![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge-dark.svg#only-dark){ .twemoji loading=lazy } [Gadgetbridge](health-and-wellness.md#gadgetbridge)
+- ![Apple Health logo](assets/img/health-and-wellness/apple-health.svg#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ .twemoji loading=lazy }[Apple Health Records](health-and-wellness.md#apple-health-records)
+- ![CommonHealth logo](assets/img/health-and-wellness/commonhealth.png){ .twemoji loading=lazy } [CommonHealth](health-and-wellness.md#commonhealth)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](health-and-wellness.md)
+
 ### Language Tools
 
 <div class="grid cards" markdown>
@@ -491,6 +506,17 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 </div>
 
 [Learn more :material-arrow-right-drop-circle:](language-tools.md)
+
+### Maps and Navigation Apps
+
+<div class="grid cards" markdown>
+
+- ![Organic Maps logo](assets/img/maps/organic-maps.svg){ .twemoji loading=lazy } [Organic Maps](maps.md#organic-maps)
+- ![OsmAnd logo](assets/img/maps/osmand.svg){ .twemoji loading=lazy } [OsmAnd](maps.md#osmand)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](maps.md)
 
 ### Multi-Factor Authentication Tools
 
@@ -555,7 +581,6 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 - ![Psono logo](assets/img/password-management/psono.svg){ .twemoji loading=lazy } [Psono](passwords.md#psono)
 - ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ .twemoji loading=lazy } [KeePassXC](passwords.md#keepassxc)
 - ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ .twemoji loading=lazy } [KeePassDX (Android)](passwords.md#keepassdx-android)
-- ![Strongbox logo](assets/img/password-management/strongbox.svg){ .twemoji loading=lazy } [Strongbox (iOS & macOS)](passwords.md#strongbox-ios-macos)
 - ![gopass logo](assets/img/password-management/gopass.svg){ .twemoji loading=lazy } [gopass (CLI)](passwords.md#gopass-cli)
 
 </div>
@@ -567,6 +592,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 <div class="grid cards" markdown>
 
 - ![PrivateBin logo](assets/img/pastebins/privatebin.svg){ .twemoji loading=lazy } [PrivateBin](pastebins.md#privatebin)
+- ![Paaster logo](assets/img/pastebins/paaster.svg){ .twemoji loading=lazy } [Paaster](pastebins.md#paaster)
 
 </div>
 

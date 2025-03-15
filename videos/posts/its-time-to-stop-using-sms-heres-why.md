@@ -1,7 +1,7 @@
 ---
 title: It's time to stop using SMS, here's why!
 date:
-    created: 2025-01-24T20:00:00
+    created: 2025-01-24T20:00:00Z
 authors:
     - jordan
 description: Text messaging has been a staple of communication for decades, but it's time to move on. In this video, we'll explore why SMS is an outdated and insecure technology and discuss better alternatives.

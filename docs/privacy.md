@@ -24,8 +24,10 @@ Privacy Guides collects data about you:
 - When you create and use an account on our websites
 - When you post, send private messages, and otherwise participate in a community that Privacy Guides hosts
 - When you sign up for a mailing list, email notifications, or announcements
-- When you make a donation to us or become a member
+- When you make a donation to us on GitHub Sponsors
+- When you become a donating member and link your MAGIC Grants account to your Privacy Guides forum account
 - When you contribute to our website or other open-source projects
+- When you contact us
 
 Privacy Guides does not buy or receive data about you from data brokers.
 
@@ -94,6 +96,28 @@ Contributors to Privacy Guides' website may be asked to provide identifying and 
 
 Privacy Guides uses this information to maintain the integrity of our website, software, and license agreements, both our own licenses and the license between Privacy Guides and our contributors. Privacy Guides stores this information for as long as your contributions are incorporated into our open source software, including this website.
 
+### Privacy Guides collects data when you donate to us
+
+When you donate to us on GitHub Sponsors, we collect your GitHub username and profile picture. Your payment information is also collected by our subprocessors GitHub and Stripe in order to facilitate the transaction.
+
+If you choose to make your donation public during or after the checkout process on GitHub, Privacy Guides will share your username and profile picture on our websites for the purposes of fulfilling your request. You may revoke this consent at any time, and we will no longer share your donation status publicly. It may take until the next website release for your data to be removed from public visibility.
+
+When you donate to us on [donate.magicgrants.org](https://donate.magicgrants.org/privacyguides), a [separate privacy policy](https://donate.magicgrants.org/privacy) applies as noted at the beginning of this document.
+
+However, if you optionally link your `donate.magicgrants.org` account to your Privacy Guides forum account, our forum collects some personal data which is covered by this notice: namely your forum username and whether you have an active membership.
+
+We process that information in order to grant you special perks on the forum. Additionally, if you choose to make this status public by setting a members-only title or flair, we will share the status of your active membership on our websites.
+
+This information is stored for as long as your membership is active, or until you unlink your forum and MAGIC Grants donation accounts in your profile settings. It may take until the next website release for your data to be fully removed from public visibility.
+
+### Privacy Guides collects data when you contact us
+
+When you contact Privacy Guides via email, Signal, or any of our other contact methods, we collect the information you submit to us, and any identifying information associated with the account you use to contact us. For example, when you contact us via Signal we will collect your Signal profile information. When you contact us via email we will collect your email address, name, and mail server IP address.
+
+In this case we limit the processing of any personal data you provide us to what is strictly necessary to communicate with you and organize our messages.
+
+Privacy Guides stores this data for as long as we are in contact with you, or for up to 1 year after your last contact with us. You have the right to request all data related to your private communication with us be deleted at any time, and we will generally do so within 7 days.
+
 ### The Privacy Guides website stores local data
 
 Our website uses Local Storage in your browser to store your color scheme preference. This data is only used by client-side JavaScript to change the color scheme of this website according to your preference.
@@ -127,6 +151,10 @@ Our forum is built on Discourse, which uses the following cookies:
 
 Your web browser can show you the cookies you have for any website and help you manage them.
 
+### Privacy Guides makes regular backups of all data
+
+Privacy Guides keeps automated backups of **all** data it collects. These backups are stored for up to 30 days. Any time you delete personal data from our websites, a copy may be retained in backup archives until those archives are pruned.
+
 ## Does Privacy Guides use personal information for marketing purposes?
 
 Privacy Guides may use personal data about our users in order to directly promote our own resources, such as for sharing new resources or when fundraising. We also use the information you give us when signing up for our mailing lists and announcements to send those messages.
@@ -145,7 +173,9 @@ Privacy Guides does not respond to the (now deprecated) [Do Not Track HTTP heade
 
 ## Where does Privacy Guides store data about me?
 
-Most data is hosted by [Triplebit](https://www.triplebit.org/) web services in the United States. Some publicly accessible data may be hosted by Content Delivery Networks with servers in other jurisdictions. For example, your profile picture may be hosted on multiple servers around the world.
+Most data is hosted by [Triplebit](https://www.triplebit.org/) web services in the United States.
+
+Some publicly accessible data may be hosted by Content Delivery Networks with servers in other jurisdictions. For example, your profile picture may be stored on multiple servers around the world in order to improve the performance for visitors to our website.
 
 ## Does Privacy Guides comply with the EU General Data Protection Regulation?
 
@@ -164,6 +194,34 @@ The GDPR provides you with the following rights with respect to personal informa
 - the right to lodge a complaint with a supervisory authority
 
 Information about how to exercise these rights is provided throughout this notice and linked above. We try to make exercising all of these rights easy to do on your own through your account settings, but for more complicated inquiries the best option will be to [contact](#how-can-i-contact-privacy-guides-about-privacy) us.
+
+### What is the lawful basis for data collection and processing?
+
+Privacy Guides generally processes your data using 3 of the 6 lawful bases for processing set out in Article 6 of the GDPR:
+
+- **Consent**: When you give us clear consent for us to process your personal data. This consent can be easily withdrawn at any time in your account settings, or you may always contact us for assistance with privacy-related matters.
+- **Contract**: When you give us your personal data in order to participate on services we operate according to our terms of service, or when we require personal data in order to take steps prior to entering a contract or to fulfill a contract.
+- **Legitimate interest**: When we process your personal data for fraud prevention, network and information security, or other reasons where the processing is required for our own legitimate interests or for those of a third party we work with.
+
+The lawful basis for our processing determines what rights are available to you under the GDPR. This table may be used as a reference:
+
+| Activity | Data Collected | Lawful Basis | Explanation |
+| -------- | -------------- | ------------ | ----------- |
+| [Website visits](#privacy-guides-collects-information-about-visits-to-its-websites) | IP Address, User Agent, Pages Visited | **Legitimate interest** | Required for defending our website from abuse and technical attacks, diagnosing and debugging technical errors, optimizing our websites, and compiling aggregated non-personal statistics for long-term analysis |
+| [Account data](#privacy-guides-collects-account-data) | Email Address, IP Address | **Legitimate interest** | Required to defend our website against spam and abuse |
+| [Account data](#privacy-guides-collects-account-data) | Email Address, Username, Password | **Contract** | Required to make our services available to you according to our terms of service |
+| [Account data](#privacy-guides-collects-account-data) | Optional profile information (name, location, etc.) | **Consent** | Required to publish the information you provide to your public or internal profile, according to your preferences |
+| [Posts & activity](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum) | Content of your posts, activity data like bookmarks, likes, and links you follow | **Contract** | Required to make our services available to you according to our terms of service |
+| [Posts & activity](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum) | Content of your private messages | **Contract** | Required to make our services available to you according to our terms of service |
+| [Posts & activity](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum) | Email Address | **Contract** | Our forum is an email-based platform, and email notifications about forum activity are an integral component required to make our services available to you according to our terms of service |
+| [Mailing lists](#privacy-guides-collects-data-you-give-to-sign-up-for-mailing-lists-and-announcements) | Email Address | **Consent** | Required for sending you messages you subscribe to |
+| [Open source contributions](#privacy-guides-collects-data-about-open-source-contributors) | Email address, name, GitHub profile information, other information provided via Git | **Legitimate interest** | We have a legitimate interest in tracking the provenance of contributions to our open source projects to prevent abuse and ensure intellectual property rights are respected |
+| [Donations](#privacy-guides-collects-data-when-you-donate-to-us) | Payment information including billing address and email, GitHub profile information | **Legitimate interest** | We have a legitimate interest in processing this data to prevent payment abuse and fraud, and for facilitating your transaction |
+| [Donations](#privacy-guides-collects-data-when-you-donate-to-us) | GitHub profile information | **Consent** | We process this information to display your donation status publicly in accordance to your wishes |
+| [Donations](#privacy-guides-collects-data-when-you-donate-to-us) | Forum username and membership status | **Consent** | When you link your forum account to your MAGIC Grants donation account, you can optionally display your membership status to the public |
+| [Contacting us](#privacy-guides-collects-data-when-you-contact-us) | Email address, mail server IP, message content | **Legitimate interest** | We have a legitimate interest in processing incoming email information to prevent spam and network abuse |
+| [Contacting us](#privacy-guides-collects-data-when-you-contact-us) | Email address, message headers and content | **Contract** | We store your messages and process your data in order to provide a response to your communication |
+| [Backups](#privacy-guides-makes-regular-backups-of-all-data) | All personal information we collect | **Legitimate interest** | We store complete backups to ensure organizational continuity and security for up to 30 days |
 
 ### Does Privacy Guides make international data transfers?
 
@@ -241,6 +299,12 @@ Privacy Guides uses the following subprocessors, and may share personal data wit
 | [Triplebit](https://www.triplebit.org/) (USA) | [Umami Statistics](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org) | For compiling aggregated statistics of our website visitor data based on server-side visitor info submissions | USA | [Privacy Notice](https://www.triplebit.org/privacy/) |
 | [Triplebit](https://www.triplebit.org/) (USA) | Virtual Private Servers | For hosting our dynamic websites, storing and processing personal data. | USA | [Privacy Notice](https://www.triplebit.org/privacy/) |
 
+## Does Privacy Guides delete inactive accounts?
+
+Privacy Guides deletes accounts that have no public activity when they have gone unused for 3 years. If the account has public activity, we will not delete it regardless of inactivity because your profile data is required to continue to publish your activity per your original request.
+
+You can always request the deletion of your data at any time regardless of this policy.
+
 ## How can I contact Privacy Guides about privacy?
 
 You can send questions, requests, and complaints via email to us at <team@privacyguides.org>. You may also use Signal or another contact method detailed [here](about.md#contact-us) to contact us more securely.
@@ -249,12 +313,12 @@ For complaints under GDPR more generally, you always have the option to lodge co
 
 ## Where do I find out about changes?
 
-This version of Privacy Guides' privacy notice took effect on March 4, 2025.
+This version of Privacy Guides' privacy notice took effect on March 6, 2025.
 
-Privacy Guides will post the next version here: <https://www.privacyguides.org/en/about/privacy-policy/>.
+Privacy Guides will post the next version here: <https://www.privacyguides.org/en/privacy/>.
 
-In future versions, Privacy Guides may change how it announces changes. In the meantime, Privacy Guides may update its contact information without announcing a change. Please refer to <https://www.privacyguides.org/en/about/privacy-policy/> for the latest contact information at any time.
+In future versions, Privacy Guides may change how it announces changes. In the meantime, Privacy Guides may update its contact information without announcing a change. Please refer to <https://www.privacyguides.org/en/privacy/> for the latest contact information at any time.
 
-A full revision [history](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) of this page can be found on GitHub.
+A full revision [history](https://github.com/privacyguides/privacyguides.org/commits/main/docs/privacy.md) of this page can be found on GitHub.
 
 In the event that a translated copy of this document conflicts with the English copy, the English copy of this document takes precedence.

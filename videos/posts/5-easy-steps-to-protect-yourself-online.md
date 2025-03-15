@@ -1,7 +1,7 @@
 ---
 title: 5 Easy Steps to Protect Yourself Online
 date:
-    created: 2025-02-14T17:00:00
+    created: 2025-02-14T17:00:00Z
 authors:
     - jordan
 description: Worried about hackers and data breaches? You're not alone. In this video we outline 5 simple yet crucial steps you can take today to dramatically improve your online security and protect your personal information.
