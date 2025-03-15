@@ -164,13 +164,13 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
 
 ## :material-check-decagram: Social Media
 
-We have a general policy of avoiding links to centralized social media profiles and other websites outside our control. This means that in places like our website footer and other areas we only link to platforms we fully control, such as our Mastodon and PeerTube accounts or Matrix channels.
+We have a general policy of avoiding links to centralized social media profiles and other websites outside our control. This means that in places like our website footer and other areas, we only link to platforms we fully control, such as our Mastodon and PeerTube accounts or Matrix channels.
 
 However, Privacy Guides *does* have social media accounts on a wide variety of platforms, in the hope of reaching new users who aren't yet familiar with our content. We try to make this a "one-way street" where those accounts link to privacyguides.org, and not the other way around. However, this creates some confusion about which accounts are actually run by the Privacy Guides team. For reference, we will list all of our accounts here:
 
 <div class="grid cards" markdown>
 
-- [:simple-discourse: **Forum**](https://discuss.privacyguides.net/)
+- [:simple-discourse: **Forum**](https://discuss.privacyguides.net)
 - [:simple-matrix: **Matrix Space**](https://matrix.to/#/#privacyguides:matrix.org)
 - [:simple-mastodon: **Mastodon**](https://mastodon.neat.computer/@privacyguides)
 - [:simple-peertube: **PeerTube**](https://neat.tube/c/privacyguides)
@@ -178,10 +178,10 @@ However, Privacy Guides *does* have social media accounts on a wide variety of p
 - [:simple-codeberg: Codeberg](https://codeberg.org/privacyguides)
 - [:simple-github: GitHub](https://github.com/privacyguides)
 - [:simple-gitlab: GitLab](https://gitlab.com/privacyguides)
-- [:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/company/privacyguides/)
-- [:simple-reddit: Reddit](https://www.reddit.com/r/PrivacyGuides/)
+- [:fontawesome-brands-linkedin: LinkedIn](https://linkedin.com/company/privacyguides)
+- [:simple-reddit: Reddit](https://reddit.com/r/PrivacyGuides)
 - [:simple-x: X (Twitter)](https://x.com/privacy_guides)
-- [:simple-youtube: YouTube](https://www.youtube.com/@privacyguides)
+- [:simple-youtube: YouTube](https://youtube.com/@privacyguides)
 
 </div>
 
