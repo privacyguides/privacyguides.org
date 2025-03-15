@@ -14,9 +14,7 @@
   <a href="https://github.com/privacyguides/privacyguides.org/stargazers">
     <img src="https://img.shields.io/github/stars/privacyguides?style=social"></a>
   <a href="https://mastodon.neat.computer/@privacyguides">
-    <img src="https://img.shields.io/mastodon/follow/109298532634697668?domain=https%3A%2F%2Fmastodon.neat.computer&label=Follow&style=social"></a>
-  <a href="https://bsky.app/profile/privacyguides.org">
-    <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpublic.api.bsky.app%2Fxrpc%2Fapp.bsky.actor.getProfile%3Factor%3Dprivacyguides.org&query=%24.followersCount&style=social&logo=bluesky&label=Follow"></a></p>
+    <img src="https://img.shields.io/mastodon/follow/109298532634697668?domain=https%3A%2F%2Fmastodon.neat.computer&label=Follow&style=social"></a></p>
 
   <p><a href="https://github.com/privacyguides/privacyguides.org/pulls">
     <img src="https://img.shields.io/github/issues-pr-raw/privacyguides/privacyguides.org"></a>
