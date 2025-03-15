@@ -25,6 +25,10 @@
 
 {% import "partials/nav-item.html" as item with context %}
 
+{% block htmltitle %}
+    <title>[Video] {{ page.title | striptags }} - {{ config.site_name }}</title>
+{% endblock %}
+
 {% block extrahead %}
 <script type="application/ld+json">
   {
@@ -39,7 +43,7 @@
     "embedUrl": "{{ page.meta.embed }}"
   }
 </script>
-<link rel="alternate" type="application/json+oembed" href="https://neat.tube/services/oembed?url={{ page.meta.peertube | urlencode |replace('/', '%2F')}}" title="It&#39;s time to stop using SMS, here&#39;s why!" />
+<link rel="alternate" type="application/json+oembed" href="https://neat.tube/services/oembed?url={{ page.meta.peertube | urlencode |replace('/', '%2F')}}">
 {% endblock %}
 
 <!-- Page content -->
