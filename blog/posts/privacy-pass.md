@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2025-03-17
+    created: 2025-03-17T19:00:00Z
 categories:
     - Explainers
 authors:
@@ -20,5 +20,14 @@ Services that require authentication can correlate your activity on that service
 
 Services that don't require an account or payment to use are great; you can use them with Tor, clear your browser history, whatever you need to do to keep your activity private. 
 
-But logging into an account completely invalidates all of that. As long as you're logged into an account with a service, all your previous and current activity can be linked together, along with any data you provided such as an email address, payment information, etc.
+But logging into an account completely invalidates all of that.
 
+### Linkability
+
+As long as you're logged into an account with a service, all your previous and current activity can be linked together, along with any data you provided such as an email address, payment information, etc.
+
+### Data Collection
+
+A lot of websites want to be able to filter out users below a certain age. 
+
+We're starting to see a rise in extremely privacy-invasive age verification systems such as submitting a government ID when you want to access a website or invasive facial scans.
