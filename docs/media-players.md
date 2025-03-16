@@ -14,7 +14,7 @@ cover: media-players.webp
 
 ![Kodi logo](assets/img/media-players/kodi.svg){ align=right }
 
-**Kodi** is a Free and Open Source (FOSS) client that can replace the interface of the likes of Smart TVs, it supports all variety of entertainment including TV (PVR), Music, Games, Videos (TV Shows, Movies) and Pictures. Kodi relies on content being stored locally or on the internet for things like Youtube or hardware to interface with things like TV (PVR) and you can use add-ons<sup>1.</sup> to extend the experience. Kodi is compatible with most operating systems and hardware, including Apple, Raspberry Pi, Linux, and Android, see the [requirements here](https://kodi.wiki/view/Supported_hardware) for running Kodi.
+**Kodi** is a Free and Open Source (FOSS) client that can replace the interface of the likes of Smart TVs, it supports all variety of entertainment including TV (PVR), Music, Games, Videos (TV Shows, Movies) and Pictures. Kodi relies on content being stored locally or on the internet for things like Youtube or hardware to interface with things like TV (PVR) and you can use add-ons<sup>1.</sup> to extend the experience. Kodi is compatible with most operating systems and hardware, including Raspberry Pi, Linux, and Android, see the [requirements here](https://kodi.wiki/view/Supported_hardware) for running Kodi.
 
 [:octicons-home-16: Homepage](https://kodi.tv){ .md-button .md-button--primary }
 [:octicons-info-16:](https://kodi.wiki/){ .card-link title=Documentation}
@@ -26,6 +26,8 @@ cover: media-players.webp
 </div>
 
 1. Kodi has an add-ons store to extend the out-of-the-box experience, but **keep in mind that add-ons are made by the community and the company itself, so be careful what you install,** luckily most software add-ons are also FOSS, meaning the code on them can be inspected, but in general be careful what you install, see the [addons site](https://kodi.tv/addons/) for more.
+
+Also, we advise against using it for Apple devices (outside of MacOS) as it requires jailbreaking them and jailbreaking reduces the security of the device, we recommend you have a Linux or an Android device for it instead if possible.
 
 ## VLC Media Player
 <div class="admonition recommendation" markdown>
