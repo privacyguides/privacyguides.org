@@ -16,7 +16,7 @@ description: |
 
 Services that require authentication can correlate your activity on that service with your account, and that account is normally linked with payment information that could potential link back to your real identity. With the privacy pass protocol, it doesn't have to be that way.<!-- more -->
 
-## The Problem
+## Problems
 
 Services that don't require an account or payment to use are great; you can use them with Tor, clear your browser history, whatever you need to do to keep your activity private. 
 
@@ -31,3 +31,13 @@ As long as you're logged into an account with a service, all your previous and c
 A lot of websites want to be able to filter out users below a certain age. 
 
 We're starting to see a rise in extremely privacy-invasive age verification systems such as submitting a government ID when you want to access a website or invasive facial scans.
+
+### Blocking VPN and Tor Users
+
+Bots are a rampant problem for online services, leading them to sometimes block non-residential IP addresses such as those used for commercial VPNs and Tor.
+
+### CAPTCHAS
+
+When VPN and Tor users aren't blocked, they often have to deal with annoying CAPTCHAS that take up your precious time and use invasive fingerprinting.
+
+CAPTCHAS aren't even particularly good at detecting bots. With advances in AI, bots can solve CAPTCHAS better than humans can.
