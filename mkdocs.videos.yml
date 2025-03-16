@@ -23,7 +23,7 @@ site_url: "https://www.privacyguides.org/videos/"
 site_dir: "site/videos"
 
 site_name: Privacy Guides
-site_description: "Privacy Guides is the most popular & trustworthy non-profit privacy resource to find privacy tools and learn about protecting your digital life."
+site_description: "This is our home for the latest video content from the Privacy Guides team. Privacy Guides is the most popular & trustworthy non-profit privacy resource to find privacy tools and learn about protecting your digital life."
 edit_uri_template: blob/main/videos/{path}?plain=1
 
 extra:
