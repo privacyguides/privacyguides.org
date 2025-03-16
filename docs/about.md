@@ -29,7 +29,7 @@ In addition to our core team, [many other people](about/contributors.md) have ma
 
 [Job Openings :material-arrow-right-drop-circle:](about/jobs.md)
 
-## Contact Us
+## :material-email-edit: Contact Us
 
 [:simple-discourse: Join the Privacy Guides forum](https://discuss.privacyguides.net){ .md-button .md-button--primary }
 
@@ -49,7 +49,7 @@ You can also use OpenPGP to contact us via email, if you feel comfortable with y
 
 If you need an alternative secure channel, please request one via any contact method including social media, and we will work with you to establish one. Please do not share any sensitive information with us before we have established an appropriately secure discussion channel.
 
-## Executive Committee
+## :material-account-tie: Executive Committee
 <!-- markdownlint-disable MD030 -->
 
 The project executive committee consists of five volunteers charged with management of the [MAGIC Privacy Guides Fund](https://magicgrants.org/funds/privacy_guides), making most critical project-related decisions.
@@ -118,7 +118,7 @@ The project executive committee consists of five volunteers charged with managem
 
 </div>
 
-## Staff
+## :material-account-edit: Staff
 
 Our staff are paid to contribute to supplemental content at Privacy Guides, like [video production](https://www.youtube.com/@privacyguides), [news articles and tutorials](https://www.privacyguides.org/articles), and our discussion communities and social media. Most are available and paid on a full-time basis to assist the organization.
 
@@ -162,7 +162,32 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
 
 </div>
 
-## In The Media
+## :material-check-decagram: Social Media
+
+We have a general policy of avoiding links to centralized social media profiles and other websites outside our control. This means that in places like our website footer and other areas, we only link to platforms we fully control, such as our Mastodon and PeerTube accounts or Matrix channels.
+
+However, Privacy Guides *does* have social media accounts on a wide variety of platforms, in the hope of reaching new users who aren't yet familiar with our content. We try to make this a "one-way street" where those accounts link to privacyguides.org, and not the other way around. However, this creates some confusion about which accounts are actually run by the Privacy Guides team. For reference, we will list all of our accounts here:
+
+<div class="grid cards" markdown>
+
+- [:simple-discourse: **Forum**](https://discuss.privacyguides.net)
+- [:simple-matrix: **Matrix Space**](https://matrix.to/#/#privacyguides:matrix.org)
+- [:simple-mastodon: **Mastodon**](https://mastodon.neat.computer/@privacyguides)
+- [:simple-peertube: **PeerTube**](https://neat.tube/c/privacyguides)
+- [:simple-bluesky: Bluesky](https://bsky.app/profile/privacyguides.org)
+- [:simple-codeberg: Codeberg](https://codeberg.org/privacyguides)
+- [:simple-github: GitHub](https://github.com/privacyguides)
+- [:simple-gitlab: GitLab](https://gitlab.com/privacyguides)
+- [:fontawesome-brands-linkedin: LinkedIn](https://linkedin.com/company/privacyguides)
+- [:simple-reddit: Reddit](https://reddit.com/r/PrivacyGuides)
+- [:simple-x: X (Twitter)](https://x.com/privacy_guides)
+- [:simple-youtube: YouTube](https://youtube.com/@privacyguides)
+
+</div>
+
+To reiterate, this is not an endorsement of any platform, and we generally discourage following us on most social media platforms.
+
+## :material-newspaper: In The Media
 
 > To find [privacy-focused alternative] apps, check out sites like Good Reports and **Privacy Guides**, which list privacy-focused apps in a variety of categories, notably including email providers (usually on paid plans) that aren’t run by the big tech companies.
 
@@ -174,7 +199,7 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
 
 Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok), [Wirecutter](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc) [[2](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac)], [NPO Radio 1](https://nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), [Wired](https://wired.com/story/firefox-mozilla-2022), [Fast Company](https://fastcompany.com/91167564/mozilla-wants-you-to-love-firefox-again) and [404 Media](https://404media.co/privacy-service-optery-faces-backlash-after-plan-to-send-openai-user-data).
 
-## History
+## :material-history: History
 
 Privacy Guides was launched in September 2021 as a continuation of the [defunct](about/privacytools.md) "PrivacyTools" open-source educational project. We recognized the importance of independent, criteria-focused product recommendations and general knowledge in the privacy space, which is why we needed to preserve the work that had been created by so many contributors since 2015 and make sure that information had a stable home on the web indefinitely.
 
@@ -184,7 +209,7 @@ We additionally launched our new discussion forum at [discuss.privacyguides.net]
 
 In 2023, we launched international translations of our website in [French](https://www.privacyguides.org/fr), [Hebrew](https://www.privacyguides.org/he), [Dutch](https://www.privacyguides.org/nl), and more languages, made possible by our excellent translation team on [Crowdin](https://crowdin.com/project/privacyguides). We plan to continue carrying forward our mission of outreach and education, and finding ways to more clearly highlight the dangers of a lack of privacy awareness in the modern digital age, and the prevalence and harms of security breaches across the technology industry.
 
-## Site License
+## :material-license: Site License
 
 <div class="admonition danger" markdown>
 
