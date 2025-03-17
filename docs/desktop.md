@@ -217,7 +217,7 @@ For further information about how Qubes works, read our full [Qubes OS overview]
 
 <div class="admonition recommendation" markdown>
 
-![secureblue logo](){ align=right }
+![secureblue logo](assets/img/linux-desktop/secureblue.svg){ align=right }
 
 **secureblue** 
 
