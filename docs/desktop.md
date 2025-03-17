@@ -213,6 +213,18 @@ Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, et
 
 For further information about how Qubes works, read our full [Qubes OS overview](os/qubes-overview.md) page.
 
+### secureblue
+
+<div class="admonition recommendation" markdown>
+
+![secureblue logo](){ align=right }
+
+**secureblue** 
+
+</details>
+
+</div>
+
 ### Kicksecure
 
 While we [recommend against](os/linux-overview.md#release-cycle) "perpetually outdated" distributions like Debian for desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
