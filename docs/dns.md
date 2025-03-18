@@ -23,14 +23,14 @@ These are our favorite public DNS resolvers based on their privacy and security 
 | [**AdGuard Public DNS**](https://adguard-dns.io/en/public-dns.html) | Cleartext   DoH/3   DoT   DoQ   DNSCrypt | Anonymized[^1] | Anonymized | Based on server choice. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) | Yes [:octicons-link-external-24:](https://adguard-dns.io/en/blog/encrypted-dns-ios-14.html) |
 | [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup) | Cleartext   DoH/3   DoT | Anonymized[^2] | No | Based on server choice. | No [:octicons-link-external-24:](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846) |
 | [**Control D Free DNS**](https://controld.com/free-dns) | Cleartext   DoH/3   DoT   DoQ | No[^3] | No | Based on server choice. | Yes [:octicons-link-external-24:](https://docs.controld.com/docs/macos-platform) |
-| [**Dns0.eu**](https://dns0.eu) | Cleartext   DoH/3   DoH   DoT   DoQ | Anonymized[^4] | Anonymized | Based on server choice. | Yes [:octicons-link-external-24:](https://dns0.eu/zero.dns0.eu.mobileconfig) |
+| [**DNS0.eu**](https://dns0.eu) | Cleartext   DoH/3   DoH   DoT   DoQ | Anonymized[^4] | Anonymized | Based on server choice. | Yes [:octicons-link-external-24:](https://dns0.eu/zero.dns0.eu.mobileconfig) |
 | [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | DoH   DoT | No[^5] | No | Based on server choice. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock) | Yes [:octicons-link-external-24:](https://mullvad.net/en/blog/profiles-to-configure-our-encrypted-dns-on-apple-devices) |
 | [**Quad9**](https://quad9.net) | Cleartext   DoH   DoT   DNSCrypt | Anonymized[^6] | Optional | Based on server choice, malware blocking by default. | Yes [:octicons-link-external-24:](https://quad9.net/news/blog/ios-mobile-provisioning-profiles) |
 
 [^1]: AdGuard stores aggregated performance metrics of their DNS servers, namely the number of complete requests to a particular server, the number of blocked requests, and the speed of processing requests. They also keep and store the database of domains requested in within last 24 hours. "We need this information to identify and block new trackers and threats." "We also log how many times this or that tracker has been blocked. We need this information to remove outdated rules from our filters." [https://adguard-dns.io/en/privacy.html](https://adguard-dns.io/en/privacy.html)
 [^2]: Cloudflare collects and stores only the limited DNS query data that is sent to the 1.1.1.1 resolver. The 1.1.1.1 resolver service does not log personal data, and the bulk of the limited non-personally identifiable query data is stored only for 25 hours. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver)
 [^3]: Control D only logs for Premium resolvers with custom DNS profiles. Free resolvers do not log data. [https://controld.com/privacy](https://controld.com/privacy)
-[^4]: Dns0.eu collects some data for their threat intelligence feeds, to monitor for newly registered/observed/active domains and other bulk data. That data is shared with some [partners](https://docs.dns0.eu/data-feeds/introduction) for e.g. security research. They do not collect any Personally Identifiable Information. [https://dns0.eu/privacy](https://dns0.eu/privacy)
+[^4]: DNS0.eu collects some data for their threat intelligence feeds, to monitor for newly registered/observed/active domains and other bulk data. That data is shared with some [partners](https://docs.dns0.eu/data-feeds/introduction) for e.g. security research. They do not collect any Personally Identifiable Information. [https://dns0.eu/privacy](https://dns0.eu/privacy)
 [^5]: Mullvad's DNS service is available to both subscribers and non-subscribers of Mullvad VPN. Their privacy policy explicitly claims they do not log DNS requests in any way. [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy)
 [^6]: Quad9 collects some data for the purposes of threat monitoring and response. That data may then be remixed and shared, such as for the purpose of security research. Quad9 does not collect or record IP addresses or other data they deem personally identifiable. [https://quad9.net/privacy/policy](https://quad9.net/privacy/policy)
 
@@ -50,9 +50,9 @@ Pi-hole is designed to be hosted on a Raspberry Pi, but it is not limited to suc
 
 [:octicons-home-16: Homepage](https://pi-hole.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://pi-hole.net/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.pi-hole.net){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.pi-hole.net){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribute }
+[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title="Contribute" }
 
 </details>
 
@@ -70,7 +70,7 @@ AdGuard Home features a polished web interface to view insights and manage block
 
 [:octicons-home-16: Homepage](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="Source Code" }
 
 </details>
@@ -91,7 +91,7 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 
 [:octicons-home-16: Homepage](https://controld.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://controld.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.controld.com/docs/getting-started){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.controld.com/docs/getting-started){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/Control-D-Inc/ctrld){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -118,7 +118,7 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 
 [:octicons-home-16: Homepage](https://nextdns.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://nextdns.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.nextdns.io){ .card-link title=Documentation}
+[:octicons-info-16:](https://help.nextdns.io){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/nextdns/nextdns){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -155,7 +155,7 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ad
 
 [:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.rethinkdns.com){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.rethinkdns.com){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -170,18 +170,18 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ad
 
 While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot with the app by [adding a WireGuard configuration](https://docs.rethinkdns.com/proxy/wireguard) or [manually configuring Orbot as a Proxy server](https://docs.rethinkdns.com/firewall/orbot), respectively.
 
-### Dnscrypt-proxy
+### DNSCrypt-Proxy
 
 <div class="admonition recommendation" markdown>
 
-![Dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
+![DNSCrypt-Proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
 
-**Dnscrypt-proxy** is a DNS proxy with support for [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
+**DNSCrypt-Proxy** is a DNS proxy with support for [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
 
 [:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Contribute }
+[:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
