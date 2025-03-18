@@ -217,9 +217,9 @@ For further information about how Qubes works, read our full [Qubes OS overview]
 
 <div class="admonition recommendation" markdown>
 
-![secureblue logo](assets/img/linux-desktop/secureblue.svg){ align=right }
+![Secureblue logo](assets/img/linux-desktop/secureblue.svg){ align=right }
 
-**secureblue** is a security-hardened operating system based on [Fedora Atomic Desktop](https://fedoraproject.org/atomic-desktops/). It features their own Chromium-based browser inspired by GrapheneOS's Vanadium, [hardened_malloc](https://github.com/GrapheneOS/hardened_malloc), various kernel security improvements, per-network MAC address randomization, and many other [features](https://secureblue.dev/features).
+**Secureblue** is a security-hardened operating system based on [Fedora Atomic Desktop](https://fedoraproject.org/atomic-desktops/). It features their own Chromium-based browser inspired by GrapheneOS's Vanadium, [hardened_malloc](https://github.com/GrapheneOS/hardened_malloc), various kernel security improvements, per-network MAC address randomization, and many other [features](https://secureblue.dev/features).
 
 [:octicons-home-16: Homepage](https://secureblue.dev/){ .md-button .md-button--primary }
 [:octicons-info-16:](https://secureblue.dev/install){ .card-link title=Documentation }
