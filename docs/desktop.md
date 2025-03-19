@@ -230,6 +230,8 @@ For further information about how Qubes works, read our full [Qubes OS overview]
 
 </div>
 
+You can find a full list of the security [features](https://secureblue.dev/features) implemented in Secureblue on their website.
+
 ### Kicksecure
 
 While we [recommend against](os/linux-overview.md#release-cycle) "perpetually outdated" distributions like Debian for desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
