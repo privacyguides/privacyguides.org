@@ -219,7 +219,7 @@ For further information about how Qubes works, read our full [Qubes OS overview]
 
 ![Secureblue logo](assets/img/linux-desktop/secureblue.svg){ align=right }
 
-**Secureblue** is a security-focused operating system based on [Fedora Atomic Desktops](#fedora-atomic-desktops). It provides a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc) and [Trivalent](https://github.com/secureblue/Trivalent), their own Chromium-based browser inspired by Vanadium for [GrapheneOS](android/distributions.md#grapheneos).
+**Secureblue** is a security-focused operating system based on [Fedora Atomic Desktops](#fedora-atomic-desktops). It includes a number of [security features](https://secureblue.dev/features) intended to proactively defend against the exploitation of both known and unknown vulnerabilities, and ships with [Trivalent](https://github.com/secureblue/Trivalent), their custom hardened web browser.
 
 [:octicons-home-16: Homepage](https://secureblue.dev){ .md-button .md-button--primary }
 [:octicons-info-16:](https://secureblue.dev/install){ .card-link title="Documentation" }
@@ -230,7 +230,9 @@ For further information about how Qubes works, read our full [Qubes OS overview]
 
 </div>
 
-You can find a full list of the security [features](https://secureblue.dev/features) implemented in Secureblue on their website.
+**Trivalent** is Secureblue's hardened Chromium for desktop Linux, inspired by [GrapheneOS](android/distributions.md#grapheneos)'s Vanadium browser.
+
+Secureblue also provides GrapheneOS's [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), and enables it globally (including for Flatpaks).
 
 ### Kicksecure
 
