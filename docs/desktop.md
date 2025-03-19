@@ -230,9 +230,9 @@ For further information about how Qubes works, read our full [Qubes OS overview]
 
 </div>
 
-**Trivalent** is Secureblue's hardened Chromium for desktop Linux, inspired by [GrapheneOS](android/distributions.md#grapheneos)'s Vanadium browser.
+**Trivalent** is Secureblue's hardened Chromium for desktop Linux inspired by [GrapheneOS](android/distributions.md#grapheneos)'s Vanadium browser.
 
-Secureblue also provides GrapheneOS's [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), and enables it globally (including for Flatpaks).
+Secureblue also provides GrapheneOS's [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc) and enables it globally (including for Flatpaks).
 
 ### Kicksecure
 
