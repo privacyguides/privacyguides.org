@@ -539,3 +539,15 @@ Euki
 sympto-thermal
 OsmAnd
 Paaster
+material-check-decagram
+Bluesky
+Codeberg
+simple-codeberg
+simple-reddit
+fontawesome-brands-linkedin
+simple-keepassxc
+OnlyKey
+fontawesome-solid-unlock-keyhole
+KeeShare
+KeePassium
+MWEB

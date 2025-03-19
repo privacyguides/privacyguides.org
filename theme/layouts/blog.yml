@@ -14,7 +14,9 @@ definitions:
     {% endif %}
 
   - &page_icon >-
-    {%- if not page.meta.preview or not page.meta.preview.logo -%}
+    {%- if page.meta.preview and page.meta.preview.icon -%}
+      {{- page.meta.preview.icon -}}
+    {%- else -%}
       material/book-open-page-variant
     {%- endif -%}
 
