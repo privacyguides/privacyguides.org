@@ -1,6 +1,6 @@
 ---
 title: Self-hosted Software and Services
-icon: material-server-network
+icon: material/server-network
 description: For our more technical readers, self-hosted software and services can provide additional privacy assurances by having maximum control over your data.
 cover: router.webp
 ---
