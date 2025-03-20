@@ -20,7 +20,7 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
 
 **CryptPad** is a private-by-design alternative to popular office tools. All content on this web service is end-to-end encrypted and can be shared with other users easily.
 
-The CryptPad team hosts a [public instance](https://send.vis.ee). You can also use other public instances.
+The CryptPad team hosts a [public instance](https://cryptpad.fr). You can also use other public instances.
 
 [:material-star-box: Read our latest CryptPad review.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/)
 
