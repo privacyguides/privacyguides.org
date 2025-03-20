@@ -88,7 +88,7 @@ Running a local version of Peergos alongside a registered account on their paid,
 
 ## :material/dns: DNS Filtering
 
-A self-hosted DNS solution is useful for providing filtering on controlled platforms, such as smart TVs and other IoT devices, as no client-side software is needed.
+A self-hosted DNS solution is useful for providing filtering on controlled platforms, such as smart TVs and other IoT devices, as no client-side software is needed. Keep in mind that the DNS solutions below are typically restricted to your home/local network unless you set up a more advanced configuration.
 
 ### Pi-hole
 
