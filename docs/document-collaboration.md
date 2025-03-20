@@ -12,54 +12,21 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
 
 ## Collaboration Platforms
 
-### Nextcloud
-
-<div class="admonition recommendation" markdown>
-
-![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ align=right }
-
-**Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
-
-[:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribute }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
-- [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
-- [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
-- [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
-- [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
-
-</details>
-
-</div>
-
-<div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
-
-We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality. For this reason, we don't recommend third-party Nextcloud providers.
-
-</div>
-
 ### CryptPad
 
 <div class="admonition recommendation" markdown>
 
 ![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ align=right }
 
-**CryptPad** is a private-by-design alternative to popular office tools. All content on this web service is end-to-end encrypted and can be shared with other users easily. [:material-star-box: Read our latest CryptPad review.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/)
+**CryptPad** is a private-by-design alternative to popular office tools. All content on this web service is end-to-end encrypted and can be shared with other users easily.
+
+[:material-star-box: Read our latest CryptPad review.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/)
 
 [:octicons-home-16: Homepage](https://cryptpad.fr){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.cryptpad.fr){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.cryptpad.fr){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title=Contribute }
+[:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title="Contribute" }
 
 </details>
 
@@ -78,7 +45,7 @@ In general, we define collaboration platforms as full-fledged suites which could
 - Must have sync clients for Linux, macOS, and Windows.
 - Must support document and spreadsheet editing.
 - Must support real-time document collaboration.
-- Must support exporting documents to standard document formats (e.g. ODF).
+- Must support exporting documents to standard document formats (e.g., ODF).
 
 #### Best-Case
 
