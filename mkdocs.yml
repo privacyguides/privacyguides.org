@@ -443,6 +443,7 @@ nav:
       - !ENV [NAV_ADVANCED, "Advanced"]:
           - "alternative-networks.md"
           - "device-integrity.md"
+          - "self-hosted.md"
   - !ENV [NAV_BLOG, "Articles"]: "/articles/"
   - !ENV [NAV_VIDEOS, "Videos"]: /videos/
   - !ENV [NAV_FORUM, "Forum"]:
