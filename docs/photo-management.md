@@ -17,7 +17,9 @@ Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon
 
 ![Ente logo](assets/img/photo-management/ente.svg){ align=right }
 
-**Ente Photos** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Their code is fully open-source, both on the client side and on the server side. It is also [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting). The free plan offers 10 GB of storage as long as you use the service at least once a year.
+**Ente Photos** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Their code is fully open-source, both on the client side and on the server side.
+
+The free plan offers 5 GB of storage as long as you use the service at least once a year.
 
 [:octicons-home-16: Homepage](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
@@ -49,7 +51,9 @@ Ente Photos underwent an [audit by Cure53](https://ente.io/blog/cryptography-aud
 ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ align=right }
 ![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
 
-**Stingle** is a gallery and camera application with built-in, end-to-end encrypted backup and sync functionality for your photos and videos. Storage starts at 1 GB for free accounts on their cloud, or you can host your own Stingle API server for total independence.
+**Stingle** is a gallery and camera application with built-in, end-to-end encrypted backup and sync functionality for your photos and videos.
+
+Storage starts at 1 GB for free accounts.
 
 [:octicons-home-16: Homepage](https://stingle.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://stingle.org/privacy){ .card-link title="Privacy Policy" }
@@ -63,28 +67,6 @@ Ente Photos underwent an [audit by Cure53](https://ente.io/blog/cryptography-aud
 - [:simple-android: Android](https://f-droid.org/en/packages/org.stingle.photos)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1582535448)
 - [:simple-github: GitHub](https://github.com/stingle/stingle-photos-android/releases)
-
-</details>
-
-</div>
-
-## PhotoPrism
-
-<div class="admonition recommendation" markdown>
-
-![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
-
-**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
-
-[:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-github: GitHub](https://github.com/photoprism)
 
 </details>
 
