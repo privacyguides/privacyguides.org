@@ -238,11 +238,11 @@ Session has a [white paper](https://arxiv.org/pdf/2002.04609.pdf) describing the
 
 Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
-- Should supports forward secrecy[^1]
+- Should support forward secrecy[^1]
 - Should support Future Secrecy (Post-Compromise Security)[^2]
 - Should have open-source servers.
 - Should use a decentralized network, i.e. [federated or P2P](advanced/communication-network-types.md).
-- Should uses E2EE for all messages by default.
+- Should use E2EE for all messages by default.
 - Should support Linux, macOS, Windows, Android, and iOS.
 
 [^1]: [Forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
