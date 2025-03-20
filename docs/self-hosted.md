@@ -67,6 +67,25 @@ Stalwart does **not** have an integrated webmail, so you will need to use it wit
 
 </div>
 
+## :material/file-cloud: Cloud Storage
+
+### Peergos
+
+<div class="admonition recommendation" markdown>
+
+![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
+
+**Peergos** provides a secure and private space where users can store, share, and view their photos, videos, documents, etc. Peergos secures your files with quantum-resistant end-to-end encryption and ensures all data about your files remains private. It is built on top of the [IPFS (InterPlanetary File System)](https://ipfs.tech), a peer-to-peer architecture that protects against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
+
+[:octicons-info-16: More Info](cloud.md#peergos){ .md-button .md-button--primary }
+[:octicons-home-16:](https://peergos.org){ .card-link title="Homepage" }
+
+</div>
+
+Peergos is primarily a web app, but you can self-host the server either as a local cache for your remote Peergos account, or as a standalone storage server which negates the need to register for a remote account and subscription. The Peergos server is a `.jar` file, which means the Java 17+ Runtime Environment ([OpenJDK download](https://azul.com/downloads)) should be installed on your machine to get it working.
+
+Running a local version of Peergos alongside a registered account on their paid, hosted service allows you to access your Peergos storage without any reliance on DNS or TLS certificate authorities, and keep a copy of your data backed up to their cloud. The user experience should be the same whether you run their desktop server or just use their hosted web interface.
+
 ## :material/dns: DNS Filtering
 
 A self-hosted DNS solution is useful for providing filtering on controlled platforms, such as Smart TVs and other IoT devices, as no client-side software is needed.
@@ -283,7 +302,8 @@ Tool recommendations in other categories of the website also provide a self-host
 - [**Cloud Storage**](cloud.md): [Peergos](cloud.md#peergos)
 - [**Photo Management**](photo-management.md): [Ente Photos](photo-management.md#ente-photos)
 - [**Document Collaboration**](document-collaboration.md): [Cryptpad](document-collaboration.md#cryptpad)
-
-Peergos is primarily a web app, but you can self-host the server either as a local cache for your remote Peergos account, or as a standalone storage server which negates the need to register for a remote account and subscription. The Peergos server is a `.jar` file, which means the Java 17+ Runtime Environment ([OpenJDK download](https://azul.com/downloads)) should be installed on your machine to get it working.
-
-Running a local version of Peergos alongside a registered account on their paid, hosted service allows you to access your Peergos storage without any reliance on DNS or TLS certificate authorities, and keep a copy of your data backed up to their cloud. The user experience should be the same whether you run their desktop server or just use their hosted web interface.
+- [**Language Tools**](language-tools.md): [LanguageTool](language-tools.md#languagetool)
+- [**News Aggregators**](news-aggregators.md): [Miniflux](news-aggregators.md#miniflux)
+- [**Password Managers**](password-managers.md): [Psono](password-managers.md#psono)
+- [**Pastebins**](pastebins.md): [Privatebin](pastebins.md#privatebin) and [Paaster](pastebins.md#paaster)
+- [**Real Time Communication**](real-time-communication.md): [SimpleX Chat](real-time-communication.md#simplex-chat) and [Element](real-time-communication.md#element)
