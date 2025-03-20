@@ -276,7 +276,7 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 ![Vaultwarden logo](assets/img/self-hosted/vaultwarden.svg#only-light){ align=right }
 ![Vaultwarden logo](assets/img/self-hosted/vaultwarden-dark.svg#only-dark){ align=right }
 
-**Vaultwarden** is an alternative implementation of [Bitwarden](password-managers.md#bitwarden)'s sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy [official service](https://github.com/bitwarden/server) might not be ideal.
+**Vaultwarden** is an alternative implementation of [Bitwarden](passwords.md#bitwarden)'s sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy [official service](https://github.com/bitwarden/server) might not be ideal.
 
 [:octicons-repo-16: Vaultwarden Repository](https://github.com/dani-garcia/vaultwarden){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title="Documentation" }
@@ -284,6 +284,28 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 [:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title="Contribute" }
 
 </div>
+
+### Psono
+
+<div class="admonition recommendation" markdown>
+
+![Psono logo](assets/img/password-management/psono.svg){ align=right }
+
+**Psono** is a free and open-source password manager from Germany, with a focus on password management for teams. Psono supports secure sharing of passwords, files, bookmarks, and emails. All secrets are protected by a master password.
+
+[:octicons-info-16: More Info](passwords.md#psono){ .md-button .md-button--primary }
+[:octicons-home-16:](https://psono.com){ .card-link title="Homepage" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
+
+</details>
+
+</div>
+
+Psono provides extensive documentation for their product. The web-client for Psono can be self-hosted; alternatively, you can choose the full Community Edition or the Enterprise Edition with additional features.
 
 ## :material/flip-to-front: Frontends
 
@@ -304,6 +326,5 @@ Tool recommendations in other categories of the website also provide a self-host
 - [**Document Collaboration**](document-collaboration.md): [Cryptpad](document-collaboration.md#cryptpad)
 - [**Language Tools**](language-tools.md): [LanguageTool](language-tools.md#languagetool)
 - [**News Aggregators**](news-aggregators.md): [Miniflux](news-aggregators.md#miniflux)
-- [**Password Managers**](password-managers.md): [Psono](password-managers.md#psono)
 - [**Pastebins**](pastebins.md): [Privatebin](pastebins.md#privatebin) and [Paaster](pastebins.md#paaster)
 - [**Real Time Communication**](real-time-communication.md): [SimpleX Chat](real-time-communication.md#simplex-chat) and [Element](real-time-communication.md#element)
