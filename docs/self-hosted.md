@@ -75,10 +75,11 @@ Stalwart does **not** have an integrated webmail, so you will need to use it wit
 
 ![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
 
-**Peergos** provides a secure and private space where users can store, share, and view their photos, videos, documents, etc. Peergos secures your files with quantum-resistant end-to-end encryption and ensures all data about your files remains private. It is built on top of the [IPFS (InterPlanetary File System)](https://ipfs.tech), a peer-to-peer architecture that protects against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
+**Peergos** provides a secure and private space where users can store, share, and view their photos, videos, documents, etc. Peergos secures your files with quantum-resistant end-to-end encryption and ensures all data about your files remains private.
 
-[:octicons-info-16: More Info](cloud.md#peergos){ .md-button .md-button--primary }
 [:octicons-home-16:](https://peergos.org){ .card-link title="Homepage" }
+[:octicons-info-16:](https://book.peergos.org){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Source Code" }
 
 </div>
 
@@ -152,8 +153,9 @@ AdGuard Home features a polished web interface to view insights and manage block
 
 **SearXNG** is an open-source, [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine). It is an actively maintained fork of [SearX](https://github.com/searx/searx).
 
-[:octicons-info-16: More Info](search-engines.md#searxng){ .md-button .md-button--primary }
 [:octicons-home-16:](https://searxng.org){ .card-link title="Homepage" }
+[:octicons-info-16:](https://docs.searxng.org/admin/installation.html#installation){ .card-link title="Admin Documentation" }
+[:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Source Code" }
 
 </div>
 
@@ -204,10 +206,11 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 
 ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well.
+**Send**,a fork of Mozilla's discontinued Firefox Send service, allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well.
 
-[:octicons-info-16: More Info](file-sharing.md#send){ .md-button .md-button--primary }
 [:octicons-home-16:](https://send.vis.ee){ .card-link title="Homepage" }
+[:octicons-info-16:](https://github.com/timvisee/send/blob/master/docs/deployment.md){ .card-link title="Admin Documentation" }
+[:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
 
 </div>
 
@@ -291,10 +294,11 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 
 ![Psono logo](assets/img/password-management/psono.svg){ align=right }
 
-**Psono** is a free and open-source password manager from Germany, with a focus on password management for teams. Psono supports secure sharing of passwords, files, bookmarks, and emails. All secrets are protected by a master password.
+**Psono** is a free and open-source password manager with a focus on password management for teams. Psono supports secure sharing of passwords, files, bookmarks, and emails. All secrets are protected by a master password.
 
-[:octicons-info-16: More Info](passwords.md#psono){ .md-button .md-button--primary }
 [:octicons-home-16:](https://psono.com){ .card-link title="Homepage" }
+[:octicons-info-16:](https://doc.psono.com/admin/overview/summary.html){ .card-link title="Admin Documentation" }
+[:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -305,7 +309,7 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 
 </div>
 
-Psono provides extensive documentation for their product. The web-client for Psono can be self-hosted; alternatively, you can choose the full Community Edition or the Enterprise Edition with additional features.
+Psono provides extensive documentation for their product. The webclient for Psono can be self-hosted; alternatively, you can choose the full Community Edition or the Enterprise Edition with additional features.
 
 ## :material-flip-to-front: Frontends
 
@@ -318,7 +322,7 @@ Self-hosting your own frontend instance can help you circumvent rate limits that
 
 ## More Services and Software
 
-Tool recommendations in other categories of the website also provide a self-hosted option, so you could consider this option if you are confident in your ability to host the software after reading their instructions.
+Tool recommendations in other categories of the website also provide a self-hosted option, so you could consider this if you are confident in your ability to host the software after reading their documentation.
 
 - [**Email Aliasing**](email-aliasing.md): [Addy.io](email-aliasing.md#addyio)
 - [**Photo Management**](photo-management.md): [Ente Photos](photo-management.md#ente-photos) and [Stingle](photo-management.md#stingle)
