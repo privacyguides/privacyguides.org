@@ -164,7 +164,7 @@ This format is used to generate recommendation cards. Notably it is missing the 
 ``` markdown title="Recommendation Card"
 <div class="admonition recommendation" markdown>
 
-![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
+![PhotoPrism logo](assets/img/self-hosted/photoprism.svg){ align=right }
 
 **PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
 
@@ -187,7 +187,7 @@ This format is used to generate recommendation cards. Notably it is missing the 
 
 <div class="admonition recommendation" markdown>
 
-![PhotoPrism logo](../assets/img/photo-management/photoprism.svg){ align=right }
+![PhotoPrism logo](../assets/img/self-hosted/photoprism.svg){ align=right }
 
 **PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
 
