@@ -150,7 +150,7 @@ AdGuard Home features a polished web interface to view insights and manage block
 
 ![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
 
-**SearXNG** is an open-source, metasearch engine. It is an actively maintained fork of [SearX](https://github.com/searx/searx).
+**SearXNG** is an open-source, [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine). It is an actively maintained fork of [SearX](https://github.com/searx/searx).
 
 [:octicons-info-16: More Info](search-engines.md#searxng){ .md-button .md-button--primary }
 [:octicons-home-16:](https://searxng.org){ .card-link title="Homepage" }
