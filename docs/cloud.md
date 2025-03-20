@@ -17,7 +17,7 @@ If these alternatives do not fit your needs, we suggest you look into using encr
 <details class="admonition info" markdown>
 <summary>Looking for Nextcloud?</summary>
 
-Nextcloud is [still a recommended tool](self-hosted.md#nextcloud-office) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
+For more technical readers, Nextcloud is [still a recommended tool](self-hosted.md#nextcloud-office) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
 
 </details>
 
@@ -136,8 +136,8 @@ Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November
 Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
 - Clients should be open source.
-- Clients should be audited in their entirety by an independent third-party.
+- Clients should be audited in their entirety by an independent third party.
 - Should offer native clients for Linux, Android, Windows, macOS, and iOS.
     - These clients should integrate with native OS tools for cloud storage providers, such as Files app integration on iOS, or DocumentsProvider functionality on Android.
-- Should support easy file-sharing with other users.
+- Should support easy file sharing with other users.
 - Should offer at least basic file preview and editing functionality on the web interface.
