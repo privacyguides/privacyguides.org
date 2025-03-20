@@ -12,7 +12,7 @@ cover: router.webp
 
 Self-hosting your own solutions requires advanced technical knowledge and a deeper understanding of the associated risks. By becoming the host for yourself and possibly others, you take on responsibilities you might not otherwise have. Self-hosting privacy software improperly can leave you worse off than using e.g. an E2EE service provider, so it is best avoided if you are not already comfortable doing so.
 
-## :material/email: Email Servers
+## Email Servers
 
 Advanced system administrators may consider setting up their own email server. Mail servers require attention and continuous maintenance in order to keep things secure and mail delivery reliable. In addition to the "all-in-one" solutions below, we've picked out a few articles that cover a more manual approach:
 
@@ -67,7 +67,7 @@ Stalwart does **not** have an integrated webmail, so you will need to use it wit
 
 </div>
 
-## :material/file-cloud: Cloud Storage
+## Cloud Storage
 
 ### Peergos
 
@@ -86,7 +86,7 @@ Peergos is primarily a web app, but you can self-host the server either as a loc
 
 Running a local version of Peergos alongside a registered account on their paid, hosted service allows you to access your Peergos storage without any reliance on DNS or TLS certificate authorities, and keep a copy of your data backed up to their cloud. The user experience should be the same whether you run their desktop server or just use their hosted web interface.
 
-## :material/dns: DNS Filtering
+## DNS Filtering
 
 A self-hosted DNS solution is useful for providing filtering on controlled platforms, such as smart TVs and other IoT devices, as no client-side software is needed. Keep in mind that the DNS solutions below are typically restricted to your home/local network unless you set up a more advanced configuration.
 
@@ -125,7 +125,7 @@ AdGuard Home features a polished web interface to view insights and manage block
 
 </div>
 
-## :material/image: Photo Management
+## Photo Management
 
 ### PhotoPrism
 
@@ -142,7 +142,7 @@ AdGuard Home features a polished web interface to view insights and manage block
 
 </div>
 
-## :material/search-web: Search Engines
+## Search Engines
 
 ### SearXNG
 
@@ -159,7 +159,7 @@ AdGuard Home features a polished web interface to view insights and manage block
 
 It is important that you have other people using your instance so that the queries would blend in. You should be careful with where and how you are hosting SearXNG, as people looking up illegal content on your instance could draw unwanted attention from authorities.
 
-## :material/account-group: Document Collaboration
+## Document Collaboration
 
 ### Nextcloud (Office)
 
@@ -196,7 +196,7 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 
 </div>
 
-## :material/share-variant: File Sharing and Sync
+## File Sharing and Sync
 
 ### Send
 
@@ -267,7 +267,7 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 
 </div>
 
-## :material/form-textbox-password: Password Managers
+## Password Managers
 
 ### Vaultwarden
 
@@ -307,7 +307,7 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 
 Psono provides extensive documentation for their product. The web-client for Psono can be self-hosted; alternatively, you can choose the full Community Edition or the Enterprise Edition with additional features.
 
-## :material/flip-to-front: Frontends
+## Frontends
 
 Self-hosting your own frontend instance can help you circumvent rate limits that you may encounter on high-traffic, public instances. It is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting, as other peoples' usage will be linked to your hosting.
 
