@@ -721,9 +721,9 @@ These tools may provide utility for certain individuals. They provide functional
 
 <div class="grid cards" markdown>
 
-- ![Stalwart logo](assets/img/email/stalwart.svg){ .twemoji loading=lazy } [Stalwart](self-hosted.md#stalwart)
-- ![Mailcow logo](assets/img/email/mailcow.svg){ .twemoji loading=lazy } [Mailcow](self-hosted.md#mailcow)
-- ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](self-hosted.md#mail-in-a-box)
+- ![Stalwart logo](assets/img/self-hosted/stalwart.svg){ .twemoji loading=lazy } [Stalwart](self-hosted.md#stalwart)
+- ![Mailcow logo](assets/img/self-hosted/mailcow.svg){ .twemoji loading=lazy } [Mailcow](self-hosted.md#mailcow)
+- ![Mail-in-a-Box logo](assets/img/self-hosted/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](self-hosted.md#mail-in-a-box)
 
 </div>
 
@@ -733,8 +733,8 @@ These tools may provide utility for certain individuals. They provide functional
 
 <div class="grid cards" markdown>
 
-- ![Pi-hole logo](assets/img/dns/pi-hole.svg){ .twemoji loading=lazy } [Pi-hole](self-hosted.md#pi-hole)
-- ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](self-hosted.md#adguard-home)
+- ![Pi-hole logo](assets/img/self-hosted/pi-hole.svg){ .twemoji loading=lazy } [Pi-hole](self-hosted.md#pi-hole)
+- ![AdGuard Home logo](assets/img/self-hosted/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](self-hosted.md#adguard-home)
 
 </div>
 
@@ -744,11 +744,11 @@ These tools may provide utility for certain individuals. They provide functional
 
 <div class="grid cards" markdown>
 
-- ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](self-hosted.md#photoprism)
-- ![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Office)](self-hosted.md#nextcloud-office)
-- ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](self-hosted.md#freedombox)
-- ![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Files)](self-hosted.md#nextcloud-files)
-- ![Vaultwarden logo](assets/img/search-engines/vaultwarden.svg#only-light){ .twemoji loading=lazy }![Vaultwarden logo](assets/img/search-engines/vaultwarden-dark.svg#only-dark){ .twemoji loading=lazy } [Vaultwarden](self-hosted.md#vaultwarden)
+- ![PhotoPrism logo](assets/img/self-hosted/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](self-hosted.md#photoprism)
+- ![Nextcloud logo](assets/img/self-hosted/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Office)](self-hosted.md#nextcloud-office)
+- ![FreedomBox logo](assets/img/self-hosted/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](self-hosted.md#freedombox)
+- ![Nextcloud logo](assets/img/self-hosted/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Files)](self-hosted.md#nextcloud-files)
+- ![Vaultwarden logo](assets/img/self-hosted/vaultwarden.svg#only-light){ .twemoji loading=lazy }![Vaultwarden logo](assets/img/self-hosted/vaultwarden-dark.svg#only-dark){ .twemoji loading=lazy } [Vaultwarden](self-hosted.md#vaultwarden)
 
 </div>
 
