@@ -56,7 +56,7 @@ These are our favorite public DNS resolvers based on their privacy and security 
 
 ## Cloud-Based DNS Filtering
 
-These DNS filtering solutions offer a web dashboard where you can customize the block lists to your exact needs, similarly to a Pi-hole. These services are usually easier to set up and configure than self-hosted services like the ones above, and can be used more easily across multiple networks (self-hosted solutions are typically restricted to your home/local network unless you set up a more advanced configuration).
+These DNS filtering solutions offer a web dashboard where you can customize the block lists to your exact needs. These services can be used more easily across multiple networks.
 
 ### Control D
 
