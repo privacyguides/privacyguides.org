@@ -20,9 +20,12 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
 
 **CryptPad** is a private-by-design alternative to popular office tools. All content on this web service is end-to-end encrypted and can be shared with other users easily.
 
+The CryptPad team hosts a [public instance](https://send.vis.ee). You can also use other public instances.
+
 [:material-star-box: Read our latest CryptPad review.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/)
 
 [:octicons-home-16: Homepage](https://cryptpad.fr){ .md-button .md-button--primary }
+[:octicons-server-16:](https://cryptpad.org/instances){ .card-link title="Public Instances" }
 [:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://docs.cryptpad.fr){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
