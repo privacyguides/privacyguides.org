@@ -101,6 +101,7 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 [:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://book.peergos.org){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/peergos/peergos#support){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
