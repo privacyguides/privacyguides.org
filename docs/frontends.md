@@ -10,8 +10,6 @@ cover: frontends.webp
 
 Sometimes services will try to force you to sign up for an account by blocking access to content with annoying popups. They might also break without JavaScript enabled. These frontends can allow you to circumvent these restrictions.
 
-If you choose to self-host these frontends, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting, as other peoples' usage will be linked to your hosting.
-
 When you are using an instance run by someone else, make sure to read the privacy policy of that specific instance (if available). They can be modified by their owners and therefore may not reflect the default policy. Some instances have [Tor](tor.md) .onion addresses, which may grant some privacy as long as your search queries don't contain personally identifiable information.
 
 ## Reddit
@@ -22,11 +20,13 @@ When you are using an instance run by someone else, make sure to read the privac
 
 ![Redlib logo](assets/img/frontends/redlib.svg){ align=right }
 
-**Redlib** is an open-source frontend to the [Reddit](https://reddit.com) website that is also self-hostable. You can access Redlib through a number of public instances.
+**Redlib** is an open-source frontend to the [Reddit](https://reddit.com) website.
+
+You can access Redlib through a number of public instances, with some that offer a [Tor](tor.md) onion service.
 
 [:octicons-repo-16: Repository](https://github.com/redlib-org/redlib){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/redlib-org/redlib-instances/blob/main/instances.md){ .card-link title="Public Instances" }
-[:octicons-info-16:](https://github.com/redlib-org/redlib?tab=readme-ov-file#table-of-contents){ .card-link title="Documentation" }
+[:octicons-info-16:](https://github.com/redlib-org/redlib#table-of-contents){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Source Code" }
 
 </div>
@@ -53,7 +53,7 @@ Redlib is useful if you want to disable JavaScript in your browser, such as [Tor
 
 ![ProxiTok logo](assets/img/frontends/proxitok.svg){ align=right }
 
-**ProxiTok** is an open-source frontend to the [TikTok](https://tiktok.com) website that is also self-hostable.
+**ProxiTok** is an open-source frontend to the [TikTok](https://tiktok.com) website.
 
 There are a number of public instances, with some that offer a [Tor](tor.md) onion service or an [I2P](alternative-networks.md#i2p-the-invisible-internet-project) eepsite.
 
@@ -84,7 +84,7 @@ ProxiTok is useful if you want to disable JavaScript in your browser, such as [T
 ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ align=right }
 ![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ align=right }
 
-**Invidious** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
+**Invidious** is a free and open-source frontend for [YouTube](https://youtube.com).
 
 There are a number of public instances, with some that offer a [Tor](tor.md) onion service or an [I2P](alternative-networks.md#i2p-the-invisible-internet-project) eepsite.
 
@@ -118,7 +118,7 @@ Invidious is useful if you want to disable JavaScript in your browser, such as [
 
 ![Piped logo](assets/img/frontends/piped.svg){ align=right }
 
-**Piped** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
+**Piped** is a free and open-source frontend for [YouTube](https://youtube.com).
 
 Piped requires JavaScript in order to function and there are a number of public instances.
 
@@ -290,8 +290,13 @@ We only consider frontends if one of the following is true for a platform:
 - Normally only accessible with an account.
 - Blocks access from commercial [VPNs](vpn.md).
 
-Recommended frontends...
+### Minimum Requirements
 
 - Must be open-source software.
-- Must be self-hostable.
 - Must provide all basic website functionality available to anonymous users.
+
+### Best-Case
+
+Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+
+- Should be self-hostable.
