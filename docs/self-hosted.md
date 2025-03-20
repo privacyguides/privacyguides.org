@@ -78,7 +78,7 @@ Stalwart does **not** have an integrated webmail, so you will need to use it wit
 **Peergos** provides a secure and private space where users can store, share, and view their photos, videos, documents, etc. Peergos secures your files with quantum-resistant end-to-end encryption and ensures all data about your files remains private.
 
 [:octicons-home-16:](https://peergos.org){ .card-link title="Homepage" }
-[:octicons-info-16:](https://book.peergos.org){ .card-link title="Documentation" }
+[:octicons-info-16:](https://github.com/peergos/peergos#usage---running-locally-to-log-in-to-another-instance){ .card-link title="Admin Documentation" }
 [:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Source Code" }
 
 </div>
