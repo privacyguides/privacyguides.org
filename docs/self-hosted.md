@@ -23,7 +23,7 @@ Advanced system administrators may consider setting up their own email server. M
 
 <div class="admonition recommendation" markdown>
 
-![Stalwart logo](assets/img/email/stalwart.svg){ align=right }
+![Stalwart logo](assets/img/self-hosted/stalwart.svg){ align=right }
 
 **Stalwart** is a newer mail server written in Rust which supports JMAP in addition to the standard IMAP, POP3, and SMTP. It has a wide variety of configuration options, but it also defaults to very reasonable settings in terms of both security and features, making it easy to use immediately. It has web-based administration with TOTP 2FA support, and it allows you to enter your public PGP key to encrypt **all** incoming messages.
 
@@ -42,7 +42,7 @@ Stalwart does **not** have an integrated webmail, so you will need to use it wit
 
 <div class="admonition recommendation" markdown>
 
-![Mailcow logo](assets/img/email/mailcow.svg){ align=right }
+![Mailcow logo](assets/img/self-hosted/mailcow.svg){ align=right }
 
 **Mailcow** is a more advanced mail server perfect for those with Linux experience. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
@@ -57,7 +57,7 @@ Stalwart does **not** have an integrated webmail, so you will need to use it wit
 
 <div class="admonition recommendation" markdown>
 
-![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align=right }
+![Mail-in-a-Box logo](assets/img/self-hosted/mail-in-a-box.svg){ align=right }
 
 **Mail-in-a-Box** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for people to set up their own mail server.
 
@@ -94,7 +94,7 @@ A self-hosted DNS solution is useful for providing filtering on controlled platf
 
 <div class="admonition recommendation" markdown>
 
-![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
+![Pi-hole logo](assets/img/self-hosted/pi-hole.svg){ align=right }
 
 **Pi-hole** is an open-source [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
 
@@ -112,7 +112,7 @@ Pi-hole is designed to be hosted on a Raspberry Pi, but it is not limited to suc
 
 <div class="admonition recommendation" markdown>
 
-![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
+![AdGuard Home logo](assets/img/self-hosted/adguard-home.svg){ align=right }
 
 **AdGuard Home** is an open-source [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
 
@@ -165,7 +165,7 @@ It is important that you have other people using your instance so that the queri
 
 <div class="admonition recommendation" markdown>
 
-![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ align=right }
+![Nextcloud logo](assets/img/self-hosted/nextcloud.svg){ align=right }
 
 **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
 
@@ -221,7 +221,7 @@ ffsend upload --host https://example.com/ FILE
 
 <div class="admonition recommendation" markdown>
 
-![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ align=right }
+![FreedomBox logo](assets/img/self-hosted/freedombox.svg){ align=right }
 
 **FreedomBox** is an operating system designed to be run on a [single-board computer (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). The purpose is to make it easy to set up server applications for purposes like file sharing.
 
@@ -236,7 +236,7 @@ ffsend upload --host https://example.com/ FILE
 
 <div class="admonition recommendation" markdown>
 
-![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ align=right }
+![Nextcloud logo](assets/img/self-hosted/nextcloud.svg){ align=right }
 
 **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
 
@@ -321,8 +321,7 @@ Self-hosting your own frontend instance can help you circumvent rate limits that
 Tool recommendations in other categories of the website also provide a self-hosted option, so you could consider this option if you are confident in your ability to host the software after reading their instructions.
 
 - [**Email Aliasing**](email-aliasing.md): [Addy.io](email-aliasing.md#addyio)
-- [**Cloud Storage**](cloud.md): [Peergos](cloud.md#peergos)
-- [**Photo Management**](photo-management.md): [Ente Photos](photo-management.md#ente-photos)
+- [**Photo Management**](photo-management.md): [Ente Photos](photo-management.md#ente-photos) and [Stingle](photo-management.md#stingle)
 - [**Document Collaboration**](document-collaboration.md): [Cryptpad](document-collaboration.md#cryptpad)
 - [**Language Tools**](language-tools.md): [LanguageTool](language-tools.md#languagetool)
 - [**News Aggregators**](news-aggregators.md): [Miniflux](news-aggregators.md#miniflux)
