@@ -84,7 +84,7 @@ A **news aggregator** is software which aggregates digital content from online n
 ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
 ![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
 
-**Miniflux** is a web-based news aggregator that you can self-host. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+**Miniflux** is a web-based news aggregator. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
 [:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
 [:octicons-info-16:](https://miniflux.app/docs/index){ .card-link title="Documentation" }
