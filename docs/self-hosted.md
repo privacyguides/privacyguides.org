@@ -10,7 +10,7 @@ cover: router.webp
 
 **Self-hosted software and services** can be a way to achieve a higher level of privacy through digital sovereignty, particularly independence from cloud servers controlled by developers or vendors. By self-hosting, we mean hosting applications and data on your own hardware.
 
-Self-hosting your own solutions requires advanced technical knowledge and a deeper understanding of the associated risks. By becoming the host for yourself and others, you take on responsibilities you might not otherwise have. It is crucial to remain vigilant about topics such as network security, backups, and disaster recovery. For example, you should regularly test your backups to ensure they are functioning correctly.
+Self-hosting your own solutions requires advanced technical knowledge and a deeper understanding of the associated risks. By becoming the host for yourself and others, you take on responsibilities you might not otherwise have. Self-hosting privacy software improperly can leave you worse off than using e.g. an E2EE service provider, so it is best avoided if you are not already comfortable doing so.
 
 ## :material/email: Email Servers
 
@@ -67,40 +67,6 @@ Stalwart does **not** have an integrated webmail, so you will need to use it wit
 
 </div>
 
-## :material/email-lock: Email Aliasing
-
-### Addy.io
-
-<div class="admonition recommendation" markdown>
-
-![Addy.io logo](assets/img/email-aliasing/addy.svg){ align=right }
-
-Addy.io is an email aliasing service which lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases.
-
-[:octicons-info-16: More Info](email-aliasing.md#addyio){ .md-button .md-button--primary }
-[:octicons-home-16:](https://addy.io){ .card-link title="Homepage" }
-
-</div>
-
-## :material/file-cloud: Cloud Storage
-
-### Peergos
-
-<div class="admonition recommendation" markdown>
-
-![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
-
-**Peergos** provides a secure and private space where users can store, share, and view their photos, videos, documents, etc. Peergos secures your files with quantum-resistant end-to-end encryption and ensures all data about your files remains private. It is built on top of [IPFS (InterPlanetary File System)](https://ipfs.tech), a peer-to-peer architecture that protects against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
-
-[:octicons-info-16: More Info](cloud.md#peergos){ .md-button .md-button--primary }
-[:octicons-home-16:](https://peergos.org){ .card-link title="Homepage" }
-
-</div>
-
-Peergos is primarily a web app, but you can self-host the server either as a local cache for your remote Peergos account, or as a standalone storage server which negates the need to register for a remote account and subscription. The Peergos server is a `.jar` file, which means the Java 17+ Runtime Environment ([OpenJDK download](https://azul.com/downloads)) should be installed on your machine to get it working.
-
-Running a local version of Peergos alongside a registered account on their paid, hosted service allows you to access your Peergos storage without any reliance on DNS or TLS certificate authorities, and keep a copy of your data backed up to their cloud. The user experience should be the same whether you run their desktop server or just use their hosted web interface.
-
 ## :material/dns: DNS Filtering
 
 A self-hosted DNS solution is useful for providing filtering on controlled platforms, such as Smart TVs and other IoT devices, as no client-side software is needed.
@@ -142,36 +108,6 @@ AdGuard Home features a polished web interface to view insights and manage block
 
 ## :material/image: Photo Management
 
-### Ente Photos
-
-<div class="admonition recommendation" markdown>
-
-![Ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
-![Ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
-
-**Ente Photos** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Their code is fully open-source, both on the client side and on the server side.
-
-The free plan offers 5 GB of storage as long as you use the service at least once a year.
-
-[:octicons-info-16: More Info](photo-management.md#ente-photos){ .md-button .md-button--primary }
-[:octicons-home-16:](https://ente.io){ .card-link title="Homepage" }
-
-</div>
-
-### Stingle
-
-<div class="admonition recommendation" markdown>
-
-![Stingle logo](assets/img/photo-management/stingle.png#only-light){ align=right }
-![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
-
-**Stingle** is a gallery and camera application with built-in, end-to-end encrypted backup and sync functionality for your photos and videos.
-
-[:octicons-info-16: More Info](photo-management.md#stingle){ .md-button .md-button--primary }
-[:octicons-home-16:](https://stingle.org){ .card-link title="Homepage" }
-
-</div>
-
 ### PhotoPrism
 
 <div class="admonition recommendation" markdown>
@@ -189,13 +125,13 @@ The free plan offers 5 GB of storage as long as you use the service at least onc
 
 ## :material/search-web: Search Engines
 
-### Stingle
+### SearXNG
 
 <div class="admonition recommendation" markdown>
 
 ![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
 
-**SearXNG** is an open-source metasearch engine. It is an actively maintained fork of [SearX](https://github.com/searx/searx).
+**SearXNG** is an open-source, metasearch engine. It is an actively maintained fork of [SearX](https://github.com/searx/searx).
 
 [:octicons-info-16: More Info](search-engines.md#searxng){ .md-button .md-button--primary }
 [:octicons-home-16:](https://searxng.org){ .card-link title="Homepage" }
@@ -203,3 +139,151 @@ The free plan offers 5 GB of storage as long as you use the service at least onc
 </div>
 
 It is important that you have other people using your instance so that the queries would blend in. You should be careful with where and how you are hosting SearXNG, as people looking up illegal content on your instance could draw unwanted attention from authorities.
+
+## :material/account-group: Document Collaboration
+
+### Nextcloud (Office)
+
+<div class="admonition recommendation" markdown>
+
+![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ align=right }
+
+**Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
+
+[:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://nextcloud.com/support){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title="Contribute" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
+- [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
+- [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
+- [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
+- [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
+
+</details>
+
+</div>
+
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
+
+We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality. For this reason, we don't recommend third-party Nextcloud providers.
+
+</div>
+
+## :material/share-variant: File Sharing and Sync
+
+### Send
+
+<div class="admonition recommendation" markdown>
+
+![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
+
+**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well.
+
+[:octicons-info-16: More Info](file-sharing.md#send){ .md-button .md-button--primary }
+[:octicons-home-16:](https://send.vis.ee){ .card-link title="Homepage" }
+
+</div>
+
+To upload files to your own server via the [ffsend](https://github.com/timvisee/ffsend) CLI, specify the `--host` flag:
+
+```bash
+ffsend upload --host https://example.com/ FILE
+```
+
+### FreedomBox
+
+<div class="admonition recommendation" markdown>
+
+![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ align=right }
+
+**FreedomBox** is an operating system designed to be run on a [single-board computer (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). The purpose is to make it easy to set up server applications for purposes like file sharing.
+
+[:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title="Documentation" }
+[:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://freedomboxfoundation.org/donate){ .card-link title="Contribute" }
+
+</div>
+
+### Nextcloud (Files)
+
+<div class="admonition recommendation" markdown>
+
+![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ align=right }
+
+**Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
+
+[:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://nextcloud.com/support){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title="Contribute" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
+- [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
+- [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
+- [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
+- [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
+
+</details>
+
+</div>
+
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
+
+We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality. For this reason, we don't recommend third-party Nextcloud providers.
+
+</div>
+
+## :material/form-textbox-password: Password Managers
+
+### Vaultwarden
+
+<div class="admonition recommendation" markdown>
+
+![Vaultwarden logo](assets/img/self-hosted/vaultwarden.svg#only-light){ align=right }
+![Vaultwarden logo](assets/img/self-hosted/vaultwarden-dark.svg#only-dark){ align=right }
+
+**Vaultwarden** is an alternative implementation of [Bitwarden](password-managers.md#bitwarden)'s sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy [official service](https://github.com/bitwarden/server) might not be ideal.
+
+[:octicons-repo-16: Vaultwarden Repository](https://github.com/dani-garcia/vaultwarden){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title="Contribute" }
+
+</div>
+
+## :material/flip-to-front: Frontends
+
+Self-hosting your own frontend instance can help you circumvent rate limits that you may encounter on high-traffic, public instances. It is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting, as other peoples' usage will be linked to your hosting.
+
+- [Redlib](frontends.md#redlib)
+- [ProxiTok](frontends.md#proxitok)
+- [Invidious](frontends.md#invidious)
+- [Piped](frontends.md#piped)
+
+## More Services and Software
+
+Tool recommendations in other categories of the website also provide a self-hosted option, so you could consider this option if you are confident in your ability to host the software after reading their instructions.
+
+- [**Email Aliasing**](email-aliasing.md): [Addy.io](email-aliasing.md#addyio)
+- [**Cloud Storage**](cloud.md): [Peergos](cloud.md#peergos)
+- [**Photo Management**](photo-management.md): [Ente Photos](photo-management.md#ente-photos)
+- [**Document Collaboration**](document-collaboration.md): [Cryptpad](document-collaboration.md#cryptpad)
+
+Peergos is primarily a web app, but you can self-host the server either as a local cache for your remote Peergos account, or as a standalone storage server which negates the need to register for a remote account and subscription. The Peergos server is a `.jar` file, which means the Java 17+ Runtime Environment ([OpenJDK download](https://azul.com/downloads)) should be installed on your machine to get it working.
+
+Running a local version of Peergos alongside a registered account on their paid, hosted service allows you to access your Peergos storage without any reliance on DNS or TLS certificate authorities, and keep a copy of your data backed up to their cloud. The user experience should be the same whether you run their desktop server or just use their hosted web interface.
