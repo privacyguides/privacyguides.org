@@ -545,3 +545,9 @@ Codeberg
 simple-codeberg
 simple-reddit
 fontawesome-brands-linkedin
+simple-keepassxc
+OnlyKey
+fontawesome-solid-unlock-keyhole
+KeeShare
+KeePassium
+MWEB
