@@ -67,26 +67,6 @@ Stalwart does **not** have an integrated webmail, so you will need to use it wit
 
 </div>
 
-## :material-file-cloud: Cloud Storage
-
-### Peergos
-
-<div class="admonition recommendation" markdown>
-
-![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
-
-**Peergos** provides a secure and private space where users can store, share, and view their photos, videos, documents, etc. Peergos secures your files with quantum-resistant end-to-end encryption and ensures all data about your files remains private.
-
-[:octicons-home-16:](https://peergos.org){ .card-link title="Homepage" }
-[:octicons-info-16:](https://github.com/peergos/peergos#usage---running-locally-to-log-in-to-another-instance){ .card-link title="Admin Documentation" }
-[:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Source Code" }
-
-</div>
-
-Peergos is primarily a web app, but you can self-host the server either as a local cache for your remote Peergos account, or as a standalone storage server which negates the need to register for a remote account and subscription. The Peergos server is a `.jar` file, which means the Java 17+ Runtime Environment ([OpenJDK download](https://azul.com/downloads)) should be installed on your machine to get it working.
-
-Running a local version of Peergos alongside a registered account on their paid, hosted service allows you to access your Peergos storage without any reliance on DNS or TLS certificate authorities, and keep a copy of your data backed up to their cloud. The user experience should be the same whether you run their desktop server or just use their hosted web interface.
-
 ## :material-dns: DNS Filtering
 
 A self-hosted DNS solution is useful for providing filtering on controlled platforms, such as smart TVs and other IoT devices, as no client-side software is needed. Keep in mind that the DNS solutions below are typically restricted to your home/local network unless you set up a more advanced configuration.
@@ -126,7 +106,7 @@ AdGuard Home features a polished web interface to view insights and manage block
 
 </div>
 
-## :material-image: Photo Management
+## :material-file-multiple-outline: File Management
 
 ### PhotoPrism
 
@@ -143,27 +123,7 @@ AdGuard Home features a polished web interface to view insights and manage block
 
 </div>
 
-## :material-search-web: Search Engines
-
-### SearXNG
-
-<div class="admonition recommendation" markdown>
-
-![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
-
-**SearXNG** is an open-source, [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine). It is an actively maintained fork of [SearX](https://github.com/searx/searx).
-
-[:octicons-home-16:](https://searxng.org){ .card-link title="Homepage" }
-[:octicons-info-16:](https://docs.searxng.org/admin/installation.html#installation){ .card-link title="Admin Documentation" }
-[:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Source Code" }
-
-</div>
-
-It is important that you have other people using your instance so that the queries would blend in. You should be careful with where and how you are hosting SearXNG, as people looking up illegal content on your instance could draw unwanted attention from authorities.
-
-## :material-account-group: Document Collaboration
-
-### Nextcloud (Office)
+### Nextcloud
 
 <div class="admonition recommendation" markdown>
 
@@ -197,6 +157,42 @@ It is important that you have other people using your instance so that the queri
 We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality. For this reason, we don't recommend third-party Nextcloud providers.
 
 </div>
+
+### Peergos
+
+<div class="admonition recommendation" markdown>
+
+![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
+
+**Peergos** provides a secure and private space where users can store, share, and view their photos, videos, documents, etc. Peergos secures your files with quantum-resistant end-to-end encryption and ensures all data about your files remains private.
+
+[:octicons-home-16:](https://peergos.org){ .card-link title="Homepage" }
+[:octicons-info-16:](https://github.com/peergos/peergos#usage---running-locally-to-log-in-to-another-instance){ .card-link title="Admin Documentation" }
+[:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Source Code" }
+
+</div>
+
+Peergos is primarily a web app, but you can self-host the server either as a local cache for your remote Peergos account, or as a standalone storage server which negates the need to register for a remote account and subscription. The Peergos server is a `.jar` file, which means the Java 17+ Runtime Environment ([OpenJDK download](https://azul.com/downloads)) should be installed on your machine to get it working.
+
+Running a local version of Peergos alongside a registered account on their paid, hosted service allows you to access your Peergos storage without any reliance on DNS or TLS certificate authorities, and keep a copy of your data backed up to their cloud. The user experience should be the same whether you run their desktop server or just use their hosted web interface.
+
+## :material-search-web: Search Engines
+
+### SearXNG
+
+<div class="admonition recommendation" markdown>
+
+![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
+
+**SearXNG** is an open-source, [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine). It is an actively maintained fork of [SearX](https://github.com/searx/searx).
+
+[:octicons-home-16:](https://searxng.org){ .card-link title="Homepage" }
+[:octicons-info-16:](https://docs.searxng.org/admin/installation.html#installation){ .card-link title="Admin Documentation" }
+[:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Source Code" }
+
+</div>
+
+It is important that you have other people using your instance so that the queries would blend in. You should be careful with where and how you are hosting SearXNG, as people looking up illegal content on your instance could draw unwanted attention from authorities.
 
 ## :material-share-variant: File Sharing and Sync
 
@@ -235,42 +231,7 @@ ffsend upload --host https://example.com/ FILE
 
 </div>
 
-### Nextcloud (Files)
-
-<div class="admonition recommendation" markdown>
-
-![Nextcloud logo](assets/img/self-hosted/nextcloud.svg){ align=right }
-
-**Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
-
-[:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://nextcloud.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title="Contribute" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
-- [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
-- [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
-- [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
-- [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
-
-</details>
-
-</div>
-
-<div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
-
-We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality. For this reason, we don't recommend third-party Nextcloud providers.
-
-</div>
-
-## :material-form-textbox-password: Password Managers
+## :material-form-textbox-password: Password Management
 
 ### Vaultwarden
 
@@ -315,19 +276,31 @@ Psono provides extensive documentation for their product. The webclient for Pson
 
 Self-hosting your own frontend instance can help you circumvent rate limits that you may encounter on high-traffic, public instances. It is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting, as other peoples' usage will be linked to your hosting.
 
-- [Redlib](frontends.md#redlib) [:octicons-info-24:](https://github.com/redlib-org/redlib#deployment){ .card-link title="Admin Documentation" }
-- [ProxiTok](frontends.md#proxitok) [:octicons-info-24:](https://github.com/pablouser1/ProxiTok/wiki/Self-hosting){ .card-link title="Admin Documentation" }
-- [Invidious](frontends.md#invidious) [:octicons-info-24:](https://docs.invidious.io/installation){ .card-link title="Admin Documentation" }
-- [Piped](frontends.md#piped) [:octicons-info-24:](https://docs.piped.video/docs/self-hosting){ .card-link title="Admin Documentation" }
+<div class="grid cards" markdown>
 
-## More Services and Software
+- ![Redlib logo](assets/img/frontends/redlib.svg){ .twemoji } [Redlib (Reddit, Web)](frontends.md#redlib) [:octicons-info-24:](https://github.com/redlib-org/redlib#deployment){ .card-link title="Admin Documentation" }
+- ![ProxiTok logo](assets/img/frontends/proxitok.svg){ .twemoji } [ProxiTok (TikTok, Web)](frontends.md#proxitok) [:octicons-info-24:](https://github.com/pablouser1/ProxiTok/wiki/Self-hosting){ .card-link title="Admin Documentation" }
+- ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious) [:octicons-info-24:](https://docs.invidious.io/installation){ .card-link title="Admin Documentation" }
+- ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped) [:octicons-info-24:](https://docs.piped.video/docs/self-hosting){ .card-link title="Admin Documentation" }
+
+</div>
+
+## More Tools...
 
 Tool recommendations in other categories of the website also provide a self-hosted option, so you could consider this if you are confident in your ability to host the software after reading their documentation.
 
-- [**Email Aliasing**](email-aliasing.md): [Addy.io](email-aliasing.md#addyio) [:octicons-info-24:](https://addy.io/self-hosting){ .card-link title="Admin Documentation" } and [SimpleLogin](email-aliasing.md#simplelogin) [:octicons-info-24:](https://github.com/simple-login/app#prerequisites){ .card-link title="Admin Documentation" }
-- [**Photo Management**](photo-management.md): [Ente Photos](photo-management.md#ente-photos) [:octicons-info-24:](https://help.ente.io/self-hosting){ .card-link title="Admin Documentation" } and [Stingle](photo-management.md#stingle) [:octicons-info-24:](https://stingle.org/server){ .card-link title="Admin Documentation" }
-- [**Document Collaboration**](document-collaboration.md): [Cryptpad](document-collaboration.md#cryptpad) [:octicons-info-24:](https://docs.cryptpad.org/en/admin_guide/index.html){ .card-link title="Admin Documentation" }
-- [**Language Tools**](language-tools.md): [LanguageTool](language-tools.md#languagetool) [:octicons-info-24:](https://dev.languagetool.org/http-server){ .card-link title="Admin Documentation" }
-- [**News Aggregators**](news-aggregators.md): [Miniflux](news-aggregators.md#miniflux) [:octicons-info-24:](https://miniflux.app/docs/index.html#administration-guide){ .card-link title="Admin Documentation" }
-- [**Pastebins**](pastebins.md): [Privatebin](pastebins.md#privatebin) [:octicons-info-24:](https://github.com/PrivateBin/PrivateBin/blob/master/doc/Installation.md){ .card-link title="Admin Documentation" } and [Paaster](pastebins.md#paaster) [:octicons-info-24:](https://github.com/WardPearce/paaster#deployment){ .card-link title="Admin Documentation" }
-- [**Real Time Communication**](real-time-communication.md): [SimpleX Chat](real-time-communication.md#simplex-chat) [:octicons-info-24:](https://simplex.chat/docs/server.html){ .card-link title="Admin Documentation" } and [Element](real-time-communication.md#element) [:octicons-info-24:](https://element-hq.github.io/synapse/latest){ .card-link title="Admin Documentation" }
+<div class="grid cards" markdown>
+
+- ![Addy.io logo](assets/img/email-aliasing/addy.svg){ .twemoji } [Addy.io (Email Aliasing)](email-aliasing.md#addyio) [:octicons-info-24:](https://addy.io/self-hosting){ .card-link title="Admin Documentation" }
+- ![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ .twemoji } [SimpleLogin (Email Aliasing)](email-aliasing.md#simplelogin) [:octicons-info-24:](https://github.com/simple-login/app#prerequisites){ .card-link title="Admin Documentation" }
+- ![Ente logo](assets/img/photo-management/ente.svg#only-light){ .twemoji }![Ente logo](assets/img/photo-management/ente.svg#only-dark){ .twemoji } [Ente Photos (Photo Manager)](photo-management.md#ente-photos) [:octicons-info-24:](https://help.ente.io/self-hosting){ .card-link title="Admin Documentation" }
+- ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ .twemoji }![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ .twemoji } [Stingle (Photo Manager)](photo-management.md#stingle) [:octicons-info-24:](https://stingle.org/server){ .card-link title="Admin Documentation" }
+- ![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ .twemoji } [CryptPad (Online Office Suite)](document-collaboration.md#cryptpad) [:octicons-info-24:](https://docs.cryptpad.org/en/admin_guide/index.html){ .card-link title="Admin Documentation" }
+- ![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ .twemoji }![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ .twemoji } [LanguageTool (Grammar, Style, and Spell Checker)](language-tools.md#languagetool) [:octicons-info-24:](https://dev.languagetool.org/http-server){ .card-link title="Admin Documentation" }
+- ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [Miniflux (News Aggregator)](news-aggregators.md#miniflux) [:octicons-info-24:](https://miniflux.app/docs/index.html#administration-guide){ .card-link title="Admin Documentation" }
+- ![PrivateBin logo](assets/img/pastebins/privatebin.svg){ .twemoji } [PrivateBin (Pastebin)](pastebins.md#privatebin) [:octicons-info-24:](https://github.com/PrivateBin/PrivateBin/blob/master/doc/Installation.md){ .card-link title="Admin Documentation" }
+- ![Paaster logo](assets/img/pastebins/paaster.svg){ .twemoji } [Paaster (Pastebin)](pastebins.md#paaster) [:octicons-info-24:](https://github.com/WardPearce/paaster#deployment){ .card-link title="Admin Documentation" }
+- ![SimpleX Chat logo](assets/img/messengers/simplex.svg){ .twemoji } [SimpleX Chat (Instant Messenger)](real-time-communication.md#simplex-chat) [:octicons-info-24:](https://simplex.chat/docs/server.html){ .card-link title="Admin Documentation" }
+- ![Element logo](assets/img/messengers/element.svg){ .twemoji } [Element (Matrix Client)](real-time-communication.md#element) [:octicons-info-24:](https://element-hq.github.io/synapse/latest){ .card-link title="Admin Documentation" }
+
+</div>
