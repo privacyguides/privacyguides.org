@@ -127,7 +127,7 @@ schema:
 
 **Password managers** allow you to securely store and manage passwords and other credentials with the use of a master password.
 
-[Introduction to Passwords :material-arrow-right-drop-circle:](basics/passwords-overview.md)
+[Introduction to Passwords :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 
 <div class="admonition info" markdown>
 <p class="admonition-title">Info</p>
@@ -166,15 +166,15 @@ These password managers sync your passwords to a cloud server for easy accessibi
 - [:simple-linux: Linux](https://bitwarden.com/download)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/com.bitwarden.desktop)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/bitwarden-password-manager)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/nngceckbapebfimnlniiiahkandclblb)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
 - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
-- [:simple-safari: Safari](https://apps.apple.com/app/id1352778147)
+- [:simple-safari: Safari](https://apps.apple.com/us/app/bitwarden/id1352778147)
 
 </details>
 
 </div>
 
-Bitwarden uses [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) as its key derivation function (KDF) algorithm by default. It also offers [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id), which is more secure, as an alternative. You can change your account's KDF algorithm in the web vault:
+Bitwarden uses [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) as its key derivation function (KDF) algorithm by default. It also offers [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id), which is more secure, as an alternative. You can change your account's KDF algorithm in the web vault.
 
 - [x] Select **Settings → Security → Keys → KDF algorithm → Argon2id**
 
@@ -195,11 +195,11 @@ Bitwarden uses [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) as it
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=proton.android.pass)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id6443490629)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/proton-pass-password-manager/id6443490629)
 - [:fontawesome-brands-windows: Windows](https://proton.me/pass/download)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/proton-pass)
-- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/ghmbeldphafepmbegfdlkpapadhbakde)
-- [:fontawesome-brands-edge: Edge](https://chromewebstore.google.com/detail/ghmbeldphafepmbegfdlkpapadhbakde)
+- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
+- [:fontawesome-brands-edge: Edge](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
 - [:octicons-browser-16: Web](https://pass.proton.me)
 
 </details>
@@ -235,9 +235,9 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 - [:simple-apple: macOS](https://1password.com/downloads/mac)
 - [:simple-linux: Linux](https://1password.com/downloads/linux)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/1password-x-password-manager)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
 - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/dppgmdbiimibapkepcbdbmkaabgiofem)
-- [:simple-safari: Safari](https://apps.apple.com/us/app/id1569813296)
+- [:simple-safari: Safari](https://apps.apple.com/us/app/1password-for-safari/id1569813296)
 - [:octicons-browser-16: Web](https://my.1password.com/signin)
 
 </details>
@@ -267,7 +267,7 @@ Your 1Password vault is secured with both your master password and a randomized 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1545581224)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/psono-pw-password-manager)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/eljmjmgjkbmpmfljlmklcfineebidmlo)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
 
 </details>
 
@@ -320,7 +320,7 @@ These options allow you to manage an encrypted password database locally.
 - [:simple-linux: Linux](https://keepassxc.org/download/#linux)
 - [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/oboonakemofpalcgghocfoadofidjkkk)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
 
 </details>
 
