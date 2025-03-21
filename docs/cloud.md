@@ -85,7 +85,7 @@ Tresorit has received a number of independent security audits:
     - This review analyzed the full source code of Tresorit and validated that the implementation matches the concepts described in Tresorit's [white paper](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf).
     - Ernst & Young additionally tested the web, mobile, and desktop clients. They concluded:
 
-    > Test results found no deviation from Tresorit’s data confidentiality claims.
+        > Test results found no deviation from Tresorit’s data confidentiality claims.
 
 [^1]: [ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001):2013 compliance relates to the company's [information security management system](https://en.wikipedia.org/wiki/Information_security_management) and covers the sales, development, maintenance and support of their cloud services.
 
