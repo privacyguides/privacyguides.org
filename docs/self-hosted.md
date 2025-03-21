@@ -304,7 +304,7 @@ Self-hosting your own instance of a web-based frontend can help you circumvent r
 
     ---
 
-    [:octicons-info-24:](https://docs.piped.video/docs/self-hosting){ .card-link title="Admin Documentation" }
+    [:octicons-info-16:](https://docs.piped.video/docs/self-hosting){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
 
 </div>
@@ -320,7 +320,7 @@ Tool recommendations in other categories of the website also provide a self-host
     ---
 
     [:octicons-home-16:](https://addy.io){ .card-link title="Homepage" }
-    [:octicons-info-24:](https://addy.io/self-hosting){ .card-link title="Admin Documentation" }
+    [:octicons-info-16:](https://addy.io/self-hosting){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
 
 - ![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ .twemoji } **SimpleLogin (Email Aliasing)**
@@ -328,7 +328,7 @@ Tool recommendations in other categories of the website also provide a self-host
     ---
 
     [:octicons-home-16:](https://addy.io){ .card-link title="Homepage" }
-    [:octicons-info-24:](https://github.com/simple-login/app#prerequisites){ .card-link title="Admin Documentation" }
+    [:octicons-info-16:](https://github.com/simple-login/app#prerequisites){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
 
 - ![Ente logo](assets/img/photo-management/ente.svg#only-light){ .twemoji }![Ente logo](assets/img/photo-management/ente.svg#only-dark){ .twemoji } **Ente Photos (Photo Manager)**
@@ -336,7 +336,7 @@ Tool recommendations in other categories of the website also provide a self-host
     ---
 
     [:octicons-home-16:](https://ente.io){ .card-link title="Homepage" }
-    [:octicons-info-24:](https://help.ente.io/self-hosting){ .card-link title="Admin Documentation" }
+    [:octicons-info-16:](https://help.ente.io/self-hosting){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
 
 - ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ .twemoji }![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ .twemoji } **Stingle (Photo Manager)**
@@ -344,7 +344,7 @@ Tool recommendations in other categories of the website also provide a self-host
     ---
 
     [:octicons-home-16:](https://ente.io){ .card-link title="Homepage" }
-    [:octicons-info-24:](https://stingle.org/server){ .card-link title="Admin Documentation" }
+    [:octicons-info-16:](https://stingle.org/server){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/stingle){ .card-link title="Source Code" }
 
 - ![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ .twemoji } **CryptPad (Online Office Suite)**
@@ -352,7 +352,7 @@ Tool recommendations in other categories of the website also provide a self-host
     ---
 
     [:octicons-home-16:](https://cryptpad.fr){ .card-link title="Homepage" }
-    [:octicons-info-24:](https://docs.cryptpad.org/en/admin_guide/index.html){ .card-link title="Admin Documentation" }
+    [:octicons-info-16:](https://docs.cryptpad.org/en/admin_guide/index.html){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
 
 - ![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ .twemoji }![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ .twemoji } **LanguageTool (Grammar, Style, and Spell Checker)**
@@ -360,7 +360,7 @@ Tool recommendations in other categories of the website also provide a self-host
     ---
 
     [:octicons-home-16:](https://languagetool.org){ .card-link title="Homepage" }
-    [:octicons-info-24:](https://dev.languagetool.org/http-server){ .card-link title="Admin Documentation" }
+    [:octicons-info-16:](https://dev.languagetool.org/http-server){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="Source Code" }
 
 - ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } **Miniflux (News Aggregator)**
@@ -368,7 +368,7 @@ Tool recommendations in other categories of the website also provide a self-host
     ---
 
     [:octicons-home-16:](https://miniflux.app){ .card-link title="Homepage" }
-    [:octicons-info-24:](https://miniflux.app/docs/index.html#administration-guide){ .card-link title="Admin Documentation" }
+    [:octicons-info-16:](https://miniflux.app/docs/index.html#administration-guide){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Source Code" }
 
 - ![PrivateBin logo](assets/img/pastebins/privatebin.svg){ .twemoji } **PrivateBin (Pastebin)**
@@ -376,7 +376,7 @@ Tool recommendations in other categories of the website also provide a self-host
     ---
 
     [:octicons-home-16:](https://privatebin.info){ .card-link title="Homepage" }
-    [:octicons-info-24:](https://github.com/PrivateBin/PrivateBin/blob/master/doc/Installation.md){ .card-link title="Admin Documentation" }
+    [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/blob/master/doc/Installation.md){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
 
 - ![Paaster logo](assets/img/pastebins/paaster.svg){ .twemoji } **Paaster (Pastebin)**
@@ -384,7 +384,7 @@ Tool recommendations in other categories of the website also provide a self-host
     ---
 
     [:octicons-home-16:](https://paaster.io){ .card-link title="Homepage" }
-    [:octicons-info-24:](https://github.com/WardPearce/paaster#deployment){ .card-link title="Admin Documentation" }
+    [:octicons-info-16:](https://github.com/WardPearce/paaster#deployment){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/WardPearce/paaster){ .card-link title="Source Code" }
 
 - ![SimpleX Chat logo](assets/img/messengers/simplex.svg){ .twemoji } **SimpleX Chat (Instant Messenger)**
@@ -392,7 +392,7 @@ Tool recommendations in other categories of the website also provide a self-host
     ---
 
     [:octicons-home-16:](https://simplex.chat){ .card-link title="Homepage" }
-    [:octicons-info-24:](https://simplex.chat/docs/server.html){ .card-link title="Admin Documentation" }
+    [:octicons-info-16:](https://simplex.chat/docs/server.html){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
 
 - ![Element logo](assets/img/messengers/element.svg){ .twemoji } **Element (Matrix Client)**
@@ -400,7 +400,7 @@ Tool recommendations in other categories of the website also provide a self-host
     ---
 
     [:octicons-home-16:](https://element.io){ .card-link title="Homepage" }
-    [:octicons-info-24:](https://element-hq.github.io/synapse/latest){ .card-link title="Admin Documentation" }
+    [:octicons-info-16:](https://element-hq.github.io/synapse/latest){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
 
 </div>
