@@ -9,7 +9,7 @@ cover: language-tools.webp
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-Text inputted to grammar, spelling, and style checkers, as well as translation services, can contain sensitive information which may be stored on their servers for an indefinite amount of time and sold to third parties. The language tools listed on this page do not store your submitted text to a server and can be used offline.
+Text inputted to grammar, spelling, and style checkers, as well as translation services, can contain sensitive information which may be stored on their servers for an indefinite amount of time and sold to third parties. The language tools listed on this page do not store your submitted text on a server and can be used offline.
 
 ## LanguageTool
 
