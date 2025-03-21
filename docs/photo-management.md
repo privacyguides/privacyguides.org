@@ -17,9 +17,7 @@ Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon
 
 ![Ente logo](assets/img/photo-management/ente.svg){ align=right }
 
-**Ente Photos** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Their code is fully open-source, both on the client side and on the server side.
-
-The free plan offers 5 GB of storage as long as you use the service at least once a year.
+**Ente Photos** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Their code is fully open-source, both on the client side and on the server side. The free plan offers 5 GB of storage as long as you use the service at least once a year.
 
 [:octicons-home-16: Homepage](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
@@ -51,9 +49,7 @@ Ente Photos underwent an [audit by Cure53](https://ente.io/blog/cryptography-aud
 ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ align=right }
 ![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
 
-**Stingle** is a gallery and camera application with built-in, end-to-end encrypted backup and sync functionality for your photos and videos.
-
-Storage starts at 1 GB for free accounts.
+**Stingle** is a gallery and camera application with built-in, end-to-end encrypted backup and sync functionality for your photos and videos. Storage starts at 1 GB for free accounts.
 
 [:octicons-home-16: Homepage](https://stingle.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://stingle.org/privacy){ .card-link title="Privacy Policy" }
