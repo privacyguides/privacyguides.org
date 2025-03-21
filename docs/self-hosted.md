@@ -315,19 +315,19 @@ Psono provides extensive documentation for their product. The webclient for Pson
 
 Self-hosting your own frontend instance can help you circumvent rate limits that you may encounter on high-traffic, public instances. It is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting, as other peoples' usage will be linked to your hosting.
 
-- [Redlib](frontends.md#redlib)
-- [ProxiTok](frontends.md#proxitok)
-- [Invidious](frontends.md#invidious)
-- [Piped](frontends.md#piped)
+- [Redlib](frontends.md#redlib) [:octicons-info-24:](https://github.com/redlib-org/redlib#deployment){ .card-link title="Admin Documentation" }
+- [ProxiTok](frontends.md#proxitok) [:octicons-info-24:](https://github.com/pablouser1/ProxiTok/wiki/Self-hosting){ .card-link title="Admin Documentation" }
+- [Invidious](frontends.md#invidious) [:octicons-info-24:](https://docs.invidious.io/installation){ .card-link title="Admin Documentation" }
+- [Piped](frontends.md#piped) [:octicons-info-24:](https://docs.piped.video/docs/self-hosting){ .card-link title="Admin Documentation" }
 
 ## More Services and Software
 
 Tool recommendations in other categories of the website also provide a self-hosted option, so you could consider this if you are confident in your ability to host the software after reading their documentation.
 
-- [**Email Aliasing**](email-aliasing.md): [Addy.io](email-aliasing.md#addyio) [:octicons-info-16:](https://addy.io/self-hosting){ .card-link title="Admin Documentation" } and [SimpleLogin](email-aliasing.md#simplelogin) [:octicons-info-16:](https://github.com/simple-login/app?tab=readme-ov-file#prerequisites){ .card-link title="Admin Documentation" }
-- [**Photo Management**](photo-management.md): [Ente Photos](photo-management.md#ente-photos) [:octicons-info-16:](https://help.ente.io/self-hosting){ .card-link title="Admin Documentation" } and [Stingle](photo-management.md#stingle) [:octicons-info-16:](https://stingle.org/server){ .card-link title="Admin Documentation" }
-- [**Document Collaboration**](document-collaboration.md): [Cryptpad](document-collaboration.md#cryptpad) [:octicons-info-16:](https://docs.cryptpad.org/en/admin_guide/index.html){ .card-link title="Admin Documentation" }
-- [**Language Tools**](language-tools.md): [LanguageTool](language-tools.md#languagetool) [:octicons-info-16:](https://dev.languagetool.org/http-server){ .card-link title="Admin Documentation" }
-- [**News Aggregators**](news-aggregators.md): [Miniflux](news-aggregators.md#miniflux) [:octicons-info-16:](https://miniflux.app/docs/index.html#administration-guide){ .card-link title="Admin Documentation" }
-- [**Pastebins**](pastebins.md): [Privatebin](pastebins.md#privatebin) [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/blob/master/doc/Installation.md){ .card-link title="Admin Documentation" } and [Paaster](pastebins.md#paaster) [:octicons-info-16:](https://github.com/WardPearce/paaster#deployment){ .card-link title="Admin Documentation" }
-- [**Real Time Communication**](real-time-communication.md): [SimpleX Chat](real-time-communication.md#simplex-chat) [:octicons-info-16:](https://simplex.chat/docs/server.html){ .card-link title="Admin Documentation" } and [Element](real-time-communication.md#element) [:octicons-info-16:](https://element-hq.github.io/synapse/latest){ .card-link title="Admin Documentation" }
+- [**Email Aliasing**](email-aliasing.md): [Addy.io](email-aliasing.md#addyio) [:octicons-info-24:](https://addy.io/self-hosting){ .card-link title="Admin Documentation" } and [SimpleLogin](email-aliasing.md#simplelogin) [:octicons-info-24:](https://github.com/simple-login/app#prerequisites){ .card-link title="Admin Documentation" }
+- [**Photo Management**](photo-management.md): [Ente Photos](photo-management.md#ente-photos) [:octicons-info-24:](https://help.ente.io/self-hosting){ .card-link title="Admin Documentation" } and [Stingle](photo-management.md#stingle) [:octicons-info-24:](https://stingle.org/server){ .card-link title="Admin Documentation" }
+- [**Document Collaboration**](document-collaboration.md): [Cryptpad](document-collaboration.md#cryptpad) [:octicons-info-24:](https://docs.cryptpad.org/en/admin_guide/index.html){ .card-link title="Admin Documentation" }
+- [**Language Tools**](language-tools.md): [LanguageTool](language-tools.md#languagetool) [:octicons-info-24:](https://dev.languagetool.org/http-server){ .card-link title="Admin Documentation" }
+- [**News Aggregators**](news-aggregators.md): [Miniflux](news-aggregators.md#miniflux) [:octicons-info-24:](https://miniflux.app/docs/index.html#administration-guide){ .card-link title="Admin Documentation" }
+- [**Pastebins**](pastebins.md): [Privatebin](pastebins.md#privatebin) [:octicons-info-24:](https://github.com/PrivateBin/PrivateBin/blob/master/doc/Installation.md){ .card-link title="Admin Documentation" } and [Paaster](pastebins.md#paaster) [:octicons-info-24:](https://github.com/WardPearce/paaster#deployment){ .card-link title="Admin Documentation" }
+- [**Real Time Communication**](real-time-communication.md): [SimpleX Chat](real-time-communication.md#simplex-chat) [:octicons-info-24:](https://simplex.chat/docs/server.html){ .card-link title="Admin Documentation" } and [Element](real-time-communication.md#element) [:octicons-info-24:](https://element-hq.github.io/synapse/latest){ .card-link title="Admin Documentation" }
