@@ -739,14 +739,20 @@ These tools may provide utility for certain individuals. They provide functional
 
 [Learn more :material-arrow-right-drop-circle:](self-hosted.md#dns-filtering)
 
+#### File Management
+
+<div class="grid cards" markdown>
+
+- ![PhotoPrism logo](assets/img/self-hosted/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](self-hosted.md#photoprism)
+- ![Nextcloud logo](assets/img/self-hosted/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud](self-hosted.md#nextcloud)
+
+</div>
+
 #### Other Self-hosted Solutions
 
 <div class="grid cards" markdown>
 
-- ![PhotoPrism logo](assets/img/self-hosted/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism (Photo Manager)](self-hosted.md#photoprism)
-- ![Nextcloud logo](assets/img/self-hosted/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud Office (Collaboration Platform)](self-hosted.md#nextcloud-office)
 - ![FreedomBox logo](assets/img/self-hosted/freedombox.svg){ .twemoji loading=lazy } [FreedomBox (Server Operating System)](self-hosted.md#freedombox)
-- ![Nextcloud logo](assets/img/self-hosted/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud Files (Cloud Storage and Sync)](self-hosted.md#nextcloud-files)
 - ![Vaultwarden logo](assets/img/self-hosted/vaultwarden.svg#only-light){ .twemoji loading=lazy }![Vaultwarden logo](assets/img/self-hosted/vaultwarden-dark.svg#only-dark){ .twemoji loading=lazy } [Vaultwarden (Password Sync)](self-hosted.md#vaultwarden)
 
 </div>
@@ -757,4 +763,4 @@ These tools may provide utility for certain individuals. They provide functional
 
 A number of recommendations in other categories also provide a self-hosted option alongside the developer-provided software or vendor-provided service. Weigh the additional risks and responsibilities of self-hosting before deciding to switch.
 
-[Learn more :material-arrow-right-drop-circle:](self-hosted.md#more-services-and-software)
+[Learn more :material-arrow-right-drop-circle:](self-hosted.md#more-tools)
