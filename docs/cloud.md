@@ -17,7 +17,7 @@ If these alternatives do not fit your needs, we suggest you look into using encr
 <details class="admonition info" markdown>
 <summary>Looking for Nextcloud?</summary>
 
-For more technical readers, Nextcloud is [still a recommended tool](self-hosted.md#nextcloud-office) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
+For more technical readers, Nextcloud is [still a recommended tool](self-hosted.md#nextcloud) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
 
 </details>
 
