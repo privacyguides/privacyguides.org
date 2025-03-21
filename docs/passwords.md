@@ -127,7 +127,7 @@ schema:
 
 **Password managers** allow you to securely store and manage passwords and other credentials with the use of a master password.
 
-[Introduction to Passwords :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
+[Introduction to Passwords :material-arrow-right-drop-circle:](basics/passwords-overview.md)
 
 <div class="admonition info" markdown>
 <p class="admonition-title">Info</p>
