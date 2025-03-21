@@ -166,19 +166,12 @@ This format is used to generate recommendation cards. Notably it is missing the 
 
 ![PhotoPrism logo](assets/img/self-hosted/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** is a platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
 
 [:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentation}
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-github: GitHub](https://github.com/photoprism)
-
-</details>
 
 </div>
 ```
@@ -189,19 +182,12 @@ This format is used to generate recommendation cards. Notably it is missing the 
 
 ![PhotoPrism logo](../assets/img/self-hosted/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** is a platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
 
 [:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentation}
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-github: GitHub](https://github.com/photoprism)
-
-</details>
 
 </div>
 
@@ -209,7 +195,7 @@ This format is used to generate recommendation cards. Notably it is missing the 
 
 #### `downloads`
 
-This is a special type of collapsible admonition, used to generate the download links section. It is only used within recommendation cards, as shown in the example above.
+This is a special type of collapsible admonition used to generate the download links section. It is only used within recommendation cards, as shown in the example above.
 
 ```markdown title="Downloads Section"
 <details class="downloads" markdown>
@@ -217,7 +203,7 @@ This is a special type of collapsible admonition, used to generate the download 
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
-- [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
+- [:simple-github: GitHub](https://github.com/ProtonMail/android-mail/releases)
 - [:fontawesome-brands-windows: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
 - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
@@ -233,7 +219,7 @@ This is a special type of collapsible admonition, used to generate the download 
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
-- [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
+- [:simple-github: GitHub](https://github.com/ProtonMail/android-mail/releases)
 - [:fontawesome-brands-windows: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
 - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
@@ -289,6 +275,6 @@ massa, nec semper lorem quam in massa.
 
 </div>
 
-**This format is no longer used going forward,** because it is incompatible with newer versions of our translation software at Crowdin. When adding a new page to the site, only the newer HTML-based format should be used.
+**This format is no longer used going forward** because it is incompatible with newer versions of our translation software at Crowdin. When adding a new page to the site, only the newer HTML-based format should be used.
 
 There is no rush to convert admonitions with the old format to the new format. Pages currently using this formatting should continue to work, but we will be updating them to use the newer HTML-based format above over time as we continue to update the site.
