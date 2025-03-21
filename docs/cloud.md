@@ -106,10 +106,10 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:octicons-globe-16: Web](https://peergos.net)
 - [:fontawesome-brands-windows: Windows](https://github.com/Peergos/web-ui/releases)
 - [:simple-apple: macOS](https://github.com/Peergos/web-ui/releases)
 - [:simple-linux: Linux](https://github.com/Peergos/web-ui/releases)
+- [:octicons-globe-16: Web](https://peergos.net)
 
 </details>
 
