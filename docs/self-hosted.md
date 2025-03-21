@@ -206,7 +206,7 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 
 ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send**,a fork of Mozilla's discontinued Firefox Send service, allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well.
+**Send**, a fork of Mozilla's discontinued Firefox Send service, allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well.
 
 [:octicons-home-16:](https://send.vis.ee){ .card-link title="Homepage" }
 [:octicons-info-16:](https://github.com/timvisee/send/blob/master/docs/deployment.md){ .card-link title="Admin Documentation" }
@@ -324,10 +324,10 @@ Self-hosting your own frontend instance can help you circumvent rate limits that
 
 Tool recommendations in other categories of the website also provide a self-hosted option, so you could consider this if you are confident in your ability to host the software after reading their documentation.
 
-- [**Email Aliasing**](email-aliasing.md): [Addy.io](email-aliasing.md#addyio)
-- [**Photo Management**](photo-management.md): [Ente Photos](photo-management.md#ente-photos) and [Stingle](photo-management.md#stingle)
-- [**Document Collaboration**](document-collaboration.md): [Cryptpad](document-collaboration.md#cryptpad)
-- [**Language Tools**](language-tools.md): [LanguageTool](language-tools.md#languagetool)
-- [**News Aggregators**](news-aggregators.md): [Miniflux](news-aggregators.md#miniflux)
-- [**Pastebins**](pastebins.md): [Privatebin](pastebins.md#privatebin) and [Paaster](pastebins.md#paaster)
-- [**Real Time Communication**](real-time-communication.md): [SimpleX Chat](real-time-communication.md#simplex-chat) and [Element](real-time-communication.md#element)
+- [**Email Aliasing**](email-aliasing.md): [Addy.io](email-aliasing.md#addyio) [:octicons-info-16:](https://addy.io/self-hosting){ .card-link title="Admin Documentation" }
+- [**Photo Management**](photo-management.md): [Ente Photos](photo-management.md#ente-photos) [:octicons-info-16:](https://help.ente.io/self-hosting){ .card-link title="Admin Documentation" } and [Stingle](photo-management.md#stingle) [:octicons-info-16:](https://stingle.org/server){ .card-link title="Admin Documentation" }
+- [**Document Collaboration**](document-collaboration.md): [Cryptpad](document-collaboration.md#cryptpad) [:octicons-info-16:](https://docs.cryptpad.org/en/admin_guide/index.html){ .card-link title="Admin Documentation" }
+- [**Language Tools**](language-tools.md): [LanguageTool](language-tools.md#languagetool) [:octicons-info-16:](https://dev.languagetool.org/http-server){ .card-link title="Admin Documentation" }
+- [**News Aggregators**](news-aggregators.md): [Miniflux](news-aggregators.md#miniflux) [:octicons-info-16:](https://miniflux.app/docs/index.html#administration-guide){ .card-link title="Admin Documentation" }
+- [**Pastebins**](pastebins.md): [Privatebin](pastebins.md#privatebin) [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/blob/master/doc/Installation.md){ .card-link title="Admin Documentation" } and [Paaster](pastebins.md#paaster) [:octicons-info-16:](https://github.com/WardPearce/paaster#deployment){ .card-link title="Admin Documentation" }
+- [**Real Time Communication**](real-time-communication.md): [SimpleX Chat](real-time-communication.md#simplex-chat) [:octicons-info-16:](https://simplex.chat/docs/server.html){ .card-link title="Admin Documentation" } and [Element](real-time-communication.md#element) [:octicons-info-16:](https://element-hq.github.io/synapse/latest){ .card-link title="Admin Documentation" }
