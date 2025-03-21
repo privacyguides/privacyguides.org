@@ -70,8 +70,6 @@ If you need to browse the internet anonymously, you should use [Tor](tor.md) ins
 The Canvas API in HTML5, designed for drawing graphics via JavaScript and HTML, can also be used for fingerprinting. Browsers that protect against this will break images you upload and make some sites more difficult to use. An example is Proton Drive, where thumbnails generated for uploaded images are broken because the site generates thumbnails on the user's computer using the Canvas API.
 
 </div>
-
-
 ## Mullvad Browser
 
 <div class="admonition recommendation" markdown>
