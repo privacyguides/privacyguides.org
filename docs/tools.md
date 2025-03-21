@@ -743,11 +743,11 @@ These tools may provide utility for certain individuals. They provide functional
 
 <div class="grid cards" markdown>
 
-- ![PhotoPrism logo](assets/img/self-hosted/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](self-hosted.md#photoprism)
-- ![Nextcloud logo](assets/img/self-hosted/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Office)](self-hosted.md#nextcloud-office)
-- ![FreedomBox logo](assets/img/self-hosted/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](self-hosted.md#freedombox)
-- ![Nextcloud logo](assets/img/self-hosted/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Files)](self-hosted.md#nextcloud-files)
-- ![Vaultwarden logo](assets/img/self-hosted/vaultwarden.svg#only-light){ .twemoji loading=lazy }![Vaultwarden logo](assets/img/self-hosted/vaultwarden-dark.svg#only-dark){ .twemoji loading=lazy } [Vaultwarden](self-hosted.md#vaultwarden)
+- ![PhotoPrism logo](assets/img/self-hosted/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism (Photo Manager)](self-hosted.md#photoprism)
+- ![Nextcloud logo](assets/img/self-hosted/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud Office (Collaboration Platform)](self-hosted.md#nextcloud-office)
+- ![FreedomBox logo](assets/img/self-hosted/freedombox.svg){ .twemoji loading=lazy } [FreedomBox (Server Operating System)](self-hosted.md#freedombox)
+- ![Nextcloud logo](assets/img/self-hosted/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud Files (Cloud Storage and Sync)](self-hosted.md#nextcloud-files)
+- ![Vaultwarden logo](assets/img/self-hosted/vaultwarden.svg#only-light){ .twemoji loading=lazy }![Vaultwarden logo](assets/img/self-hosted/vaultwarden-dark.svg#only-dark){ .twemoji loading=lazy } [Vaultwarden (Password Sync)](self-hosted.md#vaultwarden)
 
 </div>
 
