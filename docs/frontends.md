@@ -24,7 +24,7 @@ When you are using an instance run by someone else, make sure to read the privac
 
 [:octicons-repo-16: Repository](https://github.com/redlib-org/redlib){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/redlib-org/redlib-instances/blob/main/instances.md){ .card-link title="Public Instances" }
-[:octicons-info-16:](https://github.com/redlib-org/redlib#table-of-contents){ .card-link title="Documentation" }
+[:octicons-info-16:](https://github.com/redlib-org/redlib?tab=readme-ov-file#table-of-contents){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Source Code" }
 
 </div>
