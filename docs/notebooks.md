@@ -87,7 +87,7 @@ It features sync functionality that allows you to access your notes on multiple 
 
 ![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
 
-**Joplin** is a free, open-source, and fully-featured E2EE note-taking and to-do application which can handle numerous markdown notes organized into notebooks and tags.
+**Joplin** is a free, open-source, and fully-featured E2EE note-taking and to-do application which can handle numerous Markdown notes organized into notebooks and tags.
 
 It can sync through Nextcloud, Dropbox, and more. It also offers easy import from Evernote and plain-text notes.
 
