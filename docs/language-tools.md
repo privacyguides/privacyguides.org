@@ -1,7 +1,7 @@
 ---
 title: "Language Tools"
 icon: material/alphabetical-variant
-description: These language tools do not send your input text to a server and can be used offline and self-hosted.
+description: These language tools do not send your input text to a server and can be used offline.
 cover: language-tools.webp
 ---
 <small>Protects against the following threat(s):</small>
