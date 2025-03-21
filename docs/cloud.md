@@ -109,17 +109,15 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 - [:fontawesome-brands-windows: Windows](https://github.com/Peergos/web-ui/releases)
 - [:simple-apple: macOS](https://github.com/Peergos/web-ui/releases)
 - [:simple-linux: Linux](https://github.com/Peergos/web-ui/releases)
-- [:octicons-globe-16: Web](https://peergos.net)
+- [:octicons-browser-16: Web](https://peergos.net)
 
 </details>
 
 </div>
 
-Peergos is built on top of [IPFS (InterPlanetary File System)](https://ipfs.tech), a peer-to-peer architecture that protects against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
+Peergos is built on top of the [InterPlanetary File System (IPFS)](https://ipfs.tech), a peer-to-peer architecture that protects against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
 Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November 2024 by Radically Open Security and all issues were fixed. They were previously [audited](https://cure53.de/pentest-report_peergos.pdf) by Cure53 in June 2019, and all found issues were subsequently fixed.
-
-An Android app is not available, but it is [in the works](https://discuss.privacyguides.net/t/peergos-private-storage-sharing-social-media-and-application-platform/11825/25). The current workaround is to use the mobile [PWA](https://peergos.net) instead.
 
 ## Criteria
 
