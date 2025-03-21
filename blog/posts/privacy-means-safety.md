@@ -97,7 +97,7 @@ She was arrested at gunpoint by the police, handcuffed, had her electronic devic
 
 ### Journalists
 
-Journalists around the world can become vulnerable to attacks even from governments when they report on oppressive regimes. This kind of situation can be extremely dangerous considering the almost unlimited resource state-backed attackers can have to identify, track, and persecute their victims.
+Journalists around the world can become vulnerable to attacks even from governments when they report on oppressive regimes. This kind of situation can be extremely dangerous considering the almost unlimited resources state-backed attackers can have to identify, track, and persecute their victims.
 
 In 2018, the prominent journalist and critic of Saudi Arabia's government Jamal Khashoggi was [murdered](https://www.bbc.co.uk/news/world-europe-45812399). Despite being based in the United States, the journalist traveled to Istanbul's Saudi consulate in Turkey to pick up official documents. Khashoggi was killed inside the consulate a few days later on October 2nd.
 
@@ -157,7 +157,7 @@ Unfortunately, the [data broker](https://www.eff.org/deeplinks/2021/07/data-brok
 
 #### Unencrypted data
 
-When the data leaked or stolen is well encrypted, [risk is reduced](https://www.maketecheasier.com/how-secure-stolen-encrypted-data/). If the leaked data cannot be decrypted easily, this will greatly mitigate the damage done by a breach. Conversely, unencrypted leaked data will always inflict maximum damage.
+When the data leaked or stolen is well encrypted, the [risk is reduced](https://www.maketecheasier.com/how-secure-stolen-encrypted-data/). If the leaked data cannot be decrypted easily, this will greatly mitigate the damage done by a breach. Conversely, unencrypted leaked data will always inflict maximum damage.
 
 This is why we should demand that all the services we use implement strong encryption, and, everywhere possible, [end-to-end encryption](https://www.howtogeek.com/711656/what-is-end-to-end-encryption-and-why-does-it-matter/).
 
@@ -177,7 +177,7 @@ As explicitly demonstrated above, data protection can literally mean life or dea
 
 In all of these situations, **data privacy means safety**.
 
-We must demand that governments, corporations, and organizations of all kind do better to improve data protection practices and technologies.
+We must demand that governments, corporations, and organizations of all kinds do better to improve data protection practices and technologies.
 
 As a community, we also have a responsibility to protect the most vulnerable people from harm caused by data leaks.
 
