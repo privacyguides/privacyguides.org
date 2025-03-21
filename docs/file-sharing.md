@@ -20,21 +20,19 @@ If you already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarde
 
 ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well.
-
-The maintainer of Send hosts a [public instance](https://send.vis.ee). You can also use other public instances.
+**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well. The maintainer of Send hosts a [public instance](https://send.vis.ee). You can also use other public instances.
 
 [:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances" }
-[:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title="Documentation" }
+[:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
+[:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title="Contribute" }
+[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title=Contribute }
 
 </details>
 
 </div>
 
-You can use Send via its web interface or via the [ffsend](https://github.com/timvisee/ffsend) CLI. If you are familiar with the command line and send files frequently, we recommend using the command line tool to avoid JavaScript-based encryption. You can specify the `--host` flag to use a specific server:
+Send can be used via its web interface or via the [ffsend](https://github.com/timvisee/ffsend) CLI. If you are familiar with the command-line and send files frequently, we recommend using the CLI client to avoid JavaScript-based encryption. You can specify the `--host` flag to use a specific server:
 
 ```bash
 ffsend upload --host https://send.vis.ee/ FILE
@@ -50,7 +48,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 [:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://docs.onionshare.org){ .card-link title="Documentation" }
+[:octicons-info-16:](https://docs.onionshare.org){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -86,9 +84,9 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 **Syncthing** is an open-source peer-to-peer continuous file synchronization utility. It is used to synchronize files between two or more devices over the local network or the internet. Syncthing does not use a centralized server; it uses the [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) to transfer data between devices. All data is encrypted using TLS.
 
 [:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.syncthing.net){ .card-link title="Documentation" }
+[:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/syncthing){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://syncthing.net/donations){ .card-link title="Contribute" }
+[:octicons-heart-16:](https://syncthing.net/donations){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
