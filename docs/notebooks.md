@@ -72,10 +72,10 @@ It features sync functionality that allows you to access your notes on multiple 
 - [:fontawesome-brands-windows: Windows](https://notesnook.com/downloads)
 - [:simple-apple: macOS](https://notesnook.com/downloads)
 - [:simple-linux: Linux](https://notesnook.com/downloads)
+- [:simple-flathub: Flathub](https://flathub.org/apps/com.notesnook.Notesnook)
 - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/kljhpemdlcnjohmfmkogahelkcidieaj)
 - [:octicons-browser-16: Web](https://app.notesnook.com)
-- [:simple-flathub: Flathub](https://flathub.org/apps/com.notesnook.Notesnook)
 
 </details>
 
@@ -134,7 +134,7 @@ Cryptee offers 100 MB of storage for free, with paid options if you need more. 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:octicons-globe-16: PWA](https://crypt.ee/download)
+- [:octicons-browser-16: Web](https://crypt.ee/download)
 
 </details>
 
