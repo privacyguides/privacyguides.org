@@ -184,7 +184,7 @@ Running a local version of Peergos alongside a registered account on their paid,
 
 ![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
 
-**SearXNG** is an open-source, [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine). It is an actively maintained fork of [SearX](https://github.com/searx/searx).
+**SearXNG** is an open-source, [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine).
 
 [:octicons-home-16:](https://searxng.org){ .card-link title="Homepage" }
 [:octicons-info-16:](https://docs.searxng.org/admin/installation.html#installation){ .card-link title="Admin Documentation" }
@@ -202,7 +202,7 @@ It is important that you have other people using your instance so that the queri
 
 ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send**, a fork of Mozilla's discontinued Firefox Send service, allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well.
+**Send** allows you to share files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well.
 
 [:octicons-home-16:](https://send.vis.ee){ .card-link title="Homepage" }
 [:octicons-info-16:](https://github.com/timvisee/send/blob/master/docs/deployment.md){ .card-link title="Admin Documentation" }
@@ -282,25 +282,30 @@ Self-hosting your own instance of a web-based frontend can help you circumvent r
 
     ---
 
-    [:octicons-info-24:](https://github.com/redlib-org/redlib#deployment){ .card-link title="Admin Documentation" }
+    [:octicons-info-16:](https://github.com/redlib-org/redlib#deployment){ .card-link title="Admin Documentation" }
+    [:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Source Code" }
 
 - ![ProxiTok logo](assets/img/frontends/proxitok.svg){ .lg .middle .twemoji } **ProxiTok (TikTok)**
 
     ---
 
-    [:octicons-info-24:](https://github.com/pablouser1/ProxiTok/wiki/Self-hosting){ .card-link title="Admin Documentation" }
+    [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki/Self-hosting){ .card-link title="Admin Documentation" }
+    [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Source Code" }
 
 - ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } **Invidious (YouTube)**
 
     ---
 
-    [:octicons-info-24:](https://docs.invidious.io/installation){ .card-link title="Admin Documentation" }
+    [:octicons-home-16:](https://invidious.io){ .card-link title="Homepage" }
+    [:octicons-info-16:](https://docs.invidious.io/installation){ .card-link title="Admin Documentation" }
+    [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Source Code" }
 
-- ![Piped logo](assets/img/frontends/piped.svg){ .twemoji }! **Piped (YouTube)**
+- ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } **Piped (YouTube)**
+
+    [:octicons-info-24:](https://docs.piped.video/docs/self-hosting){ .card-link title="Admin Documentation" }
+    [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
 
     ---
-
-    [:octicons-info-24:](https://docs.piped.video/docs/self-hosting){ .card-link title="Admin Documentation" }  
 
 </div>
 
