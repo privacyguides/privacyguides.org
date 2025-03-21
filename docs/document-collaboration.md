@@ -10,9 +10,7 @@ cover: document-collaboration.webp
 
 Most online office suites do not support E2EE, meaning the cloud provider has access to everything you do. The provider's privacy policy may legally protect your rights, but it does not provide technical access constraints.
 
-## Collaboration Platforms
-
-### CryptPad
+## CryptPad
 
 <div class="admonition recommendation" markdown>
 
