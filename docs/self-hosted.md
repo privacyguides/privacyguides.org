@@ -324,7 +324,7 @@ Self-hosting your own frontend instance can help you circumvent rate limits that
 
 Tool recommendations in other categories of the website also provide a self-hosted option, so you could consider this if you are confident in your ability to host the software after reading their documentation.
 
-- [**Email Aliasing**](email-aliasing.md): [:octicons-info-24:](https://addy.io/self-hosting){ .card-link title="Admin Documentation" } [Addy.io](email-aliasing.md#addyio) and [:octicons-info-24:](https://github.com/simple-login/app#prerequisites){ .card-link title="Admin Documentation" } [SimpleLogin](email-aliasing.md#simplelogin)
+- [**Email Aliasing**](email-aliasing.md): [:information_source:](https://addy.io/self-hosting){ .card-link title="Admin Documentation" } [Addy.io](email-aliasing.md#addyio) and [:information_source:](https://github.com/simple-login/app#prerequisites){ .card-link title="Admin Documentation" } [SimpleLogin](email-aliasing.md#simplelogin)
 - [**Photo Management**](photo-management.md): [:octicons-info-24:](https://help.ente.io/self-hosting){ .card-link title="Admin Documentation" } [Ente Photos](photo-management.md#ente-photos) and [:octicons-info-24:](https://stingle.org/server){ .card-link title="Admin Documentation" } [Stingle](photo-management.md#stingle)
 - [**Document Collaboration**](document-collaboration.md): [:octicons-info-24:](https://docs.cryptpad.org/en/admin_guide/index.html){ .card-link title="Admin Documentation" } [Cryptpad](document-collaboration.md#cryptpad)
 - [**Language Tools**](language-tools.md): [:octicons-info-24:](https://dev.languagetool.org/http-server){ .card-link title="Admin Documentation" } [LanguageTool](language-tools.md#languagetool)
