@@ -34,7 +34,7 @@ The maintainer of Send hosts a [public instance](https://send.vis.ee). You can a
 
 </div>
 
-Send can be used via its web interface or via the [ffsend](https://github.com/timvisee/ffsend) CLI. If you are familiar with the command-line and send files frequently, we recommend using the CLI client to avoid JavaScript-based encryption. You can specify the `--host` flag to use a specific server:
+You can use Send via its web interface or via the [ffsend](https://github.com/timvisee/ffsend) CLI. If you are familiar with the command line and send files frequently, we recommend using the command line tool to avoid JavaScript-based encryption. You can specify the `--host` flag to use a specific server:
 
 ```bash
 ffsend upload --host https://send.vis.ee/ FILE
