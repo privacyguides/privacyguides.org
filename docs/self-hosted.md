@@ -278,10 +278,14 @@ Self-hosting your own frontend instance can help you circumvent rate limits that
 
 <div class="grid cards" markdown>
 
-- ![Redlib logo](assets/img/frontends/redlib.svg){ .twemoji } [Redlib (Reddit, Web)](frontends.md#redlib) [:octicons-info-24:](https://github.com/redlib-org/redlib#deployment){ .card-link title="Admin Documentation" }
-- ![ProxiTok logo](assets/img/frontends/proxitok.svg){ .twemoji } [ProxiTok (TikTok, Web)](frontends.md#proxitok) [:octicons-info-24:](https://github.com/pablouser1/ProxiTok/wiki/Self-hosting){ .card-link title="Admin Documentation" }
-- ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious) [:octicons-info-24:](https://docs.invidious.io/installation){ .card-link title="Admin Documentation" }
-- ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped) [:octicons-info-24:](https://docs.piped.video/docs/self-hosting){ .card-link title="Admin Documentation" }
+- ![Redlib logo](assets/img/frontends/redlib.svg){ .twemoji } [Redlib (Reddit, Web)](frontends.md#redlib)
+[:octicons-info-24:](https://github.com/redlib-org/redlib#deployment){ .card-link title="Admin Documentation" }
+- ![ProxiTok logo](assets/img/frontends/proxitok.svg){ .twemoji } [ProxiTok (TikTok, Web)](frontends.md#proxitok)
+[:octicons-info-24:](https://github.com/pablouser1/ProxiTok/wiki/Self-hosting){ .card-link title="Admin Documentation" }
+- ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
+[:octicons-info-24:](https://docs.invidious.io/installation){ .card-link title="Admin Documentation" }
+- ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)
+[:octicons-info-24:](https://docs.piped.video/docs/self-hosting){ .card-link title="Admin Documentation" }
 
 </div>
 
