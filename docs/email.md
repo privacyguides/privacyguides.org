@@ -25,7 +25,7 @@ For everything else, we recommend a variety of email providers based on sustaina
 | [Mailbox.org](#mailboxorg) | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Mail only | Cash |
 | [Tuta](#tuta) | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange } | :material-check:{ .pg-green } | Monero & Cash via third-party |
 
-In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md#recommended-providers) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
 
 - [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
 
