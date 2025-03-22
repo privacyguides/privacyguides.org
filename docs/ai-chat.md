@@ -82,7 +82,7 @@ In addition to supporting a large range of text models, Kobold.cpp also supports
 
 </div>
 
-<div class="admonition note" markdown>
+<div class="admonition info" markdown>
 <p class="admonition-title">Compatibility Issues</p>
 
 Kobold.cpp might not run on computers without AVX/AVX2 support.
@@ -125,7 +125,7 @@ Ollama simplifies the process of setting up a local AI chat by downloading the A
 
 ![Llamafile Logo](assets/img/ai-chat/llamafile.svg){align=right}
 
-Llamafile is a lightweight single-file executable that allows users to run LLMs locally on their own computers without any setup involved. It is [backed by Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile) and available on Linux, macOS, and Windows.
+Llamafile is a lightweight, single-file executable (a "llamafile") that allows users to run LLMs locally on their own computers without any setup involved. It is [backed by Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile) and available on Linux, macOS, and Windows.
 
 Llamafile also supports LLaVA. However, it doesn't support speech recognition or image generation.
 
@@ -137,7 +137,9 @@ Llamafile also supports LLaVA. However, it doesn't support speech recognition or
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:fontawesome-solid-desktop: Desktop](https://github.com/Mozilla-Ocho/llamafile#quickstart)
+- [:fontawesome-brands-windows: Windows](https://github.com/Mozilla-Ocho/llamafile#quickstart)
+- [:simple-apple: macOS](https://github.com/Mozilla-Ocho/llamafile#quickstart)
+- [:simple-linux: Linux](https://github.com/Mozilla-Ocho/llamafile#quickstart)
 
 </details>
 
@@ -170,11 +172,11 @@ Please note we are not affiliated with any of the projects we recommend. In addi
 
 ### Minimum Requirements
 
-- Must be open-source.
+- Must be open source.
 - Must not transmit personal data, including chat data.
 - Must be multi-platform.
 - Must not require a GPU.
-- Must support GPU-powered fast inference.
+- Must support GPU-powered, fast inference.
 - Must not require an internet connection.
 
 ### Best-Case
@@ -184,5 +186,12 @@ Our best-case criteria represent what we *would* like to see from the perfect pr
 - Should be easy to download and set up, e.g. with a one-click installation process.
 - Should have a built-in model downloader option.
 - The user should be able to modify the LLM parameters, such as its system prompt or temperature.
+
+*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
+*[LLM]: Large Language Model (AI model such as ChatGPT)
+*[LLMs]: Large Language Models (AI models such as ChatGPT)
+*[open-weights models]: AI models that anyone can download and use, but the underlying training data and/or algorithms for them are proprietary.
+*[system prompt]: The general instructions given by a human to guide how an AI chat should operate.
+*[temperature]: A parameter used in AI models to control the level of randomness and creativity in the generated text.
 
 [^1]: A file checksum is a type of anti-tampering fingerprint. A developer usually provides a checksum in a text file that can be downloaded separately, or on the download page itself. Verifying that the checksum of the file you downloaded matches the one provided by the developer helps ensure that the file is genuine and wasn't tampered with in transit. You can use commands like `sha256sum` on Linux and macOS, or `certutil -hashfile file SHA256` on Windows to generate the downloaded file's checksum.
