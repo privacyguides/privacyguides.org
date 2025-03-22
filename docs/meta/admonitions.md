@@ -3,7 +3,7 @@ title: Admonitions
 description: A guide for website contributors on creating admonitions.
 ---
 
-**Admonitions** (or "call-outs") are tools that writers can use to include side content in a page of the website without interrupting the flow of the content.
+**Admonitions** (or "call-outs") are tools that writers can use to include side content in an article without interrupting the document flow.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Example Admonition</p>
