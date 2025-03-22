@@ -125,7 +125,7 @@ Running a local version of Peergos alongside a registered account on their paid,
 
 Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November 2024 by Radically Open Security and all issues were fixed. They were previously [audited](https://cure53.de/pentest-report_peergos.pdf) by Cure53 in June 2019, and all found issues were subsequently fixed.
 
-To use Peergos on mobile devices, you can use the mobile [PWA](https://peergos.net) in lieu of a native app.
+To use Peergos on mobile devices, you can use the [PWA](https://peergos.net) in lieu of a native app.
 
 ## Criteria
 
