@@ -17,12 +17,12 @@ Email aliasing can also act as a safeguard in case your email provider ever ceas
 
 ## Benefits over Conventional Email Filtering Methods
 
-Using a dedicated email aliasing service also has a number of benefits over a catch-all alias on a custom domain:
+Using a dedicated email aliasing service has a number of benefits over a catch-all alias on a custom domain:
 
 - Aliases can be turned on and off individually when you need them, preventing websites from emailing you randomly.
 - Replies are sent from the alias address, shielding your real email address.
 
-They also have a number of benefits over "temporary email" services:
+Email aliasing services also have a number of benefits over "temporary email" services:
 
 - Aliases are permanent and can be turned on again if you need to receive something like a password reset.
 - Emails are sent to your trusted mailbox rather than stored by the alias provider.
@@ -47,7 +47,7 @@ Using an aliasing service requires trusting both your email provider and your al
 
 ![addy.io logo](assets/img/email-aliasing/addy.svg){ align=right }
 
-**addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases.
+**addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited ["standard" aliases](https://addy.io/faq/#what-is-a-standard-alias).
 
 [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
@@ -67,7 +67,7 @@ Using an aliasing service requires trusting both your email provider and your al
 
 </div>
 
-The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can pay for these plans using [cryptocurrency](https://addy.io/help/subscribing-with-cryptocurrency) or purchase a voucher code from [ProxyStore](https://addy.io/help/voucher-codes), addy.io's official reseller.
+The number of shared aliases (which end in a shared domain like @addy.io) that you can create depends on the [plan](https://addy.io/#pricing) you are subscribed to. You can pay for these plans using [cryptocurrency](https://addy.io/help/subscribing-with-cryptocurrency) or purchase a voucher code from [ProxyStore](https://addy.io/help/voucher-codes), addy.io's official reseller.
 
 You can create unlimited standard aliases which end in a domain like `@[username].addy.io` or a custom domain on paid plans. However, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service.
 
