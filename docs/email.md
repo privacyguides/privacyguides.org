@@ -19,7 +19,7 @@ Email is practically a necessity for using any online service, however we do not
 
 For everything else, we recommend a variety of email providers based on sustainable business models and built-in security and privacy features. Read our [full list of criteria](#criteria) for more information.
 
-| Provider | OpenPGP / WKD | IMAP / SMTP | Zero-access Encryption | Anonymous Payment Methods |
+| Provider | OpenPGP / WKD | IMAP / SMTP | Zero-Access Encryption | Anonymous Payment Methods |
 |---|---|---|---|---|
 | [Proton Mail](#proton-mail) | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green } | Cash |
 | [Mailbox.org](#mailboxorg) | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Mail only | Cash |
