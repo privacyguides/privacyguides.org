@@ -714,7 +714,7 @@ These tools may provide utility for certain individuals. They provide functional
 
 [Learn more :material-arrow-right-drop-circle:](device-integrity.md)
 
-### Self-hosted Services and Software
+### Self-Hosted Services and Software
 
 #### Email Servers
 
@@ -748,7 +748,7 @@ These tools may provide utility for certain individuals. They provide functional
 
 </div>
 
-#### Other Self-hosted Solutions
+#### Other Self-Hosted Solutions
 
 <div class="grid cards" markdown>
 
