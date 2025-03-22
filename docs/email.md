@@ -326,7 +326,7 @@ We regard these features as important in order to provide a safe and optimal ser
 - Should encrypt all account data (contacts, calendars, etc.) at rest with zero-access encryption.
 - Should provide integrated webmail E2EE/PGP encryption as a convenience.
 - Should support [WKD](https://wiki.gnupg.org/WKD) to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key by typing: `gpg --locate-key example_user@example.com`
-- Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email, without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
+- Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
 - Should support [sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
 - Catch-all or alias functionality for those who use their own domains.
 - Should use standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
