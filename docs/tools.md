@@ -761,4 +761,4 @@ These tools may provide utility for certain individuals. They provide functional
 
 A number of recommendations in other categories also provide a self-hosted option alongside the developer-provided software or vendor-provided service. Weigh the additional risks and responsibilities of self-hosting before deciding to switch.
 
-[Learn more :material-arrow-right-drop-circle:](self-hosted.md#more-tools)
+[Learn more :material-arrow-right-drop-circle:](self-hosted.md)
