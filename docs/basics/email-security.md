@@ -29,7 +29,7 @@ If you use a shared domain from a provider which doesn't support WKD, like `@gma
 
 ### What Email Clients Support E2EE?
 
-Email providers which allow you to use standard access protocols like IMAP and SMTP can be used with any of the [email clients we recommend](../email-clients.md). Depending on the authentication method, this may lead to decreased security if either the provider or the email client does not support OAuth or a bridge application as [multifactor authentication](multi-factor-authentication.md) is not possible with plain password authentication.
+Email providers which allow you to use standard access protocols like IMAP and SMTP can be used with any of the [email clients we recommend](../email-clients.md). Depending on the authentication method, this may lead to decreased security if either the provider or the email client does not support [OAuth](account-creation.md#sign-in-with-oauth) or a bridge application as [multifactor authentication](multi-factor-authentication.md) is not possible with plain password authentication.
 
 ### How Do I Protect My Private Keys?
 
