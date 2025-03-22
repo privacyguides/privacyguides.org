@@ -2,42 +2,42 @@
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project
 *[ATA]: Advanced Technology Attachment
-*[attack surface]: The total number of possible entry points for unauthorized access to a system
+*[attack surface]: The total number of possible entry points for unauthorized access to a system.
 *[AVB]: Android Verified Boot
 *[cgroups]: Control Groups
 *[CLI]: Command Line Interface
 *[CSV]: Comma-Separated Values
 *[CVE]: Common Vulnerabilities and Exposures
-*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
-*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
+*[dark pattern]: A deceptive design pattern intended to trick a user into taking certain actions.
+*[digital legacy]: Feature that allows you to give other people access to your data when you die.
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: Domain Name System
 *[DoH]: DNS over HTTPS
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
+*[DPI]: Deep Packet Inspection
 *[E2EE]: End-to-End Encryption/Encrypted
 *[ECS]: EDNS Client Subnet
 *[EEA]: European Economic Area
-*[entropy]: A measurement of how unpredictable something is
+*[entropy]: A measurement of how unpredictable something is.
 *[EOL]: End-of-Life
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: Full Disk Encryption
 *[FIDO]: Fast IDentity Online
 *[FS]: Forward Secrecy
-*[fork]: A new software project created by copying an existing project and adding to it independently
+*[fork]: A new software project created by copying an existing project and adding to it independently.
 *[GDPR]: General Data Protection Regulation
 *[GPG]: GNU Privacy Guard (PGP implementation)
 *[GPS]: Global Positioning System
 *[GUI]: Graphical User Interface
 *[GnuPG]: GNU Privacy Guard (PGP implementation)
 *[HDD]: Hard Disk Drive
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
+*[HOTP]: HMAC (Hash-based Message Authentication Code) -based One-Time Password
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[HTTP]: Hypertext Transfer Protocol
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
+*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems.
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: Internet Message Access Protocol
 *[IMEI]: International Mobile Equipment Identity
@@ -49,14 +49,14 @@
 *[ISPs]: Internet Service Providers
 *[JNI]: Java Native Interface
 *[KYC]: Know Your Customer
-*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
+*[LUKS]: Linux Unified Key Setup (full disk encryption)
 *[MAC]: Media Access Control
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Mobile Equipment Identifier
 *[MFA]: Multi-Factor Authentication
-*[NVMe]: Nonvolatile Memory Express
-*[NAT]: Network address translation
-*[NAT-PMP]: NAT Port Mapping Protocol
+*[NVMe]: Non-Volatile Memory Express
+*[NAT]: Network Address Translation
+*[NAT-PMP]: NAT (Network Address Translation) Port Mapping Protocol
 *[NTP]: Network Time Protocol
 *[OCI]: Open Container Initiative
 *[OCSP]: Online Certificate Status Protocol
@@ -69,12 +69,12 @@
 *[P2P]: Peer-to-Peer
 *[PAM]: Linux Pluggable Authentication Modules
 *[POP3]: Post Office Protocol 3
-*[PGP]: Pretty Good Privacy (see OpenPGP)
+*[PGP]: Pretty Good Privacy
 *[PII]: Personally Identifiable Information
 *[QNAME]: Qualified Name
-*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
+*[QUIC]: A network protocol that is based on UDP, but aims to combine the speed of UDP with the reliability of TCP.
 *[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
-*[rolling release]: Updates which are released frequently rather than set intervals
+*[rolling release]: Updates which are released frequently rather than at set intervals.
 *[RSS]: Really Simple Syndication
 *[SELinux]: Security-Enhanced Linux
 *[SIM]: Subscriber Identity Module
@@ -83,10 +83,10 @@
 *[SNI]: Server Name Indication
 *[SSD]: Solid-State Drive
 *[SSH]: Secure Shell
-*[SUID]: Set Owner User ID
+*[SUID]: Set User Identity
 *[SaaS]: Software as a Service (cloud software)
 *[SoC]: System on Chip
-*[SSO]: Single sign-on
+*[SSO]: Single Sign-On
 *[TCP]: Transmission Control Protocol
 *[TEE]: Trusted Execution Environment
 *[TLS]: Transport Layer Security
@@ -102,3 +102,4 @@
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Extensible Messaging and Presence Protocol
 *[PWA]: Progressive Web App
+*[PWAs]: Progressive Web Apps
