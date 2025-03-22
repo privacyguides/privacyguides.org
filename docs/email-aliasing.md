@@ -58,8 +58,8 @@ Using an aliasing service requires trusting both your email provider and your al
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
-- [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=host.stjin.anonaddy)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id6563138633)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
