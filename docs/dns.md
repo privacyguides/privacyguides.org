@@ -22,10 +22,14 @@ These are our favorite public DNS resolvers based on their privacy and security 
 |---|---|---|---|---|---|
 | [**AdGuard Public DNS**](https://adguard-dns.io/en/public-dns.html) | Cleartext   DoH/3   DoT   DoQ   DNSCrypt | Anonymized[^1] | Anonymized | Based on server choice. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) | Yes [:octicons-link-external-24:](https://adguard-dns.io/en/blog/encrypted-dns-ios-14.html) |
 | [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup) | Cleartext   DoH/3   DoT | Anonymized[^2] | No | Based on server choice. | No [:octicons-link-external-24:](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846) |
-| [**Control D Free DNS**](https://controld.com/free-dns) | Cleartext   DoH/3   DoT   DoQ | No[^3] | No | Based on server choice. | Yes    [:simple-apple: iOS](https://docs.controld.com/docs/ios-platform)    [:material-apple-finder: macOS](https://docs.controld.com/docs/macos-platform#manual-setup-profile) |
+| [**Control D Free DNS**](https://controld.com/free-dns) | Cleartext   DoH/3   DoT   DoQ | No[^3] | No | Based on server choice. | Yes
+    [:simple-apple: iOS](https://docs.controld.com/docs/ios-platform)
+    [:material-apple-finder: macOS](https://docs.controld.com/docs/macos-platform#manual-setup-profile) |
 | [**dns0.eu**](https://dns0.eu) | Cleartext   DoH/3   DoH   DoT   DoQ | Anonymized[^4] | Anonymized | Based on server choice. | Yes [:octicons-link-external-24:](https://dns0.eu/zero.dns0.eu.mobileconfig) |
 | [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | DoH   DoT | No[^5] | No | Based on server choice. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock) | Yes [:octicons-link-external-24:](https://github.com/mullvad/encrypted-dns-profiles) |
-| [**Quad9**](https://quad9.net) | Cleartext   DoH   DoT   DNSCrypt | Anonymized[^6] | Optional | Based on server choice. Malware blocking is included by default. | Yes   [:simple-apple: iOS](https://docs.quad9.net/Setup_Guides/iOS/iOS_14_and_later_(Encrypted)) [:material-apple-finder: macOS](https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_(Encrypted)) |
+| [**Quad9**](https://quad9.net) | Cleartext   DoH   DoT   DNSCrypt | Anonymized[^6] | Optional | Based on server choice. Malware blocking is included by default. | Yes
+    [:simple-apple: iOS](https://docs.quad9.net/Setup_Guides/iOS/iOS_14_and_later_(Encrypted))
+    [:material-apple-finder: macOS](https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_(Encrypted)) |
 
 [^1]:
     AdGuard stores aggregated performance metrics of their DNS servers, namely the number of complete requests to a particular server, the number of blocked requests, and the speed of processing requests. They also keep and store the database of domains requested within the last 24 hours.
@@ -52,7 +56,7 @@ These are our favorite public DNS resolvers based on their privacy and security 
 [^6]:
     Quad9 collects some data for the purposes of threat monitoring and response. That data may then be remixed and shared for purposes like furthering their security research. Quad9 does not collect or record IP addresses or other data they deem personally identifiable.
     
-    Quad9: [Data and Privacy Policy](https://quad9.net/privacy/policy)
+    Quad9: [*Data and Privacy Policy*](https://quad9.net/privacy/policy)
 
 ## Self-Hosted DNS Filtering
 
