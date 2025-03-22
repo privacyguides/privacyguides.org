@@ -61,7 +61,6 @@
 *[NAT]: Network Address Translation
 *[NAT-PMP]: NAT (Network Address Translation) Port Mapping Protocol
 *[NTP]: Network Time Protocol
-*[OAuth]: Open Authorization (authnetication protocol)
 *[OCI]: Open Container Initiative
 *[OCSP]: Online Certificate Status Protocol
 *[OEM]: Original Equipment Manufacturer
