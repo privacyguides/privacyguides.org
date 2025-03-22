@@ -732,7 +732,7 @@ These tools may provide utility for certain individuals. They provide functional
 
 <div class="grid cards" markdown>
 
-- ![Pi-hole logo](assets/img/self-hosted/pi-hole.svg){ .twemoji loading=lazy } [Pi-hole](self-hosted.md#pi-hole)
+- ![Pi-Hole logo](assets/img/self-hosted/pi-hole.svg){ .twemoji loading=lazy } [Pi-Hole](self-hosted.md#pi-hole)
 - ![AdGuard Home logo](assets/img/self-hosted/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](self-hosted.md#adguard-home)
 
 </div>
