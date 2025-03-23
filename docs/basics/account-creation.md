@@ -42,7 +42,7 @@ You will be responsible for managing your login credentials. For added security,
 
 #### Email aliases
 
-If you don't want to give your real email address to a service, you have the option to use an alias. We described them in more detail on our email services recommendation page. Essentially, alias services allow you to generate new email addresses that forward all emails to your main address. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. Those can be filtered automatically based on the alias they are sent to.
+If you don't want to give your real email address to a service, you have the option to use an alias. We describe them in more detail on our email services recommendation page. Essentially, alias services allow you to generate new email addresses that forward all emails to your main address. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. Those can be filtered automatically based on the alias they are sent to.
 
 Should a service get hacked, you might start receiving phishing or spam emails to the address you used to sign up. Using unique aliases for each service can assist in identifying exactly what service was hacked.
 
