@@ -22,11 +22,13 @@ When you are using an instance run by someone else, make sure to read the privac
 
 ![Redlib logo](assets/img/frontends/redlib.svg){ align=right }
 
-**Redlib** is an open-source frontend to the [Reddit](https://reddit.com) website that is also self-hostable. You can access Redlib through a number of public instances.
+**Redlib** is an open-source frontend to the [Reddit](https://reddit.com) website.
+
+You can access Redlib through a number of public instances, with some that offer a [Tor](tor.md) onion service.
 
 [:octicons-repo-16: Repository](https://github.com/redlib-org/redlib){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/redlib-org/redlib-instances/blob/main/instances.md){ .card-link title="Public Instances" }
-[:octicons-info-16:](https://github.com/redlib-org/redlib?tab=readme-ov-file#table-of-contents){ .card-link title="Documentation" }
+[:octicons-info-16:](https://github.com/redlib-org/redlib#table-of-contents){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Source Code" }
 
 </div>
@@ -34,7 +36,7 @@ When you are using an instance run by someone else, make sure to read the privac
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-The [Old Reddit](https://old.reddit.com) website doesn't require as much JavaScript as the new Reddit website does, but it has recently blocked access to IP addresses reserved for public VPNs. You can use Old Reddit in conjunction with the [Tor](tor.md) Onion that was [launched in October 2022](https://forum.torproject.org/t/reddit-onion-service-launch/5305) at [https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion](https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion).
+The [Old Reddit](https://old.reddit.com) website doesn't require as much JavaScript as the new Reddit website does, but it has recently blocked access to IP addresses reserved for public VPNs. You can access Old Reddit through their [Tor](tor.md) onion service [launched in October 2022](https://forum.torproject.org/t/reddit-onion-service-launch/5305) at [https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion](https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion).
 
 </div>
 
@@ -123,7 +125,7 @@ Invidious is useful if you want to disable JavaScript in your browser, such as [
 Piped requires JavaScript in order to function and there are a number of public instances.
 
 [:octicons-repo-16: Repository](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/TeamPiped/Piped/wiki/Instances){ .card-link title="Public Instances" }
+[:octicons-server-16:](https://github.com/TeamPiped/documentation/blob/main/content/docs/public-instances/index.md){ .card-link title="Public Instances" }
 [:octicons-info-16:](https://docs.piped.video/docs){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title="Contribute" }
@@ -182,7 +184,7 @@ By default, FreeTube blocks all YouTube advertisements. In addition, FreeTube op
 
 ![Yattee logo](assets/img/frontends/yattee.svg){ align=right }
 
-**Yattee** is a free and open-source privacy oriented video player for iOS, tvOS, and macOS for [YouTube](https://youtube.com). Due to App Store restrictions, you will need to take a few [extra steps](https://web.archive.org/web/20230330122839/https://gonzoknows.com/posts/Yattee) before you can use Yattee to watch YouTube. Yattee allows you to connect to instances of [Invidious](#invidious) or [Piped](#piped).
+**Yattee** is a free and open-source, privacy-oriented video player for iOS, tvOS, and macOS for [YouTube](https://youtube.com). Due to App Store restrictions, you will need to take a few [extra steps](https://web.archive.org/web/20230330122839/https://gonzoknows.com/posts/Yattee) before you can use Yattee to watch YouTube. Yattee allows you to connect to instances of [Invidious](#invidious) or [Piped](#piped).
 
 When using Yattee, your subscription list is saved locally on your device.
 
@@ -276,7 +278,7 @@ Your subscription list and playlists are saved locally on your Android device.
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-When using NewPipe, your IP address will be visible to the video providers used. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+When using NewPipe, your IP address will be visible to the video providers you access. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
