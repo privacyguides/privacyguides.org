@@ -225,14 +225,14 @@ The anonymized DNS feature does [not](advanced/dns-overview.md#why-shouldnt-i-us
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-All DNS products must support:
+All DNS products...
 
-- [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
-- [QNAME Minimization](advanced/dns-overview.md#what-is-qname-minimization).
-- Anonymizing [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) or disabling it by default.
+- Must support [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
+- Must support [QNAME Minimization](advanced/dns-overview.md#what-is-qname-minimization).
+- Must anonymize [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) or disable it by default.
 
-Additionally, all public providers:
+Additionally, all public providers...
 
 - Must not log any personal data to disk.
-    - As noted in our footnotes, some providers collect query information for purposes like security research, but in that case the data must not be associated with any PII such as IP address, etc.
+    - As noted in the footnotes, some providers collect query information for purposes like security research, but in that case the data must not be associated with any PII such as IP address, etc.
 - Should support [anycast](https://en.wikipedia.org/wiki/Anycast) or geo-steering.
