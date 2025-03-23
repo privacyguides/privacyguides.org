@@ -18,11 +18,15 @@ Services that require authentication can correlate your activity on that service
 
 ## History
 
-The onus for the creation of the Privacy Pass protocol originates in a common problem almost all internet users face: bots.
+The story of privacy pass begins with a pahttps://dl.acm.org/doi/pdf/10.1145/4372.4373per by David Chaum from 1985, in which he laments the ever-increasing data collection by companies and government agencies.
 
-### Bots
+It's funny that all the way back in 1985 he talks about the same issues we deal with today: persistent identifiers tied to our real identity for transactions, government ID's, etc.
 
+Chaum proposes three solutions to the state of affairs he describes.
 
+### Pseudorandom Identifiers
+
+Instead of persistent identifiers like we now have with our government ID's, credit cards, etc, Chaum suggests randomly generated identifiers. For example, you could have a one-time unique identifier for each transaction at a shop.
 
 ## Problems
 
