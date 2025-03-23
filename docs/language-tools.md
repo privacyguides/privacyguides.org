@@ -52,4 +52,4 @@ LanguageTool offers integration with a variety of [office suites](https://langua
 
 ### Best-Case
 
-- Should be possible to self-host.
+- Should be self-hostable.
