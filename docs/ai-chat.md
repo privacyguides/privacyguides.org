@@ -62,7 +62,7 @@ To help you choose a model that fits your needs, you can look at leaderboards an
 
 ![Kobold.cpp Logo](assets/img/ai-chat/kobold.png){align=right}
 
-Kobold.cpp is an AI client that runs locally on your Windows, Mac, or Linux computer. It's an excellent choice if you are looking for heavy customization and tweaking, such as for role-playing purposes.
+**Kobold.cpp** is an AI client that runs locally on your Windows, Mac, or Linux computer. It's an excellent choice if you are looking for heavy customization and tweaking, such as for role-playing purposes.
 
 In addition to supporting a large range of text models, Kobold.cpp also supports image generators such as [Stable Diffusion](https://stability.ai/stable-image) and automatic speech recognition tools such as [Whisper](https://github.com/ggerganov/whisper.cpp).
 
@@ -97,7 +97,7 @@ Kobold.cpp allows you to modify parameters such as the AI model temperature and 
 
 ![Ollama Logo](assets/img/ai-chat/ollama.png){align=right}
 
-Ollama is a command-line AI assistant that is available on macOS, Linux, and Windows. Ollama is a great choice if you're looking for an AI client that's easy-to-use, widely compatible, and fast due to its use of inference and other techniques. It also doesn't involve any manual setup.
+**Ollama** is a command-line AI assistant that is available on macOS, Linux, and Windows. Ollama is a great choice if you're looking for an AI client that's easy-to-use, widely compatible, and fast due to its use of inference and other techniques. It also doesn't involve any manual setup.
 
 In addition to supporting a wide range of text models, Ollama also supports [LLaVA](https://github.com/haotian-liu/LLaVA) models and has experimental support for Meta's [Llama vision capabilities](https://huggingface.co/blog/llama32#what-is-llama-32-vision).
 
@@ -125,7 +125,7 @@ Ollama simplifies the process of setting up a local AI chat by downloading the A
 
 ![Llamafile Logo](assets/img/ai-chat/llamafile.svg){align=right}
 
-Llamafile is a lightweight, single-file executable that allows users to run LLMs locally on their own computers without any setup involved. It is [backed by Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile) and available on Linux, macOS, and Windows.
+**Llamafile** is a lightweight, single-file executable that allows users to run LLMs locally on their own computers without any setup involved. It is [backed by Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile) and available on Linux, macOS, and Windows.
 
 Llamafile also supports LLaVA. However, it doesn't support speech recognition or image generation.
 
