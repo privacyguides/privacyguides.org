@@ -20,7 +20,7 @@ If you already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarde
 
 ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well. The maintainer of Send hosts a [public instance](https://send.vis.ee). You can use other public instances, or you can host Send yourself.
+**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well. The maintainer of Send hosts a [public instance](https://send.vis.ee). You can also use other public instances.
 
 [:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
@@ -73,59 +73,7 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 - Must be open-source software.
 - Must either have clients for Linux, macOS, and Windows; or have a web interface.
 
-## FreedomBox
-
-<div class="admonition recommendation" markdown>
-
-![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ align=right }
-
-**FreedomBox** is an operating system designed to be run on a [single-board computer (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). The purpose is to make it easy to set up server applications that you might want to self-host.
-
-[:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentation}
-[:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://freedomboxfoundation.org/donate){ .card-link title=Contribute }
-
-</details>
-
-</div>
-
 ## File Sync
-
-### Nextcloud (Client-Server)
-
-<div class="admonition recommendation" markdown>
-
-![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ align=right }
-
-**Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
-
-[:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribute }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
-- [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
-- [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
-- [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
-- [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
-
-</details>
-
-</div>
-
-<div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
-
-We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality.
-
-</div>
 
 ### Syncthing (P2P)
 
