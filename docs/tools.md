@@ -612,6 +612,16 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [Learn more :material-arrow-right-drop-circle:](real-time-communication.md)
 
+### Social Networks
+
+<div class="grid cards" markdown>
+
+- ![Mastodon logo](assets/img/social-networks/mastodon.svg){ .twemoji loading=lazy } [Mastodon](social-networks.md#mastodon)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](social-networks.md)
+
 ## Hardware
 
 ### Security Keys
