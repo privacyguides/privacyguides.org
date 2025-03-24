@@ -54,7 +54,15 @@ How do we ensure the psuedonyms can't be linked together? We already use cryptog
 
 ## Types of Transactions
 
-### 
+Chaum highlights three areas where this technology can be utilized.
+
+### Communication
+
+While current cryptographic techniques protect the content of our communications, metadata about who is contacting who is still mostly unprotected. 
+
+Personal information such as home addresses, names, and SSN are collected by telecommunication companies and can be used in combination with information about who contacts who to paint a very detailed picture of a person's social web and their activities over time. Chaum calls this data "tracing information".
+
+
 
 ## Problems
 
