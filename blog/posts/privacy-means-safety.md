@@ -183,4 +183,29 @@ As a community, we also have a responsibility to protect the most vulnerable peo
 
 And finally, as individuals, we share this duty of care and must all work on improving the way we protect our own data, but even more importantly, the data of everyone around us.
 
-Privacy means safety, for everyone.
+**Privacy means safety, for everyone.**
+
+--- 
+
+<div class="admonition info" markdown>
+<p class="admonition-title">Resources in the United States & Canada</p>
+
+If you or someone you know is in one of the situation described above, these additional resources might be able to help.
+
+**Important:** Make sure to take [appropriate measures](https://www.privacyguides.org/en/basics/threat-modeling/) for your data privacy before reaching out if you are in a sensitive situation requiring it. If you are in a high risk situation, you might want to contact these resources while using [Tor](https://www.privacyguides.org/en/advanced/tor-overview/) or [Tails](installing-and-using-tails.md).
+
+**Suicide & Crisis Support Line** :material-arrow-right-bold: [988 Lifeline](https://988lifeline.org/) Phone number: 988 (US & Canada)
+
+**Trans Peer Support** :material-arrow-right-bold: [Trans Lifeline Hotline](https://translifeline.org/hotline/) Phone number US: 1-877-565-8860 / Canada: 1-877-330-6366
+
+**Stalking Victim Support**  :material-arrow-right-bold: US: [SafeHorizon](https://www.safehorizon.org/get-help/stalking/) / Canada: [The Canadian Resource Centre for Victims of Crime](https://crcvc.ca/wp-content/uploads/2021/09/Cyberstalking-_DISCLAIMER_Revised-Aug-2022_FINAL.pdf)
+
+**Domestic Violence Victim Support** :material-arrow-right-bold: US: [The National Domestic Violence Hotline](https://www.thehotline.org/) Phone number: 1-800-799-7233 / Canada: [Canadian resources by situation and province](https://www.canada.ca/en/public-health/services/health-promotion/stop-family-violence/services.html)
+
+**Reproductive Rights & Healthcare** :material-arrow-right-bold: US: [Planned Parenthood](https://www.plannedparenthood.org/) / Canada: [Action Canada for Sexual Health & Rights](https://www.actioncanadashr.org/resources/services)
+
+**Journalists and Whistleblowers** :material-arrow-right-bold: US: [Freedom or the Press Foundation Guides & Resources](https://freedom.press/digisec/guides/) / Canada: [Canadian Association of Journalists](https://caj.ca/advocacy/digital-security/)
+
+**Protesters** :material-arrow-right-bold: [The Protesters' Guide to Smartphone Security](activists-guide-securing-your-smartphone.md)
+
+</div>
