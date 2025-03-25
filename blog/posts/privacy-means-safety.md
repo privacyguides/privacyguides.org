@@ -33,17 +33,19 @@ This isn't a hypothetical situation. There has been many tragic events where peo
 
 ### Children
 
-The data of children is something our society should be much more invested in protecting, yet most new legislation [proposed](the-future-of-privacy.md#chat-control-wants-to-break-end-to-end-encryption) or [passed](the-future-of-privacy.md#age-verification-wants-to-collect-your-sensitive-data) to supposedly protect the children are doing *the complete opposite*, **endangering everyone's data, including the children's**.
+The data of children is something our society should be much more invested in protecting, yet most new legislation [proposed](the-future-of-privacy.md#chat-control-wants-to-break-end-to-end-encryption) or [passed](the-future-of-privacy.md#age-verification-wants-to-collect-your-sensitive-data) to supposedly protect the children are doing the complete *opposite*, endangering everyone's data, *including* the children's.
 
 As for the data protection we already have, they are insufficient to protect most people's data, also including the children's.
 
-In 2020, the Irish child and family agency, Tusla, was fined €75,000 for a breach of the General Data Protection Regulation (GDPR). Investigation [revealed](https://www.irishtimes.com/news/crime-and-law/tusla-becomes-first-organisation-fined-for-gdpr-rule-breach-1.4255692) three instances where data about children had been negligently disclosed to unauthorized parties. In one case, the location and contact information of a mother and child was revealed to an alleged abuser.  In another case, the agency neglectfully [provided](https://www.irishtimes.com/ireland/social-affairs/2025/03/04/abusers-using-data-protection-law-to-get-details-on-victims/) the address of a child and the mother's phone number to a man accused of child sexual abuse.
+In 2020, the Irish child and family agency, Tusla, was fined €75,000 for a breach of the General Data Protection Regulation (GDPR). Investigation [revealed](https://www.irishtimes.com/news/crime-and-law/tusla-becomes-first-organisation-fined-for-gdpr-rule-breach-1.4255692) three instances where data about children had been negligently disclosed to unauthorized parties.
+
+In one case, the location and contact information of a mother and child was revealed to an alleged abuser. In another, the agency neglectfully [provided](https://www.irishtimes.com/ireland/social-affairs/2025/03/04/abusers-using-data-protection-law-to-get-details-on-victims/) the address of a child and the mother's phone number to a man accused of child sexual abuse.
 
 Such data leaks should never be tolerated. Sadly, much stronger fines will be required to stop organizations from being so dangerously careless.
 
-In 2018, an incredibly unfortunate 12-year-old gamer and his mother were both likely [traumatized for life](https://www.pcgamesn.com/fortnite/fortnite-stream-swatting) by a violent [swatting attack](https://en.wikipedia.org/wiki/Swatting) when the child's home address was exposed online. The outcome of this horrible attack could have ended much more tragically. The story doesn't precise how the child's address was found.
+In 2018, an incredibly unfortunate 12-year-old gamer and his mother were both likely [traumatized for life](https://www.pcgamesn.com/fortnite/fortnite-stream-swatting) by a violent [swatting attack](https://en.wikipedia.org/wiki/Swatting) when the child's home address was exposed online. The outcome of this horrible attack could have ended much more tragically. The story doesn't explain how the child's address was found.
 
-Swatting attacks have become such a problem in the United States ([see below](#mistaken-identity)) that the Federal Bureau of Investigation (FBI) recently [created](https://www.nbcnews.com/news/us-news/fbi-formed-national-database-track-prevent-swatting-rcna91722) a national database to help track and prevent such attacks.
+Swatting attacks have become such a [problem](#mistaken-identity) in the United States that the Federal Bureau of Investigation (FBI) recently [created](https://www.nbcnews.com/news/us-news/fbi-formed-national-database-track-prevent-swatting-rcna91722) a national database to help track and prevent such attacks.
 
 ### Victims of stalkers
 
