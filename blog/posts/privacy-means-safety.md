@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2025-03-21T17:00:00Z
+    created: 2025-03-25T20:30:00Z
 categories:
     - Opinion
 authors:
@@ -33,11 +33,11 @@ This isn't a hypothetical situation. There has been many tragic events where peo
 
 ### Children
 
-Children data is something our society should be much more invested in protecting, yet most new legislation [proposed](the-future-of-privacy.md#chat-control-wants-to-break-end-to-end-encryption) or [passed](the-future-of-privacy.md#age-verification-wants-to-collect-your-sensitive-data) to supposedly protect the children are doing *the complete opposite*, **endangering everyone's data, including the children's**.
+The data of children is something our society should be much more invested in protecting, yet most new legislation [proposed](the-future-of-privacy.md#chat-control-wants-to-break-end-to-end-encryption) or [passed](the-future-of-privacy.md#age-verification-wants-to-collect-your-sensitive-data) to supposedly protect the children are doing *the complete opposite*, **endangering everyone's data, including the children's**.
 
 As for the data protection we already have, they are insufficient to protect most people's data, also including the children's.
 
-In 2020, the Irish child and family agency, Tusla, was fined €75,000 for a breach of the General Data Protection Regulation (GDPR). Investigation [revealed](https://www.irishtimes.com/news/crime-and-law/tusla-becomes-first-organisation-fined-for-gdpr-rule-breach-1.4255692) three instances where data about children had been negligently disclosed to unauthorized parties. In one case, the ==location and contact information== of a mother and child was revealed to an alleged abuser.  In another case, the agency neglectfully [*provided*](https://www.irishtimes.com/ireland/social-affairs/2025/03/04/abusers-using-data-protection-law-to-get-details-on-victims/) the ==address== of a child and the mother's ==phone number== to a man accused of child sexual abuse.
+In 2020, the Irish child and family agency, Tusla, was fined €75,000 for a breach of the General Data Protection Regulation (GDPR). Investigation [revealed](https://www.irishtimes.com/news/crime-and-law/tusla-becomes-first-organisation-fined-for-gdpr-rule-breach-1.4255692) three instances where data about children had been negligently disclosed to unauthorized parties. In one case, the ==location and contact information== of a mother and child was revealed to an alleged abuser.  In another case, the agency neglectfully [provided](https://www.irishtimes.com/ireland/social-affairs/2025/03/04/abusers-using-data-protection-law-to-get-details-on-victims/) the ==address== of a child and the mother's ==phone number== to a man accused of child sexual abuse.
 
 Such data leaks should never be tolerated. Sadly, much stronger fines will be required to stop organizations from being so dangerously careless.
 
@@ -185,7 +185,7 @@ And finally, as individuals, we share this duty of care and must all work on imp
 
 **Privacy means safety, for everyone.**
 
---- 
+---
 
 <div class="admonition info" markdown>
 <p class="admonition-title">Resources in the United States & Canada</p>
