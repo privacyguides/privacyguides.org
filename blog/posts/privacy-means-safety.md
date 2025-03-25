@@ -2,11 +2,11 @@
 date:
     created: 2025-03-25T20:30:00Z
 categories:
-    - Opinion
+    - News
 authors:
     - em
 description: Privacy is a human right that should be granted to everyone, no matter the reason. That being said, it's also important to remember that for millions of people around the world, data privacy is crucial for physical safety. For people in extreme situations, privacy can literally mean life or death.
-schema_type: OpinionNewsArticle
+schema_type: NewsArticle
 ---
 # Privacy Means Safety
 
@@ -55,7 +55,9 @@ Unfortunately, this kind of horrifying situation isn't rare.
 
 The danger to victims of online stalkers should never be minimized. Stalking and harassment are serious crimes that should be reported and severely punished. Overlooking these offenses is being ignorant to how quickly the consequences of such crimes can escalate.
 
-In 2019, a 21-year-old Japanese pop star got stalked and sexually [assaulted](https://www.bbc.co.uk/news/world-asia-50000234) by a man who found her location from a picture she posted online. The photo had such high definition that the perpetrator was able to see and identify a specific train station that was visible *through a reflection in the singer's eyes*. The aggressor also gathered information about the victim's home by examining the photos she posted from her apartment to determine the exact unit location. He then went to the train station he identified from the photo, waited for her, and followed her home.
+In 2019, a 21-year-old Japanese pop star got stalked and sexually [assaulted](https://www.bbc.co.uk/news/world-asia-50000234) by a man who found her location from a picture she posted online. The photo had such high definition that the perpetrator was able to see and identify a specific train station that was visible *through a reflection in the singer's eyes*.
+
+The aggressor also gathered information about the victim's home by examining the photos she posted from her apartment to determine the exact unit location. He then went to the train station he identified from the photo, waited for her, and followed her home.
 
 In 2023, a podcast host and her husband were [killed](https://www.nbcnews.com/news/us-news/podcast-host-killed-stalker-deep-seated-fear-safety-records-reveal-rcna74842) by an online stalker. Despite having requested a protection order against the murderer, and despite blocking his phone number and social media accounts, after months of intense harassment online, the man eventually found the podcaster's home address, broke in, and fatally shot her and her husband.
 
@@ -65,27 +67,33 @@ Victims of domestic violence are at an elevated risk of severe or even fatal rep
 
 Things as banal as exposing someone's license plate, or posting online a photo taken in a public space could literally get a person in such situation killed.
 
-Moreover, some abusers are [weaponizing](https://www.irishtimes.com/ireland/social-affairs/2025/03/04/abusers-using-data-protection-law-to-get-details-on-victims/) subject access requests in an attempt to find the location of the victims fleeing them. It is imperative to ensure that data access legislation cannot be misused in such a dangerous way. Data legally shared with a subject should never lead to the harm of someone else.
+Moreover, some abusers are [weaponizing](https://www.irishtimes.com/ireland/social-affairs/2025/03/04/abusers-using-data-protection-law-to-get-details-on-victims/) subject access requests in an attempt to find the location of the victims fleeing them.
 
-In another instance, a woman who was raped by a former partner was unable to safely receive counseling care because the notes from her counseling sessions could have been [shared](https://www.irishtimes.com/crime-law/courts/2025/01/17/calls-for-law-to-be-changed-to-end-access-to-rape-victims-counselling-notes/) in court with the perpetrator. Data privacy regulations should protect such sensitive data from being shared without explicit and free consent from the patient.
+It is imperative to ensure that data access legislation cannot be misused in such a dangerous way. Data legally shared with a subject should never lead to the harm of someone else.
+
+In another instance, a woman who was raped by a former partner was unable to safely receive counseling care because the notes from her counseling sessions could have been [shared](https://www.irishtimes.com/crime-law/courts/2025/01/17/calls-for-law-to-be-changed-to-end-access-to-rape-victims-counselling-notes/) in court with the perpetrator.
+
+Data privacy regulations should protect such sensitive data from being shared without explicit and free consent from the patient.
 
 ### Healthcare seekers
 
-People seeking essential healthcare in adverse jurisdictions can get prosecuted when their private communications or locations are intercepted.
+People seeking essential healthcare in adverse jurisdictions can be prosecuted when their private communications or locations are intercepted.
 
-In 2023, a mother from Nebraska (US) was arrested and criminally [charged](https://www.theverge.com/2023/7/11/23790923/facebook-meta-woman-daughter-guilty-abortion-nebraska-messenger-encryption-privacy) after she helped her 17-year-old daughter getting an abortion. The woman was arrested partly based on the Facebook messages she exchanged with her daughter discussing medication for the abortion. Police obtained a copy of the private Facebook conversation by serving a warrant to Meta, which the company quickly complied with.
+In 2023, a mother from Nebraska (US) was arrested and criminally [charged](https://www.theverge.com/2023/7/11/23790923/facebook-meta-woman-daughter-guilty-abortion-nebraska-messenger-encryption-privacy) after she helped her 17-year-old daughter get an abortion.
+
+The woman was arrested partly based on the Facebook messages she exchanged with her daughter discussing medication for the abortion. Police obtained a copy of the private Facebook conversation by serving a warrant to Meta, which the company quickly complied with.
 
 ### Whistleblowers and activists
 
 Whistleblowers and activists are at especially high risk of harm, particularly if they have publicly opposed or exposed oppressive regimes or criminal groups.
 
-Governments around the world, more so for authoritarian ones, have been increasingly using [social media monitoring](https://privacyinternational.org/long-read/5337/social-media-monitoring-uk-invisible-surveillance-tool-increasingly-deployed) to track, identify, and persecute critics, activists, and journalists.
+Governments around the world, especially more authoritarian ones, have been increasingly [monitoring social media](https://privacyinternational.org/long-read/5337/social-media-monitoring-uk-invisible-surveillance-tool-increasingly-deployed) to track, identify, and persecute critics, activists, and journalists.
 
 Authorities have also been mandating direct collaboration from service providers to arrest activists. In 2012, a French climate activist was [arrested](https://techcrunch.com/2021/09/06/protonmail-logged-ip-address-of-french-activist-after-order-by-swiss-authorities/) after Proton Mail was legally [compelled](https://proton.me/blog/climate-activist-arrest) by Swiss laws to log and share the activist's IP address with authorities.
 
 In 2017, a 25-year-old working for the American National Security Agency (NSA) as a contractor was arrested after she was [identified](https://arstechnica.com/information-technology/2017/06/how-a-few-yellow-dots-burned-the-intercepts-nsa-leaker/) as the whistleblower who leaked a report about Russian electoral interference in the United States.
 
-The whistleblower had mailed the classified document to The Intercept anonymously. However, when the news organization tried to confirm the authenticity of the document with the NSA, the agency was able to determine which printer was used to print this copy, and from there de-anonymized [Reality Winner](https://en.wikipedia.org/wiki/Reality_Winner). The technique used to track the document was the reading of almost invisible [printer tracking dots](https://en.wikipedia.org/wiki/Printer_tracking_dots) that many laser printers and photocopiers produce on all printed documents.
+The whistleblower had mailed the classified document to The Intercept anonymously. However, when the news organization tried to confirm the authenticity of the document with the NSA, the agency was able to determine which printer was used to print this copy, and from there deanonymized [Reality Winner](https://en.wikipedia.org/wiki/Reality_Winner). The technique used to track the document was the reading of almost invisible [printer tracking dots](https://en.wikipedia.org/wiki/Printer_tracking_dots) that many laser printers and photocopiers produce on all printed documents.
 
 This year on March 7th, community activist and whistleblower Pamela Mabini was [shot and killed](https://www.hrw.org/news/2025/03/11/activist-and-whistleblower-killed-south-africa) just outside her home in South Africa. She was an activist working with the [Maro Foundation](https://www.dailydispatch.co.za/local-heroes/2023-07-10-helping-others-is-the-reason-for-pamela-mabinis-smile/), a nonprofit organization dedicated to fighting poverty and gender-based violence.
 
@@ -95,11 +103,11 @@ Mabini's murder has sparked a debate on the importance of protections offered to
 
 Trans and queer activists are at elevated risk of harassment online in today's political climate. In 2022, 28-year-old trans activist Clara Sorrenti was victim of a swatting attack after police believed a fake report about violent threats made by her aggressor.
 
-She was arrested at gunpoint by the police, handcuffed, had her electronic devices seized, and her apartment searched for eight hours for non-existing evidences. The aggressor who made the false threats to harm her [provided](https://www.cbc.ca/news/canada/london/trans-twitch-star-arrested-at-gunpoint-fears-for-life-after-someone-sent-police-to-her-london-ont-home-1.6546015) her name and home address to police.
+She was arrested at gunpoint by the police, handcuffed, had her electronic devices seized, and her apartment searched for eight hours for non-existent evidence. The aggressor who made the false threats had [provided](https://www.cbc.ca/news/canada/london/trans-twitch-star-arrested-at-gunpoint-fears-for-life-after-someone-sent-police-to-her-london-ont-home-1.6546015) her name and home address to police.
 
 ### Journalists
 
-Journalists around the world can become vulnerable to attacks even from governments when they report on oppressive regimes. This kind of situation can be extremely dangerous considering the almost unlimited resources state-backed attackers can have to identify, track, and persecute their victims.
+Journalists around the world can become vulnerable to attacks even from governments when they report on oppressive regimes. This kind of situation can be extremely dangerous, considering the almost unlimited resources state-backed attackers can have to identify, track, and persecute their victims.
 
 In 2018, the prominent journalist and critic of Saudi Arabia's government Jamal Khashoggi was [murdered](https://www.bbc.co.uk/news/world-europe-45812399). Despite being based in the United States, the journalist traveled to Istanbul's Saudi consulate in Turkey to pick up official documents. Khashoggi was killed inside the consulate a few days later on October 2nd.
 
@@ -143,7 +151,7 @@ Digital traces of the personal data that was exposed during the attacks will lik
 
 The 26-year-old American who incorrectly identified the Australian girl and shared her name and social media accounts online later apologized for his mistake.
 
-## How data find its way to an aggressor
+## How data finds its way to an aggressor
 
 ### Targeted research, attack, and spyware
 
@@ -155,19 +163,19 @@ Data can be stolen maliciously in all sort of ways, but even more often and comm
 
 Once data is leaked online, it will likely become accessible to anyone looking for it eventually. Additionally, any data breach happening now has the potential to endanger someone years down the line. Perhaps it's a home address that has not changed in years, a phone number used for a decade, a legal name, a photograph, or even a [medical file](https://krebsonsecurity.com/2024/04/man-who-mass-extorted-psychotherapy-patients-gets-six-years/).
 
-Unfortunately, the [data broker](https://www.eff.org/deeplinks/2021/07/data-brokers-are-problem) industry thrives on bundling up all this data together in neat packages to be sold to anyone looking for it, making any attacker's job much easier.
+Unfortunately, the data broker industry thrives on bundling up all this data together in neat packages to be sold to anyone looking for it, making any attacker's job much easier.
 
 #### Unencrypted data
 
 When the data leaked or stolen is well encrypted, the [risk is reduced](https://www.maketecheasier.com/how-secure-stolen-encrypted-data/). If the leaked data cannot be decrypted easily, this will greatly mitigate the damage done by a breach. Conversely, unencrypted leaked data will always inflict maximum damage.
 
-This is why we should demand that all the services we use implement strong encryption, and, everywhere possible, [end-to-end encryption](https://www.howtogeek.com/711656/what-is-end-to-end-encryption-and-why-does-it-matter/).
+This is why we should demand that all the services we use implement strong, *end-to-end* encryption wherever possible.
 
 ### Obliviously shared without consent
 
 Sometimes, the data endangering someone isn't leaked negligently or stolen maliciously, but simply shared by a friend or a family member oblivious to the danger.
 
-This is [a cultural problem we all need to work on](the-privacy-of-others.md) to fix.
+This is [a cultural problem we all need to work on](the-privacy-of-others.md).
 
 Despite all the technological protections we can put on data, and despite all the regulations we can ask organizations to comply with, if our culture doesn't understand the danger of sharing the data of others, we will fail to protect the most vulnerable people in our society.
 
@@ -192,9 +200,7 @@ And finally, as individuals, we share this duty of care and must all work on imp
 <div class="admonition info" markdown>
 <p class="admonition-title">Resources in the United States & Canada</p>
 
-If you or someone you know is in one of the situation described above, these additional resources might be able to help.
-
-**Important:** Make sure to take [appropriate measures](https://www.privacyguides.org/en/basics/threat-modeling/) for your data privacy before reaching out if you are in a sensitive situation requiring it. If you are in a high risk situation, you might want to contact these resources while using [Tor](https://www.privacyguides.org/en/advanced/tor-overview/) or [Tails](installing-and-using-tails.md).
+If you or someone you know is in one of the situations described above, these additional resources may help. Make sure to take [appropriate measures](https://www.privacyguides.org/en/basics/threat-modeling/) to protect your privacy if your situation is sensitive. If you are in a high risk situation, you might want to access these resources using [Tor](https://www.privacyguides.org/en/advanced/tor-overview/) or [Tails](installing-and-using-tails.md).
 
 **Suicide & Crisis Support Line** :material-arrow-right-bold: [988 Lifeline](https://988lifeline.org/) Phone number: 988 (US & Canada)
 
