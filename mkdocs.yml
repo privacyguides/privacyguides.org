@@ -393,11 +393,6 @@ nav:
               - "os/windows/group-policies.md"
   - !ENV [NAV_RECOMMENDATIONS, "Recommendations"]:
       - "tools.md"
-      - !ENV [NAV_INTERNET_BROWSING, "Internet Browsing"]:
-          - "tor.md"
-          - "desktop-browsers.md"
-          - "mobile-browsers.md"
-          - "browser-extensions.md"
       - !ENV [NAV_PROVIDERS, "Providers"]:
           - "cloud.md"
           - "cryptocurrency.md"
@@ -410,11 +405,16 @@ nav:
           - "search-engines.md"
           - "vpn.md"
       - !ENV [NAV_SOFTWARE, "Software"]:
+          - !ENV [NAV_INTERNET_BROWSING, "Internet Browsing"]:
+              - "tor.md"
+              - "desktop-browsers.md"
+              - "mobile-browsers.md"
+              - "browser-extensions.md"
           - !ENV [NAV_TECH_ESSENTIALS, "Tech Essentials"]:
-              - "encryption.md"
-              - "multi-factor-authentication.md"
               - "passwords.md"
+              - "multi-factor-authentication.md"
               - "real-time-communication.md"
+              - "encryption.md"
           - !ENV [NAV_PRODUCTIVITY, "Productivity"]:
               - "calendar.md"
               - "document-collaboration.md"
@@ -422,7 +422,7 @@ nav:
               - "language-tools.md"
               - "notebooks.md"
               - "office-suites.md"
-          - !ENV [NAV_MEDIA, "Media Consumption/Sharing"]:
+          - !ENV [NAV_MEDIA, "Media"]:
               - "file-sharing.md"
               - "frontends.md"
               - "news-aggregators.md"
