@@ -2,11 +2,11 @@
 date:
     created: 2025-03-10T20:00:00Z
 categories:
-    - Opinion
+    - Explainers
 authors:
     - em
 description: In privacy, we talk a lot about how to protect our own data, but what about our responsibility to protect the data of others? If you care about privacy rights, you must also care for the data of the people around you. Together, we must start building a culture of data privacy where everyone cares for the data of others.
-schema_type: OpinionNewsArticle
+schema_type: NewsArticle
 ---
 # Privacy is Also Protecting the Data of Others
 
