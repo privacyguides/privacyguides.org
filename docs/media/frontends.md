@@ -288,7 +288,7 @@ We only consider frontends if one of the following is true for a platform:
 
 - Normally only accessible with JavaScript enabled.
 - Normally only accessible with an account.
-- Blocks access from commercial [VPNs](vpn.md).
+- Blocks access from commercial [VPNs](../vpn.md).
 
 Recommended frontends...
 
