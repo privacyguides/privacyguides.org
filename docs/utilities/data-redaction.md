@@ -7,7 +7,7 @@ cover: data-redaction.webp
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information){ .pg-green }
+- [:material-account-search: Public Exposure](../basics/common-threats.md#limiting-public-information){ .pg-green }
 
 When sharing files, be sure to remove associated metadata. Image files commonly include [Exif](https://en.wikipedia.org/wiki/Exif) data. Photos sometimes even include GPS coordinates in the file metadata.
 
@@ -22,7 +22,7 @@ You should **never** use blur to redact [text in images](https://bishopfox.com/b
 
 <div class="admonition recommendation" markdown>
 
-![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
+![MAT2 logo](../assets/img/data-redaction/mat2.svg){ align=right }
 
 **MAT2** is free, cross-platform software which allows you to remove metadata from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
 
@@ -46,7 +46,7 @@ You should **never** use blur to redact [text in images](https://bishopfox.com/b
 
 <div class="admonition recommendation" markdown>
 
-![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ align=right }
+![ExifEraser logo](../assets/img/data-redaction/exiferaser.svg){ align=right }
 
 **ExifEraser** is a modern, permissionless image metadata erasing application for Android.
 
@@ -97,7 +97,7 @@ This shortcut removes metadata such as location, device model, lens model, and o
 
 <div class="admonition recommendation" markdown>
 
-![ExifTool logo](assets/img/data-redaction/exiftool.png){ align=right }
+![ExifTool logo](../assets/img/data-redaction/exiftool.png){ align=right }
 
 **ExifTool** is the original Perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
 
@@ -130,7 +130,7 @@ exiftool -all= *.file_extension
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 - Apps developed for open-source operating systems must be open source.
 - Apps must be free and should not include ads or other limitations.
