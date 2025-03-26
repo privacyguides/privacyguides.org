@@ -6,8 +6,8 @@ cover: calendar.webp
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-server-network: Service Providers](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
 **Calendars** contain some of your most sensitive data; use products that implement E2EE at rest to prevent a provider from reading them.
 
@@ -15,8 +15,8 @@ cover: calendar.webp
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
-![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Tuta logo](../assets/img/email/tuta.svg#only-light){ align=right }
+![Tuta logo](../assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
 **Tuta** offers a free and encrypted calendar across their supported platforms. Features include: automatic E2EE of all data, sharing features, import/export functionality, multifactor authentication, and [more](https://tuta.com/calendar-app-comparison).
 
@@ -47,7 +47,7 @@ Multiple calendars and extended sharing functionality is limited to paid subscri
 
 <div class="admonition recommendation" markdown>
 
-![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
+![Proton](../assets/img/calendar/proton-calendar.svg){ align=right }
 
 **Proton Calendar** is an encrypted calendar service available to Proton members via web or mobile clients. Features include: automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide). Those on the free tier gain access to 3 calendars, whereas paid subscribers can create up to 25 calendars. Extended sharing functionality is also limited to paid subscribers.
 
@@ -71,7 +71,7 @@ Unfortunately, as of August 2024 Proton has [still](https://discuss.privacyguide
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 ### Minimum Qualifications
 
