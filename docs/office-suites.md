@@ -6,7 +6,7 @@ cover: office-suites.webp
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-server-network: Service Providers](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
 Choose an **office suite** that does not require logging in to an account to access its full functionality. The tools listed here can be used offline and could reasonably act as a replacement for Microsoft Office for most needs.
 
@@ -14,7 +14,7 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 <div class="admonition recommendation" markdown>
 
-![LibreOffice logo](assets/img/office-suites/libreoffice.svg){ align=right }
+![LibreOffice logo](../assets/img/office-suites/libreoffice.svg){ align=right }
 
 **LibreOffice** is a free and open-source office suite with extensive functionality.
 
@@ -42,7 +42,7 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 <div class="admonition recommendation" markdown>
 
-![OnlyOffice logo](assets/img/office-suites/onlyoffice.svg){ align=right }
+![OnlyOffice logo](../assets/img/office-suites/onlyoffice.svg){ align=right }
 
 **OnlyOffice** is a cloud-based free and open-source office suite with extensive functionality, including integration with Nextcloud.
 
@@ -67,7 +67,7 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 - Must be cross-platform.
 - Must be open-source software.
