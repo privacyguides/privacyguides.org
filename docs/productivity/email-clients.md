@@ -9,7 +9,7 @@ cover: email-clients.webp
 - [:material-server-network: Service Providers](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 - [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
-The **email clients** we recommend support both [OpenPGP](../encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth allows you to use [Multi-Factor Authentication](../basics/multi-factor-authentication.md) to prevent account theft.
+The **email clients** we recommend support both [OpenPGP](../essentials/encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth allows you to use [Multi-Factor Authentication](../basics/multi-factor-authentication.md) to prevent account theft.
 
 <details class="warning" markdown>
 <summary>Email does not provide forward secrecy</summary>
@@ -18,7 +18,7 @@ When using end-to-end encryption (E2EE) technology like OpenPGP, email will stil
 
 OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](../basics/email-security.md) Consider using a medium that provides forward secrecy:
 
-[Real-time Communication](../real-time-communication.md){ .md-button }
+[Real-time Communication](../essentials/real-time-communication.md){ .md-button }
 
 </details>
 
@@ -91,7 +91,7 @@ These options can be found in :material-menu: → **Settings** → **Privacy & S
 
 ![Apple Mail logo](../assets/img/email-clients/applemail.png){ align=right }
 
-**Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](../encryption.md#gpg-suite), which adds the ability to send PGP-encrypted email.
+**Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](../essentials/encryption.md#gpg-suite), which adds the ability to send PGP-encrypted email.
 
 [:octicons-home-16: Homepage](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/en-ww){ .card-link title="Privacy Policy" }
