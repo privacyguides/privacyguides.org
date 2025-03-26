@@ -9,7 +9,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Tor Browser
-    image: /assets/img/browsers/tor.svg
+    image: ../assets/img/browsers/tor.svg
     url: https://torproject.org
     sameAs: https://en.wikipedia.org/wiki/Tor_(network)
     applicationCategory: Web Browser
@@ -50,7 +50,7 @@ If more complete anonymity is paramount to your situation, you should **only** b
 
 <div class="admonition recommendation" markdown>
 
-![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
+![Tor Browser logo](../assets/img/browsers/tor.svg){ align=right }
 
 **Tor Browser** is the choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
@@ -88,7 +88,7 @@ In addition to installing Tor Browser on your computer directly, there are also 
 
 <div class="admonition recommendation" markdown>
 
-![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
+![Orbot logo](../assets/img/self-contained-networks/orbot.svg){ align=right }
 
 **Orbot** is a free Tor VPN for smartphones which routes traffic from any app on your device through the Tor network.
 
@@ -128,7 +128,7 @@ On iOS, Orbot has some limitations that could potentially cause crashes or leaks
 
 <div class="admonition recommendation" markdown>
 
-![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
+![Onion Browser logo](../assets/img/self-contained-networks/onion_browser.svg){ align=right }
 
 **Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser). [:material-star-box: Read our latest Onion Browser review.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review/)
 
