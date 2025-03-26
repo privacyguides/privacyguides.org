@@ -7,12 +7,12 @@ cover: real-time-communication.webp
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
-- [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+- [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-server-network: Service Providers](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-eye-outline: Mass Surveillance](../basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
+- [:material-account-cash: Surveillance Capitalism](../basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-These are our recommendations for encrypted **real-time communication**. These come in the form of many [types of communication networks](./advanced/communication-network-types.md).
+These are our recommendations for encrypted **real-time communication**. These come in the form of many [types of communication networks](../advanced/communication-network-types.md).
 
 [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why/){ .md-button }
 
@@ -24,7 +24,7 @@ These messengers are great for securing your sensitive communications.
 
 <div class="admonition recommendation" markdown>
 
-![Signal logo](assets/img/messengers/signal.svg){ align=right }
+![Signal logo](../assets/img/messengers/signal.svg){ align=right }
 
 **Signal** is a mobile app developed by Signal Messenger LLC. The app provides instant messaging and calls secured with the Signal Protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
 
@@ -74,7 +74,7 @@ If you use Android and your threat model requires protecting against [:material-
 
 <div class="admonition recommendation" markdown>
 
-![Molly logo](assets/img/messengers/molly.svg){ align=right }
+![Molly logo](../assets/img/messengers/molly.svg){ align=right }
 
 **Molly** is an alternative Signal client for Android which allows you to encrypt the local database with a passphrase at rest, to have unused RAM data securely shredded, to route your connection via Tor, and [more](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). It also has usability improvements including scheduled backups, automatic locking, [UnifiedPush](https://unifiedpush.org) support, and the ability to use your Android phone as a linked device instead of the primary device for a Signal account.
 
@@ -109,9 +109,9 @@ Molly and Molly-FOSS support [reproducible builds](https://github.com/mollyim/mo
 
 <div class="admonition recommendation" markdown>
 
-![Simplex logo](assets/img/messengers/simplex.svg){ align=right }
+![Simplex logo](../assets/img/messengers/simplex.svg){ align=right }
 
-**SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
+**SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against [:material-close-outline: Censorship](../basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
 [:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://simplex.chat/privacy){ .card-link title="Privacy Policy" }
@@ -144,9 +144,9 @@ SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/
 
 <div class="admonition recommendation" markdown>
 
-![Briar logo](assets/img/messengers/briar.svg){ align=right }
+![Briar logo](../assets/img/messengers/briar.svg){ align=right }
 
-**Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the Tor Network, making it an effective tool at circumventing [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
+**Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the Tor Network, making it an effective tool at circumventing [:material-close-outline: Censorship](../basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
 
 [:octicons-home-16: Homepage](https://briarproject.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Privacy Policy" }
@@ -187,7 +187,7 @@ These messengers do not have forward secrecy[^1], and while they fulfill certain
 
 <div class="admonition recommendation" markdown>
 
-![Element logo](assets/img/messengers/element.svg){ align=right }
+![Element logo](../assets/img/messengers/element.svg){ align=right }
 
 **Element** is the flagship client for the [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im) protocol, an [open standard](https://spec.matrix.org/latest) for secure decentralized real-time communication.
 
@@ -225,7 +225,7 @@ The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matr
 
 <div class="admonition recommendation" markdown>
 
-![Session logo](assets/img/messengers/session.svg){ align=right }
+![Session logo](../assets/img/messengers/session.svg){ align=right }
 
 **Session** is a decentralized messenger with a focus on private, secure, and anonymous communications. Session offers support for direct messages, group chats, and voice calls.
 
@@ -262,7 +262,7 @@ Session has a [white paper](https://arxiv.org/pdf/2002.04609.pdf) describing the
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 ### Minimum Requirements
 
@@ -279,7 +279,7 @@ Our best-case criteria represents what we would like to see from the perfect pro
 - Supports forward secrecy[^1]
 - Supports Future Secrecy (Post-Compromise Security)[^2]
 - Has open-source servers.
-- Decentralized, i.e. [federated or P2P](advanced/communication-network-types.md).
+- Decentralized, i.e. [federated or P2P](../advanced/communication-network-types.md).
 - Uses E2EE for all messages by default.
 - Supports Linux, macOS, Windows, Android, and iOS.
 
