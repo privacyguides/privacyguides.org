@@ -7,9 +7,9 @@ cover: ai-chatbots.webp
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
-- [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
+- [:material-server-network: Service Providers](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-account-cash: Surveillance Capitalism](../basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+- [:material-close-outline: Censorship](../basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 
 Since the release of ChatGPT in 2022, interactions with Large Language Models (LLMs) have become increasingly common. LLMs can help us write better, understand unfamiliar subjects, or answer a wide range of questions. They can statistically predict the next word based on a vast amount of data scraped from the web.
 
@@ -60,7 +60,7 @@ To help you choose a model that fits your needs, you can look at leaderboards an
 
 <div class="admonition recommendation" markdown>
 
-![Kobold.cpp Logo](assets/img/ai-chat/kobold.png){align=right}
+![Kobold.cpp Logo](../assets/img/ai-chat/kobold.png){align=right}
 
 Kobold.cpp is an AI client that runs locally on your Windows, Mac, or Linux computer. It's an excellent choice if you are looking for heavy customization and tweaking, such as for role-playing purposes.
 
@@ -95,7 +95,7 @@ Kobold.cpp allows you to modify parameters such as the AI model temperature and 
 
 <div class="admonition recommendation" markdown>
 
-![Ollama Logo](assets/img/ai-chat/ollama.png){align=right}
+![Ollama Logo](../assets/img/ai-chat/ollama.png){align=right}
 
 Ollama is a command-line AI assistant that is available on macOS, Linux, and Windows. Ollama is a great choice if you're looking for an AI client that's easy-to-use, widely compatible, and fast due to its use of inference and other techniques. It also doesn't involve any manual setup.
 
@@ -123,7 +123,7 @@ Ollama simplifies the process of setting up a local AI chat by downloading the A
 
 <div class="admonition recommendation" markdown>
 
-![Llamafile Logo](assets/img/ai-chat/llamafile.svg){align=right}
+![Llamafile Logo](../assets/img/ai-chat/llamafile.svg){align=right}
 
 Llamafile is a lightweight single-file executable that allows users to run LLMs locally on their own computers without any setup involved. It is [backed by Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile) and available on Linux, macOS, and Windows.
 
@@ -166,7 +166,7 @@ A downloaded model is generally safe if it satisfies all the above checks.
 
 ## Criteria
 
-Please note we are not affiliated with any of the projects we recommend. In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project and conduct your own research to ensure it's the right choice for you.
+Please note we are not affiliated with any of the projects we recommend. In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project and conduct your own research to ensure it's the right choice for you.
 
 ### Minimum Requirements
 
