@@ -15,7 +15,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Mullvad Browser
-    image: /assets/img/browsers/mullvad_browser.svg
+    image: ../assets/img/browsers/mullvad_browser.svg
     url: https://mullvad.net/en/browser
     applicationCategory: Web Browser
     operatingSystem:
@@ -29,7 +29,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Firefox
-    image: /assets/img/browsers/firefox.svg
+    image: ../assets/img/browsers/firefox.svg
     url: https://firefox.com
     sameAs: https://en.wikipedia.org/wiki/Firefox
     applicationCategory: Web Browser
@@ -44,7 +44,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Brave
-    image: /assets/img/browsers/brave.svg
+    image: ../assets/img/browsers/brave.svg
     url: https://brave.com
     sameAs: https://en.wikipedia.org/wiki/Brave_(web_browser)
     applicationCategory: Web Browser
@@ -68,7 +68,7 @@ If you need to browse the internet anonymously, you should use [Tor](tor.md) ins
 
 <div class="admonition recommendation" markdown>
 
-![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+![Mullvad Browser logo](../assets/img/browsers/mullvad_browser.svg){ align=right }
 
 **Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](../basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. It is developed by the Tor Project and distributed by [Mullvad](../vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
 
@@ -116,7 +116,7 @@ If you are a Mullvad VPN user, there is some risk in using services like Mullvad
 
 <div class="admonition recommendation" markdown>
 
-![Firefox logo](assets/img/browsers/firefox.svg){ align=right }
+![Firefox logo](../assets/img/browsers/firefox.svg){ align=right }
 
 **Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
@@ -236,7 +236,7 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
 
 <div class="admonition recommendation annotate" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](../assets/img/browsers/brave.svg){ align=right }
 
 **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
