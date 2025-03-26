@@ -272,7 +272,6 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
-    - navigation.expand
     - navigation.path
     - navigation.indexes
     - content.action.edit
@@ -406,10 +405,11 @@ nav:
           - "vpn.md"
       - !ENV [NAV_SOFTWARE, "Software"]:
           - !ENV [NAV_INTERNET_BROWSING, "Internet Browsing"]:
-              - "tor.md"
-              - "desktop-browsers.md"
-              - "mobile-browsers.md"
-              - "browser-extensions.md"
+              - "web-browsing/index.md"
+              - "web-browsing/tor.md"
+              - "web-browsing/desktop-browsers.md"
+              - "web-browsing/mobile-browsers.md"
+              - "web-browsing/browser-extensions.md"
           - !ENV [NAV_TECH_ESSENTIALS, "Tech Essentials"]:
               - "passwords.md"
               - "multi-factor-authentication.md"
