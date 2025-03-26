@@ -15,13 +15,13 @@ The options listed here are available on multiple platforms and great for creati
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 <div class="admonition recommendation" markdown>
 
-![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
+![Cryptomator logo](../assets/img/encryption-software/cryptomator.svg){ align=right }
 
-**Cryptomator** is an encryption solution designed for privately saving files to any cloud [:material-server-network: Service Provider](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. It allows you to create vaults that are stored on a virtual drive, the contents of which are encrypted and synced with your cloud storage provider.
+**Cryptomator** is an encryption solution designed for privately saving files to any cloud [:material-server-network: Service Provider](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. It allows you to create vaults that are stored on a virtual drive, the contents of which are encrypted and synced with your cloud storage provider.
 
 [:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
@@ -56,11 +56,11 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
 <div class="admonition recommendation" markdown>
 
-![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ align=right }
+![Picocrypt logo](../assets/img/encryption-software/picocrypt.svg){ align=right }
 
 **Picocrypt** is a small and simple encryption tool that provides modern encryption. Picocrypt uses the secure XChaCha20 cipher and the Argon2id key derivation function to provide a high level of security. It uses Go's standard x/crypto modules for its encryption features.
 
@@ -85,12 +85,12 @@ Picocrypt has been [audited](https://github.com/Picocrypt/storage/blob/main/Pico
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
 <div class="admonition recommendation" markdown>
 
-![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
-![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
+![VeraCrypt logo](../assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
+![VeraCrypt logo](../assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
 
 **VeraCrypt** is a source-available freeware utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file, encrypt a partition, or encrypt the entire storage device with pre-boot authentication.
 
@@ -120,15 +120,15 @@ TrueCrypt has been [audited a number of times](https://en.wikipedia.org/wiki/Tru
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
-Built-in OS encryption solutions generally leverage hardware security features such as a [secure cryptoprocessor](basics/hardware.md#tpmsecure-cryptoprocessor). Therefore, we recommend using the built-in encryption solutions for your operating system. For cross-platform encryption, we still recommend [cross-platform tools](#multi-platform) for additional flexibility and to avoid vendor lock-in.
+Built-in OS encryption solutions generally leverage hardware security features such as a [secure cryptoprocessor](../basics/hardware.md#tpmsecure-cryptoprocessor). Therefore, we recommend using the built-in encryption solutions for your operating system. For cross-platform encryption, we still recommend [cross-platform tools](#multi-platform) for additional flexibility and to avoid vendor lock-in.
 
 ### BitLocker
 
 <div class="admonition recommendation" markdown>
 
-![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
+![BitLocker logo](../assets/img/encryption-software/bitlocker.png){ align=right }
 
 **BitLocker** is the full volume encryption solution bundled with Microsoft Windows that uses the Trusted Platform Module ([TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm)) for hardware-based security.
 
@@ -186,9 +186,9 @@ Backup `BitLocker-Recovery-Key.txt` on your Desktop to a separate storage device
 
 <div class="admonition recommendation" markdown>
 
-![FileVault logo](assets/img/encryption-software/filevault.png){ align=right }
+![FileVault logo](../assets/img/encryption-software/filevault.png){ align=right }
 
-**FileVault** is the on-the-fly volume encryption solution built into macOS. FileVault takes advantage of the [hardware security capabilities](os/macos-overview.md#hardware-security) present on an Apple Silicon SoC or T2 Security Chip.
+**FileVault** is the on-the-fly volume encryption solution built into macOS. FileVault takes advantage of the [hardware security capabilities](../os/macos-overview.md#hardware-security) present on an Apple Silicon SoC or T2 Security Chip.
 
 [:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title="Documentation" }
 
@@ -202,7 +202,7 @@ We advise against using your iCloud account for recovery; instead, you should se
 
 <div class="admonition recommendation" markdown>
 
-![LUKS logo](assets/img/encryption-software/luks.png){ align=right }
+![LUKS logo](../assets/img/encryption-software/luks.png){ align=right }
 
 **LUKS** is the default FDE method for Linux. It can be used to encrypt full volumes, partitions, or create encrypted containers.
 
@@ -248,7 +248,7 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
 Tools with command-line interfaces are useful for integrating [shell scripts](https://en.wikipedia.org/wiki/Shell_script).
 
@@ -256,7 +256,7 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 
 <div class="admonition recommendation" markdown>
 
-![Kryptor logo](assets/img/encryption-software/kryptor.png){ align=right }
+![Kryptor logo](../assets/img/encryption-software/kryptor.png){ align=right }
 
 **Kryptor** is a free and open-source file encryption and signing tool that makes use of modern and secure cryptographic algorithms. It aims to be a better version of [age](https://github.com/FiloSottile/age) and [Minisign](https://jedisct1.github.io/minisign) to provide a simple, easier alternative to GPG.
 
@@ -281,7 +281,7 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 
 <div class="admonition recommendation" markdown>
 
-![Tomb logo](assets/img/encryption-software/tomb.png){ align=right }
+![Tomb logo](../assets/img/encryption-software/tomb.png){ align=right }
 
 **Tomb** is a command-line shell wrapper for LUKS. It supports steganography via [third-party tools](https://dyne.org/software/tomb/#advanced-usage).
 
@@ -298,9 +298,9 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-server-network: Service Providers](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
 OpenPGP is sometimes needed for specific tasks such as digitally signing and encrypting email. PGP has many features and is [complex](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html) as it has been around a long time. For tasks such as signing or encrypting files, we suggest the above options.
 
@@ -321,7 +321,7 @@ gpg --quick-gen-key alice@example.com future-default
 
 <div class="admonition recommendation" markdown>
 
-![GNU Privacy Guard logo](assets/img/encryption-software/gnupg.svg){ align=right }
+![GNU Privacy Guard logo](../assets/img/encryption-software/gnupg.svg){ align=right }
 
 **GnuPG** is a GPL-licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with [RFC 4880](https://tools.ietf.org/html/rfc4880), which is the current IETF specification of OpenPGP. The GnuPG project has been working on an [updated draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh) in an attempt to modernize OpenPGP. GnuPG is a part of the Free Software Foundation's GNU software project and has received major [funding](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) from the German government.
 
@@ -346,7 +346,7 @@ gpg --quick-gen-key alice@example.com future-default
 
 <div class="admonition recommendation" markdown>
 
-![GPG4win logo](assets/img/encryption-software/gpg4win.svg){ align=right }
+![GPG4win logo](../assets/img/encryption-software/gpg4win.svg){ align=right }
 
 **GPG4win** is a package for Windows from [Intevation and g10 Code](https://gpg4win.org/impressum.html). It includes [various tools](https://gpg4win.org/about.html) that can assist you in using GPG on Microsoft Windows. The project was initiated and originally [funded by](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) Germany's Federal Office for Information Security (BSI) in 2005.
 
@@ -370,15 +370,15 @@ gpg --quick-gen-key alice@example.com future-default
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-We suggest [Canary Mail](email-clients.md#canary-mail-ios) for using PGP with email on iOS devices.
+We suggest [Canary Mail](../email-clients.md#canary-mail-ios) for using PGP with email on iOS devices.
 
 </div>
 
 <div class="admonition recommendation" markdown>
 
-![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
+![GPG Suite logo](../assets/img/encryption-software/gpgsuite.png){ align=right }
 
-**GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail-macos) and other email clients on macOS.
+**GPG Suite** provides OpenPGP support for [Apple Mail](../email-clients.md#apple-mail-macos) and other email clients on macOS.
 
 We recommend taking a look at their [First steps](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) and [Knowledge Base](https://gpgtools.tenderapp.com/kb) for support.
 
@@ -402,9 +402,9 @@ Currently, GPG Suite does [not yet](https://gpgtools.com/sequoia) have a stable 
 
 <div class="admonition recommendation" markdown>
 
-![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
+![OpenKeychain logo](../assets/img/encryption-software/openkeychain.svg){ align=right }
 
-**OpenKeychain** is an implementation of GnuPG for Android. It's commonly required by mail clients such as [Thunderbird](email-clients.md#thunderbird), [FairEmail](email-clients.md#fairemail-android), and other Android apps to provide encryption support.
+**OpenKeychain** is an implementation of GnuPG for Android. It's commonly required by mail clients such as [Thunderbird](../email-clients.md#thunderbird), [FairEmail](../email-clients.md#fairemail-android), and other Android apps to provide encryption support.
 
 [:octicons-home-16: Homepage](https://openkeychain.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }
@@ -424,7 +424,7 @@ Cure53 completed a [security audit](https://openkeychain.org/openkeychain-3-6) o
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 ### Minimum Qualifications
 
