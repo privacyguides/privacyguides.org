@@ -6,7 +6,7 @@ cover: news-aggregators.webp
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-server-network: Service Providers](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
 A **news aggregator** is software which aggregates digital content from online newspapers, blogs, podcasts, and other resources to one location for easy viewing. Using one can be a great way to keep up with your favorite content.
 
@@ -16,7 +16,7 @@ A **news aggregator** is software which aggregates digital content from online n
 
 <div class="admonition recommendation" markdown>
 
-![Akregator logo](assets/img/news-aggregators/akregator.svg){ align=right }
+![Akregator logo](../assets/img/news-aggregators/akregator.svg){ align=right }
 
 **Akregator** is a news feed reader that is a part of the [KDE](https://kde.org) project. It comes with a fast search, advanced archiving functionality, and an internal browser for easy news reading.
 
@@ -39,7 +39,7 @@ A **news aggregator** is software which aggregates digital content from online n
 
 <div class="admonition recommendation" markdown>
 
-![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
+![NewsFlash logo](../assets/img/news-aggregators/newsflash.png){ align=right }
 
 **NewsFlash** is an open-source, modern, and easy-to-use news feed reader for Linux. It can be used offline or used with services like [Nextcloud News](https://apps.nextcloud.com/apps/news) or [Inoreader](https://inoreader.com). It has a search feature and a pre-defined list of sources that you can add directly.
 
@@ -59,7 +59,7 @@ A **news aggregator** is software which aggregates digital content from online n
 
 <div class="admonition recommendation" markdown>
 
-![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
+![Feeder logo](../assets/img/news-aggregators/feeder.png){ align=right }
 
 **Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
@@ -81,8 +81,8 @@ A **news aggregator** is software which aggregates digital content from online n
 
 <div class="admonition recommendation" markdown>
 
-![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
-![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
+![Miniflux logo](../assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
+![Miniflux logo](../assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
 
 **Miniflux** is a web-based news aggregator that you can self-host. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
@@ -97,7 +97,7 @@ A **news aggregator** is software which aggregates digital content from online n
 
 <div class="admonition recommendation" markdown>
 
-![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
+![NetNewsWire logo](../assets/img/news-aggregators/netnewswire.png){ align=right }
 
 **NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. It supports the typical feed formats alongside built-in support for Reddit feeds.
 
@@ -120,7 +120,7 @@ A **news aggregator** is software which aggregates digital content from online n
 
 <div class="admonition recommendation" markdown>
 
-![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ align=right }
+![Newsboat logo](../assets/img/news-aggregators/newsboat.svg){ align=right }
 
 **Newsboat** is an RSS/Atom feed reader for the text console. It's an actively maintained fork of [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). It is very lightweight and ideal for use over [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
 
@@ -132,7 +132,7 @@ A **news aggregator** is software which aggregates digital content from online n
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 - Must be open-source software.
 - Must operate locally, i.e. must not be a cloud service.
