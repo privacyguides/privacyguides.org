@@ -6,19 +6,19 @@ cover: email-clients.webp
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-server-network: Service Providers](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
-The **email clients** we recommend support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth allows you to use [Multi-Factor Authentication](basics/multi-factor-authentication.md) to prevent account theft.
+The **email clients** we recommend support both [OpenPGP](../encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth allows you to use [Multi-Factor Authentication](../basics/multi-factor-authentication.md) to prevent account theft.
 
 <details class="warning" markdown>
 <summary>Email does not provide forward secrecy</summary>
 
-When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](basics/email-security.md#email-metadata-overview) that is not encrypted in the header of the email.
+When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](../basics/email-security.md#email-metadata-overview) that is not encrypted in the header of the email.
 
-OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](basics/email-security.md) Consider using a medium that provides forward secrecy:
+OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](../basics/email-security.md) Consider using a medium that provides forward secrecy:
 
-[Real-time Communication](real-time-communication.md){ .md-button }
+[Real-time Communication](../real-time-communication.md){ .md-button }
 
 </details>
 
@@ -28,7 +28,7 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 <div class="admonition recommendation" markdown>
 
-![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ align=right }
+![Thunderbird logo](../assets/img/email-clients/thunderbird.svg){ align=right }
 
 **Thunderbird** is a free, open-source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Matrix) client developed by the Thunderbird community, and previously by the Mozilla Foundation.
 
@@ -81,7 +81,7 @@ These options can be found in :material-menu: → **Settings** → **Privacy & S
 
 #### Thunderbird-user.js (advanced)
 
-[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) is a set of configuration options that aims to disable as many of the web-browsing features within Thunderbird Desktop as possible in order to reduce attack surface and maintain privacy. Some of the changes are backported from the [Arkenfox project](desktop-browsers.md#arkenfox-advanced).
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) is a set of configuration options that aims to disable as many of the web-browsing features within Thunderbird Desktop as possible in order to reduce attack surface and maintain privacy. Some of the changes are backported from the [Arkenfox project](../desktop-browsers.md#arkenfox-advanced).
 
 ## Platform Specific
 
@@ -89,9 +89,9 @@ These options can be found in :material-menu: → **Settings** → **Privacy & S
 
 <div class="admonition recommendation" markdown>
 
-![Apple Mail logo](assets/img/email-clients/applemail.png){ align=right }
+![Apple Mail logo](../assets/img/email-clients/applemail.png){ align=right }
 
-**Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](encryption.md#gpg-suite), which adds the ability to send PGP-encrypted email.
+**Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](../encryption.md#gpg-suite), which adds the ability to send PGP-encrypted email.
 
 [:octicons-home-16: Homepage](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/en-ww){ .card-link title="Privacy Policy" }
@@ -114,7 +114,7 @@ Apple Mail has the ability to load remote content in the background or block it 
 
 <div class="admonition recommendation" markdown>
 
-![Canary Mail logo](assets/img/email-clients/canarymail.svg){ align=right }
+![Canary Mail logo](../assets/img/email-clients/canarymail.svg){ align=right }
 
 **Canary Mail** is a paid email client designed to make end-to-end encryption seamless with security features such as a biometric app lock.
 
@@ -147,7 +147,7 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
 
 <div class="admonition recommendation" markdown>
 
-![FairEmail logo](assets/img/email-clients/fairemail.svg){ align=right }
+![FairEmail logo](../assets/img/email-clients/fairemail.svg){ align=right }
 
 **FairEmail** is a minimal, open-source email app which uses open standards (IMAP, SMTP, OpenPGP) and minimizes data and battery usage.
 
@@ -171,7 +171,7 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
 
 <div class="admonition recommendation" markdown>
 
-![Evolution logo](assets/img/email-clients/evolution.svg){ align=right }
+![Evolution logo](../assets/img/email-clients/evolution.svg){ align=right }
 
 **Evolution** is a personal information management application that provides integrated mail, calendaring and address book functionality. Evolution has extensive [documentation](https://help.gnome.org/users/evolution/stable) to help you get started.
 
@@ -194,7 +194,7 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
 
 <div class="admonition recommendation" markdown>
 
-![Kontact logo](assets/img/email-clients/kontact.svg){ align=right }
+![Kontact logo](../assets/img/email-clients/kontact.svg){ align=right }
 
 **Kontact** is a personal information manager (PIM) application from the [KDE](https://kde.org) project. It provides a mail client, address book, RSS client, and an organizer.
 
@@ -218,7 +218,7 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
 
 <div class="admonition recommendation" markdown>
 
-![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ align=right }
+![Mailvelope logo](../assets/img/email-clients/mailvelope.svg){ align=right }
 
 **Mailvelope** is a browser extension that enables the exchange of encrypted emails following the OpenPGP encryption standard.
 
@@ -242,7 +242,7 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
 
 <div class="admonition recommendation" markdown>
 
-![NeoMutt logo](assets/img/email-clients/mutt.svg){ align=right }
+![NeoMutt logo](../assets/img/email-clients/mutt.svg){ align=right }
 
 **NeoMutt** is an open-source command line email reader for Linux and BSD. It's a fork of [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)) with added features.
 
@@ -265,7 +265,7 @@ NeoMutt is a text-based client that has a steep learning curve. It is, however, 
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 ### Minimum Qualifications
 
