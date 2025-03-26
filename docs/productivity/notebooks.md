@@ -6,7 +6,7 @@ cover: notebooks.webp
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-server-network: Service Providers](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
 Keep track of your notes and journals without giving them to a third party.
 
@@ -18,7 +18,7 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 
 <div class="admonition recommendation" markdown>
 
-![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
+![Standard Notes logo](../assets/img/notebooks/standard-notes.svg){ align=right }
 
 **Standard Notes** is a simple and private notes app that makes your notes easy and available everywhere you are. It features E2EE on every platform, and a powerful desktop experience with themes and custom editors. It has also been [independently audited](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
 
@@ -49,7 +49,7 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 <div class="admonition recommendation" markdown>
 
-![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
+![Notesnook logo](../assets/img/notebooks/notesnook.svg){ align=right }
 
 **Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. It features end-to-end encryption on all platforms with a powerful sync to take your notes on the go. You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com).
 
@@ -81,7 +81,7 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 <div class="admonition recommendation" markdown>
 
-![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
+![Joplin logo](../assets/img/notebooks/joplin.svg){ align=right }
 
 **Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle numerous markdown notes organized into notebooks and tags. It offers E2EE and can sync through Nextcloud, Dropbox, and more. It also offers easy import from Evernote and plain-text notes.
 
@@ -114,8 +114,8 @@ Since January 2023, Joplin [supports biometrics](https://github.com/laurent22/jo
 
 <div class="admonition recommendation" markdown>
 
-![Cryptee logo](./assets/img/notebooks/cryptee.svg#only-light){ align=right }
-![Cryptee logo](./assets/img/notebooks/cryptee-dark.svg#only-dark){ align=right }
+![Cryptee logo](../assets/img/notebooks/cryptee.svg#only-light){ align=right }
+![Cryptee logo](../assets/img/notebooks/cryptee-dark.svg#only-dark){ align=right }
 
 **Cryptee** is an open-source, web-based E2EE document editor and photo storage application. Cryptee is a PWA, which means that it works seamlessly across all modern devices without requiring native apps for each respective platform.
 
@@ -141,9 +141,9 @@ Cryptee offers 100 MB of storage for free, with paid options if you need more. 
 
 <div class="admonition recommendation" markdown>
 
-![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
+![Org-mode logo](../assets/img/notebooks/org-mode.svg){ align=right }
 
-**Org-mode** is a [major mode](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode is for keeping notes, maintaining to-do lists, planning projects, and authoring documents with a fast and effective plain-text system. Synchronization is possible with [file synchronization](file-sharing.md#file-sync) tools.
+**Org-mode** is a [major mode](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode is for keeping notes, maintaining to-do lists, planning projects, and authoring documents with a fast and effective plain-text system. Synchronization is possible with [file synchronization](../file-sharing.md#file-sync) tools.
 
 [:octicons-home-16: Homepage](https://orgmode.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=Documentation}
@@ -156,7 +156,7 @@ Cryptee offers 100 MB of storage for free, with paid options if you need more. 
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 ### Minimum Requirements
 
