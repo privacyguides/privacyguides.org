@@ -1,8 +1,8 @@
 ---
-title: Utilities
-icon: material/star-outline
-description: Our recommended methods for removing your personal information from data brokers and people search sites.
-cover: data-broker-removals.webp
+title: "Utilities"
+icon: material/wrench-outline
+description: These purpose-built tools require minimal permissions and some of them can even be used offline.
+cover: email-clients.webp
 ---
 ## AI Chat
 
