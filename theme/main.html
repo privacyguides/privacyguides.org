@@ -92,23 +92,3 @@
   </script>
   {% endif %}
 {% endblock %}
-
-{% if config.theme.language == "en" and config.extra.context == "production" %}
-  {% block announce %}
-    <span>
-      <strong>We don't run ads, we don't use affiliate links, and we don't have paywalls.</strong> We rely on our readers to build this community and spread the word.<br>
-      If you've received $3 worth of knowledge here, please donate today if you're able to. It really helps.
-      <a href="https://donate.magicgrants.org/privacyguides" target="_blank">
-        <span class="twemoji pg-red">
-          {% include ".icons/material/heart.svg" %}
-        </span>
-        <span class="pg-red">
-          Donate now
-        </span>
-        <span class="twemoji pg-red">
-          {% include ".icons/material/arrow-right.svg" %}
-        </span>
-      </a>
-    </span>
-  {% endblock %}
-{% endif %}
