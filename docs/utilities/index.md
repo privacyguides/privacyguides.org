@@ -36,7 +36,7 @@ cover: data-broker-removals.webp
 - ![Euki logo](../assets/img/health-and-wellness/euki.svg){ .twemoji loading=lazy } [Euki](health-and-wellness.md#euki)
 - ![Apple Health logo](../assets/img/health-and-wellness/apple-health.svg#only-light){ .twemoji loading=lazy } ![Apple Health logo](../assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ .twemoji loading=lazy }[Apple Health](health-and-wellness.md#apple-health)
 - ![Gadgetbridge logo](../assets/img/health-and-wellness/gadgetbridge.svg#only-light){ .twemoji loading=lazy }![Gadgetbridge logo](../assets/img/health-and-wellness/gadgetbridge-dark.svg#only-dark){ .twemoji loading=lazy } [Gadgetbridge](health-and-wellness.md#gadgetbridge)
-- ![Apple Health logo](../assets/img/health-and-wellness/apple-health.svg#only-light){ .twemoji loading=lazy } ![Apple Health logo](../assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ .twemoji loading=lazy }[Apple Health Records](../health-and-wellness.md#apple-health-records)
+- ![Apple Health logo](../assets/img/health-and-wellness/apple-health.svg#only-light){ .twemoji loading=lazy } ![Apple Health logo](../assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ .twemoji loading=lazy }[Apple Health Records](health-and-wellness.md#apple-health-records)
 - ![CommonHealth logo](../assets/img/health-and-wellness/commonhealth.png){ .twemoji loading=lazy } [CommonHealth](health-and-wellness.md#commonhealth)
 
 </div>
