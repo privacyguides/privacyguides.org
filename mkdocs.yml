@@ -425,7 +425,7 @@ nav:
               - "productivity/notebooks.md"
               - "productivity/office-suites.md"
           - !ENV [NAV_MEDIA, "Media"]:
-              ; "media/index.md"
+              - "media/index.md"
               - "media/file-sharing.md"
               - "media/frontends.md"
               - "media/news-aggregators.md"
