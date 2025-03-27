@@ -1,8 +1,8 @@
 ---
-title: Productivity
-icon: material/star-outline
+title: "Productivity"
+icon: material/briefcase-outline
 description: Our recommended methods for removing your personal information from data brokers and people search sites.
-cover: data-broker-removals.webp
+cover: document-collaboration.webp
 ---
 ## Calendar Sync
 
