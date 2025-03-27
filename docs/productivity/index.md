@@ -60,7 +60,7 @@ cover: data-broker-removals.webp
 - ![Standard Notes logo](../assets/img/notebooks/standard-notes.svg){ .twemoji loading=lazy } [Standard Notes](notebooks.md#standard-notes)
 - ![Notesnook logo](../assets/img/notebooks/notesnook.svg){ .twemoji loading=lazy } [Notesnook](notebooks.md#notesnook)
 - ![Joplin logo](../assets/img/notebooks/joplin.svg){ .twemoji loading=lazy } [Joplin](notebooks.md#joplin)
-- ![Cryptee logo](../assets/img/notebooks/cryptee.svg#only-light){ .twemoji loading=lazy }![Cryptee logo](assets/img/notebooks/cryptee-dark.svg#only-dark){ .twemoji loading=lazy } [Cryptee](notebooks.md#cryptee)
+- ![Cryptee logo](../assets/img/notebooks/cryptee.svg#only-light){ .twemoji loading=lazy }![Cryptee logo](../assets/img/notebooks/cryptee-dark.svg#only-dark){ .twemoji loading=lazy } [Cryptee](notebooks.md#cryptee)
 - ![Org-mode logo](../assets/img/notebooks/org-mode.svg){ .twemoji loading=lazy } [Org-mode](notebooks.md#org-mode)
 
 </div>
