@@ -38,7 +38,7 @@ You can use your password manager to organize other authentication methods too! 
 
 You will be responsible for managing your login credentials. For added security, you can set up [MFA](multi-factor-authentication.md) on your accounts.
 
-[Recommended password managers](../passwords.md){ .md-button }
+[Recommended password managers](../essentials/passwords.md){ .md-button }
 
 #### Email aliases
 
