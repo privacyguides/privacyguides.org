@@ -81,7 +81,7 @@ These options can be found in :material-menu: → **Settings** → **Privacy & S
 
 #### Thunderbird-user.js (advanced)
 
-[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) is a set of configuration options that aims to disable as many of the web-browsing features within Thunderbird Desktop as possible in order to reduce attack surface and maintain privacy. Some of the changes are backported from the [Arkenfox project](../desktop-browsers.md#arkenfox-advanced).
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) is a set of configuration options that aims to disable as many of the web-browsing features within Thunderbird Desktop as possible in order to reduce attack surface and maintain privacy. Some of the changes are backported from the [Arkenfox project](../web-browsing/desktop-browsers.md#arkenfox-advanced).
 
 ## Platform Specific
 
