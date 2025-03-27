@@ -1,8 +1,8 @@
 ---
-title: Tecnology Essentials
+title: "Technology Essentials"
 icon: material/star-outline
-description: Our recommended methods for removing your personal information from data brokers and people search sites.
-cover: data-broker-removals.webp
+description: These tools are critical for those starting their privacy journey as they help you secure your accounts and devices.
+cover: multi-factor-authentication.webp
 ---
 ## Password Managers
 
