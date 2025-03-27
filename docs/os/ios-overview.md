@@ -214,7 +214,7 @@ Disable **Personalized Ads** if you don't want targeted ads. Select **Apple Adve
 
 ### E2EE Calls
 
-Normal phone calls made with the Phone app through your carrier are not E2EE. Both FaceTime Video and FaceTime Audio calls are E2EE. Alternatively, you can use [another app](../real-time-communication.md) like Signal for E2EE calls.
+Normal phone calls made with the Phone app through your carrier are not E2EE. Both FaceTime Video and FaceTime Audio calls are E2EE. Alternatively, you can use [another app](../essentials/real-time-communication.md) like Signal for E2EE calls.
 
 ### Encrypted iMessage
 
@@ -234,7 +234,7 @@ Rather than allow an app to access all the photos on your device, you can allow 
 
 ![Private Access](../assets/img/ios/private-access-light.png#only-light) ![Private Access](../assets/img/ios/private-access-dark.png#only-dark)
 
-Some apps also support **Private Access**, which functions similarly to the **Limited Access** permission. However, photos shared to apps using Private Access include their location by default. We recommend unchecking this setting if you do not [remove photo metadata](../data-redaction.md) beforehand.
+Some apps also support **Private Access**, which functions similarly to the **Limited Access** permission. However, photos shared to apps using Private Access include their location by default. We recommend unchecking this setting if you do not [remove photo metadata](../utilities/data-redaction.md) beforehand.
 
 ### Contact Permissions
 
@@ -261,7 +261,7 @@ If your device supports it, you can use the [Clean Up](https://support.apple.com
 - Tap the button labeled **Clean Up**
 - Draw a circle around whatever you want to redact. Faces will be pixelated, and it will attempt to delete anything else.
 
-Our warning [against blurring text](../data-redaction.md) also applies here, so we recommend to instead add a black shape with 100% opacity over it. In addition to redacting text, you can also black out any face or object using the **Photos** app.
+Our warning [against blurring text](../utilities/data-redaction.md) also applies here, so we recommend to instead add a black shape with 100% opacity over it. In addition to redacting text, you can also black out any face or object using the **Photos** app.
 
 - Tap the image you have selected for redaction
 - Tap the :material-tune: (at the bottom of the screen) → markup symbol (top right) → plus icon at the bottom right
