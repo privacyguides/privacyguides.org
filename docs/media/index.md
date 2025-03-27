@@ -1,8 +1,8 @@
 ---
-title: Media
-icon: material/star-outline
-description: Our recommended methods for removing your personal information from data brokers and people search sites.
-cover: data-broker-removals.webp
+title: "Media"
+icon: material/share-outline
+description: The tools here help you privately share and access media from different sources.
+cover: news-aggregators.webp
 ---
 ## File Sharing and Sync
 
