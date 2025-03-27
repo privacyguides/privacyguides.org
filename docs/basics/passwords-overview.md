@@ -18,7 +18,7 @@ This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_st
 
 ==You should **never** rely on yourself to come up with a good password.== We recommend using [randomly generated passwords](#passwords) or [diceware passphrases](#diceware-passphrases) with sufficient entropy to protect your accounts and devices.
 
-All of our [recommended password managers](../passwords.md) include a built-in password generator that you can use.
+All of our [recommended password managers](../essentials/passwords.md) include a built-in password generator that you can use.
 
 ### Rotating Passwords
 
@@ -29,7 +29,7 @@ When it comes to passwords that you don't have to remember (such as passwords st
 <div class="admonition tip" markdown>
 <p class="admonition-title">Checking for data breaches</p>
 
-If your password manager lets you check for compromised passwords, make sure to do so and promptly change any password that may have been exposed in a data breach. Alternatively, you could follow [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) with the help of a [news aggregator](../news-aggregators.md).
+If your password manager lets you check for compromised passwords, make sure to do so and promptly change any password that may have been exposed in a data breach. Alternatively, you could follow [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) with the help of a [news aggregator](../media/news-aggregators.md).
 
 </div>
 
@@ -159,12 +159,12 @@ The best way to store your passwords is by using a password manager. They allow 
 
 There are many good options to choose from, both cloud-based and local. Choose one of our recommended password managers and use it to establish strong passwords across all of your accounts. We recommend securing your password manager with a [diceware passphrase](#diceware-passphrases) comprised of at least seven words.
 
-[List of recommended password managers](../passwords.md){ .md-button }
+[List of recommended password managers](../essentials/passwords.md){ .md-button }
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
 
-When using [TOTP codes as multifactor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
+When using [TOTP codes as multifactor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../essentials/multi-factor-authentication.md).
 
 Storing your TOTP tokens in the same place as your passwords, while convenient, reduces the accounts to a single factor in the event that an adversary gains access to your password manager.
 
@@ -174,4 +174,4 @@ Furthermore, we do not recommend storing single-use recovery codes in your passw
 
 ### Backups
 
-You should store an [encrypted](../encryption.md) backup of your passwords on multiple storage devices or a cloud storage provider. This can help you access your passwords if something happens to your primary device or the service you are using.
+You should store an [encrypted](../essentials/encryption.md) backup of your passwords on multiple storage devices or a cloud storage provider. This can help you access your passwords if something happens to your primary device or the service you are using.
