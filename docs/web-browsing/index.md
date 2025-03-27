@@ -1,5 +1,5 @@
 ---
-title: Internet Browsing
+title: "Internet Browsing"
 icon: material/web
 description: These privacy-protecting browsers and browser extensions are what we currently recommend for browsing the internet on different platforms.
 cover: desktop-browsers.webp
