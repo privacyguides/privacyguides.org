@@ -551,3 +551,5 @@ fontawesome-solid-unlock-keyhole
 KeeShare
 KeePassium
 MWEB
+simple-activitypub
+ActivityPub
