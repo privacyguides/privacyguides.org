@@ -94,7 +94,7 @@ Bots are a rampant problem for online services, leading them to sometimes block 
 
 ### CAPTCHAs
 
-When VPN and Tor users aren't blocked, they often have to deal with annoying CAPTCHAs that take up your precious time and use invasive fingerprinting.
+When VPN and Tor users aren't blocked, they often have to deal with annoying [CAPTCHAs](http://www.captcha.net) that take up your precious time and use invasive [fingerprinting](https://developers.google.com/recaptcha/docs/v3).
 
 CAPTCHAs aren't even particularly good at detecting bots. With advances in AI, [bots can solve CAPTCHAs better than humans can](https://arxiv.org/pdf/2307.12108).
 
@@ -108,4 +108,6 @@ The landscape is very confusing right now so I'll try to illucidate what I've fo
 
 [Privacy Pass](https://privacypass.github.io) started out as an attempt at a priveacy-preserving way to bypass CAPTCHAs.
 
-CAPTCHAs 
+It started out and is still an extension that can be installed on the [Chrome](https://chromewebstore.google.com/detail/silk-privacy-pass-client/ajhmfdgkijocedmfjonnpjfojldioehi) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/privacy-pass/) extension store, but it's since expanded to become an [IETF standard](https://datatracker.ietf.org/wg/privacypass/about/).
+
+Unfortunately, the tokens issued using the Privacy Pass protocol need to be stored somewhere, so for the moment, a browser extension or some other 
