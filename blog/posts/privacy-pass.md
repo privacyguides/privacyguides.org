@@ -96,7 +96,7 @@ Bots are a rampant problem for online services, leading them to sometimes block 
 
 When VPN and Tor users aren't blocked, they often have to deal with annoying CAPTCHAs that take up your precious time and use invasive fingerprinting.
 
-CAPTCHAs aren't even particularly good at detecting bots. With advances in AI, bots can solve CAPTCHAs better than humans can.
+CAPTCHAs aren't even particularly good at detecting bots. With advances in AI, [bots can solve CAPTCHAs better than humans can](https://arxiv.org/pdf/2307.12108).
 
 ## Solutions
 
