@@ -108,6 +108,14 @@ The landscape is very confusing right now so I'll try to illucidate what I've fo
 
 [Privacy Pass](https://privacypass.github.io) started out as an attempt at a priveacy-preserving way to bypass CAPTCHAs.
 
-It started out and is still an extension that can be installed on the [Chrome](https://chromewebstore.google.com/detail/silk-privacy-pass-client/ajhmfdgkijocedmfjonnpjfojldioehi) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/privacy-pass/) extension store, but it's since expanded to become an [IETF standard](https://datatracker.ietf.org/wg/privacypass/about/).
+It started out and is still an extension that can be installed on the [Chrome](https://chromewebstore.google.com/detail/silk-privacy-pass-client/ajhmfdgkijocedmfjonnpjfojldioehi) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/privacy-pass/) extension store, but it's since expanded to become an [IETF standard](https://datatracker.ietf.org/wg/privacypass/about/). Be warned that many reviews state the extension doesn't work anymore, if you were curious to try it out.
 
-Unfortunately, the tokens issued using the Privacy Pass protocol need to be stored somewhere, so for the moment, a browser extension or some other 
+Privacy Pass utilizes [Ellyptical Curve Cryptography](https://pkic.org/2014/06/10/benefits-of-elliptic-curve-cryptography/), allowing for much more security than the RSA cryptography Chaum proposes in his original paper.
+
+Unfortunately, the tokens issued using the Privacy Pass protocol need to be stored somewhere, so for the moment, a browser extension or some other storage mechanism is needed.
+
+### Private State Tokens
+
+[Private State Tokens](https://developers.google.com/privacy-sandbox/protections/private-state-tokens) are a [proposed browser API](https://github.com/WICG/trust-token-api) by Google as part of their [Privacy Sandbox](https://developers.google.com/privacy-sandbox). They're based on the Privacy Pass protocol.
+
+The main benefit of PSTs is that they provide a secure place for websites to store their tokens so that you don't need a separate extension for every service, as well as providing all the needed APIs to securely store and access tokens without 
