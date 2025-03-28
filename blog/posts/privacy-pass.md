@@ -66,7 +66,9 @@ The organization then signs it, indicating you're a valid customer and you're al
 
 Later, when you're presented with a request to authenticate as an active subscriber of  PrivacyGuides+, you unwrap the envelope and discard it along with the carbon paper. You rewrap it in a new envelope with a window showing the signature, and the requester can then be sure that you're allowed to access PrivacyGuides+.
 
+![A diagram showing an envelope being wrapped in carbon paper, transfered to an organization, then passing over a boundary representing the unlinkability between the two transactions. Then the envelope is unwrapped, put in a new envelope with a window showing the signature from the previous organization, and presented to a different organization.](../assets/images/privacy-pass/Blind_signatures.png)
 
+<small aria-hidden="true">Illustration: David Chaum</small>
 
 ## Problems
 
