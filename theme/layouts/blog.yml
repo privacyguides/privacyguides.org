@@ -76,6 +76,11 @@ definitions:
       {{- "@privacy_guides" -}}
     {%- endif -%}
 
+  - &replacement_image >-
+    {%- if page.meta.preview and page.meta.preview.cover -%}
+      {{- page.meta.preview.cover -}}
+    {%- endif -%}
+
 # Meta tags
 tags:
   # Open Graph
@@ -160,3 +165,6 @@ layers:
       font:
         family: Bagnard
         style: Bold
+
+  - background:
+      image: *replacement_image
