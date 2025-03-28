@@ -7,6 +7,8 @@ authors:
     - em
 description: 'This article is an interview with Micah Lee, the creator of Cyd and OnionShare, founder of Lockdown Systems, and author of Hacks, Leaks, and Revelations: The Art of Analyzing Hacked and Leaked Data.'
 schema_type: NewsArticle
+preview:
+  cover: blog/assets/images/interview-with-micah-lee/social-preview-cover.webp
 ---
 # Interview with Micah Lee: Cyd, Lockdown Systems, OnionShare, and more
 
