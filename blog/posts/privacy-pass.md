@@ -34,7 +34,7 @@ For ongoing relationships such as a bank, you can use a single pseudorandom iden
 
 One of the more quaint ideas in the paper is the idea of a small "card computer" on which you would perform transactions. Chaum's theoretical device resembles "a credit-card-sized calculator, and [includes] a character display, keyboard, and a limited distance communication capability (like that of a television remote control)".
 
-Nowadays we carry around credit-card sized computers like it's nothing. The secret "card number" he describes would probable be your device PIN or even biometric authentication, which are already used to authenticate transactions.
+Nowadays we carry around credit-card sized computers like it's nothing. The secret "card number" he describes would probably be your device PIN or even biometric authentication, which are already used to authenticate transactions.
 
 We still haven't *quite* reached Chaum's vision yet in some areas. His idea is for these "card computers" to fully replace ATM's and checkout terminals in stores. Essentially, he wants all transactions to be online transactions, with something like Apple Pay or Google Pay on your device mediating the transaction and using your device PIN to prevent fraudulent transactions.
 
