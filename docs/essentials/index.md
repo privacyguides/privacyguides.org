@@ -1,6 +1,8 @@
 ---
 title: "Technology Essentials"
 icon: material/star-outline
+hide:
+  - toc
 description: These tools are critical for those starting their privacy journey as they help you secure your accounts and devices.
 cover: multi-factor-authentication.webp
 ---
@@ -60,13 +62,13 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </details>
 
-### Cross-platform Tools
+### Cross-Platform Tools
 
 <div class="grid cards" markdown>
 
 - ![Cryptomator logo](../assets/img/encryption-software/cryptomator.svg){ .twemoji loading=lazy } [Cryptomator](encryption.md#cryptomator-cloud)
 - ![Picocrypt logo](../assets/img/encryption-software/picocrypt.svg){ .twemoji loading=lazy } [Picocrypt](encryption.md#picocrypt-file)
-- ![VeraCrypt logo](../assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji loading=lazy }![VeraCrypt logo](../assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji loading=lazy } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
+- ![VeraCrypt logo](../assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji loading=lazy }![VeraCrypt logo](../assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji loading=lazy } [VeraCrypt](encryption.md#veracrypt-disk)
 - ![Kryptor logo](../assets/img/encryption-software/kryptor.png){ .twemoji loading=lazy } [Kryptor](encryption.md#kryptor)
 - ![Tomb logo](../assets/img/encryption-software/tomb.png){ .twemoji loading=lazy } [Tomb](encryption.md#tomb)
 
@@ -81,7 +83,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 - ![GnuPG logo](../assets/img/encryption-software/gnupg.svg){ .twemoji loading=lazy } [GnuPG](encryption.md#gnu-privacy-guard)
 - ![GPG4Win logo](../assets/img/encryption-software/gpg4win.svg){ .twemoji loading=lazy } [GPG4Win (Windows)](encryption.md#gpg4win)
 - ![GPG Suite logo](../assets/img/encryption-software/gpgsuite.png){ .twemoji loading=lazy } [GPG Suite (macOS)](encryption.md#gpg-suite)
-- ![OpenKeychain logo](../assets/img/encryption-software/openkeychain.svg){ .twemoji loading=lazy } [OpenKeychain](encryption.md#openkeychain)
+- ![OpenKeychain logo](../assets/img/encryption-software/openkeychain.svg){ .twemoji loading=lazy } [OpenKeychain (Android)](encryption.md#openkeychain)
 
 </div>
 
