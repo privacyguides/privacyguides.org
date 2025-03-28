@@ -74,7 +74,7 @@ Later, when you're presented with a request to authenticate as an active subscri
 
 Services that don't require an account or payment to use are great; you can use them with Tor, clear your browser history, whatever you need to do to keep your activity private. 
 
-But logging into an account completely invalidates all of that.
+But logging into an account completely invalidates all of that. Every time you log in or authenticate with a service, you have to identify yourself as the same person, linking all your previous activity together. Increasingly, we're asked to provide personal information in order to be able to use certain websites or services.
 
 ### Linkability
 
@@ -82,7 +82,7 @@ As long as you're logged into an account with a service, all your previous and c
 
 ### Data Collection
 
-A lot of websites want to be able to filter out users below a certain age. 
+A lot of websites and services want to, [or are forced to](https://en.wikipedia.org/wiki/Social_media_age_verification_laws_in_the_United_States), be able to filter out users below a certain age.
 
 We're starting to see a rise in extremely privacy-invasive age verification systems such as submitting a government ID when you want to access a website or invasive facial scans.
 
