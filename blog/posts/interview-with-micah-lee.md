@@ -24,7 +24,7 @@ Besides software development, Micah is a board member for [Science & Design](htt
 
 You might have already read some of Micah's articles when he worked at [The Intercept](https://theintercept.com/staff/micah-lee/), or even read his new [book](https://hacksandleaks.com/) Hacks, Leaks, and Revelations: The Art of Analyzing Hacked and Leaked Data.
 
-We are delighted that Micah has accepted to talk with us at Privacy Guides. Let's get into it!
+We spoke with Micah over email and are delighted that he decided to talk with us at Privacy Guides. Let's get into it!
 
 ***Em:*** *Hi Micah! We're thrilled that you have accepted to give us this interview at Privacy Guides. Thank you for taking time off your busy schedule to talk with us.*
 
