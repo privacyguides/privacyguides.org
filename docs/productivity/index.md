@@ -1,6 +1,8 @@
 ---
 title: "Productivity"
 icon: material/briefcase-outline
+hide:
+  - toc
 description: These productivity tools protect your data from unauthorized access by service providers.
 cover: document-collaboration.webp
 ---
@@ -69,7 +71,7 @@ These **productivity** tools prevent your data from being read by third parties 
 
 [Learn more :material-arrow-right-drop-circle:](notebooks.md)
 
-### Office Suites
+## Office Suites
 
 <div class="grid cards" markdown>
 
