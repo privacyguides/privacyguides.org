@@ -1,9 +1,11 @@
 ---
 title: "Productivity"
 icon: material/briefcase-outline
-description: Our recommended methods for removing your personal information from data brokers and people search sites.
+description: These productivity tools protect your data from unauthorized access by service providers.
 cover: document-collaboration.webp
 ---
+These **productivity** tools prevent your data from being read by third parties through the use of encryption or the ability to use their full functionality while offline.
+
 ## Calendar Sync
 
 <div class="grid cards" markdown>
