@@ -18,7 +18,7 @@ Services that require authentication can correlate your activity on that service
 
 ## History
 
-The story of privacy pass begins with a pahttps://dl.acm.org/doi/pdf/10.1145/4372.4373per by David Chaum from 1985, in which he laments the ever-increasing data collection by companies and government agencies.
+The story of privacy pass begins with a [paper](https://dl.acm.org/doi/pdf/10.1145/4372.4373) by David Chaum from 1985, in which he laments the ever-increasing data collection by companies and government agencies.
 
 It's funny that all the way back in 1985 he talks about the same issues we deal with today: persistent identifiers tied to our real identity for transactions, government ID's, etc.
 
@@ -70,6 +70,8 @@ Later, when you're presented with a request to authenticate as an active subscri
 
 <small aria-hidden="true">Illustration: David Chaum</small>
 
+This system relies on the same strong cryptography that tried and true systems use, with the difference being the unlinkability between the credential issuer and the credential receiver.
+
 ## Problems
 
 Services that don't require an account or payment to use are great; you can use them with Tor, clear your browser history, whatever you need to do to keep your activity private. 
@@ -95,3 +97,15 @@ Bots are a rampant problem for online services, leading them to sometimes block 
 When VPN and Tor users aren't blocked, they often have to deal with annoying CAPTCHAs that take up your precious time and use invasive fingerprinting.
 
 CAPTCHAs aren't even particularly good at detecting bots. With advances in AI, bots can solve CAPTCHAs better than humans can.
+
+## Solutions
+
+Several blind signature-based solutions are in various states, some being implemented but not widely used, some being proposed browser APIs, and some being IETF standards.
+
+The landscape is very confusing right now so I'll try to illucidate what I've found.
+
+### Privacy Pass
+
+[Privacy Pass](https://privacypass.github.io) started out as an attempt at a priveacy-preserving way to bypass CAPTCHAs.
+
+CAPTCHAs 
