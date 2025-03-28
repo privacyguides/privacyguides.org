@@ -4,6 +4,10 @@ icon: material/web
 description: These privacy-protecting browsers and browser extensions are what we currently recommend for browsing the internet on different platforms.
 cover: desktop-browsers.webp
 ---
+These tools provide a private **internet browsing** experience by limiting the amount of tracking by ad networks across different sites.
+
+Consider using multiple browsers for different use cases, as each of them provide different tools to thwart surveillance and data collection, including but not limited to anti-fingerprinting protections, content blocking, etc.
+
 <div class="admonition recommendation" markdown>
 
 ![Tor Browser logo](../assets/img/browsers/tor.svg){ align=left }
