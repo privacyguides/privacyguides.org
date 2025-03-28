@@ -4,6 +4,8 @@ icon: material/wrench-outline
 description: These purpose-built tools require minimal permissions and some of them can even be used offline.
 cover: email-clients.webp
 ---
+These purpose-built **utilities**, through either end-to-end encryption, on-device processing, or minimal permissions, do not send your data to unauthorized parties as you use them on a frequent basis.
+
 ## AI Chat
 
 <div class="grid cards" markdown>
