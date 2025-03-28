@@ -52,15 +52,19 @@ How do we ensure the psuedonyms can't be linked together? We already use cryptog
 
 >Simple mathematical proofs show that, with appropriate use of the systems, even conspiracy of all organizations and tapping of all communication lines cannot yield enough information to link the pseudonyms-regardless of how clever the approach is or how much computation is expended.
 
-## Types of Transactions
+## Blind Signatures
 
-Chaum highlights three areas where this technology can be utilized.
+Digital signatures normally are used to ensure that something like a piece of software or a message comes from the original sender and hasn't been tampered with. You want to know who the signer is for this system to work.
 
-### Communication
+But what if the signer and the one sending a request are different? Say you have a membership to the PrivacyGuides+ subscription service and you want to authenticate with it but don't want to identify yourself. That's where blind signatures come in.
 
-While current cryptographic techniques protect the content of our communications, metadata about who is contacting who is still mostly unprotected. 
+### How it Works
 
-Personal information such as home addresses, names, and SSN are collected by telecommunication companies and can be used in combination with information about who contacts who to paint a very detailed picture of a person's social web and their activities over time. Chaum calls this data "tracing information".
+You can imagine blind signatures like an envelope that's been wrapped in [carbon paper](https://en.wikipedia.org/wiki/Carbon_paper) with a window showing your psuedonym for that account, whether it be an account number, username, etc. They never see anything but the account identifier, or whatever they need to verify that you're a valid customer.
+
+The organization then signs it, indicating you're a valid customer and you're allowed to access the service.
+
+Later, when you're presented with a request to authenticate as an active subscriber of  PrivacyGuides+, you unwrap the envelope and discard it along with the carbon paper. You rewrap it in a new envelope with a window showing the signature, and the requester can then be sure that you're allowed to access PrivacyGuides+.
 
 
 
