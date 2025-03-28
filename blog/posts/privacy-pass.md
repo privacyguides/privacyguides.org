@@ -106,7 +106,7 @@ The landscape is very confusing right now so I'll try to illucidate what I've fo
 
 ### Privacy Pass
 
-[Privacy Pass](https://privacypass.github.io) started out as an attempt at a priveacy-preserving way to bypass CAPTCHAs.
+[Privacy Pass](https://privacypass.github.io) started out as an attempt at a acy-preserving way to bypass CAPTCHAs.
 
 It started out and is still an extension that can be installed on the [Chrome](https://chromewebstore.google.com/detail/silk-privacy-pass-client/ajhmfdgkijocedmfjonnpjfojldioehi) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/privacy-pass/) extension store, but it's since expanded to become an [IETF standard](https://datatracker.ietf.org/wg/privacypass/about/). Be warned that many reviews state the extension doesn't work anymore, if you were curious to try it out.
 
@@ -134,3 +134,4 @@ A device can store up to 500 tokens per top-level website and issuer, with metad
 
 ### Private Access Tokens
 
+Private Access Tokens implement the 
