@@ -63,6 +63,7 @@ You can try connecting to *Privacy Guides* via Tor at [xoe4vn5uwdztif6goazfbmogh
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1609461599)
 - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
+- [:simple-fdroid: F-Droid](https://guardianproject.info/fdroid)
 
 </details>
 
@@ -75,9 +76,7 @@ We previously recommended enabling the *Isolate Destination Address* preference 
 
 Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN kill switch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
 
-Orbot is often outdated on Google Play and the Guardian Project's [F-Droid repository](https://guardianproject.info/fdroid), so consider downloading directly from the [GitHub repository](https://github.com/guardianproject/orbot/releases) instead.
-
-All versions are signed using the same signature, so they should be compatible with each other.
+Orbot is often outdated on Google Play and the Guardian Project's F-Droid repository, so consider downloading directly from the GitHub repository instead. All versions are signed using the same signature, so they should be compatible with each other.
 
 </div>
 
