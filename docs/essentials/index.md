@@ -6,7 +6,7 @@ hide:
 description: These tools are critical for those starting their privacy journey as they help you secure your accounts and devices.
 cover: multi-factor-authentication.webp
 ---
-This selection of tools constitute the **technology essentials** which are critical for those starting their privacy journey, as they help you secure your accounts, devices, and sensitive communications.
+The tools on this page constitute the **technology essentials** which are critical for those starting their privacy journey, as they help you secure your accounts, devices, and sensitive communications.
 
 ## Password Managers
 
