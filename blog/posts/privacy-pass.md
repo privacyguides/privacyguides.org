@@ -134,4 +134,24 @@ A device can store up to 500 tokens per top-level website and issuer, with metad
 
 ### Private Access Tokens
 
-Private Access Tokens implement the 
+[Private Access Tokens](https://blog.cloudflare.com/eliminating-captchas-on-iphones-and-macs-using-new-standard/) are based on Privacy Pass as well but differ in a major area. Instead of and Issuer and Redeemer, PATs have an Origin, Attester, and Issuer.
+
+#### Origin
+
+The origin is the website the user is trying to access. It will request a token from the client.
+
+If the client supports PATs, like iOS and macOS do, then it will make an API call to the attester.
+
+#### Attester
+
+The attester verifies something about the client. For example, in iOS, Apple checks various device components to verify that you are running a genuine apple device.
+
+The attester then makes an API call to the issuer.
+
+#### Issuer
+
+The origin chooses an issuer that they trust, similar to PSTs. The issuer generates a token and sends it to the browser, which then sends it to the origin.
+
+![diagram showing the structure of Private Access Tokens. The origin asks the client for a token, the client forwards the request to the attester which then forwards it to the issuer which then generates a token, sends it to the client which then sends it to the origin.](../assets/images/privacy-pass/private-access-tokens.webp)
+
+The extra separation between the attester and issuer compared to PSTs adds some extra privacy.
