@@ -122,7 +122,7 @@ The main actors at play with Private State Tokens are Issuers and Redeemers.
 
 #### Issuers
 
-Redeeemer websites must choose an Issuer to trust. They can even be the same company.
+Redeemer websites must choose an Issuer to trust. They can even be the same company.
 
 An issuer website will receive some signal about a user, be that a successful completion of a CAPTCHA challenge, account activity, or something else. They will then issue a token that's stored on the user's device.
 
