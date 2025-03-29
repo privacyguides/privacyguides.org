@@ -157,3 +157,17 @@ The origin chooses an issuer that they trust, similar to PSTs. The issuer genera
 <small aria-hidden="true">Illustration: Cloudflare</small>
 
 The extra separation between the attester and issuer compared to PSTs adds some extra privacy.
+
+The origin website only knows your URL and IP from the initial connection.
+
+The attester only knows the data needed to verify you as a valid user.
+
+The issuer knows the site you visited, but doesn't know any of your device information that the attester used to verify you.
+
+### Future Possibilities
+
+The future of these protocols is still up-in-the-air but it looks bright.
+
+It's unclear whether PATs and PSTs will eventually be combined into a single feature or stay separate, serving their own individual purposes.
+
+With adoption by big companies like Apple and Google, and services like Kagi
