@@ -75,7 +75,7 @@ We previously recommended enabling the *Isolate Destination Address* preference 
 
 Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN kill switch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
 
-Orbot is often outdated on the Guardian Project's [F-Droid repository](https://guardianproject.info/fdroid) and [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android), so consider downloading directly from the [GitHub repository](https://github.com/guardianproject/orbot/releases) instead.
+Orbot is often outdated on Google Play and the Guardian Project's [F-Droid repository](https://guardianproject.info/fdroid), so consider downloading directly from the [GitHub repository](https://github.com/guardianproject/orbot/releases) instead.
 
 All versions are signed using the same signature, so they should be compatible with each other.
 
