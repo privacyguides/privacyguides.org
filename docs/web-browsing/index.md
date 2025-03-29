@@ -26,7 +26,6 @@ Consider using multiple browsers for different use cases, as each of them provid
 
 <div class="grid cards" markdown>
 
-- ![Orbot logo](../assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
 - ![Onion Browser logo](../assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser-ios)
 
 </div>
