@@ -154,4 +154,6 @@ The origin chooses an issuer that they trust, similar to PSTs. The issuer genera
 
 ![diagram showing the structure of Private Access Tokens. The origin asks the client for a token, the client forwards the request to the attester which then forwards it to the issuer which then generates a token, sends it to the client which then sends it to the origin.](../assets/images/privacy-pass/private-access-tokens.webp)
 
+<small aria-hidden="true">Illustration: Cloudflare</small>
+
 The extra separation between the attester and issuer compared to PSTs adds some extra privacy.
