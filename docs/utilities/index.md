@@ -1,6 +1,8 @@
 ---
 title: "Utilities"
 icon: material/wrench
+hide:
+  - toc
 description: These purpose-built tools require minimal permissions and some of them can even be used offline.
 cover: email-clients.webp
 ---
