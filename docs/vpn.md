@@ -110,7 +110,7 @@ Proton VPN has published [App Store](https://apps.apple.com/app/id1437005085) an
 
 #### :material-information-outline:{ .pg-blue } Additional Notes
 
-Proton VPN clients support two-factor authentication on all platforms. Proton VPN has their own servers and datacenters in Switzerland, Iceland and Sweden. They offer content blocking and known-malware blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](tor.md#tor-browser) for this purpose.
+Proton VPN clients support two-factor authentication on all platforms. Proton VPN has their own servers and datacenters in Switzerland, Iceland and Sweden. They offer content blocking and known-malware blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](web-browsing/tor.md#tor-browser) for this purpose.
 
 ##### :material-alert-outline:{ .pg-orange } Kill switch feature is broken on Intel-based Macs
 
@@ -369,7 +369,7 @@ Must not have any marketing which is irresponsible:
 
 Responsible marketing that is both educational and useful to the consumer could include:
 
-- An accurate comparison to when [Tor](tor.md) should be used instead.
+- An accurate comparison to when [Tor](web-browsing/tor.md) should be used instead.
 - Availability of the VPN provider's website over a [.onion service](https://en.wikipedia.org/wiki/.onion)
 
 ### Additional Functionality

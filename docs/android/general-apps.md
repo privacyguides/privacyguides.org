@@ -100,7 +100,7 @@ Main privacy features include:
 
 Metadata is not currently deleted from video files, but that is planned.
 
-The image orientation metadata is not deleted. If you enable location (in Secure Camera) that **won't** be deleted either. If you want to delete that later you will need to use an external app such as [ExifEraser](../data-redaction.md#exiferaser-android).
+The image orientation metadata is not deleted. If you enable location (in Secure Camera) that **won't** be deleted either. If you want to delete that later you will need to use an external app such as [ExifEraser](../utilities/data-redaction.md#exiferaser-android).
 
 </div>
 

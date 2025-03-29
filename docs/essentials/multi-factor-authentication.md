@@ -6,12 +6,12 @@ cover: multi-factor-authentication.webp
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Hardware Keys</p>
 
-[Hardware security key recommendations](security-keys.md) have been moved to their own category.
+[Hardware security key recommendations](../security-keys.md) have been moved to their own category.
 
 </div>
 
@@ -23,7 +23,7 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 <div class="admonition recommendation" markdown>
 
-![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.svg){ align=right }
+![Ente Auth logo](../assets/img/multi-factor-authentication/ente-auth.svg){ align=right }
 
 **Ente Auth** is a free and open-source app which stores and generates TOTP tokens. It can be used with an online account to back up and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
 
@@ -48,7 +48,7 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 <div class="admonition recommendation" markdown>
 
-![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
+![Aegis logo](../assets/img/multi-factor-authentication/aegis.png){ align=right }
 
 **Aegis Authenticator** is a free and open-source app for Android to manage your 2-step verification tokens for your online services. Aegis Authenticator operates completely offline/locally, but includes the option to export your tokens for backup unlike many alternatives.
 
@@ -71,7 +71,7 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 <!-- markdownlint-disable-next-line -->
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 - Source code must be publicly available.
 - Must not require internet connectivity.

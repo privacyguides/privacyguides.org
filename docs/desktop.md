@@ -161,7 +161,7 @@ Whonix is best used [in conjunction with Qubes](https://whonix.org/wiki/Qubes/Wh
 
 ![Tails logo](assets/img/linux-desktop/tails.svg){ align=right }
 
-**Tails** is a live operating system based on Debian that routes all communications through Tor, which can boot on on almost any computer from a DVD, USB stick, or SD card installation. It uses [Tor](tor.md) to preserve privacy and [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } while circumventing censorship, and it leaves no trace of itself on the computer it is used on after it is powered off.
+**Tails** is a live operating system based on Debian that routes all communications through Tor, which can boot on on almost any computer from a DVD, USB stick, or SD card installation. It uses [Tor](web-browsing/tor.md) to preserve privacy and [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } while circumventing censorship, and it leaves no trace of itself on the computer it is used on after it is powered off.
 
 [:octicons-home-16: Homepage](https://tails.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://tails.net/doc/index.en.html){ .card-link title=Documentation}
@@ -180,7 +180,7 @@ Tails [doesn't erase](https://gitlab.tails.boum.org/tails/tails/-/issues/5356) t
 
 Tails is great for counter forensics due to amnesia (meaning nothing is written to the disk); however, it is not a hardened distribution like Whonix. It lacks many anonymity and security features that Whonix has and gets updated much less often (only once every six weeks). A Tails system that is compromised by malware may potentially bypass the transparent proxy, allowing for the user to be deanonymized.
 
-Tails includes [uBlock Origin](browser-extensions.md#ublock-origin) in Tor Browser by default, which may potentially make it easier for adversaries to fingerprint Tails users. [Whonix](desktop.md#whonix) virtual machines may be more leak-proof, however they are not amnesic, meaning data may be recovered from your storage device.
+Tails includes [uBlock Origin](web-browsing/browser-extensions.md#ublock-origin) in Tor Browser by default, which may potentially make it easier for adversaries to fingerprint Tails users. [Whonix](desktop.md#whonix) virtual machines may be more leak-proof, however they are not amnesic, meaning data may be recovered from your storage device.
 
 By design, Tails is meant to completely reset itself after each reboot. Encrypted [persistent storage](https://tails.net/doc/persistent_storage/index.en.html) can be configured to store some data between reboots.
 

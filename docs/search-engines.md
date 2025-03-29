@@ -17,7 +17,7 @@ Use a **search engine** that doesn't build an advertising profile based on your 
 
 The recommendations here do not collect personally identifying information (PII) based on each service's privacy policy. There is **no guarantee** that these privacy policies are honored.
 
-Consider using a [VPN](vpn.md) or [Tor](tor.md) if your threat model requires hiding your IP address from the search provider.
+Consider using a [VPN](vpn.md) or [Tor](web-browsing/tor.md) if your threat model requires hiding your IP address from the search provider.
 
 | Provider | Search Index | Tor Hidden Service | Logging / Privacy Policy | Country of Operation |
 |---|---|---|---|---|
@@ -58,7 +58,7 @@ We recommend you disable [Anonymous usage metrics](https://search.brave.com/help
 
 **DuckDuckGo** is one of the more mainstream private search engine options. Notable DuckDuckGo search features include [bangs](https://duckduckgo.com/bang) and a variety of [instant answers](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features). The search engine uses numerous [sources](https://help.duckduckgo.com/results/sources) other than Bing for instant answers and other non-primary results.
 
-DuckDuckGo is the default search engine for the [Tor Browser](tor.md#tor-browser) and is one of the few available options on Apple’s [Safari](mobile-browsers.md#safari-ios) browser.
+DuckDuckGo is the default search engine for the [Tor Browser](web-browsing/tor.md#tor-browser) and is one of the few available options on Apple’s [Safari](web-browsing/mobile-browsers.md#safari-ios) browser.
 
 [:octicons-home-16: Homepage](https://duckduckgo.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Onion Service" }
@@ -76,7 +76,7 @@ DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-
 ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
 ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
 
-**Startpage** is a private search engine. One of Startpage's unique features is the [Anonymous View](https://startpage.com/en/anonymous-view), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. Unlike the name suggests, the feature should not be relied upon for anonymity. If you are looking for anonymity, use the [Tor Browser](tor.md#tor-browser) instead.
+**Startpage** is a private search engine. One of Startpage's unique features is the [Anonymous View](https://startpage.com/en/anonymous-view), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. Unlike the name suggests, the feature should not be relied upon for anonymity. If you are looking for anonymity, use the [Tor Browser](web-browsing/tor.md#tor-browser) instead.
 
 [:octicons-home-16: Homepage](https://startpage.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion){ .card-link title="Onion Service" }
@@ -87,7 +87,7 @@ DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-
 
 Startpage's majority shareholder is System1 who is an adtech company. We don't believe that to be an issue as they have a distinctly separate [privacy policy](https://system1.com/terms/privacy-policy). The Privacy Guides team reached out to Startpage [back in 2020](https://blog.privacyguides.org/2020/05/03/relisting-startpage) to clear up any concerns with System1's sizeable investment into the service, and we were satisfied with the answers we received.
 
-Startpage previously placed limitations on VPN and [Tor](tor.md) users, but they recently created an [official](https://support.startpage.com/hc/en-us/articles/24786602537364-Startpage-s-Tor-onion-service) Tor hidden service, and as of April 2024 we have no longer noticed extra roadblocks for Tor or [VPN](vpn.md) users.
+Startpage previously placed limitations on VPN and [Tor](web-browsing/tor.md) users, but they recently created an [official](https://support.startpage.com/hc/en-us/articles/24786602537364-Startpage-s-Tor-onion-service) Tor hidden service, and as of April 2024 we have no longer noticed extra roadblocks for Tor or [VPN](vpn.md) users.
 
 ## Metasearch Engines
 
