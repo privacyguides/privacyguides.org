@@ -10,7 +10,7 @@ These tools provide a private **internet browsing** experience by limiting the a
 
 Consider using multiple browsers for different use cases, as each of them provide different tools to thwart surveillance and data collection, including but not limited to anti-fingerprinting protections, content blocking, etc.
 
-## Tor Network
+## Anonymous Browsing
 
 <div class="admonition recommendation" markdown>
 
@@ -32,7 +32,7 @@ Consider using multiple browsers for different use cases, as each of them provid
 
 </div>
 
-## Standard Browsers
+## Non-Anonymous Browsing
 
 <div class="grid cards" markdown>
 
