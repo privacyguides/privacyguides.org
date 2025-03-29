@@ -214,7 +214,7 @@ Disable **Personalized Ads** if you don't want targeted ads. Select **Apple Adve
 
 ### E2EE Calls
 
-Normal phone calls made with the Phone app through your carrier are not E2EE. Both FaceTime Video and FaceTime Audio calls are E2EE. Alternatively, you can use [another app](../essentials/real-time-communication.md) like Signal for E2EE calls.
+Normal phone calls made with the Phone app through your carrier are not E2EE. Both FaceTime Video and FaceTime Audio calls are E2EE. Alternatively, you can use a [recommended instant messenger](../essentials/real-time-communication.md) like Signal for E2EE calls.
 
 ### Encrypted iMessage
 
