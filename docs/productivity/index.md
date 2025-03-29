@@ -1,6 +1,6 @@
 ---
 title: "Productivity"
-icon: material/briefcase-outline
+icon: material/briefcase-variant
 hide:
   - toc
 description: These productivity tools protect your data from unauthorized access by service providers.
