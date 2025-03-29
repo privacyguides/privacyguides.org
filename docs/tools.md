@@ -9,11 +9,11 @@ description: A complete list of the privacy tools, services, software, and hardw
 
 If you're looking for a specific solution to something, these are the hardware and software tools we recommend in a variety of categories. Our recommended privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.
 
+[Technology Essentials](essentials/index.md){ .md-button .md-button--primary }
+[Internet Browsing Tools](web-browsing/index.md){ .md-button .md-button--primary }
 [VPN Providers](vpn.md){ .md-button }
-[Password Managers](essentials/passwords.md){ .md-button }
-[Email Providers](email.md){ .md-button }
-[Browser Extensions](web-browsing/browser-extensions.md){ .md-button }
 [DNS Servers](dns.md){ .md-button }
+[Email Providers](email.md){ .md-button }
 [Email Aliasing Services](email-aliasing.md){ .md-button }
 [Photo Organization Tools](photo-management.md){ .md-button }
 
