@@ -186,4 +186,4 @@ It is important to note that Auditor can only effectively detect changes **after
 
 No personally identifiable information is submitted to the attestation service. We recommend that you sign up with an anonymous account and enable remote attestation for continuous monitoring.
 
-If your [threat model](basics/threat-modeling.md) requires privacy, you could consider using [Orbot](web-browsing/tor.md#orbot) or a VPN to hide your IP address from the attestation service.
+If your [threat model](basics/threat-modeling.md) requires hiding your IP address from the attestation service, you could consider using [Orbot](alternative-networks.md#orbot) or a [VPN](vpn.md).
