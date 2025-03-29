@@ -1,6 +1,6 @@
 ---
 title: "Technology Essentials"
-icon: material/star-outline
+icon: material/star
 hide:
   - toc
 description: These tools are critical for those starting their privacy journey as they help you secure your accounts and devices.
