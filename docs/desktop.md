@@ -161,7 +161,7 @@ Whonix is best used [in conjunction with Qubes](https://whonix.org/wiki/Qubes/Wh
 
 ![Tails logo](assets/img/linux-desktop/tails.svg){ align=right }
 
-**Tails** is a live operating system based on Debian that routes all communications through Tor, which can boot on on almost any computer from a DVD, USB stick, or SD card installation. It uses [Tor](web-browsing/tor.md) to preserve privacy and [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } while circumventing censorship, and it leaves no trace of itself on the computer it is used on after it is powered off.
+**Tails** is a live operating system based on Debian that routes all communications through Tor, which can boot on almost any computer from a DVD, USB stick, or SD card installation. It uses [Tor](alternative-networks.md#tor) to preserve privacy and [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } while circumventing [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }, and it leaves no trace of itself on the computer it is used on after it is powered off.
 
 [:octicons-home-16: Homepage](https://tails.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://tails.net/doc/index.en.html){ .card-link title=Documentation}
