@@ -1,6 +1,8 @@
 ---
 title: "Media"
-icon: material/share-outline
+icon: material/multimedia
+hide:
+  - toc
 description: The tools here help you privately share and access media from different sources.
 cover: news-aggregators.webp
 ---
