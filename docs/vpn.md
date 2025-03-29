@@ -369,7 +369,7 @@ Must not have any marketing which is irresponsible:
 
 Responsible marketing that is both educational and useful to the consumer could include:
 
-- An accurate comparison to when [Tor](web-browsing/tor.md) should be used instead.
+- An accurate comparison to when the [Tor network](alternative-networks.md#tor) should be used instead.
 - Availability of the VPN provider's website over a [.onion service](https://en.wikipedia.org/wiki/.onion)
 
 ### Additional Functionality
