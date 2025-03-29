@@ -102,9 +102,9 @@ These options can be found in :material-menu: → **Settings** → **Privacy & S
 </div>
 
 <div class="admonition info" markdown>
-<p class="admonition-title">For those using macOS Sonoma</p>
+<p class="admonition-title">For those using macOS</p>
 
-Currently, GPG Suite does [not yet](https://gpgtools.com/sonoma) have a stable release for macOS Sonoma.
+Currently, GPG Suite does [not yet](https://gpgtools.com/sonoma) have a stable release for macOS Sonoma and later.
 
 </div>
 
