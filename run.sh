@@ -133,6 +133,11 @@ markdown_extensions:
         - tools.md
         - about.md
         - about/*
+        - essentials/index.md
+        - media/index.md
+        - productivity/index.md
+        - utilities/index.md
+        - web-browsing/index.md
     targets:
       exclude:
         - about/contributors.md
