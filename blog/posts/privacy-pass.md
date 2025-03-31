@@ -140,6 +140,8 @@ For example, in Apple's Private Access Token implementation, they use certificat
 
 The issuer is responsible for issuing tokens in response to requests from clients.
 
+The client presents tokens to the Origin once they're provided by the issuer.
+
 ![diagram showing the structure of Private Access Tokens. The origin asks the client for a token, the client forwards the request to the attester which then forwards it to the issuer which then generates a token, sends it to the client which then sends it to the origin.](../assets/images/privacy-pass/private-access-tokens.webp)
 
 <small aria-hidden="true">Illustration: Cloudflare</small>
@@ -194,12 +196,26 @@ Having to install an extension is annoying as an end user and surely incurs some
 
 Overall, Privacy Pass is an exciting standard that is already improving the privacy of users on a wide scale.
 
+### Easier Adoption
+
 However, for widespread adoption of anonymous authentication for all online services, there needs to be an easier way for developers to implement it. I see Private State Tokens and Private Access Tokens as paths toward that goal, but they have their own limitations.
 
 Private State Tokens seem to be restricted to browsers, which is mostly fine since so many online services are accessed through the browser. It does put services like VPNs that operate outside the browser in a tight spot though.
 
-Private Access Tokens seem like a possible solution for device-wide Privacy Pass authentication, but the only place I've seen them implemented is in Apple's operating systems to identify users as real iOS or macOS users. I'd like to see wider adoption for more usecases than just that.
+Private Access Tokens seem like a possible solution for device-wide Privacy Pass authentication, but the only place I've seen them implemented is in Apple's operating systems to identify users as real iOS or macOS users. I'd like to see wider adoption for more usecases than just that. It's unclear what the vision for Private Access Tokens is for the moment.
 
-The future of these protocols is still up-in-the-air but it looks bright. 
+### Carriers
 
-With adoption by big companies like Apple and Google, and services like Kagi implementing Privacy Pass for anonymous authentication, I think we're going to start seeing more services adopting Privacy Pass as an anonymous authentication method, and it'll only get easier over time.
+One of the biggest and most privacy-invasive services is mobile carriers. They take lots of personal information when you sign up, and then you have permanent identifiers, both IMSI identifying you as a subscriber and IMEI identifying your device, tied to that information while you use it. Because of how the cell network works, they also can tie that information to your physical location and all the traffic you send through their network.
+
+[Cape](https://www.cape.co/research) is a privacy-focused carrier that says they're "studying the use of blinded tokens and zero-knowledge proofs to disaggregate subscriber information." This would have a massive impact on user privacy, possibly allowing a KYC'd mobile subscriber to use their carrier at least semi-anonymously (it's unclear how IMSI and IMEI fit into this scheme, as well as location information).
+
+### VPNs
+
+Commercial VPNs typically require some kind of account identifier, even if it's just a randomized number.
+
+Apple's Private Relay uses RSA blind signatures to anonymously authenticate users to each of the two hops.
+
+Google's [VPN](https://www.gstatic.com/vpn/google_vpn_white_paper.pdf) also uses blind signatures to protect users.
+
+Hopefully we can see more VPN companies start to use Privacy Pass to authenticate users, I think it would be a massive improvement to user privacy.
