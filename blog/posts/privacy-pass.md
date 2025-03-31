@@ -150,6 +150,12 @@ The client presents tokens to the Origin once they're provided by the issuer.
 
 <small aria-hidden="true">Illustration: [Cloudflare](https://blog.cloudflare.com/eliminating-captchas-on-iphones-and-macs-using-new-standard/)</small>
 
+The tokens need to identify which issuers are trusted.
+
+They can also be interactive or non-interactive. Interactive means that you need a fresh token based on the challenge, whereas a non-interactive token can be stored for later use.
+
+Tokens can also be constrained to one specific Origin or they can be used across Origins.
+
 ### Private State Tokens
 
 [Private State Tokens](https://developers.google.com/privacy-sandbox/protections/private-state-tokens) are a [proposed browser API](https://github.com/WICG/trust-token-api) by Google as part of their [Privacy Sandbox](https://developers.google.com/privacy-sandbox). They're based on the Privacy Pass protocol.
