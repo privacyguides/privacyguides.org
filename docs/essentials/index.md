@@ -4,7 +4,7 @@ icon: material/star
 hide:
   - toc
 description: These tools are critical for those starting their privacy journey as they help you secure your accounts and devices.
-cover: multi-factor-authentication.webp
+cover: essentials.webp
 ---
 The tools on this page constitute the **technology essentials** which are critical for those starting their privacy journey, as they help you secure your accounts, devices, and sensitive communications.
 
