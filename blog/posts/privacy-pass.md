@@ -156,7 +156,7 @@ A browser-level API, I imagine, would significantly reduce the development burde
 
 [Private Access Tokens](https://blog.cloudflare.com/eliminating-captchas-on-iphones-and-macs-using-new-standard/) are based on Privacy Pass as well, but they don't seem to be specifically bound to the browser.
 
-It's unclear to me what really makes Private Access Tokens different than Privacy Pass itself, other than Private Access Tokens seem to require separation of the Attester and Issuer while Privacy Pass doesn't, which adds extra privacy.
+It's unclear to me what really makes Private Access Tokens different than Privacy Pass itself, other than Private Access Tokens seem to call for separation of the Attester and Issuer while Privacy Pass allows the origin, attester, and issuer to be the same. Delegating each role to a different party adds extra privacy.
 
 The origin website only knows your URL and IP from the initial connection.
 
