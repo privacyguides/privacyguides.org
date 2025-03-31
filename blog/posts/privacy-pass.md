@@ -222,4 +222,8 @@ Apple's Private Relay uses RSA blind signatures to anonymously authenticate user
 
 Google's [VPN](https://www.gstatic.com/vpn/google_vpn_white_paper.pdf) also uses blind signatures to protect users.
 
+![Diagram showing Google's blind signature VPN authentication scheme](../assets/images/privacy-pass/google-vpn.webp)
+
+<small aria-hidden="true">Image: [Google](https://www.gstatic.com/vpn/google_vpn_white_paper.pdf)</small>
+
 Hopefully we can see more VPN companies start to use Privacy Pass to authenticate users, I think it would be a massive improvement to user privacy.
