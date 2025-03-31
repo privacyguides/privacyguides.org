@@ -4,7 +4,7 @@ icon: material/web
 hide:
   - toc
 description: These privacy-protecting browsers and browser extensions are what we currently recommend for browsing the internet on different platforms.
-cover: desktop-browsers.webp
+cover: internet-browsing.webp
 ---
 These tools provide a private **internet browsing** experience by limiting the amount of tracking by ad networks across different sites.
 
