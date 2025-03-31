@@ -98,13 +98,11 @@ When VPN and Tor users aren't blocked, they often have to deal with annoying [CA
 
 CAPTCHAs aren't even particularly good at detecting bots. With advances in AI, [bots can solve CAPTCHAs better than humans can](https://arxiv.org/pdf/2307.12108).
 
-## Solutions
+## Privacy Pass
 
 Several blind signature-based solutions are in various states, some being implemented but not widely used, some being proposed browser APIs, and some being IETF standards.
 
 The landscape is very confusing right now so I'll try to illucidate what I've found.
-
-### Privacy Pass
 
 [Privacy Pass](https://privacypass.github.io) started out as an attempt at a privacy-preserving way to bypass CAPTCHAs.
 
@@ -112,51 +110,53 @@ It started out and is still an extension that can be installed on the [Chrome](h
 
 Unfortunately, the tokens issued using the Privacy Pass protocol need to be stored somewhere, so for the moment, a browser extension or some other storage mechanism is needed.
 
-### Private State Tokens
+The Privacy Pass protocol has massively outgrown its original purpose. It's been updated to support multiple different schemes and purposes.
 
-[Private State Tokens](https://developers.google.com/privacy-sandbox/protections/private-state-tokens) are a [proposed browser API](https://github.com/WICG/trust-token-api) by Google as part of their [Privacy Sandbox](https://developers.google.com/privacy-sandbox). They're based on the Privacy Pass protocol.
+There are three main roles that need to be played for the authentication mechanism to work. These can be filled by all the same party, by three separate parties, or any combination in between. You'll have increased privacy the more separation there is between each role, so ideally they should all be filled by different parties. 
 
-The main benefit of PSTs is that they provide a secure place for websites to store their tokens so that you don't need a separate extension for every service.
+### Origin
 
-The main actors at play with Private State Tokens are Issuers and Redeemers.
+The origin is the original website or service that's requesting a token for redemption. The client presents a valid token, or it must request more tokens.
 
-#### Issuers
+### Attester
 
-Redeemer websites must choose an Issuer to trust. They can even be the same company.
+The attester is responsible for verifying something about the client. There are several ways it can achieve this, and it can use multiple at the same time if desired.
 
-An issuer website will receive some signal about a user, be that a successful completion of a CAPTCHA challenge, account activity, or something else. They will then issue a token that's stored on the user's device.
+#### CAPTCHA
 
-#### Redeemers
+The attester can make the client solve a CAPTCHA to prove that it's not a bot. Not the most elegant solution but solving one CAPTCHA instead of multiple is preferable.
 
-A redeemer that needs to know something about a user, for example whether they're a bot or not, can request a token from an issuer they trust.
+#### Client State
 
-A device can store up to 500 tokens per top-level website and issuer, with metadata about the key that the issuer used to issue it.
+The attester can verify something about the client's state like the geographic location, whether the client has a valid account, or the number of issuance protocol invocations.
 
-### Private Access Tokens
+#### Trusted Device
 
-[Private Access Tokens](https://blog.cloudflare.com/eliminating-captchas-on-iphones-and-macs-using-new-standard/) are based on Privacy Pass as well but differ in a major area. Instead of and Issuer and Redeemer, PATs have an Origin, Attester, and Issuer.
+If your client is running on hardware that's capable of producing device-level attestation, like a device with a secure element, then it can use that to verify that the device is trusted.
 
-#### Origin
+For example, in Apple's Private Access Token implementation, they use certificates stored in the Secure Enclave and verify that your Apple account is in good standing.
 
-The origin is the website the user is trying to access. It will request a token from the client.
+### Issuer
 
-If the client supports PATs, like iOS and macOS do, then it will make an API call to the attester.
-
-#### Attester
-
-The attester verifies something about the client. For example, in iOS, Apple checks various device components to verify that you are running a genuine apple device.
-
-The attester then makes an API call to the issuer.
-
-#### Issuer
-
-The origin chooses an issuer that they trust, similar to PSTs. The issuer generates a token and sends it to the browser, which then sends it to the origin.
+The issuer is responsible for issuing tokens in response to requests from clients.
 
 ![diagram showing the structure of Private Access Tokens. The origin asks the client for a token, the client forwards the request to the attester which then forwards it to the issuer which then generates a token, sends it to the client which then sends it to the origin.](../assets/images/privacy-pass/private-access-tokens.webp)
 
 <small aria-hidden="true">Illustration: Cloudflare</small>
 
-The extra separation between the attester and issuer compared to PSTs adds some extra privacy.
+### Private State Tokens
+
+[Private State Tokens](https://developers.google.com/privacy-sandbox/protections/private-state-tokens) are a [proposed browser API](https://github.com/WICG/trust-token-api) by Google as part of their [Privacy Sandbox](https://developers.google.com/privacy-sandbox). They're based on the Privacy Pass protocol.
+
+The main benefit of PSTs is that they provide a secure place for websites to store their tokens so that you don't need a separate extension for every service. 
+
+A browser-level API, I imagine, would significantly reduce the development burden of browser-based services looking to implement Privacy Pass, but it would leave non-browser apps like VPNs high and dry.
+
+### Private Access Tokens
+
+[Private Access Tokens](https://blog.cloudflare.com/eliminating-captchas-on-iphones-and-macs-using-new-standard/) are based on Privacy Pass as well, but they don't seem to be specifically bound to the browser.
+
+It's unclear to me what really makes Private Access Tokens different than Privacy Pass itself, other than Private Access Tokens seem to require separation of the Attester and Issuer while Privacy Pass doesn't, which adds extra privacy.
 
 The origin website only knows your URL and IP from the initial connection.
 
@@ -164,10 +164,42 @@ The attester only knows the data needed to verify you as a valid user.
 
 The issuer knows the site you visited, but doesn't know any of your device information that the attester used to verify you.
 
-### Future Possibilities
+### Kagi
 
-The future of these protocols is still up-in-the-air but it looks bright.
+There are scant services actively using Privacy Pass to authenticate users, but a recent and very exciting example is [Kagi](https://blog.kagi.com/kagi-privacy-pass).
 
-It's unclear whether PATs and PSTs will eventually be combined into a single feature or stay separate, serving their own individual purposes.
+With their implementation, you can now install their extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/kagi-privacy-pass/) and [Chrome](https://chromewebstore.google.com/detail/kagi-search/cdglnehniifkbagbbombnjghhcihifij). Safari isn't supported at the moment, but their [Orion](https://chromewebstore.google.com/detail/kagi-search/cdglnehniifkbagbbombnjghhcihifij) browser supports it and is WebKit-based.
 
-With adoption by big companies like Apple and Google, and services like Kagi
+The need for an extension and lack of support for some platforms highlights the need for widespread support for Privacy Pass in browsers and platforms. It's not reasonable to expect every single platform to implement Privacy Pass themselves and users likely don't want to install a separate extension for every platform either.
+
+That said, I applaud Kagi for their efforts. They went above and beyond to protect their users' privacy. A few notes for future improvements, though.
+
+#### No Account Requirement
+
+Currently, Kagi requires and account in order to use it. Although they allow you to put in a fake email address on account creation since they don't [check it](https://kagifeedback.org/d/3813-enable-anonymous-registration-no-email/16), it's still a persistent identifier that could be eleminated.
+
+Their announcement blog post states that the ability to use Kagi fully without an account is a possibility for the future with an invitation to request the feature on their [forum](https://kagifeedback.org/d/6163-kagi-privacy-pass), so feel free to add your voice. A fully accountless search engine that doesn't rely on ads would be great to see.
+
+#### Separation of Origin, Attester, Issuer
+
+Kagi uses the [Shared Origin, Attester, Issuer](https://www.ietf.org/archive/id/draft-ietf-privacypass-architecture-03.html?_fsi=jKxFixnl#section-4.1) model for their implementation, which leaves the possibility of data being correlated between each step of the process, such as device fingerprinting or IP address being used to correlate a user who is issued tokens with when they redeem them.
+
+Kagi's onion service helps to mitigate this issue, but I think it would be a significant privacy improvement to separate all three entities.
+
+#### Remove Requirement for an Extension
+
+Having to install an extension is annoying as an end user and surely incurs some development cost in both the initial development as well as upkeep over time. I'm not sure how it would be possible to get rid of the extension as it seems like there's no good way to do so at the moment, but I'm hopeful that the Private State Token API could be used for that in the future if it ever gets fully standardized as a browser API.
+
+## Future Possibilities
+
+Overall, Privacy Pass is an exciting standard that is already improving the privacy of users on a wide scale.
+
+However, for widespread adoption of anonymous authentication for all online services, there needs to be an easier way for developers to implement it. I see Private State Tokens and Private Access Tokens as paths toward that goal, but they have their own limitations.
+
+Private State Tokens seem to be restricted to browsers, which is mostly fine since so many online services are accessed through the browser. It does put services like VPNs that operate outside the browser in a tight spot though.
+
+Private Access Tokens seem like a possible solution for device-wide Privacy Pass authentication, but the only place I've seen them implemented is in Apple's operating systems to identify users as real iOS or macOS users. I'd like to see wider adoption for more usecases than just that.
+
+The future of these protocols is still up-in-the-air but it looks bright. 
+
+With adoption by big companies like Apple and Google, and services like Kagi implementing Privacy Pass for anonymous authentication, I think we're going to start seeing more services adopting Privacy Pass as an anonymous authentication method, and it'll only get easier over time.
