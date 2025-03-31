@@ -4,7 +4,7 @@ icon: material/briefcase-variant
 hide:
   - toc
 description: These productivity tools protect your data from unauthorized access by service providers.
-cover: document-collaboration.webp
+cover: productivity.webp
 ---
 These **productivity** tools prevent your data from being read by third parties through the use of encryption or the ability to use their full functionality while offline.
 
