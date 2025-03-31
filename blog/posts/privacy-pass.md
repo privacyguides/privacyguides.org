@@ -112,8 +112,6 @@ The landscape is very confusing right now so I'll try to illucidate what I've fo
 
 It started out and is still an extension that can be installed on the [Chrome](https://chromewebstore.google.com/detail/silk-privacy-pass-client/ajhmfdgkijocedmfjonnpjfojldioehi) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/privacy-pass/) extension store, but it's since expanded to become an [IETF standard](https://datatracker.ietf.org/wg/privacypass/about/).
 
-Unfortunately, the tokens issued using the Privacy Pass protocol need to be stored somewhere, so for the moment, a browser extension or some other storage mechanism is needed.
-
 The Privacy Pass protocol has massively outgrown its original purpose. It's been updated to support multiple different schemes and purposes.
 
 There are three main roles that need to be played for the authentication mechanism to work. These can be filled by all the same party, by three separate parties, or any combination in between. You'll have increased privacy the more separation there is between each role, so ideally they should all be filled by different parties. 
