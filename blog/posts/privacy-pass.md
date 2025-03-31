@@ -188,7 +188,7 @@ That said, I applaud Kagi for their efforts. They went above and beyond to prote
 
 #### No Account Requirement
 
-Currently, Kagi requires and account in order to use it. Although they allow you to put in a fake email address on account creation since they don't [check it](https://kagifeedback.org/d/3813-enable-anonymous-registration-no-email/16), it's still a persistent identifier that could be eleminated.
+Currently, Kagi requires and account in order to use it. Although they allow you to put in a fake email address on account creation since they don't [check it](https://kagifeedback.org/d/3813-enable-anonymous-registration-no-email/16), it's still a persistent identifier that could be eliminated.
 
 Their announcement blog post states that the ability to use Kagi fully without an account is a possibility for the future with an invitation to request the feature on their [forum](https://kagifeedback.org/d/6163-kagi-privacy-pass), so feel free to add your voice. A fully accountless search engine that doesn't rely on ads would be great to see.
 
