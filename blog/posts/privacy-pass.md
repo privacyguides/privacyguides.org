@@ -227,3 +227,17 @@ Google's [VPN](https://www.gstatic.com/vpn/google_vpn_white_paper.pdf) also uses
 <small aria-hidden="true">Image: [Google](https://www.gstatic.com/vpn/google_vpn_white_paper.pdf)</small>
 
 Hopefully we can see more VPN companies start to use Privacy Pass to authenticate users, I think it would be a massive improvement to user privacy.
+
+### Digital Cash
+
+Part of Chaum's vision was anonymous digital transactions using blind signatures, which he made a reality with his company [DigiCash](https://chaum.com/wp-content/uploads/2022/01/05-27-94-World_s-first-electronic-cash-payment-over-computer-networks.pdf).
+
+For whatever reason, ecash, as it was called, never caught on and the company filed for bankruptcy in 1998. We're left with the terrible current system where you need to input your credit card and personal information in order to make a transaction, which is easily traceable back to you. Not to mention the security implications, [credit card fraud](https://www.security.org/digital-safety/credit-card-fraud-report/) is rampant today.
+
+The dream isn't dead, however. Chaum's [eCash 2.0](https://chaum.com/ecash-2-0/) is quantum-resistant and has been built and tested in the Bank for International Settlements' [Project Tourbillon](https://www.bis.org/about/bisih/topics/cbdc/tourbillon.htm).
+
+### Digital ID
+
+Laws are being passed forcing 18+ websites and even [app stores](https://thehill.com/policy/technology/5179865-utah-app-store-age-verification-law/) to collect verify the ID of users. This is a massive slap in the face to the privacy and security of everyone. Data breaches and tracking are inevitable under the current system.
+
+Blind signatures could provide a private and secure way to verify age or other information without having to submit you entire ID or submit invasive face scans.
