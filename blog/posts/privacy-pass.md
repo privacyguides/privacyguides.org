@@ -22,7 +22,7 @@ Services that require authentication can correlate your activity on that service
 
 ## History
 
-The story of privacy pass begins with a [paper](https://dl.acm.org/doi/pdf/10.1145/4372.4373) by David Chaum from 1985, in which he laments the ever-increasing data collection by companies and government agencies.
+The story of privacy pass begins with a [paper](https://dl.acm.org/doi/pdf/10.1145/4372.4373) by David Chaum from 1985 (he actually has an earlier paper from [1982](https://chaum.com/wp-content/uploads/2022/02/chaum_dissertation.pdf) but I'll be referencing this one), in which he laments the ever-increasing data collection by companies and government agencies.
 
 It's funny that all the way back in 1985 he talks about the same issues we deal with today: persistent identifiers tied to our real identity for transactions, government ID's, etc.
 
