@@ -4,14 +4,12 @@ date:
 categories:
     - Announcements
 tags:
-    - PSA
-    - Crime
-    - Big Tech
+    - April Fools
 authors:
     - aprilfools
 license: BY-SA
 description: Privacy Guides is formally taking a stand against dangerous and frightening technologies.
-schema_type: NewsArticle
+schema_type: SatiricalArticle
 preview:
   logo: blog/assets/images/the-dangers-of-end-to-end-encryption/fire.svg
 ---
@@ -22,6 +20,15 @@ preview:
 <small aria-hidden="true">Photo: Flavio / Unsplash</small>
 
 In the digital age, nothing is more important than convenience and easy access to data. Unfortunately, there has been an alarming trend among technologists to implement **End-to-End Encryption** (E2EE) in their applications, to the detriment of all the important work being done by countless organizations, including the best and brightest intelligence agencies and big tech companies.<!-- more -->
+
+<div class="admonition tip inline" markdown>
+<p class="admonition-title">April Fools!</p>
+
+This article was published on April 1st, 2025.
+
+Privacy Guides supports strong encryption as a cornerstone of digital security and personal freedom. End-to-end encryption ensures that **your** communications remain **yours**, which is a principle worth preserving.
+
+</div>
 
 Security-focused developers and misguided "advocates" have long attempted to convince those involved in privacy and security that E2EE is an advanced security measure designed to protect your sensitive data, and *Privacy Guides* has stood by for far too long not setting the record straight.
 
@@ -80,3 +87,13 @@ End-to-end encryption is an insidious technology that has crept its way into som
 It's time we took a stand against this technology and demand a true solution from our governments: **Sensible** regulations that allow for *partial* protections while keeping the option for these entities to decrypt it when necessary intact. The sense of security is all that truly matters to most people anyway.
 
 [Who needs *complete* privacy](https://www.privacyguides.org/en/basics/why-privacy-matters/) when you can have a half-baked version easily circumvented by the good guys? What is privacy in the first place, if not a convenient cover for wrongdoing? If we can't read all messages (just in case), how are we expected to keep society safe?
+
+---
+
+This article was published on April Fools' Day. If you've made it to the end, and you haven't noticed how we buried the real benefits of end-to-end encryption in our hyperbolic worst-case scenarios, well... surprise! 😄
+
+Privacy Guides supports strong encryption as a cornerstone of digital security and personal freedom. End-to-end encryption ensures that **your** communications remain **yours**, which is a principle worth preserving.
+
+If the "dangers" of E2EE upset you, maybe it is time to reflect on how crucial privacy is to everyone: You, me, whistleblowers, activists, and everyday people who just want to live their lives. Happy April 1st, and stay secure out there!
+
+*Written by: Jonah Aragon*
