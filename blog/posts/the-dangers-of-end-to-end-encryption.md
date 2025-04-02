@@ -13,7 +13,7 @@ schema_type: SatiricalArticle
 preview:
   logo: blog/assets/images/the-dangers-of-end-to-end-encryption/fire.svg
 ---
-# The Dangers of End-to-End Encryption
+# The Dangers of End-to-End Encryption - Happy April fools!
 
 ![An image showing a burning car](../assets/images/the-dangers-of-end-to-end-encryption/cover.webp)
 
