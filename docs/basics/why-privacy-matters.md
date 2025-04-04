@@ -1,6 +1,7 @@
 ---
 title: "Why Privacy Matters"
 icon: 'material/shield-account'
+description: In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not.
 ---
 In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not. ==Your privacy is up for grabs==, and you need to care about it. Privacy is about power, and it is so important that this power ends up in the right hands.
 
@@ -9,6 +10,8 @@ Privacy is ultimately about human information, and this is important because we 
 ## What is Privacy?
 
 Many people get the concepts of **privacy**, **security**, and **anonymity** confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
+
+[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security/){ .md-button }
 
 <!-- markdownlint-disable-next-line -->
 **Privacy**
@@ -48,6 +51,8 @@ Take cookie consent forms, for example. You may encounter these dozens of times 
 ==Control over your privacy inside most apps is an illusion.== It's a shiny dashboard with all sorts of choices you can make about your data, but rarely the choices you're looking for, like "only use my data to help me." This type of control is meant to make you feel guilty about your choices, that you "had the choice" to make the apps you use more private, and you chose not to.
 
 Privacy is something we need to have baked into the [software and services](../tools.md) we use by default, you can't bend most apps into being private on your own.
+
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
 
 ## Sources
 

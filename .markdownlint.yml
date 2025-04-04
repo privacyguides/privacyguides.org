@@ -27,4 +27,6 @@ code-block-style: false
 no-hard-tabs: true
 emphasis-style:
   style: "asterisk"
-no-duplicate-header: false
+no-trailing-punctuation: false
+no-duplicate-heading:
+  siblings_only: true

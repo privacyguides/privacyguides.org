@@ -2,7 +2,7 @@
 meta_title: "The Best Private Instant Messengers - Privacy Guides"
 title: "Real-Time Communication"
 icon: material/chat-processing
-description: Other instant messengers make all of your private conversations available to the company that runs them.
+description: Encrypted messengers like Signal and SimpleX keep your sensitive communications secure from prying eyes.
 cover: real-time-communication.webp
 ---
 <small>Protects against the following threat(s):</small>
@@ -12,9 +12,9 @@ cover: real-time-communication.webp
 - [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-These are our recommendations for encrypted **real-time communication**.
+These are our recommendations for encrypted **real-time communication**. These come in the form of many [types of communication networks](./advanced/communication-network-types.md).
 
-[Types of Communication Networks :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
+[:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why/){ .md-button }
 
 ## Encrypted Messengers
 
@@ -30,15 +30,16 @@ These messengers are great for securing your sensitive communications.
 
 [:octicons-home-16: Homepage](https://signal.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.signal.org){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.signal.org){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://signal.org/donate){ .card-link title=Contribute }
+[:octicons-heart-16:](https://signal.org/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
+- [:simple-github: GitHub](https://github.com/signalapp/Signal-Android/releases)
 - [:simple-android: Android](https://signal.org/android/apk)
 - [:fontawesome-brands-windows: Windows](https://signal.org/download/windows)
 - [:simple-apple: macOS](https://signal.org/download/macos)
@@ -67,17 +68,54 @@ We have some additional tips on configuring and hardening your Signal installati
 
 [Signal Configuration and Hardening :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
 
+#### Molly (Android)
+
+If you use Android and your threat model requires protecting against [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red  } you may consider using this alternative app, which features a number of security and usability improvements, to access the Signal network.
+
+<div class="admonition recommendation" markdown>
+
+![Molly logo](assets/img/messengers/molly.svg){ align=right }
+
+**Molly** is an alternative Signal client for Android which allows you to encrypt the local database with a passphrase at rest, to have unused RAM data securely shredded, to route your connection via Tor, and [more](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). It also has usability improvements including scheduled backups, automatic locking, [UnifiedPush](https://unifiedpush.org) support, and the ability to use your Android phone as a linked device instead of the primary device for a Signal account.
+
+[:octicons-home-16: Homepage](https://molly.im){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/mollyim/mollyim-android/wiki){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/mollyim/mollyim-android){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opencollective.com/mollyim){ .card-link title="Contribute" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-fdroid: F-Droid](https://molly.im/fdroid)
+- [:octicons-moon-16: Accrescent](https://accrescent.app/app/im.molly.app)
+- [:simple-github: GitHub](https://github.com/mollyim/mollyim-android/releases)
+
+</details>
+
+</div>
+
+Molly is updated every two weeks to include the latest features and bug fixes from Signal. The exception is security issues, which are patched as soon as possible. That said, you should be aware that there might be a slight delay compared to upstream, which may affect actions such as [migrating from Signal to Molly](https://github.com/mollyim/mollyim-android/wiki/Migrating-From-Signal#migrating-from-signal).
+
+Note that you are trusting multiple parties by using Molly, as you now need to trust the Signal team *and* the Molly team to deliver safe and timely updates.
+
+There is a version of Molly called **Molly-FOSS** which removes proprietary code like the Google services used by both Signal and Molly, at the expense of some features like battery-saving push notifications via Google Play Services. You can regain push notifications without Google Play Services in either version of Molly with [UnifiedPush](https://unifiedpush.org), but it requires running a separate program called [Mollysocket](https://github.com/mollyim/mollysocket) on another device to function. Mollysocket can either be self-hosted on a separate computer or server (VPS), or alternatively a public Mollysocket instance can be used ([step-by-step tutorial, in German](https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy)).
+
+All versions of Molly provide the same security improvements.
+
+Molly and Molly-FOSS support [reproducible builds](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), meaning it's possible to confirm that the compiled APKs match the source code.
+
 ### SimpleX Chat
 
 <div class="admonition recommendation" markdown>
 
 ![Simplex logo](assets/img/messengers/simplex.svg){ align=right }
 
-**SimpleX** Chat is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Users of SimpleX Chat can scan a QR code or click an invite link to participate in group conversations.
+**SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
 [:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Documentation}
+[:octicons-eye-16:](https://simplex.chat/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://simplex.chat/docs/simplex.html){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -94,9 +132,13 @@ We have some additional tips on configuring and hardening your Signal installati
 
 </div>
 
-SimpleX Chat [was audited](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) by Trail of Bits in October 2022.
+SimpleX provides direct messaging, group chats, and E2EE calls secured with the [SimpleX Messaging Protocol](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md), which uses double ratchet encryption with quantum resistance. Additionally, SimpleX Chat provides metadata protection by using unidirectional ["simplex queues"](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md#simplex-queue) to deliver messages.
 
-SimpleX Chat supports basic group chatting functionality, direct messaging, and editing of messages and markdown. E2EE Audio and Video calls are also supported. Your data can be exported, and imported onto another device, as there are no central servers where this is backed up.
+To participate in conversations on SimpleX Chat, you must scan a QR code or click an invite link. This allows you to verify a contact out-of-band, which protects against man-in-the-middle attacks by network providers. Your data can be exported and imported onto another device, as there are no central servers where this is backed up.
+
+You can find a full list of the privacy and security [features](https://github.com/simplex-chat/simplex-chat#privacy-and-security-technical-details-and-limitations) implemented in SimpleX Chat on the app's repository.
+
+SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html#simplex-cryptographic-design-review-by-trail-of-bits) and in [October 2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website).
 
 ### Briar
 
@@ -108,7 +150,7 @@ SimpleX Chat supports basic group chatting functionality, direct messaging, and 
 
 [:octicons-home-16: Homepage](https://briarproject.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title=Documentation}
+[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title="Documentation" }
 [:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://briarproject.org){ .card-link title="Donation options are listed on the bottom of the homepage" }
 
@@ -147,13 +189,13 @@ These messengers do not have forward secrecy[^1], and while they fulfill certain
 
 ![Element logo](assets/img/messengers/element.svg){ align=right }
 
-**Element** is the reference [client](https://matrix.org/ecosystem/clients) for the [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im) protocol, an [open standard](https://spec.matrix.org/latest) for secure decentralized real-time communication.
+**Element** is the flagship client for the [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im) protocol, an [open standard](https://spec.matrix.org/latest) for secure decentralized real-time communication.
 
-Messages and files shared in private rooms (those which require an invite) are by default E2EE as are one to one voice and video calls.
+Messages and files shared in private rooms (those which require an invite) are by default E2EE, as are one-to-one voice and video calls.
 
 [:octicons-home-16: Homepage](https://element.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://element.io/help){ .card-link title=Documentation}
+[:octicons-info-16:](https://element.io/help){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -173,7 +215,7 @@ Messages and files shared in private rooms (those which require an invite) are b
 
 Profile pictures, reactions, and nicknames are not encrypted.
 
-Group voice and video calls are [not](https://github.com/vector-im/element-web/issues/12878) E2EE, and use Jitsi, but this is expected to change with [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). Group calls have [no authentication](https://github.com/vector-im/element-web/issues/13074) currently, meaning that non-room participants can also join the calls. We recommend that you do not use this feature for private meetings.
+With the integration of [Element Call](https://element.io/blog/we-have-lift-off-element-x-call-and-server-suite-are-ready) into Element's web app, desktop apps, and its [rewritten mobile apps](https://element.io/blog/element-x-experience-the-future-of-element), group VoIP and video calls are E2EE by default.
 
 The Matrix protocol itself [theoretically supports forward secrecy](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1], however this is [not currently supported in Element](https://github.com/vector-im/element-web/issues/7101) due to it breaking some aspects of the user experience such as key backups and shared message history.
 
@@ -191,7 +233,7 @@ Session uses the decentralized [Oxen Service Node Network](https://oxen.io) to s
 
 [:octicons-home-16: Homepage](https://getsession.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentation}
+[:octicons-info-16:](https://getsession.org/faq){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -208,13 +250,15 @@ Session uses the decentralized [Oxen Service Node Network](https://oxen.io) to s
 
 </div>
 
-Session allows for E2EE in one-on-one chats or closed groups which allow for up to 100 members. Open groups have no restriction on the number of members, but are open by design.
+Session allows for E2EE in one-on-one chats or closed groups which allow for up to 100 members. It is also possible to [set up](https://docs.oxen.io/oxen-docs/products-built-on-oxen/session/guides/open-group-setup) or join open groups which can host thousands of members, but messages in these open groups are **not** end-to-end encrypted between participants.
 
 Session was previously based on Signal Protocol before replacing it with their own in December 2020. Session Protocol does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy.[^1]
 
-Oxen requested an independent audit for Session in March 2020. The audit [concluded](https://getsession.org/session-code-audit) in April 2021, “The overall security level of this application is good and makes it usable for privacy-concerned people.”
+Oxen requested an independent audit for Session in March 2020. The audit [concluded](https://getsession.org/session-code-audit) in April 2021:
 
-Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technical details of the app and protocol.
+> The overall security level of this application is good and makes it usable for privacy-concerned people.
+
+Session has a [white paper](https://arxiv.org/pdf/2002.04609.pdf) describing the technical details of the app and protocol.
 
 ## Criteria
 
@@ -232,12 +276,12 @@ Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the 
 
 Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
-- Supports Forward Secrecy[^1]
+- Supports forward secrecy[^1]
 - Supports Future Secrecy (Post-Compromise Security)[^2]
 - Has open-source servers.
 - Decentralized, i.e. [federated or P2P](advanced/communication-network-types.md).
 - Uses E2EE for all messages by default.
 - Supports Linux, macOS, Windows, Android, and iOS.
 
-[^1]: [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
+[^1]: [Forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
 [^2]: Future Secrecy (or Post-Compromise Security) is a feature where an attacker is prevented from decrypting **future** messages after compromising a private key, unless they compromise more session keys in the future as well. This effectively forces the attacker to intercept all communication between parties, since they lose access as soon as a key exchange occurs that is not intercepted.

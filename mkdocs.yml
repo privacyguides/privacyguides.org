@@ -51,11 +51,14 @@ extra:
       copyright:
         author:
           !ENV [FOOTER_COPYRIGHT_AUTHOR, "Privacy Guides and contributors."]
-        date: !ENV [FOOTER_COPYRIGHT_DATE, "2019-2024"]
+        date: !ENV [FOOTER_COPYRIGHT_DATE, "2019-2025"]
       license:
         - fontawesome/brands/creative-commons
         - fontawesome/brands/creative-commons-by
         - fontawesome/brands/creative-commons-sa
+      links:
+        - name: !ENV [FOOTER_PRIVACY_NOTICE, "Privacy notice."]
+          url: https://www.privacyguides.org/en/privacy/
     homepage:
       description:
         !ENV [
@@ -129,28 +132,11 @@ extra:
               "If you spot an error, think a provider should not be listed, notice a qualified provider is missing, believe a browser plugin is no longer the best choice, or uncover any other issue, please let us know.",
             ]
       rss:
-        - title:
-            !ENV [
-              HOMEPAGE_RSS_CHANGELOG_TITLE,
-              "Privacy Guides release changelog",
-            ]
-          link:
-            !ENV [
-              HOMEPAGE_RSS_CHANGELOG_LINK,
-              "https://discuss.privacyguides.net/c/site-development/changelog/9.rss",
-            ]
         - title: !ENV [HOMEPAGE_RSS_BLOG_TITLE, "Privacy Guides blog feed"]
           link:
             !ENV [
               HOMEPAGE_RSS_BLOG_LINK,
-              "https://blog.privacyguides.org/feed_rss_created.xml",
-            ]
-        - title:
-            !ENV [HOMEPAGE_RSS_STORIES_TITLE, "Privacy Guides Web Stories feed"]
-          link:
-            !ENV [
-              HOMEPAGE_RSS_STORIES_LINK,
-              "https://share.privacyguides.org/web-stories/feed/",
+              "https://www.privacyguides.org/articles/feed_rss_created.xml",
             ]
         - title:
             !ENV [
@@ -162,6 +148,16 @@ extra:
               HOMEPAGE_RSS_FORUM_LINK,
               "https://discuss.privacyguides.net/latest.rss",
             ]
+        - title:
+            !ENV [
+              HOMEPAGE_RSS_CHANGELOG_TITLE,
+              "Privacy Guides release changelog",
+            ]
+          link:
+            !ENV [
+              HOMEPAGE_RSS_CHANGELOG_LINK,
+              "https://discuss.privacyguides.net/c/site-development/changelog/9.rss",
+            ]
     translation_notice:
       notice: !ENV TRANSLATION_NOTICE
       cta: !ENV [TRANSLATION_NOTICE_CTA, "Visit Crowdin"]
@@ -171,6 +167,9 @@ extra:
     - icon: simple/mastodon
       link: https://mastodon.neat.computer/@privacyguides
       name: !ENV [SOCIAL_MASTODON, "Mastodon"]
+    - icon: simple/peertube
+      link: https://neat.tube/c/privacyguides
+      name: !ENV [SOCIAL_PEERTUBE, "PeerTube"]
     - icon: simple/matrix
       link: https://matrix.to/#/#privacyguides:matrix.org
       name: !ENV [SOCIAL_MATRIX, "Matrix"]
@@ -212,7 +211,7 @@ extra:
       link: /zh-hant/
       lang: zh-Hant
       icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1ed-1f1f0.svg
-    - name: русский
+    - name: Русский
       link: /ru/
       lang: ru
       icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1f7-1f1fa.svg
@@ -282,10 +281,12 @@ theme:
     - search.highlight
 
 extra_css:
-  - assets/stylesheets/extra.css?v=20240802
+  - assets/stylesheets/extra.css?v=20250306
 extra_javascript:
-  - assets/javascripts/randomize-element.js?v=20240801
-  - assets/javascripts/feedback.js?v=20240801
+  - path: assets/javascripts/randomize-element.js?v=20250306
+    defer: true
+  - path: assets/javascripts/feedback.js?v=20250306
+    defer: true
 
 watch:
   - theme
@@ -358,7 +359,6 @@ markdown_extensions:
   tables: {}
   footnotes: {}
   toc:
-    permalink: true
     toc_depth: 4
 
 nav:
@@ -400,6 +400,7 @@ nav:
           - "browser-extensions.md"
       - !ENV [NAV_PROVIDERS, "Providers"]:
           - "cloud.md"
+          - "data-broker-removals.md"
           - "dns.md"
           - "email-aliasing.md"
           - "email.md"
@@ -408,6 +409,7 @@ nav:
           - "search-engines.md"
           - "vpn.md"
       - !ENV [NAV_SOFTWARE, "Software"]:
+          - "ai-chat.md"
           - "calendar.md"
           - "cryptocurrency.md"
           - "data-redaction.md"
@@ -416,7 +418,9 @@ nav:
           - "encryption.md"
           - "file-sharing.md"
           - "frontends.md"
+          - "health-and-wellness.md"
           - "language-tools.md"
+          - "maps.md"
           - "multi-factor-authentication.md"
           - "news-aggregators.md"
           - "notebooks.md"
@@ -438,18 +442,27 @@ nav:
       - !ENV [NAV_ADVANCED, "Advanced"]:
           - "alternative-networks.md"
           - "device-integrity.md"
+  - !ENV [NAV_BLOG, "Articles"]: "/articles/"
+  - !ENV [NAV_VIDEOS, "Videos"]: /videos/
+  - !ENV [NAV_FORUM, "Forum"]:
+      !ENV [NAV_FORUM_LINK, "https://discuss.privacyguides.net/"]
   - !ENV [NAV_ABOUT, "About"]:
       - "about.md"
       - "about/donate.md"
-      - "about/contributors.md"
-      - "about/criteria.md"
-      - "about/notices.md"
-      - "about/privacy-policy.md"
+      - !ENV [NAV_ABOUT_TEAM_MEMBERS, "Team Members"]:
+          https://discuss.privacyguides.net/u?group=team&order=solutions&period=all
+      - !ENV [NAV_ABOUT_POLICIES, "Policies"]:
+          - "about/criteria.md"
+          - "about/donation-acceptance-policy.md"
+          - "about/executive-policy.md"
+          - "privacy.md"
+          - "about/notices.md"
       - !ENV [NAV_COMMUNITY, "Community"]:
+          - "about/jobs.md"
+          - "about/contributors.md"
           - !ENV [NAV_ONLINE_SERVICES, "Online Services"]: "about/services.md"
           - !ENV [NAV_CODE_OF_CONDUCT, "Code of Conduct"]: "CODE_OF_CONDUCT.md"
           - "about/statistics.md"
-          - "about/privacytools.md"
       - !ENV [NAV_CONTRIBUTING, "Contributing"]:
           - !ENV [NAV_WRITING_GUIDE, "Writing Guide"]:
               - "meta/writing-style.md"
@@ -460,12 +473,9 @@ nav:
               - "meta/uploading-images.md"
               - "meta/git-recommendations.md"
               - "meta/commit-messages.md"
-  - "about/donate.md"
-  - !ENV [NAV_CHANGELOG, "Changelog"]:
-      "https://github.com/privacyguides/privacyguides.org/releases"
-  - !ENV [NAV_FORUM, "Forum"]: "https://discuss.privacyguides.net/"
-  - !ENV [NAV_BLOG, "Blog"]: "https://blog.privacyguides.org/"
 
 validation:
   nav:
     not_found: info
+    omitted_files: ignore
+    absolute_links: ignore

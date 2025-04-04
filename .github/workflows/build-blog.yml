@@ -1,0 +1,104 @@
+name: 🛠️ Build Blog
+
+on:
+  workflow_call:
+    inputs:
+      ref:
+        required: true
+        type: string
+      repo:
+        required: true
+        type: string
+      context:
+        type: string
+        default: deploy-preview
+      continue-on-error:
+        type: boolean
+        default: true
+      privileged:
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    continue-on-error: ${{ inputs.continue-on-error }}
+    permissions:
+      contents: read
+
+    steps:
+      - name: Add GitHub Token to Environment
+        run: |
+          echo "GH_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> "$GITHUB_ENV"
+
+      - name: Download Repository
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ inputs.repo }}
+          ref: ${{ inputs.ref }}
+          persist-credentials: "false"
+          fetch-depth: 0
+
+      - name: Download Submodules
+        uses: actions/download-artifact@v4
+        with:
+          pattern: repo-*
+          path: modules
+
+      - name: Move mkdocs-material-insiders to mkdocs-material
+        if: inputs.privileged
+        run: |
+          rmdir modules/mkdocs-material
+          mv modules/repo-mkdocs-material-insiders modules/mkdocs-material
+
+      - name: Move brand submodule to theme/assets/brand
+        run: |
+          rmdir theme/assets/brand
+          mv modules/repo-brand theme/assets/brand
+
+      - name: Install Python (pipenv)
+        if: inputs.privileged
+        uses: actions/setup-python@v5
+        with:
+          cache: "pipenv"
+
+      - name: Install Python (no pipenv)
+        if: ${{ !inputs.privileged }}
+        uses: actions/setup-python@v5
+
+      - name: Install Python Dependencies
+        if: inputs.privileged
+        run: |
+          pip install pipenv
+          pipenv install
+          sudo apt install pngquant
+
+      - name: Install Python Dependencies (Unprivileged)
+        if: ${{ !inputs.privileged }}
+        run: |
+          pip install mkdocs-material mkdocs-rss-plugin mkdocs-glightbox mkdocs-macros-plugin
+          sudo apt install pngquant
+
+      - name: Build Website (Privileged)
+        if: inputs.privileged
+        run: |
+          pipenv run mkdocs build --config-file mkdocs.blog.yml
+
+      - name: Build Website (Unprivileged)
+        if: ${{ !inputs.privileged }}
+        run: |
+          BUILD_INSIDERS=false mkdocs build --config-file mkdocs.blog.yml
+
+      - name: Package Website
+        run: |
+          tar -czf site-build-blog.tar.gz site
+
+      - name: Upload Site
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-build-blog.tar.gz
+          path: site-build-blog.tar.gz
+          retention-days: 1

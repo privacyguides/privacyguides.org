@@ -1,9 +1,10 @@
 ---
 title: Group Policy Settings
+description: A quick guide to configuring Group Policy to make Windows a bit more privacy respecting.
 ---
-Outside of modifying the registry itself, the **Local Group Policy Editor** is the most powerful way to change many aspects of your system without installing third-party tools. Changing these settings requires [Pro Edition](index.md#windows-editions) or better.
+Outside modifying the registry itself, the **Local Group Policy Editor** is the most powerful way to change many aspects of your system without installing third-party tools. Changing these settings requires [Pro Edition](index.md#windows-editions) or better.
 
-These settings should be set on a brand new installation of Windows. Setting them on your existing installation should work, but may introduce unpredictible behavior and is done at your own risk.
+These settings should be set on a brand-new installation of Windows. Setting them on your existing installation should work, but may introduce unpredictable behavior and is done at your own risk.
 
 All of these settings have an explanation attached to them in the Group Policy editor which explains exactly what they do, usually in great detail. Please pay attention to those descriptions as you make changes, so you know exactly what we are recommending here. We've also explained some of our choices below whenever the explanation included with Windows is inadequate.
 
@@ -66,7 +67,7 @@ Setting the cipher strength for the Windows 7 policy still applies that strength
 - Require additional authentication at startup: **Enabled**
 - Allow enhanced PINs for startup: **Enabled**
 
-Despite the names of these policies, this doesn't *require* you to do anything by default, but it will unlock the *option* to have a more complex setup (such as requiring a PIN at startup in addition to the TPM) in the Bitlocker setup wizard.
+Despite the names of these policies, this doesn't *require* you to do anything by default, but it will unlock the *option* to have a more complex setup (such as requiring a PIN at startup in addition to the TPM) in the BitLocker setup wizard.
 
 #### Cloud Content
 

@@ -23,3 +23,6 @@ node_modules
 .venv
 .env
 .mkdocs-insiders-*
+
+# Automatically generated
+includes/members.md

@@ -1,0 +1,80 @@
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QImage Credit: Yipeng Lu\\E$"}
+{"rule":"CLOSE_SCRUTINY","sentence":"^\\QThis technology can work using only 2D footage and doesn't even require close proximity or high resolution sensors like other forms of biometrics.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QCompanies like TypingDNA claim to be able to identify users by how they type.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QImage Credit: Alireza Bilesan, Saeed Behzadipour, Teppei Tsujita, Shunsuke Komizunai, and Atsushi Konno\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QImage Credit: Yousef, R.N., Khalil, A.T., Samra, A.S. et al.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QImage Credit: clockit.io\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QExample of finger minutiae including forks (where one line splits into multiple lines), ends (where a line ends), islands (isolated dots), and inclosures (lines that split into two and then reconnect)\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIllustration: Jonah Aragon / Privacy Guides | Photo: Jair Lázaro / Unsplash\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIllustration: Jonah Aragon / Privacy Guides | Photo: Koshu Kunii / Unsplash\\E$"}
+{"rule":"COMMA_COMPOUND_SENTENCE","sentence":"^\\QYou should also make sure your mobile plan is topped up and you have enough mobile data prior to the event.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QA good rule of thumb is that unless a post from GrapheneOS is specifically talking about GrapheneOS-specific, privacy-related functionality and not about other projects/software/etc., it is probably off-topic here.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIn an interview with Gizmodo, Christopher Soghoian, Principal Technologist and Senior Policy Analyst at the American Civil Liberties Union said that, \"There are many Telegram users who think they are communicating in an end-to-end encrypted way, when they're not because they don't realize that they have to turn on an additional setting,\" he continued to say that while he's happy they offer the encryption, it's not useful if it's turned off.\\E$"}
+{"rule":"ALL_MOST_SOME_OF_NOUN","sentence":"^\\QOpen source may be the most used phrase in all of privacy and security, and for good reason.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIllustration: Jordan Warne / Privacy Guides | Photo: Christin Hume / Unsplash\\E$"}
+{"rule":"EN_UNPAIRED_BRACKETS","sentence":"^\\QIf you need to erase this history for safety but keep the document, you can go to \"File\" > \"Make a copy\", then go back to the original document with the history you need to erase, click on \"Access\", then \"Destroy\", then click again on \"Are you sure?\".\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QWe reached out to System1 CEO Ian Weingarten for an explanation.\\E$"}
+{"rule":"IF_THERE","sentence":"^\\QIn an interview with TechCrunch, Wire CEO Morten Brøgger said of privacy laws: “We are in Switzerland, which has the best privacy laws in the world” — it's subject to Europe's General Data Protection Regulation framework (GDPR) on top of its own local laws — “and Wire now belongs to a new group holding, but there no change in control.” sic\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Qadvancedbackgroundchecks.com :white_check_mark: Removed :white_check_mark: Removed\nbeenverified.com :white_check_mark: Removed :warning: Found\ncheckpeople.com :white_check_mark: Removed :white_check_mark: Removed\nclustrmaps.com :white_check_mark: Removed :white_check_mark: Removed\ndataveria.com :white_check_mark: Removed :white_check_mark: Removed\ngladiknow.com :white_check_mark: Removed :white_check_mark: Removed\ninfotracer.com :white_check_mark: Removed :warning: Found\nintelius.com* :warning: Found :warning: Found\npeekyou.com* :warning: Found :warning: Found\npublicdatausa.com^1 :white_check_mark: Removed :white_check_mark: Removed\nradaris.com :white_check_mark: Removed :white_check_mark: Removed\nspokeo.com :white_check_mark: Removed ::white_check_mark: Removed\nthatsthem.com :white_check_mark: Removed :white_check_mark: Removed\nusphonebook.com :white_check_mark: Removed :white_check_mark: Removed\nspyfly.com :white_check_mark: Removed :white_check_mark: Removed\nRemaining Results 13% 23%\\E$"}
+{"rule":"WHITESPACE_RULE","sentence":"^\\QPerson A Person B\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QCalyxOS uses the default AOSP Scudo Malloc, which is generally less effective.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIllustration: Jonah Aragon / Privacy Guides | Photo: Aleksander Dumała / Pexels\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QDisable the option \"Anonymously report errors and usage statistics to balena.io\", then click \"OK\".\\E$"}
+{"rule":"EN_UNPAIRED_BRACKETS","sentence":"^\\QThe button on the right is blue and labeled \"Flash!\".\\E$"}
+{"rule":"PREPOSITION_VERB","sentence":"^\\QAdd a Receive action and set it to receive Images from Share Sheet\\E$"}
+{"rule":"A_INFINITIVE","sentence":"^\\QWindows allows you to place files in a SendTo folder which then appear in the Send to context menu.\\E$"}
+{"rule":"A_INFINITIVE","sentence":"^\\QRight-click a supported file and choose ExifTool.bat within the Send to context menu.\\E$"}
+{"rule":"COMMA_COMPOUND_SENTENCE","sentence":"^\\QYour location data is not E2EE when your device is online and you use Find My iPhone remotely to locate your device.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QOther technologies that were disabled include WebGL, MathML, Gamepad API, Web Audio API, RTCDataChannel, and SVG Fonts.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QOnion Browser is an open-source app created by Mike Tigas, who has worked closely with Tor Project in the past and was previously an investigative journalist at ProPublica (he is currently an advisor at the FTC).\\E$"}
+{"rule":"MISSING_COMMA_AFTER_INTRODUCTORY_PHRASE","sentence":"^\\QBesides leaving it blank for the default, it comes with three built-in user agent strings you can choose from, or you can enter your own.\\E$"}
+{"rule":"COMMA_COMPOUND_SENTENCE_2","sentence":"^\\QStartpage CEO Robert Beens discusses the investment from Privacy One / System1\nWhat is Startpage's relationship with Privacy One/System1 and what does this mean for my privacy protections?\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QSelect :material-dots-vertical: > Settings > Privacy\n Turn off Show Calls in Recents\\E$"}
+{"rule":"COMMA_COMPOUND_SENTENCE","sentence":"^\\QWhile this change makes sense from the perspective of making it so you cannot \"hold a number hostage\" as long as you keep checking in, it is particularly important for people who've used disposable phone numbers to know this.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QPhoto: ev / Unsplash\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QEnter the-company formerly-known-as-Facebook's rival to the birdsite: Threads.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThreads' naffness won't stop its success.\\E$"}
+{"rule":"EXTREME_ADJECTIVES","sentence":"^\\QIt feels really good.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QSam is an elearning designer and privacy advocate interested in free (libre) software and how it can protect civil liberties.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThis article was originally published on my personal blog at samhowell.uk, on February 15th, 2019.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q:japanese_goblin:{ .lg .middle } Kevin Pham\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q2022: ISO/IEC 27001:2013^1 Compliance Certification by TÜV Rheinland InterCert Kft\n2021: Penetration Testing by Computest\nThis review assessed the security of the Tresorit web client, Android app, Windows app, and associated infrastructure.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q2022: ISO/IEC 27001:2013^1 Compliance Certification by TÜV Rheinland InterCert Kft\n2021: Penetration Testing by Computest\nThis review assessed the security of the Tresorit web client, Android app, Windows app, and associated infrastructure.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QFirefox sends data about your Firefox version and language; device operating system and hardware configuration; memory, basic information about crashes and errors; outcome of automated processes like updates, safebrowsing, and activation to us.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QNewPipe is a free and open-source Android application for YouTube, SoundCloud, media.ccc.de, Bandcamp, and PeerTube (1).\\E$"}
+{"rule":"ADD_AN_ADDITIONAL","sentence":"^\\QThis setting adds an additional Adblock Plus list that may increase the effectiveness of Cromite's content blocking.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QUncheck the autoupdate setting\\E$"}
+{"rule":"CLEAN_UP","sentence":"^\\QIf your device supports it, you can use the Clean Up feature to pixelate faces or remove objects from images.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QTurn off AutoPlay: Enabled\nDisallow Autoplay for nonvolume devices: Enabled\nSet the default behavior for AutoRun: Enabled\nDefault AutoRun Behavior: Do not execute any AutoRun commands\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QLorem ipsum dolor sit amet, consectetur adipiscing elit.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QNulla et euismod nulla.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QCurabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThe name of the Subreddit is r/PrivacyGuides or the Privacy Guides Subreddit.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QTurn off Remove the XML declaration\nx Turn on Remove metadata\nx Turn on Remove comments\nx Turn on Embedded raster images\nx Turn on Enable viewboxing\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QSource: plainlanguage.gov\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QKathy McGinty offers tongue-in-cheek instructions for bulking up your simple, direct sentences:\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIn France, you can take a look at the Technopolice website maintained by the non-profit association La Quadrature du Net.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QFIDO (Fast IDentity Online)\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThe entropy per word in a diceware passphrase is calculated as    log 2  ( WordsInList )\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QTo calculate the amount of possible passphrases, all we have to do is   WordsInList WordsInPhrase\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThey ultimately paid two companies (Chainalysis and Integra Fec) a combined $1.25 million to further develop tools to do so.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QWe also especially thank our dedicated community moderation team on Matrix and our forum: Austin Huang, namazso, hik, riley, and Valynor.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QPortions of this notice itself were adopted from opensource.guide on GitHub.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Qr/redditrequest is Reddit's way of making sure communities have active moderators and is part of the Moderator Code of Conduct.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIf you were removed as moderator from a Subreddit through Reddit request it is because your lack of response and lack of activity qualified the Subreddit for an r/redditrequest transfer.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIf you were removed as moderator from a subreddit through Reddit request it is because your lack of response and lack of activity qualified the subreddit for an r/redditrequest transfer.\\E$"}
+{"rule":"IN_OR_WITH_REGARDS_TO_OF","sentence":"^\\QRetaliation from any moderator with regards to removal requests is disallowed.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QPhoto: Dimmis Vart / Unsplash\\E$"}
+{"rule":"SENT_START_CONJUNCTIVE_LINKING_ADVERB_COMMA","sentence":"^\\QFurther develop an individual story or line of coverage.\\E$"}
+{"rule":"DOUBLE_PUNCTUATION","sentence":"^\\QOur readership is entitled to as much information as possible in order to judge the reliability of our sources themselves..\\E$"}
+{"rule":"DOUBLE_PUNCTUATION","sentence":"^\\QOur contributors should always question the motives behind a source requesting anonymity..\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIllustration: Em / Privacy Guides | Photo: Edward Eyer / Pexels\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QOn February 7th this year, Joseph Menn reported from the Washington Post that officials in the United Kingdom had contacted Apple to demand the company allows them to access data from any iCloud user worldwide.\\E$"}
+{"rule":"DO_VBZ","sentence":"^\\QDoes Privacy Guides sell my personal information?\\E$"}
+{"rule":"DO_VBZ","sentence":"^\\QDoes Privacy Guides use personal information for marketing purposes?\\E$"}
+{"rule":"DO_VBZ","sentence":"^\\QWhere does Privacy Guides store data about me?\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QPrivacy Guides relies on the European Commission's standard contractual clauses for international transfers(SCCs) to legally transfer personal data out of the European Economic Area.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIllustration: Jordan / Privacy Guides | Photo: Gowtham AGM / Unsplash\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThunder was used specifically because it was difficult for Germans to pronounce, since the English \"th\" sound doesn't exist in German.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QAllan Scherr, a Ph.D. researcher at MIT, wanted more time for his detailed simulations.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QYou can test out passkeys at webauthn.io.\\E$"}

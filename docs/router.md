@@ -1,10 +1,15 @@
 ---
 title: "Router Firmware"
 icon: material/router-wireless
-description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
+description: Alternative operating systems for securing your router or Wi-Fi access point.
 cover: router.webp
 ---
-Below are a few alternative operating systems, that can be used on routers, Wi-Fi access points, etc.
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+
+Below are a few alternative operating systems that can be used on routers, Wi-Fi access points, etc.
 
 ## OpenWrt
 
@@ -13,7 +18,7 @@ Below are a few alternative operating systems, that can be used on routers, Wi-F
 ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ align=right }
 ![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
 
-**OpenWrt** is a Linux-based operating system; it's primarily used on embedded devices to route network traffic. It includes util-linux, uClibc, and BusyBox. All of the components have been optimized for home routers.
+**OpenWrt** is a Linux-based operating system; it's primarily used on embedded devices to route network traffic. It includes util-linux, uClibc, and BusyBox. All the components have been optimized for home routers.
 
 [:octicons-home-16: Homepage](https://openwrt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=Documentation}

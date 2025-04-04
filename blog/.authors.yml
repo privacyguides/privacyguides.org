@@ -1,0 +1,78 @@
+authors:
+  aprilfools:
+    name: Anita Key
+    description: Government Liaison
+    avatar: https://github.com/privacyguides.png
+  contributors:
+    type: Organization
+    name: Privacy Guides
+    description: Various Authors
+    avatar: https://github.com/privacyguides.png
+  danarel:
+    name: Dan Arel
+    description: Former Team Member
+    avatar: https://github.com/danarel.png
+  dngray:
+    name: Daniel Gray
+    description: Team Member
+    avatar: https://github.com/dngray.png
+  em:
+    name: Em
+    description: Staff Writer
+    avatar: https://github.com/EmAtPrivacyGuides.png
+    mastodon:
+      username: Em0nM4stodon
+      instance: infosec.exchange
+  kevpham:
+    name: Kevin Pham
+    description: News Intern
+    avatar: https://github.com/kpham42.png
+  freddy:
+    name: Freddy
+    description: Team Member
+    avatar: https://github.com/freddy-m.png
+    mastodon:
+      username: freddy
+      instance: social.lol
+    twitter: m00ws
+    bluesky: freddy.lol
+  fria:
+    name: fria
+    description: Team Member
+    avatar: https://github.com/friadev.png
+  jonah:
+    name: Jonah Aragon
+    description: Project Director
+    avatar: https://github.com/jonaharagon.png
+    mastodon:
+      username: jonah
+      instance: neat.computer
+    twitter: jonaharagon
+    bluesky: jonaharagon.com
+  kaitebay:
+    name: Kai Tebay
+    description: Former Team Member
+    avatar: https://github.com/kaitebay.png
+  matchboxbananasynergy:
+    name: mbananasynergy
+    description: Former Team Member
+    avatar: https://github.com/matchboxbananasynergy.png
+  mfwmyfacewhen:
+    name: mfwmyfacewhen
+    description: Former Team Member
+    avatar: https://github.com/ghost.png
+  natebartram:
+    name: Nate Bartram
+    description: Guest Contributor
+    avatar: https://gitlab.com/uploads/-/system/user/avatar/8993331/avatar.png
+  niek-de-wilde:
+    name: Niek de Wilde
+    description: Team Member
+    avatar: https://github.com/blacklight447.png
+    mastodon:
+      username: blacklight447
+      instance: mastodon.social
+  sam-howell:
+    name: Sam Howell
+    description: Guest Contributor
+    avatar: https://gitlab.com/uploads/-/system/user/avatar/5349522/avatar.png

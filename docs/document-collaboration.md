@@ -53,7 +53,7 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 
 ![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ align=right }
 
-**CryptPad** is a private-by-design alternative to popular office tools. All content on this web service is end-to-end encrypted and can be shared with other users easily.
+**CryptPad** is a private-by-design alternative to popular office tools. All content on this web service is end-to-end encrypted and can be shared with other users easily. [:material-star-box: Read our latest CryptPad review.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/)
 
 [:octicons-home-16: Homepage](https://cryptpad.fr){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE){ .card-link title="Privacy Policy" }
@@ -85,4 +85,4 @@ In general, we define collaboration platforms as full-fledged suites which could
 Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
 - Should store files in a conventional filesystem.
-- Should support TOTP or FIDO2 multi-factor authentication support, or passkey logins.
+- Should support TOTP or FIDO2 multifactor authentication support, or passkey logins.

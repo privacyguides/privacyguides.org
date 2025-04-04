@@ -1,0 +1,41 @@
+<!-- Post excerpt -->
+<article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+
+    <!-- Post metadata -->
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+
+        <!-- Post date -->
+        <li class="md-meta__item">
+          <time datetime="{{ post.config.date.created }}">
+            {{- post.config.date.created | date -}}
+          </time>
+          {#- Collapse whitespace -#}
+        </li>
+
+        <!-- Post readtime -->
+        {% if post.config.readtime %}
+          {% set time = post.config.readtime %}
+          <li class="md-meta__item">
+            {{ "# min watch" | replace("#", time) }}
+          </li>
+        {% endif %}
+      </ul>
+    </div>
+  </header>
+
+  <!-- Post content -->
+  <div class="md-post__content md-typeset">
+    <h2 class="toclink">
+      <a href="{{ post.url | url }}">
+        {{ post.title | d(config.site_name, true)}}
+      </a>
+    </h2>
+    <div>
+      <a href="{{ post.url | url }}">
+        <img width="100%" height="100%" src="{{ post.meta.thumbnail }}"></img>
+      </a>
+    </div>
+  </div>
+</article>

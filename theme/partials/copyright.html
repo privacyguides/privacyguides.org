@@ -29,12 +29,17 @@
       <br />
       {{ copyright.note }}
       <br />
-      <a href='/license'>
+      <a href='/license' aria-label="More information about our website license.">
         {% for icon in copyright.license %}
           <span class="twemoji">{% include ".icons/" ~ icon ~ ".svg" %}</span>
         {% endfor %}
       </a>
       {{ copyright.copyright.date }} {{ copyright.copyright.author }}
+      {% for link in copyright.links %}
+        <a href="{{ link.url }}">
+          <strong>{{ link.name }}</strong>
+        </a>
+      {% endfor %}
     </div>
   {% endif %}
 </div>

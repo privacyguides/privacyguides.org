@@ -1,10 +1,10 @@
 ---
-meta_title: "The Best Privacy Tools, Services, and Ad-Free Recommendations - Privacy Guides"
+meta_title: "Ad-Free Privacy Tool/Service Recommendations - Privacy Guides"
 title: "Privacy Tools"
 icon: material/tools
 hide:
   - toc
-description: Privacy Guides is the most transparent and reliable website for finding software, apps, and services that protect your personal data from mass surveillance programs and other internet threats.
+description: A complete list of the privacy tools, services, software, and hardware recommended by the Privacy Guides community.
 ---
 
 If you're looking for a specific solution to something, these are the hardware and software tools we recommend in a variety of categories. Our recommended privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.
@@ -34,15 +34,6 @@ For more details about each project, why they were chosen, and additional tips o
 - [x] **Open-Source Contributions**
 - [x] **Trusted by Journalists**
 </div>
-
-</div>
-
-<div class="admonition example" markdown>
-<p class="admonition-title">Threat Model Labels</p>
-
-You may find any of the following icons on some of the recommendation pages: <span class="pg-purple">:material-incognito:</span> <span class="pg-red">:material-target-account:</span> <span class="pg-viridian">:material-package-variant-closed-remove:</span> <span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span> <span class="pg-blue">:material-eye-outline:</span> <span class="pg-brown">:material-account-cash:</span> <span class="pg-green">:material-account-search:</span> <span class="pg-blue-gray">:material-close-outline:</span>
-
-We are testing a new feature that allows readers to better identify and understand the kinds of threats that privacy tools best defend against. Let us know what you think about this feature by replying to this dedicated forum [thread](https://discuss.privacyguides.net/t/implement-threat-model-labels/18659)!
 
 </div>
 
@@ -85,21 +76,21 @@ We are testing a new feature that allows readers to better identify and understa
     - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
     - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
 
-- ![Mull logo](assets/img/browsers/mull.svg){ .lg .middle .twemoji } **Mull (Android)**
+- ![Cromite logo](assets/img/browsers/cromite.svg){ .lg .middle .twemoji } **Cromite (Android)**
 
     ---
 
-    **Mull** is a Firefox-based browser for Android centered around privacy and removing proprietary components.
+    **Cromite** is a Chromium-based Android browser with built-in ad-blocking and [privacy enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the popular, now-discontinued Bromite browser.
 
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#mull)
+    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
 
 - ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
 
     ---
 
-    We recommend **Safari** alongside a tracker-blocker like [AdGuard](browser-extensions.md#adguard) on iOS, because all iOS browsers are forced to be based on Safari anyways. This reduces the number of parties you're required to trust.
+    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) features and default tracker blocking. It also separates your cookies in private browsing mode to prevent tracking between tabs.
 
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari)
+    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 
 </div>
 
@@ -124,7 +115,7 @@ We are testing a new feature that allows readers to better identify and understa
 <div class="grid cards" markdown>
 
 - ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
-- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser)
+- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser-ios)
 
 </div>
 
@@ -177,13 +168,13 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    - [x] **45+ Countries**
+    - [x] **49+ Countries**
     - [x] WireGuard Support
     - [x] Monero & Cash Payments
     - [ ] No Port Forwarding
     - [x] IPv6 Support
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
+    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#mullvad)
 
 </div>
 
@@ -195,7 +186,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG is based in Genève, Switzerland. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
+    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
 
@@ -203,7 +194,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with up to 2GB storage, which can be upgraded as needed.
+    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#mailboxorg)
 
@@ -211,7 +202,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1GB of storage.
+    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1 GB of storage.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#tuta)
 
@@ -235,8 +226,9 @@ If you're looking for added **security**, you should always ensure you're connec
 
 <div class="grid cards" markdown>
 
-- ![mailcow logo](assets/img/email/mailcow.svg){ .twemoji loading=lazy } [mailcow](email.md#self-hosting-email)
-- ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email.md#self-hosting-email)
+- ![Stalwart logo](assets/img/email/stalwart.svg){ .twemoji loading=lazy } [Stalwart](email.md#stalwart)
+- ![Mailcow logo](assets/img/email/mailcow.svg){ .twemoji loading=lazy } [Mailcow](email.md#mailcow)
+- ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email.md#mail-in-a-box)
 
 </div>
 </div>
@@ -252,7 +244,6 @@ If you're looking for added **security**, you should always ensure you're connec
 - ![Canary Mail logo](assets/img/email-clients/canarymail.svg){ .twemoji loading=lazy } [Canary Mail (iOS)](email-clients.md#canary-mail-ios)
 - ![FairEmail logo](assets/img/email-clients/fairemail.svg){ .twemoji loading=lazy } [FairEmail (Android)](email-clients.md#fairemail-android)
 - ![GNOME Evolution logo](assets/img/email-clients/evolution.svg){ .twemoji loading=lazy } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
-- ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ .twemoji loading=lazy } [K-9 Mail (Android)](email-clients.md#k-9-mail-android)
 - ![Kontact logo](assets/img/email-clients/kontact.svg){ .twemoji loading=lazy } [Kontact (Linux)](email-clients.md#kontact-kde)
 - ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji loading=lazy } [Mailvelope (PGP in standard webmail)](email-clients.md#mailvelope-browser)
 - ![NeoMutt logo](assets/img/email-clients/mutt.svg){ .twemoji loading=lazy } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
@@ -274,6 +265,17 @@ If you're looking for added **security**, you should always ensure you're connec
 </div>
 
 [Learn more :material-arrow-right-drop-circle:](cloud.md)
+
+### Data Removal Services
+
+<div class="grid cards" markdown>
+
+- ![EasyOptOuts logo](assets/img/data-broker-removals/easyoptouts.svg){ .twemoji loading=lazy } [EasyOptOuts](data-broker-removals.md#easyoptouts-paid)
+- ![Google logo](assets/img/data-broker-removals/google.svg){ .twemoji loading=lazy } [Google *Results about you*](data-broker-removals.md#google-results-about-you-free)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](data-broker-removals.md)
 
 ### DNS
 
@@ -355,6 +357,18 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 ## Software
 
+### AI Chat
+
+<div class="grid cards" markdown>
+
+- ![Kobold logo](assets/img/ai-chat/kobold.png){ .twemoji loading=lazy } [Kobold.cpp](ai-chat.md#koboldcpp)
+- ![Llamafile logo](assets/img/ai-chat/llamafile.svg){ .twemoji loading=lazy } [Llamafile](ai-chat.md#llamafile)
+- ![Ollama logo](assets/img/ai-chat/ollama.png){ .twemoji loading=lazy } [Ollama (CLI)](ai-chat.md#ollama-cli)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](ai-chat.md)
+
 ### Calendar Sync
 
 <div class="grid cards" markdown>
@@ -382,9 +396,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 - ![MAT2 logo](assets/img/data-redaction/mat2.svg){ .twemoji loading=lazy } [MAT2](data-redaction.md#mat2)
 - ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ .twemoji loading=lazy } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
-- ![Metapho logo](assets/img/data-redaction/metapho.jpg){ .twemoji loading=lazy } [Metapho (iOS)](data-redaction.md#metapho-ios)
-- ![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ .twemoji loading=lazy } [PrivacyBlur](data-redaction.md#privacyblur)
-- ![ExifTool logo](assets/img/data-redaction/exiftool.png){ .twemoji loading=lazy } [ExifTool (CLI)](data-redaction.md#exiftool)
+- ![ExifTool logo](assets/img/data-redaction/exiftool.png){ .twemoji loading=lazy } [ExifTool (CLI)](data-redaction.md#exiftool-cli)
 
 </div>
 
@@ -404,13 +416,15 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 ### Encryption Software
 
 <details class="info" markdown>
-<summary>Operating System Disk Encryption</summary>
+<summary>Operating System Encryption</summary>
 
-For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and typically use hardware encryption elements such as a TPM that other full-disk encryption software like VeraCrypt do not. VeraCrypt is still suitable for non-operating system disks such as external drives, especially drives that may be accessed from multiple operating systems.
+For encrypting your OS drive, we typically recommend using the encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and take advantage of hardware encryption elements such as a [secure cryptoprocessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
 
-[Learn more :material-arrow-right-drop-circle:](encryption.md#os-full-disk-encryption)
+[Learn more :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
 
 </details>
+
+#### Cross-platform Tools
 
 <div class="grid cards" markdown>
 
@@ -468,6 +482,21 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [Learn more :material-arrow-right-drop-circle:](frontends.md)
 
+### Health and Wellness Apps
+
+<div class="grid cards" markdown>
+
+- ![drip. logo](assets/img/health-and-wellness/drip.png){ .twemoji loading=lazy } [drip.](health-and-wellness.md#drip)
+- ![Euki logo](assets/img/health-and-wellness/euki.svg){ .twemoji loading=lazy } [Euki](health-and-wellness.md#euki)
+- ![Apple Health logo](assets/img/health-and-wellness/apple-health.svg#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ .twemoji loading=lazy }[Apple Health](health-and-wellness.md#apple-health)
+- ![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge.svg#only-light){ .twemoji loading=lazy }![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge-dark.svg#only-dark){ .twemoji loading=lazy } [Gadgetbridge](health-and-wellness.md#gadgetbridge)
+- ![Apple Health logo](assets/img/health-and-wellness/apple-health.svg#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ .twemoji loading=lazy }[Apple Health Records](health-and-wellness.md#apple-health-records)
+- ![CommonHealth logo](assets/img/health-and-wellness/commonhealth.png){ .twemoji loading=lazy } [CommonHealth](health-and-wellness.md#commonhealth)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](health-and-wellness.md)
+
 ### Language Tools
 
 <div class="grid cards" markdown>
@@ -477,6 +506,17 @@ For encrypting your operating system drive, we typically recommend using whichev
 </div>
 
 [Learn more :material-arrow-right-drop-circle:](language-tools.md)
+
+### Maps and Navigation Apps
+
+<div class="grid cards" markdown>
+
+- ![Organic Maps logo](assets/img/maps/organic-maps.svg){ .twemoji loading=lazy } [Organic Maps](maps.md#organic-maps)
+- ![OsmAnd logo](assets/img/maps/osmand.svg){ .twemoji loading=lazy } [OsmAnd](maps.md#osmand)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](maps.md)
 
 ### Multi-Factor Authentication Tools
 
@@ -498,7 +538,6 @@ For encrypting your operating system drive, we typically recommend using whichev
 - ![Akregator logo](assets/img/news-aggregators/akregator.svg){ .twemoji loading=lazy } [Akregator](news-aggregators.md#akregator)
 - ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ .twemoji loading=lazy } [NewsFlash](news-aggregators.md#newsflash)
 - ![Feeder logo](assets/img/news-aggregators/feeder.png){ .twemoji} [Feeder (Android)](news-aggregators.md#feeder)
-- ![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ .twemoji loading=lazy } [Fluent Reader](news-aggregators.md#fluent-reader)
 - ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji loading=lazy }![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji loading=lazy } [Miniflux](news-aggregators.md#miniflux)
 - ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ .twemoji loading=lazy } [NetNewsWire](news-aggregators.md#netnewswire)
 - ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ .twemoji loading=lazy } [Newsboat](news-aggregators.md#newsboat)
@@ -542,7 +581,6 @@ For encrypting your operating system drive, we typically recommend using whichev
 - ![Psono logo](assets/img/password-management/psono.svg){ .twemoji loading=lazy } [Psono](passwords.md#psono)
 - ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ .twemoji loading=lazy } [KeePassXC](passwords.md#keepassxc)
 - ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ .twemoji loading=lazy } [KeePassDX (Android)](passwords.md#keepassdx-android)
-- ![Strongbox logo](assets/img/password-management/strongbox.svg){ .twemoji loading=lazy } [Strongbox (iOS & macOS)](passwords.md#strongbox-ios-macos)
 - ![gopass logo](assets/img/password-management/gopass.svg){ .twemoji loading=lazy } [gopass (CLI)](passwords.md#gopass-cli)
 
 </div>
@@ -554,6 +592,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 <div class="grid cards" markdown>
 
 - ![PrivateBin logo](assets/img/pastebins/privatebin.svg){ .twemoji loading=lazy } [PrivateBin](pastebins.md#privatebin)
+- ![Paaster logo](assets/img/pastebins/paaster.svg){ .twemoji loading=lazy } [Paaster](pastebins.md#paaster)
 
 </div>
 
@@ -606,7 +645,6 @@ For encrypting your operating system drive, we typically recommend using whichev
 <div class="grid cards" markdown>
 
 - ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji loading=lazy }![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji loading=lazy } [GrapheneOS](android/distributions.md#grapheneos)
-- ![DivestOS logo](assets/img/android/divestos.svg){ .twemoji loading=lazy } [DivestOS](android/distributions.md#divestos)
 
 </div>
 
@@ -641,10 +679,10 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 - ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ .twemoji loading=lazy } [Qubes OS (Xen VM Distribution)](desktop.md#qubes-os)
 - ![Fedora logo](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Workstation](desktop.md#fedora-workstation)
-- ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji loading=lazy } [OpenSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
+- ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji loading=lazy } [openSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
 - ![Arch logo](assets/img/linux-desktop/archlinux.svg){ .twemoji loading=lazy } [Arch Linux](desktop.md#arch-linux)
 - ![Fedora logo](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Atomic Desktops](desktop.md#fedora-atomic-desktops)
-- ![nixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji loading=lazy } [NixOS](desktop.md#nixos)
+- ![NixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji loading=lazy } [NixOS](desktop.md#nixos)
 - ![Whonix logo](assets/img/linux-desktop/whonix.svg){ .twemoji loading=lazy } [Whonix (Tor)](desktop.md#whonix)
 - ![Tails logo](assets/img/linux-desktop/tails.svg){ .twemoji loading=lazy } [Tails (Live Boot)](desktop.md#tails)
 - ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ .twemoji loading=lazy } [Kicksecure](desktop.md#kicksecure)
@@ -687,8 +725,6 @@ These tools may provide utility for certain individuals. They provide functional
 - ![MVT logo](assets/img/device-integrity/mvt.webp){ .twemoji loading=lazy } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
 - ![iMazing logo](assets/img/device-integrity/imazing.png){ .twemoji loading=lazy } [iMazing (iOS)](device-integrity.md#imazing-ios)
 - ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Auditor (Android)](device-integrity.md#auditor-android)
-- ![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ .twemoji loading=lazy }![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ .twemoji loading=lazy } [Hypatia (Android)](device-integrity.md#hypatia-android)
-- ![iVerify logo](assets/img/device-integrity/iverify.webp){ .twemoji loading=lazy } [iVerify Basic (iOS)](device-integrity.md#iverify-basic-ios)
 
 </div>
 

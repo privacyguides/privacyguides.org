@@ -19,12 +19,19 @@ jobs:
     env:
       ACTIONS_SSH_KEY: ${{ secrets.ACTIONS_SSH_KEY }}
     steps:
+      - name: Save PR metadata
+        run: |
+          mkdir -p ./metadata
+          echo ${{ github.event.number }} > ./metadata/NR
+          echo ${{ github.event.pull_request.head.sha }} > ./metadata/SHA
+
       - name: Set submodules for fork
         if: env.ACTIONS_SSH_KEY == ''
         id: submodules-fork
         run: |
           echo 'submodules={"repo":["brand","i18n"]}' >> "$GITHUB_OUTPUT"
           echo "privileged=false" >> "$GITHUB_OUTPUT"
+          echo "false" > ./metadata/PRIVILEGED
 
       - name: Set submodules for main repo
         if: env.ACTIONS_SSH_KEY != ''
@@ -32,12 +39,7 @@ jobs:
         run: |
           echo 'submodules={"repo":["brand","i18n","mkdocs-material-insiders"]}' >> "$GITHUB_OUTPUT"
           echo "privileged=true" >> "$GITHUB_OUTPUT"
-
-      - name: Save PR metadata
-        run: |
-          mkdir -p ./metadata
-          echo ${{ github.event.number }} > ./metadata/NR
-          echo ${{ github.event.pull_request.head.sha }} > ./metadata/SHA
+          echo "true" > ./metadata/PRIVILEGED
 
       - name: Upload metadata as artifact
         uses: actions/upload-artifact@v4
@@ -70,6 +72,8 @@ jobs:
       continue-on-error: false
       privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
       strict: true
+    secrets:
+      RO_DISCOURSE_API_KEY: ${{ secrets.RO_DISCOURSE_API_KEY }}
 
   build_i18n:
     if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build i18n') }}
@@ -87,12 +91,34 @@ jobs:
       privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
       strict: true
 
+  build_blog:
+    if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build blog') }}
+    needs: [submodule, metadata]
+    uses: ./.github/workflows/build-blog.yml
+    with:
+      ref: ${{github.event.pull_request.head.ref}}
+      repo: ${{github.event.pull_request.head.repo.full_name}}
+      continue-on-error: true
+      privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
+
+  build_videos:
+    if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build videos') }}
+    needs: [submodule, metadata]
+    uses: ./.github/workflows/build-videos.yml
+    with:
+      ref: ${{github.event.pull_request.head.ref}}
+      repo: ${{github.event.pull_request.head.repo.full_name}}
+      continue-on-error: true
+      privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
+
   combine_build:
-    needs: [build_english, build_i18n]
+    needs: [build_english, build_i18n, build_blog, build_videos]
     if: |
       (always() && !cancelled() && !failure()) &&
       needs.build_english.result == 'success' &&
-      (needs.build_i18n.result == 'success' || needs.build_i18n.result == 'skipped')
+      (needs.build_i18n.result == 'success' || needs.build_i18n.result == 'skipped') &&
+      (needs.build_blog.result == 'success' || needs.build_blog.result == 'skipped') &&
+      (needs.build_videos.result == 'success' || needs.build_videos.result == 'skipped')
 
     runs-on: ubuntu-latest
     steps:
@@ -114,5 +140,5 @@ jobs:
 
   cleanup:
     if: ${{ always() }}
-    needs: [build_english, build_i18n]
+    needs: [build_english, build_i18n, build_blog, build_videos]
     uses: privacyguides/.github/.github/workflows/cleanup.yml@main

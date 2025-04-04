@@ -1,5 +1,6 @@
 ---
 title: Branding Guidelines
+description: A guide for journalists and website contributors on proper branding of the Privacy Guides wordmark and logo.
 ---
 
 The name of the website is **Privacy Guides** and should **not** be changed to:
@@ -11,7 +12,7 @@ The name of the website is **Privacy Guides** and should **not** be changed to:
 - PG.org
 </div>
 
-The name of the subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
+The name of the Subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
 
 Additional branding guidelines can be found at [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
 

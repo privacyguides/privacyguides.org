@@ -1,7 +1,7 @@
 ---
 title: "Security Keys"
 icon: 'material/key-chain'
-description: These tools assist you with securing your internet accounts with Multi-Factor Authentication without sending your secrets to a third-party.
+description: Secure your internet accounts with Multi-Factor Authentication without sending your secrets to a third-party.
 cover: multi-factor-authentication.webp
 ---
 <small>Protects against the following threat(s):</small>
@@ -9,7 +9,7 @@ cover: multi-factor-authentication.webp
 - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 - [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-A physical **security key** adds a very strong layer of protection to your online accounts. Compared to [authenticator apps](multi-factor-authentication.md), the FIDO2 security key protocol is immune to phishing, and cannot be compromised without physical possession of the key itself. Many services support FIDO2/WebAuthn as a multi-factor authentication option for securing your account, and some services allow you to use a security key as a strong single-factor authenticator with passwordless authentication.
+A physical **security key** adds a very strong layer of protection to your online accounts. Compared to [authenticator apps](multi-factor-authentication.md), the FIDO2 security key protocol is immune to phishing, and cannot be compromised without physical possession of the key itself. Many services support FIDO2/WebAuthn as a multifactor authentication option for securing your account, and some services allow you to use a security key as a strong single-factor authenticator with passwordless authentication.
 
 ## Yubico Security Key
 
@@ -66,7 +66,7 @@ The **YubiKey** series from Yubico are among the most popular security keys. The
 
 The [comparison table](https://yubico.com/store/compare) shows the features and how the YubiKeys compare to each other and to Yubico's [Security Key](#yubico-security-key) series. One of the benefits of the YubiKey series is that one key can do almost everything you could expect from a hardware security key. We encourage you to take their [quiz](https://yubico.com/quiz) before purchasing in order to make sure you make the right choice.
 
-The Yubikey 5 series has FIDO Level 1 certification, which is the most common. However, some governments or other organizations may require a key with Level 2 certification, in which case you'll have to purchase a [Yubikey 5 **FIPS** series](https://yubico.com/products/yubikey-fips) key, or a [Yubico Security Key](#yubico-security-key). Most people do not have to worry about this distinction.
+The YubiKey 5 series has FIDO Level 1 certification, which is the most common. However, some governments or other organizations may require a key with Level 2 certification, in which case you'll have to purchase a [YubiKey 5 **FIPS** series](https://yubico.com/products/yubikey-fips) key, or a [Yubico Security Key](#yubico-security-key). Most people do not have to worry about this distinction.
 
 YubiKeys can be programmed using the [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) or [YubiKey Personalization Tools](https://yubico.com/support/download/yubikey-personalization-tools). For managing TOTP codes, you can use the [Yubico Authenticator](https://yubico.com/products/yubico-authenticator). All of Yubico's clients are open source.
 

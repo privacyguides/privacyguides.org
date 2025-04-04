@@ -27,6 +27,12 @@ on:
       strict:
         type: boolean
         default: false
+      cache:
+        type: boolean
+        default: true
+    secrets:
+      RO_DISCOURSE_API_KEY:
+        required: false
 
 permissions:
   contents: read
@@ -56,6 +62,12 @@ jobs:
         run: |
           echo "BUILD_INSIDERS=true" >> "$GITHUB_ENV"
           echo "EXTRA_FLAGS=""$EXTRA_FLAGS" --insiders"" >> "$GITHUB_ENV"
+
+      - name: Set Metadata for International Builds
+        if: inputs.lang != 'en'
+        run: |
+          echo "GITREVISIONDATE=false" >> "$GITHUB_ENV"
+          echo "GITAUTHORS=false" >> "$GITHUB_ENV"
 
       - name: Set Metadata for Offline Mode
         if: inputs.config == 'offline'
@@ -111,8 +123,9 @@ jobs:
         uses: actions/setup-python@v5
 
       - name: Restore Privacy Plugin Cache
-        uses: actions/cache/restore@v4.0.2
+        uses: actions/cache/restore@v4
         id: privacy_cache_restore
+        if: inputs.cache
         with:
           key: privacy-cache-${{ inputs.repo }}-${{ hashfiles('.cache/plugin/privacy/**') }}
           path: |
@@ -123,8 +136,9 @@ jobs:
             privacy-cache-
 
       - name: Restore Social Plugin Cache
-        uses: actions/cache/restore@v4.0.2
+        uses: actions/cache/restore@v4
         id: social_cache_restore
+        if: inputs.cache
         with:
           key: social-cache-${{ inputs.repo }}-${{ inputs.lang }}-${{ hashfiles('.cache/plugin/social/manifest.json') }}
           path: |
@@ -135,8 +149,9 @@ jobs:
             social-cache-privacyguides/privacyguides.org-${{ inputs.lang }}-
 
       - name: Restore Optimize Plugin Cache
-        uses: actions/cache/restore@v4.0.2
+        uses: actions/cache/restore@v4
         id: optimize_cache_restore
+        if: inputs.cache
         with:
           key: optimize-cache-${{ inputs.repo }}-${{ hashfiles('.cache/plugin/optimize/manifest.json') }}
           path: |
@@ -160,17 +175,43 @@ jobs:
           sudo apt install pngquant
           echo "EXTRA_FLAGS=""$EXTRA_FLAGS" --cmd=mkdocs"" >> "$GITHUB_ENV"
 
+      - name: Generate Donating Members List
+        continue-on-error: true
+        env:
+          DISCOURSE_API_KEY: ${{ secrets.RO_DISCOURSE_API_KEY }}
+        run: |
+          pip install requests
+          python generate-members.py > includes/members.md
+
       - name: Build Website
         run: |
           eval ./run.sh --build --lang=${{ inputs.lang }} "$EXTRA_FLAGS"
+
+      - name: Run generate-topics.sh for top posts
+        if: inputs.lang == 'en'
+        run: |
+          bash generate-topics.sh \
+            --source='https://discuss.privacyguides.net/top.json?period=weekly' \
+            --tag="top posts" \
+            --destination="./site/en/index.html" \
+            --count=3
+
+      - name: Run generate-topics.sh for latest posts
+        if: inputs.lang == 'en'
+        run: |
+          bash generate-topics.sh \
+            --source='https://discuss.privacyguides.net/latest.json' \
+            --tag="latest posts" \
+            --destination="./site/en/index.html" \
+            --count=12
 
       - name: Package Website
         run: |
           tar -czf site-${{ inputs.config }}-${{ inputs.lang }}.tar.gz site
 
       - name: Find Privacy Plugin Cache
-        uses: actions/cache/restore@v4.0.2
-        if: steps.privacy_cache_restore.outputs.cache-hit != 'true'
+        uses: actions/cache/restore@v4
+        if: steps.privacy_cache_restore.outputs.cache-hit != 'true' && inputs.cache
         id: privacy_cache_test
         with:
           key: privacy-cache-privacyguides/privacyguides.org-${{ hashfiles('.cache/plugin/privacy/**') }}
@@ -179,8 +220,8 @@ jobs:
             .cache/plugin/privacy
 
       - name: Find Social Plugin Cache
-        uses: actions/cache/restore@v4.0.2
-        if: steps.social_cache_restore.outputs.cache-hit != 'true'
+        uses: actions/cache/restore@v4
+        if: steps.social_cache_restore.outputs.cache-hit != 'true' && inputs.cache
         id: social_cache_test
         with:
           key: social-cache-privacyguides/privacyguides.org-${{ inputs.lang }}-${{ hashfiles('.cache/plugin/social/manifest.json') }}
@@ -190,8 +231,8 @@ jobs:
             .cache/plugin/social/assets
 
       - name: Find Optimize Plugin Cache
-        uses: actions/cache/restore@v4.0.2
-        if: steps.optimize_cache_restore.outputs.cache-hit != 'true'
+        uses: actions/cache/restore@v4
+        if: steps.optimize_cache_restore.outputs.cache-hit != 'true' && inputs.cache
         id: optimize_cache_test
         with:
           key: optimize-cache-privacyguides/privacyguides.org-${{ hashfiles('.cache/plugin/optimize/manifest.json') }}
@@ -200,15 +241,15 @@ jobs:
             .cache/plugin/optimize
 
       - name: Save Privacy Plugin Cache
-        uses: actions/cache/save@v4.0.2
-        if: steps.privacy_cache_test.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        if: steps.privacy_cache_test.outputs.cache-hit != 'true' && inputs.cache
         with:
           key: privacy-cache-${{ inputs.repo }}-${{ hashfiles('.cache/plugin/privacy/**') }}
           path: .cache/plugin/privacy
 
       - name: Save Social Plugin Cache
-        uses: actions/cache/save@v4.0.2
-        if: steps.social_cache_test.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        if: steps.social_cache_test.outputs.cache-hit != 'true' && inputs.cache
         with:
           key: social-cache-${{ inputs.repo }}-${{ inputs.lang }}-${{ hashfiles('.cache/plugin/social/manifest.json') }}
           path: |
@@ -216,8 +257,8 @@ jobs:
             .cache/plugin/social/assets
 
       - name: Save Optimize Plugin Cache
-        uses: actions/cache/save@v4.0.2
-        if: steps.optimize_cache_test.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        if: steps.optimize_cache_test.outputs.cache-hit != 'true' && inputs.cache
         with:
           key: optimize-cache-${{ inputs.repo }}-${{ hashfiles('.cache/plugin/optimize/manifest.json') }}
           path: .cache/plugin/optimize
@@ -227,6 +268,14 @@ jobs:
         with:
           name: site-${{ inputs.config }}-${{ inputs.lang }}.tar.gz
           path: site-${{ inputs.config }}-${{ inputs.lang }}.tar.gz
+          retention-days: 1
+
+      - name: Upload members list
+        uses: actions/upload-artifact@v4
+        if: inputs.config == 'build' && inputs.lang == 'en'
+        with:
+          name: members.md
+          path: includes/members.md
           retention-days: 1
 
   offline_package:

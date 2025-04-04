@@ -1,15 +1,66 @@
-# High-traffic pages
-/docs/index.md @jonaharagon @dngray
-/theme/overrides/ @jonaharagon
-
 # Org
+
 /docs/about/ @jonaharagon
 CODE_OF_CONDUCT.md @jonaharagon
-CITATION.cff
-LICENSE @jonaharagon
+CITATION.cff @jonaharagon
+LICENSE @jonaharagon @dngray
+LICENSE-CODE @jonaharagon
 README.md @jonaharagon @dngray
 
+# Config
+
+/mkdocs.yml @jonaharagon
+/mkdocs.blog.yml @jonaharagon
+/crowdin.yml @jonaharagon
+/includes/ @jonaharagon
+
 # Ops
+
+Dockerfile @jonaharagon
 /Pipfile @jonaharagon
 /Pipfile.lock @jonaharagon
 /.github/ @jonaharagon
+/run.sh @jonaharagon
+/modules/ @jonaharagon
+
+# High-traffic pages
+
+/blog/index.md @jonaharagon @freddy-m
+/docs/index.md @jonaharagon @dngray
+/theme/home.html @jonaharagon @dngray
+/theme/main.html @jonaharagon
+/theme/blog-post.html @jonaharagon
+/theme/partials/ @jonaharagon
+/theme/layouts/ @jonaharagon
+
+# Financial-Related
+
+/docs/about/donate.md @jonaharagon @SamsungGalaxyPlayer
+/docs/cryptocurrency.md @jonaharagon @SamsungGalaxyPlayer
+/docs/financial-services.md @jonaharagon @SamsungGalaxyPlayer
+/docs/advanced/payments.md @jonaharagon @SamsungGalaxyPlayer
+
+# Blog authors
+
+/blog/.authors.yml @jonaharagon @dngray @freddy-m
+/blog/author/ @jonaharagon @dngray @freddy-m
+/blog/author/dngray.md @dngray
+/blog/author/freddy.md @freddy-m
+/blog/author/jonah.md @jonaharagon
+/blog/author/niek-de-wilde.md @blacklight447
+
+# Blog posts
+
+/blog/posts/ @jonaharagon
+/blog/posts/firefox-privacy-2021-update.md @dngray
+/blog/posts/firefox-privacy.md @jonaharagon
+/blog/posts/hide-nothing.md @freddy-m
+/blog/posts/macos-ventura-privacy-security-updates.md @jonaharagon
+/blog/posts/move-fast-and-break-things.md @freddy-m
+/blog/posts/mozilla-disappoints-us-yet-again-2.md @jonaharagon
+/blog/posts/privacy-guides-partners-with-magic-grants-501-c-3.md @jonaharagon
+/blog/posts/proton-wallet-review.md @jonaharagon
+/blog/posts/restrict-act.md @jonaharagon
+/blog/posts/the-trouble-with-vpn-and-privacy-review-sites.md @jonaharagon
+/blog/posts/virtual-insanity.md @freddy-m
+/blog/posts/welcome-to-privacy-guides.md @jonaharagon

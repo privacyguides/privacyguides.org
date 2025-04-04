@@ -1,0 +1,113 @@
+definitions:
+  - &site_name >-
+    {{ config.site_name }}
+
+  - &page_title >-
+    {{ page.meta.get("title", page.title) }}
+
+  - &page_description >-
+    {{ page.meta.get("description", config.site_description) or "" }}
+
+  - &page_logo >-
+    {% if page.meta.preview and page.meta.preview.logo %}
+      {{- page.meta.preview.logo -}}
+    {% endif %}
+
+  - &page_icon >-
+    {%- if not page.meta.preview or not page.meta.preview.logo -%}
+      material/video-box
+    {%- endif -%}
+
+  - &logo >-
+    theme/assets/brand/logos/svg/logo/privacy-guides-logo-notext-colorbg.svg
+
+  - &thumbnail >-
+    {%- if page.meta.get("thumbnail") -%}
+      {{ config.site_url }}{{ page.meta.get("thumbnail") | replace("https://", "assets/external/") }}
+    {%- else -%}
+      {{ image.url }}
+    {%- endif -%}
+
+# Meta tags
+tags:
+  # Open Graph
+  og:type: video.other
+  og:title: *page_title
+  og:description: *page_description
+  og:image: *thumbnail
+  og:url: "{{ page.canonical_url }}"
+
+  # Video
+  og:video: "{{ page.meta.embed }}"
+  og:video:url: "{{ page.meta.embed }}"
+  og:video:secure_url: "{{ page.meta.embed }}"
+  og:video:type: "text/html"
+  og:video:width: "560"
+  og:video:height: "315"
+
+  # Mastodon
+  fediverse:creator: "@privacyguides@neat.computer"
+
+  # Twitter
+  twitter:site: "@privacy_guides"
+  twitter:creator: "@privacy_guides"
+  twitter:card: summary_large_image
+  twitter:title: *page_title
+  twitter:description: *page_description
+  twitter:image: *thumbnail
+
+# -----------------------------------------------------------------------------
+# Specification
+# -----------------------------------------------------------------------------
+
+# Card size and layers
+size: { width: 1200, height: 630 }
+layers:
+  # Background
+  - background:
+      color: "#FFD06F"
+
+  - size: { width: 512, height: 512 }
+    offset: { x: 600, y: 59 }
+    background:
+      image: *page_logo
+
+  - background:
+      color: "#FFD06F99"
+
+  # Page icon
+  - size: { width: 630, height: 630 }
+    offset: { x: 570, y: 0 }
+    icon:
+      value: *page_icon
+      color: "#00000033"
+
+  # Logo
+  - size: { width: 64, height: 64 }
+    offset: { x: 64, y: 64 }
+    background:
+      image: *logo
+
+  # Site name
+  - size: { width: 768, height: 42 }
+    offset: { x: 160, y: 78 }
+    typography:
+      content: *site_name
+      color: "#2d2d2d"
+      font:
+        family: Bagnard
+        style: Bold
+
+  # Page title
+  - size: { width: 864, height: 256 }
+    offset: { x: 62, y: 192 }
+    typography:
+      content: *page_title
+      align: start
+      color: "#2d2d2d"
+      line:
+        amount: 3
+        height: 1.5
+      font:
+        family: Bagnard
+        style: Bold

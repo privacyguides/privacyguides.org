@@ -1,5 +1,6 @@
 ---
 title: Writing Style
+description: Our official writing style handbook for website contributors.
 ---
 
 Privacy Guides is written in American English, and you should refer to [APA Style guidelines](https://apastyle.apa.org/style-grammar-guidelines/grammar) when in doubt.
@@ -8,7 +9,7 @@ In general the [United States federal plain language guidelines](https://plainla
 
 ## Writing for our audience
 
-Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily average, technology using adults. Don't dumb down content as if you are addressing a middle-school class, but don't overuse complicated terminology about concepts average computer users wouldn't be familiar with.
+Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily adults who use technology. Don't dumb down content as if you are addressing a middle-school class, but don't overuse complicated terminology about concepts average computer users wouldn't be familiar with.
 
 ### Address only what people want to know
 
@@ -63,7 +64,7 @@ We should try to avoid abbreviations where possible, but technology is full of a
 
 ## Be concise
 
-> Unnecessary words waste your audience’s time. Great writing is like a conversation. Omit information that the audience doesn’t need to know. This can be difficult as a subject matter expert so it’s important to have someone look at the information from the audience’s perspective.
+> Unnecessary words waste your audience’s time. Great writing is like a conversation. Omit information that the audience doesn’t need to know. This can be difficult as a subject-matter expert, so it’s important to have someone look at the information from the audience’s perspective.
 
 Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 

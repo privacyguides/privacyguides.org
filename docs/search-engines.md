@@ -2,11 +2,15 @@
 meta_title: "Recommended Search Engines: Anonymous Google Alternatives - Privacy Guides"
 title: "Search Engines"
 icon: material/search-web
-description: These privacy-respecting search engines don't build an advertising profile based on your searches.
+description: Privacy-respecting search engines which don't build an advertising profile based on your searches.
 cover: search-engines.webp
 global:
  - [randomize-element, "table tbody"]
 ---
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+
 Use a **search engine** that doesn't build an advertising profile based on your searches.
 
 ## Recommended Providers
@@ -40,8 +44,6 @@ Brave Search includes unique features such as [Discussions](https://search.brave
 [:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentation}
 
-</details>
-
 </div>
 
 Note that if you use Brave Search while logged in to a Premium account, it may make it easier for Brave to correlate queries with specific users.
@@ -56,14 +58,12 @@ We recommend you disable [Anonymous usage metrics](https://search.brave.com/help
 
 **DuckDuckGo** is one of the more mainstream private search engine options. Notable DuckDuckGo search features include [bangs](https://duckduckgo.com/bang) and a variety of [instant answers](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features). The search engine uses numerous [sources](https://help.duckduckgo.com/results/sources) other than Bing for instant answers and other non-primary results.
 
-DuckDuckGo is the default search engine for the [Tor Browser](tor.md#tor-browser) and is one of the few available options on Apple’s [Safari](mobile-browsers.md#safari) browser.
+DuckDuckGo is the default search engine for the [Tor Browser](tor.md#tor-browser) and is one of the few available options on Apple’s [Safari](mobile-browsers.md#safari-ios) browser.
 
 [:octicons-home-16: Homepage](https://duckduckgo.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://help.duckduckgo.com){ .card-link title=Documentation}
-
-</details>
 
 </div>
 
@@ -82,8 +82,6 @@ DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-
 [:simple-torbrowser:](http://startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentation}
-
-</details>
 
 </div>
 
@@ -106,8 +104,6 @@ A [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine) aggregate
 [:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
 [:octicons-server-16:](https://searx.space){ .card-link title="Public Instances"}
 [:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Source Code" }
-
-</details>
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: Uploading Images
+description: A guide for website contributors on uploading images in the proper format and location.
 ---
 
 If you make changes to this website that involve adding new images or replacing existing ones, here are a couple of general recommendations:
@@ -8,10 +9,7 @@ If you make changes to this website that involve adding new images or replacing 
 
 - We **prefer** SVG images, but if those do not exist we can use PNG images. Additionally, for cover images, we prefer that they are obtained from [Unsplash](https://unsplash.com) and are in the WebP format.
 
-Company logos have canvas size of:
-
-- 128x128px
-- 384x128px
+Company logos should be square if possible, and at least 200x200px if they are PNGs (non-vector images).
 
 ## Optimization
 
@@ -31,8 +29,8 @@ optipng -o7 file.png
 
 In Inkscape:
 
-1. File Save As..
-2. Set type to Optimized SVG (*.svg)
+1. File > Save As...
+2. Set type to: Optimized SVG (*.svg)
 
 In the **Options** tab:
 
@@ -50,7 +48,7 @@ In the **SVG Output** tab under **Document options**:
 - [ ] Turn off **Remove the XML declaration**
 - [x] Turn on **Remove metadata**
 - [x] Turn on **Remove comments**
-- [x] Turn on **Embeded raster images**
+- [x] Turn on **Embedded raster images**
 - [x] Turn on **Enable viewboxing**
 
 In the **SVG Output** under **Pretty-printing**:

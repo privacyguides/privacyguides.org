@@ -1,5 +1,6 @@
 ---
 title: "General Apps"
+description: The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
 schema:
   -
     "@context": http://schema.org
@@ -24,10 +25,17 @@ schema:
     name: Secure PDF Viewer
     applicationCategory: Utilities
     operatingSystem: Android
+robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+
 We recommend a wide variety of Android apps throughout this site. The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
 
 ### Shelter
+
+If your device is on Android 15 or greater, we recommend using the native [Private Space](../os/android-overview.md#private-space) feature instead, which provides nearly the same functionality without needing to place trust in and grant powerful permissions to a third-party app.
 
 <div class="admonition recommendation" markdown>
 
@@ -46,13 +54,17 @@ Shelter supports blocking contact search cross profiles and sharing files across
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
-
 When using Shelter, you are placing complete trust in its developer, as Shelter acts as a [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) to create the Work Profile, and it has extensive access to the data stored within the Work Profile.
 
 </div>
 
+Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
+
 ### Secure Camera
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-search: Public Exposure](../basics/common-threats.md#limiting-public-information){ .pg-green }
 
 <div class="admonition recommendation" markdown>
 
@@ -86,7 +98,7 @@ Main privacy features include:
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-Metadata is not currently deleted from video files but that is planned.
+Metadata is not currently deleted from video files, but that is planned.
 
 The image orientation metadata is not deleted. If you enable location (in Secure Camera) that **won't** be deleted either. If you want to delete that later you will need to use an external app such as [ExifEraser](../data-redaction.md#exiferaser-android).
 
@@ -97,7 +109,6 @@ The image orientation metadata is not deleted. If you enable location (in Secure
 <small>Protects against the following threat(s):</small>
 
 - [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 <div class="admonition recommendation" markdown>
 

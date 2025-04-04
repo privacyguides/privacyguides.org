@@ -19,7 +19,7 @@ feedback.addEventListener("submit", function(ev) {
       referrer: document.referrer,
       screen: `${window.screen.width}x${window.screen.height}`,
       url: window.location.pathname,
-      website: '30b92047-7cbb-4800-9815-2e075a293e0a',
+      website: '246e357e-0764-4674-9314-7676724b3a88',
       name: umamiEventName,
     },
     type: 'event',
@@ -32,7 +32,7 @@ feedback.addEventListener("submit", function(ev) {
 
   console.log(umamiEvent)
 
-  fetch("https://stats.jonaharagon.net/api/send", {
+  fetch("https://stats.triplebit.net/api/send", {
     method: "POST",
     body: JSON.stringify(umamiEvent),
     headers: {

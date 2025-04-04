@@ -237,12 +237,44 @@
       ]
     },
     {
+      "login": "friadev",
+      "name": "fria",
+      "avatar_url": "https://avatars.githubusercontent.com/u/138676274?v=4",
+      "profile": "https://friadev.github.io/",
+      "contributions": [
+        "doc",
+        "review",
+        "research",
+        "question",
+        "bug",
+        "ideas"
+      ]
+    },
+    {
       "login": "actions",
       "name": "GitHub Actions",
       "avatar_url": "https://avatars.githubusercontent.com/u/44036562?v=4",
       "profile": "https://github.com/features/actions",
       "contributions": [
         "infra"
+      ]
+    },
+    {
+      "login": "triplebit",
+      "name": "Triplebit",
+      "avatar_url": "https://avatars.githubusercontent.com/u/178061783?v=4",
+      "profile": "https://www.triplebit.org/",
+      "contributions": [
+        "infra"
+      ]
+    },
+    {
+      "login": "magicgrants",
+      "name": "MAGIC Grants",
+      "avatar_url": "https://avatars.githubusercontent.com/u/90805358?v=4",
+      "profile": "https://magicgrants.org/",
+      "contributions": [
+        "business"
       ]
     },
     {
@@ -428,7 +460,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/47955724?v=4",
       "profile": "https://github.com/taivlam",
       "contributions": [
-        "doc"
+        "doc",
+        "maintenance"
       ]
     },
     {
@@ -621,7 +654,12 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/30749146?v=4",
       "profile": "https://github.com/razac-elda",
       "contributions": [
-        "doc"
+        "doc",
+        "bug",
+        "financial",
+        "promotion",
+        "question",
+        "translation"
       ]
     },
     {
@@ -2853,6 +2891,100 @@
       "profile": "https://github.com/I-I-IT",
       "contributions": [
         "doc"
+      ]
+    },
+    {
+      "login": "IDON-TEXIST",
+      "name": "IDON-TEXIST",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73442356?v=4",
+      "profile": "https://github.com/IDON-TEXIST",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "yusuf-daglioglu",
+      "name": "Yusuf Daglioglu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/90555550?v=4",
+      "profile": "https://github.com/yusuf-daglioglu",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "yikerman",
+      "name": "Yi Cao",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32544798?v=4",
+      "profile": "https://ycao.net/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "sdhlfqr",
+      "name": "Sayf Dhū al-Faqār",
+      "avatar_url": "https://avatars.githubusercontent.com/u/155405590?v=4",
+      "profile": "https://github.com/sdhlfqr",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "eylenburg",
+      "name": "eylenburg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84839316?v=4",
+      "profile": "https://github.com/eylenburg",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "PASSK3YS",
+      "name": "Kieran Colfer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54213179?v=4",
+      "profile": "https://github.com/PASSK3YS",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "SamsungGalaxyPlayer",
+      "name": "Justin Ehrenhofer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12520755?v=4",
+      "profile": "https://github.com/SamsungGalaxyPlayer",
+      "contributions": [
+        "doc",
+        "business",
+        "fundingFinding"
+      ]
+    },
+    {
+      "login": "bruch-alex",
+      "name": "Alex Bruch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/173354246?v=4",
+      "profile": "https://github.com/bruch-alex",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "qiyongzheng",
+      "name": "qiyongzheng",
+      "avatar_url": "https://avatars.githubusercontent.com/u/153378707?v=4",
+      "profile": "https://github.com/qiyongzheng",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "hashcatHitman",
+      "name": "Sam K",
+      "avatar_url": "https://avatars.githubusercontent.com/u/155700084?v=4",
+      "profile": "https://github.com/hashcatHitman",
+      "contributions": [
+        "doc",
+        "promotion",
+        "question"
       ]
     }
   ],

@@ -69,7 +69,6 @@ uBlock Origin also has a "Lite" version of their extension, which offers a very 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
 
 </details>
@@ -86,7 +85,7 @@ uBlock Origin Lite only receives block list updates whenever the extension is up
 
 ### AdGuard
 
-We recommend [Safari](mobile-browsers.md#safari) for iOS users, which unfortunately is not supported by uBlock Origin. Luckily, Adguard provides an adequate alternative:
+We recommend [Safari](mobile-browsers.md#safari-ios) for iOS users, which unfortunately is not supported by uBlock Origin. Luckily, AdGuard provides an adequate alternative:
 
 <div class="admonition recommendation" markdown>
 
