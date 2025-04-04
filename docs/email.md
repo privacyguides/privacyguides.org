@@ -218,9 +218,9 @@ Notable features:
 
 You can create unlimited custom domains, aliases, catch-alls, regex-based aliases, and more.
 
-#### :material-information-outline:{ .pg-blue } Private Payment Methods
+#### :material-check:{ .pg-green } Private Payment Methods
 
-Forward Email doesn't accept any cryptocurrencies as a result of [issues](https://github.com/forwardemail/forwardemail.net/commit/04c9f6f4c9c6279232e9fe18d7105ec83204f255) with BitPay and Coinbase Commerce. However, they do accept [Stripe and PayPal payments](https://forwardemail.net/faq#which-payment-methods-do-you-accept).
+Forward Email [accepts crypto payments](https://forwardemail.net/blog/docs/crypto-payments-privacy-email-service) via [Stripe Crypto](https://docs.stripe.com/crypto).
 
 #### :material-check:{ .pg-green } Account Security
 
