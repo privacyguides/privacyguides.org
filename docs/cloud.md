@@ -106,7 +106,7 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=peergos.android)
 - [:simple-github: GitHub](https://github.com/Peergos/web-ui/releases)
 - [:fontawesome-brands-windows: Windows](https://github.com/Peergos/web-ui/releases)
 - [:simple-apple: macOS](https://github.com/Peergos/web-ui/releases)
