@@ -244,4 +244,4 @@ The dream isn't dead, however. Chaum's [eCash 2.0](https://chaum.com/ecash-2-0/)
 
 Laws are being passed forcing 18+ websites and even [app stores](https://thehill.com/policy/technology/5179865-utah-app-store-age-verification-law/) to collect verify the ID of users. This is a massive slap in the face to the privacy and security of everyone. Data breaches and tracking are inevitable under the current system.
 
-Blind signatures could provide a private and secure way to verify age or other information without having to submit you entire ID or submit invasive face scans.
+Blind signatures could provide a private and secure way to verify age or other information without having to submit your entire ID or submit invasive face scans.
