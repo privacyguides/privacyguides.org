@@ -123,7 +123,7 @@ Ollama simplifies the process of setting up a local AI chat by downloading the A
 
 <div class="admonition recommendation" markdown>
 
-![Llamafile Logo](assets/img/ai-chat/llamafile.svg){align=right}
+![Llamafile Logo](assets/img/ai-chat/llamafile.png){align=right}
 
 **Llamafile** is a lightweight, single-file executable that allows users to run LLMs locally on their own computers without any setup involved. It is [backed by Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile) and available on Linux, macOS, and Windows.
 
