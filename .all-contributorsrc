@@ -2986,6 +2986,17 @@
         "promotion",
         "question"
       ]
+    },
+    {
+      "login": "jordbm",
+      "name": "jordbm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/160433264?v=4",
+      "profile": "https://github.com/jordbm",
+      "contributions": [
+        "doc",
+        "maintenance",
+        "security"
+      ]
     }
   ],
   "contributorsPerLine": 5,
