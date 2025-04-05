@@ -16,6 +16,7 @@ definitions:
   - &page_icon >-
     {%- if page.meta.preview and page.meta.preview.icon -%}
       {{- page.meta.preview.icon -}}
+    {%- elif page.meta.preview and page.meta.preview.logo -%}
     {%- else -%}
       material/book-open-page-variant
     {%- endif -%}
