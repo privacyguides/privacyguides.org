@@ -106,7 +106,7 @@ CAPTCHAs aren't even particularly good at detecting bots. With advances in AI, [
 
 Several blind signature-based solutions are in various states, some being implemented but not widely used, some being proposed browser APIs, and some being IETF standards.
 
-The landscape is very confusing right now so I'll try to illucidate what I've found.
+The landscape is very confusing right now so I'll try to elucidate what I've found.
 
 [Privacy Pass](https://privacypass.github.io) started out as an attempt at a privacy-preserving way to bypass CAPTCHAs.
 
