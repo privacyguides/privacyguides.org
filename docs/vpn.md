@@ -18,9 +18,9 @@ If you're looking for additional *privacy* from your ISP, on a public Wi-Fi netw
 
 Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
 
-If you are looking for **anonymity**, you should use the Tor Browser. If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
+If you are looking for **anonymity**, you should use the [Tor Browser](web-browsing/tor.md). If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
 
-[Download Tor](https://torproject.org){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+[Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
 </div>
 
@@ -110,7 +110,7 @@ Proton VPN has published [App Store](https://apps.apple.com/app/id1437005085) an
 
 #### :material-information-outline:{ .pg-blue } Additional Notes
 
-Proton VPN clients support two-factor authentication on all platforms. Proton VPN has their own servers and datacenters in Switzerland, Iceland and Sweden. They offer content blocking and known-malware blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](tor.md#tor-browser) for this purpose.
+Proton VPN clients support two-factor authentication on all platforms. Proton VPN has their own servers and datacenters in Switzerland, Iceland and Sweden. They offer content blocking and known-malware blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](web-browsing/tor.md#tor-browser) for this purpose.
 
 ##### :material-alert-outline:{ .pg-orange } Kill switch feature is broken on Intel-based Macs
 
@@ -369,7 +369,7 @@ Must not have any marketing which is irresponsible:
 
 Responsible marketing that is both educational and useful to the consumer could include:
 
-- An accurate comparison to when [Tor](tor.md) should be used instead.
+- An accurate comparison to when the [Tor network](alternative-networks.md#tor) should be used instead.
 - Availability of the VPN provider's website over a [.onion service](https://en.wikipedia.org/wiki/.onion)
 
 ### Additional Functionality
