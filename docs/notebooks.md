@@ -53,7 +53,7 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
 
-**Notesnook** is a free (as in speech) and open-source, E2EE note-taking app focused on user privacy and ease-of-use.
+**Notesnook** is a free (as in speech), open-source, and easy-to-use E2EE note-taking app focused on user privacy.
 
 It features sync functionality that allows you to access your notes on multiple platforms. You can easily import your notes from Evernote, OneNote, and other apps using their [official importer](https://importer.notesnook.com).
 
