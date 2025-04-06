@@ -28,7 +28,7 @@ Many people get the concepts of **privacy**, **security**, and **anonymity** con
 <!-- markdownlint-disable-next-line -->
 **Anonymity**
 
-:   Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+:   Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../web-browsing/tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
 
 :   **Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
 

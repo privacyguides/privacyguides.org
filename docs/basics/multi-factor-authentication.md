@@ -35,7 +35,7 @@ Unlike [WebAuthn](#fido-fast-identity-online), TOTP offers no protection against
 
 An adversary could set up a website to imitate an official service in an attempt to trick you into giving out your username, password and current TOTP code. If the adversary then uses those recorded credentials they may be able to log into the real service and hijack the account.
 
-Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../security-keys.md) are not supported [authenticator apps](../multi-factor-authentication.md) are still a good option.
+Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../security-keys.md) are not supported [authenticator apps](../essentials/multi-factor-authentication.md) are still a good option.
 
 ### Hardware security keys
 
@@ -99,7 +99,7 @@ When configuring your MFA method, keep in mind that it is only as secure as your
 
 You should always have backups for your MFA method. Hardware security keys can get lost, stolen or simply stop working over time. It is recommended that you have a pair of hardware security keys with the same access to your accounts instead of just one.
 
-When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../encryption.md#veracrypt-disk)).
+When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../essentials/encryption.md#veracrypt-disk)).
 
 ### Initial Set Up
 
@@ -111,7 +111,7 @@ If you have to use email for MFA, make sure that the email account itself is sec
 
 If you use SMS MFA, use a carrier who will not switch your phone number to a new SIM card without account access, or use a dedicated VoIP number from a provider with similar security to avoid a [SIM swap attack](https://en.wikipedia.org/wiki/SIM_swap_scam).
 
-[MFA tools we recommend](../multi-factor-authentication.md){ .md-button }
+[MFA tools we recommend](../essentials/multi-factor-authentication.md){ .md-button }
 
 ## More Places to Set Up MFA
 

@@ -272,7 +272,6 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
-    - navigation.expand
     - navigation.path
     - navigation.indexes
     - content.action.edit
@@ -393,13 +392,9 @@ nav:
               - "os/windows/group-policies.md"
   - !ENV [NAV_RECOMMENDATIONS, "Recommendations"]:
       - "tools.md"
-      - !ENV [NAV_INTERNET_BROWSING, "Internet Browsing"]:
-          - "tor.md"
-          - "desktop-browsers.md"
-          - "mobile-browsers.md"
-          - "browser-extensions.md"
       - !ENV [NAV_PROVIDERS, "Providers"]:
           - "cloud.md"
+          - "cryptocurrency.md"
           - "data-broker-removals.md"
           - "dns.md"
           - "email-aliasing.md"
@@ -409,25 +404,38 @@ nav:
           - "search-engines.md"
           - "vpn.md"
       - !ENV [NAV_SOFTWARE, "Software"]:
-          - "ai-chat.md"
-          - "calendar.md"
-          - "cryptocurrency.md"
-          - "data-redaction.md"
-          - "document-collaboration.md"
-          - "email-clients.md"
-          - "encryption.md"
-          - "file-sharing.md"
-          - "frontends.md"
-          - "health-and-wellness.md"
-          - "language-tools.md"
-          - "maps.md"
-          - "multi-factor-authentication.md"
-          - "news-aggregators.md"
-          - "notebooks.md"
-          - "office-suites.md"
-          - "passwords.md"
-          - "pastebins.md"
-          - "real-time-communication.md"
+          - !ENV [NAV_INTERNET_BROWSING, "Internet Browsing"]:
+              - "web-browsing/index.md"
+              - "web-browsing/tor.md"
+              - "web-browsing/desktop-browsers.md"
+              - "web-browsing/mobile-browsers.md"
+              - "web-browsing/browser-extensions.md"
+          - !ENV [NAV_TECH_ESSENTIALS, "Tech Essentials"]:
+              - "essentials/index.md"
+              - "essentials/passwords.md"
+              - "essentials/multi-factor-authentication.md"
+              - "essentials/real-time-communication.md"
+              - "essentials/encryption.md"
+          - !ENV [NAV_PRODUCTIVITY, "Productivity"]:
+              - "productivity/index.md"
+              - "productivity/calendar.md"
+              - "productivity/document-collaboration.md"
+              - "productivity/email-clients.md"
+              - "productivity/language-tools.md"
+              - "productivity/notebooks.md"
+              - "productivity/office-suites.md"
+          - !ENV [NAV_MEDIA, "Media"]:
+              - "media/index.md"
+              - "media/file-sharing.md"
+              - "media/frontends.md"
+              - "media/news-aggregators.md"
+          - !ENV [NAV_UTILITIES, "Utilities"]:
+              - "utilities/index.md"
+              - "utilities/ai-chat.md"
+              - "utilities/health-and-wellness.md"
+              - "utilities/data-redaction.md"
+              - "utilities/maps.md"
+              - "utilities/pastebins.md"
       - !ENV [NAV_HARDWARE, "Hardware"]:
           - "mobile-phones.md"
           - "security-keys.md"
