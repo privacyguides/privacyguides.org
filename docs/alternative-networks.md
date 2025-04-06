@@ -85,8 +85,8 @@ We previously recommended enabling the *Isolate Destination Address* preference 
 
 <div class="admonition recommendation" markdown>
 
-![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
-![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
+![Snowflake logo](assets/img/self-contained-networks/snowflake.svg#only-light){ align=right }
+![Snowflake logo](assets/img/self-contained-networks/snowflake-dark.svg#only-dark){ align=right }
 
 **Snowflake** allows you to donate bandwidth to the Tor Project by operating a "Snowflake proxy" within your browser.
 
