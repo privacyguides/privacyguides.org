@@ -88,7 +88,7 @@ In addition to installing Tor Browser on your computer directly, there are also 
 
 <div class="admonition recommendation" markdown>
 
-![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
+![Orbot logo](../assets/img/self-contained-networks/orbot.svg){ align=right }
 
 **Orbot** is a free Tor VPN for smartphones which routes traffic from any app on your device through the Tor network.
 
