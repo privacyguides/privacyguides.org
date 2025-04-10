@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2025-04-10T21:00:00Z
+    created: 2025-04-11T16:00:00Z
 categories:
     - Opinion
 authors:
@@ -10,7 +10,6 @@ schema_type: OpinionNewsArticle
 preview:
   cover: blog/assets/images/encryption-is-not-a-crime/encryption-is-not-a-crime-cover.webp
 ---
-
 # Encryption is Not a Crime
 
 ![Photo of a red key on an all black background.](../assets/images/encryption-is-not-a-crime/encryption-is-not-a-crime-cover.webp)
