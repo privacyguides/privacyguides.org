@@ -17,3 +17,9 @@ With the popularity of generative AI, it's becoming more and more difficult to d
 
 Can you tell which of these images are AI generated?
 
+![Group of geese by some water](../assets/images/digital-provenance/geese1.jpeg)
+![Group of geese by some water](../assets/images/digital-provenance/geese2.jpeg)
+![Group of geese by some water](../assets/images/digital-provenance/geese3.jpeg)
+![Group of geese by some water](../assets/images/digital-provenance/geese4.jpeg)
+
+Actually, they're all real. But the fact that you believed some of them were AI generated poses a problem: how can we tell where an image came from, if it was AI generated, whether it was edited?
