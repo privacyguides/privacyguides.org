@@ -592,7 +592,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 <div class="grid cards" markdown>
 
 - ![PrivateBin logo](assets/img/pastebins/privatebin.svg){ .twemoji loading=lazy } [PrivateBin](pastebins.md#privatebin)
-- ![Paaster logo](assets/img/pastebins/paaster.svg){ .twemoji loading=lazy } [Paaster](pastebins.md#paaster)
+- ![Paaster logo](assets/img/pastebins/paaster.png){ .twemoji loading=lazy } [Paaster](pastebins.md#paaster)
 
 </div>
 

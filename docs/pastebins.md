@@ -29,7 +29,7 @@ cover: pastebins.webp
 
 <div class="admonition recommendation" markdown>
 
-![Paaster logo](assets/img/pastebins/paaster.svg){ align=right }
+![Paaster logo](assets/img/pastebins/paaster.png){ align=right }
 
 **Paaster** is a secure and user-friendly pastebin application that prioritizes privacy and simplicity. With end-to-end encryption and paste history, Paaster ensures that your pasted code remains confidential and accessible.
 
