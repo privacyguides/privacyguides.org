@@ -162,19 +162,19 @@ We must fight to keep our right to privacy, and use of strong end-to-end encrypt
 
 - [x] Support organizations fighting for encryption, such as:
 
-- [Global Encryption Coalition](https://www.globalencryption.org/)
+    - [Global Encryption Coalition](https://www.globalencryption.org/)
 
-- [Open Rights Group](https://www.openrightsgroup.org/campaign/save-encryption/)
+    - [Open Rights Group](https://www.openrightsgroup.org/campaign/save-encryption/)
 
-- [Fight For The Future](https://www.makedmssafe.com/)
+    - [Fight For The Future](https://www.makedmssafe.com/)
 
-- [Signal app](https://signal.org/donate/)
+    - [Signal app](https://signal.org/donate/)
 
-- [Internet Society](https://www.internetsociety.org/open-letters/fix-the-take-it-down-act-to-protect-encryption/)
+    - [Internet Society](https://www.internetsociety.org/open-letters/fix-the-take-it-down-act-to-protect-encryption/)
 
-- [Electronic Frontier Foundation](https://www.eff.org/issues/end-end-encryption)
+    - [Electronic Frontier Foundation](https://www.eff.org/issues/end-end-encryption)
 
-- [Privacy Guides](https://www.privacyguides.org/en/about/donate/) 💛
+    - [Privacy Guides](https://www.privacyguides.org/en/about/donate/) 💛
 
 Finally, have a look at our [recommendations](https://www.privacyguides.org/en/tools/) if you want to start using more tools protecting your privacy using end-to-end encryption.
 
