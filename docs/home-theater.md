@@ -1,6 +1,6 @@
 ---
 title: "Home Theater"
-icon: material/tv
+icon: material/television
 description: Alternative Software for Videos, TV and Audio.
 cover: media-players.webp
 ---
