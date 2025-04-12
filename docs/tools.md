@@ -23,8 +23,7 @@ If you're looking for a specific solution to something, these are the hardware a
 
 <div markdown>
 
-<div class="admonition note" markdown>
-<p class="admonition-title">Self-Hosting</p>
+<div class="admonition info" markdown>
 
 [Self-hosting recommendations](self-hosting.md) has been moved to their own category.
 
