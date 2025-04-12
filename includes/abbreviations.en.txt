@@ -34,7 +34,7 @@
 *[GUI]: Graphical User Interface
 *[GnuPG]: GNU Privacy Guard (PGP implementation)
 *[HDD]: Hard Disk Drive
-*[HOTP]: HMAC (Hash-based Message Authentication Code) -based One-Time Password
+*[HOTP]: HMAC (Hash-based Message Authentication Code)-based One-Time Password
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[HTTP]: Hypertext Transfer Protocol
 *[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems.
