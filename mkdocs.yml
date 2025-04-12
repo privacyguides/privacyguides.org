@@ -393,6 +393,7 @@ nav:
               - "os/windows/group-policies.md"
   - !ENV [NAV_RECOMMENDATIONS, "Recommendations"]:
       - "tools.md"
+      - "self-hosted.md"
       - !ENV [NAV_INTERNET_BROWSING, "Internet Browsing"]:
           - "tor.md"
           - "desktop-browsers.md"
@@ -443,7 +444,6 @@ nav:
       - !ENV [NAV_ADVANCED, "Advanced"]:
           - "alternative-networks.md"
           - "device-integrity.md"
-          - "self-hosted.md"
   - !ENV [NAV_BLOG, "Articles"]: "/articles/"
   - !ENV [NAV_VIDEOS, "Videos"]: /videos/
   - !ENV [NAV_FORUM, "Forum"]:
