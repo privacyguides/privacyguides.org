@@ -554,3 +554,5 @@ MWEB
 Cyd
 Semiphemeral
 Dangerzone
+simple-activitypub
+ActivityPub
