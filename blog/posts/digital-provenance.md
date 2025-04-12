@@ -22,5 +22,19 @@ Can you tell which of these images are AI generated?
 ![Group of geese by some water](../assets/images/digital-provenance/geese3.jpeg)
 ![Group of geese by some water](../assets/images/digital-provenance/geese4.jpeg)
 
+<<<<<<< HEAD
 Actually, they're all real. But the fact that you believed some of them were AI generated poses a problem: how can we tell where an image came from, if it was AI generated, whether it was edited?
 
+## Project Origin
+
+
+
+## Content Authority Initiative
+
+## C2PA
+
+## Integrity Institute
+
+The Integrity Institute is a group of "engineers, product managers, researchers, analysts, data scientists, operations specialists, policy experts and more, with decades of combined experience across numerous platforms."
+
+Their goal is to make the social internet 
