@@ -2,11 +2,7 @@
 title: Avoiding Big Tech
 icon: material/domain
 ---
----
-title: Avoiding Big Tech
-icon: material/domain
----
-
+# (Remove these lines entirely; no replacement needed)
 If you hop on YouTube or scroll through Amazon nowadays, you can tell how reliant Big Tech companies are on advertising. After all, [almost $500 billion](https://www.dentsu.com/news-releases/ad-spend-growth-tracks-ahead-of-the-economy) was spent on online advertising in 2024 alone. This figure demonstrates the extent to which these companies depend on targeted ads to increase profit margins, often at the expense of privacy and security.
 
 Online advertisements are not like older television commercials. Modern digital technologies such as cookies, recommendation algorithms, and browser fingerprinting help these companies create [individualized profiles of their users](https://www.amnesty.org/en/latest/campaigns/2022/02/what-is-big-techs-surveillance-based-business-model/). By obtaining information on your browsing activity and interests, you may receive increasingly relevant advertisements. Given enough time, [Big Tech will know you more than you know yourself](https://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/).
