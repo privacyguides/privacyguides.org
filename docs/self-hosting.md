@@ -23,7 +23,7 @@ Advanced system administrators may consider setting up their own email server. M
 
 <div class="admonition recommendation" markdown>
 
-![Stalwart logo](assets/img/self-hosted/stalwart.svg){ align=right }
+![Stalwart logo](assets/img/self-hosting/stalwart.svg){ align=right }
 
 **Stalwart** is a newer mail server written in Rust which supports JMAP in addition to the standard IMAP, POP3, and SMTP. It has a wide variety of configuration options, but also defaults to very reasonable settings in terms of both security and features, making it easy to use immediately. It has web-based administration with TOTP 2FA support and allows you to enter your public PGP key to encrypt **all** incoming messages.
 
@@ -44,7 +44,7 @@ We use Stalwart for our own internal email at *Privacy Guides*.
 
 <div class="admonition recommendation" markdown>
 
-![Mailcow logo](assets/img/self-hosted/mailcow.svg){ align=right }
+![Mailcow logo](assets/img/self-hosting/mailcow.svg){ align=right }
 
 **Mailcow** is an advanced mail server perfect for those with Linux experience. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
@@ -59,7 +59,7 @@ We use Stalwart for our own internal email at *Privacy Guides*.
 
 <div class="admonition recommendation" markdown>
 
-![Mail-in-a-Box logo](assets/img/self-hosted/mail-in-a-box.svg){ align=right }
+![Mail-in-a-Box logo](assets/img/self-hosting/mail-in-a-box.svg){ align=right }
 
 **Mail-in-a-Box** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for people to set up their own mail server.
 
@@ -77,7 +77,7 @@ A self-hosted DNS solution is useful for providing filtering on controlled platf
 
 <div class="admonition recommendation" markdown>
 
-![Pi-hole logo](assets/img/self-hosted/pi-hole.svg){ align=right }
+![Pi-hole logo](assets/img/self-hosting/pi-hole.svg){ align=right }
 
 **Pi-hole** is an open-source [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
 
@@ -95,7 +95,7 @@ Pi-hole is designed to be hosted on a Raspberry Pi, but it is not limited to suc
 
 <div class="admonition recommendation" markdown>
 
-![AdGuard Home logo](assets/img/self-hosted/adguard-home.svg){ align=right }
+![AdGuard Home logo](assets/img/self-hosting/adguard-home.svg){ align=right }
 
 **AdGuard Home** is an open-source [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
 
@@ -114,7 +114,7 @@ AdGuard Home features a polished web interface to view insights and manage block
 
 <div class="admonition recommendation" markdown>
 
-![PhotoPrism logo](assets/img/self-hosted/photoprism.svg){ align=right }
+![PhotoPrism logo](assets/img/self-hosting/photoprism.svg){ align=right }
 
 **PhotoPrism** is a platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
 
@@ -129,7 +129,7 @@ AdGuard Home features a polished web interface to view insights and manage block
 
 <div class="admonition recommendation" markdown>
 
-![Nextcloud logo](assets/img/self-hosted/nextcloud.svg){ align=right }
+![Nextcloud logo](assets/img/self-hosting/nextcloud.svg){ align=right }
 
 **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
 
@@ -222,7 +222,7 @@ ffsend upload --host https://example.com/ FILE
 
 <div class="admonition recommendation" markdown>
 
-![FreedomBox logo](assets/img/self-hosted/freedombox.svg){ align=right }
+![FreedomBox logo](assets/img/self-hosting/freedombox.svg){ align=right }
 
 **FreedomBox** is an operating system designed to be run on a [single-board computer (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). The purpose is to make it easy to set up server applications for use cases like sharing files.
 
@@ -239,8 +239,8 @@ ffsend upload --host https://example.com/ FILE
 
 <div class="admonition recommendation" markdown>
 
-![Vaultwarden logo](assets/img/self-hosted/vaultwarden.svg#only-light){ align=right }
-![Vaultwarden logo](assets/img/self-hosted/vaultwarden-dark.svg#only-dark){ align=right }
+![Vaultwarden logo](assets/img/self-hosting/vaultwarden.svg#only-light){ align=right }
+![Vaultwarden logo](assets/img/self-hosting/vaultwarden-dark.svg#only-dark){ align=right }
 
 **Vaultwarden** is an alternative implementation of [Bitwarden](passwords.md#bitwarden)'s sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy [official service](https://github.com/bitwarden/server) might not be ideal.
 
