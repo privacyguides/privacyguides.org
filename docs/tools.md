@@ -720,31 +720,31 @@ These tools may provide utility for certain individuals. They provide functional
 
 <div class="grid cards" markdown>
 
-- ![Stalwart logo](assets/img/self-hosted/stalwart.svg){ .twemoji loading=lazy } [Stalwart](self-hosted.md#stalwart)
-- ![Mailcow logo](assets/img/self-hosted/mailcow.svg){ .twemoji loading=lazy } [Mailcow](self-hosted.md#mailcow)
-- ![Mail-in-a-Box logo](assets/img/self-hosted/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](self-hosted.md#mail-in-a-box)
+- ![Stalwart logo](assets/img/self-hosting/stalwart.svg){ .twemoji loading=lazy } [Stalwart](self-hosting.md#stalwart)
+- ![Mailcow logo](assets/img/self-hosting/mailcow.svg){ .twemoji loading=lazy } [Mailcow](self-hosting.md#mailcow)
+- ![Mail-in-a-Box logo](assets/img/self-hosting/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](self-hosting.md#mail-in-a-box)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](self-hosted.md#email-servers)
+[Learn more :material-arrow-right-drop-circle:](self-hosting.md#email-servers)
 
 #### DNS Filtering
 
 <div class="grid cards" markdown>
 
-- ![Pi-hole logo](assets/img/self-hosted/pi-hole.svg){ .twemoji loading=lazy } [Pi-Hole](self-hosted.md#pi-hole)
-- ![AdGuard Home logo](assets/img/self-hosted/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](self-hosted.md#adguard-home)
+- ![Pi-hole logo](assets/img/self-hosting/pi-hole.svg){ .twemoji loading=lazy } [Pi-Hole](self-hosting.md#pi-hole)
+- ![AdGuard Home logo](assets/img/self-hosting/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](self-hosting.md#adguard-home)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](self-hosted.md#dns-filtering)
+[Learn more :material-arrow-right-drop-circle:](self-hosting.md#dns-filtering)
 
 #### File Management
 
 <div class="grid cards" markdown>
 
-- ![PhotoPrism logo](assets/img/self-hosted/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](self-hosted.md#photoprism)
-- ![Nextcloud logo](assets/img/self-hosted/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud](self-hosted.md#nextcloud)
+- ![PhotoPrism logo](assets/img/self-hosting/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](self-hosting.md#photoprism)
+- ![Nextcloud logo](assets/img/self-hosting/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud](self-hosting.md#nextcloud)
 
 </div>
 
@@ -752,8 +752,8 @@ These tools may provide utility for certain individuals. They provide functional
 
 <div class="grid cards" markdown>
 
-- ![FreedomBox logo](assets/img/self-hosted/freedombox.svg){ .twemoji loading=lazy } [FreedomBox (Server Operating System)](self-hosted.md#freedombox)
-- ![Vaultwarden logo](assets/img/self-hosted/vaultwarden.svg#only-light){ .twemoji loading=lazy }![Vaultwarden logo](assets/img/self-hosted/vaultwarden-dark.svg#only-dark){ .twemoji loading=lazy } [Vaultwarden (Password Sync)](self-hosted.md#vaultwarden)
+- ![FreedomBox logo](assets/img/self-hosting/freedombox.svg){ .twemoji loading=lazy } [FreedomBox (Server Operating System)](self-hosting.md#freedombox)
+- ![Vaultwarden logo](assets/img/self-hosting/vaultwarden.svg#only-light){ .twemoji loading=lazy }![Vaultwarden logo](assets/img/self-hosting/vaultwarden-dark.svg#only-dark){ .twemoji loading=lazy } [Vaultwarden (Password Sync)](self-hosting.md#vaultwarden)
 
 </div>
 
@@ -761,4 +761,4 @@ These tools may provide utility for certain individuals. They provide functional
 
 A number of recommendations in other categories also provide a self-hosted option alongside the developer-provided software or vendor-provided service. Weigh the additional risks and responsibilities of self-hosting before deciding to switch.
 
-[Learn more :material-arrow-right-drop-circle:](self-hosted.md)
+[Learn more :material-arrow-right-drop-circle:](self-hosting.md)
