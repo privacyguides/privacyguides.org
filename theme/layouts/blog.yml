@@ -14,7 +14,10 @@ definitions:
     {% endif %}
 
   - &page_icon >-
-    {%- if not page.meta.preview or not page.meta.preview.logo -%}
+    {%- if page.meta.preview and page.meta.preview.icon -%}
+      {{- page.meta.preview.icon -}}
+    {%- elif page.meta.preview and page.meta.preview.logo -%}
+    {%- else -%}
       material/book-open-page-variant
     {%- endif -%}
 
@@ -72,6 +75,11 @@ definitions:
       @{{- page.authors[0].twitter -}}
     {%- else -%}
       {{- "@privacy_guides" -}}
+    {%- endif -%}
+
+  - &replacement_image >-
+    {%- if page.meta.preview and page.meta.preview.cover -%}
+      {{- page.meta.preview.cover -}}
     {%- endif -%}
 
 # Meta tags
@@ -158,3 +166,6 @@ layers:
       font:
         family: Bagnard
         style: Bold
+
+  - background:
+      image: *replacement_image
