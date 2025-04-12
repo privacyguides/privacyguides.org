@@ -52,8 +52,7 @@ Current smartphones are non-upgradeable by their owners and can't be built from 
 
 ### Cryptography
 
-How do we ensure the psuedonyms can't be linked together? We already use cryptography to protect our communications; here Chaum presents ways to protect unlinkability in a similar way using cryptography.
-
+How do we ensure the pseudonyms can't be linked together? We already use cryptography to protect our communications; here Chaum presents ways to protect unlinkability in a similar way using cryptography.
 >Simple mathematical proofs show that, with appropriate use of the systems, even conspiracy of all organizations and tapping of all communication lines cannot yield enough information to link the pseudonyms-regardless of how clever the approach is or how much computation is expended.
 
 ## Blind Signatures
@@ -186,8 +185,7 @@ That said, I applaud Kagi for their efforts. They went above and beyond to prote
 
 #### No Account Requirement
 
-Currently, Kagi requires and account in order to use it. Although they allow you to put in a fake email address on account creation since they don't [check it](https://kagifeedback.org/d/3813-enable-anonymous-registration-no-email/16), it's still a persistent identifier that could be eliminated.
-
+Currently, Kagi requires an account in order to use it. Although they allow you to put in a fake email address on account creation since they don't [check it](https://kagifeedback.org/d/3813-enable-anonymous-registration-no-email/16), it's still a persistent identifier that could be eliminated.
 Their announcement blog post states that the ability to use Kagi fully without an account is a possibility for the future with an invitation to request the feature on their [forum](https://kagifeedback.org/d/6163-kagi-privacy-pass), so feel free to add your voice. A fully accountless search engine that doesn't rely on ads would be great to see.
 
 #### Separation of Origin, Attester, Issuer
