@@ -105,7 +105,7 @@ schema:
   -
     "@context": http://schema.org
     "@type": SoftwareApplication
-    name: gopass
+    name: Gopass
     image: /assets/img/password-management/gopass.svg
     url: https://gopass.pw
     applicationCategory: Password Manager
@@ -367,13 +367,13 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
 The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
 
-### gopass (CLI)
+### Gopass (CLI)
 
 <div class="admonition recommendation" markdown>
 
-![gopass logo](assets/img/password-management/gopass.svg){ align=right }
+![Gopass logo](assets/img/password-management/gopass.svg){ align=right }
 
-**gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems.
+**Gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems.
 
 [:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="Documentation" }
