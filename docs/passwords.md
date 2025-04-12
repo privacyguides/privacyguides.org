@@ -105,19 +105,7 @@ schema:
   -
     "@context": http://schema.org
     "@type": SoftwareApplication
-    name: Strongbox
-    image: /assets/img/password-management/strongbox.svg
-    url: https://strongboxsafe.com
-    applicationCategory: Password Manager
-    operatingSystem: iOS
-    subjectOf:
-      "@context": http://schema.org
-      "@type": WebPage
-      url: "./"
-  -
-    "@context": http://schema.org
-    "@type": SoftwareApplication
-    name: gopass
+    name: Gopass
     image: /assets/img/password-management/gopass.svg
     url: https://gopass.pw
     applicationCategory: Password Manager
@@ -375,38 +363,13 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
 </div>
 
-### Strongbox (iOS & macOS)
+### Gopass (CLI)
 
 <div class="admonition recommendation" markdown>
 
-![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
+![Gopass logo](assets/img/password-management/gopass.svg){ align=right }
 
-**Strongbox** is a native password manager for iOS and macOS. Supporting both KeePass and Password Safe formats, Strongbox can be used in tandem with other password managers, like KeePassXC, on non-Apple platforms. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier, with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
-
-[:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://strongboxsafe.com/getting-started){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title="Contribute" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-appstore: App Store](https://apps.apple.com/app/id897283731)
-
-</details>
-
-</div>
-
-Additionally, Strongbox offers an offline-only version: [Strongbox Zero](https://apps.apple.com/app/id1581589638). This version is stripped down in an attempt to reduce attack surface.
-
-### gopass (CLI)
-
-<div class="admonition recommendation" markdown>
-
-![gopass logo](assets/img/password-management/gopass.svg){ align=right }
-
-**gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems.
+**Gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems.
 
 [:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="Documentation" }

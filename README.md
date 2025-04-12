@@ -14,9 +14,7 @@
   <a href="https://github.com/privacyguides/privacyguides.org/stargazers">
     <img src="https://img.shields.io/github/stars/privacyguides?style=social"></a>
   <a href="https://mastodon.neat.computer/@privacyguides">
-    <img src="https://img.shields.io/mastodon/follow/109298532634697668?domain=https%3A%2F%2Fmastodon.neat.computer&label=Follow&style=social"></a>
-  <a href="https://bsky.app/profile/privacyguides.org">
-    <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpublic.api.bsky.app%2Fxrpc%2Fapp.bsky.actor.getProfile%3Factor%3Dprivacyguides.org&query=%24.followersCount&style=social&logo=bluesky&label=Follow"></a></p>
+    <img src="https://img.shields.io/mastodon/follow/109298532634697668?domain=https%3A%2F%2Fmastodon.neat.computer&label=Follow&style=social"></a></p>
 
   <p><a href="https://github.com/privacyguides/privacyguides.org/pulls">
     <img src="https://img.shields.io/github/issues-pr-raw/privacyguides/privacyguides.org"></a>
@@ -222,7 +220,7 @@ Privacy Guides wouldn't be possible without these wonderful people ([emoji key](
       <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://github.com/C-O-M-P-A-R-T-M-E-N-T-A-L-I-Z-A-T-I-O-N"><img src="https://avatars.githubusercontent.com/u/30232065?v=4" width="100px;" loading=lazy /><br /><sub><b>C-O-M-P-A-R-T-M-E-N-T-A-L-I-Z-A-T-I-O-N</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=C-O-M-P-A-R-T-M-E-N-T-A-L-I-Z-A-T-I-O-N" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://github.com/Strappazzon"><img src="https://avatars.githubusercontent.com/u/19752093?v=4" width="100px;" loading=lazy /><br /><sub><b>Alberto Strappazzon</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=Strappazzon" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://victorhckinthefreeworld.com/"><img src="https://avatars.githubusercontent.com/u/1514206?v=4" width="100px;" loading=lazy /><br /><sub><b>Victorhck</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=victorhck" title="Documentation">📖</a></td>
-      <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://github.com/taivlam"><img src="https://avatars.githubusercontent.com/u/47955724?v=4" width="100px;" loading=lazy /><br /><sub><b>Tai Lam</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=taivlam" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://github.com/taivlam"><img src="https://avatars.githubusercontent.com/u/47955724?v=4" width="100px;" loading=lazy /><br /><sub><b>Tai Lam</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=taivlam" title="Documentation">📖</a> <a href="#maintenance-taivlam" title="Maintenance">🚧</a></td>
     </tr>
     <tr>
       <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://github.com/NinebitX"><img src="https://avatars.githubusercontent.com/u/26626722?v=4" width="100px;" loading=lazy /><br /><sub><b>NinebitX</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=NinebitX" title="Documentation">📖</a></td>

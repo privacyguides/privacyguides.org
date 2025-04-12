@@ -111,9 +111,6 @@ extra:
             - icon: simple/mastodon
               name: !ENV [HOMEPAGE_CTA_MASTODON_NAME, "Follow us on Mastodon"]
               link: https://mastodon.neat.computer/@privacyguides
-            - icon: simple/bluesky
-              name: !ENV [HOMEPAGE_CTA_BLUESKY_NAME, "Follow us on Bluesky"]
-              link: https://bsky.app/profile/privacyguides.org
             - icon: simple/github
               name: !ENV [HOMEPAGE_CTA_GITHUB_NAME, "Contribute on GitHub"]
               link: https://github.com/privacyguides/privacyguides.org
@@ -170,9 +167,6 @@ extra:
     - icon: simple/mastodon
       link: https://mastodon.neat.computer/@privacyguides
       name: !ENV [SOCIAL_MASTODON, "Mastodon"]
-    - icon: simple/bluesky
-      link: https://bsky.app/profile/privacyguides.org
-      name: !ENV [SOCIAL_BLUESKY, "Bluesky"]
     - icon: simple/peertube
       link: https://neat.tube/c/privacyguides
       name: !ENV [SOCIAL_PEERTUBE, "PeerTube"]
@@ -287,11 +281,11 @@ theme:
     - search.highlight
 
 extra_css:
-  - assets/stylesheets/extra.css?v=20240802
+  - assets/stylesheets/extra.css?v=20250306
 extra_javascript:
-  - path: assets/javascripts/randomize-element.js?v=20240801
+  - path: assets/javascripts/randomize-element.js?v=20250306
     defer: true
-  - path: assets/javascripts/feedback.js?v=20240801
+  - path: assets/javascripts/feedback.js?v=20250306
     defer: true
 
 watch:
@@ -450,13 +444,15 @@ nav:
           - "device-integrity.md"
   - !ENV [NAV_BLOG, "Articles"]: "/articles/"
   - !ENV [NAV_VIDEOS, "Videos"]: /videos/
+  - !ENV [NAV_FORUM, "Forum"]:
+      !ENV [NAV_FORUM_LINK, "https://discuss.privacyguides.net/"]
   - !ENV [NAV_ABOUT, "About"]:
       - "about.md"
       - "about/donate.md"
       - !ENV [NAV_ABOUT_TEAM_MEMBERS, "Team Members"]:
           https://discuss.privacyguides.net/u?group=team&order=solutions&period=all
-      - "about/criteria.md"
       - !ENV [NAV_ABOUT_POLICIES, "Policies"]:
+          - "about/criteria.md"
           - "about/donation-acceptance-policy.md"
           - "about/executive-policy.md"
           - "privacy.md"
@@ -477,9 +473,6 @@ nav:
               - "meta/uploading-images.md"
               - "meta/git-recommendations.md"
               - "meta/commit-messages.md"
-  - !ENV [NAV_DONATE, "Donate"]: https://donate.magicgrants.org/privacyguides
-  - !ENV [NAV_FORUM, "Forum"]:
-      !ENV [NAV_FORUM_LINK, "https://discuss.privacyguides.net/"]
 
 validation:
   nav:
