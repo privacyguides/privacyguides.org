@@ -362,7 +362,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 <div class="grid cards" markdown>
 
 - ![Kobold logo](assets/img/ai-chat/kobold.png){ .twemoji loading=lazy } [Kobold.cpp](ai-chat.md#koboldcpp)
-- ![Llamafile logo](assets/img/ai-chat/llamafile.svg){ .twemoji loading=lazy } [Llamafile](ai-chat.md#llamafile)
+- ![Llamafile logo](assets/img/ai-chat/llamafile.png){ .twemoji loading=lazy } [Llamafile](ai-chat.md#llamafile)
 - ![Ollama logo](assets/img/ai-chat/ollama.png){ .twemoji loading=lazy } [Ollama (CLI)](ai-chat.md#ollama-cli)
 
 </div>
@@ -685,6 +685,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 - ![NixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji loading=lazy } [NixOS](desktop.md#nixos)
 - ![Whonix logo](assets/img/linux-desktop/whonix.svg){ .twemoji loading=lazy } [Whonix (Tor)](desktop.md#whonix)
 - ![Tails logo](assets/img/linux-desktop/tails.svg){ .twemoji loading=lazy } [Tails (Live Boot)](desktop.md#tails)
+- ![Secureblue logo](assets/img/linux-desktop/secureblue.svg){ .twemoji loading=lazy } [Secureblue](desktop.md#secureblue)
 - ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ .twemoji loading=lazy } [Kicksecure](desktop.md#kicksecure)
 
 </div>
