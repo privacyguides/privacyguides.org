@@ -2,7 +2,7 @@
 date:
     created: 2025-04-01T05:40:00Z
 categories:
-    - Announcements
+    - Opinion
 tags:
     - April Fools
 authors:
