@@ -74,7 +74,7 @@ This system relies on the same strong cryptography that tried and true systems u
 
 ## Problems
 
-Services that don't require an account or payment to use are great; you can use them with Tor, clear your browser history, whatever you need to do to keep your activity private. 
+Services that don't require an account or payment to use are great; you can use them with Tor, clear your browser history, whatever you need to do to keep your activity private.
 
 But logging into an account completely invalidates all of that. Every time you log in or authenticate with a service, you have to identify yourself as the same person, linking all your previous activity together. Increasingly, we're asked to provide personal information in order to be able to use certain websites or services.
 
@@ -110,7 +110,7 @@ It started out and is still an extension that can be installed on the [Chrome](h
 
 The Privacy Pass protocol has massively outgrown its original purpose. It's been updated to support multiple different schemes and purposes.
 
-There are three main roles that need to be played for the authentication mechanism to work. These can be filled by all the same party, by three separate parties, or any combination in between. You'll have increased privacy the more separation there is between each role, so ideally they should all be filled by different parties. 
+There are three main roles that need to be played for the authentication mechanism to work. These can be filled by all the same party, by three separate parties, or any combination in between. You'll have increased privacy the more separation there is between each role, so ideally they should all be filled by different parties.
 
 ### Origin
 
@@ -154,7 +154,7 @@ Tokens can also be constrained to one specific Origin or they can be used across
 
 [Private State Tokens](https://developers.google.com/privacy-sandbox/protections/private-state-tokens) are a [proposed browser API](https://github.com/WICG/trust-token-api) by Google as part of their [Privacy Sandbox](https://developers.google.com/privacy-sandbox). They're based on the Privacy Pass protocol.
 
-The main benefit of PSTs is that they provide a secure place for websites to store their tokens so that you don't need a separate extension for every service. 
+The main benefit of PSTs is that they provide a secure place for websites to store their tokens so that you don't need a separate extension for every service.
 
 A browser-level API, I imagine, would significantly reduce the development burden of browser-based services looking to implement Privacy Pass, but it would leave non-browser apps like VPNs high and dry.
 
