@@ -226,8 +226,6 @@ For further information about how Qubes works, read our full [Qubes OS overview]
 [:octicons-code-16:](https://github.com/secureblue/secureblue){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://secureblue.dev/donate){ .card-link title="Contribute" }
 
-</details>
-
 </div>
 
 **Trivalent** is Secureblue's hardened Chromium for desktop Linux inspired by [GrapheneOS](android/distributions.md#grapheneos)'s Vanadium browser.
