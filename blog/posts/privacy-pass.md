@@ -39,8 +39,7 @@ One of the more quaint ideas in the paper is the idea of a small "card computer"
 
 Nowadays we carry around credit-card sized computers like it's nothing. The secret "card number" he describes would probably be your device PIN or even biometric authentication, which are already used to authenticate transactions.
 
-We still haven't *quite* reached Chaum's vision yet in some areas. His idea is for these "card computers" to fully replace ATM's and checkout terminals in stores. Essentially, he wants all transactions to be online transactions, with something like Apple Pay or Google Pay on your device mediating the transaction and using your device PIN to prevent fraudulent transactions.
-
+We still haven't *quite* reached Chaum's vision yet in some areas. His idea is for these "card computers" to fully replace ATMs and checkout terminals in stores. Essentially, he wants all transactions to be online transactions, with something like Apple Pay or Google Pay on your device mediating the transaction and using your device PIN to prevent fraudulent transactions.
 Making all transactions online transactions is an interesting idea. I think most people can share in the frustration of dealing with checkout terminals, especially the self-checkout ones with cameras pointed at your face.
 
 We're still falling short in a major area though.
