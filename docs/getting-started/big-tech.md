@@ -43,8 +43,7 @@ Take some time to figure out which apps or accounts you must keep. Go to their s
 
 #### Use a VPN
 
-A [VPN provider](https://www.privacyguides.org/en/basics/vpn-overview/) could protect your browsing habits. A VPN helps obscure your real IP address from the website you are visiting. Providers like [Mullvad and Proton](https://www.privacyguides.org/en/vpn/) has a DNS filtering feature that blocks advertisements and trackers.
-
+A [VPN provider](https://www.privacyguides.org/en/basics/vpn-overview/) could protect your browsing habits. A VPN helps obscure your real IP address from the website you are visiting. Providers like [Mullvad and Proton](https://www.privacyguides.org/en/vpn/) have a DNS filtering feature that blocks advertisements and trackers.
 #### Change Browsers
 
 Even with a VPN, Big Tech corporations can still spy on you with techniques such as fingerprinting and advertising cookies. While [clearing your browsing data](https://www.privacyguides.org/articles/2025/02/13/clearing-browsing-data/) is an obvious remediation, you should switch browsers entirely. Privacy Guides recommends [Brave Browser](https://www.privacyguides.org/en/desktop-browsers/#brave-browser) and [Mullvad Browser](https://www.privacyguides.org/en/desktop-browsers/#mullvad-browser) for everyday use.
