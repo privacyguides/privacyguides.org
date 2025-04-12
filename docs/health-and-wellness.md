@@ -15,13 +15,13 @@ Keep track of your health and fitness-related goals with these apps. Unlike thei
 
 Popular menstrual trackers like [Flo](https://techcrunch.com/2021/01/13/flo-gets-ftc-slap-for-sharing-user-data-when-it-promised-privacy) are notorious for collecting and sharing your user data. Depending on your jurisdiction, this may lead to [legal consequences](https://forbes.com/sites/abigaildubiniecki/2024/11/14/post-roe-your-period-app-data-could-be-used-against-you) affecting your reproductive autonomy.
 
-### drip.
+### Drip
 
 <div class="admonition recommendation" markdown>
 
-![drip logo](assets/img/health-and-wellness/drip.png){ align=right }
+![Drip logo](assets/img/health-and-wellness/drip.png){ align=right }
 
-**drip.** is a gender-inclusive and open source menstrual cycle tracker available on all mobile platforms. It relies on the "sympto-thermal method" to predict ovulation. All user data is stored locally on your device and can be protected with a password.
+**Drip** is a gender-inclusive and open source menstrual cycle tracker available on all mobile platforms. It relies on the "sympto-thermal method" to predict ovulation. All user data is stored locally on your device and can be protected with a password.
 
 [:octicons-home-16: Homepage](https://bloodyhealth.gitlab.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bloodyhealth.gitlab.io/privacy-policy.html){ .card-link title="Privacy Policy" }
