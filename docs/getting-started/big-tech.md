@@ -27,7 +27,6 @@ Interested in learning more? This table includes a simplified overview of each B
 **Meta** - Social Media, Hardware, Messaging, E-Commerce, Entertainment
 
 **Apple** - Browser, Email, Hardware, Cloud Storage, Messaging, Operating System, Entertainment, Music, Navigation
-xz
 **Amazon** - Hardware, Cloud Storage, Entertainment, Music, E-Commerce
 
 **Microsoft** - Operating System, Browser, Email, Hardware, Cloud Storage, Entertainment, Search Engine
@@ -52,8 +51,7 @@ A [VPN provider](https://www.privacyguides.org/en/basics/vpn-overview/) could pr
 
 #### Change Browsers
 
-Even with a VPN, Big Tech corporations can still spy on you with techniques such as fingerprinting and advertising cookies. While [clearing your browsing data](https://www.privacyguides.org/articles/2025/02/13/clearing-browsing-data/) is an obvious remediation, you should switch browsers entirely. Privacy Guides recommends [Brave Browser](https://www.privacyguides.org/en/desktop-browsers/#brave-browser) and[Mullvad Browser](https://www.privacyguides.org/en/desktop-browsers/#mullvad-browser) for everyday use.
-
+Even with a VPN, Big Tech corporations can still spy on you with techniques such as fingerprinting and advertising cookies. While [clearing your browsing data](https://www.privacyguides.org/articles/2025/02/13/clearing-browsing-data/) is an obvious remediation, you should switch browsers entirely. Privacy Guides recommends [Brave Browser](https://www.privacyguides.org/en/desktop-browsers/#brave-browser) and [Mullvad Browser](https://www.privacyguides.org/en/desktop-browsers/#mullvad-browser) for everyday use.
 ### 2. Consider Alternatives
 
 You can't just delete your accounts without finding suitable alternatives! If you are ready to make the final push, these tips can help you fully decouple yourself from Big Tech ecosystems.
