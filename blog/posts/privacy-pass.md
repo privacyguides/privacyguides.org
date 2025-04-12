@@ -24,14 +24,13 @@ Services that require authentication can correlate your activity on that service
 
 The story of privacy pass begins with a [paper](https://dl.acm.org/doi/pdf/10.1145/4372.4373) by David Chaum from 1985 (he actually has an earlier paper from [1982](https://chaum.com/wp-content/uploads/2022/02/chaum_dissertation.pdf) but I'll be referencing this one), in which he laments the ever-increasing data collection by companies and government agencies.
 
-It's funny that all the way back in 1985 he talks about the same issues we deal with today: persistent identifiers tied to our real identity for transactions, government ID's, etc.
+It's funny that all the way back in 1985 he talks about the same issues we deal with today: persistent identifiers tied to our real identity for transactions, government IDs, etc.
 
 Chaum proposes three solutions to the state of affairs he describes.
 
 ### Pseudorandom Identifiers
 
-Instead of persistent identifiers like we now have with our government ID's, credit cards, etc, Chaum suggests randomly generated identifiers. For example, you could have a one-time unique identifier for each transaction at a shop.
-
+Instead of persistent identifiers like we now have with our government IDs, credit cards, etc, Chaum suggests randomly generated identifiers. For example, you could have a one-time unique identifier for each transaction at a shop.
 For ongoing relationships such as a bank, you can use a single pseudorandom identifier for that organization that you use continuously.
 
 ### Card Computers
@@ -63,8 +62,7 @@ But what if the signer and the one sending a request are different? Say you have
 
 ### How it Works
 
-You can imagine blind signatures like an envelope that's been wrapped in [carbon paper](https://en.wikipedia.org/wiki/Carbon_paper) with a window showing your psuedonym for that account, whether it be an account number, username, etc. They never see anything but the account identifier, or whatever they need to verify that you're a valid customer.
-
+You can imagine blind signatures like an envelope that's been wrapped in [carbon paper](https://en.wikipedia.org/wiki/Carbon_paper) with a window showing your pseudonym for that account, whether it be an account number, username, etc. They never see anything but the account identifier, or whatever they need to verify that you're a valid customer.
 The organization then signs it, indicating you're a valid customer and you're allowed to access the service.
 
 Later, when you're presented with a request to authenticate as an active subscriber of  PrivacyGuides+, you unwrap the envelope and discard it along with the carbon paper. You rewrap it in a new envelope with a window showing the signature and a different pseudonym, and the requester can then be sure that you're allowed to access PrivacyGuides+.
