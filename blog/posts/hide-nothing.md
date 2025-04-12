@@ -24,7 +24,7 @@ On the surface, this seems true to many people – but the reality is very diffe
 
 In the end it only convicted one person.
 
-Now, many have argued that stopping one terrorist might be worth giving up some security for, but [according](https://www.aclu.org/issues/national-security/privacy-and-surveillance/surveillance-under-patriot-act) to the ACLU, the conviction would have occurred without the Patriot Act.
+Now, many have argued that stopping one terrorist might be worth giving up some security for, but [according](https://web.archive.org/web/20230318132243/https://www.aclu.org/issues/national-security/privacy-and-surveillance/surveillance-under-patriot-act) to the ACLU, the conviction would have occurred without the Patriot Act.
 
 Many legal actions you take today could be deemed illegal by future laws or future government. In the US today there is discussion around the possibility of Roe v. Wade being overturned, allowing states to outlaw abortions. You may not currently feel the need to hide internet searches, menstrual cycle apps, or donations to women's health clinics today because it's not illegal, but tomorrow that information could be used against you.
 

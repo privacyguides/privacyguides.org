@@ -89,7 +89,7 @@ Whistleblowers and activists are at especially high risk of harm, particularly i
 
 Governments around the world, especially more authoritarian ones, have been increasingly [monitoring social media](https://privacyinternational.org/long-read/5337/social-media-monitoring-uk-invisible-surveillance-tool-increasingly-deployed) to track, identify, and persecute critics, activists, and journalists.
 
-Authorities have also been mandating direct collaboration from service providers to arrest activists. In 2012, a French climate activist was [arrested](https://techcrunch.com/2021/09/06/protonmail-logged-ip-address-of-french-activist-after-order-by-swiss-authorities/) after Proton Mail was legally [compelled](https://proton.me/blog/climate-activist-arrest) by Swiss laws to log and share the activist's IP address with authorities.
+Authorities have also been mandating direct collaboration from service providers to arrest activists. In 2021, a French climate activist was [arrested](https://techcrunch.com/2021/09/06/protonmail-logged-ip-address-of-french-activist-after-order-by-swiss-authorities/) after Proton Mail was legally [compelled](https://proton.me/blog/climate-activist-arrest) by Swiss laws to log and share the activist's IP address with authorities.
 
 In 2017, a 25-year-old working for the American National Security Agency (NSA) as a contractor was arrested after she was [identified](https://arstechnica.com/information-technology/2017/06/how-a-few-yellow-dots-burned-the-intercepts-nsa-leaker/) as the whistleblower who leaked a report about Russian electoral interference in the United States.
 
@@ -217,3 +217,7 @@ If you or someone you know is in one of the situations described above, these ad
 **Protesters** :material-arrow-right-bold: [The Protesters' Guide to Smartphone Security](activists-guide-securing-your-smartphone.md)
 
 </div>
+
+---
+
+**Correction (Mar. 27):** This article was updated to correct a typo in a date. The previous version wrongly described the arrest of a French climate activist happening in 2012, when these events actually happened in 2021. 
