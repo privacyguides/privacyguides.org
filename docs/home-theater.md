@@ -1,7 +1,7 @@
 ---
-title: "Media Players"
-icon: material/video
-description: Alternative Media Players for Videos, TV and Audio.
+title: "Home Theater"
+icon: material/tv
+description: Alternative Software for Videos, TV and Audio.
 cover: media-players.webp
 ---
 <small>Protects against the following threat(s):</small>
@@ -29,7 +29,7 @@ cover: media-players.webp
 
 Also, we advise against using it for Apple devices (outside of MacOS) as it requires jailbreaking them and jailbreaking reduces the security of the device, we recommend you have a Linux or an Android device for it instead if possible.
 
-## VLC Media Player
+<!--- ## VLC Media Player
 <div class="admonition recommendation" markdown>
 
 ![VLC logo](assets/img/media-players/vlc.png){ align=right }
@@ -43,9 +43,8 @@ Also, we advise against using it for Apple devices (outside of MacOS) as it requ
 
 </details>
 
-</div>
-Unlike Kodi, VLC is meant to be a software that runs on your device to open media locally or streams (like TV), so it doesn't cater to the big screen experience like Kodi does and doesn't have native remote control support or other inputs like it. Finally, while it does support opening images, it's not a good experience over using an image viewer and doesn't support games (where Kodi does well in that regard).
-
+</div> 
+to replace for jellyfin--->
 ## Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
