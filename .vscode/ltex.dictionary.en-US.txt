@@ -554,3 +554,7 @@ MWEB
 Cyd
 Semiphemeral
 Dangerzone
+pseudorandom
+Chaum
+unlinkability
+Kagi
