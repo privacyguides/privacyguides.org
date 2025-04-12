@@ -22,7 +22,7 @@ Services that require authentication can correlate your activity on that service
 
 ## History
 
-The story of privacy pass begins with a [paper](https://dl.acm.org/doi/pdf/10.1145/4372.4373) by David Chaum from 1985 (he actually has an earlier paper from [1982](https://chaum.com/wp-content/uploads/2022/02/chaum_dissertation.pdf) but I'll be referencing this one), in which he laments the ever-increasing data collection by companies and government agencies.
+The story of privacy pass begins with a [paper](https://dl.acm.org/doi/pdf/10.1145/4372.4373) by David Chaum from 1985 (he actually has an earlier paper from [1982](https://chaum.com/wp-content/uploads/2022/02/chaum_dissertation.pdf), but I'll be referencing this one), in which he laments the ever-increasing data collection by companies and government agencies.
 
 It's funny that all the way back in 1985 he talks about the same issues we deal with today: persistent identifiers tied to our real identity for transactions, government IDs, etc.
 
@@ -30,14 +30,15 @@ Chaum proposes three solutions to the state of affairs he describes.
 
 ### Pseudorandom Identifiers
 
-Instead of persistent identifiers like we now have with our government IDs, credit cards, etc, Chaum suggests randomly generated identifiers. For example, you could have a one-time unique identifier for each transaction at a shop.
+Instead of persistent identifiers like we now have with our government IDs, credit cards, etc., Chaum suggests randomly generated identifiers. For example, you could have a one-time unique identifier for each transaction at a shop.
+
 For ongoing relationships such as a bank, you can use a single pseudorandom identifier for that organization that you use continuously.
 
 ### Card Computers
 
 One of the more quaint ideas in the paper is the idea of a small "card computer" on which you would perform transactions. Chaum's theoretical device resembles "a credit-card-sized calculator, and [includes] a character display, keyboard, and a limited distance communication capability (like that of a television remote control)".
 
-Nowadays we carry around credit-card sized computers like it's nothing. The secret "card number" he describes would probably be your device PIN or even biometric authentication, which are already used to authenticate transactions.
+Nowadays, we carry around credit-card sized computers like it's nothing. The secret "card number" he describes would probably be your device PIN or even biometric authentication, which are already used to authenticate transactions.
 
 We still haven't *quite* reached Chaum's vision yet in some areas. His idea is for these "card computers" to fully replace ATMs and checkout terminals in stores. Essentially, he wants all transactions to be online transactions, with something like Apple Pay or Google Pay on your device mediating the transaction and using your device PIN to prevent fraudulent transactions.
 Making all transactions online transactions is an interesting idea. I think most people can share in the frustration of dealing with checkout terminals, especially the self-checkout ones with cameras pointed at your face.
@@ -50,23 +51,24 @@ Current smartphones are non-upgradeable by their owners and can't be built from 
 
 ### Cryptography
 
-How do we ensure the pseudonyms can't be linked together? We already use cryptography to protect our communications; here Chaum presents ways to protect unlinkability in a similar way using cryptography.
+How do we ensure the pseudonyms can't be linked together? We already use cryptography to protect our communications; here Chaum presents ways to similarly protect unlinkability using cryptography.
+
 >Simple mathematical proofs show that, with appropriate use of the systems, even conspiracy of all organizations and tapping of all communication lines cannot yield enough information to link the pseudonyms-regardless of how clever the approach is or how much computation is expended.
 
 ## Blind Signatures
 
 Digital signatures normally are used to ensure that something like a piece of software or a message comes from the original sender and hasn't been tampered with. You want to know who the signer is for this system to work.
 
-But what if the signer and the one sending a request are different? Say you have a membership to the PrivacyGuides+ subscription service and you want to authenticate with it but don't want to identify yourself. That's where blind signatures come in.
+But what if the signer and the one sending a request are different? Say you have a membership to the PrivacyGuides+ subscription service, and you want to authenticate with it but don't want to identify yourself. That's where blind signatures come in.
 
 ### How it Works
 
 You can imagine blind signatures like an envelope that's been wrapped in [carbon paper](https://en.wikipedia.org/wiki/Carbon_paper) with a window showing your pseudonym for that account, whether it be an account number, username, etc. They never see anything but the account identifier, or whatever they need to verify that you're a valid customer.
-The organization then signs it, indicating you're a valid customer and you're allowed to access the service.
+The organization then signs it, indicating you're a valid customer, and you're allowed to access the service.
 
-Later, when you're presented with a request to authenticate as an active subscriber of  PrivacyGuides+, you unwrap the envelope and discard it along with the carbon paper. You rewrap it in a new envelope with a window showing the signature and a different pseudonym, and the requester can then be sure that you're allowed to access PrivacyGuides+.
+Later, when you're presented with a request to authenticate as an active subscriber of PrivacyGuides+, you unwrap the envelope and discard it along with the carbon paper. You rewrap it in a new envelope with a window showing the signature and a different pseudonym, and the requester can then be sure that you're allowed to access PrivacyGuides+.
 
-![A diagram showing an envelope being wrapped in carbon paper, transfered to an organization, then passing over a boundary representing the unlinkability between the two transactions. Then the envelope is unwrapped, put in a new envelope with a window showing the signature from the previous organization, and presented to a different organization.](../assets/images/privacy-pass/blind-signatures.webp)
+![A diagram showing an envelope being wrapped in carbon paper, transferred to an organization, then passing over a boundary representing the unlinkability between the two transactions. Then the envelope is unwrapped, put in a new envelope with a window showing the signature from the previous organization, and presented to a different organization.](../assets/images/privacy-pass/blind-signatures.webp)
 
 <small aria-hidden="true">Illustration: [David Chaum](https://dl.acm.org/doi/pdf/10.1145/4372.4373)</small>
 
@@ -102,7 +104,7 @@ CAPTCHAs aren't even particularly good at detecting bots. With advances in AI, [
 
 Several blind signature-based solutions are in various states, some being implemented but not widely used, some being proposed browser APIs, and some being IETF standards.
 
-The landscape is very confusing right now so I'll try to elucidate what I've found.
+The landscape is very confusing right now, so I'll try to elucidate what I've found.
 
 [Privacy Pass](https://privacypass.github.io) started out as an attempt at a privacy-preserving way to bypass CAPTCHAs.
 
@@ -162,7 +164,7 @@ A browser-level API, I imagine, would significantly reduce the development burde
 
 [Private Access Tokens](https://blog.cloudflare.com/eliminating-captchas-on-iphones-and-macs-using-new-standard/) are based on Privacy Pass as well, but they don't seem to be specifically bound to the browser.
 
-It's unclear to me what really makes Private Access Tokens different than Privacy Pass itself, other than Private Access Tokens seem to call for separation of the Attester and Issuer while Privacy Pass allows the origin, attester, and issuer to be the same. Delegating each role to a different party adds extra privacy.
+It's unclear to me what really makes Private Access Tokens different from Privacy Pass itself, other than that Private Access Tokens seem to call for separation of the Attester and Issuer while Privacy Pass allows the origin, attester, and issuer to be the same. Delegating each role to a different party adds extra privacy.
 
 The origin website only knows your URL and IP from the initial connection.
 
@@ -183,6 +185,7 @@ That said, I applaud Kagi for their efforts. They went above and beyond to prote
 #### No Account Requirement
 
 Currently, Kagi requires an account in order to use it. Although they allow you to put in a fake email address on account creation since they don't [check it](https://kagifeedback.org/d/3813-enable-anonymous-registration-no-email/16), it's still a persistent identifier that could be eliminated.
+
 Their announcement blog post states that the ability to use Kagi fully without an account is a possibility for the future with an invitation to request the feature on their [forum](https://kagifeedback.org/d/6163-kagi-privacy-pass), so feel free to add your voice. A fully accountless search engine that doesn't rely on ads would be great to see.
 
 #### Separation of Origin, Attester, Issuer
@@ -193,7 +196,7 @@ Kagi's onion service helps to mitigate this issue, but I think it would be a sig
 
 #### Remove Requirement for an Extension
 
-Having to install an extension is annoying as an end user and surely incurs some development cost in both the initial development as well as upkeep over time. I'm not sure how it would be possible to get rid of the extension as it seems like there's no good way to do so at the moment, but I'm hopeful that the Private State Token API could be used for that in the future if it ever gets fully standardized as a browser API.
+Having to install an extension is annoying as an end user and surely incurs some development cost in both the initial development and upkeep over time. I'm not sure how it would be possible to get rid of the extension as it seems like there's no good way to do so at the moment, but I'm hopeful that the Private State Token API could be used for that in the future if it ever gets fully standardized as a browser API.
 
 ## Future Possibilities
 
@@ -205,7 +208,7 @@ However, for widespread adoption of anonymous authentication for all online serv
 
 Private State Tokens seem to be restricted to browsers, which is mostly fine since so many online services are accessed through the browser. It does put services like VPNs that operate outside the browser in a tight spot though.
 
-Private Access Tokens seem like a possible solution for device-wide Privacy Pass authentication, but the only place I've seen them implemented is in Apple's operating systems to identify users as real iOS or macOS users. I'd like to see wider adoption for more usecases than just that. It's unclear what the vision for Private Access Tokens is for the moment.
+Private Access Tokens seem like a possible solution for device-wide Privacy Pass authentication, but the only place I've seen them implemented is in Apple's operating systems to identify users as real iOS or macOS users. I'd like to see wider adoption for more use cases than just that. It's unclear what the vision for Private Access Tokens is for the moment.
 
 ### Carriers
 
@@ -231,7 +234,7 @@ Hopefully we can see more VPN companies start to use Privacy Pass to authenticat
 
 Part of Chaum's vision was anonymous digital transactions using blind signatures, which he made a reality with his company [DigiCash](https://chaum.com/wp-content/uploads/2022/01/05-27-94-World_s-first-electronic-cash-payment-over-computer-networks.pdf).
 
-For whatever reason, ecash, as it was called, never caught on and the company filed for bankruptcy in 1998. We're left with the terrible current system where you need to input your credit card and personal information in order to make a transaction, which is easily traceable back to you. Not to mention the security implications, [credit card fraud](https://www.security.org/digital-safety/credit-card-fraud-report/) is rampant today.
+For whatever reason, *eCash*, as it was called, never caught on and the company filed for bankruptcy in 1998. We're left with the terrible current system where you need to input your credit card and personal information in order to make a transaction, which is easily traceable back to you. Not to mention the security implications, [credit card fraud](https://www.security.org/digital-safety/credit-card-fraud-report/) is rampant today.
 
 The dream isn't dead, however. Chaum's [eCash 2.0](https://chaum.com/ecash-2-0/) is quantum-resistant and has been built and tested in the Bank for International Settlements' [Project Tourbillon](https://www.bis.org/about/bisih/topics/cbdc/tourbillon.htm).
 
