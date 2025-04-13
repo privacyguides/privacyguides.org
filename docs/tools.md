@@ -424,7 +424,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </details>
 
-#### Cross-platform Tools
+#### Cross-Platform Tools
 
 <div class="grid cards" markdown>
 
