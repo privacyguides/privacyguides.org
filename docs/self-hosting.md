@@ -374,6 +374,14 @@ Tool recommendations in other categories of the website also provide a self-host
     [:octicons-info-16:](https://miniflux.app/docs/index.html#administration-guide){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Source Code" }
 
+- ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ .twemoji } **Standard Notes (Notes App)**
+
+    ---
+
+    [:octicons-home-16:](https://standardnotes.com){ .card-link title="Homepage" }
+    [:octicons-info-16:](https://standardnotes.com/help/47/can-i-self-host-standard-notes){ .card-link title="Admin Documentation" }
+    [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Source Code" }
+
 - ![PrivateBin logo](assets/img/pastebins/privatebin.svg){ .twemoji } **PrivateBin (Pastebin)**
 
     ---
