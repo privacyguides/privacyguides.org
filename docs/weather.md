@@ -107,7 +107,7 @@ The app is highly customisable, allowing you not only to select which weather so
 
 OSSWeather is a weather app available on both on iOS and Android. While the interface can be overwhelming at first, it is highly customizable. For example, you can change the number of days,  hours, and minutes available for forecasts. It is also designed for pros, with the option to choose between more than 15 forecasting models (with a few variants per model), and even compare 3 models in one chart.
 
-Unfortunately, it only support 3 weather sources and doesn't support iOS or Android's "Approximate location" permission. It also doesn't give severe weather alerts.
+Unfortunately, it only supports 3 weather sources and doesn't support iOS or Android's "Approximate location" permission. It also doesn't give severe weather alerts.
 
 [:octicons-home-16: Homepage](https://github.com/Akylas/oss-weather){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Akylas/oss-weather){ .card-link title="Documentation" }
