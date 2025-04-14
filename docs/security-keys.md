@@ -95,7 +95,7 @@ The firmware of YubiKey is not updatable. If you want features in newer firmware
 
 </div>
 
-The [comparison table](https://nitrokey.com/#comparison) shows the features and how the Nitrokey models compare. The **Nitrokey 3** listed will have a combined feature set.
+The [comparison table](https://www.nitrokey.com/products/nitrokeys) shows how the different Nitrokey models compare to each other in terms of features and other specifications. The **Nitrokey 3** listed will have a combined feature set.
 
 Nitrokey models can be configured using the [Nitrokey app](https://nitrokey.com/download).
 
@@ -111,7 +111,7 @@ While Nitrokeys do not release the HOTP/TOTP secrets to the device they are plug
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-Resetting the OpenPGP interface on a Nitrokey Pro 2 or Nitrokey Start 2 will also make the password database [inaccessible](https://docs.nitrokey.com/pro/linux/factory-reset).
+Resetting the OpenPGP interface on a Nitrokey [Pro 2](https://docs.nitrokey.com/nitrokeys/pro/factory-reset) or Nitrokey [Start 2](https://docs.nitrokey.com/nitrokeys/storage/factory-reset) will also make the password database inaccessible.
 
 </div>
 
