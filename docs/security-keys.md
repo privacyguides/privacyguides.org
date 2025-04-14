@@ -95,7 +95,7 @@ The firmware of YubiKey is not updatable. If you want features in newer firmware
 
 </div>
 
-The [comparison table](https://www.nitrokey.com/products/nitrokeys) shows how the different Nitrokey models compare to each other in terms of features and other specifications. The **Nitrokey 3** listed will have a combined feature set.
+The [comparison table](https://nitrokey.com/products/nitrokeys) shows how the different Nitrokey models compare to each other in terms of features and other specifications. The **Nitrokey 3** listed will have a combined feature set.
 
 Nitrokey models can be configured using the [Nitrokey app](https://nitrokey.com/download).
 
