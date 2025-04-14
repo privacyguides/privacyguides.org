@@ -95,32 +95,35 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
 ![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
 
-**Peergos** is a decentralized protocol and open-source platform for storage, social media, and applications. It provides a secure and private space where users can store, share, and view their photos, videos, documents, etc. Peergos secures your files with quantum-resistant end-to-end encryption and ensures all data about your files remains private. It is built on top of [IPFS (InterPlanetary File System)](https://ipfs.tech), a peer-to-peer architecture that protects against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
+**Peergos** is a decentralized protocol and open-source platform for storage, social media, and applications. It provides a secure and private space where users can store, share, and view their photos, videos, documents, etc. Peergos secures your files with quantum-resistant end-to-end encryption and ensures all data about your files remains private.
 
 [:octicons-home-16: Homepage](https://peergos.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://book.peergos.org){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/peergos/peergos#support){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:octicons-globe-16: Web](https://peergos.net)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=peergos.android)
+- [:simple-github: GitHub](https://github.com/Peergos/web-ui/releases)
 - [:fontawesome-brands-windows: Windows](https://github.com/Peergos/web-ui/releases)
 - [:simple-apple: macOS](https://github.com/Peergos/web-ui/releases)
 - [:simple-linux: Linux](https://github.com/Peergos/web-ui/releases)
+- [:octicons-browser-16: Web](https://peergos.net)
 
 </details>
 
 </div>
+
+Peergos is built on top of the [InterPlanetary File System (IPFS)](https://ipfs.tech), a peer-to-peer architecture that protects against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
 Peergos is primarily a web app, but you can self-host the server either as a local cache for your remote Peergos account, or as a standalone storage server which negates the need to register for a remote account and subscription. The Peergos server is a `.jar` file, which means the Java 17+ Runtime Environment ([OpenJDK download](https://azul.com/downloads)) should be installed on your machine to get it working.
 
 Running a local version of Peergos alongside a registered account on their paid, hosted service allows you to access your Peergos storage without any reliance on DNS or TLS certificate authorities, and keep a copy of your data backed up to their cloud. The user experience should be the same whether you run their desktop server or just use their hosted web interface.
 
 Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November 2024 by Radically Open Security and all issues were fixed. They were previously [audited](https://cure53.de/pentest-report_peergos.pdf) by Cure53 in June 2019, and all found issues were subsequently fixed.
-
-An Android app is not available, but it is [in the works](https://discuss.privacyguides.net/t/peergos-private-storage-sharing-social-media-and-application-platform/11825/25). The current workaround is to use the mobile [PWA](https://peergos.net) instead.
 
 ## Criteria
 

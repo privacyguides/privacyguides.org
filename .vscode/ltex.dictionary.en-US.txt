@@ -551,3 +551,8 @@ fontawesome-solid-unlock-keyhole
 KeeShare
 KeePassium
 MWEB
+Cyd
+Semiphemeral
+Dangerzone
+simple-activitypub
+ActivityPub
