@@ -24,6 +24,16 @@ Can you tell which of these images are AI generated?
 
 Actually, they're all real. But the fact that you believed some of them were AI generated poses a problem: how can we tell where an image came from, if it was AI generated, whether it was edited?
 
+## Provenance
+
+[Provenance](https://youtu.be/K56EhgfCDjs) is the history of ownership of an object, typically used when referring to antiques or art. Knowing the history of a piece of art can affect the value a lot, but you need a way to prove it's an original piece by the artist instead of a reproduction, or was owned by a famous person.
+
+It's important for historical preservation as well to know that an object is really from a certain time period. There's no shortage of [historical hoaxes](https://www.history.com/articles/7-historical-hoaxes). These can distort our view of history and make us all a bit dumber.
+
+[Miniminuteman](https://youtu.be/Pc2psN0PFTk) is a great YouTube channel covering misinformation on the internet, specifically about archaeology. Misinformation can spread quickly, especially now with the rise of AI. 
+
+Even images created without the intention of being used as misinformation can be repurposed as conspiracy fodder.
+
 ## Project Origin
 
 
@@ -31,6 +41,8 @@ Actually, they're all real. But the fact that you believed some of them were AI 
 ## Content Authority Initiative
 
 ## C2PA
+
+## Content Credentials
 
 ## Integrity Institute
 
