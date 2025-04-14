@@ -61,8 +61,7 @@ Imagine going a day without Microsoft Office, Google Maps, OneNote, or even iMes
 
 #### Hardware
 
-Thankfully, you can completely replace your computer's [operating system](https://www.privacyguides.org/en/os/) with a free and open source alternative called [Linux](https://www.privacyguides.org/en/desktop/). Since there are hundreds of Linux distributions, beginners can become confused when choosing one. For the best security and timely updates, We recommend first-time Linux users to install [Fedora](https://fedoraproject.org/). If you are planning to buy new computer, learn more [here](https://www.privacyguides.org/en/basics/hardware/).
-
+Thankfully, you can completely replace your computer's [operating system](https://www.privacyguides.org/en/os/) with a free and open source alternative called [Linux](https://www.privacyguides.org/en/desktop/). Since there are hundreds of Linux distributions, beginners can become confused when choosing one. For the best security and timely updates, We recommend first-time Linux users to install [Fedora](https://fedoraproject.org/). If you are planning to buy a new computer, learn more [here](https://www.privacyguides.org/en/basics/hardware/).
 As for smartphones, Privacy Guides advises [purchasing supported Google Pixel models](https://www.privacyguides.org/en/mobile-phones/) and [replacing the stock operating system with Graphene OS](https://www.privacyguides.org/en/android/distributions/). This removes Google services from your phone entirely. If a new device is not possible, you should avoid installing other custom ROMs as [basic security features](https://www.privacyguides.org/en/os/android-overview/#security-protections) like Verified Boot would be disabled.
 
 #### Delete Your Data
