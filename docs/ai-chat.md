@@ -11,7 +11,7 @@ cover: ai-chatbots.webp
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 - [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 
-Since the release of ChatGPT in 2022, interactions with Large Language Models (LLMs) have become increasingly common. LLMs can help us write better, understand unfamiliar subjects, or answer a wide range of questions. They can statistically predict the next word based on a vast amount of data scraped from the web.
+The use of **AI chat**, also known as Large Language Models (LLMs), has become increasingly common since the release of ChatGPT in 2022. LLMs can help us write better, understand unfamiliar subjects, or answer a wide range of questions. They work by statistically predicting the next word in their responses based on a vast amount of data scraped from the web.
 
 ## Privacy Concerns About LLMs
 
@@ -41,7 +41,7 @@ To run AI locally, you need both an AI model and an AI client.
 
 ### Choosing a Model
 
-There are many permissively licensed models available to download. [Hugging Face](https://huggingface.co/models) is a platform that lets you browse, research, and download models in common formats like [GGUF](https://huggingface.co/docs/hub/en/gguf). Companies that provide good open-weights models include big names like Mistral, Meta, Microsoft, and Google. However, there are also many community models and 'fine-tunes' available. As mentioned above, quantized models offer the best balance between model quality and performance for those using consumer-grade hardware.
+There are many permissively licensed models available to download. [Hugging Face](https://huggingface.co/models) is a platform that lets you browse, research, and download models in common formats like [GGUF](https://huggingface.co/docs/hub/en/gguf). Companies that provide good open-weights models include big names like Mistral, Meta, Microsoft, and Google. However, there are also many community models and [fine-tuned](https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)) models available. As mentioned above, quantized models offer the best balance between model quality and performance for those using consumer-grade hardware.
 
 To help you choose a model that fits your needs, you can look at leaderboards and benchmarks. The most widely-used leaderboard is the community-driven [LM Arena](https://lmarena.ai). Additionally, the [OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) focuses on the performance of open-weights models on common benchmarks like [MMLU-Pro](https://arxiv.org/abs/2406.01574).  There are also specialized benchmarks which measure factors like [emotional intelligence](https://eqbench.com), ["uncensored general intelligence"](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard), and [many others](https://www.nebuly.com/blog/llm-leaderboards).
 
@@ -62,7 +62,7 @@ To help you choose a model that fits your needs, you can look at leaderboards an
 
 ![Kobold.cpp Logo](assets/img/ai-chat/kobold.png){align=right}
 
-Kobold.cpp is an AI client that runs locally on your Windows, Mac, or Linux computer. It's an excellent choice if you are looking for heavy customization and tweaking, such as for role-playing purposes.
+**Kobold.cpp** is an AI client that runs locally on your Windows, Mac, or Linux computer. It's an excellent choice if you are looking for heavy customization and tweaking, such as for role-playing purposes.
 
 In addition to supporting a large range of text models, Kobold.cpp also supports image generators such as [Stable Diffusion](https://stability.ai/stable-image) and automatic speech recognition tools such as [Whisper](https://github.com/ggerganov/whisper.cpp).
 
@@ -82,7 +82,7 @@ In addition to supporting a large range of text models, Kobold.cpp also supports
 
 </div>
 
-<div class="admonition note" markdown>
+<div class="admonition info" markdown>
 <p class="admonition-title">Compatibility Issues</p>
 
 Kobold.cpp might not run on computers without AVX/AVX2 support.
@@ -97,7 +97,7 @@ Kobold.cpp allows you to modify parameters such as the AI model temperature and 
 
 ![Ollama Logo](assets/img/ai-chat/ollama.png){align=right}
 
-Ollama is a command-line AI assistant that is available on macOS, Linux, and Windows. Ollama is a great choice if you're looking for an AI client that's easy-to-use, widely compatible, and fast due to its use of inference and other techniques. It also doesn't involve any manual setup.
+**Ollama** is a command-line AI assistant that is available on macOS, Linux, and Windows. Ollama is a great choice if you're looking for an AI client that's easy-to-use, widely compatible, and fast due to its use of inference and other techniques. It also doesn't involve any manual setup.
 
 In addition to supporting a wide range of text models, Ollama also supports [LLaVA](https://github.com/haotian-liu/LLaVA) models and has experimental support for Meta's [Llama vision capabilities](https://huggingface.co/blog/llama32#what-is-llama-32-vision).
 
@@ -123,9 +123,9 @@ Ollama simplifies the process of setting up a local AI chat by downloading the A
 
 <div class="admonition recommendation" markdown>
 
-![Llamafile Logo](assets/img/ai-chat/llamafile.svg){align=right}
+![Llamafile Logo](assets/img/ai-chat/llamafile.png){align=right}
 
-Llamafile is a lightweight single-file executable that allows users to run LLMs locally on their own computers without any setup involved. It is [backed by Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile) and available on Linux, macOS, and Windows.
+**Llamafile** is a lightweight, single-file executable that allows users to run LLMs locally on their own computers without any setup involved. It is [backed by Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile) and available on Linux, macOS, and Windows.
 
 Llamafile also supports LLaVA. However, it doesn't support speech recognition or image generation.
 
@@ -137,7 +137,9 @@ Llamafile also supports LLaVA. However, it doesn't support speech recognition or
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:fontawesome-solid-desktop: Desktop](https://github.com/Mozilla-Ocho/llamafile#quickstart)
+- [:fontawesome-brands-windows: Windows](https://github.com/Mozilla-Ocho/llamafile#quickstart)
+- [:simple-apple: macOS](https://github.com/Mozilla-Ocho/llamafile#quickstart)
+- [:simple-linux: Linux](https://github.com/Mozilla-Ocho/llamafile#quickstart)
 
 </details>
 
@@ -170,11 +172,11 @@ Please note we are not affiliated with any of the projects we recommend. In addi
 
 ### Minimum Requirements
 
-- Must be open-source.
+- Must be open source.
 - Must not transmit personal data, including chat data.
 - Must be multi-platform.
 - Must not require a GPU.
-- Must support GPU-powered fast inference.
+- Must support GPU-powered, fast inference.
 - Must not require an internet connection.
 
 ### Best-Case
@@ -184,5 +186,12 @@ Our best-case criteria represent what we *would* like to see from the perfect pr
 - Should be easy to download and set up, e.g. with a one-click installation process.
 - Should have a built-in model downloader option.
 - The user should be able to modify the LLM parameters, such as its system prompt or temperature.
+
+*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
+*[LLM]: Large Language Model (AI model such as ChatGPT)
+*[LLMs]: Large Language Models (AI models such as ChatGPT)
+*[open-weights models]: AI models that anyone can download and use, but the underlying training data and/or algorithms for them are proprietary.
+*[system prompt]: The general instructions given by a human to guide how an AI chat should operate.
+*[temperature]: A parameter used in AI models to control the level of randomness and creativity in the generated text.
 
 [^1]: A file checksum is a type of anti-tampering fingerprint. A developer usually provides a checksum in a text file that can be downloaded separately, or on the download page itself. Verifying that the checksum of the file you downloaded matches the one provided by the developer helps ensure that the file is genuine and wasn't tampered with in transit. You can use commands like `sha256sum` on Linux and macOS, or `certutil -hashfile file SHA256` on Windows to generate the downloaded file's checksum.
