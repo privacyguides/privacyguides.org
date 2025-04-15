@@ -447,7 +447,7 @@ nav:
           # - "smartwatches.md"
           - "device-integrity.md"
       - !ENV [NAV_OPERATING_SYSTEMS, "Operating Systems"]:
-           - !ENV [NAV_ANDROID, "Android"]:
+          - !ENV [NAV_ANDROID, "Android"]:
             - "android/index.md"
             - "android/distributions.md"
             - "android/general-apps.md"
