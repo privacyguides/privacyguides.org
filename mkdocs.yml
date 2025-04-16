@@ -429,6 +429,7 @@ nav:
               - "media/file-sharing.md"
               - "media/frontends.md"
               - "media/news-aggregators.md"
+              - "media/social-networks.md"
           - !ENV [NAV_UTILITIES, "Utilities"]:
               - "utilities/index.md"
               - "utilities/ai-chat.md"
