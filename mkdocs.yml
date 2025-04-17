@@ -429,6 +429,7 @@ nav:
           - "pastebins.md"
           - "real-time-communication.md"
           - "social-networks.md"
+          - "weather.md"
       - !ENV [NAV_HARDWARE, "Hardware"]:
           - "mobile-phones.md"
           - "security-keys.md"
