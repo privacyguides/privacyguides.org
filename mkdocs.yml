@@ -474,6 +474,7 @@ nav:
               - "meta/uploading-images.md"
               - "meta/git-recommendations.md"
               - "meta/commit-messages.md"
+              - "meta/pr-comments.md"
 
 validation:
   nav:
