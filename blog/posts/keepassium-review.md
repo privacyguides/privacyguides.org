@@ -8,7 +8,7 @@ categories:
     - Reviews
 authors:
     - em
-description: "If you need a password manager for iOS or macOS that gives you full control over your data, KeePassium is a fantastic option. KeePassium offers some symchronization features, but keeps your password database offline by default. You choose who to trust to store your passwords, and you can change it whenever you want."
+description: "If you need a password manager for iOS or macOS that gives you full control over your data, KeePassium is a fantastic option. KeePassium offers some synchronization features, but keeps your password database offline by default. You choose who to trust to store your passwords, and you can change it whenever you want."
 preview:
   logo: theme/assets/images/keepassium-review/keepassium.svg
 review:
