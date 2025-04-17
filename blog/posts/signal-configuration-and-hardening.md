@@ -1,7 +1,7 @@
 ---
 date:
     created: 2022-07-07T19:00:00Z
-    updated: 2024-08-23T19:00:00Z
+    updated: 2025-04-15T04:00:00Z
 authors:
     - contributors
     - matchboxbananasynergy
@@ -176,9 +176,16 @@ On Android/iOS:
 
 For incoming calls from people who are not in your Contacts app, the call will be relayed through the Signal server regardless of how you've set it up.
 
-### Proxy Support
+### Bypass Internet Censorship
 
-If Signal is blocked in your country, Signal allows you to set up a proxy to bypass it.
+If Signal is blocked in your country, it has a built-in "Censorship Circumvention" feature that uses domain fronting to bypass restrictions.
+
+On Android/iOS:
+
+- Select :material-dots-vertical: → **Settings** → **Privacy** → **Advanced**
+- [x] Turn on **Censorship Circumvention**
+
+Additionally, Signal allows you to set up a proxy to bypass censorship.
 
 !!! Warning
 
