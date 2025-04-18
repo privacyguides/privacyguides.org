@@ -99,7 +99,7 @@ A [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine) aggregate
 
 ![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
 
-**SearXNG** is an open-source, self-hostable, metasearch engine. It is an actively maintained fork of [SearX](https://github.com/searx/searx).
+**SearXNG** is an open-source, metasearch engine. It is an actively maintained fork of [SearX](https://github.com/searx/searx).
 
 [:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
 [:octicons-server-16:](https://searx.space){ .card-link title="Public Instances"}
@@ -109,9 +109,7 @@ A [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine) aggregate
 
 SearXNG is a proxy between you and the search engines it aggregates from. Your search queries will still be sent to the search engines that SearXNG gets its results from.
 
-When self-hosting, it is important that you have other people using your instance so that the queries would blend in. You should be careful with where and how you are hosting SearXNG, as people looking up illegal content on your instance could draw unwanted attention from authorities.
-
-When you are using a SearXNG instance, be sure to go read their privacy policy. Since SearXNG instances may be modified by their owners, they do not necessarily reflect their privacy policy. Some instances run as a Tor hidden service, which may grant some privacy as long as your search queries does not contain PII.
+When you are using a SearXNG instance, be sure to go read their respective privacy policy (if available). Since SearXNG instances may be modified by their owners, they do not necessarily reflect the default policy. Some instances run as a Tor hidden service, which may grant some privacy as long as your search queries does not contain PII.
 
 ## Criteria
 

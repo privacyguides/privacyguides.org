@@ -1,7 +1,7 @@
 ---
 title: "Language Tools"
 icon: material/alphabetical-variant
-description: These language tools do not send your input text to a server and can be used offline and self-hosted.
+description: These language tools do not send your input text to a server and can be used offline.
 cover: language-tools.webp
 ---
 <small>Protects against the following threat(s):</small>
@@ -9,7 +9,7 @@ cover: language-tools.webp
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-Text inputted to grammar, spelling, and style checkers, as well as translation services, can contain sensitive information which may be stored on their servers for an indefinite amount of time and sold to third parties. The language tools listed on this page do not store your submitted text to a server, and can be self-hosted and used offline for maximum control of your data.
+Text inputted to grammar, spelling, and style checkers, as well as translation services, can contain sensitive information which may be stored on their servers for an indefinite amount of time and sold to third parties. The language tools listed on this page do not store your submitted text to a server, and can be used offline.
 
 ## LanguageTool
 
@@ -18,7 +18,7 @@ Text inputted to grammar, spelling, and style checkers, as well as translation s
 ![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ align=right }
 ![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ align=right }
 
-**LanguageTool** is a multilingual grammar, style, and spell checker that supports more than 20 languages. According to their privacy policy, they do not store any content sent to their service for review, but for higher assurance the software is [self-hostable](https://dev.languagetool.org/http-server).
+**LanguageTool** is a multilingual grammar, style, and spell checker that supports more than 20 languages. According to their privacy policy, they do not store any content sent to their service for review.
 
 [:octicons-home-16: Homepage](https://languagetool.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="Privacy Policy" }
@@ -46,5 +46,10 @@ LanguageTool offers integration with a variety of [office suites](https://langua
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
+### Minimum Requirements
+
 - Must be open source.
-- Must be possible to self-host.
+
+### Best-Case
+
+- Should be self-hostable.

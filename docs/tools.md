@@ -9,6 +9,9 @@ description: A complete list of the privacy tools, services, software, and hardw
 
 If you're looking for a specific solution to something, these are the hardware and software tools we recommend in a variety of categories. Our recommended privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.
 
+<div class="grid" markdown>
+
+<div markdown>
 [VPN Providers](vpn.md){ .md-button }
 [Password Managers](passwords.md){ .md-button }
 [Email Providers](email.md){ .md-button }
@@ -16,6 +19,19 @@ If you're looking for a specific solution to something, these are the hardware a
 [DNS Servers](dns.md){ .md-button }
 [Email Aliasing Services](email-aliasing.md){ .md-button }
 [Photo Organization Tools](photo-management.md){ .md-button }
+</div>
+
+<div markdown>
+
+<div class="admonition info" markdown>
+
+[Self-hosting recommendations](self-hosting.md) has been moved to their own category.
+
+</div>
+
+</div>
+
+</div>
 
 If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
 
@@ -218,18 +234,7 @@ If you're looking for added **security**, you should always ensure you're connec
 - ![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ .twemoji loading=lazy } [SimpleLogin](email-aliasing.md#simplelogin)
 
 </div>
-</div>
 
-<div markdown>
-### Self-Hosting Email
-
-<div class="grid cards" markdown>
-
-- ![Stalwart logo](assets/img/email/stalwart.svg){ .twemoji loading=lazy } [Stalwart](email.md#stalwart)
-- ![Mailcow logo](assets/img/email/mailcow.svg){ .twemoji loading=lazy } [Mailcow](email.md#mailcow)
-- ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email.md#mail-in-a-box)
-
-</div>
 </div>
 
 </div>
@@ -294,17 +299,6 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
-#### Self-hosted Solutions
-
-<div class="grid cards" markdown>
-
-- ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns.md#adguard-home)
-- ![Pi-hole logo](assets/img/dns/pi-hole.svg){ .twemoji loading=lazy } [Pi-hole](dns.md#pi-hole)
-
-</div>
-
-[Learn more :material-arrow-right-drop-circle:](dns.md#self-hosted-dns-filtering)
-
 ### Financial Services
 
 #### Payment Masking Services
@@ -334,7 +328,6 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 - ![Ente logo](assets/img/photo-management/ente.svg){ .twemoji loading=lazy } [Ente Photos](photo-management.md#ente-photos)
 - ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ .twemoji loading=lazy }![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ .twemoji loading=lazy } [Stingle](photo-management.md#stingle)
-- ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](photo-management.md#photoprism)
 
 </div>
 
@@ -404,7 +397,6 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Self-Hostable)](document-collaboration.md#nextcloud)
 - ![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ .twemoji loading=lazy } [CryptPad](document-collaboration.md#cryptpad)
 
 </div>
@@ -455,8 +447,6 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 - ![Send logo](assets/img/file-sharing-sync/send.svg){ .twemoji loading=lazy } [Send](file-sharing.md#send)
 - ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ .twemoji loading=lazy } [OnionShare](file-sharing.md#onionshare)
-- ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-sharing.md#freedombox)
-- ![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Self-Hostable)](file-sharing.md#nextcloud-client-server)
 - ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ .twemoji loading=lazy } [Syncthing](file-sharing.md#syncthing-p2p)
 
 </div>
