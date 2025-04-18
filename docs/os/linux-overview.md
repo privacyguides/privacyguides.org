@@ -55,7 +55,7 @@ Distros which use atomic updates, on the other hand, apply updates in full or no
 
 The atomic update method can achieve reliability with this model and is used for [distributions](../desktop.md#atomic-distributions) like Silverblue and NixOS. [Adam Šamalík](https://twitter.com/adsamalik) provides a presentation on how `rpm-ostree` works with Silverblue:
 
-- [Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalík](https://youtu.be/aMo4ZlWznao) <small>(YouTube)</small>
+- [Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalík](https://youtu.be/-hpV5l-gJnQ) <small>(YouTube)</small>
 
 ### “Security-focused” distributions
 
