@@ -68,8 +68,25 @@ Here you can see an example of AI being used to make a fake Joe Rogan podcast cl
 
 The effort required is low and the return is high. With TikTok's [Creator Rewards Program](https://www.tiktok.com/creator-academy/en/article/creator-rewards-program), content that's at least 60 seconds long and have high engagement. That means longer videos with alarming content like conspiracy theory videos will do very well since they will have lots of comments from people either fooled by the content posting about how scared they are or people debunking the claims. The insidious thing is the creators get rewarded either way.
 
+#### Stolen Images
 
 Even images created without the intention of being used as misinformation can be repurposed as conspiracy fodder.
+
+![Patricia Piccinini's "The Young Family" from the "We are Family" exhibit](../assets/images/digital-provenance/human_dog_hybrid.jpeg)
+
+<small aria-hidden="true">Image: [Patricia Piccinini](https://patriciapiccinini.net/a-show.php?id=2003-Venice)</small>
+
+This image spread around the internet back in the 2000's. It was claimed to be a picture of a real [human-dog hybrid](https://www.snopes.com/fact-check/the-young-family/). In reality, it's simply an art piece by artist Patricia Piccinini called "The Young Family" as part of her ["We Are Family" exhibit](https://patriciapiccinini.net/a-show.php?id=2003-Venice).
+
+Another instance involved a gruesome image of a man holding the decapitated head of an unidentified creature, with many claiming it to be the head of the mythical chupacabra.
+
+![Man holding the severed head of an inhuman creature](../assets/images/digital-provenance/chupacabra.jpeg)
+
+<small aria-hidden="true">Image: [Charlie White](https://themorningnews.org/gallery/monsters)</small>
+
+In reality, it's an art piece by Charlie White entitled *Highland Park* as part of an exhibit called "[Monsters](https://themorningnews.org/gallery/monsters)."
+
+Even though the original intention of these artists wasn't to spread a hoax, in the end that's what happened anyway. There are myriad other examples of these types of hoaxes, but I'll leave it for you to research if you're interested.
 
 ## Project Origin
 
