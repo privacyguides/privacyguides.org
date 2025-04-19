@@ -28,13 +28,13 @@ Actually, they're all real. But the fact that you believed some of them were AI 
 
 [Provenance](https://youtu.be/K56EhgfCDjs) is the history of ownership of an object, typically used when referring to antiques or art. Knowing the history of a piece of art can affect the value a lot, but you need a way to prove it's an original piece by the artist instead of a reproduction, or was owned by a famous person.
 
-Provenance can take many [forms](https://artbusiness.com/provwarn.html), from an original receipt or documentation from the artist themself to stickers from a gallery attached to it. Typically, you want a signed certificate from an expert on the artist in order to verify its authenticity.
+Provenance can take many [forms](https://artbusiness.com/provwarn.html), from an original receipt or documentation from the artist themself to stickers from a gallery attached to it. Typically, you want a signed [certificate](https://www.artcertificate.co.uk/?id_article=2267) from an expert on the artist in order to verify its authenticity.
 
-### Hoaxes
+## Hoaxes
 
 It's important for historical preservation as well to know that an object is really from a certain time period. There's no shortage of [historical hoaxes](https://www.history.com/articles/7-historical-hoaxes). These can distort our view of history and make us all a bit dumber.
 
-#### Cardiff Giant
+### Cardiff Giant
 
 One of the most famous hoaxes was that of the [Cardiff Giant](https://www.history.com/articles/the-cardiff-giant-fools-the-nation-145-years-ago).
 
@@ -56,7 +56,7 @@ In a way that seems familiar to us now, you couldn't even be sure you were looki
 
 A famed Yale paleontologist named Othniel Charles Marsh declared it "of very recent origin, and a most decided humbug." Unfortunately, as is so often the case, Hull had already cashed in on the furvor by the time experts had properly debunked his hoax.
 
-#### AI Hoaxes
+### AI Hoaxes
 
 Many modern hoaxes tend to make use of social media and focus on getting views and clicks over selling a physical object.
 
@@ -68,7 +68,7 @@ Here you can see an example of AI being used to make a fake Joe Rogan podcast cl
 
 The effort required is low and the return is high. With TikTok's [Creator Rewards Program](https://www.tiktok.com/creator-academy/en/article/creator-rewards-program), content that's at least 60 seconds long and have high engagement. That means longer videos with alarming content like conspiracy theory videos will do very well since they will have lots of comments from people either fooled by the content posting about how scared they are or people debunking the claims. The insidious thing is the creators get rewarded either way.
 
-#### Stolen Images
+### Stolen Images
 
 Even images created without the intention of being used as misinformation can be repurposed as conspiracy fodder.
 
@@ -78,7 +78,7 @@ Even images created without the intention of being used as misinformation can be
 
 This image spread around the internet back in the 2000's. It was claimed to be a picture of a real [human-dog hybrid](https://www.snopes.com/fact-check/the-young-family/). In reality, it's simply an art piece by artist Patricia Piccinini called "The Young Family" as part of her ["We Are Family" exhibit](https://patriciapiccinini.net/a-show.php?id=2003-Venice).
 
-Another instance involved a gruesome image of a man holding the decapitated head of an unidentified creature, with many claiming it to be the head of the mythical chupacabra.
+Another instance involved a gruesome image of a man holding the decapitated head of an unidentified creature, with many claiming it to be the head of the mythical [chupacabra](https://www.snopes.com/fact-check/chupacabra/).
 
 ![Man holding the severed head of an inhuman creature](../assets/images/digital-provenance/chupacabra.jpeg)
 
