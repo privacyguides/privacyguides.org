@@ -96,6 +96,8 @@ Even though the original intention of these artists wasn't to spread a hoax, in 
 
 ## C2PA
 
+The Coalition for Content Provenance and Authenticity, or [C2PA](https://c2pa.org), combines the efforts of Project Origin and the Content Authenticity Initiative. 
+
 ## Content Credentials
 
 ## Integrity Institute
@@ -103,3 +105,15 @@ Even though the original intention of these artists wasn't to spread a hoax, in 
 The Integrity Institute is a group of "engineers, product managers, researchers, analysts, data scientists, operations specialists, policy experts and more, with decades of combined experience across numerous platforms."
 
 Their goal is to make the social internet 
+
+## Try it Out
+
+There are several online verification tools you can use to try out content credentials. contentcredentials.org offers a [verification tool](https://contentcredentials.org/verify) that lets you upload a media file and check its content credentials.
+
+### BBC
+
+The BBC is doing a limited trial run of content credentials with [BBC Verify](https://www.bbc.com/news/bbcverify). Not all media in these articles have content credentials attached. [This article](https://www.bbc.com/news/world-latin-america-68462851) has content credentials for the video at the bottom. They also ask for feedback, so feel free to provide some. I'd like to see more content credentials show up in news reporting, so please add your voice.
+
+## OpenAI
+
+OpenAI has embraced content credentials, with images generated using ChatGPT identifying themselves using content credentials. Try [generating an image](https://chatgpt.com) and upload it to the verification tool. You should see it identify the origin as OpenAI.
