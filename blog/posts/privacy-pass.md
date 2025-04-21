@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2025-03-31T19:00:00Z
+    created: 2025-04-21T17:30:00Z
 categories:
     - Explainers
 authors:
@@ -14,15 +14,15 @@ description: |
 ---
 # Privacy Pass: The New Protocol for Private Authentication
 
-![Cover photo of the privacy pass logo over a yellow background](../assets/images/privacy-pass/cover.webp)
+![Cover photo of the Privacy Pass logo over a yellow background](../assets/images/privacy-pass/cover.webp)
 
 <small aria-hidden="true">Background Image: Thomas Ensley / Unsplash</small>
 
-Services that require authentication can correlate your activity on that service with your account, and that account is normally linked with payment information that could potentially link back to your real identity. With the privacy pass protocol, it doesn't have to be that way.<!-- more -->
+Services that require authentication can correlate your activity on that service with your account, and that account is normally linked with payment information that could potentially link back to your real identity. With the Privacy Pass protocol, it doesn't have to be that way.<!-- more -->
 
 ## History
 
-The story of privacy pass begins with a [paper](https://dl.acm.org/doi/pdf/10.1145/4372.4373) by David Chaum from 1985 (he actually has an earlier paper from [1982](https://chaum.com/wp-content/uploads/2022/02/chaum_dissertation.pdf), but I'll be referencing this one), in which he laments the ever-increasing data collection by companies and government agencies.
+The story of Privacy Pass begins with a [paper](https://dl.acm.org/doi/pdf/10.1145/4372.4373) by David Chaum from 1985 (he actually has an earlier paper from [1982](https://chaum.com/wp-content/uploads/2022/02/chaum_dissertation.pdf), but I'll be referencing this one), in which he laments the ever-increasing data collection by companies and government agencies.
 
 It's funny that all the way back in 1985 he talks about the same issues we deal with today: persistent identifiers tied to our real identity for transactions, government IDs, etc.
 
