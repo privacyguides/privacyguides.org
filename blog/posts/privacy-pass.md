@@ -45,21 +45,21 @@ Making all transactions online transactions is an interesting idea. I think most
 
 We're still falling short in a major area though.
 
->card computers could be purchased or constructed just like any other personal computer, and would have no secrets from or structures unmodifiable by their owners.
+> card computers could be purchased or constructed just like any other personal computer, and would have no secrets from or structures unmodifiable by their owners.
 
 Current smartphones are non-upgradeable by their owners and can't be built from scratch like a desktop computer can. They also contain lots of black-box proprietary code. Even a Google Pixel, the gold standard of Android smartphone freedom that allows you to install your own operating system securely, still suffers from the same pitfalls.
 
 ### Cryptography
 
-How do we ensure the pseudonyms can't be linked together? We already use cryptography to protect our communications; here Chaum presents ways to similarly protect unlinkability using cryptography.
+How do we ensure the pseudonyms can't be linked together? We already use cryptography to protect our communications. Chaum presents ways to similarly protect unlinkability using cryptography:
 
->Simple mathematical proofs show that, with appropriate use of the systems, even conspiracy of all organizations and tapping of all communication lines cannot yield enough information to link the pseudonyms-regardless of how clever the approach is or how much computation is expended.
+> Simple mathematical proofs show that, with appropriate use of the systems, even conspiracy of all organizations and tapping of all communication lines cannot yield enough information to link the pseudonyms-regardless of how clever the approach is or how much computation is expended.
 
 ## Blind Signatures
 
 Digital signatures normally are used to ensure that something like a piece of software or a message comes from the original sender and hasn't been tampered with. You want to know who the signer is for this system to work.
 
-But what if the signer and the one sending a request are different? Say you have a membership to the PrivacyGuides+ subscription service, and you want to authenticate with it but don't want to identify yourself. That's where blind signatures come in.
+But what if the signer and the one sending a request are different? Say you have a membership to a hypothetical *PrivacyGuides+ subscription service*, and you want to authenticate with it, but don't want to identify yourself. That's where blind signatures come in.
 
 ### How it Works
 
@@ -86,7 +86,7 @@ As long as you're logged into an account with a service, all your previous and c
 
 ### Data Collection
 
-A lot of websites and services want to, [or are forced to](https://en.wikipedia.org/wiki/Social_media_age_verification_laws_in_the_United_States), be able to filter out users below a certain age.
+A lot of websites and services want to — [or are forced to](https://en.wikipedia.org/wiki/Social_media_age_verification_laws_in_the_United_States) — filter out users below a certain age.
 
 We're starting to see a rise in extremely privacy-invasive age verification systems such as submitting a government ID when you want to access a website or invasive facial scans.
 
@@ -150,11 +150,11 @@ The tokens need to identify which issuers are trusted.
 
 They can also be interactive or non-interactive. Interactive means that you need a fresh token based on the challenge, whereas a non-interactive token can be stored for later use.
 
-Tokens can also be constrained to one specific Origin or they can be used across Origins.
+Tokens can also be constrained to one specific Origin, or they can be used across Origins.
 
 ### Private State Tokens
 
-[Private State Tokens](https://developers.google.com/privacy-sandbox/protections/private-state-tokens) are a [proposed browser API](https://github.com/WICG/trust-token-api) by Google as part of their [Privacy Sandbox](https://developers.google.com/privacy-sandbox). They're based on the Privacy Pass protocol.
+[Private State Tokens](https://developers.google.com/privacy-sandbox/protections/private-state-tokens) (PSTs) are a [proposed browser API](https://github.com/WICG/trust-token-api) by Google as part of their [Privacy Sandbox](https://developers.google.com/privacy-sandbox). They're based on the Privacy Pass protocol.
 
 The main benefit of PSTs is that they provide a secure place for websites to store their tokens so that you don't need a separate extension for every service.
 
@@ -220,9 +220,9 @@ One of the biggest and most privacy-invasive services is mobile carriers. They t
 
 Commercial VPNs typically require some kind of account identifier, even if it's just a randomized number.
 
-Apple's Private Relay uses RSA blind signatures to anonymously authenticate users to each of the two hops.
+Apple's iCloud Private Relay uses RSA blind signatures to anonymously authenticate users to each of the two hops.
 
-Google's [VPN](https://www.gstatic.com/vpn/google_vpn_white_paper.pdf) also uses blind signatures to protect users.
+Google's former [VPN](https://www.gstatic.com/vpn/google_vpn_white_paper.pdf) service also used blind signatures to protect users.
 
 ![Diagram showing Google's blind signature VPN authentication scheme](../assets/images/privacy-pass/google-vpn.webp)
 
