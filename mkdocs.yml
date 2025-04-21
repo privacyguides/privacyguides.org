@@ -428,6 +428,7 @@ nav:
           - "passwords.md"
           - "pastebins.md"
           - "real-time-communication.md"
+          - "social-networks.md"
       - !ENV [NAV_HARDWARE, "Hardware"]:
           - "mobile-phones.md"
           - "security-keys.md"
@@ -473,6 +474,7 @@ nav:
               - "meta/uploading-images.md"
               - "meta/git-recommendations.md"
               - "meta/commit-messages.md"
+              - "meta/pr-comments.md"
 
 validation:
   nav:

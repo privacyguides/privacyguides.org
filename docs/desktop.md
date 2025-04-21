@@ -14,15 +14,15 @@ Linux distributions are commonly recommended for privacy protection and software
 
 ## Traditional Distributions
 
-### Fedora Workstation
+### Fedora Linux
 
 <div class="admonition recommendation" markdown>
 
 ![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Workstation** is our recommended distribution for people new to Linux. Fedora generally adopts newer technologies (e.g., [Wayland](https://wayland.freedesktop.org) and [PipeWire](https://pipewire.org)) before other distributions. These new technologies often come with improvements in security, privacy, and usability in general.
+**Fedora Linux** is our recommended desktop distribution for people new to Linux. Fedora generally adopts newer technologies (e.g., [Wayland](https://wayland.freedesktop.org) and [PipeWire](https://pipewire.org)) before other distributions. These new technologies often come with improvements in security, privacy, and usability in general.
 
-[:octicons-home-16: Homepage](https://fedoraproject.org/workstation){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://fedoraproject.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title=Documentation}
 [:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title=Contribute }
 
@@ -30,7 +30,9 @@ Linux distributions are commonly recommended for privacy protection and software
 
 </div>
 
-Fedora has a semi-rolling release cycle. While some packages like [GNOME](https://gnome.org) are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. Each Fedora release is supported for one year, with a new version released every 6 months.
+Fedora comes in two primary desktop editions, [Fedora Workstation](https://fedoraproject.org/workstation), which uses the GNOME desktop environment, and [Fedora KDE Plasma Desktop](https://fedoraproject.org/kde), which uses KDE. Historically, Fedora Workstation has been more popular and widely recommended, but KDE has been gaining in popularity and provides an experience more similar to Windows, which may make transitioning to Linux easier for some. The security and privacy benefits of both editions are very similar, so it mostly comes down to personal preference.
+
+Fedora has a semi-rolling release cycle. While some packages like the desktop environment are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. Each Fedora release is supported for one year, with a new version released every 6 months.
 
 ### openSUSE Tumbleweed
 
@@ -212,6 +214,25 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
 Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate *qubes*. Should one part of the system be compromised via an exploit in a [:material-target-account: Targeted Attack](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }, the extra isolation is likely to protect the rest of the *qubes* and the core system.
 
 For further information about how Qubes works, read our full [Qubes OS overview](os/qubes-overview.md) page.
+
+### Secureblue
+
+<div class="admonition recommendation" markdown>
+
+![Secureblue logo](assets/img/linux-desktop/secureblue.svg){ align=right }
+
+**Secureblue** is a security-focused operating system based on [Fedora Atomic Desktops](#fedora-atomic-desktops). It includes a number of [security features](https://secureblue.dev/features) intended to proactively defend against the exploitation of both known and unknown vulnerabilities, and ships with [Trivalent](https://github.com/secureblue/Trivalent), their hardened, Chromium-based web browser.
+
+[:octicons-home-16: Homepage](https://secureblue.dev){ .md-button .md-button--primary }
+[:octicons-info-16:](https://secureblue.dev/install){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/secureblue/secureblue){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://secureblue.dev/donate){ .card-link title="Contribute" }
+
+</div>
+
+**Trivalent** is Secureblue's hardened Chromium for desktop Linux inspired by [GrapheneOS](android/distributions.md#grapheneos)'s Vanadium browser.
+
+Secureblue also provides GrapheneOS's [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc) and enables it globally (including for Flatpaks).
 
 ### Kicksecure
 

@@ -554,7 +554,10 @@ MWEB
 Cyd
 Semiphemeral
 Dangerzone
+simple-activitypub
+ActivityPub
 pseudorandom
 Chaum
 unlinkability
 Kagi
+Secureblue
