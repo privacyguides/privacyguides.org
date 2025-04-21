@@ -9,11 +9,11 @@ cover: weather.jpg
 
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-**Weather apps** often ask for your location to provide accurate weather info.  Often, they don't let you manually input your location.
+**Weather apps** often ask for your location to provide accurate weather info. Often, they don't let you manually input your location.
 
-When any weather app ask for location, only grant it "Approximate location" and select "Only while using the app". You can temporarily change it to "Always" if you need it for travel. If the app claim you didn't give it location access, the app is lying to you. It could be because of out-of-date knowledge of Android APIs, or because the app wants you to give it precise location access, either because it is easier for them to use this as opposed to Approximate location, or to [sell the data](https://www.theguardian.com/technology/2019/jan/04/weather-channel-app-lawsuit-location-data-selling).
+When any weather app asks for location, only grant it "Approximate location" and select "Only while using the app". You can temporarily change it to "Always" if you need it for travel. If the app claims you didn't give it location access, the app is lying to you. It could be because of out-of-date knowledge of Android APIs, or because the app wants you to give it precise location access, either because it is easier for them to use this as opposed to Approximate location, or to [sell the data](https://www.theguardian.com/technology/2019/jan/04/weather-channel-app-lawsuit-location-data-selling).
 
-While the steps mentioned above will protect you from most of the tracking, it will not stop non-location tracking. Furthermore, Privacy Guides believes that you shouldn't rely only on yourself to consistently uphold your privacy.
+While the steps mentioned above will protect you from most tracking, it will not stop non-location tracking. Furthermore, Privacy Guides believes that you shouldn't rely only on yourself to consistently uphold your privacy.
 
 The tools recommended below are fully **private** and are **open-source**. See the criteria section at the end for more.
 
@@ -23,7 +23,7 @@ The tools recommended below are fully **private** and are **open-source**. See t
 
 ![Breezy Weather logo](assets/img/weather/breezy.webp){ align=right }
 
-Breezy Weather is an Android weather app with a modern and neat interface, similar to Big Tech ones. It is highly customizable, allowing you for example to change icons and choose your preferred weather sources.
+Breezy Weather is an Android weather app with a modern and neat interface. It is highly customizable, allowing you for example to change icons and choose your preferred weather sources.
 
 The app supports [Android approximate location permission](https://developer.android.com/codelabs/approximate-location), although you might need to wait a bit or try a few times, as it first says "Location not found" when using it.
 
@@ -52,9 +52,9 @@ The app gives severe weather alerts as well as precipations alerts.
 
 ![QuickWeather logo](assets/img/weather/quick.png){ align=right }
 
-QuickWeather is a no-fuss weather app that boasts being "really fast". Looking away from the name, we see a couple of nice features. The app supports the "Approximate location" permission, which is a good middle-ground between privacy and convenience. Furthermore, the app also has a rain radar, allowing you to quickly see whether it will rain where you live.
+QuickWeather is a no-fuss weather app that boasts being "really fast". The app supports the "Approximate location" permission, which is a good middle-ground between privacy and convenience. Furthermore, the app also has a rain radar, allowing you to quickly see whether it will rain where you live.
 
-The app only supports  two sources: Open-Meteo and OpenWeatherMap([API key](https://home.openweathermap.org/subscriptions/unauth_subscribe/onecall_30/base) needed.)
+The app only supports two sources: Open-Meteo and OpenWeatherMap([API key](https://home.openweathermap.org/subscriptions/unauth_subscribe/onecall_30/base) needed.)
 
 The app can give notifications about current weather, but "weather alerts" are only available if you give the app access to *precise* location, something we don't recommend.
 
@@ -85,7 +85,7 @@ The app doesn't support Android approximate location permission, but you can eas
 
 Unfortunately, the app doesn't support Android's pop-up notifications, so any alerts - including severe weather alerts - will only be displayed in the app.
 
-The app is highly customisable, allowing you not only to select which weather source you want between the 15 proposed, but also what forecasting model you want to use and what map provider you prefer.
+The app is highly customizable, allowing you not only to select which weather source you want between the 15 proposed, but also what forecasting model you want to use and what map provider you prefer.
 
 [:octicons-home-16: Homepage](https://github.com/PranshulGG/WeatherMaster){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/PranshulGG/WeatherMaster/blob/master/app/src/main/assets/pages/aboutPages/PrivacyPolicy.html){ .card-link title="Privacy Policy" }
