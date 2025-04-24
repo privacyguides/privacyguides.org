@@ -15,7 +15,7 @@ When any weather app asks for location, only grant it "Approximate location" and
 
 While the steps mentioned above will protect you from most tracking, it will not stop non-location tracking. Furthermore, Privacy Guides believes that you shouldn't rely only on yourself to consistently uphold your privacy.
 
-The tools recommended below are fully **private** and are **open-source**. See the criteria section at the end for more.
+The tools recommended below  are **open-source** and do not track users or sell their data.
 
 ## Breezy Weather
 
