@@ -51,7 +51,7 @@ Additionally, each user makes its own independent [VPN](https://www.privacyguide
 
 If you use [**GrapheneOS**](https://www.privacyguides.org/en/android/distributions/#grapheneos), you can take advantage of additional [features](https://grapheneos.org/features#improved-user-profiles){rel=nofollow} not available with a standard Android phone:
 
-- **Notification forwarding**: Normally, only the notifications of the currently active user on Android are shown. On GrapheneOS, you can optionally configure secondary users to forward their notifications to the currently active profile, so you can make sure you don't miss anything important occurring in a background user session.
+- **Notification forwarding**: Normally, only the notifications of the currently active user on Android are shown. On GrapheneOS, you can optionally configure secondary users to forward their notifications to the currently active profile, so you can make sure you don't miss anything important occurring in a background user session. Remember that you must unlock secondary user profiles before you can receive notifications from them. Otherwise, you will miss important notifications after your phone reboots.
 
 - **Additional user profiles:** GrapheneOS raises the maximum number of secondary users to 31, which means you have the option to be much more granular with how you isolate apps and data than you normally would (the maximum number is configurable by OEMs, but a stock Google Pixel only supports 3).
 
