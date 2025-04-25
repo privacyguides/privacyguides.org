@@ -93,7 +93,7 @@ Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/
 
 The option to enable **multiple users** can be found in :gear: **Settings** → **System** → **Users**, and are the simplest way to isolate in Android.
 
-Even a single person can take advantage of using multiple user accounts. To limit the applications you run on your phone, you can impose restrictions on a specific account, such as: making calls, using SMS, or installing apps. Each account is encrypted using its own encryption key and cannot access the data of any other users. Even the device owner cannot view the data of secondary users without knowing their password. Multiple users are a more secure method of isolation than Work Profiles or Private Spaces.
+Even a single person can take advantage of using multiple user accounts. To limit the applications you run on your phone, you can impose restrictions on a specific account, such as making calls, using SMS, or installing apps. Each account is encrypted using its own encryption key and cannot access the data of any other users. Even the device owner cannot view the data of secondary users without knowing their password. Multiple users are a more secure method of isolation than work profiles or a private space.
 
 [:material-star-box: How to Take Advantage of Multiple Users](/articles/2025/04/23/taking-advantage-of-android-user-profiles/){ .md-button }
 
