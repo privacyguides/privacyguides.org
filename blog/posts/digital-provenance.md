@@ -80,6 +80,28 @@ The Coalition for Content Provenance and Authenticity, or [C2PA](https://c2pa.or
 
 ## Content Credentials
 
+Content Credentials are the implementation of digital provenance by the C2PA, the culmination of years of research and development by major tech companies, from camera manufacturers to photo editing software and AI companies to social media sites.
+
+The way content credentials work draws on concepts both familiar and alien. The standard is designed to be flexible and cover the myriad ways media is used online.
+
+### Signatures
+
+The foundation is based around cryptographic signatures, similar to how you'd cryptographically sign software or text with a PGP signature.
+
+#### Certificate Authorities
+
+There are certificate authorities similar to how HTTPS works, which allows only signatures from trusted sources. Non-trusted signatures will give a warning in whatever C2PA-enabled software you're using.
+
+Instead of a centralized CA system like we have on the web, content credentials allow for each application to provide its own *trust lists*: lists of certificate authorities trusted by the application.
+
+The C2PA gives a few examples to illustrate. A news organization might rely on a non-profit organization that verifies the authenticity of sources through real-world due diligence. An insurance company might operate its own internal CA to verify only its own employees handled the images.
+
+### Chain of Provenance
+
+However, what's interesting is content credentials can cover multiple assets being combined together and still be able to verify each element of the image.
+
+It also supports a chain of provenance, showing all significant steps 
+
 ## Integrity Institute
 
 The Integrity Institute is a group of "engineers, product managers, researchers, analysts, data scientists, operations specialists, policy experts and more, with decades of combined experience across numerous platforms."
