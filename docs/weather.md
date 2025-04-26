@@ -5,7 +5,7 @@ description: "Weather apps often ask for your location and share it with adverti
 cover: weather.jpg
 ---
 
-<small>Protects against the following threat:</small>
+<small>Protects against the following threat(s):</small>
 
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
@@ -31,17 +31,16 @@ The app comes in two different flavors, both of which are fully open-source and 
 
 The app gives severe weather alerts as well as precipations alerts.
 
-[:octicons-home-16: Homepage](https://github.com/breezy-weather/breezy-weather?tab=readme-ov-file#breezy-weather){ .md-button .md-button--primary }
+[:octicons-repo-16: Repository](https://github.com/breezy-weather/breezy-weather#readme){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/breezy-weather/breezy-weather/blob/main/PRIVACY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/breezy-weather/breezy-weather/blob/main/README.md){ .card-link title="Documentation" }
+[:octicons-info-16:](https://github.com/breezy-weather/breezy-weather#help){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/breezy-weather/breezy-weather){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/breezy-weather/breezy-weather?tab=readme-ov-file#contribute){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-android: Github](https://github.com/breezy-weather/breezy-weather/releases)
-- [:simple-obtainium: Obtainium](https://github.com/breezy-weather/breezy-weather/blob/main/INSTALL.md#obtainium)
+- [:simple-github: GitHub](https://github.com/breezy-weather/breezy-weather/releases)
+- [:simple-fdroid: F-Droid](https://github.com/breezy-weather/breezy-weather/blob/main/INSTALL.md#f-droid-client)
 
 </details>
 </div>
@@ -58,15 +57,16 @@ The app only supports two sources: Open-Meteo and OpenWeatherMap([API key](https
 
 The app can give notifications about current weather, but "weather alerts" are only available if you give the app access to *precise* location, something we don't recommend.
 
-[:octicons-home-16: Homepage](https://github.com/TylerWilliamson/QuickWeather){ .md-button .md-button--primary }
+[:octicons-repo-16: Repository](https://github.com/TylerWilliamson/QuickWeather#readme){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/TylerWilliamson/QuickWeather/blob/master/PrivacyPolicy.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/TylerWilliamson/QuickWeather/tree/master?tab=readme-ov-file#-quickweather){ .card-link title="Documentation" }
+[:octicons-info-16:](https://github.com/TylerWilliamson/QuickWeather#description){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/TylerWilliamson/QuickWeather){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.ominous.quickweather)
-- [:simple-android: Github](https://github.com/TylerWilliamson/QuickWeather/releases)
+- [:simple-github: GitHub](https://github.com/TylerWilliamson/QuickWeather/releases)
 
 </details>
 </div>
@@ -87,14 +87,14 @@ Unfortunately, the app doesn't support Android's pop-up notifications, so any al
 
 The app is highly customizable, allowing you not only to select which weather source you want between the 15 proposed, but also what forecasting model you want to use and what map provider you prefer.
 
-[:octicons-home-16: Homepage](https://github.com/PranshulGG/WeatherMaster){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/PranshulGG/WeatherMaster/blob/master/app/src/main/assets/pages/aboutPages/PrivacyPolicy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/PranshulGG/WeatherMaster?tab=readme-ov-file#-weathermaster){ .card-link title="Documentation" }
+[:octicons-repo-16: Repository](https://github.com/PranshulGG/WeatherMaster#readme){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/PranshulGG/WeatherMaster/blob/8146997ca09d2ff3720ee0e38fe9fec02e9bd62c/app/src/main/assets/pages/aboutPages/PrivacyPolicy.html#L58-L142){ .card-link title="Privacy Policy" }
+[:octicons-code-16:](https://github.com/PranshulGG/WeatherMaster){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-android: Github](https://github.com/PranshulGG/WeatherMaster/releases)
+- [:simple-github: GitHub](https://github.com/PranshulGG/WeatherMaster/releases)
 
 </details>
 </div>
@@ -109,16 +109,16 @@ OSSWeather is a weather app available on both on iOS and Android. While the inte
 
 Unfortunately, it only supports 3 weather sources and doesn't support iOS or Android's "Approximate location" permission. It also doesn't give severe weather alerts.
 
-[:octicons-home-16: Homepage](https://github.com/Akylas/oss-weather){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Akylas/oss-weather){ .card-link title="Documentation" }
+[:octicons-repo-16: Repository](https://github.com/Akylas/oss-weather#readme){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/Akylas/oss-weather){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/sponsors/farfromrefug){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/en/app/oss-weather/id1499117252)
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.akylas.weather)
-- [:simple-android: Github](https://github.com/Akylas/oss-weather/releases)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1499117252)
+- [:simple-android: GitHub](https://github.com/Akylas/oss-weather/releases)
 
 </details>
 
