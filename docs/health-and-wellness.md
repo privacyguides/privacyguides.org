@@ -1,8 +1,8 @@
 ---
-meta_title: "Privacy Respecting Health and Wellness apps for Android and iOS - Privacy Guides"
-title: "Health and Wellness Apps"
+meta_title: "Privacy-Respecting Health and Wellness apps for Android and iOS - Privacy Guides"
+title: "Health and Wellness"
 icon: material/heart-pulse
-description: These applications are what we currently recommend for all health and fitness-related activites on your phone.
+description: These applications are what we currently recommend for all health- and fitness-related activites on your phone.
 cover: health.webp
 ---
 <small>Protects against the following threat(s):</small>
