@@ -9,7 +9,7 @@ cover: email-clients.webp
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
-The **email clients** we recommend support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth allows you to use [Multi-Factor Authentication](basics/multi-factor-authentication.md) to prevent account theft.
+The **email clients** we recommend support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](basics/account-creation.md#sign-in-with-oauth). OAuth allows you to use [Multi-Factor Authentication](basics/multi-factor-authentication.md) to prevent account theft.
 
 <details class="warning" markdown>
 <summary>Email does not provide forward secrecy</summary>
@@ -109,39 +109,6 @@ Currently, GPG Suite does [not yet](https://gpgtools.com/sonoma) have a stable r
 </div>
 
 Apple Mail has the ability to load remote content in the background or block it entirely and hide your IP address from senders on [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) and [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios).
-
-### Canary Mail (iOS)
-
-<div class="admonition recommendation" markdown>
-
-![Canary Mail logo](assets/img/email-clients/canarymail.svg){ align=right }
-
-**Canary Mail** is a paid email client designed to make end-to-end encryption seamless with security features such as a biometric app lock.
-
-[:octicons-home-16: Homepage](https://canarymail.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://canarymail.io/help){ .card-link title="Documentation" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1155470386)
-- [:fontawesome-brands-windows: Windows](https://canarymail.io/downloads.html)
-- [:simple-apple: macOS](https://apps.apple.com/app/id1236045954)
-
-</details>
-
-</div>
-
-<details class="warning" markdown>
-<summary>Warning</summary>
-
-Canary Mail only recently released a Windows and Android client, though we don't believe they are as stable as their iOS and Mac counterparts.
-
-</details>
-
-Canary Mail is closed-source. We recommend it due to the few choices there are for email clients on iOS that support PGP E2EE.
 
 ### FairEmail (Android)
 

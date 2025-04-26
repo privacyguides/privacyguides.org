@@ -195,7 +195,7 @@ Just because one of an app's processes is sandboxed doesn't mean they all are.
 Alternatively, you can check apps before you run them by running this command in the terminal:
 
 ``` zsh
-% codesign -dvvv --entitlements - <path to your app>
+codesign -dvvv --entitlements - <path to your app>
 ```
 
 If an app is sandboxed, you should see the following output:
@@ -215,7 +215,7 @@ The [Hardened Runtime](https://developer.apple.com/documentation/security/harden
 You can check if an app uses the Hardened Runtime using this command:
 
 ``` zsh
-codesign --display --verbose /path/to/bundle.app
+codesign -dv <path to your app>
 ```
 
 If Hardened Runtime is enabled, you will see `flags=0x10000(runtime)`. The `runtime` output means Hardened Runtime is enabled. There might be other flags, but the runtime flag is what we're looking for here.
