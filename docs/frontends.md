@@ -26,7 +26,7 @@ When you are using an instance run by someone else, make sure to read the privac
 
 You can access Redlib through a number of public instances, with some that offer a [Tor](tor.md) onion service.
 
-[:octicons-repo-16: Repository](https://github.com/redlib-org/redlib){ .md-button .md-button--primary }
+[:octicons-repo-16: Repository](https://github.com/redlib-org/redlib#readme){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/redlib-org/redlib-instances/blob/main/instances.md){ .card-link title="Public Instances" }
 [:octicons-info-16:](https://github.com/redlib-org/redlib#table-of-contents){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Source Code" }
@@ -59,7 +59,7 @@ Redlib is useful if you want to disable JavaScript in your browser, such as [Tor
 
 There are a number of public instances, with some that offer a [Tor](tor.md) onion service or an [I2P](alternative-networks.md#i2p-the-invisible-internet-project) eepsite.
 
-[:octicons-repo-16: Repository](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
+[:octicons-repo-16: Repository](https://github.com/pablouser1/ProxiTok#readme){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="Public Instances" }
 [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Source Code" }
@@ -124,7 +124,7 @@ Invidious is useful if you want to disable JavaScript in your browser, such as [
 
 Piped requires JavaScript in order to function and there are a number of public instances.
 
-[:octicons-repo-16: Repository](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
+[:octicons-repo-16: Repository](https://github.com/TeamPiped/Piped#readme){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/TeamPiped/documentation/blob/main/content/docs/public-instances/index.md){ .card-link title="Public Instances" }
 [:octicons-info-16:](https://docs.piped.video/docs){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
@@ -188,7 +188,7 @@ By default, FreeTube blocks all YouTube advertisements. In addition, FreeTube op
 
 When using Yattee, your subscription list is saved locally on your device.
 
-[:octicons-home-16: Homepage](https://github.com/yattee/yattee){ .md-button .md-button--primary }
+[:octicons-repo-16: Repository](https://github.com/yattee/yattee#readme){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/yattee/yattee/wiki){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/yattee/yattee){ .card-link title="Source Code" }
