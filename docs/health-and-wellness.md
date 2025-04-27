@@ -102,7 +102,7 @@ These general purpose apps can do everything from counting steps and tracking sl
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-android: F-Droid](https://f-droid.org/packages/nodomain.freeyourgadget.gadgetbridge)
+- [:simple-fdroid: F-Droid](https://f-droid.org/packages/nodomain.freeyourgadget.gadgetbridge)
 
 </details>
 
