@@ -50,7 +50,7 @@ You should **never** use blur to redact [text in images](https://bishopfox.com/b
 
 **ExifEraser** is a modern, permissionless image metadata erasing application for Android.
 
-It currently supports JPEG, PNG and WebP files.
+It currently supports JPEG, PNG, and WebP files.
 
 [:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title="Documentation" }
