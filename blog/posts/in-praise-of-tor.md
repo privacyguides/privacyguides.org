@@ -1,8 +1,8 @@
 ---
 date:
-    created: 2025-05-01T17:00:00Z
+    created: 2025-04-30T20:30:00Z
 categories:
-    - Opinion
+    - Explainers
 authors:
     - em
 description: You might have heard of Tor in the news a few times, yet never dared to try it yourself. Despite being around for decades, Tor is still a tool too few people know about. Today, Tor is easy to use for anyone. It not only helps journalists and activists, but anybody who seeks greater privacy online or access to information regardless of location. But what is Tor exactly? How can Tor help you? And why is it such an important tool?
@@ -15,7 +15,7 @@ preview:
 
 ![The Tor Project logo over a series of Tor icons on a purple background.](../assets/images/in-praise-of-tor/tor-cover.webp)
 
-<small aria-hidden="true">Illustration: Em / Privacy Guides | Logo and icons: The Tor Projects</small>
+<small aria-hidden="true">Illustration: Em / Privacy Guides | Logo and icons: The Tor Project</small>
 
 You might have heard of Tor in the news a few times, yet never dared to try it yourself. Despite being around for decades, Tor is still a tool too few people know about.
 
@@ -165,7 +165,7 @@ Using this type of measures to circumvent government censorship will make Tor ac
 
 If you cannot download the Tor Browser because of your country's censorship, and **if it is safe for you to do**, you can try downloading the browser from a proxy website such as the [EFF website](https://tor.eff.org/), the [Calyx Institute website](https://tor.calyxinstitute.org/).
 
-You can even directly email **gettor@torproject.org** and send the name of your operating system (Linux, macOS, Windows) to get a direct link to download the Tor Browser.
+You can even directly email **<gettor@torproject.org>** and send the name of your operating system (Linux, macOS, Windows) to get a direct link to download the Tor Browser.
 
 </div>
 
