@@ -106,7 +106,7 @@ It also supports a chain of provenance, showing all steps in the life cycle of t
 
 The specification supports a list of per-defined actions such as edits, changing the color, translating to a different language, etc. It's really quite flexible 
 
-## Try it Out
+## Support
 
 There are several online verification tools you can use to try out content credentials. contentcredentials.org offers a [verification tool](https://contentcredentials.org/verify) that lets you upload a media file and check its content credentials.
 
@@ -122,13 +122,17 @@ OpenAI has embraced content credentials, with images generated using ChatGPT ide
 
 [TikTok](https://newsroom.tiktok.com/en-us/partnering-with-our-industry-to-advance-ai-transparency-and-literacy) became the first social media platform to support content credentials. For now, it's limited to being able to read content credentials from certain AI platforms. They say in the future they'll start labeling all content from TikTok with content credentials, but it seems they haven't enabled that yet, as if you download a video from TikTok, the C2PA verify tool will say it doesn't have any content credentials.
 
+### Leica
+
+Leica's [M11-P camera](https://leica-camera.com/en-US/photography/cameras/m/m11-p-black) is the first camera in the world to support content credentials. That's a huge step toward adoption; camera manufacturers need to support Content Credentials if they're going to be included from the creation of the image.
+
 ### Nikon
 
-Nikon are planning to release a firmware update for their Z6III camera that will support Content Credentials.
+Nikon are planning to release a firmware update for their [Z6III](https://www.nikon.co.uk/en_GB/learn-and-explore/magazine/gear/nikon-z6iii-firmware-update-to-feature-content-verification) camera that will support Content Credentials.
 
 ### Adobe
 
-Much of Adobe's software supports Content Credentials, including Photoshop, Lightroom, and Adobe Camera Raw as well as Adobe's Firefly AI.
+Much of Adobe's [software](https://helpx.adobe.com/creative-cloud/help/content-credentials.html) supports Content Credentials, including Photoshop, Lightroom, and Adobe Camera Raw as well as Adobe's Firefly AI.
 
 ## Limitations
 
@@ -136,4 +140,4 @@ Much of Adobe's software supports Content Credentials, including Photoshop, Ligh
 
 Content Credentials will need widespread support at every level, from hardware OEMs to photo editing software vendors and AI generators to sites that host and display images. The rollout of Content Credentials will be slow as more and more companies start to support them. 
 
-There are still major players missing support like Apple and Android, which is a big problem considering how many images are taken, edited, and shared on smartphones. Once photos taken from your phone can be embued with Content Credentials in the default camera app, we'll see much wider adoption I think.
+There are still major players missing support like Apple and Android, which is a big problem considering how many images are taken, edited, and shared on smartphones. Once photos taken from your phone can be imbued with Content Credentials in the default camera app, we'll see much wider adoption I think.
