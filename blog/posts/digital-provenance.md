@@ -134,6 +134,10 @@ Nikon are planning to release a firmware update for their [Z6III](https://www.ni
 
 Much of Adobe's [software](https://helpx.adobe.com/creative-cloud/help/content-credentials.html) supports Content Credentials, including Photoshop, Lightroom, and Adobe Camera Raw as well as Adobe's Firefly AI.
 
+### Qualcomm
+
+With the Snapdragon 8 Gen 3 chipset, Qualcomm is embedding Content Credential capabilities into the Trusted Execution Environment, allowing for Content Credentials to be added right as the photo is produced.
+
 ## Limitations
 
 ### Lack of Support
