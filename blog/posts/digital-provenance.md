@@ -92,21 +92,19 @@ The foundation is based around cryptographic signatures, similar to how you'd cr
 
 There are certificate authorities similar to how HTTPS works, which allows only signatures from trusted sources. Non-trusted signatures will give a warning in whatever C2PA-enabled software you're using.
 
-Instead of a centralized CA system like we have on the web, content credentials allow for each application to provide its own *trust lists*: lists of certificate authorities trusted by the application.
+Content credentials allow for each application to provide its own *trust lists*: lists of certificate authorities trusted by the application.
 
 The C2PA gives a few examples to illustrate. A news organization might rely on a non-profit organization that verifies the authenticity of sources through real-world due diligence. An insurance company might operate its own internal CA to verify only its own employees handled the images.
 
+### Ingredients
+
+However, what's interesting is content credentials can cover multiple assets being combined together and still be able to verify each element of the image. Each element is called an "ingredient." When the ingredients come together, the result is called a "composed asset," with "asset" referring to a digital media file or data stream.
+
 ### Chain of Provenance
 
-However, what's interesting is content credentials can cover multiple assets being combined together and still be able to verify each element of the image.
+It also supports a chain of provenance, showing all steps in the life cycle of the file that change its contents such as edits. These are referred to as "actions." 
 
-It also supports a chain of provenance, showing all significant steps 
-
-## Integrity Institute
-
-The Integrity Institute is a group of "engineers, product managers, researchers, analysts, data scientists, operations specialists, policy experts and more, with decades of combined experience across numerous platforms."
-
-Their goal is to make the social internet 
+The specification supports a list of per-defined actions such as edits, changing the color, translating to a different language, etc. It's really quite flexible 
 
 ## Try it Out
 
@@ -116,10 +114,26 @@ There are several online verification tools you can use to try out content crede
 
 The BBC is doing a limited trial run of content credentials with [BBC Verify](https://www.bbc.com/news/bbcverify). Not all media in these articles have content credentials attached. [This article](https://www.bbc.com/news/world-latin-america-68462851) has content credentials for the video at the bottom. They also ask for feedback, so feel free to provide some. I'd like to see more content credentials show up in news reporting, so please add your voice.
 
-## OpenAI
+### OpenAI
 
 OpenAI has embraced content credentials, with images generated using ChatGPT identifying themselves using content credentials. Try [generating an image](https://chatgpt.com) and upload it to the verification tool. You should see it identify the origin as OpenAI.
 
-## TikTok
+### TikTok
 
 [TikTok](https://newsroom.tiktok.com/en-us/partnering-with-our-industry-to-advance-ai-transparency-and-literacy) became the first social media platform to support content credentials. For now, it's limited to being able to read content credentials from certain AI platforms. They say in the future they'll start labeling all content from TikTok with content credentials, but it seems they haven't enabled that yet, as if you download a video from TikTok, the C2PA verify tool will say it doesn't have any content credentials.
+
+### Nikon
+
+Nikon are planning to release a firmware update for their Z6III camera that will support Content Credentials.
+
+### Adobe
+
+Much of Adobe's software supports Content Credentials, including Photoshop, Lightroom, and Adobe Camera Raw as well as Adobe's Firefly AI.
+
+## Limitations
+
+### Lack of Support
+
+Content Credentials will need widespread support at every level, from hardware OEMs to photo editing software vendors and AI generators to sites that host and display images. The rollout of Content Credentials will be slow as more and more companies start to support them. 
+
+There are still major players missing support like Apple and Android, which is a big problem considering how many images are taken, edited, and shared on smartphones. Once photos taken from your phone can be embued with Content Credentials in the default camera app, we'll see much wider adoption I think.
