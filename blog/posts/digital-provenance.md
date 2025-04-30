@@ -151,3 +151,9 @@ There are still major players missing support like Apple and Android, which is a
 In my testing, any edits from a program that doesn't support Content Credentials will render them unreadable after that point. This problem won't be as bad if and when support for Content Credentials becomes widespread, since you can just decide not to trust images without them, sort of like not trusting a website without HTTPS. Platforms could even display a warning.
 
 But for now, removing content credentials won't be noticed.
+
+### Reliant on Certificate Authorities
+
+The system shares a flaw with HTTPS in that you need to rely on trusted Certificate Authorities to verify the validity of the information, except that Content Credentials are trying to verify a lot more information than just who originally made the image.
+
+Since anyone can add their own Content Credentials to an image, a warning is displayed similar to a certificate warning in your browser that the Content Credentials come from an untrusted entity.
