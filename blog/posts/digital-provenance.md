@@ -70,9 +70,11 @@ The effort required is low and the return is high. With TikTok's [Creator Reward
 
 ## Project Origin
 
-
+Project Origin is led by Microsoft and the BBC. 
 
 ## Content Authority Initiative
+
+The Content Authority Initiative is led by Adobe. It has similar aims to Project Origin of increasing trust in content posted online.
 
 ## C2PA
 
@@ -90,7 +92,7 @@ The foundation is based around cryptographic signatures, similar to how you'd cr
 
 #### Certificate Authorities
 
-There are certificate authorities similar to how HTTPS works, which allows only signatures from trusted sources. Non-trusted signatures will give a warning in whatever C2PA-enabled software you're using.
+There are certificate authorities similar to how HTTPS works, which allow only signatures from trusted sources. Non-trusted signatures will give a warning in whatever C2PA-enabled software you're using.
 
 Content credentials allow for each application to provide its own *trust lists*: lists of certificate authorities trusted by the application.
 
@@ -104,7 +106,13 @@ However, what's interesting is content credentials can cover multiple assets bei
 
 It also supports a chain of provenance, showing all steps in the life cycle of the file that change its contents such as edits. These are referred to as "actions." 
 
-The specification supports a list of per-defined actions such as edits, changing the color, translating to a different language, etc. It's really quite flexible 
+The specification supports a list of per-defined actions such as edits, changing the color, translating to a different language, etc. It's really quite flexible, but the flexibility of information that can be provided allows for more opportunities for errors and means you need to trust the entity providing the information more.
+
+An issue I noticed is when making edits using software that doesn't support Content Credentials, they will be corrupted and can't be read by verification programs. This poses a problem for the "unbroken chain of provenance" that the standard promises.
+
+These verification programs tend to offer a way to check against a database of images with Content Credentials so you can find an image with unbroken provenance data.
+
+I think this problem will be less and less of an issue when more software supports the standard. It will need to be so ubiquitous that people don't trust images without provenance data, but for now with its very limited availability, that's not the case.
 
 ## Support
 
