@@ -86,6 +86,10 @@ Content Credentials are the implementation of digital provenance by the C2PA, th
 
 The way content credentials work draws on concepts both familiar and alien. The standard is designed to be flexible and cover the myriad ways media is used online.
 
+### Manifest
+
+Content Credentials are contained in what's called the **manifest**. The manifest consists of the claim, claim signature, and assertions.
+
 ### Signatures
 
 The foundation is based around cryptographic signatures, similar to how you'd cryptographically sign software or text with a PGP signature.
@@ -112,7 +116,7 @@ An issue I noticed is when making edits using software that doesn't support Cont
 
 These verification programs tend to offer a way to check against a database of images with Content Credentials so you can find an image with unbroken provenance data.
 
-I think this problem will be less and less of an issue when more software supports the standard. It will need to be so ubiquitous that people don't trust images without provenance data, but for now with its very limited availability, that's not the case.
+I think this problem will be less and less of an issue when more software supports the standard. It will need to be so ubiquitous that image viewing programs don't trust images without provenance data, similar to how browsers don't trust websites without HTTPS. But for now with its very limited availability, that's not the case.
 
 ## Support
 
@@ -165,3 +169,7 @@ But for now, removing content credentials won't be noticed.
 The system shares a flaw with HTTPS in that you need to rely on trusted Certificate Authorities to verify the validity of the information, except that Content Credentials are trying to verify a lot more information than just who originally made the image.
 
 Since anyone can add their own Content Credentials to an image, a warning is displayed similar to a certificate warning in your browser that the Content Credentials come from an untrusted entity.
+
+### Complexity
+
+One of the issues I ran into while researching was just how complex the standard is, since it needs to cover so many usecases and situations. This is pure speculation, but I can imagine the sheer complexity makes it unattractive for platforms to implement and maintain, which could be contributing to the very slow and partial rollout we're seeing on the platforms of even founding members of the project like the BBC.
