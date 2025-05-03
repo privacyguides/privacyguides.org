@@ -71,7 +71,7 @@ It is important that you have other people using your instance so that the queri
 ![Vaultwarden logo](../assets/img/self-hosting/vaultwarden.svg#only-light){ align=right }
 ![Vaultwarden logo](../assets/img/self-hosting/vaultwarden-dark.svg#only-dark){ align=right }
 
-**Vaultwarden** is an alternative implementation of [Bitwarden](passwords.md#bitwarden)'s sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy [official service](https://github.com/bitwarden/server) might not be ideal.
+**Vaultwarden** is an alternative implementation of [Bitwarden](../passwords.md#bitwarden)'s sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy [official service](https://github.com/bitwarden/server) might not be ideal.
 
 [:octicons-repo-16: Repository](https://github.com/dani-garcia/vaultwarden#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title="Documentation" }
@@ -131,7 +131,7 @@ Self-hosting your own instance of a web-based frontend can help you circumvent r
     [:octicons-info-16:](https://docs.invidious.io/installation){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Source Code" }
 
-- ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } **Piped (YouTube)**
+- ![Piped logo](../assets/img/frontends/piped.svg){ .twemoji } **Piped (YouTube)**
 
     ---
 
