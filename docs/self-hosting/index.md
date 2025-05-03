@@ -22,6 +22,8 @@ Self-hosting your own solutions requires advanced technical knowledge and a deep
 
 </div>
 
+[Learn more :material-arrow-right-drop-circle:](email-servers.md)
+
 ## :material-dns: DNS Filtering
 
 <div class="grid cards" markdown>
@@ -30,6 +32,8 @@ Self-hosting your own solutions requires advanced technical knowledge and a deep
 - ![Pi-hole logo](../assets/img/self-hosting/pi-hole.svg){ .twemoji loading=lazy } [Pi-hole](dns-filtering.md#pi-hole)
 
 </div>
+
+[Learn more :material-arrow-right-drop-circle:](dns-filtering.md)
 
 ## :material-file-multiple-outline: File Management
 
@@ -42,6 +46,8 @@ Self-hosting your own solutions requires advanced technical knowledge and a deep
 - ![Nextcloud logo](../assets/img/self-hosting/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud](file-management.md#nextcloud)
 
 </div>
+
+[Learn more :material-arrow-right-drop-circle:](file-management.md)
 
 ## :material-search-web: Search Engines
 
