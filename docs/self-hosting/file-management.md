@@ -28,41 +28,6 @@ Self-hosting your own file management tools may be a good idea to reduce the ris
 
 </div>
 
-### Nextcloud
-
-<div class="admonition recommendation" markdown>
-
-![Nextcloud logo](../assets/img/self-hosting/nextcloud.svg){ align=right }
-
-**Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
-
-[:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://nextcloud.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title="Contribute" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
-- [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
-- [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
-- [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
-- [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
-
-</details>
-
-</div>
-
-<div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
-
-We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality. For this reason, we don't recommend third-party Nextcloud providers.
-
-</div>
-
 ### Peergos
 
 <div class="admonition recommendation" markdown>
@@ -115,5 +80,40 @@ ffsend upload --host https://example.com/ FILE
 [:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title="Documentation" }
 [:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://freedomboxfoundation.org/donate){ .card-link title="Contribute" }
+
+</div>
+
+## Nextcloud
+
+<div class="admonition recommendation" markdown>
+
+![Nextcloud logo](../assets/img/self-hosting/nextcloud.svg){ align=right }
+
+**Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
+
+[:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://nextcloud.com/support){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title="Contribute" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
+- [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
+- [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
+- [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
+- [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
+
+</details>
+
+</div>
+
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
+
+We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality. For this reason, we don't recommend third-party Nextcloud providers.
 
 </div>
