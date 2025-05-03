@@ -11,7 +11,38 @@ cover: cloud.webp
 
 Self-hosting your own file management tools may be a good idea to reduce the risk of encryption flaws in a cloud provider's native clients.
 
-## File Storage
+## Photo Management
+
+### Ente Photos
+
+<div class="admonition recommendation" markdown>
+
+![Ente logo](../assets/img/photo-management/ente.svg){ align=right }
+
+**Ente Photos** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Their code is fully open-source, both on the client side and on the server side.
+
+[:octicons-home-16:](https://ente.io){ .card-link title="Homepage" }
+[:octicons-info-16:](https://help.ente.io/self-hosting){ .card-link title="Admin Documentation" }
+[:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
+
+</div>
+
+### Stingle
+
+<div class="admonition recommendation" markdown>
+
+![Stingle logo](../assets/img/photo-management/stingle.png#only-light){ align=right }
+![Stingle logo](../assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
+
+**Stingle** is a gallery and camera application with built-in, end-to-end encrypted backup and sync functionality for your photos and videos. Refer to the documentation on their website for hosting your own Stingle API server.
+
+[:octicons-home-16:](https://ente.io){ .card-link title="Homepage" }
+[:octicons-info-16:](https://stingle.org/server){ .card-link title="Admin Documentation" }
+[:octicons-code-16:](https://github.com/stingle){ .card-link title="Source Code" }
+
+</details>
+
+</div>
 
 ### PhotoPrism
 
@@ -83,7 +114,7 @@ ffsend upload --host https://example.com/ FILE
 
 </div>
 
-## Nextcloud
+### Nextcloud
 
 <div class="admonition recommendation" markdown>
 
