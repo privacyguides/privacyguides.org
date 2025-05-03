@@ -17,9 +17,9 @@ Self-hosting your own solutions requires advanced technical knowledge and a deep
 
 <div class="grid cards" markdown>
 
-- ![Stalwart logo](../assets/img/email/stalwart.svg){ .twemoji loading=lazy } [Stalwart](email-servers.md#stalwart)
-- ![Mailcow logo](../assets/img/email/mailcow.svg){ .twemoji loading=lazy } [Mailcow](email-servers.md#mailcow)
-- ![Mail-in-a-Box logo](../assets/img/email/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email-servers.md#mail-in-a-box)
+- ![Stalwart logo](../assets/img/self-hosting/stalwart.svg){ .twemoji loading=lazy } [Stalwart](email-servers.md#stalwart)
+- ![Mailcow logo](../assets/img/self-hosting/mailcow.svg){ .twemoji loading=lazy } [Mailcow](email-servers.md#mailcow)
+- ![Mail-in-a-Box logo](../assets/img/self-hosting/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email-servers.md#mail-in-a-box)
 
 </div>
 
@@ -27,8 +27,8 @@ Self-hosting your own solutions requires advanced technical knowledge and a deep
 
 <div class="grid cards" markdown>
 
-- ![AdGuard Home logo](../assets/img/dns/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns-filtering.md#adguard-home)
-- ![Pi-hole logo](../assets/img/dns/pi-hole.svg){ .twemoji loading=lazy } [Pi-hole](dns-filtering.md#pi-hole)
+- ![AdGuard Home logo](../assets/img/self-hosting/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns-filtering.md#adguard-home)
+- ![Pi-hole logo](../assets/img/self-hosting/pi-hole.svg){ .twemoji loading=lazy } [Pi-hole](dns-filtering.md#pi-hole)
 
 </div>
 
@@ -36,11 +36,11 @@ Self-hosting your own solutions requires advanced technical knowledge and a deep
 
 <div class="grid cards" markdown>
 
-- ![PhotoPrism logo](../assets/img/photo-management/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](file-management.md#photoprism)
+- ![PhotoPrism logo](../assets/img/self-hosting/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](file-management.md#photoprism)
 - ![Peergos logo](../assets/img/cloud/peergos.svg){ .twemoji loading=lazy } [Peergos](file-management.md#peergos)
 - ![Send logo](../assets/img/file-sharing-sync/send.svg){ .twemoji loading=lazy } [Send](file-management.md#send)
-- ![FreedomBox logo](../assets/img/file-sharing-sync/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-management.md#freedombox)
-- ![Nextcloud logo](../assets/img/document-collaboration/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud](file-management.md#nextcloud)
+- ![FreedomBox logo](../assets/img/self-hosting/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-management.md#freedombox)
+- ![Nextcloud logo](../assets/img/self-hosting/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud](file-management.md#nextcloud)
 
 </div>
 
