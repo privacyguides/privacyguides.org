@@ -7,7 +7,7 @@ cover: router.webp
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-server-network: Service Providers](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
 Using **self-hosted software and services** can be a way to achieve a higher level of privacy through digital sovereignty, particularly independence from cloud servers controlled by product developers or vendors. By self-hosting, we mean hosting applications and data on your own hardware.
 
@@ -24,7 +24,7 @@ Advanced system administrators may consider setting up their own email server. M
 
 <div class="admonition recommendation" markdown>
 
-![Stalwart logo](assets/img/self-hosting/stalwart.svg){ align=right }
+![Stalwart logo](../assets/img/self-hosting/stalwart.svg){ align=right }
 
 **Stalwart** is a newer mail server written in Rust which supports JMAP in addition to the standard IMAP, POP3, and SMTP. It has a wide variety of configuration options, but also defaults to very reasonable settings in terms of both security and features, making it easy to use immediately. It has web-based administration with TOTP 2FA support and allows you to enter your public PGP key to encrypt **all** incoming messages.
 
@@ -35,9 +35,9 @@ Advanced system administrators may consider setting up their own email server. M
 
 </div>
 
-Stalwart's [PGP implementation](https://stalw.art/docs/encryption/overview) is unique among our self-hosted recommendations and allows you to operate your own mail server with zero-knowledge message storage. If you additionally configure Web Key Directory (WKD) on your domain, and if you use an email client which supports PGP and WKD for outgoing mail (like Thunderbird), then this is the easiest way to get self-hosted E2EE compatibility with all [Proton Mail](email.md#proton-mail) users.
+Stalwart's [PGP implementation](https://stalw.art/docs/encryption/overview) is unique among our self-hosted recommendations and allows you to operate your own mail server with zero-knowledge message storage. If you additionally configure Web Key Directory (WKD) on your domain, and if you use an email client which supports PGP and WKD for outgoing mail (like Thunderbird), then this is the easiest way to get self-hosted E2EE compatibility with all [Proton Mail](../email.md#proton-mail) users.
 
-Stalwart does **not** have an integrated webmail, so you will need to use it with a [dedicated email client](email-clients.md) or find an open-source webmail to self-host, like Nextcloud's Mail app.
+Stalwart does **not** have an integrated webmail, so you will need to use it with a [dedicated email client](../email-clients.md) or find an open-source webmail to self-host, like Nextcloud's Mail app.
 
 We use Stalwart for our own internal email at *Privacy Guides*.
 
@@ -45,7 +45,7 @@ We use Stalwart for our own internal email at *Privacy Guides*.
 
 <div class="admonition recommendation" markdown>
 
-![Mailcow logo](assets/img/self-hosting/mailcow.svg){ align=right }
+![Mailcow logo](../assets/img/self-hosting/mailcow.svg){ align=right }
 
 **Mailcow** is an advanced mail server perfect for those with Linux experience. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
@@ -60,7 +60,7 @@ We use Stalwart for our own internal email at *Privacy Guides*.
 
 <div class="admonition recommendation" markdown>
 
-![Mail-in-a-Box logo](assets/img/self-hosting/mail-in-a-box.svg){ align=right }
+![Mail-in-a-Box logo](../assets/img/self-hosting/mail-in-a-box.svg){ align=right }
 
 **Mail-in-a-Box** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for people to set up their own mail server.
 
@@ -78,7 +78,7 @@ A self-hosted DNS solution is useful for providing filtering on controlled platf
 
 <div class="admonition recommendation" markdown>
 
-![Pi-hole logo](assets/img/self-hosting/pi-hole.svg){ align=right }
+![Pi-hole logo](../assets/img/self-hosting/pi-hole.svg){ align=right }
 
 **Pi-hole** is an open-source [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
 
@@ -96,7 +96,7 @@ Pi-hole is designed to be hosted on a Raspberry Pi, but it is not limited to suc
 
 <div class="admonition recommendation" markdown>
 
-![AdGuard Home logo](assets/img/self-hosting/adguard-home.svg){ align=right }
+![AdGuard Home logo](../assets/img/self-hosting/adguard-home.svg){ align=right }
 
 **AdGuard Home** is an open-source [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
 
@@ -115,7 +115,7 @@ AdGuard Home features a polished web interface to view insights and manage block
 
 <div class="admonition recommendation" markdown>
 
-![PhotoPrism logo](assets/img/self-hosting/photoprism.svg){ align=right }
+![PhotoPrism logo](../assets/img/self-hosting/photoprism.svg){ align=right }
 
 **PhotoPrism** is a platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
 
@@ -130,7 +130,7 @@ AdGuard Home features a polished web interface to view insights and manage block
 
 <div class="admonition recommendation" markdown>
 
-![Nextcloud logo](assets/img/self-hosting/nextcloud.svg){ align=right }
+![Nextcloud logo](../assets/img/self-hosting/nextcloud.svg){ align=right }
 
 **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
 
@@ -165,7 +165,7 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 
 <div class="admonition recommendation" markdown>
 
-![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
+![Peergos logo](../assets/img/cloud/peergos.svg){ align=right }
 
 **Peergos** provides a secure and private space where users can store, share, and view their photos, videos, documents, etc. Peergos secures your files with quantum-resistant end-to-end encryption and ensures all data about your files remains private.
 
@@ -185,7 +185,7 @@ Running a local version of Peergos alongside a registered account on their paid,
 
 <div class="admonition recommendation" markdown>
 
-![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
+![SearXNG logo](../assets/img/search-engines/searxng.svg){ align=right }
 
 **SearXNG** is an open-source, [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine) that serves as a proxy between you and the search engines it aggregates from.
 
@@ -203,7 +203,7 @@ It is important that you have other people using your instance so that the queri
 
 <div class="admonition recommendation" markdown>
 
-![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
+![Send logo](../assets/img/file-sharing-sync/send.svg){ align=right }
 
 **Send** allows you to share files with others using a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well.
 
@@ -223,7 +223,7 @@ ffsend upload --host https://example.com/ FILE
 
 <div class="admonition recommendation" markdown>
 
-![FreedomBox logo](assets/img/self-hosting/freedombox.svg){ align=right }
+![FreedomBox logo](../assets/img/self-hosting/freedombox.svg){ align=right }
 
 **FreedomBox** is an operating system designed to be run on a [single-board computer (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). The purpose is to make it easy to set up server applications for use cases like sharing files.
 
@@ -240,8 +240,8 @@ ffsend upload --host https://example.com/ FILE
 
 <div class="admonition recommendation" markdown>
 
-![Vaultwarden logo](assets/img/self-hosting/vaultwarden.svg#only-light){ align=right }
-![Vaultwarden logo](assets/img/self-hosting/vaultwarden-dark.svg#only-dark){ align=right }
+![Vaultwarden logo](../assets/img/self-hosting/vaultwarden.svg#only-light){ align=right }
+![Vaultwarden logo](../assets/img/self-hosting/vaultwarden-dark.svg#only-dark){ align=right }
 
 **Vaultwarden** is an alternative implementation of [Bitwarden](passwords.md#bitwarden)'s sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy [official service](https://github.com/bitwarden/server) might not be ideal.
 
@@ -256,7 +256,7 @@ ffsend upload --host https://example.com/ FILE
 
 <div class="admonition recommendation" markdown>
 
-![Psono logo](assets/img/password-management/psono.svg){ align=right }
+![Psono logo](../assets/img/password-management/psono.svg){ align=right }
 
 **Psono** is a free and open-source password manager with a focus on password management for teams. Psono supports secure sharing of passwords, files, bookmarks, and emails. All secrets are protected by a master password.
 
@@ -281,21 +281,21 @@ Self-hosting your own instance of a web-based frontend can help you circumvent r
 
 <div class="grid cards" markdown>
 
-- ![Redlib logo](assets/img/frontends/redlib.svg){ .lg .middle .twemoji } **Redlib (Reddit)**
+- ![Redlib logo](../assets/img/frontends/redlib.svg){ .lg .middle .twemoji } **Redlib (Reddit)**
 
     ---
 
     [:octicons-info-16:](https://github.com/redlib-org/redlib#deployment){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Source Code" }
 
-- ![ProxiTok logo](assets/img/frontends/proxitok.svg){ .lg .middle .twemoji } **ProxiTok (TikTok)**
+- ![ProxiTok logo](../assets/img/frontends/proxitok.svg){ .lg .middle .twemoji } **ProxiTok (TikTok)**
 
     ---
 
     [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki/Self-hosting){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Source Code" }
 
-- ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } **Invidious (YouTube)**
+- ![Invidious logo](../assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](../assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } **Invidious (YouTube)**
 
     ---
 
@@ -318,7 +318,7 @@ Tool recommendations in other categories of the website also provide a self-host
 
 <div class="grid cards" markdown>
 
-- ![Addy.io logo](assets/img/email-aliasing/addy.svg){ .twemoji } **Addy.io (Email Aliasing)**
+- ![Addy.io logo](../assets/img/email-aliasing/addy.svg){ .twemoji } **Addy.io (Email Aliasing)**
 
     ---
 
@@ -326,7 +326,7 @@ Tool recommendations in other categories of the website also provide a self-host
     [:octicons-info-16:](https://addy.io/self-hosting){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
 
-- ![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ .twemoji } **SimpleLogin (Email Aliasing)**
+- ![SimpleLogin logo](../assets/img/email-aliasing/simplelogin.svg){ .twemoji } **SimpleLogin (Email Aliasing)**
 
     ---
 
@@ -334,7 +334,7 @@ Tool recommendations in other categories of the website also provide a self-host
     [:octicons-info-16:](https://github.com/simple-login/app#prerequisites){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
 
-- ![Ente logo](assets/img/photo-management/ente.svg#only-light){ .twemoji }![Ente logo](assets/img/photo-management/ente.svg#only-dark){ .twemoji } **Ente Photos (Photo Manager)**
+- ![Ente logo](../assets/img/photo-management/ente.svg#only-light){ .twemoji }![Ente logo](../assets/img/photo-management/ente.svg#only-dark){ .twemoji } **Ente Photos (Photo Manager)**
 
     ---
 
@@ -342,7 +342,7 @@ Tool recommendations in other categories of the website also provide a self-host
     [:octicons-info-16:](https://help.ente.io/self-hosting){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
 
-- ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ .twemoji }![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ .twemoji } **Stingle (Photo Manager)**
+- ![Stingle logo](../assets/img/photo-management/stingle.png#only-light){ .twemoji }![Stingle logo](../assets/img/photo-management/stingle-dark.png#only-dark){ .twemoji } **Stingle (Photo Manager)**
 
     ---
 
@@ -350,7 +350,7 @@ Tool recommendations in other categories of the website also provide a self-host
     [:octicons-info-16:](https://stingle.org/server){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/stingle){ .card-link title="Source Code" }
 
-- ![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ .twemoji } **CryptPad (Online Office Suite)**
+- ![CryptPad logo](../assets/img/document-collaboration/cryptpad.svg){ .twemoji } **CryptPad (Online Office Suite)**
 
     ---
 
@@ -358,7 +358,7 @@ Tool recommendations in other categories of the website also provide a self-host
     [:octicons-info-16:](https://docs.cryptpad.org/en/admin_guide/index.html){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
 
-- ![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ .twemoji }![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ .twemoji } **LanguageTool (Grammar, Style, and Spell Checker)**
+- ![LanguageTool logo](../assets/img/language-tools/languagetool.svg#only-light){ .twemoji }![LanguageTool logo](../assets/img/language-tools/languagetool-dark.svg#only-dark){ .twemoji } **LanguageTool (Grammar, Style, and Spell Checker)**
 
     ---
 
@@ -366,7 +366,7 @@ Tool recommendations in other categories of the website also provide a self-host
     [:octicons-info-16:](https://dev.languagetool.org/http-server){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="Source Code" }
 
-- ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } **Miniflux (News Aggregator)**
+- ![Miniflux logo](../assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](../assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } **Miniflux (News Aggregator)**
 
     ---
 
@@ -374,7 +374,7 @@ Tool recommendations in other categories of the website also provide a self-host
     [:octicons-info-16:](https://miniflux.app/docs/index.html#administration-guide){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Source Code" }
 
-- ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ .twemoji } **Standard Notes (Notes App)**
+- ![Standard Notes logo](../assets/img/notebooks/standard-notes.svg){ .twemoji } **Standard Notes (Notes App)**
 
     ---
 
@@ -382,7 +382,7 @@ Tool recommendations in other categories of the website also provide a self-host
     [:octicons-info-16:](https://standardnotes.com/help/47/can-i-self-host-standard-notes){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Source Code" }
 
-- ![PrivateBin logo](assets/img/pastebins/privatebin.svg){ .twemoji } **PrivateBin (Pastebin)**
+- ![PrivateBin logo](../assets/img/pastebins/privatebin.svg){ .twemoji } **PrivateBin (Pastebin)**
 
     ---
 
@@ -390,7 +390,7 @@ Tool recommendations in other categories of the website also provide a self-host
     [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/blob/master/doc/Installation.md){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
 
-- ![Paaster logo](assets/img/pastebins/paaster.svg){ .twemoji } **Paaster (Pastebin)**
+- ![Paaster logo](../assets/img/pastebins/paaster.svg){ .twemoji } **Paaster (Pastebin)**
 
     ---
 
@@ -398,7 +398,7 @@ Tool recommendations in other categories of the website also provide a self-host
     [:octicons-info-16:](https://github.com/WardPearce/paaster#deployment){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/WardPearce/paaster){ .card-link title="Source Code" }
 
-- ![SimpleX Chat logo](assets/img/messengers/simplex.svg){ .twemoji } **SimpleX Chat (Instant Messenger)**
+- ![SimpleX Chat logo](../assets/img/messengers/simplex.svg){ .twemoji } **SimpleX Chat (Instant Messenger)**
 
     ---
 
@@ -406,7 +406,7 @@ Tool recommendations in other categories of the website also provide a self-host
     [:octicons-info-16:](https://simplex.chat/docs/server.html){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
 
-- ![Element logo](assets/img/messengers/element.svg){ .twemoji } **Element (Matrix Client)**
+- ![Element logo](../assets/img/messengers/element.svg){ .twemoji } **Element (Matrix Client)**
 
     ---
 
