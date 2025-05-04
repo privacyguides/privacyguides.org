@@ -90,6 +90,14 @@ The way content credentials work draws on concepts both familiar and alien. The 
 
 Content Credentials are contained in what's called the **manifest**. The manifest consists of the claim, claim signature, and assertions.
 
+#### Assertions
+
+An assertion is labelled data such as the type of camera used, actions performed on the image such as color corrections, a thumbnail image, or other types of data.
+
+#### Claim
+
+The claim gathers together all the assertions and then hashes and cryptographically signs them.
+
 ### Signatures
 
 The foundation is based around cryptographic signatures, similar to how you'd cryptographically sign software or text with a PGP signature.
@@ -117,6 +125,16 @@ An issue I noticed is when making edits using software that doesn't support Cont
 These verification programs tend to offer a way to check against a database of images with Content Credentials so you can find an image with unbroken provenance data.
 
 I think this problem will be less and less of an issue when more software supports the standard. It will need to be so ubiquitous that image viewing programs don't trust images without provenance data, similar to how browsers don't trust websites without HTTPS. But for now with its very limited availability, that's not the case.
+
+### Privacy
+
+Since Content Credentials are all about ataching extra data to images, concerns about privacy are reasonable.
+
+However, it's important to remember that metadata has always existed in relation to digital files. Just like the metadata we've always had, Content Credentials are optional.
+
+Of course, it'll be up to programs we use to mediate what data is included. In order for the system to work as intended, certain things like "this photo was edited in Adobe Photoshop" will need to be automatically applied. Clear lines betwen personal data such as names, location, etc need to be kept up to the user to add.
+
+Privacy was one of the stated goals when the C2PA was designing Content Credentials, and I think they've done a good job giving users control over their information.
 
 ## Support
 
@@ -173,3 +191,5 @@ Since anyone can add their own Content Credentials to an image, a warning is dis
 ### Complexity
 
 One of the issues I ran into while researching was just how complex the standard is, since it needs to cover so many usecases and situations. This is pure speculation, but I can imagine the sheer complexity makes it unattractive for platforms to implement and maintain, which could be contributing to the very slow and partial rollout we're seeing on the platforms of even founding members of the project like the BBC.
+
+I think this will be less of an issue as it rolls out however, as platforms will likely be able to use each others' implementations, or at least reference them when implementing it on their platform.
