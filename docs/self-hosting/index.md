@@ -29,7 +29,7 @@ Self-hosting your own solutions requires advanced technical knowledge and a deep
 <div class="grid cards" markdown>
 
 - ![AdGuard Home logo](../assets/img/self-hosting/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns-filtering.md#adguard-home)
-- ![Pi-hole logo](../assets/img/self-hosting/pi-hole.svg){ .twemoji loading=lazy } [Pi-hole](dns-filtering.md#pi-hole)
+- ![Pi-Hole logo](../assets/img/self-hosting/pi-hole.svg){ .twemoji loading=lazy } [Pi-Hole](dns-filtering.md#pi-hole)
 
 </div>
 
@@ -40,8 +40,6 @@ Self-hosting your own solutions requires advanced technical knowledge and a deep
 <div class="grid cards" markdown>
 
 - ![PhotoPrism logo](../assets/img/self-hosting/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](file-management.md#photoprism)
-- ![Peergos logo](../assets/img/cloud/peergos.svg){ .twemoji loading=lazy } [Peergos](file-management.md#peergos)
-- ![Send logo](../assets/img/file-sharing-sync/send.svg){ .twemoji loading=lazy } [Send](file-management.md#send)
 - ![FreedomBox logo](../assets/img/self-hosting/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-management.md#freedombox)
 - ![Nextcloud logo](../assets/img/self-hosting/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud](file-management.md#nextcloud)
 
@@ -145,6 +143,41 @@ Self-hosting your own instance of a web-based frontend can help you circumvent r
 
 </div>
 
+## :material-account-supervisor-circle-outline: Social Networks
+
+Self-hosting your own instance of a social network software can help circumvent potential [censorship on a server level](../social-networks.md) based on a public server's administrator.
+
+### Mastodon
+
+<div class="admonition recommendation" markdown>
+
+![Mastodon logo](../assets/img/social-networks/mastodon.svg){ align=right }
+
+**Mastodon** is a social network based on open web protocols and free, open-source software. It uses the decentralized **:simple-activitypub: ActivityPub** protocol.
+
+[:octicons-home-16:](https://joinmastodon.org){ .card-link title="Homepage" }
+[:octicons-info-16:](https://docs.joinmastodon.org/admin/prerequisites){ .card-link title="Admin Documentation" }
+
+</div>
+
+Mastodon [integrates with the Tor network](https://docs.joinmastodon.org/admin/optional/tor) for more extreme scenarios where even your underlying hosting provider is subject to censorship, but this may limit who can access your content to only other servers which integrate with Tor (like most other hidden services).
+
+Mastodon benefits greatly from a large and active self-hosting community, and its administration is comprehensively documented. While many other ActivityPub platforms can require extensive technical knowledge to run and troubleshoot, Mastodon has very stable and tested releases, and it can generally be run securely without issue by anyone who can use the Linux command line.
+
+### Element
+
+<div class="admonition recommendation" markdown>
+
+![Element logo](../assets/img/messengers/element.svg){ align=right }
+
+**Element** is the flagship client for the **:simple-matrix: [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im)** protocol, an [open standard](https://spec.matrix.org/latest) that enables decentralized communication by way of federated chat rooms.
+
+[:octicons-home-16:](https://element.io){ .card-link title="Homepage" }
+[:octicons-info-16:](https://element-hq.github.io/synapse/latest){ .card-link title="Admin Documentation" }
+[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
+
+</div>
+
 ## More Tools...
 
 Tool recommendations in other categories of the website also provide a self-hosted option, so you could consider this if you are confident in your ability to host the software after reading their documentation.
@@ -166,22 +199,6 @@ Tool recommendations in other categories of the website also provide a self-host
     [:octicons-home-16:](https://addy.io){ .card-link title="Homepage" }
     [:octicons-info-16:](https://github.com/simple-login/app#prerequisites){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
-
-- ![Ente logo](../assets/img/photo-management/ente.svg#only-light){ .twemoji }![Ente logo](../assets/img/photo-management/ente.svg#only-dark){ .twemoji } **Ente Photos (Photo Manager)**
-
-    ---
-
-    [:octicons-home-16:](https://ente.io){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://help.ente.io/self-hosting){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
-
-- ![Stingle logo](../assets/img/photo-management/stingle.png#only-light){ .twemoji }![Stingle logo](../assets/img/photo-management/stingle-dark.png#only-dark){ .twemoji } **Stingle (Photo Manager)**
-
-    ---
-
-    [:octicons-home-16:](https://ente.io){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://stingle.org/server){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/stingle){ .card-link title="Source Code" }
 
 - ![CryptPad logo](../assets/img/document-collaboration/cryptpad.svg){ .twemoji } **CryptPad (Online Office Suite)**
 
@@ -238,13 +255,5 @@ Tool recommendations in other categories of the website also provide a self-host
     [:octicons-home-16:](https://simplex.chat){ .card-link title="Homepage" }
     [:octicons-info-16:](https://simplex.chat/docs/server.html){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
-
-- ![Element logo](../assets/img/messengers/element.svg){ .twemoji } **Element (Matrix Client)**
-
-    ---
-
-    [:octicons-home-16:](https://element.io){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://element-hq.github.io/synapse/latest){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
 
 </div>
