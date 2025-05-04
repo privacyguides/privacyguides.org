@@ -197,3 +197,5 @@ Since anyone can add their own Content Credentials to an image, a warning is dis
 One of the issues I ran into while researching was just how complex the standard is, since it needs to cover so many usecases and situations. This is pure speculation, but I can imagine the sheer complexity makes it unattractive for platforms to implement and maintain, which could be contributing to the very slow and partial rollout we're seeing on the platforms of even founding members of the project like the BBC.
 
 I think this will be less of an issue as it rolls out however, as platforms will likely be able to use each others' implementations, or at least reference them when implementing it on their platform.
+
+The standard is still in early stages and there's plenty of room to shape it and improve it in the future, so make your voice heard about how you want to see it implemented. I think with more awareness about Content Credentials, platforms will feel more pressure to support them, so if you want to see this feature on your favorite platform, speak up and gather support.
