@@ -170,7 +170,7 @@ Mastodon benefits greatly from a large and active self-hosting community, and it
 
 ![Element logo](../assets/img/messengers/element.svg){ align=right }
 
-**Element** is the flagship client for the **:simple-matrix: [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im)** protocol, an [open standard](https://spec.matrix.org/latest) that enables decentralized communication by way of federated chat rooms.
+**Element** is the flagship client for the **:simple-matrix: Matrix** protocol, an open standard that enables decentralized communication by way of federated chat rooms.
 
 [:octicons-home-16:](https://element.io){ .card-link title="Homepage" }
 [:octicons-info-16:](https://element-hq.github.io/synapse/latest){ .card-link title="Admin Documentation" }
