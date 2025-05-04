@@ -106,6 +106,41 @@ It is important that you have other people using your instance so that the queri
 
 Psono provides extensive documentation for their product. The webclient for Psono can be self-hosted; alternatively, you can choose the full Community Edition or the Enterprise Edition with additional features.
 
+## :material-account-supervisor-circle-outline: Social Networks
+
+Self-hosting your own instance of a social network software can help circumvent potential [censorship on a server level](../social-networks.md) based on a public server's administrator.
+
+### Mastodon
+
+<div class="admonition recommendation" markdown>
+
+![Mastodon logo](../assets/img/social-networks/mastodon.svg){ align=right }
+
+**Mastodon** is a social network based on open web protocols and free, open-source software. It uses the decentralized **:simple-activitypub: ActivityPub** protocol.
+
+[:octicons-home-16:](https://joinmastodon.org){ .card-link title="Homepage" }
+[:octicons-info-16:](https://docs.joinmastodon.org/admin/prerequisites){ .card-link title="Admin Documentation" }
+
+</div>
+
+Mastodon [integrates with the Tor network](https://docs.joinmastodon.org/admin/optional/tor) for more extreme scenarios where even your underlying hosting provider is subject to censorship, but this may limit who can access your content to only other servers which integrate with Tor (like most other hidden services).
+
+Mastodon benefits greatly from a large and active self-hosting community, and its administration is comprehensively documented. While many other ActivityPub platforms can require extensive technical knowledge to run and troubleshoot, Mastodon has very stable and tested releases, and it can generally be run securely without issue by anyone who can use the Linux command line and follow step-by-step instructions.
+
+### Element
+
+<div class="admonition recommendation" markdown>
+
+![Element logo](../assets/img/messengers/element.svg){ align=right }
+
+**Element** is the flagship client for the **:simple-matrix: Matrix** protocol, an open standard that enables decentralized communication by way of federated chat rooms.
+
+[:octicons-home-16:](https://element.io){ .card-link title="Homepage" }
+[:octicons-info-16:](https://element-hq.github.io/synapse/latest){ .card-link title="Admin Documentation" }
+[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
+
+</div>
+
 ## :material-flip-to-front: Frontends
 
 Self-hosting your own instance of a web-based frontend can help you circumvent rate limits that you may encounter on high-traffic, public instances. It is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting, as other peoples' usage will be linked to your hosting.
@@ -140,41 +175,6 @@ Self-hosting your own instance of a web-based frontend can help you circumvent r
 
     [:octicons-info-16:](https://docs.piped.video/docs/self-hosting){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
-
-</div>
-
-## :material-account-supervisor-circle-outline: Social Networks
-
-Self-hosting your own instance of a social network software can help circumvent potential [censorship on a server level](../social-networks.md) based on a public server's administrator.
-
-### Mastodon
-
-<div class="admonition recommendation" markdown>
-
-![Mastodon logo](../assets/img/social-networks/mastodon.svg){ align=right }
-
-**Mastodon** is a social network based on open web protocols and free, open-source software. It uses the decentralized **:simple-activitypub: ActivityPub** protocol.
-
-[:octicons-home-16:](https://joinmastodon.org){ .card-link title="Homepage" }
-[:octicons-info-16:](https://docs.joinmastodon.org/admin/prerequisites){ .card-link title="Admin Documentation" }
-
-</div>
-
-Mastodon [integrates with the Tor network](https://docs.joinmastodon.org/admin/optional/tor) for more extreme scenarios where even your underlying hosting provider is subject to censorship, but this may limit who can access your content to only other servers which integrate with Tor (like most other hidden services).
-
-Mastodon benefits greatly from a large and active self-hosting community, and its administration is comprehensively documented. While many other ActivityPub platforms can require extensive technical knowledge to run and troubleshoot, Mastodon has very stable and tested releases, and it can generally be run securely without issue by anyone who can use the Linux command line and follow step-by-step instructions.
-
-### Element
-
-<div class="admonition recommendation" markdown>
-
-![Element logo](../assets/img/messengers/element.svg){ align=right }
-
-**Element** is the flagship client for the **:simple-matrix: Matrix** protocol, an open standard that enables decentralized communication by way of federated chat rooms.
-
-[:octicons-home-16:](https://element.io){ .card-link title="Homepage" }
-[:octicons-info-16:](https://element-hq.github.io/synapse/latest){ .card-link title="Admin Documentation" }
-[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
 
 </div>
 
