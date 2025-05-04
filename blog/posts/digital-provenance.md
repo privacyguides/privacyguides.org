@@ -140,6 +140,10 @@ Privacy was one of the stated goals when the C2PA was designing Content Credenti
 
 There are several online verification tools you can use to try out content credentials. contentcredentials.org offers a [verification tool](https://contentcredentials.org/verify) that lets you upload a media file and check its content credentials.
 
+Here's a definitely real and not AI-generated image of a dog if you want to try out Content Credentials for yourself.
+
+![Image of a dog sitting on the ground outside](../assets/images/digital-provenance/contentcredentialsexample.png)
+
 ### BBC
 
 The BBC is doing a limited trial run of content credentials with [BBC Verify](https://www.bbc.com/news/bbcverify). Not all media in these articles have content credentials attached. [This article](https://www.bbc.com/news/world-latin-america-68462851) has content credentials for the video at the bottom. They also ask for feedback, so feel free to provide some. I'd like to see more content credentials show up in news reporting, so please add your voice.
