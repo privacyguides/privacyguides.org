@@ -96,7 +96,7 @@ An assertion is labelled data such as the type of camera used, actions performed
 
 #### Claim
 
-The claim gathers together all the assertions and then hashes and cryptographically signs them.
+The claim gathers together all the assertions and then hashes and cryptographically signs them. The claim is the part that backs up the assertions with cryptography; without it, there wouldn't be a way to verify the authenticity of the data.
 
 ### Signatures
 
