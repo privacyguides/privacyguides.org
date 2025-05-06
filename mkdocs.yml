@@ -447,6 +447,11 @@ nav:
   - !ENV [NAV_VIDEOS, "Videos"]: /videos/
   - !ENV [NAV_FORUM, "Forum"]:
       !ENV [NAV_FORUM_LINK, "https://discuss.privacyguides.net/"]
+  - !ENV [NAV_WIKI, "Wiki"]:
+      !ENV [
+        NAV_WIKI_LINK,
+        "https://discuss.privacyguides.net/c/community-wiki/9411/none",
+      ]
   - !ENV [NAV_ABOUT, "About"]:
       - "about.md"
       - "about/donate.md"
