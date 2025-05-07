@@ -50,7 +50,7 @@ LanguageTool offers integration with a variety of [office suites](https://langua
 
 <div class="admonition recommendation" markdown>
 
-![LanguageTool logo](assets/img/language-tools/libretranslate.png){ align=right }
+![LibreTranslate logo](assets/img/language-tools/libretranslate.png){ align=right }
 
 **LibreTranslate** is a free and open source machine translation web interface and API server. There are a number of [public instances](https://github.com/LibreTranslate/LibreTranslate?tab=readme-ov-file#mirrors), or you can host it yourself for complete privacy. It uses [Argos Translate](https://github.com/argosopentech/argos-translate) models on the backend for translations.
 
