@@ -1,6 +1,7 @@
 ---
 date:
     created: 2025-05-02T11:20:00Z
+    updated: 2025-05-03T15:00:00Z
 categories:
     - News
 authors:
@@ -24,7 +25,7 @@ preview:
 
 This flaw was anonymously reported to *Privacy Guides* by a member of our [community](https://discuss.privacyguides.net/), and I confirmed it via the latest Tor Browser 14.5.1 on macOS. Additionally, I confirmed this behavior in Mullvad Browser 14.5.1 on macOS.
 
-I was unable to find any documentation or open GitLab issues with Tor regarding the need to take additional steps before security settings are fully applied, and Tor Browser documentation does not note that a restart is required, nor does it prompt users to restart the browser after security changes are made.
+~~I was unable to find any documentation or open GitLab issues with Tor regarding the need to take additional steps before security settings are fully applied, and~~ Tor Browser documentation does not note that a restart is required, nor does it prompt users to restart the browser after security changes are made. (update: see below)
 
 This presents a high risk to people who switch from Standard to Safer security during a browsing session with the goal to protect themselves from browser exploits.
 
@@ -65,4 +66,17 @@ This is our public service announcement to make sure you **always completely res
 
 Hopefully, Tor Browser will prompt or force their users to restart the browser after adjusting these settings in a future update.
 
-I reached out to the Tor Project for comment prior to publication, but have not yet received a reply. *Privacy Guides* will update this article if they respond to our request for comment.
+---
+
+**Update (5/3):** A few hours following the publication of this article, the Tor Project emailed us the following statement:
+
+> The Tor Project is aware of this issue, and it is being tracked and actively
+> addressed. Those interested can follow the discussion and progress here:
+> <https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/42572>. In
+> addition to a restart prompt, we’re also exploring broader improvements to the
+> security level system, including aligning it more closely with Tor Browser's
+> updated threat model\[1] and possibly delegating even more of its back-end
+> to NoScript for additional flexibility. These improvements may be part of the
+> upcoming 15.0 release cycle.
+>
+> \[1]: <https://gitlab.torproject.org/tpo/applications/wiki/-/wikis/>

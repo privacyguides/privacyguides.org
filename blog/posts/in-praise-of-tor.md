@@ -1,8 +1,11 @@
 ---
 date:
     created: 2025-04-30T20:30:00Z
+    updated: 2025-05-06T18:00:00Z
 categories:
     - Explainers
+tags:
+    - Tor
 authors:
     - em
 description: You might have heard of Tor in the news a few times, yet never dared to try it yourself. Despite being around for decades, Tor is still a tool too few people know about. Today, Tor is easy to use for anyone. It not only helps journalists and activists, but anybody who seeks greater privacy online or access to information regardless of location. But what is Tor exactly? How can Tor help you? And why is it such an important tool?
@@ -91,6 +94,8 @@ The Tor Browser start configuration is private by default. No additional extensi
 Even if the Tor Browser is configured to be private by default, if you are in an especially sensitive situation, for example if you are using Tor as a whistleblower or a dissident activist, you might want to adjust the Tor Browser security level to "Safest".
 
 For this, click on the shield icon on the upper-right, then on the "Settings" button in blue, and select "Safest" instead of the default "Standard".
+
+**Important:** Each time you change the security level, you **must** make sure to restart the browser to ensure all changes have taken effect. Otherwise, [some changes](tor-security-slider-flaw.md) might not have been applied yet.
 
 </div>
 
@@ -409,3 +414,7 @@ There are many ways to help Tor survive and thrive! You can help by:
 For more in-depth information about Tor, you can consult our [Tor Overview](https://www.privacyguides.org/en/advanced/tor-overview/).
 
 <small aria-hidden="true">Unless credited otherwise, all screenshots from: Privacy Guides</small>
+
+---
+
+**Update (5/6):** This article was updated to note [the importance of restarting Tor Browser](tor-security-slider-flaw.md) when changing security level settings.
