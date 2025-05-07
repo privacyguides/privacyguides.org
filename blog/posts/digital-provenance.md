@@ -92,6 +92,10 @@ It's important to note that Content Credentials aren't attempting to determine "
 
 Content Credentials are contained in what's called the **manifest**. The manifest consists of the claim, claim signature, and assertions.
 
+The manifest is created by hardware or software called a "claim generator."
+
+Files can have multiple manifests, and the set of manifests comprise its provenance data.
+
 #### Assertions
 
 An assertion is labelled data such as the type of camera used, actions performed on the image such as color corrections, a thumbnail image, or other types of data.
