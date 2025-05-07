@@ -43,7 +43,10 @@ The app gives severe weather alerts as well as precipations alerts.
 - [:simple-fdroid: F-Droid](https://github.com/breezy-weather/breezy-weather/blob/main/INSTALL.md#f-droid-client)
 
 </details>
+
 </div>
+
+The app comes in two different [flavors](https://github.com/breezy-weather/breezy-weather/blob/main/INSTALL.md#flavors), both of which are fully open-source do not contain any proprietary components. The standard flavor has includes all supported weather sources, while the "free-net" flavor only contains sources that are libre and self-hostable.
 
 ## QuickWeather
 
