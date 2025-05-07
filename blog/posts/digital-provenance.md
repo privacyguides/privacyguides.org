@@ -68,17 +68,19 @@ The effort required is low and the return is high. With TikTok's [Creator Reward
 
 [Several](https://youtu.be/E4I6K8OEyho?si=wbWAUcLsjOA7yDnO) [history](https://youtu.be/cqrHmjGD1ds?si=k60RTO9MH177ASTS) [channels](https://youtu.be/HG1324unhcA?si=MuwglKd52FQ7iKU3) on YouTube have expressed their concerns about misinformation being spread about history through AI generated images and videos and how they can distort our view of the past. There's even the possibility that these AI generated images could end up polluting the historical record.
 
-## Project Origin
-
-Project Origin is led by Microsoft and the BBC. 
-
 ## Content Authority Initiative
 
-The Content Authority Initiative is led by Adobe. It has similar aims to Project Origin of increasing trust in content posted online.
+In 2019, [Adobe announced](https://contentauthenticity.org/blog/test) that it was partnering with the New York Times and Twitter on a project to develop an industry standard for digital content attribution.
+
+Twitter has since dropped out of the partnership.
+
+## Project Origin
+
+At the same time, [Project Origin](https://www.originproject.info) was designing their system for content transparency. This started as a partnership between Microsoft and the BBC.
 
 ## C2PA
 
-The Coalition for Content Provenance and Authenticity, or [C2PA](https://c2pa.org), combines the efforts of Project Origin and the Content Authenticity Initiative. 
+The Coalition for Content Provenance and Authenticity, or [C2PA](https://c2pa.org), combines the efforts of Project Origin and the Content Authenticity Initiative. Together, they created the [C2PA standard](https://c2pa.org/specifications/specifications/2.1/specs/C2PA_Specification.html) used to add verifiable provenance data to files, which they dub "Content Credentials."
 
 ## Content Credentials
 
@@ -91,6 +93,8 @@ It's important to note that Content Credentials aren't attempting to determine "
 ### Manifest
 
 Content Credentials are contained in what's called the **manifest**. The manifest consists of the claim, claim signature, and assertions.
+
+![alt text](https://c2pa.org/specifications/specifications/2.1/specs/_images/Manifest.drawio.svg)
 
 The manifest is created by hardware or software called a "claim generator."
 
