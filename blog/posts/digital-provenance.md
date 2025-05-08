@@ -90,7 +90,7 @@ The Coalition for Content Provenance and Authenticity, or [C2PA](https://c2pa.or
 
 Content Credentials are the implementation of digital provenance by the C2PA, the culmination of years of research and development by major tech companies, from camera manufacturers to photo editing software and AI companies to social media sites.
 
-The way content credentials work draws on concepts both familiar and alien. The standard is designed to be flexible and cover the myriad ways media is used online.
+The way Content Credentials work draws on concepts both familiar and alien. The standard is designed to be flexible and cover the myriad ways media is used online.
 
 It's important to note that Content Credentials aren't attempting to determine "truth"; that's a much more complex and philosophical topic. Rather, they're trying to show where an image came from, edits made to it, it's constituent parts, etc so that you can decide for yourself if you trust the source. It's trying to show you that an image came from the BBC, rather than whether you should trust the BBC.
 
@@ -120,13 +120,13 @@ The foundation is based around cryptographic signatures, similar to how you'd cr
 
 There are certificate authorities similar to how HTTPS works, which allow only signatures from trusted sources. Non-trusted signatures will give a warning in whatever C2PA-enabled software you're using.
 
-Content credentials allow for each application to provide its own *trust lists*: lists of certificate authorities trusted by the application.
+Content Credentials allow for each application to provide its own *trust lists*: lists of certificate authorities trusted by the application.
 
 The C2PA gives a few examples to illustrate. A news organization might rely on a non-profit organization that verifies the authenticity of sources through real-world due diligence. An insurance company might operate its own internal CA to verify only its own employees handled the images.
 
 ### Ingredients
 
-However, what's interesting is content credentials can cover multiple assets being combined together and still be able to verify each element of the image. Each element is called an "ingredient." When the ingredients come together, the result is called a "composed asset," with "asset" referring to a digital media file or data stream.
+However, what's interesting is Content Credentials can cover multiple assets being combined together and still be able to verify each element of the image. Each element is called an "ingredient." When the ingredients come together, the result is called a "composed asset," with "asset" referring to a digital media file or data stream.
 
 ### Chain of Provenance
 
@@ -152,7 +152,7 @@ Privacy was one of the stated goals when the C2PA was designing Content Credenti
 
 ## Support
 
-There are several online verification tools you can use to try out content credentials. contentcredentials.org offers a [verification tool](https://contentcredentials.org/verify) that lets you upload a media file and check its content credentials.
+There are several online verification tools you can use to try out Content Credentials. contentcredentials.org offers a [verification tool](https://contentcredentials.org/verify) that lets you upload a media file and check its Content Credentials.
 
 Here's a definitely real and not AI-generated image of a dog if you want to try out Content Credentials for yourself.
 
@@ -160,19 +160,19 @@ Here's a definitely real and not AI-generated image of a dog if you want to try 
 
 ### BBC
 
-The BBC is doing a limited trial run of content credentials with [BBC Verify](https://www.bbc.com/news/bbcverify). Not all media in these articles have content credentials attached. [This article](https://www.bbc.com/news/world-latin-america-68462851) has content credentials for the video at the bottom. They also ask for feedback, so feel free to provide some. I'd like to see more content credentials show up in news reporting, so please add your voice.
+The BBC is doing a limited trial run of Content Credentials with [BBC Verify](https://www.bbc.com/news/bbcverify). Not all media in these articles have Content Credentials attached. [This article](https://www.bbc.com/news/world-latin-america-68462851) has Content Credentials for the video at the bottom. They also ask for feedback, so feel free to provide some. I'd like to see more Content Credentials show up in news reporting, so please add your voice.
 
 ### OpenAI
 
-OpenAI has embraced content credentials, with images generated using ChatGPT identifying themselves using content credentials. Try [generating an image](https://chatgpt.com) and upload it to the verification tool. You should see it identify the origin as OpenAI.
+OpenAI has embraced Content Credentials, with images generated using ChatGPT identifying themselves using Content Credentials. Try [generating an image](https://chatgpt.com) and upload it to the verification tool. You should see it identify the origin as OpenAI.
 
 ### TikTok
 
-[TikTok](https://newsroom.tiktok.com/en-us/partnering-with-our-industry-to-advance-ai-transparency-and-literacy) became the first social media platform to support content credentials. For now, it's limited to being able to read content credentials from certain AI platforms. They say in the future they'll start labeling all content from TikTok with content credentials, but it seems they haven't enabled that yet, as if you download a video from TikTok, the C2PA verify tool will say it doesn't have any content credentials.
+[TikTok](https://newsroom.tiktok.com/en-us/partnering-with-our-industry-to-advance-ai-transparency-and-literacy) became the first social media platform to support Content Credentials. For now, it's limited to being able to read Content Credentials from certain AI platforms. They say in the future they'll start labeling all content from TikTok with Content Credentials, but it seems they haven't enabled that yet, as if you download a video from TikTok, the C2PA verify tool will say it doesn't have any Content Credentials.
 
 ### Leica
 
-Leica's [M11-P camera](https://leica-camera.com/en-US/photography/cameras/m/m11-p-black) is the first camera in the world to support content credentials. That's a huge step toward adoption; camera manufacturers need to support Content Credentials if they're going to be included from the creation of the image.
+Leica's [M11-P camera](https://leica-camera.com/en-US/photography/cameras/m/m11-p-black) is the first camera in the world to support Content Credentials. That's a huge step toward adoption; camera manufacturers need to support Content Credentials if they're going to be included from the creation of the image.
 
 ### Nikon
 
@@ -198,7 +198,7 @@ There are still major players missing support like Apple and Android, which is a
 
 In my testing, any edits from a program that doesn't support Content Credentials will render them unreadable after that point. This problem won't be as bad if and when support for Content Credentials becomes widespread, since you can just decide not to trust images without them, sort of like not trusting a website without HTTPS. Platforms could even display a warning.
 
-But for now, removing content credentials won't be noticed.
+But for now, removing Content Credentials won't be noticed.
 
 ### Reliant on Certificate Authorities
 
