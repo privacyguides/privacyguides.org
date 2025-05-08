@@ -100,6 +100,8 @@ Content Credentials are contained in what's called the **manifest**. The manifes
 
 ![Example of a Manifest, with the Claim, Claim Signature, and Assertions inside](https://c2pa.org/specifications/specifications/2.1/specs/_images/Manifest.drawio.svg)
 
+<small aria-hidden="true">Illustration: [C2PA](https://c2pa.org/specifications/specifications/2.1/specs/C2PA_Specification.html)</small>
+
 The manifest is created by hardware or software called a "claim generator."
 
 Files can have multiple manifests, and the set of manifests comprise its provenance data.
