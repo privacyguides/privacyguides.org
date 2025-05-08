@@ -92,7 +92,7 @@ Content Credentials are the implementation of digital provenance by the C2PA, th
 
 The way Content Credentials work draws on concepts both familiar and alien. The standard is designed to be flexible and cover the myriad ways media is used online.
 
-It's important to note that Content Credentials aren't attempting to determine "truth"; that's a much more complex and philosophical topic. Rather, they're trying to show where an image came from, edits made to it, it's constituent parts, etc so that you can decide for yourself if you trust the source. It's trying to show you that an image came from the BBC, rather than whether you should trust the BBC.
+It's important to note that Content Credentials aren't attempting to determine "truth"; that's a much more complex and philosophical topic. Rather, they're trying to show where an image came from, edits made to it, its constituent parts, etc so that you can decide for yourself if you trust the source. It's trying to show you that an image came from the BBC, rather than whether you should trust the BBC.
 
 ### Manifest
 
