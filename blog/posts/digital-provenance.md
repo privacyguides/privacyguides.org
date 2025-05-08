@@ -132,7 +132,7 @@ However, what's interesting is Content Credentials can cover multiple assets bei
 
 It also supports a chain of provenance, showing all steps in the life cycle of the file that change its contents such as edits. These are referred to as "actions." 
 
-The specification supports a list of per-defined actions such as edits, changing the color, translating to a different language, etc. It's really quite flexible, but the flexibility of information that can be provided allows for more opportunities for errors and means you need to trust the entity providing the information more.
+The specification supports a list of pre-defined actions such as edits, changing the color, translating to a different language, etc. It's really quite flexible, but the flexibility of information that can be provided allows for more opportunities for errors and means you need to trust the entity providing the information more.
 
 An issue I noticed is when making edits using software that doesn't support Content Credentials, they will be corrupted and can't be read by verification programs. This poses a problem for the "unbroken chain of provenance" that the standard promises.
 
