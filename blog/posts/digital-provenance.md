@@ -52,7 +52,7 @@ On October 16, 1869, Newell hired an unsuspecting pair of workers to dig a well 
 
 <small aria-hidden="true">Photo: [History.com](https://www.history.com/articles/the-cardiff-giant-fools-the-nation-145-years-ago)</small>
 
-Speculation that the sculpture was an ancient, petrified man quickly began to spread. Eventually, a syndicate of businessmen offered Newell $30,000 (worth $[705,438.97](https://www.in2013dollars.com/us/inflation/1869?amount=30000) in today's money).
+Speculation that the sculpture was an ancient, petrified man quickly began to spread. Eventually, a syndicate of businessmen offered Newell $30,000 (worth $[705,438.97](https://www.in2013dollars.com/us/inflation/1869?amount=30000) in today's money) for a three-fourths stake, and he took them up on that offer.
 
 P.T. Barnum even tried to buy the sculpture, and after being turned down, he had a replica built and displayed it in a Manhattan museum. Several other copies were made afterward, and soon, there were petrified giants being exhibited all over the country.
 
