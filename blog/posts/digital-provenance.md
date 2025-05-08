@@ -170,7 +170,7 @@ OpenAI has embraced Content Credentials, with images generated using ChatGPT ide
 
 ### TikTok
 
-[TikTok](https://newsroom.tiktok.com/en-us/partnering-with-our-industry-to-advance-ai-transparency-and-literacy) became the first social media platform to support Content Credentials. For now, it's limited to being able to read Content Credentials from certain AI platforms. They say in the future they'll start labeling all content from TikTok with Content Credentials, but it seems they haven't enabled that yet, as if you download a video from TikTok, the C2PA verify tool will say it doesn't have any Content Credentials.
+[TikTok](https://newsroom.tiktok.com/en-us/partnering-with-our-industry-to-advance-ai-transparency-and-literacy) became the first video sharing platform to support Content Credentials. For now, it's limited to being able to read Content Credentials from certain AI platforms. They say in the future they'll start labeling all content from TikTok with Content Credentials, but it seems they haven't enabled that yet, as if you download a video from TikTok, the C2PA verify tool will say it doesn't have any Content Credentials.
 
 ### Leica
 
