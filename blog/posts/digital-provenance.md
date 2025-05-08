@@ -156,7 +156,7 @@ Privacy was one of the stated goals when the C2PA was designing Content Credenti
 
 ## Support
 
-There are several online verification tools you can use to try out Content Credentials. contentcredentials.org offers a [verification tool](https://contentcredentials.org/verify) that lets you upload a media file and check its Content Credentials. They have some example images on their site you can try, or you can upload images from elsewhere and see where Content Credentials are supported, for example you can upload any image generated in ChatGPT.
+There are several online verification tools you can use to try out Content Credentials. [contentcredentials.org](https://contentcredentials.org) offers a [verification tool](https://contentcredentials.org/verify) that lets you upload a media file and check its Content Credentials. They have some example images on their site you can try, or you can upload images from elsewhere and see where Content Credentials are supported, for example you can upload any image generated in ChatGPT.
 
 They also offer an official [command line tool](https://github.com/contentauth/c2pa-rs/releases?q=c2patool) so you can view exactly what data is being stored in the image. They provide some samples as well that you can play around with. To view the content credentials, just run
 
