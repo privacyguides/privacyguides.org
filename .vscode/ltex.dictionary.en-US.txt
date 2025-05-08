@@ -561,3 +561,4 @@ Chaum
 unlinkability
 Kagi
 Secureblue
+pseudonymity
