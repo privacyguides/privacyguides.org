@@ -146,7 +146,7 @@ I think this problem will be less and less of an issue when more software suppor
 
 ### Privacy
 
-Since Content Credentials are all about ataching extra data to images, concerns about privacy are reasonable.
+Since Content Credentials are all about attaching extra data to images, concerns about privacy are reasonable.
 
 However, it's important to remember that metadata has always existed in relation to digital files. Just like the metadata we've always had, Content Credentials are optional.
 
