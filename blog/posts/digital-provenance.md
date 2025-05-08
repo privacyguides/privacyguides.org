@@ -184,7 +184,7 @@ Leica's [M11-P camera](https://leica-camera.com/en-US/photography/cameras/m/m11-
 
 ### Nikon
 
-Nikon are planning to release a firmware update for their [Z6III](https://www.nikon.co.uk/en_GB/learn-and-explore/magazine/gear/nikon-z6iii-firmware-update-to-feature-content-verification) camera that will support Content Credentials.
+Nikon is planning to release a firmware update for their [Z6III](https://www.nikon.co.uk/en_GB/learn-and-explore/magazine/gear/nikon-z6iii-firmware-update-to-feature-content-verification) camera that will support Content Credentials.
 
 ### Adobe
 
