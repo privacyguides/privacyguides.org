@@ -118,6 +118,8 @@ The claim gathers together all the assertions and then hashes and cryptographica
 
 The foundation is based around cryptographic signatures, similar to how you'd cryptographically sign software or text with a PGP signature.
 
+The parts of a file that are cryptographically verified are called "hard bindings." This allows programs to detect tampering.
+
 #### Certificate Authorities
 
 There are certificate authorities similar to how HTTPS works, which allow only signatures from trusted sources. Non-trusted signatures will give a warning in whatever C2PA-enabled software you're using.
@@ -138,7 +140,7 @@ The specification supports a list of pre-defined actions such as edits, changing
 
 An issue I noticed is when making edits using software that doesn't support Content Credentials, they will be corrupted and can't be read by verification programs. This poses a problem for the "unbroken chain of provenance" that the standard promises.
 
-These verification programs tend to offer a way to check against a database of images with Content Credentials so you can find an image with unbroken provenance data.
+These verification programs tend to offer a way to check against a database of images with Content Credentials so you can find an image with unbroken provenance data. They use "soft bindings" or a type of fingerprinting of the image in order to find similar images in the database.
 
 I think this problem will be less and less of an issue when more software supports the standard. It will need to be so ubiquitous that image viewing programs don't trust images without provenance data, similar to how browsers don't trust websites without HTTPS. But for now with its very limited availability, that's not the case.
 
