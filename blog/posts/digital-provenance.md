@@ -126,7 +126,7 @@ The C2PA gives a few examples to illustrate. A news organization might rely on a
 
 ### Ingredients
 
-However, what's interesting is Content Credentials can cover multiple assets being combined together and still be able to verify each element of the image. Each element is called an "ingredient." When the ingredients come together, the result is called a "composed asset," with "asset" referring to a digital media file or data stream.
+However, what's interesting is Content Credentials can cover multiple assets being [combined together](https://contentcredentials.org/verify?source=https%3A%2F%2Fcontentcredentials.org%2F_app%2Fimmutable%2Fassets%2Fhome2.91ab8f2d.jpg) and still be able to verify each element of the image. Each element is called an "ingredient." When the ingredients come together, the result is called a "composed asset," with "asset" referring to a digital media file or data stream.
 
 ### Chain of Provenance
 
