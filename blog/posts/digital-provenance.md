@@ -158,6 +158,14 @@ Privacy was one of the stated goals when the C2PA was designing Content Credenti
 
 There are several online verification tools you can use to try out Content Credentials. contentcredentials.org offers a [verification tool](https://contentcredentials.org/verify) that lets you upload a media file and check its Content Credentials.
 
+They also offer an official [command line tool](https://github.com/contentauth/c2pa-rs/releases?q=c2patool) so you can view exactly what data is being stored in the image. They provide some samples as well that you can play around with. To view the content credentials, just run
+
+```sh
+c2patool sample/C.jpg
+```
+
+for any image you want to inspect.
+
 Here's a definitely real and not AI-generated image of a dog if you want to try out Content Credentials for yourself.
 
 ![Image of a dog sitting on the ground outside](../assets/images/digital-provenance/contentcredentialsexample.png)
