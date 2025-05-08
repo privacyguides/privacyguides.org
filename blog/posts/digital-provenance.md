@@ -98,7 +98,7 @@ It's important to note that Content Credentials aren't attempting to determine "
 
 Content Credentials are contained in what's called the **manifest**. The manifest consists of the claim, claim signature, and assertions.
 
-![alt text](https://c2pa.org/specifications/specifications/2.1/specs/_images/Manifest.drawio.svg)
+![Example of a Manifest, with the Claim, Claim Signature, and Assertions inside](https://c2pa.org/specifications/specifications/2.1/specs/_images/Manifest.drawio.svg)
 
 The manifest is created by hardware or software called a "claim generator."
 
