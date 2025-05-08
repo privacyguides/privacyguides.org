@@ -198,7 +198,7 @@ With the Snapdragon 8 Gen 3 chipset, Qualcomm is embedding Content Credential ca
 
 ### Lack of Support
 
-Content Credentials will need widespread support at every level, from hardware OEMs to photo editing software vendors and AI generators to sites that host and display images. The rollout of Content Credentials will be slow as more and more companies start to support them. 
+Content Credentials will need widespread support at every level, from hardware OEMs to photo editing software vendors and AI generators to sites that host and display images. The rollout of Content Credentials will be slow, although more and more companies are starting to support them.
 
 There are still major players missing support like Apple and Android, which is a big problem considering how many images are taken, edited, and shared on smartphones. Once photos taken from your phone can be imbued with Content Credentials in the default camera app, we'll see much wider adoption I think.
 
