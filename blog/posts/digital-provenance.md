@@ -72,9 +72,9 @@ The effort required is low and the return is high. With TikTok's [Creator Reward
 
 [Several](https://youtu.be/E4I6K8OEyho?si=wbWAUcLsjOA7yDnO) [history](https://youtu.be/cqrHmjGD1ds?si=k60RTO9MH177ASTS) [channels](https://youtu.be/HG1324unhcA?si=MuwglKd52FQ7iKU3) on YouTube have expressed their concerns about misinformation being spread about history through AI generated images and videos and how they can distort our view of the past. There's even the possibility that these AI generated images could end up polluting the historical record.
 
-## Content Authority Initiative
+## Content Authenticity Initiative
 
-In 2019, [Adobe announced](https://contentauthenticity.org/blog/test) that it was partnering with the New York Times and Twitter on a project to develop an industry standard for digital content attribution.
+In 2019, [Adobe announced](https://contentauthenticity.org/blog/test) that it was partnering with the New York Times and Twitter on a project to develop an industry standard for digital content attribution called the Content Authenticity Initiative.
 
 Twitter has since dropped out of the partnership.
 
