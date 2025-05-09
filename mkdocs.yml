@@ -449,32 +449,23 @@ nav:
       !ENV [NAV_FORUM_LINK, "https://discuss.privacyguides.net/"]
   - !ENV [NAV_ABOUT, "About"]:
       - "about.md"
+      - "about/criteria.md"
       - "about/donate.md"
-      - !ENV [NAV_ABOUT_TEAM_MEMBERS, "Team Members"]:
-          https://discuss.privacyguides.net/u?group=team&order=solutions&period=all
-      - !ENV [NAV_ABOUT_POLICIES, "Policies"]:
-          - "about/criteria.md"
-          - "about/donation-acceptance-policy.md"
-          - "about/executive-policy.md"
+      - !ENV [NAV_DOCUMENTATION, "Documentation"]:
+          - !ENV [NAV_DOCUMENTATION_ALL, "All Documentation"]:
+              https://discuss.privacyguides.net/c/documentation/9410
+          - !ENV [NAV_DOCUMENTATION_POLICIES, "Policies"]:
+              https://discuss.privacyguides.net/tags/c/documentation/9410/policy
+          - !ENV [NAV_WRITING_GUIDE, "Writing Guide"]:
+              https://discuss.privacyguides.net/tags/c/documentation/9410/writing
+          - !ENV [NAV_TECHNICAL_GUIDES, "Technical Guides"]:
+              https://discuss.privacyguides.net/tags/c/documentation/9410/technical
+      - !ENV [NAV_ABOUT_MISC, "Miscellaneous"]:
           - "privacy.md"
           - "about/notices.md"
-      - !ENV [NAV_COMMUNITY, "Community"]:
+          - "about/statistics.md"
           - "about/jobs.md"
           - "about/contributors.md"
-          - !ENV [NAV_ONLINE_SERVICES, "Online Services"]: "about/services.md"
-          - !ENV [NAV_CODE_OF_CONDUCT, "Code of Conduct"]: "CODE_OF_CONDUCT.md"
-          - "about/statistics.md"
-      - !ENV [NAV_CONTRIBUTING, "Contributing"]:
-          - !ENV [NAV_WRITING_GUIDE, "Writing Guide"]:
-              - "meta/writing-style.md"
-              - "meta/admonitions.md"
-              - "meta/brand.md"
-              - "meta/translations.md"
-          - !ENV [NAV_TECHNICAL_GUIDES, "Technical Guides"]:
-              - "meta/uploading-images.md"
-              - "meta/git-recommendations.md"
-              - "meta/commit-messages.md"
-              - "meta/pr-comments.md"
 
 validation:
   nav:
