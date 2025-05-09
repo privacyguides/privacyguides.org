@@ -9,7 +9,7 @@ tags:
     - Privacy Guides
 license: BY-SA
 ---
-# Digital Provenance: Implications on Privacy
+# Digital Provenance
 
 ![Article cover showing a painterly background with cool colors and the Content Credentials logo](../assets/images/digital-provenance/cover.png)
 
