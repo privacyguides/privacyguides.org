@@ -11,6 +11,10 @@ license: BY-SA
 ---
 # Digital Provenance: Implications on Privacy
 
+![Article cover showing a painterly background with cool colors and the Content Credentials logo](../assets/images/digital-provenance/cover.png)
+
+<small aria-hidden="true">Photo: ivanastar / Getty Images Signature</small>
+
 With the popularity of generative AI, it's becoming more and more difficult to [distinguish](https://uwaterloo.ca/news/media/can-you-tell-ai-generated-people-real-ones) reality from fiction. Can this problem be solved using cryptography? What are the privacy implications of the currently proposed systems?<!-- more -->
 
 ## The Problem
