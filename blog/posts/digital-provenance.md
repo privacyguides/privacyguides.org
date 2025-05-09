@@ -17,10 +17,10 @@ With the popularity of generative AI, it's becoming more and more difficult to [
 
 Can you tell which of these images are AI generated?
 
-![Group of geese by some water](../assets/images/digital-provenance/geese1.webp)
-![Group of geese by some water](../assets/images/digital-provenance/geese2.webp)
-![Group of geese by some water](../assets/images/digital-provenance/geese3.webp)
-![Group of geese by some water](../assets/images/digital-provenance/geese4.webp)
+![Group of geese by some water](../assets/images/digital-provenance/geese1.jpeg)
+![Group of geese by some water](../assets/images/digital-provenance/geese2.jpeg)
+![Group of geese by some water](../assets/images/digital-provenance/geese3.jpeg)
+![Group of geese by some water](../assets/images/digital-provenance/geese4.jpeg)
 
 Actually, they're all real. But the fact that you may have believed some of them were AI generated poses a problem: how can we tell where an image came from, if it was AI generated, and whether it was edited?
 
@@ -48,7 +48,7 @@ He settled on burying the giant in Cardiff, New York, where he cut a deal with a
 
 On October 16, 1869, Newell hired an unsuspecting pair of workers to dig a well on his property. After they inevitably uncovered the giant, it wasn't long before the whole town was in a frenzy.
 
-![men surrounding a stone sculpture of a man in a hole in the ground doffing their hats](../assets/images/digital-provenance/cardiff-giant.webp)
+![men surrounding a stone sculpture of a man in a hole in the ground doffing their hats](../assets/images/digital-provenance/cardiff-giant.jpeg)
 
 <small aria-hidden="true">Photo: [History.com](https://www.history.com/articles/the-cardiff-giant-fools-the-nation-145-years-ago)</small>
 
