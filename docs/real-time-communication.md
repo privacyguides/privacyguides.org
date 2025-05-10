@@ -183,44 +183,6 @@ These messengers do not have forward secrecy[^1], and while they fulfill certain
 
 </div>
 
-### Element
-
-<div class="admonition recommendation" markdown>
-
-![Element logo](assets/img/messengers/element.svg){ align=right }
-
-**Element** is the flagship client for the [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im) protocol, an [open standard](https://spec.matrix.org/latest) for secure decentralized real-time communication.
-
-Messages and files shared in private rooms (those which require an invite) are by default E2EE, as are one-to-one voice and video calls.
-
-[:octicons-home-16: Homepage](https://element.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://element.io/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1083446067)
-- [:simple-github: GitHub](https://github.com/element-hq/element-android/releases)
-- [:fontawesome-brands-windows: Windows](https://element.io/download)
-- [:simple-apple: macOS](https://element.io/download)
-- [:simple-linux: Linux](https://element.io/download)
-- [:octicons-globe-16: Web](https://app.element.io)
-
-</details>
-
-</div>
-
-Profile pictures, reactions, and nicknames are not encrypted.
-
-With the integration of [Element Call](https://element.io/blog/we-have-lift-off-element-x-call-and-server-suite-are-ready) into Element's web app, desktop apps, and its [rewritten mobile apps](https://element.io/blog/element-x-experience-the-future-of-element), group VoIP and video calls are E2EE by default.
-
-The Matrix protocol itself [theoretically supports forward secrecy](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1], however this is [not currently supported in Element](https://github.com/vector-im/element-web/issues/7101) due to it breaking some aspects of the user experience such as key backups and shared message history.
-
-The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) in 2016. The specification for the Matrix protocol can be found in their [documentation](https://spec.matrix.org/latest). The [Olm cryptographic ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption) used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet).
-
 ### Session
 
 <div class="admonition recommendation" markdown>
