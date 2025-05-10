@@ -108,7 +108,7 @@ Psono provides extensive documentation for their product. The webclient for Pson
 
 ## :material-account-supervisor-circle-outline: Social Networks
 
-Self-hosting your own instance of a social network software can help circumvent potential [censorship on a server level](../social-networks.md) based on a public server's administrator.
+Self-hosting your own instance of a social network software can help circumvent potential [censorship on a server level](../social-networks.md#censorship-resistance) by a public server's administrator or admin team.
 
 ### Mastodon
 
@@ -131,7 +131,7 @@ Mastodon benefits greatly from a large and active self-hosting community, and it
 
 <div class="admonition recommendation" markdown>
 
-![Element logo](../assets/img/messengers/element.svg){ align=right }
+![Element logo](../assets/img/social-networks/element.svg){ align=right }
 
 **Element** is the flagship client for the **:simple-matrix: Matrix** protocol, an open standard that enables decentralized communication by way of federated chat rooms.
 
