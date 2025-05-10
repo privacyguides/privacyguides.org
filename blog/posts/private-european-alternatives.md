@@ -226,7 +226,7 @@ Element is based in the United Kingdom, which is of course no longer in the Euro
 
 <div class="admonition recommendation" markdown>
 
-![Element logo](../assets/img/messengers/element.svg){ align=right }
+![Element logo](../assets/img/social-networks/element.svg){ align=right }
 
 **Element** is the flagship client for the [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im) protocol, an [open standard](https://spec.matrix.org/latest) for secure decentralized real-time communication.
 
