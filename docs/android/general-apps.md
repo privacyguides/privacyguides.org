@@ -73,7 +73,7 @@ Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) a
 
 **Secure Camera** is a camera app focused on privacy and security which can capture images, videos, and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
 
-[:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
+[:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
@@ -119,7 +119,7 @@ The image orientation metadata is not deleted. If you enable location (in Secure
 
 [Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) is used to enforce that the JavaScript and styling properties within the WebView are entirely static content.
 
-[:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
+[:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer#readme){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
 
