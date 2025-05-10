@@ -1,11 +1,11 @@
 ---
 date:
-    created: 2025-05-09T21:00:00Z
+    created: 2025-05-10T14:30:00Z
 categories:
     - News
 authors:
     - em
-description: Last week, OpenAI's CEO Sam Altman announced in San Francisco that the World project he co-founded, formerly known as Worldcoin, is opening six stores across the United States, allowing users of the project's app to scan their eyeballs. Simply put, the premise is this, scan your eyeball, get a biometric tag, verify yourself, buy our apps (and cryptocurrency). The scary part is the for-profit company developing the project has now gathered millions in venture capital investment, powerful partners, and is ready to expand and impose its Minority Report style technology everywhere.
+description: Last week, OpenAI's CEO Sam Altman announced in San Francisco that the World project he co-founded, formerly known as Worldcoin, is opening six stores across the United States, allowing users of the project's app to scan their eyeballs.
 schema_type: AnalysisNewsArticle
 preview:
   cover: blog/assets/images/sam-altman-wants-your-eyeball/orb-cover.webp
@@ -362,7 +362,7 @@ This isn't limited to Tools for Humanity, although the way the company tries to 
 
 But anyone else with a similar approach to biometric data collection for verifying humanity or age or legal names should be on our radar. Moreover, if it's a for-profit corporation with the power to impose this technology on us everywhere in the world.
 
-One company should never have such power. 
+One company should never have such power.
 
 Further, biometric data should never be used for trivial purposes like "proof of personhood" or age verification. No amount of supposedly "privacy-preserving" features can change this.
 
