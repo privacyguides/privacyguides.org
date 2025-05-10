@@ -25,7 +25,7 @@ Last week, OpenAI's CEO Sam Altman announced in San Francisco that the World pro
 
 Simply put, the premise is this: scan your eyeball, get a biometric tag, verify yourself, buy our apps (and cryptocurrency). The scary part is the for-profit company developing the project has now gathered millions in venture capital investment, powerful partners, and is ready to expand and impose its [Minority Report](https://en.wikipedia.org/wiki/Minority_Report_(film)) style technology everywhere. **Welcome to Dystopialand.**<!-- more -->
 
-The World(coin) project is an initiative from the startup Tools for Humanity, co-founded by its CEO Alex Blania. Despite its friendly name, the for-profit corporation has been under the radar of many critics through the years already. From experts to journalists to privacy commissioners around the world, not everyone shares Blania's enthusiasm for his biometric-based technology.
+The World(coin) project is an initiative from the startup Tools for Humanity, co-founded by its CEO Alex Blania. Despite its friendly name, the for-profit corporation has been on the radar of many critics through the years already. From experts to journalists to privacy commissioners around the world, not everyone shares Blania's enthusiasm for his biometric-based technology.
 
 ## What is the World App?
 
@@ -179,7 +179,7 @@ As [stated](https://world.org/legal/biometric-data-consent-form) in the Biometri
 
 The company continues to repeat they have a "privacy by default and by design approach". But **you can't keep your privacy-preserving cake and eat it, too**.
 
-### What does the white paper says
+### What does the white paper say
 
 In tech, a white paper is usually a research-based document produced by the developers that presents more technical details on an application, product, or process. It is especially valuable for products like the Orb and the World App, where security and privacy *should* be paramount, and therefore examined closer.
 
