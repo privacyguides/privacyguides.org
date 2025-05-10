@@ -57,7 +57,7 @@ Redlib is useful if you want to disable JavaScript in your browser, such as [Tor
 
 **ProxiTok** is an open-source frontend to the [TikTok](https://tiktok.com) website that is also self-hostable.
 
-There are a number of public instances, with some that offer a [Tor](tor.md) onion service or an [I2P](alternative-networks.md#i2p-the-invisible-internet-project) eepsite.
+You can access ProxiTok through a number of public instances, with some that offer a [Tor](tor.md) onion service or an [I2P](alternative-networks.md#i2p-the-invisible-internet-project) eepsite.
 
 [:octicons-repo-16: Repository](https://github.com/pablouser1/ProxiTok#readme){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="Public Instances" }
@@ -88,7 +88,7 @@ ProxiTok is useful if you want to disable JavaScript in your browser, such as [T
 
 **Invidious** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
 
-There are a number of public instances, with some that offer a [Tor](tor.md) onion service or an [I2P](alternative-networks.md#i2p-the-invisible-internet-project) eepsite.
+You can access Invidious through a number of public instances, with some that offer a [Tor](tor.md) onion service or an [I2P](alternative-networks.md#i2p-the-invisible-internet-project) eepsite.
 
 [:octicons-home-16: Homepage](https://invidious.io){ .md-button .md-button--primary }
 [:octicons-server-16:](https://docs.invidious.io/instances){ .card-link title="Public Instances" }
@@ -122,7 +122,7 @@ Invidious is useful if you want to disable JavaScript in your browser, such as [
 
 **Piped** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
 
-Piped requires JavaScript in order to function and there are a number of public instances.
+You can access Piped through a number of public instances. Piped requires JavaScript in order to function.
 
 [:octicons-repo-16: Repository](https://github.com/TeamPiped/Piped#readme){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/TeamPiped/documentation/blob/main/content/docs/public-instances/index.md){ .card-link title="Public Instances" }
