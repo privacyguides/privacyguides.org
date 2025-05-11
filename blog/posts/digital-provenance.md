@@ -92,7 +92,7 @@ The Coalition for Content Provenance and Authenticity, or [C2PA](https://c2pa.or
 
 ## Content Credentials
 
-Content Credentials are the implementation of digital provenance by the C2PA, the culmination of years of research and development by major tech companies, from camera manufacturers to photo editing software and AI companies to social media sites.
+[Content Credentials](https://contentcredentials.org) are the implementation of digital provenance by the C2PA, the culmination of years of research and development by major tech companies, from camera manufacturers to photo editing software and AI companies to social media sites.
 
 The way Content Credentials work draws on concepts both familiar and alien. The standard is designed to be flexible and cover the myriad ways media is used online.
 
