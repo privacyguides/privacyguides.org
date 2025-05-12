@@ -124,4 +124,4 @@ If we do not stand firm to defend our rights, even when it's inconvenient to do,
 
 - [Information on AI notetakers](https://www.fisherphillips.com/en/news-insights/ai-notetaking-tools-should-you-use-them.html)
 
-- [How to uninstall Microsoft's Windows Recall](https://geekchamp.com/how-to-completely-disable-or-uninstall-recall-in-windows-11-24h2/)
+- [How to remove/disable Microsoft's Windows Recall](https://www.microsoftrecall.com/)
