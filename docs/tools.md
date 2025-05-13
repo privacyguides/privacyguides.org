@@ -499,7 +499,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 <div class="grid cards" markdown>
 
-- ![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ .twemoji loading=lazy }![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ .twemoji loading=lazy } [LanguageTool](language-tools.md#languagetool)
+- ![LTeX logo](assets/img/language-tools/ltex-for-vscode.svg){ .twemoji loading=lazy } [LTeX for VS Code](language-tools.md#ltex-for-vs-code)
 
 </div>
 
