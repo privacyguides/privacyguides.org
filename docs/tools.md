@@ -21,13 +21,13 @@ If you're looking for a specific solution to something, these are the hardware a
 [Photo Organization Tools](photo-management.md){ .md-button }
 </div>
 
+</div>
+
 <div markdown>
 
 <div class="admonition info" markdown>
 
 [Self-hosting recommendations](self-hosting/index.md) have been moved to their own category.
-
-</div>
 
 </div>
 
