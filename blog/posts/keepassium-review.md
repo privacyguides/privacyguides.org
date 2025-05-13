@@ -30,7 +30,7 @@ review:
   cons:
     - AutoFill might not work for some websites and browsers.
     - Some important features only available on paid plans.
-    - No app for Linux, Android, or Windows. 
+    - No app for Linux, Android, or Windows.
 ---
 
 ![The KeePassium logo over a yellow background showing Apple devices.](../assets/images/keepassium-review/keepassium-cover.webp)
@@ -571,7 +571,7 @@ That being said, synchronization was *possible* through Proton Drive between Kee
 
 Testing couldn't make synchronization work between KeePassium iOS and KeePassium macOS through Proton Drive. Issues seem to come from conflict resolutions on the Proton Drive side. Of course, because Proton Drive isn't even listed by KeePassium as a supported storage, this was simply conducted as an experiment and not an expectation.
 
-Because many of our readers might use Proton Drive as a cloud provider, just be aware it probably isn't a usable synchronization solution at this time. 
+Because many of our readers might use Proton Drive as a cloud provider, just be aware it probably isn't a usable synchronization solution at this time.
 
 Using Proton Drive to simply back up a password database file manually without synchronization is still a viable option, however.
 
@@ -706,7 +706,7 @@ If you wish to support KeePassium's development, you can help by:
 - [Following on Mastodon](https://mastodon.social/@KeePassium)
 
 - [Subscribing to KeePassium's RSS feed](https://keepassium.com/blog/rss.xml)
-  
+
 For more information on KeePassium, you can consult KeePassium's support [documentation](https://support.keepassium.com/), [FAQ](https://keepassium.com/faq/), or even look at KeePassium's [code](https://github.com/keepassium/KeePassium) directly.
 
 <small aria-hidden="true">Unless credited otherwise, all screenshots from: Privacy Guides</small>
