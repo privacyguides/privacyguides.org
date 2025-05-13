@@ -39,7 +39,7 @@
     "thumbnailUrl": [
       "{{ page.meta.thumbnail }}"
       ],
-    "uploadDate": "{{ page.meta.date.created }}",
+    "uploadDate": "{{ page.meta.date.created.strftime('%Y-%m-%dT%H:%M:%S+00:00') }}",
     "embedUrl": "{{ page.meta.embed }}"
   }
 </script>
@@ -121,7 +121,7 @@
                       <div class="md-nav__link">
                         {% include ".icons/material/calendar.svg" %}
                         <time
-                          datetime="{{ page.config.date.created }}"
+                          datetime="{{ page.config.date.created.strftime('%Y-%m-%dT%H:%M:%S+00:00') }}"
                           class="md-ellipsis"
                         >
                           {{- page.config.date.created | date -}}
@@ -135,7 +135,7 @@
                         <div class="md-nav__link">
                           {% include ".icons/material/calendar-clock.svg" %}
                           <time
-                            datetime="{{ page.config.date.updated }}"
+                            datetime="{{ page.config.date.updated.strftime('%Y-%m-%dT%H:%M:%S+00:00') }}"
                             class="md-ellipsis"
                           >
                             {{- page.config.date.updated | date -}}
@@ -226,7 +226,7 @@
 
         <div>
           <div style="position: relative; padding-top: 56.25%;">
-            <iframe width="100%" height="100%" src="{{ page.meta.embed }}?autoplay=1&title=0" allow="autoplay" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe>
+            <iframe width="100%" height="100%" src="{{ page.meta.embed }}?autoplay=1&title=0&p2p=0" allow="autoplay" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe>
           </div>
         </div>
 

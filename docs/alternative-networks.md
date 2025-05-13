@@ -34,6 +34,8 @@ The recommended way to access the Tor network is via the official Tor Browser, w
 
 [Tor Browser Info :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary } [Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md){ .md-button }
 
+You can access the Tor network using other tools; making this determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
+
 <div class="admonition example" markdown>
 <p class="admonition-title">Try it out!</p>
 
@@ -41,12 +43,50 @@ You can try connecting to *Privacy Guides* via Tor at [xoe4vn5uwdztif6goazfbmogh
 
 </div>
 
+#### Orbot
+
+<div class="admonition recommendation" markdown>
+
+![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
+
+**Orbot** is a mobile application which routes traffic from any app on your device through the Tor network.
+
+[:octicons-home-16: Homepage](https://orbot.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://orbot.app/faqs){ .card-link title="Documentation" }
+[:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://orbot.app/donate){ .card-link title="Contribute" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1609461599)
+- [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
+- [:simple-fdroid: F-Droid](https://guardianproject.info/fdroid)
+
+</details>
+
+</div>
+
+We previously recommended enabling the *Isolate Destination Address* preference in Orbot settings. While this setting can theoretically improve privacy by enforcing the use of a different circuit for each IP address you connect to, it doesn't provide a practical advantage for most applications (especially web browsing), can come with a significant performance penalty, and increases the load on the Tor network. We no longer recommend adjusting this setting from its default value unless you know you need to.[^1]
+
+=== "Android"
+
+    Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN kill switch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+
+    Orbot is often outdated on Google Play and the Guardian Project's F-Droid repository, so consider downloading directly from the GitHub repository instead. All versions are signed using the same signature, so they should be compatible with each other.
+
+=== "iOS"
+
+    On iOS, Orbot has some limitations that could potentially cause crashes or leaks: iOS does not have an effective OS-level feature to block connections without a VPN like Android does, and iOS has an artificial memory limit for network extensions that makes it challenging to run Tor in Orbot without crashes. Currently, it is always safer to use Tor on a desktop computer compared to a mobile device.
+
 #### Snowflake
 
 <div class="admonition recommendation" markdown>
 
-![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
-![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
+![Snowflake logo](assets/img/self-contained-networks/snowflake.svg#only-light){ align=right }
+![Snowflake logo](assets/img/self-contained-networks/snowflake-dark.svg#only-dark){ align=right }
 
 **Snowflake** allows you to donate bandwidth to the Tor Project by operating a "Snowflake proxy" within your browser.
 
@@ -109,4 +149,5 @@ Also, unlike Tor, every I2P node will relay traffic for other users by default, 
 
 There are downsides to I2P's approach, however. Tor relying on dedicated exit nodes means more people in less safe environments can use it, and the relays that do exist on Tor are likely to be more performant and stable, as they generally aren't run on residential connections. Tor is also far more focused on **browser privacy** (i.e. anti-fingerprinting), with a dedicated [Tor Browser](tor.md) to make browsing activity as anonymous as possible. I2P is used via your [regular web browser](desktop-browsers.md), and while you can configure your browser to be more privacy-protecting, you probably still won't have the same browser fingerprint as other I2P users (there's no "crowd" to blend in with in that regard).
 
+[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403) and [Whonix's Stream Isolation documentation](https://whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
 Tor is likely to be more resistant to censorship, due to their robust network of bridges and varying [pluggable transports](https://tb-manual.torproject.org/circumvention). On the other hand, I2P uses directory servers for the initial connection which are varying/untrusted and run by volunteers, compared to the hard-coded/trusted ones Tor uses which are likely easier to block.

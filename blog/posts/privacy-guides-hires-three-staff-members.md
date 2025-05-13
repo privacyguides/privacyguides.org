@@ -17,7 +17,7 @@ At Privacy Guides, we are always looking for ways to be more effective at our mi
 
 ## Em – Journalist
 
-![](https://forum-cdn.privacyguides.net/user_avatar/discuss.privacyguides.net/ematprivacyguides/288/8211_2.png){ align=right }
+![](https://forum-cdn.privacyguides.net/user_avatar/discuss.privacyguides.net/em/288/8211_2.png){ align=right }
 
 We’re excited to welcome Em (she/her), our new journalist, who will play an important role in taking our [articles](https://www.privacyguides.org/articles/) to the next level. She will be focusing on creating in-depth, interesting posts that explore the most important topics in the world of online privacy, security, and digital rights. Em will also conduct interviews with experts in the industry, analyze reports and studies, and produce investigative news stories to keep our readers informed.
 
