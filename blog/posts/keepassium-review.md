@@ -693,20 +693,4 @@ The fact that KeePassium allows full compatibility with most other KeePass-compa
 
 If you already keep your database in the KeePass file format, there are no downsides in trying KeePassium. If you aren't using this database format yet, this is a great opportunity to start and free yourself from locked-in systems that secure your precious passwords with obscurity rather than with openness.
 
-## :material-hand-heart-outline: Consider supporting KeePassium
-
-If you wish to support KeePassium's development, you can help by:
-
-- [Donating with PayPal](https://keepassium.com/donate/)
-
-- [Purchasing a paid plan](https://keepassium.com/pricing/)
-
-- [Contributing on GitHub (translation, bug reports, feature suggestions)](https://github.com/keepassium/KeePassium?tab=readme-ov-file#how-to-contribute)
-
-- [Following on Mastodon](https://mastodon.social/@KeePassium)
-
-- [Subscribing to KeePassium's RSS feed](https://keepassium.com/blog/rss.xml)
-
-For more information on KeePassium, you can consult KeePassium's support [documentation](https://support.keepassium.com/), [FAQ](https://keepassium.com/faq/), or even look at KeePassium's [code](https://github.com/keepassium/KeePassium) directly.
-
 <small aria-hidden="true">Unless credited otherwise, all screenshots from: Privacy Guides</small>
