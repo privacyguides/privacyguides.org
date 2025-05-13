@@ -20,12 +20,12 @@ review:
   website: https://keepassium.com/
   rating: 4.5
   pros:
-    - Open-source.
+    - Open source.
     - Free basic plan.
     - Data portability.
     - Offline-only option.
     - No account or personal data required.
-    - Easy-to-use, beautiful, and customizable.
+    - Easy to use, beautiful, and customizable.
     - Excellent documentation.
   cons:
     - AutoFill might not work for some websites and browsers.
