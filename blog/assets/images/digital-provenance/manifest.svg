@@ -1,0 +1,40 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="201px" height="301px" viewBox="-0.5 -0.5 201 301" content="&lt;mxfile&gt;&lt;diagram id=&quot;7obOEI9IPgsgN9EZozkg&quot; name=&quot;Page-1&quot;&gt;3ZZNb6MwEEB/Te6YrzjHlED3UmmlHPZsYABrDUbGKWR//ZpgCizOtkipKjWHCL/xgP08Gtg5Qdk9C1IXLzwFtrOttNs5p51te9Ze/ffgOoCD4w0gFzQdEJrAmf4BDS1NLzSFZjFRcs4krZcw4VUFiVwwIgRvl9MyzpZPrUkOK3BOCFvTXzSVxUCxZ038B9C8GJ+MLB0pyThZg6YgKW9nyAl3TiA4l8NV2QXAenejlyEvuhN9W5iASn4kwR4SXgm76L0F9s+jIi+kohk0Ui9TXse9Ny0tGanU6CmjjAWccXGLOKkHOHUVb6Tgv2EWwXbs+H4f0cnRMvPkhfjUZ66Xr3f0CkJCN0N6O8/AS5DiqqaM0VGtri1XD9vpoOzxOIrZITkjJLo48rdbT/7UhVZo1umudB6bRi2d8qrZYBLFBIFtMmlZfniM+gxeyRnPbr/7htHTEYW20bC91fA/ghFeG0a+wTB6hOH9yvDKa1tQCeeaJP24VQ1IbbuQpbrjCalL0tRDT8hoB6mhjAngLDHJ9xMMcWaU6G6ViN6tUteg0H2AQfxNDPpfZvDwTQyirytCb/3eYYSWG3pkhhNIjIpi7LnqVXy3F0Y4CIPgc3oh+mAv9B/g0L/n0DrTvCLyImCLzwx8s890f4it//mMQv+TfBoq8lE61XD6zLrFZt+qTvgX&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <path d="M 0 23 L 0 0 L 200 0 L 200 23" fill="#d5e8d4" stroke="#82b366" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 0 23 L 0 300 L 200 300 L 200 23" fill="#d5e8d4" stroke="#82b366" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 0 23 L 200 23" fill="none" stroke="#82b366" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="99.5" y="16">
+                C2PA Manifest
+            </text>
+        </g>
+        <path d="M 20 203 L 20 180 L 180 180 L 180 203" fill="#1ba1e2" stroke="#006eaf" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 20 203 L 20 280 L 180 280 L 180 203" fill="#1ba1e2" stroke="#006eaf" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 20 203 L 180 203" fill="none" stroke="#006eaf" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#ffffff" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="99.5" y="196">
+                Assertions
+            </text>
+        </g>
+        <rect x="30" y="220" width="40" height="40" fill="#dae8fc" stroke="#6c8ebf" pointer-events="all"/>
+        <rect x="80" y="220" width="40" height="40" fill="#dae8fc" stroke="#6c8ebf" pointer-events="all"/>
+        <rect x="130" y="220" width="40" height="40" fill="#dae8fc" stroke="#6c8ebf" pointer-events="all"/>
+        <path d="M 20 133 L 20 110 L 180 110 L 180 133" fill="#f8cecc" stroke="#b85450" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 20 133 L 20 170 L 180 170 L 180 133" fill="#f8cecc" stroke="#b85450" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 20 133 L 180 133" fill="none" stroke="#b85450" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="99.5" y="126">
+                Claim
+            </text>
+        </g>
+        <path d="M 20 63 L 20 40 L 180 40 L 180 63" fill="#ffe6cc" stroke="#d79b00" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 20 63 L 20 100 L 180 100 L 180 63" fill="#ffe6cc" stroke="#d79b00" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 20 63 L 180 63" fill="none" stroke="#d79b00" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="99.5" y="56">
+                Claim Signature
+            </text>
+        </g>
+    </g>
+</svg>
