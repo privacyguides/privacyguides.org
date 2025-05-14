@@ -58,9 +58,9 @@ definitions:
 
   - &updated_time >-
     {% if page.config.date.updated %}
-      {{- page.config.date.updated.strftime('%Y-%m-%d') -}}
+      {{- page.config.date.updated.strftime('%Y-%m-%dT%H:%M:%S+00:00') -}}
     {% else %}
-      {{- page.config.date.created.strftime('%Y-%m-%d') -}}
+      {{- page.config.date.created.strftime('%Y-%m-%dT%H:%M:%S+00:00') -}}
     {% endif %}
 
   - &author_mastodon >-
@@ -85,6 +85,8 @@ definitions:
 # Meta tags
 tags:
   # Open Graph
+  og:site_name: *site_name
+  og:locale: "en_US"
   og:type: article
   og:title: *page_title
   og:description: *page_description
@@ -95,7 +97,7 @@ tags:
   og:url: "{{ page.canonical_url }}"
 
   # Blog
-  article:published_time: "{{ page.config.date.created.strftime('%Y-%m-%d') }}"
+  article:published_time: "{{ page.config.date.created.strftime('%Y-%m-%dT%H:%M:%S+00:00') }}"
   article:modified_time: *updated_time
   article:section: "{{ page.categories[0].title }}"
   article:author: "https://www.privacyguides.org/articles/{{ page.authors[0].url }}"
@@ -110,6 +112,11 @@ tags:
   twitter:title: *page_title
   twitter:description: *page_description
   twitter:image: "{{ image.url }}"
+  twitter:image:width: "{{ image.width }}"
+  twitter:image:height: "{{ image.height }}"
+  twitter:image:alt: "Privacy Guides: Trusted, non-profit privacy and cybersecurity resources."
+  twitter:label1: "Written by"
+  twitter:data1: "{{ page.authors[0].name }}"
 
 # -----------------------------------------------------------------------------
 # Specification
