@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2025-05-01T17:00:00Z
+    created: 2025-05-16T16:00:00Z
 categories:
     - Opinion
 authors:
@@ -36,7 +36,7 @@ Maybe it's our [smart speaker recording](https://www.lifewire.com/can-alexa-reco
 
 Completely outside our control, maybe it's the street cameras, cellular towers, car license readers [tracking our movement](https://www.aclum.org/en/publications/what-you-need-know-about-automatic-license-plate-readers) outside as we go about our day.
 
-Or even more dystopian, maybe it's our [doctor using an AI notetaking app](https://theconversation.com/some-clinicians-are-using-ai-to-write-health-records-what-do-you-need-to-know-237762), sending a copy of our very personal in-person medical consultation to who knows which for-profit company.
+Or even more dystopian, maybe it's our [doctor using an AI note-taking app](https://theconversation.com/some-clinicians-are-using-ai-to-write-health-records-what-do-you-need-to-know-237762), sending a copy of our very personal in-person medical consultation to who knows which for-profit company.
 
 ## Our digital lives and IRL lives are intertwined
 
