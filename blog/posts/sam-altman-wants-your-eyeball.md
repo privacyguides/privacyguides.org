@@ -36,7 +36,7 @@ The World App is an everything app, providing users with a *World ID*, that can 
 
 The scan is then filtered and hashed to create a unique identifier that is stored as a so-called "proof of personhood" on the *World Network*, a blockchain-based protocol.
 
-The World App itself contains a collection of "Mini Apps", where users can manage their cryptocurrencies, chat together, play games, receive their pay check even, and ultimately live their whole life within the closed "verified" ecosystem of the app.
+The World App itself contains a collection of "Mini Apps", where users can manage their cryptocurrencies, chat together, play games, receive their paychecks even, and ultimately live their whole life within the closed "verified" ecosystem of the app.
 
 For a company constantly praising decentralization, it sure looks like they want to make sure they are the center of it all.
 
@@ -54,7 +54,7 @@ If they succeed in convincing enough people, many of us could soon have little c
 
 ## World(coin) isn't new, you might have heard of its unethical practices already
 
-The project [claims](https://techcrunch.com/2025/04/30/sam-altmans-world-unveils-a-mobile-verification-device/) to have onboarded 26 million people already, including 12 millions "users" who are verified (had their biometric data collected).
+The project [claims](https://techcrunch.com/2025/04/30/sam-altmans-world-unveils-a-mobile-verification-device/) to have onboarded 26 million people already, including 12 million "users" who are verified (had their biometric data collected).
 
 These "users" are largely located in Latin America, Africa, and Asia. This is because the company started testing for its project there a few years ago, in regions where people often have fewer legal protections.
 
@@ -76,7 +76,7 @@ Exploiting people in situation of poverty in order to test a biometric identific
 
 Why developing such a technology in the first place?
 
-Sam Altman himself have [expressed concern](https://www.wired.com/story/sam-altman-orb-eyeball-scan-launch-us/) about the problem this alleged solution solves: the avalanche of fake accounts and pretend persons online caused by the new AI tools unleashed everywhere.
+Sam Altman himself has [expressed concern](https://www.wired.com/story/sam-altman-orb-eyeball-scan-launch-us/) about the problem this alleged solution solves: the avalanche of fake accounts and pretend persons online caused by the new AI tools unleashed everywhere.
 
 The proposed use of a "proof of personhood" claims to solve this problem by allocating a unique identifier to each human, a personal code supposedly impossible to duplicate or cheat. Of course, this has [already been proven wrong](https://gizmodo.com/worldcoin-black-market-iris-data-identity-orb-1850454037).
 
@@ -202,7 +202,7 @@ If this happens, many regretful users might find themselves in [the same shoes a
 
 Additionally, the Face Authentication section of the white paper [describes](https://whitepaper.world.org/#face-authentication) a process where encrypted facial biometrics collected from the Orb are used for authentication in the World App.
 
-Even if this data is stored on-device, it is still biometric data getting collected by the Orb then processed by the phone app. There is no question this is sensitive and personal biometric data, and it is indeed kept outside the orb.
+Even if this data is stored on-device, it is still biometric data getting collected by the Orb then processed by the phone app. There is no question this is sensitive and personal biometric data, and it is indeed kept outside the Orb.
 
 Tools for Humanity lacks consistency in the various claims and statements found through its documentation and promotion material. It becomes difficult to know which version to trust, and if it is to be trusted at all.
 
@@ -246,7 +246,7 @@ The Orb itself is also an important potential attack surface. With Tools for Hum
 
 Despite all its privacy promotion material, the World project has failed to convince privacy commissioners around the world of their supposedly good intentions. Perhaps in this case actions speak louder than words, and privacy commissioners aren't so gullible.
 
-With the expansion the project plans this year, we can expect even more experts will examine the company's claims and challenge its "privacy-preserving" assumptions
+With the expansion the project plans this year, we can expect even more experts will examine the company's claims and challenge its "privacy-preserving" assumptions.
 
 There are many reasons to remain skeptical about these promises of privacy. Indeed, numerous countries have already suspended, fined, or called for investigation on the company's (mal)practices.
 
@@ -276,7 +276,7 @@ More recently on May 4th 2025, Indonesia also [suspended](https://en.antaranews.
 
 ### German regulator ordered GDPR compliance following investigation
 
-In December 2024, the German regulator, the Bavarian State Office for Data Protection Supervision (BayLDA), [issued an order](https://decrypt.co/298090/german-watchdog-cracks-down-on-worldcoin-over-biometric-data) to obligate proving deletion procedures that comply with the GDPR within one month. Additionally, the BayLDA ordered the complete deletion of certain data records that were previously collected without sufficient legal basis.
+In December 2024, the German regulator, the Bavarian State Office for Data Protection Supervision (BayLDA), [issued an order](https://decrypt.co/298090/german-watchdog-cracks-down-on-worldcoin-over-biometric-data) to obligate providing deletion procedures that comply with the GDPR within one month. Additionally, the BayLDA ordered the complete deletion of certain data records that were previously collected without sufficient legal basis.
 
 Again, the World Foundation is fighting the order and will [appeal](https://cointelegraph.com/news/german-watchdog-order-worldcoin-delete-data) the decision. The company tries to argue the data collected was "anonymized", a common strategy to try evading GDPR compliance, which does not regulate anonymized data.
 
@@ -324,7 +324,7 @@ Then, it comes for our money. The everything app of course offers payment and mo
 
 Imagine a single app, owned by a single for-profit corporation, that collects and processes all the data from all your transactions online, all your communications online, that you absolutely have to continue using for your other social media accounts, your gaming life, and your dating life.
 
-There could soon be no way to escape the grasp of World's everything app. Actually, [some governments](https://www.theregister.com/2025/05/04/sam_altman_startup_world/) (Taiwan and Malesia) have already started using it for official services, because why not.
+There could soon be no way to escape the grasp of World's everything app. Actually, [some governments](https://www.theregister.com/2025/05/04/sam_altman_startup_world/) (Taiwan and Malaysia) have already started using it for official services, because why not.
 
 **The ways this could degenerate fast into full dystopia are infinite**, and very real.
 
@@ -364,7 +364,7 @@ Even if this process was perfectly secure and perfectly private (which it is def
 
 This isn't limited to Tools for Humanity, although the way the company tries to advertise itself as a privacy-first organization makes it even more important to scrutinize.
 
-But anyone else with a similar approach to biometric data collection for verifying humanity or age or legal names should be on our radar. Moreover, if it's a for-profit corporation with the power to impose this technology on us everywhere in the world.
+But anyone else with a similar approach to biometric data collection for verifying humanity or age or legal names should be on our radar. Moreover if it's a for-profit corporation with the power to impose this technology on us everywhere in the world.
 
 One company should never have such power.
 
