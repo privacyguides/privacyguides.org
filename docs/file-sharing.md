@@ -1,5 +1,5 @@
 ---
-title: "File Sharing and Sync"
+title: File Sharing and Sync
 icon: material/share-variant
 description: Discover how to privately share your files between your devices, with your friends and family, or anonymously online.
 cover: file-sharing.webp
@@ -20,22 +20,24 @@ If you already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarde
 
 ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well. The maintainer of Send hosts a [public instance](https://send.vis.ee). You can use other public instances, or you can host Send yourself.
+**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well.
 
-[:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title=Documentation}
+[:octicons-repo-16: Repository](https://send.vis.ee){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances" }
+[:octicons-info-16:](https://github.com/timvisee/send/tree/master/docs){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title=Contribute }
+[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title="Contribute" }
 
 </details>
 
 </div>
 
-Send can be used via its web interface or via the [ffsend](https://github.com/timvisee/ffsend) CLI. If you are familiar with the command-line and send files frequently, we recommend using the CLI client to avoid JavaScript-based encryption. You can specify the `--host` flag to use a specific server:
+You can use Send through a number of public instances, or you can host Send yourself.
+
+You can use Send via its web interface or via the [ffsend](https://github.com/timvisee/ffsend) CLI. If you are familiar with the command line and send files frequently, we recommend using the command line tool to avoid JavaScript-based encryption. You can specify the `--host` flag to use a specific server:
 
 ```bash
-ffsend upload --host https://send.vis.ee/ FILE
+ffsend upload --host https://example.com/ FILE
 ```
 
 ### OnionShare
@@ -48,7 +50,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 [:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://docs.onionshare.org){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.onionshare.org){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -133,12 +135,12 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 
 ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ align=right }
 
-**Syncthing** is an open-source peer-to-peer continuous file synchronization utility. It is used to synchronize files between two or more devices over the local network or the internet. Syncthing does not use a centralized server; it uses the [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) to transfer data between devices. All data is encrypted using TLS.
+**Syncthing** is an open-source peer-to-peer continuous file synchronization utility. It is used to synchronize files between two or more devices over the local network or the internet.
 
 [:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.syncthing.net){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/syncthing){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://syncthing.net/donations){ .card-link title=Contribute }
+[:octicons-heart-16:](https://syncthing.net/donations){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -151,6 +153,8 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 </details>
 
 </div>
+
+Syncthing does not use a centralized server; it uses the [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) to transfer data between devices. All data is encrypted using TLS.
 
 ### Criteria
 
@@ -169,5 +173,5 @@ Our best-case criteria represents what we would like to see from the perfect pro
 - Should have mobile clients for iOS and Android which at least support document previews.
 - Should support photo backups from iOS and Android, and optionally support file/folder sync on Android.
 
-[^1]: Proton Drive allows you to [share files or folders](https://proton.me/support/drive-shareable-link) by generating a shareable public link or sending a unique link to a designated email address. Public links can be protected with a password, set to expire, and completely revoked, while links shared via email can have custom permissions and be similarly revoked. Per Proton Drive's [privacy policy](https://proton.me/drive/privacy-policy), file contents, file and folder names, and thumbnail previews are end-to-end encrypted.
-[^2]: With a [premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) subscription, [Bitwarden Send](https://bitwarden.com/products/send) allows you to share files and text securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). A [password](https://bitwarden.com/help/send-privacy/#send-passwords) can be required along with the Send link. Bitwarden Send also features [automatic deletion](https://bitwarden.com/help/send-lifespan).
+[^1]: Proton Drive allows you to [share files or folders](https://proton.me/support/drive-shareable-link) by generating a shareable public link or sending a unique link to a designated email address. Public links can be protected with a password, set to expire, and completely revoked, while links shared via email can have custom permissions and be similarly revoked. Per Proton Drive's [privacy policy](https://proton.me/drive/privacy-policy), file contents, file and folder names, and thumbnail previews are E2EE.
+[^2]: With a [premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) subscription, [Bitwarden Send](https://bitwarden.com/products/send) allows you to share files and text [securely with E2EE](https://bitwarden.com/help/send-encryption). A [password](https://bitwarden.com/help/send-privacy/#send-passwords) can be required along with the Send link. Bitwarden Send also features [automatic deletion](https://bitwarden.com/help/send-lifespan).
