@@ -22,7 +22,7 @@ If you already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarde
 
 **Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well.
 
-[:octicons-repo-16: Repository](https://send.vis.ee){ .md-button .md-button--primary }
+[:octicons-repo-16: Repository](https://github.com/timvisee/send#readme){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances" }
 [:octicons-info-16:](https://github.com/timvisee/send/tree/master/docs){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
