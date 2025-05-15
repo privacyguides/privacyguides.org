@@ -9,7 +9,7 @@ cover: language-tools.webp
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-Text inputted to grammar, spelling, and style checkers, as well as translation services, can contain sensitive information which may be stored on their servers for an indefinite amount of time and sold to third parties. The language tools listed on this page do not store your submitted text to a server, and can be self-hosted and used offline for maximum control of your data.
+Text inputted to grammar, spelling, and style checkers, as well as translation services, can contain sensitive information which may be stored on their servers for an indefinite amount of time and sold to third parties. The language tools listed on this page do not store your submitted text on a server and can be self-hosted and used offline for maximum control of your data.
 
 ## LanguageTool
 
@@ -22,7 +22,7 @@ Text inputted to grammar, spelling, and style checkers, as well as translation s
 
 [:octicons-home-16: Homepage](https://languagetool.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://languagetooler.freshdesk.com/en/support/solutions){ .card-link title=Documentation}
+[:octicons-info-16:](https://languagetooler.freshdesk.com/en/support/solutions){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -32,7 +32,7 @@ Text inputted to grammar, spelling, and style checkers, as well as translation s
 - [:fontawesome-brands-windows: Windows](https://languagetool.org/windows-desktop)
 - [:simple-apple: macOS](https://languagetool.org/mac-desktop)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/languagetool)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/grammar-and-spell-checker/oldceeleldhonbafppcapldpdifcinji)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/oldceeleldhonbafppcapldpdifcinji)
 - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/hfjadhjooeceemgojogkhlppanjkbobc)
 - [:simple-safari: Safari](https://apps.apple.com/app/id1534275760)
 
