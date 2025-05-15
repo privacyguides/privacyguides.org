@@ -51,7 +51,7 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 
 ![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ align=right }
 
-  **CryptPad** is a private-by-design alternative to popular office tools. All content on this web service is E2EE and can be shared with other users easily.
+**CryptPad** is a private-by-design alternative to popular office tools. All content on this web service is E2EE and can be shared with other users easily.
 
 [:material-star-box: Read our latest CryptPad review.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/)
 
