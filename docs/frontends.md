@@ -147,9 +147,9 @@ You can access Piped through a number of public instances. Piped requires JavaSc
 
 ![FreeTube logo](assets/img/frontends/freetube.svg){ align=right }
 
-**FreeTube** is a free and open-source desktop application for [YouTube](https://youtube.com). FreeTube extracts data from YouTube using its built-in API based on [YouTube.js](https://github.com/LuanRT/YouTube.js) or the [Invidious](#invidious) API. You can configure either as the default, with the other serving as a fallback.
+**FreeTube** is a free and open-source desktop application for [YouTube](https://youtube.com).
 
-When using FreeTube, your subscription list and playlists are saved locally on your device.
+Your subscription list and playlists are saved locally on your device.
 
 [:octicons-home-16: Homepage](https://freetubeapp.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="Privacy Policy" }
@@ -176,6 +176,8 @@ When using FreeTube, your IP address may still be known to YouTube, [Invidious](
 
 </div>
 
+FreeTube extracts data from YouTube using its built-in API based on [YouTube.js](https://github.com/LuanRT/YouTube.js) or the [Invidious](#invidious) API. You can configure either as the default, with the other serving as a fallback.
+
 By default, FreeTube blocks all YouTube advertisements. In addition, FreeTube optionally integrates with [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments.
 
 ### Yattee
@@ -184,9 +186,9 @@ By default, FreeTube blocks all YouTube advertisements. In addition, FreeTube op
 
 ![Yattee logo](assets/img/frontends/yattee.svg){ align=right }
 
-**Yattee** is a free and open-source, privacy-oriented video player for iOS, tvOS, and macOS for [YouTube](https://youtube.com). Due to App Store restrictions, you will need to take a few [extra steps](https://web.archive.org/web/20230330122839/https://gonzoknows.com/posts/Yattee) before you can use Yattee to watch YouTube. Yattee allows you to connect to instances of [Invidious](#invidious) or [Piped](#piped).
+**Yattee** is a free and open-source, privacy-oriented video player for iOS, tvOS, and macOS for [YouTube](https://youtube.com).
 
-When using Yattee, your subscription list is saved locally on your device.
+Your subscription list is saved locally on your device.
 
 [:octicons-repo-16: Repository](https://github.com/yattee/yattee#readme){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Privacy Policy" }
@@ -210,6 +212,8 @@ When using Yattee, your subscription list is saved locally on your device.
 When using Yattee, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances), or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
+
+Due to App Store restrictions, you will need to take a few [extra steps](https://web.archive.org/web/20230330122839/https://gonzoknows.com/posts/Yattee) before you can use Yattee to watch YouTube. Yattee allows you to connect to instances of [Invidious](#invidious) or [Piped](#piped).
 
 By default, Yattee blocks all YouTube advertisements. In addition, Yattee optionally integrates with [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments.
 
