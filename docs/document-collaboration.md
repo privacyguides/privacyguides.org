@@ -53,7 +53,7 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 
 **CryptPad** is a private-by-design alternative to popular office tools. All content on this web service is E2EE and can be shared with other users easily.
 
-[:material-star-box: Read our latest CryptPad review.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/)
+[:material-star-box: Read our latest CryptPad review.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review)
 
 [:octicons-home-16: Homepage](https://cryptpad.fr){ .md-button .md-button--primary }
 [:octicons-server-16:](https://cryptpad.org/instances){ .card-link title="Public Instances" }
