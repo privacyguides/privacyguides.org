@@ -224,7 +224,7 @@ By default, Yattee blocks all YouTube advertisements. In addition, Yattee option
 ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ align=right }
 ![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ align=right }
 
-**LibreTube** is a free and open-source Android application for [YouTube](https://youtube.com) which uses the [Piped](#piped) API.
+**LibreTube** is a free and open-source Android application for [YouTube](https://youtube.com).
 
 Your subscription list and playlists are saved locally on your Android device.
 
@@ -249,6 +249,8 @@ Your subscription list and playlists are saved locally on your Android device.
 When using LibreTube, your IP address will be visible to YouTube, [Piped](https://github.com/TeamPiped/Piped/wiki/Instances), or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
+
+LibreTube extracts data from YouTube using the [Piped](#piped) API.
 
 By default, LibreTube blocks all YouTube advertisements. Additionally, LibreTube uses [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments. You are able to fully configure the types of segments that SponsorBlock will skip, or disable it completely. There is also a button on the video player itself to disable it for a specific video if desired.
 
