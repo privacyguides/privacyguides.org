@@ -205,9 +205,13 @@ nav:
   - !ENV [NAV_VIDEOS, "Videos"]:
       - index.md
       - playlists.md
-  - !ENV [NAV_ABOUT, "About"]: /en/about/
-  - "Donate": /en/about/donate/
   - !ENV [NAV_FORUM, "Forum"]: "https://discuss.privacyguides.net/"
+  - !ENV [NAV_WIKI, "Wiki"]:
+      !ENV [
+        NAV_WIKI_LINK,
+        "https://discuss.privacyguides.net/c/community-wiki/9411/none",
+      ]
+  - !ENV [NAV_ABOUT, "About"]: /en/about/
 
 validation:
   nav:
