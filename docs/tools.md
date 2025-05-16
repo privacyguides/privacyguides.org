@@ -360,7 +360,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 <div class="grid cards" markdown>
 
 - ![Kobold logo](assets/img/ai-chat/kobold.png){ .twemoji loading=lazy } [Kobold.cpp](ai-chat.md#koboldcpp)
-- ![Llamafile logo](assets/img/ai-chat/llamafile.png){ .twemoji loading=lazy } [Llamafile](ai-chat.md#llamafile)
+- ![Llamafile logo](assets/img/ai-chat/llamafile.webp){ .twemoji loading=lazy } [Llamafile](ai-chat.md#llamafile)
 - ![Ollama logo](assets/img/ai-chat/ollama.png){ .twemoji loading=lazy } [Ollama (CLI)](ai-chat.md#ollama-cli)
 
 </div>
@@ -603,7 +603,6 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 - ![Signal logo](assets/img/messengers/signal.svg){ .twemoji loading=lazy } [Signal](real-time-communication.md#signal)
 - ![Briar logo](assets/img/messengers/briar.svg){ .twemoji loading=lazy } [Briar](real-time-communication.md#briar)
 - ![SimpleX Chat logo](assets/img/messengers/simplex.svg){ .twemoji loading=lazy } [SimpleX Chat](real-time-communication.md#simplex-chat)
-- ![Session logo](assets/img/messengers/session.svg){ .twemoji loading=lazy } [Session](real-time-communication.md#session)
 
 </div>
 
