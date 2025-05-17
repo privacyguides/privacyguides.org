@@ -45,7 +45,7 @@ Examples of gifts which are too restrictive include:
 - Those which are too difficult for us to administer.
 - Those that are for purposes outside our general mission.
 
-An example of an acceptable restriction could be a gift towards funding our [video](https://www.privacyguides.org/videos/) production, or hosting our website and forum.
+An example of an acceptable restriction could be a gift towards funding our [video](https://www.privacyguides.org/videos) production, or hosting our website and forum.
 
 Final decisions on the restrictive nature of a gift and its acceptance or refusal will be made by our executive committee.
 

@@ -142,8 +142,9 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
-- [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1193122683)
+- [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
+- [:simple-github: GitHub](https://github.com/ivpn/android-app/releases)
 - [:fontawesome-brands-windows: Windows](https://ivpn.net/apps-windows)
 - [:simple-apple: macOS](https://ivpn.net/apps-macos)
 - [:simple-linux: Linux](https://ivpn.net/apps-linux)
