@@ -2,7 +2,7 @@
 date:
     created: 2025-05-19T20:00:00Z
 categories:
-    - Explainers
+    - Opinion
 authors:
     - fria
 tags:
@@ -32,7 +32,7 @@ Actually, they're all real. But the fact that you may have believed some of them
 
 [Provenance](https://youtu.be/K56EhgfCDjs) is the history of ownership of an object, typically used when referring to antiques or art. Knowing the history of a piece of art can affect the value a lot, but you need a way to prove it's an original piece by the artist instead of a reproduction, or was owned by a famous person.
 
-Provenance can take many [forms](https://artbusiness.com/provwarn.html), from an original receipt or documentation from the artist themself to stickers from a gallery attached to it. Typically, you want a signed [certificate](https://www.artcertificate.co.uk/?id_article=2267) from an expert on the artist in order to verify its authenticity.
+Provenance can take many [forms](https://artbusiness.com/provwarn.html), from an original receipt or documentation from the artist themselves to stickers from a gallery attached to it. Typically, you want a signed [certificate](https://www.artcertificate.co.uk/?id_article=2267) from an expert on the artist in order to verify its authenticity.
 
 ## Hoaxes
 
@@ -52,9 +52,9 @@ He settled on burying the giant in Cardiff, New York, where he cut a deal with a
 
 On October 16, 1869, Newell hired an unsuspecting pair of workers to dig a well on his property. After they inevitably uncovered the giant, it wasn't long before the whole town was in a frenzy.
 
-![men surrounding a stone sculpture of a man in a hole in the ground doffing their hats](../assets/images/digital-provenance/cardiff-giant.jpeg)
+![men surrounding a stone sculpture of a man in a hole in the ground doffing their hats](../assets/images/digital-provenance/cardiff-giant.jpg)
 
-<small aria-hidden="true">Photo: [History.com](https://www.history.com/articles/the-cardiff-giant-fools-the-nation-145-years-ago)</small>
+<small aria-hidden="true">Photo: Wikimedia Commons (Public Domain)</small>
 
 Speculation that the sculpture was an ancient, petrified man quickly began to spread. Eventually, a syndicate of businessmen offered Newell $30,000 (worth $[705,438.97](https://www.in2013dollars.com/us/inflation/1869?amount=30000) in today's money) for a three-fourths stake, and he took them up on that offer.
 
@@ -62,7 +62,7 @@ P.T. Barnum even tried to buy the sculpture, and after being turned down, he had
 
 In a way that seems familiar to us now, you couldn't even be sure you were looking at the *real* hoax. Misinformation can so easily mutate and spread when left unchecked.
 
-A famed Yale paleontologist named Othniel Charles Marsh declared it "of very recent origin, and a most decided humbug." Unfortunately, as is so often the case, Hull had already cashed in on the furvor by the time experts had properly debunked his hoax.
+A famed Yale paleontologist named Othniel Charles Marsh declared it "of very recent origin, and a most decided humbug." Unfortunately, as is so often the case, Hull had already cashed in on the fervor by the time experts had properly debunked his hoax.
 
 ### AI Hoaxes
 
@@ -72,7 +72,7 @@ Many modern hoaxes tend to make use of social media and focus on getting views a
 
 [Here](https://www.mediamatters.org/media/4016186/embed/embed) you can see an example of AI being used to make a fake Joe Rogan podcast clip. Now, whether or not you view Joe Rogan as a reliable source of information is another topic, but as one of the [most popular podcasts](https://podcastcharts.byspotify.com), his reach could be leveraged to spread dangerous misinformation like that a meteor is going to hit earth and kill everyone.
 
-The effort required is low and the return is high. With TikTok's [Creator Rewards Program](https://www.tiktok.com/creator-academy/en/article/creator-rewards-program), content that's at least 60 seconds long and has high engagement will be rewarded. That means longer videos with alarming content like conspiracy theory videos will do very well since they will have lots of comments from people either fooled by the content posting about how scared they are or people debunking the claims. The insidious thing is the creators get rewarded either way.
+The effort required is low, and the return is high. With TikTok's [Creator Rewards Program](https://www.tiktok.com/creator-academy/en/article/creator-rewards-program), content that's at least 60 seconds long and has high engagement will be rewarded. That means longer videos with alarming content like conspiracy theory videos will do very well since they will have lots of comments from people either fooled by the content posting about how scared they are or people debunking the claims. The insidious thing is the creators get rewarded either way.
 
 [Several](https://youtu.be/E4I6K8OEyho?si=wbWAUcLsjOA7yDnO) [history](https://youtu.be/cqrHmjGD1ds?si=k60RTO9MH177ASTS) [channels](https://youtu.be/HG1324unhcA?si=MuwglKd52FQ7iKU3) on YouTube have expressed their concerns about misinformation being spread about history through AI generated images and videos and how they can distort our view of the past. There's even the possibility that these AI generated images could end up polluting the historical record.
 
@@ -96,7 +96,7 @@ The Coalition for Content Provenance and Authenticity, or [C2PA](https://c2pa.or
 
 The way Content Credentials work draws on concepts both familiar and alien. The standard is designed to be flexible and cover the myriad ways media is used online.
 
-It's important to note that Content Credentials aren't attempting to determine "truth"; that's a much more complex and philosophical topic. Rather, they're trying to show where an image came from, edits made to it, its constituent parts, etc so that you can decide for yourself if you trust the source. It's trying to show you that an image came from the BBC, rather than whether you should trust the BBC.
+It's important to note that Content Credentials aren't attempting to determine "truth"; that's a much more complex and philosophical topic. Rather, they're trying to show where an image came from, edits made to it, its constituent parts, etc. so that you can decide for yourself if you trust the source. It's trying to show you that an image came from the BBC, rather than whether you should trust the BBC.
 
 ### Manifest
 
@@ -134,7 +134,7 @@ The C2PA gives a few examples to illustrate. A news organization might rely on a
 
 ### Ingredients
 
-However, what's interesting is Content Credentials can cover multiple assets being [combined together](https://contentcredentials.org/verify?source=https%3A%2F%2Fcontentcredentials.org%2F_app%2Fimmutable%2Fassets%2Fhome2.91ab8f2d.jpg) and still be able to verify each element of the image. Each element is called an "ingredient." When the ingredients come together, the result is called a "composed asset," with "asset" referring to a digital media file or data stream.
+However, what's interesting is Content Credentials can cover multiple assets being [combined](https://contentcredentials.org/verify?source=https%3A%2F%2Fcontentcredentials.org%2F_app%2Fimmutable%2Fassets%2Fhome2.91ab8f2d.jpg) and still be able to verify each element of the image. Each element is called an "ingredient." When the ingredients come together, the result is called a "composed asset," with "asset" referring to a digital media file or data stream.
 
 ### Chain of Provenance
 
@@ -144,7 +144,7 @@ The specification supports a list of pre-defined actions such as edits, changing
 
 An issue I noticed is when making edits using software that doesn't support Content Credentials, they will be corrupted and can't be read by verification programs. This poses a problem for the "unbroken chain of provenance" that the standard promises.
 
-These verification programs tend to offer a way to check against a database of images with Content Credentials so you can find an image with unbroken provenance data. They use "soft bindings" or a type of fingerprinting of the image in order to find similar images in the database.
+These verification programs tend to offer a way to check against a database of images with Content Credentials, so you can find an image with unbroken provenance data. They use "soft bindings" or a type of fingerprinting of the image in order to find similar images in the database.
 
 I think this problem will be less and less of an issue when more software supports the standard. It will need to be so ubiquitous that image viewing programs don't trust images without provenance data, similar to how browsers don't trust websites without HTTPS. But for now with its very limited availability, that's not the case.
 
@@ -154,15 +154,15 @@ Since Content Credentials are all about attaching extra data to images, concerns
 
 However, it's important to remember that metadata has always existed in relation to digital files. Just like the metadata we've always had, Content Credentials are optional.
 
-Of course, it'll be up to programs we use to mediate what data is included. In order for the system to work as intended, certain things like "this photo was edited in Adobe Photoshop" will need to be automatically applied. Clear lines betwen personal data such as names, location, etc need to be kept up to the user to add.
+Of course, it'll be up to programs we use to mediate what data is included. In order for the system to work as intended, certain things like "this photo was edited in Adobe Photoshop" will need to be automatically applied. Clear lines between personal data such as names, location, etc. need to be kept up to the user to add.
 
 Privacy was one of the stated goals when the C2PA was designing Content Credentials, and I think they've done a good job giving users control over their information.
 
 ## Support
 
-There are several online verification tools you can use to try out Content Credentials. [contentcredentials.org](https://contentcredentials.org) offers a [verification tool](https://contentcredentials.org/verify) that lets you upload a media file and check its Content Credentials. They have some example images on their site you can try, or you can upload images from elsewhere and see where Content Credentials are supported, for example you can upload any image generated in ChatGPT.
+There are several online verification tools you can use to try out Content Credentials. [ContentCredentials.org](https://contentcredentials.org) offers a [verification tool](https://contentcredentials.org/verify) that lets you upload a media file and check its Content Credentials. They have some example images on their site you can try, or you can upload images from elsewhere and see where Content Credentials are supported, for example you can upload any image generated in ChatGPT.
 
-They also offer an official [command line tool](https://github.com/contentauth/c2pa-rs/releases?q=c2patool) so you can view exactly what data is being stored in the image. They provide some samples as well that you can play around with. To view the content credentials, just run
+Content Credentials also offers an official [command line tool](https://github.com/contentauth/c2pa-rs/releases?q=c2patool), so you can view exactly what data is being stored in the image. They provide some samples as well that you can play around with. To view the content credentials, just run
 
 ```sh
 c2patool sample/C.jpg
@@ -220,8 +220,8 @@ Since anyone can add their own Content Credentials to an image, a warning is dis
 
 ### Complexity
 
-One of the issues I ran into while researching was just how complex the standard is, since it needs to cover so many usecases and situations. This is pure speculation, but I can imagine the sheer complexity makes it unattractive for platforms to implement and maintain, which could be contributing to the very slow and partial rollout we're seeing on the platforms of even founding members of the project like the BBC.
+One of the issues I ran into while researching was just how complex the standard is, since it needs to cover so many use cases and situations. This is pure speculation, but I can imagine the sheer complexity makes it unattractive for platforms to implement and maintain, which could be contributing to the very slow and partial rollout we're seeing on the platforms of even founding members of the project like the BBC.
 
-I think this will be less of an issue as it rolls out however, as platforms will likely be able to use each others' implementations, or at least reference them when implementing it on their platform.
+I think this will be less of an issue as it rolls out however, as platforms will likely be able to use each other's implementations, or at least reference them when implementing it on their platform.
 
 The standard is still in early stages and there's plenty of room to shape it and improve it in the future, so make your voice heard about how you want to see it implemented. I think with more awareness about Content Credentials, platforms will feel more pressure to support them, so if you want to see this feature on your favorite platform, speak up and gather support.
