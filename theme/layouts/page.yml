@@ -70,6 +70,7 @@ definitions:
 # Meta tags
 tags:
   # Open Graph
+  og:site_name: *site_name
   og:type: website
   og:title: *page_title_with_site_name
   og:description: *page_description
@@ -88,6 +89,8 @@ tags:
   twitter:title: *page_title_with_site_name
   twitter:description: *page_description
   twitter:image: "{{ image.url }}"
+  twitter:image:width: "{{ image.width }}"
+  twitter:image:height: "{{ image.height }}"
 
 # -----------------------------------------------------------------------------
 # Specification
