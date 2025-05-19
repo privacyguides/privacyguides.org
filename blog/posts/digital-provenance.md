@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2025-05-09T19:00:00Z
+    created: 2025-05-19T20:00:00Z
 categories:
     - Explainers
 authors:
@@ -138,7 +138,7 @@ However, what's interesting is Content Credentials can cover multiple assets bei
 
 ### Chain of Provenance
 
-It also supports a chain of provenance, showing all steps in the life cycle of the file that change its contents such as edits. These are referred to as "actions." 
+It also supports a chain of provenance, showing all steps in the life cycle of the file that change its contents such as edits. These are referred to as "actions."
 
 The specification supports a list of pre-defined actions such as edits, changing the color, translating to a different language, etc. It's really quite flexible, but the flexibility of information that can be provided allows for more opportunities for errors and means you need to trust the entity providing the information more.
 
