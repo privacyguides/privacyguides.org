@@ -1,15 +1,15 @@
 ---
 date:
-    created: 2025-05-19T20:00:00Z
+    created: 2025-05-19T20:30:00Z
 categories:
     - Opinion
 authors:
     - fria
 tags:
-    - Privacy Guides
-license: BY-SA
+    - AI
+    - Content Credentials
 ---
-# Digital Provenance
+# The Importance of Digital Provenance in the Age of AI
 
 ![Article cover showing a painterly background with cool colors and the Content Credentials logo](../assets/images/digital-provenance/cover.jpg)
 
@@ -21,10 +21,21 @@ With the popularity of generative AI, it's becoming more and more difficult to [
 
 Can you tell which of these images are AI generated?
 
+<div class="grid" markdown>
+
 ![Group of geese by some water](../assets/images/digital-provenance/geese1.jpeg)
+
 ![Group of geese by some water](../assets/images/digital-provenance/geese2.jpeg)
+
 ![Group of geese by some water](../assets/images/digital-provenance/geese3.jpeg)
+
 ![Group of geese by some water](../assets/images/digital-provenance/geese4.jpeg)
+
+</div>
+
+...Have a guess?
+
+---
 
 Actually, they're all real. But the fact that you may have believed some of them were AI generated poses a problem: how can we tell where an image came from, if it was AI generated, and whether it was edited?
 
