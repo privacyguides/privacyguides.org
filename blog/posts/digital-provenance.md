@@ -9,7 +9,7 @@ tags:
     - AI
     - Content Credentials
 ---
-# The Importance of Digital Provenance in the Age of AI
+# The Power of Digital Provenance in the Age of AI
 
 ![Article cover showing a painterly background with cool colors and the Content Credentials logo](../assets/images/digital-provenance/cover.jpg)
 
@@ -37,7 +37,7 @@ Can you tell which of these images are AI generated?
 
 ---
 
-Actually, they're all real. But the fact that you may have believed some of them were AI generated poses a problem: how can we tell where an image came from, if it was AI generated, and whether it was edited?
+Actually, they're all real. But the fact that you may have believed some of them were AI generated poses a problem: How can we tell where an image came from, if it was AI generated, and whether it was edited?
 
 ## Provenance
 
