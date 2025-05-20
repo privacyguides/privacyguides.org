@@ -603,7 +603,6 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 - ![Signal logo](assets/img/messengers/signal.svg){ .twemoji loading=lazy } [Signal](real-time-communication.md#signal)
 - ![Briar logo](assets/img/messengers/briar.svg){ .twemoji loading=lazy } [Briar](real-time-communication.md#briar)
 - ![SimpleX Chat logo](assets/img/messengers/simplex.svg){ .twemoji loading=lazy } [SimpleX Chat](real-time-communication.md#simplex-chat)
-- ![Session logo](assets/img/messengers/session.svg){ .twemoji loading=lazy } [Session](real-time-communication.md#session)
 
 </div>
 
