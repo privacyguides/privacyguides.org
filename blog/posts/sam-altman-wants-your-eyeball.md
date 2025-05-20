@@ -68,13 +68,13 @@ So much so that [Kenya suspended the company's operations](https://techcrunch.co
 
 Some people who signed up never received the promised money. Some officials were bribed to give the impression to participants these operations were official and supported by the government.
 
-As Ruswandi, one of the person targeted by this early campaign [remarked](https://www.technologyreview.com/2022/04/06/1048981/worldcoin-cryptocurrency-biometrics-web3/): "why did Worldcoin target lower-income communities in the first place, instead of crypto enthusiasts or communities?"
+As Ruswandi, one of the persons targeted by this early campaign [remarked](https://www.technologyreview.com/2022/04/06/1048981/worldcoin-cryptocurrency-biometrics-web3/): "why did Worldcoin target lower-income communities in the first place, instead of crypto enthusiasts or communities?"
 
-Exploiting people in situation of poverty in order to test a biometric identification technology isn't a great way to start a project developed by a company called "Tools for Humanity".
+Exploiting people in situations of poverty in order to test a biometric identification technology isn't a great way to start a project developed by a company called "Tools for Humanity".
 
 ## Creating the problem, selling the solution
 
-Why developing such a technology in the first place?
+Why develop such a technology in the first place?
 
 Sam Altman himself has [expressed concern](https://www.wired.com/story/sam-altman-orb-eyeball-scan-launch-us/) about the problem this alleged solution solves: the avalanche of fake accounts and pretend persons online caused by the new AI tools unleashed everywhere.
 
@@ -108,7 +108,7 @@ If every social media account becomes tied to a unique biometric-based identifie
 
 Further, if only one account is allowed by "verified human", then no one can create separate accounts for their work life and personal life anymore. Creating separate accounts for separate purposes is an excellent privacy-preserving practice.
 
-Even if the identifier isn't tied to a legal name directly, accounts on different platforms using the same identifier could potentially get liked together. To be fair, it does seem Tools for Humanity worked to prevent different platforms from having access to the same code, but how well will this hold the test of time? Will platforms increasingly escalate privacy-invasive requests from this point, like they often do?
+Even if the identifier isn't tied to a legal name directly, accounts on different platforms using the same identifier could potentially get linked together. To be fair, it does seem Tools for Humanity worked to prevent different platforms from having access to the same code, but how well will this hold the test of time? Will platforms increasingly escalate privacy-invasive requests from this point, like they often do?
 
 **Pseudonymity saves lives.** It is an essential tool for the safety of the most vulnerable online. Killing pseudonymity by requiring unique biometric identification could endanger millions.
 
@@ -156,13 +156,13 @@ As whistleblower [Edward Snowden rightfully pointed out](https://x.com/Snowden/s
 
 ### Questionable reassurance about local data
 
-One of the biggest reassurance relates to the claim that sensitive biometric data (Image Data) is only stored locally. But this isn't completely accurate either, and there seems to be conflicting information about it from the company's own documentation.
+One of the biggest reassurances relates to the claim that sensitive biometric data (Image Data) is only stored locally. But this isn't completely accurate either, and there seems to be conflicting information about it from the company's own documentation.
 
 The World [white paper](https://whitepaper.world.org/#enrollment-process) specifies that:
 
 "The Orb verifies that it sees a human, runs local fraud prevention checks, and takes pictures of both irises. The iris images are converted on the Orb hardware into the iris code. Raw biometric data does not leave the device (unless explicitly approved by the user for training purposes)."
 
-However, according to the [Biometric Data Consent Form](https://world.org/legal/biometric-data-consent-form) users have to sign prior to data collection, if a user needs a fully verified World ID, inevitably this sensitive biometric data will be sent to their phone, therefore leaving the Orb.
+However, according to the [Biometric Data Consent Form](https://world.org/legal/biometric-data-consent-form) users have to sign prior to data collection, if a user needs a fully verified World ID. Inevitably this sensitive biometric data will be sent to their phone, therefore leaving the Orb.
 
 After a user agrees to the form, they can keep the option for *Data Custody* disabled to have their biometric data deleted from the Orb "later", and have it uploaded to their phone (with all the risk that this entails).
 
@@ -170,7 +170,7 @@ The other option users have is to enable Data Custody (if allowed in the user's 
 
 This means the Orb inevitably sends this sensitive data to a mobile device. Then, this data is only as secure as the mobile device is. Which isn't so reassuring.
 
-The documentation does maintain this biometric data is sent as an "end-to-end encrypted data bundle", but this doesn't mean the data never leaves the Orb, it just means it leaves it while encrypted (which is really just the basics), and copies it to the user's device.
+The documentation does maintain this biometric data is sent as an "end-to-end encrypted data bundle", but this doesn't mean the data never leaves the Orb. It just means it leaves it while encrypted (which is really just the basics), and copies it to the user's device.
 
 Furthermore, future users are *strongly* incentivized to share their Image Data with Tools for Humanity, for algorithm improvement purposes. Pressure to opt in is even presented as a *convenience* option, because it would be cumbersome to have to come over for another scan after every update.
 
@@ -208,7 +208,7 @@ Tools for Humanity lacks consistency in the various claims and statements found 
 
 ### No deletion on the blockchain
 
-Tools for Humanity's Privacy Policy declares that the company will delete all account data (when laws allow it) one month after it is closed, this is good. They also state they will delete entirely any inactive account after 2 years, and this is actually a great policy.
+Tools for Humanity's Privacy Policy declares that the company will delete all account data (when laws allow it) one month after it is closed (this is good). They also state they will delete entirely any inactive account after 2 years, and this is actually a great policy.
 
 But what happens to the World ID, transactions, and other data stored on the blockchain?
 
@@ -266,13 +266,13 @@ The World project tried again to appeal the decision, in vain.
 
 ### Kenya and Indonesia suspended its operations
 
-In 2023, Kenya, one of the first country where Worldcoin was available, [suspended](https://techcrunch.com/2023/08/02/kenya-suspends-worldcoin-scans-over-security-privacy-and-financial-concerns/) Worldcoin's operations citing concerns over the "authenticity and legality" of its activities related to privacy, security, and financial services.
+In 2023, Kenya, one of the first countries where Worldcoin was available, [suspended](https://techcrunch.com/2023/08/02/kenya-suspends-worldcoin-scans-over-security-privacy-and-financial-concerns/) Worldcoin's operations citing concerns over the "authenticity and legality" of its activities related to privacy, security, and financial services.
 
-The worse part is, months before the Office of the Data Protection Commissioner (ODPC) of the country had ordered Tools for Humanity to stop collecting personal information from its citizens. The company simply [ignored the ODPC order](https://techcrunch.com/2023/08/15/worldcoin-in-kenya/) and continued to collect biometric data from Kenyans. It only stopped after Kenya's ministry of interior and administration gave the suspension order later on.
+The worse part is that months before, the Office of the Data Protection Commissioner (ODPC) of the country had ordered Tools for Humanity to stop collecting personal information from its citizens. The company simply [ignored the ODPC order](https://techcrunch.com/2023/08/15/worldcoin-in-kenya/) and continued to collect biometric data from Kenyans. It only stopped after Kenya's ministry of interior and administration gave the suspension order later on.
 
 This again is quite far from the behavior of a company who genuinely values privacy.
 
-More recently on May 4th 2025, Indonesia also [suspended](https://en.antaranews.com/news/353861/indonesia-suspends-worldcoin-world-id-operations-over-public-concerns) the World project's operation in the country over concerns related to user privacy and security. The Ministry of Communication and Digital will be summoning the project's local operators to clarify the operations and determine potential violation of the Indonesia's electronic system regulation.
+More recently on May 4th, 2025, Indonesia also [suspended](https://en.antaranews.com/news/353861/indonesia-suspends-worldcoin-world-id-operations-over-public-concerns) the World project's operation in the country over concerns related to user privacy and security. The Ministry of Communication and Digital will be summoning the project's local operators to clarify the operations and determine potential violation of the Indonesia's electronic system regulation.
 
 ### German regulator ordered GDPR compliance following investigation
 
@@ -290,7 +290,7 @@ There is no doubt more countries and regions will follow with similar investigat
 
 ### In the United States, the app is restricted in some states
 
-Even in the US where the company is headquartered, the app is [restricted](https://www.wired.com/story/sam-altman-orb-eyeball-scan-launch-us/) in some states. The announcement for its event this month carried a warning the World is “not available for distribution via World App to people, companies or organizations who are residents of, or are located or incorporated in the State of New York or other restricted territories.”
+Even in the US where the company is headquartered, the app is [restricted](https://www.wired.com/story/sam-altman-orb-eyeball-scan-launch-us/) in some states. The announcement for its event this month carried a warning that the World is “not available for distribution via World App to people, companies or organizations who are residents of, or are located or incorporated in the State of New York or other restricted territories.”
 
 We can also expect the project will encounter roadblocks in states that have passed [regulations specific to the collection of biometric data](https://www.huschblackwell.com/2024-state-biometric-privacy-law-tracker). This includes states like Illinois, Texas, Washington, and Colorado.
 
@@ -316,7 +316,7 @@ The amount of money invested in the project means there will be an incredible pr
 
 The well-known dating app Tinder has already partnered with World ID to verify the age of users in Japan. If this experiment works well, and if users comply without objection, this could be soon mandatory for *all* dating apps.
 
-Let's not stop at dating apps, the World project has already announced last week they will also be working with Razer to verify humanity of online gamers. How far can this go in the age of age verification? Will every online games with mature content soon require a World ID to play?
+Let's not stop at dating apps. The World project has already announced last week they will also be working with Razer to verify humanity of online gamers. How far can this go in the age of age verification? Will every online games with mature content soon require a World ID to play?
 
 What about social media? Tools for Humanity's team have insisted the age of AI made us incapable of detecting if we are interacting with bots online. Therefore, they must valiantly come to our rescue to verify our humanity scanning our eyeballs (which bots tragically lack). What if this human verification is expanded to all our social media accounts? Certainly, regulators pushing for authoritarian age verification online would be delighted by such a product.
 
@@ -372,7 +372,7 @@ Further, biometric data should never be used for trivial purposes like "proof of
 
 The premise itself is flawed from the start to respect privacy rights.
 
-While the problem of proving identify can still be an important one to solve in *some* context, the solution to this can never be monopolized by for-profit corporations.
+While the problem of proving identity can still be an important one to solve in *some* context, the solution to this can never be monopolized by for-profit corporations.
 
 Regardless of Tools for Humanity's intentions and efforts to convince us to trust them, any similar technology is just another step towards a global system of mass surveillance, where ultimately privacy rights and human rights are lost.
 
