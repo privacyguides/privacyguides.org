@@ -14,7 +14,7 @@ cover: dns.webp
 
 ## DNS Sinkholes
 
-[**DNS sinkholes**](https://en.wikipedia.org/wiki/DNS_sinkhole) use DNS filtering to block unwanted web content, such as advertisements.
+[**DNS sinkholes**](https://en.wikipedia.org/wiki/DNS_sinkhole) use DNS filtering to block unwanted web content such as advertisements.
 
 ### Pi-Hole
 
