@@ -1,5 +1,5 @@
 ---
-title: "DNS Resolvers"
+title: DNS Resolvers
 icon: material/dns
 description: We recommend choosing these encrypted DNS providers to replace your ISP's default configuration.
 cover: dns.webp
@@ -10,7 +10,7 @@ global:
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-Encrypted DNS with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Encrypted DNS will not help you hide any of your browsing activity.
+Encrypted **DNS** with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Encrypted DNS will not help you hide any of your browsing activity.
 
 [Learn more about DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md){ .md-button }
 
