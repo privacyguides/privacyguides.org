@@ -393,6 +393,9 @@ nav:
               - "os/windows/group-policies.md"
   - !ENV [NAV_RECOMMENDATIONS, "Recommendations"]:
       - "tools.md"
+      - !ENV [NAV_SELF_HOSTING, "Self-Hosting"]:
+          - "self-hosting/index.md"
+          - "self-hosting/email-servers.md"
       - !ENV [NAV_INTERNET_BROWSING, "Internet Browsing"]:
           - "tor.md"
           - "desktop-browsers.md"
