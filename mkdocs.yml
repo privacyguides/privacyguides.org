@@ -393,6 +393,9 @@ nav:
               - "os/windows/group-policies.md"
   - !ENV [NAV_RECOMMENDATIONS, "Recommendations"]:
       - "tools.md"
+      - !ENV [NAV_SELF_HOSTING, "Self-Hosting"]:
+          - "self-hosting/index.md"
+          - "self-hosting/email-servers.md"
       - !ENV [NAV_INTERNET_BROWSING, "Internet Browsing"]:
           - "tor.md"
           - "desktop-browsers.md"
@@ -447,6 +450,11 @@ nav:
   - !ENV [NAV_VIDEOS, "Videos"]: /videos/
   - !ENV [NAV_FORUM, "Forum"]:
       !ENV [NAV_FORUM_LINK, "https://discuss.privacyguides.net/"]
+  - !ENV [NAV_WIKI, "Wiki"]:
+      !ENV [
+        NAV_WIKI_LINK,
+        "https://discuss.privacyguides.net/c/community-wiki/9411/none",
+      ]
   - !ENV [NAV_ABOUT, "About"]:
       - "about.md"
       - "about/donate.md"
