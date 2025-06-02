@@ -143,7 +143,7 @@ We should all [develop more respectful practices](the-privacy-of-others.md) when
 
 ### Background checks and algorithmic biases
 
-Even for people who are publicly out and live in regions that are supportive, discrimination and biases are still there. Despite new legislations and a more progressive culture, data remnants of previous oppressive times can still have a severe negative impact on someone's life. Too little efforts are made from institutions to correct records properly after a legislation have passed.
+Even for people who are publicly out and live in regions that are supportive, discrimination and biases are still there. Despite new legislations and a more progressive culture, data remnants of previous oppressive times can still have a severe negative impact on someone's life. Too few efforts are made by institutions to correct records properly after legislation has passed.
 
 This is especially problematic with opaque systems where embedded discrimination might not be obvious. Algorithmic decision-making is a growing danger for this, considering there is often no way to trace back the reasons a decision was made, and no accountability for whomever fed biased data to the black-box algorithm, whether negligently or maliciously.
 
