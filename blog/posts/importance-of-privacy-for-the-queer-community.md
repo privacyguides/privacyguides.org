@@ -55,7 +55,7 @@ If someone lives with family members who do not accept who they are, getting out
 
 No matter the situation, coming out as queer should always be an individual and intentional choice.
 
-**It is an act of violence to out someone against their consent, even when performed by the intermediary of an algorithm or a neglectful data leak.**
+It is an act of violence to out someone against their consent, even when performed by the intermediary of an algorithm or a neglectful data leak.
 
 Each time there is a data breach that includes information about gender identity, sexuality, browsing history, location history, installed applications, or legal names, this data leak risks outing people against their will.
 
