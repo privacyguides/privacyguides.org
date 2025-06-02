@@ -193,8 +193,6 @@ If you prefer something similar to Instagram, you can replace it with [Pixelfed]
 
 These corporate-alternative platforms often benefit from stronger moderation and better respect for their users' data. Because they aren't for-profit corporations, they have no interest in collecting your data, tracking you, or imposing invasive "real-name" policies. Additionally, they run **no ads**!
 
-On these alternative media, there are no ads and no algorithms to inadvertently out you from your browsing or posting history.
-
 #### Secure any social media you use
 
 No matter the social media platform(s) you choose to use, the first step should always be to make sure you go through all the setting options to secure your account ([enable multifactor authentication](https://www.privacyguides.org/en/basics/multi-factor-authentication/)!), and adjust the available privacy options to your needs and preferences (consider [locking](https://www.privacyguides.org/en/social-networks/#public-profile) your account if you wish to restrict visibility to your followers).
