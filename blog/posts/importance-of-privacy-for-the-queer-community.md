@@ -275,7 +275,7 @@ Having an independent website, or using a Fediverse-connected platform that will
 
 For example, if you create a Mastodon account for your organization, people will not need to create a Mastodon account to read your posts and event announcements. All your posts will be accessible just like any independent website would be (if you leave your posts' visibility public).
 
-Setting up an end-to-end encrypted email address, and using an [alias email address](https://www.privacyguides.org/en/email-aliasing/), are also good ways to stay accessible without requiring attendees to use a Facebook account.
+Setting up an end-to-end encrypted email address and using an [alias email address](https://www.privacyguides.org/en/email-aliasing/) are also good ways to stay accessible without requiring attendees to use a Facebook account.
 
 Additionally, there are federated platforms, such as [Mobilizon](https://mobilizon.org/), that can be a great non-commercial way to organize in a safer and more accessible space.
 
