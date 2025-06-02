@@ -131,7 +131,7 @@ Tragically, privacy legislation is lagging behind at protecting us by regulating
 
 ### Public photos during events
 
-These days, it's pretty much impossible to assist to any events without having our photo intrusively taken by a stranger and posted on Instagram without our consent.
+These days, it's pretty much impossible to attend many events without having our photo intrusively taken by a stranger and posted on Instagram without our consent.
 
 This is a generally bad behavior that we should all work on improving culturally. Posting photos of strangers online without their consent can be much more harmful for queer people.
 
