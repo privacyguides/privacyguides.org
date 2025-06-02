@@ -10,7 +10,6 @@ schema_type: AnalysisNewsArticle
 preview:
   cover: blog/assets/images/importance-of-privacy-for-the-queer-community/pride-cover.webp
 ---
-
 # The Importance of Data Privacy For The Queer Community
 
 ![Photo of a Progress Pride Flag with a semi-transparent padlock icon over it.](../assets/images/importance-of-privacy-for-the-queer-community/pride-cover.webp)
@@ -301,7 +300,7 @@ It's impossible to cover every specific situation, but know that there are [many
 <div class="admonition tip" markdown>
 <p class="admonition-title">Caution: This isn't an exhaustive list!</p>
 
-This is only a short introduction to some practices and tools that *can* improve your privacy online. Not one solution will be enough to be anonymous online. 
+This is only a short introduction to some practices and tools that *can* improve your privacy online. Not one solution will be enough to be anonymous online.
 
 It's important to stay aware of what data will still be shared and which will be better protected, but nothing will make you 100% anonymous.
 
