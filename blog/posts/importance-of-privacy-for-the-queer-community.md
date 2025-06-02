@@ -139,7 +139,7 @@ For example, taking photos at a Pride event and posting it online, can out peopl
 
 This non-consensual practice, coupled with the corporate social media tendency to use facial recognition to tag everyone's faces, can cause harm in all sorts of ways.
 
-We should all [develop more respectful practices](the-privacy-of-others.md) when taking photos at events, and be mindful not to post online anyone identifiable in the audience we do not have explicit consent from.
+We should all [develop more respectful practices](the-privacy-of-others.md) when taking photos at events, and be mindful not to post anything online which could identify anyone in the audience who did not give their explicit consent.
 
 ### Background checks and algorithmic biases
 
