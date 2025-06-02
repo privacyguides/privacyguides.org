@@ -103,7 +103,7 @@ The need for social connection and support from peers is a fundamental human nee
 
 ### Real-name policies
 
-Many privacy-invasive practices and policies are significantly more dangerous for LGBTQ+ people. For example, [Facebook and other platforms "real-name" policies](https://en.wikipedia.org/wiki/Real-name_system) are absolutely horrendous for transgender people.
+Many privacy-invasive practices and policies are significantly more dangerous for LGBTQ+ people. For example, [the "real-name" policies](https://en.wikipedia.org/wiki/Real-name_system) on Facebook and other platforms are absolutely horrendous for transgender people.
 
 If a trans person uses an older account, or has not changed their name on official documentation, a real-name policy could either out them against their will, force them to keep their [deadname](https://en.wikipedia.org/wiki/Deadnaming) online, or even lock them out of their account if official ID is requested for account recovery and doesn't match the name they used for the account.
 
