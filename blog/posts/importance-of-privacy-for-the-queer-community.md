@@ -201,7 +201,7 @@ This is true for Mastodon as well, but you should make adjusting all the privacy
 
 Additionally, keep in mind that many platforms, including X, Facebook, and Reddit, will now use all your posted content to train their AI systems, making this information and embedded biases likely impossible to delete in the future.
 
-Developing an awareness of what data is shared, who can access it, how it is secured, and how it is used, is very important to stay safe online.
+Developing an awareness of what data is shared, who can access it, how it is secured, and how it is used is very important for staying safe online.
 
 ### Securing data when communicating
 
