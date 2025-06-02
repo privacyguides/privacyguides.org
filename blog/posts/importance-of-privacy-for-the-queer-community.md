@@ -342,7 +342,7 @@ But until we get there, we have to empowered ourselves to bring change and stop 
 
 - [Trans Rescue (International)](https://transrescue.org/): Organization assisting trans and queer individuals in relocating from dangerous areas to safer places.
 
-- [Twenty10 (Australia)](https://twenty10.org.au/): Sidney-based organization providing a broad range of free support programs to the LGBTIQA+ community.
+- [Twenty10 (Australia)](https://twenty10.org.au/): Sydney-based organization providing a broad range of free support programs to the LGBTIQA+ community.
 
 ### International advocacy
 
