@@ -61,7 +61,7 @@ Each time there is a data breach that includes information about gender identity
 
 For all these reasons, it is vital that information be safeguarded so that a queer person is empowered to choose when, how, and to whom to come out on their own terms.
 
-In today's political climate, this is unfortunately even truer for trans people, who are at a greater risk of getting outed against their will when data about gender, sex, or legal name leaks. Sadly, there are still too many online forms and software that needlessly collect gender data when it's completely unnecessary. Similarly, requiring full *legal* name is completely irrelevant in many situations where it is asked.
+In today's political climate, this is unfortunately even truer for trans people, who are at a greater risk of getting outed against their will when data about their gender, sex, or legal name leaks. Sadly, there are still too many online forms and software that needlessly collect gender data when it's completely unnecessary. Similarly, requiring full *legal* name is completely irrelevant in many situations where it is currently asked.
 
 Developers must take responsibility and design software and forms considering these risks. As data scientist and civic technologist Soren Spicknall explains brilliantly, gender data [should never be collected](https://medium.com/@SorenSpicknall/protecting-queer-communities-through-data-4707ae0cb562) unless *absolutely* necessary and *absolutely* protected, which in most instances it really isn't:
 
