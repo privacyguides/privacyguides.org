@@ -77,7 +77,7 @@ This kind of non-consensual outing can have devastating consequences, and should
 
 The risk of having data about one's sexuality or gender identity revealed against one's will can be very dangerous for some people.
 
-With online harassment on the rise, this intimate information can get weaponized by bigots and extortionists to cause severe harm. Unfortunately, this isn't a rare occurrence, even in countries where the LGBTQ+ community is well accepted. Regrettably, some platforms have even started to [rollback previous protections against hate speech](https://apnews.com/article/social-media-lgbtq-tiktok-x-facebook-instagram-glaad-f790bda1bc3f169ef28ca3f441ea8447) and harassment. This will have a significantly detrimental impact on the safety of the queer community online.
+With online harassment on the rise, this intimate information can be weaponized by bigots and extortionists to cause severe harm. Unfortunately, this isn't a rare occurrence, even in countries where the LGBTQ+ community is well accepted. Regrettably, some platforms have even started to [roll back previous protections against hate speech](https://apnews.com/article/social-media-lgbtq-tiktok-x-facebook-instagram-glaad-f790bda1bc3f169ef28ca3f441ea8447) and harassment. This will have a severely detrimental impact on the safety of the queer community online.
 
 This year, the LGBTQ advocacy organization GLAAD produced a [Social Media Safety Index](https://glaad.org/smsi/2025/platform-scorecard/) rating six major platforms: TikTok, Facebook, Instagram, YouTube, Threads, and X. X (formerly Twitter) received the worst safety score of them all.
 
