@@ -149,7 +149,7 @@ This is especially problematic with opaque systems where embedded discrimination
 
 Then, are older systems of decision-making, such as background checks. Last year, a 78-year-old woman from West Sussex [learned](https://www.bbc.co.uk/news/articles/c3v5pwnpnvko) that she had a criminal record for 56 years for being a lesbian in the military (at a time when it was illegal). Completely unaware of this outdated data trail, this woman spent her whole life with this discriminatory tag attached to her records. This likely made her lose countless opportunities through decades, without even knowing the cause.
 
-Unfortunately, this kind of incidents is likely to multiply by millions with the increased use of algorithmic decision-making using closed systems, often impossible to audit.
+Unfortunately, this kind of incident is likely to multiply by millions with the increased use of algorithmic decision-making using closed systems, often impossible to audit.
 
 ### Dating apps data
 
