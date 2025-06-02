@@ -179,7 +179,7 @@ For example, platforms that are developed and managed by a community of voluntee
 
 If you are ready to make a change, [Mastodon](https://joinmastodon.org/) is a non-profit platform that [we recommend](https://www.privacyguides.org/en/social-networks/#mastodon).
 
-Mastodon is a social media that resembles a little what Twitter was before. It is composed of multiple servers you can choose from, which makes it easier to move your account if you aren't satisfied with the moderation on your server.
+Mastodon is a social media platform that somewhat resembles Twitter prior to its rebranding. It is composed of multiple servers you can choose from, which makes it easier to move your account if you aren't satisfied with the moderation on one particular server.
 
 To get started, you can choose the server administrated by the team who develops the Mastodon software ([mastodon.social](https://mastodon.social/about)), or you can choose a smaller server run by volunteers (you can also self-host, but that's a longer story).
 
