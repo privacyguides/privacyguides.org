@@ -195,7 +195,7 @@ These alternative platforms often benefit from stronger moderation and better re
 
 #### Secure any social media you use
 
-No matter the social media platform(s) you choose to use, the first step should always be to make sure you go through all the setting options to secure your account ([enable multifactor authentication](https://www.privacyguides.org/en/basics/multi-factor-authentication/)!), and adjust the available privacy options to your needs and preferences (consider [locking](https://www.privacyguides.org/en/social-networks/#public-profile) your account if you wish to restrict visibility to your followers).
+No matter what social media platform(s) you choose to use, the first step should always be to make sure you go through all the settings to secure your account ([enable multifactor authentication](https://www.privacyguides.org/en/basics/multi-factor-authentication/)!), and adjust the available privacy options to your needs and preferences (consider [locking](https://www.privacyguides.org/en/social-networks/#public-profile) your account if you wish to restrict visibility to your followers).
 
 This is true for Mastodon as well, but you should make adjusting all the privacy and security options an *absolute priority* for *any* corporate social media, especially [if you stay on Facebook](https://www.digitaltrends.com/social-media/how-to-opt-out-of-targeted-ads-on-facebook/).
 
