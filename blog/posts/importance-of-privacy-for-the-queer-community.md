@@ -67,7 +67,7 @@ Developers must take responsibility and design software and forms considering th
 
 > "Is the danger to your LGBT+ users worth the ability to roughly guess whether somebody is buying a purse for themselves or as a gift, or to assume you know what kind of movie they want to watch?"
 
-Algorithms shouldn't be able to target sexuality and gender identity as markers for advertising purposes. There has already been reported incidents where [people were outed against their will by Facebook](https://www.dailydot.com/irl/facebook-ads-lgbtq/) spitting around rainbow ads everywhere, because of Facebook secretly tying someone's browsing activity back to their profile.
+Algorithms shouldn't be able to target sexuality and gender identity as markers for advertising purposes. Unfortunately, there have already been reported incidents where [people were outed against their will by Facebook](https://www.dailydot.com/irl/facebook-ads-lgbtq/) spitting around rainbow ads everywhere, because of Facebook secretly tying someone's browsing activity back to their profile.
 
 Facebook (and most other commercial platforms) uses cookies and other tracking technologies to follow users online and [build an advertising profile](https://www.makeuseof.com/tag/facebook-tracking-stop/) based on their online activity, even outside of Facebook. Then, it shows ads on Facebook related to that activity, no matter if this information was shared or not on the platform.
 
