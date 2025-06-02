@@ -191,7 +191,7 @@ Additionally, Mastodon connects with other social media platforms that are also 
 
 If you prefer something similar to Instagram, you can replace it with [Pixelfed](https://pixelfed.org/). For something similar to Facebook, look for [Friendica](https://friendi.ca/). For something more like TikTok, try [Loops](https://loops.video/). For a replacement to YouTube, check videos on [PeerTube](https://joinpeertube.org/), and [more](https://fediverse.info/explore/projects)!
 
-These corporate-alternative platforms often benefit from stronger moderation and better respect for their users' data. Because they aren't for-profit corporations, they have no interest in collecting your data, tracking you, or imposing invasive "real-name" policies. Additionally, they run **no ads**!
+These alternative platforms often benefit from stronger moderation and better respect for their users' data. Because they aren't for-profit corporations, they have no interest in collecting your data, tracking you, or imposing invasive "real-name" policies. Additionally, they run **no ads**!
 
 #### Secure any social media you use
 
