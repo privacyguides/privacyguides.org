@@ -127,7 +127,7 @@ Facial recognition is an especially problematic technology for transgender peopl
 
 These systems are deeply flawed and have discrimination biases built-in. They aren't even reliable to identify the correct gender of cisgender people. Because of the way these algorithms were developed, the use of this technology is [worse for transgender people](https://www.theswaddle.com/how-facial-recognition-ai-reinforces-discrimination-against-trans-people), and [exponentially worse](https://sciencepolicy.hsites.harvard.edu/blog/racial-discrimination-face-recognition-technology) for transgender people of color.
 
-Tragically, legislation is lagging behind to protect us by regulating this biased, invasive, and inaccurate technology that is spreading faster and further every year.
+Tragically, privacy legislation is lagging behind at protecting us by regulating this biased, invasive, and inaccurate technology that is spreading faster and further every year.
 
 ### Public photos during events
 
