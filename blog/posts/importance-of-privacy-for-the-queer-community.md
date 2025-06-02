@@ -85,7 +85,7 @@ This year, the LGBTQ advocacy organization GLAAD produced a [Social Media Safety
 
 People questioning their gender identity or sexuality might seek information online about the health procedures or treatments they need.
 
-This sensitive search history can reveal a lot of personal details that should never get exposed against one's will. Sadly, browsing the internet without any tracking is a task that becomes harder every year, and many people aren't aware of the protections they can use against it.
+This sensitive search history can reveal a lot of personal details that should never be exposed against one's will. Sadly, browsing the internet without any tracking is a task that becomes harder every year, and many people aren't aware of the protections they can use against this tracking.
 
 When sensitive data related to gender-affirming care or sexual health gets exposed, people can suffer from severe harm ranging from non-consensual outing to imprisonment. Discrimination related to this type of health information is still rampant in every country in the world.
 
