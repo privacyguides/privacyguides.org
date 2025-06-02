@@ -39,7 +39,7 @@ In this context, it's essential for the queer community to be well-informed on t
 
 Unfortunately, LGBTQ+ people are still at a higher risk when their personal data gets exposed.
 
-First, for people living in environments hostile to their sexual orientation or gender identity, keeping personal information private can literally mean life or death. Tragically, even today, many countries still criminalize homosexuality and gender identities different from cisgender. When this personal information gets exposed, people might lose support from their family, lose their job, get arrested, or even get [executed](https://en.wikipedia.org/wiki/Capital_punishment_for_homosexuality) in some countries.
+First, for people living in environments hostile to their sexual orientation or gender identity, keeping personal information private can literally mean life or death. Tragically, even today many countries still criminalize homosexuality and gender identities different from cisgender. When this personal information gets exposed, people might lose support from their family, lose their job, get arrested, or even be [executed](https://en.wikipedia.org/wiki/Capital_punishment_for_homosexuality) in some countries.
 
 People in these very vulnerable situations have to be *extremely* careful about protecting their data in order to stay safe, online and offline.
 
