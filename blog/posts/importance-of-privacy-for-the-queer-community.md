@@ -119,7 +119,7 @@ Creating multiple accounts for different purposes, for example to separate work 
 
 Multiple accounts on a same platform, or "alt accounts", are regularly used by queer people in order to be their full selves online, when they aren't fully out in their public or personal life, or just because they prefer to keep their queer identity and activities separated.
 
-Sadly, if single-account policies were to get implemented on platforms, this great privacy protection could soon disappear.
+Sadly, if single-account policies begin to be implemented on platforms, this great privacy protection could soon disappear.
 
 ### Facial recognition
 
