@@ -163,7 +163,7 @@ In countries where homosexuality is criminalized, cruel state authorities and ho
 
 ## Things to keep in mind to stay safe
 
-Despite the increased risks the queer community is exposed to, staying offline disconnected from the world isn't a viable option.
+Despite the increased risks the queer community is exposed to, staying offline and disconnected from the world isn't a viable option.
 
 Indeed, disconnection and isolation can be an equal if not worse risk for LGBTQ+ people, especially for younger people. Tragically, queer youth are more than four times as likely to attempt suicide. Disconnection isn't an option, and is also an important danger to keep in mind.
 
