@@ -215,7 +215,7 @@ That being said, also take into account that because your communications there w
 
 #### Instant messaging communication
 
-[Signal](https://signal.org/) is a wonderful end-to-end encrypted and free-to-use instant messaging app that [we recommend](https://www.privacyguides.org/en/real-time-communication/#signal). Signal will collect your phone number to create the account, but nothing else.
+[Signal](https://www.privacyguides.org/en/real-time-communication/#signal) is a wonderful end-to-end encrypted and free-to-use instant messaging app. Signal will collect your phone number to create the account, but nothing else.
 
 When using Signal, you should [enable the username feature](https://support.signal.org/hc/en-us/articles/6712070553754-Phone-Number-Privacy-and-Usernames). That way, you can (and should) share your *username* only, instead of sharing your phone number to connect with others.
 
