@@ -29,7 +29,7 @@ While it's difficult to get a complete estimate on this, due to fear of discrimi
 
 In the United States alone, it's [estimated](https://www.lgbttech.org/_files/ugd/d77b01_0e1e02c938e94ae3aad4ce21312bdde4.pdf) there are 20 million adults who are part of the LGBTQ+ community. That's a lot of people!
 
-Despite the progress of the past decades, the queer population still faces many challenges to be free and safe from discrimination.
+Despite the progress of the past decades, the queer population still faces many challenges to being free and safe from discrimination.
 
 Discrimination online, at work, at school, at the national or even the familial level, can put LGBTQ+ individuals in dangerous situations, where data privacy may be the only shield available for protection.
 
