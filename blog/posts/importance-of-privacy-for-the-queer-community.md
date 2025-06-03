@@ -147,7 +147,7 @@ Even for people who are publicly out and live in regions that are supportive, di
 
 This is especially problematic with opaque systems where embedded discrimination might not be obvious. Algorithmic decision-making is a growing danger for this, considering there is often no way to trace back the reasons a decision was made, and no accountability for whomever fed biased data to the black-box algorithm, whether negligently or maliciously.
 
-There are also older systems of decision-making, such as background checks. Last year, a 78-year-old woman from West Sussex [learned](https://www.bbc.co.uk/news/articles/c3v5pwnpnvko) that she had a criminal record for 56 years, for being a lesbian in the military (at a time when it was illegal). Completely unaware of this outdated data trail, this woman spent her whole life with this discriminatory tag attached to her records. This likely cost her countless opportunities throughout the decades, without her ever knowing the cause.
+There are also older systems of decision-making, such as background checks. Last year, a 78-year-old woman from West Sussex [learned](https://www.bbc.co.uk/news/articles/c3v5pwnpnvko) that she had a criminal record for 56 years for being a lesbian in the military (at a time when it was illegal). Completely unaware of this outdated data trail, this woman spent her whole life with this discriminatory tag attached to her records. This likely cost her countless opportunities throughout the decades, without her ever knowing the cause.
 
 Unfortunately, this kind of incident is likely to multiply by millions with the increased use of algorithmic decision-making using closed systems, often impossible to audit.
 
