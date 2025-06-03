@@ -259,7 +259,7 @@ If you are visiting a country hostile to your sexuality or gender identity, make
 
 This could mean leaving your phone at home and only bringing a burner phone with you. It could also mean bringing additional (or different) types of official ID that are less likely to get you in trouble, and more likely to get accepted by the authorities of your visiting country.
 
-Be extremely careful when connecting to Wi-Fi services from a foreign country. If you were to connect to a service that is illegal there, or could accidentally out yourself as queer, and get into trouble with few recourses. Using a [trustworthy VPN](https://www.privacyguides.org/en/vpn/) can help mitigate some of this risk.
+Be extremely careful when connecting to Wi-Fi services from a foreign country. If you were to connect to a service or website that is illegal there, and could accidentally out yourself as queer, you could get in trouble with few recourses. Using a [trustworthy VPN](https://www.privacyguides.org/en/vpn/) can help mitigate some of this risk.
 
 ### Securing data when protesting
 
