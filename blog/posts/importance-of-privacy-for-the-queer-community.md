@@ -135,7 +135,7 @@ These days, it's pretty much impossible to attend many events without having our
 
 This is a generally bad behavior that we should all work on improving culturally. Posting photos of strangers online without their consent can be much more harmful for queer people.
 
-For example, taking photos at a Pride event and posting it online, can out people against their will. While it's perhaps fair to assume most people *performing* in a Pride parade or on a stage might implicitly be comfortable with it, this isn't necessarily the case for people in the *audience*.
+For example, taking photos at a Pride event and posting it online can out people against their will. While it's perhaps fair to assume most people *performing* in a Pride parade or on a stage might implicitly be comfortable with it, this isn't necessarily the case for people in the *audience*.
 
 This non-consensual practice, coupled with the corporate social media tendency to use facial recognition to tag everyone's faces, can cause harm in all sorts of ways.
 
