@@ -3,6 +3,8 @@ date:
     created: 2025-06-03T17:00:00Z
 categories:
     - News
+tags:
+    - Pride Month
 authors:
     - em
 description: Data privacy is important for everyone. But for some marginalized populations, data privacy is indispensable for social connection, access to information, and physical safety. For Pride month this year, we will discuss topics at the intersection of data privacy and experiences specific to the LGBTQ+ community.
@@ -16,14 +18,7 @@ preview:
 
 <small aria-hidden="true">Illustration: Em / Privacy Guides | Photo: Chris Robert / Unsplash</small>
 
-Data privacy is important for everyone. But for some marginalized populations, data privacy is indispensable for social connection, access to information, and physical safety. For Pride month this year, we will discuss topics at the intersection of data privacy and experiences specific to the LGBTQ+ community.<!-- more -->
-
-<div class="admonition info" markdown>
-<p class="admonition-title">Pride Series</p>
-
-This article is part of our series for Pride month focusing on topics at the intersection of data privacy and LGBTQ+ experiences.
-
-</div>
+Data privacy is important for everyone. But for some marginalized populations, data privacy is indispensable for social connection, access to information, and physical safety. For [Pride month](../tags.md#tag:pride-month) this year, we will discuss topics at the intersection of data privacy and experiences specific to the LGBTQ+ community.<!-- more -->
 
 While it's difficult to get a complete estimate on this, due to fear of discrimination and other factors, a 2021 [survey](https://www.ipsos.com/sites/default/files/ct/news/documents/2021-06/LGBT%20Pride%202021%20Global%20Survey%20Report_3.pdf) conducted by Ipsos in 27 countries revealed that only 80% of the population surveyed identified as heterosexual. Additionally, about 1% of adults identified as a gender different from the one they were assigned at birth. This percentage is even higher for Gen Z and Millennials.
 
