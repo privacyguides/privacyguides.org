@@ -36,7 +36,7 @@ Facial scans and facial recognition data are biometric data. Biometric data is e
 
 Imagine having a password stolen a thousand times, yet there is no way for you to change it. This is the security system that biometric data collectors are building. When their database eventually leaks, and someone steals it to impersonate you, you cannot simply get a new face like you would generate a new password.
 
-Moreover, facial data is the perfect tool to track you around without your consent. Systems using facial recognition are getting installed in schools, sport stadiums, and other venues around the world.
+Moreover, facial data is the perfect tool to track you around without your consent. Systems using facial recognition are being installed in schools, sport stadiums, and other venues around the world.
 
 Everyone should be extremely worried about sharing any biometric data, and should never accept this for simple "convenience".
 
