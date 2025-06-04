@@ -70,7 +70,7 @@ Very few AI systems of this type provide data without also *taking in* data.
 
 Most fresh AI startups simply utilize a subscription to OpenAI under the hood. This means it is likely any data you input into an AI assistant or note-taker will be shared back with OpenAI in the end. This includes any personal information you type and any photos you upload.
 
-Some applications offer options to opt out input sharing, but given the track record of tech companies asking for forgiveness rather than permission, can this really be trusted?
+Some applications offer options to opt out of input sharing, but given the track record of tech companies asking for forgiveness rather than permission, can this really be trusted?
 
 Additionally, regardless of the stated purpose for this data collection, nothing stops these companies from using it for another purpose down the road, or selling it to someone else.
 
