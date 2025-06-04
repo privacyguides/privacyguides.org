@@ -30,7 +30,7 @@ There are countless examples of this growing issue, but for now let's focus on t
 
 ## Face scans in airports (and elsewhere)
 
-Some airports and airlines around the world have started to [install face scanning stations](https://www.huffpost.com/entry/why-you-can-and-should-opt-out-of-tsa-facial-recognition-right-now-goog_l_680a673ae4b0b1be33560c93) to screen travelers passing through. The reason given for this is to provide a quick *convenient* way to verify identity when passing airport security lines.
+Some airports and airlines around the world have started to [install face scanning stations](https://www.huffpost.com/entry/why-you-can-and-should-opt-out-of-tsa-facial-recognition-right-now-goog_l_680a673ae4b0b1be33560c93) to screen travelers. This is supposedly a quick and *convenient* way to verify your identity when passing through airport security lines.
 
 Facial scans and facial recognition data is biometric data. Biometric data is especially sensitive because once it's collected, there is no way for you to modify it later, ever.
 
