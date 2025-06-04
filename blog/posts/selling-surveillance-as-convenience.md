@@ -62,21 +62,21 @@ Even without criminal breaches, security researcher Inti De Ceukelaire [revealed
 
 Despite repeated [warnings](https://www.cbc.ca/news/canada/hamilton/hamilton-parking-app-privacy-concerns-1.5689209) from privacy experts, parking applications remain largely under-regulated.
 
-## AI assistant and notetakers
+## AI assistants and note-takers
 
-Last but not least, AI assistant and notetaking applications have spawned in every corner of our lives for the past few years. Unfortunately, these **AI applications are an absolute nightmare for data privacy**.
+Last but not least, AI assistant and note-taking applications have spawned in every corner of our lives for the past few years. Unfortunately, these **AI applications are an absolute nightmare for data privacy**.
 
 Very few AI systems of this type provide data without also *taking in* data.
 
-Most fresh AI startups simply utilize a subscription to OpenAI under the hood. This means it is likely all data you input into an AI assistant or notetaker (unless it's a big player like Apple), will be shared back with OpenAI in the end. This includes any personal information you type and any photos you upload.
+Most fresh AI startups simply utilize a subscription to OpenAI under the hood. This means it is likely all data you input into an AI assistant or note-taker (unless it's a big player like Apple), will be shared back with OpenAI in the end. This includes any personal information you type and any photos you upload.
 
 Some applications offer options to opt out input sharing, but given the track record of tech companies asking for forgiveness rather than permission, can this really be trusted?
 
 Additionally, regardless of the stated purpose for this data collection, nothing stops these companies from using it for another purpose down the road, or selling it to someone else.
 
-AI notetaking applications that seem to be all the rage in remote meetings these days are no exception.
+AI note-taking applications that seem to be all the rage in remote meetings these days are no exception.
 
-To provide a transcript then a summary, these applications [will record](https://www.zscaler.com/cxorevolutionaries/insights/privacy-security-concerns-ai-meeting-tools) the whole meeting, often including both audio and video. This data will be stored by the AI notetaking company, and maybe also shared with at least OpenAI, potentially with other third-parties as well.
+To provide a transcript then a summary, these applications [will record](https://www.zscaler.com/cxorevolutionaries/insights/privacy-security-concerns-ai-meeting-tools) the whole meeting, often including both audio and video. This data will be stored by the AI note-taking company, and maybe also shared with at least OpenAI, potentially with other third-parties as well.
 
 This is **incredibly intrusive**, not to say straight out *creepy*.
 
@@ -96,9 +96,9 @@ Before taking a plane, spend some time researching if your citizenship and the r
 
 If you own a car, try to find a parking application that has been more thoughtful regarding security and privacy. Report any parking app practices infringing on your local privacy laws to your local Data Protection Authority or equivalent. If you go somewhere that if tracked could put you in danger, for example because you are victim of domestic violence or stalking, perhaps rent a car with a different license plate, share a ride with a trusted friend, or park to another location you can safely walk from.
 
-**Do NOT use any AI notetaker!** This technology might seem *convenient* at first, but it is completely unnecessary (and also unreliable). If you use this technology carelessly without providing proper privacy notice, you could run into serious legal risks. Additionally, you risk eroding the trust of everyone communicating with you when the *inevitable* data breach occurs.
+**Do NOT use any AI note-taker!** This technology might seem *convenient* at first, but it is completely unnecessary (and also unreliable). If you use this technology carelessly without providing proper privacy notice, you could run into serious legal risks. Additionally, you risk eroding the trust of everyone communicating with you when the *inevitable* data breach occurs.
 
-If someone invites you to a meeting using an AI notetaker, do not hesitate to refuse being recorded, and share your discomfort about this technology.
+If someone invites you to a meeting using an AI note-taker, do not hesitate to refuse being recorded, and share your discomfort about this technology.
 
 If you must use an AI assistant, try to find one that can run *offline,* and does not upload your inputs back to the company's server. When this isn't possible, make sure at least to never share any personal information with these systems. Be especially vigilant not to share any data related to other people, and especially children. This could lead to severe legal consequences for you down the road.
 
@@ -122,6 +122,6 @@ If we do not stand firm to defend our rights, even when it's inconvenient to do,
 
 - [Information on parking apps vulnerabilities: Not My Plate](https://notmyplate.com/)
 
-- [Information on AI notetakers](https://www.fisherphillips.com/en/news-insights/ai-notetaking-tools-should-you-use-them.html)
+- [Information on AI note-takers](https://www.fisherphillips.com/en/news-insights/ai-notetaking-tools-should-you-use-them.html)
 
 - [How to remove/disable Microsoft's Windows Recall](https://www.microsoftrecall.com/)
