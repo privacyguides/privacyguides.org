@@ -46,7 +46,7 @@ Sadly, many people do not know they might have a right to refuse.
 
 If people never refuse and simply accept surveillance without objection, we will soon lose any right we had to refuse. Without changes, this is the dystopia we are running towards.
 
-If everyone said no instead of complying for convenience, these intrusive technologies would stop getting imposed on us. We have a duty to **say no** when we can.
+If everyone said no instead of complying for convenience, these intrusive technologies would stop being imposed on us. We have a duty to **say no** when we can.
 
 ## Parking apps
 
