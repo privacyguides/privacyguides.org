@@ -38,7 +38,7 @@ Imagine having a password stolen a thousand times, yet there is no way for you t
 
 Moreover, facial data is the perfect tool to track you around without your consent. Systems using facial recognition are being installed in schools, sport stadiums, and other venues around the world.
 
-Everyone should be extremely worried about sharing any biometric data, and should never accept this for simple "convenience".
+Everyone should be extremely worried about sharing any biometric data with others, and should never do so simply for "convenience".
 
 Sadly, many people do not know they might have a right to refuse.
 
