@@ -58,7 +58,7 @@ Despite how sensitive this data is, it's very likely most applications have not 
 
 Once this data is exposed, it can be challenging or impossible to change or delete it. People in vulnerable situations can be put in grave danger when such data becomes accessible to anyone looking for it.
 
-Even without criminal breaches, security researcher Inti De Ceukelaire [revealed](https://www.dailydot.com/debug/parking-apps-track-car-privacy-gdpr/) in 2022 that some parking apps could allow anybody to track a car around. This is due to poor security letting anyone registering and tracking any car's license plate, whether it's their car or not.
+Even without criminal breaches, security researcher Inti De Ceukelaire [revealed](https://www.dailydot.com/debug/parking-apps-track-car-privacy-gdpr/) in 2022 that some parking apps could allow anybody to track a car around. This is due to poor security practices which allowed anyone to register and track any car's license plate, whether it's their car or not.
 
 Despite repeated [warnings](https://www.cbc.ca/news/canada/hamilton/hamilton-parking-app-privacy-concerns-1.5689209) from privacy experts, parking applications remain largely under-regulated.
 
