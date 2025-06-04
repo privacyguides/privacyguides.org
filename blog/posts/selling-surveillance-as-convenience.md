@@ -32,7 +32,7 @@ There are countless examples of this growing issue, but for now let's focus on t
 
 Some airports and airlines around the world have started to [install face scanning stations](https://www.huffpost.com/entry/why-you-can-and-should-opt-out-of-tsa-facial-recognition-right-now-goog_l_680a673ae4b0b1be33560c93) to screen travelers. This is supposedly a quick and *convenient* way to verify your identity when passing through airport security lines.
 
-Facial scans and facial recognition data is biometric data. Biometric data is especially sensitive because once it's collected, there is no way for you to modify it later, ever.
+Facial scans and facial recognition data are biometric data. Biometric data is especially sensitive because once it's collected, there is no way for you to modify it later, ever.
 
 Imagine having a password stolen a thousand times, yet there is no way for you to change it. This is what biometric data does. If this data leaks, and someone steals it to impersonate you, you cannot just get a new face, like you would for a password.
 
