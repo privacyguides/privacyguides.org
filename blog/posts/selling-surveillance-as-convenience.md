@@ -52,7 +52,7 @@ If everyone said no instead of complying for convenience, these intrusive techno
 
 Parking applications might feel like a boring but necessary sacrifice. With the slow disappearance of parking meters and cash money, more parking facilities now require parking apps for registration and payment.
 
-The problem is, these applications collect lots of sensitive information. Necessarily, they collect parking location, parking duration, license plate number, phone number, email, payment information, and often also legal names. This information can be shared across multiple applications and organizations (partners) to track a car's location even more widely.
+The problem is, these applications collect lots of sensitive information. Necessarily, they collect parking location, parking duration, license plate number, phone number, email, payment information, and often even your full legal name. This information can be shared across multiple applications and organizations (partners) to track a car's location even beyond the parking facility.
 
 Despite how sensitive this data is, it's very likely most applications have not invested the time and effort to protect it properly. Inevitably, [data breaches](https://www.classaction.org/blog/parkmobile-data-breach-class-action-heres-what-you-need-to-know) have already occurred.
 
