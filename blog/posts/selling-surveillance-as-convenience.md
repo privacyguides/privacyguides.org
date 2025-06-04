@@ -94,7 +94,7 @@ There are multiple ways to opt out of surveillance disguised as convenience. The
 
 Before taking a plane, spend some time researching if your citizenship and the region you are visiting grant you opt-out rights. If it does, print this documentation and be ready to politely ask for a traditional identify verification instead of a face scan.
 
-If you own a car, try to find a parking application that has been more thoughtful regarding security and privacy. Report any parking app practices infringing on your local privacy laws to your local Data Protection Authority or equivalent. If you go somewhere that if tracked could put you in danger, for example because you are victim of domestic violence or stalking, perhaps rent a car with a different license plate, share a ride with a trusted friend, or park to another location you can safely walk from.
+If you own a car, try to find a parking application that has been more thoughtful regarding security and privacy. Report any parking apps which infringe on your local privacy laws to your local Data Protection Authority or equivalent. If you go somewhere that could put you in danger if tracked — for example, because you are victim of domestic violence or stalking — consider renting a car with a different license plate, sharing a ride with a trusted friend, or parking at another location you can safely walk from.
 
 **Do NOT use any AI note-taker!** This technology might seem *convenient* at first, but it is completely unnecessary (and also unreliable). If you use this technology carelessly without providing proper privacy notice, you could run into serious legal risks. Additionally, you risk eroding the trust of everyone communicating with you when the *inevitable* data breach occurs.
 
