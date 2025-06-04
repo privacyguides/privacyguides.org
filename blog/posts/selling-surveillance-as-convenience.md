@@ -82,7 +82,7 @@ This is **incredibly intrusive**, not to say straight out *creepy*.
 
 Besides, it can even be *illegal*. If you use this kind of application with someone living in a region with a [two-party consent law](https://acclaws.com/can-you-record-a-conversation-legally/), recording without prior consent of all participants is criminal.
 
-Even without this, any personal information collected by an AI system is still **subjected to the privacy regulation protecting its data subject**. Nobody should take lightly the legal and moral obligations they have when using or developing such invasive technology.
+Even without this, any personal information collected by an AI system is still **subject to the privacy regulation protecting its data subject**. Nobody should take lightly the legal and moral obligations they have when using or developing such invasive technology.
 
 Even if you don't care about sending *your own* personal data to these companies, **you are still responsible** for [the data of others](the-privacy-of-others.md) you input in these systems.
 
