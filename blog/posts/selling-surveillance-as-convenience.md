@@ -92,7 +92,7 @@ For organizations, using AI doesn't remove any legal obligations to **[comply wi
 
 There are multiple ways to opt out of surveillance disguised as convenience. The first thing of course is to avoid using any such technology whenever possible.
 
-Before taking a plane, spend some time researching if your citizenship and the region you are visiting grant you opt out rights. If it does, print this documentation and be ready to politely ask for a traditional identify verification instead of a face scan.
+Before taking a plane, spend some time researching if your citizenship and the region you are visiting grant you opt-out rights. If it does, print this documentation and be ready to politely ask for a traditional identify verification instead of a face scan.
 
 If you own a car, try to find a parking application that has been more thoughtful regarding security and privacy. Report any parking app practices infringing on your local privacy laws to your local Data Protection Authority or equivalent. If you go somewhere that if tracked could put you in danger, for example because you are victim of domestic violence or stalking, perhaps rent a car with a different license plate, share a ride with a trusted friend, or park to another location you can safely walk from.
 
