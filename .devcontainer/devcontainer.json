@@ -1,8 +1,131 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/python
+// For format details, see https://aka.ms/devcontainer.json.
 {
-	"name": "Privacy Guides",
-	"image": "ghcr.io/squidfunk/mkdocs-material:9.5.17",
-	"forwardPorts": [8000],
-  "postCreateCommand": "git submodule init; git submodule update theme/assets/brand; apk add bash; /bin/bash run.sh --cmd=mkdocs --cmd_flags=--dev-addr=0.0.0.0:8000"
+  "name": "Privacy Guides",
+  "image": "ghcr.io/privacyguides/privacyguides.org:sha-750239d",
+  "overrideCommand": true,
+  "portsAttributes": {
+    "1337": {
+      "label": "Website Live Preview",
+      "onAutoForward": "notify"
+    },
+    "8000": {
+      "label": "Main",
+      "onAutoForward": "silent"
+    },
+    "8001": {
+      "label": "Articles",
+      "onAutoForward": "silent"
+    },
+    "8002": {
+      "label": "Videos",
+      "onAutoForward": "silent"
+    }
+  },
+  "otherPortsAttributes": {
+    "onAutoForward": "ignore"
+  },
+  "mounts": [
+    "source=${env:HOME}${env:USERPROFILE}/.config,target=/root/.config,type=bind"
+  ],
+  "updateContentCommand": "git submodule update --init theme/assets/brand",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "tasks": {
+          "version": "2.0.0",
+          "tasks": [
+            {
+              "label": "Articles",
+              "type": "shell",
+              "command": "mkdocs serve --config-file=mkdocs.blog.yml --dev-addr=localhost:8001",
+              "group": "test",
+              "runOptions": {
+                "runOn": "folderOpen"
+              },
+              "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "group": "Live server"
+              }
+            },
+            {
+              "label": "Videos",
+              "type": "shell",
+              "command": "mkdocs serve --config-file=mkdocs.videos.yml --dev-addr=localhost:8002",
+              "group": "test",
+              "runOptions": {
+                "runOn": "folderOpen"
+              },
+              "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "group": "Live server"
+              }
+            },
+            {
+              "label": "Main",
+              "type": "shell",
+              "command": "./run.sh --cmd=mkdocs --insiders --production",
+              "group": "test",
+              "runOptions": {
+                "runOn": "folderOpen"
+              },
+              "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "group": "Live server",
+                "focus": true
+              }
+            },
+            {
+              "label": "Caddy",
+              "type": "shell",
+              "command": "caddy run --config .devcontainer/Caddyfile",
+              "group": "test",
+              "runOptions": {
+                "runOn": "folderOpen"
+              },
+              "presentation": {
+                "reveal": "never",
+                "panel": "dedicated"
+              }
+            }
+          ]
+        }
+      },
+      "extensions": [
+        "EditorConfig.EditorConfig",
+        "DavidAnson.vscode-markdownlint",
+        "wholroyd.jinja",
+        "mikestead.dotenv",
+        "redhat.vscode-yaml",
+        "ecmel.vscode-html-css",
+        "yzhang.markdown-all-in-one",
+        "bierner.markdown-checkbox",
+        "bierner.markdown-emoji",
+        "bierner.markdown-footnotes",
+        "bierner.markdown-preview-github-styles",
+        "esbenp.prettier-vscode",
+        "ltex-plus.vscode-ltex-plus",
+        "ms-python.python",
+        "github.vscode-github-actions",
+        "matthewpi.caddyfile-support",
+        "ms-vsliveshare.vsliveshare"
+      ]
+    },
+    "codespaces": {
+      "repositories": {
+        "privacyguides/mkdocs-material-insiders": {
+          "permissions": {
+            "content": "read"
+          }
+        },
+        "privacyguides/brand": {
+          "permissions": {
+            "content": "read"
+          }
+        }
+      }
+    }
+  }
 }
