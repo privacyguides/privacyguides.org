@@ -27,11 +27,15 @@
     "redhat.vscode-yaml",
     "ecmel.vscode-html-css",
     "yzhang.markdown-all-in-one",
-    "valentjn.vscode-ltex",
     "bierner.markdown-checkbox",
     "bierner.markdown-emoji",
     "bierner.markdown-footnotes",
     "bierner.markdown-preview-github-styles",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "ltex-plus.vscode-ltex-plus",
+    "ms-python.python",
+    "github.vscode-github-actions",
+    "ms-vscode-remote.remote-containers",
+    "github.codespaces"
   ]
 }

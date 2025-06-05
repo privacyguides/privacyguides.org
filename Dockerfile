@@ -1,72 +1,69 @@
-FROM python:3.13-alpine as base
+FROM python:3.12-bookworm AS base
 
 LABEL org.opencontainers.image.source="https://github.com/privacyguides/privacyguides.org"
 
-# Setup env
-ENV LANG C.UTF-8
-ENV LC_ALL C.UTF-8
-ENV PYTHONDONTWRITEBYTECODE 1
-ENV PYTHONFAULTHANDLER 1
+# Setup environment
+ENV LANG=C.UTF-8
+ENV LC_ALL=C.UTF-8
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONFAULTHANDLER=1
 
+####################################################
+# Stage: python-deps
+# Install pipenv and compilation dependencies
+####################################################
 FROM base AS python-deps
 
-# Install pipenv and compilation dependencies
-RUN pip install pipenv
-RUN \
-  apk upgrade --update-cache -a \
-&& \
-  apk add --no-cache \
-    gcc \
-    libffi-dev \
-    musl-dev
+# Install pipenv
+RUN pip install --no-cache-dir pipenv
 
-# Install python dependencies in /.venv
+# Install build tools and libraries needed to compile any Python packages
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+      gcc \
+      libffi-dev \
+      build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy Pipfile, Pipfile.lock, and any local modules needed for dependency resolution
 COPY modules/mkdocs-material ./modules/mkdocs-material
 COPY Pipfile .
 COPY Pipfile.lock .
+
+# Install all Python dependencies into a project‐local virtual environment at /.venv
 RUN PIPENV_VENV_IN_PROJECT=1 pipenv install --deploy
 
+####################################################
+# Stage: runtime
+# Install runtime dependencies and copy runtime artifacts
+####################################################
 FROM base AS runtime
 
-# Install runtime dependencies
-RUN \
-  apk upgrade --update-cache -a \
-&& \
-  apk add --no-cache \
-    cairo \
-    freetype-dev \
-    git \
-    git-fast-import \
-    jpeg-dev \
-    openssh \
-    pngquant \
-    tini \
-    zlib-dev \
-    libffi-dev \
-    musl-dev \
-    bash
+# Install runtime packages (GTK/Cairo, image processing libraries, Git, etc.)
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+      libcairo2-dev \
+      libfreetype6-dev \
+      git \
+      libjpeg-dev \
+      libpng-dev \
+      openssh-client \
+      pngquant \
+      tini \
+      zlib1g-dev \
+      libffi-dev \
+      bash \
+      caddy \
+    && rm -rf /var/lib/apt/lists/*
 
-# Copy virtual env from python-deps stage
+# Copy virtual environment and local mkdocs-material module from python-deps stage
 COPY --from=python-deps /.venv /.venv
 COPY --from=python-deps /modules/mkdocs-material /modules/mkdocs-material
+
+# Ensure the virtual environment’s bin directory is first in PATH
 ENV PATH="/.venv/bin:$PATH"
-
-# Create and switch to a new user
-RUN mkdir /site
-WORKDIR /site
-
-COPY docs docs
-COPY theme theme
-COPY includes includes
-COPY *.yml .
-COPY .cache/plugin/social/fonts .cache/plugin/social/fonts
-COPY run.sh .
-
-EXPOSE 8000
-
-ENV MKDOCS_INHERIT mkdocs-production.yml
 
 HEALTHCHECK NONE
 
-ENTRYPOINT ["./run.sh"]
-CMD ["--cmd=mkdocs", "--insiders", "--cmd_flags=--dev-addr=0.0.0.0:8000"]
+# Entry point script and default cmd for running mkdocs
+ENTRYPOINT ["/bin/bash"]
