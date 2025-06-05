@@ -34,7 +34,7 @@ Our recommended providers use encryption, support WireGuard & OpenVPN, and have 
 |---|---|---|---|---|---
 | [Proton](#proton-vpn) | 112+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Partial Support | :material-information-outline:{ .pg-blue } Limited Support | Cash
 | [IVPN](#ivpn) | 37+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } | :material-information-outline:{ .pg-blue } Outgoing Only | Monero, Cash
-| [Mullvad](#mullvad) | 45+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } | :material-check:{ .pg-green } | Monero, Cash
+| [Mullvad](#mullvad) | 49+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } | :material-check:{ .pg-green } | Monero, Cash
 
 ### Proton VPN
 
