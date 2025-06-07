@@ -44,6 +44,7 @@ tags:
   og:video:type: "text/html"
   og:video:width: "560"
   og:video:height: "315"
+  video:release_date: "{{ page.config.date.created.strftime('%Y-%m-%dT%H:%M:%S+00:00') }}"
 
   # Mastodon
   fediverse:creator: "@privacyguides@neat.computer"

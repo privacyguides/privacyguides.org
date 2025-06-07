@@ -131,6 +131,7 @@ plugins:
     post_url_format: "{date}/{file}"
     post_excerpt: required
     post_excerpt_max_authors: 0
+    post_readtime: false
     authors_profiles: true
     authors_profiles_toc: true
     categories_allowed:
@@ -214,9 +215,13 @@ nav:
       - editorial.md
       - tags.md
   - !ENV [NAV_VIDEOS, "Videos"]: /videos/
-  - !ENV [NAV_ABOUT, "About"]: /en/about/
-  - "Donate": /en/about/donate/
   - !ENV [NAV_FORUM, "Forum"]: "https://discuss.privacyguides.net/"
+  - !ENV [NAV_WIKI, "Wiki"]:
+      !ENV [
+        NAV_WIKI_LINK,
+        "https://discuss.privacyguides.net/c/community-wiki/9411/none",
+      ]
+  - !ENV [NAV_ABOUT, "About"]: /en/about/
 
 validation:
   nav:
