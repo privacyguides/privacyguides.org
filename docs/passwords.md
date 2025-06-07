@@ -367,6 +367,28 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
 The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
 
+### Keepassium (iOS & macOS)
+
+<div class="admonition recommendation" markdown>
+
+![Keepassium logo](assets/img/password-management/keepassium.svg){ align=right }
+
+**DESCRIPTION TO DO**
+
+[:octicons-home-16: Homepage](https://keepassium.com){ .md-button .md-button--primary }
+[:octicons-info-16:](https://support.keepassium.com/){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/keepassium/KeePassium){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://keepassium.com/donate/){ .card-link title="Contribute" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/keepassium-keepass-passwords/id1435127111)
+
+</details>
+
+</div>
+
 ### Gopass (CLI)
 
 <div class="admonition recommendation" markdown>
