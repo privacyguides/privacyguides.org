@@ -367,11 +367,11 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
 The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
 
-### Keepassium (iOS & macOS)
+### KeePassium (iOS & macOS)
 
 <div class="admonition recommendation" markdown>
 
-![Keepassium logo](assets/img/password-management/keepassium.svg){ align=right }
+![KeePassium logo](assets/img/password-management/keepassium.svg){ align=right }
 
 KeePassium is a commercial open-source KeePass client made by KeePassium Labs. It has *free* features such as automatic two-way synchronization with most cloud storage providers, autofill support, passkey management and more.
 
