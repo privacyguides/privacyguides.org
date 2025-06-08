@@ -383,7 +383,7 @@ KeePassium is a commercial open-source KeePass client made by KeePassium Labs. I
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/keepassium-keepass-passwords/id1435127111)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/id1435127111)
 
 </details>
 
