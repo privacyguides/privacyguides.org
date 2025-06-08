@@ -373,7 +373,7 @@ The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.ke
 
 ![KeePassium logo](assets/img/password-management/keepassium.svg){ align=right }
 
-KeePassium is a commercial open-source KeePass client made by KeePassium Labs. It has *free* features such as automatic two-way synchronization with most cloud storage providers, autofill support, passkey management and more.
+KeePassium is a commercial open-source KeePass client made by KeePassium Labs. It has *free* features such as automatic two-way synchronization with most [cloud storage providers](https://www.privacyguides.org/en/cloud/), autofill support, passkey management and more.
 
 [:octicons-home-16: Homepage](https://keepassium.com){ .md-button .md-button--primary }
 [:octicons-info-16:](https://support.keepassium.com/){ .card-link title="Documentation" }
@@ -389,7 +389,9 @@ KeePassium is a commercial open-source KeePass client made by KeePassium Labs. I
 
 </div>
 
-KeePassium has a paid version with more features like multiple databases support, YubiKey support or password auditing. Additionally, KeePassium uses an interesting "rent-to-own" model, this means that if you pay for a KeePassium subscription for 12 months or more, you will always "own" the features you've paid for, even if you stop paying.
+KeePassium has a [Premium version with more features](https://keepassium.com/pricing/) like support for multiple databases, YubiKey support or password auditing. Additionally, KeePassium uses an interesting "rent-to-own" model, this means that if you pay for a KeePassium subscription for 12 months or more, you will always "own" the features you've paid for, even if you stop paying.
+
+KeePassium [has been audited](https://cure53.de/pentest-report_keepassium.pdf) by Cure53 in October 2024, and [all app-related issues](https://keepassium.com/blog/2024/11/independent-security-audit-complete/) found in the audit were subsequently fixed.
 
 ### Gopass (CLI)
 
