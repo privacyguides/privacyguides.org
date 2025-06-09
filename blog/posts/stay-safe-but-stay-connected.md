@@ -209,7 +209,7 @@ Before deleting any account, always make sure to:
 
 #### Which better platforms to use to stay connected
 
-While any data publicly accessible online can technically get collected by anyone, using alternative platforms that aren't advertising businesses can still greatly improve your data privacy online.
+While any data publicly accessible online can technically be collected by anyone, using alternative platforms that aren't advertising businesses can still greatly improve your data privacy online.
 
 For example, platforms that are part of the Fediverse social network are predominantly non-profit open-source software using a collection of connected servers generally run by volunteers.
 
