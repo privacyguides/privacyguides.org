@@ -278,7 +278,7 @@ For email communication, moving away from large providers such as Google and Mic
 
 Large providers of free email services tend to collect a lot of data on their users, sometimes including the content of their communications. Moving to a service that uses end-to-end encryption and better practices around metadata offers significant benefits.
 
-Proton Mail and Tuta are two services implementing end-to-end encryption to protect the content of users' messages. For more details and options, you can look at our [Email Services providers](https://www.privacyguides.org/en/email/) recommendation page.
+Proton Mail and Tuta are two services implementing end-to-end encryption to protect the content of users' messages. For more details and options, you can look at our recommended [email services providers](https://www.privacyguides.org/en/email/) page.
 
 When using any of these services, you will however have to take into account to whom you are sending the email. For end-to-end encryption to properly protect data both in transit and at rest, the sender needs to use a service *compatible* with the recipient.
 
