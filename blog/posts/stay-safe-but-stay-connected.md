@@ -123,7 +123,7 @@ Otherwise, your abandoned account could still sit there and risk getting taken o
 
 When sharing photos online, especially on social media, it's essential for both privacy and safety to develop an awareness of what the information within this photo can reveal about you.
 
-Even from a well-protected pseudonymous account, posting a photo from your home that reveals outside details could identity your location and identity. Sometimes, even details *inside* your home could pinpoint your location. Be particularly careful about reflections in glasses, mirrors, windows, and other reflective surfaces.
+Even from a well-protected pseudonymous account, posting a photo from your home that reveals outside details could identify your location and identity. Sometimes, even details *inside* your home could pinpoint your location. Be particularly careful about reflections in glasses, mirrors, windows, and other reflective surfaces.
 
 And of course, never share photos of others online without *their* prior consent.
 
@@ -170,7 +170,7 @@ Privacy Guides does not necessarily endorse these linked websites. Links are pro
 - [Improving privacy settings on Reddit](https://www.myprivacy.blog/reddit-privacy-guide-securing-your-presence-in-2025/)
 - [Improving privacy settings on LinkedIn](https://www.presencesecure.com/linkedin-privacy-settings-guide/)
 
-Additionally, with [the proliferation of age verification](https://www.privacyguides.org/articles/2025/05/06/age-verification-wants-your-face/) regulations, more commercial platforms might soon not only require a legal name, but also require to provide an official ID in order to continue using the platform, severely damaging online privacy for everyone.
+Additionally, with [the proliferation of age verification](https://www.privacyguides.org/articles/2025/05/06/age-verification-wants-your-face/) regulations, more commercial platforms might soon not only require a legal name, but also require providing an official ID in order to continue using the platform, severely damaging online privacy for everyone.
 
 In light of this, it might be a better idea to leave these intrusive and data exploitative platforms altogether, while deletion is still an option.
 
@@ -346,7 +346,7 @@ If you are feeling isolated, reach out for connections. You are not alone 💛
 
 If you are feeling isolated, depressed, or suicidal, do not hesitate to reach out for help. These helplines are here to listen:
 
-- [Mindline Trans+ (UK)](https://www.mindinsomerset.org.uk/our-services/adult-one-to-one-support/mindline-trans/): Confidential support helpline for people who identify as trans, agender, gender fluid or non-binary.
+- [Mindline Trans+ (UK)](https://www.mindinsomerset.org.uk/our-services/adult-one-to-one-support/mindline-trans/): Confidential support helpline for people who identify as trans, agender, gender-fluid or non-binary.
 
 - [Trans Lifeline Hotline (US and Canada)](https://translifeline.org/hotline/): Trans peer support (Phone number US: 877-565-8860 / Canada: 877-330-6366)
 
