@@ -53,7 +53,7 @@ You do not have to do all of this, only pick what works well for you and what yo
 
 Pseudonymity is the practice of using a fictitious name (a pseudonym) when creating accounts to detach, even slightly, one's online presentation from their full legal identity.
 
-There are different levels to this. It could mean sharing a first name but not a last name, using the name of a fiction character, or using an entirely made up name.
+There are different levels to this. It could mean sharing a first name but not a last name, using the name of a fictional character, or using an entirely made up name.
 
 Using a pseudonym and a profile picture that isn't a self-portrait can help significantly to reduce digital footprints and improve online safety. It can also help to detach different accounts from each other, for example by using a certain name for a work account and a pseudonym for a personal alt account.
 
