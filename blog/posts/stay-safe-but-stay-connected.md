@@ -280,7 +280,7 @@ Large providers of free email services tend to collect a lot of data on their us
 
 Proton Mail and Tuta are two services implementing end-to-end encryption to protect the content of users' messages. For more details and options, you can look at our recommended [email services providers](https://www.privacyguides.org/en/email/) page.
 
-When using any of these services, you will however have to take into account to whom you are sending the email. For end-to-end encryption to properly protect data both in transit and at rest, the sender needs to use a service *compatible* with the recipient.
+Of course, when using any of these services, you will still have to take into account to whom you are sending the email. For end-to-end encryption to properly protect data both in transit and at rest, the sender needs to use a service *compatible* with the recipient.
 
 There are methods and third-party applications that can be used to encrypt and decrypt a message from a provider that does not offer end-to-end encryption, but this adds additional steps casual users might not feel comfortable getting into.
 
