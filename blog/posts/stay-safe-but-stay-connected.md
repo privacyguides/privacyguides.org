@@ -102,7 +102,7 @@ Photos, PDF, images, and files of all sorts usually contain hidden metadata abou
 
 Limiting the mobile apps you keep on your devices is important, not only to improve privacy but also for device security.
 
-Many mobile apps use tracking technologies to collect information on users, sometimes well beyond the app's usage. Additionally, each installed application increases the risk of potential vulnerabilities that could make your system insecure.
+Many mobile app developers use tracking technologies to collect information on users, sometimes well beyond their own app's usage. Additionally, each installed application increases the risk of potential vulnerabilities that could lower your system security.
 
 Whenever possible, choose to use a secure browser instead of the application to access a service (unless this is an application you trust more than your browser application). If you use an Apple device, check the App Privacy section in the App Store to know which data each of your installed apps collects.
 
