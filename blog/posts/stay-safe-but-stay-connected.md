@@ -31,7 +31,7 @@ This is the balanced way out of this Orwellian nightmare.
 
 There are ways to stay together, to support each other, and to stay connected while also protecting our data and becoming an informed advocate for privacy rights.
 
-## How to stay connected while staying safe?
+## How to stay connected while staying safe
 
 Numerous practices and tools can help to participate in online communities while also protecting one's data. There might be some sacrifices necessary of course, and each sacrifice should be weighted carefully for its benefit.
 
