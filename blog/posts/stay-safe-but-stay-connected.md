@@ -310,7 +310,7 @@ Some dating apps might soon require official IDs or other sensitive identifiers 
 
 Before investing time in a dating app, make sure to review properly what personal information will be collected, how it can be deleted after (once you've found the love(s) of your life at last), and what data will remain or be requested for the deletion request.
 
-Make sure to browse the trustworthy sources to check which apps have better privacy practices, and which ones have been exposed for their bad behaviors. Then, choose accordingly an application you trust enough to share your intimate details with.
+Make sure to browse trustworthy sources to check which apps have better privacy practices, and which ones have been exposed for their bad behaviors. Then, choose accordingly an application you trust enough to share your intimate details with.
 
 ### In person: Groups and events
 
