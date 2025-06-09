@@ -376,9 +376,10 @@ The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.ke
 KeePassium is a commercial open-source KeePass client made by KeePassium Labs. It has *free* features such as automatic two-way synchronization with most [cloud storage providers](https://www.privacyguides.org/en/cloud/), autofill support, passkey management and more.
 
 [:octicons-home-16: Homepage](https://keepassium.com){ .md-button .md-button--primary }
-[:octicons-info-16:](https://support.keepassium.com/){ .card-link title="Documentation" }
+[:octicons-eye-16:](https://keepassium.com/privacy/app){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.keepassium.com){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/keepassium/KeePassium){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassium.com/donate/){ .card-link title="Contribute" }
+[:octicons-heart-16:](https://keepassium.com/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
