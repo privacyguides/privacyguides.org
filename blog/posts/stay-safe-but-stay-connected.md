@@ -90,7 +90,7 @@ Limiting browser fingerprinting is important to reduce the data capable of ident
 
 Even when using a pseudonym, fictitious profile picture, and trustworthy VPN, your activity could still be linked back to you simply based on how unique your system and browser configurations are.
 
-Some [browsers](https://www.privacyguides.org/en/desktop-browsers/) offer increased protections against this type of tracking, such as the Mullvad and Tor browsers.
+Some [browsers](https://www.privacyguides.org/en/desktop-browsers/) offer increased protections against this type of tracking, such as Mullvad Browser and Tor Browser.
 
 ### File metadata
 
