@@ -286,7 +286,7 @@ There are methods and third-party applications that can be used to encrypt and d
 
 That being said, if you use a Proton Mail address to email another Proton Mail user, by default all communication's content will be fully encrypted, and only accessible to you and the intended recipient. Similarly, if you use Tuta to email another Tuta user, communication will be fully end-to-end encrypted.
 
-Inter-provider communication will likely require additional steps however, or will not benefit from end-to-end encryption on the server where the message is sent. For example, when sending an email from a Proton Mail to a Gmail account, if no additional protections are used, the content of this message will still be accessible to Google on the recipient's side.
+Communications between different providers will likely require additional steps, however, or will not benefit from end-to-end encryption on the server where the message is sent. For example, when sending an email from a Proton Mail to a Gmail account, if no additional protections are used, the content of this message will still be accessible to Google on the recipient's side.
 
 All of this to say, be mindful when using email communication to exchange sensitive data, and make sure to verify inter-service compatibility to stay fully protected.
 
