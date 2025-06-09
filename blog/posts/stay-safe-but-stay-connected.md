@@ -131,7 +131,7 @@ And of course, never share photos of others online without *their* prior consent
 
 ### Social media: Improving, deleting, replacing
 
-While social media now occupies an immense place in our lives, it's unfortunately very difficult to protect one's privacy while using any corporate social media platforms.
+While social media now occupies an immense role in our lives, it's unfortunately very difficult to protect one's privacy while using any corporate social media platforms.
 
 Large commercial platforms like Facebook, Instagram, Threads, YouTube, TikTok, and X (Twitter) are fundamentally advertising businesses, and their only goal is to make more money. They achieve this goal by collecting data points on users that they sell as a feature to advertisers.
 
