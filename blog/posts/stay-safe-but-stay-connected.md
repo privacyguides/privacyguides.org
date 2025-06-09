@@ -94,7 +94,7 @@ Some [browsers](https://www.privacyguides.org/en/desktop-browsers/) offer increa
 
 ### File metadata
 
-To protect your privacy online, it's important to remember to [delete metadata](https://www.privacyguides.org/en/data-redaction/) from the photos and files you share online. Despite using advanced protections, someone can sometimes get easily re-identified only from file metadata.
+To protect your privacy online, it's important to remember to [delete metadata](https://www.privacyguides.org/en/data-redaction/) from the photos and files you share online. Even if you take care to not include identifying information in the photos, videos, and documents you share, you can still sometimes be easily re-identified from hidden file metadata alone.
 
 Photos, PDF, images, and files of all sorts usually contain hidden metadata about your device, location, and more. Removing metadata before sharing photos or files is an important consideration to improve your privacy and safety online, especially when sharing files and photos publicly.
 
