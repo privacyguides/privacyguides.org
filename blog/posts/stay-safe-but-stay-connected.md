@@ -104,7 +104,7 @@ Limiting the mobile apps you keep on your devices is important, not only to impr
 
 Many mobile app developers use tracking technologies to collect information on users, sometimes well beyond their own app's usage. Additionally, each installed application increases the risk of potential vulnerabilities that could lower your system security.
 
-Whenever possible, choose to use a secure browser instead of the application to access a service (unless this is an application you trust more than your browser application). If you use an Apple device, check the App Privacy section in the App Store to know which data each of your installed apps collects.
+Whenever possible, choose to use a secure browser instead of the application to access a service (unless this is an application you trust more than your browser application). If you use an Apple device, check the App Privacy section in the App Store to know what data each of your installed apps collects.
 
 Delete all the apps you no longer need, as soon as you do not need them anymore.
 
