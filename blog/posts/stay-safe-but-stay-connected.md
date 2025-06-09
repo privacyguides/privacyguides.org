@@ -17,7 +17,7 @@ preview:
 
 <small aria-hidden="true">Photo: Jiroe Matia Rengel / Unsplash</small>
 
-In data privacy, we often talk about the dangers of data collection and exposed data. It can get overwhelming to learn more about all the information that is collected on us, especially at the beginning. As a coping mechanism, some people react by downplaying concerns, disregarding dangers, and ignoring precautions altogether. Others react the opposite way, by isolating themselves, and stopping to share anything with anyone. But neither is a viable solution.<!-- more -->
+In data privacy, we often talk about the dangers of data collection and exposed data. It can get overwhelming to learn more about all the information that is collected on us, especially at the beginning. As a coping mechanism, some people react by downplaying concerns, disregarding dangers, and ignoring precautions altogether. Others react the opposite way: by isolating themselves, and no longer sharing anything with anyone. But neither is a viable solution.<!-- more -->
 
 Staying isolated to avoid *all* data exposure risks other dangers. Dangers that might not seem related to data privacy directly, but are nevertheless worth mentioning here: Suicide and depression are very real dangers that we cannot ignore.
 
