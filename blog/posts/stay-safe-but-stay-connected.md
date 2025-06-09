@@ -170,13 +170,13 @@ Privacy Guides does not necessarily endorse these linked websites. Links are pro
 - [Improving privacy settings on Reddit](https://www.myprivacy.blog/reddit-privacy-guide-securing-your-presence-in-2025/)
 - [Improving privacy settings on LinkedIn](https://www.presencesecure.com/linkedin-privacy-settings-guide/)
 
-Additionally, with [the proliferation of age verification](https://www.privacyguides.org/articles/2025/05/06/age-verification-wants-your-face/) regulations, more commercial platforms might soon not only require a legal name, but also require providing an official ID in order to continue using the platform, severely damaging online privacy for everyone.
+Additionally, with [the proliferation of age verification](age-verification-wants-your-face.md) regulations, more commercial platforms might soon not only require a legal name, but also require providing an official ID in order to continue using the platform, severely damaging online privacy for everyone.
 
 In light of this, it might be a better idea to leave these intrusive and data exploitative platforms altogether, while deletion is still an option.
 
 #### How to delete corporate social media accounts
 
-Deleting the accounts you no longer use is an essential habit to adopt in order to improve both privacy and security online.
+[Deleting the accounts](https://www.privacyguides.org/en/basics/account-deletion/) you no longer use is an essential habit to adopt in order to improve both privacy and security online.
 
 Unused accounts leave a data trail that can get exploited by platforms unchecked, for example with the recent addition of terms of service to allow [using all content for AI-training purposes](https://www.pcworld.com/article/2343263/facebook-wants-to-use-your-posts-for-ai-training-how-to-object.html). Moreover, keeping abandoned accounts increases significantly the risk of account takeover and data leak.
 
@@ -255,7 +255,7 @@ While Signal might be the most popular and easier to use, there are many other i
 
 These will not even require a phone number to sign up. However, because they are less popular, it might be more difficult to find other users willing to use them with you to communicate.
 
-They also offer different features and experiences, that you might prefer, or not. If you prefer to use a different application, [Briar](https://briarproject.org/), [Cwtch](https://docs.cwtch.im/), [SimpleX](https://simplex.chat/), or [Threema](https://threema.com/en) are all good alternatives, depending on the features you are looking for.
+They also offer different features and experiences, that you might prefer, or not. If you prefer to use a different application, you can have a look at our other [recommended instant messaging](https://www.privacyguides.org/en/real-time-communication/) applications.
 
 #### Matrix with Element
 
