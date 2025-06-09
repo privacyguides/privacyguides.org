@@ -253,7 +253,7 @@ Moreover, the [disappearing messages feature](https://support.signal.org/hc/en-u
 
 While Signal might be the most popular and easier to use, there are many other instant messaging apps that offer solid end-to-end encryption features.
 
-These will not even require a phone number to sign up. However, because they are less popular, it might be more difficult to find other users willing to use them with you to communicate.
+Some will not even require a phone number to sign up. However, because they are less popular, it might be more difficult to find other users willing to use them with you to communicate.
 
 They also offer different features and experiences, that you might prefer, or not. If you prefer to use a different application, you can have a look at our other [recommended instant messaging](https://www.privacyguides.org/en/real-time-communication/) applications.
 
