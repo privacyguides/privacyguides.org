@@ -45,7 +45,7 @@ Here are some steps you can take to stay connected, while improving your digital
 
 There are a number of practices that can be applied in various contexts, and will help reduce or separate your digital traces. These practices are all good to keep in mind with any platforms, accounts, and information you share.
 
-If this is new to you, implementing *one* improvement at the time is a great way to avoid getting overwhelmed. Every small improvement will help, and add together overtime.
+If this is new to you, implementing *one* improvement at the time is a great way to avoid getting overwhelmed. Every small improvement will help, and add together over time.
 
 You do not have to do all of this, only pick what works well for you and what you can realistically implement in your life. Remember that this will not make you fully anonymous online, but *reducing* your digital footprints still gives a lot of benefits.
 
