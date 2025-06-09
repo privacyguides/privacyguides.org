@@ -57,7 +57,7 @@ There are different levels to this. It could mean sharing a first name but not a
 
 Using a pseudonym and a profile picture that isn't a self-portrait can help significantly to reduce digital footprints and improve online safety. It can also help to detach different accounts from each other, for example by using a certain name for a work account and a pseudonym for a personal alt account.
 
-Remember however that this will not make you anonymous online. It will only help hide or separate your legal identity from your public-facing profile.
+Remember that that this will not make you anonymous online, however. It will only help hide or separate your legal identity from your public-facing profile.
 
 If you want to use more serious pseudonymity online, you will also need to consider using different email addresses to sign up, different phone numbers if required, different photos of course, but also different IP addresses, and so on and so forth.
 
