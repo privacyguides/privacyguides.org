@@ -389,7 +389,7 @@ KeePassium is a commercial open-source KeePass client made by KeePassium Labs. I
 
 </div>
 
-KeePassium has a [Premium version with more features](https://keepassium.com/pricing/) like support for multiple databases, YubiKey support or password auditing. Additionally, KeePassium uses an interesting "rent-to-own" model, this means that if you pay for a KeePassium subscription for 12 months or more, you will always "own" the features you've paid for, even if you stop paying.
+KeePassium offers a [Premium version](https://keepassium.com/pricing) with additional features such as support for multiple databases, YubiKey support, and a password audit tool. Additionally, KeePassium offers a ["rent-to-own"](https://support.keepassium.com/kb/license-rent-own) license when purchasing a yearly subscription. With this option, you keep full access to the app's premium features that existed when you paid, even after your last payment.
 
 KeePassium [has been audited](https://cure53.de/pentest-report_keepassium.pdf) by Cure53 in October 2024, and [all app-related issues](https://keepassium.com/blog/2024/11/independent-security-audit-complete/) found in the audit were subsequently fixed.
 
