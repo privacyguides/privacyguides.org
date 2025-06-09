@@ -392,7 +392,7 @@ KeePassium is a commercial open-source KeePass client made by KeePassium Labs. I
 
 KeePassium offers a [Premium version](https://keepassium.com/pricing) with additional features such as support for multiple databases, YubiKey support, and a password audit tool. Additionally, KeePassium offers a ["rent-to-own"](https://support.keepassium.com/kb/license-rent-own) license when purchasing a yearly subscription. With this option, you keep full access to the app's premium features that existed when you paid, even after your last payment.
 
-KeePassium [has been audited](https://cure53.de/pentest-report_keepassium.pdf) by Cure53 in October 2024, and [all app-related issues](https://keepassium.com/blog/2024/11/independent-security-audit-complete/) found in the audit were subsequently fixed.
+KeePassium's iOS app has been [audited](https://cure53.de/pentest-report_keepassium.pdf) by Cure53 in October 2024, and all [issues](https://keepassium.com/blog/2024/11/independent-security-audit-complete) found in the audit were subsequently fixed.
 
 ### Gopass (CLI)
 
