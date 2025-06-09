@@ -211,7 +211,7 @@ Before deleting any account, always make sure to:
 
 While any data publicly accessible online can technically be collected by anyone, using alternative platforms that aren't advertising businesses can still greatly improve your data privacy online.
 
-For example, platforms that are part of the Fediverse social network are predominantly non-profit open-source software using a collection of connected servers generally run by volunteers.
+For example, platforms that are part of the Fediverse social network are predominantly non-profit, open-source software using a collection of connected servers generally run by volunteers.
 
 The incentive isn't to monetize users data at all, the goal is simply to support the community. This is a *crucial* difference.
 
