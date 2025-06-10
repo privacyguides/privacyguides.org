@@ -111,7 +111,7 @@ Delete all the apps you no longer need, as soon as you do not need them anymore.
 <div class="admonition warning" markdown>
 <p class="admonition-title">Deleting the app does not delete the account</p>
 
-Unless you keep using an account through the browser instead, remember that deleting the app will not delete your account and data if this is what you want to do.
+Remember that just deleting an app from your device will not necessarily delete your account and data. Depending on the service, even after deleting the app, your account might still be accessible through a web browser.
 
 If you no longer need an account, it's important to first delete the data within it, then delete the account through the internal process, and, once this is completed, delete the application.
 
