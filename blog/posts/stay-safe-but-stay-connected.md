@@ -290,7 +290,7 @@ Communications between different providers will likely require additional steps,
 
 All of this to say, be mindful when using email communication to exchange sensitive data, and make sure to verify inter-service compatibility to stay fully protected.
 
-Even considering this, using a Tuta or Proton Mail account to communicate even with people using unencrypted services still have the benefit that your communication will at least be stored fully encrypted on *your* side.
+Even considering this, using a Tuta or Proton Mail account to communicate even with people using unencrypted services still has the benefit that your communication will at least be stored fully encrypted on *your* side.
 
 ### Online dating: Balancing authenticity and caution
 
