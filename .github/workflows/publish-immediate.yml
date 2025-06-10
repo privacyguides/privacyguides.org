@@ -59,6 +59,7 @@ jobs:
       repo: ${{ github.repository }}
       ref: ${{ github.ref }}
       continue-on-error: false
+      context: production
 
   build_videos:
     needs: submodule
@@ -69,6 +70,7 @@ jobs:
       repo: ${{ github.repository }}
       ref: ${{ github.ref }}
       continue-on-error: false
+      context: production
 
   deploy:
     needs: [build_blog, build_videos]
