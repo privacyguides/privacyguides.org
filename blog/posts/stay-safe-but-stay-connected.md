@@ -3,6 +3,8 @@ date:
     created: 2025-06-10T17:00:00Z
 categories:
     - News
+tags:
+    - Pride Month
 authors:
     - em
 description: Balancing data protection and online connection can be difficult. Nevertheless, it's an essential skill to be able to stay safe online while staying connected.
