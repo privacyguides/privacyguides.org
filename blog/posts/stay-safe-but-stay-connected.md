@@ -5,7 +5,7 @@ categories:
     - News
 authors:
     - em
-description: In data privacy, we often talk about the dangers of data collection and exposed data. It can get overwhelming to learn more about all the information that is collected on us, especially at the beginning. But all or nothing approaches aren't solutions. We have to find a balance between data protection and the need for connection.
+description: Balancing data protection and online connection can be difficult. Nevertheless, it's an essential skill to be able to stay safe online while staying connected.
 schema_type: AnalysisNewsArticle
 preview:
   cover: blog/assets/images/stay-safe-but-stay-connected/stay-connected-cover.webp
