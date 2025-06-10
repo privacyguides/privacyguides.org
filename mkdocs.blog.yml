@@ -134,6 +134,7 @@ plugins:
     post_readtime: false
     authors_profiles: true
     authors_profiles_toc: true
+    pagination_per_page: 20
     categories_allowed:
       - Announcements
       - Opinion
