@@ -48,6 +48,8 @@ The current list of team members can be found [here](https://www.privacyguides.o
 
 ## Contributing
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/privacyguides/privacyguides.org?devcontainer_path=.devcontainer%2Fdevcontainer.json)
+
 - 💬 [Start a discussion or suggest an idea](https://discuss.privacyguides.net)
 - 💖 [Sponsor the project](https://github.com/sponsors/privacyguides)
 - 🈴 [Help translate the site](https://crowdin.com/project/privacyguides) [[Matrix chat](https://matrix.to/#/#pg-i18n:aragon.sh)]
@@ -71,18 +73,6 @@ All contributors to the site are listed [here](#contributors). If you have contr
 > Most hidden service providers are not very extensively used or tested, [which is why we strongly recommend Tor](https://www.privacyguides.org/en/tor/). Using other networks could be more likely to endanger your anonymity, so make sure you know what you're doing.
 
 - **Tor/onion:** [xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion](http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion)
-
-- **IPFS:** `/ipns/ipfs.privacyguides.org` (**not** anonymous)
-    - Please help us out by pinning a copy: [Learn more](https://github.com/privacyguides/webserver/blob/main/ipfs/README.md)
-    - via Cloudflare: [cloudflare-ipfs.com/ipns/ipfs.privacyguides.org](https://cloudflare-ipfs.com/ipns/ipfs.privacyguides.org/en/)
-    - via 4everland: [ipfs-privacyguides-org.ipns.4everland.io](https://ipfs-privacyguides-org.ipns.4everland.io/)
-    - via [@jonaharagon](https://github.com/jonaharagon): [ipfs.jonaharagon.net/ipns/ipfs.privacyguides.org](https://ipfs.jonaharagon.net/ipns/ipfs.privacyguides.org/en/)
-    - via [peer](https://docs.ipfs.tech/how-to/peering-with-content-providers/): `/dnsaddr/node-1.ipfs.jonaharagon.net/p2p/12D3KooWMwqzuApCKxYfo66zq5BrTjCoz9naJ1rrMEBCnwuGGqWB`
-
-- **I2P:** [privacyguides.i2p](http://privacyguides.i2p/?i2paddresshelper=fvbkmooriuqgssrjvbxu7nrwms5zyhf34r3uuppoakwwsm7ysv6q.b32.i2p)
-
-- **Yggdrasil:** [http://[200:f3a6:4922:e067:770d:ac57:fcb1:8dbf]](http://[200:f3a6:4922:e067:770d:ac57:fcb1:8dbf]/en/) (**not** anonymous)
-    - via public peer: `tcp://5.161.245.8:45454`
 
 ### Git Mirrors
 
@@ -110,41 +100,17 @@ When you contribute to this repository you are doing so under the above licenses
 
 ## Developing
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/privacyguides/privacyguides.org?devcontainer_path=.devcontainer%2Fdevcontainer.json)
+The only supported method of building and previewing this website locally is by running the automatic dev container. The easiest way to do this in your web browser without installing any software is to use [GitHub Codespaces](https://codespaces.new/privacyguides/privacyguides.org). To build the website locally, you will need the following software:
+
+- macOS/Windows: [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- Linux: [Docker CE](https://docs.docker.com/get-started/get-docker/#supported-platforms)
+- [VS Code](https://code.visualstudio.com/)
+- [Dev Containers for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension
+- [GitHub Desktop](https://github.com/apps/desktop) (optional)
+
+You can technically use any IDE which supports [development containers](https://containers.dev/), but YMMV. Docker Desktop has an experimental Dev Environments option which allows you to use any text editor under Settings > Features in development. We are only testing with the combination of software above.
 
 Committing to this repository requires [signing your commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) (`git config commit.gpgsign true`) unless you are making edits via the GitHub.com text editor interface. As of August 2022 the preferred signing method is [SSH commit signatures](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification), but GPG signing is also acceptable. You should add your signing key to your GitHub profile.
-
-### With `mkdocs-material`
-
-1. Install required packages: `pip install mkdocs-material`
-2. Run a local preview of the English site: `./run.sh --cmd=mkdocs`
-
-### With `mkdocs-material-insiders`
-
-This website uses [`mkdocs-material-insiders`](https://squidfunk.github.io/mkdocs-material/insiders) which offers additional functionality over the open-source `mkdocs-material` project. For obvious reasons we cannot distribute access to the insiders repository.
-
-**Team members** should clone the repository with `mkdocs-material-insiders` directly. This method is identical to production:
-
-1. Clone this repository and submodules: `git clone --recurse-submodules https://github.com/privacyguides/privacyguides.org.git`
-2. Enable SSH commit verification with our local [`.allowed_signers`](/.allowed_signers) file: `git config gpg.ssh.allowedSignersFile .allowed_signers`
-3. Install Python **3.12**.
-4. Install **pipenv**: `pip install pipenv`
-5. Install dependencies: `pipenv install --dev` (install [Pillow and CairoSVG](https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/#dependencies) as well to generate social cards)
-6. Serve the site locally: `./run.sh --insiders` (set `CARDS=true` to generate social cards)
-    - The site will be available at `http://localhost:8000`
-    - You can build the site locally with `./run.sh --insiders --build`
-    - This version of the site should be identical to the live, production version
-
-If you commit to `main` with commits signed with your SSH key, you should add your SSH key to [`.allowed_signers`](/.allowed_signers) in this repo.
-
-### Local Translated Site Builds
-
-1. Install the [Crowdin CLI Tool](https://developer.crowdin.com/cli-tool) (`brew install crowdin`)
-2. Set the `CROWDIN_PERSONAL_TOKEN` environment variable to your Crowdin personal access token
-3. Run `crowdin download` in the root of this repo
-4. Serve the site locally: `./run.sh --insiders --lang=fr` (replacing fr with the appropriate language in [/config](/config))
-
-Translations downloaded from Crowdin are [.gitignore](/.gitignore)'d, so any local changes to the translated site cannot be committed to this repo. Actual modifications need to be made on Crowdin. As an alternative to steps 1-3, you can copy the folders from [privacyguides/i18n](https://github.com/privacyguides/i18n) to the root of this repo to obtain the translated files.
 
 ## Releasing
 

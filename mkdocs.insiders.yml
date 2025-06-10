@@ -1,0 +1,18 @@
+INHERIT: mkdocs.yml
+
+watch:
+  - theme
+  - includes
+  - mkdocs.yml
+
+markdown_extensions:
+  material.extensions.preview:
+    sources:
+      exclude:
+        - index.md
+        - tools.md
+        - about.md
+        - about/*
+    targets:
+      exclude:
+        - about/contributors.md
