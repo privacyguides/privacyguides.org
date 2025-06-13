@@ -35,4 +35,6 @@ We can split the two parties into an "Evaluator" and a "Generator". The Generato
 
 We start by making the truth table for our inputs. In order to hide the values of the truth table, we assign each input a different label. Importantly, we need to assign a different label for each input, so 1 will not be represented by the same label for each. We also need to shuffle the order of the rows so the values can't be inferred from that.
 
-We can still tell what the value is based on knowing the type of logic gate, for example an `AND` gate whould only have one different output, so you could infer that output is 1 and the others are 0. To fix this, we can encrypt the rows using the input labels as keys, so only the correct output can be decrypted.
+We can still tell what the value is based on knowing the type of logic gate, for example an `AND` gate would only have one different output, so you could infer that output is 1 and the others are 0. To fix this, we can encrypt the rows using the input labels as keys, so only the correct output can be decrypted.
+
+
