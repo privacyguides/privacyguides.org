@@ -1,14 +1,14 @@
 ---
 title: Self-Hosting
-meta_title: "Self-Hosted Software and Services - Privacy Guides"
-description: For our more technical readers, self-hosted software and services can provide additional privacy assurances since you have maximum control over your data.
+meta_title: "Self-Hosting Software and Services - Privacy Guides"
+description: For our more technical readers, self-hosting software and services can provide additional privacy assurances since you have maximum control over your data.
 cover: router.webp
 ---
 <small>Protects against the following threat(s):</small>
 
 - [:material-server-network: Service Providers](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-Using **self-hosted software and services** can be a way to achieve a higher level of privacy through digital sovereignty, particularly independence from cloud servers controlled by product developers or vendors. By self-hosting, we mean hosting applications and data on your own hardware.
+**Self-hosting** software and services can be a way to achieve a higher level of privacy through digital sovereignty, particularly independence from cloud servers controlled by product developers or vendors. By self-hosting, we mean hosting applications and data on your own hardware.
 
 Self-hosting your own solutions requires advanced technical knowledge and a deep understanding of the associated risks. By becoming the host for yourself and possibly others, you take on responsibilities you might not otherwise have. Self-hosting privacy software improperly can leave you worse off than using e.g. an end-to-end encrypted service provider, so it is best avoided if you are not already comfortable doing so.
 
@@ -23,6 +23,35 @@ Self-hosting your own solutions requires advanced technical knowledge and a deep
 </div>
 
 [Learn more :material-arrow-right-drop-circle:](email-servers.md)
+
+## :material-dns: DNS Filtering
+
+<div class="grid cards" markdown>
+
+- ![AdGuard Home logo](../assets/img/self-hosting/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns-filtering.md#adguard-home)
+- ![Pi-Hole logo](../assets/img/self-hosting/pi-hole.svg){ .twemoji loading=lazy } [Pi-Hole](dns-filtering.md#pi-hole)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](dns-filtering.md)
+
+## :material-form-textbox-password: Password Management
+
+### Vaultwarden
+
+<div class="admonition recommendation" markdown>
+
+![Vaultwarden logo](../assets/img/self-hosting/vaultwarden.svg#only-light){ align=right }
+![Vaultwarden logo](../assets/img/self-hosting/vaultwarden-dark.svg#only-dark){ align=right }
+
+**Vaultwarden** is an alternative implementation of [Bitwarden](../passwords.md#bitwarden)'s sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy, [official service](https://github.com/bitwarden/server) might not be ideal.
+
+[:octicons-repo-16: Repository](https://github.com/dani-garcia/vaultwarden#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title="Contribute" }
+
+</div>
 
 ## :material-account-supervisor-circle-outline: Social Networks
 
