@@ -31,6 +31,8 @@ Alice and Bob have struck it rich! They're both millionaires, but they want to b
 
 Luckily, we can use MPC to solve this "Millionaire's Problem" this using a method invented by Andrew Yao called *garbled cricuits*. Garbled circuits allow us to use MPC for any problem as long as it can be represented as a boolean circuit i.e. a set of logic gates such as `AND` `OR` `XOR` etc.
 
+We can split the two parties into an "Evaluator" and a "Generator". The Generator will be responsible for setting up the cryptography that'll be used and the Evaluator will actually perform the computation.
+
 We start by making the truth table for our inputs. In order to hide the values of the truth table, we assign each input a different label. Importantly, we need to assign a different label for each input, so 1 will not be represented by the same label for each. We also need to shuffle the order of the rows so the values can't be inferred from that.
 
 We can still tell what the value is based on knowing the type of logic gate, for example an `AND` gate whould only have one different output, so you could infer that output is 1 and the others are 0. To fix this, we can encrypt the rows using the input labels as keys, so only the correct output can be decrypted.
