@@ -161,6 +161,21 @@ Cryptee is a PWA, which means that it works seamlessly across all modern devices
 
 </div>
 
+### Online Notepad
+
+<div class="admonition recommendation" markdown>
+
+![Online Notepad logo](https://onlinenotep.ad/images/online-notepad.webp){ align=right }
+
+**Online Notepad** at onlinenotep.ad/notepad is a lightweight, privacy-respecting online notepad. It works entirely on the client-side with no cloud sync or account requirement.
+
+All notes are saved locally in the browser and never sent to a server. It’s open to use without registration and includes a distraction-free design for privacy-conscious users.
+
+[:octicons-home-16: Homepage](https://onlinenotep.ad/notepad){ .md-button .md-button--primary }
+[:octicons-eye-16: Privacy Info](https://onlinenotep.ad/about-us#privacy-policy){ .card-link title="Privacy Policy" }
+
+</div>
+
 ## Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
