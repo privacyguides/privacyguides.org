@@ -29,19 +29,19 @@ Consider using a [VPN](vpn.md) or [Tor](tor.md) if your threat model requires hi
 [^1]:
     Brave Search collects aggregated usage metrics, which includes the OS and the user agent. However, they do not collect PII. To serve [anonymous local results](https://search.brave.com/help/anonymous-local-results), IP addresses are temporarily processed, but are not retained.
     
-    Brave Search: [Brave Search privacy notice](https://search.brave.com/help/privacy-policy)
+    Brave Search: [*Brave Search privacy notice*](https://search.brave.com/help/privacy-policy)
 [^2]:
     DuckDuckGo **does** log your searches for product improvement purposes, but not your IP address or any other PII.
     
-    DuckDuckGo Privacy Policy: [We don't track you.](https://duckduckgo.com/privacy)
+    DuckDuckGo Privacy Policy: [*We don't track you.*](https://duckduckgo.com/privacy)
 [^3]:
     Mullvad Leta logs your searches and stores them hashed with a secret in a RAM-based cache. The cache is removed after it reaches 30 days in age, or when the server-side Leta application is restarted. They do not collect any PII.
 
-    Terms of Service: [Service Usage](https://leta.mullvad.net/terms-of-service)
+    Terms of Service: [*Service Usage*](https://leta.mullvad.net/terms-of-service)
 [^4]:
     Startpage logs details such as operating system, user agent, and language. They do not log your IP address, search queries, or other PII.
     
-    Our Privacy Policy: [How we have implemented truly anonymous analytics](https://www.startpage.com/en/privacy-policy#section-4)
+    Our Privacy Policy: [*How we have implemented truly anonymous analytics*](https://www.startpage.com/en/privacy-policy#section-4)
 
 ### Brave Search
 
