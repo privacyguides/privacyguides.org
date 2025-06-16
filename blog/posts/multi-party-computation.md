@@ -61,4 +61,8 @@ Denmark's sugar beet industry faced a problem: with the EU significantly reducin
 
 But who should be in charge of the auction? Farmers don't want to trust Danisco with their bids as it reveals information about each individual farmer's business. The farmers can't be in charge of it because they don't trust each other. They could use an external consulting firm, but then the entire operatio would rely on that one firm's confidentiality and the reliability of their tools.
 
-The solution was to use a "virtual auctioneer" that relied on MPC to fairly carry the auction out. 
+The [solution](https://a.storyblok.com/f/266767/x/e4c85ffa34/mpc-goes-live_whitepaper_2008-068.pdf) was to use a "virtual auctioneer" that relied on MPC to fairly carry the auction out.
+
+It relied on three servers, with one representing each party: Danisco, DKS (the Danish sugar beet growers association), and The SIMAP project (Secure Information Management and Processing, a project sponsored by the Danish National Research Agency).
+
+The solution was so successful that it was used every year until 2015 when it was no longer needed. A survey of the farmers found that the vast majority found the system simplified the process of trading contracts and that they were satisfied with the level of confidentiality it provided.
