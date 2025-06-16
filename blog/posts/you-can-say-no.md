@@ -5,7 +5,7 @@ categories:
     - Opinion
 authors:
     - em
-description: In the age of facial recognition and age verification, it might feel like our data is being harvested left and right completely outside our control or consent. Yet, we still have a powerful weapon to fight back against surveillance. The power to say no.
+description: Sometimes, it can feel like our data is collected completely outside of our control or consent. But we still have a powerful weapon to fight back. The power to say no.
 schema_type: Opinion
 preview:
   cover: blog/assets/images/you-can-say-no/no-cover.webp
@@ -99,7 +99,7 @@ Each time you stop using services from software companies that build their wealt
 
 Refuse all cookies! It can be a real pain to browse the web with all these cookie banners. Of course, companies are hoping for [decision fatigue](https://en.wikipedia.org/wiki/Decision_fatigue) to manipulate you in clicking "yes, yes, yes, agree, continue, whatever!" But each time you comply in despair, you let them win against what you really want.
 
-Websites are not obligated to have cookie banners if they do not use any privacy-invasive cookies. This annoyance doesn't come from legislation, it comes from the greed and stubbornness of corporations to harvest your data. There would be no cookie banner at all if they simply stopped tracking you and collecting your data.
+Websites are not obligated to have cookie banners if they do not use any privacy-invasive cookies. This annoyance doesn't come from legislation, it comes from the greed and stubbornness of corporations to harvest your data. There would be no cookie banners at all if they simply stopped tracking you and collecting your data.
 
 Sabotage their plans by taking the time to find the "Reject All" button through their disingenuous button labyrinth.
 
@@ -107,17 +107,17 @@ Similarly, many privacy-invasive features maliciously try to present as "ethical
 
 Beyond the digital realm, there are many in-person situations where you might have a right to refuse data collection as well.
 
-For example, you may have the right to refuse face scans in airports and demand a "traditional" human verification instead. Look into your local regulation for find out more about this. If everyone refused to scan their face at the airport every time they can, this practice would soon die.
+For example, you may have the right to refuse face scans in airports and demand a "traditional" human verification instead. Look into your local regulation to find out more about this. If everyone refused to scan their face at the airport every time they can, this practice would soon die.
 
 When you say yes to this, you are unfortunately contributing to the normalization of this invasive practice.
 
-Finally, refuse to be recorded. Depending on your local regulation, it's likely there is a legal requirement to inform you when a meeting or interview will get recorded. You very likely have a right to refuse getting recorded. Exercise this right every time. Report instances when you couldn't and should have been able to refuse, following your local regulation.
+Finally, refuse to be recorded. Depending on your local regulation, it's likely there is a legal requirement to inform you when a meeting or interview will be recorded. It's also likely that you have a right to refuse. Exercise this right every time you can. Additionally, depending on your local regulation, report instances where you couldn't and should have been able to refuse.
 
 ### Report
 
-Each time you witness a practice that violate privacy laws, report it to the data protection authority for your location.
+Each time you witness a practice that violates privacy laws, report it to the data protection authority for your location.
 
-Stay aware of which privacy regulation(s) are applicable in your region, and which official entity is responsible for enforcing the law. Your privacy protections are related to your *own* location, regardless of where the organization is based.
+Stay aware of which privacy law(s) are applicable in your region, and which official entity is responsible for enforcing the law. Your privacy protections are related to your *own* location, regardless of where the organization is based.
 
 In Europe, this entity is often called a Data Protection Authority (DPA), but outside of Europe it's often called something else. It might be a Privacy Commissioner or a Supervisory Authority, for example (but not always either). Read the law (or summary of) for your region, it will include a description of whom this entity is and how to report non-compliance.
 
@@ -129,9 +129,9 @@ When you experience an invasive practice or witness a serious data protection vi
 
 ### Advocate
 
-Talk to your friends, family, co-workers, and acquaintances even about the options to opt out data collection, and about their right to refuse and say so.
+Talk to your friends, family, co-workers, and acquaintances about their options to opt out data collection, and their right to refuse and to say no.
 
-Tell them about how important this is with the social media, services, and software they use. Tell them about the importance of looking for rejection options with cookie banners, and finding information on how to object to face scans at the airport.
+Tell them about how important this is with the social media, software, and services they use. Tell them about the importance of looking for the rejection options on cookie banners, finding information on how to object to face scans at the airport, and refusing the use of AI note-takers during their medical consultations.
 
 Talk about this topic on social media! Share news about privacy-invasive practices. Inform people on how they can opt out, refuse, and say no in your specific region.
 
