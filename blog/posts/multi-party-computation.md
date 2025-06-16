@@ -41,10 +41,24 @@ We can still tell what the value is based on knowing the type of logic gate, for
 
 We still have a problem, though: how can the Evaluator put in their inputs? Asking for both labels would allow them to decrypt more than one output, and giving their input would break the whole point. The solution is something called "Oblivious Transfer".
 
-The solution is for the Evaluator to generate two public keys, one of which they have the private key for. The Generator encrypts the two labels for the Evaluator's inputs using the provide public keys and sends them back. Since the Generator only has a private key for one of the labels, they will decrypt the one they want. The Generator puts the labels in order so that the Evaluator can choose which one they want to decrypt. This method relies on the Evaluator not to send multiple keys that can be decrypted.
+The solution is for the Evaluator to generate two public keys, one of which they have the private key for. The Generator encrypts the two labels for the Evaluator's inputs using the provide public keys and sends them back. Since the Generator only has a private key for one of the labels, they will decrypt the one they want. The Generator puts the labels in order so that the Evaluator can choose which one they want to decrypt. This method relies on the Evaluator not to send multiple keys that can be decrypted. Because some trust is required, this protocol is considered "semi-honest".
 
 There's a good explainer for Yao's garbled circuits [here](https://lcamel.github.io/MPC-Notes/story-en-US.html) if you're interested in a step-by-step walkthrough.
 
 ### Birth of Multi-Party Computation
 
 Multi-Party Computation was solidified with the research of Oded Goldreich, Siltnb Micali, and Avi Wigderson and the GMW paradigm (named after the researchers, similar to how RSA is named).
+
+### Real-World Usage
+
+As MPC saw gradual optimizations and improvements, it grew from an interesting thought experiment to something that could have real-world uses.
+
+#### Danish Sugar Beet Auction
+
+The first instance of MPC being used in a real-world scenario wouldn't occur until 2008.
+
+Denmark's sugar beet industry faced a problem: with the EU significantly reducing its financial support for sugar beet production, they needed to figure out what price the thousands of sugar beet farmers were willing to sell at, and which price the company that bought all the sugar beets would be willing to buy them at, a so-called "double auction" where the buyer and seller figure out the **market clearing price**, or the price at which demand meets supply most effectively.
+
+But who should be in charge of the auction? Farmers don't want to trust Danisco with their bids as it reveals information about each individual farmer's business. The farmers can't be in charge of it because they don't trust each other. They could use an external consulting firm, but then the entire operatio would rely on that one firm's confidentiality and the reliability of their tools.
+
+The solution was to use a "virtual auctioneer" that relied on MPC to fairly carry the auction out. 
