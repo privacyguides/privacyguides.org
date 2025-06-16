@@ -43,6 +43,8 @@ We still have a problem, though: how can the Evaluator put in their inputs? Aski
 
 The solution is for the Evaluator to generate two public keys, one of which they have the private key for. The Generator encrypts the two labels for the Evaluator's inputs using the provide public keys and sends them back. Since the Generator only has a private key for one of the labels, they will decrypt the one they want. The Generator puts the labels in order so that the Evaluator can choose which one they want to decrypt. This method relies on the Evaluator not to send multiple keys that can be decrypted.
 
+There's a good explainer for Yao's garbled circuits [here](https://lcamel.github.io/MPC-Notes/story-en-US.html) if you're interested in a step-by-step walkthrough.
+
 ### Birth of Multi-Party Computation
 
 Multi-Party Computation was solidified with the research of Oded Goldreich, Siltnb Micali, and Avi Wigderson and the GMW paradigm (named after the researchers, similar to how RSA is named).
