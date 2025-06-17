@@ -155,7 +155,7 @@ The 26-year-old American who incorrectly identified the Australian girl and shar
 
 ### Targeted research, attack, and spyware
 
-For targeted attacks, aggressors will often use simple techniques to find a victim's data from what is already leaked online, or openly shared on social media. For more sophisticated attacks, perpetrators might use criminal methods such as impersonation for [SIM swap attacks](https://en.wikipedia.org/wiki/SIM_swap_scam). When attackers have more resources, such as a state-backed attackers, more sophisticated processes might be used, like device infection with [NSO Group's spyware](https://citizenlab.ca/tag/nso-group/).
+For targeted attacks, aggressors will often use simple techniques to find a victim's data from what is already leaked online or openly shared on social media. For more sophisticated attacks, perpetrators might use criminal methods such as impersonation for [SIM swap attacks](https://en.wikipedia.org/wiki/SIM_swap_scam). When attackers have more resources, such as state-backed attackers, more sophisticated processes might be used, like device infection with [NSO Group's spyware](https://citizenlab.ca/tag/nso-group).
 
 ### Maliciously stolen or negligently leaked
 

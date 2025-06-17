@@ -4,7 +4,7 @@ description: We do not sell or share your data with any third-parties.
 ---
 ## What is Privacy Guides?
 
-Privacy Guides is a community project operated by a number of active contributors. The public list of team members [can be found on our forum](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all). Privacy Guides is legally administered by [MAGIC Grants](https://magicgrants.org/), a 501(c)(3) public charity acting as our fiscal host.
+Privacy Guides is a community project operated by a number of active contributors. The public list of team members [can be found on our forum](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all). Privacy Guides is legally administered by [MAGIC Grants](https://magicgrants.org), a 501(c)(3) public charity acting as our fiscal host.
 
 As a project, we make available to the public:
 
@@ -173,7 +173,7 @@ Privacy Guides does not respond to the (now deprecated) [Do Not Track HTTP heade
 
 ## Where does Privacy Guides store data about me?
 
-Most data is hosted by [Triplebit](https://www.triplebit.org/) web services in the United States.
+Most data is hosted by [Triplebit](https://www.triplebit.org) web services in the United States.
 
 Some publicly accessible data may be hosted by Content Delivery Networks with servers in other jurisdictions. For example, your profile picture may be stored on multiple servers around the world in order to improve the performance for visitors to our website.
 
@@ -288,16 +288,16 @@ Privacy Guides uses the following subprocessors, and may share personal data wit
 
 | Subprocessor | Service | Function | Processing | Links |
 | ------------ | ------- | -------- | ---------- | ----- |
-| [Bunny.net](https://bunny.net/) (Slovenia) | [Bunny CDN](https://bunny.net/cdn/) | Content Delivery Network services for distributing images and other static assets. | Slovenia, Global | [Privacy Notice](https://bunny.net/privacy/), [GDPR Center](https://bunny.net/gdpr/) |
-| [Cloudflare](https://www.cloudflare.com/) (USA) | [Authoritative DNS](https://www.cloudflare.com/application-services/products/dns/) | Authoritative DNS services for our domain names. | USA, Global | [Privacy Notice](https://www.cloudflare.com/privacypolicy/), [GDPR Center](https://www.cloudflare.com/trust-hub/gdpr/) |
+| [Bunny.net](https://bunny.net) (Slovenia) | [Bunny CDN](https://bunny.net/cdn) | Content Delivery Network services for distributing images and other static assets. | Slovenia, Global | [Privacy Notice](https://bunny.net/privacy), [GDPR Center](https://bunny.net/gdpr) |
+| [Cloudflare](https://cloudflare.com) (USA) | [Authoritative DNS](https://cloudflare.com/application-services/products/dns) | Authoritative DNS services for our domain names. | USA, Global | [Privacy Notice](https://cloudflare.com/privacypolicy), [GDPR Center](https://cloudflare.com/trust-hub/gdpr) |
 | [Fediverse Communications LLC](https://fediverse.us) (USA) | PeerTube | For hosting public videos produced by Privacy Guides which are shared or embedded on this website. | USA | [More information](https://neat.tube/about/instance) |
-| [GitHub](https://github.com/) (USA) | Git Repositories | *For visitors to this website*: sharing information with our visitors about the current release, repo star count, etc. | USA | [Privacy Notice](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) |
-| [GitHub](https://github.com/) (USA) | Git Repositories, Issues, Pull Requests | *For contributors to this website*: hosting our source code and communications platforms such as our issues tracker. | USA | [Privacy Notice](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) |
-| [GitHub](https://github.com/) (USA) | [Sponsors](https://github.com/sponsors/privacyguides) | For collecting payments for gifts to Privacy Guides | USA | [Privacy Notice](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) |
+| [GitHub](https://github.com) (USA) | Git Repositories | *For visitors to this website*: sharing information with our visitors about the current release, repo star count, etc. | USA | [Privacy Notice](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) |
+| [GitHub](https://github.com) (USA) | Git Repositories, Issues, Pull Requests | *For contributors to this website*: hosting our source code and communications platforms such as our issues tracker. | USA | [Privacy Notice](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) |
+| [GitHub](https://github.com) (USA) | [Sponsors](https://github.com/sponsors/privacyguides) | For collecting payments for gifts to Privacy Guides | USA | [Privacy Notice](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) |
 | [Stripe](https://stripe.com) (USA) | Connect | *For certain donations via GitHub Sponsors*: payment processing for donations | USA | [Privacy Notice](https://stripe.com/privacy), [GDPR Center](https://stripe.com/legal/privacy-center) |
-| [Triplebit](https://www.triplebit.org/) (USA) | Object Storage | For hosting static websites and static media content, and distributing static content | USA, Poland | [Privacy Notice](https://www.triplebit.org/privacy/) |
-| [Triplebit](https://www.triplebit.org/) (USA) | [Umami Statistics](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org) | For compiling aggregated statistics of our website visitor data based on server-side visitor info submissions | USA | [Privacy Notice](https://www.triplebit.org/privacy/) |
-| [Triplebit](https://www.triplebit.org/) (USA) | Virtual Private Servers | For hosting our dynamic websites, storing and processing personal data. | USA | [Privacy Notice](https://www.triplebit.org/privacy/) |
+| [Triplebit](https://www.triplebit.org) (USA) | Object Storage | For hosting static websites and static media content, and distributing static content | USA, Poland | [Privacy Notice](https://www.triplebit.org/privacy) |
+| [Triplebit](https://www.triplebit.org) (USA) | [Umami Statistics](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org) | For compiling aggregated statistics of our website visitor data based on server-side visitor info submissions | USA | [Privacy Notice](https://www.triplebit.org/privacy) |
+| [Triplebit](https://www.triplebit.org) (USA) | Virtual Private Servers | For hosting our dynamic websites, storing and processing personal data. | USA | [Privacy Notice](https://www.triplebit.org/privacy) |
 
 ## Does Privacy Guides delete inactive accounts?
 

@@ -56,6 +56,13 @@ authors:
       instance: neat.computer
     twitter: jonaharagon
     bluesky: jonaharagon.com
+  justin:
+    name: Justin Ehrenhofer
+    description: Guest Contributor
+    avatar: https://github.com/SamsungGalaxyPlayer.png
+    mastodon:
+      username: sgp
+      instance: neat.computer
   kaitebay:
     name: Kai Tebay
     description: Former Team Member
