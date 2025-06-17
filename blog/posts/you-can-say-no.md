@@ -5,7 +5,8 @@ categories:
     - Opinion
 authors:
     - em
-description: Sometimes, it can feel like our data is collected completely outside of our control or consent. But we still have a powerful weapon to fight back. The power to say no.
+description: |
+    Sometimes, it can feel like our data is collected completely outside of our control or consent. But we still have a powerful weapon to fight back: The power to say no.
 schema_type: Opinion
 preview:
   cover: blog/assets/images/you-can-say-no/no-cover.webp
