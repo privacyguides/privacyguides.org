@@ -54,7 +54,7 @@ Then, there's the peer pressure when everyone else is doing it.
 
 Everyone else is on this platform, it must be okay. Everyone else has agreed to being recorded during this meeting, it must be okay. Everyone else is sharing a photo of their face, it must be okay. Everyone else is scanning their irises, it must be okay.
 
-Do not get duped by popularity. Sometimes, the most popular things people are doing are the worse things to do. Even if it can be really hard to resist peer pressure and to swim against the tide, it's important to make informed decisions free from the influence of trends.
+Do not get duped by popularity. Sometimes, the most popular things people are doing are the worst things to do. Even if it can be really hard to resist peer pressure and to swim against the tide, it's important to make informed decisions free from the influence of trends.
 
 When we know a service, platform, or product doesn't respect our privacy rights, we should feel proud to take a stand and refuse to use it ourselves, even if everyone else uses it (for now).
 
@@ -104,7 +104,7 @@ Websites are not obligated to have cookie banners if they do not use any privacy
 
 Sabotage their plans by taking the time to find the "Reject All" button through their disingenuous button labyrinth.
 
-Similarly, many privacy-invasive features maliciously try to present as "ethical" because you can "opt out". But what good is this protection if no one uses it? Put a spoke in their wheel, look for the hidden *opt out* option, and refuse to participate every single time.
+Similarly, many privacy-invasive features maliciously try to present as "ethical" because you can "opt out". But what good is this protection if no one uses it? Put a spoke in their wheel, look for the hidden *opt-out* option, and refuse to participate every single time.
 
 Beyond the digital realm, there are many in-person situations where you might have a right to refuse data collection as well.
 
