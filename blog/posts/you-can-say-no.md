@@ -20,7 +20,7 @@ preview:
 
 In the age of facial recognition and age verification, it might feel like our data is being harvested left and right, completely outside our control or consent. Yet, we still have a powerful weapon to fight back against surveillance: The power to say no.<!-- more -->
 
-The power to say no is one we severely underutilize. Of course, there are circumstances where it can be difficult, impossible even to refuse. Saying no can come at a cost, but this isn't true everywhere, and, more importantly, that cost might be worth paying.
+The power to say no is one we severely underutilize. Of course, there are circumstances where it can be difficult, impossible even, to refuse. Saying no can come at a cost, but this isn't true everywhere, and, more importantly, that cost might be worth paying.
 
 There are many occasions where we could indeed refuse to comply with privacy-invasive requests, but miss the opportunity.
 
