@@ -1,5 +1,5 @@
 ---
-title: "Photo Management"
+title: Photo Management
 icon: material/image
 description: These photo management tools keep your personal photos safe from the prying eyes of cloud storage providers and other unauthorized parties.
 cover: photo-management.webp
@@ -19,7 +19,7 @@ Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon
 
 **Ente Photos** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Their code is fully open source, both on the client side and on the server side. It is also [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting).
 
-The free plan offers 5 GB of storage as long as you use the service at least once a year.
+The free plan offers 10 GB of storage as long as you use the service at least once a year.
 
 [:octicons-home-16: Homepage](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
@@ -42,7 +42,7 @@ The free plan offers 5 GB of storage as long as you use the service at least on
 
 </div>
 
-Ente Photos underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
+Ente Photos underwent an audit by [Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
 
 ## PhotoPrism
 
