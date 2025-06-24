@@ -339,7 +339,7 @@ However, if this isn't accessible to you, and you decide using a dating app is w
 
 ### Investigating before creating an account
 
-Before creating an account on a dating app (or any other apps), it's a good idea to have a look at its privacy policy (or privacy notice) and terms of service.
+Before creating an account on a dating app (or any other apps), it's a good idea to take a look at its privacy policy (or privacy notice) and terms of service.
 
 #### Researching privacy policy and terms of service
 
@@ -381,11 +381,11 @@ Check the news for reports of data breaches and leaks. Checks what security rese
 
 As stated at length in this article, there aren't any *good* dating apps for your privacy, sadly. There are only "slightly less horrible" dating apps.
 
-For more details on each, you can have a look at Mozilla's [Privacy Not Included chart](https://www.mozillafoundation.org/en/privacynotincluded/categories/dating-apps/) for dating apps. Check the details for each app you are interested in, not just the rating. However, keep in mind that even Lex, the first app listed there, doesn't seem to have great practices in regard to [data deletion](#investigating-an-apps-data-deletion-process-before-creating-an-account), and you might be unable to delete your account data fully if you decide to use this app. This might also be the case for some other apps listed there.
+For more details on each, you can take a look at Mozilla's [Privacy Not Included chart](https://www.mozillafoundation.org/en/privacynotincluded/categories/dating-apps/) for dating apps. Check the details for each app you are interested in, not just the rating. However, keep in mind that even Lex, the first app listed there, doesn't seem to have great practices in regard to [data deletion](#investigating-an-apps-data-deletion-process-before-creating-an-account), and you might be unable to delete your account data fully if you decide to use this app. This might also be the case for some other apps listed there.
 
 Alternatively, there are a few free dating apps that might offer a different approach with open source code. Applications that are open-source have the benefit of full transparency to examine its code, and potentially detecting any undisclosed data collection.
 
-That being said, open-source applications aren't magically secure, and don't necessarily grant better privacy either. But code transparency helps to audit the application, and to detect any false claim related to privacy and security. The German dating app Alovoa is an example of this. You can have a look at its [code](https://github.com/Alovoa/Alovoa/) on GitHub.
+That being said, open-source applications aren't magically secure, and don't necessarily grant better privacy either. But code transparency helps to audit the application, and to detect any false claim related to privacy and security. The German dating app Alovoa is an example of this. You can take a look at its [code](https://github.com/Alovoa/Alovoa/) on GitHub.
 
 However, the downside of any dating app that isn't massively popular is it will have fewer users, possibly making finding matches more difficult.
 
