@@ -1,0 +1,6 @@
+:1337 {
+	reverse_proxy /articles/* http://127.0.0.1:8001
+	reverse_proxy /videos/* http://127.0.0.1:8002
+	reverse_proxy /en/* http://127.0.0.1:8000
+	redir / /en/
+}

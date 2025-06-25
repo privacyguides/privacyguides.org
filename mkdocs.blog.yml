@@ -47,7 +47,7 @@ extra:
         - fontawesome/brands/creative-commons
         - fontawesome/brands/creative-commons-by
         - fontawesome/brands/creative-commons-sa
-  homepage: https://www.privacyguides.org/en/
+  homepage: !ENV [MAIN_SITE_BASE_URL, "https://www.privacyguides.org/en/"]
   generator: false
   context: !ENV [BUILD_CONTEXT, "production"]
   offline: !ENV [BUILD_OFFLINE, false]
@@ -134,6 +134,7 @@ plugins:
     post_readtime: false
     authors_profiles: true
     authors_profiles_toc: true
+    pagination_per_page: 20
     categories_allowed:
       - Announcements
       - Opinion
@@ -207,21 +208,23 @@ markdown_extensions:
     toc_depth: 3
 
 nav:
-  - !ENV [NAV_HOME, "Home"]: /en/
-  - !ENV [NAV_KNOWLEDGE_BASE, "Knowledge Base"]: /en/basics/why-privacy-matters/
-  - !ENV [NAV_RECOMMENDATIONS, "Recommendations"]: /en/tools/
+  - !ENV [NAV_HOME, "Home"]: !ENV [MAIN_SITE_BASE_URL, "/en/"]
+  - !ENV [NAV_KNOWLEDGE_BASE, "Knowledge Base"]:
+      !ENV [MAIN_SITE_KNOWLEDGE_BASE_URL, "/en/basics/why-privacy-matters/"]
+  - !ENV [NAV_RECOMMENDATIONS, "Recommendations"]:
+      !ENV [MAIN_SITE_RECOMMENDATIONS_URL, "/en/tools/"]
   - !ENV [NAV_BLOG, "Articles"]:
       - index.md
       - editorial.md
       - tags.md
-  - !ENV [NAV_VIDEOS, "Videos"]: /videos/
+  - !ENV [NAV_VIDEOS, "Videos"]: !ENV [VIDEOS_SITE_BASE_URL, "/videos/"]
   - !ENV [NAV_FORUM, "Forum"]: "https://discuss.privacyguides.net/"
   - !ENV [NAV_WIKI, "Wiki"]:
       !ENV [
         NAV_WIKI_LINK,
         "https://discuss.privacyguides.net/c/community-wiki/9411/none",
       ]
-  - !ENV [NAV_ABOUT, "About"]: /en/about/
+  - !ENV [NAV_ABOUT, "About"]: !ENV [MAIN_SITE_ABOUT_URL, "/en/about/"]
 
 validation:
   nav:
