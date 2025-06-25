@@ -367,6 +367,33 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
 The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
 
+### KeePassium (iOS & macOS)
+
+<div class="admonition recommendation" markdown>
+
+![KeePassium logo](assets/img/password-management/keepassium.svg){ align=right }
+
+KeePassium is a commercial open-source KeePass client made by KeePassium Labs. It has *free* features such as automatic two-way synchronization with most [cloud storage providers](https://www.privacyguides.org/en/cloud/), autofill support, passkey management and more.
+
+[:octicons-home-16: Homepage](https://keepassium.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://keepassium.com/privacy/app){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.keepassium.com){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/keepassium/KeePassium){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://keepassium.com/donate){ .card-link title="Contribute" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/id1435127111)
+
+</details>
+
+</div>
+
+KeePassium offers a [Premium version](https://keepassium.com/pricing) with additional features such as support for multiple databases, YubiKey support, and a password audit tool. Additionally, KeePassium offers a ["rent-to-own"](https://support.keepassium.com/kb/license-rent-own) license when purchasing a yearly subscription. With this option, you keep full access to the app's premium features that existed when you paid, even after your last payment.
+
+KeePassium's iOS app has been [audited](https://cure53.de/pentest-report_keepassium.pdf) by Cure53 in October 2024, and all [issues](https://keepassium.com/blog/2024/11/independent-security-audit-complete) found in the audit were subsequently fixed.
+
 ### Gopass (CLI)
 
 <div class="admonition recommendation" markdown>
