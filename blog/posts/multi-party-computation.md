@@ -49,7 +49,7 @@ There's a good explainer for Yao's garbled circuits [here](https://lcamel.github
 
 ### Birth of Multi-Party Computation
 
-Multi-Party Computation was solidified with the [research](https://dl.acm.org/doi/pdf/10.1145/28395.28420) of Oded Goldreich, Siltnb Micali, and Avi Wigderson and the GMW paradigm (named after the researchers, similar to how RSA is named).
+Multi-Party Computation was solidified with the [research](https://dl.acm.org/doi/pdf/10.1145/28395.28420) of Oded Goldreich, Silvio Micali, and Avi Wigderson and the GMW paradigm (named after the researchers, similar to how RSA is named).
 
 Yao's protocol was limited to two parties. The new GMW paradigm expands the protocol to be able to handle any number of parties and can handle actively malicious actors as long as the majority are honest. 
 
