@@ -25,13 +25,15 @@ To explain, fan favorites Alice and Bob will make a return. First, Bob encrypts 
 
 Notice that Bob needs to be able to remove his encryption *after* Alice has applied hers. This commutative property is important for the scheme to work.
 
+This early scheme is highly specialized for this task and not applicable to different situations.
 
+### Secure Two-Party Computation
 
 Alice and Bob have struck it rich! They're both millionaires, but they want to be able to see who has more money without revealing exactly how much they have to each other.
 
 Luckily, we can use MPC to solve this "Millionaire's Problem" this using a method invented by Andrew Yao called *garbled cricuits*. Garbled circuits allow us to use MPC for any problem as long as it can be represented as a boolean circuit i.e. a set of logic gates such as `AND` `OR` `XOR` etc.
 
-## Garbled Circuits
+### Garbled Circuits
 
 We can split the two parties into an "Evaluator" and a "Generator". The Generator will be responsible for setting up the cryptography that'll be used and the Evaluator will actually perform the computation.
 
@@ -47,7 +49,13 @@ There's a good explainer for Yao's garbled circuits [here](https://lcamel.github
 
 ### Birth of Multi-Party Computation
 
-Multi-Party Computation was solidified with the research of Oded Goldreich, Siltnb Micali, and Avi Wigderson and the GMW paradigm (named after the researchers, similar to how RSA is named).
+Multi-Party Computation was solidified with the [research](https://dl.acm.org/doi/pdf/10.1145/28395.28420) of Oded Goldreich, Siltnb Micali, and Avi Wigderson and the GMW paradigm (named after the researchers, similar to how RSA is named).
+
+Yao's protocol was limited to two parties. The new GMW paradigm expands the protocol to be able to handle any number of parties and can handle actively malicious actors as long as the majority are honest. 
+
+#### Secret Sharing
+
+The new paradigm relies on [secret sharing](https://web.mit.edu/6.857/OldStuff/Fall03/ref/Shamir-HowToShareASecret.pdf), which is a method of splitting private information like a cryptographic key into multiple parts such that it will only reveal the secret if a certain threshold of people combine their parts together.
 
 ### Real-World Usage
 
@@ -66,3 +74,7 @@ The [solution](https://a.storyblok.com/f/266767/x/e4c85ffa34/mpc-goes-live_white
 It relied on three servers, with one representing each party: Danisco, DKS (the Danish sugar beet growers association), and The SIMAP project (Secure Information Management and Processing, a project sponsored by the Danish National Research Agency).
 
 The solution was so successful that it was used every year until 2015 when it was no longer needed. A survey of the farmers found that the vast majority found the system simplified the process of trading contracts and that they were satisfied with the level of confidentiality it provided.
+
+The first test run of MPC was a massive success and the potential was now proven.
+
+#### 
