@@ -55,7 +55,7 @@ Yao's protocol was limited to two parties. The new GMW paradigm expands the prot
 
 #### Secret Sharing
 
-The new paradigm relies on [secret sharing](https://web.mit.edu/6.857/OldStuff/Fall03/ref/Shamir-HowToShareASecret.pdf), which is a method of splitting private information like a cryptographic key into multiple parts such that it will only reveal the secret if a certain threshold of people combine their parts together.
+The new paradigm relies on [secret sharing](https://web.mit.edu/6.857/OldStuff/Fall03/ref/Shamir-HowToShareASecret.pdf), invented by Adi Shamir in 1979, which is a method of splitting private information like a cryptographic key into multiple parts such that it will only reveal the secret if a certain threshold of people combine their parts together.
 
 #### Zero-Knowledge Proofs
 
