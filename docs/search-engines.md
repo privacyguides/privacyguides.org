@@ -23,7 +23,7 @@ Consider using a [VPN](vpn.md) or [Tor](tor.md) if your threat model requires hi
 |---|---|---|---|---|
 | [Brave Search](#brave-search) | [Independent](https://brave.com/search-independence) | :material-check:{ .pg-green } | Anonymized[^1] | United States |
 | [DuckDuckGo](#duckduckgo) | [Bing](https://help.duckduckgo.com/results/sources) | :material-check:{ .pg-green } | Anonymized[^2] | United States |
-| [Mullvad Leta](#mullvad-leta) | [Brave and Google](https://leta.mullvad.net/faq#what-can-leta-do) | :material-alert-outline:{ .pg-orange } | Anonymized[^3] | Sweden |
+| [Mullvad Leta](#mullvad-leta) | [Brave and Google](https://leta.mullvad.net/faq#what-can-leta-do) | :material-check:{ .pg-green } | Anonymized[^3] | Sweden |
 | [Startpage](#startpage) | [Google and Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | :material-check:{ .pg-green } | Anonymized[^4] | Netherlands |
 
 [^1]:
@@ -94,6 +94,7 @@ DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-
 Mullvad Leta currently only provides text search results. It is the default search engine for the [Mullvad Browser](desktop-browsers.md#mullvad-browser).
 
 [:octicons-home-16: Homepage](https://leta.mullvad.net){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://uxngojcovdcyrmwkmkltyy2q7enzzvgv7vlqac64f2vl6hcrrqtlskqd.onion/){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://leta.mullvad.net/terms-of-service){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://leta.mullvad.net/faq){ .card-link title="Documentation" }
 
