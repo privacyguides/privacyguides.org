@@ -57,6 +57,18 @@ Yao's protocol was limited to two parties. The new GMW paradigm expands the prot
 
 The new paradigm relies on [secret sharing](https://web.mit.edu/6.857/OldStuff/Fall03/ref/Shamir-HowToShareASecret.pdf), which is a method of splitting private information like a cryptographic key into multiple parts such that it will only reveal the secret if a certain threshold of people combine their parts together.
 
+#### Zero-Knowledge Proofs
+
+The GMW paradigm introduced protections against malicious adversaries, powered by zero-knowledge proofs (ZKP). ZKP allow one party to convince another party a statement is true without revealing any other information than the fact that the statement is true. The concept of ZKP was first introduced in a [paper](https://dl.acm.org/doi/pdf/10.1145/22145.22178) from 1985 by Shafi Goldwasser, Silvio Micali, and Charles Rackoff.
+
+A slightly humorous paper called *[How to Explan Zero-Knowledge Protocols to Your Children](https://pages.cs.wisc.edu/~mkowalcz/628.pdf)* gives a storybook explanation of how they work (who says academic papers can't be fun?).
+
+The main crux revolves around probability: if a party knows the proper way to get a result, they should be able to reliably get the correct answer.
+
+To borrow the cave explanation, imagine Alice and Bob have taken up cave exploration. They've found a cave in the shape of a loop with a magic door connecting each entrance together and Alice claims to know how to open it. However, she doesn't want Bob to know the secret to open the door.
+
+Alice, acting as the "Prover" goes into the cave. Bob, the "Verifier", stays outside and yells which side of the cave Alice should come out of. They repeat this many times. If Alice can reliably make it out of the correct side of the cave, then she must know how to open the magic door.
+
 ### Real-World Usage
 
 As MPC saw gradual optimizations and improvements, it grew from an interesting thought experiment to something that could have real-world uses.
