@@ -57,7 +57,11 @@ Yao's protocol was limited to two parties. The new GMW paradigm expands the prot
 
 #### Secret Sharing
 
-The new paradigm relies on [secret sharing](https://web.mit.edu/6.857/OldStuff/Fall03/ref/Shamir-HowToShareASecret.pdf), invented by Adi Shamir in 1979, which is a method of splitting private information like a cryptographic key into multiple parts such that it will only reveal the secret if a certain threshold of people combine their parts together. Importantly, it doesn't require the secrets from all participants.
+The new paradigm relies on secret sharing which is a method of splitting private information like a cryptographic key into multiple parts such that it will only reveal the secret if the shares are combined together. The GMW protocol uses additive secret sharing, which is quite simple. You come up with a secret number, say 123, and you split it up into however many other numbers you want.
+
+`99 + 24 = 123`
+
+You distribute each number to a participant and add them all together to get the original secret. While simple, it doesn't play well with multiplication operations.
 
 #### Zero-Knowledge Proofs
 
@@ -70,6 +74,14 @@ The main crux revolves around probability: if a party knows the proper way to ge
 To borrow the cave explanation, imagine Alice and Bob have taken up cave exploration. They've found a cave in the shape of a loop with a magic door connecting each entrance together and Alice claims to know how to open it. However, she doesn't want Bob to know the secret to open the door.
 
 Alice, acting as the "Prover" goes into the cave. Bob, the "Verifier", stays outside and yells which side of the cave Alice should come out of. They repeat this many times. If Alice can reliably make it out of the correct side of the cave, then she must know how to open the magic door.
+
+### BGW Protocol
+
+While the GMW protocol was a huge leap forward for MPC, there were still huge limitations. The garbled circuit protocol is limited to boolean logic gates which makes implementing many different common operations much more difficult. It also requires communication for every single gate, which is highly inefficient.
+
+#### Arithmetic Circuits
+
+Instead of boolean circuits, the BGW protocol uses arithmetic circuits. These allow for 
 
 ### Real-World Usage
 
