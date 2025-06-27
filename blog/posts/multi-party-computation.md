@@ -10,7 +10,7 @@ tags:
     - Privacy Enhancing Technologies
 license: BY-SA
 schema_type: BackgroundNewsArticle
-description: Learn about Secure Multi-Party Computation and how it can 
+description: Learn about Secure Multi-Party Computation and how it can be used to solve real-world privacy problems.
 ---
 # Multi-Party Computation
 
