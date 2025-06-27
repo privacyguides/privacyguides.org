@@ -11,7 +11,6 @@ tags:
 license: BY-SA
 schema_type: BackgroundNewsArticle
 description: Learn about Secure Multi-Party Computation and how it can 
-
 ---
 # Multi-Party Computation
 
@@ -95,7 +94,9 @@ As MPC saw gradual optimizations and improvements, it grew from an interesting t
 
 #### Less Communication
 
-The BGW protocol doesn't require as much communication between parties, partly thanks to its use of Shamir's secret sharing 
+The BGW protocol doesn't require as much communication between parties, partly thanks to its use of Shamir's secret sharing which works well with arithmetic operations.
+
+Additionally, it doesn't require Oblivious Transfer or zero-knowledge proofs. Its use of Shamir's secret sharing and error correction codes instead provides the same properties in a more efficient way.
 
 #### Danish Sugar Beet Auction
 
