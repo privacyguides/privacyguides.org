@@ -51,11 +51,13 @@ There's a good explainer for Yao's garbled circuits [here](https://lcamel.github
 
 Multi-Party Computation was solidified with the [research](https://dl.acm.org/doi/pdf/10.1145/28395.28420) of Oded Goldreich, Silvio Micali, and Avi Wigderson and the GMW paradigm (named after the researchers, similar to how RSA is named).
 
+#### More Than Two Parties
+
 Yao's protocol was limited to two parties. The new GMW paradigm expands the protocol to be able to handle any number of parties and can handle actively malicious actors as long as the majority are honest. 
 
 #### Secret Sharing
 
-The new paradigm relies on [secret sharing](https://web.mit.edu/6.857/OldStuff/Fall03/ref/Shamir-HowToShareASecret.pdf), invented by Adi Shamir in 1979, which is a method of splitting private information like a cryptographic key into multiple parts such that it will only reveal the secret if a certain threshold of people combine their parts together.
+The new paradigm relies on [secret sharing](https://web.mit.edu/6.857/OldStuff/Fall03/ref/Shamir-HowToShareASecret.pdf), invented by Adi Shamir in 1979, which is a method of splitting private information like a cryptographic key into multiple parts such that it will only reveal the secret if a certain threshold of people combine their parts together. Importantly, it doesn't require the secrets from all participants.
 
 #### Zero-Knowledge Proofs
 
@@ -79,7 +81,7 @@ The first instance of MPC being used in a real-world scenario wouldn't occur unt
 
 Denmark's sugar beet industry faced a problem: with the EU significantly reducing its financial support for sugar beet production, they needed to figure out what price the thousands of sugar beet farmers were willing to sell at, and which price the company that bought all the sugar beets would be willing to buy them at, a so-called "double auction" where the buyer and seller figure out the **market clearing price**, or the price at which demand meets supply most effectively.
 
-But who should be in charge of the auction? Farmers don't want to trust Danisco with their bids as it reveals information about each individual farmer's business. The farmers can't be in charge of it because they don't trust each other. They could use an external consulting firm, but then the entire operatio would rely on that one firm's confidentiality and the reliability of their tools.
+But who should be in charge of the auction? Farmers don't want to trust Danisco with their bids as it reveals information about each individual farmer's business. The farmers can't be in charge of it because they don't trust each other. They could use an external consulting firm, but then the entire operation would rely on that one firm's confidentiality and the reliability of their tools.
 
 The [solution](https://a.storyblok.com/f/266767/x/e4c85ffa34/mpc-goes-live_whitepaper_2008-068.pdf) was to use a "virtual auctioneer" that relied on MPC to fairly carry the auction out.
 
