@@ -79,13 +79,23 @@ Alice, acting as the "Prover" goes into the cave. Bob, the "Verifier", stays out
 
 While the GMW protocol was a huge leap forward for MPC, there were still huge limitations. The garbled circuit protocol is limited to boolean logic gates which makes implementing many different common operations much more difficult. It also requires communication for every single gate, which is highly inefficient.
 
+The researchers Michael Ben-Or, Shafi Goldwassert, and Avi Wigderson in their paper *[Completeness Theorems for Non-Cryptographic Fault-Tolerant Distributed Computation](https://dl.acm.org/doi/pdf/10.1145/62212.62213)* made several advancements in the efficiency and robustness of MPC, moving it closer to being practical to use in the real world.
+
 #### Arithmetic Circuits
 
-Instead of boolean circuits, the BGW protocol uses arithmetic circuits. These allow for 
+Instead of boolean circuits, the BGW protocol uses arithmetic circuits. These allow for easier mathematical operations like multiplication and addition instead of being limited to logic gates on individual bits. This makes a huge difference in the amount of communication between parties and thus the efficiency of the protocol.
+
+#### Shamir's Secret Sharing
+
+The BGW protocol utilizes [Shamir's Secret Sharing](https://web.mit.edu/6.857/OldStuff/Fall03/ref/Shamir-HowToShareASecret.pdf), which relies on polynomials instead of addition. This allows for more efficiency in multiplication and allows for setting a threshold where only a certain number of shares need to be present in order to reconstruct the secret.
 
 ### Real-World Usage
 
 As MPC saw gradual optimizations and improvements, it grew from an interesting thought experiment to something that could have real-world uses.
+
+#### Less Communication
+
+The BGW protocol doesn't require as much communication between parties, partly thanks to its use of Shamir's secret sharing 
 
 #### Danish Sugar Beet Auction
 
