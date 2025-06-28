@@ -338,7 +338,6 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 <div class="grid cards" markdown>
 
 - ![Ente logo](assets/img/photo-management/ente.svg){ .twemoji loading=lazy } [Ente Photos](photo-management.md#ente-photos)
-- ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ .twemoji loading=lazy }![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ .twemoji loading=lazy } [Stingle](photo-management.md#stingle)
 - ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](photo-management.md#photoprism)
 
 </div>

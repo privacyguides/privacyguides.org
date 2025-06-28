@@ -44,33 +44,6 @@ The free plan offers 5 GB of storage as long as you use the service at least on
 
 Ente Photos underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
 
-## Stingle
-
-<div class="admonition recommendation" markdown>
-
-![Stingle logo](assets/img/photo-management/stingle.png#only-light){ align=right }
-![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
-
-**Stingle** is a gallery and camera application with built-in, E2EE backup and sync functionality for your photos and videos.
-
-Storage starts at 1 GB for free accounts on their cloud, or you can host your own Stingle API server for total independence.
-
-[:octicons-home-16: Homepage](https://stingle.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://stingle.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://stingle.org/faq){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/stingle){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.stingle.photos)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1582535448)
-- [:simple-github: GitHub](https://github.com/stingle/stingle-photos-android/releases)
-
-</details>
-
-</div>
-
 ## PhotoPrism
 
 <div class="admonition recommendation" markdown>
