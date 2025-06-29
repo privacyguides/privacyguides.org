@@ -94,6 +94,14 @@ The BGW protocol doesn't require as much communication between parties, partly t
 
 Additionally, it doesn't require Oblivious Transfer or zero-knowledge proofs. Its use of Shamir's secret sharing and error correction codes instead provides the same properties in a more efficient way.
 
+### Fairplay
+
+The field was further advanced by the introduction of the [Fairplay](https://www.cs.huji.ac.il/w~noam/FairplayMP.pdf) system.
+
+Up until this paper, MPC was limited to boolean circuits or arithmetic circuits: not exactly friendly if you're a programmer that's used to using higher level languages. Fairplay introduces a compiler, SFDL, which can compile higher level languages to boolean circuits and then securely computes the circuit.
+
+Fairplay also brings some advancements in efficiency. It utilizes constant rounds, with a fixed 8 rounds, reducing the communication overhead. It also uses the free XOR technique so that encryption operations don't have to be performed on XOR gates, improving efficiency.
+
 ### Real-World Usage
 
 As MPC saw gradual optimizations and improvements, it grew from an interesting thought experiment to something that could have real-world uses.
