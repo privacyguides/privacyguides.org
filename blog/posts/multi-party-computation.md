@@ -88,15 +88,15 @@ Instead of boolean circuits, the BGW protocol uses arithmetic circuits. These al
 
 The BGW protocol utilizes [Shamir's Secret Sharing](https://web.mit.edu/6.857/OldStuff/Fall03/ref/Shamir-HowToShareASecret.pdf), which relies on polynomials instead of addition. This allows for more efficiency in multiplication and allows for setting a threshold where only a certain number of shares need to be present in order to reconstruct the secret.
 
-### Real-World Usage
-
-As MPC saw gradual optimizations and improvements, it grew from an interesting thought experiment to something that could have real-world uses.
-
 #### Less Communication
 
 The BGW protocol doesn't require as much communication between parties, partly thanks to its use of Shamir's secret sharing which works well with arithmetic operations.
 
 Additionally, it doesn't require Oblivious Transfer or zero-knowledge proofs. Its use of Shamir's secret sharing and error correction codes instead provides the same properties in a more efficient way.
+
+### Real-World Usage
+
+As MPC saw gradual optimizations and improvements, it grew from an interesting thought experiment to something that could have real-world uses.
 
 #### Danish Sugar Beet Auction
 
@@ -114,4 +114,4 @@ The solution was so successful that it was used every year until 2015 when it wa
 
 The first test run of MPC was a massive success and the potential was now proven.
 
-#### 
+#### The Boston 
