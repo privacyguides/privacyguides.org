@@ -144,5 +144,6 @@ Today, the [MPC Alliance](https://www.mpcalliance.org) represents a collective o
 
 MPC is used for everything from cryptocurrency to HIPAA-compliant medical uses. There are ongoing efforts to [standardize](https://csrc.nist.gov/projects/threshold-cryptography) it from organizations like NIST, although it's a difficult proposition due to the sheer variation in MPC protocols and usecases.
 
-MPC acts as an essential privacy tool in the toolbox. It intersects with other PETs like homomorphic encryption.
+MPC acts as an essential privacy tool in the toolbox. It intersects with other PETs like homomorphic encryption, a method of encrypting data in such a way that operations can still be performed on it without revealing the unencrypted data.
 
+MPC is just one tool among many that's reshaping the privacy landscape. I'm excited to see how it's used in the future and what new advancements it unlocks.
