@@ -114,4 +114,27 @@ The solution was so successful that it was used every year until 2015 when it wa
 
 The first test run of MPC was a massive success and the potential was now proven.
 
-#### The Boston 
+#### The Boston Women's Workforce Council
+
+In 2016, the [Boston Women's Workforce Council](https://www.boston.gov/sites/default/files/document-file-09-2017/bwwcr-2016-new-report.pdf) worked with 69 companies to investigate if women are paid the same as men.
+
+Using MPC, the companies were able to process their data without revealing the actual wages of any employees. The wage data of 112,600 employees was collected, representing about 11% of the Greater Boston workforce.
+
+You can read their detailed findings in the report, but they found that women were indeed being paid less than men: 77 cents for every dollar a man makes on average.
+
+It was reported in 2023 that thanks to this data, the Boston Women's Workforce Council was able to reduce the wage gap by 30%.
+
+#### Allegheny County
+
+In 2018, Allegheny County Department of Human Services partnered with the [Bipartisan Policy Center](https://bipartisanpolicy.org/press-release/bpc-partners-with-allegheny-county-on-new-privacy-preserving-data-project/) to implement MPC, allowing for private and secure sharing of county data on services to the homeless, behavioral health services, causes and incidence of mortality, family interventions, and incarceration.
+
+The experiment was considered a success, with a recommendation from the U.S. Commission on Evidence-Based Policymaking to further explore the use of MPC.
+
+## MPC Today
+
+Today, the [MPC Alliance](https://www.mpcalliance.org) represents a collective of companies that have come together to advance the use of MPC.
+
+MPC is used for everything from cryptocurrency to HIPAA-compliant medical uses. There are ongoing efforts to [standardize](https://csrc.nist.gov/projects/threshold-cryptography) it from organizations like NIST, although it's a difficult proposition due to the sheer variation in MPC protocols and usecases.
+
+MPC acts as an essential privacy tool in the toolbox. It intersects with other PETs like homomorphic encryption.
+
