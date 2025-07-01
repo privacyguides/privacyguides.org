@@ -19,7 +19,9 @@ Is it possible to collect data from a large group of people but protect each ind
 
 ## Problem
 
-It's useful to collect data from a large group of people. You can see trends in a population. But it requires a lot of individual people to give up personally identifiable information. Even things that seem inocuous like your gender can help identify you. 87% of Americans can be identified by three pieces of information:
+It's useful to collect data from a large group of people. You can see trends in a population. But it requires a lot of individual people to give up personally identifiable information. Even things that seem inocuous like your gender can help identify you.
+
+Latanya Sweeney in a [paper](https://dataprivacylab.org/projects/identifiability/paper1.pdf) from 2000 used U.S. Census data to try and re-identify people solely based on the metrics available to her. She found that 87% of Americans could be identified based on only 3 metrics: ZIP code, date of birth, and sex.
 
 ## History
 
