@@ -54,11 +54,11 @@ Multi-Party Computation was solidified with the [research](https://dl.acm.org/do
 
 #### More Than Two Parties
 
-Yao's protocol was limited to two parties. The new GMW paradigm expands the protocol to be able to handle any number of parties and can handle actively malicious actors as long as the majority are honest. 
+Yao's protocol was limited to two parties. The GMW paradigm expanded the protocol to be able to handle any number of parties and can handle actively malicious actors as long as the majority are honest. 
 
 #### Secret Sharing
 
-The new paradigm relies on secret sharing which is a method of splitting private information like a cryptographic key into multiple parts such that it will only reveal the secret if the shares are combined together. The GMW protocol uses additive secret sharing, which is quite simple. You come up with a secret number, say 123, and you split it up into however many other numbers you want.
+The GMW paradigm relies on secret sharing which is a method of splitting private information like a cryptographic key into multiple parts such that it will only reveal the secret if the shares are combined together. The GMW protocol uses additive secret sharing, which is quite simple. You come up with a secret number, say 123, and you split it up into however many other numbers you want.
 
 `99 + 24 = 123`
 
