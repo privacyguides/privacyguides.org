@@ -31,4 +31,4 @@ Most of the concepts I write about seem to come from the 70's and 80's, but diff
 
 The paper introduces the idea of adding noise to data to achieve privacy. Of course, adding noise to the dataset reduces its accuracy. Ɛ defines the amount of noise added to the dataset, with a small Ɛ meaning more privacy but less accurate data and vice versa. It's also referred to as the "privacy loss parameter".
 
-Importantly, differential privacy adds noise *before* it's analyzed. k-anonymity relies on trying to anonymize data *after* it's collected, so it leaves the possibility that not enough parameters are removed to ensure each indidual cannot be identified.
+Importantly, differential privacy adds noise *before* it's analyzed. k-anonymity relies on trying to anonymize data *after* it's collected, so it leaves the possibility that not enough parameters are removed to ensure each individual cannot be identified.
