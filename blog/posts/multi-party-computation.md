@@ -18,7 +18,6 @@ description: Learn about Secure Multi-Party Computation and how it can be used t
 
 <small aria-hidden="true">Illustration: Jordan Warne / Privacy Guides</small>
 
-
 We know how to secure data in storage using E2EE, but is it possible to ensure data privacy even while processing it server-side? This is the first in a series of articles I'll be writing covering the privacy-enhancing technologies being rolled out.<!-- more -->
 
 ## History
