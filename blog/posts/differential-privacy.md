@@ -41,7 +41,7 @@ In 2018, the fitness app Strava announced a major update to its heatmap, showing
 
 Analyst [Nathan Ruser](https://x.com/Nrg8000/status/957318498102865920) indicated that these patterns can reveal military bases and troop movement patterns. This is obviously a huge op-sec problem and can endanger the lives of troops.
 
-Since movement patterns are fairly unique, 
+It was also possible to [deanonymize](https://steveloughran.blogspot.com/2018/01/advanced-denanonymization-through-strava.html) individual users in some circumstances.
 
 ### Dawn of Differential Privacy
 
