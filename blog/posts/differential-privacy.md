@@ -27,17 +27,38 @@ Obviously, being able to identify individuals based on publicly available data i
 
 ## History
 
+### Before Differential Privacy
+
+Previous attempts at anonymizing data have relied on been highly vulnerable to reidentification attacks.
+
+#### AOL Search Log Release
+
+A famous example is the AOL search log release. AOL had been logging its users searches for research purposes. When they released the data, they only replaced the users' real names with an identifier. Researchers were able to identify [user 4417749](https://archive.nytimes.com/www.nytimes.com/learning/teachers/featured_articles/20060810thursday.html) as Thelma Arnold based on the identifying details of her searches.
+
+#### Strava Heatmap Incident
+
+In 2018, the fitness app Strava announced a major update to its heatmap, showing the the workout patterns of users of fitness trackers like Fitbit.
+
+Analyst [Nathan Ruser](https://x.com/Nrg8000/status/957318498102865920) indicated that these patterns can reveal military bases and troop movement patterns. This is obviously a huge op-sec problem and can endanger the lives of troops.
+
+Since movement patterns are fairly unique, 
+
+### Dawn of Differential Privacy
+
 Most of the concepts I write about seem to come from the 70's and 80's, but differential privacy is a relatively new concept. It was first introduced in a paper from 2006 called [*Calibrating Noise to Sensitivity in Private Data Analysis*](https://desfontain.es/PDFs/PhD/CalibratingNoiseToSensitivityInPrivateDataAnalysis.pdf).
 
 The paper introduces the idea of adding noise to data to achieve privacy. Of course, adding noise to the dataset reduces its accuracy. Ɛ defines the amount of noise added to the dataset, with a small Ɛ meaning more privacy but less accurate data and vice versa. It's also referred to as the "privacy loss parameter".
 
-Importantly, differential privacy adds noise *before* it's analyzed. k-anonymity (1) relies on trying to anonymize data *after* it's collected, so it leaves the possibility that not enough parameters are removed to ensure each individual cannot be identified.
-{ .annotate }
+Importantly, differential privacy adds noise *before* it's analyzed. k-anonymity relies on trying to anonymize data *after* it's collected, so it leaves the possibility that not enough parameters are removed to ensure each individual cannot be identified.
 
-1. k-anonymity means that for each row, at least k-1 other rows are identical.
+### Problems with k-anonymity
 
+k-anonymity means that for each row, at least k-1 other rows are identical.
+| Age | 
 
 ### Google RAPPOR
 
 In 2014, Google introduced [Randomized Aggregatable Privacy-Preserving Ordinal Response](https://arxiv.org/pdf/1407.6981) (RAPPOR), their [open source](https://github.com/google/rappor) implementation of differential privacy, with a few improvements.
+
+
 
