@@ -12,6 +12,8 @@ tags:
     - Search Engines
 description: Startpage has been removed from Privacy Guides' recommendations following their acquisition by System1.
 schema_type: NewsArticle
+preview:
+  cover: blog/assets/images/delisting-startpage/cover.webp
 ---
 # Delisting Startpage From Privacy Guides
 

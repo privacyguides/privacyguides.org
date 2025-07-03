@@ -8,9 +8,7 @@ authors:
 description: Privacy is only dead if we let it die. Be careful about the all-or-nothing mindset in data privacy, it can do more damage than good to the cause. While striving for improvements, do not forget to cheer and celebrate each small win.
 schema_type: OpinionNewsArticle
 preview:
-  color: "#28323F"
-  text_color: "#FFD06F"
-  site_logo: privacy-guides-logo-notext-darkbg.svg
+  cover: blog/assets/images/privacy-is-not-dead/cover.webp
 ---
 # No, Privacy is Not Dead: Beware the All-or-Nothing Mindset
 

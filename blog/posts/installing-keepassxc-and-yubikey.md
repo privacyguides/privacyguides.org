@@ -7,6 +7,8 @@ authors:
     - em
 description: This tutorial demonstrates how to install the local-only password manager KeePassXC and secure a password database with YubiKey.
 schema_type: AnalysisNewsArticle
+preview:
+  cover: blog/assets/images/installing-keepassxc-and-yubikey/keepassxc-cover.webp
 ---
 # KeePassXC + YubiKey: How to set up a local-only password manager
 

@@ -8,6 +8,8 @@ authors:
 tags:
     - AI
     - Content Credentials
+preview:
+  cover: blog/assets/images/digital-provenance/cover.jpg
 ---
 # The Power of Digital Provenance in the Age of AI
 
