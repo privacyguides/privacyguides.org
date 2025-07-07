@@ -148,6 +148,8 @@ Today, the [MPC Alliance](https://www.mpcalliance.org) represents a collective o
 
 MPC is used for everything from [cryptocurrency](https://www.coinbase.com/learn/wallet/what-is-a-multi-party-computation-mpc-wallet) to HIPAA-compliant [medical](https://pmc.ncbi.nlm.nih.gov/articles/PMC6658266/) uses. There are ongoing efforts to [standardize](https://csrc.nist.gov/projects/threshold-cryptography) it from organizations like NIST, although it's a difficult proposition due to the sheer variation in MPC protocols and usecases.
 
+There's been research into using MPC for secure and [verifiably fair](https://eprint.iacr.org/2014/075.pdf) [electronic voting](https://arxiv.org/html/2205.10580v4), something that's much needed as countries move toward [electronic voting](https://worldpopulationreview.com/country-rankings/electronic-voting-by-country). It's important to not completely dismiss the march of technology, but these things should be implemented with the utmost caution and scientific rigor. I feel that implementing black-box electronic voting without open and provably secure technologies like MPC is irresponsible and endangers elections.
+
 MPC acts as an essential privacy tool in the toolbox. It intersects with other PETs like homomorphic encryption, a method of encrypting data in such a way that operations can still be performed on it without revealing the unencrypted data.
 
 MPC is just one tool among many that's reshaping the privacy landscape. I'm excited to see how it's used in the future and what new advancements it unlocks.
