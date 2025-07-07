@@ -33,7 +33,7 @@ Being able to collect aggregate data is essential for research. It's what the U.
 
 Usually we're more interested in the data as a whole and not data of individual people as it can show trends and overall patterns in groups of people. However, in order to get that data we must collect it from individuals.
 
-It was thought at first that simply removing names and other obviously identifying details from the data was enough to prevent re-identification, but [Latanya Sweeney](https://latanyasweeney.org/JLME.pdf) (a name that will pop up a few more times) proved in 1997 that even without names, a significant portion of individuals can be re-identified from a dataset by cross-referencing external data.
+It was thought at first that simply r[emoving names and other obviously identifying details](https://simons.berkeley.edu/news/differential-privacy-issues-policymakers#:~:text=Prior%20to%20the%20line%20of%20research%20that%20led%20to%20differential%20privacy%2C%20it%20was%20widely%20believed%20that%20anonymizing%20data%20was%20a%20relatively%20straightforward%20and%20sufficient%20solution%20to%20the%20privacy%20challenge.%20Statistical%20aggregates%20could%20be%20released%2C%20many%20people%20thought%2C%20without%20revealing%20underlying%20personally%20identifiable%20data.%20Data%20sets%20could%20be%20released%20to%20researchers%20scrubbed%20of%20names%2C%20but%20otherwise%20with%20rich%20individual%20information%2C%20and%20were%20thought%20to%20have%20been%20anonymized.) from the data was enough to prevent re-identification, but [Latanya Sweeney](https://latanyasweeney.org/JLME.pdf) (a name that will pop up a few more times) proved in 1997 that even without names, a significant portion of individuals can be re-identified from a dataset by cross-referencing external data.
 
 Previous attempts at anonymizing data have relied on been highly vulnerable to reidentification attacks.
 
@@ -51,6 +51,11 @@ It was also possible to [deanonymize](https://steveloughran.blogspot.com/2018/01
 
 #### 
 
+#### Problems with k-anonymity
+
+k-anonymity means that for each row, at least k-1 other rows are identical.
+| Age | 
+
 ### Dawn of Differential Privacy
 
 Most of the concepts I write about seem to come from the 70's and 80's, but differential privacy is a relatively new concept. It was first introduced in a paper from 2006 called [*Calibrating Noise to Sensitivity in Private Data Analysis*](https://desfontain.es/PDFs/PhD/CalibratingNoiseToSensitivityInPrivateDataAnalysis.pdf).
@@ -58,11 +63,6 @@ Most of the concepts I write about seem to come from the 70's and 80's, but diff
 The paper introduces the idea of adding noise to data to achieve privacy. Of course, adding noise to the dataset reduces its accuracy. Ɛ defines the amount of noise added to the dataset, with a small Ɛ meaning more privacy but less accurate data and vice versa. It's also referred to as the "privacy loss parameter".
 
 Importantly, differential privacy adds noise *before* it's analyzed. k-anonymity relies on trying to anonymize data *after* it's collected, so it leaves the possibility that not enough parameters are removed to ensure each individual cannot be identified.
-
-### Problems with k-anonymity
-
-k-anonymity means that for each row, at least k-1 other rows are identical.
-| Age | 
 
 ### Google RAPPOR
 
