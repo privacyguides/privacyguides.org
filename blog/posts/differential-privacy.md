@@ -29,6 +29,12 @@ Obviously, being able to identify individuals based on publicly available data i
 
 ### Before Differential Privacy
 
+Being able to collect aggregate data is essential for research. It's what the U.S. Census does every 10 years.
+
+Usually we're more interested in the data as a whole and not data of individual people as it can show trends and overall patterns in groups of people. However, in order to get that data we must collect it from individuals.
+
+It was thought at first that simply removing names and other obviously identifying details from the data was enough to prevent re-identification, but [Latanya Sweeney](https://latanyasweeney.org/JLME.pdf) (a name that will pop up a few more times) proved in 1997 that even without names, a significant portion of individuals can be re-identified from a dataset by cross-referencing external data.
+
 Previous attempts at anonymizing data have relied on been highly vulnerable to reidentification attacks.
 
 #### AOL Search Log Release
@@ -42,6 +48,8 @@ In 2018, the fitness app Strava announced a major update to its heatmap, showing
 Analyst [Nathan Ruser](https://x.com/Nrg8000/status/957318498102865920) indicated that these patterns can reveal military bases and troop movement patterns. This is obviously a huge op-sec problem and can endanger the lives of troops.
 
 It was also possible to [deanonymize](https://steveloughran.blogspot.com/2018/01/advanced-denanonymization-through-strava.html) individual users in some circumstances.
+
+#### 
 
 ### Dawn of Differential Privacy
 
