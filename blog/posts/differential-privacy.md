@@ -49,7 +49,20 @@ Analyst [Nathan Ruser](https://x.com/Nrg8000/status/957318498102865920) indicate
 
 It was also possible to [deanonymize](https://steveloughran.blogspot.com/2018/01/advanced-denanonymization-through-strava.html) individual users in some circumstances.
 
-#### 
+#### Randomized Response
+
+One of the earliest ideas for anonymizing data was [randomized response](https://uvammm.github.io/docs/randomizedresponse.pdf), first introduced all the way back in 1965 in a paper by Stanley L. Warner. The idea behind it is quite clever.
+
+For certain questions like "have you committed tax fraud?", respondents will likely be hesitant to answer truthfully. The solution? Have the respondent flip a coin. If the coin is tails, answer yes. If the coin lands on heads, answer truthfully.
+
+| Respondent | Answer | Coin Flip (not included in the actual dataset just here for illustration) |
+| --- | --- |
+| 1 | Yes | Tails (Answer Yes) |
+| 2 | No | Heads (Answer Truthfully) |
+| 3 | Yes | Heads (Answer Truthfully) |
+| 4 | Yes | Tails (Answer Yes) |
+| 5 | No | Heads (Answer Truthfully) |
+
 
 #### Problems with k-anonymity
 
