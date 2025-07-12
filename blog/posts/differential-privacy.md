@@ -83,17 +83,27 @@ A variation used later in a [paper](https://www.jstor.org/stable/2283636) by Gre
 
 #### k-Anonymity
 
-Latanya Sweeney and 
+Latanya Sweeney and Pierangela Samarati introduced [k-anonymity](https://dataprivacylab.org/dataprivacy/projects/kanonymity/paper3.pdf) to the world back in 1998.
 
 It's interesting that even all the way back in 1998 concerns constant data collection were already relevant.
 
 >Most actions in daily life are recorded on some computer somewhere That information in turn is often shared exc hanged and sold. Many people may not care that the local grocer keeps track of which items they purchase but shared information can be quite damaging to individuals or organizations. Improp er disclosure of medical information financial information or matters of national security can have alarming ramications and many abuses have been cited.
 
-k-anonymity means that for each row, at least k-1 other rows are identical. In practical terms, no individual row is unique, so no one can be uniquely identified by the data.
+In a dataset, you might have removed names and other obviously identifying information, but there might be other data such as birthday, ZIP code, etc that might be unique to one person in the dataset. If someone were to crossreference this data with outside data, it could be possible to deanonymize individuals.
+
+k-anonymity means that for each row, at least k-1 other rows are identical. So for a k of 2, at least one other row is identical to each row.
 
 ##### Generalization
 
-This is achieved through a few techniques, one of which is generalization. Generalization is reducin
+This is achieved through a few techniques, one of which is generalization. Generalization is reducing the precision of data so that it's not as unique.
+
+For example, instead of recording an exact age, you might give a range like 20-30. You've probably noticed this on surveys you've taken before. Data like this that's not directly identifiable but could be used to re-identify someone is refered to as *quasi-identifiers*.
+
+##### Suppression
+
+Sometimes even with generalization, you might have outliers that don't satisfy the k-anonymity requirements.
+
+In these cases, you can simply remove the row entirely.
 
 #### Problems with k-anonymity
 
