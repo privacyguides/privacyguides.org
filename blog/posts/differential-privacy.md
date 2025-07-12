@@ -73,9 +73,13 @@ Randomized Response would lay the groundwork for differential privacy, but it wo
 
 A variation used later in a [paper](https://www.jstor.org/stable/2283636) by Greenberg et al. called **unrelated question randomized response** would present each respondent with either a sensitive question or a banal question like "is your birthday in January?" to increase the likelihood of people answering honestly, since the researcher doesn't know which question was asked.
 
-
-
-
+| Respondent | Question (not visible to researcher) | Answer |
+| --- | --- | --- |
+| 1 | Have you ever committed tax evasion? | No |
+| 2 | Is your birthday in January? | Yes |
+| 3 | Is your birthday in January? | No |
+| 4 | Have you ever committed tax evasion? | Yes |
+| 5 | Have you ever committed tax evasion? | No |
 
 #### Problems with k-anonymity
 
