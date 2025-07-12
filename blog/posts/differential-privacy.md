@@ -58,12 +58,23 @@ For certain questions like "have you committed tax fraud?", respondents will lik
 Have you committed tax fraud?
 
 | Respondent | Answer | Coin Flip (not included in the actual dataset just here for illustration) |
-| --- | --- |
+| ---- | ---- |
 | 1 | Yes | Tails (Answer Yes) |
 | 2 | No | Heads (Answer Truthfully) |
 | 3 | Yes | Heads (Answer Truthfully) |
 | 4 | Yes | Tails (Answer Yes) |
 | 5 | No | Heads (Answer Truthfully) |
+
+Because we know the exact probability that a "Yes" answer is fake, 50%, we can remove it and give a rough estimate of how many respondents answered "Yes" truthfully.
+
+Randomized Response would lay the groundwork for differential privacy, but it wouldn't truly be realized for many decades.
+
+#### Unrelated Question Randomized Response
+
+A variation used later in a [paper](https://www.jstor.org/stable/2283636) by Greenberg et al. called **unrelated question randomized response** would present each respondent with either a sensitive question or a banal question like "is your birthday in January?" to increase the likelihood of people answering honestly, since the researcher doesn't know which question was asked.
+
+
+
 
 
 #### Problems with k-anonymity
