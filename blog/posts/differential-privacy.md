@@ -87,7 +87,7 @@ Latanya Sweeney and Pierangela Samarati introduced [k-anonymity](https://datapri
 
 It's interesting that even all the way back in 1998 concerns constant data collection were already relevant.
 
->Most actions in daily life are recorded on some computer somewhere That information in turn is often shared exc hanged and sold. Many people may not care that the local grocer keeps track of which items they purchase but shared information can be quite damaging to individuals or organizations. Improp er disclosure of medical information financial information or matters of national security can have alarming ramications and many abuses have been cited.
+>Most actions in daily life are recorded on some computer somewhere. That information in turn is often shared, exchanged, and sold. Many people may not care that the local grocer keeps track of which items they purchase but shared information can be quite damaging to individuals or organizations. Improper disclosure of medical information, financial information, or matters of national security can have alarming ramications and many abuses have been cited.
 
 In a dataset, you might have removed names and other obviously identifying information, but there might be other data such as birthday, ZIP code, etc that might be unique to one person in the dataset. If someone were to crossreference this data with outside data, it could be possible to deanonymize individuals.
 
@@ -111,7 +111,13 @@ Most of the concepts I write about seem to come from the 70's and 80's, but diff
 
 The paper introduces the idea of adding noise to data to achieve privacy. Of course, adding noise to the dataset reduces its accuracy. Ɛ defines the amount of noise added to the dataset, with a small Ɛ meaning more privacy but less accurate data and vice versa. It's also referred to as the "privacy loss parameter".
 
-Importantly, differential privacy adds noise *before* it's analyzed. k-anonymity relies on trying to anonymize data *after* it's collected, so it leaves the possibility that not enough parameters are removed to ensure each individual cannot be identified.
+#### Central Differential Privacy
+
+This early form of differential privacy relied on adding noise to the data *after* it was already collected, meaning you still have to trust a central authority with the raw data.
+
+#### Local Differential Privacy
+
+In many later implementations of differential privacy, noise is added to data on-device before it's sent off to any server. This removes the need to trust the central authority to handle your raw data.
 
 ### Google RAPPOR
 
