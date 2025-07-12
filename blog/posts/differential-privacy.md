@@ -113,13 +113,12 @@ The paper introduces the idea of adding noise to data to achieve privacy. Of cou
 
 This early form of differential privacy relied on adding noise to the data *after* it was already collected, meaning you still have to trust a central authority with the raw data.
 
-#### Local Differential Privacy
-
-In many later implementations of differential privacy, noise is added to data on-device before it's sent off to any server. This removes the need to trust the central authority to handle your raw data.
-
 ### Google RAPPOR
 
 In 2014, Google introduced [Randomized Aggregatable Privacy-Preserving Ordinal Response](https://arxiv.org/pdf/1407.6981) (RAPPOR), their [open source](https://github.com/google/rappor) implementation of differential privacy, with a few improvements.
 
+#### Local Differential Privacy
+
+In Google's implementation, noise is added to data on-device before it's sent off to any server. This removes the need to trust the central authority to handle your raw data, an important step in achieving truly anonymous data collection.
 
 
