@@ -107,7 +107,7 @@ In these cases, you can simply remove the row entirely.
 
 Most of the concepts I write about seem to come from the 70's and 80's, but differential privacy is a relatively new concept. It was first introduced in a paper from 2006 called [*Calibrating Noise to Sensitivity in Private Data Analysis*](https://desfontain.es/PDFs/PhD/CalibratingNoiseToSensitivityInPrivateDataAnalysis.pdf).
 
-The paper introduces the idea of adding noise to data to achieve privacy. Of course, adding noise to the dataset reduces its accuracy. Ɛ defines the amount of noise added to the dataset, with a small Ɛ meaning more privacy but less accurate data and vice versa. It's also referred to as the "privacy loss parameter".
+The paper introduces the idea of adding noise to data to achieve privacy. Of course, adding noise to the dataset reduces its accuracy. Ɛ defines the amount of noise added to the dataset, with a small Ɛ meaning more privacy but less accurate data and vice versa. It's also referred to as the "privacy loss parameter" or "privacy budget".
 
 #### Central Differential Privacy
 
