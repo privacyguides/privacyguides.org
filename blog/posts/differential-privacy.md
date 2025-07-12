@@ -95,7 +95,7 @@ k-anonymity means that for each row, at least k-1 other rows are identical. So f
 
 This is achieved through a few techniques, one of which is generalization. Generalization is reducing the precision of data so that it's not as unique.
 
-For example, instead of recording an exact age, you might give a range like 20-30. You've probably noticed this on surveys you've taken before. Data like this that's not directly identifiable but could be used to re-identify someone is refered to as *quasi-identifiers*.
+For example, instead of recording an exact age, you might give a range like 20-30. You've probably noticed this on surveys you've taken before. Data like this that's not directly identifiable but could be used to re-identify someone is referred to as *quasi-identifiers*.
 
 ##### Suppression
 
