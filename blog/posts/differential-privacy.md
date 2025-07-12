@@ -84,7 +84,6 @@ A variation used later in a [paper](https://www.jstor.org/stable/2283636) by Gre
 #### Problems with k-anonymity
 
 k-anonymity means that for each row, at least k-1 other rows are identical.
-| Age | 
 
 ### Dawn of Differential Privacy
 
