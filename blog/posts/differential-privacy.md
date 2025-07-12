@@ -55,8 +55,6 @@ One of the earliest ideas for anonymizing data was [randomized response](https:/
 
 For certain questions like "have you committed tax fraud?", respondents will likely be hesitant to answer truthfully. The solution? Have the respondent flip a coin. If the coin is tails, answer yes. If the coin lands on heads, answer truthfully.
 
-Have you committed tax fraud?
-
 | Respondent | Answer | Coin Flip (not included in the actual dataset just here for illustration) |
 | --- | --- |
 | 1 | Yes | Tails (Answer Yes) |
