@@ -58,7 +58,7 @@ For certain questions like "have you committed tax fraud?", respondents will lik
 Have you committed tax fraud?
 
 | Respondent | Answer | Coin Flip (not included in the actual dataset just here for illustration) |
-| ---- | ---- |
+| --- | --- |
 | 1 | Yes | Tails (Answer Yes) |
 | 2 | No | Heads (Answer Truthfully) |
 | 3 | Yes | Heads (Answer Truthfully) |
@@ -81,9 +81,23 @@ A variation used later in a [paper](https://www.jstor.org/stable/2283636) by Gre
 | 4 | Have you ever committed tax evasion? | Yes |
 | 5 | Have you ever committed tax evasion? | No |
 
+#### k-Anonymity
+
+Latanya Sweeney and 
+
+It's interesting that even all the way back in 1998 concerns constant data collection were already relevant.
+
+>Most actions in daily life are recorded on some computer somewhere That information in turn is often shared exc hanged and sold. Many people may not care that the local grocer keeps track of which items they purchase but shared information can be quite damaging to individuals or organizations. Improp er disclosure of medical information financial information or matters of national security can have alarming ramications and many abuses have been cited.
+
+k-anonymity means that for each row, at least k-1 other rows are identical. In practical terms, no individual row is unique, so no one can be uniquely identified by the data.
+
+##### Generalization
+
+This is achieved through a few techniques, one of which is generalization. Generalization is reducin
+
 #### Problems with k-anonymity
 
-k-anonymity means that for each row, at least k-1 other rows are identical.
+
 
 ### Dawn of Differential Privacy
 
