@@ -124,7 +124,7 @@ In Google's implementation, noise is added to data on-device before it's sent of
 
 ### Bloom Filters
 
-Google RAPPOR makes use of a clever technique caled bloom filters that saves space and improves privacy.
+Google RAPPOR makes use of a clever technique called bloom filters that saves space and improves privacy.
 
 Bloom filters work by starting out with an array of all 0's
 
