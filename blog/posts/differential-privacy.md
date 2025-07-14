@@ -52,7 +52,7 @@ It was also possible to [deanonymize](https://steveloughran.blogspot.com/2018/01
 
 One of the earliest ideas for anonymizing data was [randomized response](https://uvammm.github.io/docs/randomizedresponse.pdf), first introduced all the way back in 1965 in a paper by Stanley L. Warner. The idea behind it is quite clever.
 
-For certain questions like "have you committed tax fraud?", respondents will likely be hesitant to answer truthfully. The solution? Have the respondent flip a coin. If the coin is tails, answer yes. If the coin lands on heads, answer truthfully.
+For certain questions like "have you committed tax fraud?" respondents will likely be hesitant to answer truthfully. The solution? Have the respondent flip a coin. If the coin is tails, answer yes. If the coin lands on heads, answer truthfully.
 
 | Respondent | Answer | Coin Flip (not included in the actual dataset just here for illustration) |
 | --- | --- | --- |
