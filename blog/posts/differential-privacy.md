@@ -63,6 +63,12 @@ For certain questions like "have you committed tax fraud?", respondents will lik
 | 4 | Yes | Tails (Answer Yes) |
 | 5 | No | Heads (Answer Truthfully) |
 
+| Method      | Description                          |
+| ----------- | ------------------------------------ |
+| `GET`       | :material-check:     Fetch resource  |
+| `PUT`       | :material-check-all: Update resource |
+| `DELETE`    | :material-close:     Delete resource |
+
 Because we know the exact probability that a "Yes" answer is fake, 50%, we can remove it and give a rough estimate of how many respondents answered "Yes" truthfully.
 
 Randomized Response would lay the groundwork for differential privacy, but it wouldn't truly be realized for many decades.
