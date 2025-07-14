@@ -223,3 +223,5 @@ Differential privacy unlocks the potential for data collection with minimal risk
 Adoption of scientifically and mathematically rigorous methods of data collection allows for organizations to collect aggregate data will allow for increased public trust in organizations and subsequently greater potential for research that will result in improvements to our everyday lives.
 
 I think for there to be more public trust there needs to be a bigger public outreach. That's my goal with this series, I'm hoping to at least increase awareness of some of the technology being deployed to protect your data, especially since so much of the news we hear is negative. Armed with the knowledge of what's available, we can also demand companies and organizations use these tools if they aren't already.
+
+It's heartening to see the level of openness and collaboration in the research. You can see a clear improvement over time as each paper takes the previous research and builds on it. I wish we saw the same attitude with all software.
