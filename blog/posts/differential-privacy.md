@@ -113,12 +113,71 @@ The paper introduces the idea of adding noise to data to achieve privacy. Of cou
 
 This early form of differential privacy relied on adding noise to the data *after* it was already collected, meaning you still have to trust a central authority with the raw data.
 
-### Google RAPPOR
+## Google RAPPOR
 
-In 2014, Google introduced [Randomized Aggregatable Privacy-Preserving Ordinal Response](https://arxiv.org/pdf/1407.6981) (RAPPOR), their [open source](https://github.com/google/rappor) implementation of differential privacy, with a few improvements.
+In 2014, Google introduced [Randomized Aggregatable Privacy-Preserving Ordinal Response](https://arxiv.org/pdf/1407.6981) (RAPPOR), their [open source](https://github.com/google/rappor) implementation of differential privacy.
 
-#### Local Differential Privacy
+Google RAPPOR implements and builds on previous techniques such as randomized response and adds significant improvements on top.
+
+### Local Differential Privacy
 
 In Google's implementation, noise is added to data on-device before it's sent off to any server. This removes the need to trust the central authority to handle your raw data, an important step in achieving truly anonymous data collection.
 
+### Bloom Filters
+
+Google RAPPOR makes use of a clever technique caled bloom filters that saves space and improves privacy.
+
+Bloom filters work by starting out with an array of all 0's
+
+`[0, 0, 0, 0, 0, 0, 0, 0, 0]`
+
+Then, you run data such as the word "apple" through a hashing algorithm, which will give 1's in specific positions, say position 1, 3, and 5.
+
+`[0, 1, 0, 1, 0, 1, 0, 0, 0]`
+
+When you want to check if data is present, you run the data through the hashing algorithm and check if the corresponding postions are 1's. If they are, the data *might* be present (other data might have flipped those same bits at some point). If any of the 1's are 0's, then you know for sure that the data is not in the set.
+
+### Permanent Randomized Response
+
+A randomization step is performed flipping some of the bits randomly. This response is then "memoized" so that the same random values are used for future reporting. This protects against an "averaging" attack where an attacker sees multiple responses from the same user and can eventually recover the real value by averaging them out over time.
+
+### Instantaneous Randomized Response
+
+On top of the permanent randomized data, another randomization step is performed. This time, different randomness is added on top of the permanent randomness so that every response sent is unique. This prevents an attacker from determining a user from seeing the same randomized pattern over and over again.
+
+Both the permanent and instantaneous randomized response steps can be fine-tuned to for the desired privacy.
+
+### Chrome
+
+Google first used differential privacy in their Chrome browser for detection of [malware](https://blog.chromium.org/2014/10/learning-statistics-with-privacy-aided.html).
+
+Differential privacy is also used in Google's [Privacy Sandbox](https://privacysandbox.google.com/private-advertising/aggregation-service/privacy-protection-report-strategy).
+
+### Maps
+
+Google Maps uses DP for its [place busyness](https://safety.google/privacy/data/#:~:text=To%20offer%20features%20like%20place%20busyness%20in%20Maps%2C%20we%20apply%20an%20advanced%20anonymization%20technology%20called%20differential%20privacy%20that%20adds%20noise%20to%20your%20information%20so%20it%20can%E2%80%99t%20be%20used%20to%20personally%20identify%20you.) feature, allowing Maps to show you have busy an area is without revealing the movements of individual people.
+
+### Google Fi
+
+[Google Fi](https://opensource.googleblog.com/2019/09/enabling-developers-and-organizations.html) uses differential privacy as well to improve the service. 
+
+## OpenDP
+
+[OpenDP](https://opendp.org) is a community effort to build open source and trustworthy tools for differential privacy. Their members consist of academics from prestigious universities like Harvard and employees at companies like Microsoft.
+
+There's been an effort from everyone to make differential privacy implementations open source, which is a breath of fresh air from companies that typically stick to closed source for their products.
+
+## Apple
+
+[Apple](https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf) uses local differential privacy for much of its services, similar to what Google does. They add noise before sending any data off device, enabling them to collect aggregate data without harming the privacy of any individual user.
+
+They limit the number of contributions any one user can make via a *privacy budget*, confusingly also represented by epsilon, so you won't have to worry about your own contributions being averaged out over time and revealing your own trends. Some of the things they use differential privacy for include
+
+- QuickType suggestions
+- Emoji suggestions
+- Lookup Hints
+- Safari Energy Draining Domains
+- Safari Autoplay Intent Detection
+- Safari Crashing Domains
+- Health Type Usage
 
