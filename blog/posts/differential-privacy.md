@@ -10,8 +10,7 @@ tags:
     - Differential Privacy
 license: BY-SA
 schema_type: BackgroundNewsArticle
-description: |
-  Privacy Pass is a new way to privately authenticate with a service. Let's look at how it could change the way we use services.
+description: Differential privacy is a mathematically rigorous framework for adding a controlled amount of noise to a dataset so that no individual can be reidentified. Learn how this technology is being implemented to protect you.
 ---
 # Privacy-Enhancing Technologies Series: Differential Privacy
 
