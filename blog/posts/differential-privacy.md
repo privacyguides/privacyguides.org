@@ -216,3 +216,9 @@ Considering 309 million people lived in the U.S. in 2010, that's a devastating b
 >Nationwide, roughly 150 million individuals—almost one-half of the population, have a unique combination of sex and single year of age at the block level.
 
 They could keep adding noise until these attacks are impossible, but that would make the data nigh unusable. Instead, differential privacy offers a mathematically rigorous method to protect the data from future reidentification attacks without ruining the data by adding too much noise. They can be sure thanks to the mathematical guarantees of DP.
+
+## Future of Differential Privacy
+
+Differential privacy unlocks the potential for data collection with minimal risk of data exposure for any individual. Already, DP has allowed for software developers to improve their software, for new possibilities in research in the health sector and in government organizations.
+
+Adoption of scientifically and mathematically rigorous methods of data collection allows for 
