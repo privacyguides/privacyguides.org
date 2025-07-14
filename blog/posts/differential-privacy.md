@@ -221,4 +221,6 @@ They could keep adding noise until these attacks are impossible, but that would 
 
 Differential privacy unlocks the potential for data collection with minimal risk of data exposure for any individual. Already, DP has allowed for software developers to improve their software, for new possibilities in research in the health sector and in government organizations.
 
-Adoption of scientifically and mathematically rigorous methods of data collection allows for 
+Adoption of scientifically and mathematically rigorous methods of data collection allows for organizations to collect aggregate data will allow for increased public trust in organizations and subsequently greater potential for research that will result in improvements to our everyday lives.
+
+I think for there to be more public trust there needs to be a bigger public outreach. That's my goal with this series, I'm hoping to at least increase awareness of some of the technology being deployed to protect your data, especially since so much of the news we hear is negative. Armed with the knowledge of what's available, we can also demand companies and organizations use these tools if they aren't already.
