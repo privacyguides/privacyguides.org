@@ -203,7 +203,11 @@ As a massive collection of data from a large number of U.S. citizens, it's impor
 
 Since the 1990's, the U.S. Census used a less formal injection of statistical noise into their data, which they did all the way through 2010.
 
-After the 2010 census, the bureau tried to reidentify individuals in the census data.
+After the 2010 census, the bureau tried to [reidentify individuals](https://www2.census.gov/library/publications/decennial/2020/census-briefs/c2020br-03.pdf) in the census data.
 
 >The experiment resulted in reconstruction of a dataset of more than 300 million individuals. The Census Bureau then used that dataset to match the reconstructed records to four commercially available data sources, to attempt to identify the age, sex, race, and Hispanic origin of people in more than six million blocks in the 2010 Census.
+
+Considering 309 million people lived in the U.S. in 2010, that's a devastating breach of personal privacy. Clearly more formal frameworks for protecting the privacy of individuals were needed.
+
+>Nationwide, roughly 150 million individuals—almost one-half of the population, have a unique combination of sex and single year of age at the block level.
 
