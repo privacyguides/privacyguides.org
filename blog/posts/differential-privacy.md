@@ -181,3 +181,10 @@ They limit the number of contributions any one user can make via a *privacy budg
 - Safari Crashing Domains
 - Health Type Usage
 
+That's just based on their initial whitepaper, they've likely increased their use of DP since then.
+
+### Sketch Matrix
+
+Apple uses a similar method to Google, with a matrix initialized with all zeros. The input for the matrix is encoded with the SHA-256 hashing algorithm, and then bits are flipped randomly at a probablility dependent on the epsilon value.
+
+Apple only sends a random row from this matrix instead of the entire thing in order to stay within their privacy budget.
