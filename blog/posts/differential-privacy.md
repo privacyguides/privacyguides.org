@@ -191,7 +191,7 @@ Apple only sends a random row from this matrix instead of the entire thing in or
 
 ### See What's Sent
 
-You can see data sent with differential privacy in iOS under Settings > Privacy > Analytics > Analytics Data, it will begin with DifferentialPrivacy. On macOS, you can see these logs in the Console.
+You can see data sent with differential privacy in iOS under Settings > Privacy > Analytics > Analytics Data, it will begin with `DifferentialPrivacy`. On macOS, you can see these logs in the Console.
 
 ## U.S. Census
 
