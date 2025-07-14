@@ -188,3 +188,17 @@ That's just based on their initial whitepaper, they've likely increased their us
 Apple uses a similar method to Google, with a matrix initialized with all zeros. The input for the matrix is encoded with the SHA-256 hashing algorithm, and then bits are flipped randomly at a probablility dependent on the epsilon value.
 
 Apple only sends a random row from this matrix instead of the entire thing in order to stay within their privacy budget.
+
+### See What's Sent
+
+You can see data sent with differential privacy in iOS under Settings > Privacy > Analytics > Analytics Data, it will begin with DifferentialPrivacy. On macOS, you can see these logs in the Console.
+
+## U.S. Census
+
+Differential privacy isn't just used by big corporations, in 2020 famously the U.S. Census used DP to protect the data of U.S. citizens for the first time.
+
+As a massive collection of data from a large number of U.S. citizens, it's important for the census bureau to protect the privacy of census participants while still preserving the overall aggregate data.
+
+### Impetus
+
+Since the 1990's, the U.S. Census used a less formal injection of statistical noise into their data
