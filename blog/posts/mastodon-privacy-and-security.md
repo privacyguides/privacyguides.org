@@ -13,7 +13,7 @@ preview:
 
 # Privacy and Security on Mastodon
 
-![DESCRIPTION](../assets/images/mastodon-privacy-and-security/mastodon-cover.webp)
+![The Mastodon name and logo over a dark purple background with a large purple padlock icon under it.](../assets/images/mastodon-privacy-and-security/mastodon-cover.webp)
 
 <small aria-hidden="true">Illustration: Em / Privacy Guides | Logo: Mastodon gGmbH</small>
 
