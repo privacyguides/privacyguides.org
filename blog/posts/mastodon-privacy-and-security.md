@@ -21,7 +21,7 @@ Mastodon is an open-source and decentralized social network that has been growin
 
 While most social media rely on commercial models harvesting users' data to sell to advertisers, Mastodon offers a human-centric alternative that doesn't seek profits from your data and attention. This means better social connections, better controls, and better privacy.<!-- more -->
 
-Mastodon doesn't use your data to make money. This fact alone comes with incredible benefits for data privacy and security. Because the goal isn't to collect as much information as possible on its users, Mastodon embraces data minimization and only requires to provide what is truly needed to run the service for you.
+Mastodon doesn't use your data to make money. This fact alone comes with incredible benefits for data privacy and security. Because the goal isn't to collect as much information as possible on its users, Mastodon embraces data minimization and only requires providing what is truly needed to run the service for you.
 
 If you do not have a Mastodon account yet, but would like to learn more about its privacy and security practices and features before creating one, the first part of this article will give you an overview of what they are.
 
@@ -284,7 +284,7 @@ https://mastodon.neat.computer/@privacyguides
 
 Whether you lock your account (approve followers and use followers-only posts) or not, your display name, biography, profile and header pictures, followers and follows count, date joining the instance, and extra fields will always be visible to anyone from your account's public page.
 
-Your public posts can even be accessed via [RSS feed](https://fedi.tips/following-mastodon-and-fediverse-accounts-through-rss/) on Mastodon. To limit this, you can adjust the settings to [restrict the visibility](#selecting-post-visibility-and-privacy) of your posts.
+Your public posts can even be accessed via [RSS feed](https://fedi.tips/following-mastodon-and-fediverse-accounts-through-rss/) on Mastodon. To limit this, you can adjust the settings to [restrict the visibility](#selecting-post-visibility-and-access) of your posts.
 
 ### Connection with commercial social media
 
@@ -770,7 +770,7 @@ Only report content that violates the policies of your instance, or theirs. Do n
 
 Data privacy and user consent are principles strongly valued by the Fediverse community. Sometimes, developers trying to create tools for the Fediverse or utilizing its user data without prior explicit consent have come into conflict with these values.
 
-Unfortunately, despite how illegal it may be, there isn't much technical barriers to stop malicious actors from violating users' consent.
+Unfortunately, despite how illegal it may be, there aren't many technical barriers to stop malicious actors from violating users' consent.
 
 However, many developers creating tools for the Fediverse actually *do care* about respecting these values, and want to build tools the right way.
 
