@@ -7,6 +7,8 @@ authors:
     - em
 description: This tutorial demonstrates how to reset a YubiKey close to factory defaults and create a backup of most YubiKey applications on a spare key.
 schema_type: AnalysisNewsArticle
+preview:
+  cover: blog/assets/images/yubikey-reset-and-backup/cover.webp
 ---
 # How to Reset Your YubiKey and Create a Backup
 

@@ -13,6 +13,8 @@ tags:
 license: BY-SA
 description: Choosing an instant messenger is a challenge. How can you be sure you’re using the most secure, privacy respecting platform?
 schema_type: AnalysisNewsArticle
+preview:
+  cover: blog/assets/images/choosing-the-right-messenger/cover.webp
 ---
 # Choosing the Right Messenger
 
