@@ -83,7 +83,7 @@ Despite the names of these policies, this doesn't *require* you to do anything b
 
 #### Data Collection and Preview Builds
 
-- Allow Diagnostic Data: **Enabled**
+- Allow Diagnostic Data: **Disabled**
     - Options: **Send required diagnostic data** (Pro Edition); or
     - Options: **Diagnostic data off** (Enterprise or Education Edition)
 - Limit Diagnostic Log Collection: **Enabled**
