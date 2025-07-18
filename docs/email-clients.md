@@ -39,7 +39,7 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 <summary>Downloads</summary>
 
 - [GitHub Releases](https://github.com/Mail-0/Zero/releases)
-- [Docker Image](https://github.com/Mail-0/Zero#docker-support)  
+- [Docker Image](https://github.com/Mail-0/Zero#docker-support)
 - Self-host via [source code](https://github.com/Mail-0/Zero)
 
 </details>
