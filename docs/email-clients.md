@@ -26,7 +26,7 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 ### Zero
 
-![Zero logo](zero.svg){ align=right }
+![Zero logo](assets/img/email-clients/zero.svg){ align=right }
 
 **Zero** is an open-source, AI-driven, cross-platform email solution that allows you to self-host your email app while supporting integration with Gmail and other major providers. Featuring a privacy-first approach, unified inbox, and customizable UI, it’s built using Next.js and Node.js for modern extensibility.
 
