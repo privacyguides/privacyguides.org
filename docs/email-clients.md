@@ -25,6 +25,7 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 ## Cross-Platform
 
 ### Zero
+<div class="admonition recommendation" markdown>
 
 ![Zero logo](assets/img/email-clients/zero.svg){ align=right }
 
