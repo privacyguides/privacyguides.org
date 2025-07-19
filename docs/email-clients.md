@@ -24,6 +24,34 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 ## Cross-Platform
 
+### Zero
+<div class="admonition recommendation" markdown>
+
+![Zero logo](assets/img/email-clients/zero.svg){ align=right }
+
+**Zero** is an open-source, AI-driven, cross-platform email solution that allows you to self-host your email app while supporting integration with Gmail and other major providers. Featuring a privacy-first approach, unified inbox, and customizable UI, it’s built using Next.js and Node.js for modern extensibility.
+
+[:octicons-home-16: Homepage](https://0.email/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://0.email/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/Mail-0/Zero/blob/staging/README.md){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/Mail-0/Zero){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [GitHub Releases](https://github.com/Mail-0/Zero/releases)
+- [Docker Image](https://github.com/Mail-0/Zero#docker-support)
+- Self-host via [source code](https://github.com/Mail-0/Zero)
+
+</details>
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+Zero depends on self-hosting for full privacy; integrating external providers (like Gmail) subjects some data to those providers' privacy policies. While AI features are optional, we recommend disabling them due to potential security implications when email data is processed by AI models.
+
+</div>
+
 ### Thunderbird
 
 <div class="admonition recommendation" markdown>
