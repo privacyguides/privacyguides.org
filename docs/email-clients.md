@@ -48,7 +48,7 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
-Zero depends on self-hosting for full privacy; integrating external providers (like Gmail) subjects some data to those providers' privacy policies.
+Zero depends on self-hosting for full privacy; integrating external providers (like Gmail) subjects some data to those providers' privacy policies. While AI features are optional, we recommend disabling them due to potential security implications when email data is processed by AI models.
 
 </div>
 
