@@ -49,7 +49,7 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 <p class="admonition-title">Warning</p>
 Zero depends on self-hosting for full privacy; integrating external providers (like Gmail) subjects some data to those providers' privacy policies.
 </div>
-
+</div>
 
 ### Thunderbird
 
