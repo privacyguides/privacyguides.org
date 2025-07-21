@@ -4,6 +4,7 @@ icon: material/email-lock
 description: An email aliasing service allows you to easily generate a new email address for every website you register for.
 cover: email-aliasing.webp
 ---
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
@@ -119,9 +120,9 @@ If you cancel your subscription, you will still enjoy the features of your paid 
 
 </div>
 
-SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin is a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing.
+SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) as of April 8, 2022. If you use [Proton Mail](https://proton.me/mail/pricing) and [Proton Pass](https://proton.me/pass/aliases) (excluding the Proton Mail Free plan) for your primary mailbox, SimpleLogin's features have been incorporated as "[hide-my-email aliases](https://proton.me/blog/hide-my-email-aliases)" and is a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing.
 
-You can link your SimpleLogin account in the settings with your Proton account. If you have Proton Pass Plus, Proton Unlimited, or any multi-user Proton plan, you will have SimpleLogin Premium for free. You can also purchase a voucher code for SimpleLogin Premium anonymously via their official reseller [ProxyStore](https://simplelogin.io/faq).
+You can link your SimpleLogin account in the settings with your Proton account. If you have Proton Pass Plus, Proton Unlimited, or any multi-user Proton plan, you will have SimpleLogin Premium for free. Likewise both the [Free and Premium tiers](https://simplelogin.io/pricing/) of SimpleLogin now include Proton Pass subscriptions. You can also purchase a voucher code for SimpleLogin Premium anonymously via their official reseller [ProxyStore](https://simplelogin.io/faq).
 
 Securitum [audited](https://simplelogin.io/blog/security-audit) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
 
