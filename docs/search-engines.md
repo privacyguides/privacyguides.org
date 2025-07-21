@@ -41,7 +41,7 @@ Consider using a [VPN](vpn.md) or [Tor](tor.md) if your threat model requires hi
 [^4]:
     Startpage logs details such as operating system, user agent, and language. They do not log your IP address, search queries, or other PII.
     
-    Our Privacy Policy: [*How we have implemented truly anonymous analytics*](https://www.startpage.com/en/privacy-policy#section-4)
+    Our Privacy Policy: [*How we have implemented truly anonymous analytics*](https://startpage.com/en/privacy-policy#section-4)
 
 ### Brave Search
 
@@ -94,7 +94,7 @@ DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-
 Mullvad Leta currently only provides text search results. It is the default search engine for the [Mullvad Browser](desktop-browsers.md#mullvad-browser).
 
 [:octicons-home-16: Homepage](https://leta.mullvad.net){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://uxngojcovdcyrmwkmkltyy2q7enzzvgv7vlqac64f2vl6hcrrqtlskqd.onion/){ .card-link title="Onion Service" }
+[:simple-torbrowser:](http://uxngojcovdcyrmwkmkltyy2q7enzzvgv7vlqac64f2vl6hcrrqtlskqd.onion){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://leta.mullvad.net/terms-of-service){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://leta.mullvad.net/faq){ .card-link title="Documentation" }
 
