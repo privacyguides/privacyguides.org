@@ -13,7 +13,7 @@ preview:
   cover: blog/assets/images/mastodon-tutorial-privacy-and-security/mastodon-tutorial-cover.webp
 ---
 
-# Mastodon Tutorial: How to Adjust and Improve Privacy and Security
+# How To Improve Your Privacy and Security on Mastodon
 
 ![Illustration of a mastodon mascot pointing at a padlock icon in a cheerful way. Above is the Mastodon logo over a purple background.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-tutorial-cover.webp)
 <small aria-hidden="true">Montage: Em / Privacy Guides | Illustration: @dopatwo@mastodon.social (1)</small>
@@ -21,9 +21,9 @@ preview:
 
 1. Mastodon mascot by [@dopatwo@mastodon.social](https://mastodon.social/@dopatwo) and Mastodon logo used with permission from Mastodon gGmbH. This site is not otherwise affiliated with Mastodon gGmbH.
 
-Increasingly more people have joined Mastodon in recent years. The advantages provided by a decentralized network, using open-source software developed and maintained by a nonprofit organization, are undeniable. Mastodon offers much more robust protections for your privacy than commercial social media do. This tutorial will show you how to make the most of it.<!-- more -->
+Increasingly, more and more people have joined Mastodon in recent years. The advantages provided by a decentralized network and using open-source software maintained by a nonprofit organization are undeniable. Mastodon offers much more robust protections for your privacy than commercial social media platforms do. This tutorial will show you how to make the most of it.<!-- more -->
 
-This tutorial is the second of a **series of two** articles on Mastodon. If you would like to read more about privacy and security on Mastodon, start with reading the [first article](mastodon-privacy-and-security.md) of this series.
+This tutorial is the second of a **series of two** articles on Mastodon. If you would like to read a general overview about privacy and security on Mastodon, start with reading the [first article](mastodon-privacy-and-security.md) of this series.
 
 This second article will guide you on how to improve your Mastodon account's security, and how to adjust the different privacy features to your preferences. This isn't an onboarding guide to start using Mastodon, but if that's what you seek, you can first take a look at this [short guide](https://docpop.org/2025/02/how-to-get-started-with-mastodon/) from Doc Pop.
 
