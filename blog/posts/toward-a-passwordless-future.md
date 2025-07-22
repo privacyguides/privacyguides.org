@@ -9,6 +9,8 @@ tags:
     - Passkeys
     - Passwords
 license: BY-SA
+preview:
+  cover: blog/assets/images/toward-a-passwordless-future/cover.webp
 ---
 # Toward a Passwordless Future
 

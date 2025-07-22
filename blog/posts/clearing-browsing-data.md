@@ -13,6 +13,8 @@ tags:
 license: BY-SA
 description: A beginner's guide to clearing browsing data — such as cookies, website cache, and browsing history — on Chrome, Firefox, Safari, Edge, and Brave.
 schema_type: BackgroundNewsArticle
+preview:
+  cover: blog/assets/images/clearing-your-browsing-data/dimmis-vart-JPu345g_OYM-unsplash.webp
 ---
 # How to Clear Your Browser History on Chrome, Firefox, and Other Browsers
 
