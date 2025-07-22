@@ -14,7 +14,10 @@ preview:
 # Mastodon Tutorial: How to Adjust and Improve Privacy and Security
 
 ![Illustration of a mastodon mascot pointing at a padlock icon in a cheerful way. Above is the Mastodon logo over a purple background.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-tutorial-cover.webp)
-<small aria-hidden="true">Montage: Em / Privacy Guides | Illustration and logo: Mastodon mascot by @dopatwo@mastodon.social, used with permission from Mastodon gGmbH. This site is not otherwise affiliated with Mastodon gGmbH.</small>
+<small aria-hidden="true">Montage: Em / Privacy Guides | Illustration: @dopatwo@mastodon.social (1)</small>
+{ .annotate }
+
+1. Mastodon mascot by [@dopatwo@mastodon.social](https://mastodon.social/@dopatwo) and Mastodon logo used with permission from Mastodon gGmbH. This site is not otherwise affiliated with Mastodon gGmbH.
 
 Increasingly more people have joined Mastodon in the recent years. The advantages provided by a decentralized network, using open-source software developed and maintained by a nonprofit organization, are undeniable. Mastodon offers much more robust protections for your privacy than commercial social media do. This tutorial will show you how to make the most of it.<!-- more -->
 
