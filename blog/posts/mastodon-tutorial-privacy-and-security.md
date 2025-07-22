@@ -47,7 +47,7 @@ If your instance software version is different, you will likely still be able to
 <div class="admonition question" markdown>
 <p class="admonition-title">What software version is your instance running?</p>
 
-To check which version your instance (server) is currently running, from the web interface on desktop, check the information in the lower-left corner of your instance website (e.g. [https://mastodon.social/](https://mastodon.social/)). The very last line should list something similar to `v4.4.1` This is your instance's Mastodon version number.
+To check which version your instance (server) is currently running, from the web interface on desktop, check the information in the lower-left corner of your instance website (e.g. [https://mastodon.social/](https://mastodon.social/)). The very last line should list something similar to `v4.4.1`. This is your instance's Mastodon version number.
 
 </div>
 
