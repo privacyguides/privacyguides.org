@@ -6,6 +6,8 @@ categories:
     - Explainers
 authors:
     - em
+tags:
+    - Mastodon
 description: While most social media rely on commercial models harvesting users' data, Mastodon offers an alternative that doesn't seek profits from your data and attention.
 schema_type: AnalysisNewsArticle
 preview:

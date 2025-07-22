@@ -1,10 +1,12 @@
 ---
 date:
-    created: 2025-07-22T17:00:00Z
+    created: 2025-07-22T20:00:00Z
 categories:
     - Tutorials
 authors:
     - em
+tags:
+    - Mastodon
 description: This article is a tutorial on how to improve your Mastodon account's security, and how to adjust the different privacy features to your preferences.
 schema_type: AnalysisNewsArticle
 preview:
@@ -19,7 +21,7 @@ preview:
 
 1. Mastodon mascot by [@dopatwo@mastodon.social](https://mastodon.social/@dopatwo) and Mastodon logo used with permission from Mastodon gGmbH. This site is not otherwise affiliated with Mastodon gGmbH.
 
-Increasingly more people have joined Mastodon in the recent years. The advantages provided by a decentralized network, using open-source software developed and maintained by a nonprofit organization, are undeniable. Mastodon offers much more robust protections for your privacy than commercial social media do. This tutorial will show you how to make the most of it.<!-- more -->
+Increasingly more people have joined Mastodon in recent years. The advantages provided by a decentralized network, using open-source software developed and maintained by a nonprofit organization, are undeniable. Mastodon offers much more robust protections for your privacy than commercial social media do. This tutorial will show you how to make the most of it.<!-- more -->
 
 This tutorial is the second of a **series of two** articles on Mastodon. If you would like to read more about privacy and security on Mastodon, start with reading the [first article](mastodon-privacy-and-security.md) of this series.
 
