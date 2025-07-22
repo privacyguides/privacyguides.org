@@ -1,7 +1,7 @@
 ---
 date:
     created: 2025-07-15T17:00:00Z
-    updated: 2025-07-22T17:00:00Z
+    updated: 2025-07-22T20:00:00Z
 categories:
     - Explainers
 authors:
@@ -26,11 +26,9 @@ While most social media rely on commercial models harvesting users' data to sell
 
 Mastodon doesn't use your data to make money. This fact alone comes with incredible benefits for data privacy and security. Because the goal isn't to collect as much information as possible on its users, Mastodon embraces data minimization and only requires providing what is truly needed to run the service for you.
 
-This article is the first of a **series of two** on Mastodon.
+This article is the first of a **series of two** on Mastodon, covering a general overview of the privacy and security benefits of Mastodon. The [second article](mastodon-tutorial-privacy-and-security.md) will delve into specific settings you can adjust to improve your privacy as a Mastodon user.
 
 If you do not have a Mastodon account yet, but would like to learn more about its privacy and security practices and features before creating one, this first article will give you an overview of what they are.
-
-If you already have a Mastodon account, the second article of this series will guide you to use and understand better the controls it offers. If you are already informed about Mastodon's privacy and security, you may want to jump directly to the [tutorial article](mastodon-tutorial-privacy-and-security.md).
 
 If you're still unsure about using Mastodon, [this excellent video](https://news.elenarossini.com/fediverse-video/) from Elena Rossini might convince you.
 
@@ -49,11 +47,11 @@ Unless otherwise specified, the word *Mastodon* in this article will refer to th
 
 One of the wonderful possibility Mastodon offers is to [self-host your own Mastodon instance](https://docs.joinmastodon.org/user/run-your-own/). While this is the pinnacle of control, security, and privacy for a skilled administrator, self-hosting also means more responsibilities, where more expertise and resources are required. This isn't realistically accessible to everyone.
 
-For this reason, this article will focus on the experience from the **user side**, and not from the administrator side.
+For this reason, this article will focus on the experience from the **user side**, not the administrator side.
 
 ## :octicons-home-16: Choosing a Mastodon instance
 
-Another particularity of Mastodon compared to commercial social media is its true decentralization.
+The biggest distinction of Mastodon compared to commercial social media is its true decentralization.
 
 The Mastodon network is composed of a [multiplicity of instances](https://joinmastodon.org/servers) that connect with each other, through a protocol called [ActivityPub](https://docs.joinmastodon.org/#fediverse). This collection of connected instances, along with other connected software using the same protocol, is called [the Fediverse](https://jointhefediverse.net/).
 
@@ -81,7 +79,7 @@ To facilitate choosing an instance, the Mastodon official website keeps a list o
 
 Despite these considerations, Mastodon newcomers **shouldn't feel [analysis paralysis](https://en.wikipedia.org/wiki/Analysis_paralysis) over choosing an instance**. This decision isn't permanent, and can be changed later on, once one has acquired a better sense of the platform.
 
-Indeed, as shown in the tutorial article, Mastodon makes it possible to easily [move an account](mastodon-tutorial-privacy-and-security.md/#moving-to-another-instance) from one instance to another!
+Indeed, Mastodon makes it easy to [move an account](mastodon-tutorial-privacy-and-security.md/#moving-to-another-instance) from one instance to another!
 
 If trust is broken by an instance administration or moderation team, users can easily decide to migrate to another one with better practices. This account portability is quite unique to the Fediverse.
 
@@ -92,7 +90,7 @@ Furthermore, this process might get improved soon! There is work currently being
 <div class="admonition success" markdown>
 <p class="admonition-title">You can always keep a copy of your content!</p>
 
-Even if the Mastodon migration process doesn't allow for automatic posts transfer (yet), you are still able to keep a local copy of all your content, before moving to another instance or for backup purposes. More on this in the [tutorial article](mastodon-tutorial-privacy-and-security.md).
+Even if the Mastodon migration process doesn't allow for automatic posts transfer (yet), you are still able to [keep a local copy of all your content](mastodon-tutorial-privacy-and-security.md#data-access-and-backups), before moving to another instance or for backup purposes.
 
 </div>
 
@@ -184,7 +182,7 @@ Regarding the content of your profile and posts (including private mentions), no
 
 Concerning people outside your instance's administration team, the privacy of the data you upload yourself will greatly vary depending on how you use and configure your account.
 
-For more information on how to adjust your account's configuration for better privacy, consult the [tutorial article](mastodon-tutorial-privacy-and-security.md) of this series of two.
+We have a [dedicated tutorial](./mastodon-tutorial-privacy-and-security.md) in this Mastodon article series which provides information on how to adjust your account's configuration for better privacy in more detail.
 
 ### Who can access your private data
 
@@ -335,6 +333,13 @@ Once again, all these features will put Mastodon and other Fediverse software we
 
 Mastodon isn't there to exploit your data and sell it to advertisers. There is no incentive to monetize you. On Mastodon, **you are a person who is part of a community**. This makes all the difference to respect your privacy rights 💛
 
+<div class="admonition success" markdown>
+<p class="admonition-title">What next?</p>
+
+To continue learning about Mastodon's privacy and security features, consult the [second article](mastodon-tutorial-privacy-and-security.md) of this series, a step-by-step guide to improving your privacy and security as a Mastodon user.
+
+</div>
+
 ## :material-hand-heart-outline: Consider supporting Mastodon
 
 Mastodon doesn't sell your data, but it still needs money to survive and thrive. Mastodon is supported by its community!
@@ -353,15 +358,8 @@ If you enjoy the platform and can contribute, consider supporting the project by
 
 - [Talking to your friends and family about joining the Fediverse!](https://jointhefediverse.net/join)
 
-<div class="admonition success" markdown>
-<p class="admonition-title">Mastodon Tutorial: How to Adjust and Improve Privacy and Security</p>
-
-To continue learning about Mastodon's privacy and security features, consult the [second article](mastodon-tutorial-privacy-and-security.md) of this series with a step-by-step guide.
-
-</div>
-
 <small aria-hidden="true">Unless credited otherwise, all screenshots from: Privacy Guides</small>
 
 ---
 
-**Update (2025-07-22):** This article was updated to split the tutorial part in a separate article, to segment the information better for readers.
+**Update (2025-07-22):** This article was updated to move the tutorial portion to a [separate article](mastodon-tutorial-privacy-and-security.md), to segment the information better for readers.
