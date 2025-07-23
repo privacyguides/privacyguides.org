@@ -174,7 +174,7 @@ There's been an effort from everyone to make differential privacy implementation
 
 [Apple](https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf) uses local differential privacy for much of its services, similar to what Google does. They add noise before sending any data off device, enabling them to collect aggregate data without harming the privacy of any individual user.
 
-They limit the number of contributions any one user can make via a *privacy budget*, confusingly also represented by epsilon, so you won't have to worry about your own contributions being averaged out over time and revealing your own trends.
+They limit the number of contributions any one user can make via a *privacy budget* (this is the same as Ɛ) so you won't have to worry about your own contributions being averaged out over time and revealing your own trends.
 
 This allows them to find new words that people use that aren't included by default in the dictionary, or find which emojis are the most popular.
 
