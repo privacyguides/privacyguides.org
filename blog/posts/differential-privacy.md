@@ -110,13 +110,15 @@ In these cases, you can simply remove the row entirely.
 
 k-anonymity has been [demonstrated](https://www.usenix.org/system/files/sec22-cohen.pdf) to not prevent reidentification of individuals despite being properly k-anonymized by "statistical experts".
 
-Researchers were able to deanonymize 3 students from a k-anonymized dataset from Harvard and MIT's EdX platform by cross-referencing data from LinkedIn, putting potentially thousands of students at risk of deanonymization.
+Researchers were able to deanonymize 3 students from a k-anonymized dataset from Harvard and MIT's EdX platform by cross-referencing data from LinkedIn, putting potentially thousands of students at risk of reidentification.
 
 ### Dawn of Differential Privacy
 
 Most of the concepts I write about seem to come from the 70's and 80's, but differential privacy is a relatively new concept. It was first introduced in a paper from 2006 called [*Calibrating Noise to Sensitivity in Private Data Analysis*](https://desfontain.es/PDFs/PhD/CalibratingNoiseToSensitivityInPrivateDataAnalysis.pdf).
 
-The paper introduces the idea of adding noise to data to achieve privacy. Of course, adding noise to the dataset reduces its accuracy. Ɛ defines the amount of noise added to the dataset, with a small Ɛ meaning more privacy but less accurate data and vice versa. It's also referred to as the "privacy loss parameter" or "privacy budget".
+The paper introduces the idea of adding noise to data to achieve privacy, similar to randomized response. However, differential privacy is much more mathematically rigorous and provable. 
+
+Of course, adding noise to the dataset reduces its accuracy. Ɛ defines the amount of noise added to the dataset, with a small Ɛ meaning more privacy but less accurate data and vice versa. It's also referred to as the "privacy loss parameter" or "privacy budget".
 
 #### Central Differential Privacy
 
