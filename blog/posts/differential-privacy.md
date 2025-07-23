@@ -108,7 +108,7 @@ In these cases, you can simply remove the row entirely.
 
 ##### Attacks on k-Anonymity
 
-k-anonymity has been [demonstrated](https://www.usenix.org/system/files/sec22-cohen.pdf) to not prevent reidentification of individuals despite being properly k-anonymized by "statistical experts".
+k-anonymity has been [demonstrated](https://www.usenix.org/system/files/sec22-cohen.pdf) to not prevent reidentification of individuals despite the data in a dataset being properly k-anonymized by "statistical experts".
 
 Researchers were able to deanonymize 3 students from a k-anonymized dataset from Harvard and MIT's EdX platform by cross-referencing data from LinkedIn, putting potentially thousands of students at risk of reidentification.
 
@@ -228,6 +228,14 @@ Considering 309 million people lived in the U.S. in 2010, that's a devastating b
 
 They could keep adding noise until these attacks are impossible, but that would make the data nigh unusable. Instead, differential privacy offers a mathematically rigorous method to protect the data from future reidentification attacks without ruining the data by adding too much noise. They can be sure thanks to the mathematical guarantees of DP.
 
+## DPrio
+
+Mozilla has been constantly working to make their telemetry more private over the years. Firefox uses [Prio](https://blog.mozilla.org/security/2019/06/06/next-steps-in-privacy-preserving-telemetry-with-prio/), a [Distributed Aggregation Protoco](https://datatracker.ietf.org/doc/html/draft-ietf-ppm-dap)l-based telmetry system. It uses Multi-Party Computation to split the processing of user data between multiple parties.
+
+To accomplish this, [Mozilla](https://blog.mozilla.org/en/firefox/partnership-ohttp-prio/) partnered with [Divvi Up](https://divviup.org/blog/divvi-up-in-firefox/) as their DAP provider, and [Fastly](https://www.fastly.com/blog/firefox-fastly-take-another-step-toward-security-upgrade) as their OHTTP provider. OHTTP acts as a multi-hop proxy to separate traffic between two parties when making a connection: neither Mozilla or Fastly will know both who you are and what you're connecting to.
+
+In 2023 researchers from Mozilla also conducted research into making Prio differentially private. The so-named [DPrio](https://petsymposium.org/popets/2023/popets-2023-0086.pdf) would combine multi-party computation, OHTTP, and differential privacy in a very impressive display of privacy protection. Unfortunately I couldn't find any evidence to suggest that DPrio has been implemented, but something to keep a lookout for in the future.
+
 ## Future of Differential Privacy
 
 Differential privacy unlocks the potential for data collection with minimal risk of data exposure for any individual. Already, DP has allowed for software developers to improve their software, for new possibilities in research in the health sector and in government organizations.
@@ -237,3 +245,7 @@ Adoption of scientifically and mathematically rigorous methods of data collectio
 I think for there to be more public trust there needs to be a bigger public outreach. That's my goal with this series, I'm hoping to at least increase awareness of some of the technology being deployed to protect your data, especially since so much of the news we hear is negative. Armed with the knowledge of what's available, we can also demand companies and organizations use these tools if they aren't already.
 
 It's heartening to see the level of openness and collaboration in the research. You can see a clear improvement over time as each paper takes the previous research and builds on it. I wish we saw the same attitude with all software.
+
+## Further Research
+
+Any programmers interested in learning how to implement differential privacy can check out the book *[Programming Differential Privacy](https://programming-dp.com)* to see Python examples.
