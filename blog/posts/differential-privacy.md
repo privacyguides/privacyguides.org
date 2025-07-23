@@ -14,6 +14,10 @@ description: Differential privacy is a mathematically rigorous framework for add
 ---
 # Privacy-Enhancing Technologies Series: Differential Privacy
 
+!["Differential Privacy" text with a series of ones and zeros being obscured with a blur filter](../assets/images/differential-privacy/cover.webp)
+
+<small aria-hidden="true">Image: Jordan Warne</small>
+
 Is it possible to collect data from a large group of people but protect each individual's privacy? In this entry of my series on privacy-enhancing technologies, we'll discuss differential privacy and how it can do just that.<!-- more -->
 
 ## Problem
