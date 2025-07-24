@@ -271,7 +271,7 @@ At the time of this article's publication, Lex's current [privacy policy](https:
 
 It goes without saying that you shouldn't email a copy of your passport to anyone, and you should never have to provide *more* information than the app already has on you to get your data deleted. This is especially true if all the data mentioned above gets shared with a third-party advertising company like Google, through the use of Google Forms.
 
-Privacy Guides has reached out to Lex for clarification on its data deletion practices, but has not received any response at the time of this publication.
+Privacy Guides has reached out to Lex for clarification on its data deletion practices, but has not received any response at the time of this publication. This article will be updated with new information once we receive an answer.
 
 Before creating an account with a dating app (or any other app for that matter), it's important to find information on what will be the process to delete your data and account once you are done with the app.
 

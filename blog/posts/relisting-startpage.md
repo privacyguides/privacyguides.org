@@ -11,6 +11,8 @@ tags:
     - Search Engines
 description: Startpage has been relisted in our search engine recommendations following their open communications with the Privacy Guides community.
 schema_type: NewsArticle
+preview:
+  cover: blog/assets/images/relisting-startpage/cover.webp
 ---
 # Relisting Startpage.com
 
