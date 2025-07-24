@@ -11,6 +11,8 @@ license: BY-SA
 schema_type: BackgroundNewsArticle
 description: |
   Privacy Pass is a new way to privately authenticate with a service. Let's look at how it could change the way we use services.
+preview:
+  cover: blog/assets/images/privacy-pass/cover.webp
 ---
 # Privacy Pass: The New Protocol for Private Authentication
 

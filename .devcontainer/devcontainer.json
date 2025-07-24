@@ -1,7 +1,11 @@
 // For format details, see https://aka.ms/devcontainer.json.
 {
   "name": "Privacy Guides",
-  "image": "ghcr.io/privacyguides/privacyguides.org:sha-750239d",
+  "image": "ghcr.io/privacyguides/privacyguides.org:sha-55c050b",
+  // "build": {
+  //   "dockerfile": "../Dockerfile",
+  //   "context": ".."
+  // },
   "overrideCommand": true,
   "portsAttributes": {
     "1337": {

@@ -7,6 +7,8 @@ authors:
     - em
 description: Privacy is a human right that should be granted to everyone, no matter the reason. That being said, it's also important to remember that for millions of people around the world, data privacy is crucial for physical safety. For people in extreme situations, privacy can literally mean life or death.
 schema_type: NewsArticle
+preview:
+  cover: blog/assets/images/privacy-means-safety/privacy-means-safety-cover.webp
 ---
 # Privacy Means Safety
 

@@ -8,6 +8,8 @@ authors:
     - jonah
 description: Your phone is an essential tool, but it also represents a huge risk to your privacy and security. Understanding these best practices when it comes to securing your smartphone will help keep you and your data safe.
 schema_type: AnalysisNewsArticle
+preview:
+  cover: blog/assets/images/activists-guide-securing-your-smartphone/cover.webp
 ---
 # The Protesters' Guide to Smartphone Security
 

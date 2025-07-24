@@ -7,6 +7,8 @@ authors:
     - em
 description: When browsing the web at home becomes dangerous to your safety, there are tools that can help minimizing your digital traces to stay safe. Tails is one of these tools. Here's why, when, and how you can install and use Tails.
 schema_type: AnalysisNewsArticle
+preview:
+  cover: blog/assets/images/installing-and-using-tails/cover.webp
 ---
 # Using Tails When Your World Doesn't Feel Safe Anymore
 
