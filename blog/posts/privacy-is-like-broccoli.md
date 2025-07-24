@@ -5,7 +5,7 @@ categories:
     - Opinion
 authors:
     - em
-description: Improving privacy can get overwhelming at first. It's important to move one step at the time, but remain persistent. Good privacy is like good health habits.
+description: Improving privacy can get overwhelming at first. It's important to move one step at a time, but remain persistent. Good privacy is like good health habits.
 schema_type: AnalysisNewsArticle
 preview:
   cover: blog/assets/images/privacy-is-like-broccoli/broccoli-cover.webp
@@ -47,7 +47,7 @@ For some privacy-enhancing tools, it might take more time to set it up and get u
 
 There is so much you can do to improve your privacy online, but here's the good news: You should start with the *easiest*.
 
-Here are a few things you can start doing to improve your data privacy. Start with the **easiest for you.** Complete goals **one at the time**. Once you are comfortable with one improvement, **then pick another one**.
+Here are a few things you can start doing to improve your data privacy. Start with the **easiest for you.** Complete goals **one at a time**. Once you are comfortable with one improvement, **then pick another one**.
 
 Don't forget to keep using these tools and practices through the whole year, not just for one stuffing-broccoli week. The key here is persistence.
 
@@ -87,7 +87,7 @@ Start with the improvements that are easier for you, and with the recommendation
 
 - [x] **Minimize shared data:** When filling a form or creating an account, don't share more information than what is necessary. Even if there is a question with a field, this field might not be mandatory to fill. Only fill the mandated information to obtain the service you need.
 
-- [x] [**Opt out of data collection, say no:**](you-can-say-no.md) Whenever possible, try opting out of unnecessary data collection. Sometimes, options to opt out aren't advertised, but you can ask if there is one. Opt out of meetings or medical visits being recorded (often done from AI transcription tools), opt out facial scans at airport (if you legally can), reject all cookies!
+- [x] [**Opt out of data collection, say no:**](you-can-say-no.md) Whenever possible, try opting out of unnecessary data collection. Sometimes, options to opt out aren't advertised, but you can ask if there is one. Opt out of meetings or medical visits being recorded (often done from AI transcription tools), opt out of facial scans at airports (if you legally can), reject all cookies!
 
 - [x] **Opt out of AI features:** Each time a service or app asks for your consent to use a "smart" feature, if you don't absolutely need it, choose No. Don't use AI features if you can avoid it. Unfortunately, many if not most of these features do collect your data, in a way that often makes it impossible to delete later. Unless you have reliable guarantees this feature is privacy-respectful, it's always safer to opt out and say no.
 
