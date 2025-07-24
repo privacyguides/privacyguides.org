@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2025-07-24T17:45:00Z
+    created: 2025-07-24T18:20:00Z
 categories:
     - Opinion
 authors:
@@ -97,7 +97,7 @@ Start with the improvements that are easier for you, and with the recommendation
 
 ## Persistence is key
 
-There is a lot of recommendations above, but don't do it all at once. Be careful not to choke on broccoli!
+There are a lot of recommendations above, but don't do it all at once. Be careful not to choke on broccoli!
 
 Take steps to bookmark this information for later, and go through it slowly at a pace that doesn't overwhelm you. **Always take the easiest next step.**
 
