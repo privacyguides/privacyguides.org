@@ -230,7 +230,7 @@ They could keep adding noise until these attacks are impossible, but that would 
 
 ## DPrio
 
-Mozilla has been constantly working to make their telemetry more private over the years. Firefox uses [Prio](https://blog.mozilla.org/security/2019/06/06/next-steps-in-privacy-preserving-telemetry-with-prio/), a [Distributed Aggregation Protoco](https://datatracker.ietf.org/doc/html/draft-ietf-ppm-dap)l-based telmetry system. It uses Multi-Party Computation to split the processing of user data between multiple parties.
+Mozilla has been constantly working to make their telemetry more private over the years. Firefox uses [Prio](https://blog.mozilla.org/security/2019/06/06/next-steps-in-privacy-preserving-telemetry-with-prio/), a [Distributed Aggregation Protocol](https://datatracker.ietf.org/doc/html/draft-ietf-ppm-dap)-based telmetry system. It uses Multi-Party Computation to split the processing of user data between multiple parties.
 
 To accomplish this, [Mozilla](https://blog.mozilla.org/en/firefox/partnership-ohttp-prio/) partnered with [Divvi Up](https://divviup.org/blog/divvi-up-in-firefox/) as their DAP provider, and [Fastly](https://www.fastly.com/blog/firefox-fastly-take-another-step-toward-security-upgrade) as their OHTTP provider. OHTTP acts as a multi-hop proxy to separate traffic between two parties when making a connection: neither Mozilla or Fastly will know both who you are and what you're connecting to.
 
