@@ -25,7 +25,7 @@ Alternatively, you can run AI models locally so that your data never leaves your
 
 ### Hardware for Local AI Models
 
-Local models are also fairly accessible. They can run on most PCs and some high-end smartphones. It's possible to run smaller models at lower speeds on as little as 8 GB of RAM. Using more powerful hardware such as a dedicated GPU with sufficient VRAM or a modern system with fast LPDDR5X memory offers the best experience. 
+Local models are also fairly accessible. They can run on most PCs and some high-end smartphones. It's possible to run smaller models at lower speeds on as little as 8 GB of RAM. Using more powerful hardware such as a dedicated GPU with sufficient VRAM or a modern system with fast LPDDR5X memory offers the best experience.
 
 LLMs can usually be differentiated by the number of parameters, which can vary between 1.3B to 405B for open-source models available for end users. For example, models below 3B parameters are only reliably good for simple lingustic tasks such as summarisation, models above 4B start understanding context and have a good knowledge of the world.From 8B, they can exerce basic reasoning. Finally, models with advanced reasoning capabilities start at around 30B parameters.
 
@@ -57,28 +57,29 @@ Below is a table of good models to start with.
 
 ## AI Chat Clients
 
-| Feature | [Kobold.cpp](#koboldcpp) | [Ollama](#ollama-cli) | [Llamafile](#llamafile) | 
-|---|---|---|---|
-| GPU Support | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-check:{ .pg-green } |
-| Image Generation | :material-check:{ .pg-green } | :material-close:{ .pg-red } | :material-close:{ .pg-red } |
-| Speech Recognition | :material-check:{ .pg-green } | :material-close:{ .pg-red } | :material-close:{ .pg-red } |
-| Auto-download Models | :material-close:{ .pg-red } | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Few models available |
-| Custom Parameters | :material-check:{ .pg-green } | :material-close:{ .pg-red } | :material-check:{ .pg-green } |
-| Multi-platform | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Size limitations on Windows |
+| Feature | [Kobold.cpp](#koboldcpp) | [Ollama](#ollama-cli) | [Llamafile](#llamafile) | [Edge Gallery](#edge-gallery-android)| [PocketPal](#pocketpal-ai-mobile)|
+|---|---|---|---|---|---|
+| GPU Support | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-check:{ .pg-green } | / | / |
+| Image Generation | :material-check:{ .pg-green } | :material-close:{ .pg-red } | :material-close:{ .pg-red } | :material-close:{. pg-red } | :material-close:{. pg-red } |
+| Vision capabilities | :material-check:{ .pg-green } | :material-check:{ .pg-green }: |  :material-check:{ .pg-green }: | :material-check:{ .pg-green }: | :material-alert-outline:{ .pg-orange } Limited quality
+| Speech-to-text | :material-check:{ .pg-green } | :material-close:{ .pg-red } | :material-close:{ .pg-red } | :material-close:{ .pg-red } | :material-close:{ .pg-red } |
+| Auto-download Models | :material-close:{ .pg-red } | :material-check:{ .pg-green } |:material-alert-outline:{ .pg-orange } Few models available | :material-alert-outline:{ .pg-orange } Few models available | :material-check:{ .pg-green } |
+| Custom Parameters | :material-check:{ .pg-green } | :material-close:{ .pg-red } | :material-check:{ .pg-green } |  :material-alert-outline:{ .pg-orange } Model prompt cannot be changed | :material-check:{ .pg-green }|
+| Platform | [:simple-linux: Linux] [:fontawesome-brands-windows: Windows][:simple-apple: macOS][:simple-macos:]|[:simple-gnometerminal All CLI] [:simple-linux: Linux] [:fontawesome-brands-windows: Windows][:simple-apple:][:simple-macos:] | [:simple-linux: Linux][:fontawesome-brands-windows: Windows] (Size limitations) [:simple-apple:][:simple-macos:] | [:simple-android: Android] | [:simple-android: Android] [:simple-apple:][:simple-ios:] |
 
 ## Edge Gallery (Android)
 
 <div class="admonition recommendation" markdown>
 
-**Edge Gallery** is an AI client developped by Google that features Google's latest open-weights models. It runs fully locally, but downloading the preloaded models require a Hugging Face account as you will need to [accept Google's Acceptable Use policy](https://github.com/google-ai-edge/gallery/wiki/5.-Model-Management#hugging-face-login--license-acknowledgement) to access the model files. You can import models you downloaded, but the app only accepts the [LiteRT](https://github.com/google-ai-edge/litert) format, which isn't widely used. 
+![Edge Gallery Logo](edge_gallery_logo_white.png){align=right}
+
+**Edge Gallery** is an AI client developped by Google that features Google's latest open-weights models. It runs fully locally, but downloading the preloaded models require a Hugging Face account as you will need to [accept Google's Acceptable Use policy](https://github.com/google-ai-edge/gallery/wiki/5.-Model-Management#hugging-face-login--license-acknowledgement) to access the model files. You can import models you downloaded, but the app only accepts the [LiteRT](https://github.com/google-ai-edge/litert) format, which isn't widely used.
 
 The preloaded models are performant and can analyse image. However, you might not be able to have long conversation or analyse long documents, as the app restricts the maximum context length to an ammount [multiple times smaller](https://github.com/google-ai-edge/gallery/issues/183) than what the AI model can normally support.
-
 
 [:octicons-repo-16: Repository](https://github.com/google-ai-edge/gallery?tab=readme-ov-file#google-ai-edge-gallery-){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/google-ai-edge/gallery/wiki){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/google-ai-edge/gallery){ .card-link title="Source Code" }
-
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -94,20 +95,16 @@ The preloaded models are performant and can analyse image. However, you might no
 
 ![PocketPal Logo](pocketpal_dark.png){align=right}
 
-**PocketPal** is an AI client available on both iOS and Android. It focus on customisability, ease-of use, and above all on small language models (SLMs), allowing you to run AI models on basically any Android phone. Keep in mind however that SLMs aren't useful in many domains. 
+**PocketPal** is an AI client available on both iOS and Android. It focus on customisability, ease-of use, and above all on small language models (SLMs), allowing you to run AI models on basically any Android phone. Keep in mind however that SLMs aren't useful in many domains.
 
 Other models can easily be imported, either from a Hugging Face repo link, of from a gguf file directly. Models can also be customised, and the client also offers "Pals", which are describe as "personalized AI assistants with different personalities: but are essentially presets of a model and a system prompt. You can chose between an assitant pal and a roleplay Pal.
-
-
 
 [:octicons-repo-16: Repository](https://github.com/a-ghorbani/pocketpal-ai?tab=readme-ov-file#pocketpal-ai-){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/a-ghorbani/pocketpal-ai?tab=readme-ov-file#table-of-contents){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/a-ghorbani/pocketpal-ai/){ .card-link title="Source Code" }
 
-
 <details class="downloads" markdown>
 <summary>Downloads</summary>
-
 
 [:simple-github: GitHub](https://github.com/a-ghorbani/pocketpal-ai/releases)
 [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.pocketpalai)
