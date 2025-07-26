@@ -37,6 +37,30 @@ In 2013, the search engine Yahoo! experienced a [data breach](https://www.bbc.co
 
 ### Equifax
 
+The credit bureau Equifax which handles sensitive data such as SSN's was [breached](https://www.ftc.gov/enforcement/refunds/equifax-data-breach-settlement) in 2017, exposing extremely sensitive data of 147 million people. The company settled for $425 million in damages, but it's hard to put a number on the devastation of having your identity stolen. Stronger protections for sensitive financial data need to be put in place to avoid situations like this.
+
+### MediSecure
+
+In 2024, the [personal health information](https://medisecurenotification.wordpress.com) of "2.9 million Australians who used the MediSecure prescription delivery service during the approximate period of March 2019 to November 2023" was breached. The data included extremely sensitive health data such as
+
+- full name
+- title
+- date of birth
+- gender
+- email address
+- address
+- phone number
+- individual healthcare identifier (IHI)
+- Medicare card number, including individual identifier, and expiry
+- Pensioner Concession card number and expiry
+- Commonwealth Seniors card number and expiry
+- Healthcare Concession card number and expiry
+- Department of Veterans’ Affairs (DVA) (Gold, White, Orange) card number and expiry
+- prescription medication, including name of drug, strength, quantity and repeats
+- reason for prescription and instructions
+
+An absolutely devastating breach of user privacy by any metric.
+
 ### OpenAI
 
 When services process our data in the clear, we not only run the risk of the service themselves abusing their access to that data, but also court orders legally requiring them to retain data.
