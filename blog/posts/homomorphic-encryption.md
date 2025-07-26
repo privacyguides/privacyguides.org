@@ -33,9 +33,9 @@ Search engines keeping enough data to send someone straight to your house is *te
 
 ### Yahoo!
 
-In 2013, the search engine Yahoo! experienced a [data breach](https://www.bbc.com/news/business-41493494) affecting "all 3 billion accounts". Search engines handle sensitive and identifying information.
+In 2013, the search engine Yahoo! experienced a [data breach](https://www.bbc.com/news/business-41493494) affecting "all 3 billion accounts". All those users risk reidentification just like what happened with the AOL users, except this time there was no attempt at anonymizing the users.
 
-
+### 
 
 ### OpenAI
 
