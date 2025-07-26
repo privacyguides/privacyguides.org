@@ -1,0 +1,77 @@
+---
+date:
+    created: 2025-07-24T19:00:00Z
+categories:
+    - Explainers
+authors:
+    - fria
+tags:
+    - Privacy-Enhancing Technologies
+    - Homomorphic Encryption
+license: BY-SA
+schema_type: BackgroundNewsArticle
+description: We rely on services that process our data every day. It's accepted that in order to process our data, the service needs to see it in plaintext, however homomorphic encryption aims to change that by bringing E2EE to serverside processing.
+preview:
+
+---
+
+# Privacy-Enhancing Technologies Series: Homomorphic Encryption
+
+We rely on lots of server-facing services in our day to day lives, whether it's using server-side AI like ChatGPT or querying search engines. It's just assumed that when we use services like this, those services need to process our data in the clear. But, with homomorphic encryption, data can be processed server-side while still remaining E2EE.
+
+## Privacy Violations
+
+We've surrendered much of our lives to the services we use everyday. From music and video streaming to searching, to using AI services. Even things we don't typically think of as online services like buying things at the store typically query a database.
+
+### AOL Search Data Release
+
+AOL thought it would be a great idea in 2006 to [release the searches](https://www.nytimes.com/2006/08/09/technology/a-face-is-exposed-for-aol-searcher-no-4417749.html) of over 650,000 users. It was "anonymized" by scrubbing the actual user's names and replacing them with numbers.
+
+Simply using user No. 4417749's searches such as "homes sold in shadow lake subdivision gwinnett county georgia" and "60 single men", journalists at the New York Times were able to re-identify the user as Thelma Arnold, a 62-year-old widow who lives in Lilburn, Ga. They even went to her house to meet her.
+
+Search engines keeping enough data to send someone straight to your house is *terrifying* needless to say, and that's just what they released *willingly*.
+
+### Yahoo!
+
+In 2013, the search engine Yahoo! experienced a [data breach](https://www.bbc.com/news/business-41493494) affecting "all 3 billion accounts". Search engines handle sensitive and identifying information.
+
+
+
+### OpenAI
+
+When services process our data in the clear, we not only run the risk of the service themselves abusing their access to that data, but also court orders legally requiring them to retain data.
+
+OpenAI was required to [retain](https://arstechnica.com/tech-policy/2025/06/openai-says-court-forcing-it-to-save-all-chatgpt-logs-is-a-privacy-nightmare/) all ChatGPT user logs, even deleted ones. This is devastating for user privacy when you consider that ChatGPT handles over [1 billion](https://x.com/OpenAINewsroom/status/1864373399218475440) queries per day.
+
+This is a clear violation of user privacy, and it happened out of the blue in a lawsuit that wasn't even related to user privacy. When companies have access to our data, it might not even be up to them how it's handled sometimes. This is why E2EE is so important: it's not only about trust but about making it so services *can't* access data even if they tried.
+
+## Beginnings of Homomorphic Encryption
+
+As is typical, the first mention of homomorphic encryption come from a paper from 1978 titled *[ON DATA BANKS AND PRIVACY HOMOMORPHISMS](https://people.csail.mit.edu/rivest/pubs/RAD78.pdf)*.
+
+It's funny seeing the concerns of the time. A given example is a loan company that uses a time share (sharing a computer with others and having a limited time window to do your computing) with another company and how they have to choose between that and getting their own computer. With companies now moving more and more of their own infrastructure to cloud services provided by other companies, it seems we've come full circle.
+
+One of the suggestions is to use modified hardware that can decrypt data for the CPU to process. The idea of using secure hardware to protect user data is currently in use through Confidential Computing and the use of secure enclaves in the CPU to separate out the data of different users.
+
+The second solution they propose is a solution that doesn't require decryption of user data at all, which they call "privacy homomorphisms". The examles they give theoretically allow for addition, subtraction, multiplication, and division on encrypted data, although they state in the paper that many of them are likely not secure.
+
+Notably, the schemes mentioned allow only for *either* addition and subtraction *or* multiplication and division, which means if you want to do both you need to decrypt the data.
+
+Despite the shaky security of these early schemes, they would lay the groundwork for the field in the field going forward.
+
+## Fully Homomorphic Encryption
+
+It wasn't until 2009 when the idea of homomorphic encryption would be improved on in *[A FULLY HOMOMORPHIC ENCRYPTION SCHEME](https://crypto.stanford.edu/craig/craig-thesis.pdf)* by Craig Gentry.
+
+This paper introduced fully homomorphic encryption, which allows for *both* addition *and* multiplication, meaning it can now theoretically be used for any calculation.
+
+The scheme relies on some injected "noise" when performing operations. When adding, the noise is increased, but when multiplying the noise is amplified quite a bit. The scheme relies on staying below a certain noise threshold so that the answer can be decrypted and still be accurate.
+
+This limits how many operations can be done on the numbers before they become to noisy to use.
+
+However, it's possible to "bootstrap" after it gets too noisy, resetting the noise to below the threshold. This gives this scheme the ability to do as many operations as you want since you can just keep resetting the noise.
+
+It's based around ideal lattices because they have some useful properties allowing for more efficient key generation and algabraic operations. Because it's based on lattices, it's considered quantum resistant as well (there's no known efficient algorithm to solve lattice problems).
+
+## Second Generation FHE
+
