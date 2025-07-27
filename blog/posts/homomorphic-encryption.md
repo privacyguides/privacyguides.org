@@ -97,5 +97,14 @@ However, it's possible to "bootstrap" after it gets too noisy, resetting the noi
 
 It's based around ideal lattices because they have some useful properties allowing for more efficient key generation and algabraic operations. Because it's based on lattices, it's considered quantum resistant as well (there's no known efficient algorithm to solve lattice problems).
 
+Unfortunately these early homomorphic encryption schemes weren't very performant, taking up to [30 minutes per bootstrapping operation](https://eprint.iacr.org/2010/520). Obviously, this is not ideal and prevents the scheme from being used for any real world tasks.
+
 ## Second Generation FHE
 
+Several papers would chip away at the inefficiencies of Gentry's original scheme, finding ways of improving it over the next few years. They found a way to manage noise better
+
+Still, even with all of these improvements, the second generation fully-homomorphic schemes would still rely on bootstrapping a partially-homomorphic scheme.
+
+[Researchers](https://eprint.iacr.org/2011/344.pdf) were able to achieve fully homomorphic encryption using arbitrary lattices instead of ideal lattices using a new re-linearization technique. They were also able to remove the *squashing* step, improving efficiency and reducing the amount of assumptions that have to be made.
+
+A later paper introduced *leveled* homomorphic encryption, allowing for evaluating problems of any length. It used bootstrapping as an optimization instead of being required to achieve fully homomorphic encryption.
