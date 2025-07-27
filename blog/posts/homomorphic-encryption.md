@@ -107,4 +107,4 @@ Still, even with all of these improvements, the second generation fully-homomorp
 
 [Researchers](https://eprint.iacr.org/2011/344.pdf) were able to achieve fully homomorphic encryption using arbitrary lattices instead of ideal lattices using a new re-linearization technique. They were also able to remove the *squashing* step, improving efficiency and reducing the amount of assumptions that have to be made.
 
-A later paper introduced *leveled* homomorphic encryption, allowing for evaluating problems of any length. It used bootstrapping as an optimization instead of being required to achieve fully homomorphic encryption.
+A later [paper](https://eprint.iacr.org/2011/277.pdf) introduced *leveled* homomorphic encryption, allowing for evaluating problems of any length. It introduced modulus switching as an improved noise reduction technique. It also  used bootstrapping as an optimization instead of being required to achieve fully homomorphic encryption.
