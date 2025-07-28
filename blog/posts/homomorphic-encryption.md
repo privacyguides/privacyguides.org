@@ -111,4 +111,6 @@ A later [paper](https://eprint.iacr.org/2011/277.pdf) introduced *leveled* homom
 
 ## Third Generation FHE
 
-A [paper](https://eprint.iacr.org/2013/340.pdf) in 2013 removed the need for relinearization, significantly improving the efficiency 
+A [paper](https://eprint.iacr.org/2013/340.pdf) in 2013 removed the need for relinearization, significantly improving the efficiency and reducing the complexity of FHE. They also removed the need for modulus switching for noise management, improving efficiency even further. They were also able to eliminate the need for "evaluator" keys, which previously needed to be obtained from the user. Now the evaluator can perform operations without needing any keys from the user.
+
+By 2014 [researchers](https://eprint.iacr.org/2014/816.pdf) had figured out how to reduce the bootstrapping procedure down to less than a second on an average PC of the day.
