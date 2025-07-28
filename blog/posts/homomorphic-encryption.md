@@ -131,4 +131,4 @@ Open, standardized, and battle-tested FHE is fast approaching.
 
 ### FHE Hardware
 
-One of the main bottlenecks for adoption of FHE is the extra computation cost. Companies like Intel are looking into creating ASICs (Application-Specific Integrated Circuits)
+One of the main bottlenecks for adoption of FHE is the extra computation cost. Companies like Intel are looking into creating [ASICs](https://spectrum.ieee.org/homomorphic-encryption) (Application-Specific Integrated Circuits)
