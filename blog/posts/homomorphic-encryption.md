@@ -119,4 +119,16 @@ By 2014 [researchers](https://eprint.iacr.org/2014/816.pdf) had figured out how 
 
 An [advancement](https://eprint.iacr.org/2016/421.pdf) in 2016 allowed for efficient approximate operations, similar to how floating point operations always have an error. The noise added for security is considered to be part of error correction, which is reduced by a new technique called *rescaling*. They also improved efficiency by introducing a new batching technique.
 
-## Microsoft SEAL
+## Looking Toward the Future of FHE
+
+Lots of companies are working toward [standardizing](https://www.iso.org/standard/87638.html) and accelerating the adoption of FHE.
+
+### HomomorphicEncryption.org
+
+[HomomorphicEncryption.org](https://homomorphicencryption.org/standard/) represents a collaboration between government agencies, industry leaders, and academics. It's the biggest effort toward establishing a standard for FHE and while that hasn't happened yet, it's on the horizon.
+
+Open, standardized, and battle-tested FHE is fast approaching.
+
+### FHE Hardware
+
+One of the main bottlenecks for adoption of FHE is the extra computation cost. Companies like Intel are looking into creating ASICs (Application-Specific Integrated Circuits)
