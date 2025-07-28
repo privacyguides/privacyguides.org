@@ -113,4 +113,10 @@ A later [paper](https://eprint.iacr.org/2011/277.pdf) introduced *leveled* homom
 
 A [paper](https://eprint.iacr.org/2013/340.pdf) in 2013 removed the need for relinearization, significantly improving the efficiency and reducing the complexity of FHE. They also removed the need for modulus switching for noise management, improving efficiency even further. They were also able to eliminate the need for "evaluator" keys, which previously needed to be obtained from the user. Now the evaluator can perform operations without needing any keys from the user.
 
-By 2014 [researchers](https://eprint.iacr.org/2014/816.pdf) had figured out how to reduce the bootstrapping procedure down to less than a second on an average PC of the day.
+By 2014 [researchers](https://eprint.iacr.org/2014/816.pdf) had figured out how to reduce the bootstrapping procedure down to less than a second on an average PC of the day, compared to about six minutes on previous schemes.
+
+## Fourth Generation FHE
+
+An [advancement](https://eprint.iacr.org/2016/421.pdf) in 2016 allowed for efficient approximate operations, similar to how floating point operations always have an error. The noise added for security is considered to be part of error correction, which is reduced by a new technique called *rescaling*. They also improved efficiency by introducing a new batching technique.
+
+## Microsoft SEAL
