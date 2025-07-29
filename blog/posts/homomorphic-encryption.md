@@ -119,6 +119,16 @@ By 2014 [researchers](https://eprint.iacr.org/2014/816.pdf) had figured out how 
 
 An [advancement](https://eprint.iacr.org/2016/421.pdf) in 2016 allowed for efficient approximate operations, similar to how floating point operations always have an error. The noise added for security is considered to be part of error correction, which is reduced by a new technique called *rescaling*. They also improved efficiency by introducing a new batching technique.
 
+## FHE Today
+
+Fully-homomorphic encryption has advanced enough that it's become practical to use for some limited applications. Many big tech companies have released their own open source implementations of FHE and work is ongoing on making FHE more efficient and making development of FHE software easier.
+
+### Apple
+
+Apple is making use of [FHE](https://machinelearning.apple.com/research/homomorphic-encryption) mainly for privately looking up info on a server.
+
+
+
 ## Looking Toward the Future of FHE
 
 Lots of companies are working toward [standardizing](https://www.iso.org/standard/87638.html) and accelerating the adoption of FHE.
@@ -149,4 +159,8 @@ Intel also released an [SDK](https://github.com/IntelLabs/encrypted-computing-sd
 
 They also developed a [FHE library](https://www.intel.com/content/www/us/en/developer/articles/technical/homomorphic-encryption/accelerating-homomorphic-encryption-for-fpga.html) for Field-Programmable Gate Arrays (FPGAs), essentially a circuit that can have its logic reprogrammed after manufacturing. While not offering the same efficiency as dedicated hardware, they could act as a stopgap while ASICs and hardware accelerators for FHE are finialized.
 
-#### 
+## Final Thoughts
+
+FHE has come a long way in such a short time, it's really only been about 16 years since the first FHE scheme was proposed and we're already seeing a huge push from the government, big tech companies, and academia, as well as a massive push for openness and collaboration from everyone involved. It's truly a great thing to see and definitely something I'd like to see more of.
+
+The future for data privacy looks bright, but it still depends on widespread adoption, not just by the biggest companies but by everyone. I'll continue to be an advocate for mass adoption of PETs across the board and technical solutions to privacy that don't rely on legislation or privacy policy promises. We need to take a multi-pronged approach to privacy, not just relying on data privacy laws but also cryptography and mathematical rigor to protect our data.
