@@ -183,6 +183,8 @@ They also developed a [FHE library](https://www.intel.com/content/www/us/en/deve
 
 Cornami's [Mx^80 FracTLcore](https://cornami.net/mx80-system/) system boasts "Encrypted Computing as Plaintext Speed", which is extremely interesting to say the least. The hardware isn't available yet but they offer [early access](https://scifrapi.cornami.com/connect/) if you sign up through their website.
 
+I'm curious to see these claims put up to scrutiny, because if they're true then that would be completely revolutionary; it would mean that we could finally start replacing plaintext processing of data with FHE with almost no extra overhead.
+
 ## Final Thoughts
 
 FHE has come a long way in such a short time, it's really only been about 16 years since the first FHE scheme was proposed and we're already seeing a huge push from the government, big tech companies, and academia, as well as a massive push for openness and collaboration from everyone involved. It's truly a great thing to see and definitely something I'd like to see more of.
