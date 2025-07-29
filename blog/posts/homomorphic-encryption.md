@@ -179,6 +179,10 @@ Intel also released an [SDK](https://github.com/IntelLabs/encrypted-computing-sd
 
 They also developed a [FHE library](https://www.intel.com/content/www/us/en/developer/articles/technical/homomorphic-encryption/accelerating-homomorphic-encryption-for-fpga.html) for Field-Programmable Gate Arrays (FPGAs), essentially a circuit that can have its logic reprogrammed after manufacturing. While not offering the same efficiency as dedicated hardware, they could act as a stopgap while ASICs and hardware accelerators for FHE are finialized.
 
+#### Mx^80 FracTLcore
+
+Cornami's [Mx^80 FracTLcore](https://cornami.net/mx80-system/) system boasts "Encrypted Computing as Plaintext Speed", which is extremely interesting to say the least. The hardware isn't available yet but they offer [early access](https://scifrapi.cornami.com/connect/) if you sign up through their website.
+
 ## Final Thoughts
 
 FHE has come a long way in such a short time, it's really only been about 16 years since the first FHE scheme was proposed and we're already seeing a huge push from the government, big tech companies, and academia, as well as a massive push for openness and collaboration from everyone involved. It's truly a great thing to see and definitely something I'd like to see more of.
