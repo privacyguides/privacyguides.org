@@ -181,7 +181,9 @@ They also developed a [FHE library](https://www.intel.com/content/www/us/en/deve
 
 #### Mx^80 FracTLcore
 
-Cornami's [Mx^80 FracTLcore](https://cornami.net/mx80-system/) system boasts "Encrypted Computing as Plaintext Speed", which is extremely interesting to say the least. The hardware isn't available yet but they offer [early access](https://scifrapi.cornami.com/connect/) if you sign up through their website.
+Cornami's [Mx^80 FracTLcore](https://cornami.net/mx80-system/) system boasts "Encrypted Computing as Plaintext Speed", which is extremely interesting to say the least. The hardware isn't available yet but they offer [early access](https://scifrapi.cornami.com/connect/) if you sign up through their website. 
+
+Their computing is based on parallelism of data processing utilizing between thousands and millions of cores, able to scale cleanly depending on your needs.
 
 I'm curious to see these claims put up to scrutiny, because if they're true then that would be completely revolutionary; it would mean that we could finally start replacing plaintext processing of data with FHE with almost no extra overhead.
 
