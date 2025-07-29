@@ -17,7 +17,7 @@ preview:
 
 # Privacy-Enhancing Technologies Series: Homomorphic Encryption
 
-We rely on lots of server-facing services in our day to day lives, whether it's using server-side AI like ChatGPT or querying search engines. It's just assumed that when we use services like this, those services need to process our data in the clear. But, with homomorphic encryption, data can be processed server-side while still remaining E2EE.
+We rely on lots of server-facing services in our day to day lives, whether it's using server-side AI like ChatGPT or querying search engines. It's just assumed that when we use services like this, those services need to process our data in the clear. But, with homomorphic encryption, data can be processed server-side while still remaining E2EE.<!-- more -->
 
 ## Privacy Violations
 
