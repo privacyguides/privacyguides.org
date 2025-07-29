@@ -147,6 +147,8 @@ Their [HEIR](https://heir.dev) project is a compiler that aims to be "the indust
 
 Google's goals are ambitious, and I hope it works out the way they're hoping. The landscape of FHE is very complex, with many companies putting forth their own implementations of FHE and several different organizations all with similar names and aims. It's a bit confusing to follow, so I hope it can be simplified in the future.
 
+I'd like to see Google openly using FHE in their products, they seem to bizarrely falling behind other companies like Apple on using E2EE on their own products while also being at the forefront of research.
+
 ## Looking Toward the Future of FHE
 
 Lots of companies are working toward [standardizing](https://www.iso.org/standard/87638.html) and accelerating the adoption of FHE.
