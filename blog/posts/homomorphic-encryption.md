@@ -79,7 +79,7 @@ One of the suggestions is to use modified hardware that can decrypt data for the
 
 The second solution they propose is a solution that doesn't require decryption of user data at all, which they call "privacy homomorphisms". The examles they give theoretically allow for addition, subtraction, multiplication, and division on encrypted data, although they state in the paper that many of them are likely not secure.
 
-Notably, the schemes mentioned allow only for *either* addition and subtraction *or* multiplication and division, which means if you want to do both you need to decrypt the data.
+Notably, the schemes mentioned allow only for *either* addition and subtraction *or* multiplication and division, which means if you want to do both you need to decrypt the data. Since these schemes can only perform one type of operation or the other, they're considered *partially homomorphic*.
 
 Despite the shaky security of these early schemes, they would lay the groundwork for the field in the field going forward.
 
@@ -131,4 +131,18 @@ Open, standardized, and battle-tested FHE is fast approaching.
 
 ### FHE Hardware
 
-One of the main bottlenecks for adoption of FHE is the extra computation cost. Companies like Intel are looking into creating [ASICs](https://spectrum.ieee.org/homomorphic-encryption) (Application-Specific Integrated Circuits)
+One of the main bottlenecks for adoption of FHE is the extra computation cost. 
+
+In an effort to address this issue, DARPA introduced their [Data Protection in Virtual Environments (DPRIVE) program](https://www.darpa.mil/news/2021/homomorphic-encryption), working directly with four companies: Duality Technologies, Galois, SRI International, and Intel Federal. The end goal? To create hardware accelerators that can bring the speed closer to what the computations would be in plaintext.
+
+Similar to [hardware-accelerated AES](https://www.ti.com/lit/ug/slau458f/slau458f.pdf?ts=1753712760177&ref_url=https%253A%252F%252Fduckduckgo.com%252F) we have in chips nowadays, these hardware accelerators could enable FHE at speeds fast enough to be practical for most everyday computations.
+
+#### BASALISC
+
+Galois's Bespoke Asynchronous Silicon-Accelerated LWE Intrinsics through Software/Hardware Codesign (BASALISC) is their attempt at creating a FHE [ASIC](https://en.wikipedia.org/wiki/Application-specific_integrated_circuit). Galois estimates it can speed up FHE by around 10,000 times
+
+#### HERACLES
+
+Intel's [HERACLES](https://community.intel.com/t5/Blogs/Tech-Innovation/Data-Center/Intel-Labs-Continues-Focused-Research-and-Standards-Efforts-to/post/1488532) is their own attempt at a FHE accelerator.
+
+#### 
