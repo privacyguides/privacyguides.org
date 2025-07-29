@@ -129,7 +129,13 @@ Fully-homomorphic encryption has advanced enough that it's become practical to u
 
 Apple is making use of [FHE](https://machinelearning.apple.com/research/homomorphic-encryption) mainly for privately looking up info on a server.
 
+It's currenty used for [Enhnaced Visual Search](https://support.apple.com/en-us/122033) to privately look up landmarks in photos, and their [caller ID lookup](https://developer.apple.com/documentation/identitylookup/getting-up-to-date-calling-and-blocking-information-for-your-app) feature, as well as a few other places.
 
+It's a modest start for the technology but I think we'lll see more and more uses over time.
+
+Apple has also developed a [FHE library for Swift](https://github.com/apple/swift-homomorphic-encryption) and open sourced it so anyone developing in Swift can use it.
+
+### 
 
 ## Looking Toward the Future of FHE
 
