@@ -21,7 +21,9 @@ We rely on lots of server-facing services in our day to day lives, whether it's 
 
 ## Privacy Violations
 
-We've surrendered much of our lives to the services we use everyday. From music and video streaming to searching, to using AI services. Even things we don't typically think of as online services like buying things at the store typically query a database.
+We've surrendered much of our lives to the services we use everyday. From music and video streaming, to sending search engines just about every question under the sun, to pouring our heart out to AI services like ChatGPT. Even things we don't typically think of as online services like buying things at the store usually query a database somewhere, sight unseen.
+
+This leaves an absolute treasure trove of data for companies to potentially abuse themselves or otherwise leave open to being hacked and leaked to the internet. This has and will continue to happen repeatedly until every organization we rely on every day can implement robust privacy protections into their services.
 
 ### AOL Search Data Release
 
