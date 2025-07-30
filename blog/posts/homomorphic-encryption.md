@@ -125,7 +125,7 @@ An [advancement](https://eprint.iacr.org/2016/421.pdf) in 2016 allowed for effic
 
 Fully-homomorphic encryption has advanced enough that it's become practical to use for some limited applications. Many big tech companies have released their own open source implementations of FHE and work is ongoing on making FHE more efficient and making development of FHE software easier.
 
-
+It's already being used for some highly sensitive applications like [banking](https://ibm-research.medium.com/top-brazilian-bank-pilots-privacy-encryption-quantum-computers-cant-break-92ed2695bf14) and [genome analysis](https://www.scientificamerican.com/article/how-to-preserve-the-privacy-of-your-genomic-data/).
 
 ### OpenFHE
 
