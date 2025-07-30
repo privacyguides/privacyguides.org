@@ -165,7 +165,7 @@ One of the main bottlenecks for adoption of FHE is the extra computation cost.
 
 In an effort to address this issue, DARPA introduced their [Data Protection in Virtual Environments (DPRIVE) program](https://www.darpa.mil/news/2021/homomorphic-encryption), working directly with four companies: Duality Technologies, Galois, SRI International, and Intel Federal. The end goal? To create hardware accelerators that can bring the speed closer to what the computations would be in plaintext.
 
-Similar to [hardware-accelerated AES](https://www.ti.com/lit/ug/slau458f/slau458f.pdf?ts=1753712760177&ref_url=https%253A%252F%252Fduckduckgo.com%252F) we have in chips nowadays, these hardware accelerators could enable FHE at speeds fast enough to be practical for most everyday computations.
+Similar to [hardware-accelerated AES](https://www.ti.com/lit/ug/slau458f/slau458f.pdf?ts=1753712760177&ref_url=https%253A%252F%252Fduckduckgo.com%252F) we have in chips nowadays, these [hardware accelerators](https://spectrum.ieee.org/homomorphic-encryption) could enable FHE at speeds fast enough to be practical for most everyday computations.
 
 #### BASALISC
 
@@ -208,5 +208,7 @@ Optalsys believes the extra speed provided by this tech could make FHE more scal
 ## Final Thoughts
 
 FHE has come a long way in such a short time, it's really only been about 16 years since the first FHE scheme was proposed and we're already seeing a huge push from the government, big tech companies, and academia, as well as a massive push for openness and collaboration from everyone involved. It's truly a great thing to see and definitely something I'd like to see more of.
+
+In order for FHE to be widespread, we need standardization, libraries and APIs that make developing FHE software easier for developers, and hardware support. The pieces to the FHE puzzle are just now starting to come together. If you're a developer, it might be a good time to look into FHE and get in on the ground floor.
 
 The future for data privacy looks bright, but it still depends on widespread adoption, not just by the biggest companies but by everyone. I'll continue to be an advocate for mass adoption of PETs across the board and technical solutions to privacy that don't rely on legislation or privacy policy promises. We need to take a multi-pronged approach to privacy, not just relying on data privacy laws but also cryptography and mathematical rigor to protect our data.
