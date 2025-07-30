@@ -167,7 +167,7 @@ I'd like to see Google openly using FHE in their products, they seem to bizarrel
 
 ## Looking Toward the Future of FHE
 
-Lots of companies are working toward [standardizing](https://www.iso.org/standard/87638.html) and accelerating the adoption of FHE.
+Lots of companies are working toward [standardizing](https://www.iso.org/standard/87638.html) and accelerating the adoption of FHE. Dedicated FHE hardware promises to increase the speed of FHE computations to be practical to use on many more applications, and we're seeing a big effor toward making it more and more accessible for developers to impelement.
 
 ### HomomorphicEncryption.org
 
