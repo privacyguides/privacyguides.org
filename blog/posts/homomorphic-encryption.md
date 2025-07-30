@@ -183,9 +183,15 @@ They also developed a [FHE library](https://www.intel.com/content/www/us/en/deve
 
 Cornami's [Mx^80 FracTLcore](https://cornami.net/mx80-system/) system boasts "Encrypted Computing as Plaintext Speed", which is extremely interesting to say the least. The hardware isn't available yet but they offer [early access](https://scifrapi.cornami.com/connect/) if you sign up through their website. 
 
-Their computing is based on parallelism of data processing utilizing between thousands and millions of cores, able to scale cleanly depending on your needs.
+Their computing is based on parallelism of data processing utilizing between thousands and millions of cores, able to scale cleanly depending on your needs. Since FHE operations can be made more efficient by batching computations together, their new parallel computing architecture shows promise for pushing FHE into being much closer to the same speed as plaintext computations.
 
 I'm curious to see these claims put up to scrutiny, because if they're true then that would be completely revolutionary; it would mean that we could finally start replacing plaintext processing of data with FHE with almost no extra overhead.
+
+#### TREBUCHET
+
+Duality's offering is [TREBUCHET](https://eprint.iacr.org/2023/521.pdf). They seem to be taking a more holistic approach, trying to optimize every aspect of the chip in order to reduce complexity and make each component work well together.
+
+For example, TREBUCHET utilized Ring Processing Units with multiple lanes for quickly processing data relevant to FHE. They also support memory management by scheduling data to be near computational elements. There are many of these RPUs throughout the device, allowing for efficient parallelism. The chips are able to omit the need for complex and costly caches, dynamic scheduling logic, and prediction, and task the compiler with scheduling and data movement at compile time.
 
 ## Final Thoughts
 
