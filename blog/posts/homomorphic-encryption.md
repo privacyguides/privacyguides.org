@@ -127,6 +127,8 @@ Fully-homomorphic encryption has advanced enough that it's become practical to u
 
 It's already being used for some highly sensitive applications like [banking](https://ibm-research.medium.com/top-brazilian-bank-pilots-privacy-encryption-quantum-computers-cant-break-92ed2695bf14) and [genome analysis](https://www.scientificamerican.com/article/how-to-preserve-the-privacy-of-your-genomic-data/).
 
+If you want to see an example of (non-production quality) FHE used to serve a website, [spiralwiki.com](https://spiralwiki.com) allows you to use Wikipedia with FHE. The load times are a bit long, but it's an interesting demo.
+
 ### OpenFHE
 
 In the interest of making FHE as accessible and open as possible, [OpenFHE](https://openfhe-development.readthedocs.io/en/latest/index.html) is an open-source library that offers efficient implementations of different FHE schemes, with the aim of making it easier for developers to implement FHE.
