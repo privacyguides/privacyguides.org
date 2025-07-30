@@ -79,7 +79,7 @@ It's funny seeing the concerns of the time. A given example is a loan company th
 
 One of the suggestions is to use modified hardware that can decrypt data for the CPU to process. The idea of using secure hardware to protect user data is currently in use through Confidential Computing and the use of secure enclaves in the CPU to separate out the data of different users.
 
-The second solution they propose is a solution that doesn't require decryption of user data at all, which they call "privacy homomorphisms". The examles they give theoretically allow for addition, subtraction, multiplication, and division on encrypted data, although they state in the paper that many of them are likely not secure.
+The second solution they propose is a solution that doesn't require decryption of user data at all, which they call "privacy homomorphisms". The examples they give theoretically allow for addition, subtraction, multiplication, and division on encrypted data, although they state in the paper that many of them are likely not secure.
 
 Notably, the schemes mentioned allow only for *either* addition and subtraction *or* multiplication and division, which means if you want to do both you need to decrypt the data. Since these schemes can only perform one type of operation or the other, they're considered *partially homomorphic*.
 
