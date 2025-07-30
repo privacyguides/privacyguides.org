@@ -193,6 +193,12 @@ Duality's offering is [TREBUCHET](https://eprint.iacr.org/2023/521.pdf). They se
 
 For example, TREBUCHET utilized Ring Processing Units with multiple lanes for quickly processing data relevant to FHE. They also support memory management by scheduling data to be near computational elements. There are many of these RPUs throughout the device, allowing for efficient parallelism. The chips are able to omit the need for complex and costly caches, dynamic scheduling logic, and prediction, and task the compiler with scheduling and data movement at compile time.
 
+#### Fabric
+
+[Fabric Technologies](https://www.fabriccryptography.com/blog/risc-zero-announcement) is casting a wider net and aiming to make a "Verifiable Processing Unit" or VPU, a type of chip that handles multiple cryptography-related operations such as FHE and Zero-Knowledge Proofs. I'm curious how a chip that's designed to be more general will fare compared to other competitors in the FHE space.
+
+According to a [Forbes](https://www.forbes.com/sites/davidprosser/2024/08/19/how-fabric-cryptography-plans-to-become-the-nvidia-of-privacy-tech/) article, they were looking to launch in 2025, but their last blog post is from October 2024. I can't seem to find any info on if they successfully launched or not, so we should keep an eye out I suppose.
+
 ## Final Thoughts
 
 FHE has come a long way in such a short time, it's really only been about 16 years since the first FHE scheme was proposed and we're already seeing a huge push from the government, big tech companies, and academia, as well as a massive push for openness and collaboration from everyone involved. It's truly a great thing to see and definitely something I'd like to see more of.
