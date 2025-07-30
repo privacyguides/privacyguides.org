@@ -125,6 +125,8 @@ An [advancement](https://eprint.iacr.org/2016/421.pdf) in 2016 allowed for effic
 
 Fully-homomorphic encryption has advanced enough that it's become practical to use for some limited applications. Many big tech companies have released their own open source implementations of FHE and work is ongoing on making FHE more efficient and making development of FHE software easier.
 
+
+
 ### OpenFHE
 
 In the interest of making FHE as accessible and open as possible, [OpenFHE](https://openfhe-development.readthedocs.io/en/latest/index.html) is an open-source library that offers efficient implementations of different FHE schemes, with the aim of making it easier for developers to implement FHE.
@@ -133,7 +135,7 @@ In the interest of making FHE as accessible and open as possible, [OpenFHE](http
 
 IBM were one of the first companies to release an open source FHE library. Their [HElib](https://github.com/homenc/HElib) was mentioned in several papers and drove the field of FHE forward. As a cloud-focused company it makes a lot of sense that they would want to protect their customers' and their customers' customers' data as much as possible, and making efficient FHE ought to be at the top of their priority list.
 
-IBM offers FHE as part of its [security consulting services](https://www.ibm.com/services/security) so companies can transition to more secure data processing.
+IBM offers FHE as part of its [security consulting services](https://www.ibm.com/services/security) so companies can transition to more secure data processing. They also offer an [SDK](https://ibm.github.io/helayers/) so developers can easily implement their data processing needs with FHE capabilities.
 
 ### Apple
 
