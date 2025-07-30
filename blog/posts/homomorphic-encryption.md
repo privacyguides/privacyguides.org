@@ -181,7 +181,10 @@ One of the main bottlenecks for adoption of FHE is the extra computation cost.
 
 In an effort to address this issue, DARPA introduced their [Data Protection in Virtual Environments (DPRIVE) program](https://www.darpa.mil/news/2021/homomorphic-encryption), working directly with four companies: Duality Technologies, Galois, SRI International, and Intel Federal. The end goal? To create hardware accelerators that can bring the speed closer to what the computations would be in plaintext.
 
-Similar to [hardware-accelerated AES](https://www.ti.com/lit/ug/slau458f/slau458f.pdf?ts=1753712760177&ref_url=https%253A%252F%252Fduckduckgo.com%252F) we have in chips nowadays, these [hardware accelerators](https://spectrum.ieee.org/homomorphic-encryption) could enable FHE at speeds fast enough to be practical for most everyday computations.
+Similar to [hardware-accelerated AES](https://www.ti.com/lit/ug/slau458f/slau458f.pdf?ts=1753712760177&ref_url=https%253A%252F%252Fduckduckgo.com%252F) we have in chips nowadays, these [hardware accelerators](https://spectrum.ieee.org/homomorphic-encryption) could enable FHE at speeds fast enough to be practical for most everyday computations.(1)
+{ .annotate }
+
+1. This is an example of [Private Information Retrieval](https://crypto.stanford.edu/pir-library/) (PIR)
 
 #### BASALISC
 
