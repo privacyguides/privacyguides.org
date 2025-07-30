@@ -193,7 +193,7 @@ Intel's [HERACLES](https://community.intel.com/t5/Blogs/Tech-Innovation/Data-Cen
 
 Intel also released an [SDK](https://github.com/IntelLabs/encrypted-computing-sdk) to allow developers to easily develop FHE solutions for different architectures, with hopes to eventually integrate with Google's [HEIR](https://heir.dev) compiler.
 
-They also developed a [FHE library](https://www.intel.com/content/www/us/en/developer/articles/technical/homomorphic-encryption/accelerating-homomorphic-encryption-for-fpga.html) for Field-Programmable Gate Arrays (FPGAs), essentially a circuit that can have its logic reprogrammed after manufacturing. While not offering the same efficiency as dedicated hardware, they could act as a stopgap while ASICs and hardware accelerators for FHE are finialized.
+They also developed a [FHE library](https://www.intel.com/content/www/us/en/developer/articles/technical/homomorphic-encryption/accelerating-homomorphic-encryption-for-fpga.html) for Field-Programmable Gate Arrays (FPGAs), essentially a circuit that can have its logic reprogrammed after manufacturing. While not offering the same efficiency as dedicated hardware, they could act as a stopgap while ASICs and hardware accelerators for FHE are finalized.
 
 #### Mx^80 FracTLcore
 
