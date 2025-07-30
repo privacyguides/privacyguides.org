@@ -93,7 +93,7 @@ This paper introduced fully homomorphic encryption, which allows for *both* addi
 
 The scheme relies on some injected "noise" when performing operations. When adding, the noise is increased, but when multiplying the noise is amplified quite a bit. The scheme relies on staying below a certain noise threshold so that the answer can be decrypted and still be accurate.
 
-This limits how many operations can be done on the numbers before they become to noisy to use.
+This limits how many operations can be done on the numbers before they become too noisy to use.
 
 However, it's possible to "bootstrap" after it gets too noisy, resetting the noise to below the threshold. This gives this scheme the ability to do as many operations as you want since you can just keep resetting the noise.
 
