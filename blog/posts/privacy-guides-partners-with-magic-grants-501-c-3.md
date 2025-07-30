@@ -7,6 +7,8 @@ authors:
     - jonah
 description: We're excited to announce a partnership with MAGIC Grants, a Public 501(c)(3) charity with the mission of supporting privacy projects like ours and providing undergraduate scholarships for students interested in cryptocurrencies and privacy.
 schema_type: BackgroundNewsArticle
+preview:
+  cover: blog/assets/images/privacy-guides-partners-with-magic-grants-501-c-3/magicblog.webp
 ---
 # Privacy Guides Partners With MAGIC Grants 501(c)(3)
 

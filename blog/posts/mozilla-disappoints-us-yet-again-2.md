@@ -10,6 +10,8 @@ tags:
     - Mozilla
 description: "'No shady privacy policies or back doors for advertisers' proclaims the Firefox homepage, but that's no longer true in Firefox 128."
 schema_type: AnalysisNewsArticle
+preview:
+  cover: blog/assets/images/mozilla-disappoints-us-yet-again-2/cover.webp
 ---
 
 # "Privacy-Preserving" Attribution: Mozilla Disappoints Us Yet Again

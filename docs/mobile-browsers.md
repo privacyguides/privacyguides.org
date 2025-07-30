@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
-title: "Mobile Browsers"
+title: Mobile Browsers
 icon: material/cellphone-information
 description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
 cover: mobile-browsers.webp
@@ -77,6 +77,7 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1052879175)
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+- [:simple-fdroid: F-Droid](https://brave-browser-apk-release.s3.brave.com/fdroid/repo/index.html)
 
 </details>
 
@@ -166,7 +167,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - [x] (Optional) Select **No protection** under *Safe Browsing* (1)
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
-    - [ ] Uncheck **V8 Optimizer** under *Manage V8 security*
+    - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
     - [x] Select **Close tabs on exit**
     - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
     - [ ] Uncheck **Automatically send diagnostic reports**

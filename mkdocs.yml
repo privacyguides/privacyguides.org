@@ -281,7 +281,7 @@ theme:
     - search.highlight
 
 extra_css:
-  - assets/stylesheets/extra.css?v=20250306
+  - assets/stylesheets/extra.css?v=20250723
 extra_javascript:
   - path: assets/javascripts/randomize-element.js?v=20250306
     defer: true

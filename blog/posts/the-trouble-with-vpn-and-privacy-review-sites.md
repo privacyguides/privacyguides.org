@@ -14,6 +14,8 @@ tags:
 license: BY-SA
 description: There’s a massive problem in the privacy world. Many shady companies are disguising advertisements as genuine reviews, to the detriment of real news sources like Privacy Guides and to potential buyers of these services.
 schema_type: AnalysisNewsArticle
+preview:
+  cover: blog/assets/images/the-trouble-with-vpn-and-privacy-review-sites/cover.webp
 ---
 # The Trouble With VPN and Privacy Review Sites
 

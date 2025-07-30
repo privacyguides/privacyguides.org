@@ -7,6 +7,8 @@ authors:
     - em
 description: The UK government has served a technical capability notice to Apple under the UK Investigatory Act. Apple's response was to remove the Advanced Data Protection feature from the UK this week. What does this mean for Apple users in the UK and for encryption rights worldwide?
 schema_type: ReportageNewsArticle
+preview:
+  cover: blog/assets/images/uk-forced-apple-to-remove-adp/cover.webp
 ---
 # The UK Government Forced Apple to Remove Advanced Data Protection: What Does This Mean for You?
 
