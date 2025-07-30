@@ -129,6 +129,12 @@ Fully-homomorphic encryption has advanced enough that it's become practical to u
 
 In the interest of making FHE as accessible and open as possible, [OpenFHE](https://openfhe-development.readthedocs.io/en/latest/index.html) is an open-source library that offers efficient implementations of different FHE schemes, with the aim of making it easier for developers to implement FHE.
 
+### IBM
+
+IBM were one of the first companies to release an open source FHE library. Their [HElib](https://github.com/homenc/HElib) was mentioned in several papers and drove the field of FHE forward. As a cloud-focused company it makes a lot of sense that they would want to protect their customers' and their customers' customers' data as much as possible, and making efficient FHE ought to be at the top of their priority list.
+
+IBM offers FHE as part of its [security consulting services](https://www.ibm.com/services/security) so companies can transition to more secure data processing.
+
 ### Apple
 
 Apple is making use of [FHE](https://machinelearning.apple.com/research/homomorphic-encryption) mainly for privately looking up info on a server.
@@ -148,6 +154,8 @@ Their [HEIR](https://heir.dev) project is a compiler that aims to be "the indust
 Google's goals are ambitious, and I hope it works out the way they're hoping. The landscape of FHE is very complex, with many companies putting forth their own implementations of FHE and several different organizations all with similar names and aims. It's a bit confusing to follow, so I hope it can be simplified in the future.
 
 I'd like to see Google openly using FHE in their products, they seem to bizarrely falling behind other companies like Apple on using E2EE on their own products while also being at the forefront of research.
+
+
 
 ## Looking Toward the Future of FHE
 
