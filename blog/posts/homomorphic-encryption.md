@@ -199,6 +199,12 @@ For example, TREBUCHET utilized Ring Processing Units with multiple lanes for qu
 
 According to a [Forbes](https://www.forbes.com/sites/davidprosser/2024/08/19/how-fabric-cryptography-plans-to-become-the-nvidia-of-privacy-tech/) article, they were looking to launch in 2025, but their last blog post is from October 2024. I can't seem to find any info on if they successfully launched or not, so we should keep an eye out I suppose.
 
+#### Optalsys
+
+This one's a doozy. You're probably familiar with fiber optics that are able to transmit data at a high speed and efficiency compared to electrical signals. [Optalsys](https://optalysys.com/article/silicon-photonics-a-new-approach-to-acceleration/) is looking to bring that speed and efficiency to chips themselves, actually processing data using light instead of electricity. They call it "silicon photonics."
+
+Optalsys believes the extra speed provided by this tech could make FHE more scalable and efficient. Their [LightLocker Node](https://optalysys.com/lightlocker-node/) is their FHE offering, and unlike other products I've listed, it seems that it's actually [launched](https://optalysys.com/resource/lightlocker-launch/).
+
 ## Final Thoughts
 
 FHE has come a long way in such a short time, it's really only been about 16 years since the first FHE scheme was proposed and we're already seeing a huge push from the government, big tech companies, and academia, as well as a massive push for openness and collaboration from everyone involved. It's truly a great thing to see and definitely something I'd like to see more of.
