@@ -41,6 +41,7 @@ Email aliasing services also have a number of benefits over "temporary email" se
 <div class="grid cards" markdown>
 
 - ![Addy.io logo](assets/img/email-aliasing/addy.svg){ .twemoji } [Addy.io](email-aliasing.md#addyio)
+- ![FirefoxRelay logo](assets/img/email-aliasing/firefoxrelay.svg){ .twemoji } [FirefoxRelay](email-aliasing.md#firefox-relay)
 - ![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ .twemoji } [SimpleLogin](email-aliasing.md#simplelogin)
 
 </div>
@@ -90,6 +91,42 @@ Notable free features:
 - [x] Automatic PGP Encryption[^1]
 
 If you cancel your subscription, you will still enjoy the features of your paid plan until the billing cycle ends. After the end of your current billing cycle, most paid features (including any custom domains) will be [deactivated](https://addy.io/faq/#what-happens-if-i-have-a-subscription-but-then-cancel-it), paid account settings will be reverted to their defaults, and catch-all will be enabled if it was previously disabled.
+
+### Firefox Relay
+
+<div class="admonition recommendation" markdown>
+
+![Firefox Relay logo](assets/img/email-aliasing/firefoxrelay.svg){ align=right }
+
+**Firefox Relay** is a free service which provides email aliases, and optionally provides paid features like unlimited aliases, blocking promotional emails and custom subdomains.
+
+[:octicons-home-16: Homepage](https://relay.firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mozilla.org/en-GB/privacy/subscription-services){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://relay.firefox.com/faq){ .card-link title="FAQ" }
+[:octicons-code-16:](https://github.com/mozilla/fx-private-relay){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-GB/firefox/addon/private-relay)
+- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/firefox-relay/lknpoadjjkjcmjhbjpcljdednccbldeb)
+
+</details>
+
+</div>
+
+Firefox Relay originally known as Mozilla relay, is an email alias forwarding service from Mozilla. The add-on is built into the [Firefox browser](https://privacyguides.org/en/desktop-browsers/#firefox), both on desktop and mobile. But can be installed as an add-on in chromium based browsers. Firefox Relay requires a Mozilla account, and is designed to forward emails to the email address set in your Mozilla account, automatically removing email trackers from forwarded emails. The premium tier also has promotional email blocking. This feature will forward you important emails, such as receipts, password resets and confirmations while still blocking marketing messages. In addition, premium users can also reply to emails that have been forwarded within 3 months of receiving the email. If you add a CC or BCC when you reply to an email, your original email address will be exposed to the recipient and those copied on the email. Despite no mobile app, the website can also be accessed on mobile devices, and it is also possible to create custom masks on the go with a custom domain. Firefox Relay does not store forwarded emails, but under the rare circumstance in which the service is down, Firefox Relay may temporarily store your emails until they can be forwarded. Firefox Relay does not store emails for longer than three days.
+
+Notable free features:
+
+- [x] Maximum number of 5 Aliases
+- [x] Unlimited Replies
+- [x] 1 Recipient Mailbox
+- [x] Removes email trackers from forwarded emails
+- [ ] Create masks on the go with a custom domain[^1] is only available on paid plans
+- [ ] Block promotional emails[^1] is only available on paid plans
+
+When you downgrade from Premium to free, you’ll still receive emails forwarded through your custom email masks, but you’ll no longer be able to create new masks using that subdomain. If you have more than five masks in total, you will not be able to create anymore. You’ll also lose the ability to reply to forwarded messages.
 
 ### SimpleLogin
 
