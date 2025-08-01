@@ -96,7 +96,7 @@ If you cancel your subscription, you will still enjoy the features of your paid 
 
 <div class="admonition recommendation" markdown>
 
-![Firefox Relay logo](assets/img/email-aliasing/mozillarelay.svg){ align=right }
+![Firefox Relay logo](assets/img/email-aliasing/firefoxrelay.svg){ align=right }
 
 **Firefox Relay** is a free service which provides email aliases, and optionally provides paid features like unlimited aliases, blocking promotional emails and custom subdomains.
 
