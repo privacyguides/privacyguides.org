@@ -11,11 +11,14 @@ tags:
 license: BY-SA
 schema_type: BackgroundNewsArticle
 description: We rely on services that process our data every day. It's accepted that in order to process our data, the service needs to see it in plaintext, however homomorphic encryption aims to change that by bringing E2EE to serverside processing.
-preview:
-
+preview: blog/assets/images/homomorphic-encryption/cover.png
 ---
 
 # Privacy-Enhancing Technologies Series: Homomorphic Encryption
+
+![Image of a circuit with a shield and lock on it](../assets/images/homomorphic-encryption/cover.png)
+
+<small aria-hidden="true">Illustration: fria / Privacy Guides</small>
 
 We rely on lots of server-facing services in our day to day lives, whether it's using server-side AI like ChatGPT or querying search engines. It's just assumed that when we use services like this, those services need to process our data in the clear. But, with homomorphic encryption, data can be processed server-side while still remaining E2EE.<!-- more -->
 
