@@ -225,7 +225,7 @@ According to a [Forbes](https://forbes.com/sites/davidprosser/2024/08/19/how-fab
 
 This one's a doozy. You're probably familiar with fiber optics that are able to transmit data at a high speed and efficiency compared to electrical signals. [Optalsys](https://optalysys.com/article/silicon-photonics-a-new-approach-to-acceleration) is looking to bring that speed and efficiency to chips themselves, actually processing data using light instead of electricity. They call it "silicon photonics."
 
-Optalsys believes the extra speed provided by this tech could make FHE more scalable and efficient. Their [LightLocker Node](https://optalysys.com/lightlocker-node/) is their FHE offering, and unlike other products I've listed, it seems that it's actually [launched](https://optalysys.com/resource/lightlocker-launch/).
+Optalsys believes the extra speed provided by this tech could make FHE more scalable and efficient. They offer FHE through [LightLocker Node](https://optalysys.com/lightlocker-node) and unlike the other products I've listed, it seems that it's actually [launched](https://optalysys.com/resource/lightlocker-launch).
 
 ## Final Thoughts
 
