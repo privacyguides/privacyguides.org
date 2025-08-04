@@ -229,7 +229,7 @@ Optalsys believes the extra speed provided by this tech could make FHE more scal
 
 ## Final Thoughts
 
-FHE has come a long way in such a short time, it's really only been about 16 years since the first FHE scheme was proposed and we're already seeing a huge push from the government, big tech companies, and academia, as well as a massive push for openness and collaboration from everyone involved. It's truly a great thing to see and definitely something I'd like to see more of.
+FHE has come a long way in such a short time. It's only been about 16 years since the first FHE scheme was proposed and we're already seeing a huge push from governments, big tech companies, and academia, as well as a massive push for openness and collaboration from everyone involved. It's truly a great thing to see and definitely something I'd like to see more of.
 
 In order for FHE to be widespread, we need standardization, libraries and APIs that make developing FHE software easier for developers, and hardware support. The pieces to the FHE puzzle are just now starting to come together. If you're a developer, it might be a good time to look into FHE and get in on the ground floor.
 
