@@ -30,7 +30,7 @@ This leaves an absolute treasure trove of data for companies to potentially abus
 
 ### AOL Search Data Release
 
-AOL thought it would be a great idea in 2006 to [release the searches](https://www.nytimes.com/2006/08/09/technology/a-face-is-exposed-for-aol-searcher-no-4417749.html) of over 650,000 users. It was "anonymized" by scrubbing the actual user's names and replacing them with numbers.
+AOL thought it would be a great idea in 2006 to [release the searches](https://nytimes.com/2006/08/09/technology/a-face-is-exposed-for-aol-searcher-no-4417749.html) of over 650,000 users. It was "anonymized" by scrubbing the actual user's names and replacing them with numbers.
 
 Simply using user No. 4417749's searches such as "homes sold in shadow lake subdivision gwinnett county georgia" and "60 single men", journalists at the New York Times were able to reidentify the user as Thelma Arnold, a 62-year-old widow who lives in Lilburn, Ga. They even went to her house to meet her.
 
@@ -70,7 +70,7 @@ An absolutely devastating breach of user privacy by any metric.
 
 When services process our data in the clear, we not only run the risk of the service themselves abusing their access to that data, but also court orders legally requiring them to retain data.
 
-OpenAI was required to [retain](https://arstechnica.com/tech-policy/2025/06/openai-says-court-forcing-it-to-save-all-chatgpt-logs-is-a-privacy-nightmare/) all ChatGPT user logs, even deleted ones. This is devastating for user privacy when you consider that ChatGPT handles over [1 billion](https://x.com/OpenAINewsroom/status/1864373399218475440) queries per day.
+OpenAI was required to [retain](https://arstechnica.com/tech-policy/2025/06/openai-says-court-forcing-it-to-save-all-chatgpt-logs-is-a-privacy-nightmare) all ChatGPT user logs, even deleted ones. This is devastating for user privacy when you consider that ChatGPT handles over [1 billion](https://x.com/OpenAINewsroom/status/1864373399218475440) queries per day.
 
 This is a clear violation of user privacy, and it happened out of the blue in a lawsuit that wasn't even related to user privacy. When companies have access to our data, it might not even be up to them how it's handled sometimes. This is why E2EE is so important: it's not only about trust but about making it so services *can't* access data even if they tried.
 
@@ -128,7 +128,7 @@ An [advancement](https://eprint.iacr.org/2016/421.pdf) in 2016 allowed for effic
 
 Fully-homomorphic encryption has advanced enough that it's become practical to use for some limited applications. Many big tech companies have released their own open source implementations of FHE and work is ongoing on making FHE more efficient and making development of FHE software easier.
 
-It's already being used for some highly sensitive applications like [banking](https://ibm-research.medium.com/top-brazilian-bank-pilots-privacy-encryption-quantum-computers-cant-break-92ed2695bf14) and [genome analysis](https://www.scientificamerican.com/article/how-to-preserve-the-privacy-of-your-genomic-data/).
+It's already being used for some highly sensitive applications like [banking](https://ibm-research.medium.com/top-brazilian-bank-pilots-privacy-encryption-quantum-computers-cant-break-92ed2695bf14) and [genome analysis](https://scientificamerican.com/article/how-to-preserve-the-privacy-of-your-genomic-data).
 
 If you want to see an example of (non-production quality) FHE used to serve a website, [spiralwiki.com](https://spiralwiki.com) allows you to use Wikipedia with FHE. The load times are a bit long, but it's an interesting demo.
 
@@ -140,7 +140,7 @@ In the interest of making FHE as accessible and open as possible, [OpenFHE](http
 
 IBM were one of the first companies to release an open source FHE library in 2013. Their [HElib](https://github.com/homenc/HElib) was mentioned in several papers and drove the field of FHE forward. As a cloud-focused company it makes a lot of sense that they would want to protect their customers' and their customers' customers' data as much as possible, and making efficient FHE ought to be at the top of their priority list.
 
-IBM offers FHE as part of its [security consulting services](https://www.ibm.com/services/security) so companies can transition to more secure data processing. They also offer an [SDK](https://ibm.github.io/helayers/) so developers can easily implement their data processing needs with FHE capabilities.
+IBM offers FHE as part of its [security consulting services](https://ibm.com/services/security) so companies can transition to more secure data processing. They also offer an [SDK](https://ibm.github.io/helayers) so developers can easily implement their data processing needs with FHE capabilities.
 
 ### Microsoft
 
@@ -170,11 +170,11 @@ I'd like to see Google openly using FHE in their products, they seem to bizarrel
 
 ## Looking Toward the Future of FHE
 
-Lots of companies are working toward [standardizing](https://www.iso.org/standard/87638.html) and accelerating the adoption of FHE. Dedicated FHE hardware promises to increase the speed of FHE computations to be practical to use on many more applications, and we're seeing a big effort toward making it more and more accessible for developers to implement.
+Lots of companies are working toward [standardizing](https://iso.org/standard/87638.html) and accelerating the adoption of FHE. Dedicated FHE hardware promises to increase the speed of FHE computations to be practical to use on many more applications, and we're seeing a big effort toward making it more and more accessible for developers to implement.
 
 ### HomomorphicEncryption.org
 
-[HomomorphicEncryption.org](https://homomorphicencryption.org/standard/) represents a collaboration between government agencies, industry leaders, and academics. It's the biggest effort toward establishing a standard for FHE and while that hasn't happened yet, it's on the horizon.
+[HomomorphicEncryption.org](https://homomorphicencryption.org/standard) represents a collaboration between government agencies, industry leaders, and academics. It's the biggest effort toward establishing a standard for FHE and while that hasn't happened yet, it's on the horizon.
 
 Open, standardized, and battle-tested FHE is fast approaching.
 
@@ -182,16 +182,16 @@ Open, standardized, and battle-tested FHE is fast approaching.
 
 One of the main bottlenecks for adoption of FHE is the extra computation cost. 
 
-In an effort to address this issue, DARPA introduced their [Data Protection in Virtual Environments (DPRIVE) program](https://www.darpa.mil/news/2021/homomorphic-encryption), working directly with four companies: Duality Technologies, Galois, SRI International, and Intel Federal. The end goal? To create hardware accelerators that can bring the speed closer to what the computations would be in plaintext.
+In an effort to address this issue, DARPA introduced their [Data Protection in Virtual Environments (DPRIVE) program](https://darpa.mil/news/2021/homomorphic-encryption), working directly with four companies: Duality Technologies, Galois, SRI International, and Intel Federal. The end goal? To create hardware accelerators that can bring the speed closer to what the computations would be in plaintext.
 
 Similar to [hardware-accelerated AES](https://www.ti.com/lit/ug/slau458f/slau458f.pdf?ts=1753712760177&ref_url=https%253A%252F%252Fduckduckgo.com%252F) we have in chips nowadays, these [hardware accelerators](https://spectrum.ieee.org/homomorphic-encryption) could enable FHE at speeds fast enough to be practical for most everyday computations.(1)
 { .annotate }
 
-1. This is an example of [Private Information Retrieval](https://crypto.stanford.edu/pir-library/) (PIR)
+1. This is an example of [Private Information Retrieval](https://crypto.stanford.edu/pir-library) (PIR).
 
 #### BASALISC
 
-Galois's Bespoke Asynchronous Silicon-Accelerated LWE Intrinsics through Software/Hardware Codesign (BASALISC) is their attempt at creating a FHE [ASIC](https://en.wikipedia.org/wiki/Application-specific_integrated_circuit). Galois estimates it can speed up FHE by around 10,000 times
+Galois's Bespoke Asynchronous Silicon-Accelerated LWE Intrinsics through Software/Hardware Codesign (BASALISC) is their attempt at creating a FHE [ASIC](https://en.wikipedia.org/wiki/Application-specific_integrated_circuit). Galois estimates it can speed up FHE by around 10,000 times.
 
 #### HERACLES
 
@@ -199,11 +199,11 @@ Intel's [HERACLES](https://community.intel.com/t5/Blogs/Tech-Innovation/Data-Cen
 
 Intel also released an [SDK](https://github.com/IntelLabs/encrypted-computing-sdk) to allow developers to easily develop FHE solutions for different architectures, with hopes to eventually integrate with Google's [HEIR](https://heir.dev) compiler.
 
-They also developed a [FHE library](https://www.intel.com/content/www/us/en/developer/articles/technical/homomorphic-encryption/accelerating-homomorphic-encryption-for-fpga.html) for Field-Programmable Gate Arrays (FPGAs), essentially a circuit that can have its logic reprogrammed after manufacturing. While not offering the same efficiency as dedicated hardware, they could act as a stopgap while ASICs and hardware accelerators for FHE are finalized.
+They also developed a [FHE library](https://intel.com/content/www/us/en/developer/articles/technical/homomorphic-encryption/accelerating-homomorphic-encryption-for-fpga.html) for Field-Programmable Gate Arrays (FPGAs), essentially a circuit that can have its logic reprogrammed after manufacturing. While not offering the same efficiency as dedicated hardware, they could act as a stopgap while ASICs and hardware accelerators for FHE are finalized.
 
 #### Mx^80 FracTLcore
 
-Cornami's [Mx^80 FracTLcore](https://cornami.net/mx80-system/) system boasts "Encrypted Computing as Plaintext Speed", which is extremely interesting to say the least. The hardware isn't available yet but they offer [early access](https://scifrapi.cornami.com/connect/) if you sign up through their website. 
+Cornami's [Mx^80 FracTLcore](https://cornami.net/mx80-system) system boasts "Encrypted Computing as Plaintext Speed", which is extremely interesting to say the least. The hardware isn't available yet but they offer [early access](https://scifrapi.cornami.com/connect) if you sign up through their website.
 
 Their computing is based on parallelism of data processing utilizing between thousands and millions of cores, able to scale cleanly depending on your needs. Since FHE operations can be made more efficient by batching computations together, their new parallel computing architecture shows promise for pushing FHE into being much closer to the same speed as plaintext computations.
 
@@ -217,13 +217,13 @@ For example, TREBUCHET utilized Ring Processing Units with multiple lanes for qu
 
 #### Fabric
 
-[Fabric Technologies](https://www.fabriccryptography.com/blog/risc-zero-announcement) is casting a wider net and aiming to make a "Verifiable Processing Unit" or VPU, a type of chip that handles multiple cryptography-related operations such as FHE and Zero-Knowledge Proofs. I'm curious how a chip that's designed to be more general will fare compared to other competitors in the FHE space.
+[Fabric Technologies](https://fabriccryptography.com/blog/risc-zero-announcement) is casting a wider net and aiming to make a "Verifiable Processing Unit" or VPU, a type of chip that handles multiple cryptography-related operations such as FHE and Zero-Knowledge Proofs. I'm curious how a chip that's designed to be more general will fare compared to other competitors in the FHE space.
 
-According to a [Forbes](https://www.forbes.com/sites/davidprosser/2024/08/19/how-fabric-cryptography-plans-to-become-the-nvidia-of-privacy-tech/) article, they were looking to launch in 2025, but their last blog post is from October 2024. I can't seem to find any info on if they successfully launched or not, so we should keep an eye out I suppose.
+According to a [Forbes](https://forbes.com/sites/davidprosser/2024/08/19/how-fabric-cryptography-plans-to-become-the-nvidia-of-privacy-tech) article, they were looking to launch in 2025, but their last blog post is from October 2024. I can't seem to find any info on if they successfully launched or not, so we should keep an eye out I suppose.
 
 #### Optalsys
 
-This one's a doozy. You're probably familiar with fiber optics that are able to transmit data at a high speed and efficiency compared to electrical signals. [Optalsys](https://optalysys.com/article/silicon-photonics-a-new-approach-to-acceleration/) is looking to bring that speed and efficiency to chips themselves, actually processing data using light instead of electricity. They call it "silicon photonics."
+This one's a doozy. You're probably familiar with fiber optics that are able to transmit data at a high speed and efficiency compared to electrical signals. [Optalsys](https://optalysys.com/article/silicon-photonics-a-new-approach-to-acceleration) is looking to bring that speed and efficiency to chips themselves, actually processing data using light instead of electricity. They call it "silicon photonics."
 
 Optalsys believes the extra speed provided by this tech could make FHE more scalable and efficient. Their [LightLocker Node](https://optalysys.com/lightlocker-node/) is their FHE offering, and unlike other products I've listed, it seems that it's actually [launched](https://optalysys.com/resource/lightlocker-launch/).
 
