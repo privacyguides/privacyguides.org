@@ -46,7 +46,7 @@ Equifax, a credit bureau which handles sensitive data such as SSNs, was [breache
 
 ### MediSecure
 
-In 2024, the [personal health information](https://medisecurenotification.wordpress.com) of "2.9 million Australians who used the MediSecure prescription delivery service during the approximate period of March 2019 to November 2023" was breached. The data included extremely sensitive health data such as
+In 2024, the [personal health information](https://medisecurenotification.wordpress.com) of "2.9 million Australians who used the MediSecure prescription delivery service during the approximate period of March 2019 to November 2023" was breached. Extremely sensitive health data exposed in this breach included, but was not limited to:
 
 - full name
 - title
