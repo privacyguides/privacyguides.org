@@ -86,7 +86,7 @@ The second solution they propose is a solution that doesn't require decryption o
 
 The schemes mentioned notably allow only for *either* addition and subtraction *or* multiplication and division, which means if you want to do both, you need to decrypt the data. Since these schemes can only perform one type of operation or the other, they're considered *partially homomorphic*.
 
-Despite the shaky security of these early schemes, they would lay the groundwork for the field in the field going forward.
+Despite the shaky security of these early schemes, they would lay the groundwork for the field going forward.
 
 ## Fully Homomorphic Encryption
 
