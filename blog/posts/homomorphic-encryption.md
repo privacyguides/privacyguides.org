@@ -68,7 +68,7 @@ An absolutely devastating breach of user privacy by any metric.
 
 ### OpenAI
 
-When services process our data in the clear, we not only run the risk of the service themselves abusing their access to that data, but also court orders legally requiring them to retain data.
+When services process our data in the clear, we run the risk of not only the service themselves abusing their access to that data, but also court orders legally requiring them to retain data.
 
 OpenAI was required to [retain](https://arstechnica.com/tech-policy/2025/06/openai-says-court-forcing-it-to-save-all-chatgpt-logs-is-a-privacy-nightmare) all ChatGPT user logs, even deleted ones. This is devastating for user privacy when you consider that ChatGPT handles over [1 billion](https://x.com/OpenAINewsroom/status/1864373399218475440) queries per day.
 
