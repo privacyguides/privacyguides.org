@@ -162,7 +162,7 @@ Apple has also developed a [FHE library for Swift](https://github.com/apple/swif
 
 Google has put a lot of effort into advancing FHE, although I couldn't find any examples of them using FHE in their products as of yet.
 
-Their [HEIR](https://heir.dev) project is a compiler that aims to be "the industry-standard compiler for FHE." HEIR casts a wide net; they want to allow developers to easily convert their high-level programs to use FHE, while also supporting code generation for upcoming FHE hardware accelerators. They also want to be a one-stop shop for researchers who are looking to optimize a particular part of an algorithm. They can use HEIR as a benchmark to test against, and if their optimization becomes standard, it can be implemented within HEIR.
+Their [HEIR](https://heir.dev) project is a compiler that aims to be "the industry-standard compiler for FHE." HEIR casts a wide net: They want to allow developers to easily convert their high-level programs to use FHE while also supporting code generation for upcoming FHE hardware accelerators. They also want to be a one-stop shop for researchers who are looking to optimize a particular part of an algorithm. They can use HEIR as a benchmark to test against, and if their optimization becomes standard, it can be implemented within HEIR.
 
 Google's goals are ambitious, and I hope it works out the way they're hoping. The landscape of FHE is very complex, with many companies putting forth their own implementations of FHE and several different organizations all with similar names and aims. It's a bit confusing to follow, so I hope it can be simplified in the future.
 
