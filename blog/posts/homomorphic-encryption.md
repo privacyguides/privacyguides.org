@@ -110,7 +110,7 @@ Several papers would chip away at the inefficiencies of Gentry's original scheme
 
 Still, even with all of these improvements, the second generation fully-homomorphic schemes would still rely on bootstrapping a partially-homomorphic scheme.
 
-[Researchers](https://eprint.iacr.org/2011/344.pdf) were able to achieve fully homomorphic encryption using arbitrary lattices instead of ideal lattices using a new relinearization technique. They were also able to remove the *squashing* step, improving efficiency and reducing the amount of assumptions that have to be made.
+[Researchers](https://eprint.iacr.org/2011/344.pdf) were able to achieve FHE using arbitrary lattices instead of ideal lattices using a new relinearization technique. They were also able to remove the *squashing* step, improving efficiency and reducing the amount of assumptions that have to be made.
 
 A later [paper](https://eprint.iacr.org/2011/277.pdf) introduced *leveled* homomorphic encryption, allowing for evaluating problems of any length. It introduced modulus switching as an improved noise reduction technique. It also  used bootstrapping as an optimization instead of being required to achieve fully homomorphic encryption. They also introduced *batching*, where they incorporate multiple plaintexts into one ciphertext, allowing them to evaluate multiple inputs with the same efficiency as evaluating one.
 
