@@ -10,7 +10,7 @@ tags:
     - Homomorphic Encryption
 license: BY-SA
 schema_type: BackgroundNewsArticle
-description: We rely on services that process our data every day. It's accepted that in order to process our data, the service needs to see it in plaintext, however homomorphic encryption aims to change that by bringing E2EE to serverside processing.
+description: We rely on services that process our data every day. It's accepted that in order to process our data, the service needs to see it in plaintext, however homomorphic encryption aims to change that by bringing end-to-end encryption to server-side processing.
 preview: blog/assets/images/homomorphic-encryption/cover.png
 ---
 
