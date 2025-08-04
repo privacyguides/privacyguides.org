@@ -78,7 +78,7 @@ This is a clear violation of user privacy, and it happened out of the blue in a 
 
 As is typical, the first mention of homomorphic encryption come from a paper from 1978 titled *[ON DATA BANKS AND PRIVACY HOMOMORPHISMS](https://people.csail.mit.edu/rivest/pubs/RAD78.pdf)*.
 
-It's funny seeing the concerns of the time. A given example is a loan company that uses a time share (sharing a computer with others and having a limited time window to do your computing) with another company and how they have to choose between that and getting their own computer. With companies now moving more and more of their own infrastructure to cloud services provided by other companies, it seems we've come full circle.
+It's funny seeing the concerns of the time. The paper gives an example of a loan company that uses a time share (i.e., sharing a computer with others and having a limited time window to do your computing) with another company and how they have to choose between that and getting their own computer. With companies now moving more and more of their own infrastructure to cloud services provided by other companies, it seems we've come full circle.
 
 One of the suggestions is to use modified hardware that can decrypt data for the CPU to process. The idea of using secure hardware to protect user data is currently in use through Confidential Computing and the use of secure enclaves in the CPU to separate out the data of different users.
 
