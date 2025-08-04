@@ -92,7 +92,7 @@ Despite the shaky security of these early schemes, they would lay the groundwork
 
 It wasn't until 2009 when the idea of homomorphic encryption would be improved on in *[A FULLY HOMOMORPHIC ENCRYPTION SCHEME](https://crypto.stanford.edu/craig/craig-thesis.pdf)* by Craig Gentry.
 
-This paper introduced fully homomorphic encryption, which allows for *both* addition *and* multiplication, meaning it can now theoretically be used for any calculation.
+This paper introduced fully homomorphic encryption (FHE), which allows for *both* addition *and* multiplication, meaning it can now theoretically be used for any calculation.
 
 The scheme relies on some injected "noise" when performing operations. When adding, the noise is increased, but when multiplying the noise is amplified quite a bit. The scheme relies on staying below a certain noise threshold so that the answer can be decrypted and still be accurate.
 
