@@ -207,7 +207,7 @@ Cornami's [Mx^80 FracTLcore](https://cornami.net/mx80-system) system boasts "Enc
 
 Their computing is based on parallelism of data processing utilizing between thousands and millions of cores, able to scale cleanly depending on your needs. Since FHE operations can be made more efficient by batching computations together, their new parallel computing architecture shows promise for pushing FHE into being much closer to the same speed as plaintext computations.
 
-I'm curious to see these claims put up to scrutiny, because if they're true then that would be completely revolutionary; it would mean that we could finally start replacing plaintext processing of data with FHE with almost no extra overhead.
+I'm curious to see these claims put up to scrutiny, because if they're true then that would be completely revolutionary. It would mean that we could finally start replacing plaintext processing of data with FHE with almost no extra overhead.
 
 #### TREBUCHET
 
