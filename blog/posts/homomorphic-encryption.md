@@ -34,7 +34,7 @@ AOL thought it would be a great idea in 2006 to [release the searches](https://n
 
 Simply using user No. 4417749's searches such as "homes sold in shadow lake subdivision gwinnett county georgia" and "60 single men", journalists at the New York Times were able to reidentify the user as Thelma Arnold, a 62-year-old widow who lives in Lilburn, Ga. They even went to her house to meet her.
 
-Search engines keeping enough data to send someone straight to your house is *terrifying* needless to say, and that's just what they released *willingly*.
+Needless to say, the retention of enough search engine data to deduce the precise location of a user is *terrifying*, and that's just the data they released *willingly*.
 
 ### Yahoo!
 
