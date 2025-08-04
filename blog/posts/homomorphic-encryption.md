@@ -84,7 +84,7 @@ One of the suggestions is to use modified hardware that can decrypt data for the
 
 The second solution they propose is a solution that doesn't require decryption of user data at all, which they call "privacy homomorphisms". The examples they give theoretically allow for addition, subtraction, multiplication, and division on encrypted data, although they state in the paper that many of them are likely not secure.
 
-Notably, the schemes mentioned allow only for *either* addition and subtraction *or* multiplication and division, which means if you want to do both you need to decrypt the data. Since these schemes can only perform one type of operation or the other, they're considered *partially homomorphic*.
+The schemes mentioned notably allow only for *either* addition and subtraction *or* multiplication and division, which means if you want to do both, you need to decrypt the data. Since these schemes can only perform one type of operation or the other, they're considered *partially homomorphic*.
 
 Despite the shaky security of these early schemes, they would lay the groundwork for the field in the field going forward.
 
