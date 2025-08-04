@@ -138,7 +138,7 @@ In the interest of making FHE as accessible and open as possible, [OpenFHE](http
 
 ### IBM
 
-IBM were one of the first companies to release an open source FHE library in 2013. Their [HElib](https://github.com/homenc/HElib) was mentioned in several papers and drove the field of FHE forward. As a cloud-focused company it makes a lot of sense that they would want to protect their customers' and their customers' customers' data as much as possible, and making efficient FHE ought to be at the top of their priority list.
+IBM was one of the first companies to release an open-source FHE library in 2013. Their [HElib](https://github.com/homenc/HElib) was mentioned in several papers and drove the field of FHE forward. As a cloud-focused company, it makes a lot of sense that they would want to protect their customers and their respective data as much as possible, and making efficient FHE ought to be at the top of their priority list.
 
 IBM offers FHE as part of its [security consulting services](https://ibm.com/services/security) so companies can transition to more secure data processing. They also offer an [SDK](https://ibm.github.io/helayers) so developers can easily implement their data processing needs with FHE capabilities.
 
