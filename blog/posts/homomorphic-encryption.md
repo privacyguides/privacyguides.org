@@ -24,7 +24,7 @@ We rely on lots of server-facing services in our day to day lives, whether it's 
 
 ## Privacy Violations
 
-We've surrendered much of our lives to the services we use everyday. From music and video streaming, to sending search engines just about every question under the sun, to pouring our heart out to AI services like ChatGPT. Even things we don't typically think of as online services like buying things at the store usually query a database somewhere, sight unseen.
+We've surrendered much of our lives to the services we use everyday, including music and video streaming, extensive search engine queries, and long exchanges with AI services like ChatGPT. Even things we don't typically think of as online services like buying things at the store usually query a database somewhere sight unseen.
 
 This leaves an absolute treasure trove of data for companies to potentially abuse or otherwise leave open to being hacked and leaked to the internet. This has happened and will continue to happen until every service we rely on every day can implement robust, technical privacy protections into their services, not just pinkie-promises in their privacy policies to not abuse your data.
 
