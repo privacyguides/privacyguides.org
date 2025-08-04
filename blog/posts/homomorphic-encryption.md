@@ -106,7 +106,7 @@ Unfortunately these early homomorphic encryption schemes weren't very performant
 
 ## Second Generation FHE
 
-Several papers would chip away at the inefficiencies of Gentry's original scheme, finding ways of improving it over the next few years. They found a way to manage noise better
+Several papers would chip away at the inefficiencies of Gentry's original scheme, finding ways of improving it over the next few years like discovering how to manage noise better.
 
 Still, even with all of these improvements, the second generation fully-homomorphic schemes would still rely on bootstrapping a partially-homomorphic scheme.
 
