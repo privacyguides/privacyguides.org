@@ -72,7 +72,7 @@ When services process our data in the clear, we run the risk of not only the ser
 
 OpenAI was required to [retain](https://arstechnica.com/tech-policy/2025/06/openai-says-court-forcing-it-to-save-all-chatgpt-logs-is-a-privacy-nightmare) all ChatGPT user logs, even deleted ones. This is devastating for user privacy when you consider that ChatGPT handles over [1 billion](https://x.com/OpenAINewsroom/status/1864373399218475440) queries per day.
 
-This is a clear violation of user privacy, and it happened out of the blue in a lawsuit that wasn't even related to user privacy. When companies have access to our data, it might not even be up to them how it's handled sometimes. This is why E2EE is so important: it's not only about trust but about making it so services *can't* access data even if they tried.
+This is a clear violation of user privacy, and it happened out of the blue in a lawsuit that wasn't even related to user privacy. When companies have access to our data, it might not even be up to them how it's handled sometimes. This is why **end-to-end encryption** is so important: It's not only about trust but also about technical guarantees against unauthorized access to data by the services themselves.
 
 ## Beginnings of Homomorphic Encryption
 
