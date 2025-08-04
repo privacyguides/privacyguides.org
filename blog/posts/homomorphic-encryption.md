@@ -42,7 +42,7 @@ In 2013, the search engine Yahoo! experienced a [data breach](https://www.bbc.co
 
 ### Equifax
 
-The credit bureau Equifax which handles sensitive data such as SSN's was [breached](https://www.ftc.gov/enforcement/refunds/equifax-data-breach-settlement) in 2017, exposing extremely sensitive data of 147 million people. The company settled for $425 million in damages, but it's hard to put a number on the devastation of having your identity stolen. Stronger protections for sensitive financial data need to be put in place to avoid situations like this.
+Equifax, a credit bureau which handles sensitive data such as SSNs, was [breached](https://ftc.gov/enforcement/refunds/equifax-data-breach-settlement) in 2017, exposing the extremely sensitive data of 147 million people. The company settled for $425 million in damages, but it's hard to put a number on the devastation of having your identity stolen. Stronger protections for sensitive financial data need to be put in place to avoid situations like this.
 
 ### MediSecure
 
