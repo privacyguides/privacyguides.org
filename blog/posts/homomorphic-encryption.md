@@ -180,7 +180,7 @@ Open, standardized, and battle-tested FHE is fast approaching.
 
 ### FHE Hardware
 
-One of the main bottlenecks for adoption of FHE is the extra computation cost. 
+One of the main bottlenecks for the adoption of FHE is the extra computation cost. 
 
 In an effort to address this issue, DARPA introduced their [Data Protection in Virtual Environments (DPRIVE) program](https://darpa.mil/news/2021/homomorphic-encryption), working directly with four companies: Duality Technologies, Galois, SRI International, and Intel Federal. The end goal? To create hardware accelerators that can bring the speed closer to what the computations would be in plaintext.
 
