@@ -144,7 +144,7 @@ IBM offers FHE as part of its [security consulting services](https://ibm.com/ser
 
 ### Microsoft
 
-Microsoft released its open source FHE library next, called [SEAL](https://www.microsoft.com/en-us/research/project/microsoft-seal/).
+Subsequently, Microsoft released its open-source FHE library called [SEAL](https://microsoft.com/en-us/research/project/microsoft-seal).
 
 Microsoft uses FHE for their Password Monitor feature for the [password manager](https://www.microsoft.com/en-us/research/blog/password-monitor-safeguarding-passwords-in-microsoft-edge/) in Edge, which checks if your password has been found in a public data breach.
 
