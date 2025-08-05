@@ -316,7 +316,6 @@ cryptofs
 siv-mode
 cryptolib-swift
 cryptomator-objc-cryptor
-Picocrypt
 VeraCrypt
 TrueCrypt
 cryptoprocessor
