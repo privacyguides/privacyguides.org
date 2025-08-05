@@ -119,7 +119,6 @@ For more details about each project, why they were chosen, and additional tips o
 
 - ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji loading=lazy } [uBlock Origin](browser-extensions.md#ublock-origin)
 - ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ .twemoji loading=lazy } [uBlock Origin Lite](browser-extensions.md#ublock-origin-lite)
-- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji loading=lazy } [AdGuard for iOS](browser-extensions.md#adguard)
 
 </div>
 
