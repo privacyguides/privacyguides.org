@@ -120,7 +120,7 @@ These apps help you collect and manage personal health data and share it with he
 
 <div class="admonition recommendation" markdown>
 
-![Apple logo](assets/img/health-and-wellness/apple-health.svg#only-light){ align=right }![Apple logo](assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ align=right }
+![Apple logo](assets/img/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
 
 **Apple Health Records** is a built-in feature within [Apple Health](#apple-health) that allows you to view, store, and share your health records. It shares the security and privacy features of Apple Health.
 
