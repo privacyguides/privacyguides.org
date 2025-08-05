@@ -140,7 +140,7 @@ Many desktop Linux distributions (Fedora, openSUSE, etc.) come with [NetworkMana
 
 It is possible to randomize the [MAC address](https://en.wikipedia.org/wiki/MAC_address) when using NetworkManager. This provides a bit more privacy on Wi-Fi networks as it makes it harder to track specific devices on the network you’re connected to. It does [**not**](https://papers.mathyvanhoef.com/wisec2016.pdf) make you anonymous.
 
-In the terminal, create a new file `/etc/NetworkManager/conf.d/00-macrandomize.conf` and add the following to it:
+In the terminal, create a new file `/etc/NetworkManager/conf.d/99-macrandomize.conf` and add the following to it:
 
 ```
 [device]
