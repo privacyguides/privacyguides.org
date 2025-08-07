@@ -15,4 +15,4 @@ preview:
 ---
 # The (Many) Problems with Email
 
-Email is ubiquitous. If you want to function in modern society, you pretty much have to have an email address. Despite all the technological advances we've made since its invention in the 1970's
+Email is ubiquitous. If you want to function in modern society, you pretty much have to have an email address. Despite all the technological advances we've made since its invention in the 1970's<!-- more -->
