@@ -74,7 +74,6 @@ These general purpose apps can do everything from counting steps and tracking sl
 
 **Apple Fitness** is the default fitness app for iOS. Apple Fitness always uses end-to-end encryption when syncing across multiple devices. Additionally, almost all measured data is processed on your device.
 
-[:octicons-home-16: Homepage](https://apps.apple.com/app/apple-fitness/id1208224953){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/consumer-health-personal-data/en-ww){ .card-link title="Privacy Policy" }
 
 <details class="downloads" markdown>
