@@ -79,7 +79,7 @@ These general purpose apps can do everything from counting steps and tracking sl
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-fitness/id1208224953)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1208224953)
 
 </details>
 
