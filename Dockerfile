@@ -1,4 +1,4 @@
-FROM python:3.12-bookworm AS base
+FROM python:3.12-slim-bookworm AS base
 
 LABEL org.opencontainers.image.source="https://github.com/privacyguides/privacyguides.org"
 
@@ -34,6 +34,18 @@ COPY Pipfile.lock .
 RUN PIPENV_VENV_IN_PROJECT=1 pipenv install --deploy
 
 ####################################################
+# Stage: nodejs-deps
+# Install nodejs/npm and compilation dependencies
+####################################################
+FROM node:24-bookworm-slim AS nodejs-deps
+
+RUN npm i -g all-contributors-cli
+RUN npm install -g pkg
+
+RUN cd /usr/local/lib/node_modules/all-contributors-cli && \
+    pkg dist/cli.js -t node18-linux -o /usr/local/bin/all-contributors-cli
+
+####################################################
 # Stage: runtime
 # Install runtime dependencies and copy runtime artifacts
 ####################################################
@@ -59,6 +71,9 @@ RUN apt-get update && \
 # Copy virtual environment and local mkdocs-material module from python-deps stage
 COPY --from=python-deps /.venv /.venv
 COPY --from=python-deps /modules/mkdocs-material /modules/mkdocs-material
+
+# Copy all-contributors-cli from nodejs-deps stage
+COPY --from=nodejs-deps /usr/local/bin/all-contributors-cli /usr/local/bin/all-contributors-cli
 
 # Ensure the virtual environment’s bin directory is first in PATH
 ENV PATH="/.venv/bin:$PATH"

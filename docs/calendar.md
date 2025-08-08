@@ -1,5 +1,5 @@
 ---
-title: "Calendar Sync"
+title: Calendar Sync
 icon: material/calendar
 description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
 cover: calendar.webp
@@ -9,7 +9,7 @@ cover: calendar.webp
 - [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-**Calendars** contain some of your most sensitive data; use products that implement E2EE at rest to prevent a provider from reading them.
+**Calendars** contain some of your most sensitive data; use products that implement end-to-end encryption at rest to prevent a provider from reading them.
 
 ## Tuta
 
@@ -18,21 +18,22 @@ cover: calendar.webp
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** offers a free and encrypted calendar across their supported platforms. Features include: automatic E2EE of all data, sharing features, import/export functionality, multifactor authentication, and [more](https://tuta.com/calendar-app-comparison).
+**Tuta** offers a free and encrypted calendar across their supported platforms. Features include automatic E2EE of all data, sharing features, import/export functionality, multifactor authentication, and [more](https://tuta.com/calendar-app-comparison).
 
-Multiple calendars and extended sharing functionality is limited to paid subscribers.
+Multiple calendars and extended sharing functionality are limited to paid subscribers.
 
 [:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
+[:octicons-heart-16:](https://tuta.com/community#donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.calendar)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id6657977811)
+- [:simple-github: GitHub](https://github.com/tutao/tutanota/releases?q=Calendar)
 - [:fontawesome-brands-windows: Windows](https://tuta.com/blog/desktop-clients)
 - [:simple-apple: macOS](https://tuta.com/blog/desktop-clients)
 - [:simple-linux: Linux](https://tuta.com/blog/desktop-clients)
@@ -49,7 +50,9 @@ Multiple calendars and extended sharing functionality is limited to paid subscri
 
 ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
 
-**Proton Calendar** is an encrypted calendar service available to Proton members via web or mobile clients. Features include: automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide). Those on the free tier gain access to 3 calendars, whereas paid subscribers can create up to 25 calendars. Extended sharing functionality is also limited to paid subscribers.
+**Proton Calendar** is an encrypted calendar service available to Proton members via web or mobile clients. Features include automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide).
+
+Those on the free tier have access to 3 calendars, whereas paid subscribers can create up to 25 calendars. Extended sharing functionality is also limited to paid subscribers.
 
 [:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/calendar/privacy-policy){ .card-link title="Privacy Policy" }

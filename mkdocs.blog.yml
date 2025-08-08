@@ -118,7 +118,7 @@ theme:
     - search.highlight
 
 extra_css:
-  - assets/stylesheets/extra.css?v=20240829
+  - assets/stylesheets/extra.css?v=20250723
 
 watch:
   - theme
@@ -134,6 +134,7 @@ plugins:
     post_readtime: false
     authors_profiles: true
     authors_profiles_toc: true
+    pagination_per_page: 20
     categories_allowed:
       - Announcements
       - Opinion

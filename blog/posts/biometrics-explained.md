@@ -11,6 +11,8 @@ license: BY-SA
 schema_type: BackgroundNewsArticle
 description: |
   Biometrics are a convenient and secure way to authenticate our devices. Many of us use and trust the biometrics of our devices without much thought, but are they really secure? With so many options, which ones are the best?
+preview:
+  cover: blog/assets/images/biometrics-explained/biometrics.webp
 ---
 # Biometrics Explained
 
