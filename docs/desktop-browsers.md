@@ -295,8 +295,8 @@ Brave allows you to select additional content filters within the internal `brave
 
 - [x] Select **Strict** under *Upgrade connections to HTTPS*
 - [x] (Optional) Select **Block Scripts** (1)
-- [x] Check **Block fingerprinting**
-- [x] Select **Block third-party cookies**
+- [x] Check **Block fingerprinting** (Enabled by default)
+- [x] Select **Block third-party cookies** (Enabled by default)
 - [x] Check **Forget me when I close this site** (2)
 - [ ] Uncheck all social media components
 
@@ -310,12 +310,12 @@ Brave allows you to select additional content filters within the internal `brave
 <div class="annotate" markdown>
 
 - [x] Select **Don't allow sites to use the V8 optimizer** under *Security* → *Manage V8 security* (1)
-- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
+- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings* (Enabled by default)
 - [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [ ] Uncheck **Use Google services for push messaging** (Disabled by default)
+- [x] Select **Auto-redirect AMP pages** (Enabled by default)
+- [x] Select **Auto-redirect tracking URLs** (Enabled by default)
+- [x] Select **Prevent sites from fingerprinting me based on my language preferences** (Enabled by default)
 
 </div>
 
