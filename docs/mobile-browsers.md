@@ -106,13 +106,13 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     <div class="annotate" markdown>
 
     - [x] Select **Aggressive** under *Block trackers & ads*
-    - [x] Select **Auto-redirect AMP pages**
-    - [x] Select **Auto-redirect tracking URLs**
+    - [x] Select **Auto-redirect AMP pages** (Enabled by default)
+    - [x] Select **Auto-redirect tracking URLs** (Enabled by default)
     - [x] Select **Require all connections to use HTTPS (strict)** under *Upgrade connections to HTTPS*
     - [x] (Optional) Select **Block Scripts** (1)
-    - [x] Select **Block third-party cookies** under *Block Cookies*
-    - [x] Select **Block Fingerprinting**
-    - [x] Select **Prevent fingerprinting via language settings**
+    - [x] Select **Block third-party cookies** under *Block Cookies* (Enabled by default)
+    - [x] Select **Block Fingerprinting** (Enabled by default)
+    - [x] Select **Prevent fingerprinting via language settings** (Enabled by default)
 
     <details class="warning" markdown>
     <summary>Use default filter lists</summary>
@@ -133,10 +133,10 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
     - [x] Select **Aggressive** under *Trackers & Ads Blocking*
     - [x] Select **Strict** under *Upgrade Connections to HTTPS*
-    - [x] Select **Auto-Redirect AMP pages**
-    - [x] Select **Auto-Redirect Tracking URLs**
+    - [x] Select **Auto-Redirect AMP pages** (Enabled by default)
+    - [x] Select **Auto-Redirect Tracking URLs** (Enabled by default)
     - [x] (Optional) Select **Block Scripts** (1)
-    - [x] Select **Block Fingerprinting**
+    - [x] Select **Block Fingerprinting** (Enabled by default)
     - [x] Select **Site Tabs Closed** under *Auto Shred*
 
     <details class="warning" markdown>
@@ -166,7 +166,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
     - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - [x] (Optional) Select **No protection** under *Safe Browsing* (1)
-    - [ ] Uncheck **Allow sites to check if you have payment methods saved**
+    - [ ] Uncheck **Allow sites to check if you have payment methods saved** (Disabled by default)
     - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
     - [x] Select **Close tabs on exit**
     - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
@@ -179,7 +179,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 === "iOS"
 
-    - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
+    - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)** (Disabled by default)
     - [ ] Uncheck **Automatically send daily usage ping to Brave**
 
 #### Leo
