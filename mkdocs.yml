@@ -1,6 +1,6 @@
 # SPDX-FileCopyrightText: 2022 Jonah Aragon <jonah@privacyguides.org>
 #
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: MIT OR CC-BY-SA-4.0
 
 docs_dir: !ENV [BUILD_DOCS_DIR, "docs"]
 site_url: !ENV [BUILD_SITE_URL, "https://www.privacyguides.org/en/"]

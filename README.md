@@ -1,7 +1,7 @@
 <!--
 SPDX-FileCopyrightText: 2019 Jonah Aragon <jonah@privacyguides.org>
 
-SPDX-License-Identifier: MIT
+SPDX-License-Identifier: MIT OR CC-BY-SA-4.0
 -->
 
 <!-- markdownlint-disable MD041 MD045 -->
@@ -90,19 +90,9 @@ All contributors to the site are listed [here](#contributors). If you have contr
 
 ## License
 
-Copyright &copy; 2019 - 2024 [Privacy Guides contributors](#contributors).
-
-Privacy Guides content is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](/LICENSE), and the underlying source code used to format and display that content on [www.privacyguides.org](https://www.privacyguides.org) is licensed under the [MIT License](/LICENSE-CODE).
-
-Generally speaking, **content** can be found in the [`/docs`](/docs), [`/theme/assets/img`](/theme/assets/img) and [`/includes`](/includes) folders; and **source code** and configuration files can be found in the [`/config`](/config) and [`/theme`](/theme) folders, and in the root of this repository. Any source code snippets contained within documentation files are [MIT Licensed](/LICENSE-CODE). Please contact us if you require clarification on any of these terms.
-
-These licenses do not apply to any work where another license is otherwise noted.
-
-**Logos** in the [`/theme/assets/img`](/theme/assets/img) folder may not be original works of Privacy Guides and therefore cannot be (re)licensed by us. We believe that these logos obtained from third-party providers are either in the public domain or **fair use**. In a nutshell, legal [fair use doctrine](https://copyright.gov/fair-use/more-info.html) allows the use of copyrighted images in order to identify the subject for purposes of public comment. However, these logos and other images may still be subject to trademark laws in one or more jurisdictions. Before using this content, please ensure that it is used to identify the entity or organization that owns the trademark and that you have the right to use it under the laws which apply in the circumstances of your intended use. *When copying content from this website, you are solely responsible for ensuring that you do not infringe someone else's trademark or copyright.*
+This repository is [REUSE compliant](https://reuse.software/), meaning each file is individually annotated with copyright information. Typically, most content you would read on the site is [**CC BY-SA 4.0**](LICENSES/CC-BY-SA-4.0.txt). You must always check the copyright license information in each file you copy before using it in your own work. If you are confused about who owns the copyright for a particular file or what license it is available under, please email <jonah@privacyguides.org>.
 
 You may comply with our license terms in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use. You **may not** use the Privacy Guides branding in your own project without express approval from this project. Privacy Guides's brand trademarks include the "Privacy Guides" wordmark and shield logo.
-
-When you contribute to this repository you are doing so under the above licenses, and you are granting Privacy Guides a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
 
 ## Developing
 

@@ -1,25 +1,4 @@
-# SPDX-FileCopyrightText: 2025 Jonah Aragon <jonah@privacyguides.org>
-#
-# SPDX-License-Identifier: MIT
-
 version = 1
-
-# Fallback
-[[annotations]]
-path = [
-    "docs/*",
-    "docs/advanced/*",
-    "docs/android/*",
-    "docs/basics/*",
-    "docs/os/**",
-    "docs/self-hosting/*"
-]
-SPDX-FileCopyrightText = [
-  "Privacy Guides <https://magicgrants.org/funds/privacy_guides/>",
-  "Contributors to Privacy Guides <https://www.privacyguides.org>"
-]
-SPDX-License-Identifier = "CC-BY-SA-4.0"
-SPDX-FileContributor = "Jonah Aragon <jonah@privacyguides.org>"
 
 # Computer-generated files and other files which cannot be copyrighted
 [[annotations]]
@@ -41,29 +20,38 @@ precedence = "override"
 SPDX-FileCopyrightText = "NONE"
 SPDX-License-Identifier = "CC0-1.0"
 
-# Privacy Guides Employee Works
+# Privacy Guides Paid Work - Fria
 [[annotations]]
 path = [
-    "videos/posts/**",
-    "blog/assets/images/clearing-your-browsing-data/*",
-    "blog/assets/images/cryptpad-review/*",
     "blog/assets/images/digital-provenance/*",
-    "blog/assets/images/clearing-your-browsing-data/*",
-    "blog/assets/images/in-praise-of-tor/*",
-    "blog/assets/images/installing-and-using-tails/*",
-    "blog/assets/images/installing-keepassxc-and-yubikey/*",
-    "blog/assets/images/interview-with-micah-lee/*",
-    "blog/assets/images/keepassium-review/*",
-    "blog/assets/images/clearing-your-browsing-data/*",
-    "blog/assets/images/mastodon-privacy-and-security/*",
-    "blog/assets/images/mastodon-tutorial-privacy-and-security/*",
-    "blog/assets/images/privacy-pass/*",
-    "blog/assets/images/yubikey-reset-and-backup/*",
+    "blog/assets/images/privacy-pass/*"
 ]
 SPDX-FileCopyrightText = "Privacy Guides <https://magicgrants.org/funds/privacy_guides/>"
 SPDX-License-Identifier = "CC-BY-SA-4.0"
+SPDX-FileContributor = "Fria <fria@privacyguides.org>"
 
-# 2024 Jonah Aragon <jonah@privacyguides.org>
+# Privacy Guides Paid Work - Kevin
+[[annotations]]
+path = [
+    "blog/assets/images/clearing-your-browsing-data/*"
+]
+SPDX-FileCopyrightText = "Privacy Guides <https://magicgrants.org/funds/privacy_guides/>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+SPDX-FileContributor = "Kevin Pham <kevin@privacyguides.org>"
+
+# Privacy Guides Paid Work - Jordan
+[[annotations]]
+path = [
+    "videos/posts/**"
+]
+SPDX-FileCopyrightText = "Privacy Guides <https://magicgrants.org/funds/privacy_guides/>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+SPDX-FileContributor = [
+  "Jordan Warne <jordan@privacyguides.org>",
+  "Jonah Aragon <jonah@privacyguides.org>"
+]
+
+# 2024 Jonah Aragon
 [[annotations]]
 path = [
     "includes/strings.en.env"

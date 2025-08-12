@@ -4,8 +4,8 @@ SPDX-FileCopyrightText: 2023 Contributors to Privacy Guides <https://www.privacy
 SPDX-FileCopyrightText: 2023 Daniel Gray <dngray@privacyguides.org>
 SPDX-FileCopyrightText: 2024 Fria <fria@privacyguides.org>
 SPDX-FileCopyrightText: 2024 redoomed1 <redoomed1@privacyguides.org>
-SPDX-FileCopyrightText: 2024 @I-I-IT
-SPDX-FileCopyrightText: 2024 @xe-3
+SPDX-FileCopyrightText: 2024 @I-I-IT <https://github.com/I-I-IT>
+SPDX-FileCopyrightText: 2024 @xe-3 <https://github.com/xe-3>
 
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->

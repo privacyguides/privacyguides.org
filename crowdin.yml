@@ -1,6 +1,6 @@
 # SPDX-FileCopyrightText: 2023 Jonah Aragon <jonah@privacyguides.org>
 #
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: MIT OR CC-BY-SA-4.0
 
 #checkov:skip=CKV_SECRET_6:obviously a variable name and not a secret
 api_token_env: CROWDIN_PERSONAL_TOKEN

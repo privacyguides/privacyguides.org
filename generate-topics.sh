@@ -2,7 +2,7 @@
 
 # SPDX-FileCopyrightText: 2025 Jonah Aragon <jonah@privacyguides.org>
 #
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: MIT OR CC-BY-SA-4.0
 
 DATE_CMD="date"
 

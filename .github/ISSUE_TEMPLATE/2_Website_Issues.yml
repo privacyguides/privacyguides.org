@@ -1,6 +1,6 @@
 # SPDX-FileCopyrightText: 2023 Jonah Aragon <jonah@privacyguides.org>
 #
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: MIT OR CC0-1.0
 
 name: "Website Issue"
 description: Report a bug with the website.
