@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# SPDX-FileCopyrightText: 2024 Jonah Aragon <jonah@privacyguides.org>
+#
+# SPDX-License-Identifier: MIT
+
 # Add --help output
 if [ "$1" == "--help" ]; then
   echo "Usage: ./run.sh [options]"

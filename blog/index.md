@@ -1,4 +1,8 @@
 ---
+# SPDX-FileCopyrightText: 2024 Jonah Aragon <jonah@privacyguides.org>
+# SPDX-FileCopyrightText: 2024 Daniel Gray <dngray@privacyguides.org>
+#
+# SPDX-License-Identifier: CC-BY-SA-4.0
 description: Privacy-related news stories, product reviews, opinion pieces, and other important articles from Privacy Guides contributors.
 hide:
   - footer

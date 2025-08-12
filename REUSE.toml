@@ -1,0 +1,82 @@
+# SPDX-FileCopyrightText: 2025 Jonah Aragon <jonah@privacyguides.org>
+#
+# SPDX-License-Identifier: MIT
+
+version = 1
+
+# Fallback
+[[annotations]]
+path = [
+    "docs/*",
+    "docs/advanced/*",
+    "docs/android/*",
+    "docs/basics/*",
+    "docs/os/**",
+    "docs/self-hosting/*"
+]
+SPDX-FileCopyrightText = [
+  "Privacy Guides <https://magicgrants.org/funds/privacy_guides/>",
+  "Contributors to Privacy Guides <https://www.privacyguides.org>"
+]
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+SPDX-FileContributor = "Jonah Aragon <jonah@privacyguides.org>"
+
+# Computer-generated files and other files which cannot be copyrighted
+[[annotations]]
+path = [
+    ".all-contributorsrc",
+    ".allowed_signers",
+    ".gitmodules",
+    ".mailmap",
+    ".python-version",
+    "Pipfile.lock",
+    ".vscode/.empty-schema.json",
+    ".vscode/ltex.dictionary.en-US.txt",
+    ".vscode/ltex.hiddenFalsePositives.en-US.txt",
+    "blog/tags.md",
+    "includes/contributors.md",
+    "videos/playlists.md"
+]
+precedence = "override"
+SPDX-FileCopyrightText = "NONE"
+SPDX-License-Identifier = "CC0-1.0"
+
+# Privacy Guides Employee Works
+[[annotations]]
+path = [
+    "videos/posts/**",
+    "blog/assets/images/clearing-your-browsing-data/*",
+    "blog/assets/images/cryptpad-review/*",
+    "blog/assets/images/digital-provenance/*",
+    "blog/assets/images/clearing-your-browsing-data/*",
+    "blog/assets/images/in-praise-of-tor/*",
+    "blog/assets/images/installing-and-using-tails/*",
+    "blog/assets/images/installing-keepassxc-and-yubikey/*",
+    "blog/assets/images/interview-with-micah-lee/*",
+    "blog/assets/images/keepassium-review/*",
+    "blog/assets/images/clearing-your-browsing-data/*",
+    "blog/assets/images/mastodon-privacy-and-security/*",
+    "blog/assets/images/mastodon-tutorial-privacy-and-security/*",
+    "blog/assets/images/privacy-pass/*",
+    "blog/assets/images/yubikey-reset-and-backup/*",
+]
+SPDX-FileCopyrightText = "Privacy Guides <https://magicgrants.org/funds/privacy_guides/>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+# 2024 Jonah Aragon <jonah@privacyguides.org>
+[[annotations]]
+path = [
+    "includes/strings.en.env"
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Jonah Aragon <jonah@privacyguides.org>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+# Fair Use / Copyrighted Logos
+[[annotations]]
+path = [
+    "theme/assets/img/**"
+]
+SPDX-FileCopyrightText = "NOASSERTION"
+SPDX-License-Identifier = "LicenseRef-FairUse"
+SPDX-LicenseComments = "This is a copyrighted and/or trademarked logo we are using under fair use. Your usage rights of this file outside Privacy Guides may vary."

@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2019 Jonah Aragon <jonah@privacyguides.org>
+
+SPDX-License-Identifier: MIT
+-->
+
 <!-- markdownlint-disable MD041 MD045 -->
 <div align="center">
   <a href="https://www.privacyguides.org">

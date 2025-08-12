@@ -1,4 +1,7 @@
 ---
+# SPDX-FileCopyrightText: 2025 Privacy Guides <https://magicgrants.org/funds/privacy_guides/>
+#
+# SPDX-License-Identifier: CC-BY-SA-4.0
 title: "KeePassium Review: A Flexible Password Manager for iOS and macOS"
 template: review-article.html
 schema_type: ReviewNewsArticle

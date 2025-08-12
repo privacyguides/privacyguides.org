@@ -1,4 +1,7 @@
 ---
+# SPDX-FileCopyrightText: 2024 Jonah Aragon <jonah@privacyguides.org>
+#
+# SPDX-License-Identifier: CC-BY-SA-4.0
 description: Jonah Aragon is the Project Director and staff writer at Privacy Guides. His role includes researching and writing for this website, system administration, creating Privacy Guides Online Learning course content, reviewing the products recommended here, and most other day-to-day tasks.
 schema:
   -

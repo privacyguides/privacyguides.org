@@ -1,4 +1,7 @@
 ---
+# SPDX-FileCopyrightText: 2025 Jonah Aragon <jonah@privacyguides.org>
+#
+# SPDX-License-Identifier: CC-BY-SA-4.0
 date:
     created: 2025-01-23T19:15:00Z
     updated: 2025-01-27T20:00:00Z

@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2025 Freddy <freddy@privacyguides.org>
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Daniel Gray
 
 ![Profile picture](https://github.com/dngray.png){ align=right }

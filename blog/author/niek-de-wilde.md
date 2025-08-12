@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2024 Niek de Wilde <niek@privacyguides.org>
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Niek de Wilde
 
 ![Profile picture](https://github.com/blacklight447.png){ align=right }

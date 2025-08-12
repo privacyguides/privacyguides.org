@@ -1,4 +1,7 @@
 ---
+# SPDX-FileCopyrightText: 2025 Jonah Aragon <jonah@privacyguides.org>
+#
+# SPDX-License-Identifier: MIT
 description: >-
   This is our home for the latest video content from the Privacy Guides team. Be sure you are subscribed to find out about our latest uploads, and share these videos with your family and friends if you find them helpful!
 template: video.html

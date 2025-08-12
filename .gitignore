@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2019 Jonah Aragon <jonah@privacyguides.org>
+#
+# SPDX-License-Identifier: MIT
+
 site
 /i18n/
 /includes/*.*.*

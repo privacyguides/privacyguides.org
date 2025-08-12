@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# SPDX-FileCopyrightText: 2025 Jonah Aragon <jonah@privacyguides.org>
+#
+# SPDX-License-Identifier: MIT
+
 DATE_CMD="date"
 
 # Check if the script is running on macOS

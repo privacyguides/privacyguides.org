@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2024 Jonah Aragon <jonah@privacyguides.org>
+#
+# SPDX-License-Identifier: MIT
+
 FROM python:3.12-slim-bookworm AS base
 
 LABEL org.opencontainers.image.source="https://github.com/privacyguides/privacyguides.org"
@@ -31,7 +35,7 @@ COPY Pipfile .
 COPY Pipfile.lock .
 
 # Install all Python dependencies into a project‐local virtual environment at /.venv
-RUN PIPENV_VENV_IN_PROJECT=1 pipenv install --deploy
+RUN PIPENV_VENV_IN_PROJECT=1 pipenv install --deploy --dev
 
 ####################################################
 # Stage: nodejs-deps
