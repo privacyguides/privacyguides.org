@@ -84,6 +84,7 @@
   {% endif %}
 
   {% if config.extra.context == "production" %}
+  <link href="https://www.privacyguides.org/webmentions/receive/" rel="webmention">
   <meta http-equiv="onion-location" content="{{ page.canonical_url | replace("https://www.privacyguides.org", "http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion") }}" />
   {% endif %}
   {% if page and page.meta and page.meta.schema %}
