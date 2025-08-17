@@ -59,11 +59,11 @@ There are multiple methods that email providers can implement to verify the auth
 
 #### SPF
 
-The first solution implemented was [Sender Policy Framework (SPF)](https://datatracker.ietf.org/doc/html/rfc7208). SPF is based on DNS and IP addresses. It lists all the servers that are authorized to send from a specific domain. When an email is received, it checks the IP address of the sender against the list of authorized IP addresses and passes
+The first solution implemented was [Sender Policy Framework (SPF)](https://datatracker.ietf.org/doc/html/rfc7208). SPF is based on DNS. It lists all the servers that are authorized to send from a specific domain. When an email is received, it checks the sending server against the list of authorized servers for that domain.
 
 While a good start, SPF still has several glaring weaknesses. Since it relies on DNS, an attack on the DNS infrastructure could cause spoofed DNS data to be accepted.
 
-Since SPF simply checks IP addresses, it's still possible for a sender to impersonate another user. SPF does not authenticate the `MAIL FROM` header. If you try to send an email from a gmail.com domain but the IP addresss doesn't match gmail.com, it will fail.
+Since SPF doesn't authenticate individual users, it's still possible for a sender to impersonate another user. SPF does not authenticate the `MAIL FROM` header. If you try to send an email from a gmail.com domain but server doesn't match gmail.com, it will fail.
 
 #### DKIM
 
