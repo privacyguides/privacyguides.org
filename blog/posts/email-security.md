@@ -45,4 +45,8 @@ Authentication is left to another protocol to solve, this just handles the trans
 
 #### SMTPS
 
+Also known as "Implicit TLS" (as opposed to the "Explicit TLS" of STARTTLS), SMTPS starts with an encrypted connection, similar to HTTPS, removing the potential for an adversary to downgrade the connection.
 
+The [current](https://datatracker.ietf.org/doc/html/rfc8314) recommendations are to use port 465 for SMTPS and port 587 for STARTTLS. Unfortunately, these ports aren't standardized and thus there is disagreement and confusion about what port should be used for SMTPS.
+
+In the past, ports 25, 465, 587, and 2525 have all been used for SMTP at various points. This lack of a standardized port means that you end up with services using different ports and being unable to establish a secure connection. Particularly, there is still confusion in some email providers whether to use port 465 or port 587 for SMTPS, althought the current recommendation is port 465.
