@@ -50,3 +50,21 @@ Also known as "Implicit TLS" (as opposed to the "Explicit TLS" of STARTTLS), SMT
 The [current](https://datatracker.ietf.org/doc/html/rfc8314) recommendations are to use port 465 for SMTPS and port 587 for STARTTLS. Unfortunately, these ports aren't standardized and thus there is disagreement and confusion about what port should be used for SMTPS.
 
 In the past, ports 25, 465, 587, and 2525 have all been used for SMTP at various points. This lack of a standardized port means that you end up with services using different ports and being unable to establish a secure connection. Particularly, there is still confusion in some email providers whether to use port 465 or port 587 for SMTPS, althought the current recommendation is port 465.
+
+### Authentication
+
+SMTP by default essentially has no authentication. By default, SMTP allows spoofing the `MAIL FROM` header. Your email client will just blindly accept whoever the sender says they are without any authentication. Luckily, there are several solutions for this.
+
+There are multiple methods that email providers can implement to verify the authenticity of an email sender.
+
+#### SPF
+
+The first solution implemented was [Sender Policy Framework (SPF)](https://datatracker.ietf.org/doc/html/rfc7208). SPF is based on DNS and IP addresses. It lists all the servers that are authorized to send from a specific domain. When an email is received, it checks the IP address of the sender against the list of authorized IP addresses and passes
+
+While a good start, SPF still has several glaring weaknesses. Since it relies on DNS, an attack on the DNS infrastructure could cause spoofed DNS data to be accepted.
+
+Since SPF simply checks IP addresses, it's still possible for a sender to impersonate another user. SPF does not authenticate the `MAIL FROM` header. If you try to send an email from a gmail.com domain but the IP addresss doesn't match gmail.com, it will fail.
+
+#### DKIM
+
+
