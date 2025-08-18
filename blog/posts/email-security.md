@@ -85,7 +85,7 @@ Just like the name sounds, a DNS TXT record allows you to store text in a [DNS r
 
 | example.com | record type | value | TTL |
 |-------------|--------------|--------|-----|
-| @           | TXT          | "Text" |99999|
+| @           | TXT          | "color=blue" |99999|
 
 SPF lists all the servers that are authorized to send from a specific domain. When an email is received, it checks the sending server against the list of authorized servers for that domain. An SPF record might look like this:
 
