@@ -105,8 +105,10 @@ An example of a DKIM header:
 
 `v=1; a=rsa-sha256; d=example.com; s=test-email; h=from:to:subject bh=uMixy0BsCqhbru4fqPZQdeZY5Pq865sNAnOAxNgUS0s=;b=LiIvJeRyqMo0gngiCygwpiKphJjYezb5kXBKCNj8DqRVcCk7obK6OUg4o+EufEbBtRYQfQhgIkx5m70IqA6dP+DBZUcsJyS9C+vm2xRK7qyHi2hUFpYS5pkeiNVoQk/Wk4wZG4tu/g+OA49mS7VX+64FXr79MPwOMRRmJ3lNwJU=`
 
-`v=` shows the version of DKIM, currently version one is the latest (we'll come back to that later). `a=` shows the algorithm used. `d=` shows the domain of the sender. `s=` denotes the selector that is used in the TXT record. `h=` shows the headers that were used to create the signature. `bh=` shows a hash of the body of the email. `b=` is the signature computed from the listed headers and the hash of the body listed in `bh=`.
+`v=` shows the version of DKIM, currently version one is the latest (we'll come back to that later). `a=` shows the algorithm used. `d=` shows the domain of the sender. `s=` denotes the selector that is used in the TXT record. `h=` shows the headers that were used to create the signature. `bh=` shows a hash of the body of the email. `b=` is the signature computed from the listed headers and the hash of the body listed in `bh`.
 
 In this way, not only does DKIM provide assurance that the email was sent from the correct domain, it also protects the integrity of the message. However, since the keys are controlled by your email provider, it can't stop your email provider from tampering with your messages.
 
 Note also that this has nothing to do with encryption of the message, only verifying the authenticity and sender. The message is still sent in plaintext unless another component encrypts it.
+
+#### DMARC
