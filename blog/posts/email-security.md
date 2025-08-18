@@ -79,6 +79,10 @@ While a good start, SPF still has several glaring weaknesses. Since it relies on
 
 Since SPF doesn't authenticate individual users, it's still possible for a sender to impersonate another user. SPF does not authenticate the `MAIL FROM` header. If you try to send an email from a gmail.com domain but server doesn't match gmail.com, it will fail.
 
+SPF has a few different modes, allowing for a hard fail, soft fail, or completely ignoring it. `-all` means an email that fails will be rejected, `~all` will mark emails that fail as insecure or spam but still send them, and `+all` will specify that any server is allowed to send emails on behalf of your domain.
+
+This flexibility, while convenient, allows for the security benefits of SPF to be completely undermined.
+
 #### DKIM
 
 
