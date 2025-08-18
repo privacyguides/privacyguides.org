@@ -71,7 +71,9 @@ SPF lists all the servers that are authorized to send from a specific domain. Wh
 
 | example.com | record type: | value: | TTL |
 |-------------|--------------|--------|-----|
-| @ | TXT | "v=spf1 ip4:192.0.2.0 ip4:192.0.2.1 include:examplesender.email -all" |99999|
+| @ | TXT | "v=spf1 ip4:200.56.78.99 ip4:156.67.109.43 include:_spf.google.com -all" |99999|
+
+The IP addresses are the ones that are authorized to send email from this domain. The `include:` tag denotes what third-party domains are allowed to send email on behalf of `example.com`. The third-party SPF record will be checked and included in the allowed IP addresses.
 
 While a good start, SPF still has several glaring weaknesses. Since it relies on DNS, an attack on the DNS infrastructure could cause spoofed DNS data to be accepted.
 
