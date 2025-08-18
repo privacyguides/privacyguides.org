@@ -51,12 +51,6 @@ The [current](https://datatracker.ietf.org/doc/html/rfc8314) recommendations are
 
 In the past, ports 25, 465, 587, and 2525 have all been used for SMTP at various points. This lack of a standardized port means that you end up with services using different ports and being unable to establish a secure connection. Particularly, there is still confusion in some email providers whether to use port 465 or port 587 for SMTPS, althought the current recommendation is port 465.
 
-### Authentication
-
-SMTP by default essentially has no authentication and allows spoofing the `MAIL FROM` header. Your email client will just blindly accept whoever the sender says they are without any authentication. Luckily, there are several solutions for this.
-
-There are multiple methods that email providers can implement to verify the authenticity of an email sender.
-
 #### PGP
 
 The above features only protect the email in transit and don't protect against the email providers involved, which is a massive security issue if you don't trust your email provider. On top of that, you as a user have no control over which parts of the chain are encrypted. If you want to be sure that no party in between you and your recipient can read or alter your emails, you need to use end-to-end encryption. Unfortunately, by default, email doesn't support end-to-end encrytion.
@@ -71,11 +65,17 @@ PGP encryption also usually doesn't encrypt important metadata like the subject 
 
 #### S/MIME
 
-Another common option for email encryption is [S/MIM](https://www.digicert.com/faq/email-trust/what-is-smime-or-encrypted-email)E, or Secure/Multipurpose Internet Mail Extensions. S/MIME works a bit like HTTPS, using X.509 digital certificates and certificate authorities to encrypt and verify the authenticity of emails.
+Another common option for email encryption is [S/MIME](https://www.digicert.com/faq/email-trust/what-is-smime-or-encrypted-email)E, or Secure/Multipurpose Internet Mail Extensions. S/MIME works a bit like HTTPS, using [X.509 digital certificates](https://www.ssl.com/faqs/what-is-an-x-509-certificate/) and [certificate authorities](https://www.digicert.com/blog/what-is-a-certificate-authority) to encrypt and verify the authenticity of emails.
 
 While a step up from the manual keys of PGP, S/MIME is still a pain to use, particularly because it usually requires purchasing and managing a certificate from a CA, which can be expensive and annoying. S/MIME also lacks forward secrecy just like PGP, so if there's ever a compromise of your private key, all previously sent messages are also compromised.
 
-These issues make S/MIME unviable outside of business settings for most people.
+These issues make S/MIME unviable for most people outside of business settings.
+
+### Authentication
+
+SMTP by default essentially has no authentication and allows spoofing the `MAIL FROM` header. Your email client will just blindly accept whoever the sender says they are without any authentication. Luckily, there are several solutions for this.
+
+There are multiple methods that email providers can implement to verify the authenticity of an email sender.
 
 #### SPF
 
