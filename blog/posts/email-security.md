@@ -59,7 +59,15 @@ There are multiple methods that email providers can implement to verify the auth
 
 #### SPF
 
-The first solution implemented was [Sender Policy Framework (SPF)](https://datatracker.ietf.org/doc/html/rfc7208). SPF is based on [DNS TXT records](https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/). It lists all the servers that are authorized to send from a specific domain. When an email is received, it checks the sending server against the list of authorized servers for that domain.
+The first solution implemented was [Sender Policy Framework (SPF)](https://datatracker.ietf.org/doc/html/rfc7208). SPF uses [DNS TXT records](https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/).
+
+Just like the name sounds, a DNS TXT record allows you to store text in a [DNS record](https://www.cloudflare.com/learning/dns/dns-records/). Here's an example of what a DNS TXT record might look like:
+
+| example.com | record type: | value: | TTL |
+|-------------|--------------|--------|-----|
+| @           | TXT          | "Text" |99999|
+
+SPF lists all the servers that are authorized to send from a specific domain. When an email is received, it checks the sending server against the list of authorized servers for that domain.
 
 While a good start, SPF still has several glaring weaknesses. Since it relies on DNS, an attack on the DNS infrastructure could cause spoofed DNS data to be accepted.
 
