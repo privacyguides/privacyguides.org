@@ -67,7 +67,11 @@ Just like the name sounds, a DNS TXT record allows you to store text in a [DNS r
 |-------------|--------------|--------|-----|
 | @           | TXT          | "Text" |99999|
 
-SPF lists all the servers that are authorized to send from a specific domain. When an email is received, it checks the sending server against the list of authorized servers for that domain.
+SPF lists all the servers that are authorized to send from a specific domain. When an email is received, it checks the sending server against the list of authorized servers for that domain. An SPF record might look like this:
+
+| example.com | record type: | value: | TTL |
+|-------------|--------------|--------|-----|
+| @ | TXT | "v=spf1 ip4:192.0.2.0 ip4:192.0.2.1 include:examplesender.email -all" |99999|
 
 While a good start, SPF still has several glaring weaknesses. Since it relies on DNS, an attack on the DNS infrastructure could cause spoofed DNS data to be accepted.
 
