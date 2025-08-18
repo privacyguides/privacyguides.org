@@ -53,7 +53,7 @@ In the past, ports 25, 465, 587, and 2525 have all been used for SMTP at various
 
 ### Authentication
 
-SMTP by default essentially has no authentication. By default, SMTP allows spoofing the `MAIL FROM` header. Your email client will just blindly accept whoever the sender says they are without any authentication. Luckily, there are several solutions for this.
+SMTP by default essentially has no authentication and allows spoofing the `MAIL FROM` header. Your email client will just blindly accept whoever the sender says they are without any authentication. Luckily, there are several solutions for this.
 
 There are multiple methods that email providers can implement to verify the authenticity of an email sender.
 
