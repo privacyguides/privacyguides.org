@@ -57,6 +57,26 @@ SMTP by default essentially has no authentication and allows spoofing the `MAIL 
 
 There are multiple methods that email providers can implement to verify the authenticity of an email sender.
 
+#### PGP
+
+The above features only protect the email in transit and don't protect against the email providers involved, which is a massive security issue if you don't trust your email provider. On top of that, you as a user have no control over which parts of the chain are encrypted. If you want to be sure that no party in between you and your recipient can read or alter your emails, you need to use end-to-end encryption. Unfortunately, by default, email doesn't support end-to-end encrytion.
+
+[Pretty Good Privacy (PGP)](https://www.openpgp.org/about/) was originally created in 1997 by [Phil Zimmerman](https://github.dev/friadev/privacyguides.org/tree/Email-security). While originally proprietary software, an open source version of PGP called OpenPGP has been standardized by the [IETF](https://www.rfc-editor.org/rfc/rfc9580.html). As you can imagine from software originally conceived in the 90's, the user experience isn't the smoothest.
+
+Unlike modern messengers like [Signal](https://signal.org), OpenPGP requires you to [manaully manage your keys](https://dev.to/adityabhuyan/how-to-generate-your-own-public-and-secret-keys-for-pgp-encryption-1joh). This is a problem not only because it's cumbersome, but the security of E2EE rests on protecting the private key. If the private key is compromised, your messages are compromised.
+
+PGP also lacks [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), meaning that if your private key is ever exposed, all previous messages you've ever sent using that key are also exposed. All it takes is a slight user error for a catastrophic compromise.
+
+PGP encryption also usually doesn't encrypt important metadata like the subject line, which can be a major privacy issue.
+
+#### S/MIME
+
+Another common option for email encryption is [S/MIM](https://www.digicert.com/faq/email-trust/what-is-smime-or-encrypted-email)E, or Secure/Multipurpose Internet Mail Extensions. S/MIME works a bit like HTTPS, using X.509 digital certificates and certificate authorities to encrypt and verify the authenticity of emails.
+
+While a step up from the manual keys of PGP, S/MIME is still a pain to use, particularly because it usually requires purchasing and managing a certificate from a CA, which can be expensive and annoying. S/MIME also lacks forward secrecy just like PGP, so if there's ever a compromise of your private key, all previously sent messages are also compromised.
+
+These issues make S/MIME unviable outside of business settings for most people.
+
 #### SPF
 
 The first solution implemented was [Sender Policy Framework (SPF)](https://datatracker.ietf.org/doc/html/rfc7208). SPF uses [DNS TXT records](https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/).
@@ -119,4 +139,6 @@ DMARC also uses TXT records. An example DMARC policy might look like
 
 `v=DMARC1; p=quarantine; adkim=s; aspf=s;`
 
-The `v=` shows the version of DMARC to use. The `p=` shows what should be done with emails if they fail, in this case `quarantine` means the receiver should put the email in the user's spam folder. `adkim=` tells how DKIM should be enforced, with `s` meaning "strict"; for relaxed, `r` is listed instead. Ditto for `aspf=`.
+The `v=` shows the version of DMARC to use. The `p=` shows what should be done with emails if they fail, in this case `quarantine` means the receiver should put the email in the user's spam folder. `reject` can be specified as well to show that emails that fail should be outright blocked. `adkim=` tells how DKIM should be enforced, with `s` meaning "strict"; for relaxed, `r` is listed instead. Ditto for `aspf=`.
+
+
