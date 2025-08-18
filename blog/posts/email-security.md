@@ -37,7 +37,7 @@ STARTTLS allows a bit more flexibility at the cost of some security. Since you d
 
 Since it's just using TLS, STARTTLS can't provide E2EE, just transport encryption. The encryption looks something like:
 
-Encrypted between your email client and your SMTP server -> decrypted at your SMTP server -> Encrypted between your SMTP server and recipient's SMTP server -> decrypted at recipient's SMTP server -> encrypted between their SMTP server and email client
+Encrypted between your email client and your SMTP server → decrypted at your SMTP server → Encrypted between your SMTP server and recipient's SMTP server → decrypted at recipient's SMTP server → encrypted between their SMTP server and email client
 
 At each point in the process TLS encrytion is not guaranteed. Now consider that you can have multiple recipients with their own SMTP servers as well and you start to see how flimsly this protection can be. And since the initial negotiation is in plaintext, an attacker can simply strip away the STARTTLS command, preventing a secure connection from being established.
 
