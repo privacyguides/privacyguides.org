@@ -148,3 +148,7 @@ It's been a multi-decade cross-industry effort to bring email up to snuff as a m
 ### Improvements to PGP
 
 The IETF has a [working group](https://datatracker.ietf.org/wg/openpgp/about/) for OpenPGP that wants to add many improvments to OpenPGP, including post-quantum encryption and forward secrecy.
+
+### DKIM2
+
+Told you we'd get back to it! [DKIM2](https://www.ietf.org/archive/id/draft-gondwana-dkim2-motivation-00.html) is the planned next version of DKIM.
