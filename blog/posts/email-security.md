@@ -63,13 +63,13 @@ The first solution implemented was [Sender Policy Framework (SPF)](https://datat
 
 Just like the name sounds, a DNS TXT record allows you to store text in a [DNS record](https://www.cloudflare.com/learning/dns/dns-records/). Here's an example of what a DNS TXT record might look like:
 
-| example.com | record type: | value: | TTL |
+| example.com | record type | value | TTL |
 |-------------|--------------|--------|-----|
 | @           | TXT          | "Text" |99999|
 
 SPF lists all the servers that are authorized to send from a specific domain. When an email is received, it checks the sending server against the list of authorized servers for that domain. An SPF record might look like this:
 
-| example.com | record type: | value: | TTL |
+| example.com | record type | value | TTL |
 |-------------|--------------|--------|-----|
 | @ | TXT | "v=spf1 ip4:200.56.78.99 ip4:156.67.109.43 include:_spf.google.com -all" |99999|
 
@@ -85,4 +85,10 @@ This flexibility, while convenient, allows for the security benefits of SPF to b
 
 #### DKIM
 
+[DomainKeys Identified Mail (DKIM)](https://www.cloudflare.com/learning/dns/dns-records/dns-dkim-record/) relies on public key cryptography to verify the domain of an email.
 
+Example of a DKIM DNS TXT record:
+
+| example.com | record type | value | TTL |
+|-------------|--------------|--------|-----|
+| @ | TXT | "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtY+7sGVwvyS8w+3HgJk7EviazH+C4L8gV4gOJzAq9oKJjZ5En7LDEw3FqAh8C0M59c9sBQcC+Kj8VxMBY9y+E0Pm1fPK9V7sI3Gm7yE7Y9yU4uVZr8R3N+5z+qZ+7V76RU4oZ0mtSvw8m3pX1hZyHd7NZfXaFfKfgd18W5T7YQIDAQAB"
