@@ -73,7 +73,9 @@ These issues make S/MIME unviable for most people outside of business settings.
 
 #### Web Key Directory
 
-A problem with PGP is getting your public key out to people without manually exchanging keys. This problem can be solved with Web Key Directory (WKD)
+A problem with PGP is getting your public key out to people without manually exchanging keys. This problem can be solved with Web Key Directory (WKD), which allows you to upload your public PGP key to a server and clients that want to send E2EE emails to you can ask that server to send you their public key.
+
+You can read more on our [email security](https://www.privacyguides.org/en/basics/email-security/?h=email#what-is-the-web-key-directory-standard) page.
 
 ### Authentication
 
