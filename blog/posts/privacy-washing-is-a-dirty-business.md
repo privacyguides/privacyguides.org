@@ -9,7 +9,7 @@ description:
     Privacy washing is a widely used deceptive strategy. Learning to detect it better is an important skill to develop to help us to respond to it and report it.
 schema_type: Opinion
 preview:
-  cover: blog/assets/images/washing-cover.webp
+  cover: blog/assets/images/privacy-washing-is-a-dirty-business/washing-cover.webp
 ---
 
 # Privacy Washing Is a Dirty Business
