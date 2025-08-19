@@ -71,6 +71,10 @@ While a step up from the manual keys of PGP, S/MIME is still a pain to use, part
 
 These issues make S/MIME unviable for most people outside of business settings.
 
+#### Web Key Directory
+
+A problem with PGP is getting your public key out to people without manually exchanging keys. This problem can be solved with Web Key Directory (WKD)
+
 ### Authentication
 
 SMTP by default essentially has no authentication and allows spoofing the `MAIL FROM` header. Your email client will just blindly accept whoever the sender says they are without any authentication. Luckily, there are several solutions for this.
@@ -185,3 +189,5 @@ An issues with the current version of DKIM is a malicious actor taking emails si
 The `pct` tag is going away, which was a tag that would only allow a specified percentage of emails, say 50%, to be sent if they failed. Apparently, this wasn't implemented properly so now it's being replaced with the `t` mode that is a binary pass or fail.
 
 The new `np` tag adds the ability to define what to do with a non-existent subdomain of a real domain. This will prevent cybercriminals from subverting DMARC by using a fake subdomain.
+
+They are also adding [requirements](https://datatracker.ietf.org/doc/html/draft-ietf-dmarc-dmarcbis-41#name-conformance-requirements-fo) that mail providers must meet to fully conform to the specification, which should eliminate questions about best practices and how DMARC should be implemented.
