@@ -11,8 +11,13 @@ license: BY-SA
 schema_type: BackgroundNewsArticle
 description: Email is ubiquitous. If you want to function in modern society, you pretty much have to have an email address. But is it really a good idea to still be relying on the same decades old techology? What can we do about replacing it?
 preview:
-  cover:
+  cover: blog/assets/images/email-security/cover.png
 ---
+
+![Email icon opening with an alert message inside](/blog/assets/images/email-security/cover.png)
+
+<small aria-hidden="true">Illustration: fria / Privacy Guides</small>
+
 # Email Security: Where We Are and What Needs to Happen
 
 Email is ubiquitous. If you want to function in modern society, you pretty much have to have an email address. What was originally just a simple protocol to send messages between machines has morphed beyond what it was originally intended for into the defacto authentication, identity, and "secure" communication channel for almost all technology users today. It's been updated many many times to fix security issues and there's more updates to come, but is it worth trying to fix a decades-old protocol or should we scrap it all and start over?<!-- more -->
