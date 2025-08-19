@@ -11,10 +11,10 @@ license: BY-SA
 schema_type: BackgroundNewsArticle
 description: Email is ubiquitous. If you want to function in modern society, you pretty much have to have an email address. But is it really a good idea to still be relying on the same decades old techology? What can we do about replacing it?
 preview:
-  cover: /blog/assets/images/email-security/cover.png
+  cover: ../blog/assets/images/email-security/cover.png
 ---
 
-![Email icon opening with an alert message inside](/blog/assets/images/email-security/cover.png)
+![Email icon opening with an alert message inside](../assets/images/email-security/cover.png)
 
 <small aria-hidden="true">Illustration: fria / Privacy Guides</small>
 
