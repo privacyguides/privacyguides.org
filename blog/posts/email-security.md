@@ -177,3 +177,11 @@ The IETF has a [working group](https://datatracker.ietf.org/wg/openpgp/about/) f
 [DKIM2](https://www.ietf.org/archive/id/draft-gondwana-dkim2-motivation-00.html) is the planned next version of DKIM.
 
 An issues with the current version of DKIM is a malicious actor taking emails signed with DKIM from a different domain and replaying them, spamming them out to thousands of people and eroding trust in the original domain. The new DKIM2 specification would force each hop the email takes along its path to sign it, so any issues will be the fault of the previous hop.
+
+### DMARCbis
+
+[DMARCbis](https://datatracker.ietf.org/doc/draft-ietf-dmarc-dmarcbis/) is a proposed updated version of DMARC.
+
+The `pct` tag is going away, which was a tag that would only allow a specified percentage of emails, say 50%, to be sent if they failed. Apparently, this wasn't implemented properly so now it's being replaced with the `t` mode that is a binary pass or fail.
+
+The new `np` tag adds the ability to define what to do with a non-existent subdomain of a real domain. This will prevent cybercriminals from subverting DMARC by using a fake subdomain.
