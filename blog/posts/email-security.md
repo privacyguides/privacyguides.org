@@ -61,7 +61,7 @@ Unlike modern messengers like [Signal](https://signal.org), OpenPGP requires you
 
 PGP also lacks [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), meaning that if your private key is ever exposed, all previous messages you've ever sent using that key are also exposed. All it takes is a slight user error for a catastrophic compromise.
 
-PGP encryption also usually doesn't encrypt important metadata like `To`, `From`, `Cc`, `Date`, and `Subject`, stored in the [email header](https://en.wikipedia.org/wiki/Email#Message_header); usually, only the body of the email is encrypted, which can be a major privacy issue. Some email clients use their own headers 
+PGP encryption also usually doesn't encrypt important metadata like `To`, `From`, `Cc`, `Date`, and `Subject`, stored in the [email header](https://en.wikipedia.org/wiki/Email#Message_header); usually, only the body of the email is encrypted, which can be a major privacy issue. What the email is about, who you are, and who you're messaging can all be revealed even with E2EE. Some email clients use their hidden headers that can reveal more data about you.
 
 #### S/MIME
 
