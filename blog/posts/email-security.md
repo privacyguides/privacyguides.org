@@ -156,6 +156,14 @@ Many email providers such as gmail provide their own clients for you to view you
 
 While it's great that email can support that, it does mean you need to trust another party with your sensitive email and essentially the security of all of your accounts. Not to mention that email clients can have [vulnerabilties](https://www.mozilla.org/en-US/security/known-vulnerabilities/thunderbird/), so you need to be very careful about which one you trust.
 
+#### Email Attack Surface
+
+A big part of the reason email clients can be so vulnerable to exploits is the vast attack surface afforded by things like JavaScript support in emails. This puts email clients dangerously close to the same territory as browsers in terms of attack surface but without the same level of scrutiny or hardening effort that goes into browsers.
+
+Since almost anyone can send you an email at any time, you have to trust that your email client vendor is able to protect you against vulnerabilities and also has timely patches when they're found.
+
+Luckily, lots of email clients let you disable JavaScript and HTML if you want, but not all do.
+
 ## Future of Email Security
 
 It's been a multi-decade cross-industry effort to bring email up to snuff as a modern communication system and we still have a long way to go. There's still efforts to improve the state of email security, so look out for these in the future.
