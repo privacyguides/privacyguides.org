@@ -18,7 +18,7 @@ preview:
 
 <small aria-hidden="true">Illustration: fria / Privacy Guides</small>
 
-# Email Security: Where We Are and What Needs to Happen
+# Email Security: Where We Are and What the Future Holds
 
 Email is ubiquitous. If you want to function in modern society, you pretty much have to have an email address. What was originally just a simple protocol to send messages between machines has morphed beyond what it was originally intended for into the defacto authentication, identity, and "secure" communication channel for almost all technology users today. It's been updated many many times to fix security issues and there's more updates to come, but is it worth trying to fix a decades-old protocol or should we scrap it all and start over?<!-- more -->
 
