@@ -131,11 +131,6 @@ In this way, not only does DKIM provide assurance that the email was sent from t
 
 Note also that this has nothing to do with encryption of the message, only verifying the authenticity and sender. The message is still sent in plaintext unless another component encrypts it.
 
-### Email as a Backdoor into Your Accounts
-
-Something seldom discussed is the fact that email is the default 2FA method for most accounts and also can be used to bypass your password through the password reset function on the login screen of most services. This essentially means the security of all of your accounts rests on the security of your email, which can be very shaky and lacks E2EE usually. It's most comparable to SMS 2FA which is also used a lot of the time as a method for getting into accounts when you forgot your password.
-
-I touched on this a bit in my passkey article, but we need to stop relying on email for security critical applications and start using proper recovery methods like recovery codes. Email should be used for what it's intended for: sending messages and updates to people, anouncements, etc.
 
 #### DMARC
 
@@ -146,6 +141,20 @@ DMARC also uses TXT records. An example DMARC policy might look like
 `v=DMARC1; p=quarantine; adkim=s; aspf=s;`
 
 The `v=` shows the version of DMARC to use. The `p=` shows what should be done with emails if they fail, in this case `quarantine` means the receiver should put the email in the user's spam folder. `reject` can be specified as well to show that emails that fail should be outright blocked. `adkim=` tells how DKIM should be enforced, with `s` meaning "strict"; for relaxed, `r` is listed instead. Ditto for `aspf=`.
+
+### General Security
+
+#### Email as a Backdoor into Your Accounts
+
+Something seldom discussed is the fact that email is the default 2FA method for most accounts and also can be used to bypass your password through the password reset function on the login screen of most services. This essentially means the security of all of your accounts rests on the security of your email, which can be very shaky and lacks E2EE usually. It's most comparable to SMS 2FA which is also used a lot of the time as a method for getting into accounts when you forgot your password.
+
+I touched on this a bit in my passkey article, but we need to stop relying on email for security critical applications and start using proper recovery methods like recovery codes. Email should be used for what it's intended for: sending messages and updates to people, anouncements, etc.
+
+#### Third-Party Clients
+
+Many email providers such as gmail provide their own clients for you to view your inbox, send messages, etc. But, many people choose to use third-party clients for their email needs.
+
+While it's great that email can support that, it does mean you need to trust another party with your sensitive email and essentially the security of all of your accounts. Not to mention that email clients can have [vulnerabilties](https://www.mozilla.org/en-US/security/known-vulnerabilities/thunderbird/), so you need to be very careful about which one you trust.
 
 ## Future of Email Security
 
