@@ -51,6 +51,14 @@ The [current](https://datatracker.ietf.org/doc/html/rfc8314) recommendations are
 
 In the past, ports 25, 465, 587, and 2525 have all been used for SMTP at various points. This lack of a standardized port means that you end up with services using different ports and being unable to establish a secure connection. Particularly, there is still confusion in some email providers whether to use port 465 or port 587 for SMTPS, althought the current recommendation is port 465.
 
+#### POP3S
+
+POP3 also supports implicit TLS over port 995.
+
+#### IMAPS
+
+Ditto for IMAP, the implicit TLS port is 993.
+
 #### PGP
 
 The above features only protect the email in transit and don't protect against the email providers involved, which is a massive security issue if you don't trust your email provider. On top of that, you as a user have no control over which parts of the chain are encrypted. If you want to be sure that no party in between you and your recipient can read or alter your emails, you need to use end-to-end encryption. Unfortunately, by default, email doesn't support end-to-end encrytion.
