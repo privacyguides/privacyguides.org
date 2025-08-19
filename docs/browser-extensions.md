@@ -85,6 +85,32 @@ If you set the default filtering mode to "Optimal" or "Complete" the extension w
 
 uBlock Origin Lite only receives block list updates whenever the extension is updated from your browser's extension marketplace, as opposed to on demand. Google has an [expedited review process](https://developer.chrome.com/docs/webstore/skip-review) for filter updates, which means you still typically receive filter list updates as frequently as uBlock Origin Lite chooses to publish a release (historically every 2-7 days). However, only so-called "[safe rules](https://developer.chrome.com/docs/extensions/reference/api/declarativeNetRequest#safe_rules)" can be updated, which may limit the update frequency of lists using advanced techniques.
 
+### AdGuard
+
+We recommend [Safari](mobile-browsers.md#safari-ios) for iOS users, which unfortunately is not supported by uBlock Origin. Luckily, AdGuard provides an adequate alternative:
+
+<div class="admonition recommendation" markdown>
+
+![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
+
+**AdGuard for iOS** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
+
+[:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1047223162)
+
+</details>
+
+</div>
+
+Additional filter lists do slow things down and may increase your attack surface, so only apply what you need. AdGuard for iOS has some premium features; however, standard Safari content blocking is free of charge.
+
 ## Criteria
 
 - Must not replicate built-in browser or OS functionality.
