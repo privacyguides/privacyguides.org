@@ -213,6 +213,6 @@ They are also adding [requirements](https://datatracker.ietf.org/doc/html/draft-
 
 ### SMTP End-to-End Encryption
 
-The biggest obstacle in the way of email privacy is it's not E2EE by default like most modern messengers we use daily. Some providers like ProtonMail will automatically encrypt emails between proton users. The obvious next step is to build E2EE into SMTP itself.
+The biggest obstacle in the way of email privacy is it's not E2EE by default like most modern messengers we use daily. Some providers like Proton Mail will automatically encrypt emails between [Proton Mail](https://proton.me/support/manage-encryption#:~:text=Proton%20Mail%20encrypts%20all%20emails%20sent%20between%20Proton%20accounts%20with%20end%2Dto%2Dend%20encryption%20(E2EE)) users. The obvious next step is to build E2EE into SMTP itself.
 
 An [RFC proposal](https://dcrubro.com/files/smtp-ee2esign-latest.txt) exists for just such an idea. I'm hopeful something like this can be standardized and widely adopted, and finally bring email into the 21st century.
