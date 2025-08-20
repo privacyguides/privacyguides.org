@@ -57,9 +57,7 @@ The problem is, this model is antithetical to implementing good privacy, securit
 
 Many startups fail to see how being thorough with data privacy will benefit them in the long term, and view privacy and security requirements only as a burden slowing down their growth. This mindset can result in perceiving privacy as a simple marketing asset, something businesses talk to users about for reassurance, but without putting any real effort into it beneath the surface.
 
-Of course, this practice leads to *devastating consequences* for the users.
-
-A tragic, yet emblematic, occurrence of such a mindset is the recent case of OceanGate's Titan deep-sea submersible, that [infamously imploded](https://globalnews.ca/news/11318623/titan-sub-report-oceangate-culture-critically-flawed/) during an exploration, killing its five passengers in an instant.
+Outside of privacy, this common startup mindset of playing fast and loose with customers and their safety frequently has **devastating** consequences. One recent and tragic example comes from OceanGate's Titan deep-sea submersible that [infamously imploded](https://globalnews.ca/news/11318623/titan-sub-report-oceangate-culture-critically-flawed/) during an exploration, killing its five passengers in an instant.
 
 The final report blamed a problematic safety culture at OceanGate that was “critically flawed and at the core of these failures were glaring disparities between their written safety protocols and their actual practices.”
 
@@ -82,11 +80,11 @@ Partly related to negligence, is plain incompetence and willful ignorance. Some 
 
 For example, most businesses have heard by now of the requirement to present a privacy policy to their users, customers, and even web visitors. Deplorably, in a failed attempt to fulfill this legal obligation, many simply copy someone else's privacy policy and paste it on their own website. Not only this is very unlikely to be compliant with applicable privacy regulations, but it also possibly infringes *copyright* laws.
 
-Do not simply copy-paste another's privacy policy and claim it as your own!
+Do not simply copy-paste another organization's privacy policy and claim it as your own!
 
 It's important to remember that legal requirements for policies aren't the end goal here. **The true requirements are the data protection *practices*.**
 
-The policies *must* accurately describe what the *practices* are in reality. Because not two organizations have the exact same internal practices and third-party vendors, not two organizations should have the exact same privacy policy.
+The policies *must* accurately describe what the *practices* are in reality. Because no two organizations have the exact same internal practices and third-party vendors, no two organizations should have the exact same privacy policy.
 
 **Copy-paste privacy policies aren't compliance, they're deception.**
 
@@ -163,11 +161,11 @@ An infamous recent example of this is Google, who [pushed](https://proton.me/blo
 
 This [enabled by default](https://www.eff.org/deeplinks/2023/09/how-turn-googles-privacy-sandbox-ad-tracking-and-why-you-should) technology allows Google to target users with ads customized around their browsing history. It's really difficult to see where the "privacy" is supposed to be here, even when squinting very hard.
 
-But of course Google, and advertising company, has long mastered the art of misleading language around data privacy to reassure its valuable natural resource, the user.
+Of course, Google, an advertising company, has long mastered the art of misleading language around data privacy to reassure its valuable natural resource, the user.
 
-Everyone is likely familiar with Chrome's infamously deceptive "Incognito mode". Being "Incognito" of course stops at your own device, where browsing history will not be kept. Complainants alleged that, despite Incognito mode being enabled, Google was still collecting personally identifiable user data. Understandably disgruntled users filed an official [class action lawsuit](https://www.theverge.com/2023/8/7/23823878/google-privacy-tracking-incognito-mode-lawsuit-summary-judgment-denied) to get reparation from this deception. In 2023, Google decided [to settle](https://www.bbc.co.uk/news/business-67838384) on this $5 billion lawsuit.
+Everyone is likely familiar with Chrome's infamously deceptive "Incognito mode". In reality, becoming "Incognito" stopped at your own device where browsing history will not be kept, while Google continued to collect personally identifiable user data from their extensive server-side tracking network. Understandably, disgruntled users filed an official [class action lawsuit](https://www.theverge.com/2023/8/7/23823878/google-privacy-tracking-incognito-mode-lawsuit-summary-judgment-denied) to get reparation from this deception. In 2023, Google agreed [to settle](https://www.bbc.co.uk/news/business-67838384) this $5 billion lawsuit.
 
-Despite all they may claim in their advertising to users, Google, like many other big tech giants, have been for years lobbying [against better privacy](https://www.politico.com/news/2021/10/22/google-kids-privacy-protections-tech-giants-516834) protections.
+Despite claims of "privacy" in their advertising to users, Google, like many other big tech giants, has in reality spent millions [lobbying against](https://www.politico.com/news/2021/10/22/google-kids-privacy-protections-tech-giants-516834) better privacy protections for years.
 
 World App, the biometric data collector:
 
