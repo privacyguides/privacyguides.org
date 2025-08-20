@@ -211,6 +211,12 @@ The new `np` tag adds the ability to define what to do with a non-existent subdo
 
 They are also adding [requirements](https://datatracker.ietf.org/doc/html/draft-ietf-dmarc-dmarcbis-41#name-conformance-requirements-fo) that mail providers must meet to fully conform to the specification, which should eliminate questions about best practices and how DMARC should be implemented.
 
+### Deprecation of Cleartext Email
+
+Since there are now protocols in place to at least allow for transport encryption at every stage of the email process, providers should work on [removing support](https://datatracker.ietf.org/doc/html/rfc8314#section-4.1) for unencrypted email entirely.
+
+Transport encryption between servers now should be the minimum expected for email services going into the future.
+
 ### SMTP End-to-End Encryption
 
 The biggest obstacle in the way of email privacy is it's not E2EE by default like most modern messengers we use daily. Some providers like Proton Mail will automatically encrypt emails between [Proton Mail](https://proton.me/support/manage-encryption#:~:text=Proton%20Mail%20encrypts%20all%20emails%20sent%20between%20Proton%20accounts%20with%20end%2Dto%2Dend%20encryption%20(E2EE)) users. The obvious next step is to build E2EE into SMTP itself.
