@@ -187,7 +187,7 @@ Luckily, lots of email clients let you disable JavaScript and HTML if you want, 
 
 It's been a multi-decade cross-industry effort to bring email up to snuff as a modern communication system and we still have a long way to go. There's still efforts to improve the state of email security, so look out for these in the future.
 
-### Improvements to PGP
+### Improvements to OpenPGP
 
 The IETF has a [working group](https://datatracker.ietf.org/wg/openpgp/about/) for OpenPGP that wants to add many improvments to OpenPGP, including post-quantum encryption, forward secrecy, and usability improvements.
 
