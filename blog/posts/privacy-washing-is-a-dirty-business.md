@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2025-08-20T16:00:00Z
+    created: 2025-08-20T17:00:00Z
 categories:
     - Opinion
 authors:
