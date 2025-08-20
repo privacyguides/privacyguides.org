@@ -569,3 +569,4 @@ allowlisted
 MyMonero
 Monero-LWS
 OkCupid
+Anom
