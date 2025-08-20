@@ -173,7 +173,7 @@ World App, the biometric data collector:
 
 Similarly, Sam Altman's World project loves to throw privacy-preserving language around to reassure prospect users and investors. But despite all its claims, data protection authorities around the world have been [investigating, fining, and even banning](sam-altman-wants-your-eyeball.md/#privacy-legislators-arent-on-board) its operations.
 
-The World App (developed by the World project) is an everything app providing users with a unique identifier called a World ID. This World ID, which grants various perks and accesses while using the World App, is earned by providing biometric data to the organization, in the form of an iris scan.
+The World App (developed by the World project) is an "everything app" providing users with a unique identifier called a World ID. This World ID, which grants various perks and accesses while using the World App, is earned by providing biometric data to the organization, in the form of an iris scan.
 
 Providing an iris scan to a for-profit corporation with little oversight will rightfully scare away many potential users. This is why the company has evidently invested heavily in branding itself as a "privacy-preserving" technology, claims that are [questionable](sam-altman-wants-your-eyeball.md/#how-privacy-preserving-is-it) to say the least.
 
@@ -191,7 +191,7 @@ Despite this pledge, the Flo App did share sensitive personal data with third pa
 
 This extreme negligence (or malevolence) have likely harmed some users in unbelievable ways. Considering the state of abortion rights in the United States at the moment, it's not an exaggeration to say this data leak could [severely endanger](privacy-means-safety.md/#healthcare-seekers) Flo App's users, including with risk of imprisonment.
 
-In response, users have filed several [class action lawsuits](https://www.hipaajournal.com/jury-trial-meta-flo-health-consumer-privacy/) against Flo Health, Facebook, Google, Appflyer, and Flurry.
+In response, users have filed several [class action lawsuits](https://www.hipaajournal.com/jury-trial-meta-flo-health-consumer-privacy/) against Flo Health, Facebook, Google, AppsFlyer, and Flurry.
 
 Trivializing health data privacy while promising confidentiality to gain users' trust should never be banalized. This is a very serious infringement of users' rights.
 
