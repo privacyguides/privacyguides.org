@@ -151,7 +151,7 @@ Thanks to the EFF's work, some of those fake clinics have now [quietly removed](
 
 Perhaps the most obvious and pernicious examples of privacy washing are organizations that are clearly building products and features harming people's privacy, while using pro-privacy language to disguise themselves as privacy-respectful organizations. There are likely more occurrences of this than there are characters in this article's text.
 
-Buzzwords like "military-grade encryption", "privacy-enhancing", and the reassuring classic "we never share your data with anyone" gets thrown around like candies falling off a privacy-preserving-piñata.
+Buzzwords like "military-grade encryption", "privacy-enhancing", and the reassuring classic "we never share your data with anyone" get thrown around like candies falling off a privacy-preserving-piñata.
 
 But **words are meaningless when they are deceitful**, and these candies quickly turn bitter once we learn the truth.
 
