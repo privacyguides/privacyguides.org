@@ -78,7 +78,7 @@ PGP encryption also usually doesn't encrypt important metadata like `To`, `From`
 
 #### S/MIME
 
-Another common option for email encryption is [S/MIME](https://www.digicert.com/faq/email-trust/what-is-smime-or-encrypted-email)E, or Secure/Multipurpose Internet Mail Extensions. S/MIME works a bit like HTTPS, using [X.509 digital certificates](https://www.ssl.com/faqs/what-is-an-x-509-certificate/) and [certificate authorities](https://www.digicert.com/blog/what-is-a-certificate-authority) to encrypt and verify the authenticity of emails.
+Another common option for email encryption is [S/MIME](https://www.digicert.com/faq/email-trust/what-is-smime-or-encrypted-email), or Secure/Multipurpose Internet Mail Extensions. S/MIME works a bit like HTTPS, using [X.509 digital certificates](https://www.ssl.com/faqs/what-is-an-x-509-certificate/) and [certificate authorities](https://www.digicert.com/blog/what-is-a-certificate-authority) to encrypt and verify the authenticity of emails.
 
 While a step up from the manual keys of PGP, S/MIME is still a pain to use, particularly because it usually requires purchasing and managing a certificate from a CA, which can be expensive and annoying. S/MIME also lacks forward secrecy just like PGP, so if there's ever a compromise of your private key, all previously sent messages are also compromised.
 
