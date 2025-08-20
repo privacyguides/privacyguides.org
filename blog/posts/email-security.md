@@ -58,11 +58,15 @@ In the past, ports 25, 465, 587, and 2525 have all been used for SMTP at various
 
 #### POP3S
 
-POP3 also supports implicit TLS over port 995.
+Post Office Protocol version 3 or POP3 is a protocol for retrieving mail from a mail server. It's one of the ways your email client can show you your mail.
+
+POP3 also supports implicit TLS over port 995, so it can be encrypted by default as well.
 
 #### IMAPS
 
-Ditto for IMAP, the implicit TLS port is 993.
+IMAP is another protocol for retreiving mail from a mail server.
+
+Like SMTPS and POP3s, IMAP supports implicit TLS. The implicit TLS port is 993.
 
 #### PGP
 
