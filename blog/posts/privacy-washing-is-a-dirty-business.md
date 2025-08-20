@@ -24,6 +24,9 @@ Perhaps you haven't heard the term *privacy washing* before. Nonetheless, it's l
 
 Similarly to whitewashing (concealing unwanted truths to improve a reputation) and greenwashing (deceptively presenting a product as environmentally friendly for marketing purposes), privacy washing misleadingly, or fraudulently, presents a product, service, or organization as being responsible and trustworthy with data protection, when it isn't.
 
+<div class="admonition quote inline end" markdown>
+<p class="admonition-title">Your privacy is&ast; important to us. <small aria-hidden="true">&ast;not!</small></p></div>
+
 The term has been used for over a decade already. It's saddening to see that not only is this [not a new problem](https://dataethics.eu/privacy-washing/), but it has only gotten worse through the years.
 
 With the acceleration of data collection, the accumulation of data breaches, and the erosion of customers' trust, companies have an increased need for reassuring users to gain their business.
@@ -32,7 +35,7 @@ Despite consumers' rights and expectations, implementing proper data protection 
 
 For these reasons, many companies quickly realize the need for *advertising* better privacy, but aren't necessarily willing to invest what it takes to make these claims true.
 
-There comes privacy washing: "Your privacy is&ast; important to us." <small aria-hidden="true">&ast;not!</small>
+There comes privacy washing: <span class="pullquote-source">"Your privacy is&ast; important to us." <small aria-hidden="true">&ast;not!</small></span>
 
 Privacy washing comes with a selection of washer cycles, from malicious trap to deceptive snake oil to perhaps the most common wash: plain negligence.
 
@@ -46,8 +49,7 @@ Nonetheless, understanding the different types of privacy washing can help us to
 
 ### Negligence and greed
 
-<div class="admonition quote" markdown>
-<p class="admonition-title">They know what they are doing, but they care more about money</p></div>
+> *They know what they are doing, but they care more about money*
 
 The most common occurrence of privacy washing likely comes from negligence and greed. One of the biggest drivers for this is that the current market incentivizes it.
 
@@ -57,11 +59,14 @@ The problem is, this model is antithetical to implementing good privacy, securit
 
 Many startups fail to see how being thorough with data privacy will benefit them in the long term, and view privacy and security requirements only as a burden slowing down their growth. This mindset can result in perceiving privacy as a simple marketing asset, something businesses talk to users about for reassurance, but without putting any real effort into it beneath the surface.
 
+<div class="admonition quote inline end" markdown>
+<p class="admonition-title">Perhaps moving fast and breaking things wasn't such a good idea after all.</small></p></div>
+
 Outside of privacy, this common startup mindset of playing fast and loose with customers and their safety frequently has **devastating** consequences. One recent and tragic example comes from OceanGate's Titan deep-sea submersible that [infamously imploded](https://globalnews.ca/news/11318623/titan-sub-report-oceangate-culture-critically-flawed/) during an exploration, killing its five passengers in an instant.
 
 The final report blamed a problematic safety culture at OceanGate that was “critically flawed and at the core of these failures were glaring disparities between their written safety protocols and their actual practices.”
 
-Perhaps [moving fast and breaking things](move-fast-and-break-things.md) wasn't such a good idea after all.
+<span class="pullquote-source">Perhaps [moving fast and breaking things](move-fast-and-break-things.md) wasn't such a good idea after all.</span>
 
 Alas, similar "glaring disparities" between policies and practices are widespread in the tech industry. While maybe not as dramatic and spectacular as an imploding submersible, [data leaks can also literally kill people](privacy-means-safety.md).
 
@@ -73,8 +78,7 @@ Unfortunately, users (like passengers) often have very few ways to verify false 
 
 ### Incompetence and willful ignorance
 
-<div class="admonition quote" markdown>
-<p class="admonition-title">They don't know what they are doing, or they just don't want to know</p></div>
+> *They don't know what they are doing, or they just don't want to know*
 
 Partly related to negligence, is plain incompetence and willful ignorance. Some organizations might be well-intentioned initially, but either lack the internal expertise to implement proper privacy practices, or conveniently decide not to spend much time researching about what their data protection responsibilities are.
 
@@ -104,8 +108,7 @@ Organizations must take this responsibility much more seriously.
 
 ### Malevolence and fraud
 
-<div class="admonition quote" markdown>
-<p class="admonition-title">They lie, and they want your data</p></div>
+> *They lie, and they want your data*
 
 Greed and ignorance are common causes of privacy washing, but they can quickly escalate to fraud and ambush.
 
@@ -149,8 +152,7 @@ Thanks to the EFF's work, some of those fake clinics have now [quietly removed](
 
 ### Deception and privacy-masquerading
 
-<div class="admonition quote" markdown>
-<p class="admonition-title">They talk privacy, but their words are empty</p></div>
+> *They talk privacy, but their words are empty*
 
 Perhaps the most obvious and pernicious examples of privacy washing are organizations that are clearly building products and features harming people's privacy, while using deceptive, pro-privacy language to disguise themselves as privacy-respectful organizations. There are likely more occurrences of this than there are characters in this article's text.
 
@@ -166,7 +168,10 @@ This [enabled by default](https://www.eff.org/deeplinks/2023/09/how-turn-googles
 
 Of course, Google, an advertising company, has long mastered the art of misleading language around data privacy to reassure its valuable natural resource, the user.
 
-Everyone is likely familiar with Chrome's infamously deceptive "Incognito mode". In reality, becoming "Incognito" stopped at your own device where browsing history will not be kept, while Google continued to collect personally identifiable user data from their extensive server-side tracking network. Understandably, disgruntled users filed an official [class action lawsuit](https://www.theverge.com/2023/8/7/23823878/google-privacy-tracking-incognito-mode-lawsuit-summary-judgment-denied) to get reparation from this deception. In 2023, Google agreed [to settle](https://www.bbc.co.uk/news/business-67838384) this $5 billion lawsuit.
+<div class="admonition quote inline end" markdown>
+<p class="admonition-title">Google continued to collect personally identifiable user data from their extensive server-side tracking network.</small></p></div>
+
+Everyone is likely familiar with Chrome's infamously deceptive "Incognito mode". In reality, becoming "Incognito" stopped at your own device where browsing history will not be kept, while <span class="pullquote-source">Google continued to collect personally identifiable user data from their extensive server-side tracking network.</span> Understandably, disgruntled users filed an official [class action lawsuit](https://www.theverge.com/2023/8/7/23823878/google-privacy-tracking-incognito-mode-lawsuit-summary-judgment-denied) to get reparation from this deception. In 2023, Google agreed [to settle](https://www.bbc.co.uk/news/business-67838384) this $5 billion lawsuit.
 
 Despite claims of "privacy" in their advertising to users, Google, like many other big tech giants, has in reality spent millions [lobbying against](https://www.politico.com/news/2021/10/22/google-kids-privacy-protections-tech-giants-516834) better privacy protections for years.
 
