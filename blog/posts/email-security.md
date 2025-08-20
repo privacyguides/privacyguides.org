@@ -206,3 +206,9 @@ The `pct` tag is going away, which was a tag that would only allow a specified p
 The new `np` tag adds the ability to define what to do with a non-existent subdomain of a real domain. This will prevent cybercriminals from subverting DMARC by using a fake subdomain.
 
 They are also adding [requirements](https://datatracker.ietf.org/doc/html/draft-ietf-dmarc-dmarcbis-41#name-conformance-requirements-fo) that mail providers must meet to fully conform to the specification, which should eliminate questions about best practices and how DMARC should be implemented.
+
+### SMTP End-to-End Encryption
+
+The biggest obstacle in the way of email privacy is it's not E2EE by default like most modern messengers we use daily. Some providers like ProtonMail will automatically encrypt emails between proton users. The obvious next step is to build E2EE into SMTP itself.
+
+An [RFC proposal](https://dcrubro.com/files/smtp-ee2esign-latest.txt) exists for just such an idea. I'm hopeful something like this can be standardized and widely adopted, and finally bring email into the 21st century.
