@@ -68,7 +68,7 @@ POP3 also supports implicit TLS over port 995, so it can be encrypted by default
 
 Like SMTPS and POP3s, IMAP supports implicit TLS. The implicit TLS port is 993.
 
-#### PGP
+#### OpenPGP
 
 The above features only protect the email in transit and don't protect against the email providers involved, which is a massive security issue if you don't trust your email provider. On top of that, you as a user have no control over which parts of the chain are encrypted. If you want to be sure that no party in between you and your recipient can read or alter your emails, you need to use end-to-end encryption. Unfortunately, by default, email doesn't support end-to-end encrytion.
 
