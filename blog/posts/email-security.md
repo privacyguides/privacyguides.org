@@ -42,7 +42,7 @@ STARTTLS allows a bit more flexibility at the cost of some security. Since you d
 
 Since it's just using TLS, STARTTLS can't provide E2EE, just transport encryption. The encryption looks something like:
 
-Encrypted between your email client and your SMTP server → decrypted at your SMTP server → Encrypted between your SMTP server and recipient's SMTP server → decrypted at recipient's SMTP server → encrypted between their SMTP server and email client
+Encrypted between your email client and your SMTP server → decrypted at your SMTP server → Encrypted between your SMTP server and recipient's SMTP server → decrypted at recipient's SMTP server → encrypted between their SMTP server and their POP3/IMAP server → decrypted at their POP3/IMAP server → encrypted between their POP3/IMAP server and their email client → decrypted by their email client.
 
 ``` mermaid
 flowchart LR
