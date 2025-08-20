@@ -191,6 +191,10 @@ It's been a multi-decade cross-industry effort to bring email up to snuff as a m
 
 The IETF has a [working group](https://datatracker.ietf.org/wg/openpgp/about/) for OpenPGP that wants to add many improvments to OpenPGP, including post-quantum encryption, forward secrecy, and usability improvements.
 
+Key transparency is also a planned feature, similar to what apps like [WhatsApp](https://scontent.xx.fbcdn.net/v/t39.8562-6/379264560_846690136905658_6336040801441930900_n.pdf?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=gNmDlLkE0DMQ7kNvwEyKONi&_nc_oc=AdmucQjSjoTw2nXUszYeZNStyUHGqvM2pj3oRVV7qI4xmLEJMmY2pUV29WcOnKC1KpA&_nc_zt=14&_nc_ht=scontent.xx&_nc_gid=5lSqV7L5iCqeiMSQDCwN0w&oh=00_AfXoxrF8ukQtSVZM_BCBDbveIDviQPfn0kDEV8pSbxX1SQ&oe=68AB9400) have implmenented. Key transparency systems use an append-only, auditable and tamper-evident log of keys that allows you to automatically verify the authenticity of whoevery you're messaging with.
+
+There's even a plan to add the ability to verify keys manually using QR codes, similar to how some messengers let you manually verify keys.
+
 ### DKIM2
 
 [DKIM2](https://www.ietf.org/archive/id/draft-gondwana-dkim2-motivation-00.html) is the planned next version of DKIM.
