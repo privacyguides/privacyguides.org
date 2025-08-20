@@ -217,6 +217,12 @@ Since there are now protocols in place to at least allow for transport encryptio
 
 Transport encryption between servers now should be the minimum expected for email services going into the future.
 
+### Passkeys
+
+The adoption of [passkeys](https://fidoalliance.org/passkeys/) will eliminate the need for email as a recovery method, since users won't have to remember passwords. Email can be used for what it was originally intended for: a method of communication and sending updates and announcements, nothing more. This will take a concerted effort from service providers though, and it seems for now most services that support passkeys still require and email for some reason. Here's hoping this changes in the future.
+
+The adoption of passkeys will also make email services themselves more secure, since at the moment they act as a sort of defacto recovery method for all of our accounts. They should focus on deprecating passwords for improved security.
+
 ### SMTP End-to-End Encryption
 
 The biggest obstacle in the way of email privacy is it's not E2EE by default like most modern messengers we use daily. Some providers like Proton Mail will automatically encrypt emails between [Proton Mail](https://proton.me/support/manage-encryption#:~:text=Proton%20Mail%20encrypts%20all%20emails%20sent%20between%20Proton%20accounts%20with%20end%2Dto%2Dend%20encryption%20(E2EE)) users. The obvious next step is to build E2EE into SMTP itself.
