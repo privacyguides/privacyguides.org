@@ -150,7 +150,6 @@ In this way, not only does DKIM provide assurance that the email was sent from t
 
 Note also that this has nothing to do with encryption of the message, only verifying the authenticity and sender. The message is still sent in plaintext unless another component encrypts it.
 
-
 #### DMARC
 
 [Domain-based Message Authentication Reporting and Conformance (DMARC)](https://www.cloudflare.com/learning/dns/dns-records/dns-dmarc-record/) is an authentication method that builds on SPF and DKIM. DMARC tells a receiving email server what to do after checking the SPF and DKIM. If the email fails, the DMARC policy tells the receiver whether to mark it as spam, block it, or allow it through. 
