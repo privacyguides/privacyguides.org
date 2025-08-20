@@ -50,7 +50,6 @@ flowchart LR
     B --> |Optional TLS Encryption| C(Other SMTP Server)
     C -->|Optional TLS Encryption| D[POP3 or IMAP Server]
     D -->|Optional TLS Encryption| F[Other Party's Email Client]
-  
 ```
 
 At each point in the process TLS encrytion is not guaranteed. Now consider that you can have multiple recipients with their own SMTP servers as well and you start to see how flimsly this protection can be. And since the initial negotiation is in plaintext, an attacker can simply strip away the STARTTLS command, preventing a secure connection from being established.
