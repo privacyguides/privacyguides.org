@@ -102,7 +102,7 @@ Implementing protections and limiting collection cannot be an afterthought. Once
 
 Organizations must take this responsibility much more seriously.
 
-### Malevolence and deception
+### Malevolence and fraud
 
 <div class="admonition quote" markdown>
 <p class="admonition-title">They lie, and they want your data</p></div>
@@ -147,15 +147,15 @@ Not only are many of these fake clinics **not** complying with HIPAA, but they c
 
 Thanks to the EFF's work, some of those fake clinics have now [quietly removed](https://www.eff.org/deeplinks/2025/08/fake-clinics-quietly-edit-their-websites-after-being-called-out-hipaa-claims) misleading language from their websites. But sadly, this small victory doesn't make these organizations any more trustworthy, it only slightly reduces the extent of their privacy washing.
 
-#### Deceptive language and privacy-masquerading
+### Deception and privacy-masquerading
 
-Perhaps the most obvious and pernicious examples of privacy washing are organizations that are clearly building products and features harming people's privacy, while using pro-privacy language to disguise themselves as privacy-respectful organizations. There are likely more occurrences of this than there are characters in this article's text.
+Perhaps the most obvious and pernicious examples of privacy washing are organizations that are clearly building products and features harming people's privacy, while using deceptive, pro-privacy language to disguise themselves as privacy-respectful organizations. There are likely more occurrences of this than there are characters in this article's text.
 
 Buzzwords like "military-grade encryption", "privacy-enhancing", and the reassuring classic "we never share your data with anyone" get thrown around like candies falling off a privacy-preserving-piñata.
 
 But **words are meaningless when they are deceitful**, and these candies quickly turn bitter once we learn the truth.
 
-Google, the advertising company:
+#### Google, the advertising company
 
 An infamous recent example of this is Google, who [pushed](https://proton.me/blog/privacy-washing-2023) a new Chrome feature for targeted advertising in 2023 and dared to call it "Enhanced Ad Privacy"
 
@@ -167,7 +167,7 @@ Everyone is likely familiar with Chrome's infamously deceptive "Incognito mode".
 
 Despite claims of "privacy" in their advertising to users, Google, like many other big tech giants, has in reality spent millions [lobbying against](https://www.politico.com/news/2021/10/22/google-kids-privacy-protections-tech-giants-516834) better privacy protections for years.
 
-World App, the biometric data collector:
+#### World App, the biometric data collector
 
 Similarly, Sam Altman's World project loves to throw privacy-preserving language around to reassure prospect users and investors. But despite all its claims, data protection authorities around the world have been [investigating, fining, and even banning](sam-altman-wants-your-eyeball.md/#privacy-legislators-arent-on-board) its operations.
 
@@ -177,9 +177,9 @@ Providing an iris scan to a for-profit corporation with little oversight will ri
 
 Despite catchy declarations such as "privacy by default and by design approach", the World project has accumulated an impressive history of privacy violations, and multiplies contradicting and misleading statements in its own documentation.
 
-**There are some stains that even a powerful, billionaire-backed, privacy wash just cannot clean off.**
+There are some stains that even a powerful, billionaire-backed, privacy wash just cannot clean off.
 
-Flo App, sharing your period data with Facebook:
+#### Flo, sharing your period data with Facebook
 
 In 2019, the Wall Street Journal [reported](https://therecord.media/meta-flo-trial-period-tracking-data-sharing) that the period tracking application Flo had been sharing sensitive health data with Facebook (Meta), despite its promises of privacy.
 
