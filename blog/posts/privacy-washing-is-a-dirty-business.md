@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2025-08-19T20:00:00Z
+    created: 2025-08-20T15:00:00Z
 categories:
     - Opinion
 authors:
@@ -32,7 +32,7 @@ Despite consumers' rights and expectations, implementing proper data protection 
 
 For these reasons, many companies quickly realize the need for *advertising* better privacy, but aren't necessarily willing to invest what it takes to make these claims true.
 
-There comes privacy washing: "Your privacy is * important to us." <small aria-hidden="true">*not</small>
+There comes privacy washing: "Your privacy is&ast; important to us." <small aria-hidden="true">&ast;not!</small>
 
 Privacy washing comes with a selection of washer cycles, from malicious trap, to deceptive snake oil, and to the perhaps most common wash: plain negligence.
 
