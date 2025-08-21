@@ -212,6 +212,10 @@ There's even a plan to add the ability to verify keys manually using QR codes, s
 
 An issue with the current version of DKIM is a malicious actor taking emails signed with DKIM from a different domain and replaying them, spamming them out to thousands of people and eroding trust in the original domain. The new DKIM2 specification would force each hop the email takes along its path to sign it, so any issues will be the fault of the previous hop.
 
+DKIM2 aims to simplify the protocol and make it more standardized. For example, in practice, the vast majority of DKIM is singed using relaxed methods, so DKIM2 will only support relaxed.
+
+The fact that DKIM relies on an explicit list of headers as part of the signature, there is inconsistent signing of headers and some security-critical headers might not be signed. In order to prevent attackers from adding headers that weren't orginally part of the email, providers would sign headers with no information in them. DKIM2 would specify a fixed set of headers in alignment with best practices so there won't be a need to specify headers.
+
 ### DMARCbis
 
 [DMARCbis](https://datatracker.ietf.org/doc/draft-ietf-dmarc-dmarcbis/) is a proposed updated version of DMARC.
