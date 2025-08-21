@@ -238,6 +238,12 @@ The adoption of [passkeys](https://fidoalliance.org/passkeys/) will eliminate th
 
 The adoption of passkeys will also make email services themselves more secure, since at the moment they act as a sort of defacto recovery method for all of our accounts. They should focus on deprecating passwords for improved security.
 
+### Guidance for E2EE
+
+The usability of E2EE in email is significantly lacking compared to other methods of communication, especially modern messengers like Signal that make the E2EE very seamless and simple. The handling of E2EE by email clients can also vary a lot and leave email users [vulnerable to bypasses](https://efail.de) for the E2EE.
+
+An [RFC](https://www.ietf.org/archive/id/draft-ietf-lamps-e2e-mail-guidance-17.html) to address usability issues and best practices for email clients exists, hopefully it can lead to a future of improved user experience and security in email.
+
 ### SMTP End-to-End Encryption
 
 The biggest obstacle in the way of email privacy is it's not E2EE by default like most modern messengers we use daily. Some providers like Proton Mail will automatically encrypt emails between [Proton Mail](https://proton.me/support/manage-encryption#:~:text=Proton%20Mail%20encrypts%20all%20emails%20sent%20between%20Proton%20accounts%20with%20end%2Dto%2Dend%20encryption%20(E2EE)) users. The obvious next step is to build E2EE into SMTP itself.
