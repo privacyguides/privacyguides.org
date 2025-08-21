@@ -182,7 +182,7 @@ I touched on this a bit in my [passkey article](https://www.privacyguides.org/ar
 
 #### Third-Party Clients
 
-Many email providers such as gmail provide their own clients for you to view your inbox, send messages, etc. But, many people choose to use third-party clients for their email needs.
+Many email providers such as gmail provide their own clients for you to view your inbox, send messages, etc. But many people choose to use third-party clients for their email needs.
 
 While it's great that email can support that, it does mean you need to trust another party with your sensitive email and essentially the security of all of your accounts. Not to mention that email clients can have [vulnerabilties](https://www.mozilla.org/en-US/security/known-vulnerabilities/thunderbird/), so you need to be very careful about which one you trust.
 
