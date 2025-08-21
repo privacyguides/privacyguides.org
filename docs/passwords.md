@@ -373,7 +373,9 @@ The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.ke
 
 ![KeePassium logo](assets/img/password-management/keepassium.svg){ align=right }
 
-KeePassium is a commercial open-source KeePass client made by KeePassium Labs. It has *free* features such as automatic two-way synchronization with most [cloud storage providers](https://www.privacyguides.org/en/cloud/), autofill support, passkey management and more.
+KeePassium is a commercial, open-source password manager made by KeePassium Labs that's compatible with other KeePass applications. It provides autofill support, passkey management, automatic two-way synchronization through [most cloud storage providers](https://support.keepassium.com/kb/sync), and more.
+
+[:material-star-box: Read our latest KeePassium review.](https://www.privacyguides.org/articles/2025/05/13/keepassium-review)
 
 [:octicons-home-16: Homepage](https://keepassium.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://keepassium.com/privacy/app){ .card-link title="Privacy Policy" }
@@ -390,7 +392,7 @@ KeePassium is a commercial open-source KeePass client made by KeePassium Labs. I
 
 </div>
 
-KeePassium offers a [Premium version](https://keepassium.com/pricing) with additional features such as support for multiple databases, YubiKey support, and a password audit tool. Additionally, KeePassium offers a ["rent-to-own"](https://support.keepassium.com/kb/license-rent-own) license when purchasing a yearly subscription. With this option, you keep full access to the app's premium features that existed when you paid, even after your last payment.
+KeePassium offers a [Premium version](https://keepassium.com/pricing) with additional features such as support for multiple databases, YubiKey support, and a password audit tool.
 
 KeePassium's iOS app has been [audited](https://cure53.de/pentest-report_keepassium.pdf) by Cure53 in October 2024, and all [issues](https://keepassium.com/blog/2024/11/independent-security-audit-complete) found in the audit were subsequently fixed.
 
