@@ -206,6 +206,10 @@ Key transparency is also a planned feature, similar to what apps like [WhatsApp]
 
 There's even a plan to add the ability to verify keys manually using QR codes, similar to how some messengers let you manually verify keys.
 
+### Improvements to S/MIME
+
+The [LAMPS](https://datatracker.ietf.org/wg/lamps/about/) working group is looking at adding post-quantum encryption to S/MIME to protect against future quantum computer threats. This would include "dual-signature" schemes combining traditional encryption with PG encryption, similar to how some messengers handle it.
+
 ### DKIM2
 
 [DKIM2](https://www.ietf.org/archive/id/draft-gondwana-dkim2-motivation-00.html) is the planned next version of DKIM.
