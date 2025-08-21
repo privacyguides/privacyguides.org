@@ -172,6 +172,14 @@ DMARC also uses TXT records. An example DMARC policy might look like
 
 The `v=` shows the version of DMARC to use. The `p=` shows what should be done with emails if they fail, in this case `quarantine` means the receiver should put the email in the user's spam folder. `reject` can be specified as well to show that emails that fail should be outright blocked. `adkim=` tells how DKIM should be enforced, with `s` meaning "strict"; for relaxed, `r` is listed instead. Ditto for `aspf=`.
 
+#### DNSSEC
+
+You may have noticed that all of these authentication methods rely on DNS. Unfortunately, DNS wasn't designed to be secure when it was invented in the 1980's. Ironically, there's no authentication built into DNS by default, so by attacking DNS, an malicious actor can [poison](https://www.cloudflare.com/learning/dns/dns-cache-poisoning/) DNS cache with false information.
+
+Researchers at CMU in 2014 found that emails that were supposedly to be sent by Gmail, Yahoo!, and Outlook.com were actually being sent by a rogue email server. This is disastrous for security and breaks the entire email authentication system.
+
+The solution? [DNSSEC](https://www.cloudflare.com/learning/dns/dnssec/how-dnssec-works/). DNSSEC uses digital signatures to verify the authenticity of the DNS response. Unfortunately, DNSSEC isn't as widely used as it could be so DNS attacks are still a real threat.
+
 ### General Security
 
 #### Email as a Backdoor into Your Accounts
@@ -241,6 +249,10 @@ Transport encryption between servers now should be the minimum expected for emai
 The adoption of [passkeys](https://fidoalliance.org/passkeys/) will eliminate the need for email as a recovery method, since users won't have to remember passwords. Email can be used for what it was originally intended for: a method of communication and sending updates and announcements, nothing more. This will take a concerted effort from service providers though, and it seems for now most services that support passkeys still require and email for some reason. Here's hoping this changes in the future.
 
 The adoption of passkeys will also make email services themselves more secure, since at the moment they act as a sort of defacto recovery method for all of our accounts. They should focus on deprecating passwords for improved security.
+
+### Wider Adoption of DNSSEC
+
+DNSSEC should be universally adopted to prevent DNS poisoning attacks. This would drastically improve the security of email.
 
 ### Guidance for E2EE
 
