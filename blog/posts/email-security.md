@@ -178,7 +178,7 @@ The `v=` shows the version of DMARC to use. The `p=` shows what should be done w
 
 Something seldom discussed is the fact that email is the default 2FA method for most accounts and also can be used to bypass your password through the password reset function on the login screen of most services. This essentially means the security of all of your accounts rests on the security of your email, which can be very shaky and lacks E2EE usually. It's most comparable to SMS 2FA which is also used a lot of the time as a method for getting into accounts when you forgot your password.
 
-I touched on this a bit in my passkey article, but we need to stop relying on email for security critical applications and start using proper recovery methods like recovery codes. Email should be used for what it's intended for: sending messages and updates to people, anouncements, etc.
+I touched on this a bit in my [passkey article](https://www.privacyguides.org/articles/2025/03/08/toward-a-passwordless-future/), but we need to stop relying on email for security critical applications and start using proper recovery methods like recovery codes. Email should be used for what it's intended for: sending messages and updates to people, anouncements, etc.
 
 #### Third-Party Clients
 
