@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2023 Jonah Aragon <jonah@privacyguides.org>
+#
+# SPDX-License-Identifier: MIT
+
 definitions:
   - &background_color >-
     #FFD06F

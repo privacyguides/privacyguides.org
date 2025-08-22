@@ -1,4 +1,7 @@
 ---
+# SPDX-FileCopyrightText: 2025 Privacy Guides <https://magicgrants.org/funds/privacy_guides/>
+#
+# SPDX-License-Identifier: CC-BY-SA-4.0
 date:
     created: 2025-03-25T20:30:00Z
 categories:
@@ -222,4 +225,4 @@ If you or someone you know is in one of the situations described above, these ad
 
 ---
 
-**Correction (Mar. 27):** This article was updated to correct a typo in a date. The previous version wrongly described the arrest of a French climate activist happening in 2012, when these events actually happened in 2021. 
+**Correction (Mar. 27):** This article was updated to correct a typo in a date. The previous version wrongly described the arrest of a French climate activist happening in 2012, when these events actually happened in 2021.

@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Jonah Aragon <jonah@privacyguides.org>
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Community Code of Conduct
 
 **We pledge** to make our community a harassment-free experience for everyone.

@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+SPDX-FileCopyrightText: 2020 Jonah Aragon <jonah@privacyguides.org>
+
+SPDX-License-Identifier: MIT
+-->
+
 <browserconfig>
     <msapplication>
         <tile>

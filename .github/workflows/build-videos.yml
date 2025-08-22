@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 Jonah Aragon <jonah@privacyguides.org>
+#
+# SPDX-License-Identifier: MIT
+
 name: 🛠️ Build Videos
 
 on:
