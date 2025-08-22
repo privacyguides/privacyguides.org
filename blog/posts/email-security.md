@@ -186,6 +186,16 @@ The public key infrastructure (PKI) that we rely on for things like HTTPS in bro
 
 Effectively, DNSSEC is designed so that you can be sure the results of a DNS query are accurate.
 
+#### DANE
+
+DNS-Based Authentication of Named Entities or DANE applies the security of DNSSEC to email. It forces TLS to be used and binds the TLS certificate to DNS names directly using TLSA, thus allowing email providers to bypass the certificate authority system relied on by HTTPS.
+
+#### MTA-STS
+
+MTA-STS or Mail Transfer Agent Strict Transport Security is a way to force TLS connections for email and validate that the DNS is correct. Instead of DNSSEC, MTA-STS relies on HTTPS and the web PKI to validate DNS. It's not stored as a DNS record but instead an HTTPS server that serves the file.
+
+Both DANE and MTA-STS can be used together for a multilayered approach to email security.
+
 ### General Security
 
 #### Email as a Backdoor into Your Accounts
