@@ -3,7 +3,7 @@ title: Private Payments
 icon: material/hand-coin
 description: Your buying habits are the holy grail of ad targeting, but you still have plenty of options when it comes to making payments privately.
 ---
-Data about your buying habits is considered the holy grail of ad targeting: your purchases can leak a veritable treasure trove of data about you. Unfortunately, the current financial system is anti-privacy by design, enabling banks, other companies, and governments to easily trace transactions. Nevertheless, you have plenty of options when it comes to making payments privately.
+Data about your buying habits is considered the holy grail of ad targeting: Your purchases can leak a veritable treasure trove of data about you. Unfortunately, the current financial system is anti-privacy by design, enabling banks, other companies, and governments to easily trace transactions. Nevertheless, you have plenty of options when it comes to making payments privately.
 
 ## Cash
 
@@ -17,7 +17,7 @@ Despite the above, cash is typically the best option when available.
 
 You can easily purchase gift cards and prepaid cards at most grocery stores and convenience stores with cash. Gift cards usually don’t have a fee, though prepaid cards often do, so pay close attention to these fees and expiry dates. Some stores may ask to see your ID at checkout in an effort to reduce fraud.
 
-Gift cards usually have limits of up to $200 per card, but some offer limits of up to $2,000 per card. Prepaid cards (e.g.: from Visa or Mastercard) usually have limits of up to $1,000 per card.
+Gift cards usually have limits of up to $200 per card, but some offer limits of up to $2,000 per card. Prepaid cards (e.g. from Visa or Mastercard) usually have limits of up to $1,000 per card.
 
 Gift cards have the downside of being subject to merchant policies, which can have terrible terms and restrictions. For example, some merchants don’t accept payment in gift cards exclusively, or they may cancel the value of the card if they consider you to be a high-risk user. Once you have merchant credit, the merchant has a strong degree of control over this credit.
 
@@ -43,7 +43,7 @@ These tend to be good options for recurring/subscription payments online, while 
 
 ## Cryptocurrency
 
-Cryptocurrencies are a digital form of currency designed to work without central authorities such as a government or bank. While *some* cryptocurrency projects can allow you to make private transactions online, many use a transparent blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly. As such, we generally don't recommend using cryptocurrency as a long-term store of value. If you decide to use cryptocurrency online, make sure you have a full understanding of its privacy aspects beforehand, and only invest amounts which would not be disastrous to lose.
+Cryptocurrencies are a digital form of currency designed to work without central authorities such as a government or bank. While *some* cryptocurrency projects can allow you to make private transactions online, many use a transparent blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly. As such, we generally don't recommend using cryptocurrency as a long-term store of value. If you decide to use cryptocurrency online, make sure you have a full understanding of its privacy aspects beforehand, and only purchase amounts which would not be disastrous to lose.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger</p>
@@ -72,7 +72,7 @@ Anonymous transactions on a transparent blockchain are *theoretically* possible,
 
 ### Wallet Custody
 
-With cryptocurrency there are two forms of wallets: custodial wallets and self-custody wallets. Custodial wallets are operated by centralized companies/exchanges, where the private key for your wallet is held by that company, and you can access them anywhere typically with a regular username and password. Self-custody wallets are wallets where you control and manage the private keys to access it. Assuming you keep your wallet's private keys secured and backed up, self-custody wallets provide greater security and censorship-resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. Key custody is especially important when it comes to privacy coins: Custodial wallets grant the operating company the ability to view your transactions, negating the privacy benefits of those cryptocurrencies.
+With cryptocurrency there are two forms of wallets: custodial wallets and self-custody wallets. Custodial wallets are operated by centralized companies/exchanges, where the private key for your wallet is held by that company, and you can access them anywhere typically with a regular username and password. Self-custody wallets are wallets where you control and manage the private keys to access it. Assuming you keep your wallet's private keys secured and backed up, self-custody wallets provide greater security and censorship resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. Key custody is especially important when it comes to privacy coins: Custodial wallets grant the operating company the ability to view your transactions, negating the privacy benefits of those cryptocurrencies.
 
 ### Acquisition
 
@@ -84,7 +84,7 @@ If you go this route, make sure to purchase Monero at different times and in dif
 
 ## Additional Considerations
 
-When you're making a payment in-person with cash, make sure to keep your in-person privacy in mind. Security cameras are ubiquitous. Consider wearing non-distinct clothing and a face mask (such as a surgical mask or N95). Don’t sign up for rewards programs or provide any other information about yourself.
+When you're making a payment in person with cash, make sure to keep your in-person privacy in mind. Security cameras are ubiquitous. Consider wearing non-distinct clothing and a face mask (such as a surgical mask or N95). Don’t sign up for rewards programs or provide any other information about yourself.
 
 When purchasing online, ideally you should do so over [Tor](tor-overview.md). However, many merchants don’t allow purchases with Tor. You can consider using a [recommended VPN](../vpn.md) (paid for with cash, gift card, or Monero), or making the purchase from a coffee shop or library with free Wi-Fi. If you are ordering a physical item that needs to be delivered, you will need to provide a delivery address. You should consider using a PO box, private mailbox, or work address.
 
