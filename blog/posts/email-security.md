@@ -176,9 +176,15 @@ The `v=` shows the version of DMARC to use. The `p=` shows what should be done w
 
 You may have noticed that all of these authentication methods rely on DNS. Unfortunately, DNS wasn't designed to be secure when it was invented in the 1980's. Ironically, there's no authentication built into DNS by default, so by attacking DNS, an malicious actor can [poison](https://www.cloudflare.com/learning/dns/dns-cache-poisoning/) DNS cache with false information.
 
-Researchers at CMU in 2014 found that emails that were supposedly to be sent by Gmail, Yahoo!, and Outlook.com were actually being sent by a rogue email server. This is disastrous for security and breaks the entire email authentication system.
+[Researchers at CMU in 2014](https://www.sei.cmu.edu/blog/probable-cache-poisoning-of-mail-handling-domains/) found that emails that were supposedly to be sent by Gmail, Yahoo!, and Outlook.com were actually being sent by a rogue email server. This is disastrous for security and breaks the entire email authentication system. There are many such cases of attacks on DNS infrastructure and many more [possible attacks](https://www.akamai.com/glossary/what-are-dns-attack-vectors) on DNS.
 
 The solution? [DNSSEC](https://www.cloudflare.com/learning/dns/dnssec/how-dnssec-works/). DNSSEC uses digital signatures to verify the authenticity of the DNS response. Unfortunately, DNSSEC isn't as widely used as it could be so DNS attacks are still a real threat.
+
+DNSSEC forms a [chain of trust](https://en.wikipedia.org/wiki/Chain_of_trust), with each zone forming a parent/child relationship all the way up to the [root zone](https://www.cloudflare.com/learning/dns/glossary/dns-root-server/).
+
+The public key infrastructure (PKI) that we rely on for things like HTTPS in browsers similarly relies on a chain of trust, but the web PKI relies on a large number of trusted entities whereas DNSSEC effectively reduces it to one: the IANA which signs the root zone key in a [root signing ceremony](https://www.cloudflare.com/learning/dns/dnssec/root-signing-ceremony/).
+
+Effectively, DNSSEC is designed so that you can be sure the results of a DNS query are accurate.
 
 ### General Security
 
