@@ -194,6 +194,8 @@ DNS-Based Authentication of Named Entities or DANE applies the security of DNSSE
 
 MTA-STS or Mail Transfer Agent Strict Transport Security is a way to force TLS connections for email and validate that the DNS is correct. Instead of DNSSEC, MTA-STS relies on HTTPS and the web PKI to validate DNS. It's not stored as a DNS record but instead an HTTPS server that serves the file.
 
+The extra reliance on web PKI introduces more trust than with DNSSEC, but it's easier to implement and relies on the already-established infrastructure of the internet.
+
 Both DANE and MTA-STS can be used together for a multilayered approach to email security.
 
 ### General Security
