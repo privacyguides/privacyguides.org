@@ -60,6 +60,7 @@ For optimal privacy, make sure to use a self-custody wallet where the [view key]
     - Cake Wallet supports multiple cryptocurrencies. A Monero-only version of Cake Wallet for iOS and Android is available at [Monero.com](https://monero.com).
 - [Feather Wallet](https://featherwallet.org) (Desktop)
 - [Monerujo](https://monerujo.io) (Android)
+- [Unstoppable Wallet](https://unstoppable.money) (iOS & Android)
 
 ### Monero nodes
 
