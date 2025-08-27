@@ -614,7 +614,7 @@ Privacy Guides wouldn't be possible without these wonderful people ([emoji key](
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of **any** kind welcome, including contributions to Privacy Guides outside of this repo, and contributions that aren't content related (like sharing ideas for Privacy Guides, promoting the project, answering questions on the forum, etc.).
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of **any** kind welcome, including contributions to Privacy Guides outside this repo, and contributions that aren't content related (like sharing ideas for Privacy Guides, promoting the project, answering questions on the forum, etc.).
 
 CLI to generate this table:
 
