@@ -67,7 +67,9 @@ for row in $(echo "${topics}" | jq -r '.[] | @base64'); do
   html_output+="<hr>"
   html_output+="<p class='discourse-author'>"
   html_output+="<span class='discourse-author'>"
-  html_output+="<img src='https://forum-cdn.privacyguides.net/user_avatar/discuss.privacyguides.net/${author_username}/48/1.png' loading='lazy' aria-hidden='true' alt='${author_username}' width='20' height='20' class='middle'>"
+  if [[ -z "$BUILD_OFFLINE" ]]; then
+    html_output+="<img src='https://forum-cdn.privacyguides.net/user_avatar/discuss.privacyguides.net/${author_username}/48/1.png' loading='lazy' aria-hidden='true' alt='${author_username}' width='20' height='20' class='middle'>"
+  fi
   html_output+="<span> Posted by <em>$author_username</em></span>"
   html_output+="</span>"
   html_output+="</p>"
