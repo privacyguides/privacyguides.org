@@ -101,6 +101,16 @@ jobs:
       continue-on-error: true
       privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
 
+  build_zimfile:
+    if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build zimfile') }}
+    needs: [submodule, metadata]
+    uses: ./.github/workflows/build-zimfile.yml
+    with:
+      ref: ${{github.event.pull_request.head.ref}}
+      repo: ${{github.event.pull_request.head.repo.full_name}}
+    secrets:
+      RO_DISCOURSE_API_KEY: ${{ secrets.RO_DISCOURSE_API_KEY }}
+
   combine_build:
     needs: [build_english, build_i18n, build_blog]
     if: |
@@ -129,5 +139,5 @@ jobs:
 
   cleanup:
     if: ${{ always() }}
-    needs: [build_english, build_i18n, build_blog]
+    needs: [build_english, build_i18n, build_blog, build_zimfile]
     uses: privacyguides/.github/.github/workflows/cleanup.yml@main
