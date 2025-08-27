@@ -121,7 +121,7 @@
     {% endif %}
 
     <!-- Site language selector -->
-    {% if config.extra.alternate %}
+    {% if config.extra.alternate and config.extra.language_switcher %}
       {% include "partials/alternate.html" %}
     {% endif %}
 
