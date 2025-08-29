@@ -206,6 +206,7 @@ nav:
   - !ENV [NAV_BLOG, "Articles"]: !ENV [ARTICLES_SITE_BASE_URL, "/articles/"]
   - !ENV [NAV_VIDEOS, "Videos"]:
       - index.md
+      - "This Week in Privacy": https://discuss.privacyguides.net/c/announcements/livestreams/9414
       - playlists.md
   - !ENV [NAV_FORUM, "Forum"]: "https://discuss.privacyguides.net/"
   - !ENV [NAV_WIKI, "Wiki"]:
