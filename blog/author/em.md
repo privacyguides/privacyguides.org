@@ -1,4 +1,7 @@
 ---
+# SPDX-FileCopyrightText: 2024 Jonah Aragon <jonah@privacyguides.org>
+#
+# SPDX-License-Identifier: CC-BY-SA-4.0
 description: Em is a full-time journalist at Privacy Guides.
 schema:
   -

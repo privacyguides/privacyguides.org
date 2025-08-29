@@ -1,4 +1,7 @@
 ---
+# SPDX-FileCopyrightText: 2025 Privacy Guides <https://magicgrants.org/funds/privacy_guides/>
+#
+# SPDX-License-Identifier: CC-BY-SA-4.0
 date:
     created: 2025-04-30T20:30:00Z
     updated: 2025-05-06T18:00:00Z

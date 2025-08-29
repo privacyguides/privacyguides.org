@@ -1,4 +1,7 @@
 ---
+# SPDX-FileCopyrightText: 2024 Jonah Aragon <jonah@privacyguides.org>
+#
+# SPDX-License-Identifier: CC-BY-SA-4.0
 description: Privacy Guides News presents the latest tech news about the world's best (and occasionally worst) software, hardware, and services in the privacy world.
 ---
 

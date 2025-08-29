@@ -1,4 +1,7 @@
 ---
+# SPDX-FileCopyrightText: 2025 Privacy Guides <https://magicgrants.org/funds/privacy_guides/>
+#
+# SPDX-License-Identifier: CC-BY-SA-4.0
 date:
     created: 2025-04-21T17:30:00Z
 categories:
@@ -7,7 +10,6 @@ authors:
     - fria
 tags:
     - Privacy Pass
-license: BY-SA
 schema_type: BackgroundNewsArticle
 description: |
   Privacy Pass is a new way to privately authenticate with a service. Let's look at how it could change the way we use services.

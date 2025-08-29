@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Jonah Aragon <jonah@privacyguides.org>
+//
+// SPDX-License-Identifier: MIT
+
 var feedback = document.forms.feedback
 feedback.hidden = false
 

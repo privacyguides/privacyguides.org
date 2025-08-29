@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 Jonah Aragon <jonah@privacyguides.org>
+#
+# SPDX-License-Identifier: MIT OR CC0-1.0
+
 template: video-post.html
 hide:
   - toc
