@@ -37,7 +37,7 @@ The best way to get individual help is from our community on Discourse. If you n
 
 ![Signal contact QR code](assets/img/layout/signal-contact-qr.png){ align=right }
 
-Have a tip for us, or need to share some sensitive information? The best way to get in touch with us securely is via `@privacyguides.01` on Signal. This group account is monitored by [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/ematprivacyguides), and [Jordan](https://discuss.privacyguides.net/u/jordan).
+Have a tip for us, or need to share some sensitive information? The best way to get in touch with us securely is via `@privacyguides.01` on Signal. This group account is monitored by [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/em), and [Jordan](https://discuss.privacyguides.net/u/jordan).
 
 [:simple-signal: Chat on Signal](https://signal.me/#eu/zg9xcrIv5w-EtXt2FmTJgfWv01LmyTed8rpr7RDv35Mizq8ISZ9NJLmYtzsxI0Z4){ .md-button }
 
@@ -130,7 +130,7 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
 
     :material-text-account: Journalist
 
-    [:material-account: Profile](https://discuss.privacyguides.net/u/ematprivacyguides)
+    [:material-account: Profile](https://discuss.privacyguides.net/u/em)
 
     [:material-github:](https://github.com/EmAtPrivacyGuides "GitHub")
     [:material-mastodon:](https://infosec.exchange/@Em0nM4stodon "@Em0nM4stodon@infosec.exchange"){rel=me}

@@ -86,6 +86,7 @@ if [ "$language" != "en" ]; then
   export BUILD_SITE_DIR="site/$language"
   export BUILD_SITE_URL="https://www.privacyguides.org/$language"
   export BUILD_THEME_LANGUAGE="$language"
+  export OPTIMIZE_CACHE=".cache/plugin/optimize-$language"
 fi
 
 # Source per-language strings

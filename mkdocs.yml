@@ -122,10 +122,10 @@ extra:
               link: https://matrix.to/#/#privacyguides:matrix.org
             - icon: material/information-outline
               name: !ENV [HOMEPAGE_CTA_ABOUT_NAME, "Learn more about us"]
-              link: about/
+              link: !ENV [HOMEPAGE_CTA_ABOUT_LINK, "about/"]
             - icon: material/hand-coin
               name: !ENV [HOMEPAGE_CTA_DONATE_NAME, "Donate to Privacy Guides"]
-              link: about/donate/
+              link: !ENV [HOMEPAGE_CTA_DONATE_LINK, "about/donate/"]
           description:
             !ENV [
               HOMEPAGE_CTA_DESCRIPTION,
@@ -182,6 +182,7 @@ extra:
     - icon: simple/torbrowser
       link: http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/
       name: !ENV [SOCIAL_TOR_SITE, "Hidden service"]
+  language_switcher: !ENV [LANGUAGE_SWITCHER, true]
   alternate:
     - name: English
       link: /en/
@@ -318,6 +319,7 @@ plugins:
         enable_creation_date: true
       optimize:
         enabled: !ENV [OPTIMIZE, PRODUCTION, NETLIFY, false]
+        cache_dir: !ENV [OPTIMIZE_CACHE, ".cache/plugin/optimize"]
       typeset: {}
       social:
         cards: !ENV [CARDS, true]

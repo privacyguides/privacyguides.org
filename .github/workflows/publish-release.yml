@@ -51,7 +51,7 @@ jobs:
     strategy:
       matrix:
         lang: [en, es, fr, he, it, nl, ru, zh-Hant]
-        build: [build, offline]
+        build: [build]
     permissions:
       contents: read
     uses: ./.github/workflows/build.yml
@@ -88,6 +88,17 @@ jobs:
       continue-on-error: false
       context: production
 
+  build_zimfile:
+    needs: submodule
+    permissions:
+      contents: read
+    uses: ./.github/workflows/build-zimfile.yml
+    with:
+      repo: ${{ github.repository }}
+      ref: ${{ github.ref }}
+    secrets:
+      RO_DISCOURSE_API_KEY: ${{ secrets.RO_DISCOURSE_API_KEY }}
+
   release:
     name: Create release notes
     needs: build
@@ -98,14 +109,14 @@ jobs:
     steps:
       - uses: actions/download-artifact@v4
         with:
-          pattern: offline*
+          pattern: *.zim
           merge-multiple: true
 
       - name: Create release notes
         uses: ncipollo/release-action@v1
         with:
           generateReleaseNotes: true
-          artifacts: "offline.zip,offline.tar.gz,offline-privacy_guides.zim"
+          artifacts: "*.zim"
           makeLatest: true
 
   deploy:
