@@ -377,7 +377,7 @@ However, an impartial review conducted by an expert in the field has the benefit
 
 ### :fontawesome-regular-flag: Independent audits
 
-Similarly, independent audit from credible organizations are very useful to assess a product's claims. Make sure the company conducting the audit is reputable, impartial, and that you can find a copy of the audit's report they produced, ideally from a source that *isn't* the audited company's website (for example, the auditing organization might [provide](https://cure53.de/#publications) access to it transparently).
+Similarly, independent audits from credible organizations are very useful to assess a product's claims. Make sure the company conducting the audit is reputable, impartial, and that you can find a copy of the audit's report they produced, ideally from a source that *isn't* the audited company's website (for example, the auditing organization might [provide](https://cure53.de/#publications) access to it transparently).
 
 ### :fontawesome-regular-flag: Transparency
 
@@ -387,7 +387,7 @@ Open source code is never a guarantee of security and privacy, but it makes it m
 
 ### :fontawesome-regular-flag: Verifiable claims
 
-If you can easily verify an organization's claims, this is a good sign. For example, if privacy practices are explicitly detailed in policies (and match the observed behaviors), if source code is open and easy to inspect, if independent audits have confirmed the organization's claims, and if the organization is consistent in its privacy practices (in private as much as in public), this all helps to establish trust.
+If you can easily verify an organization's claims, this is a good sign. For example, if privacy practices are explicitly detailed in policies (and match the observed behaviors), if source code is open and easy to inspect, if independent audits have confirmed the organization's claims, and if the organization is consistent with its privacy practices (in private as much as in public), this all helps to establish trust.
 
 ### :fontawesome-regular-flag: Well-defined policies
 
