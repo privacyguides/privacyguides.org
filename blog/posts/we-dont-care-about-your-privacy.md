@@ -33,11 +33,11 @@ In the present article, we will examine the clues that can be indicators of priv
 <div class="admonition quote inline end" markdown>
 <p class="admonition-title">marketing claims can be separated from facts by an abysmally large pit of lies</p></div>
 
-Like for anything else, it's important to keep in mind that it's not the products that are the most visible are necessarily the best. More visibility only means more marketing. And <span class="pullquote-source">marketing claims can be separated from facts by an abysmally large pit of lies</span>.
+Like for anything else, it's important to keep in mind that it's not the most visible products that are necessarily the best. More visibility only means more marketing. And <span class="pullquote-source">marketing claims can be separated from facts by an abysmally large pit of lies</span>.
 
-Being able to distinguish between facts and marketing lies is an important skill to develop, doubly so on the internet. After-all, it's difficult to find a single surface of the internet that isn't covered with ads, whether in plain sight or lurking in the shadows, disguised as innocent comments and enthusiastic reviews.
+Being able to distinguish between facts and marketing lies is an important skill to develop, doubly so on the internet. After all, it's difficult to find a single surface of the internet that isn't covered with ads, whether in plain sight or lurking in the shadows, disguised as innocent comments and enthusiastic reviews.
 
-So what can we do about this?
+So what can we do about it?
 
 There are some signs that should be considered when evaluating a product to determine its trustworthiness. It's unfair this burden falls on us, but sadly, until we get better regulations and institutions to protect us, we will have to protect ourselves.
 
@@ -60,7 +60,7 @@ Conflict of interest is one of the biggest red flag to look for. It comes in man
 
 Online influencers and educators regularly receive offers to "monetize their audience with ease" if they accept to overtly or subtly advertise products within their content. If this isn't explicitly presented as advertising, then there is obviously a strong conflict of interest. The same is true for affiliate links, where creators receive a sum of money each time a visitor clicks on a link or purchase a product from this link.
 
-It's understandable that content creators are seeking sources of revenue to continue doing their work. This isn't an easy job. But a trustworthy content creator should always **disclose** any potential conflict of interests related to their content, and present paid advertising explicitly as paid advertising.
+It's understandable that content creators are seeking sources of revenue to continue doing their work. This isn't an easy job. But a trustworthy content creator should always **disclose** any potential conflicts of interest related to their content, and present paid advertising explicitly as paid advertising.
 
 <div class="admonition success" markdown>
 <p class="admonition-title">What to do?</p>
@@ -71,7 +71,7 @@ Before trusting content online, try to examine what the sources of revenue are f
 
 #### Parent companies
 
-This one is harder to examine, but is extremely important. In today's corporate landscape, it's not rare to find conglomerates of corporations with a trail of ownership so long it's sometimes impossible to find the head. Nevertheless, investigating which company owns which is fundamental to detect conflict of interests.
+This one is harder to examine, but is extremely important. In today's corporate landscape, it's not rare to find conglomerates of corporations with a trail of ownership so long it's sometimes impossible to find the head. Nevertheless, investigating which company owns which is fundamental to detect conflicts of interest.
 
 For example, the corporation [Kape Technologies](https://en.wikipedia.org/wiki/Teddy_Sagi#Kape_Technologies) is the owner of both VPN providers (ExpressVPN, CyberGhost, Private Internet Access, and Zenmate) and websites publishing [*VPN reviews*](https://cyberinsider.com/kape-technologies-owns-expressvpn-cyberghost-pia-zenmate-vpn-review-sites/). Suspiciously, their own VPN providers always get ranked at the top on their own review websites. Even if there were no explicit directive for the websites to do this, which review publisher would dare to rank negatively a product owned by its parent company, the one keeping them alive? This is a direct and obvious conflict of interest.
 
@@ -108,7 +108,7 @@ Examine who sponsors events and who donates to organizations. Try to evaluate if
 
 #### Employment and relationships
 
-Finally, another important type of conflict of interest to keep in mind is the relationships between the individuals producing the content and the companies or products they are reporting on.
+Finally, another important type of conflicts of interest to keep in mind are the relationships between the individuals producing the content and the companies or products they are reporting on.
 
 For example, if a content creator is working or previously worked for an organization, and the content requires impartiality, this is a potential conflict of interest that should be openly disclosed.
 
@@ -127,7 +127,7 @@ Regrettably, many organizations have no intention whatsoever to genuinely implem
 
 They treat privacy law compliance like an annoying list of annoying tasks. They think they can complete this list doing the bare *cosmetic* minimum, so that it will all *look* like it's compliant (of course, it is not).
 
-Something that is a good clue this mindset is ongoing in an organization is when it uses very generic privacy policies and terms of service, that are often simply copy-pasted from another website or AI-generated (which is kind of the same thing).
+A good clue this mindset might be ongoing in an organization is when it uses a very generic privacy policy and terms of service, policies that are often simply copy-pasted from another website or AI-generated (which is kind of the same thing).
 
 Not only this is *extremely unlikely* to truly fulfill the requirements for privacy compliance, but it also almost certainly infringes on *copyright* laws.
 
@@ -170,7 +170,7 @@ Genuine reviews are (were?) usually a good way to get a second opinion while sho
 <div class="admonition success" markdown>
 <p class="admonition-title">What to do?</p>
 
-Train yourself to spot fake reviews. There are [many signs](https://www.bbb.org/all/spot-a-scam/how-to-spot-a-fake-review) that can help with this, such as language that suspiciously uses the complete and correct product and feature brand each time, reviewers who published an unnatural quantity of reviews in a short period of time, excessively positive review, negative reviews talking about how great this *other* brand is, etc. Make sure to look for potential conflict of interests as well.
+Train yourself to spot fake reviews. There are [many signs](https://www.bbb.org/all/spot-a-scam/how-to-spot-a-fake-review) that can help with this, such as language that suspiciously uses the complete and correct product and feature brand each time, reviewers who published an unnatural quantity of reviews in a short period of time, excessively positive review, negative reviews talking about how great this *other* brand is, etc. Make sure to look for potential conflicts of interest as well.
 
 </div>
 
@@ -238,7 +238,7 @@ When you see claims of "military-grade encryption", ask which cryptographic algo
 
 ### :triangular_flag_on_post: Unverifiable and unrealistic promises
 
-Along the same lines, many businesses will be happy to promise you the moon. But then, they become reluctant to explain how they will get you the moon, how they will manage to give the moon to multiple customers at once, and what will happen to the planet once they've transported the moon away from its orbit to bring it back to you on Earth... Maybe getting the moon isn't such a good promise after-all.
+Along the same lines, many businesses will be happy to promise you the moon. But then, they become reluctant to explain how they will get you the moon, how they will manage to give the moon to multiple customers at once, and what will happen to the planet once they've transported the moon away from its orbit to bring it back to you on Earth... Maybe getting the moon isn't such a good promise after all.
 
 <div class="admonition quote inline end" markdown>
 <p class="admonition-title">companies promising you software that is 100% secure and 100% private are either lying or misinformed themselves</p></div>
@@ -250,7 +250,7 @@ No software product is 100% secure and/or 100% private. Promises like this are u
 <div class="admonition success" markdown>
 <p class="admonition-title">What to do?</p>
 
-Like for buzzwords and compliance claims, never trust at face value. If there are no ways for you to verify a claim, remain skeptical and aware this promise could be empty.
+Same as for buzzwords and compliance claims, never trust at face value. If there are no ways for you to verify a claim, remain skeptical and aware this promise could be empty.
 
 Be especially suspicious with organizations repeating exaggerated guarantees such as 100% secure. Organizations that are knowledgeable about security and privacy will usually restrain from such binary statement, and tend to talk about risk reduction with nuanced terms like "more secure", or "more private".
 
@@ -276,7 +276,7 @@ Be especially worried if:
 
 - [ ] Their deletion process requires to fill a form demanding more information than they already have on you, or uses a privacy-invasive third-party like Google Forms.
 
-- [ ] They argue with you when you ask for deletion.
+- [ ] They argue with you when you ask for legitimate deletion.
 
 <div class="admonition success" markdown>
 <p class="admonition-title">What to do?</p>
@@ -303,7 +303,7 @@ The same can be said for applications that have built a reputation on a supposed
 
 #### When deletion doesn't mean deletion
 
-In other cases, false reassurance come in the form of supposedly deleted data that is never truly deleted. In 2019, Global News [reported](https://globalnews.ca/news/5463630/amazon-alexa-keeps-data-deleted-privacy/) on Amazon's Alexa virtual assistant speaker that didn't always delete voice-recorded data as promised. Google was also found [guilty](https://www.cnet.com/tech/services-and-software/google-oops-did-not-delete-street-view-data-as-promised/) of this, even after receiving an order from UK's Information Commissioner's Office.
+In other cases, false reassurance comes in the form of supposedly deleted data that isn't truly deleted. In 2019, Global News [reported](https://globalnews.ca/news/5463630/amazon-alexa-keeps-data-deleted-privacy/) on Amazon's Alexa virtual assistant speaker that didn't always delete voice-recorded data as promised. Google was also found [guilty](https://www.cnet.com/tech/services-and-software/google-oops-did-not-delete-street-view-data-as-promised/) of this, even after receiving an order from UK's Information Commissioner's Office.
 
 This can also happen with cloud storage services that display an option to "delete" a file, when in fact the file is [simply hidden](https://www.consumersearch.com/technology/cloud-storage-privacy-concerns-learn-permanently-delete-data) from the interface, while remaining available in a bin directory or from version control.
 
@@ -328,7 +328,7 @@ Cryptography is a complex discipline, and developing a robust encryption algorit
 
 The reason most software use the same few cryptographic algorithms for encryption, and usually follow strict protocols to implement them, is because this isn't an easy task to do, and the slightest mistake could render this encryption completely useless. The same can be true for other types of technology as well.
 
-Novel technologies might sound more exciting, but *proven* and *tested* technologies are usually much more reliable when in comes to privacy, and especially when it comes to encryption.
+Novel technologies might sound more exciting, but *proven* and *tested* technologies are usually much more reliable when it comes to privacy, and especially when it comes to encryption.
 
 <div class="admonition success" markdown>
 <p class="admonition-title">What to do?</p>
@@ -359,7 +359,7 @@ The marketing department will try to spin any authority audits into something th
 
 Use a search engine to look for related news using keywords such as the company's name with "data breach", "fined", or "privacy".
 
-Check at the product or corporation's Wikipedia page, sometimes there will be references to previous incidents and controversies listed there. Follow trustworthy sources of privacy and security news to keep in touch with events related to data leaks and experts raising the alarm.
+Check the product's or corporation's Wikipedia page, sometimes there will be references to previous incidents and controversies listed there. Follow trustworthy sources of privacy and security news to stay informed about reported data leaks and experts raising the alarm.
 
 </div>
 
