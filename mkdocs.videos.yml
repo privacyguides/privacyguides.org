@@ -155,6 +155,7 @@ plugins:
       meta: {}
       optimize:
         enabled: !ENV [OPTIMIZE, PRODUCTION, NETLIFY, false]
+        cache_dir: !ENV [OPTIMIZE_CACHE, ".cache/plugin/optimize-videos"]
       typeset: {}
       social:
         cards: !ENV [CARDS, true]
