@@ -30,5 +30,8 @@ Since you can't change your body (without extensive surgical modification which 
 
 ### FTx Identity
 
-First up on the wall of shame, [FTx](https://ftxidentity.com/industry/in-store-age-verification/). They promise to revolutionize "in-store
-age verification & customer tracking", 
+First up on the wall of shame, [FTx](https://ftxidentity.com/industry/in-store-age-verification/). They promise to revolutionize "in-store age verification & customer tracking" using a network of cameras set up all over the store, allowing for constant monitoring and identification via facial recognition.
+
+![Smiling woman with her arms crossed having her face scanned by a camera shooting a red laser grid at her face](../assets/images/biometric-abuses/facescan.webp)
+
+<figcaption>"Help me"</figcaption>
