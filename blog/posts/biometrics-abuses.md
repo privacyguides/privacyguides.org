@@ -18,7 +18,7 @@ preview:
 
 Almost everyone has dealt with biometric data at some point, whether it's for authentication on your phone, or taking a photo for your driver's license, any time you're using data derived from your body to be identified it's biometrics.
 
-There's nothing inherently wrong with biometric authentication, in fact it's one of the pillars of secure [multi-factor authentication](https://csrc.nist.gov/glossary/term/Multi_Factor_Authentication): something you know, something you have, and **something you are**. Plenty of systems use biometrics in a private way. Your phone, for example, stores your biometric data safely inside its [secure element](https://support.apple.com/guide/security/biometric-security-sec067eb0c9e/1/web/1); it never leaves your device and can't easily be extracted. This is one of the most important aspects of **ethical biometrics**: the data should never be stored on a server somewhere or accessible to anyone, even you.
+There's nothing inherently wrong with biometric authentication, in fact it's one of the pillars of secure [multi-factor authentication](https://csrc.nist.gov/glossary/term/Multi_Factor_Authentication): something you know, something you have, and **something you are**. Plenty of systems use biometrics in a private way. Your phone, for example, stores your biometric data safely inside its [secure element](https://support.apple.com/guide/security/biometric-security-sec067eb0c9e/1/web/1); it never leaves your device and can't easily be extracted. This is one of the most important aspects of **ethical biometrics**: the data should never be stored on a server somewhere or accessible to anyone, even you.<!-- more -->
 
 But many biometric systems in place today aren't designed to preserve your privacy and simply exist to track you around. I touched on a few of these in a [previous article](https://www.privacyguides.org/articles/2025/02/13/biometrics-explained/) but I'd like to expand on just how pervasive the issue is.
 
@@ -35,3 +35,4 @@ First up on the wall of shame, [FTx](https://ftxidentity.com/industry/in-store-a
 ![Smiling woman with her arms crossed having her face scanned by a camera shooting a red laser grid at her face](../assets/images/biometric-abuses/facescan.webp)
 
 <figcaption>"Help me"</figcaption>
+
