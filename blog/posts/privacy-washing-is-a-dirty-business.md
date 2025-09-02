@@ -213,4 +213,4 @@ Always remain skeptical when you encounter privacy policies that seem suspicious
 
 It's not easy to navigate the perilous waters of supposedly privacy-respectful software. And it's even worse in an age where AI-spawned websites and articles can create the illusion of trustworthiness with only a few clicks and prompts.
 
-Learning how to spot the red flags, and the green(ish) flags, to protect ourselves from the deceptive manipulation of privacy washing is an important skill to develop to make better informed choices.
+[Learning how to spot the red flags](we-dont-care-about-your-privacy.md), and the green(ish) flags, to protect ourselves from the deceptive manipulation of privacy washing is an important skill to develop to make better informed choices.
