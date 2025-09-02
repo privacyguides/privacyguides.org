@@ -32,7 +32,16 @@ Since you can't change your body (without extensive surgical modification which 
 
 First up on the wall of shame, [FTx](https://ftxidentity.com/industry/in-store-age-verification/). They promise to revolutionize "in-store age verification & customer tracking" using a network of cameras set up all over the store, allowing for constant monitoring and identification via facial recognition.
 
-![Smiling woman with her arms crossed having her face scanned by a camera shooting a red laser grid at her face](../assets/images/biometric-abuses/facescan.webp)
+![Smiling woman with her arms crossed having her face scanned by a camera shooting a red laser grid at her face](../assets/images/biometric-abuses/facescan.png)
 
 <figcaption>"Help me"</figcaption>
 
+You're then recorded under the permanent profile they keep for you that's displayed on the POS systens the employees see.
+
+![Screen showing several profiles of customers including of the woman from the previous image with names and pictures](../assets/images/biometric-abuses/profile.png)
+
+They say it "monitors movement from entry to exit with real-time visuals". It's a bit creepy to think there's a real-time updated map of where I am in the store at all times.
+
+They also keep track of "customer history—previous purchases, preferences, and identity status". If you thought tracking profiles of your purchases and actions were exclusive to the web, you're wrong.
+
+The tracking is stated to be used for marketing and anti-theft purposes. Since the system is AI-driven, hopefully it doesn't randomly decide you're a thief and sound the alarm on you.
