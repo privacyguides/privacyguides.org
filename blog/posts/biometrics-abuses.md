@@ -47,4 +47,13 @@ They also keep track of "customer history—previous purchases, preferences, and
 
 The tracking is stated to be used for marketing and anti-theft purposes. Since the system is AI-driven, hopefully it doesn't randomly decide you're a thief and sound the alarm on you.
 
-They also market age verification so customers don't have to flash their ID for things like alcohol purchases, but I'd rather show my ID for two seconds than have this permanent tracking 
+They also market age verification so customers don't have to flash their ID for things like alcohol purchases, but I'd rather show my ID for two seconds than have this permanent tracking profile kept of me.
+
+As for how the data is handled:
+
+> All sensitive personal information (including ID images and biometric data) is encrypted during transmission and while stored on our servers. This means your data is encoded so that only authorized systems with the proper keys can read it. For example, when your ID scan is sent to our server, it travels over an encrypted connection (HTTPS/TLS), and once stored, the file is encrypted at rest.
+
+So your data is not E2EE, they just use transport encryption and then separately encrypt it at rest, meaning they have access to any stored data and hackers have a nice juicy target to attack.
+
+### Target
+
