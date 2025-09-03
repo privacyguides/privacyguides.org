@@ -9,12 +9,12 @@ description:
     Being able to distinguish facts from marketing lies is an essential skill in today's world. Despite all the privacy washing, there are clues we can look for to help.
 schema_type: AnalysisNewsArticle
 preview:
-  cover: blog/assets/images/we-dont-care-about-your-privacy/dontcare-cover.webp
+  cover: blog/assets/images/red-and-green-privacy-flags/dontcare-cover.webp
 ---
 
 # "We [Don't] Care About Your Privacy"
 
-![Filtered photo of a metal container left on the street, with on it the painted sentence "We've updated our privacy policy." with three faded happy face icons around it. On and around the container are icons of hidden red flags.](../assets/images/we-dont-care-about-your-privacy/dontcare-cover.webp)
+![Filtered photo of a metal container left on the street, with on it the painted sentence "We've updated our privacy policy." with three faded happy face icons around it. On and around the container are icons of hidden red flags.](../assets/images/red-and-green-privacy-flags/dontcare-cover.webp)
 
 <small aria-hidden="true">Illustration: Em / Privacy Guides | Photo: Lilartsy / Unsplash</small>
 
