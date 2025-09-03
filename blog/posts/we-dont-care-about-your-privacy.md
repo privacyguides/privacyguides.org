@@ -29,9 +29,9 @@ In this article, we will examine common indicators of privacy washing, and the "
 ## Spotting the red flags
 
 <div class="admonition quote inline end" markdown>
-<p class="admonition-title">marketing claims can be separated from facts by an abysmally large pit of lies</p></div>
+<p class="admonition-title">Marketing claims can be separated from facts by an abysmally large pit of lies</p></div>
 
-Like for anything else, it's important to keep in mind that it's not the most visible products that are necessarily the best. More visibility only means more marketing. And <span class="pullquote-source">marketing claims can be separated from facts by an abysmally large pit of lies</span>.
+It's important to keep in mind that it's not the most visible product that's necessarily the best. More visibility only means more marketing. <span class="pullquote-source">Marketing claims can be separated from facts by an abysmally large pit of lies</span>.
 
 Being able to distinguish between facts and marketing lies is an important skill to develop, doubly so on the internet. After all, it's difficult to find a single surface of the internet that isn't covered with ads, whether in plain sight or lurking in the shadows, disguised as innocent comments and enthusiastic reviews.
 
@@ -367,27 +367,27 @@ Now that we have discussed some red flags to help us know when we should be care
 
 Like for red flags, green flags should always be taken into context and considered together. One, or even a few green flags (or greenish flags) aren't on their own a guarantee that an organization is trustworthy. Always remain vigilant, and be ready to revoke your trust at any time if new information warrants it.
 
-### :fontawesome-regular-flag: Independent reviews
+### :custom-green-flag: Independent reviews
 
 Independent reviews from trustworthy sources can be a valuable resource to help to determine if a product is reliable. This is never a guarantee of course, humans (even experts) can also make mistakes (less than AI, but still) and aren't immune to lies.
 
 However, an impartial review conducted by an expert in the field has the benefit of someone who has likely put many hours investigating this topic, something you might understandably not always have the time to do yourself. But be careful to first evaluate if this is a genuine unbiased assessment, or simply marketing content disguised as one.
 
-### :fontawesome-regular-flag: Independent audits
+### :custom-green-flag: Independent audits
 
 Similarly, independent audits from credible organizations are very useful to assess a product's claims. Make sure the company conducting the audit is reputable, impartial, and that you can find a copy of the audit's report they produced, ideally from a source that *isn't* the audited company's website (for example, the auditing organization might [provide](https://cure53.de/#publications) access to it transparently).
 
-### :fontawesome-regular-flag: Transparency
+### [:custom-green-flag:](#) Transparency
 
 Transparency helps a lot to earn trust, and source code that is publicly available helps a lot with transparency. If a piece of software publishes its code for anyone to see, this is already a significant level of transparency above any proprietary code.
 
 Open source code is never a guarantee of security and privacy, but it makes it much easier to verify any organization assertions. This is almost impossible to do when code is proprietary. Because no one outside the organization can examine the code, they must be trusted on their own words entirely. Favor products with code that is transparently available whenever possible.
 
-### :fontawesome-regular-flag: Verifiable claims
+### :custom-green-flag: Verifiable claims
 
 If you can easily verify an organization's claims, this is a good sign. For example, if privacy practices are explicitly detailed in policies (and match the observed behaviors), if source code is open and easy to inspect, if independent audits have confirmed the organization's claims, and if the organization is consistent with its privacy practices (in private as much as in public), this all helps to establish trust.
 
-### :fontawesome-regular-flag: Well-defined policies
+### :custom-green-flag: Well-defined policies
 
 Trustworthy organizations should always have well-defined, unique, and easy to read privacy policies and terms of service. The conditions within it should also be fair. **You shouldn't have to sell your soul to 1442 marketing partners just to use a service or visit a website.**
 
@@ -409,13 +409,13 @@ Read an organization's privacy policy (or privacy notice), and make sure it incl
 
 - [x] Evidences of accountability. The organization should demonstrate accountability for the data it collects, and shouldn't just transfer this responsibility to the processors it uses.
 
-### :fontawesome-regular-flag: Availability
+### :custom-green-flag: Availability
 
 Verify availability. Who will you contact if a problem arises with your account, software, or data? Will you be ignored by an AI chatbot just repeating what you've already read on the company's website? Will you be able to reach out to a competent human?
 
 If you contact an organization at the listed privacy-dedicated email address to ask a question, and receive a thoughtful non-AI-generated reply within a couple of weeks, this can be a good sign. If you can easily find a privacy officer email address, a company's phone number, and the location where the organization is based, this also can be encouraging signs.
 
-### :fontawesome-regular-flag: Clear funding model
+### :custom-green-flag: Clear funding model
 
 If a *free* service is provided by a *for-profit* corporation, you should investigate further. The old adage that if you do not pay for a product you are the product is sadly often true in tech, and doubly so for big tech.
 
@@ -423,13 +423,13 @@ Before using a new service, try to find what the funding model is. Maybe it's a 
 
 Look for what the funding model is. If it's free, and you can't really find any details on how it's financed, this could be a red flag that your data might be used for monetization. But if the funding model is transparent, fair, and ethical, this *can* be a green flag.
 
-### :fontawesome-regular-flag: Reputation history
+### :custom-green-flag: Reputation history
 
 Some errors are forgivable, but others are too big to let go. Look for an organization's track record to help to evaluate its reputation overtime. Check if there was any security or privacy incidents, or expert criticisms, and check how the organization responded to it.
 
 If you find an organization that has always stuck to its values (integrity), is still run by the same core people in recent years (stability), seems to have a generally good reputation with others (reputability), and had few (or no) incidents in the past (reliability), this *can* be a green flag.
 
-### :fontawesome-regular-flag: Expert advice
+### :custom-green-flag: Expert advice
 
 Seek expert advice before using a new product or service. Look online for reliable and independent sources of [recommendations](https://www.privacyguides.org/en/tools/) (like Privacy Guides!), and read thoroughly to determine if the description fits your privacy needs. No tool is perfect to protect your privacy, but experts will warn you about a tool's limitations and downsides.
 
