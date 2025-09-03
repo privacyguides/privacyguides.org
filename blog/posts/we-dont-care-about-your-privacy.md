@@ -12,21 +12,19 @@ preview:
   cover: blog/assets/images/we-dont-care-about-your-privacy/dontcare-cover.webp
 ---
 
-# We Do[n't] Care About Your Privacy
+# "We [Don't] Care About Your Privacy"
 
 ![Filtered photo of a metal container left on the street, with on it the painted sentence "We've updated our privacy policy." with three faded happy face icons around it. On and around the container are icons of hidden red flags.](../assets/images/we-dont-care-about-your-privacy/dontcare-cover.webp)
 
 <small aria-hidden="true">Illustration: Em / Privacy Guides | Photo: Lilartsy / Unsplash</small>
 
-They all claim "Your privacy is important to us." But how can we know if it's true? With privacy washing being normalized by big tech and startups alike, it becomes increasingly difficult to evaluate who we can trust with our personal data. Fortunately, there are red (and green) flags we can look for to help us.<!-- more -->
+They all claim "Your privacy is important to us." How can we know if that's true? With privacy washing being normalized by big tech and startups alike, it becomes increasingly difficult to evaluate who we can trust with our personal data. Fortunately, there are red (and green) flags we can look for to help us.<!-- more -->
 
-If you haven't heard this term before, privacy washing is the practice of misleadingly, or fraudulently, presenting a product, service, or organization as being trustworthy for data privacy, when in fact it isn't.
+If you haven't heard this term before, [privacy washing](privacy-washing-is-a-dirty-business.md) is the practice of misleadingly, or fraudulently, presenting a product, service, or organization as being trustworthy for data privacy, when in fact it isn't.
 
 Privacy washing isn't a new trend, but it has become more prominent in recent years, as a strategy to gain trust from progressively more suspicious prospect customers. Unless politicians and regulators start getting much more serious and severe about protecting our privacy rights, this trend is likely to only get worse.
 
-In the previous article [Privacy Washing Is a Dirty Business](privacy-washing-is-a-dirty-business.md), we discussed some causes of privacy washing, and the different strategies and intentions behind it.
-
-In the present article, we will examine the clues that can be indicators of privacy washing, and the red flags and green flags we can look for to help us take better-informed decisions, and avoid deception.
+In this article, we will examine common indicators of privacy washing, and the "red" and "green" flags we should look for to make better-informed decisions and avoid deception.
 
 ## Spotting the red flags
 
