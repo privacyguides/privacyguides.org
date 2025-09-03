@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2025-08-27T20:00:00Z
+    created: 2025-09-03T19:30:00Z
 categories:
     - Tutorials
 authors:
@@ -377,7 +377,7 @@ However, an impartial review conducted by an expert in the field has the benefit
 
 Similarly, independent audits from credible organizations are very useful to assess a product's claims. Make sure the company conducting the audit is reputable, impartial, and that you can find a copy of the audit's report they produced, ideally from a source that *isn't* the audited company's website (for example, the auditing organization might [provide](https://cure53.de/#publications) access to it transparently).
 
-### [:custom-green-flag:](#) Transparency
+### :custom-green-flag: Transparency
 
 Transparency helps a lot to earn trust, and source code that is publicly available helps a lot with transparency. If a piece of software publishes its code for anyone to see, this is already a significant level of transparency above any proprietary code.
 
