@@ -32,7 +32,7 @@ Features include cycling routes, hiking trails and walking paths, turn-by-turn n
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.organicmaps)
 - [:simple-appstore: App Store](https://apps.apple.com/app/organic-maps/id1567437057)
-- [:simple-forgejo: Forgejo](https://github.com/organicmaps/organicmaps/releases)
+- [:simple-github: GitHub](https://github.com/organicmaps/organicmaps/releases)
 - [:simple-linux: Linux](https://flathub.org/apps/app.organicmaps.desktop)
 
 </details>
