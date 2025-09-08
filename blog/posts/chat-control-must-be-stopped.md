@@ -45,34 +45,18 @@ Use this [**website**](https://fightchatcontrol.eu/) to easily contact your gove
 
 But if your country *supports* Chat Control, or is *undecided*, **it is vital that you contact your representatives before this deadline**. To support your point, you can share this article with them or one of the many great [resources](#resources-to-learn-more-and-fight-for-human-rights) listed at the end.
 
-At the time of this writing, there is:
+At the time of this writing, the list of countries to contact is:
 
-:warning: **Countries undecided = 6**
-
-- Estonia
-- Germany
-- Greece
-- Luxembourg
-- Romania
-- Slovenia
-
-:triangular_flag_on_post: **Countries supporting = 15**
-
-- Bulgaria
-- Croatia
-- Cyprus
-- Denmark
-- France
-- Hungary
-- Ireland
-- Italy
-- Latvia
-- Lithuania
-- Malta
-- Portugal
-- Slovakia
-- Spain
-- Sweden
+| **Supporting (15)**                |                                     | **Undecided (6)**    |
+| ---------------------------------- | ----------------------------------- | -------------------- |
+| :triangular_flag_on_post: Bulgaria | :triangular_flag_on_post: Latvia    | :warning: Estonia    |
+| :triangular_flag_on_post: Croatia  | :triangular_flag_on_post: Lithuania | :warning: Germany    |
+| :triangular_flag_on_post: Cyprus   | :triangular_flag_on_post: Malta     | :warning: Greece     |
+| :triangular_flag_on_post: Denmark  | :triangular_flag_on_post: Portugal  | :warning: Luxembourg |
+| :triangular_flag_on_post: France   | :triangular_flag_on_post: Slovakia  | :warning: Romania    |
+| :triangular_flag_on_post: Hungary  | :triangular_flag_on_post: Spain     | :warning: Slovenia   |
+| :triangular_flag_on_post: Ireland  | :triangular_flag_on_post: Sweden    |                      |
+| :triangular_flag_on_post: Italy    |                                     |                      |
 
 </div>
 
