@@ -174,7 +174,7 @@ In addition, Chat Control could facilitate the proliferation of even more spywar
 
 Even if the idea of online strangers accessing children's sensitive data is terrifying, the worse danger in often much closer.
 
-Sadly, we already know that the [vast majority](https://content.c3p.ca/pdfs/C3P_SurvivorsSurveyFullReport2017.pdf) child sexual abuse is perpetrated by adults close to the child, not strangers, and that two-thirds of CSAM images appear to have been [produced at home](https://theconversation.com/new-research-shows-parents-are-major-producers-of-child-sexual-abuse-material-153722). Chat Control would do nothing to fight this. In fact, it could facilitate it.
+Sadly, we already know that the [vast majority](https://content.c3p.ca/pdfs/C3P_SurvivorsSurveyFullReport2017.pdf) of child sexual abuse is perpetrated by adults close to the child, not strangers, and that two-thirds of CSAM images appear to have been [produced at home](https://theconversation.com/new-research-shows-parents-are-major-producers-of-child-sexual-abuse-material-153722). Chat Control would do nothing to fight this. In fact, it could facilitate it.
 
 Child abuse is an incredibly important topic to discuss and to fight against as a society. Utilizing this issue as an excuse to pass a surveillance law that would endanger everyone, including the victims, is despicable.
 
