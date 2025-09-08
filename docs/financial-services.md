@@ -65,17 +65,19 @@ Privacy.com gives information about the merchants you purchase from to your bank
 
 MySudo's virtual cards are currently only available via their iOS app.
 
-### Revolut (EU)
+### Revolut (International except KR, RU & CN)
 
 <div class="admonition recommendation" markdown>
 
 ![Revolut logo](assets/img/revolut.svg){ align=right } <!--- No dark mode and the dark icon is for the business app as per Revolut's branding policy --->
 
-<!--- TO BE CONTINUED AFTER I UPDATE THE FILE NAME OF THE SVG--->
+Revolut is an International* alternative towards services like privacy.com and MySudo for card masking. You can use disposable and non-disposable virtual cards for each indivdual use (eg. One-time use for one-time payments and dedicated virtual cards for subscriptions among other things). In your bank statement when you add money to revolut they know you have spend it there, but now you're trusting Revolut with your transactions and financial.
 
-[:octicons-home-16: Homepage](){ .md-button .md-button--primary }
-[:octicons-eye-16:](){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](){ .card-link title=Documentation}
+*Except Korea, Russia and China. Supported countries are found [here](https://help.revolut.com/help/profile-and-plan/profile-plan/verifying-identity/what-countries-are-supported/) and on the homepage in the country selection
+
+[:octicons-home-16: Homepage](https://www.revolut.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.revolut.com/legal/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://help.revolut.com/){ .card-link title=Documentation}
 
 </details>
 
