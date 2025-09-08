@@ -23,7 +23,7 @@ site_url: "https://www.privacyguides.org/videos/"
 site_dir: "site/videos"
 
 site_name: Privacy Guides
-site_description: "Privacy Guides is the most popular & trustworthy non-profit privacy resource to find privacy tools and learn about protecting your digital life."
+site_description: "This is our home for the latest video content from the Privacy Guides team. Privacy Guides is the most popular & trustworthy non-profit privacy resource to find privacy tools and learn about protecting your digital life."
 edit_uri_template: blob/main/videos/{path}?plain=1
 
 extra:
@@ -47,7 +47,7 @@ extra:
         - fontawesome/brands/creative-commons
         - fontawesome/brands/creative-commons-by
         - fontawesome/brands/creative-commons-sa
-  homepage: https://www.privacyguides.org/en/
+  homepage: !ENV [MAIN_SITE_BASE_URL, "https://www.privacyguides.org/en/"]
   generator: false
   context: !ENV [BUILD_CONTEXT, "production"]
   offline: !ENV [BUILD_OFFLINE, false]
@@ -56,9 +56,6 @@ extra:
     - icon: simple/mastodon
       link: https://mastodon.neat.computer/@privacyguides
       name: !ENV [SOCIAL_MASTODON, "Mastodon"]
-    - icon: simple/bluesky
-      link: https://bsky.app/profile/privacyguides.org
-      name: !ENV [SOCIAL_BLUESKY, "Bluesky"]
     - icon: simple/peertube
       link: https://neat.tube/c/privacyguides
       name: !ENV [SOCIAL_PEERTUBE, "PeerTube"]
@@ -121,7 +118,7 @@ theme:
     - search.highlight
 
 extra_css:
-  - assets/stylesheets/extra.css?v=20240829
+  - assets/stylesheets/extra.css?v=20250723
 
 watch:
   - theme
@@ -201,15 +198,23 @@ markdown_extensions:
     toc_depth: 4
 
 nav:
-  - !ENV [NAV_HOME, "Home"]: /en/
-  - !ENV [NAV_KNOWLEDGE_BASE, "Knowledge Base"]: /en/basics/why-privacy-matters/
-  - !ENV [NAV_RECOMMENDATIONS, "Recommendations"]: /en/tools/
-  - !ENV [NAV_BLOG, "Articles"]: /articles/
+  - !ENV [NAV_HOME, "Home"]: !ENV [MAIN_SITE_BASE_URL, "/en/"]
+  - !ENV [NAV_KNOWLEDGE_BASE, "Knowledge Base"]:
+      !ENV [MAIN_SITE_KNOWLEDGE_BASE_URL, "/en/basics/why-privacy-matters/"]
+  - !ENV [NAV_RECOMMENDATIONS, "Recommendations"]:
+      !ENV [MAIN_SITE_RECOMMENDATIONS_URL, "/en/tools/"]
+  - !ENV [NAV_BLOG, "Articles"]: !ENV [ARTICLES_SITE_BASE_URL, "/articles/"]
   - !ENV [NAV_VIDEOS, "Videos"]:
       - index.md
-  - !ENV [NAV_ABOUT, "About"]: /en/about/
-  - "Donate": /en/about/donate/
+      - "This Week in Privacy": https://discuss.privacyguides.net/c/announcements/livestreams/9414
+      - playlists.md
   - !ENV [NAV_FORUM, "Forum"]: "https://discuss.privacyguides.net/"
+  - !ENV [NAV_WIKI, "Wiki"]:
+      !ENV [
+        NAV_WIKI_LINK,
+        "https://discuss.privacyguides.net/c/community-wiki/9411/none",
+      ]
+  - !ENV [NAV_ABOUT, "About"]: !ENV [MAIN_SITE_ABOUT_URL, "/en/about/"]
 
 validation:
   nav:

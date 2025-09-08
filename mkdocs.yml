@@ -111,9 +111,6 @@ extra:
             - icon: simple/mastodon
               name: !ENV [HOMEPAGE_CTA_MASTODON_NAME, "Follow us on Mastodon"]
               link: https://mastodon.neat.computer/@privacyguides
-            - icon: simple/bluesky
-              name: !ENV [HOMEPAGE_CTA_BLUESKY_NAME, "Follow us on Bluesky"]
-              link: https://bsky.app/profile/privacyguides.org
             - icon: simple/github
               name: !ENV [HOMEPAGE_CTA_GITHUB_NAME, "Contribute on GitHub"]
               link: https://github.com/privacyguides/privacyguides.org
@@ -170,9 +167,6 @@ extra:
     - icon: simple/mastodon
       link: https://mastodon.neat.computer/@privacyguides
       name: !ENV [SOCIAL_MASTODON, "Mastodon"]
-    - icon: simple/bluesky
-      link: https://bsky.app/profile/privacyguides.org
-      name: !ENV [SOCIAL_BLUESKY, "Bluesky"]
     - icon: simple/peertube
       link: https://neat.tube/c/privacyguides
       name: !ENV [SOCIAL_PEERTUBE, "PeerTube"]
@@ -287,11 +281,11 @@ theme:
     - search.highlight
 
 extra_css:
-  - assets/stylesheets/extra.css?v=20240802
+  - assets/stylesheets/extra.css?v=20250723
 extra_javascript:
-  - path: assets/javascripts/randomize-element.js?v=20240801
+  - path: assets/javascripts/randomize-element.js?v=20250306
     defer: true
-  - path: assets/javascripts/feedback.js?v=20240801
+  - path: assets/javascripts/feedback.js?v=20250306
     defer: true
 
 watch:
@@ -399,6 +393,9 @@ nav:
               - "os/windows/group-policies.md"
   - !ENV [NAV_RECOMMENDATIONS, "Recommendations"]:
       - "tools.md"
+      - !ENV [NAV_SELF_HOSTING, "Self-Hosting"]:
+          - "self-hosting/index.md"
+          - "self-hosting/email-servers.md"
       - !ENV [NAV_INTERNET_BROWSING, "Internet Browsing"]:
           - "tor.md"
           - "desktop-browsers.md"
@@ -434,6 +431,7 @@ nav:
           - "passwords.md"
           - "pastebins.md"
           - "real-time-communication.md"
+          - "social-networks.md"
       - !ENV [NAV_HARDWARE, "Hardware"]:
           - "mobile-phones.md"
           - "security-keys.md"
@@ -448,15 +446,22 @@ nav:
       - !ENV [NAV_ADVANCED, "Advanced"]:
           - "alternative-networks.md"
           - "device-integrity.md"
-  - !ENV [NAV_BLOG, "Articles"]: "/articles/"
-  - !ENV [NAV_VIDEOS, "Videos"]: /videos/
+  - !ENV [NAV_BLOG, "Articles"]: !ENV [ARTICLES_SITE_BASE_URL, "/articles/"]
+  - !ENV [NAV_VIDEOS, "Videos"]: !ENV [VIDEOS_SITE_BASE_URL, "/videos/"]
+  - !ENV [NAV_FORUM, "Forum"]:
+      !ENV [NAV_FORUM_LINK, "https://discuss.privacyguides.net/"]
+  - !ENV [NAV_WIKI, "Wiki"]:
+      !ENV [
+        NAV_WIKI_LINK,
+        "https://discuss.privacyguides.net/c/community-wiki/9411/none",
+      ]
   - !ENV [NAV_ABOUT, "About"]:
       - "about.md"
       - "about/donate.md"
       - !ENV [NAV_ABOUT_TEAM_MEMBERS, "Team Members"]:
           https://discuss.privacyguides.net/u?group=team&order=solutions&period=all
-      - "about/criteria.md"
       - !ENV [NAV_ABOUT_POLICIES, "Policies"]:
+          - "about/criteria.md"
           - "about/donation-acceptance-policy.md"
           - "about/executive-policy.md"
           - "privacy.md"
@@ -477,9 +482,7 @@ nav:
               - "meta/uploading-images.md"
               - "meta/git-recommendations.md"
               - "meta/commit-messages.md"
-  - !ENV [NAV_DONATE, "Donate"]: https://donate.magicgrants.org/privacyguides
-  - !ENV [NAV_FORUM, "Forum"]:
-      !ENV [NAV_FORUM_LINK, "https://discuss.privacyguides.net/"]
+              - "meta/pr-comments.md"
 
 validation:
   nav:

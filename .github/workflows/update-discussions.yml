@@ -55,17 +55,17 @@ jobs:
           source: /en/index.html
           target: ./site/en/
 
-      - name: Run index-generation.sh for top posts
+      - name: Run generate-topics.sh for top posts
         run: |
-          bash index-generation.sh \
+          bash generate-topics.sh \
             --source='https://discuss.privacyguides.net/top.json?period=weekly' \
             --tag="top posts" \
             --destination="./site/en/index.html" \
             --count=3
 
-      - name: Run index-generation.sh for latest posts
+      - name: Run generate-topics.sh for latest posts
         run: |
-          bash index-generation.sh \
+          bash generate-topics.sh \
             --source='https://discuss.privacyguides.net/latest.json' \
             --tag="latest posts" \
             --destination="./site/en/index.html" \

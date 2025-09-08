@@ -1,7 +1,7 @@
 ---
 date:
     created: 2022-07-07T19:00:00Z
-    updated: 2024-08-23T19:00:00Z
+    updated: 2025-05-24T14:00:00Z
 authors:
     - contributors
     - matchboxbananasynergy
@@ -18,7 +18,7 @@ schema_type: AnalysisNewsArticle
 ---
 # Signal Configuration and Hardening Guide
 
-[Signal](https://www.privacyguides.org/en/real-time-communication#signal) is a widely regarded instant messaging service that is not only easy to use but is also private and secure. Signal's strong E2EE implementation and metadata protections provide a level of assurance that only you and your intended recipients are able to read communications.<!-- more -->
+[Signal](https://www.privacyguides.org/en/real-time-communication#signal) is a widely regarded instant messaging service that is not only easy to use but is also private and secure. Signal's strong end-to-end encryption implementation and metadata protections provide a level of assurance that only you and your intended recipients are able to read communications.<!-- more -->
 
 This guide details actions you can take to configure and harden Signal in accordance with your [threat model](https://www.privacyguides.org/en/basics/threat-modeling/).
 
@@ -26,7 +26,7 @@ This guide details actions you can take to configure and harden Signal in accord
 
 ### Signal PIN
 
-When you register for Signal with your phone number, you will be asked to set up a Signal PIN. This PIN can be used to recover your profile, settings, contacts and who you've blocked in case you ever lose or switch devices.
+When you register for Signal with your phone number, you will be asked to set up a Signal PIN. This PIN can be used to recover your profile, settings, contacts, and blocked users in case you ever lose or switch devices.
 
 Additionally, your Signal PIN can also double as a registration lock that prevents others from registering with your number.
 
@@ -34,18 +34,18 @@ Additionally, your Signal PIN can also double as a registration lock that preven
 
     The server will not enforce the registration lock after 7 days of inactivity. After that, someone will be able to reset the PIN at registration and register with your phone number. This will wipe the data stored in your Signal account, as it is encrypted by the PIN, but it won't prevent someone from registering with your number provided that they can receive a text on it.
 
-**Important update**: since this blog post was published, there have been changes to the registration flow for Signal. You should read about this [here](signal-number-registration-update.md).
+**Important update**: Since this blog post was published, there have been changes to the registration flow for Signal. You should read about this [here](signal-number-registration-update.md).
 
 If you haven't set up a Signal PIN, or have previously opted out of setting one up, follow these steps on Android/iOS:
 
-- Select :material-dots-vertical: > **Settings** > **Account** > **Signal PIN**
+- Select :material-dots-vertical: → **Settings** → **Account** → **Signal PIN**
 - Select **Create new PIN**
 
-Signal will prompt you to enter a PIN. We suggest using a strong alphanumeric PIN that can be stored in a [password manager](https://www.privacyguides.org/en/passwords/).
+Signal will prompt you to enter a PIN. We suggest using a strong, alphanumeric PIN that can be stored in a [password manager](https://www.privacyguides.org/en/passwords/).
 
 Once you have done that, or if you already have set up a PIN, make sure that **Registration Lock** is also enabled.
 
-- Select :material-dots-vertical: > **Settings** > **Account** > **Signal PIN**
+- Select :material-dots-vertical: → **Settings** → **Account** → **Signal PIN**
 - [x] Turn on **Registration Lock**
 
 !!! Important
@@ -65,12 +65,12 @@ It is best practice to always compare safety numbers with your contacts. This ca
 
 !!! Important
 
-    In order for safety numbers to also verify that the intended recipient has access to the device you're verifying, you need a secondary communication channel where you can authenticate the person that is holding the device. For example, an in-person meeting or during a video call.
+    In order for safety numbers to also verify that the intended recipient has access to the device you're verifying, you need a secondary communication channel where you can authenticate the person that is holding the device. For example, an in-person meeting or a video call.
 
 To view the safety number for a particular contact, you need to follow these steps within Signal:
 
 - Go to a chat with a contact.
-- Select the chat header or :material-dots-vertical: > **View Safety Number**
+- Select the chat header or :material-dots-vertical: → **View Safety Number**
 
 Once you've compared the safety numbers on both devices, you can mark that contact as **Verified**.
 
@@ -78,7 +78,7 @@ A checkmark will appear in the chat header by your contact's name when the safet
 
 After doing that, any time the safety number changes, you'll be notified.
 
-If the safety number with one of your contacts changes, we recommend asking the contact what happened (if they switched to a new device or re-installed Signal, for example) and verify the safety numbers again.
+If the safety number with one of your contacts changes, we recommend asking the contact what happened (if they switched to a new device or re-installed Signal, for example) and verifying the safety numbers again.
 
 For more demanding threat models, you should agree on a protocol with your contacts in advance on what to do in case the safety number ever changes.
 
@@ -92,7 +92,7 @@ It is good practice to set up disappearing messages in Signal's settings so that
 
 On Android/iOS:
 
-- Select :material-dots-vertical: > **Settings** > **Privacy**
+- Select :material-dots-vertical: → **Settings** → **Privacy**
 - Under **Disappearing messages**, select **Default timer for new chats**
 - Select the desired amount of time and select **Save**
 
@@ -119,22 +119,20 @@ Your recipient doesn't make any requests unless they open the link on their end.
 
 On Android/iOS:
 
-- Select :material-dots-vertical: > **Settings** > **Chats**
+- Select :material-dots-vertical: → **Settings** → **Chats**
 - [ ] Turn off **Generate link previews**
 
 ### Screen Security
 
-Signal allows you to prevent a preview of the app being shown (i.e., in the app switcher) unless you explicitly open it.
+Signal allows you to prevent a preview of the app being shown (i.e., in the app switcher) unless you explicitly open it. This option can be found in :material-dots-vertical: → **Settings** → **Privacy**.
 
-On Android:
+=== "Android"
 
-- Select :material-dots-vertical: > **Settings** > **Privacy**
-- [x] Turn on **Screen Security**
+    - [x] Turn on **Screen Security**
 
-On iOS:
+=== "iOS"
 
-- Select :material-dots-vertical: > **Settings** > **Privacy**
-- [x] Turn on **Hide Screen in App Switcher**
+    - [x] Turn on **Hide Screen in App Switcher**
 
 ### Screen Lock
 
@@ -144,26 +142,22 @@ To mitigate this, you can leverage the Screen Lock option to require additional 
 
 On Android/iOS:
 
-- Select :material-dots-vertical: > **Settings** > **Privacy**
+- Select :material-dots-vertical: → **Settings** → **Privacy**
 - [x] Turn on **Screen Lock**
 
 ### Notification Privacy
 
 Even when your phone is locked, anyone who can lay eyes on the device can read messages and sender names from your lock screen.
 
-On Signal, you have the ability to hide message content and sender name, or just the message content itself.
+On Signal, you have the ability to hide message content and sender name, or just the message content itself. This option can be found in :material-dots-vertical: → **Settings** → **Notifications** → **Show**.
 
-On Android:
+=== "Android"
 
-- Select :material-dots-vertical: > **Settings** > **Notifications**
-- Select **Show**
-- Select **No name or message** or **Name only** respectively.
+    - Select **No name or message** or **Name only**, respectively.
 
-On iOS:
+=== "iOS"
 
-- Select :material-dots-vertical: > **Settings** > **Notifications**
-- Select **Show**
-- Select **No name or Content** or **Name Only** respectively.
+    - Select **No name or Content** or **Name Only**, respectively.
 
 ### Call Relaying
 
@@ -171,14 +165,21 @@ Signal allows you to relay all calls (including video calls) through the Signal 
 
 On Android/iOS:
 
-- Select :material-dots-vertical: > **Settings** > **Privacy** > **Advanced**
+- Select :material-dots-vertical: → **Settings** → **Privacy** → **Advanced**
 - [x] Turn on **Always Relay Calls**
 
 For incoming calls from people who are not in your Contacts app, the call will be relayed through the Signal server regardless of how you've set it up.
 
-### Proxy Support
+### Bypass Internet Censorship
 
-If Signal is blocked in your country, Signal allows you to set up a proxy to bypass it.
+If Signal is blocked in your country, it has a built-in "Censorship Circumvention" feature that uses domain fronting to bypass restrictions.
+
+On Android/iOS:
+
+- Select :material-dots-vertical: → **Settings** → **Privacy** → **Advanced**
+- [x] Turn on **Censorship Circumvention**
+
+Additionally, Signal allows you to set up a proxy to bypass censorship.
 
 !!! Warning
 
@@ -186,13 +187,13 @@ If Signal is blocked in your country, Signal allows you to set up a proxy to byp
 
 You can learn more about Signal's proxy support on their [website](https://support.signal.org/hc/en-us/articles/360056052052-Proxy-Support).
 
-### Disable Signal Call History (iOS)
+### Disable Signal Call History (iOS only)
 
 Signal allows you to see your call history from your regular phone app. This allows your iOS device to sync your call history with iCloud, including whom you spoke to, when, and for how long.
 
 If you use iCloud and you don’t want to share call history on Signal, confirm it’s turned off:
 
-- Select :material-dots-vertical: > **Settings** > **Privacy**
+- Select :material-dots-vertical: → **Settings** → **Privacy**
 - [ ] Turn off **Show Calls in Recents**
 
 ## Signal Hardening
@@ -201,13 +202,13 @@ If you use iCloud and you don’t want to share call history on Signal, confirm 
 
 While it may be tempting to link your Signal account to your desktop device for convenience, keep in mind that this extends your trust to an additional and potentially less secure operating system.
 
-Avoid linking your Signal account to a desktop device to reduce your attack surface, if your threat model calls for protecting against [:material-bug-outline: Passive Attacks](https://www.privacyguides.org/en/basics/common-threats/#security-and-privacy){ .pg-orange }.
+Avoid linking your Signal account to a desktop device to reduce your attack surface if your threat model calls for protecting against [:material-bug-outline: Passive Attacks](https://www.privacyguides.org/en/basics/common-threats/#security-and-privacy){ .pg-orange }.
 
 ### Molly (Android)
 
-If you use [Molly](https://www.privacyguides.org/en/real-time-communication/#molly-android) on Android to access the Signal network, there are many privacy and security-enhancing features that you may want to explore.
+If you use [Molly](https://www.privacyguides.org/en/real-time-communication/#molly-android) on Android to access the Signal network, below is an overview of the many privacy- and security-enhancing features that you may want to explore. You can find a full list of Molly's [features](https://github.com/mollyim/mollyim-android#features) on the project's repository.
 
-#### Privacy and Security Features
+#### Data Encryption at Rest
 
 Molly has implemented database encryption at rest, which means that you can encrypt the app's database with a passphrase to ensure that none of its data is accessible without it.
 
@@ -224,14 +225,16 @@ For the database encryption feature to be useful, two conditions must be met:
 
 If both of the above conditions are met, the data within Molly is safe as long as the passphrase is not accessible to the attacker.
 
+#### RAM Wiper
+
 To supplement the database encryption feature, Molly securely wipes your device's RAM once the database is locked to defend against forensic analysis.
 
 While Molly is running, your data is kept in RAM. When any app closes, its data remains in RAM until another app takes the same physical memory pages. That can take seconds or days, depending on many factors. To prevent anyone from dumping the RAM to disk and extracting your data after Molly is locked, the app overrides all free RAM memory with random data when you lock the database.
 
-There is also the ability to configure a SOCKS proxy in Molly to route its traffic through the proxy or [Tor via Orbot](https://www.privacyguides.org/en/tor#orbot). When enabled, all traffic is routed through the proxy and there are no known IP or DNS leaks. When using this feature, [call relaying](#call-relaying) will always be enabled, regardless of the setting.
+#### Calls and Contacts
+
+There is also the ability to configure a SOCKS proxy in Molly to route its traffic through the proxy or [Tor via Orbot](https://www.privacyguides.org/en/alternative-networks/#orbot). When enabled, all traffic is routed through the proxy and there are no known IP or DNS leaks. When using this feature, [call relaying](#call-relaying) will always be enabled, regardless of the setting.
 
 Signal adds everyone who you have communicated with to its database. Molly allows you to delete those contacts and stop sharing your profile with them.
 
-To supplement the feature above, as well as for additional security and to fight spam, Molly offers the ability to block unknown contacts that you've never been in contact with or those that are not in your contact list without you having to manually block them.
-
-You can find a full list of Molly's [features](https://github.com/mollyim/mollyim-android#features) on the project's repository.
+To supplement the feature above, as well as for additional security and to fight spam, Molly offers the ability to block unknown contacts whom you've never been in contact with or those who are not in your contact list without you having to manually block them.

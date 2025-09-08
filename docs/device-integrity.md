@@ -69,7 +69,8 @@ These tools can trigger false-positives. If any of these tools finds indicators 
 
 <div class="admonition recommendation" markdown>
 
-![MVT logo](assets/img/device-integrity/mvt.webp){ align=right }
+![MVT logo](assets/img/device-integrity/mvt.webp#only-light){ align=right }
+![MVT logo](assets/img/device-integrity/mvt-dark.png#only-dark){ align=right }
 
 **Mobile Verification Toolkit** (**MVT**) is a collection of utilities which simplifies and automates the process of scanning mobile devices for potential traces of targeting or infection by known spyware campaigns. MVT was developed by Amnesty International and released in 2021 in the context of the [Pegasus Project](https://forbiddenstories.org/about-the-pegasus-project).
 
@@ -186,4 +187,4 @@ It is important to note that Auditor can only effectively detect changes **after
 
 No personally identifiable information is submitted to the attestation service. We recommend that you sign up with an anonymous account and enable remote attestation for continuous monitoring.
 
-If your [threat model](basics/threat-modeling.md) requires privacy, you could consider using [Orbot](tor.md#orbot) or a VPN to hide your IP address from the attestation service.
+If your [threat model](basics/threat-modeling.md) requires hiding your IP address from the attestation service, you could consider using [Orbot](alternative-networks.md#orbot) or a [VPN](vpn.md).

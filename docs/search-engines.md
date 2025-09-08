@@ -1,8 +1,8 @@
 ---
-meta_title: "Recommended Search Engines: Anonymous Google Alternatives - Privacy Guides"
-title: "Search Engines"
+meta_title: "Recommended Search Engines: Anonymous Alternatives to Google - Privacy Guides"
+title: Search Engines
 icon: material/search-web
-description: Privacy-respecting search engines which don't build an advertising profile based on your searches.
+description: Use privacy-respecting search engines which don't build an advertising profile based on your searches.
 cover: search-engines.webp
 global:
  - [randomize-element, "table tbody"]
@@ -23,11 +23,25 @@ Consider using a [VPN](vpn.md) or [Tor](tor.md) if your threat model requires hi
 |---|---|---|---|---|
 | [Brave Search](#brave-search) | [Independent](https://brave.com/search-independence) | :material-check:{ .pg-green } | Anonymized[^1] | United States |
 | [DuckDuckGo](#duckduckgo) | [Bing](https://help.duckduckgo.com/results/sources) | :material-check:{ .pg-green } | Anonymized[^2] | United States |
-| [Startpage](#startpage) | [Google and Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | :material-check:{ .pg-green } | Anonymized[^3] | Netherlands |
+| [Mullvad Leta](#mullvad-leta) | [Brave and Google](https://leta.mullvad.net/faq#what-can-leta-do) | :material-check:{ .pg-green } | Anonymized[^3] | Sweden |
+| [Startpage](#startpage) | [Google and Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | :material-check:{ .pg-green } | Anonymized[^4] | Netherlands |
 
-[^1]: Brave Search collects aggregated usage metrics, which includes the OS and the user agent. However, they do not collect PII. To serve [anonymous local results](https://search.brave.com/help/anonymous-local-results), IP addresses are temporarily processed, but are not retained. [https://search.brave.com/help/privacy-policy](https://search.brave.com/help/privacy-policy)
-[^2]: DuckDuckGo **does** log your searches for product improvement purposes, but not your IP address or any other PII. [https://duckduckgo.com/privacy](https://duckduckgo.com/privacy)
-[^3]: Startpage logs details such as operating system, user agent, and language. They do not log your IP address, search queries, or other PII. [https://startpage.com/en/privacy-policy](https://startpage.com/en/privacy-policy)
+[^1]:
+    Brave Search collects aggregated usage metrics, which includes the OS and the user agent. However, they do not collect PII. To serve [anonymous local results](https://search.brave.com/help/anonymous-local-results), IP addresses are temporarily processed, but are not retained.
+
+    Brave Search: [*Brave Search privacy notice*](https://search.brave.com/help/privacy-policy)
+[^2]:
+    DuckDuckGo **does** log your searches for product improvement purposes, but not your IP address or any other PII.
+
+    DuckDuckGo Privacy Policy: [*We don't track you.*](https://duckduckgo.com/privacy)
+[^3]:
+    Mullvad Leta logs your searches and stores them hashed with a secret in a RAM-based cache. The cache is removed after it reaches 30 days in age, or when the server-side Leta application is restarted. They do not collect any PII.
+
+    Terms of Service: [*Service Usage*](https://leta.mullvad.net/terms-of-service)
+[^4]:
+    Startpage logs details such as operating system, user agent, and language. They do not log your IP address, search queries, or other PII.
+
+    Our Privacy Policy: [*How we have implemented truly anonymous analytics*](https://startpage.com/en/privacy-policy#section-4)
 
 ### Brave Search
 
@@ -35,20 +49,18 @@ Consider using a [VPN](vpn.md) or [Tor](tor.md) if your threat model requires hi
 
 ![Brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }
 
-**Brave Search** is a search engine developed by Brave. The index is optimized against Google Search and therefore may provide more contextually accurate results compared to other alternatives.
+**Brave Search** is a search engine developed by Brave. It includes unique features such as [Discussions](https://search.brave.com/help/discussions), which highlights conversation-focused results such as forum posts.
 
-Brave Search includes unique features such as [Discussions](https://search.brave.com/help/discussions), which highlights conversation-focused results such as forum posts.
+Brave Search is the default search engine for the [Brave Browser](desktop-browsers.md#brave).
 
 [:octicons-home-16: Homepage](https://search.brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentation}
-
-</details>
+[:octicons-info-16:](https://search.brave.com/help){ .card-link title="Documentation" }
 
 </div>
 
-Note that if you use Brave Search while logged in to a Premium account, it may make it easier for Brave to correlate queries with specific users.
+If you use Brave Search while logged in to a Premium account, there is a risk of Brave correlating search queries with your account.
 
 We recommend you disable [Anonymous usage metrics](https://search.brave.com/help/usage-metrics) as it is enabled by default and can be disabled within settings.
 
@@ -65,13 +77,37 @@ DuckDuckGo is the default search engine for the [Tor Browser](tor.md#tor-browser
 [:octicons-home-16: Homepage](https://duckduckgo.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.duckduckgo.com){ .card-link title=Documentation}
-
-</details>
+[:octicons-info-16:](https://help.duckduckgo.com){ .card-link title="Documentation" }
 
 </div>
 
 DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-javascript) of their search engine, both of which do not require JavaScript. These versions do lack features, however. These versions can also be used in conjunction with their Tor hidden address by appending [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) or [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) for the respective version.
+
+### Mullvad Leta
+
+<div class="admonition recommendation" markdown>
+
+![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
+
+**Mullvad Leta** is a search engine developed by Mullvad. It uses a [shared cache](https://leta.mullvad.net/faq#what-is-cached-search) to fetch search results and limit calls to the search APIs it uses.
+
+Mullvad Leta currently only provides text search results. It is the default search engine for the [Mullvad Browser](desktop-browsers.md#mullvad-browser).
+
+[:octicons-home-16: Homepage](https://leta.mullvad.net){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://uxngojcovdcyrmwkmkltyy2q7enzzvgv7vlqac64f2vl6hcrrqtlskqd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://leta.mullvad.net/terms-of-service){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://leta.mullvad.net/faq){ .card-link title="Documentation" }
+
+</div>
+
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
+
+Mullvad Leta is useful if you want to disable JavaScript in your browser, such as [Mullvad Browser](desktop-browsers.md#mullvad-browser) on the Safest security level.
+
+</div>
+
+Mullvad Leta was [audited](https://mullvad.net/en/blog/security-audit-of-our-letamullvadnet-search-service) by Assured AB in March 2023. All issues were addressed and fixed shortly after the [report](https://assured.se/publications/Assured_Mullvad_Leta_pentest_report_2023.pdf).
 
 ### Startpage
 
@@ -85,9 +121,7 @@ DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-
 [:octicons-home-16: Homepage](https://startpage.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentation}
-
-</details>
+[:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title="Documentation" }
 
 </div>
 
@@ -108,10 +142,8 @@ A [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine) aggregate
 **SearXNG** is an open-source, self-hostable, metasearch engine. It is an actively maintained fork of [SearX](https://github.com/searx/searx).
 
 [:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
-[:octicons-server-16:](https://searx.space){ .card-link title="Public Instances"}
+[:octicons-server-16:](https://searx.space){ .card-link title="Public Instances" }
 [:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Source Code" }
-
-</details>
 
 </div>
 

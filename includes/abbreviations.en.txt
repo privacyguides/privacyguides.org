@@ -107,3 +107,5 @@
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Extensible Messaging and Presence Protocol
 *[PWA]: Progressive Web App
+*[PWAs]: Progressive Web Apps
+*[WKD]: Web Key Directory

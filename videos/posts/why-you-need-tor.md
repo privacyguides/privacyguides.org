@@ -2,7 +2,7 @@
 title: |
   Anonymity for Everyone: Why You Need Tor
 date:
-    created: 2025-03-02T18:00:00
+    created: 2025-03-02T18:00:00Z
 authors:
     - jordan
 description: Tor is an invaluable tool for bypassing censorship and browsing privately, in this week's video we dive into the details and explain how it works. Plus we cover some things you should avoid when using Tor to make sure you maintain your anonymity.

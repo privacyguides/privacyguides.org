@@ -7,6 +7,8 @@ authors:
     - em
 description: This tutorial demonstrates how to reset a YubiKey close to factory defaults and create a backup of most YubiKey applications on a spare key.
 schema_type: AnalysisNewsArticle
+preview:
+  cover: blog/assets/images/yubikey-reset-and-backup/cover.webp
 ---
 # How to Reset Your YubiKey and Create a Backup
 
@@ -644,7 +646,7 @@ Before confirming, copy this Password in a secure local text file temporarily. T
 <div class="admonition tip" markdown>
 <p class="admonition-title">If you forgot to note your Static password</p>
 
-You can trigger your **Static password** from your main key by opening a secure local text file and touch the gold part of your YubiKey. If you have configured your **Static password** in the "Short touch" slot, only tough the key for a second. If you have configured it in the "Long touch" slot, touch your key for about 3 seconds until a string is generated (make sure not to trigger a different application). You can then copy this Static password string to your spare key.
+You can trigger your **Static password** from your main key by opening a secure local text file and touch the gold part of your YubiKey. If you have configured your **Static password** in the "Short touch" slot, only touch the key for a second. If you have configured it in the "Long touch" slot, touch your key for about 3 seconds until a string is generated (make sure not to trigger a different application). You can then copy this Static password string to your spare key.
 
 </div>
 

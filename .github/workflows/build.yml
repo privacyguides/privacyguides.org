@@ -30,6 +30,9 @@ on:
       cache:
         type: boolean
         default: true
+    secrets:
+      RO_DISCOURSE_API_KEY:
+        required: false
 
 permissions:
   contents: read
@@ -52,6 +55,18 @@ jobs:
           {
             echo "BUILD_CONTEXT=${{ inputs.context }}"
             echo "EXTRA_FLAGS=""$EXTRA_FLAGS" --production""
+          } >> "$GITHUB_ENV"
+
+      - name: Set base navigation URLs for production build
+        if: inputs.context == 'production'
+        run: |
+          {
+            echo "MAIN_SITE_BASE_URL=https://www.privacyguides.org/en/"
+            echo "MAIN_SITE_ABOUT_URL=https://www.privacyguides.org/en/about/"
+            echo "MAIN_SITE_RECOMMENDATIONS_URL=https://www.privacyguides.org/en/tools/"
+            echo "MAIN_SITE_KNOWLEDGE_BASE_URL=https://www.privacyguides.org/en/basics/why-privacy-matters/"
+            echo "ARTICLES_SITE_BASE_URL=https://www.privacyguides.org/articles/"
+            echo "VIDEOS_SITE_BASE_URL=https://www.privacyguides.org/videos/"
           } >> "$GITHUB_ENV"
 
       - name: Set Metadata for Privileged Builds
@@ -172,23 +187,31 @@ jobs:
           sudo apt install pngquant
           echo "EXTRA_FLAGS=""$EXTRA_FLAGS" --cmd=mkdocs"" >> "$GITHUB_ENV"
 
+      - name: Generate Donating Members List
+        continue-on-error: true
+        env:
+          DISCOURSE_API_KEY: ${{ secrets.RO_DISCOURSE_API_KEY }}
+        run: |
+          pip install requests
+          python generate-members.py > includes/members.md
+
       - name: Build Website
         run: |
           eval ./run.sh --build --lang=${{ inputs.lang }} "$EXTRA_FLAGS"
 
-      - name: Run index-generation.sh for top posts
+      - name: Run generate-topics.sh for top posts
         if: inputs.lang == 'en'
         run: |
-          bash index-generation.sh \
+          bash generate-topics.sh \
             --source='https://discuss.privacyguides.net/top.json?period=weekly' \
             --tag="top posts" \
             --destination="./site/en/index.html" \
             --count=3
 
-      - name: Run index-generation.sh for latest posts
+      - name: Run generate-topics.sh for latest posts
         if: inputs.lang == 'en'
         run: |
-          bash index-generation.sh \
+          bash generate-topics.sh \
             --source='https://discuss.privacyguides.net/latest.json' \
             --tag="latest posts" \
             --destination="./site/en/index.html" \
@@ -257,6 +280,14 @@ jobs:
         with:
           name: site-${{ inputs.config }}-${{ inputs.lang }}.tar.gz
           path: site-${{ inputs.config }}-${{ inputs.lang }}.tar.gz
+          retention-days: 1
+
+      - name: Upload members list
+        uses: actions/upload-artifact@v4
+        if: inputs.config == 'build' && inputs.lang == 'en'
+        with:
+          name: members.md
+          path: includes/members.md
           retention-days: 1
 
   offline_package:

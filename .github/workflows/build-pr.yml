@@ -72,6 +72,8 @@ jobs:
       continue-on-error: false
       privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
       strict: true
+    secrets:
+      RO_DISCOURSE_API_KEY: ${{ secrets.RO_DISCOURSE_API_KEY }}
 
   build_i18n:
     if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build i18n') }}

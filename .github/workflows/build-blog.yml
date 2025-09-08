@@ -82,6 +82,18 @@ jobs:
           pip install mkdocs-material mkdocs-rss-plugin mkdocs-glightbox mkdocs-macros-plugin
           sudo apt install pngquant
 
+      - name: Set base navigation URLs for production build
+        if: inputs.context == 'production'
+        run: |
+          {
+            echo "MAIN_SITE_BASE_URL=https://www.privacyguides.org/en/"
+            echo "MAIN_SITE_ABOUT_URL=https://www.privacyguides.org/en/about/"
+            echo "MAIN_SITE_RECOMMENDATIONS_URL=https://www.privacyguides.org/en/tools/"
+            echo "MAIN_SITE_KNOWLEDGE_BASE_URL=https://www.privacyguides.org/en/basics/why-privacy-matters/"
+            echo "ARTICLES_SITE_BASE_URL=https://www.privacyguides.org/articles/"
+            echo "VIDEOS_SITE_BASE_URL=https://www.privacyguides.org/videos/"
+          } >> "$GITHUB_ENV"
+
       - name: Build Website (Privileged)
         if: inputs.privileged
         run: |

@@ -89,7 +89,7 @@ ProxiTok is useful if you want to disable JavaScript in your browser, such as [T
 There are a number of public instances, with some that offer a [Tor](tor.md) onion service or an [I2P](alternative-networks.md#i2p-the-invisible-internet-project) eepsite.
 
 [:octicons-home-16: Homepage](https://invidious.io){ .md-button .md-button--primary }
-[:octicons-server-16:](https://instances.invidious.io){ .card-link title="Public Instances" }
+[:octicons-server-16:](https://docs.invidious.io/instances){ .card-link title="Public Instances" }
 [:octicons-info-16:](https://docs.invidious.io){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://invidious.io/donate){ .card-link title="Contribute" }
@@ -123,7 +123,7 @@ Invidious is useful if you want to disable JavaScript in your browser, such as [
 Piped requires JavaScript in order to function and there are a number of public instances.
 
 [:octicons-repo-16: Repository](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/TeamPiped/Piped/wiki/Instances){ .card-link title="Public Instances" }
+[:octicons-server-16:](https://github.com/TeamPiped/documentation/blob/main/content/docs/public-instances/index.md){ .card-link title="Public Instances" }
 [:octicons-info-16:](https://docs.piped.video/docs){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title="Contribute" }
@@ -147,7 +147,7 @@ Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) with
 
 **FreeTube** is a free and open-source desktop application for [YouTube](https://youtube.com). FreeTube extracts data from YouTube using its built-in API based on [YouTube.js](https://github.com/LuanRT/YouTube.js) or the [Invidious](#invidious) API. You can configure either as the default, with the other serving as a fallback.
 
-When using FreeTube, your subscription list and playlists are saved locally on your device.
+When using FreeTube, your subscription list, playlists, watch history and search history are saved locally on your device.
 
 [:octicons-home-16: Homepage](https://freetubeapp.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="Privacy Policy" }
