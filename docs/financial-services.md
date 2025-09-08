@@ -65,6 +65,22 @@ Privacy.com gives information about the merchants you purchase from to your bank
 
 MySudo's virtual cards are currently only available via their iOS app.
 
+### Revolut (EU)
+
+<div class="admonition recommendation" markdown>
+
+![Privacy.com logo](#only-light){ align=right }
+![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
+
+<!--- TO BE CONTINUED AFTER THE LOGO IS  UPLOADED--->
+
+[:octicons-home-16: Homepage](){ .md-button .md-button--primary }
+[:octicons-eye-16:](){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](){ .card-link title=Documentation}
+
+</details>
+
+</div>
 ### Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
