@@ -69,10 +69,9 @@ MySudo's virtual cards are currently only available via their iOS app.
 
 <div class="admonition recommendation" markdown>
 
-![Privacy.com logo](#only-light){ align=right }
-![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
+![Revolut logo](assets/img/revolut.svg){ align=right } <!--- No dark mode and the dark icon is for the business app as per Revolut's branding policy --->
 
-<!--- TO BE CONTINUED AFTER THE LOGO IS  UPLOADED--->
+<!--- TO BE CONTINUED AFTER I UPDATE THE FILE NAME OF THE SVG--->
 
 [:octicons-home-16: Homepage](){ .md-button .md-button--primary }
 [:octicons-eye-16:](){ .card-link title="Privacy Policy" }
