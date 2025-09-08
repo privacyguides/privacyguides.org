@@ -18,11 +18,11 @@ preview:
 
 <small aria-hidden="true">Illustration: Em / Privacy Guides | Photo: Ramaz Bluashvili / Pexels</small>
 
-If you've heard of Chat Control already, bad news: **it's back**. If you haven't, this is a pressing issue you should urgently learn more about if you value privacy, democracy, and human rights. This is happening **this week**, and **we must act to stop it right now**.<!-- more -->
+If you've heard of [Chat Control](the-future-of-privacy.md) already, bad news: **it's back**. If you haven't, this is a pressing issue you should urgently learn more about if you value privacy, democracy, and human rights. This is happening **this week**, and **we must act to stop it right now**.<!-- more -->
 
 Take a minute to visualize this: Every morning you wake up with a police officer entering your home to inspect it, and staying with you all day long.
 
-The agent checks your bathroom, your medicine cabinet, your bedroom, your closets, your drawers, your fridge, and takes photos and notes to document everything. Then, this report is uploaded to the police's cloud. It's "for a good cause" you know, it's to make sure you aren't hiding any child sexual abuse material under your bed.
+The agent checks your bathroom, your medicine cabinet, your bedroom, your closets, your drawers, your fridge, and takes photos and notes to document everything. Then, this report is uploaded to the police's cloud. It's "[for a good cause](encryption-is-not-a-crime.md)" you know, it's to make sure you aren't hiding any child sexual abuse material under your bed.
 
 Every morning. Even if you're naked in bed. Even while you're having a call with your doctor or your lover. Even when you're on a date. Even while you're working and discussing your client's confidential information with their attorney. This police officer is there, listening to you and reporting on everything you do.
 
@@ -77,11 +77,11 @@ And terrifying, it is.
 
 The [most recent proposal for Chat Control](https://tuta.com/blog/chat-control-criticism) comes from the EU Council Danish presidency pushing for the regulation misleadingly called the Child Sexual Abuse Regulation (CSAR). Despite its seemingly caring name, this regulation will **not** help fight child abuse, and will even likely worsen it, impacting negatively what is already being done to fight child abuse (more on this in the [next section](#would-this-protect-the-children)).
 
-The CSAR proposed regulation (more appropriately called Chat Control) could start getting implemented as early as *next month*, if we do not stop it. Chat Control would make mandatory for *all* service providers (text messaging, email, social media, cloud storage, hosting services, etc.) to scan *all* communications and *all* files (including end-to-end encrypted ones), in order to supposedly detect (for now) abusive material.
+The CSAR proposal (Chat Control) could be implemented as early as *next month*, if we do not stop it. Chat Control would make it mandatory for *all* service providers (text messaging, email, social media, cloud storage, hosting services, etc.) to scan *all* communications and *all* files (including end-to-end encrypted ones), in order to supposedly detect whatever the government deems "abusive material."
 
 **The problem is this: Chat Control will not work, it is unreliable, it will escalate in scope, and it will endanger everyone (including the children).**
 
-Even if you are not in Europe, know that Chat Control would affect everyone inside *and* outside of Europe in one way or another. Regardless of where you are, you are concerned too, you should pay attention, and there are things you can do to fight back. This is important.
+Even if you are not in Europe, know that Chat Control will affect everyone inside *and* outside of Europe one way or another. Regardless of where you are, you should be concerned and pay attention, and there are things you can do to fight back. This is important.
 
 ![Still image from a video showing an illustration of three cellphones being scanned by a red light, with lines leading to a law enforcement icon.](../assets/images/chat-control-must-be-stopped/chatcontrol-stopscanningme-video.webp)
 <small aria-hidden="true">Still image from [video](https://stopscanningme.eu/video/csar-explainer.mp4): Stop Scanning Me / EDRi</small>
@@ -129,7 +129,7 @@ Authorities understand well how important protecting communication and informati
 
 No.
 
-This cannot be stressed enough: **This regulation would not protect the children, it would *harm* the children**, and everyone else too, worldwide. Claiming otherwise is either naivety, misinformation, or disinformation.
+This cannot be stressed enough: **This regulation would not protect the children, it would *harm* the children**, and everyone else too, worldwide. Claiming otherwise is either naivety, or misinformation.
 
 Last year, the civil and human rights association European Digital Rights (EDRi) put together a [joint statement from 48 organizations](https://edri.org/our-work/joint-statement-on-the-future-of-the-csa-regulation/) for children's protection, digital rights, and human rights, demanding that the European Parliament invest instead in proven strategies to fight child abuse. This appeal to reason does not seem to have been heard by most EU Member States.
 
@@ -144,9 +144,9 @@ First, this automated system is flawed in many ways, and the false-positive rate
 
 Worse, the Swiss federal police reported that currently about 80% of all automated reports received were [false-positives](https://www.patrick-breyer.de/en/posts/chat-control/#WhatYouCanDo). This means in reality, the error rate is likely far higher than 1%, and actually closer to an **80% error rate**. Of the approximate 20% of positive reports, in Germany, over 40% of investigations initiated [targeted children](https://www.polizei-beratung.de/aktuelles/detailansicht/straftat-verbreitung-kinderpornografie-pks-2022/) themselves.
 
-Sometimes, flagged content can simply be teenagers innocently sexting each other consensually. Not only would they be wrongly tagged as criminals under Chat Control, but also triggering an investigation that would expose their intimate photos to others.
+Sometimes, flagged content is simply teenagers innocently sexting each other consensually. Not only would they be wrongly tagged as criminals under Chat Control, but they'd be triggering an investigation that would expose their intimate photos to others.
 
-Even in a magical world where Chat Control AI would be 99% accurate, it could still wrongly tag and **expose sensitive data from millions of children**. Sadly, no AI system is even remotely close to this accuracy level, and proprietary algorithms are usually opaque black boxes impossible to audit transparently. The number of children Chat Control would harm, and likely traumatize for life, would be disastrous.
+Even in a magical world where Chat Control AI is 99% accurate, it would still wrongly tag and **expose sensitive data from millions of children**. In reality, no AI system is even remotely close to this accuracy level, and proprietary algorithms are usually opaque black boxes impossible to audit transparently. The number of children Chat Control would harm, and likely traumatize for life, would be disastrous.
 
 ### Exposing children's sensitive and sexual information
 
@@ -156,11 +156,11 @@ When this content is reported, it will likely be uploaded to a database for huma
 
 Even innocuous communications such as daily conversations, teenagers chatting with each other, parents reporting information about their child to a [doctor](https://www.nytimes.com/2022/08/21/technology/google-surveillance-toddler-photo.html), and therapists talking with their patients, could all inadvertently expose children sensitive information. This is information that should have remained *private*, and would now be uploaded to a police database, likely [stored there forever](https://www.iccl.ie/news/an-garda-siochana-unlawfully-retains-files-on-innocent-people-who-it-has-already-cleared-of-producing-or-sharing-of-child-sex-abuse-material/) with few recourses to remove it.
 
-The more we collect sensitive information about children (photos, faces, locations, identifications, medical information, private chats, experiences, etc.), the more we risk exposing children to harm. This includes systems used by authorities and governments. Even if miraculously everyone with legitimate access to this data would be 100% exemplary incorruptible citizens, the databases and scanning systems will still be vulnerable to attacks from criminals and hostile governments alike.
+The more we collect sensitive information about children (photos, faces, locations, identifications, medical information, private chats, experiences, etc.), the more we risk exposing children to harm. This includes systems used by authorities and governments. Even if everyone with legitimate access to this data is miraculously 100% exemplary and incorruptible citizens, the databases and scanning systems will still be vulnerable to attacks from criminals and hostile governments alike.
 
 The only way to protect children's information properly is to **1) not collect it**, and **2) use end-to-end encryption to protect it** when we cannot avoid collecting it. Spying on everyone and every child is the opposite of that.
 
-### Authorities database will be attacked
+### Authorities' databases will be attacked
 
 It's impossible to perfectly secure information online. There is a lot we can do to improve security (much more than is done now), but data breaches will happen.
 
@@ -174,7 +174,7 @@ In addition, Chat Control could facilitate the proliferation of even more spywar
 
 Even if the idea of online strangers accessing children's sensitive data is terrifying, the worse danger in often much closer.
 
-Sadly, we already know that [most](https://content.c3p.ca/pdfs/C3P_SurvivorsSurveyFullReport2017.pdf) child sexual abuse is perpetrated by adults close to the child, in the majority of cases a family member even. A study found that 42% of CSAM victims identified their biological or adoptive father as the main offender, and that two-thirds of the images appear to have been [produced at home](https://theconversation.com/new-research-shows-parents-are-major-producers-of-child-sexual-abuse-material-153722). Chat Control would do nothing to fight this, in fact, it could facilitate it.
+Sadly, we already know that the [vast majority](https://content.c3p.ca/pdfs/C3P_SurvivorsSurveyFullReport2017.pdf) child sexual abuse is perpetrated by adults close to the child, not strangers, and that two-thirds of CSAM images appear to have been [produced at home](https://theconversation.com/new-research-shows-parents-are-major-producers-of-child-sexual-abuse-material-153722). Chat Control would do nothing to fight this. In fact, it could facilitate it.
 
 Child abuse is an incredibly important topic to discuss and to fight against as a society. Utilizing this issue as an excuse to pass a surveillance law that would endanger everyone, including the victims, is despicable.
 
@@ -200,11 +200,11 @@ There is so much we can do to help to protect better the children online, survei
 
 ## How would this affect me?
 
-If this regulation was to be approved on **October 14th, 2025** (the date for the final vote), consequences would be devastating for everyone, even outside the European Union.
+If this regulation is approved on **October 14th, 2025** (the date for the final vote), the consequences would be devastating for everyone, even outside the European Union.
 
 We have seen how platforms implemented better privacy practices and features after the GDPR became effective in 2018, features that often benefited people worldwide. This could have the same effect in reverse.
 
-Every platform potentially handling data of people located in the EU would be subjected to the law. Platforms would be obligated to scan all communications and all files of (at least) data subjects located in the EU, even data currently protected with end-to-end encryption. This would affect popular apps and services like Signal, Tuta mail, Proton mail, WhatsApp, Telegram, and much more.
+Every platform potentially handling data of people located in the EU would be subjected to the law. Platforms would be obligated to scan all communications and all files of (at least) data subjects located in the EU, even data currently protected with end-to-end encryption. This would affect popular apps and services like Signal, Tuta, Proton, WhatsApp, Telegram, and much more.
 
 ### Outside of Europe
 
@@ -228,7 +228,7 @@ Finally, even if this doesn't affect you personally, or you don't believe it wil
 
 The data of vulnerable people would be exposed and their safety put at risk. Victims might decide to stop reaching out for help or reporting crimes. Sources requiring anonymity might decide the risk isn't worth reporting valuable information to journalists. Opponents of governments in power could be silenced. Every democracy in the European Union would suffer greatly from it.
 
-Chat Control is completely antithetical to the values the European Union had been presenting to the world in recent years.
+Chat Control is completely antithetical to the values the European Union has been presenting to the world in recent years.
 
 ![The popular Red Dress meme, with the offended woman overlaid with the words "Fundamental Rights", the whistling man the words "European Commission", and woman wearing the red dress the words "Scanning private messages and controlling how citizens use the internet".](../assets/images/chat-control-must-be-stopped/chatcontrol-stopscanningme-meme-2.webp)
 <small aria-hidden="true">[Image](https://stopscanningme.eu/en/organise-now.html): Stop Scanning Me / EDRi</small>
