@@ -28,11 +28,15 @@ Every morning. Even if you're naked in bed. Even while you're having a call with
 
 This is the in-person equivalent of Chat Control.
 
+Chat Control is a regulation proposal that would mandate **all** services to scan **all** private digital communications of **everyone** residing in the European Union ([more details](#what-is-chat-control) below).
+
+This is an Orwellian nightmare.
+
 ## Act now!
 
 This is happening **this week**. European governments will be finalizing their positions on the regulation proposal on **Friday, September 12th, 2025**.
 
-- If you are not located in Europe: Keep reading, this will affect you too.
+- ==If you are not located in Europe==: Keep reading, this will affect you too.
 
 - If you are still unconvinced: Keep reading, we discuss Chat Control in [more details](#why-is-this-bad) below.
 
