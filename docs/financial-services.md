@@ -69,7 +69,7 @@ MySudo's virtual cards are currently only available via their iOS app.
 
 <div class="admonition recommendation" markdown>
 
-![Revolut logo](assets/img/revolut.svg){ align=right } 
+![Revolut logo](assets/img/financial-services/revolut.svg){ align=right } 
 <!--- No dark mode and the dark icon is for the business app as per Revolut's branding policy --->
 
 Revolut is an International* alternative towards services like privacy.com and MySudo for card masking. You can use disposable and non-disposable virtual cards for each indivdual use (eg. One-time use for one-time payments and dedicated virtual cards for subscriptions among other things). **Be warned: In your bank statement when you add money to revolut, the bank knows you have spend it there, but then you're trusting Revolut with your transactions and financial.**
