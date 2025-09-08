@@ -18,7 +18,7 @@ preview:
 
 <small aria-hidden="true">Illustration: Em / Privacy Guides | Photo: Ramaz Bluashvili / Pexels</small>
 
-If you've heard of [Chat Control](the-future-of-privacy.md) already, bad news: **it's back**. If you haven't, this is a pressing issue you should urgently learn more about if you value privacy, democracy, and human rights. This is happening **this week**, and **we must act to stop it right now**.<!-- more -->
+If you've heard of [Chat Control](the-future-of-privacy.md) — the EU's proposal to mandate the scanning of all private digital communications of **everyone** residing in the European Union — already, bad news: **it's back**. If you haven't, this is a pressing issue you should urgently learn more about if you value privacy, democracy, and human rights. This is happening **this week**, and **we must act to stop it right now**.<!-- more -->
 
 Take a minute to visualize this: Every morning you wake up with a police officer entering your home to inspect it, and staying with you all day long.
 
@@ -27,8 +27,6 @@ The agent checks your bathroom, your medicine cabinet, your bedroom, your closet
 Every morning. Even if you're naked in bed. Even while you're having a call with your doctor or your lover. Even when you're on a date. Even while you're working and discussing your client's confidential information with their attorney. This police officer is there, listening to you and reporting on everything you do.
 
 This is the in-person equivalent of Chat Control.
-
-Chat Control is a regulation proposal that would mandate **all** services to scan **all** private digital communications of **everyone** residing in the European Union ([more details](#what-is-chat-control) below).
 
 This is an Orwellian nightmare.
 
@@ -304,3 +302,5 @@ Regardless of the outcome on Friday, the fight isn't over after September 12th. 
 If you've missed September 12th, make sure to contact your representatives **right now** to tell them to **oppose Chat Control** on October 14th.
 
 </div>
+
+Update (9/8): Added clarification about Chat Control's implications to the introduction.
