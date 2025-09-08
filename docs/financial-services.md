@@ -65,6 +65,21 @@ Privacy.com gives information about the merchants you purchase from to your bank
 
 MySudo's virtual cards are currently only available via their iOS app.
 
+
+<div class="admonition danger" markdown>
+<p class="admonition-title">Privacy Notice</p>
+
+Revolut may opt you into sharing data (advertising) by default, **when the app allows you, do the following before you do anything else.**
+
+1. Click your pfp **located on the top left**
+
+2. Click `Privacy`
+
+3. Disable Social media & advertising platforms
+
+(**[and of course take other precautions](https://discuss.privacyguides.net/t/i-want-to-avoid-big-tech-companies/27342#p-92815-h-1-harm-reduction-4)**)
+</div>
+
 ### Revolut (International except KR, RU & CN)
 
 <div class="admonition recommendation" markdown>
