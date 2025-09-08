@@ -75,7 +75,7 @@ Revolut may opt you into sharing data (advertising) by default, **when the app a
 
 2. Click `Privacy`
 
-3. Disable Social media & advertising platforms
+3. Disable `Social media & advertising platforms`
 
 (**[and of course take other precautions](https://discuss.privacyguides.net/t/i-want-to-avoid-big-tech-companies/27342#p-92815-h-1-harm-reduction-4)**)
 </div>
