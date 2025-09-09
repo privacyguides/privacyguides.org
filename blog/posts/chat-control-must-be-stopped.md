@@ -26,13 +26,15 @@ The agent checks your bathroom, your medicine cabinet, your bedroom, your closet
 
 Every morning. Even if you're naked in bed. Even while you're having a call with your doctor or your lover. Even when you're on a date. Even while you're working and discussing your client's confidential information with their attorney. This police officer is there, listening to you and reporting on everything you do.
 
-This is the in-person equivalent of Chat Control.
+This is the in-person equivalent of Chat Control, a piece of legislation that would mandate **all** services to scan **all** private digital communications of **everyone** residing in the European Union.
+
+This is an Orwellian nightmare.
 
 ## Act now!
 
 This is happening **this week**. European governments will be finalizing their positions on the regulation proposal on **Friday, September 12th, 2025**.
 
-- If you are not located in Europe: Keep reading, this will affect you too.
+- ==If you are not located in Europe==: Keep reading, this will affect you too.
 
 - If you are still unconvinced: Keep reading, we discuss Chat Control in [more details](#why-is-this-bad) below.
 
@@ -65,6 +67,8 @@ At the time of this writing, the list of countries to contact is:
 
 ## What is Chat Control?
 
+"Chat Control" refers to a series of legislative proposals that would make it mandatory for *all* service providers (text messaging, email, social media, cloud storage, hosting services, etc.) to scan *all* communications and *all* files (including end-to-end encrypted ones), in order to supposedly detect whatever the government deems "abusive material."
+
 The push for Chat Control started in 2021 with the approval of a [derogation](https://www.patrick-breyer.de/en/chatcontrol-european-parliament-approves-mass-surveillance-of-private-communications/) to the ePrivacy Directive by the European Parliament. This derogation escalated to a second proposal for *mandatory* scanning a year later, which was [rejected](https://fortune.com/europe/2023/10/26/eu-chat-control-csam-encryption-privacy-european-commission-parliament-johansson-breyer-zarzalejos-ernst/) in 2023. Nevertheless, lawmakers and lobbyists determined to undermine our safety and civil liberties are bringing it back again two years later, **literally trying to wear you down**.
 
 We cannot let authoritarians wear us down until we lose all our privacy rights. Our privacy rights are fundamental to so many other human rights, to civil liberties, to public safety, and to functioning democracies.
@@ -75,9 +79,9 @@ Cryptography professor and cybersecurity expert Matthew Green described the 2022
 
 And terrifying, it is.
 
-The [most recent proposal for Chat Control](https://tuta.com/blog/chat-control-criticism) comes from the EU Council Danish presidency pushing for the regulation misleadingly called the Child Sexual Abuse Regulation (CSAR). Despite its seemingly caring name, this regulation will **not** help fight child abuse, and will even likely worsen it, impacting negatively what is already being done to fight child abuse (more on this in the [next section](#would-this-protect-the-children)).
+The [most recent proposal for Chat Control](https://tuta.com/blog/chat-control-criticism) comes from the EU Council Danish presidency pushing for regulation misleadingly called the **Child Sexual Abuse Regulation** (CSAR). Despite its seemingly caring name, this regulation will **not** help fight child abuse, and will even likely worsen it, impacting negatively what is already being done to fight child abuse (more on this in the [next section](#would-this-protect-the-children)).
 
-The CSAR proposal (Chat Control) could be implemented as early as *next month*, if we do not stop it. Chat Control would make it mandatory for *all* service providers (text messaging, email, social media, cloud storage, hosting services, etc.) to scan *all* communications and *all* files (including end-to-end encrypted ones), in order to supposedly detect whatever the government deems "abusive material."
+The CSAR proposal (which *is* the latest iteration of Chat Control) could be implemented as early as *next month*, if we do not stop it.
 
 **The problem is this: Chat Control will not work, it is unreliable, it will escalate in scope, and it will endanger everyone (including the children).**
 
@@ -300,3 +304,5 @@ Regardless of the outcome on Friday, the fight isn't over after September 12th. 
 If you've missed September 12th, make sure to contact your representatives **right now** to tell them to **oppose Chat Control** on October 14th.
 
 </div>
+
+Update (9/8): Added clarification about what Chat Control is for readers unfamiliar with it.
