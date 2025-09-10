@@ -160,19 +160,6 @@ jobs:
             social-cache-${{ inputs.repo }}-${{ inputs.lang }}-
             social-cache-privacyguides/privacyguides.org-${{ inputs.lang }}-
 
-      - name: Restore Optimize Plugin Cache
-        uses: actions/cache/restore@v4
-        id: optimize_cache_restore
-        if: inputs.cache
-        with:
-          key: optimize-cache-${{ inputs.repo }}-${{ hashfiles('.cache/plugin/optimize/manifest.json') }}
-          path: |
-            .cache/plugin/optimize
-          restore-keys: |
-            optimize-cache-${{ inputs.repo }}-
-            optimize-cache-privacyguides/privacyguides.org-
-            optimize-cache-
-
       - name: Install Python Dependencies
         if: inputs.privileged
         run: |
@@ -242,16 +229,6 @@ jobs:
             .cache/plugin/social/manifest.json
             .cache/plugin/social/assets
 
-      - name: Find Optimize Plugin Cache
-        uses: actions/cache/restore@v4
-        if: steps.optimize_cache_restore.outputs.cache-hit != 'true' && inputs.cache
-        id: optimize_cache_test
-        with:
-          key: optimize-cache-privacyguides/privacyguides.org-${{ hashfiles('.cache/plugin/optimize/manifest.json') }}
-          lookup-only: true
-          path: |
-            .cache/plugin/optimize
-
       - name: Save Privacy Plugin Cache
         uses: actions/cache/save@v4
         if: steps.privacy_cache_test.outputs.cache-hit != 'true' && inputs.cache
@@ -267,13 +244,6 @@ jobs:
           path: |
             .cache/plugin/social/manifest.json
             .cache/plugin/social/assets
-
-      - name: Save Optimize Plugin Cache
-        uses: actions/cache/save@v4
-        if: steps.optimize_cache_test.outputs.cache-hit != 'true' && inputs.cache
-        with:
-          key: optimize-cache-${{ inputs.repo }}-${{ hashfiles('.cache/plugin/optimize/manifest.json') }}
-          path: .cache/plugin/optimize
 
       - name: Upload Site
         uses: actions/upload-artifact@v4

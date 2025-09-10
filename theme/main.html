@@ -96,4 +96,13 @@
   {{ page.meta.schema|tojson }}
   </script>
   {% endif %}
+  <script defer src="https://cdn.jsdelivr.net/ghost/portal@2.53.2/umd/portal.min.js"
+          data-i18n="true"
+          data-ghost="https://www.privacyguides.org/"
+          data-key="da9d77deb3e85ee73925167f3a"
+          data-api="https://ghost.privacyguides.org/ghost/api/content/"
+          data-locale="{{ config.theme.language }}"
+          data-members-signin-otc="false"
+          crossorigin="anonymous">
+  </script>
 {% endblock %}

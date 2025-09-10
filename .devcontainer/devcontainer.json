@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json.
 {
   "name": "Privacy Guides",
-  "image": "ghcr.io/privacyguides/privacyguides.org:sha-55c050b",
+  "image": "ghcr.io/privacyguides/privacyguides.org:sha-5648a3f",
   // "build": {
   //   "dockerfile": "../Dockerfile",
   //   "context": ".."

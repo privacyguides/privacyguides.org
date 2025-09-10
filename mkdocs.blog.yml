@@ -164,8 +164,6 @@ plugins:
     plugins:
       macros: {}
       meta: {}
-      optimize:
-        enabled: !ENV [OPTIMIZE, PRODUCTION, NETLIFY, false]
       typeset: {}
       social:
         cards: !ENV [CARDS, true]

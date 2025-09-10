@@ -317,8 +317,6 @@ plugins:
           - index.md
         fallback_to_build_date: true
         enable_creation_date: true
-      optimize:
-        enabled: !ENV [OPTIMIZE, PRODUCTION, NETLIFY, false]
       typeset: {}
       social:
         cards: !ENV [CARDS, true]
