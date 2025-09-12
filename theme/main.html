@@ -87,17 +87,34 @@
     <meta name="robots" content="max-snippet:-1, max-image-preview:large">
   {% endif %}
 
+  {% if not config.extra.offline %}
+  <script defer src="https://cdn.jsdelivr.net/ghost/portal@2.53.2/umd/portal.min.js"
+          data-i18n="true"
+          data-ghost="{{ config.extra.ghost.base_url }}/"
+          data-key="{{ config.extra.ghost.content_api_key }}"
+          data-api="{{ config.extra.ghost.admin_url }}/api/content/"
+          data-locale="{{ config.theme.language }}"
+          data-members-signin-otc="false"
+          crossorigin="anonymous">
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/ghost/announcement-bar@~1.1/umd/announcement-bar.min.js"
+          data-announcement-bar="{{ config.extra.ghost.base_url }}/"
+          data-api-url="{{ config.extra.ghost.base_url }}/members/api/announcement/"
+          crossorigin="anonymous">
+  </script>
+  {% endif %}
+
   {% if config.extra.context == "production" %}
 
-    <link href="https://www.privacyguides.org/webmentions/receive/" rel="webmention">
+    <link href="{{ config.extra.ghost.base_url }}/webmentions/receive/" rel="webmention">
     <meta http-equiv="onion-location" content="{{ page.canonical_url | replace("https://www.privacyguides.org", "http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion") }}" />
 
     {% if config.theme.language == "en" %}
-      <script defer src="/public/ghost-stats.min.js?v=8037af1487"
+      <script defer src="{{ config.extra.ghost.base_url }}/public/ghost-stats.min.js?v=8037af1487"
               data-stringify-payload="false"
               data-datasource="analytics_events"
               data-storage="localStorage"
-              data-host="{{ config.extra.ghost.data_host }}"
+              data-host="{{ config.extra.ghost.base_url }}/.ghost/analytics/api/v1/page_hit"
               tb_site_uuid="{{ config.extra.ghost.tb_site_uuid }}"
               tb_post_uuid="undefined"
               tb_post_type="null"
@@ -113,13 +130,4 @@
   {{ page.meta.schema|tojson }}
   </script>
   {% endif %}
-  <script defer src="https://cdn.jsdelivr.net/ghost/portal@2.53.2/umd/portal.min.js"
-          data-i18n="true"
-          data-ghost="https://www.privacyguides.org/"
-          data-key="da9d77deb3e85ee73925167f3a"
-          data-api="https://ghost.privacyguides.org/ghost/api/content/"
-          data-locale="{{ config.theme.language }}"
-          data-members-signin-otc="false"
-          crossorigin="anonymous">
-  </script>
 {% endblock %}

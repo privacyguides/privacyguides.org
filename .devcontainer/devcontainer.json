@@ -51,7 +51,7 @@
             {
               "label": "Main",
               "type": "shell",
-              "command": "./run.sh --cmd=mkdocs --insiders --production",
+              "command": "./run.sh --cmd=mkdocs --insiders",
               "group": "test",
               "runOptions": {
                 "runOn": "folderOpen"

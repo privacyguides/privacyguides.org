@@ -39,8 +39,10 @@ extra:
   offline: !ENV [BUILD_OFFLINE, false]
   deploy: !ENV DEPLOY_ID
   ghost:
-    data_host: https://www.privacyguides.org/.ghost/analytics/api/v1/page_hit
+    base_url: https://www.privacyguides.org
+    admin_url: https://ghost.privacyguides.org/ghost
     tb_site_uuid: 5f3bdb03-a1af-4844-85ca-cbc82c89eb9a
+    content_api_key: da9d77deb3e85ee73925167f3a
   privacy_guides:
     footer:
       intro:
