@@ -37,6 +37,7 @@ extra:
   context: !ENV [BUILD_CONTEXT, "production"]
   offline: !ENV [BUILD_OFFLINE, false]
   deploy: !ENV DEPLOY_ID
+  ghost_content_api_key: da9d77deb3e85ee73925167f3a
   privacy_guides:
     footer:
       intro:
