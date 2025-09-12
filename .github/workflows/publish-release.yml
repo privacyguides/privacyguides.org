@@ -77,17 +77,6 @@ jobs:
       continue-on-error: false
       context: production
 
-  build_videos:
-    needs: submodule
-    permissions:
-      contents: read
-    uses: ./.github/workflows/build-videos.yml
-    with:
-      repo: ${{ github.repository }}
-      ref: ${{ github.ref }}
-      continue-on-error: false
-      context: production
-
   release:
     name: Create release notes
     needs: build
@@ -109,7 +98,7 @@ jobs:
           makeLatest: true
 
   deploy:
-    needs: [build, build_blog, build_videos]
+    needs: [build, build_blog]
     uses: privacyguides/webserver/.github/workflows/deploy-all.yml@main
     secrets:
       NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
@@ -126,5 +115,5 @@ jobs:
 
   cleanup:
     if: ${{ always() }}
-    needs: [build, build_blog, build_videos]
+    needs: [build, build_blog]
     uses: privacyguides/.github/.github/workflows/cleanup.yml@main

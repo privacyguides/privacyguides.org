@@ -27,6 +27,7 @@ site_description: "Privacy Guides is the most popular & trustworthy non-profit p
 edit_uri_template: blob/main/blog/{path}?plain=1
 
 extra:
+  scope: /
   privacy_guides:
     footer:
       intro:
@@ -202,6 +203,9 @@ markdown_extensions:
   pymdownx.emoji:
     emoji_index: !!python/name:material.extensions.emoji.twemoji
     emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    options:
+      custom_icons:
+        - theme/icons
   tables: {}
   footnotes: {}
   toc:

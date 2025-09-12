@@ -32,6 +32,7 @@ edit_uri_template:
   !ENV [BUILD_EDIT_URI_TEMPLATE, "blob/main/docs/{path}?plain=1"]
 
 extra:
+  scope: /
   generator: false
   context: !ENV [BUILD_CONTEXT, "production"]
   offline: !ENV [BUILD_OFFLINE, false]
@@ -396,6 +397,7 @@ nav:
       - !ENV [NAV_SELF_HOSTING, "Self-Hosting"]:
           - "self-hosting/index.md"
           - "self-hosting/email-servers.md"
+          - "self-hosting/dns-filtering.md"
       - !ENV [NAV_INTERNET_BROWSING, "Internet Browsing"]:
           - "tor.md"
           - "desktop-browsers.md"

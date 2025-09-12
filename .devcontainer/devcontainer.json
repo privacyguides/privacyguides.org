@@ -19,10 +19,6 @@
     "8001": {
       "label": "Articles",
       "onAutoForward": "silent"
-    },
-    "8002": {
-      "label": "Videos",
-      "onAutoForward": "silent"
     }
   },
   "otherPortsAttributes": {
@@ -42,20 +38,6 @@
               "label": "Articles",
               "type": "shell",
               "command": "mkdocs serve --config-file=mkdocs.blog.yml --dev-addr=localhost:8001",
-              "group": "test",
-              "runOptions": {
-                "runOn": "folderOpen"
-              },
-              "presentation": {
-                "reveal": "always",
-                "panel": "dedicated",
-                "group": "Live server"
-              }
-            },
-            {
-              "label": "Videos",
-              "type": "shell",
-              "command": "mkdocs serve --config-file=mkdocs.videos.yml --dev-addr=localhost:8002",
               "group": "test",
               "runOptions": {
                 "runOn": "folderOpen"
