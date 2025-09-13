@@ -3118,6 +3118,17 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "0xh3xa",
+      "name": "0xh3xa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9023404?v=4",
+      "profile": "https://0xh3xa.github.io",
+      "contributions": [
+        "doc",
+        "blog",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 5,
