@@ -36,7 +36,7 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 <div class="grid cards" markdown>
 
 - ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
-- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg#only-light){ .twemoji loading=lazy }![Mailbox Mail logo](assets/img/email/mailbox-mail-dark.svg#only-dark){ .twemoji loading=lazy } [Mailbox Mail](#mailbox-mail)
+- ![Mailbox Mail logo](assets/img/email/mailbox-mail.jpg){ .twemoji } [Mailbox Mail](#mailbox-mail)
 
 </div>
 
@@ -124,8 +124,7 @@ Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimite
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox Mail logo](assets/img/email/mailbox-mail.svg#only-light){ align=right }
-![Mailbox Mail logo](assets/img/email/mailbox-mail-dark.svg#only-dark){ align=right }
+![Mailbox Mail logo](assets/img/email/mailbox-mail.jpg){ align=right }
 
 **Mailbox Mail** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox Mail is based in Berlin, Germany.
 
