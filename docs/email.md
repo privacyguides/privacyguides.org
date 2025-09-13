@@ -35,8 +35,8 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](proton-mail)
-- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg#only-light){ .twemoji loading=lazy }![Mailbox Mail logo](assets/img/email/mailbox-mail-dark.svg#only-dark){ .twemoji loading=lazy } [Mailbox Mail](mailbox-mail)
+- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
+- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg#only-light){ .twemoji loading=lazy }![Mailbox Mail logo](assets/img/email/mailbox-mail-dark.svg#only-dark){ .twemoji loading=lazy } [Mailbox Mail](#mailbox-mail)
 
 </div>
 
