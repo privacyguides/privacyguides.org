@@ -112,7 +112,6 @@ jobs:
     needs: [build, build_blog]
     uses: privacyguides/webserver/.github/workflows/deploy-all.yml@main
     secrets:
-      NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
       PROD_MINIO_KEY_ID: ${{ secrets.PROD_MINIO_KEY_ID }}
       PROD_MINIO_SECRET_KEY: ${{ secrets.PROD_MINIO_SECRET_KEY }}
       PROD_GARAGE_KEY_ID: ${{ secrets.PROD_GARAGE_KEY_ID }}

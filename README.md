@@ -63,9 +63,7 @@ All contributors to the site are listed [here](#contributors). If you have contr
 ## Mirrors
 
 - **GitHub Pages:** [privacyguides.github.io/privacyguides.org](https://privacyguides.github.io/privacyguides.org/en/)
-- **Netlify (AWS):** [illustrious-bavarois-56cf30.netlify.app](https://illustrious-bavarois-56cf30.netlify.app/en/)
 - **BunnyCDN:** [privacyguides-org-production.b-cdn.net](https://privacyguides-org-production.b-cdn.net/en/)
-- **Hetzner:** [direct.privacyguides.org](https://direct.privacyguides.org/en/) (discouraged!)
 
 ### Alternative Networks
 
