@@ -1,5 +1,0 @@
-template: video-post.html
-hide:
-  - toc
-social:
-  cards_layout: video

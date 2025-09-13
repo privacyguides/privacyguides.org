@@ -360,6 +360,35 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
 The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
 
+### KeePassium (iOS & macOS)
+
+<div class="admonition recommendation" markdown>
+
+![KeePassium logo](assets/img/password-management/keepassium.svg){ align=right }
+
+KeePassium is a commercial, open-source password manager made by KeePassium Labs that's compatible with other KeePass applications. It provides autofill support, passkey management, automatic two-way synchronization through [most cloud storage providers](https://support.keepassium.com/kb/sync), and more.
+
+[:material-star-box: Read our latest KeePassium review.](https://www.privacyguides.org/articles/2025/05/13/keepassium-review)
+
+[:octicons-home-16: Homepage](https://keepassium.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://keepassium.com/privacy/app){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.keepassium.com){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/keepassium/KeePassium){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://keepassium.com/donate){ .card-link title="Contribute" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/id1435127111)
+
+</details>
+
+</div>
+
+KeePassium offers a [Premium version](https://keepassium.com/pricing) with additional features such as support for multiple databases, YubiKey support, and a password audit tool.
+
+KeePassium's iOS app has been [audited](https://cure53.de/pentest-report_keepassium.pdf) by Cure53 in October 2024, and all [issues](https://keepassium.com/blog/2024/11/independent-security-audit-complete) found in the audit were subsequently fixed.
+
 ### Gopass (CLI)
 
 <div class="admonition recommendation" markdown>

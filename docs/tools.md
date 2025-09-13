@@ -419,7 +419,6 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 <div class="grid cards" markdown>
 
 - ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ .twemoji loading=lazy } [Cryptomator](encryption.md#cryptomator-cloud)
-- ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ .twemoji loading=lazy } [Picocrypt](encryption.md#picocrypt-file)
 - ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji loading=lazy }![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji loading=lazy } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
 - ![Kryptor logo](assets/img/encryption-software/kryptor.png){ .twemoji loading=lazy } [Kryptor](encryption.md#kryptor)
 - ![Tomb logo](assets/img/encryption-software/tomb.png){ .twemoji loading=lazy } [Tomb](encryption.md#tomb)
@@ -490,6 +489,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 <div class="grid cards" markdown>
 
 - ![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ .twemoji loading=lazy }![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ .twemoji loading=lazy } [LanguageTool](language-tools.md#languagetool)
+- ![LibreTranslate logo](assets/img/language-tools/libretranslate.png){ .twemoji } [LibreTranslate](language-tools.md#libretranslate)
 
 </div>
 
@@ -569,6 +569,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 - ![Psono logo](assets/img/password-management/psono.svg){ .twemoji loading=lazy } [Psono](passwords.md#psono)
 - ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ .twemoji loading=lazy } [KeePassXC](passwords.md#keepassxc)
 - ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ .twemoji loading=lazy } [KeePassDX (Android)](passwords.md#keepassdx-android)
+- ![KeePassium logo](assets/img/password-management/keepassium.svg){ .twemoji loading=lazy } [KeePassium (iOS & macOS)](passwords.md#keepassium-ios-macos)
 - ![Gopass logo](assets/img/password-management/gopass.svg){ .twemoji loading=lazy } [Gopass (CLI)](passwords.md#gopass-cli)
 
 </div>
