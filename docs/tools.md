@@ -205,7 +205,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
 
-- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg#only-light){ .lg .middle .twemoji }![Mailbox Mail logo](assets/img/email/mailbox-mail-dark.svg#only-dark){ .lg .middle .twemoji } **Mailbox Mail**
+- ![Mailbox Mail logo](assets/img/email/mailbox-mail.jpg){ .lg .middle .twemoji } **Mailbox Mail**
 
     ---
 
