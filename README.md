@@ -42,7 +42,7 @@
 
 **Privacy Guides** is a socially motivated website that provides information for protecting your data security and privacy. Our mission is to inform the public about the value of digital privacy, and global government initiatives which aim to monitor your online activity. We are a non-profit collective operated entirely by volunteer team members and contributors. Our website is free of advertisements and not affiliated with any of the listed providers.
 
-The current list of team members can be found [here](https://www.privacyguides.org/en/about/#executive-committee). Additionally, [many people](#contributors) have made contributions to the project, and you can too!
+The current list of team members can be found on [the executive committee page](https://www.privacyguides.org/en/about/#executive-committee). Additionally, [many people](#contributors) have made contributions to the project, and you can too!
 
 *Featured on: [Tweakers](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html), [The New York Times](https://nytimes.com/wirecutter/guides/online-security-social-media-privacy), [Wired](https://wired.com/story/firefox-mozilla-2022), and [Fast Company](https://www.fastcompany.com/91167564/mozilla-wants-you-to-love-firefox-again).*
 
@@ -115,7 +115,7 @@ Committing to this repository requires [signing your commits](https://docs.githu
 It is required to create a GitHub release to publish the current site to privacyguides.org. The current `main` branch can be previewed at [https://main.staging.privacyguides.dev](https://main.staging.privacyguides.dev) prior to release.
 
 1. Create a new tag: `git tag -s YYYY.MM.DD -m 'Some message'`
-    - Tag numbering: `YYYY.MM.DD` - if two+ releases are published on the same day, append short commit sha to next release, e.g. `YYYY.MM.DD-6aa14e8`
+    - Tag numbering: `YYYY.MM.DD` - if two+ releases are published on the same day, append short commit to the next release, e.g. `YYYY.MM.DD-6aa14e8`
     - Enable GPG tag signing by default (`git config tag.gpgSign true`) to avoid missing signatures
 2. Push the tag to GitHub: `git push --tags`
 3. A GitHub Release will be automatically created and deployed to the live site.
@@ -612,7 +612,7 @@ Privacy Guides wouldn't be possible without these wonderful people ([emoji key](
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of **any** kind welcome, including contributions to Privacy Guides outside of this repo, and contributions that aren't content related (like sharing ideas for Privacy Guides, promoting the project, answering questions on the forum, etc.).
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of **any** kind welcome, including contributions to Privacy Guides outside this repo, and contributions that aren't content related (like sharing ideas for Privacy Guides, promoting the project, answering questions on the forum, etc.).
 
 CLI to generate this table:
 
