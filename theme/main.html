@@ -87,6 +87,23 @@
     <meta name="robots" content="max-snippet:-1, max-image-preview:large">
   {% endif %}
 
+  {% if not config.extra.offline %}
+  <script defer src="https://cdn.jsdelivr.net/ghost/portal@2.53.2/umd/portal.min.js"
+          data-i18n="true"
+          data-ghost="https://www.privacyguides.org/"
+          data-key="{{ config.extra.ghost_content_api_key }}"
+          data-api="https://ghost.privacyguides.org/ghost/api/content/"
+          data-locale="{{ config.theme.language }}"
+          data-members-signin-otc="false"
+          crossorigin="anonymous">
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/ghost/announcement-bar@~1.1/umd/announcement-bar.min.js"
+          data-announcement-bar="https://www.privacyguides.org/"
+          data-api-url="https://www.privacyguides.org/members/api/announcement/"
+          crossorigin="anonymous">
+  </script>
+  {% endif %}
+
   {% if config.extra.context == "production" %}
   <link href="https://www.privacyguides.org/webmentions/receive/" rel="webmention">
   <meta http-equiv="onion-location" content="{{ page.canonical_url | replace("https://www.privacyguides.org", "http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion") }}" />
@@ -96,13 +113,4 @@
   {{ page.meta.schema|tojson }}
   </script>
   {% endif %}
-  <script defer src="https://cdn.jsdelivr.net/ghost/portal@2.53.2/umd/portal.min.js"
-          data-i18n="true"
-          data-ghost="https://www.privacyguides.org/"
-          data-key="da9d77deb3e85ee73925167f3a"
-          data-api="https://ghost.privacyguides.org/ghost/api/content/"
-          data-locale="{{ config.theme.language }}"
-          data-members-signin-otc="false"
-          crossorigin="anonymous">
-  </script>
 {% endblock %}
