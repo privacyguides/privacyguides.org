@@ -80,7 +80,7 @@ Revolut may opt you into sharing data (advertising) by default, **when the app a
 (**[and of course take other precautions](https://discuss.privacyguides.net/t/i-want-to-avoid-big-tech-companies/27342#p-92815-h-1-harm-reduction-4)**)
 </div>
 
-### Revolut (International except KR, RU, TR & CN)
+### Revolut (International except KR, RU, TR, CN & African Countries)
 
 <div class="admonition recommendation" markdown>
 
@@ -89,7 +89,7 @@ Revolut may opt you into sharing data (advertising) by default, **when the app a
 
 Revolut is an International\* alternative towards services like privacy.com and MySudo for card masking. You can use disposable and non-disposable virtual cards for each indivdual use (eg. One-time use for one-time payments and dedicated virtual cards for subscriptions among other things). **Be warned: In your bank statement when you add money to revolut, the bank knows you have spend it there, but then you're trusting Revolut with your transactions and financial.**
 
-*Except Korea, Russia, Turkey and China. Supported countries are found [here](https://help.revolut.com/help/profile-and-plan/profile-plan/verifying-identity/what-countries-are-supported/) and on the homepage in the country selection
+*Except Korea, Russia, Turkey, China and African countries. Supported countries are found [here](https://help.revolut.com/help/profile-and-plan/profile-plan/verifying-identity/what-countries-are-supported/) and on the homepage in the country selection
 
 [:octicons-home-16: Homepage](https://www.revolut.com/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://www.revolut.com/legal/privacy/){ .card-link title="Privacy Policy" }
