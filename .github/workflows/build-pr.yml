@@ -80,7 +80,7 @@ jobs:
     needs: [submodule, metadata]
     strategy:
       matrix:
-        lang: [es, fr, he, it, nl, ru, zh-Hant]
+        lang: [es, fr, he, it, nl, ru, zh-Hant, zh-TW]
       fail-fast: false
     uses: ./.github/workflows/build.yml
     with:
