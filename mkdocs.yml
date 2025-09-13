@@ -32,6 +32,7 @@ edit_uri_template:
   !ENV [BUILD_EDIT_URI_TEMPLATE, "blob/main/docs/{path}?plain=1"]
 
 extra:
+  scope: /
   generator: false
   context: !ENV [BUILD_CONTEXT, "production"]
   offline: !ENV [BUILD_OFFLINE, false]
@@ -122,10 +123,10 @@ extra:
               link: https://matrix.to/#/#privacyguides:matrix.org
             - icon: material/information-outline
               name: !ENV [HOMEPAGE_CTA_ABOUT_NAME, "Learn more about us"]
-              link: about/
+              link: !ENV [HOMEPAGE_CTA_ABOUT_LINK, "about/"]
             - icon: material/hand-coin
               name: !ENV [HOMEPAGE_CTA_DONATE_NAME, "Donate to Privacy Guides"]
-              link: about/donate/
+              link: !ENV [HOMEPAGE_CTA_DONATE_LINK, "about/donate/"]
           description:
             !ENV [
               HOMEPAGE_CTA_DESCRIPTION,
@@ -182,6 +183,7 @@ extra:
     - icon: simple/torbrowser
       link: http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/
       name: !ENV [SOCIAL_TOR_SITE, "Hidden service"]
+  language_switcher: !ENV [LANGUAGE_SWITCHER, true]
   alternate:
     - name: English
       link: /en/
@@ -207,10 +209,14 @@ extra:
       link: /nl/
       lang: nl
       icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1f3-1f1f1.svg
-    - name: 正體中文
+    - name: 中文 (繁體)
       link: /zh-hant/
       lang: zh-Hant
-      icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1ed-1f1f0.svg
+      icon: https://raw.githubusercontent.com/jdecked/twemoji/master/assets/svg/1f1ed-1f1f0.svg
+    - name: 中文 (繁體，台灣)
+      link: /zh-TW/
+      lang: zh-TW
+      icon: https://raw.githubusercontent.com/jdecked/twemoji/master/assets/svg/1f1f9-1f1fc.svg
     - name: Русский
       link: /ru/
       lang: ru
@@ -316,8 +322,6 @@ plugins:
           - index.md
         fallback_to_build_date: true
         enable_creation_date: true
-      optimize:
-        enabled: !ENV [OPTIMIZE, PRODUCTION, NETLIFY, false]
       typeset: {}
       social:
         cards: !ENV [CARDS, true]
@@ -396,6 +400,7 @@ nav:
       - !ENV [NAV_SELF_HOSTING, "Self-Hosting"]:
           - "self-hosting/index.md"
           - "self-hosting/email-servers.md"
+          - "self-hosting/dns-filtering.md"
       - !ENV [NAV_INTERNET_BROWSING, "Internet Browsing"]:
           - "tor.md"
           - "desktop-browsers.md"
