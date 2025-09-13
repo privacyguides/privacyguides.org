@@ -195,7 +195,7 @@ Tool recommendations in other categories of the website also provide a self-host
 
     ---
 
-    [:octicons-home-16: Homepage](https://libretranslate.com){ .md-button .md-button--primary }
+    [:octicons-home-16:](https://libretranslate.com){ .card-link title="Homepage" }
     [:octicons-info-16:](https://docs.libretranslate.com){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/LibreTranslate/LibreTranslate){ .card-link title="Source Code" }
 
