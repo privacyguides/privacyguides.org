@@ -205,13 +205,13 @@ If you're looking for added **security**, you should always ensure you're connec
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
 
-- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji } **Mailbox.org**
+- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg#only-light){ .lg .middle .twemoji }![Mailbox Mail logo](assets/img/email/mailbox-mail-dark.svg#only-dark){ .lg .middle .twemoji } **Mailbox Mail**
 
     ---
 
-    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with up to 2 GB storage, which can be upgraded as needed.
+    Mailbox Mail is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox Mail is based in Berlin, Germany. Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
-    [Read Full Review :material-arrow-right-drop-circle:](email.md#mailboxorg)
+    [Read Full Review :material-arrow-right-drop-circle:](email.md#mailbox-mail)
 
 - ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
 
