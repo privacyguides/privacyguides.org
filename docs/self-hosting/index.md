@@ -191,6 +191,14 @@ Tool recommendations in other categories of the website also provide a self-host
     [:octicons-info-16:](https://github.com/timvisee/send/blob/master/docs/deployment.md){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
 
+- ![LibreTranslate logo](../assets/img/language-tools/libretranslate.png){ .twemoji } [**LibreTranslate**](../language-tools.md#libretranslate)
+
+    ---
+
+    [:octicons-home-16: Homepage](https://libretranslate.com){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.libretranslate.com){ .card-link title="Admin Documentation" }
+    [:octicons-code-16:](https://github.com/LibreTranslate/LibreTranslate){ .card-link title="Source Code" }
+
 - ![Miniflux logo](../assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](../assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [**Miniflux**](../news-aggregators.md#miniflux)
 
     ---
