@@ -28,6 +28,9 @@ edit_uri_template: blob/main/blog/{path}?plain=1
 
 extra:
   scope: /
+  ghost:
+    data_host: https://www.privacyguides.org/.ghost/analytics/api/v1/page_hit
+    tb_site_uuid: 5f3bdb03-a1af-4844-85ca-cbc82c89eb9a
   privacy_guides:
     footer:
       intro:

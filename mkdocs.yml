@@ -38,6 +38,9 @@ extra:
   context: !ENV [BUILD_CONTEXT, "production"]
   offline: !ENV [BUILD_OFFLINE, false]
   deploy: !ENV DEPLOY_ID
+  ghost:
+    data_host: https://www.privacyguides.org/.ghost/analytics/api/v1/page_hit
+    tb_site_uuid: 5f3bdb03-a1af-4844-85ca-cbc82c89eb9a
   privacy_guides:
     footer:
       intro:
