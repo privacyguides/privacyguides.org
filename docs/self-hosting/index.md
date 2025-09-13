@@ -12,6 +12,17 @@ cover: router.webp
 
 Self-hosting your own solutions requires advanced technical knowledge and a deep understanding of the associated risks. By becoming the host for yourself and possibly others, you take on responsibilities you might not otherwise have. Self-hosting privacy software improperly can leave you worse off than using e.g. an end-to-end encrypted service provider, so it is best avoided if you are not already comfortable doing so.
 
+## :material-dns: DNS Filtering
+
+<div class="grid cards" markdown>
+
+- ![AdGuard Home logo](../assets/img/self-hosting/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns-filtering.md#adguard-home)
+- ![Pi-Hole logo](../assets/img/self-hosting/pi-hole.svg){ .twemoji loading=lazy } [Pi-Hole](dns-filtering.md#pi-hole)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](dns-filtering.md)
+
 ## :material-email: Email Servers
 
 <div class="grid cards" markdown>
@@ -24,16 +35,17 @@ Self-hosting your own solutions requires advanced technical knowledge and a deep
 
 [Learn more :material-arrow-right-drop-circle:](email-servers.md)
 
-## :material-dns: DNS Filtering
+## :material-file-multiple-outline: File Management
 
 <div class="grid cards" markdown>
 
-- ![AdGuard Home logo](../assets/img/self-hosting/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns-filtering.md#adguard-home)
-- ![Pi-Hole logo](../assets/img/self-hosting/pi-hole.svg){ .twemoji loading=lazy } [Pi-Hole](dns-filtering.md#pi-hole)
+- ![PhotoPrism logo](../assets/img/self-hosting/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](file-management.md#photoprism)
+- ![FreedomBox logo](../assets/img/self-hosting/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-management.md#freedombox)
+- ![Nextcloud logo](../assets/img/self-hosting/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud](file-management.md#nextcloud)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](dns-filtering.md)
+[Learn more :material-arrow-right-drop-circle:](file-management.md)
 
 ## :material-form-textbox-password: Password Management
 
@@ -131,6 +143,14 @@ Tool recommendations in other categories of the website also provide a self-host
 
 <div class="grid cards" markdown>
 
+- ![Peergos logo](../assets/img/cloud/peergos.svg){ .twemoji } [**Peergos**](../cloud.md#peergos)
+
+    ---
+
+    [:octicons-home-16:](https://peergos.org){ .card-link title="Homepage" }
+    [:octicons-info-16:](https://github.com/peergos/peergos#usage---running-locally-to-log-in-to-another-instance){ .card-link title="Admin Documentation" }
+    [:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Source Code" }
+
 - ![Addy.io logo](../assets/img/email-aliasing/addy.svg){ .twemoji } [**Addy.io**](../email-aliasing.md#addyio)
 
     ---
@@ -147,6 +167,14 @@ Tool recommendations in other categories of the website also provide a self-host
     [:octicons-info-16:](https://github.com/simple-login/app#prerequisites){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
 
+- ![Ente logo](../assets/img/photo-management/ente.svg){ .twemoji } [**Ente Photos**](../photo-management.md#ente-photos)
+
+    ---
+
+    [:octicons-home-16:](https://ente.io){ .card-link title="Homepage" }
+    [:octicons-info-16:](https://help.ente.io/self-hosting){ .card-link title="Admin Documentation" }
+    [:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
+
 - ![CryptPad logo](../assets/img/document-collaboration/cryptpad.svg){ .twemoji } [**CryptPad**](../document-collaboration.md#cryptpad)
 
     ---
@@ -154,6 +182,22 @@ Tool recommendations in other categories of the website also provide a self-host
     [:octicons-home-16:](https://cryptpad.fr){ .card-link title="Homepage" }
     [:octicons-info-16:](https://docs.cryptpad.org/en/admin_guide/index.html){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
+
+- ![Send logo](../assets/img/file-sharing-sync/send.svg){ .twemoji } [**Send**](../file-sharing.md#send)
+
+    ---
+
+    [:octicons-home-16:](https://send.vis.ee){ .card-link title="Homepage" }
+    [:octicons-info-16:](https://github.com/timvisee/send/blob/master/docs/deployment.md){ .card-link title="Admin Documentation" }
+    [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
+
+- ![LibreTranslate logo](../assets/img/language-tools/libretranslate.png){ .twemoji } [**LibreTranslate**](../language-tools.md#libretranslate)
+
+    ---
+
+    [:octicons-home-16:](https://libretranslate.com){ .card-link title="Homepage" }
+    [:octicons-info-16:](https://docs.libretranslate.com){ .card-link title="Admin Documentation" }
+    [:octicons-code-16:](https://github.com/LibreTranslate/LibreTranslate){ .card-link title="Source Code" }
 
 - ![Miniflux logo](../assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](../assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [**Miniflux**](../news-aggregators.md#miniflux)
 
