@@ -33,6 +33,7 @@ edit_uri_template:
 
 extra:
   scope: /
+  homepage: /
   generator: false
   context: !ENV [BUILD_CONTEXT, "production"]
   offline: !ENV [BUILD_OFFLINE, false]

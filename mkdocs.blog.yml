@@ -48,7 +48,7 @@ extra:
         - fontawesome/brands/creative-commons
         - fontawesome/brands/creative-commons-by
         - fontawesome/brands/creative-commons-sa
-  homepage: !ENV [MAIN_SITE_BASE_URL, "https://www.privacyguides.org/en/"]
+  homepage: /
   generator: false
   context: !ENV [BUILD_CONTEXT, "production"]
   offline: !ENV [BUILD_OFFLINE, false]
