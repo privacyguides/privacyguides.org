@@ -405,8 +405,9 @@ nav:
       - "tools.md"
       - !ENV [NAV_SELF_HOSTING, "Self-Hosting"]:
           - "self-hosting/index.md"
-          - "self-hosting/email-servers.md"
           - "self-hosting/dns-filtering.md"
+          - "self-hosting/email-servers.md"
+          - "self-hosting/file-management.md"
       - !ENV [NAV_INTERNET_BROWSING, "Internet Browsing"]:
           - "tor.md"
           - "desktop-browsers.md"
