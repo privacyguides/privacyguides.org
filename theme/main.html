@@ -88,9 +88,26 @@
   {% endif %}
 
   {% if config.extra.context == "production" %}
-  <link href="https://www.privacyguides.org/webmentions/receive/" rel="webmention">
-  <meta http-equiv="onion-location" content="{{ page.canonical_url | replace("https://www.privacyguides.org", "http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion") }}" />
+
+    <link href="https://www.privacyguides.org/webmentions/receive/" rel="webmention">
+    <meta http-equiv="onion-location" content="{{ page.canonical_url | replace("https://www.privacyguides.org", "http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion") }}" />
+
+    {% if config.theme.language == "en" %}
+      <script defer src="/public/ghost-stats.min.js?v=8037af1487"
+              data-stringify-payload="false"
+              data-datasource="analytics_events"
+              data-storage="localStorage"
+              data-host="{{ config.extra.ghost.data_host }}"
+              tb_site_uuid="{{ config.extra.ghost.tb_site_uuid }}"
+              tb_post_uuid="undefined"
+              tb_post_type="null"
+              tb_member_uuid="undefined"
+              tb_member_status="undefined">
+      </script>
+    {% endif %}
+
   {% endif %}
+
   {% if page and page.meta and page.meta.schema %}
   <script type="application/ld+json">
   {{ page.meta.schema|tojson }}

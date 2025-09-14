@@ -33,10 +33,14 @@ edit_uri_template:
 
 extra:
   scope: /
+  homepage: /
   generator: false
   context: !ENV [BUILD_CONTEXT, "production"]
   offline: !ENV [BUILD_OFFLINE, false]
   deploy: !ENV DEPLOY_ID
+  ghost:
+    data_host: https://www.privacyguides.org/.ghost/analytics/api/v1/page_hit
+    tb_site_uuid: 5f3bdb03-a1af-4844-85ca-cbc82c89eb9a
   privacy_guides:
     footer:
       intro:
@@ -209,10 +213,14 @@ extra:
       link: /nl/
       lang: nl
       icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1f3-1f1f1.svg
-    - name: 正體中文
+    - name: 中文 (繁體)
       link: /zh-hant/
       lang: zh-Hant
-      icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1ed-1f1f0.svg
+      icon: https://raw.githubusercontent.com/jdecked/twemoji/master/assets/svg/1f1ed-1f1f0.svg
+    - name: 中文 (繁體，台灣)
+      link: /zh-TW/
+      lang: zh-TW
+      icon: https://raw.githubusercontent.com/jdecked/twemoji/master/assets/svg/1f1f9-1f1fc.svg
     - name: Русский
       link: /ru/
       lang: ru
