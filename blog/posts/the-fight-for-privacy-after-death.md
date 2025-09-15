@@ -1,6 +1,6 @@
 ---
 date:
-  created: 2025-09-04T20:00:00Z
+  created: 2025-09-16T18:00:00Z
 categories:
   - Opinion
 authors:
@@ -10,7 +10,7 @@ schema_type: OpinionNewsArticle
 ---
 # Ghosts in the Machine: The Fight for Privacy After Death
 
-In the early hours of 6 June 2020, Nicole Smallman and her sister Bibaa had just finished celebrating Bibaa’s birthday with friends in a park in London. Alone and in the dark, they were [fatally and repeatedly stabbed](https://en.wikipedia.org/wiki/Murders_of_Bibaa_Henry_and_Nicole_Smallman) 36 times.
+In the early hours of 6 June 2020, Nicole Smallman and her sister Bibaa had just finished celebrating Bibaa’s birthday with friends in a park in London. Alone and in the dark, they were [fatally and repeatedly stabbed](https://en.wikipedia.org/wiki/Murders_of_Bibaa_Henry_and_Nicole_Smallman) 36 times.<!-- more -->
 
 But the police didn’t just fail them in life – they failed them in death too. PC Deniz Jaffer and PC Jamie Lewis, both of the Metropolitan Police, [took selfies](https://www.theguardian.com/uk-news/2021/dec/06/two-met-police-officers-jailed-photos-murdered-sisters-deniz-jaffer-jamie-lewis-nicole-smallman-bibaa-henry) with the dead bodies of the victims, posting them on a WhatsApp group. And no privacy laws prevented them from doing so.
 
