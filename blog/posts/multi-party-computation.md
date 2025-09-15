@@ -24,6 +24,8 @@ In a seminal [paper](https://dspace.mit.edu/bitstream/handle/1721.1/148953/MIT-L
 
 To explain, fan favorites Alice and Bob will make a return. First, Bob encrypts all the cards with his key, then sends them to Alice. Alice picks five to deal back to Bob as his hand, then encrypts five with her own key and sends those to Bob as well. Bob removes his encryption from all ten cards and sends Alice's cards back to her.
 
+<div style="position: relative; padding-top: 56.25%;"><iframe title="Mental Poker Animation" width="100%" height="100%" src="https://neat.tube/videos/embed/k5jMvrTPLx5VcgzNq3ej1B?title=0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe></div>
+
 Notice that Bob needs to be able to remove his encryption *after* Alice has applied hers. This commutative property is important for the scheme to work.
 
 This early scheme is highly specialized for this task and not applicable to different situations.
