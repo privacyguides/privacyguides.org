@@ -37,11 +37,11 @@ Luckily, we can use MPC to solve this "Millionaire's Problem" this using a metho
 
 ### Garbled Circuits
 
-We can split the two parties into an "Evaluator" and a "Generator". The Generator will be responsible for setting up the cryptography that'll be used and the Evaluator will actually perform the computation.
+We can split the two parties into an "Evaluator" and a "Generator". The Generator will be responsible for setting up the cryptography that'll be used, and the Evaluator will actually perform the computation.
 
-We start by making the truth table for our inputs. In order to hide the values of the truth table, we assign each input a different label. Importantly, we need to assign a different label for each input, so 1 will not be represented by the same label for each. We also need to shuffle the order of the rows so the values can't be inferred from that.
+We start by making the truth table for our inputs. In order to hide the values of the truth table, we assign each input a different label. Importantly, we need to assign a different label for each input, so 1 will not be represented by the same label for each. We also need to shuffle the order of the rows, so the values can't be inferred from that.
 
-We can still tell what the value is based on knowing the type of logic gate, for example an `AND` gate would only have one different output, so you could infer that output is 1 and the others are 0. To fix this, we can encrypt the rows using the input labels as keys, so only the correct output can be decrypted.
+We can still tell what the value is based on knowing the type of logic gate. For example, an `AND` gate would only have one different output, so you could infer that output is 1 and the others are 0. To fix this, we can encrypt the rows using the input labels as keys, so only the correct output can be decrypted.
 
 We still have a problem, though: how can the Evaluator put in their inputs? Asking for both labels would allow them to decrypt more than one output, and giving their input would break the whole point. The solution is something called "Oblivious Transfer".
 
@@ -59,7 +59,7 @@ Yao's protocol was limited to two parties. The GMW paradigm expanded the protoco
 
 #### Secret Sharing
 
-The GMW paradigm relies on secret sharing which is a method of splitting private information like a cryptographic key into multiple parts such that it will only reveal the secret if the shares are combined together. The GMW protocol uses additive secret sharing, which is quite simple. You come up with a secret number, say 123, and you split it up into however many other numbers you want.
+The GMW paradigm relies on secret sharing which is a method of splitting private information like a cryptographic key into multiple parts such that it will only reveal the secret if the shares are combined. The GMW protocol uses additive secret sharing, which is quite simple. You come up with a secret number, say 123, and you split it up into however many other numbers you want.
 
 `99 + 24 = 123`
 
@@ -69,7 +69,7 @@ You distribute each number to a participant and add them all together to get the
 
 The GMW paradigm introduced protections against malicious adversaries, powered by zero-knowledge proofs (ZKP). ZKP allow one party to convince another party a statement is true without revealing any other information than the fact that the statement is true. The concept of ZKP was first introduced in a [paper](https://dl.acm.org/doi/pdf/10.1145/22145.22178) from 1985 by Shafi Goldwasser, Silvio Micali, and Charles Rackoff.
 
-A slightly humorous paper called *[How to Explan Zero-Knowledge Protocols to Your Children](https://pages.cs.wisc.edu/~mkowalcz/628.pdf)* gives a storybook explanation of how they work (who says academic papers can't be fun?).
+A humorous paper titled *[How to Explain Zero-Knowledge Protocols to Your Children](https://pages.cs.wisc.edu/~mkowalcz/628.pdf)* gives a storybook explanation of how they work (who says academic papers can't be fun?).
 
 The main crux revolves around probability: if a party knows the proper way to get a result, they should be able to reliably get the correct answer.
 
@@ -145,7 +145,7 @@ The experiment was considered a success, with a recommendation from the U.S. Com
 
 Today, the [MPC Alliance](https://www.mpcalliance.org) represents a collective of companies that have come together to advance the use of MPC.
 
-MPC is used for everything from [cryptocurrency](https://www.coinbase.com/learn/wallet/what-is-a-multi-party-computation-mpc-wallet) to HIPAA-compliant [medical](https://pmc.ncbi.nlm.nih.gov/articles/PMC6658266/) uses. There are ongoing efforts to [standardize](https://csrc.nist.gov/projects/threshold-cryptography) it from organizations like NIST, although it's a difficult proposition due to the sheer variation in MPC protocols and usecases.
+MPC is used for everything from [cryptocurrency](https://www.coinbase.com/learn/wallet/what-is-a-multi-party-computation-mpc-wallet) to HIPAA-compliant [medical](https://pmc.ncbi.nlm.nih.gov/articles/PMC6658266/) uses. There are ongoing efforts to [standardize](https://csrc.nist.gov/projects/threshold-cryptography) it from organizations like NIST, although it's a difficult proposition due to the sheer variation in MPC protocols and use cases.
 
 There's been research into using MPC for secure and [verifiably fair](https://eprint.iacr.org/2014/075.pdf) [electronic voting](https://arxiv.org/html/2205.10580v4), something that's much needed as countries move toward [electronic voting](https://worldpopulationreview.com/country-rankings/electronic-voting-by-country). It's important to not completely dismiss the march of technology, but these things should be implemented with the utmost caution and scientific rigor. I feel that implementing black-box electronic voting without open and provably secure technologies like MPC is irresponsible and endangers elections.
 
