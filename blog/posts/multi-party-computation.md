@@ -32,7 +32,7 @@ This early scheme is highly specialized for this task and not applicable to diff
 
 Alice and Bob have struck it rich! They're both millionaires, but they want to be able to see who has more money without revealing exactly how much they have to each other.
 
-Luckily, we can use **Multi-Party Computation** (**MPC**) to solve this "Millionaire's Problem," using a method invented by Andrew Yao called *garbled circuits*. Garbled circuits allow us to use MPC for any problem as long as it can be represented as a boolean circuit i.e. a set of logic gates such as `AND` `OR` `XOR` etc.
+Luckily, we can use **Multi-Party Computation** (**MPC**) to solve this "Millionaire's Problem," using a method invented by Andrew Yao called *garbled circuits*. Garbled circuits allow us to use MPC for any problem as long as it can be represented as a boolean circuit, i.e. a set of logic gates such as `AND` `OR` `XOR` etc.
 
 ### Garbled Circuits
 
