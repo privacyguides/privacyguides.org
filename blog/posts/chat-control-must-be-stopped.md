@@ -1,7 +1,7 @@
 ---
 date:
     created: 2025-09-08T18:00:00Z
-    updated: 2025-09-15T18:00:00Z
+    updated: 2025-09-15T16:30:00Z
 categories:
     - News
 authors:
@@ -43,7 +43,6 @@ Regardless of the outcome on September 12th, the fight isn't over. The next dead
 If you've missed September 12th, make sure to contact your representatives **right now** to tell them to **oppose Chat Control** on October 14th.
 
 </div>
-
 
 - ==If you are not located in Europe==: Keep reading, this will affect you too.
 
@@ -307,9 +306,8 @@ We need your help to fight this. For democracy, for privacy, and for all other h
 
 - [Follow **Fight Chat Control** on Mastodon for updates](https://mastodon.social/@chatcontrol)
 
+---
 
-<small aria-hidden="true">
-Update (9/8): Added clarification about what Chat Control is for readers unfamiliar with it.
-<br>
-Update (9/15): Added modifications related to the second important deadline for action, on October 14th.
-</small>
+**Update (9/15):** Added modifications related to the second important deadline for action, on October 14th.
+
+**Update (9/8):** Added clarification about what Chat Control is for readers unfamiliar with it.
