@@ -340,7 +340,6 @@ A VPN is pointless if it can't even provide adequate security. We require all ou
 
 - Strongest Encryption: RSA-4096.
 - Optional quantum-resistant encryption.
-- Forward Secrecy.
 - Comprehensive published security audits from a reputable third-party firm.
 - Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
 - RAM-only VPN servers.
