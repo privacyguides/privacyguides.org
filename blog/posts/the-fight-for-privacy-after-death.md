@@ -4,7 +4,7 @@ date:
 categories:
   - Opinion
 authors:
-  - aprilfools
+  - ptrmdn
 description: In 2020, London police failed to save two sisters in life, then violated their privacy in death. This is a call to arms for posthumous privacy rights.
 schema_type: OpinionNewsArticle
 ---
