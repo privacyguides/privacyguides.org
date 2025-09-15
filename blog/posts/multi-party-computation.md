@@ -1,24 +1,23 @@
 ---
 date:
-    created: 2025-07-01T17:30:00Z
+    created: 2025-09-15T17:30:00Z
 categories:
     - Explainers
 authors:
     - fria
 tags:
-    - Multi-Party Computation
     - Privacy Enhancing Technologies
-license: BY-SA
+    - Multi-Party Computation
 schema_type: BackgroundNewsArticle
 description: Learn about Secure Multi-Party Computation and how it can be used to solve real-world privacy problems.
 ---
-# Privacy-Enhancing Technologies Series: Multi-Party Computation
+# What is Multi-Party Computation?
 
 ![An image of a lock and multiple keys going toward it to unlock it](../assets/images/multi-party-computation/cover.webp)
 
 <small aria-hidden="true">Illustration: Jordan Warne / Privacy Guides</small>
 
-We know how to secure data in storage using E2EE, but is it possible to ensure data privacy even while processing it server-side? This is the first in a series of articles I'll be writing covering the privacy-enhancing technologies being rolled out.<!-- more -->
+We know how to secure data in storage using E2EE, but is it possible to ensure data privacy even while processing it server-side? This is the first in a [series](../tags.md/#tag:privacy-enhancing-technologies) of articles I'll be writing covering the privacy-enhancing technologies being rolled out.<!-- more -->
 
 ## History
 
@@ -56,7 +55,7 @@ Multi-Party Computation was solidified with the [research](https://dl.acm.org/do
 
 #### More Than Two Parties
 
-Yao's protocol was limited to two parties. The GMW paradigm expanded the protocol to be able to handle any number of parties and can handle actively malicious actors as long as the majority are honest. 
+Yao's protocol was limited to two parties. The GMW paradigm expanded the protocol to be able to handle any number of parties and can handle actively malicious actors as long as the majority are honest.
 
 #### Secret Sharing
 
