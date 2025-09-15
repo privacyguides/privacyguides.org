@@ -7,7 +7,6 @@ authors:
     - fria
 tags:
     - Privacy Enhancing Technologies
-    - Multi-Party Computation
 schema_type: BackgroundNewsArticle
 description: Learn about Secure Multi-Party Computation and how it can be used to solve real-world privacy problems.
 ---
