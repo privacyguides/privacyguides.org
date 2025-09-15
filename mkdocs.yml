@@ -32,10 +32,17 @@ edit_uri_template:
   !ENV [BUILD_EDIT_URI_TEMPLATE, "blob/main/docs/{path}?plain=1"]
 
 extra:
+  scope: /
+  homepage: /
   generator: false
   context: !ENV [BUILD_CONTEXT, "production"]
   offline: !ENV [BUILD_OFFLINE, false]
   deploy: !ENV DEPLOY_ID
+  ghost:
+    base_url: https://www.privacyguides.org
+    admin_url: https://ghost.privacyguides.org/ghost
+    tb_site_uuid: 5f3bdb03-a1af-4844-85ca-cbc82c89eb9a
+    content_api_key: da9d77deb3e85ee73925167f3a
   privacy_guides:
     footer:
       intro:
@@ -122,10 +129,10 @@ extra:
               link: https://matrix.to/#/#privacyguides:matrix.org
             - icon: material/information-outline
               name: !ENV [HOMEPAGE_CTA_ABOUT_NAME, "Learn more about us"]
-              link: about/
+              link: !ENV [HOMEPAGE_CTA_ABOUT_LINK, "about/"]
             - icon: material/hand-coin
               name: !ENV [HOMEPAGE_CTA_DONATE_NAME, "Donate to Privacy Guides"]
-              link: about/donate/
+              link: !ENV [HOMEPAGE_CTA_DONATE_LINK, "about/donate/"]
           description:
             !ENV [
               HOMEPAGE_CTA_DESCRIPTION,
@@ -182,6 +189,7 @@ extra:
     - icon: simple/torbrowser
       link: http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/
       name: !ENV [SOCIAL_TOR_SITE, "Hidden service"]
+  language_switcher: !ENV [LANGUAGE_SWITCHER, true]
   alternate:
     - name: English
       link: /en/
@@ -207,10 +215,14 @@ extra:
       link: /nl/
       lang: nl
       icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1f3-1f1f1.svg
-    - name: 正體中文
+    - name: 中文 (繁體)
       link: /zh-hant/
       lang: zh-Hant
-      icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1ed-1f1f0.svg
+      icon: https://raw.githubusercontent.com/jdecked/twemoji/master/assets/svg/1f1ed-1f1f0.svg
+    - name: 中文 (繁體，台灣)
+      link: /zh-TW/
+      lang: zh-TW
+      icon: https://raw.githubusercontent.com/jdecked/twemoji/master/assets/svg/1f1f9-1f1fc.svg
     - name: Русский
       link: /ru/
       lang: ru
@@ -281,7 +293,7 @@ theme:
     - search.highlight
 
 extra_css:
-  - assets/stylesheets/extra.css?v=20250306
+  - assets/stylesheets/extra.css?v=20250723
 extra_javascript:
   - path: assets/javascripts/randomize-element.js?v=20250306
     defer: true
@@ -316,8 +328,6 @@ plugins:
           - index.md
         fallback_to_build_date: true
         enable_creation_date: true
-      optimize:
-        enabled: !ENV [OPTIMIZE, PRODUCTION, NETLIFY, false]
       typeset: {}
       social:
         cards: !ENV [CARDS, true]
@@ -395,7 +405,9 @@ nav:
       - "tools.md"
       - !ENV [NAV_SELF_HOSTING, "Self-Hosting"]:
           - "self-hosting/index.md"
+          - "self-hosting/dns-filtering.md"
           - "self-hosting/email-servers.md"
+          - "self-hosting/file-management.md"
       - !ENV [NAV_INTERNET_BROWSING, "Internet Browsing"]:
           - "tor.md"
           - "desktop-browsers.md"

@@ -19,7 +19,7 @@ schema:
 
 **Privacy Guides** is a socially motivated website that provides information for protecting your data security and privacy. We are a non-profit project with a mission to inform the public about the value of digital privacy, and about global government initiatives which aim to monitor your online activity. Our website is free of advertisements and not affiliated with any of the listed providers.
 
-[:material-heart:{.pg-red} Make a Donation](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary }
+[:material-heart:{.pg-red} Become a Member](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary data-portal="signup" }
 [:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Homepage }
 [:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
 
@@ -37,7 +37,7 @@ The best way to get individual help is from our community on Discourse. If you n
 
 ![Signal contact QR code](assets/img/layout/signal-contact-qr.png){ align=right }
 
-Have a tip for us, or need to share some sensitive information? The best way to get in touch with us securely is via `@privacyguides.01` on Signal. This group account is monitored by [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/ematprivacyguides), and [Jordan](https://discuss.privacyguides.net/u/jordan).
+Have a tip for us, or need to share some sensitive information? The best way to get in touch with us securely is via `@privacyguides.01` on Signal. This group account is monitored by [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/em), and [Jordan](https://discuss.privacyguides.net/u/jordan).
 
 [:simple-signal: Chat on Signal](https://signal.me/#eu/zg9xcrIv5w-EtXt2FmTJgfWv01LmyTed8rpr7RDv35Mizq8ISZ9NJLmYtzsxI0Z4){ .md-button }
 
@@ -130,7 +130,7 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
 
     :material-text-account: Journalist
 
-    [:material-account: Profile](https://discuss.privacyguides.net/u/ematprivacyguides)
+    [:material-account: Profile](https://discuss.privacyguides.net/u/em)
 
     [:material-github:](https://github.com/EmAtPrivacyGuides "GitHub")
     [:material-mastodon:](https://infosec.exchange/@Em0nM4stodon "@Em0nM4stodon@infosec.exchange"){rel=me}
@@ -182,6 +182,7 @@ However, Privacy Guides *does* have social media accounts on a wide variety of p
 - [:simple-reddit: Reddit](https://reddit.com/r/PrivacyGuides)
 - [:simple-x: X (Twitter)](https://x.com/privacy_guides)
 - [:simple-youtube: YouTube](https://youtube.com/@privacyguides)
+- [:simple-tiktok: TikTok](https://www.tiktok.com/@privacyguides)
 
 </div>
 

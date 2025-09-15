@@ -5,8 +5,11 @@ description: The charitable mission of Privacy Guides relies on contributions fr
 <!-- markdownlint-disable MD036 -->
 Support our mission to defend digital rights and spread the word about mass surveillance programs and other daily privacy invasions. You can help Privacy Guides researchers, activists, and maintainers create informative content, host private digital services, and protect privacy rights at a time when the world needs it most.
 
-[:material-heart:{ .pg-red } Become a Member](https://donate.magicgrants.org/privacyguides/membership){ class="md-button md-button--primary" }
-[:material-hand-coin: Make a Donation](https://donate.magicgrants.org/privacyguides/donate/privacyguides){ class="md-button md-button--primary" }
+<!-- markdownlint-disable-next-line -->
+[:material-heart:{ .pg-red } Become a Member](https://donate.magicgrants.org/privacyguides/membership){ class="md-button md-button--primary" data-portal="signup" }
+
+[Become a Member (Cryptocurrency)](https://donate.magicgrants.org/privacyguides/membership){ class="md-button" }
+[One-Time Donation](https://donate.magicgrants.org/privacyguides/donate/privacyguides){ class="md-button" }
 
 <small markdown>
 

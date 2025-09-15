@@ -8,11 +8,12 @@ authors:
 tags:
     - AI
     - Content Credentials
+preview:
+  cover: blog/assets/images/digital-provenance/cover.jpg
 ---
 # The Power of Digital Provenance in the Age of AI
 
 ![Article cover showing a painterly background with cool colors and the Content Credentials logo](../assets/images/digital-provenance/cover.jpg)
-
 <small aria-hidden="true">Photo: Kseniya Lapteva / Pexels | Logo: Content Credentials</small>
 
 With the popularity of generative AI, it's becoming more and more difficult to [distinguish](https://uwaterloo.ca/news/media/can-you-tell-ai-generated-people-real-ones) reality from fiction. Can this problem be solved using cryptography? What are the privacy implications of the currently proposed systems?<!-- more -->
