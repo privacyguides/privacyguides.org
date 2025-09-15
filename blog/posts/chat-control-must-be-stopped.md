@@ -1,12 +1,13 @@
 ---
 date:
     created: 2025-09-08T18:00:00Z
+    updated: 2025-09-15T16:30:00Z
 categories:
     - News
 authors:
     - em
 description:
-    Chat Control is back to undermine everyone's privacy. There's an important deadline this Friday on September 12th. We must act now to stop it!
+    Chat Control is back to undermine everyone's privacy. There's an important deadline on October 14th, 2025. We must act now to stop it!
 schema_type: ReportageNewsArticle
 preview:
   cover: blog/assets/images/chat-control-must-be-stopped/chatcontrol-cover.webp
@@ -18,7 +19,7 @@ preview:
 
 <small aria-hidden="true">Illustration: Em / Privacy Guides | Photo: Ramaz Bluashvili / Pexels</small>
 
-If you've heard of [Chat Control](the-future-of-privacy.md) already, bad news: **it's back**. If you haven't, this is a pressing issue you should urgently learn more about if you value privacy, democracy, and human rights. This is happening **this week**, and **we must act to stop it right now**.<!-- more -->
+If you've heard of [Chat Control](the-future-of-privacy.md) already, bad news: **it's back**. If you haven't, this is a pressing issue you should urgently learn more about if you value privacy, democracy, and human rights. This is happening **right now**, and **we must act to stop it right now**.<!-- more -->
 
 Take a minute to visualize this: Every morning you wake up with a police officer entering your home to inspect it, and staying with you all day long.
 
@@ -32,7 +33,16 @@ This is an Orwellian nightmare.
 
 ## Act now!
 
-This is happening **this week**. European governments will be finalizing their positions on the regulation proposal on **Friday, September 12th, 2025**.
+This is happening **right now**. European governments will be finalizing their positions on the regulation proposal on September 12th, and there will be a final vote on **October 14th, 2025**.
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Important: If you are reading this article after September 12th</p>
+
+Regardless of the outcome on September 12th, the fight isn't over. The next deadline will be the **final vote on October 14th, 2025**.
+
+If you've missed September 12th, make sure to contact your representatives **right now** to tell them to **oppose Chat Control** on October 14th.
+
+</div>
 
 - ==If you are not located in Europe==: Keep reading, this will affect you too.
 
@@ -41,11 +51,11 @@ This is happening **this week**. European governments will be finalizing their p
 - If you are located in Europe: You must **act now** to stop it.
 
 <div class="admonition question" markdown>
-<p class="admonition-title">How to stop this? Contact your MEPs before September 12th</p>
+<p class="admonition-title">How to stop this? Contact your MEPs today</p>
 
-Use this [**website**](https://fightchatcontrol.eu/) to easily contact your government representatives before September 12th, and tell them they should **oppose Chat Control**. Even if your country already opposes Chat Control, contact your representatives to tell them you are relieved they oppose, and support them in this decision to protect human rights. This will help reinforce their position.
+Use this [**website**](https://fightchatcontrol.eu/) to easily contact your government representatives, and tell them they should **oppose Chat Control**. Even if your country already opposes Chat Control, contact your representatives to tell them you are relieved they oppose, and support them in this decision to protect human rights. This will help reinforce their position.
 
-But if your country *supports* Chat Control, or is *undecided*, **it is vital that you contact your representatives before this deadline**. To support your point, you can share this article with them or one of the many great [resources](#resources-to-learn-more-and-fight-for-human-rights) listed at the end.
+But if your country *supports* Chat Control, or is *undecided*, **it is vital that you contact your representatives as soon as possible**. To support your point, you can share this article with them or one of the many great [resources](#resources-to-learn-more-and-fight-for-human-rights) listed at the end.
 
 At the time of this writing, the list of countries to contact is:
 
@@ -144,11 +154,11 @@ There are many things we can do as a society to increase protections for childre
 
 ### Mislabelling children as criminals
 
-First, this automated system is flawed in many ways, and the false-positive rate would likely be high. But let's imagine that, magically, the system could flag CSAM at an accuracy rate of 99%. This still means 1% of reports would be false. Expanded to the size of Europe Union's population of approximately 450 million people, exchanging likely billions of messages and files every day, this still means millions could be falsely tagged as sexual predators, with all the [consequences](https://www.republik.ch/2022/12/08/die-dunklen-schatten-der-chatkontrolle) this implies.
+First, this automated system is flawed in many ways, and the false-positive rate would likely be high. But let's imagine that, magically, the system could flag CSAM at an accuracy rate of 99%. This still means 1% of reports would be false. Expanded to the size of European Union's population of approximately 450 million people, exchanging likely billions of messages and files every day, this still means millions could be falsely tagged as sexual predators, with all the [consequences](https://www.republik.ch/2022/12/08/die-dunklen-schatten-der-chatkontrolle) this implies.
 
 Worse, the Swiss federal police reported that currently about 80% of all automated reports received were [false-positives](https://www.patrick-breyer.de/en/posts/chat-control/#WhatYouCanDo). This means in reality, the error rate is likely far higher than 1%, and actually closer to an **80% error rate**. Of the approximate 20% of positive reports, in Germany, over 40% of investigations initiated [targeted children](https://www.polizei-beratung.de/aktuelles/detailansicht/straftat-verbreitung-kinderpornografie-pks-2022/) themselves.
 
-Sometimes, flagged content is simply teenagers innocently sexting each other consensually. Not only would they be wrongly tagged as criminals under Chat Control, but they'd be triggering an investigation that would expose their intimate photos to others.
+Sometimes, flagged content is simply teenagers innocently sexting each other consensually. Not only would they be wrongly tagged as criminals under Chat Control, but they'd be triggering an investigation that would expose their intimate photos to some faceless officers or tech employees working on the system.
 
 Even in a magical world where Chat Control AI is 99% accurate, it would still wrongly tag and **expose sensitive data from millions of children**. In reality, no AI system is even remotely close to this accuracy level, and proprietary algorithms are usually opaque black boxes impossible to audit transparently. The number of children Chat Control would harm, and likely traumatize for life, would be disastrous.
 
@@ -243,7 +253,7 @@ Even if the landscape seems dismal, **the battle isn't over**. There are many th
 
 ### For Europeans, specifically
 
-- Contact your country representatives **TODAY**. Contact them before this Friday, September 12th, 2025. The group Fight Chat Control has put together an [**easy tool**](https://fightchatcontrol.eu/#contact-tool) making this quick with only a few clicks.
+- Contact your country representatives **TODAY**. The group Fight Chat Control has put together an [**easy tool**](https://fightchatcontrol.eu/#contact-tool) making this quick with only a few clicks.
 
 - After September 12th, the battle isn't over. Although governments will finalize their positions on that day, the final vote happens on **October 14th, 2025**. If you missed the September 12th deadline, keep contacting your representatives anyway.
 
@@ -251,7 +261,7 @@ Even if the landscape seems dismal, **the battle isn't over**. There are many th
 
 ### For Everyone, including Europeans
 
-- Talk about Chat Control on social media often, especially this week. Make noise online. Use the hashtags #ChatControl and #StopScanningMe to help others learn more about the opposition movement.
+- Talk about Chat Control on social media often, especially this month. Make noise online. Use the hashtags #ChatControl and #StopScanningMe to help others learn more about the opposition movement.
 
 - Share informative [videos and memes](#resources-to-learn-more-and-fight-for-human-rights) about Chat Control. Spread the word in various forms.
 
@@ -296,13 +306,8 @@ We need your help to fight this. For democracy, for privacy, and for all other h
 
 - [Follow **Fight Chat Control** on Mastodon for updates](https://mastodon.social/@chatcontrol)
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Important Note: If you are reading this article after September 12th</p>
+---
 
-Regardless of the outcome on Friday, the fight isn't over after September 12th. The next deadline will be the **final vote on October 14th, 2025**.
+**Update (9/15):** Added modifications related to the second important deadline for action, on October 14th.
 
-If you've missed September 12th, make sure to contact your representatives **right now** to tell them to **oppose Chat Control** on October 14th.
-
-</div>
-
-Update (9/8): Added clarification about what Chat Control is for readers unfamiliar with it.
+**Update (9/8):** Added clarification about what Chat Control is for readers unfamiliar with it.
