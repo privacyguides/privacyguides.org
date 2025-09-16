@@ -114,7 +114,7 @@ It is important to install **Software Updates** frequently to get the latest sec
 
 Select **Background App Refresh** and switch off any apps you don't want to continue refreshing in the background. If you don't want any apps to refresh in the background, you can select **Background App Refresh** again and turn it **Off**.
 
-#### Siri & Search
+#### Siri
 
 If you don't want anyone to be able to control your phone with Siri when it is locked, you can turn that off here.
 
