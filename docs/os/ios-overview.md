@@ -266,16 +266,16 @@ If you need to hide information in a photo, you can use Apple's built-in editing
 If your device supports it, you can use the [Clean Up](https://support.apple.com/en-us/121429) feature to pixelate faces or remove objects from images.
 
 - Open the **Photos** app and tap the photo you have selected for redaction
-- Tap the :material-tune: (at the bottom of the screen)
+- Tap the :material-tune:
 - Tap the button labeled **Clean Up**
 - Draw a circle around whatever you want to redact. Faces will be pixelated, and it will attempt to delete anything else.
 
 Our warning [against blurring text](../data-redaction.md) also applies here, so we recommend to instead add a black shape with 100% opacity over it. In addition to redacting text, you can also black out any face or object using the **Photos** app.
 
 - Tap the image you have selected for redaction
-- Tap the :material-tune: (at the bottom of the screen) → markup symbol (top right) → plus icon at the bottom right
+- Tap the :material-tune: → markup symbol → plus icon
 - Select **Add Shape** and choose the square or circle
-- On the toolbar, tap the circle (left-most option) and choose black as the color for filling in the shape. You can also move the shape and increase its size as you see fit.
+- On the toolbar, tap the circle and choose black as the color for filling in the shape. You can also move the shape and increase its size as you see fit.
 
 **Don't** use the highlighter to obfuscate information, as its opacity is not quite 100%.
 
