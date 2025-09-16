@@ -31,7 +31,7 @@ This horrific case is just one in the murky, often sinister realm of posthumous 
 
 Let’s take a step back. The case of the Smallmans starkly draws attention to the denial in death of guarantees to the living. Reading this blog, you are no doubt aware that the UK and Europe have firm privacy protections in *The General Data Protection Regulation* (GDPR) and Article 8 of the *European Convention on Human Rights* (ECHR). But the picture elsewhere is less clear, with a challenging patchwork of laws and regional statutes the only protection for those in the US and much of the rest of the world. And once you die? Almost universally, these protections [immediately cease](https://gdpr-info.eu/recitals/no-27/).
 
-Here the problem begins. This abrupt collapse in privacy rights leaves the deceased and their families, like the Smallman family, newly vulnerable—and at a time when they are already utterly broken.
+Here the problem begins. This abrupt collapse in privacy rights leaves the deceased and their families—like the Smallman family—newly vulnerable, and at a time when they are already utterly broken.
 
 In the absence of law comes the pursuit of it, against a backdrop of flagrant privacy violations. What this pursuit means, in practical terms, is that two primary categories of posthumous privacy dominate legal debate: the medical, where the law has intervened tentatively, and the digital, where it simply hasn’t kept up.
 
@@ -43,7 +43,7 @@ In lieu of any protections, surviving relatives in Europe have found some succes
 
 In one case, Leyla Polat, an Austrian national, suffered the awful death of her son just two days after birth following a cerebral hemorrhage. The family refused a post-mortem examination, wanting to bury their child in accordance with Muslim beliefs; but doctors insisted it take place, covertly removing his internal organs and filling the hollows with cotton wool. When this was discovered during the funeral rites, the boy had to be buried elsewhere, and without ceremony. After several court cases and appeals, The European Court of Human Rights [found](https://hudoc.echr.coe.int/rum#%7B%22itemid%22:%5B%22002-13361%22%5D%7D) that Leyla’s Article 8 and 9 rights had been violated.
 
-As an aside—Stalin’s grandson [tried the same Article 8 route](https://hudoc.echr.coe.int/eng#%7B%22itemid%22:%5B%22001-150568%22%5D%7D) in relation to reputational attacks on his grandfather, reflecting attempts to apply the workaround more widely.
+As an aside: Stalin’s grandson [tried the same Article 8 route](https://hudoc.echr.coe.int/eng#%7B%22itemid%22:%5B%22001-150568%22%5D%7D) in relation to reputational attacks on his grandfather, reflecting attempts to apply the workaround more widely.
 
 It’s not that there hasn’t been some progress. The fundamental problem is that protections—already sparse—are only as good as their material and geographic scopes, their interactions with other laws, and how they are interpreted in a court. Nowhere is this more apparent than in the case of the Smallman sisters. Judge Mark Lucraft KC [found](https://www.judiciary.uk/wp-content/uploads/2022/07/R-v-Jaffer-Lewis-sentencing-061221.pdf) that PCs Jaffer and Lewis, in taking selfies with the murdered victims, had:
 
@@ -53,11 +53,11 @@ Yet this acknowledgement of privacy violation is precisely just that. The crime 
 
 That does not leave your digital privacy in a good place. Whatever little protection you may be able to tease out for our medical privacy far, far exceeds the control you have over your virtual ghosts. And with AI just about everywhere, the prospects for your data after death are terrifying.
 
-We’ve already established that data protections for the living—such as GDPR—expire at death. The simple reality is that dying places your data at the mercy of large technology corporations - and their dubious afterlife tools.
+We’ve already established that data protections for the living—such as GDPR—expire at death. The simple reality is that dying places your data at the mercy of large technology corporations, and their dubious afterlife tools.
 
 Even if you trust such tools to dispose of or act on our data, there is a disconnect between demand and take-up. A [study of UK nationals](https://www.tandfonline.com/doi/full/10.1080/13600869.2025.2506164#abstract) found a majority that wanted their data deleted at death were unaware of the tools, with large tech companies unwilling to share any details on their uptake. Reassuring stuff.
 
-But the reality is, you shouldn’t. You’ll recall that [deletion doesn’t usually mean deletion](https://www.privacyguides.org/en/basics/account-deletion/)—and after death, even GDPR can’t force big tech to delete the data of those lucky enough to have benefited from it. Account deleted or not, our ghosts will all be stuck in the machine.
+But the reality is, you shouldn’t. You’ll recall that [deletion doesn’t usually mean deletion](https://www.privacyguides.org/en/basics/account-deletion/), and after death even GDPR can’t force big tech to delete the data of those lucky enough to have benefited from it. Account deleted or not, our ghosts will all be stuck in the machine.
 
 Recent reports have acknowledged dire possibilities. Almost worldwide, you can [legally train AI models on the data of a deceased person](https://www.reuters.com/article/world/data-of-the-dead-virtual-immortality-exposes-holes-in-privacy-laws-idUSKBN21Z0NE/) and recreate them in digital form—all without their prior consent. Organizations exist purely to scour your social media profiles and activity for this exact purpose. Your ghost could be used to generate engagement against your will, disclosing what you tried to hide.
 
@@ -67,7 +67,7 @@ There is cause for optimism. Article 85 of the *French Data Protection Act* allo
 
 But even more urgently, we must demand that governments across the world introduce even the most basic legal framework for post-mortem privacy that protects you, your family, and community from egregious harm.
 
-The Smallmans deserved dignity—and so does everyone else in death. The law must catch up.
+The Smallmans deserved dignity, and so does everyone else in death. The law must catch up.
 
 ---
 
