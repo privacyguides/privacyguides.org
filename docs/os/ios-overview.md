@@ -209,7 +209,7 @@ Disable **Personalized Ads** if you don't want targeted ads. Select **Apple Adve
 
 - [x] Select **Turn On App Privacy Report**
 
-[Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) is a security setting you can enable to make your phone more resistant to attacks. Be aware that certain apps and features [won't work](https://support.apple.com/HT212650) as they do normally.
+**[Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode)** is a security setting you can enable to make your phone more resistant to attacks. Be aware that certain apps and features [won't work](https://support.apple.com/HT212650) as they do normally.
 
 - [x] Select **Turn On Lockdown Mode**
 
@@ -223,7 +223,13 @@ Normal phone calls made with the Phone app through your carrier are not E2EE. Bo
 
 The [color of the message bubble](https://support.apple.com/en-us/104972) in the Messages app indicates whether your messages are E2EE or not. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates the other party is using either the outdated SMS and MMS protocols or RCS. RCS on iOS is **not** E2EE. Currently, the only way to have E2EE in Messages is for both parties to be using iMessage on Apple devices.
 
-If either you or your messaging partner have iCloud Backup enabled without Advanced Data Protection, the encryption key will be stored on Apple's servers, meaning they can access your messages. Additionally, iMessage's key exchange is not as secure as alternative implementations like Signal's (which allows you to view the recipients key and verify by QR code), so it shouldn't be relied on for particularly sensitive communications.
+If either you or your messaging partner have iCloud Backup enabled without Advanced Data Protection, the encryption key will be stored on Apple's servers, meaning they can access your messages.
+
+By default, you trust Apple's identity servers that you're messaging the right person. Enable **Contact Key Verification** to combat this. At the top of the settings screen where your name is, select it. Navigate to **Contact Key Verification**.
+
+- [x] Turn on **Verification in iMessage**
+
+Follow Apple's [instructions](https://support.apple.com/en-us/118246#verify) to verify your contacts (they also need to enable Contact Key Verification).
 
 ### Photo Permissions
 
