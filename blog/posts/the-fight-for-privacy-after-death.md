@@ -7,10 +7,23 @@ authors:
   - ptrmdn
 description: In 2020, London police failed to save two sisters in life, then violated their privacy in death. This is a call to arms for posthumous privacy rights.
 schema_type: OpinionNewsArticle
+preview:
+  cover: blog/assets/images/the-fight-for-privacy-after-death/cover.webp
 ---
 # Ghosts in the Machine: The Fight for Privacy After Death
 
+![](../assets/images/the-fight-for-privacy-after-death/cover.webp)
+
+<small aria-hidden="true">Photo: Panyawat Auitpol / Unsplash</small>
+
 In the early hours of 6 June 2020, Nicole Smallman and her sister Bibaa had just finished celebrating Bibaa’s birthday with friends in a park in London. Alone and in the dark, they were [fatally and repeatedly stabbed](https://en.wikipedia.org/wiki/Murders_of_Bibaa_Henry_and_Nicole_Smallman) 36 times.<!-- more -->
+
+<div class="admonition note" markdown>
+<p class="admonition-title">Guest Contributor</p>
+
+Please welcome Peter Marsden as a first-time guest contributor! Privacy Guides does not publish guest posts in exchange for compensation, and this tutorial was independently reviewed by our editorial team prior to publication.
+
+</div>
 
 But the police didn’t just fail them in life – they failed them in death too. PC Deniz Jaffer and PC Jamie Lewis, both of the Metropolitan Police, [took selfies](https://www.theguardian.com/uk-news/2021/dec/06/two-met-police-officers-jailed-photos-murdered-sisters-deniz-jaffer-jamie-lewis-nicole-smallman-bibaa-henry) with the dead bodies of the victims, posting them on a WhatsApp group. And no privacy laws prevented them from doing so.
 
