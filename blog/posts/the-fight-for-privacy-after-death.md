@@ -18,7 +18,7 @@ preview:
 
 In the early hours of 6 June 2020, Nicole Smallman and her sister Bibaa had just finished celebrating Bibaa’s birthday with friends in a park in London. Alone and in the dark, they were [fatally and repeatedly stabbed](https://en.wikipedia.org/wiki/Murders_of_Bibaa_Henry_and_Nicole_Smallman) 36 times.<!-- more -->
 
-<div class="admonition note" markdown>
+<div class="admonition note inline end" markdown>
 <p class="admonition-title">Guest Contributor</p>
 
 Please welcome Peter Marsden as a first-time guest contributor! Privacy Guides does not publish guest posts in exchange for compensation, and this tutorial was independently reviewed by our editorial team prior to publication.
@@ -27,13 +27,17 @@ Please welcome Peter Marsden as a first-time guest contributor! Privacy Guides d
 
 But the police didn’t just fail them in life—they failed them in death too. PC Deniz Jaffer and PC Jamie Lewis, both of the Metropolitan Police, [took selfies](https://www.theguardian.com/uk-news/2021/dec/06/two-met-police-officers-jailed-photos-murdered-sisters-deniz-jaffer-jamie-lewis-nicole-smallman-bibaa-henry) with the dead bodies of the victims, posting them on a WhatsApp group. And no privacy laws prevented them from doing so.
 
+This horrific case is just one in the murky, often sinister realm of posthumous privacy. In the UK, Europe, and across the world, privacy protections for the dead are at best a rarity—and at worst, a deep moral and societal failing that we cannot and must not accept.
+
+Let’s take a step back. The case of the Smallmans starkly draws attention to the denial in death of guarantees to the living.
+
 <div class="admonition quote inline pullquote" markdown>
 <p class="admonition-title">This abrupt collapse in privacy rights leaves the deceased and their families <small>[...]</small> newly vulnerable, and at a time when they are already utterly broken.</p>
 </div>
 
-This horrific case is just one in the murky, often sinister realm of posthumous privacy. In the UK, Europe, and across the world, privacy protections for the dead are at best a rarity—and at worst, a deep moral and societal failing that we cannot and must not accept.
+As a *Privacy Guides* reader, you are no doubt aware that the UK and Europe have firm privacy protections in *The General Data Protection Regulation* (GDPR) and Article 8 of the *European Convention on Human Rights* (ECHR).
 
-Let’s take a step back. The case of the Smallmans starkly draws attention to the denial in death of guarantees to the living. Reading this blog, you are no doubt aware that the UK and Europe have firm privacy protections in *The General Data Protection Regulation* (GDPR) and Article 8 of the *European Convention on Human Rights* (ECHR). But the picture elsewhere is less clear, with a challenging patchwork of laws and regional statutes the only protection for those in the US and much of the rest of the world. And once you die? Almost universally, these protections [immediately cease](https://gdpr-info.eu/recitals/no-27/).
+However, the picture elsewhere is less clear, with a challenging patchwork of laws and regional statutes being the only protection for those in the US and much of the rest of the world. And once you die? Almost universally, these protections [immediately cease](https://gdpr-info.eu/recitals/no-27/).
 
 Here the problem begins. <span class="pullquote-source">This abrupt collapse in privacy rights leaves the deceased and their families—like the Smallman family—newly vulnerable, and at a time when they are already utterly broken.</span>
 
@@ -41,15 +45,21 @@ In the absence of law comes the pursuit of it, against a backdrop of flagrant pr
 
 Medical protections are tentative because of piecemeal development. Typically involving legal workarounds, they offer rare precedent for what might happen to your digital ghosts now and in the future, with the only clear trend being a reluctance to protect.
 
-That said, the US is one country that has taken measures to protect the medical privacy of the dead. The *Health Insurance Portability and Accountability Act* (HIPAA) dictates that 50 years of protection must be given to your personally identifiable medical information after you die. Except there’s a catch. State laws also apply, and state laws differ. In Colorado, Louisiana, and many others, its efficacy is severely challenged by laws dictating the mandatory release of information regarded as public—including autopsy reports and even [your genetic information](http://dx.doi.org.ezp.lib.cam.ac.uk/10.1177/1073110516654124).
+That said, the US is one country that has taken measures to protect the medical privacy of the dead. The *Health Insurance Portability and Accountability Act* (HIPAA) dictates that 50 years of protection must be given to your personally identifiable medical information after you die.
+
+Except there’s a catch. State laws also apply, and state laws differ. In Colorado, Louisiana, and many others, its efficacy is severely challenged by laws dictating the mandatory release of information regarded as public—including autopsy reports and even [your genetic information](http://dx.doi.org.ezp.lib.cam.ac.uk/10.1177/1073110516654124).
 
 In lieu of any protections, surviving relatives in Europe have found some success claiming that their own Article 8 rights—that ECHR right to privacy—have been violated through disclosures or inspections related to their deceased.
 
-In one case, Leyla Polat, an Austrian national, suffered the awful death of her son just two days after birth following a cerebral hemorrhage. The family refused a post-mortem examination, wanting to bury their child in accordance with Muslim beliefs; but doctors insisted it take place, covertly removing his internal organs and filling the hollows with cotton wool. When this was discovered during the funeral rites, the boy had to be buried elsewhere, and without ceremony. After several court cases and appeals, The European Court of Human Rights [found](https://hudoc.echr.coe.int/rum#%7B%22itemid%22:%5B%22002-13361%22%5D%7D) that Leyla’s Article 8 and 9 rights had been violated.
+In one case, Leyla Polat, an Austrian national, suffered the awful death of her son just two days after birth following a cerebral hemorrhage. The family refused a post-mortem examination, wanting to bury their child in accordance with Muslim beliefs; but doctors insisted it take place, covertly removing his internal organs and filling the hollows with cotton wool.
+
+When this was discovered during the funeral rites, the boy had to be buried elsewhere, and without ceremony. After several court cases and appeals, The European Court of Human Rights [found](https://hudoc.echr.coe.int/rum#%7B%22itemid%22:%5B%22002-13361%22%5D%7D) that Leyla’s Article 8 and 9 rights had been violated.
 
 As an aside: Stalin’s grandson [tried the same Article 8 route](https://hudoc.echr.coe.int/eng#%7B%22itemid%22:%5B%22001-150568%22%5D%7D) in relation to reputational attacks on his grandfather, reflecting attempts to apply the workaround more widely.
 
-It’s not that there hasn’t been some progress. The fundamental problem is that protections—already sparse—are only as good as their material and geographic scopes, their interactions with other laws, and how they are interpreted in a court. Nowhere is this more apparent than in the case of the Smallman sisters. Judge Mark Lucraft KC [found](https://www.judiciary.uk/wp-content/uploads/2022/07/R-v-Jaffer-Lewis-sentencing-061221.pdf) that PCs Jaffer and Lewis, in taking selfies with the murdered victims, had:
+It’s not that there hasn’t been some progress. The fundamental problem is that protections—already sparse—are only as good as their material and geographic scopes, their interactions with other laws, and how they are interpreted in a court.
+
+Nowhere is this more apparent than in the case of the Smallman sisters. Judge Mark Lucraft KC [found](https://www.judiciary.uk/wp-content/uploads/2022/07/R-v-Jaffer-Lewis-sentencing-061221.pdf) that PCs Jaffer and Lewis, in taking selfies with the murdered victims, had:
 
 > *“…wholly disregarded the privacy of the two victims of horrific violence and their families for what can only have been some cheap thrill, kudos, a kick or some form of bragging right by taking images and then passing them to others.”*
 
@@ -69,7 +79,9 @@ But the reality is, you shouldn’t. You’ll recall that [deletion doesn’t us
 
 Recent reports have acknowledged dire possibilities. Almost worldwide, you can [legally train AI models on the data of a deceased person](https://www.reuters.com/article/world/data-of-the-dead-virtual-immortality-exposes-holes-in-privacy-laws-idUSKBN21Z0NE/) and recreate them in digital form—all without their prior consent. Organizations exist purely to scour your social media profiles and activity for this exact purpose. Your ghost could be used to generate engagement against your will, disclosing what you tried to hide.
 
-You may ask: why should the law care? Why indeed, when it deems we [cannot be harmed](https://doi.org/10.1093/acprof:oso/9780199607860.003.0003) after death. To argue thus is to miss the point. A lack of privacy after death harms the living, often in ways others cannot see. The effect of [post-mortem anxiety](https://www.tandfonline.com/doi/full/10.1080/17577632.2024.2438395#d1e120) is a real one that deeply troubles individuals wishing to keep a part of them hidden from public—or even family—view, whether it be it an [illicit affair](https://www.cardozoaelj.com/wp-content/uploads/2011/02/Edwards-Galleyed-FINAL.pdf) or whatever else. Revelation at the point of death can be just as harmful to those still alive.
+You may ask: why should the law care? Why indeed, when it deems we [cannot be harmed](https://doi.org/10.1093/acprof:oso/9780199607860.003.0003) after death. To argue thus is to miss the point. **A lack of privacy after death harms the living, often in ways others cannot see.**
+
+The effect of [post-mortem anxiety](https://www.tandfonline.com/doi/full/10.1080/17577632.2024.2438395#d1e120) is a real one that deeply troubles individuals wishing to keep a part of them hidden from public—or even family—view, whether it be it an [illicit affair](https://www.cardozoaelj.com/wp-content/uploads/2011/02/Edwards-Galleyed-FINAL.pdf) or whatever else. Revelation at the point of death can be just as harmful to those still alive.
 
 There is cause for optimism. Article 85 of the *French Data Protection Act* allows you to include [legally enforceable demands concerning your personal data](https://www.cnil.fr/fr/la-loi-informatique-et-libertes#article85) in your will. This is truly a landmark piece of legislation by the French that indicates what the global direction of travel should be, and what we should ultimately demand: protections for the dead, by the dead.
 
