@@ -134,7 +134,7 @@ You can similarly disable biometrics by pressing the side button five times, or 
 
 **Stolen Device Protection** adds additional security intended to protect your personal data if your device is stolen while unlocked. If you use biometrics, we recommend enabling this protection:
 
-- [x] Select **Turn On Protection**
+- [x] Turn on **Stolen Device Protection**
 
 After enabling Stolen Device Protection, [certain actions](https://support.apple.com/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling Lost Mode. It also adds a security delay to certain actions performed away from your home or another "familiar location," such as requiring a 1-hour timer to reset your Apple Account password or sign out of your Apple Account. This delay is intended to give you time to enable Lost Mode and secure your account before a thief can reset your device.
 
