@@ -38,7 +38,7 @@ Usually we're more interested in the data as a whole and not data of individual 
 
 It was thought at first that simply [removing names and other obviously identifying details](https://simons.berkeley.edu/news/differential-privacy-issues-policymakers#:~:text=Prior%20to%20the%20line%20of%20research%20that%20led%20to%20differential%20privacy%2C%20it%20was%20widely%20believed%20that%20anonymizing%20data%20was%20a%20relatively%20straightforward%20and%20sufficient%20solution%20to%20the%20privacy%20challenge.%20Statistical%20aggregates%20could%20be%20released%2C%20many%20people%20thought%2C%20without%20revealing%20underlying%20personally%20identifiable%20data.%20Data%20sets%20could%20be%20released%20to%20researchers%20scrubbed%20of%20names%2C%20but%20otherwise%20with%20rich%20individual%20information%2C%20and%20were%20thought%20to%20have%20been%20anonymized.) from the data was enough to prevent re-identification, but [Latanya Sweeney](https://latanyasweeney.org/JLME.pdf) (a name that will pop up a few more times) proved in 1997 that even without names, a significant portion of individuals can be re-identified from a dataset by cross-referencing external data.
 
-Previous attempts at anonymizing data have relied on been highly vulnerable to reidentification attacks.
+Previous attempts at anonymizing data have relied on been highly vulnerable to re-identification attacks.
 
 #### AOL Search Log Release
 
@@ -90,7 +90,7 @@ It's interesting that even all the way back in 1998 concerns constant data colle
 
 > Most actions in daily life are recorded on some computer somewhere. That information in turn is often shared, exchanged, and sold. Many people may not care that the local grocer keeps track of which items they purchase, but shared information can be quite sensitive or damaging to individuals and organizations. Improper disclosure of medical information, financial information or matters of national security can have alarming ramifications, and many abuses have been cited.
 
-In a dataset, you might have removed names and other obviously identifying information, but there might be other data such as birthday, ZIP code, etc that might be unique to one person in the dataset. If someone were to cross-reference this data with outside data, it could be possible to deanonymize individuals.
+In a dataset, you might have removed names and other obviously identifying information, but there might be other data such as birthday, ZIP code, etc., that might be unique to one person in the dataset. If someone were to cross-reference this data with outside data, it could be possible to deanonymize individuals.
 
 k-anonymity means that for each row, at least k-1 other rows are identical. So for a k of 2, at least one other row is identical to each row.
 
@@ -108,13 +108,13 @@ In these cases, you can simply remove the row entirely.
 
 ##### Attacks on k-Anonymity
 
-k-anonymity has been [demonstrated](https://www.usenix.org/system/files/sec22-cohen.pdf) to not prevent reidentification of individuals despite the data in a dataset being properly k-anonymized by "statistical experts".
+k-anonymity has been [demonstrated](https://www.usenix.org/system/files/sec22-cohen.pdf) to not prevent re-identification of individuals despite the data in a dataset being properly k-anonymized by "statistical experts".
 
-Researchers were able to deanonymize 3 students from a k-anonymized dataset from Harvard and MIT's EdX platform by cross-referencing data from LinkedIn, putting potentially thousands of students at risk of reidentification.
+Researchers were able to deanonymize 3 students from a k-anonymized dataset from Harvard and MIT's EdX platform by cross-referencing data from LinkedIn, putting potentially thousands of students at risk of re-identification.
 
 ### Dawn of Differential Privacy
 
-Most of the concepts I write about seem to come from the 70's and 80's, but differential privacy is a relatively new concept. It was first introduced in a paper from 2006 called [*Calibrating Noise to Sensitivity in Private Data Analysis*](https://desfontain.es/PDFs/PhD/CalibratingNoiseToSensitivityInPrivateDataAnalysis.pdf).
+Most of the concepts I write about seem to come from the 70s and 80s, but differential privacy is a relatively new concept. It was first introduced in a paper from 2006 called [*Calibrating Noise to Sensitivity in Private Data Analysis*](https://desfontain.es/PDFs/PhD/CalibratingNoiseToSensitivityInPrivateDataAnalysis.pdf).
 
 The paper introduces the idea of adding noise to data to achieve privacy, similar to randomized response. However, differential privacy is much more mathematically rigorous and provable.
 
@@ -146,7 +146,7 @@ Then, you run data such as the word "apple" through a hashing algorithm, which w
 
 `[0, 1, 0, 1, 0, 1, 0, 0, 0]`
 
-When you want to check if data is present, you run the data through the hashing algorithm and check if the corresponding postions are 1's. If they are, the data *might* be present (other data might have flipped those same bits at some point). If any of the 1's are 0's, then you know for sure that the data is not in the set.
+When you want to check if data is present, you run the data through the hashing algorithm and check if the corresponding positions are 1's. If they are, the data *might* be present (other data might have flipped those same bits at some point). If any of the 1's are 0's, then you know for sure that the data is not in the set.
 
 ### Permanent Randomized Response
 
@@ -196,11 +196,11 @@ Some of the things they use differential privacy for include
 - Safari Crashing Domains
 - Health Type Usage
 
-That's just based on their initial whitepaper, they've likely increased their use of DP since then.
+That's just based on their initial white paper, they've likely increased their use of DP since then.
 
 ### Sketch Matrix
 
-Apple uses a similar method to Google, with a matrix initialized with all zeros. The input for the matrix is encoded with the SHA-256 hashing algorithm, and then bits are flipped randomly at a probablility dependent on the epsilon value.
+Apple uses a similar method to Google, with a matrix initialized with all zeros. The input for the matrix is encoded with the SHA-256 hashing algorithm, and then bits are flipped randomly at a probability dependent on the epsilon value.
 
 Apple only sends a random row from this matrix instead of the entire thing in order to stay within their privacy budget.
 
@@ -212,13 +212,13 @@ You can see data sent with differential privacy in iOS under Settings > Privacy 
 
 Differential privacy isn't just used by big corporations, in 2020 famously the U.S. Census used DP to protect the data of U.S. citizens for the first time.
 
-As a massive collection of data from a large number of U.S. citizens, it's important for the census bureau to protect the privacy of census participants while still preserving the overall aggregate data.
+As a massive collection of data from numerous U.S. citizens, it's important for the census bureau to protect the privacy of census participants while still preserving the overall aggregate data.
 
 ### Impetus
 
-Since the 1990's, the U.S. Census used a less formal injection of statistical noise into their data, which they did all the way through 2010.
+Since the 90s, the U.S. Census used a less formal injection of statistical noise into their data, which they did all the way through 2010.
 
-After the 2010 census, the bureau tried to [reidentify individuals](https://www2.census.gov/library/publications/decennial/2020/census-briefs/c2020br-03.pdf) in the census data.
+After the 2010 census, the bureau tried to [re-identify individuals](https://www2.census.gov/library/publications/decennial/2020/census-briefs/c2020br-03.pdf) in the census data.
 
 >The experiment resulted in reconstruction of a dataset of more than 300 million individuals. The Census Bureau then used that dataset to match the reconstructed records to four commercially available data sources, to attempt to identify the age, sex, race, and Hispanic origin of people in more than six million blocks in the 2010 Census.
 
@@ -226,15 +226,15 @@ Considering 309 million people lived in the U.S. in 2010, that's a devastating b
 
 >Nationwide, roughly 150 million individuals—almost one-half of the population, have a unique combination of sex and single year of age at the block level.
 
-They could keep adding noise until these attacks are impossible, but that would make the data nigh unusable. Instead, differential privacy offers a mathematically rigorous method to protect the data from future reidentification attacks without ruining the data by adding too much noise. They can be sure thanks to the mathematical guarantees of DP.
+They could keep adding noise until these attacks are impossible, but that would make the data nigh unusable. Instead, differential privacy offers a mathematically rigorous method to protect the data from future re-identification attacks without ruining the data by adding too much noise. They can be sure thanks to the mathematical guarantees of DP.
 
 ## DPrio
 
-Mozilla has been constantly working to make their telemetry more private over the years. Firefox uses [Prio](https://blog.mozilla.org/security/2019/06/06/next-steps-in-privacy-preserving-telemetry-with-prio/), a [Distributed Aggregation Protocol](https://datatracker.ietf.org/doc/html/draft-ietf-ppm-dap)-based telmetry system. It uses Multi-Party Computation to split the processing of user data between multiple parties.
+Mozilla has been constantly working to make their telemetry more private over the years. Firefox uses [Prio](https://blog.mozilla.org/security/2019/06/06/next-steps-in-privacy-preserving-telemetry-with-prio/), a [Distributed Aggregation Protocol](https://datatracker.ietf.org/doc/html/draft-ietf-ppm-dap)-based telemetry system. It uses Multi-Party Computation to split the processing of user data between multiple parties.
 
-To accomplish this, [Mozilla](https://blog.mozilla.org/en/firefox/partnership-ohttp-prio/) partnered with [Divvi Up](https://divviup.org/blog/divvi-up-in-firefox/) as their DAP provider, and [Fastly](https://www.fastly.com/blog/firefox-fastly-take-another-step-toward-security-upgrade) as their OHTTP provider. OHTTP acts as a multi-hop proxy to separate traffic between two parties when making a connection: neither Mozilla or Fastly will know both who you are and what you're connecting to.
+To accomplish this, [Mozilla](https://blog.mozilla.org/en/firefox/partnership-ohttp-prio/) partnered with [Divvi Up](https://divviup.org/blog/divvi-up-in-firefox/) as their DAP provider, and [Fastly](https://www.fastly.com/blog/firefox-fastly-take-another-step-toward-security-upgrade) as their OHTTP provider. OHTTP acts as a multi-hop proxy to separate traffic between two parties when making a connection: neither Mozilla nor Fastly will know both who you are and what you're connecting to.
 
-In 2023 researchers from Mozilla also conducted research into making Prio differentially private. The so-named [DPrio](https://petsymposium.org/popets/2023/popets-2023-0086.pdf) would combine multi-party computation, OHTTP, and differential privacy in a very impressive display of privacy protection. Unfortunately I couldn't find any evidence to suggest that DPrio has been implemented, but something to keep a lookout for in the future.
+In 2023 researchers from Mozilla also conducted research into making Prio differentially private. The so-named "[DPrio](https://petsymposium.org/popets/2023/popets-2023-0086.pdf)" would combine multi-party computation, OHTTP, and differential privacy in a very impressive display of privacy protection. Unfortunately I couldn't find any evidence to suggest that DPrio has been implemented, but something to keep a lookout for in the future.
 
 ## Future of Differential Privacy
 
