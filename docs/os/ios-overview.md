@@ -267,6 +267,13 @@ You can hide an app by long-pressing on it and selecting **Require Face ID/Touch
 
 Sometimes you might want to hand your phone to someone to make a call or do a specific task, but you don't want them to have full access to your phone. In these cases, you can quickly enable **[Guided Access](https://support.apple.com/guide/iphone/lock-iphone-to-one-app-iph7fad0d10/ios)** to lock the phone to one specific app until you authenticate.
 
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+Guided Access isn't foolproof, it's possible you could leak data you don't intend to or it could be bypassed.
+
+</div>
+
 ### Redacting Elements in Images
 
 If you need to hide information in a photo, you can use Apple's built-in editing tools to do so.
