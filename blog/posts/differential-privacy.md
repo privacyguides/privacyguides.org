@@ -1,24 +1,25 @@
 ---
 date:
-    created: 2025-07-01T17:30:00Z
+    created: 2025-09-19T17:30:00Z
 categories:
     - Explainers
 authors:
     - fria
 tags:
     - Privacy Enhancing Technologies
-    - Differential Privacy
 license: BY-SA
 schema_type: BackgroundNewsArticle
 description: Differential privacy is a mathematically rigorous framework for adding a controlled amount of noise to a dataset so that no individual can be reidentified. Learn how this technology is being implemented to protect you.
+preview:
+  cover: blog/assets/images/differential-privacy/cover.webp
 ---
-# Privacy-Enhancing Technologies Series: Differential Privacy
+# What is Differential Privacy?
 
 !["Differential Privacy" text with a series of ones and zeros being obscured with a blur filter](../assets/images/differential-privacy/cover.webp)
 
 <small aria-hidden="true">Image: Jordan Warne</small>
 
-Is it possible to collect data from a large group of people but protect each individual's privacy? In this entry of my series on privacy-enhancing technologies, we'll discuss differential privacy and how it can do just that.<!-- more -->
+Is it possible to collect data from a large group of people but protect each individual's privacy? In this entry of my series on [privacy-enhancing technologies](../tags.md/#tag:privacy-enhancing-technologies), we'll discuss differential privacy and how it can do just that.<!-- more -->
 
 ## Problem
 
@@ -116,7 +117,7 @@ Researchers were able to deanonymize 3 students from a k-anonymized dataset from
 
 Most of the concepts I write about seem to come from the 70's and 80's, but differential privacy is a relatively new concept. It was first introduced in a paper from 2006 called [*Calibrating Noise to Sensitivity in Private Data Analysis*](https://desfontain.es/PDFs/PhD/CalibratingNoiseToSensitivityInPrivateDataAnalysis.pdf).
 
-The paper introduces the idea of adding noise to data to achieve privacy, similar to randomized response. However, differential privacy is much more mathematically rigorous and provable. 
+The paper introduces the idea of adding noise to data to achieve privacy, similar to randomized response. However, differential privacy is much more mathematically rigorous and provable.
 
 Of course, adding noise to the dataset reduces its accuracy. Ɛ defines the amount of noise added to the dataset, with a small Ɛ meaning more privacy but less accurate data and vice versa. It's also referred to as the "privacy loss parameter" or "privacy budget".
 
@@ -170,7 +171,7 @@ Google Maps uses DP for its [place busyness](https://safety.google/privacy/data/
 
 ### Google Fi
 
-[Google Fi](https://opensource.googleblog.com/2019/09/enabling-developers-and-organizations.html) uses differential privacy as well to improve the service. 
+[Google Fi](https://opensource.googleblog.com/2019/09/enabling-developers-and-organizations.html) uses differential privacy as well to improve the service.
 
 ## OpenDP
 
