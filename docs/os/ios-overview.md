@@ -144,12 +144,13 @@ After enabling Stolen Device Protection, [certain actions](https://support.apple
 - [ ] Turn off **Notification Center**
 - [ ] Turn off **Control Center**
 - [ ] Turn off **Lock Screen Widgets**
+- [ ] Turn off **Live Activities**
 - [ ] Turn off **Siri**
 - [ ] Turn off **Reply with Message**
 - [ ] Turn off **Home Control**
 - [ ] Turn off **Wallet**
 - [ ] Turn off **Return Missed Calls**
-- [ ] Turn off **USB Accessories**
+- [ ] Turn off **Workout Health Data**
 
 iPhones are already resistant to brute-force attacks by making you wait long periods of time after multiple failed attempts; however, there have historically been exploits to get around this. To be extra safe, you can set your phone to wipe itself after 10 failed passcode attempts.
 
