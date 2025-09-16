@@ -209,6 +209,10 @@ Disable **Personalized Ads** if you don't want targeted ads. Select **Apple Adve
 
 - [x] Select **Turn On App Privacy Report**
 
+Set **wired accessories** to ask for permission when you connect them. Select **Wired Accessories**:
+
+- [x] Select **Always Ask** or **Ask for New Accessories**
+
 **[Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode)** is a security setting you can enable to make your phone more resistant to attacks. Be aware that certain apps and features [won't work](https://support.apple.com/HT212650) as they do normally.
 
 - [x] Select **Turn On Lockdown Mode**
