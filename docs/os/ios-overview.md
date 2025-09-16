@@ -185,16 +185,20 @@ You should turn off **Research Sensor & Usage Data** if you don't wish to partic
 
 - [ ] Turn off **Sensor & Usage Data Collection**
 
-**Safety Check** allows you to quickly view and revoke certain people and apps that might have permission to access your data. Here you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources. You can also **Manage Sharing & Access** which allows you to go through and customize who and what has access to your device and account resources.
+**[Safety Check](https://support.apple.com/guide/personal-safety/safety-check-iphone-ios-16-ips2aad835e1/1.0/web/1.0)** allows you to quickly view and revoke certain people and apps that might have permission to access your data. Here you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources. You can also **Manage Sharing & Access** which allows you to go through and customize who and what has access to your device and account resources. If you're in an abusive situation, read Apple's [Personal Safety User Guide](https://support.apple.com/guide/personal-safety/welcome/web) for guidance on what you should do.
 
 You should disable analytics if you don't wish to send Apple usage data. Select **Analytics & Improvements**:
 
 - [ ] Turn off **Share iPhone Analytics** or **Share iPhone & Watch Analytics**
 - [ ] Turn off **Share iCloud Analytics**
-- [ ] Turn off **Improve Fitness+**
+- [ ] Turn off **Share With App Developers**
+- [ ] Turn off **Improve Apple Pay**
+- [ ] Turn off **Improve Handwashing**
+- [ ] Turn off **Improve Health & Activity**
 - [ ] Turn off **Improve Safety**
 - [ ] Turn off **Improve Siri & Dictation**
 - [ ] Turn off **Improve Assistive Voice Features**
+- [ ] Turn off **Improve Wheelchair Mode**
 - [ ] Turn off **Improve AR Location Accuracy**
 
 Disable **Personalized Ads** if you don't want targeted ads. Select **Apple Advertising**:
