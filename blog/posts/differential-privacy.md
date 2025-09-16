@@ -7,7 +7,6 @@ authors:
     - fria
 tags:
     - Privacy Enhancing Technologies
-license: BY-SA
 schema_type: BackgroundNewsArticle
 description: Differential privacy is a mathematically rigorous framework for adding a controlled amount of noise to a dataset so that no individual can be reidentified. Learn how this technology is being implemented to protect you.
 preview:
@@ -23,7 +22,7 @@ Is it possible to collect data from a large group of people but protect each ind
 
 ## Problem
 
-It's useful to collect data from a large group of people. You can see trends in a population. But it requires a lot of individual people to give up personally identifiable information. Even things that seem inocuous like your gender can help identify you.
+It's useful to collect data from a large group of people. You can see trends in a population. But it requires a lot of individual people to give up personally identifiable information. Even things that seem innocuous like your gender can help identify you.
 
 Latanya Sweeney in a [paper](https://dataprivacylab.org/projects/identifiability/paper1.pdf) from 2000 used U.S. Census data to try and re-identify people solely based on the metrics available to her. She found that 87% of Americans could be identified based on only 3 metrics: ZIP code, date of birth, and sex.
 
@@ -89,9 +88,9 @@ Latanya Sweeney and Pierangela Samarati introduced [k-anonymity](https://datapri
 
 It's interesting that even all the way back in 1998 concerns constant data collection were already relevant.
 
->Most actions in daily life are recorded on some computer somewhere. That information in turn is often shared, exchanged, and sold. Many people may not care that the local grocer keeps track of which items they purchase but shared information can be quite damaging to individuals or organizations. Improper disclosure of medical information, financial information, or matters of national security can have alarming ramications and many abuses have been cited.
+> Most actions in daily life are recorded on some computer somewhere. That information in turn is often shared, exchanged, and sold. Many people may not care that the local grocer keeps track of which items they purchase, but shared information can be quite sensitive or damaging to individuals and organizations. Improper disclosure of medical information, financial information or matters of national security can have alarming ramifications, and many abuses have been cited.
 
-In a dataset, you might have removed names and other obviously identifying information, but there might be other data such as birthday, ZIP code, etc that might be unique to one person in the dataset. If someone were to crossreference this data with outside data, it could be possible to deanonymize individuals.
+In a dataset, you might have removed names and other obviously identifying information, but there might be other data such as birthday, ZIP code, etc that might be unique to one person in the dataset. If someone were to cross-reference this data with outside data, it could be possible to deanonymize individuals.
 
 k-anonymity means that for each row, at least k-1 other rows are identical. So for a k of 2, at least one other row is identical to each row.
 
