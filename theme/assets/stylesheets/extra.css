@@ -46,6 +46,7 @@
     --pg-green: #2e7e31;
     --pg-blue-gray: #546d78;
     --pg-viridian: #40826d;
+    --ghost-accent-color: #4f46e5;
 }
 :root, [data-md-color-scheme="slate"] {
     --md-default-bg-color: rgb(26, 26, 27);
@@ -67,6 +68,7 @@
     --pg-blue-gray: #9ab2bc;
     --pg-viridian: #40826d;
     --md-footer-bg-color--dark: var(--md-default-bg-color);
+    --ghost-accent-color: #4f46e5;
 }
 
 /* Better contrast link colors */
@@ -602,5 +604,9 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
 
 .md-typeset small {
   opacity: 1;
-  color: var(--md-primary-bg-color--light);
+  color: var(--md-default-fg-color--light);
+}
+
+#ghost-portal-root, #ghost-comments-root {
+  color-scheme: light;
 }
