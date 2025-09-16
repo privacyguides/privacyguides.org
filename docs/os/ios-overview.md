@@ -297,4 +297,4 @@ iPhones automatically [reboot](https://support.apple.com/guide/security/protecti
 
 ### MTE
 
-iPhone 17 and later offer a security enhancement called [MTE](https://security.apple.com/blog/memory-integrity-enforcement/) which helps prevent memory bugs and makes exploiting the device significantly harder. This protection is always on, but it's dependent on hardware so it's not available to older devices.
+iPhone 17 and later offer a security enhancement called [Memory Tagging Extension](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension) (MTE) which helps prevent memory bugs and makes exploiting the device significantly harder. This protection is always on, but it's dependent on hardware so it's not available to older devices. You can read more about it on their [blog post](https://security.apple.com/blog/memory-integrity-enforcement/).
