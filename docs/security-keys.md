@@ -1,5 +1,5 @@
 ---
-title: "Security Keys"
+title: Security Keys
 icon: material/key-chain
 description: These security keys provide a form of phishing-immune authentication for accounts that support it.
 cover: multi-factor-authentication.webp
@@ -9,7 +9,7 @@ cover: multi-factor-authentication.webp
 - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 - [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-A physical **security key** adds a very strong layer of protection to your online accounts. Compared to [authenticator apps](multi-factor-authentication.md), the FIDO2 security key protocol is immune to phishing, and cannot be compromised without physical possession of the key itself. Many services support FIDO2/WebAuthn as a multifactor authentication option for securing your account, and some services allow you to use a security key as a strong single-factor authenticator with passwordless authentication.
+A physical **security key** adds a very strong layer of protection to your online accounts. Compared to [authenticator apps](multi-factor-authentication.md), the [FIDO2](basics/multi-factor-authentication.md#fido-fast-identity-online) security key protocol is immune to phishing, and cannot be compromised without physical possession of the key itself. Many services support FIDO2/WebAuthn as a multifactor authentication option for securing your account, and some services allow you to use a security key as a strong single-factor authenticator with passwordless authentication.
 
 ## Yubico Security Key
 
@@ -19,7 +19,7 @@ A physical **security key** adds a very strong layer of protection to your onlin
   ![Security Key Series by Yubico](assets/img/security-keys/yubico-security-key.webp){ width="315" }
 </figure>
 
-The **Yubico Security Key** series is the most cost-effective hardware security key with FIDO Level 2 certification[^1]. It supports FIDO2/WebAuthn and FIDO U2F, and works out of the box with most services that support a security key as a second factor, as well as many password managers.
+The **Yubico Security Key** series is the most cost-effective hardware security key with FIDO Level 2 certification[^1]. It supports FIDO2/WebAuthn and FIDO Universal 2nd Factor (U2F), and works out of the box with most services that support a security key as a second factor, as well as many password managers.
 
 [:octicons-home-16: Homepage](https://yubico.com/products/security-key){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
@@ -34,10 +34,10 @@ These keys are available in both USB-C and USB-A variants, and both options supp
 This key provides only basic FIDO2 functionality, but for most people that is all you will need. Some notable features the Security Key series does **not** have include:
 
 - [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)
-- CCID Smart Card support (PIV-compatibile)
+- CCID Smart Card support (PIV-compatible)
 - OpenPGP
 
-If you need any of those features, you should consider their higher-end [YubiKey](#yubikey) of products instead.
+If you need any of those features, you should consider their higher-end [YubiKey](#yubikey) series instead.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
@@ -54,7 +54,7 @@ The firmware of Yubico's Security Keys is not updatable. If you want features in
   ![YubiKeys](assets/img/security-keys/yubikey.png){ width="400" }
 </figure>
 
-The **YubiKey** series from Yubico are among the most popular security keys with FIDO Level 2 Certification[^1]. The YubiKey 5 Series has a wide range of features such as [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP), and [TOTP and HOTP](https://developers.yubico.com/OATH) authentication.
+The **YubiKey** series from Yubico are among the most popular security keys with FIDO Level 2 Certification[^1]. The **YubiKey 5 Series** has a wide range of features such as FIDO2/WebAuthn and FIDO U2F, [TOTP and HOTP](https://developers.yubico.com/OATH) authentication, [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), and [OpenPGP](https://developers.yubico.com/PGP).
 
 [:octicons-home-16: Homepage](https://yubico.com/products/yubikey-5-overview){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
@@ -68,7 +68,7 @@ The [comparison table](https://yubico.com/store/compare) shows how the YubiKeys 
 
 YubiKeys can be programmed using the [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) or [YubiKey Personalization Tools](https://yubico.com/support/download/yubikey-personalization-tools). For managing TOTP codes, you can use the [Yubico Authenticator](https://yubico.com/products/yubico-authenticator). All of Yubico's clients are open source.
 
-For models which support HOTP and TOTP, there are 2 slots in the OTP interface which could be used for HOTP and 32 slots to store TOTP secrets. These secrets are stored encrypted on the key and never exposed to the devices they are plugged into. Once a seed (shared secret) is given to the Yubico Authenticator, it will only give out the six-digit codes, but never the seed. This security model helps limit what an attacker can do if they compromise one of the devices running the Yubico Authenticator and make the YubiKey resistant to a physical attacker.
+For models which [support HOTP and TOTP](https://support.yubico.com/hc/articles/360013790319-How-many-accounts-can-I-register-my-YubiKey-with), the secrets are stored encrypted on the key and never exposed to the devices they are plugged into. Once a seed (shared secret) is given to the Yubico Authenticator, it will only give out the six-digit codes, but never the seed. This security model helps limit what an attacker can do if they compromise one of the devices running the Yubico Authenticator and make the YubiKey resistant to a physical attacker.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
@@ -85,7 +85,7 @@ The firmware of YubiKey is not updatable. If you want features in newer firmware
   ![Nitrokey](assets/img/security-keys/nitrokey.jpg){ width="300" }
 </figure>
 
-The **Nitrokey 3A Mini** [has FIDO Authenticator Level 1 Certification](https://www.nitrokey.com/news/2024/nitrokey-3a-mini-receives-official-fido2-certification). The Nitrokey 3 Series in general has a wide range of features such as [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), Personal Identity Verification (PIV), OpenPGP, and TOTP and HOTP authentication.
+**Nitrokey** has a cost-effective security key capable of FIDO2/WebAuthn and FIDO U2F called the **Nitrokey Passkey**. For support for features such as PIV, OpenPGP, and TOTP and HOTP authentication, you need to purchase one of their other keys like the **Nitrokey 3**. Currently, only the **Nitrokey 3A Mini** has [FIDO Level 1 Certification](https://nitrokey.com/news/2024/nitrokey-3a-mini-receives-official-fido2-certification).
 
 [:octicons-home-16: Homepage](https://nitrokey.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
@@ -95,26 +95,14 @@ The **Nitrokey 3A Mini** [has FIDO Authenticator Level 1 Certification](https://
 
 </div>
 
-The [comparison table](https://nitrokey.com/products/nitrokeys) shows how the different Nitrokey models compare to each other in terms of features and other specifications.
+The [comparison table](https://nitrokey.com/products/nitrokeys#:~:text=The%20Nitrokey%20Family) shows how the different Nitrokey models compare to each other in terms of features and other specifications. Refer to Nitrokey's [documentation](https://docs.nitrokey.com/nitrokeys/features) for more details about the features available on your Nitrokey.
 
 Nitrokey models can be configured using the [Nitrokey app](https://nitrokey.com/download).
-
-The Nitrokey 3 Series can act as a password manager. They can store up to 50 different entries, and each entry can contain login, password, comment and OTP.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-Excluding the Nitrokey 3, Nitrokeys with HOTP and TOTP storage do not have it encrypted, making them vulnerable to physical attacks.
-
-</div>
-
-**Nitrokey** also has the **Nitrokey Passkey**, a lower-price security key capable of [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online). This key provides only basic FIDO2 functionality, but for most people that is all you will need. Some notable features the Security Key series does **not** have include:
-
-- Password Manager
-- PIV
-- OpenPGP
-- Tamper-resistant smart card
-- TOTP and HOTP
+Excluding the Nitrokey 3, Nitrokeys which support HOTP and TOTP do not have encrypted storage, making them vulnerable to physical attacks.
 
 </div>
 
