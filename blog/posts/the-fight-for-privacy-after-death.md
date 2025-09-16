@@ -51,7 +51,7 @@ Except there’s a catch. State laws also apply, and state laws differ. In Color
 
 In lieu of any protections, surviving relatives in Europe have found some success claiming that their own Article 8 rights—that ECHR right to privacy—have been violated through disclosures or inspections related to their deceased.
 
-In one case, Leyla Polat, an Austrian national, suffered the awful death of her son just two days after birth following a cerebral hemorrhage. The family refused a post-mortem examination, wanting to bury their child in accordance with Muslim beliefs; but doctors insisted it take place, covertly removing his internal organs and filling the hollows with cotton wool.
+In one case, Leyla Polat, an Austrian national, suffered the awful death of her son just two days after birth following a cerebral hemorrhage. The family refused a postmortem examination, wanting to bury their child in accordance with Muslim beliefs; but doctors insisted it take place, covertly removing his internal organs and filling the hollows with cotton wool.
 
 When this was discovered during the funeral rites, the boy had to be buried elsewhere, and without ceremony. After several court cases and appeals, The European Court of Human Rights [found](https://hudoc.echr.coe.int/rum#%7B%22itemid%22:%5B%22002-13361%22%5D%7D) that Leyla’s Article 8 and 9 rights had been violated.
 
@@ -81,14 +81,14 @@ Recent reports have acknowledged dire possibilities. Almost worldwide, you can [
 
 You may ask: why should the law care? Why indeed, when it deems we [cannot be harmed](https://doi.org/10.1093/acprof:oso/9780199607860.003.0003) after death. To argue thus is to miss the point. **A lack of privacy after death harms the living, often in ways others cannot see.**
 
-The effect of [post-mortem anxiety](https://www.tandfonline.com/doi/full/10.1080/17577632.2024.2438395#d1e120) is a real one that deeply troubles individuals wishing to keep a part of them hidden from public—or even family—view, whether it be it an [illicit affair](https://www.cardozoaelj.com/wp-content/uploads/2011/02/Edwards-Galleyed-FINAL.pdf) or whatever else. Revelation at the point of death can be just as harmful to those still alive.
+The effect of [postmortem anxiety](https://www.tandfonline.com/doi/full/10.1080/17577632.2024.2438395#d1e120) is a real one that deeply troubles individuals wishing to keep a part of them hidden from public—or even family—view, whether it be it an [illicit affair](https://www.cardozoaelj.com/wp-content/uploads/2011/02/Edwards-Galleyed-FINAL.pdf) or whatever else. Revelation at the point of death can be just as harmful to those still alive.
 
 There is cause for optimism. Article 85 of the *French Data Protection Act* allows you to include [legally enforceable demands concerning your personal data](https://www.cnil.fr/fr/la-loi-informatique-et-libertes#article85) in your will. This is truly a landmark piece of legislation by the French that indicates what the global direction of travel should be, and what we should ultimately demand: protections for the dead, by the dead.
 
-But even more urgently, we must demand that governments across the world introduce even the most basic legal framework for post-mortem privacy that protects you, your family, and community from egregious harm.
+But even more urgently, we must demand that governments across the world introduce even the most basic legal framework for postmortem privacy that protects you, your family, and community from egregious harm.
 
 The Smallmans deserved dignity, and so does everyone else in death. The law must catch up.
 
 ---
 
-*This article hasn’t even begun to scratch the surface of the complexity of post-mortem privacy, and there are innumerable relevant cases and laws that simply wouldn’t fit. If the topic has caught your interest, and you’d like to dig in more, [this white paper](https://doi.org/10.1016/j.clsr.2022.105737) by Uta Kohl is a good starting point.*
+*This article hasn’t even begun to scratch the surface of the complexity of postmortem privacy, and there are innumerable relevant cases and laws that simply wouldn’t fit. If the topic has caught your interest, and you’d like to dig in more, [this white paper](https://doi.org/10.1016/j.clsr.2022.105737) by Uta Kohl is a good starting point.*
