@@ -258,9 +258,7 @@ Sometimes you might want to hand your phone to someone to make a call or do a sp
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-Guided Access isn't foolproof, it's possible you could leak data you don't intend to or it could be bypassed.
-
-You should only use Guided Access for situations where you casually hand your phone to someone to use, not to protect against advanced adversaries.
+Guided Access isn't foolproof, as it's possible you could leak data unintentionally or the feature could be bypassed. You should only use Guided Access for situations where you casually hand your phone to someone to use. You should not use it as a tool to protect against advanced adversaries.
 
 </div>
 
