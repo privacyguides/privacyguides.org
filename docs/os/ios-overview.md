@@ -98,7 +98,7 @@ Note that Bluetooth is automatically turned on after every system update.
 
 Your iPhone's device name will by default contain your first name, and this will be visible to anyone on networks you connect to. You should change this to something more generic, like "iPhone." Select **About** → **Name** and enter the device name you prefer.
 
-It is important to install **Software Updates** frequently to get the latest security fixes. You can enable **Automatic Updates** to keep your phone up-to-date without needing to constantly check for updates. Select **Software Update** → **Automatic Updates**:
+It is important to install software updates frequently to get the latest security fixes. You can enable automatic updates to keep your phone up-to-date without needing to constantly check for updates. Select **Software Update** → **Automatic Updates**:
 
 - [x] Turn on **Automatically Install**
 
@@ -195,7 +195,7 @@ You should turn off **Research Sensor & Usage Data** if you don't wish to partic
 
 - [ ] Turn off **Sensor & Usage Data Collection**
 
-**[Safety Check](https://support.apple.com/guide/personal-safety/safety-check-iphone-ios-16-ips2aad835e1/1.0/web/1.0)** allows you to quickly view and revoke certain people and apps that might have permission to access your data. Here you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources. You can also **Manage Sharing & Access** which allows you to go through and customize who and what has access to your device and account resources. If you're in an abusive situation, read Apple's [Personal Safety User Guide](https://support.apple.com/guide/personal-safety/welcome/web) for guidance on what you should do.
+**[Safety Check](https://support.apple.com/guide/personal-safety/safety-check-iphone-ios-16-ips2aad835e1/1.0/web/1.0)** allows you to quickly view and revoke certain people and apps that might have permission to access your data. Here, you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources. You can also **Manage Sharing & Access**, which allows you to review and customize who and what has access to your device and account resources. If you're in an abusive situation, read Apple's [Personal Safety User Guide](https://support.apple.com/guide/personal-safety/welcome/web) for guidance on what you should do.
 
 You should disable analytics if you don't wish to send Apple usage data. Select **Analytics & Improvements**:
 
@@ -219,7 +219,7 @@ Disable **Personalized Ads** if you don't want targeted ads. Select **Apple Adve
 
 - [x] Select **Turn On App Privacy Report**
 
-Set **wired accessories** to ask for permission when you connect them. Select **Wired Accessories**:
+Set wired accessories to ask for permission when you connect them. Select **Wired Accessories**:
 
 - [x] Select **Always Ask** or **Ask for New Accessories**
 
@@ -288,7 +288,7 @@ Guided Access isn't foolproof, it's possible you could leak data you don't inten
 
 If you need to hide information in a photo, you can use Apple's built-in editing tools to do so.
 
-If your device supports it, you can use the [Clean Up](https://support.apple.com/en-us/121429) feature to pixelate faces or remove objects from images.
+You can use the [Clean Up](https://support.apple.com/en-us/121429) feature on supported devices to pixelate faces or remove objects from images.
 
 - Open the **Photos** app and tap the photo you have selected for redaction
 - Tap the :material-tune:
@@ -318,7 +318,7 @@ Apple always makes beta versions of iOS available early for those that wish to h
 
 If your threat model includes [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red } that involve forensic tools, and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. The state *after* a reboot but *before* unlocking your device is referred to as "Before First Unlock" (BFU), and when your device is in that state it makes it [significantly more difficult](https://belkasoft.com/checkm8_glossary) for forensic tools to exploit vulnerabilities to access your data. This BFU state allows you to receive notifications for calls, texts, and alarms, but most of the data on your device is still encrypted and inaccessible. This can be impractical, so consider whether these trade-offs make sense for your situation.
 
-iPhones automatically [reboot](https://support.apple.com/guide/security/protecting-user-data-in-the-face-of-attack-secf5549a4f5/1/web/1#:~:text=On%20an%20iPhone%20or%20iPad%20with%20iOS%2018%20and%20iPadOS%2018%20or%20later%2C%20a%20new%20security%20protection%20will%20restart%20devices%20if%20they%20remain%20locked%20for%20a%20prolonged%20period%20of%20time.) over a period of time if they're not unlocked.
+iPhones [automatically reboot](https://support.apple.com/guide/security/protecting-user-data-in-the-face-of-attack-secf5549a4f5/1/web/1#:~:text=On%20an%20iPhone%20or%20iPad%20with%20iOS%2018%20and%20iPadOS%2018%20or%20later%2C%20a%20new%20security%20protection%20will%20restart%20devices%20if%20they%20remain%20locked%20for%20a%20prolonged%20period%20of%20time.) if they're not unlocked after a period of time.
 
 ### MTE
 
