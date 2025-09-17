@@ -87,6 +87,20 @@ Click the small :material-information-outline: icon next to **Automatic Updates*
 
 - [x] Turn on **Install Security Responses and system files**
 
+#### Apple Intelligence & Siri
+
+This is available if your device supports **[Apple Intelligence](https://support.apple.com/guide/iphone/apple-intelligence-and-privacy-iphe3f499e0e/ios)**. Apple Intelligence uses a combination of on-device processing and their **[Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute)** for things that take more processing power than your device can provide.
+
+To see a report of all the requests made to Apple's servers, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. Similar to the **App Privacy Report** which shows you the recent permissions accessed by the apps on your phone, the Apple Intelligence Report likewise shows what is being sent to Apple's servers while using Apple Intelligence.
+
+By default, Apple Intelligence integrates with ChatGPT. If you don't want ChatGPT integration, you can navigate to **ChatGPT**:
+
+- [ ] Turn off **Use ChatGPT**
+
+You can also have it ask for confirmation every time if you leave ChatGPT integration on:
+
+- [x] Turn on **Confirm Requests** 
+
 #### Privacy & Security
 
 Whenever an application requests a permission, it will show up here. You can decide which applications you want to allow or deny specific permissions.
