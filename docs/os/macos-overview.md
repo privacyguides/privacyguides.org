@@ -71,7 +71,7 @@ If this configuration is too strict, you can come back and uncheck this. However
 
 #### General
 
-By default, your device name will be something like "[your name]'s iMac". Because this name is publicly broadcast on your network, you'll want to change your device name to something generic like "Mac".
+By default, your device name will be something like "[your name]'s iMac". Because this name is [publicly broadcast on your network](https://support.apple.com/guide/mac-help/change-computers-local-hostname-mac-mchlp2322/26/mac/26#:~:text=The%20local%20hostname%2C%20or%20local%20network%20name%2C%20is%20displayed%20at%20the%20bottom%20of%20the%20Sharing%20settings%20window.%20It%20identifies%20your%20Mac%20to%20Bonjour%2Dcompatible%20services.), you'll want to change your device name to something generic like "Mac".
 
 Click on **About** and type your desired device name into the **Name** field.
 
@@ -137,9 +137,9 @@ On older Intel-based Mac computers, FileVault is the only form of disk encryptio
 
 ### MAC Address Randomization
 
-macOS uses a randomized MAC address when performing Wi-Fi scans while disconnected from a network.
+macOS uses a randomized MAC address when [performing Wi-Fi scans](https://support.apple.com/guide/security/privacy-features-connecting-wireless-networks-secb9cb3140c/web) while disconnected from a network.
 
-You can set your MAC address to be randomized per network and rotate occasionally to prevent tracking between networks and on the same network over time.
+You can set your [MAC address to be randomized](https://support.apple.com/en-us/102509) per network and rotate occasionally to prevent tracking between networks and on the same network over time.
 
 Go to **System Settings** → **Network** → **Wi-Fi** → **Details** and set **Private Wi-Fi address** to either **Fixed** if you want a fixed but unique address for the network you're connected to, or **Rotating** if you want it to change over time.
 
@@ -154,7 +154,7 @@ macOS employs defense in depth by relying on multiple layers of software and har
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-macOS allows you to install beta updates. These are unstable and may come with extra telemetry since they're for testing purposes. Because of this, we recommend you avoid beta software in general.
+macOS allows you to install beta updates. These are unstable and may come with [extra telemetry](https://beta.apple.com/privacy) since they're for testing purposes. Because of this, we recommend you avoid beta software in general.
 
 </div>
 
