@@ -275,13 +275,16 @@ You can use the [Clean Up](https://support.apple.com/en-us/121429) feature on su
 
 Our warning [against blurring text](../data-redaction.md) also applies here, so we recommend to instead add a black shape with 100% opacity over it. In addition to redacting text, you can also black out any face or object using the **Photos** app.
 
+<div class="annotate" markdown>
+
 - Tap the image you have selected for redaction
 - Tap the :material-tune: → :material-dots-horizontal: (1) → Markup → :material-plus:
-{ .annotate }
-
-1. This may not appear on certain iPhone models.
 - Select **Add Shape** and choose the square or circle
 - On the toolbar, tap the circle and choose black as the color for filling in the shape. You can also move the shape and increase its size as you see fit.
+
+</div>
+
+1. This may not appear on certain iPhone models.
 
 **Don't** use the highlighter to obfuscate information, as its opacity is not quite 100%.
 
