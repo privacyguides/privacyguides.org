@@ -114,7 +114,17 @@ It is important to install **Software Updates** frequently to get the latest sec
 
 Select **Background App Refresh** and switch off any apps you don't want to continue refreshing in the background. If you don't want any apps to refresh in the background, you can select **Background App Refresh** again and turn it **Off**.
 
-#### Siri
+#### Apple Intelligence & Siri
+
+If your device supports **[Apple Intelligence](https://support.apple.com/guide/iphone/apple-intelligence-and-privacy-iphe3f499e0e/ios)**, that will show up here. Apple intelligence uses a combination of on-device processing and their **[Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute/)** for things that take more processing power than your device can provide. To see a report of all the requests made to Apple's servers, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the last either 15 minutes or 7 days, depending on what you set it for. This is similar to **App Privacy Report** but for Apple Intelligence: it's only for you to be able to see what's being sent.
+
+By default, Apple Intelligence integrates with ChatGPT. If you don't want ChatGPT integration, you can navigate to **ChatGPT**
+
+- [ ] Turn off **Use ChatGPT**
+
+You can also have it ask for confirmation every time if you leave ChatGPT integration on:
+
+- [x] Turn on **Confirm Requests** 
 
 If you don't want anyone to be able to control your phone with Siri when it is locked, you can turn that off here.
 
