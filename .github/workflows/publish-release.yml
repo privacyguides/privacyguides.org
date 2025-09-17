@@ -63,8 +63,6 @@ jobs:
       context: production
       continue-on-error: false
       cache: false
-    secrets:
-      RO_DISCOURSE_API_KEY: ${{ secrets.RO_DISCOURSE_API_KEY }}
 
   build_blog:
     needs: submodule
@@ -85,8 +83,6 @@ jobs:
     with:
       repo: ${{ github.repository }}
       ref: ${{ github.ref }}
-    secrets:
-      RO_DISCOURSE_API_KEY: ${{ secrets.RO_DISCOURSE_API_KEY }}
 
   release:
     name: Create release notes
