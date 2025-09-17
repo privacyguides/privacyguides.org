@@ -280,6 +280,10 @@ When it is necessary to use one of these processors, Apple works with the vendor
 
 Apple Silicon separates each component that requires direct memory access. For example, a Thunderbolt port can't access memory designated for the kernel.
 
+#### Terminal Secure Keyboard Entry
+
+Enable [Secure Keyboard Entry](https://support.apple.com/guide/terminal/use-secure-keyboard-entry-trml109/mac) to prevent other apps from detecting what you type in the terminal.
+
 ## Sources
 
 - [Apple Platform Security](https://support.apple.com/guide/security/welcome/web)
