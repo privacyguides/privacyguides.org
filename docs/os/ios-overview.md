@@ -116,7 +116,9 @@ Select **Background App Refresh** and switch off any apps you don't want to cont
 
 #### Apple Intelligence & Siri
 
-If your device supports **[Apple Intelligence](https://support.apple.com/guide/iphone/apple-intelligence-and-privacy-iphe3f499e0e/ios)**, that will show up here. Apple intelligence uses a combination of on-device processing and their **[Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute/)** for things that take more processing power than your device can provide. To see a report of all the requests made to Apple's servers, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the last either 15 minutes or 7 days, depending on what you set it for. This is similar to **App Privacy Report** but for Apple Intelligence: it's only for you to be able to see what's being sent.
+This is available if your device supports **[Apple Intelligence](https://support.apple.com/guide/iphone/apple-intelligence-and-privacy-iphe3f499e0e/ios)**. Apple Intelligence uses a combination of on-device processing and their **[Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute)** for things that take more processing power than your device can provide.
+
+To see a report of all the requests made to Apple's servers, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. Similar to the **App Privacy Report** which shows you the recent permissions accessed by the apps on your phone, the Apple Intelligence Report likewise shows what is being sent to Apple's servers while using Apple Intelligence.
 
 By default, Apple Intelligence integrates with ChatGPT. If you don't want ChatGPT integration, you can navigate to **ChatGPT**:
 
