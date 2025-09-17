@@ -45,7 +45,7 @@ There are a number of built-in settings you should confirm or change to harden y
 
 #### Bluetooth
 
-- [ ] Uncheck **Bluetooth** (unless you are currently using it)
+- [ ] Turn off **Bluetooth** (unless you are currently using it)
 
 #### Network
 
@@ -55,17 +55,17 @@ Click on the "Details" button by your network name:
 
 - [x] Select **Rotating** under **Private Wi-Fi address**
 
-- [x] Check **Limit IP address tracking**
+- [x] Turn on **Limit IP address tracking**
 
 ##### Firewall
 
 Your firewall blocks unwanted network connections. The stricter your firewall settings are, the more secure your Mac is. However, certain services will be blocked. You should configure your firewall to be as strict as you can without blocking services you use.
 
-- [x] Check **Firewall**
+- [x] Turn on **Firewall**
 
 Click the **Options** button:
 
-- [x] Check **Block all incoming connections**
+- [x] Turn on **Block all incoming connections**
 
 If this configuration is too strict, you can come back and uncheck this. However, macOS will typically prompt you to allow incoming connections for an app if the app requests it.
 
