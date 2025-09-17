@@ -81,15 +81,11 @@ You should automatically install all available updates to make sure your Mac has
 
 Click the small :material-information-outline: icon next to **Automatic Updates**:
 
-- [x] Check **Check for updates**
+- [x] Turn on **Download new updates when available**
 
-- [x] Check **Download new updates when available**
+- [x] Turn on **Install macOS updates**
 
-- [x] Check **Install macOS updates**
-
-- [x] Check **Install application updates from the App Store**
-
-- [x] Check **Install Security Responses and system files**
+- [x] Turn on **Install Security Responses and system files**
 
 #### Privacy & Security
 
