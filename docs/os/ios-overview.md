@@ -150,19 +150,7 @@ You can similarly disable biometrics by pressing the side button five times, or 
 
 After enabling Stolen Device Protection, [certain actions](https://support.apple.com/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling Lost Mode. It also adds a security delay to certain actions performed away from your home or another "familiar location," such as requiring a 1-hour timer to reset your Apple Account password or sign out of your Apple Account. This delay is intended to give you time to enable Lost Mode and secure your account before a thief can reset your device.
 
-**Allow Access When Locked** gives you options for what you can allow when your phone is locked. The more of these options you disable, the less someone without your password can do, but the less convenient it will be for you. Pick and choose which of these you don't want someone to have access to if they get their hands on your phone.
-
-- [ ] Turn off **Today View and Search**
-- [ ] Turn off **Notification Center**
-- [ ] Turn off **Control Center**
-- [ ] Turn off **Lock Screen Widgets**
-- [ ] Turn off **Live Activities**
-- [ ] Turn off **Siri**
-- [ ] Turn off **Reply with Message**
-- [ ] Turn off **Home Control**
-- [ ] Turn off **Wallet**
-- [ ] Turn off **Return Missed Calls**
-- [ ] Turn off **Workout Health Data**
+**Allow Access When Locked** presents options for what you can allow when your phone is locked. Pick and choose which feature you want to disable to prevent unauthorized access if someone gets their hands on your phone. The more of these options you disable, the less someone without your password can do, but the less convenient it will be for you.
 
 iPhones are already resistant to brute-force attacks by making you wait long periods of time after multiple failed attempts; however, there have historically been exploits to get around this. To be extra safe, you can set your phone to wipe itself after 10 failed passcode attempts.
 
@@ -199,19 +187,7 @@ You should turn off **Research Sensor & Usage Data** if you don't wish to partic
 
 **[Safety Check](https://support.apple.com/guide/personal-safety/safety-check-iphone-ios-16-ips2aad835e1/1.0/web/1.0)** allows you to quickly view and revoke certain people and apps that might have permission to access your data. Here, you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources. You can also **Manage Sharing & Access**, which allows you to review and customize who and what has access to your device and account resources. If you're in an abusive situation, read Apple's [Personal Safety User Guide](https://support.apple.com/guide/personal-safety/welcome/web) for guidance on what you should do.
 
-You should disable analytics if you don't wish to send Apple usage data. Select **Analytics & Improvements**:
-
-- [ ] Turn off **Share iPhone Analytics** or **Share iPhone & Watch Analytics**
-- [ ] Turn off **Share iCloud Analytics**
-- [ ] Turn off **Share With App Developers**
-- [ ] Turn off **Improve Apple Pay**
-- [ ] Turn off **Improve Handwashing**
-- [ ] Turn off **Improve Health & Activity**
-- [ ] Turn off **Improve Safety**
-- [ ] Turn off **Improve Siri & Dictation**
-- [ ] Turn off **Improve Assistive Voice Features**
-- [ ] Turn off **Improve Wheelchair Mode**
-- [ ] Turn off **Improve AR Location Accuracy**
+You should disable analytics if you don't wish to send usage data to Apple. Select **Analytics & Improvements** and unselect the type(s) of analytics that you don't want to send to Apple.
 
 Disable **Personalized Ads** if you don't want targeted ads. Select **Apple Advertising**:
 
