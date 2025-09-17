@@ -95,25 +95,17 @@ Whenever an application requests a permission, it will show up here. You can dec
 
 You can individually allow location services per-app. If you don't need apps to use your location, turning off location services entirely is the most private option.
 
-- [ ] Uncheck **Location Services**
+- [ ] Turn off **Location Services**
 
 ##### Analytics & Improvements
 
 Decide whether you want to share analytics data with Apple and developers.
 
-- [ ] Uncheck **Share Mac Analytics**
-
-- [ ] Uncheck **Improve Siri & Dictation**
-
-- [ ] Uncheck **Share with app developers**
-
-- [ ] Uncheck **Share iCloud Analytics** (visible if you are signed in to iCloud)
-
 ##### Apple Advertising
 
 Decide whether you want personalized ads based on your usage.
 
-- [ ] Uncheck **Personalized Ads**
+- [ ] Turn off **Personalized Ads**
 
 ##### FileVault
 
@@ -137,7 +129,7 @@ You can set your MAC address to be randomized per network and rotate occasionall
 
 Go to **System Settings** → **Network** → **Wi-Fi** → **Details** and set **Private Wi-Fi address** to either **Fixed** if you want a fixed but unique address for the network you're connected to, or **Rotating** if you want it to change over time.
 
-Consider changing your hostname as well, which is another device identifier that's broadcast on the network you're connected to. You may wish to set your hostname to something generic like "MacBook Air", "Laptop", "John's MacBook Pro", or "iPhone" in **System Settings** → **General** → **Sharing**. Some [privacy scripts](https://github.com/sunknudsen/privacy-guides/tree/master/how-to-spoof-mac-address-and-hostname-automatically-at-boot-on-macos#guide) allow you to easily generate hostnames with random names.
+Consider changing your hostname as well, which is another device identifier that's broadcast on the network you're connected to. You may wish to set your hostname to something generic like "MacBook Air", "Laptop", "John's MacBook Pro", or "iPhone" in **System Settings** → **General** → **Sharing**.
 
 ## Security Protections
 
@@ -266,6 +258,10 @@ Your biometric data never leaves your device; it's stored only in the Secure Enc
 All laptops with Apple Silicon or the T2 chip feature a hardware disconnect for the built-in microphone whenever the lid is closed. This means that there is no way for an attacker to listen to your Mac's microphone even if the operating system is compromised.
 
 Note that the camera does not have a hardware disconnect, since its view is obscured when the lid is closed anyway.
+
+#### Secure Camera Indicator
+
+The built-in camera in a Mac is designed so that the camera can't turn on without the camera indicator light [also turning on](https://support.apple.com/en-us/102177#:~:text=The%20camera%20is%20engineered%20so%20that%20it%20can’t%20activate%20without%20the%20camera%20indicator%20light%20also%20turning%20on.%20This%20is%20how%20you%20can%20tell%20if%20your%20camera%20is%20on.).
 
 #### Peripheral Processor Security
 
