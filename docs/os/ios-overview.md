@@ -221,7 +221,7 @@ By default, you trust Apple's identity servers that you're messaging the right p
 
 - [x] Turn on **Verification in iMessage**
 
-Follow Apple's [instructions](https://support.apple.com/en-us/118246#verify) to verify your contacts (they also need to enable Contact Key Verification).
+Both you and your contacts need to enable Contact Key Verification and follow Apple's [instructions](https://support.apple.com/en-us/118246#verify) for the security assurances mentioned above to take effect.
 
 ### Photo Permissions
 
