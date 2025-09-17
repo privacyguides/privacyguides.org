@@ -144,7 +144,7 @@ If you use biometrics, you should know how to turn them off quickly in an emerge
 
 You can similarly disable biometrics by pressing the side button five times, or for devices with Touch ID, you can hold down the side button and nothing else. Make sure you try this in advance, so you know which method works for your device.
 
-**Stolen Device Protection** adds additional security intended to protect your personal data if your device is stolen while unlocked. If you use biometrics, we recommend enabling this protection:
+**Stolen Device Protection** adds additional security intended to protect your personal data if your device is stolen while unlocked. If you enable both biometric authentication and the [Find My](#find-my) iPhone feature, we recommend enabling this protection:
 
 - [x] Turn on **Stolen Device Protection**
 
@@ -276,7 +276,10 @@ You can use the [Clean Up](https://support.apple.com/en-us/121429) feature on su
 Our warning [against blurring text](../data-redaction.md) also applies here, so we recommend to instead add a black shape with 100% opacity over it. In addition to redacting text, you can also black out any face or object using the **Photos** app.
 
 - Tap the image you have selected for redaction
-- Tap the :material-tune: → markup symbol → plus icon
+- Tap the :material-tune: → :material-dots-horizontal: (1) → Markup → :material-plus:
+{ .annotate }
+
+1. This may not appear on certain iPhone models.
 - Select **Add Shape** and choose the square or circle
 - On the toolbar, tap the circle and choose black as the color for filling in the shape. You can also move the shape and increase its size as you see fit.
 
@@ -300,4 +303,6 @@ iPhones [automatically reboot](https://support.apple.com/guide/security/protecti
 
 ### MTE
 
-iPhone 17 and later offer a security enhancement called [Memory Tagging Extension](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension) (MTE) which helps prevent memory bugs and makes exploiting the device significantly harder. This protection is always on, but it's dependent on hardware so it's not available to older devices. You can read more about it on their [blog post](https://security.apple.com/blog/memory-integrity-enforcement/).
+The iPhone 17 line and later offer a security enhancement called [Memory Tagging Extension](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension) (MTE), which makes it significantly harder for an attacker to exploit memory corruption vulnerabilities. This always-on protection depends on hardware support, so it's not available for older devices.
+
+For more details on Apple's implementation of MTE, read the [blog post](https://security.apple.com/blog/memory-integrity-enforcement) published by Apple Security Research.
