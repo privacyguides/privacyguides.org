@@ -89,7 +89,7 @@ Click the small :material-information-outline: icon next to **Automatic Updates*
 
 #### Apple Intelligence & Siri
 
-This is available if your device supports **[Apple Intelligence](https://www.apple.com/legal/privacy/data/en/intelligence-engine/)**. Apple Intelligence uses a combination of on-device processing and their **[Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute)** for things that take more processing power than your device can provide.
+This is available if your device supports **[Apple Intelligence](https://apple.com/legal/privacy/data/en/intelligence-engine)**. Apple Intelligence uses a combination of on-device processing and their **[Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute)** for things that take more processing power than your device can provide.
 
 To see a report of all the requests made to Apple's servers, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. Similar to the **App Privacy Report** which shows you the recent permissions accessed by the apps on your phone, the Apple Intelligence Report likewise shows what is being sent to Apple's servers while using Apple Intelligence.
 
@@ -113,7 +113,7 @@ You can individually allow location services per-app. If you don't need apps to 
 
 ##### Analytics & Improvements
 
-Decide whether you want to share analytics data with Apple and developers.
+Decide whether you want to share analytics data with Apple and app developers.
 
 ##### Apple Advertising
 
@@ -131,7 +131,7 @@ On older Intel-based Mac computers, FileVault is the only form of disk encryptio
 
 ##### Lockdown Mode
 
-**[Lockdown Mode](https://support.apple.com/guide/mac-help/lock-mac-targeted-a-cyberattack-ibrw66f4e191/mac)** disables some features in order to improve security. Some apps or features won't work the same way they do when it's off, for example, [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers) and [WASM](https://developer.mozilla.org/docs/WebAssembly) are disabled in Safari with Lockdown Mode enabled. We recommend enabling Lockdown Mode and seeing whether it significantly impacts your usage, many of the changes it makes are easy to live with.
+**[Lockdown Mode](https://support.apple.com/guide/mac-help/lock-mac-targeted-a-cyberattack-ibrw66f4e191/mac)** disables some features in order to improve security. Some apps or features won't work the same way they do when it's off. For example, Javascript Just-In-Time [(JIT)](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers) compilation and [WebAssembly](https://developer.mozilla.org/docs/WebAssembly) are disabled in Safari with Lockdown Mode enabled. We recommend enabling Lockdown Mode and seeing whether it significantly impacts daily usage.
 
 - [x] Click **Turn On**
 
