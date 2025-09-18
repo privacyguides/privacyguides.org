@@ -44,6 +44,9 @@ tags:
   og:image:height: "{{ image.height }}"
   og:url: "{{ page.canonical_url }}"
 
+  # Facebook
+  article:publisher: "https://www.facebook.com/PrivacyGuides.org"
+
   # Mastodon
   fediverse:creator: "@privacyguides@neat.computer"
 
