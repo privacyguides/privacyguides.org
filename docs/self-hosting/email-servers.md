@@ -1,6 +1,6 @@
 ---
 title: Email Servers
-meta_title: "Self-Hosted Email - Privacy Guides"
+meta_title: "Self-Hosting Email - Privacy Guides"
 icon: material/email
 description: For our more technical readers, self-hosting your own email can provide additional privacy assurances by having maximum control over your data.
 cover: email.webp
@@ -9,7 +9,7 @@ cover: email.webp
 
 - [:material-server-network: Service Providers](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-Advanced system administrators may consider setting up their own email server. Mail servers require attention and continuous maintenance in order to keep things secure and mail delivery reliable. In addition to the "all-in-one" solutions below, we've picked out a few articles that cover a more manual approach:
+Advanced system administrators may consider setting up their own **email server**. Mail servers require attention and continuous maintenance in order to keep things secure and mail delivery reliable. In addition to the "all-in-one" solutions below, we've picked out a few articles that cover a more manual approach:
 
 - [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
 - [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide) (August 2017)

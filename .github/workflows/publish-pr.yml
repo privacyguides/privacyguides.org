@@ -89,18 +89,6 @@ jobs:
           echo "sha=$(cat metadata/SHA)" >> "$GITHUB_OUTPUT"
           echo "privileged=$(cat metadata/PRIVILEGED)" >> "$GITHUB_OUTPUT"
 
-  deploy_netlify:
-    needs: metadata
-    permissions:
-      contents: read
-
-    uses: privacyguides/webserver/.github/workflows/deploy-netlify-preview.yml@main
-    with:
-      netlify_alias: ${{ needs.metadata.outputs.pr_number }}
-      netlify_site_id: ${{ vars.NETLIFY_SITE }}
-    secrets:
-      NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
-
   deploy_garage:
     needs: metadata
     permissions:

@@ -91,7 +91,7 @@ Developed and hosted by *XWiki* in Paris, France, **CryptPad** is a complete onl
 
 <div class="admonition recommendation" markdown>
 
-![Nextcloud logo](../assets/img/document-collaboration/nextcloud.svg){ align=right }
+![Nextcloud logo](../assets/img/self-hosting/nextcloud.svg){ align=right }
 
 **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
 

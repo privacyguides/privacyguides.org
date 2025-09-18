@@ -57,7 +57,7 @@ jobs:
 
       - name: Run generate-topics.sh for top posts
         run: |
-          bash generate-topics.sh \
+          bash tools/generate-topics.sh \
             --source='https://discuss.privacyguides.net/top.json?period=weekly' \
             --tag="top posts" \
             --destination="./site/en/index.html" \
@@ -65,7 +65,7 @@ jobs:
 
       - name: Run generate-topics.sh for latest posts
         run: |
-          bash generate-topics.sh \
+          bash tools/generate-topics.sh \
             --source='https://discuss.privacyguides.net/latest.json' \
             --tag="latest posts" \
             --destination="./site/en/index.html" \

@@ -86,6 +86,10 @@ authors:
     mastodon:
       username: blacklight447
       instance: mastodon.social
+  ptrmdn:
+    name: Peter Marsden
+    description: Guest Contributor
+    avatar: https://forum-cdn.privacyguides.net/user_avatar/discuss.privacyguides.net/ptrmdn/288/14291_2.png
   sam-howell:
     name: Sam Howell
     description: Guest Contributor
