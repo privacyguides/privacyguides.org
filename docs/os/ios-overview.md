@@ -217,7 +217,7 @@ The [color of the message bubble](https://support.apple.com/en-us/104972) in the
 
 If either you or your messaging partner have iCloud Backup enabled without Advanced Data Protection, the encryption key will be stored on Apple's servers, meaning they can access your messages.
 
-By default, you trust Apple's identity servers that you're messaging the right person. To eliminate the need to trust Apple's servers, you can enable **[Contact Key Verification](https://support.apple.com/en-us/118246)**. At the top of the **Settings** app where your name is, select it, then go to **Contact Key Verification**.
+By default, you trust Apple's identity servers that you're messaging the right person. To defend yourself from a potentially malicious server, you can enable **[Contact Key Verification](https://support.apple.com/en-us/118246)**. At the top of the **Settings** app where your name is, select it, then go to **Contact Key Verification**.
 
 - [x] Turn on **Verification in iMessage**
 
