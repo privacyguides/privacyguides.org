@@ -104,7 +104,14 @@ By default, ChatGPT integration is disabled. If you don't want ChatGPT integrati
 
 You can also have it ask for confirmation every time if you leave ChatGPT integration on:
 
-- [x] Turn on **Confirm Requests** 
+- [x] Turn on **Confirm Requests**
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+Any request made with ChatGPT will be sent to ChatGPT's servers, there is no on-device processing and no PCC like with Apple Intelligence.
+
+</div>
 
 #### Privacy & Security
 
