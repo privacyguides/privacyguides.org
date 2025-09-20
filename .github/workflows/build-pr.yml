@@ -72,15 +72,13 @@ jobs:
       continue-on-error: false
       privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
       strict: true
-    secrets:
-      RO_DISCOURSE_API_KEY: ${{ secrets.RO_DISCOURSE_API_KEY }}
 
   build_i18n:
     if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build i18n') }}
     needs: [submodule, metadata]
     strategy:
       matrix:
-        lang: [es, fr, he, it, nl, ru, zh-Hant]
+        lang: [es, fr, he, it, nl, ru, zh-Hant, zh-TW]
       fail-fast: false
     uses: ./.github/workflows/build.yml
     with:
@@ -101,24 +99,21 @@ jobs:
       continue-on-error: true
       privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
 
-  build_videos:
-    if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build videos') }}
+  build_zimfile:
+    if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build zimfile') }}
     needs: [submodule, metadata]
-    uses: ./.github/workflows/build-videos.yml
+    uses: ./.github/workflows/build-zimfile.yml
     with:
       ref: ${{github.event.pull_request.head.ref}}
       repo: ${{github.event.pull_request.head.repo.full_name}}
-      continue-on-error: true
-      privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
 
   combine_build:
-    needs: [build_english, build_i18n, build_blog, build_videos]
+    needs: [build_english, build_i18n, build_blog]
     if: |
       (always() && !cancelled() && !failure()) &&
       needs.build_english.result == 'success' &&
       (needs.build_i18n.result == 'success' || needs.build_i18n.result == 'skipped') &&
-      (needs.build_blog.result == 'success' || needs.build_blog.result == 'skipped') &&
-      (needs.build_videos.result == 'success' || needs.build_videos.result == 'skipped')
+      (needs.build_blog.result == 'success' || needs.build_blog.result == 'skipped')
 
     runs-on: ubuntu-latest
     steps:
@@ -140,5 +135,5 @@ jobs:
 
   cleanup:
     if: ${{ always() }}
-    needs: [build_english, build_i18n, build_blog, build_videos]
+    needs: [build_english, build_i18n, build_blog, build_zimfile]
     uses: privacyguides/.github/.github/workflows/cleanup.yml@main

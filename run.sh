@@ -100,14 +100,14 @@ if [ "$language" == "he" ]; then
   export BUILD_THEME_FONT_TEXT="Open Sans"
 fi
 
-# Set font if chinese
-if [ "$language" == "zh-Hant" ]; then
+# Set font if russian or chinese
+if [[ "ru zh-Hant zh-TW" =~ $language ]]; then
   export BUILD_THEME_FONT_CODE="Noto Sans TC"
   export BUILD_THEME_FONT_TEXT="Noto Sans TC"
 fi
 
 # Set stylesheet if hebrew or russian or chinese
-if [[ "he ru zh-Hant" =~ $language ]]; then
+if [[ "he ru zh-Hant zh-TW" =~ $language ]]; then
   export TRANSLATION_STYLESHEET="assets/stylesheets/lang-$language.css?v=20240410"
 fi
 
