@@ -109,7 +109,7 @@ Built-in OS encryption solutions generally leverage hardware security features s
 
 </div>
 
-BitLocker is [officially supported](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on the Pro, Enterprise, and Education editions of Windows. It can be enabled on Home editions provided that they meet the following prerequisites.
+BitLocker is [officially supported](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on the Pro, Enterprise, and Education editions of Windows. Device Encryption, a less-featured version of Bitlocker, can be enabled on Home editions provided that they meet the following prerequisites.
 
 <details class="example" markdown>
 <summary>Enabling BitLocker on Windows Home</summary>
