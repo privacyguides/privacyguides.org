@@ -9,7 +9,7 @@ categories:
     - Reviews
 authors:
     - em
-description: "If you have been looking for a privacy-respectful replacement to Google Docs, now is the time to switch to the end-to-end encrypted office suite CryptPad."
+description: If you've been looking for a privacy-respectful replacement to Google Docs, now is the time to switch to the end-to-end encrypted office suite CryptPad.
 preview:
   logo: theme/assets/img/document-collaboration/cryptpad.svg
 review:

@@ -5,7 +5,7 @@ categories:
     - Opinion
 authors:
     - em
-description: Increasingly, surveillance is being normalized and integrated in our lives. Under the guise of convenience, applications and features are sold to us as being the new better way to do things. While some might be useful, this convenience is a Trojan horse. The cost of it is the continuous degradation of our privacy rights, with all that that entails.
+description: Increasingly, surveillance is being normalized and integrated in our lives. Under the guise of convenience, applications and features are sold to us as being the new better way to do things. But this convenience is a Trojan horse.
 schema_type: OpinionNewsArticle
 preview:
   cover: blog/assets/images/selling-surveillance-as-convenience/surveillance-cover.webp
