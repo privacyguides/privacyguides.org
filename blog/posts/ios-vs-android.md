@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2025-05-19T20:15:00Z
+    created: 2025-09-27T17:00:00Z
 categories:
     - Opinion
 authors:
@@ -12,7 +12,7 @@ tags:
 preview:
 ---
 
-# iOS vs Android Security: What Each Can Learn from the Other
+# iOS vs Android Security: What They Can Learn From Each Other
 
 Both Android and iOS run on the vast majority of our mobile devices, meaning they are entrusted with our most sensitive data. While they trade blows, there are areas where the two differ in security features and philosophy.<!-- more -->
 
@@ -26,7 +26,7 @@ iOS is a closed-source operating system, but it's based on the open-source [XNU 
 
 It's important to note that being open-source doesn't [inherently make software secure](https://seirdy.one/posts/2022/02/02/floss-security), but it can be helpful for anyone wanting to audit the code.
 
-I'd like to see Apple realease its entire operating system as open source in order to foster a spirit of openness and allow for [reproducible builds](https://reproducible-builds.org), allowing third parties to verify that the downloaded binaries match the released source code. As of now, that's impossible thanks to iOS's closed nature. A fully open-source iOS would also be the first step in third-party 
+I'd like to see Apple realease its entire operating system as open source in order to foster a spirit of openness and allow for [reproducible builds](https://reproducible-builds.org), allowing third parties to verify that the downloaded binaries match the released source code. As of now, that's impossible thanks to iOS's closed nature. A fully open-source iOS would also be the first step in third-party
 
 ### Android
 
