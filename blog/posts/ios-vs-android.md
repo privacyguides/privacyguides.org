@@ -129,3 +129,37 @@ GrapheneOS is probably the best example of what an alternate OS can achieve. The
 GrapheneOS utilizes hardware features like MTE, which is locked behind [Advanced Protection](https://support.google.com/accounts/answer/9764949?hl=en) normally, by default and with significantly [more coverage](https://x.com/GrapheneOS/status/1965810573066768865#m).
 
 They also disable USB at the [hardware level](https://grapheneos.org/features#usb-c-port-and-pogo-pins-control). This is a demonstrable security improvement, as forensics companies like [Cellebrite](https://discuss.grapheneos.org/d/14344-cellebrite-premium-july-2024-documentation) have leaked documentation showing they're not able to get into GrapheneOS devices above a 2022 patch level.
+
+## Permissions
+
+Both operating systems sandbox their apps to prevent access to most of the system, but many things like the camera and microphone are left to users to decide if they allow them or not. iOS and Android differ in what permissions they offer and the granularity of the permissions.
+
+### iOS
+
+iOS has historically been ahead of AOSP in terms of the permissions it offers.
+
+iOS's [paste permission](https://developer.apple.com/documentation/uikit/uipasteboard/) prevents apps from nefariously reading data from your clipboard without your permission, something AOSP lacks still.
+
+iOS added the [Local Network](https://developer.apple.com/documentation/technotes/tn3179-understanding-local-network-privacy) permission in iOS 14, preventing apps from accessing other devices on your local network such as other phones or computers, maybe even network drives with sensitive data on them. Android later [added this permission](https://developer.android.com/privacy-and-security/local-network-permission) in Android 16, albeit currently as opt-in for developers.
+
+Their [contact picker](https://support.apple.com/guide/iphone/control-access-to-contacts-iph9536aa9a5/ios) from iOS 18 allows you to select specific individual contacts you want an app to have access to without giving the app access to your full contact list, a feature which AOSP has yet to implement (although GrapheneOS has a more [granular version](https://grapheneos.org/usage#contact-scopes) of this that they made first).
+
+iOS 26 recently added a [Wired Accessories](https://support.apple.com/en-us/111806) permission as well.
+
+While iOS tends to lead in terms of the sheer number of permissions, they could stand to be more granular. On iOS, once you grant a permission, it tends to stay until you remove it. They have a "one time" option for location, but seemingly not for anything else.
+
+iOS's permissions also tend to lean toward individual apps rather than global permissions. There's no global toggle for the camera or microphone for example like on Android. When you try to disable WiFi or Bluetooth globally through the Control Center on iOS, they won't actually fully disable: you need to go to the settings in order to properly disable them (unless you have Airplane Mode on for some reason).
+
+There's also the matter of some permissions only being available in certain regions, like apparently Chinese iPhones have a granular [network permission](https://sspai.com/post/35720) that can allow you grant specific apps network access. This would be a huge security improvement on iOS, and it's a feature that's already been implemented so it's quite confusing why they wouldn't ship this feature globally.
+
+These permissions might protect you from third-party apps, but Apple's own apps can actually [bypass the system permissions](https://blog.xpnsec.com/bypassing-macos-privacy-controls/#:~:text=A%20quick%20review%20of%20Calendar's,How%20can%20we%20subvert%20this?). Allowing their own apps privileged access in the system is, in my opinion, both a privacy and security issue. This means that any Apple app could access your camera, microphone, etc without you knowing about it. I'd like to see Apple not make their own apps privileged, I think that would make users more comfortable and give them more controll over their system.
+
+### Android
+
+Android's permissions tend to lag behind iOS, but they usually end up implementing them in the end. The strength on Android is the global toggles for things like camera and microphone, and much wider use of "one time" permissions.
+
+GrapheneOS greatly expands on the permissions AOSP offers, giving highly granular options such as [Contact Scopes](https://grapheneos.org/usage#contact-scopes) that allow you not only to pick what specific contacts you want, but also specific information from each contact.
+
+GrapheneOS also implements a user-facing Network permission allowing apps to individually be granted network access.
+
+You would think with examples of these features already being implemented on *their own platform*, AOSP would go ahead and add them, but that doesn't seem to be the case. I'd like to see Android implement equivalent versions of these permissions to what GrapheneOS offers, the research and development work has already been done on how they should work, they just need to copy it.
