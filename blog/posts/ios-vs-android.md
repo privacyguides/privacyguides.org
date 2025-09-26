@@ -102,3 +102,30 @@ Because of Android's support for third-party app stores, it's possible to use an
 
 Accrescent allows for developers to control their own signing keys, and doesn't require an account, among other improvements. This is an improvement over the Google Play Store where Google controls the signing keys and you need a Google account to use it.
 
+## Alternate OS Support
+
+Support for installing alternate operating systems isn't just important for user freedom, it's needed so that third parties can make thier own, more secure and more private operating systems than what comes pre-installed.
+
+### iOS
+
+In order to install any apps or use many features on iOS, you need an [Apple Account](https://account.apple.com). Apple Accounts ask for your real name and require a phone number to use, on top of tying your app and other purchases to an account. While iOS is known to be privacy-friendly, Apple's [privacy policy](https://www.apple.com/legal/privacy/en-ww/) leaves a lot to be desired.
+
+iOS doesn't allow you to unlock the bootloader to install another operating system. While [jailbreaking](https://en.wikipedia.org/wiki/IOS_jailbreaking) is possible, it requires exploiting your device and ultimately your security will be much worse.
+
+iOS should allow for fully unlocking and relocking the bootloader for alternate operating systems, so a version of iOS without any user data being sent to Apple can be installed.
+
+This goes along with open sourcing their OS as well. When Apple eventually drops support for devices, it would be good to still be able to get updates through a third-party OS, although they wouldn't be able to update the firmware.
+
+Alternate OS's can also allow people to more fully utilize the hardware security features. For example, the [MTE](https://security.apple.com/blog/memory-integrity-enforcement/) support in newer iPhones currently doesn't cover everything in the OS, just "the kernel and over 70 userland processes" as well as being optional for app developers to enable. An alternate OS could be more strict and enable it for everything in the OS as well as apps by default, with a toggle to disable it if they crash.
+
+### Android
+
+While on paper Android is much more free in this regard, many OEMs don't properly support fully unlocking and relocking the bootloader. Google Pixels are really your only option on Android in this regard.
+
+The open nature of Android is ruined a bit by most of the OEMs, like [Samsung](https://x.com/GrapheneOS/status/1960374409572610192#m).
+
+GrapheneOS is probably the best example of what an alternate OS can achieve. They've made [significant security improvements](https://grapheneos.org/features) over the default Pixel OS and AOSP.
+
+GrapheneOS utilizes hardware features like MTE, which is locked behind [Advanced Protection](https://support.google.com/accounts/answer/9764949?hl=en) normally, by default and with significantly [more coverage](https://x.com/GrapheneOS/status/1965810573066768865#m).
+
+They also disable USB at the [hardware level](https://grapheneos.org/features#usb-c-port-and-pogo-pins-control). This is a demonstrable security improvement, as forensics companies like [Cellebrite](https://discuss.grapheneos.org/d/14344-cellebrite-premium-july-2024-documentation) have leaked documentation showing they're not able to get into GrapheneOS devices above a 2022 patch level.
