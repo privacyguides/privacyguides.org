@@ -118,11 +118,11 @@ This goes along with open sourcing their OS as well. When Apple eventually drops
 
 Alternate OS's can also allow people to more fully utilize the hardware security features. For example, the [MTE](https://security.apple.com/blog/memory-integrity-enforcement/) support in newer iPhones currently doesn't cover everything in the OS, just "the kernel and over 70 userland processes" as well as being optional for app developers to enable. An alternate OS could be more strict and enable it for everything in the OS as well as apps by default, with a toggle to disable it if they crash.
 
-Apple's refusal to allow rooting iPhones also stifles security researchers' ability to do their work, many of them having to resort to exploiting the phone just to have the access they need.
+Apple's refusal to allow unlocking the bootloader on iPhones also stifles security researchers' ability to do their work, many of them having to resort to exploiting the phone just to have the access they need.
 
 Apple's [Security Research Device](https://security.apple.com/research-device/) program is an acknowledgement of this problem. It offers built-in access to make security research much easier. However, it's only offered as a "12-month renewable loan" (meaning you never own the device) and is only available to people with "a proven track record of success in finding security issues on Apple platforms, or other modern operating systems and platforms". This means if you're not already an established security researcher, you won't have access to it.
 
-In my opinion, this strict locking down of the platform stifles up-and-coming security researchers. Apple should allow users to root their devices if they want, with a warning about the security implications.
+In my opinion, this strict locking down of the platform stifles up-and-coming security researchers. Apple should allow users to unlock the bootloader on their devices if they want, with a warning about the security implications.
 
 ### Android
 
