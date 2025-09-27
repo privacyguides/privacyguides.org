@@ -126,7 +126,7 @@ In my opinion, this strict locking down of the platform stifles up-and-coming se
 
 ### Android
 
-While on paper Android is much more free in this regard, many OEMs don't properly support fully unlocking and relocking the bootloader. Google Pixels are really your only option on Android in this regard.
+While on paper Android is much more free in this regard, many OEMs don't properly support fully [unlocking and relocking](https://source.android.com/docs/core/architecture/bootloader/locking_unlocking) the bootloader. Google Pixels are really your only option on Android in this regard.
 
 The open nature of Android is ruined a bit by most of the OEMs, like [Samsung](https://x.com/GrapheneOS/status/1960374409572610192#m).
 
@@ -135,6 +135,8 @@ GrapheneOS is probably the best example of what an alternate OS can achieve. The
 GrapheneOS utilizes hardware features like MTE, which is locked behind [Advanced Protection](https://support.google.com/accounts/answer/9764949?hl=en) normally, by default and with significantly [more coverage](https://x.com/GrapheneOS/status/1965810573066768865#m).
 
 They also disable USB at the [hardware level](https://grapheneos.org/features#usb-c-port-and-pogo-pins-control). This is a demonstrable security improvement, as forensics companies like [Cellebrite](https://discuss.grapheneos.org/d/14344-cellebrite-premium-july-2024-documentation) have leaked documentation showing they're not able to get into GrapheneOS devices above a 2022 patch level.
+
+
 
 ## Permissions
 
