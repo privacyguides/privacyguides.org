@@ -136,7 +136,7 @@ GrapheneOS utilizes hardware features like MTE, which is locked behind [Advanced
 
 They also disable USB at the [hardware level](https://grapheneos.org/features#usb-c-port-and-pogo-pins-control). This is a demonstrable security improvement, as forensics companies like [Cellebrite](https://discuss.grapheneos.org/d/14344-cellebrite-premium-july-2024-documentation) have leaked documentation showing they're not able to get into GrapheneOS devices above a 2022 patch level.
 
-
+The ability to unlock the bootloader on Android devices is a huge boon for security research as well.
 
 ## Permissions
 
