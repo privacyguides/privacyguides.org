@@ -146,7 +146,7 @@ iOS added the [Local Network](https://developer.apple.com/documentation/technote
 
 Their [contact picker](https://support.apple.com/guide/iphone/control-access-to-contacts-iph9536aa9a5/ios) from iOS 18 allows you to select specific individual contacts you want an app to have access to without giving the app access to your full contact list, a feature which AOSP has yet to implement (although GrapheneOS has a more [granular version](https://grapheneos.org/usage#contact-scopes) of this that they made first).
 
-iOS 26 recently added a [Wired Accessories](https://support.apple.com/en-us/111806) permission as well.
+iOS 26 recently added a [Wired Accessories](https://support.apple.com/en-us/111806) setting as well so you can change how the phone behaves when a wired accessory is connected.
 
 While iOS tends to lead in terms of the sheer number of permissions, they could stand to be more granular. On iOS, once you grant a permission, it tends to stay until you remove it. They have a "one time" option for location, but seemingly not for anything else.
 
