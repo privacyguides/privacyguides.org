@@ -140,6 +140,8 @@ iOS has historically been ahead of AOSP in terms of the permissions it offers.
 
 iOS's [paste permission](https://developer.apple.com/documentation/uikit/uipasteboard/) prevents apps from nefariously reading data from your clipboard without your permission, something AOSP lacks still.
 
+Since iOS 13, apps need to go through the [system file picker](https://developer.apple.com/documentation/uikit/providing-access-to-directories) and are only granted access to the specific files the user allows via a security-scoped URL, they don't gain access to the full filesystem.
+
 iOS added the [Local Network](https://developer.apple.com/documentation/technotes/tn3179-understanding-local-network-privacy) permission in iOS 14, preventing apps from accessing other devices on your local network such as other phones or computers, maybe even network drives with sensitive data on them. Android later [added this permission](https://developer.android.com/privacy-and-security/local-network-permission) in Android 16, albeit currently as opt-in for developers.
 
 Their [contact picker](https://support.apple.com/guide/iphone/control-access-to-contacts-iph9536aa9a5/ios) from iOS 18 allows you to select specific individual contacts you want an app to have access to without giving the app access to your full contact list, a feature which AOSP has yet to implement (although GrapheneOS has a more [granular version](https://grapheneos.org/usage#contact-scopes) of this that they made first).
