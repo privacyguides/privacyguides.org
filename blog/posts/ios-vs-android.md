@@ -24,13 +24,13 @@ One of the most glaring differences is the source model of each operating system
 
 iOS is a closed-source operating system, but it's based on the open-source [XNU kernel](https://github.com/apple-oss-distributions/xnu). The kernel handles almost everything on the operating system, so it's good that such a vital component is openly available to examine and do what you want with.
 
-It's important to note that being open-source doesn't [inherently make software secure](https://seirdy.one/posts/2022/02/02/floss-security), but it can be helpful for anyone wanting to audit the code.
+It's important to note that being open source [doesn't inherently make software secure](https://seirdy.one/posts/2022/02/02/floss-security), but it can be helpful for anyone wanting to audit the code.
 
 I'd like to see Apple release its entire operating system as open source in order to foster a spirit of openness and allow for [reproducible builds](https://reproducible-builds.org), allowing third parties to verify that the downloaded binaries match the released source code. As of now, that's impossible thanks to iOS's closed nature. A fully open-source iOS would also be the first step in third-party operating system support on the platform.
 
 ### Android
 
-The beating heart of Android is the [Android Open Source Project](https://source.android.com) (AOSP). AOSP is essentially a complete open-source mobile operating system on its own. Android was designed from the beginning to be used by lots of different companies for their own mobile phone offerings, so the open nature is useful toward that goal.
+The beating heart of Android is the [Android Open Source Project](https://source.android.com) (AOSP). AOSP is essentially a complete, open-source mobile OS on its own. Android was designed from the beginning to be used by lots of different companies for each of their own mobile phone offerings, so the open nature is useful toward that goal.
 
 However, AOSP is only a bare-bones operating system. OEMs are expected to add their own proprietary components to make their own, custom user experience. This is why most Android phones you buy are full of proprietary software like Facebook and other OEM software; companies that sell Android phones mainly use AOSP as a secure base to then run on their phones with proprietary drivers and their own custom Android. While the openness of AOSP is great, the OEMs making the phones ultimately ruin it.
 
@@ -56,7 +56,7 @@ Apple has started to replace other components as well, with their newest phones 
 
 Apple can deal with vulnerabilities themselves when they're reported instead of waiting for a third party to fix it. According to their [docs](https://support.apple.com/guide/security/peripheral-processor-security-seca500d4f2b/1/web/1):
 
->Whenever possible, Apple works to reduce the number of peripheral processors necessary and to avoid designs that require firmware. But when separate processors with their own firmware are required, efforts are taken to help ensure an attacker can’t persist on that processor.
+> Whenever possible, Apple works to reduce the number of peripheral processors necessary and to avoid designs that require firmware. But when separate processors with their own firmware are required, efforts are taken to help ensure an attacker can’t persist on that processor.
 
 They take care to reduce attack surface by disabling debug interfaces and signing the firmware with keys stored in Apple's own hardware security modules.
 
@@ -64,7 +64,7 @@ Apple also supports all the important hardware security features you'd want, lik
 
 Processors that deal with networking are isolated via an [IOMMU](https://support.apple.com/guide/security/security-features-connecting-wireless-sec8a67fa93d/1/web/1#sec7e0184776) so that they can't access each other's memory.
 
-Overall, Apple does an excellent job with hardware security, most Android OEMs could stand to learn from them.
+Overall, Apple does an excellent job with hardware security. Most Android OEMs could stand to learn from them.
 
 ### Android
 
@@ -90,7 +90,7 @@ In the EU, Apple was forced to allow [third-party app stores](https://developer.
 
 ### Android
 
-Android takes the opposite approach and lets you simply download and run apps from the internet. This gives you much more freedom as a user but could potentially open you up to more malicious apps, for example apps that abuse [accessibility permissions](https://blog.pradeo.com/accessibility-services-mobile-analysis-malware) to gain deep access to your device.
+Android takes the opposite approach and lets you simply download and run apps from the internet. This gives you much more freedom as a user but could potentially open you up to more malicious apps, for example, apps that abuse [accessibility permissions](https://blog.pradeo.com/accessibility-services-mobile-analysis-malware) to gain deep access to your device.
 
 The Google Play Store sets a strict [SDK level requirement](https://developer.android.com/google/play/requirements/target-sdk), but apps downloaded outside the Google Play Store have much more leniency. Sideloaded apps can target very old SDK levels, which means they won't have the same security restrictions as apps targeting newer SDK's. The biggest restriction that seems to exist in the OS preventing running older SDK's is if an app targets an SDK at or below Android 5.1 (!?) you'll get a warning message. For reference, Android 5 came out in 2014.
 
@@ -98,7 +98,7 @@ I think Android could stand to enforce a higher SDK level and simply refuse to r
 
 GrapheneOS raises the minimum SDK from AOSP.
 
-Because of Android's support for third-party app stores, it's possible to use an app store with superior security to the Google Play Store. [Accrescent](https://accrescent.app) is just such an example.
+Because of Android's support for third-party app stores, it's possible to use an app store with superior security to the Google Play Store. [Accrescent](https://accrescent.app) is one such an example.
 
 Accrescent allows for developers to control their own signing keys, and doesn't require an account, among other improvements. This is an improvement over the Google Play Store where Google controls the signing keys, and you need a Google account to use it.
 
@@ -112,21 +112,21 @@ In order to install any apps or use many features on iOS, you need an [Apple Acc
 
 iOS doesn't allow you to unlock the bootloader to install another operating system. While [jailbreaking](https://en.wikipedia.org/wiki/IOS_jailbreaking) is possible, it requires exploiting your device and ultimately your security will be much worse.
 
-iOS should allow for fully unlocking and relocking the bootloader for alternate operating systems, so a version of iOS without any user data being sent to Apple can be installed.
+iOS should allow for fully unlocking and relocking the bootloader for alternate operating systems so that a version of iOS without any user data being sent to Apple can be installed.
 
 This goes along with open sourcing their OS as well. When Apple eventually drops support for devices, it would be good to still be able to get updates through a third-party OS, although they wouldn't be able to update the firmware.
 
-Alternate OS's can also allow people to more fully utilize the hardware security features. For example, the [MTE](https://security.apple.com/blog/memory-integrity-enforcement/) support in newer iPhones currently doesn't cover everything in the OS, just "the kernel and over 70 userland processes" as well as being optional for app developers to enable. An alternate OS could be more strict and enable it for everything in the OS as well as apps by default, with a toggle to disable it if they crash.
+Alternate operating systems can also allow people to more fully utilize the hardware security features. For example, the [MTE](https://security.apple.com/blog/memory-integrity-enforcement) support in newer iPhones currently doesn't cover everything in the OS, just "the kernel and over 70 userland processes," as well as being optional for app developers to enable. An alternate OS could be more strict and enable it for everything in the OS as well as apps by default, with a toggle to disable it if they crash.
 
-Apple's refusal to allow unlocking the bootloader on iPhones also stifles security researchers' ability to do their work, many of them having to resort to exploiting the phone just to have the access they need.
+Apple's refusal to allow unlocking the bootloader on iPhones also stifles security researchers' ability to do their work, with many of them having to resort to exploiting the phone just to have the access they need.
 
-Apple's [Security Research Device](https://security.apple.com/research-device/) program is an acknowledgement of this problem. It offers built-in access to make security research much easier. However, it's only offered as a "12-month renewable loan" (meaning you never own the device) and is only available to people with "a proven track record of success in finding security issues on Apple platforms, or other modern operating systems and platforms". This means if you're not already an established security researcher, you won't have access to it.
+Apple's [Security Research Device](https://security.apple.com/research-device) program is an acknowledgement of this problem. It offers built-in access to make security research much easier. However, it's only offered as a "12-month renewable loan" (meaning you never own the device) and is only available to people with "a proven track record of success in finding security issues on Apple platforms, or other modern operating systems and platforms". This means if you're not already an established security researcher, you won't have access to it.
 
 In my opinion, this strict locking down of the platform stifles up-and-coming security researchers. Apple should allow users to unlock the bootloader on their devices if they want, with a warning about the security implications.
 
 ### Android
 
-While on paper Android is much more free in this regard, many OEMs don't properly support fully [unlocking and relocking](https://source.android.com/docs/core/architecture/bootloader/locking_unlocking) the bootloader. Google Pixels are really your only option on Android in this regard.
+While Android is, on paper, much more free in terms of alternate OS support, many OEMs don't properly support fully [unlocking and relocking](https://source.android.com/docs/core/architecture/bootloader/locking_unlocking) the bootloader. Google Pixels are really your only option on Android in this regard.
 
 The open nature of Android is ruined a bit by most of the OEMs, like [Samsung](https://x.com/GrapheneOS/status/1960374409572610192#m).
 
@@ -146,7 +146,7 @@ Both operating systems sandbox their apps to prevent access to most of the syste
 
 iOS has historically been ahead of AOSP in terms of the permissions it offers.
 
-iOS's [paste permission](https://developer.apple.com/documentation/uikit/uipasteboard/) prevents apps from nefariously reading data from your clipboard without your permission, something AOSP lacks still.
+iOS's [paste permission](https://developer.apple.com/documentation/uikit/uipasteboard) prevents apps from nefariously reading data from your clipboard without your permission, something AOSP lacks still.
 
 Since iOS 13, apps need to go through the [system file picker](https://developer.apple.com/documentation/uikit/providing-access-to-directories) and are only granted access to the specific files the user allows via a security-scoped URL, they don't gain access to the full filesystem like apps can on [Android](https://developer.android.com/training/data-storage/manage-all-files#:~:text=Android%20provides%20a%20special%20app%20access%20called%20all%2Dfiles%20access%20for%20these%20situations.).
 
@@ -160,7 +160,7 @@ While iOS tends to lead in terms of the sheer number of permissions, they could 
 
 iOS's permissions also tend to lean toward individual apps rather than global permissions. There's no global toggle for the camera or microphone for example like on Android. When you try to disable WiFi or Bluetooth globally through the Control Center on iOS, they won't actually fully disable: you need to go to the settings in order to properly disable them (unless you have Airplane Mode on for some reason).
 
-There's also the matter of some permissions only being available in certain regions, like apparently Chinese iPhones have a granular [network permission](https://sspai.com/post/35720) that can allow you grant specific apps network access. This would be a huge security improvement on iOS, and it's a feature that's already been implemented so it's quite confusing why they wouldn't ship this feature globally.
+There's also the matter of some permissions only being available in certain regions: Apparently, Chinese iPhones have a granular [network permission](https://sspai.com/post/35720) that can allow you grant specific apps network access. This would be a huge security improvement on iOS, and it's a feature that's already been implemented so it's quite confusing why they wouldn't ship this feature globally.
 
 These permissions might protect you from third-party apps, but Apple's own apps can actually [bypass the system permissions](https://blog.xpnsec.com/bypassing-macos-privacy-controls/#:~:text=A%20quick%20review%20of%20Calendar's,How%20can%20we%20subvert%20this?). Allowing their own apps privileged access in the system is, in my opinion, both a privacy and security issue. This means that any Apple app could access your camera, microphone, etc without you knowing about it. I'd like to see Apple not make their own apps privileged, I think that would make users more comfortable and give them more controll over their system.
 
