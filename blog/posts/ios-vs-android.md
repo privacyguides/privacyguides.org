@@ -170,7 +170,7 @@ Android's permissions tend to lag behind iOS, but they usually end up implementi
 
 GrapheneOS greatly expands on the permissions AOSP offers, giving highly granular options such as [Contact Scopes](https://grapheneos.org/usage#contact-scopes) that allow you not only to pick what specific contacts you want, but also specific information from each contact.
 
-GrapheneOS also implements a user-facing Network permission allowing apps to individually be granted network access.
+GrapheneOS also implements a user-facing Network permission which allows you to grant network access to individual apps.
 
 You would think with examples of these features already being implemented on *their own platform*, AOSP would go ahead and add them, but that doesn't seem to be the case. I'd like to see Android implement equivalent versions of these permissions to what GrapheneOS offers, the research and development work has already been done on how they should work, they just need to copy it.
 
