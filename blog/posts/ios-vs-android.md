@@ -170,8 +170,28 @@ Android's permissions tend to lag behind iOS, but they usually end up implementi
 
 GrapheneOS greatly expands on the permissions AOSP offers, giving highly granular options such as [Contact Scopes](https://grapheneos.org/usage#contact-scopes) that allow you not only to pick what specific contacts you want, but also specific information from each contact.
 
-GrapheneOS also implements a user-facing Network permission which allows you to grant network access to individual apps.
+GrapheneOS also implements a user-facing [Network permission](https://grapheneos.org/features#network-permission-toggle) allowing apps to individually be granted network access.
 
 You would think with examples of these features already being implemented on *their own platform*, AOSP would go ahead and add them, but that doesn't seem to be the case. I'd like to see Android implement equivalent versions of these permissions to what GrapheneOS offers, the research and development work has already been done on how they should work, they just need to copy it.
 
 The stock OS pre-installed on an Android phone suffers from a similar problem as iOS on an iPhone in that Google Play Services are [highly privileged](https://developers.google.com/android/guides/permissions#:~:text=Google%20Play%20services%20automatically%20obtains%20all%20permissions%20it%20needs%20to%20support%20its%20APIs.) in the OS. GrapheneOS's [sandboxed Google Play Services](https://grapheneos.org/features#sandboxed-google-play) provides to option to install it inside the standard app sandbox, preventing it from having any access outside what a normal app would have. This is a massive boost in security and privacy and is how Google Play Services should operate by default.
+
+## Profiles
+
+Support for separate user profiles allows for strong separation of activities, similar to how different browser profiles allow you to separate your browsing.
+
+### iOS
+
+iOS doesn't allow for separate profiles. This is a major detriment on iOS as Android does support separate profiles, each encrypted with a separate encryption key..
+
+iOS could benefit massively from introducing multiple user profiles. Apple has already implemented the feature on [iPadOS](https://support.apple.com/guide/deployment/shared-ipad-overview-dep9a34c2ba2/web) but requires the iPad to be supervised.
+
+### Android
+
+Android's support for separate [user profiles](https://source.android.com/docs/devices/admin/multi-user) take great pains to enforce separation of data using separate encryption keys and settings.
+
+It's intending for separate physical people, but it can easily be used to keep one person to keep data separate. Even Android themselves acknowledge this with [work profiles](https://www.android.com/enterprise/work-profile/) allowing businesses to keep their employees' personal data separate from their work data, preventing leakage either direction.
+
+Profiles also form the basis of Android's [Private Space](https://source.android.com/docs/security/features/private-space) feature, which allows you to make a secure silo for sensitive apps and data.
+
+The closest iOS gets is the ability to [lock and hide apps](https://support.apple.com/guide/iphone/lock-or-hide-or-an-app-iph00f208d05/ios), which is useful but not as strong as Android's profiles separation.
