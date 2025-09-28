@@ -22,7 +22,7 @@ One of the most glaring differences is the source model of each operating system
 
 ### iOS
 
-iOS is a closed-source operating system, but it's based on the open-source [XNU kernel](https://github.com/apple-oss-distributions/xnu). The kernel handles almost everything on the operating system, so it's good that such a vital component is openly available to examine and do what you want with.
+iOS is a closed-source OS, but it's based on the open-source [XNU kernel](https://github.com/apple-oss-distributions/xnu). The kernel handles almost everything on the OS, so it's good that such a vital component is openly available to examine and test.
 
 It's important to note that being open source [doesn't inherently make software secure](https://seirdy.one/posts/2022/02/02/floss-security), but it can be helpful for anyone wanting to audit the code.
 
