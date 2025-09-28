@@ -98,7 +98,7 @@ I think Android could stand to enforce a higher SDK level and simply refuse to r
 
 GrapheneOS raises the minimum SDK from AOSP.
 
-Because of Android's support for third-party app stores, it's possible to use an app store with superior security to the Google Play Store. [Accrescent](https://accrescent.app) is one such an example.
+Because of Android's support for third-party app stores, it's possible to use an app store with superior security to the Google Play Store. [Accrescent](https://accrescent.app) is just such an example.
 
 Accrescent allows for developers to control their own signing keys, and doesn't require an account, among other improvements. This is an improvement over the Google Play Store where Google controls the signing keys, and you need a Google account to use it.
 
