@@ -130,7 +130,7 @@ The open nature of Android is ruined a bit by most of the OEMs, like [Samsung](h
 
 GrapheneOS is probably the best example of what an alternate OS can achieve. They've made [significant security improvements](https://grapheneos.org/features) over the default Pixel OS and AOSP.
 
-GrapheneOS utilizes hardware features like MTE, which is locked behind [Advanced Protection](https://support.google.com/accounts/answer/9764949?hl=en) normally, by default and with significantly [more coverage](https://x.com/GrapheneOS/status/1965810573066768865#m).
+For example, whereas MTE is locked behind [Advanced Protection](https://support.google.com/accounts/answer/9764949?hl=en) on the stock Pixel OS, GrapheneOS utilizes the hardware feature by default and with significantly [more coverage](https://x.com/GrapheneOS/status/1965810573066768865#m).
 
 They also disable USB at the [hardware level](https://grapheneos.org/features#usb-c-port-and-pogo-pins-control). This is a demonstrable security improvement, as forensics companies like [Cellebrite](https://discuss.grapheneos.org/d/14344-cellebrite-premium-july-2024-documentation) have leaked documentation showing they're not able to get into GrapheneOS devices above a 2022 patch level.
 
