@@ -66,7 +66,7 @@ All of these applications are optional. You can set up nearly any combination of
 | Arti | A [Tor](https://www.privacyguides.org/en/advanced/tor-overview) client written in Rust. | Connect to Tor nodes, broadcast transactions over Tor, and connect to TrueNAS apps over Tor. |
 | Java I2P | The officially distributed app to connect to the [I2P network](https://www.privacyguides.org/en/alternative-networks/#i2p-the-invisible-internet-project). | Connect to I2P nodes, broadcast transactions over I2P, and connect to TrueNAS apps over I2P. |
 | Monero Node | The officially distributed app for communicating with the Monero network. | The app provides the necessary information to send and receive Monero transactions. Most wallets (including the official Monero wallets and Cake Wallet) connect to Monero nodes. |
-| Monero-LWS | A "**L**ight**w**eight **S**erver" that allows "lightweight" wallets to send and receive Monero transactions. | Lightweight Monero wallet apps (including Edge Wallet and MyMonero) can connect to this server so that the wallet itself does not need to scan/sync Monero history; the server handles this scanning/syncing. |
+| Monero-LWS | A "**L**ight-**W**allet **S**erver" that allows "light-wallets" to send and receive Monero transactions. | Monero light-wallet apps (including Edge Wallet and MyMonero) can connect to this server so that the wallet itself does not need to scan/sync Monero history; the server handles this scanning/syncing. |
 
 ## Configure TrueNAS Storage
 
