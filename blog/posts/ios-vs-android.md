@@ -38,7 +38,7 @@ Because AOSP is open source though, non-OEM third parties such as [GrapheneOS](h
 
 Many custom AOSP operating systems, while being open source, actually reduce security from AOSP through delayed updates and not supporting important Android security features like [Verified Boot](https://source.android.com/docs/security/features/verifiedboot) (this problem applies to many open source Android operating systems, but not GrapheneOS as they explicitly aim to never downgrade security from AOSP).
 
-A problem inherent to being downstream of AOSP, third-party operating systems also must wait for Google to [ship patches and updates](https://x.com/grapheneos/status/1964561043906048183) for them to apply. Ultimately they are up to the whims of the upstream project which is not ideal.
+One problem custom Android operating systems face is the inherent issue of being [downstream](https://en.wikipedia.org/wiki/Downstream_(software_development)) of AOSP, which means third-party operating systems must wait for the upstream project to ship patches and updates. In this case, AOSP-based operating systems are [at the whim of Google](https://x.com/grapheneos/status/1964561043906048183) for timely security patches and updates, which is not ideal.
 
 ## Hardware
 
