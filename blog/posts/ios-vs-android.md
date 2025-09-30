@@ -209,3 +209,19 @@ Apple makes no mention of a feature protecting against insider attacks that I co
 Android on the other hand implements [insider attack resistance](https://android-developers.googleblog.com/2018/05/insider-attack-resistance.html) by preventing the firmware on the secure element from being upgraded unless the correct user password is input.
 
 Specifically, this prevents a targeted malicious update against a specific user from working without the user's cooperation. This is a great security feature and very needed in a world where governments have tried to coerce companies into pushing a [targeted malicious update](https://www.apple.com/customer-letter/) before.
+
+## Browser
+
+The browser is a major way users are exposed to malware. Your browser runs untrusted code from multiple sources constantly, and any vulnerability could yield a treasure trove of data including bank account session tokens and passwords.
+
+### iOS
+
+On iOS, you're [locked to using WebKit](https://developer.apple.com/app-store/review/guidelines/#:~:text=Apps%20that%20browse%20the%20web%20must%20use%20the%20appropriate%20WebKit%20framework%20and%20WebKit%20JavaScript.). Any other browesr you install is essentially just a reskin of Safari.
+
+Apple did allow [alternate browser engines](https://developer.apple.com/support/alternative-browser-engines/) in the EU, but in other regions you're still locked to using WebKit.
+
+While Safari does offer good [privacy features](https://webkit.org/blog/15697/private-browsing-2-0/), it's lacking some important security protections that other browsers have like [site isolation](https://docs.webkit.org/Deep%20Dive/SiteIsolation.html#finding-what-needs-to-be-done), which they are currently working on implementing but it will be some time before it's done.
+
+Locking users out of other browsers stifles competition and user freedom, not to mention potentially [putting users at risk](https://predictors.fail/#:~:text=As%20pointed%20out%20by%20iLeakage%2C%20Safari%20lacks%20Site%20Isolation%2C%20a%20measure%20used%20to%20enforce%20that%20two%20different%20webpages%20not%20from%20the%20same%20domain%20can%20never%20be%20handled%20by%20the%20same%20process.) by locking them out of using browsers with faster updates and more advanced [security features](https://www.chromium.org/Home/chromium-security/site-isolation/).
+
+Apple should open up their ecosystem to allow for alternate browser engines globally instead of just in the EU.
