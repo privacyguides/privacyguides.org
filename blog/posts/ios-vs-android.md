@@ -172,7 +172,7 @@ GrapheneOS greatly expands on the permissions AOSP offers, giving highly granula
 
 GrapheneOS also implements a user-facing [Network permission](https://grapheneos.org/features#network-permission-toggle) allowing apps to individually be granted network access.
 
-You would think with examples of these features already being implemented on *their own platform*, AOSP would go ahead and add them, but that doesn't seem to be the case. I'd like to see Android implement equivalent versions of these permissions to what GrapheneOS offers, the research and development work has already been done on how they should work, they just need to copy it.
+You would think with examples of these features already being implemented on *their own platform*, AOSP would go ahead and add them, but that doesn't seem to be the case. I'd like to see Android implement equivalent versions of these permissions to what GrapheneOS offers. GrapheneOS has already developed and tested the permissions; Google just needs to copy them.
 
 The stock OS pre-installed on an Android phone suffers from a similar problem as iOS on an iPhone in that Google Play Services are [highly privileged](https://developers.google.com/android/guides/permissions#:~:text=Google%20Play%20services%20automatically%20obtains%20all%20permissions%20it%20needs%20to%20support%20its%20APIs.) in the OS. GrapheneOS's [sandboxed Google Play Services](https://grapheneos.org/features#sandboxed-google-play) provides to option to install it inside the standard app sandbox, preventing it from having any access outside what a normal app would have. This is a massive boost in security and privacy and is how Google Play Services should operate by default.
 
