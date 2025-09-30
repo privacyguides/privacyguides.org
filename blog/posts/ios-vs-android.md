@@ -34,7 +34,7 @@ The beating heart of Android is the [Android Open Source Project](https://source
 
 However, AOSP is only a bare-bones operating system. OEMs are expected to add their own proprietary components to make their own, custom user experience. This is why most Android phones you buy are full of proprietary software like Facebook and other OEM software; companies that sell Android phones mainly use AOSP as a secure base to then run on their phones with proprietary drivers and their own custom Android. While the openness of AOSP is great, the OEMs making the phones ultimately ruin it.
 
-Because AOSP is open source though, non-OEM third parties such as [GrapheneOS](https://grapheneos.org) have made their own fully open-source Android operating systems. GrapheneOS supports [reproducible builds](https://grapheneos.org/build#reproducible-builds).
+Because AOSP is open source though, non-OEM third parties such as [GrapheneOS](https://grapheneos.org) have made their own fully open-source Android OS. Unlike stock Android operating systems, GrapheneOS supports [reproducible builds](https://grapheneos.org/build#reproducible-builds).
 
 Many custom AOSP operating systems, while being open source, actually reduce security from AOSP through delayed updates and not supporting important Android security features like [Verified Boot](https://source.android.com/docs/security/features/verifiedboot) (this problem applies to many open source Android operating systems, but not GrapheneOS as they explicitly aim to never downgrade security from AOSP).
 
