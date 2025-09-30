@@ -94,9 +94,7 @@ Android takes the opposite approach and lets you simply download and run apps fr
 
 The Google Play Store sets a strict [SDK level requirement](https://developer.android.com/google/play/requirements/target-sdk), but apps downloaded outside the Google Play Store have much more leniency. Sideloaded apps can target very old SDK levels, which means they won't have the same security restrictions as apps targeting newer SDK's. The closest thing to a guardrail against running apps with older SDKs is a warning notification from the OS about an app targeting an SDK at or below Android 5.1 (!?). For reference, Android 5 came out in 2014.
 
-I think Android could stand to enforce a higher SDK level and simply refuse to run apps that target lower than say a few versions ago. There's no reason to support apps that think they're on Android 5.
-
-GrapheneOS raises the minimum SDK from AOSP.
+I think Android could stand to enforce a higher SDK level and simply refuse to run apps that target lower than say a few versions ago. There's no reason to support apps that think they're on Android 5. GrapheneOS, in line with its firm security posture, raises the minimum SDK from AOSP.
 
 Because of Android's support for third-party app stores, it's possible to use an app store with superior security to the Google Play Store. [Accrescent](https://accrescent.app) is just such an example.
 
