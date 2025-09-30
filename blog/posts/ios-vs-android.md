@@ -36,7 +36,7 @@ However, AOSP is only a bare-bones OS. OEMs are expected to add their own propri
 
 Because AOSP is open source though, non-OEM third parties such as [GrapheneOS](https://grapheneos.org) have made their own fully open-source Android OS. Unlike stock Android operating systems, GrapheneOS supports [reproducible builds](https://grapheneos.org/build#reproducible-builds).
 
-Many open-source, custom AOSP-based operating systems actually reduce security from AOSP through delayed updates and lack of support for important Android security features like [Verified Boot](https://www.privacyguides.org/en/os/android-overview/#verified-boot). GrapheneOS is an exception as they explicitly aim to [never downgrade security from AOSP](https://grapheneos.org/features#:~:text=It%20starts%20from%20the%20strong%20baseline%20of%20the%20Android%20Open%20Source%20Project%20(AOSP)%20and%20takes%20great%20care%20to%20avoid%20increasing%20attack%20surface%20or%20hurting%20the%20strong%20security%20model.).
+Many open-source, custom AOSP-based operating systems actually reduce security from AOSP through delayed updates and lack of support for important Android security features like [Verified Boot](https://source.android.com/docs/security/features/verifiedboot). GrapheneOS is an exception as they explicitly aim to [never downgrade security from AOSP](https://grapheneos.org/features#:~:text=It%20starts%20from%20the%20strong%20baseline%20of%20the%20Android%20Open%20Source%20Project%20(AOSP)%20and%20takes%20great%20care%20to%20avoid%20increasing%20attack%20surface%20or%20hurting%20the%20strong%20security%20model.).
 
 One problem custom Android operating systems face is the inherent issue of being [downstream](https://en.wikipedia.org/wiki/Downstream_(software_development)) of AOSP, which means third-party operating systems must wait for the upstream project to ship patches and updates. In this case, AOSP-based operating systems are [at the whim of Google](https://x.com/grapheneos/status/1964561043906048183) for timely security patches and updates, which is not ideal.
 
@@ -225,3 +225,6 @@ While Safari does offer good [privacy features](https://webkit.org/blog/15697/pr
 Locking users out of other browsers stifles competition and user freedom, not to mention potentially [putting users at risk](https://predictors.fail/#:~:text=As%20pointed%20out%20by%20iLeakage%2C%20Safari%20lacks%20Site%20Isolation%2C%20a%20measure%20used%20to%20enforce%20that%20two%20different%20webpages%20not%20from%20the%20same%20domain%20can%20never%20be%20handled%20by%20the%20same%20process.) by locking them out of using browsers with faster updates and more advanced [security features](https://www.chromium.org/Home/chromium-security/site-isolation/).
 
 Apple should open up their ecosystem to allow for alternate browser engines globally instead of just in the EU.
+
+## Optional App Hardening
+
