@@ -15,8 +15,7 @@ preview:
 # What is Differential Privacy?
 
 !["Differential Privacy" text with a series of ones and zeros being obscured with a blur filter](../assets/images/differential-privacy/cover.webp)
-
-<small aria-hidden="true">Image: Jordan Warne</small>
+<small aria-hidden="true">Image: Privacy Guides / Jordan Warne</small>
 
 Is it possible to collect data from a large group of people but protect each individual's privacy? In this entry of my series on [privacy-enhancing technologies](../tags.md/#tag:privacy-enhancing-technologies), we'll discuss differential privacy and how it can do just that.<!-- more -->
 
@@ -166,7 +165,7 @@ Differential privacy is also used in Google's [Privacy Sandbox](https://privacys
 
 ### Maps
 
-Google Maps uses DP for its [place busyness](https://safety.google/privacy/data/#:~:text=To%20offer%20features%20like%20place%20busyness%20in%20Maps%2C%20we%20apply%20an%20advanced%20anonymization%20technology%20called%20differential%20privacy%20that%20adds%20noise%20to%20your%20information%20so%20it%20can%E2%80%99t%20be%20used%20to%20personally%20identify%20you.) feature, allowing Maps to show you have busy an area is without revealing the movements of individual people.
+Google Maps uses DP for its [place busyness](https://safety.google/privacy/data/#:~:text=To%20offer%20features%20like%20place%20busyness%20in%20Maps%2C%20we%20apply%20an%20advanced%20anonymization%20technology%20called%20differential%20privacy%20that%20adds%20noise%20to%20your%20information%20so%20it%20can%E2%80%99t%20be%20used%20to%20personally%20identify%20you.) feature, allowing Maps to show you how busy an area is without revealing the movements of individual people.
 
 ### Google Fi
 
