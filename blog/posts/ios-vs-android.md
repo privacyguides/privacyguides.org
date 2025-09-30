@@ -195,3 +195,17 @@ It's intending for separate physical people, but it can easily be used to keep o
 Profiles also form the basis of Android's [Private Space](https://source.android.com/docs/security/features/private-space) feature, which allows you to make a secure silo for sensitive apps and data.
 
 The closest iOS gets is the ability to [lock and hide apps](https://support.apple.com/guide/iphone/lock-or-hide-or-an-app-iph00f208d05/ios), which is useful but not as strong as Android's profiles separation.
+
+## Insider Attack Resistance
+
+Both Android and iOS are highly secure against attacks on firmware and internal components thanks to their use of signatures to verify that the firmware is made by the OEM. But what if the attacker has access to the signing keys?
+
+### iOS
+
+Apple makes no mention of a feature protecting against insider attacks that I could find, which seems like a big omission. I think it's clear that you're expected to trust Apple fully on iOS, which is fair but I think it limits what security features they're willing to implement sometimes.
+
+### Android
+
+Android on the other hand implements [insider attack resistance](https://android-developers.googleblog.com/2018/05/insider-attack-resistance.html) by preventing the firmware on the secure element from being upgraded unless the correct user password is input.
+
+Specifically, this prevents a targeted malicious update against a specific user from working without the user's cooperation. This is a great security feature and very needed in a world where governments have tried to coerce companies into pushing a [targeted malicious update](https://www.apple.com/customer-letter/) before.
