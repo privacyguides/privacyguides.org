@@ -42,7 +42,7 @@ One problem custom Android operating systems face is the inherent issue of being
 
 ## Hardware
 
-Hardware is vital to security. Modern smartphones are complicated, with lots of different processors and components, all running their own firmware and with their own potential security vulnerabilities. It's important to lock down these components as much as possible.
+Hardware is vital to security. Modern smartphones pose a challenge with lots of processors and components, each with their own firmware and potential security vulnerabilities. It's important to lock down these components as much as possible.
 
 ### iOS
 
