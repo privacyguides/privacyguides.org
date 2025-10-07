@@ -122,6 +122,7 @@ Both versions of Molly provide the same security improvements and support [repro
 - [:fontawesome-brands-windows: Windows](https://simplex.chat/downloads/#desktop-app)
 - [:simple-apple: macOS](https://simplex.chat/downloads/#desktop-app)
 - [:simple-linux: Linux](https://simplex.chat/downloads/#desktop-app)
+- [:simple-flathub: Flathub](https://flathub.org/en/apps/chat.simplex.simplex)
 
 </details>
 
