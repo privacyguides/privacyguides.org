@@ -61,7 +61,7 @@ Moreover, anyone who for various reasons uses a name that doesn't match their of
 
 ### The transgender community
 
-For transgender and gender diverse individuals, their legal name may be a "dead name." A dead name is a name that they were assigned at birth but no longer identify with. Commonly, transgender people change their name as part of their gender transition.
+For transgender and gender diverse individuals, their legal name may be a "[dead name](https://en.wikipedia.org/wiki/Deadnaming)." A dead name is a name that they were assigned at birth but no longer identify with. Commonly, transgender people change their name as part of their gender transition.
 
 In many countries around the world, there can be many bureaucratic hurdles required to change one's name, meaning that many trans people are unable to update their legal name to reflect their gender identity. Because they no longer identify with their dead name, keeping it private is of great importance for their mental health and safety.
 
@@ -152,7 +152,7 @@ Despite the claims, removing pseudonymity doesn't remove misbehavior online, thi
 
 ### LGBTQ+ people
 
-Moreover, real-name policies disproportionately affect LGBTQ+ people, as they often prefer to not associate their legal name with their online activities. This is especially important for people living in countries where LGBTQ+ identities are criminalized by law, meaning they can be jailed (or worse) if they associate their online activities to their real life identity.
+Moreover, real-name policies disproportionately affect LGBTQ+ people, as they often prefer to not associate their legal name with their online activities. This is especially important for people living in countries where LGBTQ+ identities are [criminalized by law](https://en.wikipedia.org/wiki/Criminalization_of_homosexuality), meaning they can be jailed (or worse) if they associate their online activities to their real life identity.
 
 Unfortunately, it gets even worse, harassers and trolls have weaponized Facebook's real-name policy, and are using it to silence their victims by mass reporting them as using a fake name. In an [open letter](https://www.eff.org/document/open-letter-facebook-about-its-real-names-policy) to Facebook about its real-name policy in 2015, many LGBTQ+ and digital rights organizations warned Facebook that this was being used to silence LGBTQ+ people:
 
