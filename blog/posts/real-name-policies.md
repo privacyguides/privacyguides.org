@@ -90,7 +90,11 @@ Many transgender and gender diverse people use aliases on social media platforms
 
 > "I woke up to find my Facebook account deleted. [...] I have had a Facebook since about 2007 or 2008. Other than when I was a kid and was afraid my parents would find out about my account (causing me to use an alias for a little while), my profile always bore my legal name. A week or so ago, however, I changed my display name to 'Arc Angel.'"
 
-Finally, because of the discrimination and danger that transgender people face in the real world, they often find refuge in online and internet communities. This is where they are able to freely express themselves with a pseudonymous or anonymous identity. If every online platform required these users to use their legal name, this would be extremely dangerous for transgender and gender diverse people who often rely on online spaces for community, friendship, and support.
+Finally, because of the discrimination and danger that transgender people face in the real world, they often find refuge in online and internet communities. According to a report by [Hopelab](https://assets.hopelab.org/wp-content/uploads/2025/03/2025-Without-It-I-Wouldnt-Be-Here.pdf) of LGBTQ+ youth:
+
+> “Transgender young people more often agree that their online communities and friendships were important or very important (84%) when they began to explore their sexuality or gender compared to cisgender LGBQ+ young people (71%).”
+
+This is why it’s so important that they are able to freely express themselves with a pseudonymous or anonymous identity. If every online platform required these users to use their legal name, this would be extremely dangerous for transgender and gender diverse people who often rely on online spaces for community, friendship, and support. 
 
 ### Indigenous people
 
