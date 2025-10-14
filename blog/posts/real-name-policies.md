@@ -207,7 +207,7 @@ Women have long used pseudonyms on the internet in order to conceal their gender
 
 Platforms allowing pseudonyms foster a culture of inclusivity where everyone can participate free from discrimination, regardless of their gender. Real-name policies encourage the opposite: platforms where participants are forced to either endure the abuse and compromise their physical safety, or be excluded entirely.
 
-Pseudonymous author skud [wrote](https://geekfeminismdotorg.wordpress.com/2010/06/10/hacker-news-and-pseudonymity/) for the Geek Feminism blog in 2010 that "women online are regularly admonished to use pseudonyms to protect themselves. Many websites with a culture of pseudonymity [...] have a very high proportion of female members, perhaps in part because of the sense of privacy and security that pseudonymity brings. <span class="pullquote-source">A site which requires real/verified names is automatically flagging itself as a potentially/probably unsafe space for women, or for anyone else at risk of harassment, violence, job discrimination, and the like.</span>"
+Pseudonymous author *skud* [wrote](https://geekfeminismdotorg.wordpress.com/2010/06/10/hacker-news-and-pseudonymity/) for the Geek Feminism blog in 2010 that "women online are regularly admonished to use pseudonyms to protect themselves. Many websites with a culture of pseudonymity [...] have a very high proportion of female members, perhaps in part because of the sense of privacy and security that pseudonymity brings. <span class="pullquote-source">A site which requires real/verified names is automatically flagging itself as a potentially/probably unsafe space for women, or for anyone else at risk of harassment, violence, job discrimination, and the like.</span>"
 
 Women aren't exactly a minority group. While platforms should be inclusive to everyone of course, including minority groups, enforcing a policy that obligates roughly 50% of the population to lower its safety protections in order to participate should be obviously unacceptable.
 
@@ -235,7 +235,7 @@ While Facebook was mentioned abundantly in previous examples, this problem isn't
 
 In 2014, Facebook [made the news](https://www.aclunc.org/blog/my-name-why-aclu-facebook-today) (again) for enforcing a [horrible policy](https://www.zdnet.com/article/facebook-nymwars-disproportionately-outing-lgbt-performers-users-furious/) (again) that was [hurting](https://www.eff.org/deeplinks/2014/09/facebooks-real-name-policy-can-cause-real-world-harm-lgbtq-community) marginalized and vulnerable groups the most ([again](https://www.hrc.org/news/metas-new-policies-how-they-endanger-lgbtq-communities-and-our-tips-for-staying-safe-online)). Several human rights groups, including the Electronic Frontier Foundation, Human Rights Watch, and Access Now even joined the [Nameless Coalition](https://www.accessnow.org/nameless-coalition-calls-on-facebook-to-change-its-real-name-policy/) to demand changes to Facebook's policy.
 
-Facebook presented this ramping up of real-name policy as something important for "authenticity" online. Despite this dubitable claim, Facebook was in all likelyhood simply worried about protecting its financial assets, as ever.
+Facebook presented this ramping up of real-name policy as something important for "authenticity" online. Despite this dubitable claim, Facebook was in all likelihood simply worried about protecting its financial assets, as ever.
 
 Back in 2012, Facebook's share price plummeted after a quarterly filing with the Securities and Exchange Commission [revealed](https://www.theguardian.com/technology/2012/aug/02/facebook-share-price-slumps-20-dollars) that an estimated 8.7% of accounts on the platform may be fake, and 5% of active accounts duplicates (numbers that aren't really that alarming, actually). But this backlash from investors evidently scared Facebook enough to justify intensifying its policy enforcement for accounts using pseudonyms, or suspected of being fake, presumably in an attempt to soothe shareholders.
 
@@ -286,11 +286,11 @@ The new national cyber ID system has been [criticized](https://www.scmp.com/tech
 
 ## Real-name policies don't make the web safer
 
-It has been demonstrated again and again that real-name policies do not reduce abuse and misbehavior online, and only end up harming the most vulnerable. Despite the evidences and failed attempts, platform owners and policymakers obstinately continue to push for the implementation of these dangerous authoritarian systems.
+It has been demonstrated again and again that real-name policies do not reduce abuse and misbehavior online, and only end up harming the most vulnerable. Despite the evidence and failed attempts, platform owners and policymakers obstinately continue to push for the implementation of these dangerous authoritarian systems.
 
-Platforms will often claim these policies are to protect users from harassment, but when action is required to truly protect users they refuse to act. Facebook, the most infamous platform for enforcing its real-name policy, [ranks the worse for online harassment](https://www.theverge.com/news/713976/online-harassment-meta-social-media-environmental-activists).
+Platforms will often claim these policies are to protect users from harassment, but when action is required to truly protect users they refuse to act. Facebook, the most infamous platform for enforcing its real-name policy, [ranks the *worst* for online harassment](https://www.theverge.com/news/713976/online-harassment-meta-social-media-environmental-activists).
 
-So who are these real-name policies truly protecting?
+So, who are these real-name policies truly protecting?
 
 It's clear that, as is the case for other oppressive policies such as [Age Verification](age-verification-wants-your-face.md) and [Chat Control](chat-control-must-be-stopped.md), "safety" is only an excuse for people to accept what this is truly about: **Corporate profit and government control.**
 
@@ -302,7 +302,7 @@ Fighting against policies attacking online pseudonymity, such as real-name polic
 
 ## What you can do about real-name policies
 
-- [**Choose better platforms**](https://news.elenarossini.com/my-fediverse-starter-guide) that do not require you to share your legal name and official IDs, such as Mastodon or other platforms connected to the Fediverse.
+- [**Choose better platforms**](https://news.elenarossini.com/my-fediverse-starter-guide) that do not require you to share your legal name and official IDs, such as [Mastodon](mastodon-privacy-and-security.md) or other platforms connected to the Fediverse.
 
 - [**Inform yourself**](https://safetycrave.com/why-should-not-use-real-names-online/) on the dangers related to using legal names online, and share this information with others.
 
