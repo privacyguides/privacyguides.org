@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2025-10-14T17:30:00Z
+    created: 2025-10-14T18:30:00Z
 categories:
     - Explainers
 authors:
@@ -23,7 +23,7 @@ Real-name policies have existed for well over a decade already, and the problems
 
 Pseudonymity, or the use of a nickname or fictitious name online, has always been deeply valued on the internet. It grants people protections and freedoms that are often impossible to benefit from offline.
 
-Women, and especially women who are part of male-dominated online communities, have regularly used pseudonyms to hide their gender online in order to protect themselves from sexual harassment, stalking, and physical violence even. Transgender and gender diverse people also regularly use pseudonyms for protection, or use new chosen names to explore their gender identity online. Victims of domestic violence, victims of stalkers, activists, and even journalists often use pseudonyms to protect themselves from aggressors or oppressive regimes.
+Women, and especially women who are part of male-dominated online communities, have regularly used pseudonyms to hide their gender online in order to protect themselves from sexual harassment, stalking, and physical violence even. Transgender and gender-diverse people also regularly use pseudonyms for protection, or use new chosen names to explore their gender identity online. Victims of domestic violence, victims of stalkers, activists, and even journalists often use pseudonyms to protect themselves from aggressors or oppressive regimes.
 
 **Pseudonymity saves lives.** And yet, it is constantly under attack.
 
@@ -32,7 +32,7 @@ Women, and especially women who are part of male-dominated online communities, h
 <div class="admonition quote inline end" markdown>
 <p class="admonition-title">Increasingly more platforms demand that users provide their legal name and official identifications in order to keep using a platform.</p></div>
 
-So called "real-name" policies are platform policies requiring users and subscribers to sign up and display their "real name", often equated to a *legal* name.
+So called "real-name" policies are platform policies requiring users and subscribers to sign up and display their "real name," often equated to a *legal* name.
 
 Facebook for example claims not to require a legal name, but only the "real" name a person uses in their daily life. Yet, the social media giant regularly demands official IDs to verify this "real" name, effectively requiring people associate their account with their *legal* identity. Facebook has even repeatedly taken the liberty to decide which name was "real", and changed the displayed name of users based on verification processes **without any prior consent from users**. For people in vulnerable situations, this can be a *very* dangerous practice.
 
@@ -40,35 +40,35 @@ Facebook is perhaps the most infamous platform implementing such discriminatory 
 
 ### Explicit and implicit policies
 
-There is always two levels of real-name policies: The name displayed publicly to everyone (explicitly required), and the name the platform has associated with the account in its database (implicitly associated). While requiring to expose one's legal name publicly can bring more risks, storing legal names without displaying it to other users is also problematic.
+There is always two levels of real-name policies: The name displayed publicly to everyone (explicitly required), and the name the platform has associated with the account in its database (implicitly associated). While a requirement to expose one's legal name publicly has clear privacy risks, storing legal names without displaying it to other users is also problematic.
 
-For explicit requirements, users who are obligated to display their legal name publicly are not only forced to create a permanent association of this account with their legal identity (with all the problems this can bring), but are also potentially exposing their identity and account to current or future attackers. For example, this can facilitate stalkers finding their victims online (and offline) to cause them harm.
+For explicit requirements, users who are obligated to display their legal name publicly are not only forced to create a permanent association of this account with their legal identity (with all the problems this can bring), but are also potentially exposing their identity and account to current or future attackers. For example, this can and does enable stalkers to find their victims online (and offline) to cause them harm.
 
-For implicit associations, as soon as a legal name is collected and associated with an account in the backend, whether from providing official documentation for age verification, account recovery, payment, or any other processes, this data is at risk of getting leaked or breached, and eventually shared publicly as well. Once this data is exposed, this account now also becomes permanently associated with a legal identity, publicly.
+For implicit associations, as soon as a legal name is collected and associated with an account in the backend, whether from providing official documentation for age verification, account recovery, payment, or any other processes; this data is at risk of getting leaked or breached, and eventually shared publicly as well. Once this data is [exposed](https://discuss.privacyguides.net/t/discord-data-breach-customers-personal-data-and-scanned-photo-ids-leaked/31904), this account now also becomes permanently associated with a legal identity, publicly.
 
-Even without having an openly stated real-name policy, platforms collecting official documentation, or otherwise storing legal names associated with accounts, can effectively end up exposing their users to similar risks.
+Even without having an openly stated real-name policy, platforms collecting official documentation—or otherwise storing legal names associated with accounts—can effectively end up exposing their users to similar risks.
 
 ### What is a real name anyway?
 
 Of course, your true *real* name is whatever you decide others should call you. Only *you* can decide this, and others should be respectful of your choice.
 
-Your *legal* name however is a **data marker attached to your person that can be used to trace many of your activities online and offline**, with a high degree of precision, and as far back as when you were born.
+Your *legal* name, however, is a **data marker attached to your person that can be used to trace many of your activities online and offline**, with a high degree of precision going as far back as when you were born.
 
-For everyone, but especially for vulnerable communities, exposing legal names on certain platforms can represent an important risk. The use of [pseudonymity is a critical part of online safety](https://www.techradar.com/pro/vpn/using-your-real-name-on-social-media-heres-why-you-should-think-twice), and people should be able to continue using this protective measure without raising suspicion.
+For everyone, but especially for vulnerable communities, exposing legal names on certain platforms can represent a significant risk. The [use of pseudonymity](https://www.techradar.com/pro/vpn/using-your-real-name-on-social-media-heres-why-you-should-think-twice) is a critical part of online safety, and people should be able to continue using this protective measure without raising suspicion.
 
 ## Who is impacted the most by real-name policies?
 
 Everyone is impacted by real-name policies, but groups that are at higher risk of discrimination, violence, and online harassment are disproportionally harmed by them.
 
-Moreover, anyone who for various reasons uses a name that doesn't match their official ID, has a legal name that doesn't match an expected American name pattern, needs to conceal their gender online for safety, has to protect their identity online due to their work as an activist, journalist, dissident, or whistleblower can be severely impacted, silenced, and even endangered by requirements to provide a legal name online.
+Moreover, anyone who for various reasons uses a name that doesn't match their official ID; has a legal name that doesn't match an expected American name pattern; needs to conceal their gender online for safety; or has to protect their identity online due to their work as an activist, journalist, dissident, or whistleblower can be severely impacted, silenced, and even endangered by requirements to provide a legal name online.
 
 ### The transgender community
 
-For transgender and gender diverse individuals, their legal name may be a "[dead name](https://en.wikipedia.org/wiki/Deadnaming)." A dead name is a name that they were assigned at birth but no longer identify with. Commonly, transgender people change their name as part of their gender transition.
+For transgender and gender-diverse individuals, their legal name may be a "[dead name](https://en.wikipedia.org/wiki/Deadnaming)." A dead name is a name that they were assigned at birth but no longer identify with. Commonly, transgender people change their name as part of their gender transition.
 
 In many countries around the world, there can be many bureaucratic hurdles required to change one's name, meaning that many trans people are unable to update their legal name to reflect their gender identity. Because they no longer identify with their dead name, keeping it private is of great importance for their mental health and safety.
 
-Referring to a trans person with their dead name is considered offensive and often involves misgendering someone too. For transgender people being called a name that they no longer identify with invokes feelings of depression, anxiety, gender dysphoria, and lack of acceptance. Using someone's dead name signals that you don't respect their identity and that you don't care about them enough to use their new name.
+Referring to a trans person with their dead name is considered offensive and often involves misgendering someone too. For transgender people, being called a name that they no longer identify with invokes feelings of depression, anxiety, gender dysphoria, and lack of acceptance. Using someone's dead name signals that you don't respect their identity and that you don't care about them enough to use their new name.
 
 <div class="admonition quote inline end" markdown>
 <p class="admonition-title">23% of LGBTQ+ young people reported that they have been physically threatened or harmed in the past year due to either their sexual orientation or gender identity.</p></div>
@@ -81,7 +81,7 @@ This is why when real-name policies come in, requiring transgender people to use
 
 Having aspects of their identity shared without their consent can put this person in significant physical danger because of unsupportive family members, friends, colleagues, and strangers. This is especially the case with LGBTQ+ youth, who are at heightened risk of online, verbal, physical harassment, or violence due to their identity.
 
-Coming out can be a very daunting and scary process, particularly for transgender and gender diverse people, and often can be an ongoing process over many years. In many cases, LGBTQ+ people choose instead to [hide their identity](https://www.stonewall.org.uk/news/new-research-shows-almost-40-of-lgbtq-employees-still-hide-their-identity-at-work) at social and work gatherings.
+Coming out can be a very daunting and scary process, particularly for transgender and gender-diverse people, and often can be an ongoing process over many years. In many cases, LGBTQ+ people choose instead to [hide their identity](https://www.stonewall.org.uk/news/new-research-shows-almost-40-of-lgbtq-employees-still-hide-their-identity-at-work) at social and work gatherings.
 
 Platforms that enforce real-name policies take away the essential ability to control when and how that process plays out are nothing short of abusive. This might sound hyperbolic, however, "outing" is often used as a mean of control in abusive relationships to coerce an LGBTQ+ individual. The fact that social media platforms are exhibiting similar behavior is alarming.
 
@@ -89,7 +89,7 @@ Unfortunately, many websites don't allow updating the name attached to an accoun
 
 One of the worst offenders of this is Facebook. They require everyone that signs up to use their legal name for their profile, and claim that this is to ensure safety on the platform so that everyone knows who they are talking to is who they say they are.
 
-Many transgender and gender diverse people use aliases on social media platforms to protect their identities and the identities of those around them, because they are more likely to be harassed or doxxed. Facebook's real-name policy has unforeseen consequences for these people, as one transgender Facebook user [found out](https://www.dailydot.com/news/facebook-real-names-cracking-down-transgender/):
+Many transgender and gender-diverse people use aliases on social media platforms to protect their identities and the identities of those around them, because they are more likely to be harassed or doxxed. Facebook's real-name policy has unforeseen consequences for these people, as one transgender Facebook user [found out](https://www.dailydot.com/news/facebook-real-names-cracking-down-transgender/):
 
 > I woke up to find my Facebook account deleted. [...] I have had a Facebook since about 2007 or 2008. Other than when I was a kid and was afraid my parents would find out about my account (causing me to use an alias for a little while), my profile always bore my legal name. A week or so ago, however, I changed my display name to "Arc Angel."
 
@@ -97,7 +97,7 @@ Finally, because of the discrimination and danger that transgender people face i
 
 > Transgender young people more often agree that their online communities and friendships were important or very important (84%) when they began to explore their sexuality or gender compared to cisgender LGBQ+ young people (71%).
 
-This is why it’s so important that they are able to freely express themselves with a pseudonymous or anonymous identity. If every online platform required these users to use their legal name, this would be extremely dangerous for transgender and gender diverse people who often rely on online spaces for community, friendship, and support.
+This is why it’s so important that they are able to freely express themselves with a pseudonymous or anonymous identity. If every online platform required these users to use their legal name, this would be extremely dangerous for transgender and gender-diverse people who often rely on online spaces for community, friendship, and support.
 
 ### Indigenous people
 
@@ -155,9 +155,9 @@ Despite the claims, removing pseudonymity doesn't remove misbehavior online, thi
 
 ### LGBTQ+ people
 
-Moreover, real-name policies disproportionately affect LGBTQ+ people, as they often prefer to not associate their legal name with their online activities. This is especially important for people living in countries where LGBTQ+ identities are [criminalized by law](https://en.wikipedia.org/wiki/Criminalization_of_homosexuality), meaning they can be jailed (or worse) if they associate their online activities to their real life identity.
+Moreover, real-name policies disproportionately affect LGBTQ+ people, as they often prefer to not associate their legal name with their online activities. This is especially important for people living in countries where LGBTQ+ identities are [criminalized by law](https://en.wikipedia.org/wiki/Criminalization_of_homosexuality), meaning they can be jailed (or worse) if they associate their online activities with their real life identity.
 
-Unfortunately, it gets even worse, harassers and trolls have weaponized Facebook's real-name policy, and are using it to silence their victims by mass reporting them as using a fake name. In an [open letter](https://www.eff.org/document/open-letter-facebook-about-its-real-names-policy) to Facebook about its real-name policy in 2015, many LGBTQ+ and digital rights organizations warned Facebook that this was being used to silence LGBTQ+ people:
+Unfortunately, it gets even worse: harassers and trolls have weaponized Facebook's real-name policy, and are using it to silence their victims by mass reporting them as using a fake name. In an [open letter](https://www.eff.org/document/open-letter-facebook-about-its-real-names-policy) to Facebook about its real-name policy in 2015, many LGBTQ+ and digital rights organizations warned Facebook that this was being used to silence LGBTQ+ people:
 
 > Facebook users in the global LGBTQ community, South and Southeast Asia and the Middle East report that groups have deliberately organized (sometimes even coordinating via Facebook) to silence their targets using the "Report Abuse" button.
 
@@ -165,7 +165,7 @@ Despite all the recommendations and warnings by LGBTQ+ organizations and digital
 
 > The name on your profile should be the name that your friends call you in everyday life. This name should also appear on a form of ID or document from our ID list.
 
-Many platforms have been trying to improve the way they handle this and allow for users to select a preferred name that is displayed instead of their legal name. This is an improvement, however it isn't without issues. Platforms shouldn't require you to use your legal name to begin with.
+Many platforms have been trying to improve the way they handle this and allow for users to select a preferred name that is displayed instead of their legal name. This is an improvement, however it isn't without issues. Platforms shouldn't require you to provide your legal name to begin with.
 
 ### Stage performers and small businesses
 
@@ -203,7 +203,7 @@ As reporter Kevin Morris [commented](https://www.dailydot.com/news/la-gringa-fac
 <div class="admonition quote inline end" markdown>
 <p class="admonition-title">A site which requires real/verified names is automatically flagging itself as a potentially/probably unsafe space for women, or for anyone else at risk of harassment, violence, job discrimination, and the like.</p></div>
 
-Women have long used pseudonyms on the internet in order to conceal their gender online and spare themselves from the sexual harassment and discrimination omnipresent on some platforms. This is even more common in male-dominated communities like online gaming, for example. It's not rare to hear some people claiming that there aren't any women in their online community. Well, there probably is.
+Women have long used pseudonyms on the internet in order to conceal their gender online, and spare themselves from the sexual harassment and discrimination omnipresent on some platforms. This is even more common in male-dominated communities like online gaming, for example. It's not rare to hear some people claiming that there aren't any women in their online community. Well, there probably is.
 
 Platforms allowing pseudonyms foster a culture of inclusivity where everyone can participate free from discrimination, regardless of their gender. Real-name policies encourage the opposite: platforms where participants are forced to either endure the abuse and compromise their physical safety, or be excluded entirely.
 
@@ -235,19 +235,19 @@ While Facebook was mentioned abundantly in previous examples, this problem isn't
 
 In 2014, Facebook [made the news](https://www.aclunc.org/blog/my-name-why-aclu-facebook-today) (again) for enforcing a [horrible policy](https://www.zdnet.com/article/facebook-nymwars-disproportionately-outing-lgbt-performers-users-furious/) (again) that was [hurting](https://www.eff.org/deeplinks/2014/09/facebooks-real-name-policy-can-cause-real-world-harm-lgbtq-community) marginalized and vulnerable groups the most ([again](https://www.hrc.org/news/metas-new-policies-how-they-endanger-lgbtq-communities-and-our-tips-for-staying-safe-online)). Several human rights groups, including the Electronic Frontier Foundation, Human Rights Watch, and Access Now even joined the [Nameless Coalition](https://www.accessnow.org/nameless-coalition-calls-on-facebook-to-change-its-real-name-policy/) to demand changes to Facebook's policy.
 
-Facebook presented this ramping up of real-name policy as something important for "authenticity" online. Despite this dubitable claim, Facebook was in all likelihood simply worried about protecting its financial assets, as ever.
+Facebook presented this ramping up of their real-name policy enforcement as something important for "authenticity" online. Despite this dubitable claim, Facebook was in all likelihood simply worried about protecting its financial assets, as ever.
 
-Back in 2012, Facebook's share price plummeted after a quarterly filing with the Securities and Exchange Commission [revealed](https://www.theguardian.com/technology/2012/aug/02/facebook-share-price-slumps-20-dollars) that an estimated 8.7% of accounts on the platform may be fake, and 5% of active accounts duplicates (numbers that aren't really that alarming, actually). But this backlash from investors evidently scared Facebook enough to justify intensifying its policy enforcement for accounts using pseudonyms, or suspected of being fake, presumably in an attempt to soothe shareholders.
+Back in 2012, Facebook's share price plummeted after a quarterly filing with the Securities and Exchange Commission [revealed](https://www.theguardian.com/technology/2012/aug/02/facebook-share-price-slumps-20-dollars) that an estimated 8.7% of accounts on the platform may be fake, and 5% of active accounts were duplicates (numbers that aren't really that alarming, actually). But this backlash from investors evidently scared Facebook enough to justify intensifying its policy enforcement for accounts using pseudonyms, or suspected of being fake, presumably in an attempt to soothe shareholders.
 
-Despite the unpopularity of these policies, the real customer for Facebook isn't its user, but its advertiser (who demands access to your data, Facebook's true sale product). Advertisers need the reassurance that they are paying for *real* humans to see their ads, otherwise this diminishes Facebook's value to them. **It's important to remember that Facebook is, and has always been, an advertising company.**
+Despite the unpopularity of these policies, the real customer for Facebook isn't its users, but its advertisers (who demand access to your data, Facebook's true product). Advertisers want some assurance that they are paying for *real* humans to see their ads, otherwise this diminishes Facebook's value to them. **It's important to remember that Facebook is, and has always been, an advertising company.**
 
 Despicably, Facebook even [encouraged](https://thenextweb.com/news/facebook-now-wants-snitch-friends-arent-using-real-name) people to "snitch on [their] friends if they are not using their real name."
 
-> "Please help us understand how people are using Facebook. Your response is anonymous and won't affect your friend's account. Is this your friend's real name?"
+> Please help us understand how people are using Facebook. Your response is anonymous and won't affect your friend's account. Is this your friend's real name?
 
 This kind of prompt fosters mistrust and allows users to weaponize policies against people they simply don't like. Victims of these "report attacks" are often the most vulnerable and the most marginalized in our society. **Real-name policies have nothing to do with safety, in fact, they're horrible for safety.**
 
-A decade later, Facebook still encourages and enforces its real-name policy, likely in order to protect its most valuable asset to sell: Your personal data.
+A decade later, Facebook still encourages and enforces its real-name policy in order to protect its most valuable asset to sell: Your personal data.
 
 ### LinkedIn
 
@@ -269,16 +269,16 @@ At one point, a Blizzard employee trying to demonstrate that the policy "wasn't 
 
 ### South Korea
 
-Terrifyingly, whole countries have enforced real-name policies online. In 2007, South Korea [implemented](https://www.koreatimes.co.kr/southkorea/20120823/online-real-name-system-unconstitutional) a name registration system for internet users in compliance with the country's Information Communications Law. The law was initially enforced in an attempt to reduce malicious comments online, but **was later ruled unconstitutional and revoked in 2012**.
-
 <div class="admonition quote inline end" markdown>
 <p class="admonition-title">Despite the enforcement of the system, the number of illegal or malicious postings online has not decreased.</p></div>
+
+Terrifyingly, whole countries have enforced real-name policies online. In 2007, South Korea [implemented](https://www.koreatimes.co.kr/southkorea/20120823/online-real-name-system-unconstitutional) a name registration system for internet users in compliance with the country's Information Communications Law. The law was initially enforced in an attempt to reduce malicious comments online, but **was later ruled unconstitutional and revoked in 2012**.
 
 The Constitutional Court said in its verdict that "the system does not seem to have been beneficial to the public. <span class="pullquote-source">Despite the enforcement of the system, the number of illegal or malicious postings online has not decreased.</span>"
 
 ### China
 
-Sadly, not every country implementing such system came with the same conclusion. In China, the [Internet real-name system](https://en.wikipedia.org/wiki/Internet_real-name_system_in_China) obligates all internet service providers and online platforms to collect users' legal names, ID numbers, and more. This affects services such as internet access, phone service, social media, instant messaging, microblogging, and online gaming. In 2023, large platforms announced that they would make public the legal names of any accounts with over 500,000 followers.
+Sadly, not every country implementing such a system came to the same conclusion. In China, the [Internet real-name system](https://en.wikipedia.org/wiki/Internet_real-name_system_in_China) obligates all internet service providers and online platforms to collect users' legal names, ID numbers, and more. This affects services such as internet access, phone service, social media, instant messaging, microblogging, and online gaming. In 2023, large platforms announced that they would make public the legal names of any accounts with over 500,000 followers.
 
 In July 2025, China centralized this control further with the launch of the [national online identity authentication](https://en.wikipedia.org/wiki/National_online_identity_authentication) system, which requires citizens to submit their personal information in order to receive an "Internet certificate" to access online accounts. This effectively imposes a real-name policy on *all* internet services in the country, and makes this information accessible at all time by the government.
 
@@ -286,7 +286,7 @@ The new national cyber ID system has been [criticized](https://www.scmp.com/tech
 
 ## Real-name policies don't make the web safer
 
-It has been demonstrated again and again that real-name policies do not reduce abuse and misbehavior online, and only end up harming the most vulnerable. Despite the evidence and failed attempts, platform owners and policymakers obstinately continue to push for the implementation of these dangerous authoritarian systems.
+It has been demonstrated again and again that real-name policies do not reduce abuse and misbehavior online, and only end up harming the most vulnerable. Despite the evidence and failed attempts, platform owners and policymakers obstinately continue to push for the implementation of these dangerous, authoritarian systems.
 
 Platforms will often claim these policies are to protect users from harassment, but when action is required to truly protect users they refuse to act. Facebook, the most infamous platform for enforcing its real-name policy, [ranks the *worst* for online harassment](https://www.theverge.com/news/713976/online-harassment-meta-social-media-environmental-activists).
 
@@ -294,11 +294,11 @@ So, who are these real-name policies truly protecting?
 
 It's clear that, as is the case for other oppressive policies such as [Age Verification](age-verification-wants-your-face.md) and [Chat Control](chat-control-must-be-stopped.md), "safety" is only an excuse for people to accept what this is truly about: **Corporate profit and government control.**
 
-Unfortunately, as long as these platforms' business model is to sell users' data to advertisers and other stakeholders, there is no incentive for them to protect our privacy and our right to use protective pseudonyms, as EFF's Director of Cybersecurity Eva Galperin aptly pointed out in her [talk](https://www.youtube.com/watch?v=d5czLwsa-wE) at the HOPE conference in 2012. **More data just means more money to them.**
+Unfortunately, as long as these platforms' business model is to sell users' data to advertisers and other stakeholders, there is no incentive for them to protect our privacy and our right to use protective pseudonyms, as the EFF's Director of Cybersecurity Eva Galperin aptly pointed out in her [talk](https://www.youtube.com/watch?v=d5czLwsa-wE) at the HOPE conference in 2012. **More data just means more money to them.**
 
 When governments impose similar invasive practices, it's a **dangerous and slippery slope towards totalitarianism**. Citizens need to be able to express their views freely online and criticize their government and its leaders without fear of reprisal. Real-name policies (explicit and implicit) are only a tool for censorship, and there is no democracy and no freedom under government censorship.
 
-Fighting against policies attacking online pseudonymity, such as real-name policies, age-verification policies, and Chat Control proposals, isn't just a banal fight to keep using silly nicknames online, it's a battle for democracy, for civil liberties, and for human rights.
+Fighting against policies attacking online pseudonymity, such as real-name policies, age-verification policies, and Chat Control proposals, isn't just a banal fight to keep using silly nicknames online. It's a battle for democracy, for civil liberties, and for human rights.
 
 ## What you can do about real-name policies
 
