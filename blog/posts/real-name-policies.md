@@ -76,48 +76,73 @@ Everyone is impacted by real-name policies, but groups that are at higher risk o
 
 Moreover, anyone who for various reasons uses a name that doesn't match their official ID; has a legal name that doesn't match an expected American name pattern; needs to conceal their gender online for safety; or has to protect their identity online due to their work as an activist, journalist, dissident, or whistleblower can be severely impacted, silenced, and even endangered by requirements to provide a legal name online.
 
-### The transgender community
+### Victims of domestic violence
 
-For transgender and gender-diverse individuals, their legal name may be a "[dead name](https://en.wikipedia.org/wiki/Deadnaming)." A dead name is a name that they were assigned at birth but no longer identify with. Commonly, transgender people change their name as part of their gender transition.
+For many people, using pseudonyms isn't just a good privacy practice, but it can be a matter of life and death.
 
-In many countries around the world, there can be many bureaucratic hurdles required to change one's name, meaning that many trans people are unable to update their legal name to reflect their gender identity. Because they no longer identify with their dead name, keeping it private is of great importance for their mental health and safety.
+For anyone who is experiencing or has experienced domestic violence, creating a new online identity hidden from the perpetrator can be essential for survival, to prepare a safe escape, or to keep having access to essential support and resources.
+
+When people are forced to only use one identity online, an identity attached to their legal identity, this empowers aggressors to find their victims, to silence them, to control them, and to harm them.
+
+**Technologies and policies are never neutral.** When policies and features make it difficult or impossible for vulnerable people to use these technologies safely, they are effectively excluding vulnerable people from the platforms.
+
+Even if this might seem minor from the outside, when Big Tech becomes so monopolistic that it's almost impossible to fully avoid it in our daily lives, when someone cannot access social groups and support without a Facebook account, and can't find a new job without LinkedIn, then it's not just a minor problem anymore, it's a major problem.
+
+**Platforms and online services should be safely accessible to everyone.** And this includes allowing the use of protective pseudonymity without requiring legal identification that could put the most vulnerable in life-threatening situations.
+
+### Victims of stalking
+
+Similarly to victims of domestic violence, victims of stalking must protect their identity online to stay safe from their stalkers. When platforms obligate people to use their legal names, explicitly or implicitly, they directly endanger these victims.
+
+If a stalker or an aggressor knows a victim's legal name (which is often the case), then it's trivial to find their account on any platforms and services, regardless of if they have blocked them on one.
+
+A good protection to prevent severe harassment is to create alternative accounts using a different name or different pseudonym unknown to the aggressor. This can give victims the peace of mind of knowing their stalker will not be able to find them there.
+
+For anyone tempted to argue real-name policies reduce the number of perpetrators, this isn't the case.
+
+Stalkers and predators of all kind feel generally quite comfortable using their own legal names, this isn't a problem for them. They feel confident knowing that victims generally have little recourses and support, and that there will be no consequences for them even when their legal name is known.
+
+Despite the claims, removing pseudonymity doesn't remove misbehavior online, this has been demonstrated [again](https://theconversation.com/online-abuse-banning-anonymous-social-media-accounts-is-not-the-answer-170224), and [again](https://theconversation.com/online-anonymity-study-found-stable-pseudonyms-created-a-more-civil-environment-than-real-user-names-171374), and [again](https://allabouteve.co.in/harassment-of-women-on-linkedin/). Real-name policies don't reduce crime, it only restricts the victims' ability to protect themselves from such crime.
+
+### Activists and political dissidents
 
 <div class="admonition quote inline end" markdown>
-<p class="admonition-title">23% of LGBTQ+ young people reported that they have been physically threatened or harmed in the past year due to either their sexual orientation or gender identity.</p></div>
+<p class="admonition-title">Pseudonyms are hardly modern phenomena, and it's fair to say democracy wouldn't exist without it.</p></div>
 
-Referring to a trans person with their dead name is considered offensive and often involves misgendering someone too. For transgender people, being called a name that they no longer identify with invokes feelings of depression, anxiety, gender dysphoria, and lack of acceptance.
+For activists and political dissidents around the world, using pseudonymity online can be a way to reclaim freedom of speech and criticize power in a safer way. Under oppressive regimes, online privacy can mean life or death.
 
-Using someone's dead name signals that you don't respect their identity and that you don't care about them enough to use their new name.
+This is another example showing how essential privacy rights are to democracy. **Real-name policies facilitate censorship, discrimination, and political repression.**
 
-Unfortunately, transgender people still face widespread discrimination, that's why "dead naming" can be incredibly dangerous. Revealing someone's gender identity or sexuality without their consent is called "outing". By calling someone by their dead name, you may be inadvertently revealing someone is transgender. This can be not only traumatizing and frightening for the individual, but can also lead to violence or put this person in a dangerous situation.
+A Honduran blogger using the pseudonym [La Gringa](https://lagringasblogicito.blogspot.com/2011/10/my-ripples-will-continue.html) used her blog and Facebook page to criticize the Central American government for years.
 
-The Trevor Project, a non-profit LGBTQ+ organization, conducts a yearly [survey](https://www.thetrevorproject.org/survey-2024/?_hsmi=305272848) on LGBTQ+ youth across the United States. In their 2024 release, they found that <span class="pullquote-source">"23% of LGBTQ+ young people reported that they have been physically threatened or harmed in the past year due to either their sexual orientation or gender identity."</span>
+Protecting her legal identity is essential to allow her to speak freely and stay safe from state repression. This isn't an exaggeration, Honduras is one of the most dangerous country for journalists. The Committee to Protect Journalists (CPJ) [recorded](https://latamjournalismreview.org/articles/almost-five-years-after-murder-of-honduran-journalist-gabriel-hernandez-authorities-still-waiting-for-results-of-their-investigations/) that 37 press workers were killed in the country between 1992 and 2023. Of these murders, 90% were unpunished.
 
-This is why when real-name policies come in, requiring transgender people to use their legal name for their social media accounts, this could force them to "come out" by displaying a name that they no longer identify with, therefore revealing they are transgender. The National LGBTQ Institute on Intimate Partner Violence [describes](https://lgbtqipvinstitute.org/coming-out-safely/) "coming out" as an "ongoing process, by which a person shares aspects of their identity with others."
+But Facebook silenced La Gringa with its real-name policy, requiring her to provide a copy of her official ID to continue advocating on the platform. Evidently, this request is asking her to put her life in danger and cannot be compromised on.
 
-Having aspects of their identity shared without their consent can put this person in significant physical danger because of unsupportive family members, friends, colleagues, and strangers. This is especially the case with LGBTQ+ youth, who are at heightened risk of online, verbal, physical harassment, or violence due to their identity.
+Facebook's policy is essentially silencing any dissident and marginalized voices in oppressive regimes.
 
-Coming out can be a very daunting and scary process, particularly for transgender and gender-diverse people, and often can be an ongoing process over many years. In many cases, LGBTQ+ people choose instead to [hide their identity](https://www.stonewall.org.uk/news/new-research-shows-almost-40-of-lgbtq-employees-still-hide-their-identity-at-work) at social and work gatherings.
+By letting the community report infractions to Facebook's real-name policy, this effectively allows Facebook's rules to be weaponized against marginalized groups already plagued with constant discrimination.
 
-Platforms that enforce real-name policies take away the essential ability to control when and how that process plays out are nothing short of abusive. This might sound hyperbolic, however, "outing" is often used as a mean of control in abusive relationships to coerce an LGBTQ+ individual. The fact that social media platforms are exhibiting similar behavior is alarming.
+It also empowers abusers to silence their victims, and sides with oppressive regimes around the world to censor any critics they might have.
 
-Unfortunately, many websites don't allow updating the name attached to an account easily, often requiring to provide legal documentation showing proof that the name has been legally changed.
+As reporter Kevin Morris [commented](https://www.dailydot.com/news/la-gringa-facebook-ban-real-id-dangerous-honduras/) in his Daily Dot piece on the topic: <span class="pullquote-source">"Pseudonyms are hardly modern phenomena, and it's fair to say democracy wouldn't exist without it."</span>
 
-Having to provide your identification documents to use a website is not only terrible for your privacy, as it links your real life identity to your online account, it also puts your identity at risk.
+### Women
 
-Companies that process and verify identity documents are at a much higher risk of being targeted by malicious actors, because of the sensitive information they store and process.
+<div class="admonition quote inline end" markdown>
+<p class="admonition-title">A site which requires real/verified names is automatically flagging itself as a potentially/probably unsafe space for women, or for anyone else at risk of harassment, violence, job discrimination, and the like.</p></div>
 
-One of the worst offenders of this is Facebook. They require everyone that signs up to use their legal name for their profile, and claim that this is to ensure safety on the platform so that everyone knows who they are talking to is who they say they are.
+Women have long used pseudonyms on the internet in order to conceal their gender online, and spare themselves from the sexual harassment and discrimination omnipresent on some platforms. This is even more common in male-dominated communities like online gaming, for example.
 
-Many transgender and gender-diverse people use aliases on social media platforms to protect their identities and the identities of those around them, because they are more likely to be harassed or doxxed. Facebook's real-name policy has unforeseen consequences for these people, as one transgender Facebook user [found out](https://www.dailydot.com/news/facebook-real-names-cracking-down-transgender/):
+It's not rare to hear some people claiming that "there aren't any women in their online community." Well, there probably is.
 
-> I woke up to find my Facebook account deleted. [...] I have had a Facebook since about 2007 or 2008. Other than when I was a kid and was afraid my parents would find out about my account (causing me to use an alias for a little while), my profile always bore my legal name. A week or so ago, however, I changed my display name to "Arc Angel."
+Platforms allowing pseudonyms foster a culture of inclusivity where everyone can participate free from discrimination, regardless of their gender. Real-name policies encourage the opposite: platforms where participants are forced to either endure the abuse and compromise their physical safety, or be excluded entirely.
 
-Finally, because of the discrimination and danger that transgender people face in the real world, they often find refuge in online and internet communities. According to a report by [Hopelab](https://assets.hopelab.org/wp-content/uploads/2025/03/2025-Without-It-I-Wouldnt-Be-Here.pdf) of LGBTQ+ youth:
+As pseudonymous author *skud* [wrote](https://geekfeminismdotorg.wordpress.com/2010/06/10/hacker-news-and-pseudonymity/) for the *Geek Feminism* blog in 2010:
 
-> Transgender young people more often agree that their online communities and friendships were important or very important (84%) when they began to explore their sexuality or gender compared to cisgender LGBQ+ young people (71%).
+> [...] women online are regularly admonished to use pseudonyms to protect themselves. Many websites with a culture of pseudonymity [...] have a very high proportion of female members, perhaps in part because of the sense of privacy and security that pseudonymity brings. <span class="pullquote-source">A site which requires real/verified names is automatically flagging itself as a potentially/probably unsafe space for women, or for anyone else at risk of harassment, violence, job discrimination, and the like.</span>
 
-This is why it’s so important that they are able to freely express themselves with a pseudonymous or anonymous identity. If every online platform required these users to use their legal name, this would be extremely dangerous for transgender and gender-diverse people who often rely on online spaces for community, friendship, and support.
+Women aren't exactly a minority group. While platforms should be inclusive to everyone of course, including minority groups, enforcing a policy that obligates roughly 50% of the population to lower its safety protections in order to participate should be obviously unacceptable.
 
 ### Indigenous people
 
@@ -167,33 +192,48 @@ But this isn't a reality for most of the world. This extremely narrow vision of 
 
 It's unbelievable (and unacceptable) that a platform with an estimated 2.28 billion active users, who seems to want to eat even more of the world every year, is being so ignorant of non-American cultures and global naming conventions in its policies and practices.
 
-### Victims of domestic violence
+### The transgender community
 
-For many people, using pseudonyms isn't just a good privacy practice, but it can be a matter of life and death.
+For transgender and gender-diverse individuals, their legal name may be a "[dead name](https://en.wikipedia.org/wiki/Deadnaming)." A dead name is a name that they were assigned at birth but no longer identify with. Commonly, transgender people change their name as part of their gender transition.
 
-For anyone who is experiencing or has experienced domestic violence, creating a new online identity hidden from the perpetrator can be essential for survival, to prepare a safe escape, or to keep having access to essential support and resources.
+In many countries around the world, there can be many bureaucratic hurdles required to change one's name, meaning that many trans people are unable to update their legal name to reflect their gender identity. Because they no longer identify with their dead name, keeping it private is of great importance for their mental health and safety.
 
-When people are forced to only use one identity online, an identity attached to their legal identity, this empowers aggressors to find their victims, to silence them, to control them, and to harm them.
+<div class="admonition quote inline end" markdown>
+<p class="admonition-title">23% of LGBTQ+ young people reported that they have been physically threatened or harmed in the past year due to either their sexual orientation or gender identity.</p></div>
 
-**Technologies and policies are never neutral.** When policies and features make it difficult or impossible for vulnerable people to use these technologies safely, they are effectively excluding vulnerable people from the platforms.
+Referring to a trans person with their dead name is considered offensive and often involves misgendering someone too. For transgender people, being called a name that they no longer identify with invokes feelings of depression, anxiety, gender dysphoria, and lack of acceptance.
 
-Even if this might seem minor from the outside, when Big Tech becomes so monopolistic that it's almost impossible to fully avoid it in our daily lives, when someone cannot access social groups and support without a Facebook account, and can't find a new job without LinkedIn, then it's not just a minor problem anymore, it's a major problem.
+Using someone's dead name signals that you don't respect their identity and that you don't care about them enough to use their new name.
 
-**Platforms and online services should be safely accessible to everyone.** And this includes allowing the use of protective pseudonymity without requiring legal identification that could put the most vulnerable in life-threatening situations.
+Unfortunately, transgender people still face widespread discrimination, that's why "dead naming" can be incredibly dangerous. Revealing someone's gender identity or sexuality without their consent is called "outing". By calling someone by their dead name, you may be inadvertently revealing someone is transgender. This can be not only traumatizing and frightening for the individual, but can also lead to violence or put this person in a dangerous situation.
 
-### Victims of stalking
+The Trevor Project, a non-profit LGBTQ+ organization, conducts a yearly [survey](https://www.thetrevorproject.org/survey-2024/?_hsmi=305272848) on LGBTQ+ youth across the United States. In their 2024 release, they found that <span class="pullquote-source">"23% of LGBTQ+ young people reported that they have been physically threatened or harmed in the past year due to either their sexual orientation or gender identity."</span>
 
-Similarly to victims of domestic violence, victims of stalking must protect their identity online to stay safe from their stalkers. When platforms obligate people to use their legal names, explicitly or implicitly, they directly endanger these victims.
+This is why when real-name policies come in, requiring transgender people to use their legal name for their social media accounts, this could force them to "come out" by displaying a name that they no longer identify with, therefore revealing they are transgender. The National LGBTQ Institute on Intimate Partner Violence [describes](https://lgbtqipvinstitute.org/coming-out-safely/) "coming out" as an "ongoing process, by which a person shares aspects of their identity with others."
 
-If a stalker or an aggressor knows a victim's legal name (which is often the case), then it's trivial to find their account on any platforms and services, regardless of if they have blocked them on one.
+Having aspects of their identity shared without their consent can put this person in significant physical danger because of unsupportive family members, friends, colleagues, and strangers. This is especially the case with LGBTQ+ youth, who are at heightened risk of online, verbal, physical harassment, or violence due to their identity.
 
-A good protection to prevent severe harassment is to create alternative accounts using a different name or different pseudonym unknown to the aggressor. This can give victims the peace of mind of knowing their stalker will not be able to find them there.
+Coming out can be a very daunting and scary process, particularly for transgender and gender-diverse people, and often can be an ongoing process over many years. In many cases, LGBTQ+ people choose instead to [hide their identity](https://www.stonewall.org.uk/news/new-research-shows-almost-40-of-lgbtq-employees-still-hide-their-identity-at-work) at social and work gatherings.
 
-For anyone tempted to argue real-name policies reduce the number of perpetrators, this isn't the case.
+Platforms that enforce real-name policies take away the essential ability to control when and how that process plays out are nothing short of abusive. This might sound hyperbolic, however, "outing" is often used as a mean of control in abusive relationships to coerce an LGBTQ+ individual. The fact that social media platforms are exhibiting similar behavior is alarming.
 
-Stalkers and predators of all kind feel generally quite comfortable using their own legal names, this isn't a problem for them. They feel confident knowing that victims generally have little recourses and support, and that there will be no consequences for them even when their legal name is known.
+Unfortunately, many websites don't allow updating the name attached to an account easily, often requiring to provide legal documentation showing proof that the name has been legally changed.
 
-Despite the claims, removing pseudonymity doesn't remove misbehavior online, this has been demonstrated [again](https://theconversation.com/online-abuse-banning-anonymous-social-media-accounts-is-not-the-answer-170224), and [again](https://theconversation.com/online-anonymity-study-found-stable-pseudonyms-created-a-more-civil-environment-than-real-user-names-171374), and [again](https://allabouteve.co.in/harassment-of-women-on-linkedin/). Real-name policies don't reduce crime, it only restricts the victims' ability to protect themselves from such crime.
+Having to provide your identification documents to use a website is not only terrible for your privacy, as it links your real life identity to your online account, it also puts your identity at risk.
+
+Companies that process and verify identity documents are at a much higher risk of being targeted by malicious actors, because of the sensitive information they store and process.
+
+One of the worst offenders of this is Facebook. They require everyone that signs up to use their legal name for their profile, and claim that this is to ensure safety on the platform so that everyone knows who they are talking to is who they say they are.
+
+Many transgender and gender-diverse people use aliases on social media platforms to protect their identities and the identities of those around them, because they are more likely to be harassed or doxxed. Facebook's real-name policy has unforeseen consequences for these people, as one transgender Facebook user [found out](https://www.dailydot.com/news/facebook-real-names-cracking-down-transgender/):
+
+> I woke up to find my Facebook account deleted. [...] I have had a Facebook since about 2007 or 2008. Other than when I was a kid and was afraid my parents would find out about my account (causing me to use an alias for a little while), my profile always bore my legal name. A week or so ago, however, I changed my display name to "Arc Angel."
+
+Finally, because of the discrimination and danger that transgender people face in the real world, they often find refuge in online and internet communities. According to a report by [Hopelab](https://assets.hopelab.org/wp-content/uploads/2025/03/2025-Without-It-I-Wouldnt-Be-Here.pdf) of LGBTQ+ youth:
+
+> Transgender young people more often agree that their online communities and friendships were important or very important (84%) when they began to explore their sexuality or gender compared to cisgender LGBQ+ young people (71%).
+
+This is why it’s so important that they are able to freely express themselves with a pseudonymous or anonymous identity. If every online platform required these users to use their legal name, this would be extremely dangerous for transgender and gender-diverse people who often rely on online spaces for community, friendship, and support.
 
 ### LGBTQ+ people
 
@@ -232,46 +272,6 @@ During an earlier purge in 2009, small-business entrepreneur Alicia Istanbul [su
 Additionally, many professionals such as teachers, doctors, therapists, and social workers regularly use pseudonyms so that clients and patients will not be able to find their personal accounts.
 
 Everyone should have the right to separate their professional lives from their personal lives, and [using pseudonyms is a great practice](stay-safe-but-stay-connected.md/#pseudonymity) to this effect.
-
-### Activists and political dissidents
-
-<div class="admonition quote inline end" markdown>
-<p class="admonition-title">Pseudonyms are hardly modern phenomena, and it's fair to say democracy wouldn't exist without it.</p></div>
-
-For activists and political dissidents around the world, using pseudonymity online can be a way to reclaim freedom of speech and criticize power in a safer way. Under oppressive regimes, online privacy can mean life or death.
-
-This is another example showing how essential privacy rights are to democracy. **Real-name policies facilitate censorship, discrimination, and political repression.**
-
-A Honduran blogger using the pseudonym [La Gringa](https://lagringasblogicito.blogspot.com/2011/10/my-ripples-will-continue.html) used her blog and Facebook page to criticize the Central American government for years.
-
-Protecting her legal identity is essential to allow her to speak freely and stay safe from state repression. This isn't an exaggeration, Honduras is one of the most dangerous country for journalists. The Committee to Protect Journalists (CPJ) [recorded](https://latamjournalismreview.org/articles/almost-five-years-after-murder-of-honduran-journalist-gabriel-hernandez-authorities-still-waiting-for-results-of-their-investigations/) that 37 press workers were killed in the country between 1992 and 2023. Of these murders, 90% were unpunished.
-
-But Facebook silenced La Gringa with its real-name policy, requiring her to provide a copy of her official ID to continue advocating on the platform. Evidently, this request is asking her to put her life in danger and cannot be compromised on.
-
-Facebook's policy is essentially silencing any dissident and marginalized voices in oppressive regimes.
-
-By letting the community report infractions to Facebook's real-name policy, this effectively allows Facebook's rules to be weaponized against marginalized groups already plagued with constant discrimination.
-
-It also empowers abusers to silence their victims, and sides with oppressive regimes around the world to censor any critics they might have.
-
-As reporter Kevin Morris [commented](https://www.dailydot.com/news/la-gringa-facebook-ban-real-id-dangerous-honduras/) in his Daily Dot piece on the topic: <span class="pullquote-source">"Pseudonyms are hardly modern phenomena, and it's fair to say democracy wouldn't exist without it."</span>
-
-### Women
-
-<div class="admonition quote inline end" markdown>
-<p class="admonition-title">A site which requires real/verified names is automatically flagging itself as a potentially/probably unsafe space for women, or for anyone else at risk of harassment, violence, job discrimination, and the like.</p></div>
-
-Women have long used pseudonyms on the internet in order to conceal their gender online, and spare themselves from the sexual harassment and discrimination omnipresent on some platforms. This is even more common in male-dominated communities like online gaming, for example.
-
-It's not rare to hear some people claiming that "there aren't any women in their online community." Well, there probably is.
-
-Platforms allowing pseudonyms foster a culture of inclusivity where everyone can participate free from discrimination, regardless of their gender. Real-name policies encourage the opposite: platforms where participants are forced to either endure the abuse and compromise their physical safety, or be excluded entirely.
-
-As pseudonymous author *skud* [wrote](https://geekfeminismdotorg.wordpress.com/2010/06/10/hacker-news-and-pseudonymity/) for the *Geek Feminism* blog in 2010:
-
-> [...] women online are regularly admonished to use pseudonyms to protect themselves. Many websites with a culture of pseudonymity [...] have a very high proportion of female members, perhaps in part because of the sense of privacy and security that pseudonymity brings. <span class="pullquote-source">A site which requires real/verified names is automatically flagging itself as a potentially/probably unsafe space for women, or for anyone else at risk of harassment, violence, job discrimination, and the like.</span>
-
-Women aren't exactly a minority group. While platforms should be inclusive to everyone of course, including minority groups, enforcing a policy that obligates roughly 50% of the population to lower its safety protections in order to participate should be obviously unacceptable.
 
 ### Everyone else
 
