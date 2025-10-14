@@ -172,7 +172,7 @@ Many were forced to add hyphens, change the alphabet used, smash words together,
 
 This is yet another demonstration of systemic racism perpetrated by a monopolistic corporation quick to ignore the human rights and diversity of its users.
 
-### People with non-American names
+### People with non-Anglophone names
 
 In another case, a woman from Japan named Hiroko Yoda [wasn't able to sign up](https://www.telegraph.co.uk/news/newstopics/howaboutthat/2632170/Woman-called-Yoda-blocked-from-Facebook.html) for a Facebook account due to her surname.
 
