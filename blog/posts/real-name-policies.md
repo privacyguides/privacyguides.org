@@ -1,8 +1,8 @@
 ---
 date:
-    created: 2025-10-13T20:00:00Z
+    created: 2025-10-14T17:30:00Z
 categories:
-    - Opinion
+    - Explainers
 authors:
     - em
     - jordan
@@ -94,7 +94,7 @@ Finally, because of the discrimination and danger that transgender people face i
 
 > “Transgender young people more often agree that their online communities and friendships were important or very important (84%) when they began to explore their sexuality or gender compared to cisgender LGBQ+ young people (71%).”
 
-This is why it’s so important that they are able to freely express themselves with a pseudonymous or anonymous identity. If every online platform required these users to use their legal name, this would be extremely dangerous for transgender and gender diverse people who often rely on online spaces for community, friendship, and support. 
+This is why it’s so important that they are able to freely express themselves with a pseudonymous or anonymous identity. If every online platform required these users to use their legal name, this would be extremely dangerous for transgender and gender diverse people who often rely on online spaces for community, friendship, and support.
 
 ### Indigenous people
 
@@ -303,7 +303,7 @@ Fighting against policies attacking online pseudonymity, such as real-name polic
 
 - [**Inform yourself**](https://safetycrave.com/why-should-not-use-real-names-online/) on the dangers related to using legal names online, and share this information with others.
 
-- [**Say no**](you-can-say-no.md) to sharing official documentation with commercial platforms when it isn't strictly required and when you can avoid it. 
+- [**Say no**](you-can-say-no.md) to sharing official documentation with commercial platforms when it isn't strictly required and when you can avoid it.
 
 - [**Understand the difference**](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security/) between privacy, security, anonymity, and pseudonymity.
 
