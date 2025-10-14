@@ -19,7 +19,7 @@ preview:
 
 <small aria-hidden="true">Illustration: Em / Privacy Guides | Photo: Marija Zaric / Unsplash</small>
 
-Real-name policies exist for well over a decade already, and the problems they cause aren't new. But these problems have become exponentially harmful in today's world, where real-name policies are coupled with monopolistic platforms, increased mass surveillance, AI technologies, and facial recognition capabilities. It's time to fight back against this unsafe and discriminatory privacy-invasive practice.<!-- more -->
+Real-name policies have existed for well over a decade already, and the problems they cause aren't new. But these problems have become exponentially harmful in today's world, where real-name policies are coupled with monopolistic platforms, increased mass surveillance, AI technologies, and facial recognition capabilities. It's time to fight back against this unsafe and discriminatory privacy-invasive practice.<!-- more -->
 
 Pseudonymity, or the use of a nickname or fictitious name online, has always been deeply valued on the internet. It grants people protections and freedoms that are often impossible to benefit from offline.
 
@@ -29,11 +29,14 @@ Women, and especially women who are part of male-dominated online communities, h
 
 ## What are real-name policies exactly?
 
+<div class="admonition quote inline end" markdown>
+<p class="admonition-title">Increasingly more platforms demand that users provide their legal name and official identifications in order to keep using a platform.</p></div>
+
 So called "real-name" policies are platform policies requiring users and subscribers to sign up and display their "real name", often equated to a *legal* name.
 
 Facebook for example claims not to require a legal name, but only the "real" name a person uses in their daily life. Yet, the social media giant regularly demands official IDs to verify this "real" name, effectively requiring people associate their account with their *legal* identity. Facebook has even repeatedly taken the liberty to decide which name was "real", and changed the displayed name of users based on verification processes **without any prior consent from users**. For people in vulnerable situations, this can be a *very* dangerous practice.
 
-Facebook is perhaps the most infamous platform implementing such discriminatory and intrusive policy, but sadly, it's not the only one. Increasingly more platforms demand that users provide their legal name and official identifications in order to keep using a platform. And this will likely be aggravated significantly by the recent trend for [age-verification](https://www.privacyguides.org/videos/2025/08/15/age-verification-is-a-privacy-nightmare/) policies.
+Facebook is perhaps the most infamous platform implementing such discriminatory and intrusive policy, but sadly, it's not the only one. <span class="pullquote-source">Increasingly more platforms demand that users provide their legal name and official identifications in order to keep using a platform.</span> And this will likely be aggravated significantly by the recent trend for [age-verification](https://www.privacyguides.org/videos/2025/08/15/age-verification-is-a-privacy-nightmare/) policies.
 
 ### Explicit and implicit policies
 
@@ -82,17 +85,17 @@ Coming out can be a very daunting and scary process, particularly for transgende
 
 Platforms that enforce real-name policies take away the essential ability to control when and how that process plays out are nothing short of abusive. This might sound hyperbolic, however, "outing" is often used as a mean of control in abusive relationships to coerce an LGBTQ+ individual. The fact that social media platforms are exhibiting similar behavior is alarming.
 
-Unfortunately, many websites don't allow to update the name attached to an account easily, often requiring to provide legal documentation showing proof that the name has been legally changed. Having to provide your identification documents to use a website is not only terrible for your privacy, as it links your real life identity to your online account, it also puts your identity at risk. Companies that process and verify identity documents are at a much higher risk of being targeted by malicious actors, because of the sensitive information they store and process.
+Unfortunately, many websites don't allow updating the name attached to an account easily, often requiring to provide legal documentation showing proof that the name has been legally changed. Having to provide your identification documents to use a website is not only terrible for your privacy, as it links your real life identity to your online account, it also puts your identity at risk. Companies that process and verify identity documents are at a much higher risk of being targeted by malicious actors, because of the sensitive information they store and process.
 
 One of the worst offenders of this is Facebook. They require everyone that signs up to use their legal name for their profile, and claim that this is to ensure safety on the platform so that everyone knows who they are talking to is who they say they are.
 
 Many transgender and gender diverse people use aliases on social media platforms to protect their identities and the identities of those around them, because they are more likely to be harassed or doxxed. Facebook's real-name policy has unforeseen consequences for these people, as one transgender Facebook user [found out](https://www.dailydot.com/news/facebook-real-names-cracking-down-transgender/):
 
-> "I woke up to find my Facebook account deleted. [...] I have had a Facebook since about 2007 or 2008. Other than when I was a kid and was afraid my parents would find out about my account (causing me to use an alias for a little while), my profile always bore my legal name. A week or so ago, however, I changed my display name to 'Arc Angel.'"
+> I woke up to find my Facebook account deleted. [...] I have had a Facebook since about 2007 or 2008. Other than when I was a kid and was afraid my parents would find out about my account (causing me to use an alias for a little while), my profile always bore my legal name. A week or so ago, however, I changed my display name to "Arc Angel."
 
 Finally, because of the discrimination and danger that transgender people face in the real world, they often find refuge in online and internet communities. According to a report by [Hopelab](https://assets.hopelab.org/wp-content/uploads/2025/03/2025-Without-It-I-Wouldnt-Be-Here.pdf) of LGBTQ+ youth:
 
-> “Transgender young people more often agree that their online communities and friendships were important or very important (84%) when they began to explore their sexuality or gender compared to cisgender LGBQ+ young people (71%).”
+> Transgender young people more often agree that their online communities and friendships were important or very important (84%) when they began to explore their sexuality or gender compared to cisgender LGBQ+ young people (71%).
 
 This is why it’s so important that they are able to freely express themselves with a pseudonymous or anonymous identity. If every online platform required these users to use their legal name, this would be extremely dangerous for transgender and gender diverse people who often rely on online spaces for community, friendship, and support.
 
@@ -104,7 +107,7 @@ In 2009, Facebook abruptly [cut off account access](https://ictnews.org/archive/
 
 Following Kills The Enemy's experience, a journalist started a Facebook group called "Facebook: don't discriminate against Native surnames!!!" that was joined by over a thousand people only a few days after its creation. Many users shared similar experiences and questioned the platform's treatment of Indigenous surnames.
 
-Another woman named Melissa Holds The Enemy describe a month-long process to recover her account.
+Another woman named Melissa Holds The Enemy described a month-long process to recover her account.
 
 An Indigenous man named Oglala Lakota Lance Brown Eyes had his account [suspended](https://colorlines.com/article/native-americans-say-facebook-accusing-them-using-fake-names/) by Facebook demanding his "real" name. After Brown Eyes sent all the required proofs, Facebook decided without warning to Americanize his displayed name to "Lance Brown." **This is blatant racism.** His name was eventually corrected and Facebook apologized, but only after Brown Eyes threatened the company with a class action lawsuit.
 
@@ -156,11 +159,11 @@ Moreover, real-name policies disproportionately affect LGBTQ+ people, as they of
 
 Unfortunately, it gets even worse, harassers and trolls have weaponized Facebook's real-name policy, and are using it to silence their victims by mass reporting them as using a fake name. In an [open letter](https://www.eff.org/document/open-letter-facebook-about-its-real-names-policy) to Facebook about its real-name policy in 2015, many LGBTQ+ and digital rights organizations warned Facebook that this was being used to silence LGBTQ+ people:
 
-> "Facebook users in the global LGBTQ community, South and Southeast Asia and the Middle East report that groups have deliberately organized (sometimes even coordinating via Facebook) to silence their targets using the "Report Abuse" button."
+> Facebook users in the global LGBTQ community, South and Southeast Asia and the Middle East report that groups have deliberately organized (sometimes even coordinating via Facebook) to silence their targets using the "Report Abuse" button.
 
 Despite all the recommendations and warnings by LGBTQ+ organizations and digital rights groups more than ten years ago, Facebook is still standing strong in its intention to keep the platform a "real name" only space. Their help center still [states](https://www.facebook.com/help/229715077154790/Names+allowed+on+Facebook/) that you can only use a name that appears on your official identification documents:
 
-> "The name on your profile should be the name that your friends call you in everyday life. This name should also appear on a form of ID or document from our ID list."
+> The name on your profile should be the name that your friends call you in everyday life. This name should also appear on a form of ID or document from our ID list.
 
 Many platforms have been trying to improve the way they handle this and allow for users to select a preferred name that is displayed instead of their legal name. This is an improvement, however it isn't without issues. Platforms shouldn't require you to use your legal name to begin with.
 
