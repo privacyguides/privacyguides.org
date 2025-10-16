@@ -173,7 +173,7 @@ jobs:
 
     env:
       LANGUAGE_SWITCHER: false
-      ARTICLES_SITE_BASE_URL: https://www.privacyguides.org/articles/
+      ARTICLES_SITE_BASE_URL: https://www.privacyguides.org/posts/tag/articles/
 
     steps:
       - name: Add GitHub Token to Environment
