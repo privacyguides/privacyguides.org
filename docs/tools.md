@@ -201,7 +201,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG is based in Plan-les-Ouates, Switzerland. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
 

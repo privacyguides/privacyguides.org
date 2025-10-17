@@ -57,7 +57,7 @@ OpenPGP also does not support forward secrecy, which means if the private key of
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland.
+**Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG is based in Plan-les-Ouates, Switzerland.
 
 The Proton Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 
