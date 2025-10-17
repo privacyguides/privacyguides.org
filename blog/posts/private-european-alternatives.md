@@ -53,7 +53,7 @@ Free accounts start with 1 GB of storage.
 
 ![Proton Mail logo](../assets/img/email/protonmail.svg){ align=right }
 
-Based in Geneva, Switzerland, **Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013.
+Based in Plan-les-Ouates, Switzerland, **Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013.
 
 The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 
