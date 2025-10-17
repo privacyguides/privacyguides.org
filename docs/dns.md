@@ -23,9 +23,8 @@ These are our favorite public DNS resolvers based on their privacy and security 
 | [**AdGuard Public DNS**](https://adguard-dns.io/en/public-dns.html) | Cleartext <br>DoH/3 <br>DoT <br>DoQ <br>DNSCrypt | Anonymized[^1] | Anonymized | Based on server choice. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardSDNSFilter) | Yes [:octicons-link-external-24:](https://adguard-dns.io/en/blog/encrypted-dns-ios-14.html) |
 | [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup) | Cleartext <br>DoH/3 <br>DoT | Anonymized[^2] | No | Based on server choice. | No [:octicons-link-external-24:](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846) |
 | [**Control D Free DNS**](https://controld.com/free-dns) | Cleartext <br>DoH/3 <br>DoT <br>DoQ | No[^3] | No | Based on server choice. | Yes <br>[:simple-apple: iOS](https://docs.controld.com/docs/ios-platform) <br>[:material-apple-finder: macOS](https://docs.controld.com/docs/macos-platform#manual-setup-profile) |
-| [**DNS0.eu**](https://dns0.eu) | Cleartext <br>DoH/3 <br>DoH <br>DoT <br>DoQ | Anonymized[^4] | Anonymized | Based on server choice. | Yes [:octicons-link-external-24:](https://dns0.eu/zero.dns0.eu.mobileconfig) |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | DoH <br>DoT | No[^5] | No | Based on server choice. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock) | Yes [:octicons-link-external-24:](https://github.com/mullvad/encrypted-dns-profiles) |
-| [**Quad9**](https://quad9.net) | Cleartext <br>DoH <br>DoT <br>DNSCrypt | Anonymized[^6] | Optional | Based on server choice. Malware blocking is included by default. | Yes <br>[:simple-apple: iOS](https://docs.quad9.net/Setup_Guides/iOS/iOS_14_and_later_(Encrypted)) <br>[:material-apple-finder: macOS](https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_(Encrypted)) |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | DoH <br>DoT | No[^4] | No | Based on server choice. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock) | Yes [:octicons-link-external-24:](https://github.com/mullvad/encrypted-dns-profiles) |
+| [**Quad9**](https://quad9.net) | Cleartext <br>DoH <br>DoT <br>DNSCrypt | Anonymized[^5] | Optional | Based on server choice. Malware blocking is included by default. | Yes <br>[:simple-apple: iOS](https://docs.quad9.net/Setup_Guides/iOS/iOS_14_and_later_(Encrypted)) <br>[:material-apple-finder: macOS](https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_(Encrypted)) |
 
 [^1]:
     AdGuard stores aggregated performance metrics of their DNS servers, namely the number of complete requests to a particular server, the number of blocked requests, and the speed of processing requests. They also keep and store the database of domains requested within the last 24 hours.
@@ -42,14 +41,10 @@ These are our favorite public DNS resolvers based on their privacy and security 
 
     Control D: [*Privacy Policy*](https://controld.com/privacy)
 [^4]:
-    DNS0.eu collects some data for their threat intelligence feeds to monitor for newly registered/observed/active domains and other bulk data. That data is shared with some [partners](https://docs.dns0.eu/data-feeds/introduction) for e.g. security research. They do not collect any personally identifiable information.
-
-    DNS0.eu: [*Privacy Policy*](https://dns0.eu/privacy)
-[^5]:
     Mullvad's DNS service is available to both subscribers and non-subscribers of Mullvad VPN. Their privacy policy explicitly claims they do not log DNS requests in any way.
 
     Mullvad: [*No-logging of user activity policy*](https://mullvad.net/en/help/no-logging-data-policy)
-[^6]:
+[^5]:
     Quad9 collects some data for the purposes of threat monitoring and response. That data may then be remixed and shared for purposes like furthering their security research. Quad9 does not collect or record IP addresses or other data they deem personally identifiable.
 
     Quad9: [*Data and Privacy Policy*](https://quad9.net/privacy/policy)
@@ -195,5 +190,5 @@ All DNS products...
 Additionally, all public providers...
 
 - Must not log any personal data to disk.
-    - As noted in the footnotes, some providers collect query information for purposes like security research, but in that case the data must not be associated with any PII such as IP address, etc.
+    - As noted in the footnotes, some providers collect query information for purposes like security research, but in such cases, the data must not be associated with any PII such as IP address, etc.
 - Should support [anycast](https://en.wikipedia.org/wiki/Anycast) or geo-steering.
