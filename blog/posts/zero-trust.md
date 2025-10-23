@@ -59,7 +59,7 @@ You might notice this model leaves people on the network and the network itself 
         E --> F;
 ```
 
-Once an attacker is inside your network, they can [move laterally ](https://www.crowdstrike.com/en-us/cybersecurity-101/cyberattacks/lateral-movement/) and access deeper and more sensitive parts of the network.
+After getting past the network boundary, they can [move laterally ](https://www.crowdstrike.com/en-us/cybersecurity-101/cyberattacks/lateral-movement/) and access deeper and more sensitive parts of the network.
 
 How does an attacker get past the network boundary though?
 
