@@ -85,6 +85,10 @@ Whatever the case may be, users can't necessarilly be trusted to keep their cred
 
 Passwords are, of course, the most vulnerable type of credentials to phishing and compromise in general.
 
+### Offsite Devices
+
+The reality today is, most of what we use isn't located on a network we control anymore. Whether it's a cloud service such as iCloud, streaming services, or even our own devices connecting remotely, the old model of trusting everything behind the network can't work when almost nothing *is* behind the network.
+
 ## Zero Trust
 
 This is where [Zero Trust](https://learn.microsoft.com/en-us/security/zero-trust/zero-trust-overview) comes in.
