@@ -168,3 +168,7 @@ Some devices, especially Windows devices, support continuous verification throug
 Some devices also support [onlooker detection](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/sensors-presence-onlooker-detection), so when an unauthorized person is detected looking at your screen, it will turn off.
 
 Unfortunately, this security feature isn't available on most devices. For devices that lack continuous verification, you can set the screen to turn off after a short timer. You can make use of [attention aware](https://support.apple.com/en-us/102216) features to keep your screen from dimming with a short timer.
+
+## Takeaways
+
+While the average person won't be achieving the same level of granular isolation you might get on a modern, secure corporate network, we can take the overall concepts and apply them to our home networks fairly easily. I'm sure there's plenty I missed, so feel free to let me know your ideas, and maybe I can even update this article in the future with your suggestions.
