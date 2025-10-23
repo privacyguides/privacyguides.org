@@ -65,7 +65,7 @@ How does an attacker get past the network boundary though?
 
 ### Virus
 
-It's happened to us all at some point. Either through a malicious link, or maybe a malicioud program masquerading as a legitimate one, there's any number of ways a "trusted" machine can get infected with malware.
+It's happened to us all at some point. Either through a malicious link, or maybe a fake program masquerading as a legitimate one, there's any number of ways a "trusted" machine can get infected with malware.
 
 Once it is, as soon as that user connects to the network, it's open season to infect other devices on the network, access sensitive data, and cause all kinds of damage.
 
