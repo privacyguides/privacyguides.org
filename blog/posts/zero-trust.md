@@ -58,3 +58,35 @@ You might notice this model leaves people on the network and the network itself 
         D --> F;
         E --> F;
 ```
+
+Once an attacker is inside your network, they can [move laterally ](https://www.crowdstrike.com/en-us/cybersecurity-101/cyberattacks/lateral-movement/) and access deeper and more sensitive parts of the network.
+
+How does an attacker get past the network boundary though?
+
+### Virus
+
+It's happened to us all at some point. Either through a malicious link, or maybe a malicioud program masquerading as a legitimate one, there's any number of ways a "trusted" machine can get infected with malware.
+
+Once it is, as soon as that user connects to the network, it's open season to infect other devices on the network, access sensitive data, and cause all kinds of damage.
+
+Unfortunately, technology isn't at a point where we can have 100% confidence that our devices aren't infected, which makes any "trusted" device, even if the user isn't malicious, a possible security threat.
+
+This is especially relevant considering the rise in [bring-your-own-device (BYOD)](https://market.biz/bring-your-own-device-byod-statistics/) in workplaces. Devices that aren't set up by the organization can't be trusted to have the best security practices in place: automatic updates, restricted software installs, etc. For all you know, someone could be on your network with a laptop from 2004 running Windows Vista.
+
+### Malicious User
+
+Of course, sometimes our "trusted" users *are* malicious. [Corporate espionage](https://www.bbc.com/news/world-asia-china-64206950) is a very real threat. Even in your own home network, there's probably people you don't want to have access to your data.
+
+### Stolen Credentials
+
+Sometimes credentials can get stolen, either through [phishing](https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams), [social engineering](https://www.ibm.com/think/topics/social-engineering), or just plain irresponsible [credential sharing](https://www.thezebra.com/resources/home/dangers-of-sharing-passwords/).
+
+Whatever the case may be, users can't necessarilly be trusted to keep their credentials secure.
+
+Passwords are, of course, the most vulnerable type of credentials to phishing and compromise in general.
+
+## Zero Trust
+
+This is where [Zero Trust](https://learn.microsoft.com/en-us/security/zero-trust/zero-trust-overview) comes in.
+
+The motto here is "**never trust, always verify**". This means that 
