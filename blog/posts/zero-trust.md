@@ -167,7 +167,7 @@ Some devices, especially Windows devices, support continuous verification throug
 
 Some devices also support [onlooker detection](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/sensors-presence-onlooker-detection), so when an unauthorized person is detected looking at your screen, it will turn off.
 
-Unfortunately, this security feature isn't available on most devices. For devices that lack continuous verification, you can set the screen to turn off after a short timer. You can make use of [attention aware](https://support.apple.com/en-us/102216) features to keep your screen from dimming with a short timer.
+Unfortunately, this security feature isn't available on most devices. For devices that lack continuous verification, you can set the screen to turn off after a short timer. You can make use of [attention aware](https://support.apple.com/en-us/102216) features to keep your screen from dimming while you use it.
 
 ## Takeaways
 
