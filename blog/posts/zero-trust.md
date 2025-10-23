@@ -125,7 +125,7 @@ Make sure your router has an administrator password set and don't give it to eve
 
 #### Two-Factor Authentication
 
-Utilize two-factor authentication and biometrics whenever you can: they help ensure that the crednetials haven't been stolen and the correct person is indeed accessing what they're allowed to access.
+Utilize two-factor authentication and biometrics whenever you can: they help ensure that the credentials haven't been stolen and the correct person is indeed accessing what they're allowed to access.
 
 #### Avoid Passwords
 
