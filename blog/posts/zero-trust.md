@@ -121,6 +121,8 @@ In order to verify who is allowed to access what, you need to segment everything
 
 From now on, every person must explicitly verify who they are using their own credentials. You don't want to be able to access anyone else's data and you don't want them accessing your data either.
 
+In line with the principle of least privilege, set everyone who doesn't need administrator access as a standard user. This will prevent them from having more access to the system than needed. You can even make separate administrator and standard accounts for yourself and only use the administrator one when you need it.
+
 Make sure your router has an administrator password set and don't give it to everyone, just people who need to administer it.
 
 #### Two-Factor Authentication
