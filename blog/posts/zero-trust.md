@@ -137,6 +137,8 @@ Passwords can be easily phished, stolen, shared, or otherwise leave your custody
 
 If you have a shared network drive, consider moving to a cloud solution and using the sharing feature it offers such as [iCloud family sharing](https://www.apple.com/family-sharing/). This will make it so that everyone needs to authenticate with their account before accessing data.
 
+Remember that we're treating all network traffic as untrusted whether it originates from inside or outside your network.
+
 #### Encryption
 
 Make heavy use of encryption, especially end-to-end encryption. Enable E2EE in services that support it such as iCloud [Advanced Data Protection](https://support.apple.com/en-us/108756).
@@ -147,7 +149,7 @@ Many routers will allow you to use TLS encryption for accessing their web interf
 
 Enable the firewall on your router of course, but don't rely on it to protect you.
 
-Turn on the firewall for all devices on your network. You can tweak the settings as you see fit, but make sure it's the minimum you need in order to use the device properly. Most operating systems will give you a simple user graphical user interface for changing firewall settings, so it shouldn't be too difficult.
+Turn on the firewall for all devices on your network. You can tweak the settings as you see fit, but make sure it's the minimum you need in order to use the device properly. Most operating systems will give you a simple graphical user interface for changing firewall settings, so it shouldn't be too difficult.
 
 #### Remove Unnecessary Devices
 
