@@ -111,3 +111,60 @@ You never know what could be lurking. A single infected printer for example coul
 
 ## Applying These Lessons
 
+How do we apply all this to your home network?
+
+### User Authentication
+
+#### Segmentation
+
+In order to verify who is allowed to access what, you need to segment everything out: if you have a shared family computer, make a separate user account for everyone. If you have shared accounts on services such as Netflix, see if they support everyone making their own account and accessing that way instead of sharing your password.
+
+From now on, every person must explicitly verify who they are using their own credentials. You don't want to be able to access anyone else's data and you don't want them accessing your data either.
+
+Make sure your router has an administrator password set and don't give it to everyone, just people who need to administer it.
+
+#### Two-Factor Authentication
+
+Utilize two-factor authentication and biometrics whenever you can: they help ensure that the crednetials haven't been stolen and the correct person is indeed accessing what they're allowed to access.
+
+#### Avoid Passwords
+
+Passwords can be easily phished, stolen, shared, or otherwise leave your custody. This is a big problem for Zero Trust. Whenever possible, use [passkeys](https://www.passkeys.com), biometric authentication, [hardware security keys](https://www.yubico.com/authentication-standards/fido2/), anything other than passwords to log in if it can be avoided.
+
+[iOS](https://support.apple.com/guide/iphone/use-stolen-device-protection-iph17105538b/ios) and [Android](https://support.google.com/android/answer/15146908?hl=en) offer anti-theft features that require biometric authentication for certain sensitive actions: enable these so that someone who knows your phone password can't change these settings.
+
+#### Network Drives
+
+If you have a shared network drive, consider moving to a cloud solution and using the sharing feature it offers such as [iCloud family sharing](https://www.apple.com/family-sharing/). This will make it so that everyone needs to authenticate with their account before accessing data.
+
+#### Encryption
+
+Make heavy use of encryption, especially end-to-end encryption. Enable E2EE in services that support it such as iCloud [Advanced Data Protection](https://support.apple.com/en-us/108756).
+
+Many routers will allow you to use TLS encryption for accessing their web interface: enable this setting if it's available.
+
+#### Firewall
+
+Enable the firewall on your router of course, but don't rely on it to protect you.
+
+Turn on the firewall for all devices on your network. You can tweak the settings as you see fit, but make sure it's the minimum you need in order to use the device properly. Most operating systems will give you a simple user graphical user interface for changing firewall settings, so it shouldn't be too difficult.
+
+#### Remove Unnecessary Devices
+
+In this day and age, many of us own too many smart devices. We have to ask ourselves if we really need a WiFi enabled toaster, or if the added attack surface isn't worth it.
+
+Go through networked devices in your home and assess what's needed and what's not. These typically are a pain to keep updated and give you very little control over their security anyway. Each one represents another potential entrypoint into your network.
+
+#### Network Segmentation
+
+An important part of Zero Trust is keeping devices [separated](https://learn.microsoft.com/en-us/security/zero-trust/sfi/network-isolation?branch=main) on your network. You don't necessarily need to go as granular as you'd see on corporate networks, and a lot of consumer routers don't even let you anyway, but you can put devices you don't want anywhere near your sensitive data on the [guest network](https://www.netgear.com/hub/network/security/guest-wifi/) that most routers let you enable.
+
+This will keep them separated from your personal devices with your sensitive data.
+
+#### Continuous Verification
+
+Some devices, especially Windows devices, support continuous verification through biometrics. For example, you can set your Windows PC to [automatically lock itself](https://support.microsoft.com/en-us/windows/managing-presence-sensing-settings-in-windows-11-82285c93-440c-4e15-9081-c9e38c1290bb) when it detects you've left.
+
+Some devices also support [onlooker detection](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/sensors-presence-onlooker-detection), so when an unauthorized person is detected looking at your screen, it will turn off.
+
+Unfortunately, this security feature isn't available on most devices. For devices that lack continuous verification, you can set the screen to turn off after a short timer. You can make use of [attention aware](https://support.apple.com/en-us/102216) features to keep your screen from dimming with a short timer.
