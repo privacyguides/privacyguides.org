@@ -93,4 +93,21 @@ The reality today is, most of what we use isn't located on a network we control 
 
 This is where [Zero Trust](https://learn.microsoft.com/en-us/security/zero-trust/zero-trust-overview) comes in.
 
-The motto here is "**never trust, always verify**". This means that 
+### Verify
+
+The motto here is "**never trust, always verify**". This means that you should never assume any device accessing any resource or performing any action is trusted. You should verify explicitly every time and using as many data points as you can.
+
+### Principle of Least Privilege
+
+The [Principle of Least Privelege](https://www.cloudflare.com/learning/access-management/principle-of-least-privilege/) states that a user should only have access to the bare minimum they need in order to do what they need to do, and no more.
+
+In a corporate network, a sales associate doesn't need full control over the network. In your home network, grandpa probably doesn't need access to your password manager or your user account on your PC.
+
+### Assume Breach
+
+Always assume the attackers are listening: use encryption whenever you can. Treat your internal network traffic like external traffic.
+
+You never know what could be lurking. A single infected printer for example could be scanning your network for unencrypted traffic or holes in your device's firewall.
+
+## Applying These Lessons
+
