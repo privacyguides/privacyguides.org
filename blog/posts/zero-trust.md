@@ -151,6 +151,8 @@ Enable the firewall on your router of course, but don't rely on it to protect yo
 
 Turn on the firewall for all devices on your network. You can tweak the settings as you see fit, but make sure it's the minimum you need in order to use the device properly. Most operating systems will give you a simple graphical user interface for changing firewall settings, so it shouldn't be too difficult.
 
+For example, in Windows, you can set each network you connect to as either Private or Public, with Public having stricter firewall rules. We're treating all networks as public networks, so set your home network to Public.
+
 #### Remove Unnecessary Devices
 
 In this day and age, many of us own too many smart devices. We have to ask ourselves if we really need a WiFi enabled toaster, or if the added attack surface isn't worth it.
