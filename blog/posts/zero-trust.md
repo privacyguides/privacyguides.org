@@ -38,3 +38,23 @@ Anyone outside the network is considered "untrusted" and are not given access to
         B --> E[Printer];
         E --> B;
 ```
+
+This doesn't just include people physically inside the network, this also includes people connecting to the network over a VPN. Once the VPN spits you out, it's like you're physically there on the network, along with all the privileges that entails.
+
+## Issues
+
+You might notice this model leaves people on the network and the network itself highly vulnerable; once a malicious actor is inside the network, they can wreak havok and access troves of data and attack other users and devices.
+
+``` mermaid
+    graph LR
+        A[Untrusted Traffic] -.-> B{Network Boundary};
+        B --> C[Network Drive];
+        C --> B;
+        B --> D[User];
+        D --> B;
+        B --> E[Printer];
+        E --> B;
+        C --> F(Attacker);
+        D --> F;
+        E --> F;
+```
