@@ -45,6 +45,10 @@ The [Intel 8080](https://en.wikipedia.org/wiki/Intel_8080) machines it was desig
 
 The original BIOS was contained in true Read-Only Memory baked into the motherboard, so it couldn't be changed without replacing the chip it was stored on. Machines back then weren't as madular and upgradeable as many modern PCs, and they mostly didn't have their own onboard firmware like they do now, so the BIOS could handle everything on its own. Any configuration you wanted to do on early BIOS had to be done using physical [DIP switches](https://en.wikipedia.org/wiki/DIP_switch), although later iterations would replace this with an BIOS setup utility controlled with a keyboard, similar to what we have on modern computers.
 
-## UEFI
+For devices with onboard firmware, you typically had option ROMs, which were on physical expansion cards you bought and plugged into your motherboard. The BIOS would detect these and run them during the boot process. The BIOS would initialize each device one after another, so it would temporarily hand control over to these option ROMs and rely on them to hand back control when they were done. 
+
+As you can imagine, the more devices you had, the more chances for something to go wrong and stop the boot from completing and the longer each boot would take.
+
+## EFI
 
 In order to facilitate the increasing complexity of firmware and components on the motherboard, 
