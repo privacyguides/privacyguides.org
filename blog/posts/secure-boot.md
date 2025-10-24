@@ -37,6 +37,14 @@ This isn't just theoretical: sophisticated malware has infected the firmware of 
 
 If you think about the sheer number of devices in your computer, most made by different companies, the attack surface is huge.
 
+## BIOS
+
+In the late 1970's, the Basic Input/Output System was created for the [CP/M](https://www.digitalresearch.biz/CPM.HTM) operating system. It facillitated initializing and communication with hardware components other than the CPU.
+
+The [Intel 8080](https://en.wikipedia.org/wiki/Intel_8080) machines it was designed to run on were only 8-bit, to show how much more primitive the systems BIOS was designed for were.
+
+The original BIOS was contained in true Read-Only Memory baked into the motherboard, so it couldn't be changed without replacing the chip it was stored on. Machines back then weren't as madular and upgradeable as many modern PCs, and they mostly didn't have their own onboard firmware like they do now, so the BIOS could handle everything on its own. Any configuration you wanted to do on early BIOS had to be done using physical [DIP switches](https://en.wikipedia.org/wiki/DIP_switch), although later iterations would replace this with an BIOS setup utility controlled with a keyboard, similar to what we have on modern computers.
+
 ## UEFI
 
-In order to facilitate 
+In order to facilitate the increasing complexity of firmware and components on the motherboard, 
