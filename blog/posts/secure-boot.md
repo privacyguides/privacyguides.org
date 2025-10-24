@@ -23,7 +23,7 @@ In order for your hardware to function, it oftentimes needs small programs embed
 
 Firmware provides low-level control for your hardware and allows the operating system to control it. The name comes from the fact that it's in between hardware and software; it's not executing CPU instructions, but it's a running program nonetheless.
 
-Almost chip in every device you own runs firmware, from the WiFi chip to the CPU to the GPU and even the motherboard itself. Most of these devices store their firmware in non-volatile memory that can be flashed, or rewritten with new data. A lot of the time, it can be flashed from the operating system, without needing any special equipment.
+Almost every chip in every device you own runs firmware, from the Wi-Fi chip to the CPU to the GPU and even the motherboard itself. Most of these devices store their firmware in non-volatile memory that can be flashed, or rewritten with new data. A lot of the time, it can be flashed from the operating system, without needing any special equipment.
 
 This is desirable since older firmware can have vulnerabilities that need to be patched, which is especially important for connected devices that could be remotely exploited. Being able to easily patch firmware vulnerabilities through normal OS updates is essential for security on modern hardware that's so complex and feature-rich.
 
