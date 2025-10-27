@@ -95,7 +95,7 @@ Usually, Secure Boot only covers the UEFI firmware, bootloader, and OS kernel, m
 
 ### Measured Boot
 
-[Measured Boot](https://learn.microsoft.com/en-us/azure/security/fundamentals/measured-boot-host-attestation#measured-boot) take a bit of different approach. Instead of ensuring the loaded firmware, bootloader, and kernel are properly signed, it records a hash of each boot component.
+[Measured Boot](https://learn.microsoft.com/en-us/windows/compatibility/measured-boot) take a bit of different approach. Instead of ensuring the loaded firmware, bootloader, and kernel are properly signed, it records a hash of each boot component.
 
 The measurements are hash-chained together by incrementally adding the previously hashed measurements to the next measurement's hash and running the hashing algorithm on the union of the two.
 
