@@ -100,3 +100,9 @@ Usually, Secure Boot only covers the UEFI firmware, bootloader, and OS kernel, m
 The measurements are hash-chained together by incrementally adding the previously hashed measurements to the next measurement's hash and running the hashing algorithm on the union of the two.
 
 The hashes are recorded safely in the [TPM](https://learn.microsoft.com/en-us/windows/security/hardware-security/tpm/trusted-platform-module-overview) of the device, and a trusted third party can verify that the hash is correct and hasn't been tampered with.
+
+### Trusted Boot
+
+[Trusted Boot](https://learn.microsoft.com/en-us/windows/security/operating-system-security/system-security/trusted-boot#trusted-boot) is a Windows-specific feature and essentially picks up where Secure Boot leaves off. The Windows bootloader verifies the kernel, then the kernel verifies every other part of the startup process including boot drivers, startup files, and early launch anti-malware driver of your anti-malware software.
+
+Similarly to Secure Boot, if Trusted Boot detects any of these components are tampered with, it refuses to load it. Windows can even repair corrupted components a lot of the time.
