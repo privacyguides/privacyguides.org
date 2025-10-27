@@ -92,3 +92,11 @@ It also allows booting into non-Microsoft bootloaders like shim, allowing many L
 Since the Microsoft KEK CA allows so many different bootloaders to run by default, it allows more attack surface than many users desire. You can use your own machine owner key (MOK) (and delete the default keys) so that only your own bootloader and/or custom kernel module will be allowed to load. Usually this is provided by your distribution.
 
 Usually, Secure Boot only covers the UEFI firmware, bootloader, and OS kernel, many peripneral devices like drives are left out of the process. This can mean a lot of extra attack surface depending on how many extra devices you have on your system. It also leaves out a lot of the operating system, so even if the kernel isn't compromised, any part of your OS outside the kernel could be, including any app you've installed. There's room for improvement to make Secure Boot work all the way down to the application level, similar to how it works on mobile operating sytems like Android and iOS, where all running software is required to be signed.
+
+### Measured Boot
+
+[Measured Boot](https://learn.microsoft.com/en-us/azure/security/fundamentals/measured-boot-host-attestation#measured-boot) take a bit of different approach. Instead of ensuring the loaded firmware, bootloader, and kernel are properly signed, it records a hash of each boot component.
+
+The measurements are hash-chained together by incrementally adding the previously hashed measurements to the next measurement's hash and running the hashing algorithm on the union of the two.
+
+The hashes are recorded safely in the [TPM](https://learn.microsoft.com/en-us/windows/security/hardware-security/tpm/trusted-platform-module-overview) of the device, and a trusted third party can verify that the hash is correct and hasn't been tampered with.
