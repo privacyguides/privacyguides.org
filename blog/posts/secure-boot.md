@@ -67,8 +67,8 @@ It uses key chaining, with the keys verifying the keys further down the chain.
 
 ``` mermaid
 graph LR
-  A[Platform Key] --> B[Key Exchange Key];
-  B --> C[Signature Database];
-  B --> D[Revoked Signature Database];
+  A[Platform Key] -Sign-> B[Key Exchange Key];
+  B -Sign-> C[Signature Database];
+  B -Sign-> D[Revoked Signature Database];
   E[Secure Firmware Update Key]
 ```
