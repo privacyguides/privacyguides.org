@@ -59,7 +59,7 @@ Some of these improvements include support for drives larger than 2 terabytes, s
 
 ### Secure Boot
 
-Along with all of this, UEFI also supports Secure Boot, security feature that allows you to verify the firmware, bootloader, and OS hasn't been tampered with.
+Along with all of this, UEFI also supports [Secure Boot](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-secure-boot-key-creation-and-management-guidance?view=windows-11), security feature that allows you to verify the firmware, bootloader, and OS hasn't been tampered with.
 
 Secure Boot relies on public key infrastructure (PKI) to validate these components.
 
