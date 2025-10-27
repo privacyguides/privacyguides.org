@@ -52,3 +52,9 @@ As you can imagine, the more devices you had, the more chances for something to 
 ## UEFI
 
 In order to facilitate the increasing complexity of firmware and components on the motherboard, Intel created the [Extensible Firmware Interface](https://www.intel.com/content/www/us/en/content-details/841643/basic-instructions-for-using-the-extensible-firmware-interface-efi-for-server-configuration-on-intel-server-boards-and-intel-server-systems.html). In 2005, the [UEFI Forum](https://uefi.org) was formed to make the standard more open and allow broader industry participation and development of the standard.
+
+UEFI defines a standard interface for communication between firmware and the operating system, as well as adding some improvements over BIOS.
+
+Some of these improvements include support for drives larger than 2 terabytes, support for graphical user interfaces in the setup utility with mouse support, support for initializing hardware devices in parallel instead of one after the other, significantly improving boot times, and support for running in 64 bit instead of 16 bit mode.
+
+Along with all of this, UEFI also supports Secure Boot, security feature that allows you to 
