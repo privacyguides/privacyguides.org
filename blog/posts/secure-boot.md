@@ -86,3 +86,9 @@ The PK allows updates to the KEK and by extension the signature databases so era
 Microsoft provides its own PK for OEMs to use if they don't want the responsibilty of managing the keys themselves. They also provide their own KEK via their KEK certificate authority. For Windows, it's required in order to update the database for newer signed images of Windows.
 
 It also allows booting into non-Microsoft bootloaders like shim, allowing many Linux distributions to support secure boot without any extra configuration.
+
+#### Attack Surface
+
+Since the Microsoft KEK CA allows so many different bootloaders to run by default, it allows more attack surface than many users desire. You can use your own machine owner key (MOK) (and delete the default keys) so that only your own bootloader and/or custom kernel module will be allowed to load. Usually this is provided by your distribution.
+
+Usually, Secure Boot only covers the UEFI firmware, bootloader, and OS kernel, many peripneral devices like drives are left out of the process. This can mean a lot of extra attack surface depending on how many extra devices you have on your system.
