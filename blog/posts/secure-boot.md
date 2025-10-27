@@ -76,3 +76,5 @@ graph LR
 The PK acts as the root of trust for the KEK which in turn verifies both the signature database and revoked signature database. They're all stored in non-volatile memory (NVRAM) so they can be erased and replaced with different keys if desired.
 
 The secure firmware update key is typically stored in such a way that it's non-writable and protected by hardware, that way in order to flash new firmware, you always need to verify that the firmware is signed by the OEM. This process is separate from Secure Boot.
+
+The design of UEFI Secure Boot allows for users to delete the keys all the way up to the PK and use their own keys if they want, so that's another reason the secure fimware update key is typically different than the PK.
