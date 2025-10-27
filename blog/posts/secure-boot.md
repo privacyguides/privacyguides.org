@@ -77,4 +77,8 @@ The PK acts as the root of trust for the KEK which in turn verifies both the sig
 
 The secure firmware update key is typically stored in such a way that it's non-writable and protected by hardware, that way in order to flash new firmware, you always need to verify that the firmware is signed by the OEM. This process is separate from Secure Boot.
 
-The design of UEFI Secure Boot allows for users to delete the keys all the way up to the PK and use their own keys if they want, so that's another reason the secure fimware update key is typically different than the PK.
+The design of UEFI Secure Boot allows for users to delete the keys all the way up to the PK (root of trust) and use their own keys if they want, so that's another reason the secure firmware update key is typically different than the PK.
+
+Deleting the PK typically puts the system into Setup Mode, where you'll need to enroll a new PK.
+
+The PK allows updates to the KEK and by extension the signature databases so erasing it effectively disables Secure Boot until a new key is added.
