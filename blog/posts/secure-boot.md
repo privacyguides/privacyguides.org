@@ -82,3 +82,7 @@ The design of UEFI Secure Boot allows for users to delete the keys all the way u
 Deleting the PK typically puts the system into Setup Mode, where you'll need to enroll a new PK.
 
 The PK allows updates to the KEK and by extension the signature databases so erasing it effectively disables Secure Boot until a new key is added.
+
+Microsoft provides its own PK for OEMs to use if they don't want the responsibilty of managing the keys themselves. They also provide their own KEK via their KEK certificate authority. For Windows, it's required in order to update the database for newer signed images of Windows.
+
+It also allows booting into non-Microsoft bootloaders like shim, allowing many Linux distributions to support secure boot without any extra configuration.
