@@ -57,4 +57,18 @@ UEFI defines a standard interface for communication between firmware and the ope
 
 Some of these improvements include support for drives larger than 2 terabytes, support for graphical user interfaces in the setup utility with mouse support, support for initializing hardware devices in parallel instead of one after the other, significantly improving boot times, and support for running in 64 bit instead of 16 bit mode.
 
-Along with all of this, UEFI also supports Secure Boot, security feature that allows you to 
+### Secure Boot
+
+Along with all of this, UEFI also supports Secure Boot, security feature that allows you to verify the firmware, bootloader, and OS hasn't been tampered with.
+
+Secure Boot relies on public key infrastructure (PKI) to validate these components.
+
+It uses key chaining, with the keys verifying the keys further down the chain.
+
+``` mermaid
+graph LR
+  A[Platform Key] --> B[Key Exchange Key];
+  B --> C[Signature Database];
+  B --> D[Revoked Signature Database];
+  E[Secure Firmware Update Key]
+```
