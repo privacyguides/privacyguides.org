@@ -72,3 +72,5 @@ graph LR
   B -Sign-> D[Revoked Signature Database];
   E[Secure Firmware Update Key]
 ```
+
+The PK acts as the root of trust for the KEK which in turn verifies both the signature database and revoked signature database.
