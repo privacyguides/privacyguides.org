@@ -93,7 +93,7 @@ Since the Microsoft KEK CA allows so many different bootloaders to run by defaul
 
 Usually, Secure Boot only covers the UEFI firmware, bootloader, and OS kernel, many peripneral devices like drives are left out of the process. This can mean a lot of extra attack surface depending on how many extra devices you have on your system. It also leaves out a lot of the operating system, so even if the kernel isn't compromised, any part of your OS outside the kernel could be, including any app you've installed. There's room for improvement to make Secure Boot work all the way down to the application level, similar to how it works on mobile operating sytems like Android and iOS, where all running software is required to be signed.
 
-### Measured Boot
+## Measured Boot
 
 [Measured Boot](https://learn.microsoft.com/en-us/windows/compatibility/measured-boot) take a bit of different approach. Instead of ensuring the loaded firmware, bootloader, and kernel are properly signed, it records a hash of each boot component.
 
@@ -101,7 +101,7 @@ The measurements are hash-chained together by incrementally adding the previousl
 
 The hashes are recorded safely in the [TPM](https://learn.microsoft.com/en-us/windows/security/hardware-security/tpm/trusted-platform-module-overview) of the device, and a trusted third party can verify that the hash is correct and hasn't been tampered with.
 
-### Trusted Boot
+## Trusted Boot
 
 [Trusted Boot](https://learn.microsoft.com/en-us/windows/security/operating-system-security/system-security/trusted-boot#trusted-boot) is a Windows-specific feature and essentially picks up where Secure Boot leaves off. The Windows bootloader verifies the kernel, then the kernel verifies every other part of the startup process including boot drivers, startup files, and early launch anti-malware driver of your anti-malware software.
 
