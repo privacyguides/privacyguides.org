@@ -106,3 +106,9 @@ The hashes are recorded safely in the [TPM](https://learn.microsoft.com/en-us/wi
 [Trusted Boot](https://learn.microsoft.com/en-us/windows/security/operating-system-security/system-security/trusted-boot#trusted-boot) is a Windows-specific feature and essentially picks up where Secure Boot leaves off. The Windows bootloader verifies the kernel, then the kernel verifies every other part of the startup process including boot drivers, startup files, and early launch anti-malware driver of your anti-malware software.
 
 Similarly to Secure Boot, if Trusted Boot detects any of these components are tampered with, it refuses to load it. Windows can even repair corrupted components a lot of the time.
+
+## Verified Boot
+
+[Verified Boot](https://source.android.com/docs/security/features/verifiedboot/) is more robust than secure boot and strives to ensure that all executed code that's part of the Android version being used are cryptographically verified. This includes the kernel, the [device tree](https://source.android.com/docs/core/architecture/dto), the system partition, the vendor partition, etc.
+
+Verified Boot is mainly used by Android and [ChromeOS](https://www.chromium.org/chromium-os/chromiumos-design-docs/verified-boot/), although Apple's version of "[secure boot](https://support.apple.com/guide/security/boot-process-for-iphone-and-ipad-devices-secb3000f149/1/web/1)" is more akin to Verified Boot.
