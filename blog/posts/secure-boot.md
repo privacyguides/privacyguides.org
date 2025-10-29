@@ -130,3 +130,13 @@ As it is, boot authentication is mostly limited to regular computers and phones.
 In a rare bit of good news, some manufacturers like Samsung are starting to incorporate the same [security technology](https://news.samsung.com/global/samsung-electronics-becomes-the-company-with-the-largest-number-of-level-diamond-iot-security-rating-verifications-by-ul-solutions-in-the-home-appliances-industry) such as their [Knox](https://www.samsungknox.com/en/secured-by-knox) into their appliances, which includes secure boot.
 
 To me this marks a turning point from manufacturers of IoT products not caring about security at all to beginning to implement some basic improvements. Now, I still won't tell anyone to get a smart fridge, but if you do, at least it'll be more secure than before.
+
+UL is an organization that does certification for companies and products, and their [IoT security certification](https://www.ul.com/resources/lot-security-rating-levels-guide) seems like a good indicator to go on if you want more secure IoT devices, especially since the description of the Diamond tier seems to suggest it requires some form of secure boot.
+
+### Secure Boot in Cars
+
+One of the most complex pieces of electronic equipment and also the most potentially deadly is cars.
+
+Modern cars typically contain over 100 million lines of code, which is more than a passenger jet. A *lot* more.
+
+This poses a problem when any component malfunctioning or being hacked could lead to property damage or deaths. Luckily, new
