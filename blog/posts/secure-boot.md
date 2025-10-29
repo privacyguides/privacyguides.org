@@ -139,4 +139,6 @@ One of the most complex pieces of electronic equipment and also the most potenti
 
 Modern cars typically contain over 100 million lines of code, which is more than a passenger jet. A *lot* more.
 
-This poses a problem when any component malfunctioning or being hacked could lead to property damage or deaths. Luckily, new
+This poses a problem when any component malfunctioning or being hacked could lead to property damage or deaths. Luckily, new standards like [ISO/SAE 21434:2021](https://www.iso.org/standard/70918.html) exist to provide guidance on best practices for automotive manufacturers.
+
+Secure boot and [hardware security modules](https://www.vector.com/int/en/products/products-a-z/embedded-software/microsar-hsm/) for automotives are becoming more common. I think we're going to eventually see similar security to phones on our cars at some point. There does seem to be a genuine push toward more security.
