@@ -112,3 +112,19 @@ Similarly to Secure Boot, if Trusted Boot detects any of these components are ta
 [Verified Boot](https://source.android.com/docs/security/features/verifiedboot/) is more robust than secure boot and strives to ensure that all executed code that's part of the Android version being used are cryptographically verified. This includes the kernel, the [device tree](https://source.android.com/docs/core/architecture/dto), the system partition, the vendor partition, etc.
 
 Verified Boot is mainly used by Android and [ChromeOS](https://www.chromium.org/chromium-os/chromiumos-design-docs/verified-boot/), although Apple's version of "[secure boot](https://support.apple.com/guide/security/boot-process-for-iphone-and-ipad-devices-secb3000f149/1/web/1)" is more akin to Verified Boot.
+
+## What does the future hold?
+
+There's been greater adoption of boot authentication technologies like secure boot across desktop and mobile systems which is great to see.
+
+### Enabled by Default
+
+However, in my opinion, it hasn't gone far enough. Most motherboard manufacturers still support legacy boot modes that aren't compatible with Secure Boot, and likely because of this and issues with many Linux distros and Secure Boot, it typically comes disabled by default. This means that a significant number of computer owners are running their system without any type of boot authentication, a massive security risk.
+
+It would be nice to see a greater push toward making Secure Boot more compatible with more operating systems, dropping legacy boot support, and eventually enabling Secure Boot by default in as many systems as possible. Of course, still allowing the user to enroll their own keys.
+
+### Expansion into More Devices
+
+As it is, boot authentication is mostly limited to regular computers and phones. But we live in 2025, the year of the "smart fridge", so with all the IoT devices in our homes, we need all the security we can get.
+
+In a rare bit of good news, some manufacturers like Samsung are
