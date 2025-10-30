@@ -5,7 +5,7 @@ categories:
     - News
 authors:
     - em
-description: Age verification laws and propositions forcing platforms to restrict content accessed by children and teens have been multiplying in recent years. The problem is, implementing such measure necessarily requires identifying each user accessing this content, one way or another. This is bad news for your privacy.
+description: Age verification laws forcing platforms to restrict access to content online have been multiplying in recent years. The problem is, implementing such measure necessarily requires identifying each user accessing this content, one way or another. This is bad news for your privacy.
 schema_type: AnalysisNewsArticle
 preview:
   cover: blog/assets/images/age-verification-wants-your-face/ageverification-cover.webp

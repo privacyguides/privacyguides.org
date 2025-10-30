@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json.
 {
   "name": "Privacy Guides",
-  "image": "ghcr.io/privacyguides/privacyguides.org:sha-55c050b",
+  "image": "ghcr.io/privacyguides/privacyguides.org:sha-5648a3f",
   // "build": {
   //   "dockerfile": "../Dockerfile",
   //   "context": ".."
@@ -18,10 +18,6 @@
     },
     "8001": {
       "label": "Articles",
-      "onAutoForward": "silent"
-    },
-    "8002": {
-      "label": "Videos",
       "onAutoForward": "silent"
     }
   },
@@ -53,23 +49,9 @@
               }
             },
             {
-              "label": "Videos",
-              "type": "shell",
-              "command": "mkdocs serve --config-file=mkdocs.videos.yml --dev-addr=localhost:8002",
-              "group": "test",
-              "runOptions": {
-                "runOn": "folderOpen"
-              },
-              "presentation": {
-                "reveal": "always",
-                "panel": "dedicated",
-                "group": "Live server"
-              }
-            },
-            {
               "label": "Main",
               "type": "shell",
-              "command": "./run.sh --cmd=mkdocs --insiders --production",
+              "command": "./run.sh --cmd=mkdocs --insiders",
               "group": "test",
               "runOptions": {
                 "runOn": "folderOpen"

@@ -1,6 +1,6 @@
 ---
 meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
-title: "Password Managers"
+title: Password Managers
 icon: material/form-textbox-password
 description: Password managers allow you to securely store and manage passwords and other credentials.
 cover: passwords.webp
@@ -176,16 +176,9 @@ These password managers sync your passwords to a cloud server for easy accessibi
 
 Bitwarden uses [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) as its key derivation function (KDF) algorithm by default. It also offers [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id), which is more secure, as an alternative. You can change your account's KDF algorithm in the web vault:
 
-- [x] Select **Settings > Security > Keys > KDF algorithm > Argon2id**
+- [x] Select **Settings → Security → Keys → KDF algorithm → Argon2id**
 
 Bitwarden's server-side code is [open source](https://github.com/bitwarden/server), so if you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden sync server.
-
-**Vaultwarden** is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy official service might not be ideal. If you are looking to self-host Bitwarden on your own server, you almost certainly want to use Vaultwarden over Bitwarden's official server code.
-
-[:octicons-repo-16: Vaultwarden Repository](https://github.com/dani-garcia/vaultwarden){ .md-button }
-[:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title="Contribute" }
 
 ### Proton Pass
 
@@ -366,6 +359,35 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 </div>
 
 The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
+
+### KeePassium (iOS & macOS)
+
+<div class="admonition recommendation" markdown>
+
+![KeePassium logo](assets/img/password-management/keepassium.svg){ align=right }
+
+KeePassium is a commercial, open-source password manager made by KeePassium Labs that's compatible with other KeePass applications. It provides autofill support, passkey management, automatic two-way synchronization through [most cloud storage providers](https://support.keepassium.com/kb/sync), and more.
+
+[:material-star-box: Read our latest KeePassium review.](https://www.privacyguides.org/articles/2025/05/13/keepassium-review)
+
+[:octicons-home-16: Homepage](https://keepassium.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://keepassium.com/privacy/app){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.keepassium.com){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/keepassium/KeePassium){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://keepassium.com/donate){ .card-link title="Contribute" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/id1435127111)
+
+</details>
+
+</div>
+
+KeePassium offers a [Premium version](https://keepassium.com/pricing) with additional features such as support for multiple databases, YubiKey support, and a password audit tool.
+
+KeePassium's iOS app has been [audited](https://cure53.de/pentest-report_keepassium.pdf) by Cure53 in October 2024, and all [issues](https://keepassium.com/blog/2024/11/independent-security-audit-complete) found in the audit were subsequently fixed.
 
 ### Gopass (CLI)
 

@@ -138,9 +138,26 @@ Many alternatives don't provide these same permission controls yet,[^1] while so
 
 Many desktop Linux distributions (Fedora, openSUSE, etc.) come with [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager) to configure Ethernet and Wi-Fi settings.
 
-It is possible to [randomize](https://fedoramagazine.org/randomize-mac-address-nm) the [MAC address](https://en.wikipedia.org/wiki/MAC_address) when using NetworkManager. This provides a bit more privacy on Wi-Fi networks as it makes it harder to track specific devices on the network you’re connected to. It does [**not**](https://papers.mathyvanhoef.com/wisec2016.pdf) make you anonymous.
+It is possible to randomize the [MAC address](https://en.wikipedia.org/wiki/MAC_address) when using NetworkManager. This provides a bit more privacy on Wi-Fi networks as it makes it harder to track specific devices on the network you’re connected to. It does [**not**](https://papers.mathyvanhoef.com/wisec2016.pdf) make you anonymous.
 
-We recommend changing the setting to **random** instead of **stable**, as suggested in the [article](https://fedoramagazine.org/randomize-mac-address-nm).
+In the terminal, create a new file `/etc/NetworkManager/conf.d/00-macrandomize.conf` and add the following to it:
+
+```text
+[device]
+wifi.scan-rand-mac-address=yes
+
+[connection]
+wifi.cloned-mac-address=random
+ethernet.cloned-mac-address=random
+```
+
+Then, restart NetworkManager:
+
+```sh
+systemctl restart NetworkManager
+```
+
+Optionally, changing the connection parameter from `random` to `stable` will give you a random MAC address *per network*, but keep it stable for that network when you reconnect to it later. Using `random` will give you a random MAC address *per connection*. This may be desirable for networks with captive portals or where you have a static DHCP assignment, at the expense of making you more identifiable by a single network operator you connect to multiple times.
 
 If you are using [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components), you will need to set [`MACAddressPolicy=random`](https://freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) which will enable [RFC 7844 (Anonymity Profiles for DHCP Clients)](https://freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=).
 

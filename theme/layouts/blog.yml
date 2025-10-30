@@ -102,6 +102,10 @@ tags:
   article:section: "{{ page.categories[0].title }}"
   article:author: "https://www.privacyguides.org/articles/{{ page.authors[0].url }}"
 
+  # Facebook
+  article:publisher: "https://www.facebook.com/PrivacyGuides.org"
+  article:tag: "Technology"
+
   # Mastodon
   fediverse:creator: *author_mastodon
 

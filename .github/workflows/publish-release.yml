@@ -50,8 +50,8 @@ jobs:
     needs: submodule
     strategy:
       matrix:
-        lang: [en, es, fr, he, it, nl, ru, zh-Hant]
-        build: [build, offline]
+        lang: [en, es, fr, he, it, nl, ru, zh-Hant, zh-TW]
+        build: [build]
     permissions:
       contents: read
     uses: ./.github/workflows/build.yml
@@ -63,8 +63,6 @@ jobs:
       context: production
       continue-on-error: false
       cache: false
-    secrets:
-      RO_DISCOURSE_API_KEY: ${{ secrets.RO_DISCOURSE_API_KEY }}
 
   build_blog:
     needs: submodule
@@ -77,20 +75,18 @@ jobs:
       continue-on-error: false
       context: production
 
-  build_videos:
+  build_zimfile:
     needs: submodule
     permissions:
       contents: read
-    uses: ./.github/workflows/build-videos.yml
+    uses: ./.github/workflows/build-zimfile.yml
     with:
       repo: ${{ github.repository }}
       ref: ${{ github.ref }}
-      continue-on-error: false
-      context: production
 
   release:
     name: Create release notes
-    needs: build
+    needs: [build, build_zimfile]
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -98,21 +94,20 @@ jobs:
     steps:
       - uses: actions/download-artifact@v4
         with:
-          pattern: offline*
+          pattern: "*.zim"
           merge-multiple: true
 
       - name: Create release notes
         uses: ncipollo/release-action@v1
         with:
           generateReleaseNotes: true
-          artifacts: "offline.zip,offline.tar.gz,offline-privacy_guides.zim"
+          artifacts: "*.zim"
           makeLatest: true
 
   deploy:
-    needs: [build, build_blog, build_videos]
+    needs: [build, build_blog]
     uses: privacyguides/webserver/.github/workflows/deploy-all.yml@main
     secrets:
-      NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
       PROD_MINIO_KEY_ID: ${{ secrets.PROD_MINIO_KEY_ID }}
       PROD_MINIO_SECRET_KEY: ${{ secrets.PROD_MINIO_SECRET_KEY }}
       PROD_GARAGE_KEY_ID: ${{ secrets.PROD_GARAGE_KEY_ID }}
@@ -126,5 +121,5 @@ jobs:
 
   cleanup:
     if: ${{ always() }}
-    needs: [build, build_blog, build_videos]
+    needs: [build, build_blog, build_zimfile]
     uses: privacyguides/.github/.github/workflows/cleanup.yml@main

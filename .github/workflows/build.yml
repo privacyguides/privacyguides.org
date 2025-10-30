@@ -30,9 +30,6 @@ on:
       cache:
         type: boolean
         default: true
-    secrets:
-      RO_DISCOURSE_API_KEY:
-        required: false
 
 permissions:
   contents: read
@@ -65,7 +62,7 @@ jobs:
             echo "MAIN_SITE_ABOUT_URL=https://www.privacyguides.org/en/about/"
             echo "MAIN_SITE_RECOMMENDATIONS_URL=https://www.privacyguides.org/en/tools/"
             echo "MAIN_SITE_KNOWLEDGE_BASE_URL=https://www.privacyguides.org/en/basics/why-privacy-matters/"
-            echo "ARTICLES_SITE_BASE_URL=https://www.privacyguides.org/articles/"
+            echo "ARTICLES_SITE_BASE_URL=https://www.privacyguides.org/posts/tag/articles/"
             echo "VIDEOS_SITE_BASE_URL=https://www.privacyguides.org/videos/"
           } >> "$GITHUB_ENV"
 
@@ -160,19 +157,6 @@ jobs:
             social-cache-${{ inputs.repo }}-${{ inputs.lang }}-
             social-cache-privacyguides/privacyguides.org-${{ inputs.lang }}-
 
-      - name: Restore Optimize Plugin Cache
-        uses: actions/cache/restore@v4
-        id: optimize_cache_restore
-        if: inputs.cache
-        with:
-          key: optimize-cache-${{ inputs.repo }}-${{ hashfiles('.cache/plugin/optimize/manifest.json') }}
-          path: |
-            .cache/plugin/optimize
-          restore-keys: |
-            optimize-cache-${{ inputs.repo }}-
-            optimize-cache-privacyguides/privacyguides.org-
-            optimize-cache-
-
       - name: Install Python Dependencies
         if: inputs.privileged
         run: |
@@ -189,11 +173,9 @@ jobs:
 
       - name: Generate Donating Members List
         continue-on-error: true
-        env:
-          DISCOURSE_API_KEY: ${{ secrets.RO_DISCOURSE_API_KEY }}
         run: |
           pip install requests
-          python generate-members.py > includes/members.md
+          python tools/generate-members.py > includes/members.md
 
       - name: Build Website
         run: |
@@ -202,7 +184,7 @@ jobs:
       - name: Run generate-topics.sh for top posts
         if: inputs.lang == 'en'
         run: |
-          bash generate-topics.sh \
+          bash tools/generate-topics.sh \
             --source='https://discuss.privacyguides.net/top.json?period=weekly' \
             --tag="top posts" \
             --destination="./site/en/index.html" \
@@ -211,7 +193,7 @@ jobs:
       - name: Run generate-topics.sh for latest posts
         if: inputs.lang == 'en'
         run: |
-          bash generate-topics.sh \
+          bash tools/generate-topics.sh \
             --source='https://discuss.privacyguides.net/latest.json' \
             --tag="latest posts" \
             --destination="./site/en/index.html" \
@@ -242,16 +224,6 @@ jobs:
             .cache/plugin/social/manifest.json
             .cache/plugin/social/assets
 
-      - name: Find Optimize Plugin Cache
-        uses: actions/cache/restore@v4
-        if: steps.optimize_cache_restore.outputs.cache-hit != 'true' && inputs.cache
-        id: optimize_cache_test
-        with:
-          key: optimize-cache-privacyguides/privacyguides.org-${{ hashfiles('.cache/plugin/optimize/manifest.json') }}
-          lookup-only: true
-          path: |
-            .cache/plugin/optimize
-
       - name: Save Privacy Plugin Cache
         uses: actions/cache/save@v4
         if: steps.privacy_cache_test.outputs.cache-hit != 'true' && inputs.cache
@@ -268,13 +240,6 @@ jobs:
             .cache/plugin/social/manifest.json
             .cache/plugin/social/assets
 
-      - name: Save Optimize Plugin Cache
-        uses: actions/cache/save@v4
-        if: steps.optimize_cache_test.outputs.cache-hit != 'true' && inputs.cache
-        with:
-          key: optimize-cache-${{ inputs.repo }}-${{ hashfiles('.cache/plugin/optimize/manifest.json') }}
-          path: .cache/plugin/optimize
-
       - name: Upload Site
         uses: actions/upload-artifact@v4
         with:
@@ -289,47 +254,3 @@ jobs:
           name: members.md
           path: includes/members.md
           retention-days: 1
-
-  offline_package:
-    if: inputs.config == 'offline' && inputs.lang == 'en'
-    needs: build
-    runs-on: ubuntu-latest
-    continue-on-error: ${{ inputs.continue-on-error }}
-    permissions:
-      contents: read
-
-    steps:
-      - uses: actions/download-artifact@v4
-        with:
-          name: site-offline-en.tar.gz
-
-      - run: |
-          tar -xzf site-offline-en.tar.gz
-          tar -czf offline.tar.gz site/en
-          zip -r -q offline.zip site/en
-
-      - name: Upload tar.gz file
-        uses: actions/upload-artifact@v4
-        with:
-          name: offline.tar.gz
-          path: offline.tar.gz
-
-      - name: Upload zip file
-        uses: actions/upload-artifact@v4
-        with:
-          name: offline.zip
-          path: offline.zip
-
-      - name: Create ZIM File
-        uses: addnab/docker-run-action@v3
-        with:
-          image: ghcr.io/openzim/zim-tools:3.1.3
-          options: -v ${{ github.workspace }}:/data
-          run: |
-            zimwriterfs -w index.html -I assets/brand/logos/png/square/pg-yellow.png -l eng -t "Privacy Guides" -d "Your central privacy and security resource to protect yourself online." -c "Privacy Guides" -p "Jonah Aragon" -n "Privacy Guides" -e "https://github.com/privacyguides/privacyguides.org" /data/site/en /data/offline-privacy_guides.zim
-
-      - name: Upload ZIM file
-        uses: actions/upload-artifact@v4
-        with:
-          name: offline-privacy_guides.zim
-          path: offline-privacy_guides.zim

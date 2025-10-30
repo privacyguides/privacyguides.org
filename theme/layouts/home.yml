@@ -11,7 +11,7 @@ definitions:
   - &font_family >-
     {%- if config.theme.language == "he" -%}
       Suez One
-    {%- elif config.theme.language == ("zh-Hant" or "ru") -%}
+    {%- elif config.theme.language == ("ru" or "zh-Hant" or "zh-TW") -%}
       Noto Sans TC
     {%- else -%}
       Public Sans
@@ -43,6 +43,9 @@ tags:
   og:image:width: "{{ image.width }}"
   og:image:height: "{{ image.height }}"
   og:url: "{{ page.canonical_url }}"
+
+  # Facebook
+  article:publisher: "https://www.facebook.com/PrivacyGuides.org"
 
   # Mastodon
   fediverse:creator: "@privacyguides@neat.computer"
