@@ -44,6 +44,37 @@ The free plan offers 10 GB of storage as long as you use the service at least o
 
 Ente Photos underwent an audit by [Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
 
+## zeitkapsl.eu
+
+<div class="admonition recommendation" markdown>
+
+![zeitkapsl logo](assets/img/photo-management/zeitkapsl.svg){ align=right }
+
+**Zeitkapsl** is an end-to-end encrypted photo backup and management platform, developed and hosted in the EU. Their code is fully open source, both on the client side and on the server side.
+
+The trail plan offers 10 GB of storage for 30 days, no credit card required.
+
+[:octicons-home-16: Homepage](https://zeitkapsl.eu){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://zeitkapsl.eu/en/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://zeitkapsl.eu/en/#faqs){ .card-link title="Documentation" }
+[:octicons-code-16:](https://codeberg.org/zeitkapsl/zeitkapsl){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=eu.zeitkapsl.app)
+- [:simple-appstore: App Store](https://apps.apple.com/at/app/zeitkapsl/id6477522407)
+- [:simple-github: GitHub](https://codeberg.org/zeitkapsl/zeitkapsl/releases)
+- [:simple-android: Android](https://zeitkapsl.eu/en/downloads)
+- [:fontawesome-brands-windows: Windows](https://zeitkapsl.eu/en/downloads)
+- [:simple-apple: macOS](https://zeitkapsl.eu/en/downloads)
+- [:simple-linux: Linux](https://zeitkapsl.eu/en/downloads)
+- [:octicons-browser-16: Web](https://app.zeitkapsl.eu/media)
+
+</details>
+
+</div>
+
 ## Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
