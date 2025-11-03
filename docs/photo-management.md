@@ -50,7 +50,7 @@ Ente Photos underwent an audit by [Cure53](https://ente.io/blog/cryptography-aud
 
 ![zeitkapsl logo](assets/img/photo-management/zeitkapsl.svg){ align=right }
 
-**Zeitkapsl** is an end-to-end encrypted photo backup and management platform, developed and hosted in the EU. Their code is fully open source, both on the client side and on the server side.
+**zeitkapsl** is an end-to-end encrypted photo backup and management platform, developed and hosted in the EU. Their code is fully open source, both on the client side and on the server side.
 
 The trail plan offers 10 GB of storage for 30 days, no credit card required.
 
