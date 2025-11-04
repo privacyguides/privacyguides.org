@@ -120,7 +120,7 @@ This is available if your device supports **[Apple Intelligence](https://support
 
 To see a report of all the requests made to Apple's servers, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. Similar to the **App Privacy Report** which shows you the recent permissions accessed by the apps on your phone, the Apple Intelligence Report likewise shows what is being sent to Apple's servers while using Apple Intelligence.
 
-By default, Apple Intelligence integrates with ChatGPT. If you don't want ChatGPT integration, you can navigate to **ChatGPT**:
+Apple Intelligence can integrate with [ChatGPT](https://support.apple.com/guide/iphone/use-chatgpt-with-apple-intelligence-iph00fd3c8c2/ios). If you want ChatGPT integration, you can navigate to **ChatGPT** and press **Set Up**. If you want to disable it, go to the same place:
 
 - [ ] Turn off **Use ChatGPT**
 
