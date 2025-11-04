@@ -42,7 +42,7 @@ The free plan offers 10 GB of storage as long as you use the service at least o
 
 </div>
 
-Ente Photos underwent an audit by [Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
+Ente Photos underwent an audit of their server-side source code and infrastructure by [Cure53](https://ente.io/blog/cern-audit) in October 2025. Previous audits were completed by [Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
 
 ## Criteria
 
