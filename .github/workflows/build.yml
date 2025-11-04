@@ -30,9 +30,6 @@ on:
       cache:
         type: boolean
         default: true
-    secrets:
-      RO_DISCOURSE_API_KEY:
-        required: false
 
 permissions:
   contents: read
@@ -65,7 +62,7 @@ jobs:
             echo "MAIN_SITE_ABOUT_URL=https://www.privacyguides.org/en/about/"
             echo "MAIN_SITE_RECOMMENDATIONS_URL=https://www.privacyguides.org/en/tools/"
             echo "MAIN_SITE_KNOWLEDGE_BASE_URL=https://www.privacyguides.org/en/basics/why-privacy-matters/"
-            echo "ARTICLES_SITE_BASE_URL=https://www.privacyguides.org/articles/"
+            echo "ARTICLES_SITE_BASE_URL=https://www.privacyguides.org/posts/tag/articles/"
             echo "VIDEOS_SITE_BASE_URL=https://www.privacyguides.org/videos/"
           } >> "$GITHUB_ENV"
 
@@ -176,8 +173,6 @@ jobs:
 
       - name: Generate Donating Members List
         continue-on-error: true
-        env:
-          DISCOURSE_API_KEY: ${{ secrets.RO_DISCOURSE_API_KEY }}
         run: |
           pip install requests
           python tools/generate-members.py > includes/members.md

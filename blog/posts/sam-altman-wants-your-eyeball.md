@@ -6,7 +6,7 @@ categories:
     - News
 authors:
     - em
-description: Last week, OpenAI's CEO Sam Altman announced in San Francisco that the World project he co-founded, formerly known as Worldcoin, is opening six stores across the United States, allowing users of the project's app to scan their eyeballs.
+description: Last week, OpenAI's CEO Sam Altman announced in San Francisco that the World project he co-founded, formerly known as Worldcoin, is opening six stores across the United States, allowing users of the project's app to scan their eyeballs. This is worrisome, to say the least.
 schema_type: AnalysisNewsArticle
 preview:
   cover: blog/assets/images/sam-altman-wants-your-eyeball/orb-cover.webp

@@ -5,7 +5,7 @@ categories:
     - Opinion
 authors:
     - em
-description: Encryption is not a crime, encryption protects all of us. Encryption, and especially end-to-end encryption, is an essential tool to protect everyone online. Attempts to undermine encryption are an attack to our fundamental right to privacy and an attack to our inherent right to security and safety.
+description: Encryption is not a crime, encryption protects us all. Encryption, and especially end-to-end encryption, is an essential tool to protect everyone online. Attempts to undermine encryption are an attack to our fundamental right to privacy and an attack to our inherent right to security and safety.
 schema_type: OpinionNewsArticle
 preview:
   cover: blog/assets/images/encryption-is-not-a-crime/encryption-is-not-a-crime-cover.webp
