@@ -76,7 +76,15 @@ Unfortunately, the XNU kernel is still mostly written in C. This is a problem fo
 
 ### Android
 
-Android uses the Linux kernel, a monolithic kernel that's a favorite of sysadmins and open source enthusiasts alike. Unfortunately, the monolithic nature of Linux makes it a [massive attack surface](https://xcancel.com/GrapheneOS/status/1952583510059057188#m) for Android. 
+Android uses the Linux kernel, a monolithic kernel that's a favorite of sysadmins and open source enthusiasts alike. Unfortunately, the monolithic nature of Linux makes it a [massive attack surface](https://xcancel.com/GrapheneOS/status/1923966381965394221#m) for Android.
+
+GrapheneOS even considers the Linux kernel to be their [main weakness](https://xcancel.com/GrapheneOS/status/1828148094661198105#m) at the moment, and have expressed a desire to switch to a microkernel at some point in the future.
+
+### Memory Safety
+
+The Linux kernel is mainly written in C, a memory-unsafe language.
+
+The [Rust for Linux](https://rust-for-linux.com) has successfully added support for Rust in Linux, and they're looking to increase the amount of memory safe code, so definitely watch out for that.
 
 ## Hardware
 
