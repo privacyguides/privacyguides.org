@@ -40,6 +40,34 @@ Many open-source, custom AOSP-based operating systems actually reduce security f
 
 One problem custom Android operating systems face is the inherent issue of being [downstream](https://en.wikipedia.org/wiki/Downstream_(software_development)) of AOSP, which means third-party operating systems must wait for the upstream project to ship patches and updates. In this case, AOSP-based operating systems are [at the whim of Google](https://x.com/grapheneos/status/1964561043906048183) for timely security patches and updates, which is not ideal.
 
+## Kernel
+
+The kernel is the low-level code that controls just about everything that happens in an operating system. As you can imagine, a kernel exploit could give an attacker highly privileged access to your system, so the kernel should be as locked down and as minimal as possible, with it being written in a memory-safe language like Rust. Unfortunately, operating systems until now have mostly resorted to a monolithic kernel design, which puts all duties of the operating system like memory management, device drivers, etc are in the kernel proper. This allows for more performance and less complexity but much more attack surface.
+
+In contrast, a microkernel design puts as much as possible outside the kernel, which reduces the possible attack surface but increases the complexity and can have a performance hit.
+
+### iOS
+
+iOS uses their own open source XNU kernel for their operating systems. It's an interesting design as Apple originally took the [Mach](https://developer.apple.com/library/archive/documentation/Darwin/Conceptual/KernelProgramming/Mach/Mach.html) microkernel and combined it with code from the monolithic [FreeBSD](https://developer.apple.com/library/archive/documentation/Darwin/Conceptual/KernelProgramming/BSD/BSD.html#//apple_ref/doc/uid/TP30000905-CH214-TPXREF101) kernel to create the hybrid [XNU](https://github.com/apple-oss-distributions/xnu) kernel.
+
+This leaves XNU in an interesting place where it's doesn't have the full attack surface of a monolithic kernel nor the full security of a microkernel, since 
+
+>in OS X, Mach is linked with other kernel components into a single kernel address space. This is primarily for performance; it is much faster to make a direct call between linked components than it is to send messages or do remote procedure calls (RPC) between separate tasks. This modular structure results in a more robust and extensible system than a monolithic kernel would allow, without the performance penalty of a pure microkernel.
+
+It's a bit frustrating to know that the only reason they didn't go with a full microkernel design seems to be performance; I'd like to think that nowadays computers are fast enough that it wouldn't matter so much. Apple should persue a microkernel design as soon as possible to avoid kernel exploits.
+
+Apple has made good progress in pushing for things like drivers to run in userspace rather than kernelspace through [System Extensions](https://developer.apple.com/documentation/systemextensions), which replace [kernel extensions](https://support.apple.com/guide/security/securely-extending-the-kernel-sec8e454101b/web) that used to run in the kernel. This is a promising development and I think it represents a desire from Apple to move toward a microkernel.
+
+### Exclaves
+
+Apple as seemingly been working on a new feature inside their kernel called "[exclaves](https://www.theregister.com/2025/03/08/kernel_sanders_apple_rearranges_xnu/)" that appear to isolate and protect components of the kernel from the rest of the kernel.
+
+An interesting example of how this is being used is to [secure](https://theapplewiki.com/wiki/Secure_Indicator_Light) the camera and microphone indicator lights so that a compromise of the kernel won't mean a compromise of the indicator lights.
+
+There are references to a new "Secure Kernel" with a version string for "cL4" which may be a reference to the secure [seL4](https://sel4.systems) microkernel, possibly hinting even more at Apple's long-term ambitions.
+
+This is great news, I hope we hear more about exclaves in the future, especially via an official announcement from Apple and not from digging through code.
+
 ## Hardware
 
 Hardware is vital to security. Modern smartphones pose a challenge with lots of processors and components, each with their own firmware and potential security vulnerabilities. It's important to lock down these components as much as possible.
