@@ -1,7 +1,7 @@
 ---
-title: "Multifactor Authentication"
-icon: 'material/two-factor-authentication'
-description: These tools assist you with securing your internet accounts with Multifactor Authentication without sending your secrets to a third-party.
+title: Multifactor Authentication
+icon: material/two-factor-authentication
+description: These tools assist you with securing your internet accounts with multifactor authentication without sending your secrets to a third-party.
 cover: multi-factor-authentication.webp
 ---
 <small>Protects against the following threat(s):</small>
@@ -15,7 +15,7 @@ cover: multi-factor-authentication.webp
 
 </div>
 
-**Multifactor Authentication Apps** implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. This is a method where websites share a secret with you which is used by your authenticator app to generate a six (usually) digit code based on the current time, which you enter while logging in for the website to check. Typically, these codes are regenerated every 30 seconds, and once a new code is generated the old one becomes useless. Even if a hacker gets one six-digit code, there is no way for them to reverse that code to get the original secret or otherwise be able to predict what any future codes might be.
+**Multifactor authentication apps** implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. This is a method where websites share a secret with you which is used by your authenticator app to generate a six (usually) digit code based on the current time, which you enter while logging in for the website to check. Typically, these codes are regenerated every 30 seconds, and once a new code is generated the old one becomes useless. Even if a hacker gets one six-digit code, there is no way for them to reverse that code to get the original secret or otherwise be able to predict what any future codes might be.
 
 We highly recommend that you use mobile TOTP apps instead of desktop alternatives as Android and iOS have better security and app isolation than most desktop operating systems.
 
@@ -29,7 +29,7 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.ente.io/auth){ .card-link title=Documentation}
+[:octicons-info-16:](https://help.ente.io/auth){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -38,11 +38,13 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id6444121398)
 - [:simple-github: GitHub](https://github.com/ente-io/ente/releases?q=auth)
-- [:octicons-globe-16: Web](https://auth.ente.io)
+- [:octicons-browser-16: Web](https://auth.ente.io)
 
 </details>
 
 </div>
+
+The server-side source code and infrastructure which underpins Ente Auth (if used with an online account) underwent an audit by [Cure53](https://ente.io/blog/cern-audit) in October 2025.
 
 ## Aegis Authenticator (Android)
 
@@ -54,9 +56,9 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 [:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
+[:octicons-heart-16:](https://buymeacoffee.com/beemdevelopment){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -68,11 +70,10 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 </div>
 
-<!-- markdownlint-disable-next-line -->
 ## Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 - Source code must be publicly available.
 - Must not require internet connectivity.
-- Cloud syncing must be optional, and (if available) sync functionality must be E2EE.
+- Cloud syncing must be optional; sync functionality, if available, must be E2EE.
