@@ -221,6 +221,7 @@ nav:
   - !ENV [NAV_RECOMMENDATIONS, "Recommendations"]:
       !ENV [MAIN_SITE_RECOMMENDATIONS_URL, "/en/tools/"]
   - !ENV [NAV_BLOG, "Articles"]:
+      - Latest Posts: !ENV [ARTICLES_SITE_BASE_URL, "index.md"]
       - index.md
       - editorial.md
       - tags.md

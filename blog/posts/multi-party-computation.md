@@ -9,6 +9,8 @@ tags:
     - Privacy Enhancing Technologies
 schema_type: BackgroundNewsArticle
 description: Learn about Secure Multi-Party Computation and how it can be used to solve real-world privacy problems.
+preview:
+  cover: blog/assets/images/multi-party-computation/cover.webp
 ---
 # What is Multi-Party Computation?
 
