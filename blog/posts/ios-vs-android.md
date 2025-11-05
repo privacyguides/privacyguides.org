@@ -68,6 +68,16 @@ There are references to a new "Secure Kernel" with a version string for "cL4" wh
 
 This is great news, I hope we hear more about exclaves in the future, especially via an official announcement from Apple and not from digging through code.
 
+#### Memory Safety
+
+Unfortunately, the XNU kernel is still mostly written in C. This is a problem for any piece of software but *especially* so for the kernel. I really hope Apple makes an effort to start replacing the internals with a memory-safe language.
+
+[Embedded Swift](https://docs.swift.org/embedded/documentation/embedded/introduction) is a low level programming language based on [Swift](https://www.swift.org) that aims to preserve the memory safety while being more suitable for low-level programs like embedded controllers or system kernels. While it's still experimental, I'll be watching. Apple has switch some of their servers to Swift to massive benefit and they've been switching more of their [iOS apps](https://blog.timac.org/2024/1208-state-of-swift-and-swiftui-ios18/) to Swift, so I believe they will eventually work on switching the rest of their code to Swift in due time.
+
+### Android
+
+Android uses the Linux kernel, a monolithic kernel that's a favorite of sysadmins and open source enthusiasts alike. Unfortunately, the monolithic nature of Linux makes it a [massive attack surface](https://xcancel.com/GrapheneOS/status/1952583510059057188#m) for Android. 
+
 ## Hardware
 
 Hardware is vital to security. Modern smartphones pose a challenge with lots of processors and components, each with their own firmware and potential security vulnerabilities. It's important to lock down these components as much as possible.
