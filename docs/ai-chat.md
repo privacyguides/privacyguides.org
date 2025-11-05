@@ -15,7 +15,7 @@ The use of **AI chat**, also known as Large Language Models (LLMs), has become i
 
 ## Privacy Concerns About LLMs
 
-Data used to train AI models, however, includes a massive amount of publicly available data scraped from the web, which can include sensitive information like names and addresses. Cloud-based AI software often [collects your inputs](https://openai.com/policies/row-privacy-policy), meaning your chats are not private from them. Even deleted [chats can be kept](https://openai.com/index/response-to-nyt-data-demands/). This practice also introduces a risk of data breaches. Furthermore, there is a real possibility that an LLM will leak your private chat information in future conversations with other users.
+Data used to train AI models, however, includes a massive amount of publicly available data scraped from the web, which can include sensitive information like names and addresses. Cloud-based AI software often [collects your inputs](https://openai.com/policies/row-privacy-policy), meaning your chats are not private from them. This practice also introduces a risk of data breaches. Furthermore, there is a real possibility that an LLM will leak your private chat information in future conversations with other users.
 
 If you are concerned about these practices, you can either refuse to use AI, or use [truly open-source models](https://proton.me/blog/how-to-build-privacy-first-ai) which publicly release and allow you to inspect their training datasets. One such model is [OLMoE](https://allenai.org/blog/olmoe-an-open-small-and-state-of-the-art-mixture-of-experts-model-c258432d0514) made by [Ai2](https://allenai.org/open-data).
 
