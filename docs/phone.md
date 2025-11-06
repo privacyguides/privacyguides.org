@@ -156,33 +156,6 @@ Silent Link's US and UK phone numbers support **inbound** call and text **only**
 
 This service requires an eSIM compatible phone, like the [Google Pixel](android.md#android-devices).
 
-### Pretty Good Phone Privacy
-
-!!! danger
-
-    PGPP makes some claims about how their mobile network does not require trust in Invisv as a network provider, but they are not entirely accurate. Make sure you read this entry entirely before determining whether PGPP makes sense for you.
-
-This is our favorite cell service option if you want to pay with traditional payment methods, or need unlimited mobile data.
-
-!!! recommendation
-
-    **Pretty Good Phone Privacy** (**PGPP**) is a data-only eSIM service from Invisv, which can be paired with any recommended VoIP provider above for voice/SMS service.
-
-    [:octicons-home-16: Homepage](https://invisv.com/pgpp/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://www.usenix.org/system/files/sec21-schmitt.pdf){ .card-link title=Documentation}
-
-    ??? downloads
-
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.invisv.pgpp)
-        - [:simple-android: Android](https://invisv.com/articles/pgpp-updates.html#f-droid-and-apk)
-
-Invisv does collect your billing information through Stripe, their payment processor. However, PGPP's use of [blinded tokens](https://en.wikipedia.org/wiki/Blind_signature) for network authentication mean that Invisv cannot tie that billing information to your device. In other words, Invisv would be able to tell that "John Doe" has a PGPP account, but would not be able to determine which phone on their network belongs to "John Doe."
-
-Invisv additionally claims that your device cannot be tracked by the network because they periodically randomize your IMSI number, the identifier tied to your SIM card used to identify a subscriber. ==Unfortunately, this practice alone does **not** thwart device tracking.== Another identifier sent to networks is the IM**E**I number, the identifier tied to your phone hardware. You can think of an IMEI as your phone's "[MAC Address](os/linux-overview.md#mac-address-randomization)," except unlike with Wi-Fi/Ethernet MAC Addresses, randomizing or spoofing the IMEI is not possible and even illegal in certain countries.
-
-Therefore, unless you *also* physically swap your phone hardware every few days, ==it would be trivial for the network operator to build a location profile of a specific device despite IMSI randomization, because your IMEI is a static identifier visible to the network.== Additionally, PGPP will not even protect against anything but the most basic third-party [IMSI-catchers](https://en.wikipedia.org/wiki/IMSI-catcher), because most modern IMSI-catchers can track IMEI as well.
-
-This service requires an eSIM compatible Android phone, like the [Google Pixel](android.md#android-devices).
 
 ### Criteria
 
