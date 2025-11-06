@@ -75,7 +75,7 @@ Below is a table of good models to start with.
 
 **Edge Gallery** is an AI client developped by Google that features Google's latest open-weights models. It runs fully locally, but downloading the preloaded models require a Hugging Face account as you will need to [accept Google's Acceptable Use policy](https://github.com/google-ai-edge/gallery/wiki/5.-Model-Management#hugging-face-login--license-acknowledgement) to access the model files. You can import models you downloaded, but the app only accepts the [LiteRT](https://github.com/google-ai-edge/litert) format, which isn't widely used.
 
-The preloaded models are performant and can analyse image. However, you might not be able to have long conversation or analyse long documents, as the app restricts the maximum context length to an ammount [multiple times smaller](https://github.com/google-ai-edge/gallery/issues/183) than what the AI model can normally support.
+The preloaded models are performant and can analyse an image. However, you might not be able to have long conversation or analyse long documents, as the app restricts the maximum context length to an ammount [multiple times smaller](https://github.com/google-ai-edge/gallery/issues/183) than what the AI model can normally support.
 
 [:octicons-repo-16: Repository](https://github.com/google-ai-edge/gallery?tab=readme-ov-file#google-ai-edge-gallery-){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/google-ai-edge/gallery/wiki){ .card-link title="Documentation" }
@@ -85,6 +85,7 @@ The preloaded models are performant and can analyse image. However, you might no
 <summary>Downloads</summary>
 
 [:-simple-github: GitHub](https://github.com/google-ai-edge/gallery/releases)
+[:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.google.ai.edge.gallery)
 
 </details>
 </div>
