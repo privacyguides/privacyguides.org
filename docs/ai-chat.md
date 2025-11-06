@@ -27,7 +27,7 @@ Alternatively, you can run AI models locally so that your data never leaves your
 
 Local models are also fairly accessible. They can run on most PCs and some high-end smartphones. It's possible to run smaller models at lower speeds on as little as 8 GB of RAM. Using more powerful hardware such as a dedicated GPU with sufficient VRAM or a modern system with fast LPDDR5X memory offers the best experience.
 
-LLMs can usually be differentiated by the number of parameters, which can vary between 1.3B to 405B for open-source models available for end users. For example, models below 3B parameters are only reliably good for simple lingustic tasks such as summarisation, models above 4B start understanding context and have a good knowledge of the world.From 8B, they can exerce basic reasoning. Finally, models with advanced reasoning capabilities start at around 30B parameters.
+LLMs can usually be differentiated by the number of parameters, which can vary between 1.3B to 405B for open-source models available for end users. For example, models below 3B parameters are only reliably good for simple lingustic tasks such as summarization, models above 4B start understanding context and have a good knowledge of the world. From 8B, they can exercise basic reasoning. Models with advanced reasoning capabilities start at around 30B parameters.
 
 For consumer-grade hardware, it is generally recommended to use [quantized models](https://huggingface.co/docs/optimum/en/concept_guides/quantization) for the best balance between model quality and performance. Check out the table below for more precise information about the typical requirements for different sizes of quantized models.
 
