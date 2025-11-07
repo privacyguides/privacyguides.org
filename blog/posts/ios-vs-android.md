@@ -284,5 +284,11 @@ Fingerprint offers an iOS [demo app](https://apps.apple.com/en/app/fingerprint-p
 
 Fingerprinting may not be all that necessary however since Apple's [IDFV](https://developer.apple.com/documentation/uikit/uidevice/identifierforvendor) by design allows apps by the same vendor to identify the same device. It changes when all apps by that vendor are deleted but in my testing, I got the same identifier in their demo app even after deleting and reinstalling the apps. Fingerprint claims that the idnetifier will be the same after a device restart, after deleting and reinstalling the app, after installing a provisioning profile, after jailbreaking, after lockdown mode is enabled, and after reseting the device settings to their default values. The only case when it will change is after a full factory reset.
 
+It will also try to detect if your device is jailbroken, or has been factory reset.
+
+I think it's clear that Apple draws the line at the same vendor having the same device ID when their apps are installed, but apps are clearly still able to identify you even then.
+
+Apple's [IDFA](https://developer.apple.com/documentation/adsupport/asidentifiermanager/advertisingidentifier) is meant to provide this type of identifiers across vendors over time on the same device only optionally through the [App Tracking Transparency](https://developer.apple.com/documentation/AppTrackingTransparency) framework. Clearly this level of fingerprinting is a violation of Apple's intentions for the identifiers on iOS and I hope they can address whatever is being used as a fingerprinting vector here.
+
 ## Optional App Hardening
 
