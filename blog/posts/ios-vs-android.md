@@ -84,7 +84,7 @@ GrapheneOS even considers the Linux kernel to be their [main weakness](https://x
 
 The Linux kernel is mainly written in C, a memory-unsafe language.
 
-The [Rust for Linux](https://rust-for-linux.com) has successfully added support for Rust in Linux, and they're looking to increase the amount of memory safe code, so definitely watch out for that.
+The [Rust for Linux](https://rust-for-linux.com) project has successfully added support for Rust in Linux, and they're looking to increase the amount of memory safe code, so definitely watch out for that.
 
 ## Hardware
 
