@@ -262,7 +262,7 @@ The browser is a major way users are exposed to malware. Your browser runs untru
 
 ### iOS
 
-On iOS, you're [locked to using WebKit](https://developer.apple.com/app-store/review/guidelines/#:~:text=Apps%20that%20browse%20the%20web%20must%20use%20the%20appropriate%20WebKit%20framework%20and%20WebKit%20JavaScript.). Any other browesr you install is essentially just a reskin of Safari.
+On iOS, you're [locked to using WebKit](https://developer.apple.com/app-store/review/guidelines/#:~:text=Apps%20that%20browse%20the%20web%20must%20use%20the%20appropriate%20WebKit%20framework%20and%20WebKit%20JavaScript.). Any other browser you install is essentially just a reskin of Safari.
 
 Apple did allow [alternate browser engines](https://developer.apple.com/support/alternative-browser-engines/) in the EU, but in other regions you're still locked to using WebKit.
 
