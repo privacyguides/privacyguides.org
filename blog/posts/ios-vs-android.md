@@ -18,7 +18,7 @@ Both Android and iOS run on the vast majority of our mobile devices, meaning the
 
 ## Source Model
 
-One of the most glaring differences is the source model of each operating system: iOS is *mostly* closed source while Android is *mostly* open source. Continue reading to learn the implications of this difference.
+One of the most glaring differences is the source model of each operating system: iOS is *mostly* closed source while Android is *mostly* open source.
 
 ### iOS
 
