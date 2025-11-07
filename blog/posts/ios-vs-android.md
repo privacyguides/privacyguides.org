@@ -72,7 +72,7 @@ This is great news, I hope we hear more about exclaves in the future, especially
 
 Unfortunately, the XNU kernel is still mostly written in C. This is a problem for any piece of software but *especially* so for the kernel. I really hope Apple makes an effort to start replacing the internals with a memory-safe language.
 
-[Embedded Swift](https://docs.swift.org/embedded/documentation/embedded/introduction) is a low level programming language based on [Swift](https://www.swift.org) that aims to preserve the memory safety while being more suitable for low-level programs like embedded controllers or system kernels. While it's still experimental, I'll be watching. Apple has switch some of their servers to Swift to massive benefit and they've been switching more of their [iOS apps](https://blog.timac.org/2024/1208-state-of-swift-and-swiftui-ios18/) to Swift, so I believe they will eventually work on switching the rest of their code to Swift in due time.
+[Embedded Swift](https://docs.swift.org/embedded/documentation/embedded/introduction) is a low level programming language based on [Swift](https://www.swift.org) that aims to preserve the memory safety of Swift while being more suitable for low-level programs like embedded controllers or system kernels. While it's still experimental, I'll be watching. Apple has [switched](https://www.swift.org/blog/swift-at-apple-migrating-the-password-monitoring-service-from-java/) some of their servers to Swift to massive benefit and they've been switching more of their [iOS apps](https://blog.timac.org/2024/1208-state-of-swift-and-swiftui-ios18/) to Swift, so I believe they will eventually work on switching the rest of their code to Swift in due time.
 
 ### Android
 
