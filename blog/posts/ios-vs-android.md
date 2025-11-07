@@ -272,5 +272,13 @@ Locking users out of other browsers stifles competition and user freedom, not to
 
 Apple should open up their ecosystem to allow for alternate browser engines globally instead of just in the EU.
 
+## App Fingerprinting
+
+Just like in a browser, it's possible for an to fingerprint your device and identify you as the same person. It's not as much of a concern usually as on browsers since apps tend to keep persistent data while they're installed anyway, but it's something to keep in mind.
+
+### iOS
+
+
+
 ## Optional App Hardening
 
