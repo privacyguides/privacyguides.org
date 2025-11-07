@@ -278,7 +278,11 @@ Just like in a browser, it's possible for an to fingerprint your device and iden
 
 ### iOS
 
+It's difficult to know all the exact methods used for fingerpinting as fingerprinting services like [fingerprint.com](https://fingerprint.com) are tight-lipped on a lot of it. They don't want anyone knowing how they do it so operating systems can patch those vectors. However, we can use their apps and test how effective they are, and look at what they make visible to us.
 
+Fingerprint offers an iOS [demo app](https://apps.apple.com/en/app/fingerprint-pro/id1644105278) so you can see how well it works.
+
+Fingerprinting may not be all that necessary however since Apple's [IDFV](https://developer.apple.com/documentation/uikit/uidevice/identifierforvendor) by design allows apps by the same vendor to identify the same device. It changes when all apps by that vendor are deleted but in my testing, I got the same identifier in their demo app even after deleting and reinstalling the apps. Fingerprint claims that the idnetifier will be the same after a device restart, after deleting and reinstalling the app, after installing a provisioning profile, after jailbreaking, after lockdown mode is enabled, and after reseting the device settings to their default values. The only case when it will change is after a full factory reset.
 
 ## Optional App Hardening
 
