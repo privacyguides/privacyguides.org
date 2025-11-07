@@ -40,6 +40,8 @@ Many open-source, custom AOSP-based operating systems actually reduce security f
 
 One problem custom Android operating systems face is the inherent issue of being [downstream](https://en.wikipedia.org/wiki/Downstream_(software_development)) of AOSP, which means third-party operating systems must wait for the upstream project to ship patches and updates. In this case, AOSP-based operating systems are [at the whim of Google](https://x.com/grapheneos/status/1964561043906048183) for timely security patches and updates, which is not ideal.
 
+Google doesn't make Android code fully open source for the full development cycle; instead they have an [internal](https://source.android.com/docs/setup/contribute/release-lifecycle) branch that's not accessible to the public which they then release to the public when they deem it's ready.
+
 ## Kernel
 
 The kernel is the low-level code that controls just about everything that happens in an operating system. As you can imagine, a kernel exploit could give an attacker highly privileged access to your system, so the kernel should be as locked down and as minimal as possible, with it being written in a memory-safe language like Rust. Unfortunately, operating systems until now have mostly resorted to a monolithic kernel design, which puts all duties of the operating system like memory management, device drivers, etc are in the kernel proper. This allows for more performance and less complexity but much more attack surface.
