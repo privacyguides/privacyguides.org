@@ -23,8 +23,7 @@ Consider using a [VPN](vpn.md) or [Tor](tor.md) if your threat model requires hi
 |---|---|---|---|---|
 | [Brave Search](#brave-search) | [Independent](https://brave.com/search-independence) | :material-check:{ .pg-green } | Anonymized[^1] | United States |
 | [DuckDuckGo](#duckduckgo) | [Bing](https://help.duckduckgo.com/results/sources) | :material-check:{ .pg-green } | Anonymized[^2] | United States |
-| [Mullvad Leta](#mullvad-leta) | [Brave and Google](https://leta.mullvad.net/faq#what-can-leta-do) | :material-check:{ .pg-green } | Anonymized[^3] | Sweden |
-| [Startpage](#startpage) | [Google and Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | :material-check:{ .pg-green } | Anonymized[^4] | Netherlands |
+| [Startpage](#startpage) | [Google and Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | :material-check:{ .pg-green } | Anonymized[^3] | Netherlands |
 
 [^1]:
     Brave Search collects aggregated usage metrics, which includes the OS and the user agent. However, they do not collect PII. To serve [anonymous local results](https://search.brave.com/help/anonymous-local-results), IP addresses are temporarily processed, but are not retained.
@@ -35,10 +34,6 @@ Consider using a [VPN](vpn.md) or [Tor](tor.md) if your threat model requires hi
 
     DuckDuckGo Privacy Policy: [*We don't track you.*](https://duckduckgo.com/privacy)
 [^3]:
-    Mullvad Leta logs your searches and stores them hashed with a secret in a RAM-based cache. The cache is removed after it reaches 30 days in age, or when the server-side Leta application is restarted. They do not collect any PII.
-
-    Terms of Service: [*Service Usage*](https://leta.mullvad.net/terms-of-service)
-[^4]:
     Startpage logs details such as operating system, user agent, and language. They do not log your IP address, search queries, or other PII.
 
     Our Privacy Policy: [*How we have implemented truly anonymous analytics*](https://startpage.com/en/privacy-policy#section-4)
@@ -82,32 +77,6 @@ DuckDuckGo is the default search engine for the [Tor Browser](tor.md#tor-browser
 </div>
 
 DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-javascript) of their search engine, both of which do not require JavaScript. These versions do lack features, however. These versions can also be used in conjunction with their Tor hidden address by appending [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) or [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) for the respective version.
-
-### Mullvad Leta
-
-<div class="admonition recommendation" markdown>
-
-![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
-
-**Mullvad Leta** is a search engine developed by Mullvad. It uses a [shared cache](https://leta.mullvad.net/faq#what-is-cached-search) to fetch search results and limit calls to the search APIs it uses.
-
-Mullvad Leta currently only provides text search results. It is the default search engine for the [Mullvad Browser](desktop-browsers.md#mullvad-browser).
-
-[:octicons-home-16: Homepage](https://leta.mullvad.net){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://uxngojcovdcyrmwkmkltyy2q7enzzvgv7vlqac64f2vl6hcrrqtlskqd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://leta.mullvad.net/terms-of-service){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://leta.mullvad.net/faq){ .card-link title="Documentation" }
-
-</div>
-
-<div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
-
-Mullvad Leta is useful if you want to disable JavaScript in your browser, such as [Mullvad Browser](desktop-browsers.md#mullvad-browser) on the Safest security level.
-
-</div>
-
-Mullvad Leta was [audited](https://mullvad.net/en/blog/security-audit-of-our-letamullvadnet-search-service) by Assured AB in March 2023. All issues were addressed and fixed shortly after the [report](https://assured.se/publications/Assured_Mullvad_Leta_pentest_report_2023.pdf).
 
 ### Startpage
 
