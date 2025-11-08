@@ -50,14 +50,14 @@ Multiple calendars and extended sharing functionality are limited to paid subscr
 
 ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
 
-**Proton Calendar** is an encrypted calendar service available to Proton members via web or mobile clients. Features include automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide).
+**Proton Calendar** is an encrypted calendar service available to Proton members via its web or mobile clients. Features include automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide).
 
 Those on the free tier have access to 3 calendars, whereas paid subscribers can create up to 25 calendars. Extended sharing functionality is also limited to paid subscribers.
 
 [:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/calendar/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://proton.me/support/calendar){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/orgs/ProtonMail/repositories?q=calendar){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -70,7 +70,7 @@ Those on the free tier have access to 3 calendars, whereas paid subscribers can 
 
 </div>
 
-Unfortunately, as of August 2024 Proton has [still](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8) not released the source code for their mobile Calendar app on Android or iOS, and only the former has been [audited](https://proton.me/blog/security-audit-all-proton-apps). Proton Calendar's web client is open source, however, and has been [audited](https://proton.me/community/open-source).
+In 2021, Securitum [audited](https://proton.me/community/open-source#:~:text=Proton%20Calendar) Proton Calendar's web client and provided a [letter of attestation](https://res.cloudinary.com/dbulfrlrz/images/v1714639870/wp-pme/letter-of-attestation-proton-calendar-20211109_3138998f9b/letter-of-attestation-proton-calendar-20211109_3138998f9b.pdf) for the Android app.
 
 ## Criteria
 
