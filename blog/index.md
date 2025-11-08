@@ -1,5 +1,6 @@
 ---
 description: Privacy-related news stories, product reviews, opinion pieces, and other important articles from Privacy Guides contributors.
+canonical_url: https://www.privacyguides.org/posts/tag/articles/
 hide:
   - footer
 ---
