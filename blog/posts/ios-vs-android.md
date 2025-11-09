@@ -142,6 +142,8 @@ Android takes the opposite approach and lets you simply download and run apps fr
 
 Google [Play Protect](https://developers.google.com/android/play-protect) is a built-in anti-malware in many Android devices that's meant to protect you against malicious apps, so it's not like you're completely defenseless. In my opinion, though, anti-malware isn't the correct solution. Hardening the sandbox with tighter restrictions and more permissions, such as the user-facing [network permission](https://grapheneos.org/features#network-permission-toggle) in GrapheneOS, is the best approach.
 
+Google, in a slightly bizarre twist, locks users to only being able to download apps from the Play Store if they enable [Advanced Protection](https://support.google.com/accounts/answer/9764949?hl=en), so if you want the highest security on a stock Android device, you will have to sacrifice sideloading.
+
 The Google Play Store sets a strict [SDK level requirement](https://developer.android.com/google/play/requirements/target-sdk), but apps downloaded outside the Google Play Store have much more leniency. Sideloaded apps can target very old SDK levels, which means they won't have the same security restrictions as apps targeting newer SDK's. The closest thing to a guardrail against running apps with older SDKs is a warning notification from the OS about an app targeting an SDK at or below Android 5.1 (!?). For reference, Android 5 came out in 2014.
 
 I think Android could stand to enforce a higher SDK level and simply refuse to run apps that target lower than say a few versions ago. There's no reason to support apps that think they're on Android 5. GrapheneOS, in line with its firm security posture, raises the minimum SDK from AOSP.
