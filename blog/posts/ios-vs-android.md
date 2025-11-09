@@ -290,5 +290,13 @@ I think it's clear that Apple draws the line at the same vendor having the same 
 
 Apple's [IDFA](https://developer.apple.com/documentation/adsupport/asidentifiermanager/advertisingidentifier) is meant to provide this type of identifiers across vendors over time on the same device only optionally through the [App Tracking Transparency](https://developer.apple.com/documentation/AppTrackingTransparency) framework. Clearly this level of fingerprinting is a violation of Apple's intentions for the identifiers on iOS and I hope they can address whatever is being used as a fingerprinting vector here.
 
+### Android
+
+Android app fingerprinting is a well-known problem, with multiple possible vectors. Apps are able to see all other installed apps and the date and time they were updated, for example. A GrapheneOS [forum discussion](https://discuss.grapheneos.org/d/17118-identifiers-across-private-space-and-profiles/4) lays out a few ways app fingerprinting can work, even across profiles.
+
+FingerprintJS supports [Android devices](https://dev.fingerprint.com/docs/native-android-integration) and claims it can identify the same device after it restarts, after app data/cache is cleared, after the app is deleted and reinstalled, after a factory reset, even if the app is installed in different profiles or user accounts. This is particularly upsetting since many people use Android profiles to separate out their activities.
+
+I hope Google will see app fingerprinting as a real problem and take steps to mitigate it, especially between factory resets and profiles. I feel that those are the most important boundaries to uphold: a factory reset should be a clean slate, and a separate profile should be almost like a separate phone.
+
 ## Optional App Hardening
 
