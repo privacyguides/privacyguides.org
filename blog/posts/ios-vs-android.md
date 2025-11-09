@@ -308,3 +308,7 @@ I hope Google will see app fingerprinting as a real problem and take steps to mi
 
 ## Optional App Hardening
 
+While enforcing strong security is great, it's not always possible to force all apps to adhere to the best security practices. That's why providing developers optional security features they can enable is so beneficial; developers can get their apps ready for them before they become the default. For example, MTE is a new hardware security feature recently enabled in the stock OS on Google Pixels and on iPhones. If Apple and Google made it on by default, a lot of apps would constantly crash and it would ruin the user experience. Giving devs an opportunity to test it out and enable it optionally first allows them to get their app ready so they can seemlessly transition to the new default security after a while.
+
+### iOS
+
