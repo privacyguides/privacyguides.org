@@ -228,7 +228,7 @@ Support for separate user profiles allows for strong separation of activities, s
 
 ### iOS
 
-iOS doesn't allow for separate profiles. This is a major detriment on iOS as Android does support separate profiles, each encrypted with a separate encryption key..
+iOS doesn't allow for separate profiles. This is a major detriment on iOS as Android does support separate profiles, each encrypted with a separate encryption key.
 
 iOS could benefit massively from introducing multiple user profiles. Apple has already implemented the feature on [iPadOS](https://support.apple.com/guide/deployment/shared-ipad-overview-dep9a34c2ba2/web) but requires the iPad to be supervised.
 
