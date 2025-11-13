@@ -148,7 +148,7 @@ Instead of using the in-game chat features, use a secure third party communicati
 
 ## Unwanted Programs
 
-Many games these days come with launchers or other annoying bloatware.
+Many games these days come with [launchers](https://www.ubisoft.com/en-us/ubisoft-connect) or other annoying bloatware.
 
 Now, some launchers are very useful, like Steam which keeps all your games updated for you automatically, and can handle friends and other useful features.
 
