@@ -180,4 +180,4 @@ Most games that support custom user content give you some option to disable it. 
 
 #### Enable OS Security Features
 
-Every operating system these days comes equipped with security features such as secure boot, permissions for certain things like folders, camera, microphones, etc, and more. Go through your settings and familiarize yourself with the security settings of your OS, and enable what you can to protect yourself.
+Every operating system these days comes equipped with security features such as secure boot, permissions for certain things like folders, camera, microphones, etc, and more. Go through your settings and familiarize yourself with the [security](https://learn.microsoft.com/en-us/windows/security/) [settings](https://support.apple.com/guide/security/welcome/web) of your OS, and enable what you can to protect yourself.
