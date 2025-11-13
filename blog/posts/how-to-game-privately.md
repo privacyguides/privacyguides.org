@@ -176,4 +176,8 @@ You could also consider having a dedicated gaming machine that's totally separat
 
 #### Disable Custom Content in Your Game Settings
 
-Most games that support custom user content give you some option to disable it. Disable any user-uploaded images, maps, or other content. 
+Most games that support custom user content give you some option to disable it. Disable any user-uploaded images, maps, or other content.
+
+#### Enable OS Security Features
+
+Every operating system these days comes equipped with security features such as secure boot, permissions for certain things like folders, camera, microphones, etc, and more. Go through your settings and familiarize yourself with the security settings of your OS, and enable what you can to protect yourself.
