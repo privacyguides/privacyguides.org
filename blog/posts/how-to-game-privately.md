@@ -156,7 +156,7 @@ However, it seems that almost every game wants to have its own launcher. Not onl
 
 ### What You Can Do
 
-Avoid games that have their own launcher. Try to stick with one launcher, be it Steam, GOG Galaxy, or whatever your preferred one is. This way, you minimize the attack surface of your games and improve your own user experience at the same time.
+Avoid games that have their own launcher. Try to stick with one launcher, be it [Steam](https://store.steampowered.com/about/), [GOG Galaxy](https://www.gogalaxy.com/en/), or whatever your preferred one is. This way, you minimize the attack surface of your games and improve your own user experience at the same time.
 
 ## Security
 
