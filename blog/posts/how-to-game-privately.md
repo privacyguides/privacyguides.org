@@ -138,3 +138,22 @@ Also, be careful what input hardware you use: VR may be fun, but VR games are ab
 
 If the games you want to run are not properly sandboxed, you can run your games on a completely separate system that you only use for games. This can be another PC or even a console: just make sure you are only using it for games and nothing else.
 
+### Deny Network Access
+
+When running games that don't require internet such as single player games, you can turn your internet off in the settings (this might also be good to avoid distractions while playing). This will prevent any data from being sent off the the developers. Some operating systems such as [GrapheneOS](https://grapheneos.org/features#network-permission-toggle) support a user-facing network permission that you can utilize to disable network access for specifc apps.
+
+### Use Separate Communication Apps
+
+Instead of using the in-game chat features, use a secure third party communication app like Signal to talk to your friends while you play. If you are playing with people you don't know and they don't want to use your preferred secure communication method, you can stick with text chat rather than voice chat.
+
+## Unwanted Programs
+
+Many games these days come with launchers or other annoying bloatware.
+
+Now, some launchers are very useful, like Steam which keeps all your games updated for you automatically, and can handle friends and other useful features.
+
+However, it seems that almost every game wants to have its own launcher. Not only do these present added [attack surface](https://www.heise.de/en/news/Epic-Games-Launcher-Security-vulnerability-allows-rights-to-be-extended-10196692.html) on your system, they also tend to have lots of their own social features and data collection that you probably don't want.
+
+### What You Can Do
+
+Avoid games that have their own launcher. Try to stick with one launcher, be it Steam, GOG Galaxy, or whatever your preferred one is. This way, you minimize the attack surface of your games and improve your own user experience at the same time.
