@@ -157,3 +157,23 @@ However, it seems that almost every game wants to have its own launcher. Not onl
 ### What You Can Do
 
 Avoid games that have their own launcher. Try to stick with one launcher, be it Steam, GOG Galaxy, or whatever your preferred one is. This way, you minimize the attack surface of your games and improve your own user experience at the same time.
+
+## Security
+
+Games can present a security risk due to exploits, especially in [multiplayer games](https://dotesports.com/counter-strike/news/valve-quietly-fixes-major-cs2-security-exploit-but-disables-useful-feature-in-the-process). The reality with any type of game where you're being sent data from other players is anything they send could be malicious. It's mainly up to the developers of the game to use secure practices when developing their game. However, game developers typically aren't security researchers, so exploits in games run rampant.
+
+It doesn't help when developers allow complex things like image processing to be part of the multiplayer experience as well. Some games even allow you to download [custom content](https://www.digitaltrends.com/gaming/source-bug-custom-map-exploit/) when you join a server as well. Needless to say, this can be a huge vector for malware.
+
+### What You Can Do
+
+#### Sandboxing
+
+Sandboxing is very helpful here. If you can play a sandboxed version of your favorite game, prefer that. For example, all apps on the macOS App Store are required to be sandboxed. Mobile platforms like Android and iOS offer mandatory sandboxing, so mobile gaming can be a great option for security.
+
+#### Dedicating Gaming Machine
+
+You could also consider having a dedicated gaming machine that's totally separate from your personal computer, be that another PC or a console. This way, if an exploit is used, your personal data won't be easily accesible to hackers.
+
+#### Disable Custom Content in Your Game Settings
+
+Most games that support custom user content give you some option to disable it. Disable any user-uploaded images, maps, or other content. 
