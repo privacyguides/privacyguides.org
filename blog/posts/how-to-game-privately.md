@@ -50,7 +50,7 @@ Even ignoring the problems with availability and [game preservation](https://www
 
 ### What You Can Do
 
-Here's what you shouldn't do: DO NOT DOWNLOAD CRACKED GAMES. Cracked games you download off the internet often contain [malware](https://www.forbes.com/sites/zakdoffman/2025/08/19/microsoft-windows-warning-stop-playing-these-free-pc-games/). You should always donwload your software from an official source.
+Here's what you shouldn't do: DO NOT DOWNLOAD CRACKED GAMES. Cracked games you download off the internet often contain [malware](https://www.forbes.com/sites/zakdoffman/2025/08/19/microsoft-windows-warning-stop-playing-these-free-pc-games/). You should always download your software from an official source.
 
 Luckily, it's possible to buy and play many games without DRM. Stores like [itch.io](https://itch.io) and [GOG](https://www.gog.com/en/) offer extensive catalogues of DRM-free games to purchase. Plus, you'll be supporting the developers by purchasing their game.
 
