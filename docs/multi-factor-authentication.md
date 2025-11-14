@@ -1,7 +1,7 @@
 ---
 title: Multifactor Authentication
 icon: material/two-factor-authentication
-description: These tools assist you with securing your internet accounts with multifactor authentication without sending your secrets to a third-party.
+description: These tools assist you with securing your internet accounts with multifactor authentication without sending your secrets to a third party.
 cover: multi-factor-authentication.webp
 ---
 <small>Protects against the following threat(s):</small>
@@ -23,7 +23,7 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 <div class="admonition recommendation" markdown>
 
-![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.svg){ align=right }
+![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
 
 **Ente Auth** is a free and open-source app which stores and generates TOTP tokens. It can be used with an online account to back up and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
 
@@ -37,7 +37,7 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id6444121398)
-- [:simple-github: GitHub](https://github.com/ente-io/ente/releases?q=auth)
+- [:simple-github: GitHub](https://github.com/ente-io/ente/tree/main/mobile/apps/auth)
 - [:octicons-browser-16: Web](https://auth.ente.io)
 
 </details>
