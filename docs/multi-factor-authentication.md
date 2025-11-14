@@ -30,14 +30,14 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://help.ente.io/auth){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/ente-io/ente/tree/main/mobile/apps/auth){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id6444121398)
-- [:simple-github: GitHub](https://github.com/ente-io/ente/tree/main/mobile/apps/auth)
+- [:simple-github: GitHub](https://github.com/ente-io/ente/releases?q=auth)
 - [:octicons-browser-16: Web](https://auth.ente.io)
 
 </details>
