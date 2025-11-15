@@ -1,6 +1,7 @@
 ---
+title: "Email Security: Where We Are and What the Future Holds"
 date:
-    created: 2025-11-15T23:00:00Z
+    created: 2025-11-15T22:45:00Z
 categories:
     - Explainers
 authors:
@@ -13,12 +14,9 @@ description: Email is ubiquitous. If you want to function in modern society, you
 preview:
   cover: blog/assets/images/email-security/cover.png
 ---
-
 ![Email icon opening with an alert message inside](../assets/images/email-security/cover.png)
 
 <small aria-hidden="true">Illustration: fria / Privacy Guides</small>
-
-# Email Security: Where We Are and What the Future Holds
 
 Email is ubiquitous. If you want to function in modern society, you pretty much have to have an email address. What was originally just a simple protocol to send messages between machines has morphed beyond what it was originally intended for into the *de facto* authentication, identity, and "secure" communication channel for almost all technology users today. It's been updated many times to fix security issues and there are more updates to come, but is it worth trying to fix a decades-old protocol, or should we scrap it all and start over?<!-- more -->
 
@@ -52,7 +50,7 @@ flowchart LR
     D -->|Optional TLS Encryption| F[Other Party's Email Client]
 ```
 
-At each point in the process TLS encryption is not guaranteed. Now consider that you can have multiple recipients with their own SMTP servers as well, and you start to see how flimsily this protection can be. And since the initial negotiation is in plaintext, an attacker can simply strip away the STARTTLS command, preventing a secure connection from being established.
+At each point in the process TLS encryption is not guaranteed. Now consider that you can have multiple recipients with their own SMTP servers as well, and you start to see how flimsy this protection can be. And since the initial negotiation is in plaintext, an attacker can simply strip away the STARTTLS command, preventing a secure connection from being established.
 
 Authentication is left to another protocol to solve, this just handles the transport encryption.
 
@@ -94,7 +92,7 @@ Another common option for email encryption is [S/MIME](https://www.digicert.com/
 
 While a step up from the manual keys of PGP, S/MIME is still a pain to use, particularly because it usually requires purchasing and managing a certificate from a CA, which can be expensive and annoying. S/MIME also lacks forward secrecy just like PGP, so if there's ever a compromise of your private key, all previously sent messages are also compromised.
 
-These issues make S/MIME unviable for most people outside business settings.
+These issues make S/MIME nonviable for most people outside business settings.
 
 #### Web Key Directory
 
