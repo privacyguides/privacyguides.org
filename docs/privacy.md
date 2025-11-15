@@ -16,6 +16,8 @@ This privacy notice covers all Privacy Guides projects authorized and operated b
 
 Please note that when you make a donation to us on [donate.magicgrants.org](https://donate.magicgrants.org/privacyguides), MAGIC Grants has published a [separate privacy policy](https://donate.magicgrants.org/privacy) covering that platform.
 
+Additionally, when you browse or make a purchase on [shop.privacyguides.org](https://shop.privacyguides.org/), this is a third-party service provided by Fourthwall. Fourthwall has published a [separate privacy policy](https://shop.privacyguides.org/pages/privacy-policy) covering that platform.
+
 ## How does Privacy Guides collect data about me?
 
 Privacy Guides collects data about you:
@@ -24,8 +26,9 @@ Privacy Guides collects data about you:
 - When you create and use an account on our websites
 - When you post, send private messages, and otherwise participate in a community that Privacy Guides hosts
 - When you sign up for a mailing list, email notifications, or announcements
+- When you become a donating member
 - When you make a donation to us on GitHub Sponsors
-- When you become a donating member and link your MAGIC Grants account to your Privacy Guides forum account
+- When you link your MAGIC Grants account to your Privacy Guides forum account
 - When you contribute to our website or other open-source projects
 - When you contact us
 
@@ -72,9 +75,9 @@ You may optionally provide additional details about your account, like your name
 
 Privacy Guides stores this account data as long as your account remains open.
 
-### Privacy Guides collects data about posts and other activity on our forum
+### Privacy Guides collects data about posts and other activity
 
-Privacy Guides collects the content of your posts, plus data about bookmarks, likes, and links you follow in order to share that data with others, through the forum. We also publish this activity to the public.
+Privacy Guides collects the content of your posts throughout our websites, plus data about bookmarks, likes, and links you follow in order to share that data with others. We also publish this activity to the public when you request it.
 
 Privacy Guides also collects data about private messages that you send through the forum. Privacy Guides makes private messages available to senders and their recipients, and also to forum moderators and administrators.
 
@@ -98,17 +101,29 @@ Privacy Guides uses this information to maintain the integrity of our website, s
 
 ### Privacy Guides collects data when you donate to us
 
+#### When you subscribe to a membership on privacyguides.org
+
+When you donate to us through our [membership program](#/portal), we collect your email address. Your payment information is also collected by our payment processor Stripe in order to facilitate the transaction. You can also optionally provide your name, which is used to personalize your experience, and can be removed or changed in your [profile settings](#/portal/account/profile) at any time.
+
+If your membership and newsletter subscription matches an email address associated with an account on our forum, we will link your membership status to your forum account. This allows you to receive special perks on the forum, such as a members-only title or flair, and access to members-only categories.
+
+If the Member title or Member flair is enabled on your forum profile, Privacy Guides will share your username and profile picture on our websites for the purposes of acknowledging your donation to the project. You may revoke this consent at any time by removing the title and flair from your public profile, and we will no longer share your donation status publicly. This will not affect your access to members-only benefits. It may take until the next website release for your data to be removed from public visibility.
+
+#### When you donate to us via GitHub Sponsors
+
 When you donate to us on GitHub Sponsors, we collect your GitHub username and profile picture. Your payment information is also collected by our subprocessors GitHub and Stripe in order to facilitate the transaction.
 
 If you choose to make your donation public during or after the checkout process on GitHub, Privacy Guides will share your username and profile picture on our websites for the purposes of fulfilling your request. You may revoke this consent at any time, and we will no longer share your donation status publicly. It may take until the next website release for your data to be removed from public visibility.
+
+#### When you subscribe to a membership or donate to us on donate.magicgrants.org
 
 When you donate to us on [donate.magicgrants.org](https://donate.magicgrants.org/privacyguides), a [separate privacy policy](https://donate.magicgrants.org/privacy) applies as noted at the beginning of this document.
 
 However, if you optionally link your `donate.magicgrants.org` account to your Privacy Guides forum account, our forum collects some personal data which is covered by this notice: namely your forum username and whether you have an active membership.
 
-We process that information in order to grant you special perks on the forum. Additionally, if you choose to make this status public by setting a members-only title or flair, we will share the status of your active membership on our websites.
+We process that information in order to grant you special perks on the forum. Additionally, if you choose to make this status public by setting a members-only title or flair, we will share the status of your active membership on our websites. You may revoke this consent at any time by removing the title and flair from your public profile, and we will no longer share your donation status publicly. This will not affect your access to members-only benefits. It may take until the next website release for your data to be removed from public visibility.
 
-This information is stored for as long as your membership is active, or until you unlink your forum and MAGIC Grants donation accounts in your profile settings. It may take until the next website release for your data to be fully removed from public visibility.
+This information is stored for as long as your membership is active, or until you unlink your forum and MAGIC Grants donation accounts in your profile settings.
 
 ### Privacy Guides collects data when you contact us
 
@@ -124,7 +139,16 @@ Our website uses Local Storage in your browser to store your color scheme prefer
 
 Our website also uses Session Storage to cache the current version number of this website and the number of stars/forks of our GitHub repository. This data is fetched once per session from GitHub, and is only used by client-side JavaScript to display that information at the top of each page.
 
-No locally stored data on this website is transmitted to Privacy Guides, and it can not be used to identify you.
+### The Privacy Guides website uses cookies
+
+Our website uses features from the open-source Ghost content management system to manage your membership experience, which uses the following cookies:
+
+| Name                  | Essential | Expires        | Purpose                                                                       |
+| --------------------- | --------- | -------------- | ----------------------------------------------------------------------------- |
+| ghost-members-ssr     | Yes       | 6 months       | used to identify your membership on the website                               |
+| ghost-members-ssr.sig | Yes       | 6 months       | used to validate your membership on the website                               |
+| __stripe_sid          | Yes       | 1 year         | [Stripe](#subprocessors-used-by-privacy-guides) allows online transactions without storing any credit card information |
+| __stripe_mid          | Yes       | 1 year         | [Stripe](#subprocessors-used-by-privacy-guides) allows online transactions without storing any credit card information |
 
 ### The Privacy Guides forum uses cookies
 
@@ -218,7 +242,7 @@ The lawful basis for our processing determines what rights are available to you 
 | [Open source contributions](#privacy-guides-collects-data-about-open-source-contributors) | Email address, name, GitHub profile information, other information provided via Git | **Legitimate interest** | We have a legitimate interest in tracking the provenance of contributions to our open source projects to prevent abuse and ensure intellectual property rights are respected |
 | [Donations](#privacy-guides-collects-data-when-you-donate-to-us) | Payment information including billing address and email, GitHub profile information | **Legitimate interest** | We have a legitimate interest in processing this data to prevent payment abuse and fraud, and for facilitating your transaction |
 | [Donations](#privacy-guides-collects-data-when-you-donate-to-us) | GitHub profile information | **Consent** | We process this information to display your donation status publicly in accordance to your wishes |
-| [Donations](#privacy-guides-collects-data-when-you-donate-to-us) | Forum username and membership status | **Consent** | When you link your forum account to your MAGIC Grants donation account, you can optionally display your membership status to the public |
+| [Donations](#privacy-guides-collects-data-when-you-donate-to-us) | Forum username and membership status | **Consent** | When your membership is linked to your forum account, you can optionally display your membership status to the public |
 | [Contacting us](#privacy-guides-collects-data-when-you-contact-us) | Email address, mail server IP, message content | **Legitimate interest** | We have a legitimate interest in processing incoming email information to prevent spam and network abuse |
 | [Contacting us](#privacy-guides-collects-data-when-you-contact-us) | Email address, message headers and content | **Contract** | We store your messages and process your data in order to provide a response to your communication |
 | [Backups](#privacy-guides-makes-regular-backups-of-all-data) | All personal information we collect | **Legitimate interest** | We store complete backups to ensure organizational continuity and security for up to 30 days |
@@ -294,7 +318,8 @@ Privacy Guides uses the following subprocessors, and may share personal data wit
 | [GitHub](https://github.com) (USA) | Git Repositories | *For visitors to this website*: sharing information with our visitors about the current release, repo star count, etc. | USA | [Privacy Notice](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) |
 | [GitHub](https://github.com) (USA) | Git Repositories, Issues, Pull Requests | *For contributors to this website*: hosting our source code and communications platforms such as our issues tracker. | USA | [Privacy Notice](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) |
 | [GitHub](https://github.com) (USA) | [Sponsors](https://github.com/sponsors/privacyguides) | For collecting payments for gifts to Privacy Guides | USA | [Privacy Notice](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) |
-| [Stripe](https://stripe.com) (USA) | Connect | *For certain donations via GitHub Sponsors*: payment processing for donations | USA | [Privacy Notice](https://stripe.com/privacy), [GDPR Center](https://stripe.com/legal/privacy-center) |
+| [Mailgun](https://www.mailgun.com) (USA) | Email Delivery | For sending newsletters and other email messages to users | USA | [Privacy Notice](https://www.mailgun.com/privacy-policy), [GDPR Center](https://www.mailgun.com/gdpr) |
+| [Stripe](https://stripe.com) (USA) | Connect | Payment processing for donations | USA | [Privacy Notice](https://stripe.com/privacy), [GDPR Center](https://stripe.com/legal/privacy-center) |
 | [Triplebit](https://www.triplebit.org) (USA) | Object Storage | For hosting static websites and static media content, and distributing static content | USA, Poland | [Privacy Notice](https://www.triplebit.org/privacy) |
 | [Triplebit](https://www.triplebit.org) (USA) | [Umami Statistics](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org) | For compiling aggregated statistics of our website visitor data based on server-side visitor info submissions | USA | [Privacy Notice](https://www.triplebit.org/privacy) |
 | [Triplebit](https://www.triplebit.org) (USA) | Virtual Private Servers | For hosting our dynamic websites, storing and processing personal data. | USA | [Privacy Notice](https://www.triplebit.org/privacy) |
@@ -313,7 +338,7 @@ For complaints under GDPR more generally, you always have the option to lodge co
 
 ## Where do I find out about changes?
 
-This version of Privacy Guides' privacy notice took effect on March 6, 2025.
+This version of Privacy Guides' privacy notice took effect on September 24, 2025.
 
 Privacy Guides will post the next version here: <https://www.privacyguides.org/en/privacy/>.
 

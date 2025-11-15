@@ -8,7 +8,7 @@ tags:
     - Tor
 authors:
     - em
-description: You might have heard of Tor in the news a few times, yet never dared to try it yourself. Despite being around for decades, Tor is still a tool too few people know about. Today, Tor is easy to use for anyone. It not only helps journalists and activists, but anybody who seeks greater privacy online or access to information regardless of location. But what is Tor exactly? How can Tor help you? And why is it such an important tool?
+description: You might have heard of Tor already, yet never dared to try it yourself. Despite being around for decades, too few people know about Tor. It isn't only a tool for journalists and activists, but for anyone seeking greater privacy online. What is Tor exactly? And how can Tor help you?
 schema_type: OpinionNewsArticle
 preview:
   cover: blog/assets/images/in-praise-of-tor/tor-cover.webp

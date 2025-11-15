@@ -127,9 +127,9 @@ If you used our recommended configuration settings above, you should be posting 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1083446067)
-- [:simple-github: GitHub](https://github.com/element-hq/element-android/releases)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.element.android.x)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1631335820)
+- [:simple-github: GitHub](https://github.com/element-hq/element-x-android/releases)
 - [:fontawesome-brands-windows: Windows](https://element.io/download)
 - [:simple-apple: macOS](https://element.io/download)
 - [:simple-linux: Linux](https://element.io/download)

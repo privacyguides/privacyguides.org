@@ -7,7 +7,7 @@ tags:
     - Pride Month
 authors:
     - em
-description: Data privacy is important for everyone. But for some marginalized populations, data privacy is indispensable for social connection, access to information, and physical safety. For Pride month this year, we will discuss topics at the intersection of data privacy and experiences specific to the LGBTQ+ community.
+description: Data privacy is important for everyone. But for some marginalized populations, data privacy is indispensable for social connection, access to information, and physical safety. For Pride month, we discuss topics at the intersection of data privacy and experiences specific to the LGBTQ+ community.
 schema_type: AnalysisNewsArticle
 preview:
   cover: blog/assets/images/importance-of-privacy-for-the-queer-community/pride-cover.webp
