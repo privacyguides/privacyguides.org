@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2025-08-18T19:00:00Z
+    created: 2025-11-15T23:00:00Z
 categories:
     - Explainers
 authors:
@@ -20,7 +20,7 @@ preview:
 
 # Email Security: Where We Are and What the Future Holds
 
-Email is ubiquitous. If you want to function in modern society, you pretty much have to have an email address. What was originally just a simple protocol to send messages between machines has morphed beyond what it was originally intended for into the defacto authentication, identity, and "secure" communication channel for almost all technology users today. It's been updated many many times to fix security issues and there's more updates to come, but is it worth trying to fix a decades-old protocol or should we scrap it all and start over?<!-- more -->
+Email is ubiquitous. If you want to function in modern society, you pretty much have to have an email address. What was originally just a simple protocol to send messages between machines has morphed beyond what it was originally intended for into the *de facto* authentication, identity, and "secure" communication channel for almost all technology users today. It's been updated many times to fix security issues and there are more updates to come, but is it worth trying to fix a decades-old protocol, or should we scrap it all and start over?<!-- more -->
 
 ## Current State of Email Security
 
@@ -30,7 +30,7 @@ Over the years, multiple protocols have been introduced to fix security issues a
 
 ### Encryption
 
-By default, there's no encryption in SMTP. Not transport encryption or end-to-end encrpytion, it's just a plaintext protocol.
+By default, there's no encryption in SMTP. Not transport encryption or end-to-end encryption, it's just a plaintext protocol.
 
 To remedy this, several solutions have been created.
 
@@ -52,7 +52,7 @@ flowchart LR
     D -->|Optional TLS Encryption| F[Other Party's Email Client]
 ```
 
-At each point in the process TLS encrytion is not guaranteed. Now consider that you can have multiple recipients with their own SMTP servers as well and you start to see how flimsly this protection can be. And since the initial negotiation is in plaintext, an attacker can simply strip away the STARTTLS command, preventing a secure connection from being established.
+At each point in the process TLS encryption is not guaranteed. Now consider that you can have multiple recipients with their own SMTP servers as well, and you start to see how flimsily this protection can be. And since the initial negotiation is in plaintext, an attacker can simply strip away the STARTTLS command, preventing a secure connection from being established.
 
 Authentication is left to another protocol to solve, this just handles the transport encryption.
 
@@ -62,7 +62,7 @@ Also known as "Implicit TLS" (as opposed to the "Explicit TLS" of STARTTLS), SMT
 
 The [current](https://datatracker.ietf.org/doc/html/rfc8314) recommendations are to use port 465 for SMTPS and port 587 for STARTTLS. Unfortunately, these ports aren't standardized and thus there is disagreement and confusion about what port should be used for SMTPS.
 
-In the past, ports 25, 465, 587, and 2525 have all been used for SMTP at various points. This lack of a standardized port means that you end up with services using different ports and being unable to establish a secure connection. Particularly, there is still confusion in some email providers whether to use port 465 or port 587 for SMTPS, althought the current recommendation is port 465.
+In the past, ports 25, 465, 587, and 2525 have all been used for SMTP at various points. This lack of a standardized port means that you end up with services using different ports and being unable to establish a secure connection. Particularly, there is still confusion in some email providers whether to use port 465 or port 587 for SMTPS, although the current recommendation is port 465.
 
 #### POP3S
 
@@ -78,9 +78,9 @@ Like SMTPS and POP3s, IMAP supports implicit TLS. The implicit TLS port is 993.
 
 #### OpenPGP
 
-The above features only protect the email in transit and don't protect against the email providers involved, which is a massive security issue if you don't trust your email provider. On top of that, you as a user have no control over which parts of the chain are encrypted. If you want to be sure that no party in between you and your recipient can read or alter your emails, you need to use end-to-end encryption. Unfortunately, by default, email doesn't support end-to-end encrytion.
+The above features only protect the email in transit and don't protect against the email providers involved, which is a massive security issue if you don't trust your email provider. On top of that, you as a user have no control over which parts of the chain are encrypted. If you want to be sure that no party in between you and your recipient can read or alter your emails, you need to use end-to-end encryption. Unfortunately, by default, email doesn't support end-to-end encryption.
 
-[Pretty Good Privacy (PGP)](https://www.openpgp.org/about/) was originally created in 1997 by [Phil Zimmerman](https://github.dev/friadev/privacyguides.org/tree/Email-security). While originally proprietary software, an open source version of PGP called OpenPGP has been standardized by the [IETF](https://www.rfc-editor.org/rfc/rfc9580.html). As you can imagine from software originally conceived in the 90's, the user experience isn't the smoothest.
+[Pretty Good Privacy (PGP)](https://www.openpgp.org/about/) was originally created in 1997 by [Phil Zimmerman](https://github.dev/friadev/privacyguides.org/tree/Email-security). While originally proprietary software, an open source version of PGP called OpenPGP has been standardized by the [IETF](https://www.rfc-editor.org/rfc/rfc9580.html). As you can imagine from software originally conceived in the 90s, the user experience isn't the smoothest.
 
 Unlike modern messengers like [Signal](https://signal.org), OpenPGP requires you to [manually manage your keys](https://dev.to/adityabhuyan/how-to-generate-your-own-public-and-secret-keys-for-pgp-encryption-1joh). This is a problem not only because it's cumbersome, but the security of E2EE rests on protecting the private key. If the private key is compromised, your messages are compromised.
 
@@ -94,7 +94,7 @@ Another common option for email encryption is [S/MIME](https://www.digicert.com/
 
 While a step up from the manual keys of PGP, S/MIME is still a pain to use, particularly because it usually requires purchasing and managing a certificate from a CA, which can be expensive and annoying. S/MIME also lacks forward secrecy just like PGP, so if there's ever a compromise of your private key, all previously sent messages are also compromised.
 
-These issues make S/MIME unviable for most people outside of business settings.
+These issues make S/MIME unviable for most people outside business settings.
 
 #### Web Key Directory
 
@@ -128,7 +128,7 @@ The IP addresses are the ones that are authorized to send email from this domain
 
 While a good start, SPF still has several glaring weaknesses. Since it relies on DNS, an attack on the DNS infrastructure could cause spoofed DNS data to be accepted.
 
-Since SPF doesn't authenticate individual users, it's still possible for a sender to impersonate another user. SPF does not authenticate the `MAIL FROM` header. If you try to send an email from a gmail.com domain but server doesn't match gmail.com, it will fail.
+Since SPF doesn't authenticate individual users, it's still possible for a sender to impersonate another user. SPF does not authenticate the `MAIL FROM` header. If you try to send an email from a gmail.com domain, but the server doesn't match gmail.com, it will fail.
 
 SPF has a few different modes, allowing for a hard fail, soft fail, or completely ignoring it. `-all` means an email that fails will be rejected, `~all` will mark emails that fail as insecure or spam but still send them, and `+all` will specify that any server is allowed to send emails on behalf of your domain.
 
@@ -164,7 +164,7 @@ Note also that this has nothing to do with encryption of the message, only verif
 
 #### DMARC
 
-[Domain-based Message Authentication Reporting and Conformance (DMARC)](https://www.cloudflare.com/learning/dns/dns-records/dns-dmarc-record/) is an authentication method that builds on SPF and DKIM. DMARC tells a receiving email server what to do after checking the SPF and DKIM. If the email fails, the DMARC policy tells the receiver whether to mark it as spam, block it, or allow it through. 
+[Domain-based Message Authentication Reporting and Conformance (DMARC)](https://www.cloudflare.com/learning/dns/dns-records/dns-dmarc-record/) is an authentication method that builds on SPF and DKIM. DMARC tells a receiving email server what to do after checking the SPF and DKIM. If the email fails, the DMARC policy tells the receiver whether to mark it as spam, block it, or allow it through.
 
 DMARC also uses TXT records. An example DMARC policy might look like
 
@@ -174,7 +174,7 @@ The `v=` shows the version of DMARC to use. The `p=` shows what should be done w
 
 #### DNSSEC
 
-You may have noticed that all of these authentication methods rely on DNS. Unfortunately, DNS wasn't designed to be secure when it was invented in the 1980's. Ironically, there's no authentication built into DNS by default, so by attacking DNS, an malicious actor can [poison](https://www.cloudflare.com/learning/dns/dns-cache-poisoning/) DNS cache with false information.
+You may have noticed that all of these authentication methods rely on DNS. Unfortunately, DNS wasn't designed to be secure when it was invented in the 1980s. Ironically, there's no authentication built into DNS by default, so by attacking DNS, a malicious actor can [poison](https://www.cloudflare.com/learning/dns/dns-cache-poisoning/) your DNS cache with false information.
 
 [Researchers at CMU in 2014](https://www.sei.cmu.edu/blog/probable-cache-poisoning-of-mail-handling-domains/) found that emails that were supposedly to be sent by Gmail, Yahoo!, and Outlook.com were actually being sent by a rogue email server. This is disastrous for security and breaks the entire email authentication system. There are many such cases of attacks on DNS infrastructure and many more [possible attacks](https://www.akamai.com/glossary/what-are-dns-attack-vectors) on DNS.
 
@@ -182,7 +182,7 @@ The solution? [DNSSEC](https://www.cloudflare.com/learning/dns/dnssec/how-dnssec
 
 DNSSEC forms a [chain of trust](https://en.wikipedia.org/wiki/Chain_of_trust), with each zone forming a parent/child relationship all the way up to the [root zone](https://www.cloudflare.com/learning/dns/glossary/dns-root-server/).
 
-The public key infrastructure (PKI) that we rely on for things like HTTPS in browsers similarly relies on a chain of trust, but the web PKI relies on a large number of trusted entities whereas DNSSEC effectively reduces it to one: the IANA which signs the root zone key in a [root signing ceremony](https://www.cloudflare.com/learning/dns/dnssec/root-signing-ceremony/).
+The public key infrastructure (PKI) that we rely on for things like HTTPS in browsers similarly relies on a chain of trust, but web PKI relies on many trusted entities whereas DNSSEC effectively reduces it to one: the IANA which signs the root zone key in a [root signing ceremony](https://www.cloudflare.com/learning/dns/dnssec/root-signing-ceremony/).
 
 Effectively, DNSSEC is designed so that you can be sure the results of a DNS query are accurate.
 
@@ -206,31 +206,31 @@ Both DANE and MTA-STS can be used together for a multilayered approach to email 
 
 Something seldom discussed is the fact that email is the default 2FA method for most accounts and also can be used to bypass your password through the password reset function on the login screen of most services. This essentially means the security of all of your accounts rests on the security of your email, which can be very shaky and lacks E2EE usually. It's most comparable to SMS 2FA which is also used a lot of the time as a method for getting into accounts when you forgot your password.
 
-I touched on this a bit in my [passkey article](https://www.privacyguides.org/articles/2025/03/08/toward-a-passwordless-future/), but we need to stop relying on email for security critical applications and start using proper recovery methods like recovery codes. Email should be used for what it's intended for: sending messages and updates to people, anouncements, etc.
+I touched on this a bit in my [passkey article](toward-a-passwordless-future.md), but we need to stop relying on email for security critical applications and start using proper recovery methods like recovery codes. Email should be used for what it's intended for: sending messages and updates to people, announcements, etc.
 
 #### Third-Party Clients
 
-Many email providers such as gmail provide their own clients for you to view your inbox, send messages, etc. But many people choose to use third-party clients for their email needs.
+Many email providers such as Gmail provide their own clients for you to view your inbox, send messages, etc. But many people choose to use third-party clients for their email needs.
 
-While it's great that email can support that, it does mean you need to trust another party with your sensitive email and essentially the security of all of your accounts. Not to mention that email clients can have [vulnerabilties](https://www.mozilla.org/en-US/security/known-vulnerabilities/thunderbird/), so you need to be very careful about which one you trust.
+While it's great that email can support that, it does mean you need to trust another party with your sensitive email and essentially the security of all of your accounts. Not to mention that email clients can have [vulnerabilities](https://www.mozilla.org/en-US/security/known-vulnerabilities/thunderbird/), so you need to be very careful about which one you trust.
 
 #### Email Attack Surface
 
 A big part of the reason email clients can be so vulnerable to exploits is the vast attack surface afforded by things like JavaScript support in emails. This puts email clients dangerously close to the same territory as browsers in terms of attack surface but without the same level of scrutiny or hardening effort that goes into browsers.
 
-Since almost anyone can send you an email at any time, you have to trust that your email client vendor is able to protect you against [vulnerabilities](https://www.csoonline.com/article/1308164/microsoft-outlook-flaw-opens-door-to-1-click-remote-code-execution-attacks.html) and also has timely patches when they're found.
+Since almost anyone can email you at any time, you have to trust that your email client vendor is able to protect you against [vulnerabilities](https://www.csoonline.com/article/1308164/microsoft-outlook-flaw-opens-door-to-1-click-remote-code-execution-attacks.html) and also has timely patches when they're found.
 
 Luckily, lots of email clients let you disable JavaScript and HTML if you want, but not all do, and email clients can have lots of other vulnerabilities as well not related to JavaScript.
 
 ## Future of Email Security
 
-It's been a multi-decade cross-industry effort to bring email up to snuff as a modern communication system and we still have a long way to go. There's still efforts to improve the state of email security, so look out for these in the future.
+It's been a multi-decade cross-industry effort to bring email up to snuff as a modern communication system, and we still have a long way to go. There's still efforts to improve the state of email security, so look out for these in the future.
 
 ### Improvements to OpenPGP
 
-The IETF has a [working group](https://datatracker.ietf.org/wg/openpgp/about/) for OpenPGP that wants to add many improvments to OpenPGP, including post-quantum encryption, forward secrecy, and usability improvements.
+The IETF has a [working group](https://datatracker.ietf.org/wg/openpgp/about/) for OpenPGP that wants to add many improvements to OpenPGP, including post-quantum encryption, forward secrecy, and usability improvements.
 
-Key transparency is also a planned feature, similar to what apps like [WhatsApp](https://scontent.xx.fbcdn.net/v/t39.8562-6/379264560_846690136905658_6336040801441930900_n.pdf?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=gNmDlLkE0DMQ7kNvwEyKONi&_nc_oc=AdmucQjSjoTw2nXUszYeZNStyUHGqvM2pj3oRVV7qI4xmLEJMmY2pUV29WcOnKC1KpA&_nc_zt=14&_nc_ht=scontent.xx&_nc_gid=5lSqV7L5iCqeiMSQDCwN0w&oh=00_AfXoxrF8ukQtSVZM_BCBDbveIDviQPfn0kDEV8pSbxX1SQ&oe=68AB9400) have implmenented. Key transparency systems use an append-only, auditable and tamper-evident log of keys that allows you to automatically verify the authenticity of whoevery you're messaging with.
+Key transparency is also a planned feature, similar to what apps like [WhatsApp](https://scontent.xx.fbcdn.net/v/t39.8562-6/379264560_846690136905658_6336040801441930900_n.pdf?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=gNmDlLkE0DMQ7kNvwEyKONi&_nc_oc=AdmucQjSjoTw2nXUszYeZNStyUHGqvM2pj3oRVV7qI4xmLEJMmY2pUV29WcOnKC1KpA&_nc_zt=14&_nc_ht=scontent.xx&_nc_gid=5lSqV7L5iCqeiMSQDCwN0w&oh=00_AfXoxrF8ukQtSVZM_BCBDbveIDviQPfn0kDEV8pSbxX1SQ&oe=68AB9400) have implemented. Key transparency systems use an append-only, auditable and tamper-evident log of keys that allows you to automatically verify the authenticity of whoever you're messaging with.
 
 There's even a plan to add the ability to verify keys manually using QR codes, similar to how some messengers let you manually verify keys.
 
@@ -246,7 +246,7 @@ An issue with the current version of DKIM is a malicious actor taking emails sig
 
 DKIM2 aims to simplify the protocol and make it more standardized. For example, in practice, the vast majority of DKIM is singed using relaxed methods, so DKIM2 will only support relaxed.
 
-The fact that DKIM relies on an explicit list of headers as part of the signature, there is inconsistent signing of headers and some security-critical headers might not be signed. In order to prevent attackers from adding headers that weren't orginally part of the email, providers would sign headers with no information in them. DKIM2 would specify a fixed set of headers in alignment with best practices so there won't be a need to specify headers.
+The fact that DKIM relies on an explicit list of headers as part of the signature, there is inconsistent signing of headers and some security-critical headers might not be signed. In order to prevent attackers from adding headers that weren't originally part of the email, providers would sign headers with no information in them. DKIM2 would specify a fixed set of headers in alignment with best practices, so there won't be a need to specify headers.
 
 ### DMARCbis
 
@@ -268,7 +268,7 @@ Transport encryption between servers now should be the minimum expected for emai
 
 The adoption of [passkeys](https://fidoalliance.org/passkeys/) will eliminate the need for email as a recovery method, since users won't have to remember passwords. Email can be used for what it was originally intended for: a method of communication and sending updates and announcements, nothing more. This will take a concerted effort from service providers though, and it seems for now most services that support passkeys still require and email for some reason. Here's hoping this changes in the future.
 
-The adoption of passkeys will also make email services themselves more secure, since at the moment they act as a sort of defacto recovery method for all of our accounts. They should focus on deprecating passwords for improved security.
+The adoption of passkeys will also make email services themselves more secure, since at the moment they act as a sort of de facto recovery method for all of our accounts. They should focus on deprecating passwords for improved security.
 
 ### Wider Adoption of DNSSEC
 
