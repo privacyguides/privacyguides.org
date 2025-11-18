@@ -32,7 +32,7 @@ Also, we advise against using it for Apple devices (outside of MacOS) as it requ
 <!--- ## VLC Media Player
 <div class="admonition recommendation" markdown>
 
-![VLC logo](assets/img/media-players/vlc.png){ align=right }
+![VLC logo](assets/img/media-players/vlc.svg){ align=right }
 
 **VLC Media Player** is a Free and Open Source (FOSS) media player. It supports audio and video types of entertainment including TV (PVR), music and videos. VLC also relies on content being stored locally or can stream or play from the variety of hardware capture cards including tuner cards and online or on the local network too. Finally, VLC is also fully cross-platform and also has [add-ons](https://addons.videolan.org/) to extend the experience like Kodi, the same caution applies above.
 
@@ -43,7 +43,7 @@ Also, we advise against using it for Apple devices (outside of MacOS) as it requ
 
 </details>
 
-</div> 
+</div>
 to replace for jellyfin--->
 ## Criteria
 
@@ -51,5 +51,5 @@ to replace for jellyfin--->
 
 - Must be open source.
 - Must support a wide variety of hardware.
-- Must have functionality that can replace the likes of Smart TVs. 
+- Must have functionality that can replace the likes of Smart TVs.
 <!--- Feel free to help with the criteria, I'm not sure PG's stance on those I'm going on my own --->
