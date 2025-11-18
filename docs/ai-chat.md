@@ -61,11 +61,11 @@ Below is a table of good models to start with.
 |---|---|---|---|---|---|
 | GPU Support | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-check:{ .pg-green } | / | / |
 | Image Generation | :material-check:{ .pg-green } | :material-close:{ .pg-red } | :material-close:{ .pg-red } | :material-close:{. pg-red } | :material-close:{. pg-red } |
-| Vision capabilities | :material-check:{ .pg-green } | :material-check:{ .pg-green }: |  :material-check:{ .pg-green }: | :material-check:{ .pg-green }: | :material-alert-outline:{ .pg-orange } Limited quality
+| Vision capabilities | :material-check:{ .pg-green } | :material-check:{ .pg-green } |  :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Limited quality
 | Speech-to-text | :material-check:{ .pg-green } | :material-close:{ .pg-red } | :material-close:{ .pg-red } | :material-close:{ .pg-red } | :material-close:{ .pg-red } |
 | Auto-download Models | :material-close:{ .pg-red } | :material-check:{ .pg-green } |:material-alert-outline:{ .pg-orange } Few models available | :material-alert-outline:{ .pg-orange } Few models available | :material-check:{ .pg-green } |
 | Custom Parameters | :material-check:{ .pg-green } | :material-close:{ .pg-red } | :material-check:{ .pg-green } |  :material-alert-outline:{ .pg-orange } Model prompt cannot be changed | :material-check:{ .pg-green }|
-| Platform | :simple-linux: Linux :fontawesome-brands-windows: Windows :simple-apple: macOS :simple-macos:| :simple-gnometerminal All CLI :simple-linux: Linux :fontawesome-brands-windows: Windows :simple-apple: :simple-macos: | :simple-linux: Linux :fontawesome-brands-windows: Windows (Size limitations) :simple-apple: :simple-macos: | :simple-android: Android | :simple-android: Android :simple-apple: :simple-ios:] |
+| Platform | :simple-linux: Linux \ :fontawesome-brands-windows: Windows \ :simple-apple: macOS :simple-macos:| :simple-gnometerminal: All CLI :simple-linux: Linux :fontawesome-brands-windows: Windows :simple-apple: macOS | :simple-linux: Linux \ :fontawesome-brands-windows: Windows (Size limitations) \ :simple-apple: macOS | :simple-android: Android | :simple-android: Android :simple-apple: :simple-ios: |
 
 ## Edge Gallery (Android)
 
