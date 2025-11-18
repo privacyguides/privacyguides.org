@@ -5,6 +5,7 @@ icon: material/file-lock
 description: Encryption of data is the only way to control who can access it. These tools allow you to encrypt your emails and any other files.
 cover: encryption.webp
 ---
+
 **Encryption** is the only secure way to control who can access your data. If you are currently not using encryption software for your hard disk, emails, or files, you should pick an option here.
 
 ## Multi-platform
@@ -95,13 +96,20 @@ TrueCrypt has been [audited a number of times](https://en.wikipedia.org/wiki/Tru
 
 Built-in OS encryption solutions generally leverage hardware security features such as a [secure cryptoprocessor](basics/hardware.md#tpmsecure-cryptoprocessor). Therefore, we recommend using the built-in encryption solutions for your operating system. For cross-platform encryption, we still recommend [cross-platform tools](#multi-platform) for additional flexibility and to avoid vendor lock-in.
 
+<details class="warning" markdown>
+<summary>Shut devices down when not in use.</summary>
+
+Powering off your devices when not in use provides the best security as this minimizes the attack surface of your FDE method as no keys are available in memory.
+
+</details>
+
 ### BitLocker
 
 <div class="admonition recommendation" markdown>
 
 ![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
 
-**BitLocker** is the full volume encryption solution bundled with Microsoft Windows that uses the Trusted Platform Module ([TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm)) for hardware-based security.
+**BitLocker** is the full volume encryption solution bundled with Microsoft Windows that uses the Trusted Platform Module ([TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm)) for hardware-based security. We recommend that you use Bitlocker with the [TPM+PIN](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/faq#what-is-the-difference-between-a-tpm-owner-password--recovery-password--recovery-key--pin--enhanced-pin--and-startup-key) option and not just your regular password as [extraction is impossible](https://blog.elcomsoft.com/2021/01/understanding-bitlocker-tpm-protection) when you use an extra a pre-boot protector like the PIN. The PIN is rate limited and the TPM will panic and lock access to the encryption key either permanently or for a period of time if someone attempts to brute force access.
 
 [:octicons-info-16:](https://learn.microsoft.com/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title="Documentation" }
 
@@ -109,47 +117,7 @@ Built-in OS encryption solutions generally leverage hardware security features s
 
 </div>
 
-BitLocker is [officially supported](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on the Pro, Enterprise, and Education editions of Windows. It can be enabled on Home editions provided that they meet the following prerequisites.
-
-<details class="example" markdown>
-<summary>Enabling BitLocker on Windows Home</summary>
-
-To enable BitLocker on "Home" editions of Windows, you must have partitions formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated TPM (v1.2, 2.0+) module. You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
-
-1. Open a command prompt and check your drive's partition table format with the following command. You should see "**GPT**" listed under "Partition Style":
-
-    ```powershell
-    powershell Get-Disk
-    ```
-
-2. Run this command (in an admin command prompt) to check your TPM version. You should see `2.0` or `1.2` listed next to `SpecVersion`:
-
-    ```powershell
-    powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
-    ```
-
-3. Access [Advanced Startup Options](https://support.microsoft.com/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). You need to reboot while pressing the F8 key before Windows starts and go into the *command prompt* in **Troubleshoot** → **Advanced Options** → **Command Prompt**.
-4. Login with your admin account and type this in the command prompt to start encryption:
-
-    ```powershell
-    manage-bde -on c: -used
-    ```
-
-5. Close the command prompt and continue booting to regular Windows.
-6. Open an admin command prompt and run the following commands:
-
-    ```powershell
-    manage-bde c: -protectors -add -rp -tpm
-    manage-bde -protectors -enable c:
-    manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
-    ```
-
-<div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
-
-Backup `BitLocker-Recovery-Key.txt` on your Desktop to a separate storage device. Loss of this recovery code may result in loss of data.
-
-</div>
+BitLocker is [officially supported](https://support.microsoft.com/en-us/windows/bitlocker-overview-44c0c61c-989d-4a69-8822-b95cd49b1bbf) on the Pro, Enterprise, and Education editions of Windows. If you have Home edition we recommend you [upgrade to Pro](https://support.microsoft.com/en-us/windows/upgrade-windows-home-to-windows-pro-ef34d520-e73f-3198-c525-d1a218cc2818), which can be achieved without reinstalling Windows or losing your files. An alternative solution could be to use VeraCrypt's [system encryption](https://veracrypt.io/en/System%20Encryption.html) feature. VeraCrypt does not use the system's TPM chip and all encryption keys are stored in memory, leaving them [vulnerable to extraction](https://blog.elcomsoft.com/2021/06/breaking-veracrypt-obtaining-and-extracting-on-the-fly-encryption-keys) while the device is online and mounted. We also recommend if you're using Bitlocker to make sure you
 
 </details>
 
