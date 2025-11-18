@@ -65,13 +65,13 @@ Below is a table of good models to start with.
 | Speech-to-text | :material-check:{ .pg-green } | :material-close:{ .pg-red } | :material-close:{ .pg-red } | :material-close:{ .pg-red } | :material-close:{ .pg-red } |
 | Auto-download Models | :material-close:{ .pg-red } | :material-check:{ .pg-green } |:material-alert-outline:{ .pg-orange } Few models available | :material-alert-outline:{ .pg-orange } Few models available | :material-check:{ .pg-green } |
 | Custom Parameters | :material-check:{ .pg-green } | :material-close:{ .pg-red } | :material-check:{ .pg-green } |  :material-alert-outline:{ .pg-orange } Model prompt cannot be changed | :material-check:{ .pg-green }|
-| Platform | [:simple-linux: Linux] [:fontawesome-brands-windows: Windows][:simple-apple: macOS][:simple-macos:]|[:simple-gnometerminal All CLI] [:simple-linux: Linux] [:fontawesome-brands-windows: Windows][:simple-apple:][:simple-macos:] | [:simple-linux: Linux][:fontawesome-brands-windows: Windows] (Size limitations) [:simple-apple:][:simple-macos:] | [:simple-android: Android] | [:simple-android: Android] [:simple-apple:][:simple-ios:] |
+| Platform | :simple-linux: Linux :fontawesome-brands-windows: Windows :simple-apple: macOS :simple-macos:| :simple-gnometerminal All CLI :simple-linux: Linux :fontawesome-brands-windows: Windows :simple-apple: :simple-macos: | :simple-linux: Linux :fontawesome-brands-windows: Windows (Size limitations) :simple-apple: :simple-macos: | :simple-android: Android | :simple-android: Android :simple-apple: :simple-ios:] |
 
 ## Edge Gallery (Android)
 
 <div class="admonition recommendation" markdown>
 
-![Edge Gallery Logo](assets/img/ai-chat/edge_gallery_logo_white.png){align=right}
+![Edge Gallery Logo](assets/img/ai-chat/edge_gallery_white.png){align=right}
 
 **Edge Gallery** is an AI client developped by Google that features Google's latest open-weights models. It runs fully locally, but downloading the preloaded models require a Hugging Face account as you will need to [accept Google's Acceptable Use policy](https://github.com/google-ai-edge/gallery/wiki/5.-Model-Management#hugging-face-login--license-acknowledgement) to access the model files. You can import models you downloaded, but the app only accepts the [LiteRT](https://github.com/google-ai-edge/litert) format, which isn't widely used.
 

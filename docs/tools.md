@@ -349,11 +349,23 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 ### AI Chat
 
+#### Desktop clients
+
 <div class="grid cards" markdown>
 
 - ![Kobold logo](assets/img/ai-chat/kobold.png){ .twemoji loading=lazy } [Kobold.cpp](ai-chat.md#koboldcpp)
 - ![Llamafile logo](assets/img/ai-chat/llamafile.webp){ .twemoji loading=lazy } [Llamafile](ai-chat.md#llamafile)
 - ![Ollama logo](assets/img/ai-chat/ollama.png){ .twemoji loading=lazy } [Ollama (CLI)](ai-chat.md#ollama-cli)
+
+</div>
+
+#### Mobile clients
+
+<div class="grid cards" markdown>
+
+
+- ![Edge logo](assets/img/ai-chat/edge_gallery_white.png){ .tweemoji loading=lazy} [Edge Gallery AI](ai-chat.md#edge-gallery-android)
+- ![Pocketpal logo](assets/img/ai-chat/pocketpal_dark.png){ .tweemoji loading=lazy}[PocketPal AI](ai-chat.md#pocketpal-ai-mobile)
 
 </div>
 
