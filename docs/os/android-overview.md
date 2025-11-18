@@ -170,3 +170,27 @@ You will either be given the option to delete your advertising ID or to *Opt out
 [SafetyNet](https://developer.android.com/training/safetynet/attestation) and the [Play Integrity APIs](https://developer.android.com/google/play/integrity) are generally used for [banking apps](https://grapheneos.org/usage#banking-apps). Many banking apps will work fine in GrapheneOS with sandboxed Play services, however some non-financial apps have their own crude anti-tampering mechanisms which might fail. GrapheneOS passes the `basicIntegrity` check, but not the certification check `ctsProfileMatch`. Devices with Android 8 or later have hardware attestation support which cannot be bypassed without leaked keys or serious vulnerabilities.
 
 As for Google Wallet, we don't recommend this due to their [privacy policy](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), which states you must opt out if you don't want your credit rating and personal information shared with affiliate marketing services.
+
+### Google Messages
+
+Google is currently pushing for the adoption of [RCS with end to end encryption](https://support.google.com/messages/answer/10262381?hl=en) to compete with iMessage. On certain Android devices, especially Google Pixels with stock OS, [Google Messages](https://messages.google.com/) is set as the default SMS app to provide this feature.
+
+If you are on an OS with Play Services installed, we recommend that you use Google Messages as the SMS app to get opportunistic end to end encryption with your contacts. It works fairly well on GrapheneOS with Sandboxed Play Services, too.
+
+You can disable telemetry in Google Messages by tapping the profile in the top right → **Messages settings** → **Help Improve Messages** and toggling it off. There are also some other configurations in **Messages settings** → **RCS chats** that you might want to go over, such as **Show typing indicators** or **Send read receipts**.
+
+If you have trouble connecting to RCS, try disabling your VPN and the VPN killswitch first, then reconnect to RCS. Once you have connected to the server, you can re-enable your VPN and the killswitch, and it should work just fine across reboots.
+
+### Google Fi
+
+Google Fi provides [opportunistic end-to-end encryption](https://fi.google.com/about/end-to-end-encrypted-calls) for phone calls between Fi users on Android and [includes a VPN service](https://support.google.com/fi/answer/9040000). Fi also implements a unique privacy-bolstering [virtual carrier network](https://www.gstatic.com/fi/wormhole/whitepaper-a00cc4732620f382da5b7aac2bcb6905f970ba6b.pdf) (VCN) architecture on supported devices, but it is [temporarily disabled](https://support.google.com/fi/answer/9040000).
+
+This is not without its caveats:
+
+- Google Fi requires Play Services and the [Fi app](https://play.google.com/store/apps/details?id=com.google.android.apps.tycho&hl=en_US) to work properly. Without Play Services, all of the features mentioned above, along with visual voicemail, will not work. SMS messages will have random strings added at the end of each of them.
+- The Google Fi app needs to be installed in the owner profile for SIM/eSIM activation.
+- Google Fi Wi-Fi calling does not work behind a VPN with the killswitch enabled in the owner profile.
+
+If you live in the United States and use the stock operating system, we recommend using Google Fi as your carrier to take advantage of the end to end encrypted calls. People using up-to-date Google Pixels will benefit the most from the VCN as mentioned.
+
+If you use GrapheneOS and do not mind installing Sandboxed Play Services, Fi is still a better option than other providers thanks to Google's general good security practices and the fact that you can enroll in the Advanced Protection Program to have much better protection for your account. Some other providers do not even have multi-factor authentication support, and most will not let you enforce FIDO2 as the authentication method.
