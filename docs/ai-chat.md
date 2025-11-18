@@ -84,8 +84,8 @@ The preloaded models are performant and can analyse an image. However, you might
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-[:-simple-github: GitHub](https://github.com/google-ai-edge/gallery/releases)
-[:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.google.ai.edge.gallery)
+- [:simple-github: GitHub](https://github.com/google-ai-edge/gallery/releases)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.google.ai.edge.gallery)
 
 </details>
 </div>
@@ -107,9 +107,9 @@ Other models can easily be imported, either from a Hugging Face repo link, of fr
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-[:simple-github: GitHub](https://github.com/a-ghorbani/pocketpal-ai/releases)
-[:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.pocketpalai)
-[:simple-appstore: App Store](https://apps.apple.com/us/app/pocketpal-ai/id6502579498)
+- [:simple-github: GitHub](https://github.com/a-ghorbani/pocketpal-ai/releases)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.pocketpalai)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/pocketpal-ai/id6502579498)
 
 </details>
 
