@@ -4,6 +4,7 @@ icon: material/email-lock
 description: An email aliasing service allows you to easily generate a new email address for every website you register for.
 cover: email-aliasing.webp
 ---
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
@@ -101,14 +102,14 @@ If you cancel your subscription, you will still enjoy the features of your paid 
 **Firefox Relay** is a free service which provides email aliases, and optionally provides paid features like unlimited aliases, blocking promotional emails and custom subdomains.
 
 [:octicons-home-16: Homepage](https://relay.firefox.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/en-GB/privacy/subscription-services){ .card-link title="Privacy Policy" }
+[:octicons-eye-16:](https://mozilla.org/privacy/subscription-services){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://relay.firefox.com/faq){ .card-link title="FAQ" }
 [:octicons-code-16:](https://github.com/mozilla/fx-private-relay){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-GB/firefox/addon/private-relay)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/private-relay)
 - [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/firefox-relay/lknpoadjjkjcmjhbjpcljdednccbldeb)
 
 </details>
