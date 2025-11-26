@@ -84,7 +84,7 @@ The project executive committee consists of five volunteers charged with managem
 
     ---
 
-    :material-text-account: Founder, Director
+    :material-text-account: Founder, Program Director
 
     [:material-account: Profile](https://discuss.privacyguides.net/u/jonah)
 
@@ -128,7 +128,7 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
 
     ---
 
-    :material-text-account: Journalist
+    :material-text-account: Staff Writer
 
     [:material-account: Profile](https://discuss.privacyguides.net/u/em)
 
@@ -140,7 +140,7 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
 
     ---
 
-    :material-text-account: Content Producer
+    :material-text-account: Digital Content Producer
 
     [:material-account: Profile](https://discuss.privacyguides.net/u/Jordan)
 
@@ -159,6 +159,18 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
     [:material-github:](https://github.com/kevpham123 "GitHub")
     [:material-mastodon:](https://mastodon.social/@kevpham "@kevpham@mastodon.social"){rel=me}
     [:material-email:](mailto:kevin@privacyguides.org "Email")
+
+-   :video_camera:{ .lg .middle } **Nate Bartram**
+
+    ---
+
+    :material-text-account: Digital Content Producer
+
+    [:material-account: Profile](https://discuss.privacyguides.net/u/nateb)
+
+    [:material-github:](https://github.com/tnonate "GitHub")
+    [:material-mastodon:](https://mastodon.thenewoil.org/@nateb "@nateb@mastodon.thenewoil.org"){rel=me}
+    [:material-email:](mailto:nate@privacyguides.org "Email")
 
 </div>
 
@@ -184,6 +196,8 @@ However, Privacy Guides *does* have social media accounts on a wide variety of p
 - [:simple-youtube: YouTube](https://youtube.com/@privacyguides)
 - [:simple-tiktok: TikTok](https://www.tiktok.com/@privacyguides)
 - [:simple-facebook: Facebook](https://www.facebook.com/PrivacyGuides.org)
+- [:simple-instagram: Instagram](https://www.instagram.com/privacy.guides/)
+- [:simple-threads: Threads](https://www.threads.net/@privacy.guides)
 
 </div>
 
@@ -209,7 +223,13 @@ In 2022, we completed the transition of our main website framework from Jekyll t
 
 We additionally launched our new discussion forum at [discuss.privacyguides.net](https://discuss.privacyguides.net) as a community platform to share ideas and ask questions about our mission. This augments our existing community on Matrix, and replaced our previous GitHub Discussions platform, decreasing our reliance on proprietary discussion platforms.
 
-In 2023, we launched international translations of our website in [French](https://www.privacyguides.org/fr), [Hebrew](https://www.privacyguides.org/he), [Dutch](https://www.privacyguides.org/nl), and more languages, made possible by our excellent translation team on [Crowdin](https://crowdin.com/project/privacyguides). We plan to continue carrying forward our mission of outreach and education, and finding ways to more clearly highlight the dangers of a lack of privacy awareness in the modern digital age, and the prevalence and harms of security breaches across the technology industry.
+In 2023, we launched international translations of our website in [French](https://www.privacyguides.org/fr), [Hebrew](https://www.privacyguides.org/he), [Dutch](https://www.privacyguides.org/nl), and more languages, made possible by our excellent translation team on [Crowdin](https://crowdin.com/project/privacyguides).
+
+In 2024, we successfully fundraised to hire several full-time staff members, Em, Jordan, and Kevin; to help with content creation, community management, and video production. This has allowed us to expand our reach and provide more frequent updates to our audience.
+
+In 2025, we launched our [newsroom](https://www.privacyguides.org/news), providing timely articles on the latest developments in privacy and security. We also hired Nate as a Digital Content Producer to bring more consistency to our educational video content.
+
+We plan to continue carrying forward our mission of outreach and education, and finding ways to more clearly highlight the dangers of a lack of privacy awareness in the modern digital age, and the prevalence and harms of security breaches across the technology industry.
 
 ## :material-license: Site License
 

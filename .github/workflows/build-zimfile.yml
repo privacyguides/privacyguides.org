@@ -15,6 +15,7 @@ permissions:
 
 env:
   VIDEOS_SITE_BASE_URL: https://www.privacyguides.org/videos/
+  NEWS_SITE_BASE_URL: https://www.privacyguides.org/news/
   HOMEPAGE_CTA_ABOUT_LINK: about.html
   HOMEPAGE_CTA_DONATE_LINK: about/donate.html
   BUILD_OFFLINE: true
@@ -174,6 +175,7 @@ jobs:
     env:
       LANGUAGE_SWITCHER: false
       ARTICLES_SITE_BASE_URL: https://www.privacyguides.org/posts/tag/articles/
+      NEWS_SITE_BASE_URL: https://www.privacyguides.org/news/
 
     steps:
       - name: Add GitHub Token to Environment
