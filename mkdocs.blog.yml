@@ -226,6 +226,7 @@ nav:
       - editorial.md
       - tags.md
   - !ENV [NAV_VIDEOS, "Videos"]: !ENV [VIDEOS_SITE_BASE_URL, "/videos/"]
+  - !ENV [NAV_NEWS, "News"]: !ENV [NEWS_SITE_BASE_URL, "/news/"]
   - !ENV [NAV_FORUM, "Forum"]: "https://discuss.privacyguides.net/"
   - !ENV [NAV_WIKI, "Wiki"]:
       !ENV [
