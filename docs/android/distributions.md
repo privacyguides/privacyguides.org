@@ -1,6 +1,6 @@
 ---
 meta_title: "The Best Android Operating Systems - Privacy Guides"
-title: "Alternative Distributions"
+title: Alternative Distributions
 description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
 schema:
   -
@@ -47,15 +47,19 @@ GrapheneOS provides additional [security hardening](https://en.wikipedia.org/wik
 
 [:octicons-home-16: Homepage](https://grapheneos.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Documentation}
+[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title="Documentation" }
 [:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title="Contribute" }
 
 </div>
 
 GrapheneOS supports [sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), which runs Google Play Services fully sandboxed like any other regular app. This means you can take advantage of most Google Play Services, such as push notifications, while giving you full control over their permissions and access, and while containing them to a specific [work profile](../os/android-overview.md#work-profile) or [user profile](../os/android-overview.md#user-profiles) of your choice.
 
-[Google Pixel phones](../mobile-phones.md#google-pixel) are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#future-devices).
+[Google Pixel phones](../mobile-phones.md#google-pixel) are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#future-devices). The Pixel 8 and later support ARM's Memory Tagging Extension (MTE), a hardware security enhancement that drastically lowers the probability of exploits occurring through memory corruption bugs. GrapheneOS greatly expands the coverage of MTE on supported devices. Whereas the stock OS only allows you to opt in to a limited implementation of MTE via a developer option or Google's Advanced Protection Program, GrapheneOS features a more robust implementation of MTE by default in the system kernel, default system components, and their Vanadium web browser and its WebView.
+
+GrapheneOS also provides a global toggle for enabling MTE on all user-installed apps at :gear: **Settings** → **Security & privacy** → **Exploit protection** → **Memory tagging** → **Enable by default**. The OS also features per-app toggles to opt out of MTE for apps which may crash due to compatibility issues.
+
+### Connectivity Checks
 
 By default, Android makes many network connections to Google to perform DNS connectivity checks, to sync with current network time, to check your network connectivity, and for many other background tasks. GrapheneOS replaces these with connections to servers operated by GrapheneOS and subject to their privacy policy. This hides information like your IP address [from Google](../basics/common-threats.md#privacy-from-service-providers), but means it is trivial for an admin on your network or ISP to see you are making connections to `grapheneos.network`, `grapheneos.org`, etc. and deduce what operating system you are using.
 
