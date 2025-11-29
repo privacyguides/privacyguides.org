@@ -109,7 +109,7 @@ Built-in OS encryption solutions generally leverage hardware security features s
 
 </div>
 
-BitLocker is [officially supported](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on the Pro, Enterprise, and Education editions of Windows. It can be enabled on Home editions provided that they meet the following prerequisites.
+BitLocker is [officially supported](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on Windows Pro, Enterprise, and Education editions, while for devices running the Home edition, Device Encryption, a simplified version of BitLocker, is available if certain prerequisites are met. With Device Encryption on Windows Home, it is not possible to use TPM (Trusted Platform Module) and PIN protection. These features are reserved for BitLocker on the Pro, Enterprise, and Education editions, and instead, Device Encryption will typically rely on your Microsoft account credentials or local account password for unlocking the device.
 
 <details class="example" markdown>
 <summary>Enabling BitLocker on Windows Home</summary>
