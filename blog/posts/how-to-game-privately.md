@@ -181,3 +181,7 @@ Most games that support custom user content give you some option to disable it. 
 #### Enable OS Security Features
 
 Every operating system these days comes equipped with security features such as secure boot, permissions for certain things like folders, camera, microphones, etc, and more. Go through your settings and familiarize yourself with the [security](https://learn.microsoft.com/en-us/windows/security/) [settings](https://support.apple.com/guide/security/welcome/web) of your OS, and enable what you can to protect yourself.
+
+## Conclusion
+
+While games are increasingly trending toward more and more surveillance, there's still a lot you can do protect yourself. The most egregious examples typically come from the AAA games industry, and there are game stores dedicated to proiding DRM-free games. Operating system security is only getting better and better, and gamers truly have more options than ever if they want private and secure gaming, you just have to know where to look.
