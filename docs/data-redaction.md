@@ -18,6 +18,34 @@ You should **never** use blur to redact [text in images](https://bishopfox.com/b
 
 </div>
 
+## MetadataZero
+
+<div class="admonition recommendation" markdown>
+
+![MetadataZero logo](assets/img/data-redaction/metadatazero.png){ align=right }
+
+**MetadataZero** is a free and open-source, cross-platform desktop application for removing metadata from photos, videos, and PDF files.
+
+The application uses [ExifTool](#exiftool-cli) under the hood and provides a modern graphical interface with drag-and-drop support, batch processing, and a real-time preview of detected metadata prior to removal.
+
+MetadataZero allows limited granular control, enabling users to preserve certain non-identifying metadata such as orientation or color profiles while removing the rest.
+
+[:octicons-repo-16: Repository](https://github.com/metadatazero/metadatazero){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/metadatazero/metadatazero#readme){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/metadatazero/metadatazero){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:fontawesome-brands-windows: Windows](https://github.com/metadatazero/metadatazero#download)
+- [:simple-apple: macOS](https://github.com/metadatazero/metadatazero#download)
+- [:simple-linux: Linux](https://github.com/metadatazero/metadatazero#download)
+- [:simple-homebrew: Homebrew (macOS)](https://github.com/metadatazero/homebrew-tap)
+
+</details>
+
+</div>
+
 ## MAT2
 
 <div class="admonition recommendation" markdown>
