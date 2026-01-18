@@ -316,7 +316,6 @@ cryptofs
 siv-mode
 cryptolib-swift
 cryptomator-objc-cryptor
-Picocrypt
 VeraCrypt
 TrueCrypt
 cryptoprocessor
@@ -569,3 +568,5 @@ allowlisted
 MyMonero
 Monero-LWS
 OkCupid
+Anom
+misgendering

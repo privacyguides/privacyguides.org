@@ -5,7 +5,7 @@ categories:
     - News
 authors:
     - em
-description: Privacy is intrinsically intertwined with politics. Each change in governance can have serious effects on privacy rights and privacy tools, for better or for worse. Let's examine with concrete examples how politics affect legislations that can have an immense impact on the privacy tools and features we use.
+description: Privacy is intrinsically intertwined with politics. Each change in governance can have substantial effects on privacy rights and privacy tools. Using concrete examples, we examine how politics can impact the tools we use.
 schema_type: NewsArticle
 preview:
   cover: blog/assets/images/the-future-of-privacy/cover.webp

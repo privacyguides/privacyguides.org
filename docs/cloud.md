@@ -1,6 +1,6 @@
 ---
 meta_title: "The Best Private and Secure Cloud Storage Providers - Privacy Guides"
-title: "Cloud Storage"
+title: Cloud Storage
 icon: material/file-cloud
 description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
 cover: cloud.webp
@@ -17,7 +17,7 @@ If these alternatives do not fit your needs, we suggest you look into using encr
 <details class="admonition info" markdown>
 <summary>Looking for Nextcloud?</summary>
 
-Nextcloud is [still a recommended tool](document-collaboration.md#nextcloud) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
+For more technical readers, Nextcloud is [still a recommended tool](self-hosting/file-management.md#nextcloud) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
 
 </details>
 
@@ -97,7 +97,9 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
 ![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
 
-**Peergos** is a decentralized protocol and open-source platform for storage, social media, and applications. It provides a secure and private space where users can store, share, and view their photos, videos, documents, etc. Peergos secures your files with quantum-resistant end-to-end encryption and ensures all data about your files remains private.
+**Peergos** is a decentralized protocol and open-source platform for storage, social media, and applications. It provides a secure and private space where users can store, share, view, and edit their photos, videos, documents, etc.
+
+Peergos secures your files with quantum-resistant E2EE and ensures all data about your files remains private. It is also [self-hostable](https://book.peergos.org/features/self).
 
 [:octicons-home-16: Homepage](https://peergos.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="Privacy Policy" }
@@ -110,9 +112,9 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=peergos.android)
 - [:simple-github: GitHub](https://github.com/Peergos/web-ui/releases)
-- [:fontawesome-brands-windows: Windows](https://github.com/Peergos/web-ui/releases)
-- [:simple-apple: macOS](https://github.com/Peergos/web-ui/releases)
-- [:simple-linux: Linux](https://github.com/Peergos/web-ui/releases)
+- [:fontawesome-brands-windows: Windows](https://peergos.org/download#windows)
+- [:simple-apple: macOS](https://peergos.org/download#macos)
+- [:simple-linux: Linux](https://peergos.org/download#linux)
 - [:octicons-browser-16: Web](https://peergos.net)
 
 </details>
@@ -121,9 +123,7 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
 Peergos is built on top of the [InterPlanetary File System (IPFS)](https://ipfs.tech), a peer-to-peer architecture that protects against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
-Peergos is primarily a web app, but you can self-host the server either as a local cache for your remote Peergos account, or as a standalone storage server which negates the need to register for a remote account and subscription. The Peergos server is a `.jar` file, which means the Java 17+ Runtime Environment ([OpenJDK download](https://azul.com/downloads)) should be installed on your machine to get it working.
-
-Running a local version of Peergos alongside a registered account on their paid, hosted service allows you to access your Peergos storage without any reliance on DNS or TLS certificate authorities, and keep a copy of your data backed up to their cloud. The user experience should be the same whether you run their desktop server or just use their hosted web interface.
+The client, server, and command line interface for Peergos all run from the same binary. Additionally, Peergos includes a [sync engine](https://book.peergos.org/features/sync) (accessible via the native apps) for bi-directionally synchronizing a local folder with a Peergos folder, and a [webdav bridge](https://book.peergos.org/features/webdav) to allow other applications to access your Peergos storage. You can refer to Peergos's documentation for a full overview of their numerous features.
 
 Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November 2024 by Radically Open Security and all issues were fixed. They were previously [audited](https://cure53.de/pentest-report_peergos.pdf) by Cure53 in June 2019, and all found issues were subsequently fixed.
 

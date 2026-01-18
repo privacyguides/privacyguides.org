@@ -5,7 +5,7 @@ categories:
     - Opinion
 authors:
     - em
-description: If you, like myself, have been inhabiting the internet for a few decades, you're probably familiar with the old adage IRL (In Real Life). The acronym was used a lot when the distinction between online life and offline life was much greater than it is now. In today's world, can we really keep referring to our digital life as being somehow disconnected from our real life?
+description: If you've been on the internet for a while, you're probably familiar with the old adage IRL (In Real Life). The acronym was used a lot when online and offline life was much more separated than it is now. Today, can we truly keep talking about our digital life as being separated from our real life?
 schema_type: OpinionNewsArticle
 preview:
   cover: blog/assets/images/your-online-life-is-irl/irl-cover.webp

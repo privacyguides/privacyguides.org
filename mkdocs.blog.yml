@@ -27,6 +27,12 @@ site_description: "Privacy Guides is the most popular & trustworthy non-profit p
 edit_uri_template: blob/main/blog/{path}?plain=1
 
 extra:
+  scope: /
+  ghost:
+    base_url: https://www.privacyguides.org
+    admin_url: https://www.privacyguides.org/ghost
+    tb_site_uuid: 5f3bdb03-a1af-4844-85ca-cbc82c89eb9a
+    content_api_key: da9d77deb3e85ee73925167f3a
   privacy_guides:
     footer:
       intro:
@@ -47,7 +53,7 @@ extra:
         - fontawesome/brands/creative-commons
         - fontawesome/brands/creative-commons-by
         - fontawesome/brands/creative-commons-sa
-  homepage: !ENV [MAIN_SITE_BASE_URL, "https://www.privacyguides.org/en/"]
+  homepage: /
   generator: false
   context: !ENV [BUILD_CONTEXT, "production"]
   offline: !ENV [BUILD_OFFLINE, false]
@@ -163,8 +169,6 @@ plugins:
     plugins:
       macros: {}
       meta: {}
-      optimize:
-        enabled: !ENV [OPTIMIZE, PRODUCTION, NETLIFY, false]
       typeset: {}
       social:
         cards: !ENV [CARDS, true]
@@ -202,6 +206,9 @@ markdown_extensions:
   pymdownx.emoji:
     emoji_index: !!python/name:material.extensions.emoji.twemoji
     emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    options:
+      custom_icons:
+        - theme/icons
   tables: {}
   footnotes: {}
   toc:
@@ -214,10 +221,12 @@ nav:
   - !ENV [NAV_RECOMMENDATIONS, "Recommendations"]:
       !ENV [MAIN_SITE_RECOMMENDATIONS_URL, "/en/tools/"]
   - !ENV [NAV_BLOG, "Articles"]:
+      - Latest Posts: !ENV [ARTICLES_SITE_BASE_URL, "index.md"]
       - index.md
       - editorial.md
       - tags.md
   - !ENV [NAV_VIDEOS, "Videos"]: !ENV [VIDEOS_SITE_BASE_URL, "/videos/"]
+  - !ENV [NAV_NEWS, "News"]: !ENV [NEWS_SITE_BASE_URL, "/news/"]
   - !ENV [NAV_FORUM, "Forum"]: "https://discuss.privacyguides.net/"
   - !ENV [NAV_WIKI, "Wiki"]:
       !ENV [

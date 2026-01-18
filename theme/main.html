@@ -34,7 +34,9 @@
     {% elif config.site_author %}
     <meta name="author" content="{{ config.site_author }}">
     {% endif %}
-    {% if page.canonical_url %}
+    {% if page.meta and page.meta.canonical_url %}
+    <link rel="canonical" href="{{ page.meta.canonical_url }}">
+    {% elif page.canonical_url %}
     <link rel="canonical" href="{{ page.canonical_url }}">
     {% endif %}
     {% if page.previous_page %}
@@ -44,7 +46,11 @@
     <link rel="next" href="{{ page.next_page.url | url }}">
     {% endif %}
     {% if config.extra.alternate is iterable %}
+      {% if page.is_homepage %}
+        <link rel="alternate" href="https://www.privacyguides.org/" hreflang="x-default">
+      {% else %}
         <link rel="alternate" href="{{ "https://www.privacyguides.org/" ~ "en" ~ "/" ~ page.url }}" hreflang="x-default">
+      {% endif %}
     {% for alt in config.extra.alternate %}
         <link rel="alternate" href="{{ "https://www.privacyguides.org/" ~ alt.lang ~ "/" ~ page.url }}" hreflang="{{ alt.lang | d(lang.t('language')) }}">
     {% endfor %}
@@ -83,9 +89,44 @@
     <meta name="robots" content="max-snippet:-1, max-image-preview:large">
   {% endif %}
 
-  {% if config.extra.context == "production" %}
-  <meta http-equiv="onion-location" content="{{ page.canonical_url | replace("https://www.privacyguides.org", "http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion") }}" />
+  {% if not config.extra.offline %}
+  <script defer src="https://cdn.jsdelivr.net/ghost/portal@2.53.2/umd/portal.min.js"
+          data-i18n="true"
+          data-ghost="{{ config.extra.ghost.base_url }}/"
+          data-key="{{ config.extra.ghost.content_api_key }}"
+          data-api="{{ config.extra.ghost.admin_url }}/api/content/"
+          data-locale="{{ config.theme.language }}"
+          data-members-signin-otc="false"
+          crossorigin="anonymous">
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/ghost/announcement-bar@~1.1/umd/announcement-bar.min.js"
+          data-announcement-bar="{{ config.extra.ghost.base_url }}/"
+          data-api-url="{{ config.extra.ghost.base_url }}/members/api/announcement/"
+          crossorigin="anonymous">
+  </script>
   {% endif %}
+
+  {% if config.extra.context == "production" %}
+
+    <link href="{{ config.extra.ghost.base_url }}/webmentions/receive/" rel="webmention">
+    <meta http-equiv="onion-location" content="{{ page.canonical_url | replace("https://www.privacyguides.org", "http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion") }}" />
+
+    {% if config.theme.language == "en" %}
+      <script defer src="{{ config.extra.ghost.base_url }}/public/ghost-stats.min.js?v=8037af1487"
+              data-stringify-payload="false"
+              data-datasource="analytics_events"
+              data-storage="localStorage"
+              data-host="{{ config.extra.ghost.base_url }}/.ghost/analytics/api/v1/page_hit"
+              tb_site_uuid="{{ config.extra.ghost.tb_site_uuid }}"
+              tb_post_uuid="undefined"
+              tb_post_type="null"
+              tb_member_uuid="undefined"
+              tb_member_status="undefined">
+      </script>
+    {% endif %}
+
+  {% endif %}
+
   {% if page and page.meta and page.meta.schema %}
   <script type="application/ld+json">
   {{ page.meta.schema|tojson }}

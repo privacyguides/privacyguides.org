@@ -19,7 +19,7 @@ schema:
 
 **Privacy Guides** is a socially motivated website that provides information for protecting your data security and privacy. We are a non-profit project with a mission to inform the public about the value of digital privacy, and about global government initiatives which aim to monitor your online activity. Our website is free of advertisements and not affiliated with any of the listed providers.
 
-[:material-heart:{.pg-red} Make a Donation](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary }
+[:material-heart:{.pg-red} Become a Member](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary data-portal="signup" }
 [:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Homepage }
 [:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
 
@@ -37,7 +37,7 @@ The best way to get individual help is from our community on Discourse. If you n
 
 ![Signal contact QR code](assets/img/layout/signal-contact-qr.png){ align=right }
 
-Have a tip for us, or need to share some sensitive information? The best way to get in touch with us securely is via `@privacyguides.01` on Signal. This group account is monitored by [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/ematprivacyguides), and [Jordan](https://discuss.privacyguides.net/u/jordan).
+Have a tip for us, or need to share some sensitive information? The best way to get in touch with us securely is via `@privacyguides.01` on Signal. This group account is monitored by [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/em), and [Jordan](https://discuss.privacyguides.net/u/jordan).
 
 [:simple-signal: Chat on Signal](https://signal.me/#eu/zg9xcrIv5w-EtXt2FmTJgfWv01LmyTed8rpr7RDv35Mizq8ISZ9NJLmYtzsxI0Z4){ .md-button }
 
@@ -84,7 +84,7 @@ The project executive committee consists of five volunteers charged with managem
 
     ---
 
-    :material-text-account: Founder, Director
+    :material-text-account: Founder, Program Director
 
     [:material-account: Profile](https://discuss.privacyguides.net/u/jonah)
 
@@ -128,9 +128,9 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
 
     ---
 
-    :material-text-account: Journalist
+    :material-text-account: Staff Writer
 
-    [:material-account: Profile](https://discuss.privacyguides.net/u/ematprivacyguides)
+    [:material-account: Profile](https://discuss.privacyguides.net/u/em)
 
     [:material-github:](https://github.com/EmAtPrivacyGuides "GitHub")
     [:material-mastodon:](https://infosec.exchange/@Em0nM4stodon "@Em0nM4stodon@infosec.exchange"){rel=me}
@@ -140,7 +140,7 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
 
     ---
 
-    :material-text-account: Content Producer
+    :material-text-account: Digital Content Producer
 
     [:material-account: Profile](https://discuss.privacyguides.net/u/Jordan)
 
@@ -159,6 +159,18 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
     [:material-github:](https://github.com/kevpham123 "GitHub")
     [:material-mastodon:](https://mastodon.social/@kevpham "@kevpham@mastodon.social"){rel=me}
     [:material-email:](mailto:kevin@privacyguides.org "Email")
+
+-   :video_camera:{ .lg .middle } **Nate Bartram**
+
+    ---
+
+    :material-text-account: Digital Content Producer
+
+    [:material-account: Profile](https://discuss.privacyguides.net/u/nateb)
+
+    [:material-github:](https://github.com/tnonate "GitHub")
+    [:material-mastodon:](https://mastodon.thenewoil.org/@nateb "@nateb@mastodon.thenewoil.org"){rel=me}
+    [:material-email:](mailto:nate@privacyguides.org "Email")
 
 </div>
 
@@ -182,6 +194,10 @@ However, Privacy Guides *does* have social media accounts on a wide variety of p
 - [:simple-reddit: Reddit](https://reddit.com/r/PrivacyGuides)
 - [:simple-x: X (Twitter)](https://x.com/privacy_guides)
 - [:simple-youtube: YouTube](https://youtube.com/@privacyguides)
+- [:simple-tiktok: TikTok](https://www.tiktok.com/@privacyguides)
+- [:simple-facebook: Facebook](https://www.facebook.com/PrivacyGuides.org)
+- [:simple-instagram: Instagram](https://www.instagram.com/privacy.guides/)
+- [:simple-threads: Threads](https://www.threads.net/@privacy.guides)
 
 </div>
 
@@ -207,7 +223,13 @@ In 2022, we completed the transition of our main website framework from Jekyll t
 
 We additionally launched our new discussion forum at [discuss.privacyguides.net](https://discuss.privacyguides.net) as a community platform to share ideas and ask questions about our mission. This augments our existing community on Matrix, and replaced our previous GitHub Discussions platform, decreasing our reliance on proprietary discussion platforms.
 
-In 2023, we launched international translations of our website in [French](https://www.privacyguides.org/fr), [Hebrew](https://www.privacyguides.org/he), [Dutch](https://www.privacyguides.org/nl), and more languages, made possible by our excellent translation team on [Crowdin](https://crowdin.com/project/privacyguides). We plan to continue carrying forward our mission of outreach and education, and finding ways to more clearly highlight the dangers of a lack of privacy awareness in the modern digital age, and the prevalence and harms of security breaches across the technology industry.
+In 2023, we launched international translations of our website in [French](https://www.privacyguides.org/fr), [Hebrew](https://www.privacyguides.org/he), [Dutch](https://www.privacyguides.org/nl), and more languages, made possible by our excellent translation team on [Crowdin](https://crowdin.com/project/privacyguides).
+
+In 2024, we successfully fundraised to hire several full-time staff members, Em, Jordan, and Kevin; to help with content creation, community management, and video production. This has allowed us to expand our reach and provide more frequent updates to our audience.
+
+In 2025, we launched our [newsroom](https://www.privacyguides.org/news), providing timely articles on the latest developments in privacy and security. We also hired Nate as a Digital Content Producer to bring more consistency to our educational video content.
+
+We plan to continue carrying forward our mission of outreach and education, and finding ways to more clearly highlight the dangers of a lack of privacy awareness in the modern digital age, and the prevalence and harms of security breaches across the technology industry.
 
 ## :material-license: Site License
 
