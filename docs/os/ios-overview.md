@@ -3,6 +3,9 @@ title: iOS Overview
 icon: simple/apple
 description: iOS is a mobile operating system developed by Apple for the iPhone.
 ---
+![iOS logo](../assets/img/ios/ios-dark.svg#only-dark){ align=right }
+![iOS logo](../assets/img/ios/ios.svg#only-light){ align=right }
+
 **iOS** and **iPadOS** are proprietary mobile operating systems developed by Apple for their iPhone and iPad products, respectively. If you have an Apple mobile device, you can increase your privacy by disabling some built-in telemetry features, and hardening some privacy and security settings which are built in to the system.
 
 ## Privacy Notes
