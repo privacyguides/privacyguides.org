@@ -180,9 +180,11 @@ This protects you from persistent cookies, but does not protect you against cook
 
 ##### Telemetry
 
-- [ ] Uncheck **Allow Firefox to send technical and interaction data to Mozilla**
-- [ ] Uncheck **Allow Firefox to install and run studies**
-- [ ] Uncheck **Allow Firefox to send backlogged crash reports on your behalf**
+- [ ] Uncheck **Send technical and interaction data to Mozilla**
+- [ ] Uncheck **Allow personalized extension recommendations**
+- [ ] Uncheck **Install and run studies**
+- [ ] Uncheck **Send daily usage ping to Mozilla**
+- [ ] Uncheck **Automatically send crash reports**
 
 According to Mozilla's privacy policy for Firefox,
 
