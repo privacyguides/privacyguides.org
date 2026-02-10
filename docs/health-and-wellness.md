@@ -157,6 +157,27 @@ These apps help you collect and manage personal health data and share it with he
 
 CommonHealth is only available in the United States. Although the app itself is closed source, the [developer SDK is open source](https://github.com/the-commons-project).
 
+### SympLog
+
+<div class="admonition recommendation" markdown>
+
+![SympLog logo](assets/img/health-and-wellness/symplog.svg){ align=right }
+
+**SympLog** is a privacy-first health and lifestyle tracking app for Android and iOS. It supports logging symptoms (including severity and notes), mood, sleep, nutrition, activities, thoughts/notes, life events, and medications. Data is stored locally in an encrypted database; no account is required and no cloud sync is used. Unlock options include biometric unlock, PIN, or device-lock mode. The app includes timeline views and correlation/insight features to help identify patterns over time. Data can be exported as a password-protected encrypted backup and as CSV files in a password-protected ZIP.
+
+[:octicons-home-16: Homepage](https://www.symplog.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.symplog.com#privacy){ .card-link title="Privacy Policy" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.symplog.app)
+- [:simple-appstore: App Store](https://apps.apple.com/app/symplog-health-journal/id6756180787)
+
+</details>
+
+</div>
+
 ## Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
