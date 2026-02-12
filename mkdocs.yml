@@ -462,6 +462,7 @@ nav:
   - !ENV [NAV_VIDEOS, "Videos"]: !ENV [VIDEOS_SITE_BASE_URL, "/videos/"]
   - !ENV [NAV_ACTIVISM, "Activism"]:
       - "activism.md"
+      - "activism/toolbox/privacy-activist-toolbox.md"
   - !ENV [NAV_FORUM, "Forum"]:
       !ENV [NAV_FORUM_LINK, "https://discuss.privacyguides.net/"]
   - !ENV [NAV_WIKI, "Wiki"]:

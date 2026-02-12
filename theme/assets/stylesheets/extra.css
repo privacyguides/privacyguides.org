@@ -610,3 +610,235 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
 #ghost-portal-root, #ghost-comments-root {
   color-scheme: light;
 }
+
+
+/*********** Activism Section ***********/
+
+/* Toolbox Color Variables */
+:root {
+  --color-toolbox-legal: #15678a;
+  --color-toolbox-tools: #457759;
+  --color-toolbox-perspective: #5c7e40;
+  --color-toolbox-community: #717924;
+  --color-toolbox-alliances: #847306;
+  --color-toolbox-accessibility: #926d07;
+  --color-toolbox-integrity: #ad5c14;
+  --color-toolbox-persistence: #ba4d13;
+  --color-toolbox-action: #a83410;
+}
+
+/* Category Button Style*/
+.category-button {
+    display:flex;
+    text-align: center;
+    font-weight: bold;
+    height: 150px;
+    width: 150px;
+    background-color: none;
+    border: 2px solid var(--pg-light-border);
+    border-radius: 12px;
+}
+
+.category-button:hover {
+    position: relative;
+    transform: scale(1.01);
+    box-shadow: 5px 10px 10px 5px rgba(0,0,0,0.3);
+}
+
+.category-button a, .category-button a:hover {
+    color: #ffffff;
+}
+
+.category-button-icon {
+  display: block;
+  padding: 0;
+  padding-top: 0.5em;
+  margin: auto;
+  width: 50%;
+  filter: invert(1);
+}
+
+/* Toolbox Button Style*/
+.toolbox-button-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, min(100%/0, max(150px, 100%/4))));
+    grid-gap: 0.7rem;
+}
+
+.toolbox-button {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1;
+    height: 7rem;
+    width: 7rem;
+    color: white;
+    background-color: grey;
+    padding: 5px;
+    border: 2px solid var(--pg-light-border);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.toolbox-button:hover {
+    position: relative;
+    transform: scale(1.08);
+    box-shadow: 5px 10px 10px 5px rgba(0,0,0,0.3);
+}
+
+.toolbox-button-icon {
+    display: inline-flex;
+    padding: 8px 30px 5px 30px;
+    overflow: visible;
+    filter: invert(1);
+}
+
+/* Toolbox Button Colors*/
+.toolbox-bg-legal {
+    background-color: var(--color-toolbox-legal);
+}
+
+.toolbox-bg-tools {
+    background-color: var(--color-toolbox-tools);
+}
+
+.toolbox-bg-perspective {
+    background-color: var(--color-toolbox-perspective);
+}
+
+.toolbox-bg-community {
+    background-color: var(--color-toolbox-community);
+}
+
+.toolbox-bg-alliances {
+    background-color: var(--color-toolbox-alliances);
+}
+
+.toolbox-bg-accessibility {
+    background-color: var(--color-toolbox-accessibility);
+}
+
+.toolbox-bg-integrity {
+    background-color: var(--color-toolbox-integrity);
+}
+
+.toolbox-bg-persistence {
+    background-color: var(--color-toolbox-persistence);
+}
+
+.toolbox-bg-action {
+    background-color: var(--color-toolbox-action);
+}
+
+/* Toolbox Tip Card Style */
+.toolbox-tip-card {
+    padding-top: 0;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-bottom: 2rem;
+    color: var(--md-typeset-color);
+    background-color: var(--md-primary-fg-color);
+    border: 5px solid var(--pg-light-border);
+    border-radius: 15px;
+}
+
+.toolbox-tip-icon {
+    float: left;
+    height: 120px;
+    width: 120px;
+    margin-right: 20px;
+}
+
+.toolbox-tip-card:hover {
+    position: relative;
+    transform: scale(1.01);
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.5);
+}
+
+.toolbox-tip-card a, .toolbox-tip-card a:hover {
+    color: var(--md-typeset-color);
+}
+
+/* Toolbox Tip Card Colors */
+.toolbox-border-legal {
+    border-color: var(--color-toolbox-legal);
+}
+
+.toolbox-border-tools {
+    border-color: var(--color-toolbox-tools);
+}
+
+.toolbox-border-perspective {
+    border-color: var(--color-toolbox-perspective);
+}
+
+.toolbox-border-community {
+    border-color: var(--color-toolbox-community);
+}
+
+.toolbox-border-alliances {
+    border-color: var(--color-toolbox-alliances);
+}
+
+.toolbox-border-accessibility {
+    border-color: var(--color-toolbox-accessibility);
+}
+
+.toolbox-border-integrity {
+    border-color: var(--color-toolbox-integrity);
+}
+
+.toolbox-border-persistence {
+    border-color: var(--color-toolbox-persistence);
+}
+
+.toolbox-border-action {
+    border-color: var(--color-toolbox-action);
+}
+
+/* Toolbox Button Top Style */
+.toolbox-button-top {
+    font-size: 0.7rem;
+    float: right;
+}
+
+.toolbox-button-top a, .toolbox-button-top a:visited {
+    color: var(--md-default-fg-color--light);
+}
+
+/* Toolbox List Style */
+.toolbox-bullet-list {
+    margin-left: 10px;
+}
+
+/* Toolbox List Style */
+.toolbox-bullet-list-sub {
+    margin-left: 24px;
+    margin-top: -10px;
+}
+
+/* Toolbox Tip Button Next */
+.toolbox-tip-button-next {
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/* Toolbox Tip Quote Box */
+.toolbox-quote {
+    margin-top: 15px !important;
+    font-family: bagnard !important;
+    font-size: 1em !important;
+    font-weight: 400 !important;
+    background: #FFFAF0 !important;
+}
+
+.toolbox-quote-source {
+    font-family: var(--md-text-font-family) !important;
+    text-align: right;
+    font-size: 0.7em !important;
+    font-weight: 400 !important;
+}
