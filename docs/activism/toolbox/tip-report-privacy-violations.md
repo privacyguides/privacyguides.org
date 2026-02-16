@@ -1,5 +1,4 @@
 ---
-url: https://www.privacyguides.org/en/activism/toolbox/
 title: Report Privacy Violations
 description: Submitting an official complaint for violation of your privacy rights is often simple, and can have a significant positive impact for your community.
 preview:

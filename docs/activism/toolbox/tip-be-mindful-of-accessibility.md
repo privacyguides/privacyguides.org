@@ -1,5 +1,4 @@
 ---
-url: https://www.privacyguides.org/en/activism/toolbox/
 title: Be Mindful of Accessibility
 description: Accessibility should always be a priority in our work. To make our privacy communities welcoming to all, we must integrate it in our practice from the start.
 preview:

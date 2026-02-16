@@ -1,5 +1,4 @@
 ---
-url: https://www.privacyguides.org/en/activism/toolbox/
 title: Keep Your Posts and Community Inclusive
 description: Inclusivity is essential to grow our privacy movement. If we want privacy rights to succeed, we must build communities where everyone feels safe and welcomed.
 preview:

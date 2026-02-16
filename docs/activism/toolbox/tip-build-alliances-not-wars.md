@@ -1,5 +1,4 @@
 ---
-url: https://www.privacyguides.org/en/activism/toolbox/
 title: Build Alliances, Not Wars
 description: People in the privacy community can have different views that can create conflicts at times. For our community to thrive, we must build alliances, not wars.
 preview:

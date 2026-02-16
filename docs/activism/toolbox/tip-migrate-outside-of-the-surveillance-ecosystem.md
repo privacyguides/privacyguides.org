@@ -1,5 +1,4 @@
 ---
-url: https://www.privacyguides.org/en/activism/toolbox/
 title: Migrate Outside of The Surveillance Ecosystem
 description: As privacy activists, it's important to lead by example and support the tools and organizations with good privacy practices, by moving away from Big Tech.
 preview:

@@ -1,6 +1,5 @@
 ---
 title: "Privacy Activist Toolbox"
-url: https://www.privacyguides.org/en/activism/toolbox/
 description: The Privacy Activist Toolbox is a unique resource with tips for anyone interested in becoming a better privacy rights activist, or anyone who wants to start.
 hide:
   - feedback

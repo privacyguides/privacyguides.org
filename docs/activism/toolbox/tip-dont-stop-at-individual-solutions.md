@@ -1,5 +1,4 @@
 ---
-url: https://www.privacyguides.org/en/activism/toolbox/
 title: Don't Stop at Individual Solutions, Consider The Collective Impact
 description: When we think about privacy, we often focus on technical individual solutions. But it's also crucial to consider the collective impact of privacy issues.
 preview:

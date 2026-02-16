@@ -1,5 +1,4 @@
 ---
-url: https://www.privacyguides.org/en/activism/toolbox/
 title: Lift Your Allies Up
 description: The battle for privacy rights is difficult, and its defenders are scattered. This is why it's essential to support and uplift each other, every time we can.
 preview:

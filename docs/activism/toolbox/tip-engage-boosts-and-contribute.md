@@ -1,5 +1,4 @@
 ---
-url: https://www.privacyguides.org/en/activism/toolbox/
 title: Engage, Boost, and Contribute
 description: Once you have the knowledge, motivation, and energy to fight for privacy rights, it's time to act! Learn more on what you can do to be a privacy activist.
 preview:

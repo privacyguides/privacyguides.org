@@ -1,5 +1,4 @@
 ---
-url: https://www.privacyguides.org/en/activism/toolbox/
 title: Protect Your Allies
 description: Through your privacy work, it's crucial to protect the data of your allies in all that you do, whether it's individual action or leading an organization.
 preview:

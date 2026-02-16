@@ -1,5 +1,4 @@
 ---
-url: https://www.privacyguides.org/en/activism/toolbox/
 title: Give Credit Where Credit Is Due
 description: To succeed with our movement to defend privacy rights, we must support each other. A good way to do this is to give credit where credit is due.
 preview:

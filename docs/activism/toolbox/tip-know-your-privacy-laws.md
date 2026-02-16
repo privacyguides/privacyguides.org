@@ -1,5 +1,4 @@
 ---
-url: https://www.privacyguides.org/en/activism/toolbox/
 title: Know Your Privacy Laws
 description: Being well-informed about the data protection regulations in your own jurisdiction can be a significant asset in your battles for better privacy rights.
 preview:

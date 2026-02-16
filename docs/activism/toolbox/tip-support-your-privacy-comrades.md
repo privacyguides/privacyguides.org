@@ -1,5 +1,4 @@
 ---
-url: https://www.privacyguides.org/en/activism/toolbox/
 title: Support Your Privacy Comrades
 description: Fighting for privacy rights is a collective endeavor. This battle can be difficult and isolating at time. This is why it's critical to care for each other.
 preview:

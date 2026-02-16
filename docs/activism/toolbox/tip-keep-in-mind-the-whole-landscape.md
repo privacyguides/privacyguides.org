@@ -1,5 +1,4 @@
 ---
-url: https://www.privacyguides.org/en/activism/toolbox/
 title: Keep in Mind The Whole Landscape
 description: Privacy isn't just about the tools, or just about the laws, or just about the practices either. It's about all of it. Learn how to consider the whole landscape.
 preview:

@@ -1,5 +1,4 @@
 ---
-url: https://www.privacyguides.org/en/activism/toolbox/
 title: Welcome Beginners
 description: For our privacy rights movement to grow, we must bring more people in. To accomplish this, it's fundamental to make our communities welcoming to newcomers.
 preview:

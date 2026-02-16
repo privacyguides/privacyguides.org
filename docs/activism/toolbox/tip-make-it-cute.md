@@ -1,5 +1,4 @@
 ---
-url: https://www.privacyguides.org/en/activism/toolbox/
 title: Make It Cute
 description: If you are developing a privacy-focused application or website, it's important that you do not neglect the design aspect of it. Make it cute!
 preview:

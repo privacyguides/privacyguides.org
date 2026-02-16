@@ -1,5 +1,4 @@
 ---
-url: https://www.privacyguides.org/en/activism/toolbox/
 title: Improve Your Social Media and Build Resilient Communities
 description: Commercial social media platforms represent one of the biggest source of data exploitation. Learn how you can build better and more resilient social networks.
 preview:

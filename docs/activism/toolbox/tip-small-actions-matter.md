@@ -1,5 +1,4 @@
 ---
-url: https://www.privacyguides.org/en/activism/toolbox/
 title: Small Actions Matter
 description: There is so much to do to improve privacy rights. So much, that it's sometime easy to feel discouraged. But everything helps, and even small action matters.
 preview:
