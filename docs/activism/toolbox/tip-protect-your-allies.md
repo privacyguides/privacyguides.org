@@ -96,4 +96,4 @@ Regardless of the data we have to collect, we should always make sure to:
 
 - [Data is a toxic asset (Bruce Schneier blog)](https://www.schneier.com/blog/archives/2016/03/data_is_a_toxic.html)
 
-- [The importance of protecting the data of others (Privacy Guides article)](https://www.privacyguides.org/articles/2025/03/10/the-privacy-of-others/)
+- [The importance of protecting the data of others (Privacy Guides)](https://www.privacyguides.org/articles/2025/03/10/the-privacy-of-others/)

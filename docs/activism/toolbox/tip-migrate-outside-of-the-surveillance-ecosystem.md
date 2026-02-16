@@ -106,8 +106,8 @@ Instead, migrate your advocacy work to better social networks that aren't abusin
 
 - [Alternatives to Big Tech that have been vetted by our community (Privacy Guides)](../../tools.md)
 
-- [Privacy-respecting European tech alternatives (Privacy Guides article)](https://www.privacyguides.org/articles/2025/03/19/private-european-alternatives/)
+- [Privacy-respecting European tech alternatives (Privacy Guides)](https://www.privacyguides.org/articles/2025/03/19/private-european-alternatives/)
 
 - [Helpful articles and tips to migrate out of Big Tech (The Opt Out Project)](https://www.optoutproject.net/)
 
-- [More advices on how to improve your privacy if you are just getting started (Privacy Guides article)](https://www.privacyguides.org/articles/2025/07/24/privacy-is-like-broccoli/#tools-and-services-you-can-start-using)
+- [More advices on how to improve your privacy if you are just getting started (Privacy Guides)](https://www.privacyguides.org/articles/2025/07/24/privacy-is-like-broccoli/#tools-and-services-you-can-start-using)

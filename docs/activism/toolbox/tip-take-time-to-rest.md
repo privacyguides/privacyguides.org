@@ -86,7 +86,7 @@ Additionally, the fact that we have to incessantly push against a tidal wave of 
 
 - [Find a community of privacy comrades (Privacy Guides forum)](https://discuss.privacyguides.net/)
 
-- [Privacy is like broccoli, take it one step at the time (Privacy Guides article)](https://www.privacyguides.org/articles/2025/07/24/privacy-is-like-broccoli/)
+- [Privacy is like broccoli, take it one step at the time (Privacy Guides)](https://www.privacyguides.org/articles/2025/07/24/privacy-is-like-broccoli/)
 
 - [Personal sustainability for activists (The Commons Social Change Library)](https://commonslibrary.org/personal-sustainability-for-activists/)
 

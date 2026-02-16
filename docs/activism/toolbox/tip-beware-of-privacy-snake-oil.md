@@ -82,8 +82,8 @@ That being said, here are some green flags you can keep in mind when evaluating 
 
 - [Tool recommendations vetted by our community (Privacy Guides)](../../tools.md)
 
-- [Extensive guide on how to evaluate better privacy tools and organizations (Privacy Guides article)](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/)
+- [Extensive guide on how to evaluate better privacy tools and organizations (Privacy Guides)](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/)
 
-- [Privacy washing is a dirty business (Privacy Guides article)](https://www.privacyguides.org/articles/2025/08/20/privacy-washing-is-a-dirty-business/)
+- [Privacy washing is a dirty business (Privacy Guides)](https://www.privacyguides.org/articles/2025/08/20/privacy-washing-is-a-dirty-business/)
 
 - [Understanding encryption and end-to-end encryption (Privacy Guides video)](https://www.privacyguides.org/videos/2025/04/03/is-your-data-really-safe-understanding-encryption/)

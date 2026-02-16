@@ -44,11 +44,11 @@ Here are a few questions you can ask yourself whenever a new privacy issue arise
 
 ## More resources
 
-- [Why you should also care about other people's privacy (Privacy Guides article)](https://www.privacyguides.org/articles/2025/03/10/the-privacy-of-others/)
+- [Why you should also care about other people's privacy (Privacy Guides)](https://www.privacyguides.org/articles/2025/03/10/the-privacy-of-others/)
 
-- [Why privacy might be a safety matter for many (Privacy Guides article)](https://www.privacyguides.org/articles/2025/03/25/privacy-means-safety/)
+- [Why privacy might be a safety matter for many (Privacy Guides)](https://www.privacyguides.org/articles/2025/03/25/privacy-means-safety/)
 
-- [Encryption must not be outlawed for our privacy tools to work (Privacy Guides article)](https://www.privacyguides.org/articles/2025/04/11/encryption-is-not-a-crime/)
+- [Encryption must not be outlawed for our privacy tools to work (Privacy Guides)](https://www.privacyguides.org/articles/2025/04/11/encryption-is-not-a-crime/)
 
 - [Dangerous regulation proposals like Chat Control could impact everyone without many individual solutions (Privacy Guides
 article)](https://www.privacyguides.org/articles/2025/09/08/chat-control-must-be-stopped/)

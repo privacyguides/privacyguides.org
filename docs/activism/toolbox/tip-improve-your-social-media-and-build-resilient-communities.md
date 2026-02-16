@@ -68,7 +68,7 @@ Here are some resources to help you learn more about this social network, and it
 
 💛 [Social network recommendations (Privacy Guides)](../../social-networks.md)
 
-🔒 [Privacy and security on Mastodon (Privacy Guides article)](https://www.privacyguides.org/articles/2025/07/15/mastodon-privacy-and-security/)
+🔒 [Privacy and security on Mastodon (Privacy Guides)](https://www.privacyguides.org/articles/2025/07/15/mastodon-privacy-and-security/)
 
 🐘 [How to create a Mastodon account (Doc Pop guide)](https://docpop.org/2025/02/how-to-get-started-with-mastodon/)
 
@@ -106,8 +106,8 @@ Additionally, this allows you to keep full control over your profile page, regar
 
 - [Find answers to all your questions about Mastodon and the Fediverse (Fedi Tips)](https://fedi.tips/)
 
-- [Tutorial to optimize privacy and security on a Mastodon account (Privacy Guides article)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/)
+- [Tutorial to optimize privacy and security on a Mastodon account (Privacy Guides)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/)
 
-- [Organizations: Tutorial to verify your Mastodon account (Privacy Guides article)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/#verifying-yourself-and-others)
+- [Organizations: Tutorial to verify your Mastodon account (Privacy Guides)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/#verifying-yourself-and-others)
 
-- [Organizations and Writers: Tutorial to attribute your articles to your Mastodon account, including when others share links on the network (Privacy Guides article)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/#author-attribution-for-journalists-and-writers)
+- [Organizations and Writers: Tutorial to attribute your articles to your Mastodon account, including when others share links on the network (Privacy Guides)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/#author-attribution-for-journalists-and-writers)

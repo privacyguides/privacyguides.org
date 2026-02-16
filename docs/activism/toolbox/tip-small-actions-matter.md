@@ -72,7 +72,7 @@ Here are examples of some actions you might be able to do, from small ones to bi
 
 ## More resources
 
-- [Privacy is not dead: Beware the all-or-nothing mindset (Privacy Guides article)](https://www.privacyguides.org/articles/2025/02/17/privacy-is-not-dead/)
+- [Privacy is not dead: Beware the all-or-nothing mindset (Privacy Guides)](https://www.privacyguides.org/articles/2025/02/17/privacy-is-not-dead/)
 
 - [Learn about Points of Intervention to better plan and divide your actions (The Commons Social Change Library)](https://commonslibrary.org/points-of-intervention/)
 

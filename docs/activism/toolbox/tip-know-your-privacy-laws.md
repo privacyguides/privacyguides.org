@@ -78,4 +78,4 @@ Once you've found the official governmental documentation describing the data pr
 
 - [Map of data protection and privacy legislation worldwide (UN Trade and Development)](https://unctad.org/page/data-protection-and-privacy-legislation-worldwide)
 
-- [The future of privacy: How governments shape your digital life (Privacy Guides article)](https://www.privacyguides.org/articles/2025/02/03/the-future-of-privacy/)
+- [The future of privacy: How governments shape your digital life (Privacy Guides)](https://www.privacyguides.org/articles/2025/02/03/the-future-of-privacy/)

@@ -70,6 +70,6 @@ Become a respected privacy-ally others in the community are eager to work with, 
 
 - [The complete guide to writing a Code of Ethics (WikiHow)](https://www.wikihow.com/Develop-a-Code-of-Ethics)
 
-- [Privacy washing is a dirty business (Privacy Guides article)](https://www.privacyguides.org/articles/2025/08/20/privacy-washing-is-a-dirty-business/)
+- [Privacy washing is a dirty business (Privacy Guides)](https://www.privacyguides.org/articles/2025/08/20/privacy-washing-is-a-dirty-business/)
 
 - [Policy and procedure templates for non-profit organizations (The Commons Social Change Library)](https://commonslibrary.org/policy-bank-policy-and-procedure-templates-for-not-for-profit-organisations/)
