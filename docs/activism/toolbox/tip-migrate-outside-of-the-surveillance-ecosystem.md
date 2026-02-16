@@ -7,9 +7,6 @@ preview:
 hide:
   - feedback
 ---
-
-<style>.md-content__button {display: none;}</style>
-
 # Migrate Outside of The Surveillance Ecosystem
 
 ![Colored banner with four icons on it, a toolbox, a hammer, an arrow pointing outside a square, and a wrench.](../images/banners/banner-toolbox-tip-migrate.webp){align=top}

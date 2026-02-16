@@ -7,9 +7,6 @@ preview:
 hide:
   - feedback
 ---
-
-<style>.md-content__button {display: none;}</style>
-
 # Refuse to Participate
 
 ![Colored banner with four icons on it, a toolbox, a hammer, a circle with an x, and a wrench.](../images/banners/banner-toolbox-tip-refuse.webp){align=top}

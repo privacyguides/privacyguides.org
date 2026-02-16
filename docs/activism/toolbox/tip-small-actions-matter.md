@@ -7,9 +7,6 @@ preview:
 hide:
   - feedback
 ---
-
-<style>.md-content__button {display: none;}</style>
-
 # Small Actions Matter
 
 ![Colored banner with four icons on it, a toolbox, a hammer, a puzzle piece, and a wrench.](../images/banners/banner-toolbox-tip-small.webp){align=top}

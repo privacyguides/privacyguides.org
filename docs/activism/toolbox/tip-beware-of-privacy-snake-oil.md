@@ -7,9 +7,6 @@ preview:
 hide:
   - feedback
 ---
-
-<style>.md-content__button {display: none;}</style>
-
 # Beware of Privacy Snake Oil
 
 ![Colored banner with four icons on it, a toolbox, a hammer, a skull and bones, and a wrench.](../images/banners/banner-toolbox-tip-snakeoil.webp){align=top}

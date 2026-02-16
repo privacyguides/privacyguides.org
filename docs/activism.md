@@ -5,9 +5,6 @@ description: Privacy Guides' Activism section contains tools to support the comm
 hide:
   - feedback
 ---
-
-<style>.md-content__button { display: none; }</style>
-
 # About the Activism Section
 
 **Privacy Guides' Activism section offers a new way to empower the digital rights community.**

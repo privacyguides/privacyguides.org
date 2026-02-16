@@ -7,9 +7,6 @@ preview:
 hide:
   - feedback
 ---
-
-<style>.md-content__button {display: none;}</style>
-
 [:material-toolbox:  Back to Toolbox](index.md){align=right}
 
 # Report Privacy Violations

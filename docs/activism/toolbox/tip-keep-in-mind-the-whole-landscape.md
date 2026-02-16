@@ -7,9 +7,6 @@ preview:
 hide:
   - feedback
 ---
-
-<style>.md-content__button {display: none;}</style>
-
 # Keep in Mind The Whole Landscape
 
 ![Colored banner with four icons on it, a toolbox, a hammer, a globe, and a wrench.](../images/banners/banner-toolbox-tip-landscape.webp){align=top}

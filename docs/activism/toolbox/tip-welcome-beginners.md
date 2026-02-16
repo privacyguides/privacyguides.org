@@ -7,9 +7,6 @@ preview:
 hide:
   - feedback
 ---
-
-<style>.md-content__button {display: none;}</style>
-
 # Welcome Beginners
 
 ![Colored banner with four icons on it, a toolbox, a hammer, a person with a plus sign, and a wrench.](../images/banners/banner-toolbox-tip-beginners.webp){align=top}

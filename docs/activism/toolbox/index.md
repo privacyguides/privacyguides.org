@@ -5,9 +5,6 @@ description: The Privacy Activist Toolbox is a unique resource with tips for any
 hide:
   - feedback
 ---
-
-<style>.md-content__button {display: none;}</style>
-
 # Privacy Activist Toolbox
 
 **The Privacy Activist Toolbox is a resource for anyone interested in becoming a better privacy rights activist, or anyone who wants to start advocating for privacy rights.**

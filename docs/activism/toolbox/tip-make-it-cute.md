@@ -7,9 +7,6 @@ preview:
 hide:
   - feedback
 ---
-
-<style>.md-content__button {display: none;}</style>
-
 # Make It Cute
 
 ![Colored banner with four icons on it, a toolbox, a hammer, a cat, and a wrench.](../images/banners/banner-toolbox-tip-cute.webp){align=top}

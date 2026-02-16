@@ -7,9 +7,6 @@ preview:
 hide:
   - feedback
 ---
-
-<style>.md-content__button {display: none;}</style>
-
 # Take Time to Rest, But Come Back to Fight With Us
 
 ![Colored banner with four icons on it, a toolbox, a hammer, a low battery, and a wrench.](../images/banners/banner-toolbox-tip-rest.webp){align=top}

@@ -7,9 +7,6 @@ preview:
 hide:
   - feedback
 ---
-
-<style>.md-content__button {display: none;}</style>
-
 # Engage, Boost, and Contribute
 
 ![Colored banner with four icons on it, a toolbox, a hammer, a megaphone, and a wrench.](../images/banners/banner-toolbox-tip-engage.webp){align=top}

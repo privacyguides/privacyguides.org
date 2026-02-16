@@ -7,9 +7,6 @@ preview:
 hide:
   - feedback
 ---
-
-<style>.md-content__button {display: none;}</style>
-
 # Level Up! Assemble and Organize
 
 ![Colored banner with four icons on it, a toolbox, a hammer, a raised fist, and a wrench.](../images/banners/banner-toolbox-tip-organize.webp){align=top}

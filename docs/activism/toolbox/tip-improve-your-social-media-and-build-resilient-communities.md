@@ -7,9 +7,6 @@ preview:
 hide:
   - feedback
 ---
-
-<style>.md-content__button {display: none;}</style>
-
 # Improve Your Social Media and Build Resilient Communities
 
 ![Colored banner with four icons on it, a toolbox, a hammer, an octagon, and a wrench.](../images/banners/banner-toolbox-tip-plant.webp){align=top}

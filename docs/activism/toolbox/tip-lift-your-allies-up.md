@@ -7,9 +7,6 @@ preview:
 hide:
   - feedback
 ---
-
-<style>.md-content__button {display: none;}</style>
-
 # Lift Your Allies Up
 
 ![Colored banner with four icons on it, a toolbox, a hammer, two hands, and a wrench.](../images/banners/banner-toolbox-tip-lift.webp){align=top}

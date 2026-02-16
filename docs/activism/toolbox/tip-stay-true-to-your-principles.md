@@ -7,9 +7,6 @@ preview:
 hide:
   - feedback
 ---
-
-<style>.md-content__button {display: none;}</style>
-
 # Stay True to Your Principles
 
 ![Colored banner with four icons on it, a toolbox, a hammer, a star, and a wrench.](../images/banners/banner-toolbox-tip-principles.webp){align=top}

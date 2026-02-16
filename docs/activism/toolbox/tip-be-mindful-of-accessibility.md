@@ -7,9 +7,6 @@ preview:
 hide:
   - feedback
 ---
-
-<style>.md-content__button {display: none;}</style>
-
 # Be Mindful of Accessibility
 
 ![Colored banner with four icons on it, a toolbox, a hammer, a heart with a checkmark, and a wrench.](../images/banners/banner-toolbox-tip-accessibility.webp){align=top}

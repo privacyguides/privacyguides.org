@@ -7,9 +7,6 @@ preview:
 hide:
   - feedback
 ---
-
-<style>.md-content__button {display: none;}</style>
-
 # Keep Your Posts and Community Inclusive
 
 ![Colored banner with four icons on it, a toolbox, a hammer, a heart with a plus sign, and a wrench.](../images/banners/banner-toolbox-tip-inclusivity.webp){align=top}
