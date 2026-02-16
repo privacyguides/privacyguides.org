@@ -10,7 +10,7 @@ hide:
 
 <style>.md-content__button {display: none;}</style>
 
-[:material-toolbox: Back to Toolbox](privacy-activist-toolbox.md){align=right}
+[:material-toolbox: Back to Toolbox](index.md){align=right}
 
 # Take Time to Rest, But Come Back to Fight With Us
 

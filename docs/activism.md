@@ -1,5 +1,5 @@
 ---
-title: "About the Activism Section"
+title: "About This Section"
 url: https://www.privacyguides.org/en/activism/
 description: Privacy Guides' Activism section contains tools to support the community in its privacy advocacy and activism effort, both for individuals and organizations.
 hide:

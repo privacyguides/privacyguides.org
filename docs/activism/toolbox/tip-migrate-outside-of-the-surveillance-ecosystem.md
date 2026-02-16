@@ -10,7 +10,7 @@ hide:
 
 <style>.md-content__button {display: none;}</style>
 
-[:material-toolbox: Back to Toolbox](privacy-activist-toolbox.md){align=right}
+[:material-toolbox: Back to Toolbox](index.md){align=right}
 
 # Migrate Outside of The Surveillance Ecosystem
 
@@ -32,7 +32,7 @@ While using the most popular mainstream tools and platforms for our work might s
 
 🚨&nbsp; 3. The third drawback is that if we use these tools in our action and communications, we are then endangering the data of others who rely on our expertise to keep their data safe. They might think: "If this privacy advocate asks me to fill a Google form, it's probably safe enough to use Google products for sensitive data."
 
-**With great _knowledge_ comes great responsibility.[*](https://en.wikipedia.org/wiki/With_great_power_comes_great_responsibility) We must protect the data people share with us, even more than we would our own.**
+**With great *knowledge* comes great responsibility.[*](https://en.wikipedia.org/wiki/With_great_power_comes_great_responsibility) We must protect the data people share with us, even more than we would our own.**
 
 ⛔️&nbsp; 4. The fourth drawback is that, as privacy activists, demanding that others use tools violating their privacy rights to communicate with us can damage our credibility, and have a negative impact on the whole community. Observers might think: "If all these privacy advocates use Facebook groups, why should I listen when they recommend that I move away from Facebook?"
 

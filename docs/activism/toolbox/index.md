@@ -93,7 +93,7 @@ This page is also a resource to help digital rights organizations that would lik
 
 ## Check Your Laws
 
-<a href="../tip-know-your-privacy-laws/">
+<a href="tip-know-your-privacy-laws/">
 <div class="toolbox-tip-card toolbox-border-legal" markdown>
 
 ### 1. Know your privacy laws
@@ -107,7 +107,7 @@ Being well-informed about the data protection regulations in your own jurisdicti
 </div>
 </a>
 
-<a href="../tip-report-privacy-violations">
+<a href="tip-report-privacy-violations">
 <div class="toolbox-tip-card toolbox-border-legal" markdown>
 
 ### 2. Report privacy violations
@@ -126,7 +126,7 @@ Once you are informed on your local privacy laws, get familiar with the process 
 
 ## Choose Your Tools
 
-<a href="../tip-beware-of-privacy-snake-oil">
+<a href="tip-beware-of-privacy-snake-oil">
 <div class="toolbox-tip-card toolbox-border-tools" markdown>
 
 ### 1. Beware of privacy snake oil
@@ -140,7 +140,7 @@ In your privacy advocacy, it's essential to use and recommend tools that are rel
 </div>
 </a>
 
-<a href="../tip-migrate-outside-of-the-surveillance-ecosystem">
+<a href="tip-migrate-outside-of-the-surveillance-ecosystem">
 <div class="toolbox-tip-card toolbox-border-tools" markdown>
 
 ### 2. Migrate outside of the surveillance ecosystem
@@ -154,7 +154,7 @@ As privacy activists, it's important not only to support the tools and organizat
 </div>
 </a>
 
-<a href="../tip-improve-your-social-media-and-build-resilient-communities">
+<a href="tip-improve-your-social-media-and-build-resilient-communities">
 <div class="toolbox-tip-card toolbox-border-tools" markdown>
 
 ### 3. Improve your social media and build resilient communities
@@ -173,7 +173,7 @@ Commercial social media platforms represent one of the biggest source of data ex
 
 ## Expand Your Perspective
 
-<a href="../tip-dont-stop-at-individual-solutions">
+<a href="tip-dont-stop-at-individual-solutions">
 <div class="toolbox-tip-card toolbox-border-perspective" markdown>
 
 ### 1. Don't stop at individual solutions, consider the collective impact
@@ -187,7 +187,7 @@ When we think about our privacy, we often focus on the technical tools we can us
 </div>
 </a>
 
-<a href="../tip-keep-in-mind-the-whole-landscape">
+<a href="tip-keep-in-mind-the-whole-landscape">
 <div class="toolbox-tip-card toolbox-border-perspective" markdown>
 
 ### 2. Keep in mind the whole landscape
@@ -201,7 +201,7 @@ Privacy isn't just about the tools. It also isn't just about the laws. And it is
 </div>
 </a>
 
-<a href="../tip-consider-everyones-unique-situation">
+<a href="tip-consider-everyones-unique-situation">
 <div class="toolbox-tip-card toolbox-border-perspective" markdown>
 
 ### 3. Consider everyone's unique situation
@@ -220,7 +220,7 @@ Everyone has different needs and faces different dangers when their personal dat
 
 ## Support The Community
 
-<a href="../tip-lift-your-allies-up">
+<a href="tip-lift-your-allies-up">
 <div class="toolbox-tip-card toolbox-border-community" markdown>
 
 ### 1. Lift your allies up
@@ -234,7 +234,7 @@ At times, it might feel like the privacy community is niche and isolated. The ba
 </div>
 </a>
 
-<a href="../tip-support-your-privacy-comrades">
+<a href="tip-support-your-privacy-comrades">
 <div class="toolbox-tip-card toolbox-border-community" markdown>
 
 ### 2. Support your privacy comrades
@@ -247,7 +247,7 @@ Fighting for privacy rights is a collective endeavor. You cannot do it alone. An
 
 </div></a>
 
-<a href="../tip-be-kind-to-people-but-be-relentless-with-institutions">
+<a href="tip-be-kind-to-people-but-be-relentless-with-institutions">
 <div class="toolbox-tip-card toolbox-border-community" markdown>
 
 ### 3. Be kind to people, but be relentless with institutions
@@ -266,7 +266,7 @@ Kindness is an essential quality for privacy advocates. To grow our movement, we
 
 ## Build Alliances
 
-<a href="../tip-build-alliances-not-wars">
+<a href="tip-build-alliances-not-wars">
 <div class="toolbox-tip-card toolbox-border-alliances" markdown>
 
 ### 1. Build alliances, not wars
@@ -280,7 +280,7 @@ The privacy community is made of a patchwork of individuals and organizations th
 </div>
 </a>
 
-<a href="../tip-value-allies-with-complementary-expertise">
+<a href="tip-value-allies-with-complementary-expertise">
 <div class="toolbox-tip-card toolbox-border-alliances" markdown>
 
 ### 2. Value allies with expertise complementary to yours
@@ -294,7 +294,7 @@ In privacy like everywhere else, diversity is a strength. If you want your commu
 </div>
 </a>
 
-<a href="../tip-give-credit-where-credit-is-due">
+<a href="tip-give-credit-where-credit-is-due">
 <div class="toolbox-tip-card toolbox-border-alliances" markdown>
 
 ### 3. Give credit where credit is due
@@ -313,7 +313,7 @@ To succeed, we must support each other. A good way to do this is to never forget
 
 ## Make It Accessible
 
-<a href="../tip-welcome-beginners">
+<a href="tip-welcome-beginners">
 <div class="toolbox-tip-card toolbox-border-accessibility" markdown>
 
 ### 1. Welcome beginners
@@ -327,7 +327,7 @@ For our privacy rights movement to grow, we must bring more people in. To accomp
 </div>
 </a>
 
-<a href="../tip-keep-your-posts-and-community-inclusive">
+<a href="tip-keep-your-posts-and-community-inclusive">
 <div class="toolbox-tip-card toolbox-border-accessibility" markdown>
 
 ### 2. Keep your posts and community inclusive
@@ -341,7 +341,7 @@ Inclusivity is not only the right thing to do, it's also essential to grow our m
 </div>
 </a>
 
-<a href="../tip-be-mindful-of-accessibility">
+<a href="tip-be-mindful-of-accessibility">
 <div class="toolbox-tip-card toolbox-border-accessibility" markdown>
 
 ### 3. Be mindful of accessibility
@@ -355,7 +355,7 @@ Accessibility is indispensable to inclusivity, and should always be a priority i
 </div>
 </a>
 
-<a href="../tip-make-it-cute">
+<a href="tip-make-it-cute">
 <div class="toolbox-tip-card toolbox-border-accessibility" markdown>
 
 ### 4. Make it cute
@@ -374,7 +374,7 @@ If you are developing a privacy-focused application or website, do not neglect t
 
 ## Uphold Integrity
 
-<a href="../tip-refuse-to-participate">
+<a href="tip-refuse-to-participate">
 <div class="toolbox-tip-card toolbox-border-integrity" markdown>
 
 ### 1. Refuse to participate
@@ -388,7 +388,7 @@ As privacy advocates and activists, it's important to be a voice for resistance 
 </div>
 </a>
 
-<a href="../tip-stay-true-to-your-principles">
+<a href="tip-stay-true-to-your-principles">
 <div class="toolbox-tip-card toolbox-border-integrity" markdown>
 
 ### 2. Stay true to your principles
@@ -402,7 +402,7 @@ If you manage a digital rights group or organization, make sure you aren't subje
 </div>
 </a>
 
-<a href="../tip-protect-your-allies">
+<a href="tip-protect-your-allies">
 <div class="toolbox-tip-card toolbox-border-integrity" markdown>
 
 ### 3. Protect your allies
@@ -421,7 +421,7 @@ Through your privacy work, be careful to never collect or share the data of othe
 
 ## Stay Persistent
 
-<a href="../tip-small-actions-matter">
+<a href="tip-small-actions-matter">
 <div class="toolbox-tip-card toolbox-border-persistence" markdown>
 
 ### 1. Small actions matter
@@ -435,7 +435,7 @@ There is so much to do in the movement for better privacy rights. So much, that 
 </div>
 </a>
 
-<a href="../tip-take-time-to-rest">
+<a href="tip-take-time-to-rest">
 <div class="toolbox-tip-card toolbox-border-persistence" markdown>
 
 ### 2. Take time to rest, but come back to fight with us
@@ -454,7 +454,7 @@ The battle for privacy rights will be a long one. This isn't a sprint, it's a ma
 
 ## Take Action!
 
-<a href="../tip-engage-boosts-and-contribute">
+<a href="tip-engage-boosts-and-contribute">
 <div class="toolbox-tip-card toolbox-border-action" markdown>
 
 ### 1. Engage, boost, and contribute
@@ -468,7 +468,7 @@ Once you have the knowledge, motivation, and energy, it's time to act! Perhaps y
 </div>
 </a>
 
-<a href="../tip-level-up-assemble-and-organize">
+<a href="tip-level-up-assemble-and-organize">
 <div class="toolbox-tip-card toolbox-border-action" markdown>
 
 ### 2. Level up! Assemble and organize
