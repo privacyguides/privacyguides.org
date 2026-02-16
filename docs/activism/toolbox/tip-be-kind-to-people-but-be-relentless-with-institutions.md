@@ -56,5 +56,3 @@ Each time your message is ignored, and the abuse continues, *shout louder* (meta
 - [Campaigning guides for activists (Activist Handbook)](https://activisthandbook.org/)
 
 - [How to do public speaking for activism (Activist Handbook)](https://activisthandbook.org/communication/public-speaking)
-
-<button class="toolbox-tip-button-next">[Go to next tip :material-arrow-right-drop-circle:](tip-build-alliances-not-wars.md)</button>

@@ -48,5 +48,3 @@ When giving credit to organizations, you are also making a whole team feel value
 - [3 ways to use recognition to boost performance and engagement (HumanResourceMag)](https://www.humanresourcemag.com/news/277/3-ways-to-use-recognition-to-boost-performance-and-engagement)
 
 - [The fine line between teamwork and taking credit: Why recognition matters (Gwendolyn F. McGraw blog)](https://blog.gwendolynmcgraw.net/2025/07/12/the-fine-line-between-teamwork-and-taking-credit-why-recognition-matters/)
-
-<button class="toolbox-tip-button-next">[Go to next tip :material-arrow-right-drop-circle:](tip-welcome-beginners.md)</button>

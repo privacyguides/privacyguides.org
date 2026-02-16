@@ -56,5 +56,3 @@ This is something that is *incredibly* valuable to fight for privacy rights, tog
 - [Is your team using its biggest resource (Social Science Space)](https://www.socialsciencespace.com/2013/07/is-your-team-using-its-biggest-resource/)
 
 - [How to make people feel valued on projects (PM Today)](https://www.pmtoday.co.uk/how-to-make-people-feel-valued-on-projects/)
-
-<button class="toolbox-tip-button-next">[Go to next tip :material-arrow-right-drop-circle:](tip-give-credit-where-credit-is-due.md)</button>

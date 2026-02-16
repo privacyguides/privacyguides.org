@@ -164,5 +164,3 @@ Another aspect of accessibility that is often overlooked is financial accessibil
 - [Five golden rules for compliant alt text (AbilityNet)](https://abilitynet.org.uk/resources/digital-accessibility/five-golden-rules-compliant-alt-text)
 
 - [Accessibility developer guide (Access for all)](https://www.accessibility-developer-guide.com/)
-
-<button class="toolbox-tip-button-next">[Go to next tip :material-arrow-right-drop-circle:](tip-make-it-cute.md)</button>

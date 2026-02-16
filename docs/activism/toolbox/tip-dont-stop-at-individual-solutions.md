@@ -53,5 +53,3 @@ Here are a few questions you can ask yourself whenever a new privacy issue arise
 
 - [Dangerous regulation proposals like Chat Control could impact everyone without many individual solutions (Privacy Guides
 article)](https://www.privacyguides.org/articles/2025/09/08/chat-control-must-be-stopped/)
-
-<button class="toolbox-tip-button-next">[Go to next tip :material-arrow-right-drop-circle:](tip-keep-in-mind-the-whole-landscape.md)</button>

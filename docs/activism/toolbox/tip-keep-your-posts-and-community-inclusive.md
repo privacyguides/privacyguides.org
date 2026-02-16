@@ -80,5 +80,3 @@ There are many things you can do to keep your community inclusive and diverse. H
 - [How to make your social justice event accessible (The Commons Social Change Library)](https://commonslibrary.org/how-to-make-your-social-justice-event-accessible/)
 
 - [Diversity, equity, and inclusion resources and tools (Nonprofit Learning Lab)](https://www.nonprofitlearninglab.org/dei)
-
-<button class="toolbox-tip-button-next">[Go to next tip :material-arrow-right-drop-circle:](tip-be-mindful-of-accessibility.md)</button>

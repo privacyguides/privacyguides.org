@@ -74,5 +74,3 @@ Become a respected privacy-ally others in the community are eager to work with, 
 - [Privacy washing is a dirty business (Privacy Guides article)](https://www.privacyguides.org/articles/2025/08/20/privacy-washing-is-a-dirty-business/)
 
 - [Policy and procedure templates for non-profit organizations (The Commons Social Change Library)](https://commonslibrary.org/policy-bank-policy-and-procedure-templates-for-not-for-profit-organisations/)
-
-<button class="toolbox-tip-button-next">[Go to next tip :material-arrow-right-drop-circle:](tip-protect-your-allies.md)</button>

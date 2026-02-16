@@ -56,5 +56,3 @@ There are infinite ways to lift your allies up. Here are some ideas to get you s
 - [Bits of Freedom & Privacy Guides partnering announcement (Privacy Guides article)](https://www.privacyguides.org/posts/2025/10/08/privacy-guides-bits-of-freedom-partnering-to-enhance-fixjeprivacy-nl/)
 
 - [Tor Project's allies lifting up Tor together (YouTube short video)](https://www.youtube.com/shorts/-hFNMlsePsc)
-
-<button class="toolbox-tip-button-next">[Go to next tip :material-arrow-right-drop-circle:](tip-support-your-privacy-comrades.md)</button>

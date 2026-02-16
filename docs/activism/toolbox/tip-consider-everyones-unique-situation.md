@@ -78,5 +78,3 @@ To be a good privacy advocate is to provide information and support when needed.
 - [More detailed information on threat modeling (Privacy Guides)](../../basics/threat-modeling.md)
 
 - [Examples of common threats (Privacy Guides)](../../basics/common-threats.md)
-
-<button class="toolbox-tip-button-next">[Go to next tip :material-arrow-right-drop-circle:](tip-lift-your-allies-up.md)</button>

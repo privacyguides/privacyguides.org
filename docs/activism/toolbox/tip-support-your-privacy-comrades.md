@@ -64,5 +64,3 @@ Here are a few things you can do to support your privacy comrades in times of ne
 - [Take care and prevent an activist burnout (Activist Handbook)](https://activisthandbook.org/wellbeing)
 
 - [Build communities on privacy-respectful social networks, and invite your privacy comrades to join you there (Privacy Guides tip)](tip-improve-your-social-media-and-build-resilient-communities.md)
-
-<button class="toolbox-tip-button-next">[Go to next tip :material-arrow-right-drop-circle:](tip-be-kind-to-people-but-be-relentless-with-institutions.md)</button>

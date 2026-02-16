@@ -50,5 +50,3 @@ If you've already done your homework to build the best app for people to protect
 - [Why do open source applications often have less polished UIs than commercial software (Darren Horrocks blog)](https://www.darrenhorrocks.co.uk/why-open-source-ui-design-sucks/)
 
 - [How to start with design in your open source project (All Things Open)](https://allthingsopen.org/articles/start-design-open-source-project)
-
-<button class="toolbox-tip-button-next">[Go to next tip :material-arrow-right-drop-circle:](tip-refuse-to-participate.md)</button>

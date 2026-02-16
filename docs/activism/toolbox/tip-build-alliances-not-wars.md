@@ -132,5 +132,3 @@ EDRi's Stop Scanning Me coalition provides a great example of collaboration with
 - [How to develop nonprofit relationships to expand and scale (Nonprofit Learning Lab)](https://www.nonprofitlearninglab.org/post/how-to-develop-nonprofit-relationships)
 
 - [Templates, worksheets, and checklists for changemakers (The Commons Social Change Library)](https://commonslibrary.org/templates-worksheets-checklists-for-changemakers/)
-
-<button class="toolbox-tip-button-next">[Go to next tip :material-arrow-right-drop-circle:](tip-value-allies-with-complementary-expertise.md)</button>

@@ -78,5 +78,3 @@ Here are examples of some actions you might be able to do, from small ones to bi
 - [Learn about Points of Intervention to better plan and divide your actions (The Commons Social Change Library)](https://commonslibrary.org/points-of-intervention/)
 
 - [Social change myths: What is a movement (The Commons Social Change Library)](https://commonslibrary.org/social-change-myths/)
-
-<button class="toolbox-tip-button-next">[Go to next tip :material-arrow-right-drop-circle:](tip-take-time-to-rest.md)</button>

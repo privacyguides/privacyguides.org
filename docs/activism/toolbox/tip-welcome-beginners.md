@@ -48,5 +48,3 @@ Kindness, patience, and compassion are the first steps to attract and retain new
 - [Creating a welcoming space for beginners (Raquel Moss blog)](https://www.raquelmoss.com/creating-a-welcoming-space-for-beginners/)
 
 - [Bring kindness back to open source (Scott Hanselman blog)](https://www.hanselman.com/blog/bring-kindness-back-to-open-source)
-
-<button class="toolbox-tip-button-next">[Go to next tip :material-arrow-right-drop-circle:](tip-keep-your-posts-and-community-inclusive.md)</button>

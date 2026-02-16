@@ -154,5 +154,3 @@ On the website of your local privacy law's DPA, you should be able to find eithe
 🇺🇸&nbsp; [United States-Texas (TDPSA): Office of the Attorney General](https://consumerprotection.texasattorneygeneral.gov/consumercomplaintportal/s/)
 
 </div>
-
-<button class="toolbox-tip-button-next">[Go to next tip :material-arrow-right-drop-circle:](tip-beware-of-privacy-snake-oil.md)</button>

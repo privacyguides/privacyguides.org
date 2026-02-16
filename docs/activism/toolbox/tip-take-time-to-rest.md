@@ -98,5 +98,3 @@ Additionally, the fact that we have to incessantly push against a tidal wave of 
 - [How to avoid activist burnout (Change Atelier)](https://www.changeatelier.org/blog/how-to-avoid-activist-burnout)
 
 - [Strategies to prevent activist burnout (The Art of Living)](https://www.newsletter.samuel-warde.com/p/strategies-to-prevent-activist-burnout)
-
-<button class="toolbox-tip-button-next">[Go to next tip :material-arrow-right-drop-circle:](tip-engage-boosts-and-contribute.md)</button>

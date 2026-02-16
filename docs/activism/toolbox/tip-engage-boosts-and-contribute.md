@@ -90,5 +90,3 @@ Here are some ideas of things you can do to become a privacy activist in your co
 - [Learn to use ethical principles of persuasion (The Community Tool Box)](https://ctb.ku.edu/en/table-of-contents/participation/promoting-interest/principles-of-persuasion/main)
 
 - [Communicate your message: Making sure your message comes across (Activist Handbook)](https://activisthandbook.org/communication)
-
-<button class="toolbox-tip-button-next">[Go to next tip :material-arrow-right-drop-circle:](tip-level-up-assemble-and-organize.md)</button>

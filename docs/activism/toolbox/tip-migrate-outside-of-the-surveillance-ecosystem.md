@@ -112,5 +112,3 @@ Instead, migrate your advocacy work to better social networks that aren't abusin
 - [Helpful articles and tips to migrate out of Big Tech (The Opt Out Project)](https://www.optoutproject.net/)
 
 - [More advices on how to improve your privacy if you are just getting started (Privacy Guides article)](https://www.privacyguides.org/articles/2025/07/24/privacy-is-like-broccoli/#tools-and-services-you-can-start-using)
-
-<button class="toolbox-tip-button-next">[Go to next tip :material-arrow-right-drop-circle:](tip-improve-your-social-media-and-build-resilient-communities.md)</button>

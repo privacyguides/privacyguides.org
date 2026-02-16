@@ -112,5 +112,3 @@ Additionally, this allows you to keep full control over your profile page, regar
 - [Organizations: Tutorial to verify your Mastodon account (Privacy Guides article)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/#verifying-yourself-and-others)
 
 - [Organizations and Writers: Tutorial to attribute your articles to your Mastodon account, including when others share links on the network (Privacy Guides article)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/#author-attribution-for-journalists-and-writers)
-
-<button class="toolbox-tip-button-next">[Go to next tip :material-arrow-right-drop-circle:](tip-dont-stop-at-individual-solutions.md)</button>

@@ -88,5 +88,3 @@ That being said, here are some green flags you can keep in mind when evaluating 
 - [Privacy washing is a dirty business (Privacy Guides article)](https://www.privacyguides.org/articles/2025/08/20/privacy-washing-is-a-dirty-business/)
 
 - [Understanding encryption and end-to-end encryption (Privacy Guides video)](https://www.privacyguides.org/videos/2025/04/03/is-your-data-really-safe-understanding-encryption/)
-
-<button class="toolbox-tip-button-next">[Go to next tip :material-arrow-right-drop-circle:](tip-migrate-outside-of-the-surveillance-ecosystem.md)</button>

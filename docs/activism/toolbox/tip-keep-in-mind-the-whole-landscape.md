@@ -92,5 +92,3 @@ Here are a few practices to improve our culture surrounding data privacy that yo
 - **Legislative:** [How governments and laws shape our digital lives (Privacy Guides article)](https://www.privacyguides.org/articles/2025/02/03/the-future-of-privacy/)
 
 - **Culture:** [Why protecting the data of other is our responsibility (Privacy Guides article)](https://www.privacyguides.org/articles/2025/03/10/the-privacy-of-others/)
-
-<button class="toolbox-tip-button-next">[Go to next tip :material-arrow-right-drop-circle:](tip-consider-everyones-unique-situation.md)</button>

@@ -74,5 +74,3 @@ There are many ways to refuse to participate in privacy-invasive practices and p
 - [Selling surveillance as convenience (Privacy Guides article)](https://www.privacyguides.org/articles/2025/06/07/selling-surveillance-as-convenience/)
 
 - [6 effective tips to politely say no (Science of People)](https://www.scienceofpeople.com/how-to-say-no/)
-
-<button class="toolbox-tip-button-next">[Go to next tip :material-arrow-right-drop-circle:](tip-stay-true-to-your-principles.md)</button>
