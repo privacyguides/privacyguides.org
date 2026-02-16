@@ -1,6 +1,6 @@
 ---
 title: "About This Section"
-meta_title: "About Our Activism Section - Privacy Guides"
+meta_title: "Privacy Guides for Activists"
 description: Privacy Guides' Activism section contains tools to support the community in its privacy advocacy and activism effort, both for individuals and organizations.
 hide:
   - feedback

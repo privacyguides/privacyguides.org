@@ -62,19 +62,19 @@ That being said, here are some green flags you can keep in mind when evaluating 
 
 <div class="toolbox-bullet-list" markdown>
 
-:fontawesome-regular-flag: [**Good reputation**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#reputation-history): What are privacy and security experts saying about this product or organization? Does the product or organization have a good reputation within the field?
+:custom-green-flag: [**Good reputation**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#reputation-history): What are privacy and security experts saying about this product or organization? Does the product or organization have a good reputation within the field?
 
-:fontawesome-regular-flag: [**Access to evidence**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#verifiable-claims): Are you able to verify the privacy claims from independent sources that aren't related to the business itself?
+:custom-green-flag: [**Access to evidence**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#verifiable-claims): Are you able to verify the privacy claims from independent sources that aren't related to the business itself?
 
-:fontawesome-regular-flag: [**Independent review**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#independent-reviews): Was the product reviewed by an independent third-party who had significant access to test the product in a meaningful way?
+:custom-green-flag: [**Independent review**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#independent-reviews): Was the product reviewed by an independent third-party who had significant access to test the product in a meaningful way?
 
-:fontawesome-regular-flag: [**Transparency**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#transparency): Can you easily find detailed information about what data this organization collects, and how it processes and shares it? Would an independent expert have access to its software code to inspect it?
+:custom-green-flag: [**Transparency**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#transparency): Can you easily find detailed information about what data this organization collects, and how it processes and shares it? Would an independent expert have access to its software code to inspect it?
 
-:fontawesome-regular-flag: [**Clear funding model**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#clear-funding-model): How does this organization make money? If it's free to use, does this organization rely on donations or grants? Is the product sold to users or to businesses? Where does the money come from?
+:custom-green-flag: [**Clear funding model**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#clear-funding-model): How does this organization make money? If it's free to use, does this organization rely on donations or grants? Is the product sold to users or to businesses? Where does the money come from?
 
-:fontawesome-regular-flag: [**Availability**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#availability): Could you easily contact this organization if you needed to? Can you find an email address dedicated to privacy requests and questions? Can you find where the organization is located? Would you have access to at least two different ways to contact it?
+:custom-green-flag: [**Availability**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#availability): Could you easily contact this organization if you needed to? Can you find an email address dedicated to privacy requests and questions? Can you find where the organization is located? Would you have access to at least two different ways to contact it?
 
-:fontawesome-regular-flag: [**Expert recommendation**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#expert-advice): Is this product recommended by independent privacy experts and digital rights nonprofit organizations?
+:custom-green-flag: [**Expert recommendation**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#expert-advice): Is this product recommended by independent privacy experts and digital rights nonprofit organizations?
 
 </div>
 
