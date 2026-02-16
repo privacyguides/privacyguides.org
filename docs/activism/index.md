@@ -1,17 +1,15 @@
 ---
-title: "Privacy Guides Activism"
+title: "About the Activism Section"
 url: https://www.privacyguides.org/en/activism/
 description: Privacy Guides' Activism section contains tools to support the community in its privacy advocacy and activism effort, both for individuals and organizations.
 hide:
   - feedback
 ---
-# About the Activism Section
-
 **Privacy Guides' Activism section offers a new way to empower the digital rights community.**
 
 This section contains information to help you become a better defender of privacy rights, both for individuals and organizations.
 
-![Privacy Guides Activism banner](activism/images/banners/banner-activism.webp){align=top}
+![Privacy Guides Activism banner](images/banners/banner-activism.webp){align=top}
 
 ## We must fight for privacy rights collectively
 
@@ -23,9 +21,5 @@ For privacy to become a valued and respected human right, **we must work togethe
 
 This section will progressively grow with more tools to support the community in its privacy advocacy and activism effort. The Privacy Activist Toolbox is the first part of this new development.
 
-<a href="./toolbox/privacy-activist-toolbox/"><div class="category-button" markdown>
-    <style>.category-button {background-color: var(--pg-blue);}</style>
-    ![Toolbox icon](activism/images/icons/toolbox-solid-full.svg){.category-button-icon}
-    Privacy Activist Toolbox
-</div>
-</a>
+<style>.category-button {background-color: var(--pg-blue);}</style>
+[<div class="category-button" markdown>![Toolbox icon](images/icons/toolbox-solid-full.svg){.category-button-icon} Privacy Activist Toolbox</div>](toolbox/index.md)
