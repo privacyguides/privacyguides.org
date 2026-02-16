@@ -10,8 +10,6 @@ hide:
 
 <style>.md-content__button {display: none;}</style>
 
-[:material-toolbox: Back to Toolbox](index.md){align=right}
-
 # Give Credit Where Credit Is Due
 
 ![Colored banner with four icons on it, a toolbox, a hammer, a thumbs up, and a wrench.](../images/banners/banner-toolbox-tip-credit.webp){align=top}

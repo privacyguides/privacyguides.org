@@ -10,8 +10,6 @@ hide:
 
 <style>.md-content__button {display: none;}</style>
 
-[:material-toolbox: Back to Toolbox](index.md){align=right}
-
 # Keep in Mind The Whole Landscape
 
 ![Colored banner with four icons on it, a toolbox, a hammer, a globe, and a wrench.](../images/banners/banner-toolbox-tip-landscape.webp){align=top}

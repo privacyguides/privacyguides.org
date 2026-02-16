@@ -10,8 +10,6 @@ hide:
 
 <style>.md-content__button {display: none;}</style>
 
-[:material-toolbox: Back to Toolbox](index.md){align=right}
-
 # Be Mindful of Accessibility
 
 ![Colored banner with four icons on it, a toolbox, a hammer, a heart with a checkmark, and a wrench.](../images/banners/banner-toolbox-tip-accessibility.webp){align=top}

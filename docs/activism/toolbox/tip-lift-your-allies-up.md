@@ -10,8 +10,6 @@ hide:
 
 <style>.md-content__button {display: none;}</style>
 
-[:material-toolbox: Back to Toolbox](index.md){align=right}
-
 # Lift Your Allies Up
 
 ![Colored banner with four icons on it, a toolbox, a hammer, two hands, and a wrench.](../images/banners/banner-toolbox-tip-lift.webp){align=top}

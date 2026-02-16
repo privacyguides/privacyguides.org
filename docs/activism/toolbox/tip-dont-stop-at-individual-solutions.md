@@ -10,8 +10,6 @@ hide:
 
 <style>.md-content__button {display: none;}</style>
 
-[:material-toolbox: Back to Toolbox](index.md){align=right}
-
 # Don't Stop at Individual Solutions, Consider The Collective Impact
 
 ![Colored banner with four icons on it, a toolbox, a hammer, people with radiating lines, and a wrench.](../images/banners/banner-toolbox-tip-expand.webp){align=top}

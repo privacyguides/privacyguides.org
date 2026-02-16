@@ -10,8 +10,6 @@ hide:
 
 <style>.md-content__button {display: none;}</style>
 
-[:material-toolbox: Back to Toolbox](index.md){align=right}
-
 # Improve Your Social Media and Build Resilient Communities
 
 ![Colored banner with four icons on it, a toolbox, a hammer, an octagon, and a wrench.](../images/banners/banner-toolbox-tip-plant.webp){align=top}

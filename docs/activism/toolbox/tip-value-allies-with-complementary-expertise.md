@@ -10,8 +10,6 @@ hide:
 
 <style>.md-content__button {display: none;}</style>
 
-[:material-toolbox: Back to Toolbox](index.md){align=right}
-
 # Value Allies with Complementary Expertise
 
 ![Colored banner with four icons on it, a toolbox, a hammer, a circle with half dark and half light, and a wrench.](../images/banners/banner-toolbox-tip-complement.webp){align=top}

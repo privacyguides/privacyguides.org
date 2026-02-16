@@ -10,8 +10,6 @@ hide:
 
 <style>.md-content__button {display: none;}</style>
 
-[:material-toolbox: Back to Toolbox](index.md){align=right}
-
 # Consider Everyone's Unique Situation
 
 ![Colored banner with four icons on it, a toolbox, a hammer, people with a line over and under, and a wrench.](../images/banners/banner-toolbox-tip-everyone.webp){align=top}

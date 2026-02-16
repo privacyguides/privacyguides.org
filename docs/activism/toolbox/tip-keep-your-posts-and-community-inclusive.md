@@ -10,8 +10,6 @@ hide:
 
 <style>.md-content__button {display: none;}</style>
 
-[:material-toolbox: Back to Toolbox](index.md){align=right}
-
 # Keep Your Posts and Community Inclusive
 
 ![Colored banner with four icons on it, a toolbox, a hammer, a heart with a plus sign, and a wrench.](../images/banners/banner-toolbox-tip-inclusivity.webp){align=top}

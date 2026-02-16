@@ -10,8 +10,6 @@ hide:
 
 <style>.md-content__button {display: none;}</style>
 
-[:material-toolbox: Back to Toolbox](index.md){align=right}
-
 # Know Your Privacy Laws
 
 ![Colored banner with four icons on it, a toolbox, a hammer, a scale, and a wrench.](../images/banners/banner-toolbox-tip-laws.webp){align=top}

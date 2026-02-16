@@ -10,8 +10,6 @@ hide:
 
 <style>.md-content__button {display: none;}</style>
 
-[:material-toolbox: Back to Toolbox](index.md){align=right}
-
 # Support Your Privacy Comrades
 
 ![Colored banner with four icons on it, a toolbox, a hammer, a hand holding a heart, and a wrench.](../images/banners/banner-toolbox-tip-support.webp){align=top}

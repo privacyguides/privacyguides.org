@@ -10,8 +10,6 @@ hide:
 
 <style>.md-content__button {display: none;}</style>
 
-[:material-toolbox: Back to Toolbox](index.md){align=right}
-
 # Protect Your Allies
 
 ![Colored banner with four icons on it, a toolbox, a hammer, a shield with a heart, and a wrench.](../images/banners/banner-toolbox-tip-protect.webp){align=top}

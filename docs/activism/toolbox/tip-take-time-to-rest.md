@@ -10,8 +10,6 @@ hide:
 
 <style>.md-content__button {display: none;}</style>
 
-[:material-toolbox: Back to Toolbox](index.md){align=right}
-
 # Take Time to Rest, But Come Back to Fight With Us
 
 ![Colored banner with four icons on it, a toolbox, a hammer, a low battery, and a wrench.](../images/banners/banner-toolbox-tip-rest.webp){align=top}

@@ -10,8 +10,6 @@ hide:
 
 <style>.md-content__button {display: none;}</style>
 
-[:material-toolbox: Back to Toolbox](index.md){align=right}
-
 # Beware of Privacy Snake Oil
 
 ![Colored banner with four icons on it, a toolbox, a hammer, a skull and bones, and a wrench.](../images/banners/banner-toolbox-tip-snakeoil.webp){align=top}
