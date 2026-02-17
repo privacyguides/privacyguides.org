@@ -203,7 +203,7 @@ Fighting for privacy rights is a collective endeavor. You cannot do it alone. An
 
 ![Two hands holding a sphere icon](../../assets/img/activism/icons/icon-tips/icon-tips-kind.webp){class="toolbox-tip-icon"}
 
-Kindness is an essential quality for privacy advocates. To grow our movement, we must meet people from a place of camaraderie. People don't change their mind by being berated. However, this isn't true for institutions. Learn more on how you can integrate kindness in your work, while being relentless with institutions.
+Kindness is essential for privacy advocates. To grow our movement, we must meet people from a place of camaraderie. People don't change their mind by being berated. However, this isn't true for institutions. Learn more on how you can integrate kindness in your work, while being relentless with institutions.
 
 <p align="right">Learn More ►</p>
 
