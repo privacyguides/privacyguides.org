@@ -13,6 +13,7 @@ markdown_extensions:
         - tools.md
         - about.md
         - about/*
+        - activism/*
     targets:
       exclude:
         - about/contributors.md
