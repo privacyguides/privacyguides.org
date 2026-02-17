@@ -20,68 +20,23 @@ This page is also a resource to help digital rights organizations that would lik
 
 <div class="toolbox-button-grid" markdown>
 
-<a href="#check-your-laws">
-<button class="toolbox-button toolbox-bg-legal" markdown>
-    ![Scale icon](../images/icons/scale-balanced-solid-full.svg){ .toolbox-button-icon }
-    Check<br>Your Laws
-</button>
-</a>
+[:fontawesome-solid-scale-balanced:{ .toolbox-button-icon } Check<br>Your Laws](#check-your-laws){ .toolbox-button .toolbox-bg-legal }
 
-<a href="#choose-your-tools">
-<button class="toolbox-button toolbox-bg-tools" markdown>
-    ![Toolbox icon](../images/icons/toolbox-solid-full.svg){ .toolbox-button-icon }
-    Choose<br>Your Tools
-</button>
-</a>
+[:fontawesome-solid-toolbox:{ .toolbox-button-icon } Choose<br>Your Tools](#choose-your-tools){ .toolbox-button .toolbox-bg-tools }
 
-<a href="#expand-your-perspective">
-<button class="toolbox-button toolbox-bg-perspective" markdown>
-    ![Group icon](../images/icons/users-rays-solid-full.svg){ .toolbox-button-icon }
-    Expand Your Perspective
-</button>
-</a>
+[:fontawesome-solid-users-rays:{ .toolbox-button-icon } Expand Your Perspective](#expand-your-perspective){ .toolbox-button .toolbox-bg-perspective }
 
-<a href="#support-the-community">
-<button class="toolbox-button toolbox-bg-community" markdown>
-    ![Hand holding icon](../images/icons/hands-holding-circle-solid.svg){ .toolbox-button-icon }
-    Support The Community
-</button>
-</a>
+[:fontawesome-solid-hands-holding-circle:{ .toolbox-button-icon } Support The Community](#support-the-community){ .toolbox-button .toolbox-bg-community }
 
-<a href="#build-alliances">
-<button class="toolbox-button toolbox-bg-alliances" markdown>
-    ![Handshake icon](../images/icons/handshake-angle-solid.svg){ .toolbox-button-icon }
-    Build<br>Alliances
-</button>
-</a>
+[:fontawesome-solid-handshake-angle:{ .toolbox-button-icon } Build<br>Alliances](#build-alliances){ .toolbox-button .toolbox-bg-alliances }
 
-<a href="#make-it-accessible">
-<button class="toolbox-button toolbox-bg-accessibility" markdown>
-    ![Checked heart icon](../images/icons/heart-circle-check-solid.svg){ .toolbox-button-icon }
-    Make It Accessible
-</button>
-</a>
+[:fontawesome-solid-heart-circle-check:{ .toolbox-button-icon } Make It Accessible](#make-it-accessible){ .toolbox-button .toolbox-bg-accessibility }
 
-<a href="#uphold-integrity">
-<button class="toolbox-button toolbox-bg-integrity" markdown>
-    ![Star icon](../images/icons/star-solid-full.svg){ .toolbox-button-icon }
-    Uphold<br>Integrity
-</button>
-</a>
+[:fontawesome-solid-star:{ .toolbox-button-icon } Uphold<br>Integrity](#uphold-integrity){ .toolbox-button .toolbox-bg-integrity }
 
-<a href="#stay-persistent">
-<button class="toolbox-button toolbox-bg-persistence" markdown>
-    ![Heart icon](../images/icons/heart-solid.svg){ .toolbox-button-icon }
-    Stay<br>Persistent
-</button>
-</a>
+[:fontawesome-solid-heart:{ .toolbox-button-icon } Stay<br>Persistent](#stay-persistent){ .toolbox-button .toolbox-bg-persistence }
 
-<a href="#take-action">
-<button class="toolbox-button toolbox-bg-action" markdown>
-    ![Fist icon](../images/icons/hand-fist-solid-full.svg){ .toolbox-button-icon }
-    Take Action!
-</button>
-</a>
+[:fontawesome-solid-hand-fist:{ .toolbox-button-icon } Take<br>Action!](#take-action){ .toolbox-button .toolbox-bg-action }
 
 </div>
 

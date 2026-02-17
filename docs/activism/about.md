@@ -21,5 +21,8 @@ For privacy to become a valued and respected human right, **we must work togethe
 
 This section will progressively grow with more tools to support the community in its privacy advocacy and activism effort. The Privacy Activist Toolbox is the first part of this new development.
 
-<style>.category-button {background-color: var(--pg-blue);}</style>
-[<div class="category-button" markdown>![Toolbox icon](images/icons/toolbox-solid-full.svg){.category-button-icon} Privacy Activist Toolbox</div>](toolbox/index.md)
+<div class="toolbox-button-grid" markdown>
+
+[:fontawesome-solid-toolbox:{ .toolbox-button-icon } Privacy Activist Toolbox](toolbox/index.md){ .toolbox-button .toolbox-bg-legal }
+
+</div>

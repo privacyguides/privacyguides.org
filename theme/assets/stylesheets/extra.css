@@ -628,7 +628,7 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
 }
 
 /* Category Button Style*/
-.category-button {
+.md-typeset .category-button {
     display:flex;
     text-align: center;
     font-weight: bold;
@@ -639,13 +639,13 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
     border-radius: 12px;
 }
 
-.category-button:hover {
+.md-typeset .category-button:hover {
     position: relative;
     transform: scale(1.01);
     box-shadow: 5px 10px 10px 5px rgba(0,0,0,0.3);
 }
 
-.category-button a, .category-button a:hover {
+.md-typeset .category-button a, .md-typeset .category-button a:hover {
     color: #ffffff;
 }
 
@@ -665,7 +665,7 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
     grid-gap: 0.7rem;
 }
 
-.toolbox-button {
+.toolbox-button-grid .toolbox-button {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -676,24 +676,28 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
     height: 7rem;
     width: 7rem;
     color: white;
-    background-color: grey;
     padding: 5px;
     border: 2px solid var(--pg-light-border);
     border-radius: 12px;
     cursor: pointer;
 }
 
-.toolbox-button:hover {
+.toolbox-button-grid .toolbox-button:hover {
     position: relative;
     transform: scale(1.08);
     box-shadow: 5px 10px 10px 5px rgba(0,0,0,0.3);
+    color: white;
 }
 
-.toolbox-button-icon {
+.toolbox-button-grid .toolbox-button-icon {
+    height: 5em;
     display: inline-flex;
     padding: 8px 30px 5px 30px;
     overflow: visible;
-    filter: invert(1);
+}
+
+.toolbox-button-grid .toolbox-button-icon svg {
+    width: 5em;
 }
 
 /* Toolbox Button Colors*/
