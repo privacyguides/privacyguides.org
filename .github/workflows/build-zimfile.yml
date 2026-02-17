@@ -79,6 +79,8 @@ jobs:
           sudo apt install pngquant
 
       - name: Generate Donating Members List
+        env:
+          MEMBERS_API_URL: ${{ secrets.MEMBERS_API_URL }}
         continue-on-error: true
         run: |
           pip install requests
@@ -218,6 +220,8 @@ jobs:
           sudo apt install pngquant
 
       - name: Generate Donating Members List
+        env:
+          MEMBERS_API_URL: ${{ secrets.MEMBERS_API_URL }}
         continue-on-error: true
         run: |
           pip install requests
@@ -465,6 +469,8 @@ jobs:
           sudo apt install pngquant
 
       - name: Generate Donating Members List
+        env:
+          MEMBERS_API_URL: ${{ secrets.MEMBERS_API_URL }}
         continue-on-error: true
         run: |
           pip install requests
