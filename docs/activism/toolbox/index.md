@@ -89,10 +89,10 @@ In your privacy advocacy, it's essential to use and recommend tools that are rel
 </div>
 </a>
 
-<a href="tip-migrate-outside-of-the-surveillance-ecosystem">
+<a href="tip-migrate-outside-the-surveillance-ecosystem">
 <div class="toolbox-tip-card toolbox-border-tools" markdown>
 
-### 2. Migrate outside of the surveillance ecosystem
+### 2. Migrate outside the surveillance ecosystem
 
 ![Arrow pointing out of a square icon](../../assets/img/activism/icons/icon-tips/icon-tips-migrate.webp){class="toolbox-tip-icon"}
 
@@ -203,7 +203,7 @@ Fighting for privacy rights is a collective endeavor. You cannot do it alone. An
 
 ![Two hands holding a sphere icon](../../assets/img/activism/icons/icon-tips/icon-tips-kind.webp){class="toolbox-tip-icon"}
 
-Kindness is an essential quality for privacy advocates. To grow our movement, we must meet people from a place of comradery. People don't change their mind by being berated. However, this isn't true for institutions. Learn more on how you can integrate kindness in your work, while being relentless with institutions.
+Kindness is an essential quality for privacy advocates. To grow our movement, we must meet people from a place of camaraderie. People don't change their mind by being berated. However, this isn't true for institutions. Learn more on how you can integrate kindness in your work, while being relentless with institutions.
 
 <p align="right">Learn More ►</p>
 

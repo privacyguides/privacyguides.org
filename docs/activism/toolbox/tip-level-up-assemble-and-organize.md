@@ -126,7 +126,7 @@ Here are a few privacy-focused tools and services that can help you to organize 
 
 - It can be [self-hosted](https://lauti.org/#getstarted), or used with a [server](https://lauti.org/#instances) of your choice.
 
-- It offers connection through open-standard feeds in ICAL and RSS formats.
+- It offers connection through open-standard feeds in iCal and RSS formats.
 
 - Maintained by the German collective [Klasse & Methode - IT Kollektiv Stuttgart](https://klasse-methode.it/).
 
@@ -215,7 +215,7 @@ Here are a few privacy-focused tools and services that can help you to organize 
 
 - It allows people to follow your posts and events by [following your custom hashtags](https://fedi.tips/how-do-i-follow-hashtags-on-mastodon-and-the-fediverse/) on Mastodon (or the Fediverse), or even outside of Mastodon completely using [RSS feeds](https://fedi.tips/following-mastodon-and-fediverse-accounts-through-rss/).
 
-- It allows to [verify your account](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/#verifying-yourself-and-others) for free, and add official [author attribution](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/#author-attribution-for-journalists-and-writers) for your content.
+- It allows you to [verify your account](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/#verifying-yourself-and-others) for free, and add official [author attribution](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/#author-attribution-for-journalists-and-writers) for your content.
 
 - Developed by the German nonprofit [Mastodon gGmbH](https://joinmastodon.org/de/about).
 
@@ -248,7 +248,7 @@ To organize with your group, use a privacy-focused calendar tool that offers end
 <details class="info" markdown>
 <summary>More Alternatives &nbsp;📗</summary>
 
- For more on better alternatives to use, you can check this [tip on why and how to migrate outside of Big Tech](tip-migrate-outside-of-the-surveillance-ecosystem.md) for your privacy advocacy work.
+ For more on better alternatives to use, you can check this [tip on why and how to migrate away from Big Tech](tip-migrate-outside-the-surveillance-ecosystem.md) for your privacy advocacy work.
 
 </details>
 

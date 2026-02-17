@@ -1,5 +1,5 @@
 ---
-title: Migrate Outside of The Surveillance Ecosystem
+title: Migrate Outside The Surveillance Ecosystem
 description: As privacy activists, it's important to lead by example and support the tools and organizations with good privacy practices, by moving away from Big Tech.
 preview:
   cover: activism/images/banners/banner-toolbox-tip-migrate.webp
@@ -31,7 +31,7 @@ While using the most popular mainstream tools and platforms for our work might s
 
 💛&nbsp; 5. Finally, the fifth drawback is that we need to be *leading by example* and demonstrate that it is possible to **live a connected life without using privacy-invasive tech**.
 
-Because a better world *is* actually possible, right now. It might not be as easy and as convenient, but it's certainly possible to thrive outside of the Big Tech surveillance apparatus, especially for privacy activists and digital rights organizations.
+Because a better world *is* actually possible, right now. It might not be as easy and as convenient, but it's certainly possible to thrive outside the Big Tech surveillance apparatus, especially for privacy activists and digital rights organizations.
 
 As the saying goes: **If not us, then who? If not now, then when?**
 
@@ -69,7 +69,7 @@ For each proposed alternative, you should always first consider your own [threat
 
 If you use your own custom domain name for email addresses, let the people you communicate with know what your service provider is.
 
-That way, they will know that if they use a compatible service provider, they might benefit from end-to-end encription protections for the content of their communications with you without requiring any additional steps. For example, this is the case when emailing from a Proton Mail account to another Proton Mail account, or from a Tuta Mail account to another Tuta Mail account.
+That way, they will know that if they use a compatible service provider, they might benefit from end-to-end encryption protections for the content of their communications with you without requiring any additional steps. For example, this is the case when emailing from a Proton Mail account to another Proton Mail account, or from a Tuta Mail account to another Tuta Mail account.
 
 </div>
 
@@ -91,7 +91,7 @@ That way, they will know that if they use a compatible service provider, they mi
 
 💼&nbsp; **Candidates data:** If your organization hires people, be mindful of how you handle candidates' data. Try to select privacy-respectful solutions such as email communication instead of using commercial platforms that might share candidates' data with third-parties. Only request the minimum information required from applicants, and always delete all data you are no longer required to keep, as soon as you don't need it anymore.
 
-📞&nbsp; **Availability:** Make sure you or your organization is reachable outside of the Big Tech ecosystem. If your organization only has a Facebook page, then people without a Facebook account cannot reach out to you. The same is true for other commercial social media. Instead, try to rely on a website you control yourself, or a social network page you can host yourself.
+📞&nbsp; **Availability:** Make sure you or your organization is reachable outside the Big Tech ecosystem. If your organization only has a Facebook page, then people without a Facebook account cannot reach out to you. The same is true for other commercial social media. Instead, try to rely on a website you control yourself, or a social network page you can host yourself.
 
 🐘&nbsp; **Social media:** Move away from commercial social media platforms. Mainstream platforms are almost all abusing their users' data. By keeping an account there, you are indirectly encouraging your followers to stay there as well, perpetuating the platform's abuse.
 

@@ -99,7 +99,7 @@ If your event provides meals, snacks, or drinks, make sure to prepare well in-ad
 
 - [x] Try to provide food and beverages that will cover a variety of dietary needs, such as vegan, nut-free, gluten-free, lactose-free, alcohol-free, or low-sugar options.
 
-- [x] If you host a large event, consider keeping a few [EpiPens](https://greatergood.com/blogs/news/epinephrine-public-areas) available on site in your emergency kit, in case anyone experiences a dangerous allergic reaction.
+- [x] If you host a large event, consider keeping a few [epinephrine autoinjectors](https://greatergood.com/blogs/news/epinephrine-public-areas) available on site in your emergency kit, in case anyone experiences a dangerous allergic reaction.
 
 - [x] Make sure guests will have access to free and clean water, especially if your event is scheduled during a heat wave.
 

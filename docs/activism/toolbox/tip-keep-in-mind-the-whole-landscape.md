@@ -81,7 +81,7 @@ Here are a few practices to improve our culture surrounding data privacy that yo
 
 - [x] Physically and visibly unplugging any smart devices equipped with a microphone or camera at home before any guesses enter. If this isn't possible for some reason, then informing the guesses about these devices *before* they enter the home, and *before* the device collects any information about them.
 
-- [x] Never using devices such as Meta's RayBan glasses, or other devices equipped with a microphone and/or camera that might record others without their consent.
+- [x] Never using devices such as Meta's Ray-Ban glasses, or other devices equipped with a microphone and/or camera that might record others without their consent.
 
 ## More resources
 

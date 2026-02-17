@@ -21,7 +21,7 @@ Moreover, it's important to consider others in different situations. For example
 
 While in some cases we might want to discuss immediate individual solutions in order to mitigate some harm, **we must also attack the root cause of the problem**.
 
-If we only think of individual solutions when a corporation exploit our data, or a government adopts a privacy-invasive regulation, **we risk letting our guard down** by giving up the fight early. This makes the problem harder to fight later on, and results in more harm to our communities, and eventually to ourselves as well.
+If we only think of individual solutions when a corporation exploits our data, or a government adopts a privacy-invasive regulation, **we risk letting our guard down** by giving up the fight early. This makes the problem harder to fight later on, and results in more harm to our communities, and eventually to ourselves as well.
 
 ## Things to keep in mind when a privacy issue arises
 

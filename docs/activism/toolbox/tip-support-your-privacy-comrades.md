@@ -17,7 +17,7 @@ Here are things you can do to support your privacy comrades:
 
 We live in a world of social connections. When we moved these connections online, we regrettably also gave power to large corporations to monitor and monetize our social relationships and communications.
 
-Many privacy advocates will choose, rightly so, to [leave](tip-migrate-outside-of-the-surveillance-ecosystem.md) entirely those abusive platforms. Sadly, a side effect of this is often severed relationships with loved ones, who refuse to join us on better privacy-respectful environments. Many of us have lost friends when we quit Facebook, or refused to join a Discord server. Taking a stand for our privacy values can come at the cost of some painful social losses.
+Many privacy advocates will choose, rightly so, to [leave](tip-migrate-outside-the-surveillance-ecosystem.md) entirely those abusive platforms. Sadly, a side effect of this is often severed relationships with loved ones, who refuse to join us on better privacy-respectful environments. Many of us have lost friends when we quit Facebook, or refused to join a Discord server. Taking a stand for our privacy values can come at the cost of some painful social losses.
 
 Moreover, fighting to protect privacy rights while reading about attacks on those rights every day in the news can be draining.
 

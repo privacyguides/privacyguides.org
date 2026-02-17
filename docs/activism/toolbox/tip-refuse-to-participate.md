@@ -25,7 +25,7 @@ While it might be ambitious to expect people who aren't even aware of privacy is
 
 Each time we use a platform, tool, or service that is privacy-invasive in our practice, we also contribute in **normalizing the use of privacy-abusive software**.
 
-It's not always easy to [leave Big Tech](tip-migrate-outside-of-the-surveillance-ecosystem.md) and adopt more privacy-preserving technologies in our daily work. Nevertheless, it's an essential part of our advocacy.
+It's not always easy to [leave Big Tech](tip-migrate-outside-the-surveillance-ecosystem.md) and adopt more privacy-preserving technologies in our daily work. Nevertheless, it's an essential part of our advocacy.
 
 When we use products that do not reflect the values we are asking people to adopt, we not only undermine our own credibility as privacy advocates, but we also harm the privacy rights movement as a whole. It's crucial to lead by example and publicly refuse to use and participate in privacy-abusive platforms, as much as feasible for our situation.
 
@@ -41,7 +41,7 @@ There are many ways to refuse to participate in privacy-invasive practices and p
 
 🏷️&nbsp; Read apps' privacy-labels, and always favor applications that are the least intrusive.
 
-📦&nbsp; Migrate [away from abusive Big Tech](tip-migrate-outside-of-the-surveillance-ecosystem.md) products and platforms.
+📦&nbsp; Migrate [away from abusive Big Tech](tip-migrate-outside-the-surveillance-ecosystem.md) products and platforms.
 
 🌱&nbsp; Try to move out or reduce your usage of [privacy-exploiting social media](tip-improve-your-social-media-and-build-resilient-communities.md).
 
