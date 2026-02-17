@@ -1,6 +1,6 @@
 ---
-title: Build Alliances, Not Wars
-description: People in the privacy community can have different views that can create conflicts at times. For our community to thrive, we must build alliances, not wars.
+title: Start Alliances, Not Wars
+description: People in the privacy community can have different views that can create conflicts at times. For our community to thrive, we must start alliances, not wars.
 preview:
   cover: activism/images/banners/banner-toolbox-tip-alliances.webp
 hide:
@@ -45,7 +45,7 @@ Newcomers get confused when they receive competing new information. **Confusion 
 
 **None of us win if people stop listening and stay with Big Tech because we are too busy fighting each other.** Instead of damaging the movement with infighting, combat inertia and build alliances with each other.
 
-## How to build alliances
+## How to start alliances
 
 Here are a few ideas to start building alliances within the privacy community:
 

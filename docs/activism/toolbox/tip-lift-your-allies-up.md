@@ -15,7 +15,7 @@ Here's how you can lift your allies up, and help to grow the movement:
 
 ## Your allies share your goals
 
-It's easy to get lost in our own niche advocacy, and lose track of what others in our community are working on. Nevertheless, if we want to [**build a movement**](tip-build-alliances-not-wars.md) (and to succeed, we must), we need all the help we can get, from every person and organization sharing our values.
+It's easy to get lost in our own niche advocacy, and lose track of what others in our community are working on. Nevertheless, if we want to [**build a movement**](tip-start-alliances-not-wars.md) (and to succeed, we must), we need all the help we can get, from every person and organization sharing our values.
 
 - [x] Whenever you see an organization with a campaign compatible with your mission, lift them up!
 

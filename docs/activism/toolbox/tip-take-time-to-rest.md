@@ -65,7 +65,7 @@ Additionally, the fact that we have to incessantly push against a tidal wave of 
 
 🏡&nbsp; **Find friends:** Find a [community of peers](https://discuss.privacyguides.net/) you can talk to. Exchange resources and seek support from your community. Remember that you aren't alone in this battle.
 
-🙌&nbsp; **Split the work:** Delegate tasks to privacy comrades. Seek allies and [alliances](tip-build-alliances-not-wars.md). Reach out for help, and don't take all the responsibilities of your projects on your own shoulders. Build a team, and learn to trust others with the work.
+🙌&nbsp; **Split the work:** Delegate tasks to privacy comrades. Seek allies and [alliances](tip-start-alliances-not-wars.md). Reach out for help, and don't take all the responsibilities of your projects on your own shoulders. Build a team, and learn to trust others with the work.
 
 🎉&nbsp; **Celebrate!** Take the time to celebrate each victory, no matter how small. Celebrate with your peers too, and never miss an opportunity to [congratulate](tip-give-credit-where-credit-is-due.md) everyone's hard work.
 
