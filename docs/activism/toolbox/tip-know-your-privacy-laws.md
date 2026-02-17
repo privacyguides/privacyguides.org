@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-laws.webp
 hide:
   - feedback
+icon: fontawesome/solid/balance-scale
 ---
 # Know Your Privacy Laws
 

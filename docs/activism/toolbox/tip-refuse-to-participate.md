@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-refuse.webp
 hide:
   - feedback
+icon: fontawesome/solid/xmark-circle
 ---
 # Refuse to Participate
 

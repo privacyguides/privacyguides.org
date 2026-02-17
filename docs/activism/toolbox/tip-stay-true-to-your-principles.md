@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-principles.webp
 hide:
   - feedback
+icon: fontawesome/solid/star
 ---
 # Stay True to Your Principles
 

@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-expand.webp
 hide:
   - feedback
+icon: fontawesome/solid/users-rays
 ---
 # Don't Stop at Individual Solutions, Consider The Collective Impact
 

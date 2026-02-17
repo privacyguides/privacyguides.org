@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-cute.webp
 hide:
   - feedback
+icon: fontawesome/solid/cat
 ---
 # Make It Cute
 

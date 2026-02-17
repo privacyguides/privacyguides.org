@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-credit.webp
 hide:
   - feedback
+icon: fontawesome/solid/thumbs-up
 ---
 # Give Credit Where Credit Is Due
 

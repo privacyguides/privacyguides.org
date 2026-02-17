@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-inclusivity.webp
 hide:
   - feedback
+icon: fontawesome/solid/heart-circle-plus
 ---
 # Keep Your Posts and Community Inclusive
 

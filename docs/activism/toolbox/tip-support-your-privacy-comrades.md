@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-support.webp
 hide:
   - feedback
+icon: fontawesome/solid/hand-holding-heart
 ---
 # Support Your Privacy Comrades
 

@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-alliances.webp
 hide:
   - feedback
+icon: fontawesome/solid/handshake-angle
 ---
 # Build Alliances, Not Wars
 

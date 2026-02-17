@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-snakeoil.webp
 hide:
   - feedback
+icon: fontawesome/solid/skull-crossbones
 ---
 # Beware of Privacy Snake Oil
 

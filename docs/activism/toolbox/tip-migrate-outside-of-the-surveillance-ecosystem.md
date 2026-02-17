@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-migrate.webp
 hide:
   - feedback
+icon: fontawesome/solid/arrow-right-from-bracket
 ---
 # Migrate Outside of The Surveillance Ecosystem
 

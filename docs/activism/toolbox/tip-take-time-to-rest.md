@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-rest.webp
 hide:
   - feedback
+icon: fontawesome/solid/battery-quarter
 ---
 # Take Time to Rest, But Come Back to Fight With Us
 

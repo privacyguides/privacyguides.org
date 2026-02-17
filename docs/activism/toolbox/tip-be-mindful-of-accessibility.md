@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-accessibility.webp
 hide:
   - feedback
+icon: fontawesome/solid/heart-circle-check
 ---
 # Be Mindful of Accessibility
 

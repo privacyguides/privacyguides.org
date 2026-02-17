@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-small.webp
 hide:
   - feedback
+icon: fontawesome/solid/puzzle-piece
 ---
 # Small Actions Matter
 

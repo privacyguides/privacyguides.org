@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-protect.webp
 hide:
   - feedback
+icon: fontawesome/solid/shield-heart
 ---
 # Protect Your Allies
 

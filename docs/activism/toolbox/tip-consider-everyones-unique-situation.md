@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-everyone.webp
 hide:
   - feedback
+icon: fontawesome/solid/users-between-lines
 ---
 # Consider Everyone's Unique Situation
 

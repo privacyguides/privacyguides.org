@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-action.webp
 hide:
   - feedback
+icon: fontawesome/solid/fist-raised
 ---
 # Level Up! Assemble and Organize
 

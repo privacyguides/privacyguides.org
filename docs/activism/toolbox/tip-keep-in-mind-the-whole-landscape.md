@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-landscape.webp
 hide:
   - feedback
+icon: fontawesome/solid/globe
 ---
 # Keep in Mind The Whole Landscape
 

@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-beginners.webp
 hide:
   - feedback
+icon: fontawesome/solid/user-plus
 ---
 # Welcome Beginners
 

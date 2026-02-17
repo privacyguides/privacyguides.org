@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-report.webp
 hide:
   - feedback
+icon: fontawesome/solid/gavel
 ---
 [:material-toolbox:  Back to Toolbox](index.md){align=right}
 

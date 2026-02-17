@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-kind.webp
 hide:
   - feedback
+icon: fontawesome/solid/hands-holding-circle
 ---
 # Be Kind to People, But Be Relentless With Institutions
 

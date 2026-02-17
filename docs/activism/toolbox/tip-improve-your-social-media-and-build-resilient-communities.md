@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-plant.webp
 hide:
   - feedback
+icon: fontawesome/solid/seedling
 ---
 # Improve Your Social Media and Build Resilient Communities
 

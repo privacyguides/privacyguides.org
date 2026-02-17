@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-complement.webp
 hide:
   - feedback
+icon: fontawesome/solid/circle-half-stroke
 ---
 # Value Allies with Complementary Expertise
 

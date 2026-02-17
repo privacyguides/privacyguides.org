@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-engage.webp
 hide:
   - feedback
+icon: fontawesome/solid/bullhorn
 ---
 # Engage, Boost, and Contribute
 

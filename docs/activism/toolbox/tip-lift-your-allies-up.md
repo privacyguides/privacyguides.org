@@ -5,6 +5,7 @@ preview:
   cover: activism/images/banners/banner-toolbox-tip-lift.webp
 hide:
   - feedback
+icon: fontawesome/solid/hand-holding-hand
 ---
 # Lift Your Allies Up
 
