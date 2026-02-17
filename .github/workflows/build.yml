@@ -30,6 +30,9 @@ on:
       cache:
         type: boolean
         default: true
+    secrets:
+      MEMBERS_API_URL:
+        required: false
 
 permissions:
   contents: read
@@ -173,6 +176,8 @@ jobs:
           echo "EXTRA_FLAGS=""$EXTRA_FLAGS" --cmd=mkdocs"" >> "$GITHUB_ENV"
 
       - name: Generate Donating Members List
+        env:
+          MEMBERS_API_URL: ${{ secrets.MEMBERS_API_URL }}
         continue-on-error: true
         run: |
           pip install requests
