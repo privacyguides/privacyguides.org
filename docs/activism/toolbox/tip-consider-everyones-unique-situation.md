@@ -7,8 +7,6 @@ hide:
   - feedback
 icon: fontawesome/solid/users-between-lines
 ---
-# Consider Everyone's Unique Situation
-
 ![Colored banner with four icons on it, a toolbox, a hammer, people with a line over and under, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-everyone.webp){align=top}
 
 Everyone has different needs, and everyone faces different dangers when their personal data gets exposed. To give actionable privacy advices and recommendations, it's essential to keep in mind everyone's situation. There isn't a one-size-fits-all approach when it comes to data privacy.

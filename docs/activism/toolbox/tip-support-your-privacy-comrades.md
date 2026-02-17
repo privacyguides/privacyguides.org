@@ -7,8 +7,6 @@ hide:
   - feedback
 icon: fontawesome/solid/hand-holding-heart
 ---
-# Support Your Privacy Comrades
-
 ![Colored banner with four icons on it, a toolbox, a hammer, a hand holding a heart, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-support.webp){align=top}
 
 Fighting for better privacy rights, privacy tools, and privacy practices is a collective endeavor. You cannot do it alone. Anyone around you contributing is fighting the same battle by your side. This battle can be difficult and isolating at time. This is why it's critical to care for each other.

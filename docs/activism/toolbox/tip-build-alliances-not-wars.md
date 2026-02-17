@@ -7,8 +7,6 @@ hide:
   - feedback
 icon: fontawesome/solid/handshake-angle
 ---
-# Build Alliances, Not Wars
-
 ![Colored banner with four icons on it, a toolbox, a hammer, a handshake, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-alliances.webp){align=top}
 
 The privacy community is made of a patchwork of individuals, activists, organizations, and businesses that sometimes hold quite different views. These divergences can create conflict and friction at times.

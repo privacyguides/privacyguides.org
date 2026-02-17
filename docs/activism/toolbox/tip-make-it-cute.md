@@ -7,8 +7,6 @@ hide:
   - feedback
 icon: fontawesome/solid/cat
 ---
-# Make It Cute
-
 ![Colored banner with four icons on it, a toolbox, a hammer, a cat, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-cute.webp){align=top}
 
 If you are developing a privacy-focused application or website, it's important that you do not neglect the design aspect of it. This is a common mistake that can have a significant negative impact on adoption by a general audience. Make it cute!

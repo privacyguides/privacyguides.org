@@ -7,8 +7,6 @@ hide:
   - feedback
 icon: fontawesome/solid/thumbs-up
 ---
-# Give Credit Where Credit Is Due
-
 ![Colored banner with four icons on it, a toolbox, a hammer, a thumbs up, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-credit.webp){align=top}
 
 To succeed in our battle, we must support each other. A good way to accomplish this is to never forget to give credit where credit is due. When another advocate or organization says something you agree with, boost them up, spread their reach, and thank them publicly.

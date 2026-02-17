@@ -7,8 +7,6 @@ hide:
   - feedback
 icon: fontawesome/solid/skull-crossbones
 ---
-# Beware of Privacy Snake Oil
-
 ![Colored banner with four icons on it, a toolbox, a hammer, a skull and bones, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-snakeoil.webp){align=top}
 
 In your privacy advocacy, it's essential to use and recommend tools that are reliable to protect privacy. For this, you need to investigate and remain highly skeptical of any dangerous or unproven marketing claims.

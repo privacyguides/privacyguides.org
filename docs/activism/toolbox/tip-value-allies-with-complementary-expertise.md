@@ -7,8 +7,6 @@ hide:
   - feedback
 icon: fontawesome/solid/circle-half-stroke
 ---
-# Value Allies with Complementary Expertise
-
 ![Colored banner with four icons on it, a toolbox, a hammer, a circle with half dark and half light, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-complement.webp){align=top}
 
 In privacy like in other areas of life, **diversity is an incredible strength**. If you want your community to have a broad understanding of threat models, and be able to address issues on multiple levels, you need to value a diversity of expertises.

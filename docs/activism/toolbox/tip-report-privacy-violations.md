@@ -7,10 +7,6 @@ hide:
   - feedback
 icon: fontawesome/solid/gavel
 ---
-[:material-toolbox:  Back to Toolbox](index.md){align=right}
-
-# Report Privacy Violations
-
 ![Colored banner with four icons on it, a toolbox, a hammer, a gavel, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-report.webp){align=top}
 
 Once you are [informed on your local privacy laws](tip-know-your-privacy-laws.md), it's important to get familiar with the process to report violations of the law. Submitting an official complaint is often simple, and can have a significant impact both for yourself and for your community.
