@@ -9,7 +9,7 @@ icon: fontawesome/solid/xmark-circle
 ---
 # Refuse to Participate
 
-![Colored banner with four icons on it, a toolbox, a hammer, a circle with an x, and a wrench.](../images/banners/banner-toolbox-tip-refuse.webp){align=top}
+![Colored banner with four icons on it, a toolbox, a hammer, a circle with an x, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-refuse.webp){align=top}
 
 As privacy advocates and activists, it's important to be a voice for resistance and take a stand against abusive practices. One substantial way to do this is to refuse to participate in privacy-intrusive requests, or use invasive software.
 

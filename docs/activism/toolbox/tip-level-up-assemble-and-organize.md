@@ -9,7 +9,7 @@ icon: fontawesome/solid/fist-raised
 ---
 # Level Up! Assemble and Organize
 
-![Colored banner with four icons on it, a toolbox, a hammer, a raised fist, and a wrench.](../images/banners/banner-toolbox-tip-organize.webp){align=top}
+![Colored banner with four icons on it, a toolbox, a hammer, a raised fist, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-organize.webp){align=top}
 
 If you've been a privacy advocate for a while, maybe it's time to level up and grow as a leader in your community.
 

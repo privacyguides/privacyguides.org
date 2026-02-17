@@ -9,7 +9,7 @@ icon: fontawesome/solid/puzzle-piece
 ---
 # Small Actions Matter
 
-![Colored banner with four icons on it, a toolbox, a hammer, a puzzle piece, and a wrench.](../images/banners/banner-toolbox-tip-small.webp){align=top}
+![Colored banner with four icons on it, a toolbox, a hammer, a puzzle piece, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-small.webp){align=top}
 
 There is so much to do in the movement for better privacy rights. So much, that it's sometime easy to feel discouraged when facing the scale of what's left to accomplish. But everything helps. Every small improvement counts, and every small victory should be celebrated.
 

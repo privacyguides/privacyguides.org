@@ -9,7 +9,7 @@ icon: fontawesome/solid/battery-quarter
 ---
 # Take Time to Rest, But Come Back to Fight With Us
 
-![Colored banner with four icons on it, a toolbox, a hammer, a low battery, and a wrench.](../images/banners/banner-toolbox-tip-rest.webp){align=top}
+![Colored banner with four icons on it, a toolbox, a hammer, a low battery, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-rest.webp){align=top}
 
 The battle for privacy rights will be a long one. **This isn't a sprint, it's a marathon.**
 

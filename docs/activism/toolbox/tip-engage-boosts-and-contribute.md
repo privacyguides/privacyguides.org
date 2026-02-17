@@ -9,7 +9,7 @@ icon: fontawesome/solid/bullhorn
 ---
 # Engage, Boost, and Contribute
 
-![Colored banner with four icons on it, a toolbox, a hammer, a megaphone, and a wrench.](../images/banners/banner-toolbox-tip-engage.webp){align=top}
+![Colored banner with four icons on it, a toolbox, a hammer, a megaphone, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-engage.webp){align=top}
 
 Once you have the knowledge, motivation, and energy, it's time to act! Perhaps you've read all the tips here, or read all of Privacy Guides' [Knowledge Base](../../basics/why-privacy-matters.md) already! But you don't need to know that much about privacy to start contributing.
 

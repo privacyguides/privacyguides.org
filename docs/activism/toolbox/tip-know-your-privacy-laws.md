@@ -7,9 +7,7 @@ hide:
   - feedback
 icon: fontawesome/solid/balance-scale
 ---
-# Know Your Privacy Laws
-
-![Colored banner with four icons on it, a toolbox, a hammer, a scale, and a wrench.](../images/banners/banner-toolbox-tip-laws.webp){align=top}
+![Colored banner with four icons on it, a toolbox, a hammer, a scale, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-laws.webp){align=top}
 
 Being well-informed about the data protection regulations in your own jurisdiction can be a significant asset for your personal and collective battles to improve privacy, for yourself and for others.
 

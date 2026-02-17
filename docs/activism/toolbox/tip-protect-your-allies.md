@@ -9,7 +9,7 @@ icon: fontawesome/solid/shield-heart
 ---
 # Protect Your Allies
 
-![Colored banner with four icons on it, a toolbox, a hammer, a shield with a heart, and a wrench.](../images/banners/banner-toolbox-tip-protect.webp){align=top}
+![Colored banner with four icons on it, a toolbox, a hammer, a shield with a heart, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-protect.webp){align=top}
 
 Through your privacy advocacy work, be careful to never collect or share the data of others without their prior explicit consent. It's crucial to protect your allies' data in all that you do, whether it's individual action, organizing an event, or leading an organization.
 

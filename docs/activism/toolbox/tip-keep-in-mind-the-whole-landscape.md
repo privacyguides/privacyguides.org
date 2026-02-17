@@ -9,7 +9,7 @@ icon: fontawesome/solid/globe
 ---
 # Keep in Mind The Whole Landscape
 
-![Colored banner with four icons on it, a toolbox, a hammer, a globe, and a wrench.](../images/banners/banner-toolbox-tip-landscape.webp){align=top}
+![Colored banner with four icons on it, a toolbox, a hammer, a globe, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-landscape.webp){align=top}
 
 Privacy isn't just about the tools. It also isn't just about the laws. And it isn't just about the practices either. It's about all of that. To move our society in a place where everyone benefits from privacy by default, we must consider technologies, laws, and culture altogether.
 

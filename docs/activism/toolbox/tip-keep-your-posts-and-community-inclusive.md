@@ -9,7 +9,7 @@ icon: fontawesome/solid/heart-circle-plus
 ---
 # Keep Your Posts and Community Inclusive
 
-![Colored banner with four icons on it, a toolbox, a hammer, a heart with a plus sign, and a wrench.](../images/banners/banner-toolbox-tip-inclusivity.webp){align=top}
+![Colored banner with four icons on it, a toolbox, a hammer, a heart with a plus sign, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-inclusivity.webp){align=top}
 
 Inclusivity is not only the right thing to do, it's also essential to grow our movement. If we want privacy rights to succeed, it's imperative that we build communities where *everyone* feels safe and welcomed, regardless of who they are or where they come from.
 
