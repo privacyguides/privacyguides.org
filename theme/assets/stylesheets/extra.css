@@ -627,42 +627,11 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
   --color-toolbox-action: #a83410;
 }
 
-/* Category Button Style*/
-.md-typeset .category-button {
-    display:flex;
-    text-align: center;
-    font-weight: bold;
-    height: 150px;
-    width: 150px;
-    background-color: none;
-    border: 2px solid var(--pg-light-border);
-    border-radius: 12px;
-}
-
-.md-typeset .category-button:hover {
-    position: relative;
-    transform: scale(1.01);
-    box-shadow: 5px 10px 10px 5px rgba(0,0,0,0.3);
-}
-
-.md-typeset .category-button a, .md-typeset .category-button a:hover {
-    color: #ffffff;
-}
-
-.category-button-icon {
-  display: block;
-  padding: 0;
-  padding-top: 0.5em;
-  margin: auto;
-  width: 50%;
-  filter: invert(1);
-}
-
 /* Toolbox Button Style*/
 .toolbox-button-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(0, min(100%/0, max(150px, 100%/4))));
-    grid-gap: 0.7rem;
+    grid-gap: 1em 5em;
 }
 
 .toolbox-button-grid .toolbox-button {
@@ -673,8 +642,8 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
     font-size: 0.8rem;
     font-weight: bold;
     line-height: 1;
-    height: 7rem;
-    width: 7rem;
+    height: 11em;
+    width: 11em;
     color: white;
     padding: 5px;
     border: 2px solid var(--pg-light-border);
@@ -685,19 +654,20 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
 .toolbox-button-grid .toolbox-button:hover {
     position: relative;
     transform: scale(1.08);
-    box-shadow: 5px 10px 10px 5px rgba(0,0,0,0.3);
+    /* box-shadow: 5px 10px 10px 5px rgba(0,0,0,0.3); */
     color: white;
 }
 
 .toolbox-button-grid .toolbox-button-icon {
-    height: 5em;
+    height: 7em;
     display: inline-flex;
-    padding: 8px 30px 5px 30px;
+    padding: 1.1em;
     overflow: visible;
 }
 
 .toolbox-button-grid .toolbox-button-icon svg {
     width: 5em;
+    overflow: visible;
 }
 
 /* Toolbox Button Colors*/

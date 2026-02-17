@@ -24,13 +24,13 @@ This page is also a resource to help digital rights organizations that would lik
 
 [:fontawesome-solid-toolbox:{ .toolbox-button-icon } Choose<br>Your Tools](#choose-your-tools){ .toolbox-button .toolbox-bg-tools }
 
-[:fontawesome-solid-users-rays:{ .toolbox-button-icon } Expand Your Perspective](#expand-your-perspective){ .toolbox-button .toolbox-bg-perspective }
+[:fontawesome-solid-users-rays:{ .toolbox-button-icon } Expand Your<br>Perspective](#expand-your-perspective){ .toolbox-button .toolbox-bg-perspective }
 
-[:fontawesome-solid-hands-holding-circle:{ .toolbox-button-icon } Support The Community](#support-the-community){ .toolbox-button .toolbox-bg-community }
+[:fontawesome-solid-hands-holding-circle:{ .toolbox-button-icon } Support The<br>Community](#support-the-community){ .toolbox-button .toolbox-bg-community }
 
 [:fontawesome-solid-handshake-angle:{ .toolbox-button-icon } Build<br>Alliances](#build-alliances){ .toolbox-button .toolbox-bg-alliances }
 
-[:fontawesome-solid-heart-circle-check:{ .toolbox-button-icon } Make It Accessible](#make-it-accessible){ .toolbox-button .toolbox-bg-accessibility }
+[:fontawesome-solid-heart-circle-check:{ .toolbox-button-icon } Make It<br>Accessible](#make-it-accessible){ .toolbox-button .toolbox-bg-accessibility }
 
 [:fontawesome-solid-star:{ .toolbox-button-icon } Uphold<br>Integrity](#uphold-integrity){ .toolbox-button .toolbox-bg-integrity }
 
