@@ -221,7 +221,7 @@ On Android:
 2. Navigate to **Location**
 3. Switch **Use location** to **off**
 
-If you use an Android phone, you should also check your Google account settings to [ensure location history is disabled](https://support.google.com/accounts/answer/3118687). Google is frequently tapped by law enforcement to provide location data, because they don't protect your personal information with strong, zero-knowledge encryption.
+If you use an Android phone, you should also check your Google account settings to [ensure location history is disabled](https://support.google.com/accounts/answer/3118687). Google is frequently tapped by law enforcement to provide location data, because they don't protect your personal information with strong encryption.
 
 ### Check Your Keyboard
 
@@ -265,7 +265,7 @@ You should be prepared to have your phone taken or lost during a protest. You ca
 
 If you have an iPhone, you can make a local backup to a macOS computer or a Windows computer with iTunes. You can also back up to iCloud, but these backups are only secure if you enable [Advanced Data Protection](https://www.privacyguides.org/en/os/ios-overview/#icloud) on your iCloud account. We strongly encourage [enabling Advanced Data Protection](https://support.apple.com/en-us/108756) for all iCloud users in any case, as it protects not only device backups but most iCloud account data as well.
 
-The backup situation on Android is not nearly as robust unfortunately, but you can back up photos and files with a variety of services. If you use an online backup service we recommend choosing one with strong, zero-knowledge encryption so that the service provider is unable to access your data.
+The backup situation on Android is not nearly as robust unfortunately, but you can back up photos and files with a variety of services. If you use an online backup service we recommend choosing one which uses strong encryption with keys you control, so that the service provider is unable to access your data.
 
 - [Recommended Photo Backup Services](https://www.privacyguides.org/en/photo-management/)
 - [Recommended Cloud Drive Services](https://www.privacyguides.org/en/cloud/)
