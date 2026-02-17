@@ -807,7 +807,11 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
     font-family: bagnard !important;
     font-size: 1em !important;
     font-weight: 400 !important;
-    background: #FFFAF0 !important;
+    background: #9e9e9e1a !important;
+}
+
+.toolbox-quote .admonition-title {
+    background-color: transparent !important;
 }
 
 .toolbox-quote-source {
