@@ -9,7 +9,7 @@ cover: data-redaction.webp
 
 - [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information){ .pg-green }
 
-When sharing files, be sure to remove associated metadata. Image files commonly include [Exif](https://en.wikipedia.org/wiki/Exif) data. Photos sometimes even include GPS coordinates in the file metadata.
+When sharing files, be sure to remove associated metadata. Most common file types (including documents, images, and videos) include metadata. Image files, for example, commonly include [Exif](https://en.wikipedia.org/wiki/Exif) data. Photos sometimes even include GPS coordinates in the file metadata. Windows has a built-in metadata remover, but it has a [very limited number](https://digitalconfidence.com/Remove-Properties-and-Personal-Information-a-Misleading-Feature.html) of supported file types and metadata types, necessitating a reliable third-party tool.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
