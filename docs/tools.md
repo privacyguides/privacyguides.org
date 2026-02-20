@@ -499,6 +499,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 - ![Organic Maps logo](assets/img/maps/organic-maps.svg){ .twemoji loading=lazy } [Organic Maps](maps.md#organic-maps)
 - ![OsmAnd logo](assets/img/maps/osmand.svg){ .twemoji loading=lazy } [OsmAnd](maps.md#osmand)
+- ![HERE WeGo logo](assets/img/maps/here.png){ .twemoji loading=lazy } [HERE WeGo](maps.md#here-wego)
 
 </div>
 
