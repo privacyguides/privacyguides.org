@@ -387,6 +387,7 @@ nav:
           - "basics/email-security.md"
           - "basics/vpn-overview.md"
       - !ENV [NAV_ADVANCED_TOPICS, "Advanced Topics"]:
+          - "advanced/browser-fingerprinting.md"
           - "advanced/dns-overview.md"
           - "advanced/tor-overview.md"
           - "advanced/payments.md"
