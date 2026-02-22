@@ -40,7 +40,7 @@ extra:
   deploy: !ENV DEPLOY_ID
   ghost:
     base_url: https://www.privacyguides.org
-    admin_url: https://ghost.privacyguides.org/ghost
+    admin_url: https://www.privacyguides.org/ghost
     tb_site_uuid: 5f3bdb03-a1af-4844-85ca-cbc82c89eb9a
     content_api_key: da9d77deb3e85ee73925167f3a
   privacy_guides:
@@ -460,6 +460,7 @@ nav:
           - "device-integrity.md"
   - !ENV [NAV_BLOG, "Articles"]: !ENV [ARTICLES_SITE_BASE_URL, "/articles/"]
   - !ENV [NAV_VIDEOS, "Videos"]: !ENV [VIDEOS_SITE_BASE_URL, "/videos/"]
+  - !ENV [NAV_NEWS, "News"]: !ENV [NEWS_SITE_BASE_URL, "/news/"]
   - !ENV [NAV_FORUM, "Forum"]:
       !ENV [NAV_FORUM_LINK, "https://discuss.privacyguides.net/"]
   - !ENV [NAV_WIKI, "Wiki"]:
