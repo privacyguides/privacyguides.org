@@ -54,17 +54,27 @@ There are many applications that can connect to the Fediverse, the most famous p
 
 Here are some resources to help you learn more about this social network, and its many applications:
 
-<div class="toolbox-bullet-list" markdown>
+<style>
+.emoji-list-a ul {
+  list-style: emoji-list-a;
+}
+@counter-style emoji-list-a {
+  system: fixed;
+  symbols: "🎞️" "❓" "💛" "🔒" "🐘";
+  suffix: "  ";
+</style>
 
-🎞️ [Learn why the Fediverse is a better alternative (Elena Rossini video)](https://blog.elenarossini.com/fediverse-video/)
+<div class="emoji-list-a" markdown>
 
-❓ [What is the Fediverse and how it's interconnected (Stefan Bohacek project)](https://jointhefediverse.net)
+- [Learn why the Fediverse is a better alternative (Elena Rossini video)](https://blog.elenarossini.com/fediverse-video/)
 
-💛 [Social network recommendations (Privacy Guides)](../../social-networks.md)
+- [What is the Fediverse and how it's interconnected (Stefan Bohacek project)](https://jointhefediverse.net)
 
-🔒 [Privacy and security on Mastodon (Privacy Guides)](https://www.privacyguides.org/articles/2025/07/15/mastodon-privacy-and-security/)
+- [Social network recommendations (Privacy Guides)](../../social-networks.md)
 
-🐘 [How to create a Mastodon account (Doc Pop guide)](https://docpop.org/2025/02/how-to-get-started-with-mastodon/)
+- [Privacy and security on Mastodon (Privacy Guides)](https://www.privacyguides.org/articles/2025/07/15/mastodon-privacy-and-security/)
+
+- [How to create a Mastodon account (Doc Pop guide)](https://docpop.org/2025/02/how-to-get-started-with-mastodon/)
 
 </div>
 

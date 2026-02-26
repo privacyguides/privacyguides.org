@@ -18,21 +18,31 @@ When giving credit to organizations, you are also making a whole team feel value
 
 ## Ways to credit your allies in your advocacy work
 
-<div class="toolbox-bullet-list" markdown>
+<style>
+.emoji-list-a ul {
+  list-style: emoji-list-a;
+}
+@counter-style emoji-list-a {
+  system: fixed;
+  symbols: "💬" "🔗" "👍" "🙌" "💛" "😊" "🏆";
+  suffix: "  ";
+</style>
 
-💬&nbsp; Quote your allies' work in your own content and material. Make sure to always credit their name and link to their external resources when you do.
+<div class="emoji-list-a" markdown>
 
-🔗&nbsp; Link to your allies' resources on your own platforms. Give them credit for their work, and encourage your own audience to consult your allies' material.
+- Quote your allies' work in your own content and material. Make sure to always credit their name and link to their external resources when you do.
 
-👍&nbsp; Support your allies publicly on social media. Repost their content to increase their reach. Post about them while tagging them, to encourage your circle to follow them as well. Reply to their posts thanking them for their hard work for the cause.
+- Link to your allies' resources on your own platforms. Give them credit for their work, and encourage your own audience to consult your allies' material.
 
-🙌&nbsp; Reach out to offer your help on their projects, whenever you have the resources to do so.
+- Support your allies publicly on social media. Repost their content to increase their reach. Post about them while tagging them, to encourage your circle to follow them as well. Reply to their posts thanking them for their hard work for the cause.
 
-💛&nbsp; When working with a group, make sure that each contributor is publicly thanked for their work, whether it's paid or volunteer work. Make the members of your group feel recognized and valued individually.
+- Reach out to offer your help on their projects, whenever you have the resources to do so.
 
-😊&nbsp; Depending on the platforms you use, make sure to attribute the work of each contributor to the name they have agreed to share publicly. Ask first how they prefer to be credited, but do not forget to credit them.
+- When working with a group, make sure that each contributor is publicly thanked for their work, whether it's paid or volunteer work. Make the members of your group feel recognized and valued individually.
 
-🏆&nbsp; When there are opportunities to nominate your allies for a reward, make sure to add your vote to support them.
+- Depending on the platforms you use, make sure to attribute the work of each contributor to the name they have agreed to share publicly. Ask first how they prefer to be credited, but do not forget to credit them.
+
+- When there are opportunities to nominate your allies for a reward, make sure to add your vote to support them.
 
 </div>
 

@@ -45,25 +45,35 @@ Ask yourself these questions:
 
 Here are some ideas of things you can do to become a privacy activist in your community, and a valuable member of the privacy rights movement:
 
-<div class="toolbox-bullet-list" markdown>
+<style>
+.emoji-list-a ul {
+  list-style: emoji-list-a;
+}
+@counter-style emoji-list-a {
+  system: fixed;
+  symbols: "🚀" "✍️" "💪" "🙅" "🙌" "💵" "📍" "✊" "💛";
+  suffix: "  ";
+</style>
 
-🚀&nbsp; [Spread the words of your allies.](tip-lift-your-allies-up.md) Repost social media campaigns from digital rights organizations you like, and write about it on your own platforms. Encourage people to participate if there is a call to action.
+<div class="emoji-list-a" markdown>
 
-✍️&nbsp; Write about the privacy issues you care about. Inform the public with accurate information and effective ways of action to push back against invasive technologies and legislations. This can be through your social networks, personal blog, or even a book!
+- [Spread the words of your allies.](tip-lift-your-allies-up.md) Repost social media campaigns from digital rights organizations you like, and write about it on your own platforms. Encourage people to participate if there is a call to action.
 
-💪&nbsp; [Participate](tip-small-actions-matter.md) in the actions organized by others. Reply positively to social media posts related to privacy rights, repost the content of your allies, sign petitions, report violations, join an online forum, and contact your representatives about privacy rights in your region of the world.
+- Write about the privacy issues you care about. Inform the public with accurate information and effective ways of action to push back against invasive technologies and legislations. This can be through your social networks, personal blog, or even a book!
 
-🙅&nbsp; [Refuse](tip-refuse-to-participate.md) to participate in privacy-invasive requests, and refuse to use privacy-invasive technologies as much as doable for your situation. Sometimes doing nothing can be a powerful action. Try to prioritize your privacy principles over [convenience](https://www.privacyguides.org/articles/2025/06/07/selling-surveillance-as-convenience/), and report on your refusal experiences on social networks and with your local communities.
+- [Participate](tip-small-actions-matter.md) in the actions organized by others. Reply positively to social media posts related to privacy rights, repost the content of your allies, sign petitions, report violations, join an online forum, and contact your representatives about privacy rights in your region of the world.
 
-🙌&nbsp; [Join or build communities](https://discuss.privacyguides.net/) with people sharing your privacy values. Be a positive contributor and lift your allies up. [Support your privacy comrades](tip-support-your-privacy-comrades.md) and [ask for help](tip-take-time-to-rest.md) when you need it yourself. Look for nonprofit organizations [seeking volunteers](../../about/contributors.md).
+- [Refuse](tip-refuse-to-participate.md) to participate in privacy-invasive requests, and refuse to use privacy-invasive technologies as much as doable for your situation. Sometimes doing nothing can be a powerful action. Try to prioritize your privacy principles over [convenience](https://www.privacyguides.org/articles/2025/06/07/selling-surveillance-as-convenience/), and report on your refusal experiences on social networks and with your local communities.
 
-💵&nbsp; [Contribute financially](../../about/donate.md) if you can. If you cannot afford to participate in time, consider donating money. There are many digital rights nonprofit organizations that could do *so much more* if only they had more funding. Offering financial support when you can is a meaningful way to contribute to the privacy rights movement.
+- [Join or build communities](https://discuss.privacyguides.net/) with people sharing your privacy values. Be a positive contributor and lift your allies up. [Support your privacy comrades](tip-support-your-privacy-comrades.md) and [ask for help](tip-take-time-to-rest.md) when you need it yourself. Look for nonprofit organizations [seeking volunteers](../../about/contributors.md).
 
-📍&nbsp; Go to local meetups related to privacy and digital rights. Meet people who share your values in-person, and grow your network to find allies in your area.
+- [Contribute financially](../../about/donate.md) if you can. If you cannot afford to participate in time, consider donating money. There are many digital rights nonprofit organizations that could do *so much more* if only they had more funding. Offering financial support when you can is a meaningful way to contribute to the privacy rights movement.
 
-✊&nbsp; Take part in digital rights protests that support causes and raise awareness on privacy issues you care about. Actively look online for events to join in your local privacy rights community.
+- Go to local meetups related to privacy and digital rights. Meet people who share your values in-person, and grow your network to find allies in your area.
 
-💛&nbsp; Invite others to join you in the movement to defend privacy rights!
+- Take part in digital rights protests that support causes and raise awareness on privacy issues you care about. Actively look online for events to join in your local privacy rights community.
+
+- Invite others to join you in the movement to defend privacy rights!
 
 </div>
 

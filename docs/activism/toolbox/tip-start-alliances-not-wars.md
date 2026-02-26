@@ -74,45 +74,47 @@ Here are a few ways that might help to reduce the impact of infighting within th
 
 ## Examples of digital rights alliances and coalitions
 
-<div class="toolbox-bullet-list" markdown>
+<style>
+.emoji-list-a ul {
+  list-style: emoji-list-a;
+}
+@counter-style emoji-list-a {
+  system: fixed;
+  symbols: "🧑‍⚖️" "👁️‍🗨️" "🪪" "✊";
+  suffix: "  ";
+</style>
 
-🧑‍⚖️&nbsp; **Campaign:** [**Bad Internet Bills (2025)**](https://www.badinternetbills.com/)
-<div class="toolbox-bullet-list-sub" markdown>
-**Host:** [Fight for The Future](https://www.fightforthefuture.org/)
-<br>
-**Participants:** ACLU, Defending Rights & Dissent, EFF, National Coalition Against Censorship, and more.
-<hr>
-</div>
+<div class="emoji-list-a" markdown>
 
-👁️‍🗨️&nbsp; **Campaign:** [**Stop Scanning Me (2022)**](https://stopscanningme.eu)
-<div class="toolbox-bullet-list-sub" markdown>
-**Host:** [EDRi](https://edri.org/)
-<br>
-**Participants:** ApTI, Bits of Freedom, Chaos Computer Club, Digital Courage, EFF, Epicenter Works, Internet Society, La Quadrature du Net, and more.
-<hr>
-</div>
+- **Campaign:** [**Bad Internet Bills (2025)**](https://www.badinternetbills.com/)
 
-🪪&nbsp; **Campaign:** [**The Nameless Coalition (2015)**](https://act.eff.org/action/dear-facebook-authentic-names-are-authentically-dangerous-for-your-users)
-<div class="toolbox-bullet-list-sub" markdown>
-**Host:** [EFF](https://www.eff.org/)
-<br>
-**Participants:** Access, ACLU, Article 19, Center for Democracy and Technology, Human Rights Watch, OpenMedia, Transgender Law Center, and more.
-<hr>
-</div>
+    **Host:** [Fight for The Future](https://www.fightforthefuture.org/)<br>
+    **Participants:** ACLU, Defending Rights & Dissent, EFF, National Coalition Against Censorship, and more.
+    <hr>
 
-✊&nbsp; **Campaign:** [**Protect Our Privacy Coalition (2013)**](https://openmedia.org/press/item/more-30-organizations-unite-safeguard-canadians-privacy-rights-amid-spy-agency-scandal)
-<div class="toolbox-bullet-list-sub" markdown>
-**Host:** [OpenMedia](https://openmedia.org/)
-<br>
-**Participants:** Amnesty International, BC CLA, Canadian Civil Liberties Association, EFF, FIPA, GreenPeace, Lead Now, and more.
-</div>
+- **Campaign:** [**Stop Scanning Me (2022)**](https://stopscanningme.eu)
 
-</div><br>
+    **Host:** [EDRi](https://edri.org/)<br>
+    **Participants:** ApTI, Bits of Freedom, Chaos Computer Club, Digital Courage, EFF, Epicenter Works, Internet Society, La Quadrature du Net, and more.
+    <hr>
 
-<div class="admonition success" markdown>
-<p class="admonition-title">Coalition donation page example</p>
+- **Campaign:** [**The Nameless Coalition (2015)**](https://act.eff.org/action/dear-facebook-authentic-names-are-authentically-dangerous-for-your-users)
 
-EDRi's Stop Scanning Me coalition provides a great example of collaboration with a [**donation page listing all the coalition members**](https://stopscanningme.eu/en/donate.html) with their countries of origin, and linking to external donation pages. EDRi humbly listed their own donation link at the bottom. We need more strong coalitions like this.
+    **Host:** [EFF](https://www.eff.org/)<br>
+    **Participants:** Access, ACLU, Article 19, Center for Democracy and Technology, Human Rights Watch, OpenMedia, Transgender Law Center, and more.
+    <hr>
+
+- **Campaign:** [**Protect Our Privacy Coalition (2013)**](https://openmedia.org/press/item/more-30-organizations-unite-safeguard-canadians-privacy-rights-amid-spy-agency-scandal)
+
+    **Host:** [OpenMedia](https://openmedia.org/)<br>
+    **Participants:** Amnesty International, BC CLA, Canadian Civil Liberties Association, EFF, FIPA, GreenPeace, Lead Now, and more.
+
+    <div class="admonition success" markdown>
+    <p class="admonition-title">Coalition donation page example</p>
+
+    EDRi's Stop Scanning Me coalition provides a great example of collaboration with a [**donation page listing all the coalition members**](https://stopscanningme.eu/en/donate.html) with their countries of origin, and linking to external donation pages. EDRi humbly listed their own donation link at the bottom. We need more strong coalitions like this.
+
+    </div>
 
 </div>
 

@@ -24,19 +24,29 @@ If we want to fight for privacy rights, we must take a much stronger and louder 
 
 Here are a few examples:
 
-<div class="toolbox-bullet-list" markdown>
+<style>
+.emoji-list-a ul {
+  list-style: emoji-list-a;
+}
+@counter-style emoji-list-a {
+  system: fixed;
+  symbols: "🧑‍⚖️" "💬" "🪪" "👁️‍🗨️" "💰" "🔓";
+  suffix: "  ";
+</style>
 
-🧑‍⚖️&nbsp; [**Bad Internet Bills**](https://www.privacyguides.org/videos/2025/12/16/taylor-lorenz-on-kosa-the-screen-act-and-repealing-section-230/) have been proposed in 2025 to undermine the privacy of all Americans, and everyone around the world using American technologies.
+<div class="emoji-list-a" markdown>
 
-💬&nbsp; [**Chat Control**](https://www.privacyguides.org/articles/2025/09/08/chat-control-must-be-stopped/) proposals have been an ongoing issue since 2021.
+- [**Bad Internet Bills**](https://www.privacyguides.org/videos/2025/12/16/taylor-lorenz-on-kosa-the-screen-act-and-repealing-section-230/) have been proposed in 2025 to undermine the privacy of all Americans, and everyone around the world using American technologies.
 
-🪪&nbsp; [**Age Verification**](https://www.privacyguides.org/articles/2025/05/06/age-verification-wants-your-face/) regulations and proposals are growing around the world at an exponential rate.
+- [**Chat Control**](https://www.privacyguides.org/articles/2025/09/08/chat-control-must-be-stopped/) proposals have been an ongoing issue since 2021.
 
-👁️‍🗨️&nbsp; [**Data Brokers**](https://www.privacyguides.org/videos/2025/10/28/data-brokers-know-everything-about-you/) are incessantly exploiting our data due to weak regulations.
+- [**Age Verification**](https://www.privacyguides.org/articles/2025/05/06/age-verification-wants-your-face/) regulations and proposals are growing around the world at an exponential rate.
 
-💰&nbsp; [**Funding cuts**](https://www.privacyguides.org/articles/2025/02/03/the-future-of-privacy/) from new regulations have frequently impacted negatively the organizations and privacy tools we rely on.
+- [**Data Brokers**](https://www.privacyguides.org/videos/2025/10/28/data-brokers-know-everything-about-you/) are incessantly exploiting our data due to weak regulations.
 
-🔓&nbsp; [**Attacks on encryption**](https://www.privacyguides.org/articles/2025/04/11/encryption-is-not-a-crime/) have been carried on by [multiple](https://www.privacyguides.org/articles/2025/02/28/uk-forced-apple-to-remove-adp/) governments around the world, [*for decades*](https://www.privacyguides.org/videos/2025/05/08/when-code-became-a-weapon/).
+- [**Funding cuts**](https://www.privacyguides.org/articles/2025/02/03/the-future-of-privacy/) from new regulations have frequently impacted negatively the organizations and privacy tools we rely on.
+
+- [**Attacks on encryption**](https://www.privacyguides.org/articles/2025/04/11/encryption-is-not-a-crime/) have been carried on by [multiple](https://www.privacyguides.org/articles/2025/02/28/uk-forced-apple-to-remove-adp/) governments around the world, [*for decades*](https://www.privacyguides.org/videos/2025/05/08/when-code-became-a-weapon/).
 
 </div>
 

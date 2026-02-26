@@ -46,33 +46,43 @@ Unfortunately, activism burnout is quite common. And, in the privacy field, this
 
 Additionally, the fact that we have to incessantly push against a tidal wave of new privacy-invasive legislations and technologies is understandingly exhausting. But there are many strategies we can adopt to prevent activism burnout, minimize privacy fatigue, and learn how to rest and valorize self-care as an essential part of our work:
 
-<div class="toolbox-bullet-list" markdown>
+<style>
+.emoji-list-a ul {
+  list-style: emoji-list-a;
+}
+@counter-style emoji-list-a {
+  system: fixed;
+  symbols: "⛵️" "🧠" "⌛️" "📵" "📲" "🏡" "🙌" "🎉" "🧳" "🔋" "✊" "☎️" "💛";
+  suffix: "  ";
+</style>
 
-⛵️&nbsp; **Take breaks:** When you start feeling completely discouraged about the state of privacy rights in the world, it's time for a break. Take a few days off if you can, and try to enjoy activities that have nothing to do with your privacy advocacy.
+<div class="emoji-list-a" markdown>
 
-🧠&nbsp; **Take care of your body:** Make sure not to neglect your bodily needs, this should always be a priority. Your body and your brain are the most essential tools you have for your privacy advocacy work. Take care of them first and foremost.
+- **Take breaks:** When you start feeling completely discouraged about the state of privacy rights in the world, it's time for a break. Take a few days off if you can, and try to enjoy activities that have nothing to do with your privacy advocacy.
 
-⌛️&nbsp; **Sleep well:** Prioritize quality sleep and adopt a rigorous [sleep routine](https://sleepresearchfoundation.com/2024/03/03/top-10-tips-to-create-an-ideal-sleep-routine/) with a strict schedule.
+- **Take care of your body:** Make sure not to neglect your bodily needs, this should always be a priority. Your body and your brain are the most essential tools you have for your privacy advocacy work. Take care of them first and foremost.
 
-📵&nbsp; **Keep bedtime calm:** Try to avoid reading about stressful privacy news or exciting privacy technologies close to bedtime. This can all wait for you tomorrow.
+- **Sleep well:** Prioritize quality sleep and adopt a rigorous [sleep routine](https://sleepresearchfoundation.com/2024/03/03/top-10-tips-to-create-an-ideal-sleep-routine/) with a strict schedule.
 
-📲&nbsp; **Separate devices:** If you can afford it, use separate devices for your personal usage and your privacy activism work. This can help keeping a mental barrier between personal and professional, and limiting the "always-on" privacy-advocate mode.
+- **Keep bedtime calm:** Try to avoid reading about stressful privacy news or exciting privacy technologies close to bedtime. This can all wait for you tomorrow.
 
-🏡&nbsp; **Find friends:** Find a [community of peers](https://discuss.privacyguides.net/) you can talk to. Exchange resources and seek support from your community. Remember that you aren't alone in this battle.
+- **Separate devices:** If you can afford it, use separate devices for your personal usage and your privacy activism work. This can help keeping a mental barrier between personal and professional, and limiting the "always-on" privacy-advocate mode.
 
-🙌&nbsp; **Split the work:** Delegate tasks to privacy comrades. Seek allies and [alliances](tip-start-alliances-not-wars.md). Reach out for help, and don't take all the responsibilities of your projects on your own shoulders. Build a team, and learn to trust others with the work.
+- **Find friends:** Find a [community of peers](https://discuss.privacyguides.net/) you can talk to. Exchange resources and seek support from your community. Remember that you aren't alone in this battle.
 
-🎉&nbsp; **Celebrate!** Take the time to celebrate each victory, no matter how small. Celebrate with your peers too, and never miss an opportunity to [congratulate](tip-give-credit-where-credit-is-due.md) everyone's hard work.
+- **Split the work:** Delegate tasks to privacy comrades. Seek allies and [alliances](tip-start-alliances-not-wars.md). Reach out for help, and don't take all the responsibilities of your projects on your own shoulders. Build a team, and learn to trust others with the work.
 
-🧳&nbsp; **Take vacations:** Plan longer breaks through the year with activities that will have nothing to do with your privacy advocacy work. Make sure they are long enough that you have time to even miss the privacy battlefield, and come back eagerly once you are fully rested.
+- **Celebrate!** Take the time to celebrate each victory, no matter how small. Celebrate with your peers too, and never miss an opportunity to [congratulate](tip-give-credit-where-credit-is-due.md) everyone's hard work.
 
-🔋&nbsp; **Plan your (temporary) replacement:** If you are in a leadership position, make sure there is a system in place to take over your responsibilities fully when you need time off. You shouldn't be indispensable for your projects to keep going in the short term, and you should have the same access to time off as the rest of your team. As a leader, it's important to valorize rest for your team, leading by example. Rest is essential for you too.
+- **Take vacations:** Plan longer breaks through the year with activities that will have nothing to do with your privacy advocacy work. Make sure they are long enough that you have time to even miss the privacy battlefield, and come back eagerly once you are fully rested.
 
-✊&nbsp; **Keep hope with long-term objectives:** If you feel discouraged by the current state of privacy rights, try to keep in mind the bigger picture. We will lose many fights on the journey to improvement. This is to be expected. But all the work we do matters, including the fights we lose. Try to focus on the movement as a whole, and on advancing privacy rights even just a little in our lifetime. See defeats as opportunities to learn from for the next stronger and better-organized battle.
+- **Plan your (temporary) replacement:** If you are in a leadership position, make sure there is a system in place to take over your responsibilities fully when you need time off. You shouldn't be indispensable for your projects to keep going in the short term, and you should have the same access to time off as the rest of your team. As a leader, it's important to valorize rest for your team, leading by example. Rest is essential for you too.
 
-☎️&nbsp; **Call for help:** If you feel like you are at the end of your rope and might be experiencing symptoms of [burnout](https://www.webmd.com/mental-health/burnout-symptoms-signs), seek professional help to support you.
+- **Keep hope with long-term objectives:** If you feel discouraged by the current state of privacy rights, try to keep in mind the bigger picture. We will lose many fights on the journey to improvement. This is to be expected. But all the work we do matters, including the fights we lose. Try to focus on the movement as a whole, and on advancing privacy rights even just a little in our lifetime. See defeats as opportunities to learn from for the next stronger and better-organized battle.
 
-💛&nbsp; **Support others:** Don't forget to [support your privacy comrades](tip-support-your-privacy-comrades.md) when you feel well-enough yourself, to prevent exhaustion as a community.
+- **Call for help:** If you feel like you are at the end of your rope and might be experiencing symptoms of [burnout](https://www.webmd.com/mental-health/burnout-symptoms-signs), seek professional help to support you.
+
+- **Support others:** Don't forget to [support your privacy comrades](tip-support-your-privacy-comrades.md) when you feel well-enough yourself, to prevent exhaustion as a community.
 
 </div>
 

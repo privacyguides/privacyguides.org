@@ -4,7 +4,7 @@ description: Submitting an official complaint for violation of your privacy righ
 icon: fontawesome/solid/gavel
 cover: activism/banner-toolbox-tip-report.webp
 ---
-Once you are [informed on your local privacy laws](tip-know-your-privacy-laws.md), it's important to get familiar with the process to report violations of the law. Submitting an official complaint is often simple, and can have a significant impact both for yourself and for your community.
+Once you are [informed on your local privacy laws](tip-know-your-privacy-laws.md), it's important to get familiar with the process to **report violations of the law**. Submitting an official complaint is often simple, and can have a significant impact both for yourself and for your community.
 
 Here's why and how you should report violations of your local privacy laws:
 
@@ -21,18 +21,11 @@ This tip cannot cover each regulation individually. There will be variations for
 
 For many if not most privacy regulations, there isn't a mechanism to systematically audit every single organization collecting data from people located in its jurisdiction.
 
-Unless the enforcing authority decides to investigate an especially important abuse, the process often relies on individual complaints reporting violations of **data subject** rights in order to trigger an investigation.
-
-<div class="admonition info" markdown>
-<p class="admonition-title">What is a data subject?</p>
-
-Different laws might use different terms for this. Sometimes, a regulation might simply refer to a *person*, an *individual*, a *consumer*, a *patient*, or a *customer*. Other times, the equivalent expression used will be a *data subject*. A data subject is simply anyone from whom personal information is collected by an organization. Data subject will be used as an umbrella term on this page.
-
-</div>
+Unless the enforcing authority decides to investigate an especially important abuse, the process often relies on individual complaints reporting violations of [**data subject**](tip-know-your-privacy-laws.md#where-is-the-data-subject) rights in order to trigger an investigation.
 
 If you believe that your privacy rights have been violated by an organization, infringing your local privacy regulations, you can likely report this violation to the entity responsible for enforcing the law, the **Data Protection Authority** (DPA).
 
-<div class="admonition info" markdown>
+<div class="admonition info inline end" markdown>
 <p class="admonition-title">What is a Data Protection Authority?</p>
 
 Again, different laws might use different terms for this, depending on the region. For example, in Canada the enforcing authority for a privacy law is often called a *Privacy Commissioner*. In Europe, the term used is a *Data Protection Authority*. In the state of California in the United States, the entity responsible for enforcing the California Consumer Privacy Act (CCPA) is the *California Privacy Protection Agency*.
@@ -45,27 +38,37 @@ Reporting even small violations can help improve privacy rights not only for you
 
 Once an organization is ordered to bring corrective changes or is sanctioned for malpractice by a DPA, this can have many beneficial effects at the individual and collective level:
 
-<div class="toolbox-bullet-list" markdown>
+<style>
+.emoji-list-a ul {
+  list-style: emoji-list-a;
+}
+@counter-style emoji-list-a {
+  system: fixed;
+  symbols: "🧑‍⚖️" "🚮" "🚫" "⏭️" "🚨" "ℹ️" "🔍";
+  suffix: "  ";
+</style>
 
-🧑‍⚖️&nbsp; A delinquent organization might be mandated by law to correct the problem. For example, a company without a clear privacy policy might get ordered to publish one.
+<div class="emoji-list-a" markdown>
 
-🚮&nbsp; You might be able to get personal data that you were unable to delete before finally deleted with the help of your DPA (and similarly for access requests).
+- A delinquent organization might be mandated by law to correct the problem. For example, a company without a clear privacy policy might get ordered to publish one.
 
-🚫&nbsp; An abusive organization might get banned from operating in your country entirely.
+- You might be able to get personal data that you were unable to delete before finally deleted with the help of your DPA (and similarly for access requests).
 
-⏭️ &nbsp; Individual complaints can create a legal precedent that could speed up enforcement for similar violations in the future.
+- An abusive organization might get banned from operating in your country entirely.
 
-🚨&nbsp; Strong sanctions that are made public can send a powerful warning to other organizations to avoid making the same mistakes, and adopt corrective measures preventively.
+- Individual complaints can create a legal precedent that could speed up enforcement for similar violations in the future.
 
-ℹ️&nbsp; Cases and sanctions that are publicized can inform the public about potential problems, and potential solutions.
+- Strong sanctions that are made public can send a powerful warning to other organizations to avoid making the same mistakes, and adopt corrective measures preventively.
 
-🔍&nbsp; If a DPA receives multiple complaints targeting a single organization, they might decide to launch a larger investigation and order the organization to improve its privacy practices more broadly.
+- Cases and sanctions that are publicized can inform the public about potential problems, and potential solutions.
+
+- If a DPA receives multiple complaints targeting a single organization, they might decide to launch a larger investigation and order the organization to improve its privacy practices more broadly.
 
 </div>
 
 ## When you can report a violation
 
-You can submit a complaint anytime your local privacy rights have been violated by an organization required to comply with the law, and that you weren't able to resolve the issue on your own.
+You can **submit a complaint** anytime your local privacy rights have been violated by an organization required to comply with the law, and that you weren't able to resolve the issue on your own.
 
 To report a privacy law violation, first ask yourself these questions:
 
@@ -75,7 +78,7 @@ To report a privacy law violation, first ask yourself these questions:
 
 - [x] Which article(s) of the law has been breached by the organization?
 
-**In case of doubt, never hesitate to ask questions to your local DPA.**
+In case of doubt, never hesitate to send any questions you have to your local DPA.
 
 People working at your local DPA are the best specialists to contact to get the correct information specific to your local privacy protections.
 
@@ -101,47 +104,80 @@ This is applicable for any other data subject rights.
 
 On the website of your local privacy law's DPA, you should be able to find either a form to submit a complaint or an email address you can contact with the details.
 
-**When sending an official complaint, make sure to:**
+When sending an official complaint, make sure to:
 
-<div class="toolbox-bullet-list" markdown>
+<style>
+.emoji-list-b ul {
+  list-style: emoji-list-b;
+}
+@counter-style emoji-list-b {
+  system: fixed;
+  symbols: "📚" "🏢" "💬" "🔒" "📑";
+  suffix: "  ";
+</style>
 
-📚&nbsp; Follow the complaint process as described in the law or on the DPA's website.
+<div class="emoji-list-b" markdown>
 
-🏢&nbsp; Have the name and contact information of the organization you want to report.
+- Follow the complaint process as described in the law or on the DPA's website.
 
-💬&nbsp; Have a precise summary of the privacy violation and the steps you have taken so far to try resolving the issue.
+- Have the name and contact information of the organization you want to report.
 
-🔒&nbsp; Be mindful of the information you share in your complaint. This information could get shared with the organization you are complaining against, or even partially published later on. Read the DPA's privacy policy about complaint information, and do not hesitate to ask your DPA questions from an anonymous email address beforehand if needed.
+- Have a precise summary of the privacy violation and the steps you have taken so far to try resolving the issue.
 
-📑&nbsp; Be ready to share additional evidences if your DPA requests it. This might include screenshots of the infraction, email communication with the delinquent organization, link to the organization's privacy policy, or any other evidences related to your case.
+- Be mindful of the information you share in your complaint. This information could get shared with the organization you are complaining against, or even partially published later on. Read the DPA's privacy policy about complaint information, and do not hesitate to ask your DPA questions from an anonymous email address beforehand if needed.
+
+- Be ready to share additional evidences if your DPA requests it. This might include screenshots of the infraction, email communication with the delinquent organization, link to the organization's privacy policy, or any other evidences related to your case.
 
 </div>
 
 ## More resources
 
-🗺️&nbsp; [European Union Member States Data Protection Authorities - List and Map (EDPB)](https://www.edpb.europa.eu/about-edpb/about-edpb/members_en)
-<br><br>
+<style>
+.emoji-list-c ul {
+  list-style: emoji-list-c;
+}
+@counter-style emoji-list-c {
+  system: cyclic;
+  symbols: "🗺️";
+  suffix: "  ";
+</style>
 
-**Some examples of complaint form and processes (region/law/DPA):**
+<div class="emoji-list-c" markdown>
 
-<div class="toolbox-bullet-list" markdown>
+- [European Union Member States Data Protection Authorities - List and Map (EDPB)](https://www.edpb.europa.eu/about-edpb/about-edpb/members_en)
 
-🇦🇺&nbsp; [Australia (Privacy Act): Office of the Australian Information Commissioner](https://www.oaic.gov.au/privacy/privacy-complaints/lodge-a-privacy-complaint-with-us)
+</div>
 
-🇨🇦&nbsp; [Canada (PIPEDA): Office of the Privacy Commissioner of Canada](https://www.priv.gc.ca/en/report-a-concern/file-a-formal-privacy-complaint/)
+### Complaint form and process examples (region/law/DPA)
 
-🇨🇦&nbsp; [Canada-Quebec (Law 25): Commission d’accès à l’information du Québec](https://formulaire.cai.gouv.qc.ca/)
+<style>
+.emoji-list-d ul {
+  list-style: emoji-list-d;
+}
+@counter-style emoji-list-d {
+  system: fixed;
+  symbols: "🇦🇺" "🇨🇦" "🇨🇦" "🇫🇷" "🇮🇪" "🇳🇬" "🇬🇧" "🇺🇸" "🇺🇸";
+  suffix: "  ";
+</style>
 
-🇪🇺&nbsp; [France (GDPR): Commission Nationale de l’Informatique et des Libertés](https://www.cnil.fr/fr/plaintes)
+<div class="emoji-list-d" markdown>
 
-🇪🇺&nbsp; [Ireland (GDPR): Data Protection Commission](https://www.dataprotection.ie/en/individuals/exercising-your-rights/raising-concern-commission)
+- [Australia (Privacy Act): Office of the Australian Information Commissioner](https://www.oaic.gov.au/privacy/privacy-complaints/lodge-a-privacy-complaint-with-us)
 
-🇳🇬&nbsp; [Nigeria (NDPA): Nigeria Data Protection Commission](https://services.ndpc.gov.ng/breach/)
+- [Canada (PIPEDA): Office of the Privacy Commissioner of Canada](https://www.priv.gc.ca/en/report-a-concern/file-a-formal-privacy-complaint/)
 
-🇬🇧&nbsp; [United Kingdom (UK GDPR): Information Commissioner's Office](https://ico.org.uk/make-a-complaint/data-protection-complaints/)
+- [Canada-Quebec (Law 25): Commission d’accès à l’information du Québec](https://formulaire.cai.gouv.qc.ca/)
 
-🇺🇸&nbsp; [United States-California (CCPA): California Privacy Protection Agency](https://www.cppa.ca.gov/webapplications/complaint)
+- [France (GDPR): Commission Nationale de l’Informatique et des Libertés](https://www.cnil.fr/fr/plaintes)
 
-🇺🇸&nbsp; [United States-Texas (TDPSA): Office of the Attorney General](https://consumerprotection.texasattorneygeneral.gov/consumercomplaintportal/s/)
+- [Ireland (GDPR): Data Protection Commission](https://www.dataprotection.ie/en/individuals/exercising-your-rights/raising-concern-commission)
+
+- [Nigeria (NDPA): Nigeria Data Protection Commission](https://services.ndpc.gov.ng/breach/)
+
+- [United Kingdom (UK GDPR): Information Commissioner's Office](https://ico.org.uk/make-a-complaint/data-protection-complaints/)
+
+- [United States-California (CCPA): California Privacy Protection Agency](https://www.cppa.ca.gov/webapplications/complaint)
+
+- [United States-Texas (TDPSA): Office of the Attorney General](https://consumerprotection.texasattorneygeneral.gov/consumercomplaintportal/s/)
 
 </div>

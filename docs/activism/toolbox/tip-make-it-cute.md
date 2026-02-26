@@ -20,17 +20,27 @@ When your app is ugly, fewer people want to use it, and fewer people benefit fro
 
 If you've already done your homework to build the best app for people to protect their privacy, or the best website to provide privacy advice, here are other aspects you should consider to increase your product's popularity:
 
-<div class="toolbox-bullet-list" markdown>
+<style>
+.emoji-list-a ul {
+  list-style: emoji-list-a;
+}
+@counter-style emoji-list-a {
+  system: fixed;
+  symbols: "☑️" "🎁" "🥰" "⭐️" "🚀";
+  suffix: "  ";
+</style>
 
-☑️&nbsp; Make sure that your app or website is [accessible](tip-be-mindful-of-accessibility.md) as much as possible. Accessibility will not only make more people able to use your application, but it's likely to also improve user experience for everyone.
+<div class="emoji-list-a" markdown>
 
-🎁&nbsp; Wrap your product in a pretty package. If you can afford it, hire a professional designer to polish your app or website interface, as well as your organization's logo and promotional material. Design can truly be a make-or-break moment. Do not neglect it!
+- Make sure that your app or website is [accessible](tip-be-mindful-of-accessibility.md) as much as possible. Accessibility will not only make more people able to use your application, but it's likely to also improve user experience for everyone.
 
-🥰&nbsp; People like cute things! Make your app and content cute! Additionally, this helps to make technically-intimidating projects feel more accessible to newcomers and beginners.
+- Wrap your product in a pretty package. If you can afford it, hire a professional designer to polish your app or website interface, as well as your organization's logo and promotional material. Design can truly be a make-or-break moment. Do not neglect it!
 
-⭐️&nbsp; Use good design to reinforce your privacy features or topics. Visual elements can be great assets to bring more attention to your product or content, and to highlight important privacy features in your application. Use design to guide users instinctively towards good privacy. And use design to make the information you share on your website or other content easier to digest.
+- People like cute things! Make your app and content cute! Additionally, this helps to make technically-intimidating projects feel more accessible to newcomers and beginners.
 
-🚀&nbsp; Make sure your application or website isn't just cute and privacy-positive, but also *functional*. Without good user experience, you will not be able to retain the users or readers you have managed to attract with cuteness or privacy, and people will move back to their old bad habits.
+- Use good design to reinforce your privacy features or topics. Visual elements can be great assets to bring more attention to your product or content, and to highlight important privacy features in your application. Use design to guide users instinctively towards good privacy. And use design to make the information you share on your website or other content easier to digest.
+
+- Make sure your application or website isn't just cute and privacy-positive, but also *functional*. Without good user experience, you will not be able to retain the users or readers you have managed to attract with cuteness or privacy, and people will move back to their old bad habits.
 
 </div>
 

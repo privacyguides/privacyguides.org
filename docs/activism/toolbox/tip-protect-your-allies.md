@@ -16,6 +16,10 @@ It's important to develop an awareness of the data we collect and share ourselve
 
 Here are a some examples of other people's data we might collect or share in the context of our privacy advocacy work, whether intentionally or inadvertently:
 
+<div class="grid" markdown>
+
+<div markdown>
+
 - [ ] Contact information (personal advocacy or professional work)
 - [ ] Donation information (including legal names, emails, and phone numbers)
 - [ ] Purchase information (including legal names and shipping addresses)
@@ -30,6 +34,11 @@ Here are a some examples of other people's data we might collect or share in the
 - [ ] Chatbot logs
 - [ ] Survey answers
 - [ ] Shared documents
+
+</div>
+
+<div markdown>
+
 - [ ] Shared photos and images
 - [ ] Legal names of people on work contracts or partnership agreements
 - [ ] Home addresses of people on work contracts or partnership agreements
@@ -43,6 +52,10 @@ Here are a some examples of other people's data we might collect or share in the
 - [ ] Dietary restrictions/preferences and health information for events
 - [ ] Screenshots of people's social media posts
 - [ ] And so much more
+
+</div>
+
+</div>
 
 ## How to protect the data of others
 

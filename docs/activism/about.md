@@ -4,6 +4,7 @@ meta_title: "Guides for Privacy Activists"
 description: Privacy Guides' Activism section contains tools to support the community in its privacy advocacy and activism effort, both for individuals and organizations.
 hide:
   - toc
+  - footer
 cover: activism/banner-activism.webp
 ---
 **Privacy Guides' Activism section offers a new way to empower the digital rights community.**

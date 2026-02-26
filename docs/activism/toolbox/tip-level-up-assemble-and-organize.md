@@ -69,27 +69,37 @@ In fact, it's important that we have a wide variety of initiatives to make this 
 
 Here are a few ideas of actions you might want to consider in your privacy work:
 
-<div class="toolbox-bullet-list" markdown>
+<style>
+.emoji-list-a ul {
+  list-style: emoji-list-a;
+}
+@counter-style emoji-list-a {
+  system: fixed;
+  symbols: "🙌" "🔍" "✊" "✍️" "📃" "🗣️" "🎞️" "📖" "💛" "📚";
+  suffix: "  ";
+</style>
 
-🙌&nbsp; **Form a group to develop a website** to inform and facilitate concrete action from the public to fight against a privacy issue. As an example, visit this impactful [web project](https://fightchatcontrol.eu/) to fight Chat Control developed by Joachim.
+<div class="emoji-list-a" markdown>
 
-🔍&nbsp; **Develop a web page to inform the public on a privacy issues**, and conduct research to provide a list of which businesses or institutions are participating in the invasive practice, and which ones have pledged not to. As an example, check out this amazing [web page](https://www.banfacialrecognition.com/stores/#scorecard) to ban facial recognition in stores created by Fight for The Future.
+- **Form a group to develop a website** to inform and facilitate concrete action from the public to fight against a privacy issue. As an example, visit this impactful [web project](https://fightchatcontrol.eu/) to fight Chat Control developed by Joachim.
 
-✊&nbsp; **Organize a campaign** to fight a specific issue, and reach out to other organizations to take part in a coalition. As an example, check this [website](https://stopscanningme.eu/en/) to push back against Chat Control developed by European Digital Rights (EDRi).
+- **Develop a web page to inform the public on a privacy issues**, and conduct research to provide a list of which businesses or institutions are participating in the invasive practice, and which ones have pledged not to. As an example, check out this amazing [web page](https://www.banfacialrecognition.com/stores/#scorecard) to ban facial recognition in stores created by Fight for The Future.
 
-✍️&nbsp; **Start a petition** collecting citizen signatures to push against a privacy-invasive law or legislative proposal. As an example, read about the [petition](https://www.openrightsgroup.org/publications/joint-briefing-petition-debate-on-repealing-the-online-safety-act/) to repeal the invasive UK Online Safety Act, signed by over 550,000 people.
+- **Organize a campaign** to fight a specific issue, and reach out to other organizations to take part in a coalition. As an example, check this [website](https://stopscanningme.eu/en/) to push back against Chat Control developed by European Digital Rights (EDRi).
 
-📃&nbsp; **Gather experts to publicly support an open letter** opposing a privacy issue or supporting a privacy solution, and share it with the media. As an example, read this [open letter](https://csa-scientist-open-letter.org/Sep2025) opposing a Chat Control proposal, signed by over 800 scientists and researchers.
+- **Start a petition** collecting citizen signatures to push against a privacy-invasive law or legislative proposal. As an example, read about the [petition](https://www.openrightsgroup.org/publications/joint-briefing-petition-debate-on-repealing-the-online-safety-act/) to repeal the invasive UK Online Safety Act, signed by over 550,000 people.
 
-🗣️&nbsp; **Speak publicly** to raise awareness on privacy issues and educate the public, if you are comfortable doing so. As an example, watch this moving TEDx [talk](https://www.youtube.com/watch?v=xSPRouBvgFE) by Carissa Véliz.
+- **Gather experts to publicly support an open letter** opposing a privacy issue or supporting a privacy solution, and share it with the media. As an example, read this [open letter](https://csa-scientist-open-letter.org/Sep2025) opposing a Chat Control proposal, signed by over 800 scientists and researchers.
 
-🎞️&nbsp; **Start a privacy rights video channel** on your preferred privacy-preserving platform. As an example, check out Privacy Guides' [PeerTube](https://neat.tube/c/privacyguides/videos) and [Loops](https://loops.video/@privacyguides) channels.
+- **Speak publicly** to raise awareness on privacy issues and educate the public, if you are comfortable doing so. As an example, watch this moving TEDx [talk](https://www.youtube.com/watch?v=xSPRouBvgFE) by Carissa Véliz.
 
-📖&nbsp; **Design educational online or printed material** to provide information about a specific privacy issue or protections. As an example, visit this [website](https://sls.eff.org/) about street level surveillance, or this border search pocket [guide](https://www.eff.org/document/eff-border-search-pocket-guide), both developed by the Electronic Frontier Foundation (EFF).
+- **Start a privacy rights video channel** on your preferred privacy-preserving platform. As an example, check out Privacy Guides' [PeerTube](https://neat.tube/c/privacyguides/videos) and [Loops](https://loops.video/@privacyguides) channels.
 
-💛&nbsp; **Write content to share your knowledge** about solutions to push back against Big Tech and surveillance capitalism, and encourage others to join your journey. As an example, explore this [blog](https://blog.elenarossini.com/tag/the-future-is-federated/) about joining the Fediverse written by Elena Rossini.
+- **Design educational online or printed material** to provide information about a specific privacy issue or protections. As an example, visit this [website](https://sls.eff.org/) about street level surveillance, or this border search pocket [guide](https://www.eff.org/document/eff-border-search-pocket-guide), both developed by the Electronic Frontier Foundation (EFF).
 
-📚&nbsp; Learn about more [types of actions](https://museumofprotest.org/methods/) you can use in your privacy activist work.
+- **Write content to share your knowledge** about solutions to push back against Big Tech and surveillance capitalism, and encourage others to join your journey. As an example, explore this [blog](https://blog.elenarossini.com/tag/the-future-is-federated/) about joining the Fediverse written by Elena Rossini.
+
+- Learn about more [types of actions](https://museumofprotest.org/methods/) you can use in your privacy activist work.
 
 </div>
 

@@ -28,33 +28,43 @@ When we use products that do not reflect the values we are asking people to adop
 
 There are many ways to refuse to participate in privacy-invasive practices and platforms. Here are a few things you can try to do in your daily life, and in your privacy advocacy work:
 
-<div class="toolbox-bullet-list" markdown>
+<style>
+.emoji-list-a ul {
+  list-style: emoji-list-a;
+}
+@counter-style emoji-list-a {
+  system: fixed;
+  symbols: "⛔️" "🍪" "🏷️" "📦" "🌱" "⚙️" "🙅" "ℹ️" "🪪" "🚨" "🔒" "🤖" "📢";
+  suffix: "  ";
+</style>
 
-⛔️&nbsp; Use an [ad blocker](https://www.privacyguides.org/en/browser-extensions/) everywhere you can.
+<div class="emoji-list-a" markdown>
 
-🍪&nbsp; Categorically and obstinately reject all cookies, every single time.
+- Use an [ad blocker](https://www.privacyguides.org/en/browser-extensions/) everywhere you can.
 
-🏷️&nbsp; Read apps' privacy-labels, and always favor applications that are the least intrusive.
+- Categorically and obstinately reject all cookies, every single time.
 
-📦&nbsp; Migrate [away from abusive Big Tech](tip-migrate-outside-the-surveillance-ecosystem.md) products and platforms.
+- Read apps' privacy-labels, and always favor applications that are the least intrusive.
 
-🌱&nbsp; Try to move out or reduce your usage of [privacy-exploiting social media](tip-improve-your-social-media-and-build-resilient-communities.md).
+- Migrate [away from abusive Big Tech](tip-migrate-outside-the-surveillance-ecosystem.md) products and platforms.
 
-⚙️&nbsp; Each time you install a new application or create a new account, go through the settings to disable all the privacy-invasive features you can disable. Make sure to disable any AI features as well.
+- Try to move out or reduce your usage of [privacy-exploiting social media](tip-improve-your-social-media-and-build-resilient-communities.md).
 
-🙅&nbsp; When requested to provide unnecessary personal information by a cashier or an online form, firmly refuse to provide anything that isn't legally necessary.
+- Each time you install a new application or create a new account, go through the settings to disable all the privacy-invasive features you can disable. Make sure to disable any AI features as well.
 
-ℹ️&nbsp; Inform yourself in advance about potential legal options to opt out of privacy-invasive technologies such as airport facial scanner.
+- When requested to provide unnecessary personal information by a cashier or an online form, firmly refuse to provide anything that isn't legally necessary.
 
-🪪&nbsp; Refuse to provide an official piece of ID online for purposes that aren't strictly necessary, such as government requests. Do not comply with intrusive [age-verification](https://www.privacyguides.org/articles/2025/05/06/age-verification-wants-your-face/) processes. Leave your account abandoned instead, or [delete it](../../basics/account-deletion.md) if you still can. Additionally, consider contacting your government representatives and the platform's complaint email to voice your privacy concerns about such practice.
+- Inform yourself in advance about potential legal options to opt out of privacy-invasive technologies such as airport facial scanner.
 
-🚨&nbsp; [Report privacy violations](tip-report-privacy-violations.md) of your local privacy laws whenever you can.
+- Refuse to provide an official piece of ID online for purposes that aren't strictly necessary, such as government requests. Do not comply with intrusive [age-verification](https://www.privacyguides.org/articles/2025/05/06/age-verification-wants-your-face/) processes. Leave your account abandoned instead, or [delete it](../../basics/account-deletion.md) if you still can. Additionally, consider contacting your government representatives and the platform's complaint email to voice your privacy concerns about such practice.
 
-🔒&nbsp; Depending on your position, refuse to collect or share personal information on others without their prior, explicit, and informed consent (unless you are *legally* required). Be mindful of the software or third-party partners you use that could inadvertently share more information about others than you intended, such as [website telemetry](https://sebastiangreger.net/2014/02/privacy-aware-design-replacing-google-analytics/) or [social media buttons](https://www.tunnelbear.com/blog/why-we-created-our-own-social-media-buttons-on-our-website/).
+- [Report privacy violations](tip-report-privacy-violations.md) of your local privacy laws whenever you can.
 
-🤖&nbsp; Never share the personal information of others with an AI chatbot or platform. Decline to do this in your work, whenever possible.
+- Depending on your position, refuse to collect or share personal information on others without their prior, explicit, and informed consent (unless you are *legally* required). Be mindful of the software or third-party partners you use that could inadvertently share more information about others than you intended, such as [website telemetry](https://sebastiangreger.net/2014/02/privacy-aware-design-replacing-google-analytics/) or [social media buttons](https://www.tunnelbear.com/blog/why-we-created-our-own-social-media-buttons-on-our-website/).
 
-📢&nbsp; Promote refusal around you. Inform others of their rights and responsibilities to opt out. Create accessible guides to educate the public on how they can also refuse to participate.
+- Never share the personal information of others with an AI chatbot or platform. Decline to do this in your work, whenever possible.
+
+- Promote refusal around you. Inform others of their rights and responsibilities to opt out. Create accessible guides to educate the public on how they can also refuse to participate.
 
 </div>
 

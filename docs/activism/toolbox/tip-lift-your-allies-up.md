@@ -28,19 +28,29 @@ In privacy advocacy, we truly need to adopt the mindset: **The more the merrier.
 
 There are infinite ways to lift your allies up. Here are some ideas to get you started, whether you are an independent advocate, a digital rights organization, or a privacy-focused business:
 
-<div class="toolbox-bullet-list" markdown>
+<style>
+.emoji-list-a ul {
+  list-style: emoji-list-a;
+}
+@counter-style emoji-list-a {
+  system: fixed;
+  symbols: "👍" "✍️" "💛" "🤝" "🙌" "✊";
+  suffix: "  ";
+</style>
 
-👍&nbsp; When an organization or business sharing you values starts a campaign, repost them on social media. Additionally, you can quote them or write about it yourself, while linking to their profile and campaign. Boost them up!
+<div class="emoji-list-a" markdown>
 
-✍️&nbsp; If you are a writer, regularly link to material created by other trustworthy organizations and people sharing your values, while giving them credit.
+- When an organization or business sharing you values starts a campaign, repost them on social media. Additionally, you can quote them or write about it yourself, while linking to their profile and campaign. Boost them up!
 
-💛&nbsp; When an individual creates material favorable to your organization or project, take the time to repost them and thank them. This is bringing more people to your cause, without any work on your side!
+- If you are a writer, regularly link to material created by other trustworthy organizations and people sharing your values, while giving them credit.
 
-🤝&nbsp; Change your mindset from competition to collaboration. See your peers as people fighting by your side. Whenever they win, you win too. Congratulate them on their successes, and support them in times of need.
+- When an individual creates material favorable to your organization or project, take the time to repost them and thank them. This is bringing more people to your cause, without any work on your side!
 
-🙌&nbsp; When you see that your allies need help with an expertise you have, try to offer your time and resources if you can afford it.
+- Change your mindset from competition to collaboration. See your peers as people fighting by your side. Whenever they win, you win too. Congratulate them on their successes, and support them in times of need.
 
-✊&nbsp; When reaching out to your community, talk about your allies' work as well, and help people discover new resources. Everyone has different ways to absorb new information. Perhaps you can help others find resources that are more compatible with their needs, even if it's not your material. You are not losing a member when you refer people externally, you are winning, because you are contributing to grow the movement.
+- When you see that your allies need help with an expertise you have, try to offer your time and resources if you can afford it.
+
+- When reaching out to your community, talk about your allies' work as well, and help people discover new resources. Everyone has different ways to absorb new information. Perhaps you can help others find resources that are more compatible with their needs, even if it's not your material. You are not losing a member when you refer people externally, you are winning, because you are contributing to grow the movement.
 
 </div>
 

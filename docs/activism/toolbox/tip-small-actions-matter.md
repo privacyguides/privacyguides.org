@@ -40,27 +40,37 @@ But regardless of the resources you have, there's always something you can do to
 
 Here are examples of some actions you might be able to do, from small ones to bigger projects:
 
-<div class="toolbox-bullet-list" markdown>
+<style>
+.emoji-list-a ul {
+  list-style: emoji-list-a;
+}
+@counter-style emoji-list-a {
+  system: fixed;
+  symbols: "✍️" "💬" "🗣️" "📮" "💛" "🙌" "📗" "📢" "✊" "📚";
+  suffix: "  ";
+</style>
 
-✍️&nbsp; Sign a petition related to an ongoing privacy issue, and encourage others to do the same.
+<div class="emoji-list-a" markdown>
 
-💬&nbsp; Write a social media post about an ongoing campaign from a digital rights organization you care about.
+- Sign a petition related to an ongoing privacy issue, and encourage others to do the same.
 
-🗣️&nbsp; Write a social media post about an ongoing privacy issue you care about.
+- Write a social media post about an ongoing campaign from a digital rights organization you care about.
 
-📮&nbsp; Contact your local representatives to tell them how privacy rights are important to you or your organization.
+- Write a social media post about an ongoing privacy issue you care about.
 
-💛&nbsp; Donate to a privacy organization and promote a privacy project you like.
+- Contact your local representatives to tell them how privacy rights are important to you or your organization.
 
-🙌&nbsp; Contribute to a privacy project you like that is looking for volunteers.
+- Donate to a privacy organization and promote a privacy project you like.
 
-📗&nbsp; Build a web page to inform the public on a privacy issue (e.g. [Patrick Breyer's Chat Control page](https://www.patrick-breyer.de/en/posts/chat-control/)).
+- Contribute to a privacy project you like that is looking for volunteers.
 
-📢&nbsp; Build a web form or application to inform the public and facilitate taking action against a specific privacy issue (e.g. [Fight Chat Control](https://fightchatcontrol.eu/), [Stop Online ID Checks](https://www.stoponlineidchecks.org/)).
+- Build a web page to inform the public on a privacy issue (e.g. [Patrick Breyer's Chat Control page](https://www.patrick-breyer.de/en/posts/chat-control/)).
 
-✊&nbsp; Find organizations sharing your values to sign a public joint statement about an ongoing privacy issue.
+- Build a web form or application to inform the public and facilitate taking action against a specific privacy issue (e.g. [Fight Chat Control](https://fightchatcontrol.eu/), [Stop Online ID Checks](https://www.stoponlineidchecks.org/)).
 
-📚&nbsp; Read more on small and big [tactics you can use for your privacy activism](https://activisthandbook.org/tactics#list-of-tactics) from the Activist Handbook.
+- Find organizations sharing your values to sign a public joint statement about an ongoing privacy issue.
+
+- Read more on small and big [tactics you can use for your privacy activism](https://activisthandbook.org/tactics#list-of-tactics) from the Activist Handbook.
 
 </div>
 
