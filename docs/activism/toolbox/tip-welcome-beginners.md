@@ -1,10 +1,6 @@
 ---
 title: Welcome Beginners
 description: For our privacy rights movement to grow, we must bring more people in. To accomplish this, it's fundamental to make our communities welcoming to newcomers.
-preview:
-  cover: activism/images/banners/banner-toolbox-tip-beginners.webp
-hide:
-  - feedback
 icon: fontawesome/solid/user-plus
 cover: activism/banner-toolbox-tip-beginners.webp
 ---

@@ -1,10 +1,6 @@
 ---
 title: Make It Cute
 description: If you are developing a privacy-focused application or website, it's important that you do not neglect the design aspect of it. Make it cute!
-preview:
-  cover: activism/images/banners/banner-toolbox-tip-cute.webp
-hide:
-  - feedback
 icon: fontawesome/solid/cat
 cover: activism/banner-toolbox-tip-cute.webp
 ---

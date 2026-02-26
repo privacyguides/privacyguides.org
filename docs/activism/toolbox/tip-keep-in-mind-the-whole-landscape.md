@@ -1,10 +1,6 @@
 ---
 title: Keep in Mind The Whole Landscape
 description: Privacy isn't just about the tools, or just about the laws, or just about the practices either. It's about all of it. Learn how to consider the whole landscape.
-preview:
-  cover: activism/images/banners/banner-toolbox-tip-landscape.webp
-hide:
-  - feedback
 icon: fontawesome/solid/globe
 cover: activism/banner-toolbox-tip-landscape.webp
 ---

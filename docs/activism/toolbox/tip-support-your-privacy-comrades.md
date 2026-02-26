@@ -1,10 +1,6 @@
 ---
 title: Support Your Privacy Comrades
 description: Fighting for privacy rights is a collective endeavor. This battle can be difficult and isolating at time. This is why it's critical to care for each other.
-preview:
-  cover: activism/images/banners/banner-toolbox-tip-support.webp
-hide:
-  - feedback
 icon: fontawesome/solid/hand-holding-heart
 cover: activism/banner-toolbox-tip-support.webp
 ---

@@ -1,10 +1,6 @@
 ---
 title: Engage, Boost, and Contribute
 description: Once you have the knowledge, motivation, and energy to fight for privacy rights, it's time to act! Learn more on what you can do to be a privacy activist.
-preview:
-  cover: activism/images/banners/banner-toolbox-tip-engage.webp
-hide:
-  - feedback
 icon: fontawesome/solid/bullhorn
 cover: activism/banner-toolbox-tip-engage.webp
 ---

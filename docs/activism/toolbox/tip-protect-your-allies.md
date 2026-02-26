@@ -1,10 +1,6 @@
 ---
 title: Protect Your Allies
 description: Through your privacy work, it's crucial to protect the data of your allies in all that you do, whether it's individual action or leading an organization.
-preview:
-  cover: activism/images/banners/banner-toolbox-tip-protect.webp
-hide:
-  - feedback
 icon: fontawesome/solid/shield-heart
 cover: activism/banner-toolbox-tip-protect.webp
 ---

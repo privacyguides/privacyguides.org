@@ -1,10 +1,6 @@
 ---
 title: Report Privacy Violations
 description: Submitting an official complaint for violation of your privacy rights is often simple, and can have a significant positive impact for your community.
-preview:
-  cover: activism/images/banners/banner-toolbox-tip-report.webp
-hide:
-  - feedback
 icon: fontawesome/solid/gavel
 cover: activism/banner-toolbox-tip-report.webp
 ---

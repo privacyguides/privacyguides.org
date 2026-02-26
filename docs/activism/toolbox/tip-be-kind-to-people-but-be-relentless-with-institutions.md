@@ -1,10 +1,6 @@
 ---
 title: Be Kind to People, But Be Relentless With Institutions
 description: Kindness and patience are essential qualities for privacy advocates. To grow our movement, we must meet people from a place of camaraderie.
-preview:
-  cover: activism/images/banners/banner-toolbox-tip-kind.webp
-hide:
-  - feedback
 icon: fontawesome/solid/hands-holding-circle
 cover: activism/banner-toolbox-tip-kind.webp
 ---

@@ -1,10 +1,6 @@
 ---
 title: Improve Your Social Media and Build Resilient Communities
 description: Commercial social media platforms represent one of the biggest source of data exploitation. Learn how you can build better and more resilient social networks.
-preview:
-  cover: activism/images/banners/banner-toolbox-tip-plant.webp
-hide:
-  - feedback
 icon: fontawesome/solid/seedling
 cover: activism/banner-toolbox-tip-plant.webp
 ---

@@ -1,10 +1,6 @@
 ---
 title: Keep Your Posts and Community Inclusive
 description: Inclusivity is essential to grow our privacy movement. If we want privacy rights to succeed, we must build communities where everyone feels safe and welcomed.
-preview:
-  cover: activism/images/banners/banner-toolbox-tip-inclusivity.webp
-hide:
-  - feedback
 icon: fontawesome/solid/heart-circle-plus
 cover: activism/banner-toolbox-tip-inclusivity.webp
 ---

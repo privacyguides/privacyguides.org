@@ -1,10 +1,6 @@
 ---
 title: Lift Your Allies Up
 description: The battle for privacy rights is difficult, and its defenders are scattered. This is why it's essential to support and uplift each other, every time we can.
-preview:
-  cover: activism/images/banners/banner-toolbox-tip-lift.webp
-hide:
-  - feedback
 icon: fontawesome/solid/hand-holding-hand
 cover: activism/banner-toolbox-tip-lift.webp
 ---

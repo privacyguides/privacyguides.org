@@ -1,10 +1,6 @@
 ---
 title: Refuse to Participate
 description: As privacy activists, we must be a voice for resistance and take a stand against abusive practices, by refusing to comply with privacy-intrusive requests.
-preview:
-  cover: activism/images/banners/banner-toolbox-tip-refuse.webp
-hide:
-  - feedback
 icon: fontawesome/solid/xmark-circle
 cover: activism/banner-toolbox-tip-refuse.webp
 ---

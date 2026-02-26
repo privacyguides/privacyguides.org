@@ -1,10 +1,6 @@
 ---
 title: Be Mindful of Accessibility
 description: Accessibility should always be a priority in our work. To make our privacy communities welcoming to all, we must integrate it in our practice from the start.
-preview:
-  cover: activism/images/banners/banner-toolbox-tip-accessibility.webp
-hide:
-  - feedback
 icon: fontawesome/solid/heart-circle-check
 cover: activism/banner-toolbox-tip-accessibility.webp
 ---

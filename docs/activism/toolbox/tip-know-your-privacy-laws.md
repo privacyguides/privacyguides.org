@@ -1,10 +1,6 @@
 ---
 title: Know Your Privacy Laws
 description: Being well-informed about the data protection regulations in your own jurisdiction can be a significant asset in your battles for better privacy rights.
-preview:
-  cover: activism/images/banners/banner-toolbox-tip-laws.webp
-hide:
-  - feedback
 icon: fontawesome/solid/balance-scale
 cover: activism/banner-toolbox-tip-laws.webp
 ---

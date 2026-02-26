@@ -1,10 +1,6 @@
 ---
 title: Start Alliances, Not Wars
 description: People in the privacy community can have different views that can create conflicts at times. For our community to thrive, we must start alliances, not wars.
-preview:
-  cover: activism/images/banners/banner-toolbox-tip-alliances.webp
-hide:
-  - feedback
 icon: fontawesome/solid/handshake-angle
 cover: activism/banner-toolbox-tip-alliances.webp
 ---

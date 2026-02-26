@@ -1,10 +1,6 @@
 ---
 title: Value Allies with Complementary Expertise
 description: In privacy like everywhere else, diversity is a strength. If you want your community to have a broad set of skills, you need to value a diversity of expertises.
-preview:
-  cover: activism/images/banners/banner-toolbox-tip-complement.webp
-hide:
-  - feedback
 icon: fontawesome/solid/circle-half-stroke
 cover: activism/banner-toolbox-tip-complement.webp
 ---

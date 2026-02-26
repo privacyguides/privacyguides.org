@@ -1,10 +1,6 @@
 ---
 title: Take Time to Rest, But Come Back to Fight With Us
 description: The battle for privacy will be a long one. This isn't a sprint, it's a marathon. If you want to be a good advocate, you must learn to rest when you need it.
-preview:
-  cover: activism/images/banners/banner-toolbox-tip-rest.webp
-hide:
-  - feedback
 icon: fontawesome/solid/battery-quarter
 cover: activism/banner-toolbox-tip-rest.webp
 ---

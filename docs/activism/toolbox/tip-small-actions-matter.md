@@ -1,10 +1,6 @@
 ---
 title: Small Actions Matter
 description: There is so much to do to improve privacy rights. So much, that it's sometime easy to feel discouraged. But everything helps, and even small action matters.
-preview:
-  cover: activism/images/banners/banner-toolbox-tip-small.webp
-hide:
-  - feedback
 icon: fontawesome/solid/puzzle-piece
 cover: activism/banner-toolbox-tip-small.webp
 ---

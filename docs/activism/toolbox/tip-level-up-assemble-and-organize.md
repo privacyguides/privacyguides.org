@@ -1,10 +1,6 @@
 ---
 title: Level Up! Assemble and Organize
 description: If you've been a privacy advocate for a while, maybe it's time to level up and grow as a leader in your community. Good leaders can benefit the whole movement.
-preview:
-  cover: activism/images/banners/banner-toolbox-tip-action.webp
-hide:
-  - feedback
 icon: fontawesome/solid/fist-raised
 cover: activism/banner-toolbox-tip-organize.webp
 ---

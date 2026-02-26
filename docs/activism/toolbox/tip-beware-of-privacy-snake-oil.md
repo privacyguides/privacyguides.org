@@ -1,10 +1,6 @@
 ---
 title: Beware of Privacy Snake Oil
 description: In your privacy advocacy, it's important to recommend tools that are reliable to protect yours and other people's privacy. Learn how to evaluate privacy claims.
-preview:
-  cover: activism/images/banners/banner-toolbox-tip-snakeoil.webp
-hide:
-  - feedback
 icon: fontawesome/solid/skull-crossbones
 cover: activism/banner-toolbox-tip-snakeoil.webp
 ---

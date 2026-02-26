@@ -1,10 +1,6 @@
 ---
 title: Stay True to Your Principles
 description: If you manage a digital rights group, it's important to make sure you aren't subjecting your contributors to the privacy-invasive tech you're fighting against.
-preview:
-  cover: activism/images/banners/banner-toolbox-tip-principles.webp
-hide:
-  - feedback
 icon: fontawesome/solid/star
 cover: activism/banner-toolbox-tip-principles.webp
 ---

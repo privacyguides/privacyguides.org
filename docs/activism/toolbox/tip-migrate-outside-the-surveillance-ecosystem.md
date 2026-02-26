@@ -1,10 +1,6 @@
 ---
 title: Migrate Outside The Surveillance Ecosystem
 description: As privacy activists, it's important to lead by example and support the tools and organizations with good privacy practices, by moving away from Big Tech.
-preview:
-  cover: activism/images/banners/banner-toolbox-tip-migrate.webp
-hide:
-  - feedback
 icon: fontawesome/solid/arrow-right-from-bracket
 cover: activism/banner-toolbox-tip-migrate.webp
 ---
