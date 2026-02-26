@@ -4,13 +4,15 @@ description: To give actionable privacy advices, it's essential to consider ever
 icon: fontawesome/solid/users-between-lines
 cover: activism/banner-toolbox-tip-everyone.webp
 ---
-Everyone has different needs, and everyone faces different dangers when their personal data gets exposed. To give actionable privacy advices and recommendations, it's essential to **keep in mind everyone's situation**. There isn't a one-size-fits-all approach when it comes to data privacy.
+Everyone has different needs, and everyone faces different dangers when their personal data gets exposed.
+
+To give actionable privacy advices and recommendations, it's essential to **keep in mind everyone's situation**. There isn't a one-size-fits-all approach when it comes to data privacy.
 
 Here's how you can get better at evaluating each person's unique [*threat model*](../../basics/threat-modeling.md):
 
 ## What is a threat model?
 
-We regularly use the term "threat model" in cybersecurity and data privacy. This might sound obscure at first if you haven't seen it before, but it's quite simple. It simply means an evaluation of what is dangerous for a certain person (or entity) in a given situation, and what should be prioritized.
+We regularly use the term "threat model" in cybersecurity and data privacy. This might sound obscure at first if you haven't seen it before, but it's quite simple: A threat model is an evaluation of what is dangerous for a certain person (or entity) in a given situation, and what protective measures should be prioritized.
 
 For example, if you leave near the equator, polar bears might not be an important threat to your safety. However, if you live in Nunavut, it may be important to get information on how to prevent a polar bear attack.
 
@@ -58,16 +60,16 @@ Ask, rinse, and repeat for each type of information. The answers to these questi
 
 ## Respect people's choices when it comes to their own privacy, even if they are different from yours
 
-When trying to advise others on data privacy, it's easy to get carried away and forget that other people might have different needs and threat models from ours.
+When advising others on data privacy, it's easy to get carried away and forget that other people might have different threat models from our own.
 
-Once we have provided the information to somebody who might need it, it's important to take a step back and respect their choices. If someone understands well the risks, and decides that sharing this information *about themselves* is an acceptable level of risk to them, we cannot (and shouldn't try) to force them in using the same level of protection we have adopted ourselves, if they don't want to.
+Once we have provided the information to somebody who might need it, it's important to take a step back and respect their choices. If someone understands the risks, and decides that sharing this information *about themselves* is an acceptable level of risk to them, we cannot (and shouldn't try) to force them in using the same level of protection we have adopted ourselves, if they don't want to.
 
 Of course, this might be a different story if their decision also affects the data of others. But if it only concerns their own data, the choice is theirs.
 
-To be a good privacy advocate is to provide information and support when needed. But ultimately, privacy is to decide what one is comfortable sharing about themselves or not. We can only choose this for ourselves, not for others.
+To be a good privacy advocate is to provide information and support when needed. But ultimately, privacy is about deciding what one is comfortable sharing about themselves or not. We can only choose this for ourselves, not for others.
 
 ## More resources
 
-- [More detailed information on threat modeling (Privacy Guides)](../../basics/threat-modeling.md)
+- [More detailed information on threat modeling (*Privacy Guides*)](../../basics/threat-modeling.md)
 
-- [Examples of common threats (Privacy Guides)](../../basics/common-threats.md)
+- [Examples of common threats (*Privacy Guides*)](../../basics/common-threats.md)

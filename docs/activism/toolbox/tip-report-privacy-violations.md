@@ -19,7 +19,7 @@ This tip cannot cover each regulation individually. There will be variations for
 
 ## Why reporting violations matters
 
-For many if not most privacy regulations, there isn't a mechanism to systematically audit every single organization collecting data from people located in its jurisdiction.
+For many (if not most) privacy regulations, there isn't a mechanism to systematically audit every single organization collecting data from people located in its jurisdiction.
 
 Unless the enforcing authority decides to investigate an especially important abuse, the process often relies on individual complaints reporting violations of [**data subject**](tip-know-your-privacy-laws.md#where-is-the-data-subject) rights in order to trigger an investigation.
 
@@ -30,11 +30,13 @@ If you believe that your privacy rights have been violated by an organization, i
 
 Again, different laws might use different terms for this, depending on the region. For example, in Canada the enforcing authority for a privacy law is often called a *Privacy Commissioner*. In Europe, the term used is a *Data Protection Authority*. In the state of California in the United States, the entity responsible for enforcing the California Consumer Privacy Act (CCPA) is the *California Privacy Protection Agency*.
 
-This text will use *Data Protection Authority* or *DPA* as an umbrella term to refer to any authorities mandated to enforce a privacy regulation.
+This text will use **Data Protection Authority** or **DPA** as an umbrella term to refer to any authorities mandated to enforce a privacy regulation.
 
 </div>
 
-Reporting even small violations can help improve privacy rights not only for yourself but for everyone else as well. Often, reporting is simple and can make a big difference down the line, especially in number.
+Reporting even small violations can help improve privacy rights not only for yourself but for everyone else as well.
+
+Often, reporting is simple and can make a big difference down the line, especially in number.
 
 Once an organization is ordered to bring corrective changes or is sanctioned for malpractice by a DPA, this can have many beneficial effects at the individual and collective level:
 
@@ -50,17 +52,17 @@ Once an organization is ordered to bring corrective changes or is sanctioned for
 
 <div class="emoji-list-a" markdown>
 
-- A delinquent organization might be mandated by law to correct the problem. For example, a company without a clear privacy policy might get ordered to publish one.
+- A delinquent organization might be mandated by law to correct the problem. For example, a company without a clear privacy policy might be ordered to publish one.
 
 - You might be able to get personal data that you were unable to delete before finally deleted with the help of your DPA (and similarly for access requests).
 
-- An abusive organization might get banned from operating in your country entirely.
+- An abusive organization might be banned from operating in your country entirely.
 
 - Individual complaints can create a legal precedent that could speed up enforcement for similar violations in the future.
 
-- Strong sanctions that are made public can send a powerful warning to other organizations to avoid making the same mistakes, and adopt corrective measures preventively.
+- Strong sanctions that are made public can send a powerful warning to other organizations to avoid making the same mistakes, and adopt corrective privacy-protective measures preventively.
 
-- Cases and sanctions that are publicized can inform the public about potential problems, and potential solutions.
+- Cases and sanctions that are publicized can notify the public about potential problems, and potential solutions.
 
 - If a DPA receives multiple complaints targeting a single organization, they might decide to launch a larger investigation and order the organization to improve its privacy practices more broadly.
 
@@ -68,29 +70,33 @@ Once an organization is ordered to bring corrective changes or is sanctioned for
 
 ## When you can report a violation
 
-You can **submit a complaint** anytime your local privacy rights have been violated by an organization required to comply with the law, and that you weren't able to resolve the issue on your own.
+You can **submit a complaint** any time your local privacy rights have been violated by an organization required to comply with the law, and you weren't able to resolve the issue on your own.
 
 To report a privacy law violation, first ask yourself these questions:
 
-- [x] Following the criteria described in your local privacy regulation, is this organization obligated to comply with this law?
+- [x] Following the criteria described in your local privacy regulation, is the organization obligated to comply with this law?
 
-- [x] Is the information affected considered *personal information* under the law?
+- [x] Is your affected information considered *personal information* under the law?
 
-- [x] Which article(s) of the law has been breached by the organization?
+- [x] Which article(s) of the law has the organization breached?
 
-In case of doubt, never hesitate to send any questions you have to your local DPA.
+When in doubt, never hesitate to send any questions you have to your local DPA.
 
-People working at your local DPA are the best specialists to contact to get the correct information specific to your local privacy protections.
+The people working at your local DPA are the best specialists to contact to get the most accurate information specific to your local privacy protections.
 
 ## How to report a violation
 
-Most regulations will have a clear process to submit an official complaint. Once you've found the official documentation for your local privacy law(s), read through it to find who is responsible for enforcing the law (who is your DPA), and what the complaint process is.
+Most regulations will have a clear process to submit an official complaint.
+
+Once you've found the official documentation for your local privacy law(s), read through it to find who is responsible for enforcing the law (who is your DPA), and what the complaint process is.
 
 Before submitting a complaint, you may want to:
 
 ### 1. Document everything you can
 
-Try to collect as much information as possible to support your case. Save copies of your email communication with the organization, take screenshots of the organization's chatbot replies to you, print to PDF the organization's privacy policy, etc.
+Try to collect as much information as possible to support your case.
+
+Save copies of your email communication with the organization, take screenshots of the organization's chatbot replies to you, print to PDF the organization's privacy policy, etc.
 
 ### 2. Try contacting the organization directly
 
@@ -102,7 +108,7 @@ This is applicable for any other data subject rights.
 
 ### 3. File an official complaint with your Data Protection Authority
 
-On the website of your local privacy law's DPA, you should be able to find either a form to submit a complaint or an email address you can contact with the details.
+On the website of your local DPA, you should be able to find either a form to submit a complaint or an email address you can contact with the details.
 
 When sending an official complaint, make sure to:
 
@@ -124,9 +130,13 @@ When sending an official complaint, make sure to:
 
 - Have a precise summary of the privacy violation and the steps you have taken so far to try resolving the issue.
 
-- Be mindful of the information you share in your complaint. This information could get shared with the organization you are complaining against, or even partially published later on. Read the DPA's privacy policy about complaint information, and do not hesitate to ask your DPA questions from an anonymous email address beforehand if needed.
+- Be mindful of the information you share in your complaint.
 
-- Be ready to share additional evidences if your DPA requests it. This might include screenshots of the infraction, email communication with the delinquent organization, link to the organization's privacy policy, or any other evidences related to your case.
+    This information could get shared with the organization you are complaining against, or even partially published later on. Read the DPA's privacy policy about complaint information, and do not hesitate to ask your DPA questions from an anonymous email address beforehand if needed.
+
+- Be ready to share additional evidences if your DPA requests it.
+
+    This might include screenshots of the infraction, email communication with the delinquent organization, link to the organization's privacy policy, or any other evidences related to your case.
 
 </div>
 
@@ -144,7 +154,7 @@ When sending an official complaint, make sure to:
 
 <div class="emoji-list-c" markdown>
 
-- [European Union Member States Data Protection Authorities - List and Map (EDPB)](https://www.edpb.europa.eu/about-edpb/about-edpb/members_en)
+- [European Union Member States Data Protection Authorities - List and Map (*EDPB*)](https://www.edpb.europa.eu/about-edpb/about-edpb/members_en)
 
 </div>
 

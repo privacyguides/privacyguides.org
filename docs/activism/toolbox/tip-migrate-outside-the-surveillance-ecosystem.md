@@ -73,7 +73,7 @@ Here's a list of alternative solutions you can start adopting to improve data pr
 
 <div class="emoji-list-b" markdown>
 
-- **[Messaging communication](../../real-time-communication.md):** Move your text message communication, audio calls, and video calls to a secure messenger like Signal. Enable features like Signal's username option and disappearing messages.
+- **[Messaging communication](../../real-time-communication.md):** Move your text message communication, audio calls, and video calls to a secure messenger like Signal. Enable features like Signal's username option, and disappearing messages.
 
 - **Sensitive messaging communication:** If your threat model requires a peer-to-peer solution that doesn't need a phone number and transits over the [Tor network](https://www.privacyguides.org/articles/2025/04/30/in-praise-of-tor/), you might want to use an application such as [Cwtch](https://docs.cwtch.im/) or [Briar](../../real-time-communication.md/#briar).
 
@@ -84,7 +84,9 @@ Here's a list of alternative solutions you can start adopting to improve data pr
 
     If you use your own custom domain name for email addresses, let the people you communicate with know what your service provider is.
 
-    That way, they will know that if they use a compatible service provider, they might benefit from end-to-end encryption protections for the content of their communications with you without requiring any additional steps. For example, this is the case when emailing from a Proton Mail account to another Proton Mail account, or from a Tuta Mail account to another Tuta Mail account.
+    That way, they will know that if they use a compatible service provider, they might benefit from end-to-end encryption protections for the content of their communications with you without requiring any additional steps.
+
+    For example, this is the case when emailing from a Proton Mail account to another Proton Mail account, or from a Tuta Mail account to another Tuta Mail account.
 
     </section>
 
@@ -94,7 +96,7 @@ Here's a list of alternative solutions you can start adopting to improve data pr
 
 - **Surveys:** Stop using products such as Google Forms to poll your community. Instead, choose a privacy-focused alternative such as [CryptPad Form](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/#form) or [Framaforms](https://framaforms.org/abc/en/).
 
-- **[Online calendar](../../calendar.md):** Your online calendar can be an important source of sensitive data. Moreover, you might store other's people data in it, or use it to share event links with collaborators. It's essential to make sure to use a privacy-protective solution for online and collaborative calendars.
+- **[Online calendar](../../calendar.md):** Your online calendar can be an important source of sensitive data. Moreover, you might store other's people data in it, or use it to share event links with collaborators. It's essential to make sure to use a privacy-protecting solution for online and collaborative calendars.
 
 - **Groups and events:** When organizing groups or events, be careful to choose platforms that are privacy-respectful and don't require participants to register personal information. Keep in mind that if you only use Facebook groups, you are contributing to people staying on a privacy-invasive platform. If you only use a closed Meetup group, you are demanding people create an account and share their sensitive data in order to join. Instead, use privacy-respectful platforms such as [Mobilizon](https://mobilizon.org/) or [LAUTI](https://lauti.org/) for groups and events, [Discourse](https://www.discourse.org/) for forums, or simply use your own website to advertise in-person events.
 
@@ -104,7 +106,7 @@ Here's a list of alternative solutions you can start adopting to improve data pr
 
 - **Usage of AI:** Be extremely careful if you are using AI platforms. Most current mainstream AI products will send at least some data or metadata to the company's remote server. This can create many privacy issues, ranging from mild to severe. Never use these products to upload data about another person without their *prior explicit consent*. Ideally, refrain from using any AI tools in your advocacy work entirely.
 
-- **Candidates data:** If your organization hires people, be mindful of how you handle candidates' data. Try to select privacy-respectful solutions such as email communication instead of using commercial platforms that might share candidates' data with third-parties. Only request the minimum information required from applicants, and always delete all data you are no longer required to keep, as soon as you don't need it anymore.
+- **Candidates data:** If your organization hires people, be mindful of how you handle candidates' data. Try to select privacy-respecting solutions such as email communication instead of using commercial platforms that might share candidates' data with third-parties. Only request the minimum information required from applicants, and always delete all data you are no longer required to keep as soon as you don't need it anymore.
 
 - **Availability:** Make sure you or your organization is reachable outside the Big Tech ecosystem. If your organization only has a Facebook page, then people without a Facebook account cannot reach out to you. The same is true for other commercial social media. Instead, try to rely on a website you control yourself, or a social network page you can host yourself.
 
@@ -118,10 +120,10 @@ Here's a list of alternative solutions you can start adopting to improve data pr
 
 ## More resources
 
-- [Alternatives to Big Tech that have been vetted by our community (Privacy Guides)](../../tools.md)
+- [Alternatives to Big Tech that have been vetted by our community (*Privacy Guides*)](../../tools.md)
 
-- [Privacy-respecting European tech alternatives (Privacy Guides)](https://www.privacyguides.org/articles/2025/03/19/private-european-alternatives/)
+- [Privacy-respecting European tech alternatives (*Privacy Guides*)](https://www.privacyguides.org/articles/2025/03/19/private-european-alternatives/)
 
-- [Helpful articles and tips to migrate out of Big Tech (The Opt Out Project)](https://www.optoutproject.net/)
+- [Helpful articles and tips to migrate out of Big Tech (*The Opt Out Project*)](https://www.optoutproject.net/)
 
-- [More advices on how to improve your privacy if you are just getting started (Privacy Guides)](https://www.privacyguides.org/articles/2025/07/24/privacy-is-like-broccoli/#tools-and-services-you-can-start-using)
+- [More advices on how to improve your privacy if you are just getting started (*Privacy Guides*)](https://www.privacyguides.org/articles/2025/07/24/privacy-is-like-broccoli/#tools-and-services-you-can-start-using)

@@ -17,17 +17,25 @@ For most privacy regulations, legal protections will be applicable to **data sub
 <div class="admonition info inline end" markdown>
 <p class="admonition-title">What is a data subject?</p>
 
-Different laws might use different terms for this. Sometimes, a regulation might simply refer to a *person*, an *individual*, a *consumer*, a *patient*, or a *customer*. Other times, the equivalent expression used will be a *data subject*. A data subject is simply anyone from whom personal information is collected by an organization. Data subject will be used as an umbrella term on this page.
+Different laws might use different terms for this. Sometimes, a regulation might simply refer to a *person*, an *individual*, a *consumer*, a *patient*, or a *customer*.
+
+Other times, the equivalent expression used will be a *data subject*.
+
+A data subject is simply anyone from whom personal information is collected by an organization. **Data subject** will be used as an umbrella term on this page.
 
 </div>
 
 Contrary to what many believe, it's generally *your* local regulations that protect you, regardless of where the organization collecting your personal data is located (in addition, organizations are also subjected to their own local regulations).
 
-Organizations that meet the data subject's local privacy law criteria are legally bound to comply with the laws of each region or country where their data subjects are residing (i.e. where they are conducting business). There are a lot of nuances and regional variations to this, but in general you should focus on *where* the data subject is residing.
+Organizations that meet the data subject's local privacy law criteria are legally bound to comply with the laws of each region or country where their data subjects are residing (i.e. where they are conducting business).
+
+There are a lot of nuances and regional variations to this, but in general you should focus on *where* the data subject is residing.
 
 ## Finding your local regulations
 
-If your jurisdiction is protected by one or more privacy laws, it should be relatively easy to find this information online. Privacy Guides will soon publish a tool facilitating this task. In the meantime, you can simply use a [trustworthy search engine](../../search-engines.md) and look for keywords with your location (be specific about country + states/provinces/region) and "privacy laws" or "data protection regulations."
+If your jurisdiction is protected by one or more privacy laws, it should be relatively easy to find this information online. *Privacy Guides* will soon publish a tool facilitating this task.
+
+In the meantime, you can simply use a [trustworthy search engine](../../search-engines.md) and look for keywords with your location (be specific about country + states/provinces/region) and "privacy laws" or "data protection regulations."
 
 Always make sure to find a result that is from an official government source.
 
@@ -80,6 +88,6 @@ Once you've found the official governmental documentation describing the data pr
 
 ## More resources
 
-- [Map of data protection and privacy legislation worldwide (UN Trade and Development)](https://unctad.org/page/data-protection-and-privacy-legislation-worldwide)
+- [Map of data protection and privacy legislation worldwide (*UN Trade and Development*)](https://unctad.org/page/data-protection-and-privacy-legislation-worldwide)
 
-- [The future of privacy: How governments shape your digital life (Privacy Guides)](https://www.privacyguides.org/articles/2025/02/03/the-future-of-privacy/)
+- [The future of privacy: How governments shape your digital life (*Privacy Guides*)](https://www.privacyguides.org/articles/2025/02/03/the-future-of-privacy/)

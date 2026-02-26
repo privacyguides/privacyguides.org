@@ -4,17 +4,21 @@ description: The battle for privacy rights is difficult, and its defenders are s
 icon: fontawesome/solid/hand-holding-hand
 cover: activism/banner-toolbox-tip-lift.webp
 ---
-At times, it might feel like the privacy community is niche and isolated. The battle for privacy rights is difficult, and its defenders are scattered and spread out all around the world. This is why it's essential that we **support and uplift each other**, every time we can.
+At times, it might feel like the privacy community is niche and isolated.
+
+The battle for privacy rights is difficult, and its defenders are scattered and spread out all around the world. This is why it's essential that we **support and uplift each other**, every time we can.
 
 Here's how you can lift your allies up, and help to grow the movement:
 
 ## Your allies share your goals
 
-It's easy to get lost in our own niche advocacy, and lose track of what others in our community are working on. Nevertheless, if we want to [**build a movement**](tip-start-alliances-not-wars.md) (and to succeed, we must), we need all the help we can get, from every person and organization sharing our values.
+It's easy to get lost in our own niche advocacy, and lose track of what others in our community are working on.
+
+Nevertheless, if we want to [**build a movement**](tip-start-alliances-not-wars.md) (and to succeed, we must) we need all the help we can get, from every person and organization sharing our values.
 
 - [x] Whenever you see an organization with a campaign compatible with your mission, lift them up!
 
-- [x] Even if you are an organization yourself, lift them up too!
+- [x] Even if you are an organization yourself, lift others up too!
 
 - [x] Even if you are also working on a similar project, lift them up with you!
 
@@ -56,6 +60,6 @@ There are infinite ways to lift your allies up. Here are some ideas to get you s
 
 ## More resources
 
-- [Bits of Freedom & Privacy Guides partnering announcement (Privacy Guides)](https://www.privacyguides.org/posts/2025/10/08/privacy-guides-bits-of-freedom-partnering-to-enhance-fixjeprivacy-nl/)
+- [Bits of Freedom & Privacy Guides partnership announcement (*Privacy Guides*)](https://www.privacyguides.org/posts/2025/10/08/privacy-guides-bits-of-freedom-partnering-to-enhance-fixjeprivacy-nl/)
 
-- [Tor Project's allies lifting up Tor together (YouTube short video)](https://www.youtube.com/shorts/-hFNMlsePsc)
+- [The Tor Project's allies uplifting Tor together (*Tor Project* short video)](https://www.youtube.com/shorts/-hFNMlsePsc)
