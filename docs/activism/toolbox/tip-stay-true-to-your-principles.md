@@ -50,7 +50,7 @@ Here are a few examples of practices and good habits you might want to adopt:
 
 - [x] Reject any offers for partnership or sponsorship from third-parties that have not been properly vetted for being trustworthy and sharing your privacy values, or who might only have profit and advertising in mind.
 
-- [x] Keep your promises. As a privacy advocate, group, or organization, your reputation is the most valuable thing you have. ==If people cannot trust your integrity, they will not trust any of your advices either.== If you promise to never accept sponsorship from certain Big Tech, then make sure you are ready to hold this promise. If you promise to never accept venture-capital money for your privacy-preserving app, then keep your word and be ready to reject even attractive offers.
+- [x] Keep your promises. As a privacy advocate, group, or organization, your reputation is the most valuable thing you have. ==If people cannot trust your integrity, they will not trust any of your advice either.== If you promise to never accept sponsorship from certain Big Tech companies, then make sure you are ready to hold this promise. If you promise to never accept venture-capital money for your privacy-preserving app, then keep your word and be ready to reject even attractive offers.
 
 ## Integrity is essential to build our movement
 

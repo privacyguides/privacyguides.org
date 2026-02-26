@@ -10,9 +10,9 @@ Here's what you can do to safeguard the data of your privacy comrades:
 
 ## Where we might collect and share the data of others
 
-There are many ways we might collect the data of others in our daily advocacy, sometimes without even realizing it fully.
+There are many ways we might collect the data of others in the course of our advocacy, sometimes without even realizing it.
 
-It's important to develop an awareness of the data we collect and share ourselves, and protect the data of others with the greatest care. Not only is this critical for [integrity](tip-stay-true-to-your-principles.md), but it's also fundamental to build and keep the trust of our allies. Which in return is essential to build and grow our movement.
+It's important to develop an awareness of the data we collect and share ourselves, and protect the data of others with the greatest care. Not only is this critical for [integrity](tip-stay-true-to-your-principles.md), but it's also fundamental to build and keep the trust of our allies. This in return is essential to build and grow our movement.
 
 Here are a some examples of other people's data we might collect or share in the context of our privacy advocacy work, whether intentionally or inadvertently:
 
@@ -101,6 +101,6 @@ Regardless of the data we have to collect, we should always make sure to:
 
 ## More resources
 
-- [Data is a toxic asset (Bruce Schneier blog)](https://www.schneier.com/blog/archives/2016/03/data_is_a_toxic.html)
+- [Data is a toxic asset (*Bruce Schneier*)](https://www.schneier.com/blog/archives/2016/03/data_is_a_toxic.html)
 
-- [The importance of protecting the data of others (Privacy Guides)](https://www.privacyguides.org/articles/2025/03/10/the-privacy-of-others/)
+- [The importance of protecting the data of others (*Privacy Guides*)](https://www.privacyguides.org/articles/2025/03/10/the-privacy-of-others/)
