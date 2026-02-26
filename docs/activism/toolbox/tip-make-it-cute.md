@@ -46,10 +46,10 @@ If you've already done your homework to build the best app for people to protect
 
 ## More resources
 
-- [Why are cute objects so seductive (Laura Sabau Tatar blog)](https://uxdesign.cc/why-are-cute-objects-so-seductive-8de1c58bd47c)
+- [Why are cute objects so seductive (*Laura Sabau Tatar*)](https://uxdesign.cc/why-are-cute-objects-so-seductive-8de1c58bd47c)
 
-- [The importance of User Interface (UI) and User Experience (UX) design (Geeks for Geeks)](https://www.geeksforgeeks.org/websites-apps/importance-of-ui-ux-design/)
+- [The importance of User Interface (UI) and User Experience (UX) design (*Geeks for Geeks*)](https://www.geeksforgeeks.org/websites-apps/importance-of-ui-ux-design/)
 
-- [Why do open source applications often have less polished UIs than commercial software (Darren Horrocks blog)](https://www.darrenhorrocks.co.uk/why-open-source-ui-design-sucks/)
+- [Why do open source applications often have less polished UIs than commercial software (*Darren Horrocks*)](https://www.darrenhorrocks.co.uk/why-open-source-ui-design-sucks/)
 
-- [How to start with design in your open source project (All Things Open)](https://allthingsopen.org/articles/start-design-open-source-project)
+- [How to start with design in your open source project (*All Things Open*)](https://allthingsopen.org/articles/start-design-open-source-project)
