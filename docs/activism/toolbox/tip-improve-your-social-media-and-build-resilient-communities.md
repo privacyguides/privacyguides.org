@@ -6,9 +6,8 @@ preview:
 hide:
   - feedback
 icon: fontawesome/solid/seedling
+cover: activism/banner-toolbox-tip-plant.webp
 ---
-![Colored banner with four icons on it, a toolbox, a hammer, an octagon, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-plant.webp){align=top}
-
 Commercial social media platforms represent one of the biggest source of data exploitation. Facebook, Instagram, Threads, TikTok, and X all exploit their users' data to generate billions in profit every year. By staying active on these platforms, we continue to feed the beast and indirectly support this invasion of privacy rights.
 
 Here's how you can minimize your presence on commercial social media, and slowly build more autonomous communities:

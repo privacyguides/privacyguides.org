@@ -6,9 +6,8 @@ preview:
 hide:
   - feedback
 icon: fontawesome/solid/handshake-angle
+cover: activism/banner-toolbox-tip-alliances.webp
 ---
-![Colored banner with four icons on it, a toolbox, a hammer, a handshake, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-alliances.webp){align=top}
-
 The privacy community is made of a patchwork of individuals, activists, organizations, and businesses that sometimes hold quite different views. These divergences can create conflict and friction at times.
 
 While reporting falseness and abuse is important, when other differences lead to infighting, gossiping, competitive dunking, and organizations attacking others, we need to pause and ask how these internal wars are impacting negatively the community as a whole, both within and from an outsider's perspective.

@@ -6,9 +6,8 @@ preview:
 hide:
   - feedback
 icon: fontawesome/solid/hand-holding-hand
+cover: activism/banner-toolbox-tip-lift.webp
 ---
-![Colored banner with four icons on it, a toolbox, a hammer, two hands, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-lift.webp){align=top}
-
 At times, it might feel like the privacy community is niche and isolated. The battle for privacy rights is difficult, and its defenders are scattered and spread out all around the world. This is why it's essential that we support and uplift each other, every time we can.
 
 Here's how you can lift your allies up, and help to grow the movement:

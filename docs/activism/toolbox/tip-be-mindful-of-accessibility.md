@@ -6,9 +6,8 @@ preview:
 hide:
   - feedback
 icon: fontawesome/solid/heart-circle-check
+cover: activism/banner-toolbox-tip-accessibility.webp
 ---
-![Colored banner with four icons on it, a toolbox, a hammer, a heart with a checkmark, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-accessibility.webp){align=top}
-
 Accessibility is indispensable to inclusivity, and should always be a priority in our work. To make our privacy communities welcoming to all, accessibility cannot be an afterthought. We must integrate it in our practice from the start. This means making sure the languages, visuals, tools, and venues we use are accessible to as many people as possible.
 
 Here's what you can do to improve accessibility for your privacy-related content and communities:

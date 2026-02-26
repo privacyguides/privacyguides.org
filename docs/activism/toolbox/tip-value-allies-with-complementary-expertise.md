@@ -6,9 +6,8 @@ preview:
 hide:
   - feedback
 icon: fontawesome/solid/circle-half-stroke
+cover: activism/banner-toolbox-tip-complement.webp
 ---
-![Colored banner with four icons on it, a toolbox, a hammer, a circle with half dark and half light, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-complement.webp){align=top}
-
 In privacy like in other areas of life, **diversity is an incredible strength**. If you want your community to have a broad understanding of threat models, and be able to address issues on multiple levels, you need to value a diversity of expertises.
 
 Gathering people with a wide range of skills and experiences in your community is critical to effective work. People with different skill sets and lived experiences will together be able to reach out to a broader audience, and provide much more accurate and useful advice covering a variety of situations.

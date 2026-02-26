@@ -6,9 +6,8 @@ preview:
 hide:
   - feedback
 icon: fontawesome/solid/user-plus
+cover: activism/banner-toolbox-tip-beginners.webp
 ---
-![Colored banner with four icons on it, a toolbox, a hammer, a person with a plus sign, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-beginners.webp){align=top}
-
 For our privacy rights movement to grow, we must bring more people in. To accomplish this, it's fundamental to discuss privacy in ways that are accessible to newcomers who aren't familiar with basic concepts yet.
 
 Here's how you can improve your advocacy work to make it more approachable to beginners:

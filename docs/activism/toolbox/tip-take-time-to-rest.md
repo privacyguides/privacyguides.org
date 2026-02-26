@@ -6,9 +6,8 @@ preview:
 hide:
   - feedback
 icon: fontawesome/solid/battery-quarter
+cover: activism/banner-toolbox-tip-rest.webp
 ---
-![Colored banner with four icons on it, a toolbox, a hammer, a low battery, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-rest.webp){align=top}
-
 The battle for privacy rights will be a long one. **This isn't a sprint, it's a marathon.**
 
 If you want to be a good advocate, who will be able to fight with us for a long time, you *must* take the time to rest when needed.

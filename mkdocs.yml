@@ -287,7 +287,6 @@ theme:
     - navigation.path
     - navigation.indexes
     - navigation.footer
-    - content.action.edit
     - content.tabs.link
     - content.tooltips
     - search.highlight

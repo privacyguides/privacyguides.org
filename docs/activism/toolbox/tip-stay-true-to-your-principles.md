@@ -6,9 +6,8 @@ preview:
 hide:
   - feedback
 icon: fontawesome/solid/star
+cover: activism/banner-toolbox-tip-principles.webp
 ---
-![Colored banner with four icons on it, a toolbox, a hammer, a star, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-principles.webp){align=top}
-
 If you manage a digital rights group, meetup, chat room, event, or organization even, make sure you aren't subjecting your members and contributors to the very privacy-invasive tech you're fighting against. Sadly, it's not rare to see organizations and communities that aren't following their own privacy advice for internal practices.
 
 Here's why it's important to stay true to your principles and lead by example:

@@ -6,9 +6,8 @@ preview:
 hide:
   - feedback
 icon: fontawesome/solid/fist-raised
+cover: activism/banner-toolbox-tip-organize.webp
 ---
-![Colored banner with four icons on it, a toolbox, a hammer, a raised fist, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-organize.webp){align=top}
-
 If you've been a privacy advocate for a while, maybe it's time to level up and grow as a leader in your community.
 
 Becoming a leader can mean many things. Maybe for you it's starting a local meetup, preparing educational workshops, organizing an event or protest, initiating online projects with a team, or even starting your own organization!

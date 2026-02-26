@@ -6,9 +6,8 @@ preview:
 hide:
   - feedback
 icon: fontawesome/solid/balance-scale
+cover: activism/banner-toolbox-tip-laws.webp
 ---
-![Colored banner with four icons on it, a toolbox, a hammer, a scale, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-laws.webp){align=top}
-
 Being well-informed about the data protection regulations in your own jurisdiction can be a significant asset for your personal and collective battles to improve privacy, for yourself and for others.
 
 Unfortunately, many people lucky enough to live in jurisdictions benefiting from such regulations often aren't aware of them, or of how to use them.

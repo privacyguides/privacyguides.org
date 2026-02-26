@@ -6,9 +6,8 @@ preview:
 hide:
   - feedback
 icon: fontawesome/solid/users-rays
+cover: activism/banner-toolbox-tip-expand.webp
 ---
-![Colored banner with four icons on it, a toolbox, a hammer, people with radiating lines, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-expand.webp){align=top}
-
 When we think about our privacy, we often focus on the technical tools we can use to protect it. While this is indeed an important part of it, it's crucial not to lose sight of how regulations and invasive practices can impact us collectively.
 
 Here's what to keep in mind to expand your perspective on data privacy beyond individual solutions:

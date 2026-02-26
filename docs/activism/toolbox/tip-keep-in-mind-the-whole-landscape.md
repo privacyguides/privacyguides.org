@@ -6,9 +6,8 @@ preview:
 hide:
   - feedback
 icon: fontawesome/solid/globe
+cover: activism/banner-toolbox-tip-landscape.webp
 ---
-![Colored banner with four icons on it, a toolbox, a hammer, a globe, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-landscape.webp){align=top}
-
 Privacy isn't just about the tools. It also isn't just about the laws. And it isn't just about the practices either. It's about all of that. To move our society in a place where everyone benefits from privacy by default, we must consider technologies, laws, and culture altogether.
 
 Here's how to get better at considering the whole landscape:

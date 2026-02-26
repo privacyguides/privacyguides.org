@@ -6,9 +6,8 @@ preview:
 hide:
   - feedback
 icon: fontawesome/solid/arrow-right-from-bracket
+cover: activism/banner-toolbox-tip-migrate.webp
 ---
-![Colored banner with four icons on it, a toolbox, a hammer, an arrow pointing outside a square, and a wrench.](../../assets/img/activism/banners/banner-toolbox-tip-migrate.webp){align=top}
-
 As privacy activists, it's not only important to support the tools and organizations with good privacy practices, but also to lead by example when it comes to moving away from the surveillance ecosystem. We cannot afford to compromise our principles simply for [convenience](https://www.privacyguides.org/articles/2025/06/07/selling-surveillance-as-convenience/).
 
 Here's why and how to move away from Big Tech and embrace alternatives:
