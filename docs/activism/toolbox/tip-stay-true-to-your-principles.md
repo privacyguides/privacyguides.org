@@ -16,7 +16,7 @@ Sometimes, it's easy to just use the most popular tool and forget privacy best p
 
 Staying true to your privacy values internally has many benefits:
 
-- [x] It significantly increases your credibility while telling others what tools and practices they should adopt when you are following the same advices yourself.
+- [x] It significantly increases your credibility while telling others what tools and practices they should adopt when you are following the same advice yourself.
 
 - [x] It supports the privacy-enhancing tools and projects you would like to see prosper.
 
@@ -38,7 +38,7 @@ Here are a few examples of practices and good habits you might want to adopt:
 
 - [x] Make sure to [inform yourself about the privacy laws](tip-know-your-privacy-laws.md) you have to comply with in your work, and go above and beyond to respect them carefully.
 
-- [x] Create a [*Code of Ethics*](https://www.wikihow.com/Develop-a-Code-of-Ethics) for your group or organization, and ensure it includes a special emphasis on enforcing your privacy values.
+- [x] Create a [Code of Ethics](https://www.wikihow.com/Develop-a-Code-of-Ethics) for your group or organization, and ensure it includes a special emphasis on enforcing your privacy values.
 
 - [x] Build protocols to minimize data *collection* and maximize data *protection* when collecting data internally (e.g. from employees), and externally (e.g. from subscribers). Verify that your protocols are thoroughly followed by everyone in your group or organization.
 
@@ -62,8 +62,8 @@ Become a respected privacy-ally others in the community are eager to work with, 
 
 ## More resources
 
-- [The complete guide to writing a Code of Ethics (WikiHow)](https://www.wikihow.com/Develop-a-Code-of-Ethics)
+- [The complete guide to writing a Code of Ethics (*WikiHow*)](https://www.wikihow.com/Develop-a-Code-of-Ethics)
 
-- [Privacy washing is a dirty business (Privacy Guides)](https://www.privacyguides.org/articles/2025/08/20/privacy-washing-is-a-dirty-business/)
+- [Privacy washing is a dirty business (*Privacy Guides*)](https://www.privacyguides.org/articles/2025/08/20/privacy-washing-is-a-dirty-business/)
 
-- [Policy and procedure templates for non-profit organizations (The Commons Social Change Library)](https://commonslibrary.org/policy-bank-policy-and-procedure-templates-for-not-for-profit-organisations/)
+- [Policy and procedure templates for non-profit organizations (*The Commons Social Change Library*)](https://commonslibrary.org/policy-bank-policy-and-procedure-templates-for-not-for-profit-organisations/)
