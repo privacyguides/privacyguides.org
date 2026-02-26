@@ -70,10 +70,10 @@ There are many ways to refuse to participate in privacy-invasive practices and p
 
 ## More resources
 
-- [Privacy Guides tools and services recommendations](../../tools.md)
+- [*Privacy Guides* tools and services recommendations](../../tools.md)
 
-- [You can say NO (Privacy Guides)](https://www.privacyguides.org/articles/2025/06/17/you-can-say-no/)
+- [You can say NO (*Privacy Guides*)](https://www.privacyguides.org/articles/2025/06/17/you-can-say-no/)
 
-- [Selling surveillance as convenience (Privacy Guides)](https://www.privacyguides.org/articles/2025/06/07/selling-surveillance-as-convenience/)
+- [Selling surveillance as convenience (*Privacy Guides*)](https://www.privacyguides.org/articles/2025/06/07/selling-surveillance-as-convenience/)
 
-- [6 effective tips to politely say no (Science of People)](https://www.scienceofpeople.com/how-to-say-no/)
+- [6 effective tips to politely say no (*Science of People*)](https://www.scienceofpeople.com/how-to-say-no/)
