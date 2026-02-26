@@ -1,22 +1,22 @@
 ---
 title: Support Your Privacy Comrades
-description: Fighting for privacy rights is a collective endeavor. This battle can be difficult and isolating at time. This is why it's critical to care for each other.
+description: Fighting for privacy rights is a collective endeavor. This battle can be difficult and isolating at time. That's why it's critical to care for each other.
 icon: fontawesome/solid/hand-holding-heart
 cover: activism/banner-toolbox-tip-support.webp
 ---
-Fighting for better privacy rights, privacy tools, and privacy practices is a collective endeavor. You cannot do it alone. Anyone around you contributing is fighting the same battle by your side. This battle can be difficult and isolating at time. This is why it's critical to care for each other.
+Fighting for better privacy rights, privacy tools, and privacy practices is a collective endeavor. You cannot do it alone. Anyone around you contributing is fighting the same battle by your side. This battle *can* be difficult and isolating at times. That's why it's critical to care for each other.
 
 Here are things you can do to **support your privacy comrades**:
 
 ## Fighting for privacy rights can be isolating in unique ways
 
-We live in a world of social connections. When we moved these connections online, we regrettably also gave power to large corporations to monitor and monetize our social relationships and communications.
+We live in a world of social connections. Regrettably, when we moved these connections online, we also gave power to large corporations to monitor and monetize our social relationships and communications.
 
-Many privacy advocates will choose, rightly so, to [leave](tip-migrate-outside-the-surveillance-ecosystem.md) entirely those abusive platforms. Sadly, a side effect of this is often severed relationships with loved ones, who refuse to join us on better privacy-respectful environments. Many of us have lost friends when we quit Facebook, or refused to join a Discord server. Taking a stand for our privacy values can come at the cost of some painful social losses.
+Many privacy advocates will choose, rightly so, to completely [leave](tip-migrate-outside-the-surveillance-ecosystem.md) those abusive platforms. Sadly, a side effect of this is often severed relationships with loved ones, who refuse to join us on better, privacy-respectful environments. It's unfortunately common to lose friends when we quit Facebook, or refuse to join a Discord server. Taking a stand for our privacy values can come at the cost of some painful social losses.
 
 Moreover, fighting to protect privacy rights while reading about attacks on those rights every day in the news can be draining.
 
-Most advocates have experienced moments of great discouragement, and feelings of helplessness while facing the magnitude of the task at hand. ==Social support is a matter of survival to recharge and continue this long battle for human rights.==
+Most advocates have experienced moments of great discouragement, and feelings of helplessness while facing the magnitude of the task at hand. ==Social support is a matter of survival== to recharge and continue this long battle for human rights.
 
 This is why we must work to rebuild communities of our own. Supportive privacy communities that are [kind](tip-be-kind-to-people-but-be-relentless-with-institutions.md), [inclusive](tip-keep-your-posts-and-community-inclusive.md), and [accessible](tip-be-mindful-of-accessibility.md).
 
@@ -42,18 +42,18 @@ Here are a few things you can do to support your privacy comrades in times of ne
 
 - [x] Organize a group or event to socialize with your privacy comrades regularly, offline or online, in a privacy-respectful way.
 
-- [x] Depending on circumstances (and only if they might be open to it), refer them to a helpful resource in private. However, be careful not to fall into [the advice trap](https://www.psychologytoday.com/us/blog/the-questionologist/202103/how-guide-people-without-giving-advice), unless they specifically asked for advices.
+- [x] Depending on circumstances (and only if they might be open to it), refer them to a helpful resource in private. However, be careful not to fall into [the advice trap](https://www.psychologytoday.com/us/blog/the-questionologist/202103/how-guide-people-without-giving-advice), unless they specifically asked for advice.
 
 - [x] Stay kind and do not take it personally if they refuse your help or disagree with your [*solicited* advice](https://www.verywellmind.com/whats-behind-different-types-of-unsolicited-advice-3144961). Let them know the door is always open to reach out to you whenever they might need help later.
 
 ## More resources
 
-- [Privacy Guides Forum](https://discuss.privacyguides.net/)
+- [*Privacy Guides* Forum](https://discuss.privacyguides.net/)
 
-- [What is empathy, and tips for strengthening your empathy skills (Verywell Mind article)](https://www.verywellmind.com/what-is-empathy-2795562)
+- [What is empathy, and tips for strengthening your empathy skills (*Verywell Mind*)](https://www.verywellmind.com/what-is-empathy-2795562)
 
-- [How to guide people without giving advice (Psychology Today article)](https://www.psychologytoday.com/us/blog/the-questionologist/202103/how-guide-people-without-giving-advice)
+- [How to guide people without giving advice (*Psychology Today*)](https://www.psychologytoday.com/us/blog/the-questionologist/202103/how-guide-people-without-giving-advice)
 
-- [Take care and prevent an activist burnout (Activist Handbook)](https://activisthandbook.org/wellbeing)
+- [Take care and prevent an activist burnout (*Activist Handbook*)](https://activisthandbook.org/wellbeing)
 
-- [Build communities on privacy-respectful social networks, and invite your privacy comrades to join you there (Privacy Guides tip)](tip-improve-your-social-media-and-build-resilient-communities.md)
+- [Build communities on privacy-respectful social networks, and invite your privacy comrades to join you there (*Privacy Guides*)](tip-improve-your-social-media-and-build-resilient-communities.md)

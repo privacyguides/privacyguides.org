@@ -86,7 +86,7 @@ Here are a few practices to improve our culture surrounding data privacy that yo
 
 - [x] Never share the files of others with a third-party person or application without their prior permission.
 
-- [x] Unplug smart devices equipped with a microphone or camera at home before any guests enter. If this isn't possible for some reason, then informing your guests about these devices *before* they enter your home, and *before* the device collects any information about them.
+- [x] Unplug smart devices equipped with a microphone or camera at home before any guests enter. If this isn't possible for some reason, then inform your guests about these devices *before* they enter your home, and *before* the device collects any information about them.
 
 - [x] Never use devices like Meta's Ray-Ban glasses, i.e. devices equipped with a microphone and/or camera that might record others without their consent.
 
