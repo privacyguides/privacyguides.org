@@ -4,7 +4,7 @@ description: Accessibility should always be a priority in our work. To make our 
 icon: fontawesome/solid/heart-circle-check
 cover: activism/banner-toolbox-tip-accessibility.webp
 ---
-**Accessibility** is indispensable to inclusivity, and should always be a priority in our work. To make our privacy communities welcoming to all, accessibility cannot be an afterthought. We must integrate it in our practice from the start. This means making sure the languages, visuals, tools, and venues we use are accessible to as many people as possible.
+**Accessibility** is indispensable to [inclusivity](tip-keep-your-posts-and-community-inclusive.md), and should always be a priority in our work. To make our privacy communities welcoming to all, accessibility cannot be an afterthought. We must integrate it in our practice from the start. This means making sure the languages, visuals, tools, and venues we use are accessible to as many people as possible.
 
 Here's what you can do to improve accessibility for your privacy-related content and communities:
 
@@ -34,7 +34,9 @@ Anytime you are using images, audio, or any other sensorial elements in your adv
 
 ### Website accessibility
 
-If you develop a website in your privacy work, make sure to follow the international standards for web accessibility. This is very important to ensure readers using assistive devices will be able to access your content, and that people with visual impairments will not struggle to access your content.
+If you develop a website in your privacy work, make sure to follow the international standards for web accessibility.
+
+This is very important to ensure readers using assistive devices will be able to access your content, and that people with visual impairments will not struggle to access your content.
 
 - [x] Get familiar with the World Wide Web Consortium (W3C) [international Web standards](https://www.w3.org/WAI/standards-guidelines/). These standards have been reviewed for accessibility support by the Accessible Platform Architectures ([APA](https://www.w3.org/WAI/about/groups/apawg/)) Working Group.
 
@@ -52,15 +54,15 @@ People from all around the world will be able to read or watch your English cont
 
 - [x] When talking about issues related to politics, make sure to specify what governmental entities are, and explain any special rights your country has (don't just name them). That way, outsiders will be able to understand and support your cause as well, even if perhaps they aren't directly impacted by this issue at the moment.
 
-- [x] Don't assume everyone knows all the popular internet acronyms such as DIY (Do It Yourself) or IIRC (If I Recall Correctly). These acronyms are very challenging for non-native English speakers. When using acronyms in your content, always explain the full expression in parentheses at least once, or simply use whole words instead.
+- [x] Don't assume everyone knows all the popular internet acronyms such as DIY (Do It Yourself) or IIRC (If I Recall Correctly). These acronyms are very challenging for non-native English speakers. When using acronyms in your content, always explain the full expression in parentheses at least once, or better yet, simply use whole words instead.
 
-- [x] When inviting people to an event, consider that people from other time zones might be reading your invitation. If your event is online, always specify the [time zone](https://www.timeanddate.com/time/map/) for the announced time. If your event is in person, always specify the whole location with the country and region ([**do not just name the city**](https://www.roughmaps.com/destinations/20-places-around-the-world-that-share-the-same-name/22)).
+- [x] When inviting people to an event, consider that people from other time zones might be reading your invitation. If your event is online, always specify the [time zone](https://www.timeanddate.com/time/map/) for the announced time. If your event is in person, always specify the whole location with the country and region ([do *not* just name the city](https://www.roughmaps.com/destinations/20-places-around-the-world-that-share-the-same-name/22)).
 
 ### Physical accessibility
 
 When organizing events and meetups in person, it's essential to keep in mind physical accessibility for people with mobility challenges of all kind. This includes accessibility around the venue, but also on the journey to the venue.
 
-- [x] Ensure the venue you select is [accessible for people using wheelchairs](https://sites.augsburg.edu/events/policies/accessible-events/accessible-event-planning-guide/). Check that there is access to an elevator if it's on an upper floor, there are access ramps and automatic doors if required, and that doorways and hallways are wide enough to accommodate a wheelchair.
+- [x] Ensure the venue you select is [accessible for people using wheelchairs](https://sites.augsburg.edu/events/policies/accessible-events/accessible-event-planning-guide/). Check that there is access to an elevator if it's on an upper floor, that there are access ramps and automatic doors if required, and that doorways and hallways are wide enough to accommodate a wheelchair.
 
 - [x] Make certain that there will be enough comfortable seating for your guests, and that seating and eating areas will be accessible to guests using wheelchairs or other mobility aids.
 
@@ -150,14 +152,14 @@ Another aspect of accessibility that is often overlooked is financial accessibil
 
 ## More resources
 
-- [How to make your social justice event accessible (The Commons Social Change Library)](https://commonslibrary.org/how-to-make-your-social-justice-event-accessible/)
+- [How to make your social justice event accessible (*The Commons Social Change Library*)](https://commonslibrary.org/how-to-make-your-social-justice-event-accessible/)
 
-- [Make your event accessible and inclusive (Park People)](https://parkpeople.ca/make-your-event-accessible-and-inclusive/)
+- [Make your event accessible and inclusive (*Park People*)](https://parkpeople.ca/make-your-event-accessible-and-inclusive/)
 
-- [How to host a COVID-safe party: Tips and tricks (Party Pro)](https://party.pro/covid/)
+- [How to host a COVID-safe party: Tips and tricks (*Party Pro*)](https://party.pro/covid/)
 
 - [Dos and don'ts on designing for accessibility (UK Government)](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/)
 
-- [Five golden rules for compliant alt text (AbilityNet)](https://abilitynet.org.uk/resources/digital-accessibility/five-golden-rules-compliant-alt-text)
+- [Five golden rules for compliant alt text (*AbilityNet*)](https://abilitynet.org.uk/resources/digital-accessibility/five-golden-rules-compliant-alt-text)
 
-- [Accessibility developer guide (Access for all)](https://www.accessibility-developer-guide.com/)
+- [Accessibility developer guide (*Access for all*)](https://www.accessibility-developer-guide.com/)
