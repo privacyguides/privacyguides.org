@@ -6,11 +6,11 @@ cover: activism/banner-toolbox-tip-alliances.webp
 ---
 The privacy community is made of a patchwork of individuals, activists, organizations, and businesses that sometimes hold quite different views. These divergences can create conflict and friction at times.
 
-While reporting falseness and abuse is important, when other differences lead to infighting, gossiping, competitive dunking, and organizations attacking others, we need to pause and ask how these internal wars are impacting negatively the community as a whole, both within and from an outsider's perspective.
+While reporting falseness and abuse is important, when other differences lead to infighting, gossiping, competitive dunking, and organizations attacking others, we need to pause and ask how these internal wars are negatively impacting the community as a whole, both internally and from an outsider's perspective.
 
 For our community to thrive and slowly build a movement, **we need more alliances, not wars**.
 
-Here's how you can nurture alliances instead of fueling conflicts:
+Here's how you can nurture alliances, instead of fueling conflicts:
 
 ## Acknowledge that you cannot win this battle alone, neither as a person nor as a single organization
 
@@ -28,7 +28,9 @@ Sadly, it's quite common in the privacy community to see privacy-focused busines
 
 Perhaps some businesses and organizations think they are competing for the same scarce privacy-minded customers or donors. But this is a narrow vision that doesn't represent the bigger picture.
 
-==The digital privacy rights movement is in its infancy.== There are in fact many more potential customers and potential donors, more than enough for every current organizations and privacy-oriented businesses on the planet. The part that is scarce is people who understand why protecting their right to privacy is important, and how to do it.
+The digital privacy rights movement is in its infancy.
+
+There are in fact many more potential customers and potential donors, more than enough for every current organizations and privacy-oriented businesses on the planet. The part that is scarce is people who understand why protecting their right to privacy is important, and how to do it.
 
 By promoting privacy rights *together*, we all participate in growing a movement where more and more people become aware of these issues, and will be interested in taking part in the solutions.
 
@@ -38,13 +40,13 @@ Additionally, tearing down perceived competitors sharing your values isn't a goo
 
 Newcomers get confused when they receive competing new information. Confusion leads to *inertia*, and inertia in the current Big Tech ecosystem means staying with Gmail instead of moving to Tuta or Proton mail, or any other privacy-focused email services. This is a bad outcome for *all* of us.
 
-**None of us win if people stop listening and stay with Big Tech** because we are too busy fighting each other. Instead of damaging the movement with infighting, combat inertia and build alliances with each other.
+*None* of us win if people stop listening and stay with Big Tech, because we are too busy fighting each other. Instead of damaging the movement with infighting, combat inertia and build alliances with each other.
 
 ## How to start alliances
 
 Here are a few ideas to start building alliances within the privacy community:
 
-- **Keep a list** of organizations and other privacy activists sharing your values. Mastodon's [list feature](https://fedi.tips/how-to-use-the-lists-feature-on-mastodon/) can be very helpful to build a social network feed for this. Using a [RSS feed reader](../../news-aggregators.md) is another great way to do this.
+- **Keep a list** of organizations and other privacy activists sharing your values. Mastodon's [list feature](https://fedi.tips/how-to-use-the-lists-feature-on-mastodon/) can be very helpful to build a social network feed for this. Using an [RSS feed reader](../../news-aggregators.md) is another great way to do this.
 
 - **Get familiar** with what your allies are working on. Think about ways their mission might be compatible with yours.
 
@@ -119,10 +121,10 @@ Here are a few ways that might help to reduce the impact of infighting within th
 
 ## More resources
 
-- [Coalition building: Start here (The Commons Social Change Library)](https://commonslibrary.org/coalition-building-start-here/)
+- [Coalition building: Start here (*The Commons Social Change Library*)](https://commonslibrary.org/coalition-building-start-here/)
 
-- [How to build a new coalition (Activist Handbook)](https://activisthandbook.org/organising/coalition-building/starting)
+- [How to build a new coalition (*Activist Handbook*)](https://activisthandbook.org/organising/coalition-building/starting)
 
-- [How to develop nonprofit relationships to expand and scale (Nonprofit Learning Lab)](https://www.nonprofitlearninglab.org/post/how-to-develop-nonprofit-relationships)
+- [How to develop nonprofit relationships to expand and scale (*Nonprofit Learning Lab*)](https://www.nonprofitlearninglab.org/post/how-to-develop-nonprofit-relationships)
 
-- [Templates, worksheets, and checklists for changemakers (The Commons Social Change Library)](https://commonslibrary.org/templates-worksheets-checklists-for-changemakers/)
+- [Templates, worksheets, and checklists for changemakers (*The Commons Social Change Library*)](https://commonslibrary.org/templates-worksheets-checklists-for-changemakers/)
