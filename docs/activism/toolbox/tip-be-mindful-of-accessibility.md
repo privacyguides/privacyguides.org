@@ -4,15 +4,19 @@ description: Accessibility should always be a priority in our work. To make our 
 icon: fontawesome/solid/heart-circle-check
 cover: activism/banner-toolbox-tip-accessibility.webp
 ---
-Accessibility is indispensable to inclusivity, and should always be a priority in our work. To make our privacy communities welcoming to all, accessibility cannot be an afterthought. We must integrate it in our practice from the start. This means making sure the languages, visuals, tools, and venues we use are accessible to as many people as possible.
+**Accessibility** is indispensable to inclusivity, and should always be a priority in our work. To make our privacy communities welcoming to all, accessibility cannot be an afterthought. We must integrate it in our practice from the start. This means making sure the languages, visuals, tools, and venues we use are accessible to as many people as possible.
 
 Here's what you can do to improve accessibility for your privacy-related content and communities:
 
 ## Accessibility for all, in all the ways
 
-For many people who don't need any specific accommodations, accessibility is often only thought about in terms of solutions to *mobility* impairments, such as for people requiring the use of a wheelchair. While this is indeed and important factor to consider, there are many other types of disabilities and accommodations we should be mindful of in our privacy work.
+For many people who don't need any specific accommodations, accessibility is often only thought about in terms of solutions to *mobility* impairments, such as for people requiring the use of a wheelchair.
 
-Considering how each part of our work could be accessed more easily by everyone is essential to grow our movement, and to diversify our privacy communities. Ethically, it's also just the right thing to do, and should be the norm everywhere.
+While this is indeed and important factor to consider, there are many other types of disabilities and accommodations we should be mindful of in our privacy work.
+
+Considering how each part of our work could be accessed more easily by everyone is essential to grow our movement, and to diversify our privacy communities.
+
+Ethically, it's also just the right thing to do, and should be the norm everywhere.
 
 ### Visual, auditory, and other sensorial accessibility
 
@@ -42,7 +46,7 @@ If you develop a website in your privacy work, make sure to follow the internati
 
 Whether you write a post, an article, or a whole website in English, keep in mind that your audience is likely global.
 
-People from all around the world will be able to read or watch your English content, many who don't speak English as their first language. Don't assume that your audience is only coming from your own country or region. This is a good thing by the way. **The battle for privacy rights must be global now**.
+People from all around the world will be able to read or watch your English content, many who don't speak English as their first language. Don't assume that your audience is only coming from your own country or region. This is a good thing, by the way! ==The battle for privacy rights must be global now.==
 
 - [x] Be careful not to use too many references that are unique to your own country or region. If you do, make sure to explain what it is for people from other regions.
 

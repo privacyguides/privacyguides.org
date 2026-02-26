@@ -4,11 +4,11 @@ description: There is so much to do to improve privacy rights. So much, that it'
 icon: fontawesome/solid/puzzle-piece
 cover: activism/banner-toolbox-tip-small.webp
 ---
-There is so much to do in the movement for better privacy rights. So much, that it's sometime easy to feel discouraged when facing the scale of what's left to accomplish. But everything helps. Every small improvement counts, and every small victory should be celebrated.
+There is so much to do in the movement for better privacy rights. So much, that it's sometime easy to feel discouraged when facing the scale of what's left to accomplish. But **everything helps**. Every small improvement counts, and every small victory should be celebrated.
 
 Even if you don't feel like you [have the energy](tip-take-time-to-rest.md) to move a mountain today, there are plenty of small actions you can do.
 
-Moreover, you don't have to move this mountain alone! If you push on it a little today, and a thousand people join you tomorrow, then a thousand more the day after, **this mountain will eventually move**.
+Moreover, ==you don't have to move this mountain alone!== If you push on it a little today, and a thousand people join you tomorrow, then a thousand more the day after, this mountain will eventually move.
 
 Here's why every action and each victory matter, no matter how small:
 
@@ -16,9 +16,9 @@ Here's why every action and each victory matter, no matter how small:
 
 Discouragement often emerges from envisioning too much of what's left to do at once. While it's important to [expand your perspective](tip-dont-stop-at-individual-solutions.md), when it comes to action, it's also important to segment the task at hand in smaller bites.
 
-Even if you do not have the resource to organize a large campaign around a privacy issue, **do not minimize the power that you have**.
+Even if you do not have the resource to organize a large campaign around a privacy issue, do not minimize the power that you have.
 
-All the small contributions you can make will cumulate together over time, and end up having a significant effect overall.
+All the small ==contributions you can make will cumulate together over time==, and end up having a significant effect overall.
 
 Additionally, you are [not alone](tip-lift-your-allies-up.md) in this battle. If you can make a small contribution today, and convince maybe one or two other advocates to do the same, you have already contributed significantly to the movement.
 
@@ -26,7 +26,7 @@ Additionally, you are [not alone](tip-lift-your-allies-up.md) in this battle. If
 
 Whenever you have a big idea to attack a privacy issue, make sure to [plan out your action](https://commonslibrary.org/effective-activist-strategic-plans/) by splitting up the task over time, and delegating to allies.
 
-For example, if you want to organize a petition, perhaps ask one person to help with the website infrastructure, another with the design, another with the text, and another with the backend. Then, instead of trying to collect one million signatures by yourself, try to find allies and ask if they can help to collect a few signatures each. **Multiple your small impact by delegating to many.**
+For example, if you want to organize a petition, perhaps ask one person to help with the website infrastructure, another with the design, another with the text, and another with the backend. Then, instead of trying to collect one million signatures by yourself, try to find allies and ask if they can help to collect a few signatures each. Multiple your small impact by delegating to many.
 
 Each person who signs the petition contributes with each their own small action. Each person who helps to spread the word about the petition also helps with another small action. And each person who contributes to promoting the petition on their own channels helps as well. This all counts, and it all matters.
 

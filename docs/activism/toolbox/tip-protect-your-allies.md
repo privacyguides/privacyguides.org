@@ -4,7 +4,7 @@ description: Through your privacy work, it's crucial to protect the data of your
 icon: fontawesome/solid/shield-heart
 cover: activism/banner-toolbox-tip-protect.webp
 ---
-Through your privacy advocacy work, be careful to never collect or share the data of others without their prior explicit consent. It's crucial to protect your allies' data in all that you do, whether it's individual action, organizing an event, or leading an organization.
+Through your privacy advocacy work, be careful to never collect or share the data of others without their prior explicit consent. It's crucial to **protect your allies' data** in all that you do, whether it's individual action, organizing an event, or leading an organization.
 
 Here's what you can do to safeguard the data of your privacy comrades:
 

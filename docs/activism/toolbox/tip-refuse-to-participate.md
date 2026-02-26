@@ -4,21 +4,21 @@ description: As privacy activists, we must be a voice for resistance and take a 
 icon: fontawesome/solid/xmark-circle
 cover: activism/banner-toolbox-tip-refuse.webp
 ---
-As privacy advocates and activists, it's important to be a voice for resistance and take a stand against abusive practices. One substantial way to do this is to refuse to participate in privacy-intrusive requests, or use invasive software.
+As privacy advocates and activists, it's important to **be a voice for resistance** and take a stand against abusive practices. One substantial way to do this is to refuse to participate in privacy-intrusive requests, or use invasive software.
 
 Here's how you can refuse to comply with privacy-abusive practices, and why it's imperative that you do whenever possible:
 
 ## The risk of complying with privacy-invasive requests
 
-Requests to invade our privacy are part of our daily lives in today's world. Whether it's a store cashier banally asking for our phone number after a purchase, or a prominent facial scan at the airport with no clear instructions on how to opt out, privacy-invasive requests have become so normalized that most people barely notice them anymore.
+Requests to invade our privacy are part of our daily lives in today's world. Whether it's a store cashier banally asking for our phone number after a purchase, or a prominent facial scan at the airport with no clear instructions on how to opt out, ==privacy-invasive requests have become so normalized== that most people barely notice them anymore.
 
-The problem is, each time we mindlessly comply because we are tired, rushed, or failed to even notice how unnecessary and intrusive this is, we directly contribute in **normalizing bad practices even more**.
+The problem is, each time we mindlessly comply because we are tired, rushed, or failed to even notice how unnecessary and intrusive this is, we directly contribute in normalizing bad practices even more.
 
 While it might be ambitious to expect people who aren't even aware of privacy issues to say no, as privacy advocates we have a responsibility to lead by example, and refuse every single time we legally can. Ideally, we should also document and report on our experience, as this presents a unique opportunity to raise awareness on the issue.
 
 ## The risk of using privacy-abusive platforms
 
-Each time we use a platform, tool, or service that is privacy-invasive in our practice, we also contribute in **normalizing the use of privacy-abusive software**.
+Each time we use a platform, tool, or service that is privacy-invasive in our practice, we also contribute in normalizing the use of privacy-abusive software.
 
 It's not always easy to [leave Big Tech](tip-migrate-outside-the-surveillance-ecosystem.md) and adopt more privacy-preserving technologies in our daily work. Nevertheless, it's an essential part of our advocacy.
 

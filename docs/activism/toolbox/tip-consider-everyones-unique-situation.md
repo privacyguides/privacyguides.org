@@ -4,7 +4,7 @@ description: To give actionable privacy advices, it's essential to consider ever
 icon: fontawesome/solid/users-between-lines
 cover: activism/banner-toolbox-tip-everyone.webp
 ---
-Everyone has different needs, and everyone faces different dangers when their personal data gets exposed. To give actionable privacy advices and recommendations, it's essential to keep in mind everyone's situation. There isn't a one-size-fits-all approach when it comes to data privacy.
+Everyone has different needs, and everyone faces different dangers when their personal data gets exposed. To give actionable privacy advices and recommendations, it's essential to **keep in mind everyone's situation**. There isn't a one-size-fits-all approach when it comes to data privacy.
 
 Here's how you can get better at evaluating each person's unique [*threat model*](../../basics/threat-modeling.md):
 

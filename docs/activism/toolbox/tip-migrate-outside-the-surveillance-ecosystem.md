@@ -4,7 +4,7 @@ description: As privacy activists, it's important to lead by example and support
 icon: fontawesome/solid/arrow-right-from-bracket
 cover: activism/banner-toolbox-tip-migrate.webp
 ---
-As privacy activists, it's not only important to support the tools and organizations with good privacy practices, but also to lead by example when it comes to moving away from the surveillance ecosystem. We cannot afford to compromise our principles simply for [convenience](https://www.privacyguides.org/articles/2025/06/07/selling-surveillance-as-convenience/).
+As privacy activists, it's not only important to support the tools and organizations with good privacy practices, but also to lead by example when it comes to **moving away from the surveillance ecosystem**. We cannot afford to compromise our principles simply for [convenience](https://www.privacyguides.org/articles/2025/06/07/selling-surveillance-as-convenience/).
 
 Here's why and how to move away from Big Tech and embrace alternatives:
 
@@ -44,18 +44,18 @@ While using the most popular mainstream tools and platforms for our work might s
 
 ## How to migrate away from privacy-harmful tools and choose better alternatives
 
-There are two good news about this:
-
-- First, there are many wonderful alternatives that already exist to support all kind of tasks, and that will preserve your privacy and the privacy of the people you communicate with.
-
-- Second, you don't have to do it all at once! Start your migration process slowly, but be persistent about it over the whole year.
-
-<div class="admonition question" markdown>
+<div class="admonition question inline end" markdown>
 <p class="admonition-title">What is the best tool?</p>
 
 For each proposed alternative, you should always first consider your own [threat model](../../basics/threat-modeling.md). One tool might be ideal for one person or organization, but another tool might be better for another. Make sure to understand well your threat model in order to choose the tools that are the best for your unique situation.
 
 </div>
+
+There are two good news about this:
+
+- First, there are many wonderful alternatives that already exist to support all kind of tasks, and that will preserve your privacy and the privacy of the people you communicate with.
+
+- Second, you don't have to do it all at once! Start your migration process slowly, but be persistent about it over the whole year.
 
 Here's a list of alternative solutions you can start adopting to improve data privacy in your advocacy work:
 

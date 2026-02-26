@@ -4,7 +4,7 @@ description: In your privacy advocacy, it's important to recommend tools that ar
 icon: fontawesome/solid/skull-crossbones
 cover: activism/banner-toolbox-tip-snakeoil.webp
 ---
-In your privacy advocacy, it's essential to use and recommend tools that are reliable to protect privacy. For this, you need to investigate and remain highly skeptical of any dangerous or unproven marketing claims.
+In your privacy advocacy, it's essential to use and recommend tools that are reliable to protect privacy. For this, you need to **investigate and remain highly skeptical** of any dangerous or unproven marketing claims.
 
 Here's how to evaluate privacy claims, and recommend tools that are trustworthy:
 

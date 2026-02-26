@@ -6,7 +6,7 @@ cover: activism/banner-toolbox-tip-principles.webp
 ---
 If you manage a digital rights group, meetup, chat room, event, or organization even, make sure you aren't subjecting your members and contributors to the very privacy-invasive tech you're fighting against. Sadly, it's not rare to see organizations and communities that aren't following their own privacy advice for internal practices.
 
-Here's why it's important to stay true to your principles and lead by example:
+Here's why it's important to **stay true to your principles** and lead by example:
 
 ## Be the groups and organizations you want to see in the world
 
@@ -40,7 +40,7 @@ Here are a few examples of practices and good habits you might want to adopt:
 
 - [x] Create a [*Code of Ethics*](https://www.wikihow.com/Develop-a-Code-of-Ethics) for your group or organization, and ensure it includes a special emphasis on enforcing your privacy values.
 
-- [x] Build protocols to **minimize data collection** and **maximize data protection** when collecting data internally (e.g. from employees), and externally (e.g. from subscribers). Verify that your protocols are thoroughly followed by everyone in your group or organization.
+- [x] Build protocols to minimize data *collection* and maximize data *protection* when collecting data internally (e.g. from employees), and externally (e.g. from subscribers). Verify that your protocols are thoroughly followed by everyone in your group or organization.
 
 - [x] Educate the members and contributors of your group or team. Make sure that everyone understands well your values, your Code of Ethics, and applies your established protocols.
 
@@ -50,11 +50,11 @@ Here are a few examples of practices and good habits you might want to adopt:
 
 - [x] Reject any offers for partnership or sponsorship from third-parties that have not been properly vetted for being trustworthy and sharing your privacy values, or who might only have profit and advertising in mind.
 
-- [x] Keep your promises. As a privacy advocate, group, or organization, your reputation is the most valuable thing you have. **If people cannot trust your integrity, they will not trust any of your advices either.** If you promise to never accept sponsorship from certain Big Tech, then make sure you are ready to hold this promise. If you promise to never accept venture-capital money for your privacy-preserving app, then keep your word and be ready to reject even attractive offers.
+- [x] Keep your promises. As a privacy advocate, group, or organization, your reputation is the most valuable thing you have. ==If people cannot trust your integrity, they will not trust any of your advices either.== If you promise to never accept sponsorship from certain Big Tech, then make sure you are ready to hold this promise. If you promise to never accept venture-capital money for your privacy-preserving app, then keep your word and be ready to reject even attractive offers.
 
 ## Integrity is essential to build our movement
 
-Staying true to our principles can be challenging at time. Nonetheless, when we are talking about privacy rights, we are also talking a lot about *trust*. **Without integrity, there cannot be any trust.**
+Staying true to our principles can be challenging at time. Nonetheless, when we are talking about privacy rights, we are also talking a lot about *trust*. Without integrity, there cannot be any trust.
 
 Maintaining integrity with leading by example and keeping our promises is therefore essential to our fight for privacy rights. It's also fundamental to build our community, and to grow our movement with alliances.
 

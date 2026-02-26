@@ -4,27 +4,27 @@ description: Inclusivity is essential to grow our privacy movement. If we want p
 icon: fontawesome/solid/heart-circle-plus
 cover: activism/banner-toolbox-tip-inclusivity.webp
 ---
-Inclusivity is not only the right thing to do, it's also essential to grow our movement. If we want privacy rights to succeed, it's imperative that we build communities where *everyone* feels safe and welcomed, regardless of who they are or where they come from.
+**Inclusivity** is not only the right thing to do, it's also essential to grow our movement. If we want privacy rights to succeed, it's imperative that we build communities where *everyone* feels safe and welcomed, regardless of who they are or where they come from.
 
 Here's how you can keep your communications and communities inclusive:
 
 ## Why you need communities that are diverse and inclusive
 
-In privacy, diversity is an incredible strength, a necessity even. When people with different lived experiences, identities, localities, specialties, and mentalities join our group, the whole collectivity benefits from a broader perspective.
+In privacy, **diversity** is an incredible strength, a necessity even. When people with different lived experiences, identities, localities, specialties, and mentalities join our group, the whole collectivity benefits from a broader perspective.
 
 Having a broad perspective is essential to understand the scope and impact of privacy issues, as well as the actionable solutions for diverse situations.
 
 When people with different lived experiences and identities join our group, it expands our understanding of numerous [threat models](../../basics/threat-modeling.md), and allows us to adapt our message in ways that will be more inclusive. When people from different localities join our group, this helps us to regionalize our content and communication to make it accessible to people all around the world, and expand our network. And when people with different mentalities join our group, it helps us to reach out to people with different ways of thinking more easily.
 
-The more diverse is a team, the more resources it has to understand and support a diverse population of people interested (or potentially interested) in privacy rights.
+==The more diverse is a team, the more resources it has to understand and support a diverse population of people== interested (or potentially interested) in privacy rights.
 
-**Inclusivity allows diversity to thrive, and diversity will make it easier for your group to be inclusive.**
+Inclusivity allows diversity to thrive, and diversity will make it easier for your group to be inclusive.
 
 Of course, for all those benefits to happen, it's crucial that [group leaders](tip-level-up-assemble-and-organize.md) be good listeners, and actively nurture diversity and inclusivity.
 
 ## Beware of gatekeeping
 
-Gatekeeping is sadly a common social phenomenon in niche communities, moreover in tech communities. Gatekeeping happens when a group tend to restrict who can join it, or who gets opportunities within it. It can be done maliciously to exclude marginalized people, or inadvertently when it emerges from unconscious biases.
+**Gatekeeping** is sadly a common social phenomenon in niche communities, moreover in tech communities. Gatekeeping happens when a group tend to restrict who can join it, or who gets opportunities within it. It can be done maliciously to exclude marginalized people, or inadvertently when it emerges from unconscious biases.
 
 Many of us have had experiences where we felt excluded from other social groups where our privacy values weren't understood. Once we finally find a group that makes us feel like we belong, it's easy to quickly occupy the whole space and forget that newcomers might feel pushed aside if we do not actively try to include them.
 

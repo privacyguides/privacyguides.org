@@ -4,9 +4,9 @@ description: The battle for privacy will be a long one. This isn't a sprint, it'
 icon: fontawesome/solid/battery-quarter
 cover: activism/banner-toolbox-tip-rest.webp
 ---
-The battle for privacy rights will be a long one. **This isn't a sprint, it's a marathon.**
+The battle for privacy rights will be a long one. This isn't a sprint, it's a marathon.
 
-If you want to be a good advocate, who will be able to fight with us for a long time, you *must* take the time to rest when needed.
+If you want to be a good advocate, who will be able to fight with us for a long time, you *must* take the time to **rest when needed**.
 
 Burning out isn't an option, we cannot afford to lose your precious contribution! And to prevent burning out, you must learn how to rest.
 
@@ -16,20 +16,19 @@ Here's why it's fundamental to learn how to rest when you need it:
 
 ## Knowing when to rest is a strength, not a weakness
 
-Here's a bad news for you:
-**You are a human.**
+Here's bad news for you: **You are a human.**
 
 This has many annoying side effects, such as having limited energy and a flesh body you need to take care of. Trying to ignore this undeniable fact will only slow you down even more.
 
 In our society's hustle culture, it's counterproductive that we often value overwork more than strategic rest.
 
-The thing is, overwork isn't a sustainable strategy for the long battle ahead of us. What we need to succeed is privacy activists who will fight by our side for a very long time. **We need endurance and persistence.** And for this to happen, we need ourselves and our [privacy comrades](tip-support-your-privacy-comrades.md) to be well-rested, by taking pauses and adopting the strategies we all need to recharge.
+The thing is, overwork isn't a sustainable strategy for the long battle ahead of us. ==What we need to succeed is privacy activists who will fight by our side for a very long time. We need endurance and persistence.== And for this to happen, we need ourselves and our [privacy comrades](tip-support-your-privacy-comrades.md) to be well-rested, by taking pauses and adopting the strategies we all need to recharge.
 
 We need our movement to stay away from the often toxic hustle culture we have all observed from Big Tech companies, and instead embrace a culture of mutual support that encourages self-care.
 
 We shouldn't try to imitate our opponents by "[moving fast and breaking things](https://www.privacyguides.org/articles/2022/04/04/move-fast-and-break-things/)."
 
-**We need to move at a *sustainable* pace and build a powerful privacy rights movement that will last.**
+We need to move at a *sustainable* pace, and build a powerful privacy rights movement that will last.
 
 The important part isn't to fight for privacy rights 24/7. What matters most is that once you are well-rested after taking some time off, you come back to the battlefield to fight with us again.
 

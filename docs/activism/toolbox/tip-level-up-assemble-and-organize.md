@@ -4,9 +4,9 @@ description: If you've been a privacy advocate for a while, maybe it's time to l
 icon: fontawesome/solid/fist-raised
 cover: activism/banner-toolbox-tip-organize.webp
 ---
-If you've been a privacy advocate for a while, maybe it's time to level up and grow as a leader in your community.
+If you've been a privacy advocate for a while, maybe it's time to level up and **grow as a leader** in your community.
 
-Becoming a leader can mean many things. Maybe for you it's starting a local meetup, preparing educational workshops, organizing an event or protest, initiating online projects with a team, or even starting your own organization!
+Becoming a leader can mean many things. Maybe for you, it's starting a local meetup, preparing educational workshops, organizing an event or protest, initiating online projects with a team, or even starting your own organization!
 
 Here's what you can do to become a *good* leader in the privacy rights movement:
 
@@ -16,7 +16,7 @@ There are many styles and scales of leadership. Becoming a leader can start smal
 
 Regardless of the scale, it's important to become a *good* leader to lift your community up, which will benefit the whole movement.
 
-Becoming a positive leader in your community doesn't mean running everything, and it doesn't mean being the only one taking decisions while telling others what to do either. First and foremost, it means **supporting and inspiring people to become the best privacy advocates they can be**.
+Becoming a positive leader in your community doesn't mean running everything, and it doesn't mean being the only one taking decisions while telling others what to do either. First and foremost, ==it means supporting and inspiring people== to become the best privacy advocates they can be.
 
 ## Supporting others
 

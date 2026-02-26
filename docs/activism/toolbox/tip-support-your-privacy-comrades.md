@@ -6,7 +6,7 @@ cover: activism/banner-toolbox-tip-support.webp
 ---
 Fighting for better privacy rights, privacy tools, and privacy practices is a collective endeavor. You cannot do it alone. Anyone around you contributing is fighting the same battle by your side. This battle can be difficult and isolating at time. This is why it's critical to care for each other.
 
-Here are things you can do to support your privacy comrades:
+Here are things you can do to **support your privacy comrades**:
 
 ## Fighting for privacy rights can be isolating in unique ways
 
@@ -16,7 +16,7 @@ Many privacy advocates will choose, rightly so, to [leave](tip-migrate-outside-t
 
 Moreover, fighting to protect privacy rights while reading about attacks on those rights every day in the news can be draining.
 
-Most advocates have experienced moments of great discouragement, and feelings of helplessness while facing the magnitude of the task at hand. **Social support is a matter of survival to recharge and continue this long battle for human rights.**
+Most advocates have experienced moments of great discouragement, and feelings of helplessness while facing the magnitude of the task at hand. ==Social support is a matter of survival to recharge and continue this long battle for human rights.==
 
 This is why we must work to rebuild communities of our own. Supportive privacy communities that are [kind](tip-be-kind-to-people-but-be-relentless-with-institutions.md), [inclusive](tip-keep-your-posts-and-community-inclusive.md), and [accessible](tip-be-mindful-of-accessibility.md).
 

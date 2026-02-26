@@ -4,7 +4,7 @@ description: The battle for privacy rights is difficult, and its defenders are s
 icon: fontawesome/solid/hand-holding-hand
 cover: activism/banner-toolbox-tip-lift.webp
 ---
-At times, it might feel like the privacy community is niche and isolated. The battle for privacy rights is difficult, and its defenders are scattered and spread out all around the world. This is why it's essential that we support and uplift each other, every time we can.
+At times, it might feel like the privacy community is niche and isolated. The battle for privacy rights is difficult, and its defenders are scattered and spread out all around the world. This is why it's essential that we **support and uplift each other**, every time we can.
 
 Here's how you can lift your allies up, and help to grow the movement:
 
@@ -18,11 +18,11 @@ It's easy to get lost in our own niche advocacy, and lose track of what others i
 
 - [x] Even if you are also working on a similar project, lift them up with you!
 
-It doesn't matter if you are working on something comparable yourself, or if perhaps you would word their work slightly differently.  As long as the message is aligned with your mission and values, **spread the words of your allies loud and far!**
+It doesn't matter if you are working on something comparable yourself, or if perhaps you would word their work slightly differently.  As long as the message is aligned with your mission and values, spread the words of your allies loud and far!
 
 By lifting each other up, we will broaden the reach of the message we share, and ultimately this serves our goals and our community too.
 
-In privacy advocacy, we truly need to adopt the mindset: **The more the merrier.**
+In privacy advocacy, we truly need to adopt the mindset: ==The more, the merrier.==
 
 ## Concrete ways to support and lift your allies up
 
