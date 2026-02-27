@@ -20,7 +20,7 @@ There are many things you can learn to become more resistant to privacy washing,
 
 ## How to spot privacy snake oil
 
-Unless it comes from a professional privacy source you have a high degree of trust in, never trust any privacy claims at face value.
+Never trust any privacy claims at face value.
 
 Here are some red flags you should always keep in mind when evaluating a privacy tool, service, or organization:
 
