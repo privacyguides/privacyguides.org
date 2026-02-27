@@ -461,7 +461,7 @@ nav:
           - "alternative-networks.md"
           - "device-integrity.md"
   - !ENV [NAV_ACTIVISM, "Activism"]:
-      - "activism/about.md"
+      - "activism/index.md"
       - !ENV [NAV_ACTIVISM_TOOLBOX, "Activist Toolbox"]:
           - "activism/toolbox/index.md"
           - "Check Your Laws":

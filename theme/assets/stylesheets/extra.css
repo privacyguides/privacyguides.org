@@ -651,7 +651,7 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
     cursor: pointer;
 }
 
-.toolbox-button-grid .toolbox-button:hover {
+.md-typeset .toolbox-button-grid .toolbox-button:hover, .md-typeset .toolbox-button-grid .toolbox-button:focus {
     position: relative;
     transform: scale(1.08);
     /* box-shadow: 5px 10px 10px 5px rgba(0,0,0,0.3); */
@@ -671,6 +671,10 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
 }
 
 /* Toolbox Button Colors*/
+.toolbox-bg {
+    background-color: var(--pg-blue);
+}
+
 .toolbox-bg-legal {
     background-color: var(--color-toolbox-legal);
 }
@@ -781,17 +785,6 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
 
 .toolbox-button-top a, .toolbox-button-top a:visited {
     color: var(--md-default-fg-color--light);
-}
-
-/* Toolbox List Style */
-.toolbox-bullet-list {
-    margin-left: 10px;
-}
-
-/* Toolbox List Style */
-.toolbox-bullet-list-sub {
-    margin-left: 24px;
-    margin-top: -10px;
 }
 
 /* Toolbox Tip Button Next */

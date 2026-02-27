@@ -1,15 +1,15 @@
 ---
 title: "About This Section"
-meta_title: "Guides for Privacy Activists"
+meta_title: "Guides and Tools for Privacy Activists"
 description: Privacy Guides' Activism section contains tools to support the community in its privacy advocacy and activism effort, both for individuals and organizations.
 hide:
   - toc
   - footer
 cover: activism/banner-activism.webp
 ---
-Privacy Guides' Activism section offers a new way to empower the digital rights community.
+The **Guides and Tools for Privacy Activists** project from [*Privacy Guides*](../about.md) offers a new way to empower the digital rights community.
 
-This section contains **information to help you become a better defender of privacy rights**, both for individuals and organizations.
+This section contains information to help you become a better defender of privacy rights, both for individuals and organizations.
 
 ## We must fight for privacy rights collectively
 
@@ -23,6 +23,6 @@ This section will progressively grow with more tools to support the community in
 
 <div class="toolbox-button-grid" markdown>
 
-[:fontawesome-solid-toolbox:{ .toolbox-button-icon } Privacy Activist Toolbox](toolbox/index.md){ .toolbox-button .toolbox-bg-legal }
+[:fontawesome-solid-toolbox:{ .toolbox-button-icon } Privacy Activist Toolbox](toolbox/index.md){ .toolbox-button .toolbox-bg }
 
 </div>
