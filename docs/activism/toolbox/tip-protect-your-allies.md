@@ -71,9 +71,9 @@ Regardless of the data we have to collect, we should always make sure to:
 
 3. **Protect** the collected data with adequate and proportional security measures, ideally using [end-to-end encryption](https://en.wikipedia.org/wiki/End-to-end_encryption) every time this is possible.
 
-4. If this data needs to be shared with a third-party or a service provider, obtain data subject's consent prior to sharing, and verify the third-party or service provider offers adequate protections and proper deletion mechanisms.
+    - If this data needs to be shared with a third-party or a service provider, obtain data subject's consent prior to sharing, and verify the third-party or service provider offers adequate protections and proper deletion mechanisms.
 
-5. **Delete** the data as soon as it isn't needed anymore, and ensure deletion is done thoroughly.
+4. **Delete** the data as soon as it isn't needed anymore, and ensure deletion is done thoroughly.
 
 ### Some practices to normalize in our advocacy work
 

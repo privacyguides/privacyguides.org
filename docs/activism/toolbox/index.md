@@ -5,7 +5,7 @@ hide:
   - feedback
 cover: activism/banner-activism-toolbox.webp
 ---
-**The Privacy Activist Toolbox is a resource for anyone interested in becoming a better privacy rights activist, or anyone who wants to start advocating for privacy rights.**
+The **Privacy Activist Toolbox** is a resource for anyone interested in becoming a better privacy rights activist, or anyone who wants to start advocating for privacy rights.
 
 This page is also a resource to help digital rights organizations that would like to expand their work focusing on privacy.
 
