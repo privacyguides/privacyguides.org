@@ -50,7 +50,8 @@ This page is also a resource to help digital rights organizations that would lik
 
 Being well-informed about the data protection regulations in your own jurisdiction can be a significant asset for your personal and collective battles to improve privacy, for yourself and for others. Learn more on what to look for when researching your local privacy laws.
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div>
 </a>
@@ -64,7 +65,8 @@ Being well-informed about the data protection regulations in your own jurisdicti
 
 Once you are informed on your local privacy laws, get familiar with the process to report violations. Submitting an official complaint is often simple, and can have a significant impact, both for yourself and for your community. Learn more on why and how you should report violations of your local privacy laws.
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div>
 </a>
@@ -83,7 +85,8 @@ Once you are informed on your local privacy laws, get familiar with the process 
 
 In your privacy advocacy, it's essential to use and recommend tools that are reliable to protect privacy. For this, you need to investigate and remain highly skeptical of any dangerous or unproven marketing claims. Learn more on how to evaluate privacy claims, and recommend tools that are trustworthy.
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div>
 </a>
@@ -97,7 +100,8 @@ In your privacy advocacy, it's essential to use and recommend tools that are rel
 
 As privacy activists, it's important not only to support the tools and organizations with good privacy practices, but also to lead by example when it comes to moving away from the surveillance ecosystem. Learn more on why and how to move away from Big Tech and embrace alternatives.
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div>
 </a>
@@ -111,7 +115,8 @@ As privacy activists, it's important not only to support the tools and organizat
 
 Commercial social media platforms represent one of the biggest source of data exploitation. By staying active on these platforms, we continue to feed the beast, and indirectly support this invasion of privacy rights. Learn more on how you can minimize your presence there, and slowly build better social networks.
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div>
 </a>
@@ -130,7 +135,8 @@ Commercial social media platforms represent one of the biggest source of data ex
 
 When we think about our privacy, we often focus on the technical tools we can use. While this is indeed an important part of it, it's crucial not to lose sight of how regulations and invasive practices can impact us collectively. Learn more on what to keep in mind to expand your perspective on data privacy.
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div>
 </a>
@@ -144,7 +150,8 @@ When we think about our privacy, we often focus on the technical tools we can us
 
 Privacy isn't just about the tools. It also isn't just about the laws. And it isn't just about the practices either. To move our society in a place where everyone benefits from privacy by default, we must consider technologies, laws, and culture altogether. Learn more on how to get better at considering the whole landscape.
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div>
 </a>
@@ -158,7 +165,8 @@ Privacy isn't just about the tools. It also isn't just about the laws. And it is
 
 Everyone has different needs and faces different dangers when their personal data gets exposed. To give actionable privacy advices and recommendations, it's essential to keep in mind everyone's situation. Learn more on how you can get better at evaluating each person's unique threat model.
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div>
 </a>
@@ -177,7 +185,8 @@ Everyone has different needs and faces different dangers when their personal dat
 
 At times, it might feel like the privacy community is niche and isolated. The battle for privacy rights is difficult, and its defenders are often scattered. This is why it's essential that we support and uplift each other, every time we can. Learn more on how you can lift your allies up, and help to grow the movement.
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div>
 </a>
@@ -191,7 +200,8 @@ At times, it might feel like the privacy community is niche and isolated. The ba
 
 Fighting for privacy rights is a collective endeavor. You cannot do it alone. Anyone around you contributing is fighting the same battle by your side. This battle can be difficult and isolating at time. This is why it's critical to care for each other. Learn more on what you can do to support your privacy comrades.
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div></a>
 
@@ -204,7 +214,8 @@ Fighting for privacy rights is a collective endeavor. You cannot do it alone. An
 
 Kindness is essential for privacy advocates. To grow our movement, we must meet people from a place of camaraderie. People don't change their mind by being berated. However, this isn't true for institutions. Learn more on how you can integrate kindness in your work, while being relentless with institutions.
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div>
 </a>
@@ -223,7 +234,8 @@ Kindness is essential for privacy advocates. To grow our movement, we must meet 
 
 The privacy community is made of a patchwork of individuals and organizations that sometimes hold quite different views. When these divergences lead to infighting, we need to ask how these internal wars are impacting our community negatively. Learn more on how you can start alliances instead of wars.
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div>
 </a>
@@ -237,7 +249,8 @@ The privacy community is made of a patchwork of individuals and organizations th
 
 In privacy like everywhere else, diversity is a strength. If you want your community to have a broad understanding of threat models, and be able to fight on multiple levels, you need to value a diversity of expertises. Learn more on how to recognize, respect, and retain experts with skills different to yours.
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div>
 </a>
@@ -251,7 +264,8 @@ In privacy like everywhere else, diversity is a strength. If you want your commu
 
 To succeed, we must support each other. A good way to do this is to never forget to give credit where credit is due. When another advocate or organization says something you agree with, boost them up, spread their reach, and thank them publicly. Learn more on how you can help make your allies feel seen and valued.
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div>
 </a>
@@ -270,7 +284,8 @@ To succeed, we must support each other. A good way to do this is to never forget
 
 For our privacy rights movement to grow, we must bring more people in. To accomplish this, it's fundamental to discuss privacy in ways that are accessible to newcomers who aren't familiar with basic concepts yet. Learn more on how you can improve your advocacy work to make it more approachable to beginners.
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div>
 </a>
@@ -284,7 +299,8 @@ For our privacy rights movement to grow, we must bring more people in. To accomp
 
 Inclusivity is not only the right thing to do, it's also essential to grow our movement. If we want privacy rights to succeed, it's imperative that we build communities where *everyone* feels safe and welcomed, regardless of who they are. Learn more on how you can keep your communications and communities inclusive.
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div>
 </a>
@@ -298,7 +314,8 @@ Inclusivity is not only the right thing to do, it's also essential to grow our m
 
 Accessibility is indispensable to inclusivity, and should always be a priority in our work. To make our privacy communities welcoming to all, accessibility cannot be an afterthought. We must integrate it in our practice from the start. Learn more on what you can do to improve accessibility in your privacy work.
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div>
 </a>
@@ -312,7 +329,8 @@ Accessibility is indispensable to inclusivity, and should always be a priority i
 
 If you are developing a privacy-focused application or website, do not neglect the design aspect of it. This is a common mistake that can have a significant negative impact on adoption by a general audience. Learn more on why you should make your design appealing and accessible to all. Make it cute!
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div>
 </a>
@@ -331,7 +349,8 @@ If you are developing a privacy-focused application or website, do not neglect t
 
 As privacy advocates and activists, it's important to be a voice for resistance and take a stand against abusive practices. One important way to do this is to refuse to participate in privacy-intrusive requests, or use invasive software. Learn more on how you can refuse to comply with privacy-abusive practices.
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div>
 </a>
@@ -345,7 +364,8 @@ As privacy advocates and activists, it's important to be a voice for resistance 
 
 If you manage a digital rights group or organization, make sure you aren't subjecting your contributors to the very privacy-invasive tech you're fighting against. Sadly, it's not rare to see communities that aren't following their own advice for internal practices. Learn more on why it's important to maintain integrity.
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div>
 </a>
@@ -359,7 +379,8 @@ If you manage a digital rights group or organization, make sure you aren't subje
 
 Through your privacy work, be careful to never collect or share the data of others without their prior explicit consent. It's crucial to protect your allies' data in all that you do, whether it's individual action or leading an organization. Learn more on what you can do to safeguard the data of your privacy comrades.
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div>
 </a>
@@ -378,7 +399,8 @@ Through your privacy work, be careful to never collect or share the data of othe
 
 There is so much to do in the movement for better privacy rights. So much, that it's sometimes easy to feel discouraged when facing the scale of what's left to accomplish. But everything helps, and even the smallest action counts. Learn more on why every action and every victory matters, no matter how small.
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div>
 </a>
@@ -392,7 +414,8 @@ There is so much to do in the movement for better privacy rights. So much, that 
 
 The battle for privacy rights will be a long one. This isn't a sprint, it's a marathon. If you want to be a good advocate, you *must* take the time to rest when needed. Burning out isn't an option, we cannot afford to lose your precious contribution! Learn more on why it's fundamental to learn to rest when you need it.
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div>
 </a>
@@ -411,7 +434,8 @@ The battle for privacy rights will be a long one. This isn't a sprint, it's a ma
 
 Once you have the knowledge, motivation, and energy, it's time to act! Perhaps you've read all of these tips, or read all of Privacy Guides' Knowledge Base already! But you don't need to know that much about privacy to start contributing. Learn more on what you can do to become a privacy activist.
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div>
 </a>
@@ -425,7 +449,8 @@ Once you have the knowledge, motivation, and energy, it's time to act! Perhaps y
 
 If you've been a privacy advocate for a while, maybe it's time to level up and grow as a leader in your community. Becoming a leader can mean starting a local group, or initiating bigger projects online. Learn more on what you can do to become a *good* leader in the privacy rights movement.
 
-<p align="right">Learn More ►</p>
+Learn More :material-arrow-right-drop-circle:
+{align=right}
 
 </div>
 </a>
