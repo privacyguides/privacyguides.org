@@ -616,6 +616,7 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
 
 /* Toolbox Color Variables */
 :root {
+  --color-toolbox: #21bddc;
   --color-toolbox-legal: #15678a;
   --color-toolbox-tools: #457759;
   --color-toolbox-perspective: #5c7e40;
@@ -672,7 +673,8 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
 
 /* Toolbox Button Colors*/
 .toolbox-bg {
-    background-color: var(--pg-blue);
+    background-color: var(--color-toolbox);
+    color: #2d2d2d !important;
 }
 
 .toolbox-bg-legal {
