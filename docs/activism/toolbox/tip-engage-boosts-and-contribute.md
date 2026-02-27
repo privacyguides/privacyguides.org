@@ -4,7 +4,7 @@ description: Once you have the knowledge, motivation, and energy to fight for pr
 icon: fontawesome/solid/bullhorn
 cover: activism/banner-toolbox-tip-engage.webp
 ---
-Once you have the knowledge, motivation, and energy, **it's time to act**! Perhaps you've read all the tips here, or read all of Privacy Guides' [Knowledge Base](../../basics/why-privacy-matters.md) already! But you don't need to know that much about privacy to start contributing.
+Once you have the knowledge, motivation, and energy, **it's time to act**! Perhaps you've read all the tips here, or have read through our [Knowledge Base](../../basics/why-privacy-matters.md) already! But you don't need to know that much about privacy to start contributing.
 
 The most important part is that you care about privacy rights, and want to be part of the movement to defend them.
 
@@ -12,18 +12,18 @@ Here's what you can do to become a privacy activist:
 
 ## Be active! Participate and contribute!
 
-Being a privacy activist means to actively take part in the movement with a mission to protect and improve fundamental privacy rights for everyone.
+Being a privacy activist means actively taking part in the movement to protect and improve fundamental privacy rights for everyone.
 
 <div class="admonition quote toolbox-quote" markdown>
 <p class="admonition-title toolbox-quote">We want to help redefine 'activist' to a term that can include anyone who wants to work collectively to create social change. You don't have to be an expert, and you don't have to spend every waking minute trying to do 'activism'. You just have to be a person who wants to create change with other people.</p>
 
-<p class="toolbox-quote-source" markdown>Source: [Activist Handbook](https://activisthandbook.org/theory/what-is-activism#our-response-take-the-%E2%80%98expert%E2%80%99-out-of-%E2%80%98activism%E2%80%99)</p>
+<p class="toolbox-quote-source" markdown>Source: [*Activist Handbook*](https://activisthandbook.org/theory/what-is-activism#our-response-take-the-%E2%80%98expert%E2%80%99-out-of-%E2%80%98activism%E2%80%99)</p>
 
 </div>
 
 There are many ways to actively engage in the privacy rights movement.
 
-While there is a lot that can be accomplished by *anyone* interested in joining, try to think about how you can orient your activism around your strengths, skills, and interests. This will help with sustainability.
+While a lot can be accomplished by *anyone* interested in joining, think about how you can orient your activism around *your* strengths, skills, and interests. This will help with sustainability.
 
 If you find one way doesn't really work for you, and you get tired or bored quickly, then find another way to contribute. There isn't a one-size-fits-all approach. Find the ways that work best for you.
 
@@ -43,7 +43,7 @@ Ask yourself these questions:
 
 ## Things you can do to engage, boost, and contribute
 
-Here are some ideas of things you can do to become a privacy activist in your community, and a valuable member of the privacy rights movement:
+Here are some ideas of what you can do to become a privacy activist in your community, and a valuable member of the privacy rights movement:
 
 <style>
 .emoji-list-a ul {
@@ -80,16 +80,16 @@ Here are some ideas of things you can do to become a privacy activist in your co
 <div class="admonition quote toolbox-quote" markdown>
 <p class="admonition-title toolbox-quote">People who do activism reclaim their own agency in deciding what kind of world they want to live in.</p>
 
-<p class="toolbox-quote-source" markdown>Source: [Activist Handbook](https://activisthandbook.org/theory/what-is-activism#personal-is-political)</p>
+<p class="toolbox-quote-source" markdown>Source: [*Activist Handbook*](https://activisthandbook.org/theory/what-is-activism#personal-is-political)</p>
 
 </div>
 
 ## More resources
 
-- [What is activism? (Activist Handbook)](https://activisthandbook.org/theory/what-is-activism#personal-is-political)
+- [What is activism? (*Activist Handbook*)](https://activisthandbook.org/theory/what-is-activism#personal-is-political)
 
-- [How to be an activist for human rights causes (WikiHow)](https://www.wikihow.com/Become-an-Activist)
+- [How to be an activist for human rights causes (*WikiHow*)](https://www.wikihow.com/Become-an-Activist)
 
-- [Learn to use ethical principles of persuasion (The Community Tool Box)](https://ctb.ku.edu/en/table-of-contents/participation/promoting-interest/principles-of-persuasion/main)
+- [Learn to use ethical principles of persuasion (*The Community Tool Box* (University of Kansas))](https://ctb.ku.edu/en/table-of-contents/participation/promoting-interest/principles-of-persuasion/main)
 
-- [Communicate your message: Making sure your message comes across (Activist Handbook)](https://activisthandbook.org/communication)
+- [Communicate your message: Making sure your message comes across (*Activist Handbook*)](https://activisthandbook.org/communication)

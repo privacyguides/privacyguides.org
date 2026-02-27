@@ -16,13 +16,13 @@ Here's why it's fundamental to learn how to rest when you need it:
 
 ## Knowing when to rest is a strength, not a weakness
 
-Here's bad news for you: **You are a human.**
+We have some bad news for you: **You are a human.**
 
-This has many annoying side effects, such as having limited energy and a flesh body you need to take care of. Trying to ignore this undeniable fact will only slow you down even more.
+This has many annoying side effects, such as having limited energy and a flesh-and-bone body you need to take care of. Trying to ignore this undeniable fact will only slow you down even more.
 
 In our society's hustle culture, it's counterproductive that we often value overwork more than strategic rest.
 
-The thing is, overwork isn't a sustainable strategy for the long battle ahead of us. ==What we need to succeed is privacy activists who will fight by our side for a very long time. We need endurance and persistence.== And for this to happen, we need ourselves and our [privacy comrades](tip-support-your-privacy-comrades.md) to be well-rested, by taking pauses and adopting the strategies we all need to recharge.
+The thing is, overwork isn't a sustainable strategy for the long battle ahead of us. ==What we need to succeed is privacy activists who will fight by our side for a very long time.== We need endurance and persistence. And for this to happen, we need ourselves and our [privacy comrades](tip-support-your-privacy-comrades.md) to be well-rested, by taking pauses and adopting the strategies we all need to recharge.
 
 We need our movement to stay away from the often toxic hustle culture we have all observed from Big Tech companies, and instead embrace a culture of mutual support that encourages self-care.
 
@@ -35,7 +35,7 @@ The important part isn't to fight for privacy rights 24/7. What matters most is 
 <div class="admonition quote toolbox-quote" markdown>
 <p class="admonition-title toolbox-quote">Successful social change activists learn to be the tortoise rather than the hare. Looking after yourself and your family is important.</p>
 
-<p class="toolbox-quote-source" markdown>Source: [The Activists' Handbook by Aidan Ricketts](https://aidanricketts.com/the-activists-handbook/)</p>
+<p class="toolbox-quote-source" markdown>Source: [*The Activists' Handbook* by Aidan Ricketts](https://aidanricketts.com/the-activists-handbook/)</p>
 
 </div>
 
@@ -43,7 +43,7 @@ The important part isn't to fight for privacy rights 24/7. What matters most is 
 
 Unfortunately, activism burnout is quite common. And, in the privacy field, this is amplified by the well-documented effect of [privacy fatigue](https://www.sciencedirect.com/science/article/abs/pii/S0747563217306817).
 
-Additionally, the fact that we have to incessantly push against a tidal wave of new privacy-invasive legislations and technologies is understandingly exhausting. But there are many strategies we can adopt to prevent activism burnout, minimize privacy fatigue, and learn how to rest and valorize self-care as an essential part of our work:
+Additionally, the fact that we have to incessantly push against a tidal wave of new privacy-invasive legislations and technologies is understandingly exhausting. But we can adopt many strategies to prevent activism burnout, minimize privacy fatigue, and learn how to rest and valorize self-care as an essential part of our work:
 
 <style>
 .emoji-list-a ul {
@@ -87,16 +87,16 @@ Additionally, the fact that we have to incessantly push against a tidal wave of 
 
 ## More resources
 
-- [Find a community of privacy comrades (Privacy Guides forum)](https://discuss.privacyguides.net/)
+- [Find a community of privacy comrades (*Privacy Guides* forum)](https://discuss.privacyguides.net/)
 
-- [Privacy is like broccoli, take it one step at the time (Privacy Guides)](https://www.privacyguides.org/articles/2025/07/24/privacy-is-like-broccoli/)
+- [Privacy is like broccoli, take it one step at the time (*Privacy Guides*)](https://www.privacyguides.org/articles/2025/07/24/privacy-is-like-broccoli/)
 
-- [Personal sustainability for activists (The Commons Social Change Library)](https://commonslibrary.org/personal-sustainability-for-activists/)
+- [Personal sustainability for activists (*The Commons Social Change Library*)](https://commonslibrary.org/personal-sustainability-for-activists/)
 
-- [The role of privacy fatigue in online privacy behavior (ScienceDirect)](https://www.sciencedirect.com/science/article/abs/pii/S0747563217306817)
+- [The role of privacy fatigue in online privacy behavior (*ScienceDirect*)](https://www.sciencedirect.com/science/article/abs/pii/S0747563217306817)
 
-- [What can be done about activist burnout? (Sharon Nepstad YouTube video)](https://www.youtube.com/watch?v=BNm2ar3dEug)
+- [What can be done about activist burnout? (*Sharon Nepstad* YouTube video)](https://www.youtube.com/watch?v=BNm2ar3dEug)
 
-- [How to avoid activist burnout (Change Atelier)](https://www.changeatelier.org/blog/how-to-avoid-activist-burnout)
+- [How to avoid activist burnout (*Change Atelier*)](https://www.changeatelier.org/blog/how-to-avoid-activist-burnout)
 
-- [Strategies to prevent activist burnout (The Art of Living)](https://www.newsletter.samuel-warde.com/p/strategies-to-prevent-activist-burnout)
+- [Strategies to prevent activist burnout (*The Art of Living*)](https://www.newsletter.samuel-warde.com/p/strategies-to-prevent-activist-burnout)
