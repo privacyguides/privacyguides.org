@@ -167,16 +167,16 @@ Here are a few privacy-focused tools and services that can help you to organize 
 </div>
 
 <style>
-.emoji-list-a ul {
-  list-style: emoji-list-a;
+.emoji-list-b ul {
+  list-style: emoji-list-b;
 }
-@counter-style emoji-list-a {
+@counter-style emoji-list-b {
   system: fixed;
   symbols: "🗺️" "📅" "☁️" "📂";
   suffix: "  ";
 </style>
 
-<details class="info emoji-list-a" markdown>
+<details class="info emoji-list-b" markdown>
 <summary>More Alternatives &nbsp;📗</summary>
 
 - **Maps & Navigation:** [Organic Maps](../../maps.md#organic-maps) or [OsmAnd](../../maps.md#osmand)
