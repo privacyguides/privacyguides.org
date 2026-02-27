@@ -107,153 +107,84 @@ Here are a few ideas of actions you might want to consider in your privacy work:
 
 Here are a few privacy-focused tools and services that can help you to organize your groups and actions:
 
-<details class="info" markdown>
-<summary>Mobilizon &nbsp;🟡&nbsp; Events and Groups</summary>
+<div class="grid" markdown>
 
- [**Mobilizon**](https://mobilizon.org/) is a free open-source software to plan events and organize groups.
+<div class="admonition recommendation" markdown>
 
-- Use it as an alternative to *Facebook groups*, *Meetup.com*, or *EventBrite*.
+![CryptPad logo](../../assets/img/document-collaboration/cryptpad.svg){ align=right }
 
-- It can be [self-hosted](https://mobilizon.org/#get-your-own), or used with a [server](https://instances.mobilizon.org/) of your choice.
+**CryptPad** is a free open-source collaborative office suite that uses end-to-end encryption.
 
-- It can connect to the [Fediverse](https://en.wikipedia.org/wiki/Fediverse) network through ActivityPub.
+:page_with_curl: Use it as an alternative to Google Docs!
 
-- Developed by the French nonprofit [Framasoft](https://framasoft.org/en/), and now maintained by [Kaihuri](https://www.kaihuri.org/).
+[:material-star-box: Read our latest CryptPad review.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/)
 
-</details>
+[More info](../../document-collaboration.md#cryptpad){ .md-button .md-button--primary }
+[:octicons-home-16:](https://cryptpad.fr/){ .card-link title="Homepage" }
 
-<details class="info" markdown>
-<summary>LAUTI &nbsp;🗓️&nbsp; Community Calendar</summary>
+</div>
 
-[**LAUTI**](https://lauti.org/) is a free open-source community calendar to publish your meetups and events on your website.
+<div class="admonition recommendation" markdown>
 
-- Use it as an alternative to *proprietary calendar plugin* solutions.
+![Mastodon logo](../../assets/img/social-networks/mastodon.svg){ align=right }
 
-- It can be [self-hosted](https://lauti.org/#getstarted), or used with a [server](https://lauti.org/#instances) of your choice.
+**Mastodon** is a free and open-source microblogging social network.
 
-- It offers connection through open-standard feeds in iCal and RSS formats.
+:speech_balloon: Use it as an [alternative](tip-improve-your-social-media-and-build-resilient-communities.md) to commercial social media such as *X*, *Facebook*, *Instagram*, *Threads*, *TikTok*, or *Bluesky*.
 
-- Maintained by the German collective [Klasse & Methode - IT Kollektiv Stuttgart](https://klasse-methode.it/).
+[:material-star-box: Read our notes on Mastodon's privacy and security.](https://www.privacyguides.org/articles/2025/07/15/mastodon-privacy-and-security/)
 
-</details>
+[More info](../../social-networks.md#mastodon){ .md-button .md-button--primary }
+[:octicons-home-16:](https://joinmastodon.org/){ .card-link title="Homepage" }
 
-<details class="info" markdown>
-<summary>PeerTube &nbsp;▶️&nbsp; Video Platform</summary>
+</div>
 
-[**PeerTube**](https://joinpeertube.org/) is a free open-source video platform.
+<div class="admonition recommendation" markdown>
 
-- Use it to share videos with your community free from *YouTube*'s control.
+![Element logo](../../assets/img/social-networks/element.svg){ align=right }
 
-- It can be [self-hosted](https://docs.joinpeertube.org/install/any-os), or used with a [server](https://joinpeertube.org/instances?profile=video-maker) of your choice.
+**Element** is a free open-source client for the [Matrix](https://matrix.org/) open standard for chat-room group communication.
 
-- It can connect to the [Fediverse](https://en.wikipedia.org/wiki/Fediverse) network through ActivityPub.
+:loudspeaker: Use it as a privacy-preserving alternative to *Slack* or *Discord*.
 
-- Developed by the French nonprofit [Framasoft](https://framasoft.org/en/).
+[More info](../../social-networks.md#element){ .md-button .md-button--primary }
+[:octicons-home-16:](https://element.io/){ .card-link title="Homepage" }
 
-</details>
+</div>
 
-<details class="info" markdown>
-<summary>CryptPad &nbsp;📑&nbsp; Collaborative Documents Office Suite</summary>
+<div class="admonition recommendation" markdown>
 
-[**CryptPad**](https://cryptpad.org/about/) is a free open-source collaborative office suite that uses end-to-end encryption.
+![PeerTube logo](../../assets/img/social-networks/peertube.svg){ align=right }
 
-- Use it as an alternative to *Google Docs*.
+**PeerTube** is a free open-source video platform developed by the French nonprofit [Framasoft](https://framasoft.org/en/).
 
-- It can be [self-hosted](https://docs.cryptpad.org/en/admin_guide/index.html), used with a [server](https://cryptpad.org/instances/) of your choice, or ready-to-go with the [flagship instance](https://cryptpad.fr/) hosted in France.
+:video_camera: Use it to share videos with your community free from *YouTube*'s control.
 
-- Developed by the French Libre Software company [XWiki](https://xwiki.com/en/).
+[:octicons-home-16: Homepage](../../social-networks.md#peertube){ .md-button .md-button--primary }
 
-- Read Privacy Guides' [**full review of CryptPad**](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/).
+</div>
 
-</details>
+</div>
 
-<details class="info" markdown>
-<summary>Element &nbsp;💬&nbsp; Chat-Room Group Communication</summary>
+<style>
+.emoji-list-a ul {
+  list-style: emoji-list-a;
+}
+@counter-style emoji-list-a {
+  system: fixed;
+  symbols: "🗺️" "📅" "☁️" "📂";
+  suffix: "  ";
+</style>
 
-[**Element**](https://element.io/en) is a free open-source client for the [Matrix](https://matrix.org/) open standard for chat-room group communication.
-
-- Use it as a privacy-preserving alternative to *Slack* or *Discord*.
-
-- It allows certain chat rooms to be fully end-to-end encrypted.
-
-- It can be [self-hosted](https://element.io/en/hosting/on-premise), used with a Matrix [server](https://matrix.org/ecosystem/servers/) of your choice, or even used entirely off-the-internet [air gapped](https://element.io/en/hosting/air-gapped-network).
-
-- Developed by the European company [Element](https://element.io/en/about).
-
-- Check Privacy Guides' [**full recommendation of Element**](../../social-networks.md/#element).
-
-</details>
-
-<details class="info" markdown>
-<summary>Organic Map &nbsp;🗺️&nbsp; Map and Navigation</summary>
-
-[**Organic Maps**](https://organicmaps.app/) is a free open-source map and navigation application.
-
-- Use it as an alternative to *Google Map* or *Apple Map*.
-
-- It uses data from [OpenStreetMap](https://en.wikipedia.org/wiki/OpenStreetMap).
-
-- It allows publishing and sharing maps with your community free from tracking.
-
-- It allows downloading map data for offline navigation, enhancing privacy and ideal for low bandwidth areas.
-
-- Developed by Organic Maps OÜ.
-
-</details>
-
-<details class="info" markdown>
-<summary>Mastodon &nbsp;🐘&nbsp; Social Network</summary>
-
-[**Mastodon**](https://joinmastodon.org/) is a free open-source microblogging social network.
-
-- Use it as an [alternative](tip-improve-your-social-media-and-build-resilient-communities.md) to commercial social media such as *X*, *Facebook*, *Instagram*, *Threads*, *TikTok*, or *Bluesky*.
-
-- It gives you full control over your account and data.
-
-- It can be [self-hosted](https://docs.joinmastodon.org/user/run-your-own/), or used with a [server](https://joinmastodon.org/servers) of your choice.
-
-- It can connect to the [Fediverse](https://en.wikipedia.org/wiki/Fediverse) network through ActivityPub.
-
-- You can use a Mastodon page for your group or organization to help keep the information you share accessible to everyone, even people without a Mastodon account.
-
-- It allows using [group discussions](https://fedi.tips/how-to-use-groups-on-the-fediverse/) for your community.
-
-- It allows people to follow your posts and events by [following your custom hashtags](https://fedi.tips/how-do-i-follow-hashtags-on-mastodon-and-the-fediverse/) on Mastodon (or the Fediverse), or even outside of Mastodon completely using [RSS feeds](https://fedi.tips/following-mastodon-and-fediverse-accounts-through-rss/).
-
-- It allows you to [verify your account](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/#verifying-yourself-and-others) for free, and add official [author attribution](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/#author-attribution-for-journalists-and-writers) for your content.
-
-- Developed by the German nonprofit [Mastodon gGmbH](https://joinmastodon.org/de/about).
-
-- Check Privacy Guides' [**full recommendation of Mastodon**](../../social-networks.md/#mastodon).
-
-</details>
-
-<details class="info" markdown>
-<summary>Calendar Sync &nbsp;📆</summary>
-
-To organize with your group, use a privacy-focused calendar tool that offers end-to-end encryption solution, such as [Tuta](https://tuta.com/calendar) or [Proton](https://proton.me/calendar) calendars.
-
-- Check Privacy Guides' [**full recommendation for Calendar Sync tools**](../../calendar.md).
-
-</details>
-
-<details class="info" markdown>
-<summary>Cloud Storage and File Sharing ☁️&nbsp;️</summary>
-
-☁️&nbsp;️ If you need to keep copies of your files remotely, you can use an end-to-end encrypted cloud provider such as [Proton Drive](https://proton.me/drive) or [Tresorit](https://tresorit.com/).
-
-- Check Privacy Guides' [**full recommendation on Cloud Storage**](../../cloud.md).
-
-🗃️&nbsp;️ If you need a more direct way to share files with your group without storing any copy remotely, you can use an application such as [OnionShare](https://onionshare.org/), [Send](https://send.vis.ee/), or [Syncthing](https://syncthing.net/).
-
-- Check Privacy Guides' [**full recommendation on File Sharing**](../../file-sharing.md).
-
-</details>
-
-<details class="info" markdown>
+<details class="info emoji-list-a" markdown>
 <summary>More Alternatives &nbsp;📗</summary>
 
- For more on better alternatives to use, you can check this [tip on why and how to migrate away from Big Tech](tip-migrate-outside-the-surveillance-ecosystem.md) for your privacy advocacy work.
+- **Maps & Navigation:** [Organic Maps](../../maps.md#organic-maps) or [OsmAnd](../../maps.md#osmand)
+- **Calendar Sync:** [Tuta](../../calendar.md#tuta) or [Proton](../../calendar.md#proton-calendar)
+- **Cloud Storage:** [Proton Drive](../../cloud.md#proton-drive), [Tresorit](../../cloud.md#tresorit), or [Peergos](../../cloud.md#peergos)
+- **File Sharing:** [OnionShare](../../file-sharing.md#onionshare), [Send](../../file-sharing.md#send), or [Syncthing](../../file-sharing.md#syncthing-p2p)
+
+More tools for community organization could include [LAUTI](https://lauti.org/) for community calendars, and [Mobilizon](https://mobilizon.org/) for events and groups. For more on better alternatives to use, you can check this [tip on why and how to migrate away from Big Tech](tip-migrate-outside-the-surveillance-ecosystem.md) for your privacy advocacy work.
 
 </details>
 
