@@ -117,10 +117,9 @@ Here are a few privacy-focused tools and services that can help you to organize 
 
 :page_with_curl: Use it as an alternative to Google Docs!
 
-[:material-star-box: Read our latest CryptPad review.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/)
-
 [More info](../../document-collaboration.md#cryptpad){ .md-button .md-button--primary }
 [:octicons-home-16:](https://cryptpad.fr/){ .card-link title="Homepage" }
+[:octicons-feed-star-16:](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/){ .card-link title="Our CryptPad review" }
 
 </div>
 
@@ -132,10 +131,9 @@ Here are a few privacy-focused tools and services that can help you to organize 
 
 :speech_balloon: Use it as an [alternative](tip-improve-your-social-media-and-build-resilient-communities.md) to commercial social media such as *X*, *Facebook*, *Instagram*, *Threads*, *TikTok*, or *Bluesky*.
 
-[:material-star-box: Read our notes on Mastodon's privacy and security.](https://www.privacyguides.org/articles/2025/07/15/mastodon-privacy-and-security/)
-
 [More info](../../social-networks.md#mastodon){ .md-button .md-button--primary }
 [:octicons-home-16:](https://joinmastodon.org/){ .card-link title="Homepage" }
+[:octicons-feed-star-16:](https://www.privacyguides.org/articles/2025/07/15/mastodon-privacy-and-security/){ .card-link title="Notes on Mastodon Privacy & Security" }
 
 </div>
 
