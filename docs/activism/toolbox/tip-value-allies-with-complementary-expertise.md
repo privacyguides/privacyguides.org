@@ -4,7 +4,7 @@ description: In privacy like everywhere else, diversity is a strength. If you wa
 icon: fontawesome/solid/circle-half-stroke
 cover: activism/banner-toolbox-tip-complement.webp
 ---
-In privacy like in other areas of life, **diversity is an incredible strength**. If you want your community to have a broad understanding of threat models, and be able to address issues on multiple levels, you need to value a diversity of expertises.
+In privacy, like in other areas of life, **diversity is an incredible strength**. If you want your community to have a broad understanding of threat models, and be able to address issues on multiple levels, you need to value a diversity of expertises.
 
 Gathering people with a wide range of skills and experiences in your community is critical to effective work. People with different skill sets and lived experiences will together be able to reach out to a broader audience, and provide much more accurate and useful advice covering a variety of situations.
 
