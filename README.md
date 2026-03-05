@@ -594,6 +594,7 @@ Privacy Guides wouldn't be possible without these wonderful people ([emoji key](
     </tr>
     <tr>
       <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://github.com/blanchardjeremy"><img src="https://avatars.githubusercontent.com/u/32290?v=4" width="100px;" loading=lazy /><br /><sub><b>Jeremy</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=blanchardjeremy" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="http://panwor.vercel.app"><img src="https://avatars.githubusercontent.com/u/97786623?v=4" width="100px;" loading=lazy /><br /><sub><b>panwor</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=panwor" title="Documentation">📖</a> <a href="#translation-panwor" title="Translation">🌍</a></td>
     </tr>
   </tbody>
   <tfoot>
