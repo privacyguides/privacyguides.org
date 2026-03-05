@@ -13,36 +13,23 @@ Text inputted to grammar, spelling, and style checkers, as well as translation s
 
 ## Grammar & Spelling
 
-### LanguageTool
+### LTeX
 
 <div class="admonition recommendation" markdown>
 
-![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ align=right }
-![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ align=right }
+![LTeX logo](assets/img/language-tools/ltex.svg){ align=right }
 
-**LanguageTool** is a multilingual grammar, style, and spell checker that supports more than 20 languages. According to their privacy policy, they do not store any content sent to their service for review, but for higher assurance the software is [self-hostable](https://dev.languagetool.org/http-server).
+**LTeX** is a multilingual grammar, style, and spell checker that supports more than 20 languages. It uses the open-source [LanguageTool](https://languagetool.org) spell checker on the backend to check against not just dictionary spelling, but also thousands of grammar rules and stylistic errors.
 
-[:octicons-home-16: Homepage](https://languagetool.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://languagetooler.freshdesk.com/en/support/solutions){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="Source Code" }
+**LTeX CLI** is a standalone command-line application which runs completely offline.
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1534275760)
-- [:fontawesome-brands-windows: Windows](https://languagetool.org/windows-desktop)
-- [:simple-apple: macOS](https://languagetool.org/mac-desktop)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/languagetool)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/oldceeleldhonbafppcapldpdifcinji)
-- [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/hfjadhjooeceemgojogkhlppanjkbobc)
-- [:simple-safari: Safari](https://apps.apple.com/app/id1534275760)
-
-</details>
+[:octicons-home-16: Homepage](https://valentjn.github.io/ltex){ .md-button .md-button--primary }
+[:octicons-info-16:](https://valentjn.github.io/ltex/index){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/valentjn/ltex-ls){ .card-link title="Source Code" }
 
 </div>
 
-LanguageTool offers integration with a variety of [office suites](https://languagetool.org/services#text_editors) and [email clients](https://languagetool.org/services#mail_clients).
+LTeX comes in multiple forms which may suit different use cases. The LTeX CLI is a standalone, command-line application which runs completely offline. The LTeX extension offers integration with popular code editors and runs completely offline.
 
 ## Translation Tools
 
@@ -64,9 +51,11 @@ You can use LibreTranslate through a number of public instances, with some that 
 
 We use a self-hosted instance of LibreTranslate to automatically translate posts on our [forum](https://discuss.privacyguides.net) to multiple languages.
 
+We use the VSCode extension in our GitHub repository configuration to find any grammar and spelling errors on our website and in our articles.
+
 ## Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 - Must be open source.
-- Must be possible to self-host.
+- Must run completely offline.
