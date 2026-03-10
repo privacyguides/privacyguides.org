@@ -155,18 +155,6 @@ If you're looking for added **security**, you should always ensure you're connec
 
 <div class="grid cards" markdown>
 
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .lg .middle .twemoji } **Proton VPN**
-
-    ---
-
-    - [x] **112+ Countries**
-    - [x] WireGuard Support
-    - [x] Cash Payments
-    - [x] Partial Port Forwarding Support
-    - [ ] No IPv6
-
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
-
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .lg .middle .twemoji } **IVPN**
 
     ---
