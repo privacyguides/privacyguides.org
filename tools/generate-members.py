@@ -1,4 +1,3 @@
-
 import requests
 import os
 
@@ -13,7 +12,6 @@ members = members_data['members']
 
 html_output = ""
 for member in members:
-  username = member['username']
   html_output += f'<a href="{member["url"]}" target="_blank" title="@{member["username"]}" class="mdx-donors__item"><img loading="lazy" src="{member["avatar"]}"></a>'
 
 # Append the count of private members
