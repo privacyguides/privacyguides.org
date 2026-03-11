@@ -631,3 +631,6 @@ See [this table](https://allcontributors.org/docs/en/emoji-key) for valid contri
 ```bash
 all-contributors-cli add jonaharagon doc,research,question
 ```
+
+
+- [Captchainbox](https://captchainbox.com) - The CAPTCHA for your inbox. Bot protection for your inbox. Known contacts get through instantly, unknown senders prove they're human with a simple CAPTCHA. *(Email, Productivity, Security, Anti-Spam, SaaS, Gmail, Email Security, $5/month, 7-day free trial)*
