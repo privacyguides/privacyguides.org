@@ -3118,6 +3118,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "panwor",
+      "name": "panwor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97786623?v=4",
+      "profile": "http://panwor.vercel.app",
+      "contributions": [
+        "doc",
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 5,
