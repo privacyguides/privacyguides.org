@@ -33,7 +33,7 @@ Our recommended providers use encryption, support WireGuard & OpenVPN, and have 
 
 | Provider | Countries | WireGuard | Port Forwarding | IPv6 | Anonymous Payments |
 |---|---|---|---|---|---|
-| [Proton](#proton-vpn) | 127+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Partial Support | :material-information-outline:{ .pg-blue } Limited Support | Cash  Monero via third party |
+| [Proton](#proton-vpn) | 127+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Partial Support | :material-information-outline:{ .pg-blue } Limited Support | Cash |
 | [IVPN](#ivpn) | 41+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } | :material-information-outline:{ .pg-blue } Outgoing Only | Monero  Cash |
 | [Mullvad](#mullvad) | 49+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } | :material-check:{ .pg-green } | Monero  Cash |
 
@@ -86,7 +86,7 @@ Proton VPN provides the source code for their desktop and mobile clients in thei
 
 #### :material-check:{ .pg-green } Accepts Cash
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment. You can also use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton VPN Plus and Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
+Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
 
 #### :material-check:{ .pg-green } WireGuard Support
 
