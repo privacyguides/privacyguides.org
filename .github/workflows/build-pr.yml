@@ -72,6 +72,8 @@ jobs:
       continue-on-error: false
       privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
       strict: true
+    secrets:
+      MEMBERS_API_URL: ${{ secrets.MEMBERS_API_URL }}
 
   build_i18n:
     if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build i18n') }}
@@ -88,6 +90,8 @@ jobs:
       continue-on-error: true
       privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
       strict: true
+    secrets:
+      MEMBERS_API_URL: ${{ secrets.MEMBERS_API_URL }}
 
   build_blog:
     if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build blog') }}

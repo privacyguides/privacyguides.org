@@ -610,3 +610,224 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
 #ghost-portal-root, #ghost-comments-root {
   color-scheme: light;
 }
+
+
+/*********** Activism Section ***********/
+
+/* Toolbox Color Variables */
+:root {
+  --color-toolbox: #21bddc;
+  --color-toolbox-legal: #15678a;
+  --color-toolbox-tools: #457759;
+  --color-toolbox-perspective: #5c7e40;
+  --color-toolbox-community: #717924;
+  --color-toolbox-alliances: #847306;
+  --color-toolbox-accessibility: #926d07;
+  --color-toolbox-integrity: #ad5c14;
+  --color-toolbox-persistence: #ba4d13;
+  --color-toolbox-action: #a83410;
+}
+
+/* Toolbox Button Style*/
+.toolbox-button-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, min(100%/0, max(150px, 100%/4))));
+    grid-gap: 1em 5em;
+}
+
+.toolbox-button-grid .toolbox-button {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1;
+    height: 11em;
+    width: 11em;
+    color: white;
+    padding: 5px;
+    border: 2px solid var(--pg-light-border);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.md-typeset .toolbox-button-grid .toolbox-button:hover, .md-typeset .toolbox-button-grid .toolbox-button:focus {
+    position: relative;
+    transform: scale(1.08);
+    /* box-shadow: 5px 10px 10px 5px rgba(0,0,0,0.3); */
+    color: white;
+}
+
+.toolbox-button-grid .toolbox-button-icon {
+    height: 7em;
+    display: inline-flex;
+    padding: 1.1em;
+    overflow: visible;
+}
+
+.toolbox-button-grid .toolbox-button-icon svg {
+    width: 5em;
+    overflow: visible;
+}
+
+/* Toolbox Button Colors*/
+.toolbox-bg {
+    background-color: var(--color-toolbox);
+    color: #2d2d2d !important;
+}
+
+.toolbox-bg-legal {
+    background-color: var(--color-toolbox-legal);
+}
+
+.toolbox-bg-tools {
+    background-color: var(--color-toolbox-tools);
+}
+
+.toolbox-bg-perspective {
+    background-color: var(--color-toolbox-perspective);
+}
+
+.toolbox-bg-community {
+    background-color: var(--color-toolbox-community);
+}
+
+.toolbox-bg-alliances {
+    background-color: var(--color-toolbox-alliances);
+}
+
+.toolbox-bg-accessibility {
+    background-color: var(--color-toolbox-accessibility);
+}
+
+.toolbox-bg-integrity {
+    background-color: var(--color-toolbox-integrity);
+}
+
+.toolbox-bg-persistence {
+    background-color: var(--color-toolbox-persistence);
+}
+
+.toolbox-bg-action {
+    background-color: var(--color-toolbox-action);
+}
+
+/* Toolbox Tip Card Style */
+.toolbox-tip-card {
+    padding-top: 0;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-bottom: 2rem;
+    color: var(--md-typeset-color);
+    background-color: var(--md-primary-fg-color);
+    border: 5px solid var(--pg-light-border);
+    border-radius: 15px;
+}
+
+.toolbox-tip-icon {
+    float: left;
+    height: 120px;
+    width: 120px;
+    margin-right: 20px;
+}
+
+.toolbox-tip-card:hover {
+    position: relative;
+    transform: scale(1.01);
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.5);
+}
+
+.toolbox-tip-card a, .toolbox-tip-card a:hover {
+    color: var(--md-typeset-color);
+}
+
+/* Toolbox Tip Card Colors */
+.toolbox-border-legal {
+    border-color: var(--color-toolbox-legal);
+}
+
+.toolbox-border-tools {
+    border-color: var(--color-toolbox-tools);
+}
+
+.toolbox-border-perspective {
+    border-color: var(--color-toolbox-perspective);
+}
+
+.toolbox-border-community {
+    border-color: var(--color-toolbox-community);
+}
+
+.toolbox-border-alliances {
+    border-color: var(--color-toolbox-alliances);
+}
+
+.toolbox-border-accessibility {
+    border-color: var(--color-toolbox-accessibility);
+}
+
+.toolbox-border-integrity {
+    border-color: var(--color-toolbox-integrity);
+}
+
+.toolbox-border-persistence {
+    border-color: var(--color-toolbox-persistence);
+}
+
+.toolbox-border-action {
+    border-color: var(--color-toolbox-action);
+}
+
+/* Toolbox Button Top Style */
+.toolbox-button-top {
+    font-size: 0.7rem;
+    float: right;
+}
+
+.toolbox-button-top a, .toolbox-button-top a:visited {
+    color: var(--md-default-fg-color--light);
+}
+
+/* Toolbox Tip Button Next */
+.toolbox-tip-button-next {
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/* Toolbox Tip Quote Box */
+.toolbox-quote {
+    margin-top: 15px !important;
+    font-family: bagnard !important;
+    font-size: 1em !important;
+    font-weight: 400 !important;
+    background: #9e9e9e1a !important;
+}
+
+.toolbox-quote .admonition-title {
+    background-color: transparent !important;
+}
+
+.toolbox-quote-source {
+    font-family: var(--md-text-font-family) !important;
+    text-align: right;
+    font-size: 0.7em !important;
+    font-weight: 400 !important;
+}
+
+.toolbox-quote.quote>.admonition-title.toolbox-quote::before {
+  transform: rotate(180deg);
+}
+.toolbox-quote .admonition-title.toolbox-quote::after {
+  background-color: #9e9e9e;
+  mask-image: var(--md-admonition-icon--quote);
+  content: "";
+  height: 1rem;
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  position: absolute;
+  bottom: .75em;
+  width: 2rem;
+}
