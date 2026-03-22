@@ -45,7 +45,7 @@ cover: pastebins.webp
 
 <div class="admonition recommendation" markdown>
 
-**CloakBin** is an open-source, zero-knowledge encrypted pastebin. All encryption (AES-256-GCM) happens client-side in the browser before data reaches the server. The decryption key is stored in the URL fragment (`#key`), which browsers never send to servers. Supports burn-after-reading, password protection, custom expiry, and syntax highlighting for 40+ languages.
+**CloakBin** is an open-source, zero-knowledge encrypted pastebin. All encryption (AES-256-GCM) happens client-side in the browser before data reaches the server. The decryption key is stored in the URL fragment (`#key`), which browsers never send to servers. Supports burn-after-reading, password protection, custom expiry, and syntax highlighting for many programming languages.
 
 [:octicons-home-16: Homepage](https://cloakbin.com){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/Ishannaik/CloakBin){ .card-link title="Source Code" }
