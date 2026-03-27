@@ -36,7 +36,7 @@ The free plan offers 10 GB of storage as long as you use the service at least o
 - [:fontawesome-brands-windows: Windows](https://ente.com/download)
 - [:simple-apple: macOS](https://ente.com/download)
 - [:simple-linux: Linux](https://ente.com/download)
-- [:octicons-browser-16: Web](https://web.ente.com)
+- [:octicons-browser-16: Web](https://web.ente.io)
 
 </details>
 
