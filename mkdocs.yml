@@ -498,6 +498,8 @@ nav:
           - "Take Action!":
               - "activism/toolbox/tip-engage-boosts-and-contribute.md"
               - "activism/toolbox/tip-level-up-assemble-and-organize.md"
+      - !ENV [NAV_ACTIVISM_DPADIRECTORY, "DPA Directory"]:
+          - "activism/dpadirectory/index.md"
   - !ENV [NAV_BLOG, "Articles"]: !ENV [ARTICLES_SITE_BASE_URL, "/articles/"]
   - !ENV [NAV_VIDEOS, "Videos"]: !ENV [VIDEOS_SITE_BASE_URL, "/videos/"]
   - !ENV [NAV_NEWS, "News"]: !ENV [NEWS_SITE_BASE_URL, "/news/"]
