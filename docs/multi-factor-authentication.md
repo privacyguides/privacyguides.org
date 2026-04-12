@@ -27,9 +27,8 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 **Ente Auth** is a free and open-source app which stores and generates TOTP tokens. It can be used with an online account to back up and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
 
-[:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.ente.io/auth){ .card-link title="Documentation" }
+[:octicons-home-16: Homepage](https://ente.com/auth){ .md-button .[:octicons-eye-16:](https://ente.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://ente.com/help/auth){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -44,7 +43,7 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 </div>
 
-The server-side source code and infrastructure which underpins Ente Auth (if used with an online account) underwent an audit by [Cure53](https://ente.io/blog/cern-audit) in October 2025.
+The server-side source code and infrastructure which underpins Ente Auth (if used with an online account) underwent an audit by [Cure53](https://ente.com/blog/cern-audit) in October 2025.
 
 ## Aegis Authenticator (Android)
 

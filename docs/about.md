@@ -128,7 +128,7 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
 
     ---
 
-    :material-text-account: Staff Writer
+    :material-text-account: Activism and Outreach
 
     [:material-account: Profile](https://discuss.privacyguides.net/u/em)
 
@@ -147,18 +147,6 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
     [:material-github:](https://github.com/jordan-warne "GitHub")
     [:material-mastodon:](https://social.lol/@jw "@jw@social.lol"){rel=me}
     [:material-email:](mailto:jordan@privacyguides.org "Email")
-
--   :japanese_goblin:{ .lg .middle } **Kevin Pham**
-
-    ---
-
-    :material-text-account: Community & News Intern
-
-    [:material-account: Profile](https://discuss.privacyguides.net/u/kevpham)
-
-    [:material-github:](https://github.com/kevpham123 "GitHub")
-    [:material-mastodon:](https://mastodon.social/@kevpham "@kevpham@mastodon.social"){rel=me}
-    [:material-email:](mailto:kevin@privacyguides.org "Email")
 
 -   :video_camera:{ .lg .middle } **Nate Bartram**
 
