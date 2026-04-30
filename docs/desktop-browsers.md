@@ -162,7 +162,7 @@ Search suggestions send everything you type in the address bar to the default se
 - [ ] Uncheck **Suggestions from Firefox**
 - [ ] Uncheck **Suggestions from sponsors**
 
-Note: According to Mozilla: "Certain parts of Firefox Suggest are currently available only in some regions".
+> According to Mozilla, ["Certain parts of Firefox Suggest are currently available only in some regions."](https://support.mozilla.org/kb/firefox-suggest)
 
 #### Privacy & Security
 
