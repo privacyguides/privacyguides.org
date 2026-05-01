@@ -24,7 +24,7 @@ You should **never** use blur to redact [text in images](https://bishopfox.com/b
 
 ![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
 
-**MAT2** is free, cross-platform software which allows you to remove metadata from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://github.com/jvoisin/mat2/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
+**MAT2** is free, cross-platform software which allows you to remove metadata from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://github.com/jvoisin/mat2/tree/master/dolphin) (the default file manager of [KDE](https://kde.org)) and [Nemo](https://github.com/jvoisin/mat2/tree/master/nemo) (the default file manager of [Cinnamon](https://github.com/linuxmint/cinnamon)).
 
 [:octicons-repo-16: Repository](https://github.com/jvoisin/mat2#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/jvoisin/mat2#how-to-use-mat2){ .card-link title="Documentation" }
