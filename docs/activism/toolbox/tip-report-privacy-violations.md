@@ -93,7 +93,7 @@ Once you've found the official documentation for your local privacy law(s), read
 <div class="admonition success" markdown>
 <p class="admonition-title">Finding your local privacy law and enforcement authority</p>
 
-To help you find the official documentation for your local privacy law, the authority mandated to enforce it, and the contact links to ask questions or place a complaint, Privacy Guides has put together this handy [DPA Directory](../../dpadirectory/).
+To help you find the official documentation for your local privacy law, the authority mandated to enforce it, and the contact links to ask questions or place a complaint, Privacy Guides has put together this handy [DPA Directory](../legal/dpa-directory.md).
 
 </div>
 
@@ -161,7 +161,7 @@ When sending an official complaint, make sure to:
 
 <div class="emoji-list-c" markdown>
 
-- [Privacy Laws and Data Protection Authority Directory (*Privacy Guides*)](../../dpadirectory/)
+- [Privacy Laws and Data Protection Authority Directory (*Privacy Guides*)](../legal/dpa-directory.md)
 
 - [European Union Member States Data Protection Authorities - List and Map (*EDPB*)](https://www.edpb.europa.eu/about-edpb/about-edpb/members_en)
 

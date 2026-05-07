@@ -35,7 +35,7 @@ There are a lot of nuances and regional variations to this, but in general you s
 
 If your jurisdiction is protected by one or more privacy laws, it should be relatively easy to find this information online.
 
-To start your research, you can look at [Privacy Guides' DPA Directory](../../dpadirectory/) and check if your region is listed there. If it is, you will see what is the main consumer privacy law for this region, and you can click on the link to learn more about it.
+To start your research, you can look at [Privacy Guides' DPA Directory](../legal/dpa-directory.md) and check if your region is listed there. If it is, you will see what is the main consumer privacy law for this region, and you can click on the link to learn more about it.
 
 If your region isn't listed in our DPA Directory, or if you are looking for another more specific privacy-related law, you should be able to find this information online simply using a [trustworthy search engine](../../search-engines.md). Look for keywords with your location (be specific about country + states/provinces/region) and "privacy laws" or "data protection regulations."
 
@@ -90,7 +90,7 @@ Once you've found the official governmental documentation describing the data pr
 
 ## More resources
 
-- [Directory of comprehensive consumer privacy laws worldwide (*Privacy Guides*)](../../dpadirectory/)
+- [Directory of comprehensive consumer privacy laws worldwide (*Privacy Guides*)](../legal/dpa-directory.md)
 
 - [Map of data protection and privacy legislation worldwide (*UN Trade and Development*)](https://unctad.org/page/data-protection-and-privacy-legislation-worldwide)
 
