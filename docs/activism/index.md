@@ -19,10 +19,12 @@ When [regulations keep attacking](https://www.privacyguides.org/articles/2025/09
 
 ==For privacy to become a valued and respected human right, we must work together== to defend privacy rights as a community.
 
-This section will progressively grow with more tools to support the community in its privacy advocacy and activism effort. The Privacy Activist Toolbox is the first part of this new development.
+This section will progressively grow with more tools to support the community in its privacy advocacy and activism effort. The Privacy Activist Toolbox and the DPA Directory are the first parts of this new development.
 
 <div class="toolbox-button-grid" markdown>
 
 [:fontawesome-solid-toolbox:{ .toolbox-button-icon } Privacy Activist Toolbox](toolbox/index.md){ .toolbox-button .toolbox-bg }
+
+[:fontawesome-solid-address-card:{ .toolbox-button-icon } DPA Directory](legal/dpa-directory.md){ .toolbox-button .dpadirectory-bg }
 
 </div>

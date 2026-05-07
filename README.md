@@ -594,6 +594,7 @@ Privacy Guides wouldn't be possible without these wonderful people ([emoji key](
     </tr>
     <tr>
       <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://github.com/blanchardjeremy"><img src="https://avatars.githubusercontent.com/u/32290?v=4" width="100px;" loading=lazy /><br /><sub><b>Jeremy</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=blanchardjeremy" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://github.com/regions99rockery"><img src="https://avatars.githubusercontent.com/u/234068936?v=4" width="100px;" loading=lazy /><br /><sub><b>regions99rockery</b></sub></a><br /><a href="#research-regions99rockery" title="Research">🔬</a> <a href="#maintenance-regions99rockery" title="Maintenance">🚧</a> <a href="#question-regions99rockery" title="Answering Questions">💬</a></td>
     </tr>
   </tbody>
   <tfoot>
