@@ -53,6 +53,8 @@ jobs:
       repo: ${{ github.repository }}
       lang: ${{ matrix.lang }}
       continue-on-error: true
+    secrets:
+      MEMBERS_API_URL: ${{ secrets.MEMBERS_API_URL }}
 
   cleanup:
     if: ${{ always() }}

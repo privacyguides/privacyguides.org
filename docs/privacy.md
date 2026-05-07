@@ -168,7 +168,7 @@ Our forum is built on Discourse, which uses the following cookies:
 | _bypass_cache       | Yes       | Session        | allows the server-side cache to be bypassed during login flows                                         |
 | _t                  | Yes       | 1440 Hours     | remembers who you are when you log in                                                                  |
 | _forum_session      | Yes       | Session        | associates an ID, and other security-related information, with your browsing session                   |
-| dosp                | Yes       | Next Page View | enables client denial of service protection, a security protection                                     |
+| dosp                | Yes       | Next Page View | enables client denial-of-service protection, a security protection                                     |
 | text_size           | Yes       | 1 year         | remembers default text size when a user wants to change it on only one device                          |
 | cookietest          | Yes       | Session        | checks if cookies are enabled when authentication fails                                                |
 | __profilin          | No        | Session        | used by software developers to bypass rack-mini-profiler                                               |
@@ -235,9 +235,9 @@ The lawful basis for our processing determines what rights are available to you 
 | [Account data](#privacy-guides-collects-account-data) | Email Address, IP Address | **Legitimate interest** | Required to defend our website against spam and abuse |
 | [Account data](#privacy-guides-collects-account-data) | Email Address, Username, Password | **Contract** | Required to make our services available to you according to our terms of service |
 | [Account data](#privacy-guides-collects-account-data) | Optional profile information (name, location, etc.) | **Consent** | Required to publish the information you provide to your public or internal profile, according to your preferences |
-| [Posts & activity](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum) | Content of your posts, activity data like bookmarks, likes, and links you follow | **Contract** | Required to make our services available to you according to our terms of service |
-| [Posts & activity](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum) | Content of your private messages | **Contract** | Required to make our services available to you according to our terms of service |
-| [Posts & activity](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum) | Email Address | **Contract** | Our forum is an email-based platform, and email notifications about forum activity are an integral component required to make our services available to you according to our terms of service |
+| [Posts & activity](#privacy-guides-collects-data-about-posts-and-other-activity) | Content of your posts, activity data like bookmarks, likes, and links you follow | **Contract** | Required to make our services available to you according to our terms of service |
+| [Posts & activity](#privacy-guides-collects-data-about-posts-and-other-activity) | Content of your private messages | **Contract** | Required to make our services available to you according to our terms of service |
+| [Posts & activity](#privacy-guides-collects-data-about-posts-and-other-activity) | Email Address | **Contract** | Our forum is an email-based platform, and email notifications about forum activity are an integral component required to make our services available to you according to our terms of service |
 | [Mailing lists](#privacy-guides-collects-data-you-give-to-sign-up-for-mailing-lists-and-announcements) | Email Address | **Consent** | Required for sending you messages you subscribe to |
 | [Open source contributions](#privacy-guides-collects-data-about-open-source-contributors) | Email address, name, GitHub profile information, other information provided via Git | **Legitimate interest** | We have a legitimate interest in tracking the provenance of contributions to our open source projects to prevent abuse and ensure intellectual property rights are respected |
 | [Donations](#privacy-guides-collects-data-when-you-donate-to-us) | Payment information including billing address and email, GitHub profile information | **Legitimate interest** | We have a legitimate interest in processing this data to prevent payment abuse and fraud, and for facilitating your transaction |
@@ -304,7 +304,7 @@ These decisions are later reviewed by moderators, who can override these decisio
 
 Privacy Guides shares account data with others as described in [the section about account data](#privacy-guides-collects-account-data).
 
-Privacy Guides shares data about your posts and other activity as described in [the section about forum data](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum).
+Privacy Guides shares data about your posts and other activity as described in [the section about forum data](#privacy-guides-collects-data-about-posts-and-other-activity).
 
 ### Subprocessors used by Privacy Guides
 
@@ -332,7 +332,7 @@ You can always request the deletion of your data at any time regardless of this 
 
 ## How can I contact Privacy Guides about privacy?
 
-You can send questions, requests, and complaints via email to us at <team@privacyguides.org>. You may also use Signal or another contact method detailed [here](about.md#contact-us) to contact us more securely.
+You can send questions, requests, and complaints via email to us at <team@privacyguides.org>. You may also use Signal or another [contact method](about.md#contact-us) to contact us more securely.
 
 For complaints under GDPR more generally, you always have the option to lodge complaints with your local data protection supervisory authorities.
 
