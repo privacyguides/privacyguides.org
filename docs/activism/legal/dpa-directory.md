@@ -1,15 +1,13 @@
 ---
-title: "DPA Directory"
+title: "Data Protection Authorities"
 description: The DPA Directory is a tool to help you find the principal consumer privacy law in your region, the authority mandated to enforce it, and how to report violations.
-icon: fontawesome/solid/address-card
+#icon: fontawesome/solid/address-card
 cover: activism/banner-activism-dpadirectory.webp
 ---
 
 <small>Last update: 2026-03-30</small>
 
-## Description
-
-The Data Protection Authority (DPA) Directory is a tool to help you find the main consumer privacy law in your region, and the authority mandated to enforce the law.
+The **Data Protection Authority** (DPA) **Directory** is a tool to help you find the main consumer privacy law in your region, and the authority mandated to enforce the law.
 
 Additionally, this table provides information about each law, authority, contact information for questions, and a link to place a complaint for violation of the law with each authority.
 
@@ -209,7 +207,7 @@ For example, the DPA for the state of Oregon in the United States specifies that
         <td data-cell="Contact" role="cell"><a href="https://www.inpdp.tn/contact.html" target="_blank">Contact Page</a></td>
         <td data-cell="Complaint" role="cell"><a href="https://www.inpdp.tn/Formulaires.html" target="_blank">Complaint Link</a></td>
       </tr>
-      
+
     </tbody>
   </table>
 </div>

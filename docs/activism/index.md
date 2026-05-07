@@ -25,6 +25,6 @@ This section will progressively grow with more tools to support the community in
 
 [:fontawesome-solid-toolbox:{ .toolbox-button-icon } Privacy Activist Toolbox](toolbox/index.md){ .toolbox-button .toolbox-bg }
 
-[:fontawesome-solid-address-card:{ .toolbox-button-icon } DPA Directory](dpadirectory/index.md){ .toolbox-button .dpadirectory-bg }
+[:fontawesome-solid-address-card:{ .toolbox-button-icon } DPA Directory](legal/dpa-directory.md){ .toolbox-button .dpadirectory-bg }
 
 </div>
