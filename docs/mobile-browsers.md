@@ -192,14 +192,14 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 === "Android"
 
-These options can be found in :fontawesome-solid-ellipsis-v: → **Settings** → **Search engines**.
+    These options can be found in :fontawesome-solid-ellipsis-v: → **Settings** → **Search engines**.
 
-- [ ] Uncheck **Show search suggestions**
+    - [ ] Uncheck **Show search suggestions**
 
 === "iOS"
 
     These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
-    
+
     - [ ] Uncheck **Show In Quick Search Engine Bar**
 
 #### Brave Sync
