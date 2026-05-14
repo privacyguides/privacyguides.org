@@ -150,14 +150,6 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
     1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
-##### Clear browsing data (Android only)
-
-- [x] Select **Clear data on exit**
-
-##### Social Media Blocking (Android only)
-
-- [ ] Uncheck all social media components
-
 #### Other privacy settings
 
 === "Android"
