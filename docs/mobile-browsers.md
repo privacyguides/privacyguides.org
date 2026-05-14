@@ -121,7 +121,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
     </details>
 
-    - [x] Select **Forget me when I close this site**
+    - [x] Select **Site Tabs Closed** under *Auto Shred*
 
     </div>
 
