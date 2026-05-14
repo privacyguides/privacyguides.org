@@ -174,17 +174,25 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
     - [ ] Uncheck **Automatically send daily usage ping to Brave**
 
-#### Leo
+#### Leo AI
 
-These options can be found in :material-menu: → **Settings** → **Leo**.
+These options can be found in :material-menu: → **Settings** → **Leo AI**.
 
-<div class="annotate" markdown>
+=== "Android"
 
-- [ ] Uncheck **Show autocomplete suggestions in address bar** (1)
+  <div class="annotate" markdown>
 
-</div>
+  - [ ] Uncheck **Show autocomplete suggestions in address bar** (1)
 
-1. This option is not present in Brave's iOS app.
+  </div>
+
+=== "iOS"
+
+  <div class="annotate" markdown>
+
+  - [ ] Uncheck **Show In Quick Search Engine Bar**
+
+  </div>
 
 #### Search engines
 
