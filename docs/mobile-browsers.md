@@ -89,7 +89,7 @@ Tor Browser is the only way to truly browse the internet anonymously. When you u
 
 === "Android"
 
-    These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Brave Shields & privacy**.
+    These options can be found in :fontawesome-solid-ellipsis-v: → **Settings** → **Brave Shields & privacy**.
 
 === "iOS"
 
@@ -176,21 +176,31 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 #### Leo AI
 
-These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Leo AI**.
-
 === "Android"
+
+    These options can be found in :fontawesome-solid-ellipsis-v: → **Settings** → **Leo AI**.
 
     - [ ] Uncheck **Show autocomplete suggestions in address bar**
 
 === "iOS"
 
+    These options can be found in :fontawesome-solid-ellipsis-v: → **Settings** → **Leo AI**.
+
     - [ ] Uncheck **Show In Quick Search Engine Bar**
 
 #### Search engines
 
-These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
+=== "Android"
+
+These options can be found in :fontawesome-solid-ellipsis-v: → **Settings** → **Search engines**.
 
 - [ ] Uncheck **Show search suggestions**
+
+=== "iOS"
+
+    These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
+    
+    - [ ] Uncheck **Show In Quick Search Engine Bar**
 
 #### Brave Sync
 
