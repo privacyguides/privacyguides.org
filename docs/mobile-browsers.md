@@ -180,19 +180,11 @@ These options can be found in :material-menu: → **Settings** → **Leo AI**.
 
 === "Android"
 
-  <div class="annotate" markdown>
-
-  - [ ] Uncheck **Show autocomplete suggestions in address bar** (1)
-
-  </div>
+  - [ ] Uncheck **Show autocomplete suggestions in address bar**
 
 === "iOS"
 
-  <div class="annotate" markdown>
-
   - [ ] Uncheck **Show In Quick Search Engine Bar**
-
-  </div>
 
 #### Search engines
 
