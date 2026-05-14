@@ -180,11 +180,11 @@ These options can be found in :fontawesome-solid-ellipsis: → **Settings** → 
 
 === "Android"
 
-  - [ ] Uncheck **Show autocomplete suggestions in address bar**
+    - [ ] Uncheck **Show autocomplete suggestions in address bar**
 
 === "iOS"
 
-  - [ ] Uncheck **Show In Quick Search Engine Bar**
+    - [ ] Uncheck **Show In Quick Search Engine Bar**
 
 #### Search engines
 
