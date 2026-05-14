@@ -156,10 +156,10 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
     <div class="annotate" markdown>
 
-    - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - [x] (Optional) Select **No protection** under *Safe Browsing* (1)
+    - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
-    - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
+    - [x] Select **Do not speed up sites with Brave's V8 engine but make Brave slightly more resistant to attacks**
     - [x] Select **Close tabs on exit**
     - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
     - [ ] Uncheck **Automatically send diagnostic reports**
