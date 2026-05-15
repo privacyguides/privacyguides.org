@@ -89,7 +89,7 @@ Tor Browser is the only way to truly browse the internet anonymously. When you u
 
 === "Android"
 
-    These options can be found in :fontawesome-solid-ellipsis-v: → **Settings** → **Brave Shields & privacy**.
+    These options can be found in :material-dots-vertical: → **Settings** → **Brave Shields & privacy**.
 
 === "iOS"
 
