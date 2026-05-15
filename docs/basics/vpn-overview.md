@@ -38,8 +38,7 @@ Note that a VPN does not add any security or encryption to your traffic between 
 
 **Yes**, almost certainly. A VPN has many advantages, including:
 
-1. Hiding your traffic from **only** your Internet Service Provider.
-1. Hiding your downloads (such as torrents) from your ISP and anti-piracy organizations.
+1. Hiding your traffic from your Internet Service Provider.
 1. Hiding your IP from third-party websites and services, helping you blend in and preventing IP based tracking.
 1. Allowing you to bypass geo-restrictions on certain content.
 
