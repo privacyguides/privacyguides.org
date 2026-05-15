@@ -192,7 +192,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 === "Android"
 
-    These options can be found in :fontawesome-solid-ellipsis-v: → **Settings** → **Search engines**.
+    These options can be found in :material-dots-vertical: → **Settings** → **Search engines**.
 
     - [ ] Uncheck **Show search suggestions**
 
