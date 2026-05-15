@@ -198,7 +198,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 === "iOS"
 
-    These options can be found in :fontawesome-solid-ellipsis: → **All Settings** → **Search engines**.
+    These options can be found in :material-dots-vertical: → **All Settings** → **Search engines**.
 
     - [ ] Uncheck **Show In Quick Search Engine Bar**
 
