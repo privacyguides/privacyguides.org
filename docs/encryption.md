@@ -194,31 +194,6 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 Tools with command-line interfaces are useful for integrating [shell scripts](https://en.wikipedia.org/wiki/Shell_script).
 
-### Kryptor
-
-<div class="admonition recommendation" markdown>
-
-![Kryptor logo](assets/img/encryption-software/kryptor.png){ align=right }
-
-**Kryptor** is a free and open-source file encryption and signing tool that makes use of modern and secure cryptographic algorithms. It aims to be a better version of [age](https://github.com/FiloSottile/age) and [Minisign](https://jedisct1.github.io/minisign) to provide a simple, easier alternative to GPG.
-
-[:octicons-home-16: Homepage](https://kryptor.co.uk){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kryptor.co.uk/features#privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kryptor.co.uk/tutorial){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kryptor.co.uk/#donate){ .card-link title="Contribute" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:fontawesome-brands-windows: Windows](https://kryptor.co.uk)
-- [:simple-apple: macOS](https://kryptor.co.uk)
-- [:simple-linux: Linux](https://kryptor.co.uk)
-
-</details>
-
-</div>
-
 ### Tomb
 
 <div class="admonition recommendation" markdown>
