@@ -37,7 +37,7 @@ Note that a VPN does not add any security or encryption to your traffic between 
 ## Should I use a VPN?
 
 **Yes**, almost certainly. The advantages of a VPN include:
-1. Hiding your traffic from your Internet Service Provider.
+1. Hiding your traffic from **only** your Internet Service Provider.
 1. Hiding your IP from third-party websites and services, preventing IP based tracking.
 1. Allowing you to bypass geo-restrictions on certain content.
 
