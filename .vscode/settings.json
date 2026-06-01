@@ -91,7 +91,7 @@
     },
     "editor.unicodeHighlight.ambiguousCharacters": true,
     "editor.unicodeHighlight.invisibleCharacters": true,
-    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.defaultFormatter": "rvben.rumdl",
     "[yaml]": {
       "editor.defaultFormatter": "redhat.vscode-yaml",
       "editor.quickSuggestions": {
