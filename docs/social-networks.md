@@ -199,3 +199,34 @@ With this setting enabled, unverified users (i.e., those who have not used the *
 - Must allow you to limit who can follow your profile.
 - Must allow you to post content visible only to your followers.
 - Must support modern web application security standards/features (including [multifactor authentication](multi-factor-authentication.md)).
+
+<!-- ───────────────────────────────────────────────────────────────────────────
+     NOTE TO REVIEWERS — this entry is being proposed as a discussion item,
+     not as a recommendation that meets the existing criteria.
+     See the PR description for the explicit framing.
+     ─────────────────────────────────────────────────────────────────────── -->
+
+## Nearby Chat *(discussion proposal — does not meet current criteria)*
+
+<div class="admonition warning" markdown>
+**Not yet a recommendation.** Nearby Chat does not meet several of the criteria above (closed-source server, not federated, no MFA because no accounts exist). This entry is opened as a discussion about whether a separate category for **non-E2EE anonymous local chat** would fit the project's scope. See PR description.
+</div>
+
+<div class="admonition recommendation" markdown>
+
+**Nearby Chat** is an anonymous, location-based text chat platform. Users join a per-city room with no account, email, phone, or identifier of any kind. Text-only — camera and microphone permissions are never requested. Messages are deleted on a rolling 30-day window.
+
+[:octicons-home-16: Homepage](https://nearby-chat.com){ .md-button .md-button--primary }
+[:octicons-info-16:](https://nearby-chat.com/privacy){ .card-link title="Privacy Policy" }
+
+</div>
+
+**Where it fits:** distinct from the recommended E2EE messengers — Nearby Chat is for casual local social interaction, not adversarial threat models. Distinct from federated social networks — Nearby Chat is centralized and operator-trust-required.
+
+**Honest limitations:**
+
+- Server-side architecture — not E2EE; the operator can read messages while they exist (max 30 days).
+- Closed-source server today. Client (Next.js) open-sourcing planned Q3 2026.
+- Geolocation is IP-derived (city-level); user can override country.
+
+**Threat model the project addresses:** anonymous public chat without surveillance capitalism (no ads, no profile building, no personal data collection). Not suitable for users requiring protection against the operator itself.
