@@ -67,7 +67,7 @@ The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) 
 
 ### Molly (Android)
 
-If you use Android and your threat model requires protecting against [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red  } you may consider using this alternative app, which features a number of security and usability improvements, to access the Signal network.
+If you use Android and your threat model requires protecting against [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red } you may consider using this alternative app, which features a number of security and usability improvements, to access the Signal network.
 
 <div class="admonition recommendation" markdown>
 

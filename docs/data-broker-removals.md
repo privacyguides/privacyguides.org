@@ -27,7 +27,7 @@ The quickest, most effective, and most private way to remove yourself from peopl
 
 You should search for your information on these sites first, and submit an opt-out request if your information is found. Removing your data from these providers typically removes your data from many smaller sites at the same time.
 
-- Advanced Background Checks ([Search](https://advancedbackgroundchecks.com), [Opt-Out](https://advancedbackgroundchecks.com/removal))
+- Advanced Background Checks ([Search](https://advancedbackgroundchecks.com), [Opt-Out](https://www.advancedbackgroundchecks.com/opt-out))
 - BeenVerified ([Search](https://beenverified.com/app/optout/search), [Opt-Out](https://beenverified.com/app/optout/address-search))
 - CheckPeople ([Search](https://checkpeople.com/do-not-sell-info), select *Remove Record* to opt-out)
 - ClustrMaps ([Search](https://clustrmaps.com), [Opt-Out](https://clustrmaps.com/bl/opt-out))

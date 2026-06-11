@@ -335,7 +335,6 @@ simple-freebsd
 MySudo
 Coincards
 Redlib
-ProxiTok
 Yattee
 eepsite
 proxying
