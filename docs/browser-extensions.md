@@ -30,13 +30,6 @@ Don't install extensions which you don't immediately have a need for, or ones th
 [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
 
-<details class="admonition info" markdown>
-<summary>Support</summary>
-
-uBlock Origin is only supported on Firefox-based browsers and a handful of Chromium browsers (Brave and Opera).
-
-</details>
-
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
