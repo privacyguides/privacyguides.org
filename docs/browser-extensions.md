@@ -54,7 +54,7 @@ uBlock Origin also has a "Lite" version of their extension, which offers a limit
 
 - ...you don't want to grant full "read/modify website data" permissions to any extensions (even a trusted one like uBlock Origin)
 - ...you want a more resource (memory/CPU) efficient content blocker[^1]
-- ...your browser only supports Manifest V3 extensions. This is the case for Chrome, Edge and most Chromium browsers.[^2]
+- ...your browser only supports Manifest V3 extensions. This is the case for Chrome[^2].
 
 <div class="admonition recommendation" markdown>
 
