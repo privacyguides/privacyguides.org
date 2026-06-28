@@ -33,7 +33,7 @@ Don't install extensions which you don't immediately have a need for, or ones th
 <details class="admonition info" markdown>
 <summary>Support</summary>
 
-uBlock Origin being is only supported on Firefox-based browsers and a handful of Chromium browsers (Brave and Opera).
+uBlock Origin is only supported on Firefox-based browsers and a handful of Chromium browsers (Brave and Opera).
 
 </details>
 
