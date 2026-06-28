@@ -34,7 +34,7 @@ Don't install extensions which you don't immediately have a need for, or ones th
 <summary>Downloads</summary>
 
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+- [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
 - [:fontawesome-brands-opera: Opera](https://addons.opera.com/en/extensions/details/ublock/)
 
 </details>
