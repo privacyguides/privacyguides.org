@@ -31,13 +31,12 @@ The quickest, most effective, and most private way to remove yourself from peopl
 
 You should search for your information on these sites first, and submit an opt-out request if your information is found. Removing your data from these providers typically removes your data from many smaller sites at the same time.
 
-- Advanced Background Checks ([Search](https://advancedbackgroundchecks.com), [Opt-Out](https://advancedbackgroundchecks.com/removal))
+- Advanced Background Checks ([Search](https://advancedbackgroundchecks.com), [Opt-Out](https://www.advancedbackgroundchecks.com/opt-out))
 - BeenVerified ([Search](https://beenverified.com/app/optout/search), [Opt-Out](https://beenverified.com/app/optout/address-search))
 - CheckPeople ([Search](https://checkpeople.com/do-not-sell-info), select *Remove Record* to opt-out)
 - ClustrMaps ([Search](https://clustrmaps.com), [Opt-Out](https://clustrmaps.com/bl/opt-out))
 - InfoTracer ([Search](https://infotracer.com), [Opt-Out](https://infotracer.com/optout))
 - Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
-- PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/ccpa_optout/do_not_sell))
 - PublicDataUSA ([Search](https://publicdatausa.com), [Opt-Out](https://publicdatausa.com/remove.php))
 - Radaris ([Search](https://radaris.com), [Opt-Out](https://radaris.com/page/how-to-remove))
 - Spokeo ([Search](https://spokeo.com/search), [Opt-Out](https://spokeo.com/optout))
@@ -80,15 +79,14 @@ Our [testing](https://www.privacyguides.org/articles/2025/02/03/easyoptouts-revi
 
 > [!CAUTION]
 > EasyOptOuts does not cover the following sites we consider to be "high priority," so you should still manually opt-out of:
-> 
+>
 > - Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
-> - PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/ccpa_optout/do_not_sell))
 
 ## Google *Results About You* <small>Free</small>
 
 > [!WARNING]
 > This method will require you to submit your personal information to Google for them to periodically monitor their search results for. Google claims to not use the information provided to this tool to "personalize your experiences" across other Google products.
-> 
+>
 > While Google is not a data broker themselves *per se*, as they don't sell or share your data with outside parties, some may find this relationship unacceptable. You should always decide whether the benefits of this tool outweigh the drawbacks for your individual situation.
 
 {{< title-card logo="./google.svg" >}}

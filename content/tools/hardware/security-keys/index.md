@@ -89,6 +89,9 @@ Nitrokey models can be configured using the [Nitrokey app](https://nitrokey.com/
 > [!WARNING]
 > Excluding the Nitrokey 3, Nitrokeys which support HOTP and TOTP do not have encrypted storage, making them vulnerable to physical attacks.
 
+Starting with Nitrokey 3, HOTP and TOTP secrets are additionally encrypted at rest. Older Nitrokey devices like Nitrokey Pro 2 and Nitrokey Storage 2 did not encrypt OTP secrets at rest, which makes the OTP secrets on these devices potentially vulnerable to physical attacks.
+
+</div>
 
 ## Criteria
 
