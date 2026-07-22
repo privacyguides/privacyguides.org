@@ -54,6 +54,22 @@ aliases:
     link="wiki"
   >}}
   {{< hextra/feature-card
+    title="Privacy Tools"
+    subtitle="The essential tools you need to safeguard your digital privacy, chosen by community consensus."
+    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px] pg:colored-card"
+    image="pg-home-privacy-tools.png"
+    imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
+    link="tools"
+  >}}
+  {{< hextra/feature-card
+    title="News Briefs"
+    subtitle="Stay updated with the latest news and developments in the world of cybersecurity, privacy, and digital rights."
+    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px] pg:colored-card"
+    image="pg-home-privacy-news.png"
+    imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
+    link="https://www.privacyguides.org/news/"
+  >}}
+  {{< hextra/feature-card
     title="Educational Videos"
     subtitle="Watch our educational videos to learn more about digital privacy and how to protect yourself online."
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px] pg:colored-card"
@@ -70,28 +86,12 @@ aliases:
     link="activism"
   >}}
   {{< hextra/feature-card
-    title="Privacy Tools"
-    subtitle="The essential tools you need to safeguard your digital privacy, chosen by community consensus."
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px] pg:colored-card"
-    image="pg-home-privacy-tools.png"
-    imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
-    link="tools"
-  >}}
-  {{< hextra/feature-card
     title="Community Forum"
     subtitle="Join the conversation, get answers, and connect with others who share your commitment to digital privacy."
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px] pg:colored-card"
     image="pg-home-privacy-forum.png"
     imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
     link="https://discuss.privacyguides.net"
-  >}}
-  {{< hextra/feature-card
-    title="News Briefs"
-    subtitle="Stay updated with the latest news and developments in the world of cybersecurity, privacy, and digital rights."
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px] pg:colored-card"
-    image="pg-home-privacy-news.png"
-    imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
-    link="https://www.privacyguides.org/news/"
   >}}
 {{< /hextra/feature-grid >}}
 

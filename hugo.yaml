@@ -1,6 +1,7 @@
 # Hugo configuration file
 title: Privacy Guides
-relativeURLs: true
+baseURL: https://wiki.privacyguides.org
+locale: en-US
 
 # temporarily ignore blog content
 ignoreFiles:
@@ -101,17 +102,3 @@ outputs:
   home: [HTML, RSS, llms]
   page: [HTML, markdown, RSS]
   section: [HTML, RSS]
-
-defaultContentLanguage: en
-defaultContentLanguageInSubdir: false
-languages:
-  en:
-    languageName: English
-    weight: 1
-    # baseURL: https://en.privacyguides.org
-    contentDir: 'content'
-  # fr:
-  #   languageName: Français
-  #   weight: 2
-  #   baseURL: https://fr.privacyguides.org
-  #   contentDir: 'translations/fr'
