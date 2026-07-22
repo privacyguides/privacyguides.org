@@ -26,7 +26,7 @@ jobs:
 
     steps:
       - name: Download Website Build Artifact
-        uses: actions/github-script@v7.0.1
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         with:
           script: |
             var artifacts = await github.rest.actions.listWorkflowRunArtifacts({
@@ -53,14 +53,14 @@ jobs:
           tar -czvf site-build-combined.tar.gz site
 
       - name: Upload Combined Build Artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: site-build-combined.tar.gz
           path: site-build-combined.tar.gz
           retention-days: 5
 
       - name: Download Metadata Artifact
-        uses: actions/github-script@v7.0.1
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         with:
           script: |
             var artifacts = await github.rest.actions.listWorkflowRunArtifacts({
@@ -97,7 +97,7 @@ jobs:
     outputs:
       address: ${{ steps.deployment.outputs.address }}
     steps:
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
           pattern: site-build-combined.tar.gz
           merge-multiple: true
@@ -109,7 +109,7 @@ jobs:
       - name: Limit length of site alias to 12
         run: echo "SHORT_ALIAS=$(echo "${{ needs.metadata.outputs.pr_number }}" | cut -c1-12)" >> "$GITHUB_ENV"
 
-      - uses: hkdobrev/minio-deploy-action@v1
+      - uses: hkdobrev/minio-deploy-action@98438a5d45068824d87fc8938095ae86dabc05bd # v1.1.0
         with:
           endpoint: https://${{ vars.PREVIEW_GARAGE_HOSTNAME }}
           bucket:  ${{ vars.PREVIEW_GARAGE_BUCKET }}
@@ -130,7 +130,7 @@ jobs:
     env:
       address: ${{ needs.deploy_garage.outputs.address }}
     steps:
-      - uses: thollander/actions-comment-pull-request@v2.5.0
+      - uses: thollander/actions-comment-pull-request@24bffb9b452ba05a4f3f77933840a6a841d1b32b # v3.0.1
         with:
           pr_number: ${{ needs.metadata.outputs.pr_number }}
           message: |

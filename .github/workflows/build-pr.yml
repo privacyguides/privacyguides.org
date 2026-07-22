@@ -42,7 +42,7 @@ jobs:
           echo "true" > ./metadata/PRIVILEGED
 
       - name: Upload metadata as artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: metadata
           path: metadata
@@ -62,7 +62,7 @@ jobs:
     needs: build_english
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
           pattern: site-build.tar.gz
           merge-multiple: true
@@ -72,7 +72,7 @@ jobs:
           ls -la public/
 
       - name: Upload Site
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: site-build-combined
           path: public
