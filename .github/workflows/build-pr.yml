@@ -42,24 +42,12 @@ jobs:
           echo "true" > ./metadata/PRIVILEGED
 
       - name: Upload metadata as artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: metadata
           path: metadata
 
-  submodule:
-    needs: metadata
-    strategy:
-      matrix: ${{ fromJson(needs.metadata.outputs.submodules) }}
-    uses: privacyguides/.github/.github/workflows/download-repo.yml@main
-    with:
-      repo: ${{ matrix.repo }}
-      privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
-    secrets:
-      ACTIONS_SSH_KEY: ${{ secrets.ACTIONS_SSH_KEY }}
-
   build_english:
-    needs: [submodule, metadata]
     strategy:
       matrix:
         lang: [en]
@@ -68,76 +56,24 @@ jobs:
     with:
       ref: ${{github.event.pull_request.head.ref}}
       repo: ${{github.event.pull_request.head.repo.full_name}}
-      lang: en
       continue-on-error: false
-      privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
-      strict: true
-    secrets:
-      MEMBERS_API_URL: ${{ secrets.MEMBERS_API_URL }}
-
-  build_i18n:
-    if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build i18n') }}
-    needs: [submodule, metadata]
-    strategy:
-      matrix:
-        lang: [es, fr, he, it, nl, ru, zh-Hant, zh-TW]
-      fail-fast: false
-    uses: ./.github/workflows/build.yml
-    with:
-      ref: ${{github.event.pull_request.head.ref}}
-      repo: ${{github.event.pull_request.head.repo.full_name}}
-      lang: ${{ matrix.lang }}
-      continue-on-error: true
-      privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
-      strict: true
-    secrets:
-      MEMBERS_API_URL: ${{ secrets.MEMBERS_API_URL }}
-
-  build_blog:
-    if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build blog') }}
-    needs: [submodule, metadata]
-    uses: ./.github/workflows/build-blog.yml
-    with:
-      ref: ${{github.event.pull_request.head.ref}}
-      repo: ${{github.event.pull_request.head.repo.full_name}}
-      continue-on-error: true
-      privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
-
-  build_zimfile:
-    if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build zimfile') }}
-    needs: [submodule, metadata]
-    uses: ./.github/workflows/build-zimfile.yml
-    with:
-      ref: ${{github.event.pull_request.head.ref}}
-      repo: ${{github.event.pull_request.head.repo.full_name}}
 
   combine_build:
-    needs: [build_english, build_i18n, build_blog]
-    if: |
-      (always() && !cancelled() && !failure()) &&
-      needs.build_english.result == 'success' &&
-      (needs.build_i18n.result == 'success' || needs.build_i18n.result == 'skipped') &&
-      (needs.build_blog.result == 'success' || needs.build_blog.result == 'skipped')
-
+    needs: build_english
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
-          pattern: site-build-*
+          pattern: site-build.tar.gz
           merge-multiple: true
 
       - run: |
           for file in *.tar.gz; do tar -zxf "$file"; done
-          ls -la site/
+          ls -la public/
 
       - name: Upload Site
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: site-build-combined
-          path: site
+          path: public
           retention-days: 5
-
-  cleanup:
-    if: ${{ always() }}
-    needs: [build_english, build_i18n, build_blog, build_zimfile]
-    uses: privacyguides/.github/.github/workflows/cleanup.yml@main

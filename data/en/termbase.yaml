@@ -1,0 +1,221 @@
+- term: 2FA
+  definition: Two-factor authentication – a security process in which the user provides two different authentication factors to verify themselves.
+- term: ADB
+  definition: Android Debug Bridge – A versatile command-line tool that lets you communicate with a device, used for debugging and other development purposes.
+- term: AOSP
+  definition: Android Open Source Project – The open-source software stack for the Android operating system, maintained by Google and the Android community.
+- term: ATA
+  definition: Advanced Technology Attachment – A standard for connecting storage devices to a computer's motherboard.
+- term: Attack Surface
+  definition: The total number of possible entry points for unauthorized access to a system.
+- term: AVB
+  definition: Android Verified Boot – A security feature that ensures the integrity of the device's software by verifying the boot process.
+- term: cgroups
+  definition: Control Groups – A Linux kernel feature that limits and isolates the resource usage of a collection of processes.
+- term: CLI
+  definition: Command Line Interface – A text-based user interface used to interact with software and operating systems by typing commands.
+- term: CSV
+  definition: Comma-Separated Values – A simple file format used to store tabular data, where each line represents a record and each field is separated by a comma.
+- term: CVE
+  definition: Common Vulnerabilities and Exposures – A list of publicly disclosed cybersecurity vulnerabilities and exposures, maintained by the MITRE Corporation.
+- term: dark pattern
+  definition: A deceptive design pattern intended to trick a user into doing things they might not want to do, such as signing up for a service or sharing more personal information than they intended.
+- term: DLF
+  definition: Digital Legacy Feature – Features that allow you to give other people access to your data when you die, such as Google's Inactive Account Manager or Apple's Digital Legacy program.
+- term: DNSSEC
+  definition: Domain Name System Security Extensions – A suite of specifications for securing certain kinds of information provided by the Domain Name System (DNS) as used on IP networks.
+- term: DNS
+  definition: Domain Name System – The hierarchical and decentralized naming system used to translate human-readable domain names (like www.example.com) into IP addresses that computers use to identify each other on the network.
+- term: DoH
+  definition: DNS over HTTPS – A protocol for performing remote Domain Name System (DNS) resolution via the HTTPS protocol, which provides increased privacy and security by encrypting the DNS queries.
+- term: DoQ
+  definition: DNS over QUIC – A protocol for performing remote Domain Name System (DNS) resolution over the QUIC transport protocol, which aims to provide faster and more secure DNS resolution.
+- term: DoH3
+  definition: DNS over HTTP/3 – A protocol for performing remote Domain Name System (DNS) resolution over the HTTP/3 transport protocol, which is based on QUIC and aims to provide improved performance and security for DNS resolution.
+- term: DoT
+  definition: DNS over TLS – A protocol for performing remote Domain Name System (DNS) resolution over the Transport Layer Security (TLS) protocol, which provides privacy and security by encrypting the DNS queries.
+- term: DPA
+  definition: Data Protection Authority – An independent public authority responsible for overseeing the application of data protection laws and ensuring the protection of individuals' personal data.
+- term: DPI
+  definition: Deep Packet Inspection – A form of computer network packet filtering that examines the data part (and possibly also the header) of a packet as it passes an inspection point, searching for protocol non-compliance, viruses, spam, intrusions, or defined criteria to decide whether the packet can pass or if it needs to be routed to a different destination, or for the purpose of collecting statistical information.
+- term: E2EE
+  definition: End-to-End Encryption – A method of secure communication that prevents third parties from accessing data while it's transferred from one end system or device to another, ensuring that only the communicating users can read the messages.
+- term: ECS
+  definition: EDNS Client Subnet – An extension to the DNS protocol that allows a recursive resolver to include part of the client's IP address in the DNS query, enabling more accurate geolocation-based responses from authoritative DNS servers.
+- term: EEA
+  definition: European Economic Area – An economic region that includes the member states of the European Union (EU) and three of the four member states of the European Free Trade Association (EFTA), which are Iceland, Liechtenstein, and Norway.
+- term: entropy
+  definition: Entropy – A measurement of how unpredictable something is, often used in the context of cryptography to describe the randomness of a key or password.
+- term: EOL
+  definition: End-of-Life – The point in time when a product or service is no longer supported or maintained by the manufacturer or provider, often leading to a lack of security updates and potential vulnerabilities.
+- term: Exif
+  definition: Exchangeable Image File Format – A standard that specifies the formats for images, sound, and ancillary tags used by digital cameras, smartphones, and other systems handling image and sound files recorded by digital cameras.
+- term: FCM
+  definition: Firebase Cloud Messaging – A cross-platform messaging solution that allows developers to send notifications and messages to users across Android, iOS, and web applications.
+- term: FDE
+  definition: Full Disk Encryption – A method of encrypting all data on a disk drive, ensuring that the data cannot be accessed without the proper authentication, such as a password or encryption key.
+- term: FIDO
+  definition: Fast IDentity Online – An open industry alliance that provides standards for strong authentication, including the use of biometrics and hardware security keys, to reduce reliance on passwords.
+- term: FS
+  definition: Forward Secrecy – A property of secure communication protocols in which session keys are not compromised even if the server's private key is compromised in the future, ensuring that past communications remain secure.
+- term: fork
+  definition: Fork – A new software project created by copying an existing project and adding to it independently, often leading to a divergence in the development paths of the original and the forked project.
+- term: GDPR
+  definition: General Data Protection Regulation – A regulation in EU law on data protection and privacy for all individuals within the European Union and the European Economic Area, which also addresses the transfer of personal data outside the EU and EEA areas.
+- term: GPG
+  definition: GNU Privacy Guard – An open-source implementation of the OpenPGP standard, which provides encryption and signing services for secure communication and data storage.
+- term: GPS
+  definition: Global Positioning System – A satellite-based navigation system that provides location and time information to a GPS receiver anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites.
+- term: GUI
+  definition: Graphical User Interface – A type of user interface that allows users to interact with electronic devices through graphical icons and visual indicators, as opposed to text-based interfaces, command-line interfaces, or voice-controlled interfaces.
+- term: HDD
+  definition: Hard Disk Drive – A data storage device that uses magnetic storage to store and retrieve digital information using one or more rigid rapidly rotating disks (platters) coated with magnetic material, and magnetic heads arranged on a moving actuator arm to read and write data to the surfaces.
+- term: HOTP
+  definition: HMAC (Hash-based Message Authentication Code) based One-Time Password – A one-time password algorithm based on HMAC, which generates a password that is valid for only one authentication session or transaction, often used in two-factor authentication systems.
+- term: HTTPS
+  definition: Hypertext Transfer Protocol Secure – An extension of the Hypertext Transfer Protocol (HTTP) that uses Transport Layer Security (TLS) to encrypt data exchanged between a user's browser and a web server, providing secure communication over the internet.
+- term: HTTP
+  definition: Hypertext Transfer Protocol – An application protocol for distributed, collaborative, hypermedia information systems, which is the foundation of data communication for the World Wide Web, allowing for the fetching of resources such as HTML documents.
+- term: Hypervisor
+  definition: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems, allowing them to run concurrently on a single physical machine, often used in virtualization environments.
+- term: ICCID
+  definition: Integrated Circuit Card Identifier – A unique identifier for a SIM card, which is used to identify the card internationally and is stored on the SIM itself.
+- term: IMAP
+  definition: Internet Message Access Protocol – An email protocol that allows users to access and manage their email on a remote server, enabling features such as multiple device access and server-side email management.
+- term: IMEI
+  definition: International Mobile Equipment Identity – A unique identifier for mobile devices, used by cellular networks to identify valid devices and can be used for stopping a stolen phone from accessing the network.
+- term: IMSI
+  definition: International Mobile Subscriber Identity – A unique identifier for a mobile subscriber, stored on the SIM card and used by cellular networks to identify and authenticate subscribers.
+- term: IP
+  definition: Internet Protocol – A set of rules governing the format of data sent over the internet or other networks, which is responsible for addressing and routing packets of data so that they can travel across networks and arrive at the correct destination.
+- term: IPv4
+  definition: Internet Protocol version 4 – The fourth version of the Internet Protocol, which uses 32-bit addresses and is the most widely deployed version of the protocol, allowing for approximately 4.3 billion unique addresses.
+- term: IPv6
+  definition: Internet Protocol version 6 – The sixth version of the Internet Protocol, which uses 128-bit addresses and is designed to replace IPv4, providing a vastly larger address space.
+- term: ISP
+  abbr: ISPs
+  definition: Internet Service Provider – A company that provides individuals and organizations with access to the internet and related services, such as web hosting and email services.
+- term: JNI
+  definition: Java Native Interface – A programming framework that allows Java code running in a Java Virtual Machine (JVM) to call and be called by native applications and libraries written in other programming languages, such as C and C++.
+- term: KYC
+  definition: Know Your Customer – A process used by businesses to verify the identity of their clients, often as part of anti-money laundering (AML) regulations, which may involve collecting and verifying personal information such as name, address, date of birth, and government-issued identification.
+- term: LLaVA
+  definition: Large Language and Vision Assistant – A multimodal AI model that can process and generate both text and images, allowing it to perform tasks that require understanding and generating content in both modalities, such as answering questions about images or generating images based on text descriptions.
+- term: LLM
+  abbr: LLMs
+  definition: Large Language Models – AI models, such as ChatGPT, that are trained on vast amounts of text data and are capable of understanding and generating human-like text, often used for tasks such as language translation, summarization, and conversation.
+- term: LUKS
+  definition: Linux Unified Key Setup – A standard for hard disk encryption that provides a secure method for encrypting entire disks, often used in Linux-based operating systems to protect data at rest.
+- term: MAC
+  definition: Media Access Control – A unique identifier assigned to a network interface controller (NIC) for use as a network address in communications within a network segment, which is used for identifying devices on a local network.
+- term: MDAG
+  definition: Microsoft Defender Application Guard – A security feature in Windows that helps protect users from advanced attacks by isolating untrusted websites and applications in a secure container, preventing them from accessing the rest of the system.
+- term: MEID
+  definition: Mobile Equipment Identifier – A unique identifier for mobile devices, similar to the IMEI, used primarily in CDMA networks to identify valid devices and can be used for stopping a stolen phone from accessing the network.
+- term: MFA
+  definition: Multi-Factor Authentication – A security process that requires users to provide two or more different authentication factors to verify themselves, such as something they know (password), something they have (security token), or something they are (biometric verification).
+- term: NVMe
+  definition: Nonvolatile Memory Express – A high-performance, scalable host controller interface designed to address the needs of enterprise and client systems that utilize solid-state drives (SSDs) over the PCI Express (PCIe) bus, providing faster data transfer speeds and lower latency compared to traditional storage interfaces.
+- term: NAT
+  definition: Network address translation – A method used by routers to translate private IP addresses within a local network to a public IP address for communication with external networks, allowing multiple devices on a local network to share a single public IP address.
+- term: NAT-PMP
+  definition: NAT Port Mapping Protocol – A protocol that allows devices on a local network to automatically configure the router to allow incoming connections, enabling applications to receive unsolicited inbound traffic without requiring manual configuration of port forwarding on the router.
+- term: NTP
+  definition: Network Time Protocol – A networking protocol for clock synchronization between computer systems over packet-switched, variable-latency data networks, which allows devices to synchronize their clocks to a reference time source, such as an atomic clock or GPS clock, ensuring accurate timekeeping across the network.
+- term: Nunavut
+  definition: The largest and northernmost territory of Canada, known for its vast, remote landscapes and indigenous Inuit culture, which has been the site of various technological and scientific research projects, including those related to telecommunications and satellite communications due to its unique geographic location.
+- term: OCI
+  definition: Open Container Initiative – An open governance structure for the express purpose of creating open industry standards around container formats and runtimes, which aims to ensure interoperability and standardization in the container ecosystem.
+- term: OCSP
+  definition: Online Certificate Status Protocol – A protocol used for obtaining the revocation status of an X.509 digital certificate, which allows clients to check if a certificate is still valid or has been revoked by the certificate authority, providing a more efficient and real-time method of certificate validation compared to traditional Certificate Revocation Lists (CRLs).
+- term: OEM
+  abbr: OEMs
+  definition: Original Equipment Manufacturer – A company that produces parts and equipment that may be marketed by another manufacturer, often used in the context of computer hardware and software, where an OEM may produce devices or software that are branded and sold by another company.
+- term: Open Weights Model
+  definition: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary, meaning that while the model itself is accessible, the details of how it was trained or the data it was trained on are not publicly available, which can raise concerns about transparency and accountability in AI development.
+- term: OS
+  definition: Operating System – System software that manages computer hardware and software resources and provides common services for computer programs, acting as an intermediary between users and the computer hardware, with examples including Windows, macOS, Linux, and Android.
+- term: OTP
+  abbr: OTPs
+  definition: One-Time Password – A password that is valid for only one authentication session or transaction, often used in two-factor authentication systems to provide an additional layer of security, as it cannot be reused if intercepted by an attacker.
+- term: OpenPGP
+  definition: An open-source implementation of the Pretty Good Privacy (PGP) standard, which provides encryption and signing services for secure communication and data storage, allowing users to encrypt their emails and files and verify the authenticity of messages through digital signatures.
+- term: P2P
+  definition: Peer-to-Peer – A decentralized network architecture in which each participant (peer) can act as both a client and a server, allowing for direct communication and resource sharing between peers without the need for a central server, often used in file sharing, cryptocurrency networks, and distributed computing.
+- term: PAM
+  definition: Linux Pluggable Authentication Modules – A suite of shared libraries that enable the local system administrator to choose how applications authenticate users, providing a flexible mechanism for authenticating users and granting access to resources on a Linux system, allowing for the integration of various authentication methods such as passwords, biometrics, and smart cards.
+- term: POP3
+  definition: Post Office Protocol 3 – An email protocol used by local email clients to retrieve emails from a remote server over a TCP/IP connection, which allows users to download their emails to their local device and manage them offline, but does not support server-side email management or synchronization across multiple devices like IMAP does.
+- term: PGP
+  definition: Pretty Good Privacy (PGP) – A data encryption and decryption program that provides cryptographic privacy and authentication for data communication, often used for securing emails and files, which uses a combination of symmetric-key cryptography and public-key cryptography to provide confidentiality and integrity of data, as well as digital signatures for authentication.
+- term: PII
+  definition: Personally Identifiable Information – Any information that can be used to identify an individual, either directly or indirectly, such as name, address, email, phone number, social security number, or biometric data, which is often subject to data protection regulations to ensure the privacy and security of individuals' personal information.
+- term: QNAME
+  definition: In the context of DNS, a QNAME is the domain name that is being queried, which is used in DNS queries to specify the name of the resource being requested, such as www.example.com, and is part of the DNS query message sent to a DNS server to resolve the domain name to an IP address.
+- term: QUIC
+  definition: Quick UDP Internet Connections – A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
+- term: Rate Limits
+  definition: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time, often used to prevent abuse, ensure fair usage, and protect against denial-of-service attacks, which can be implemented at various levels such as per user, per IP address, or per API key.
+- term: Rolling Release
+  definition: A software development model in which updates are released frequently rather than at set intervals, allowing users to receive the latest features and improvements without having to wait for a major release, often used in the context of Linux distributions and software projects that prioritize continuous development and rapid iteration.
+- term: RSS
+  definition: Really Simple Syndication – A web feed format used to publish frequently updated information, such as blog entries, news headlines, or podcasts, which allows users to subscribe to content and receive updates automatically through an RSS reader or aggregator, providing a convenient way to stay informed about new content from multiple sources in one place.
+- term: SELinux
+  definition: Security-Enhanced Linux – A security architecture integrated into the Linux kernel that provides a mechanism for supporting access controlsecurity policies, which allows administrators to define and enforce security policies that restrict the actions of processes and users, enhancing the overall security of the system by limiting the potential damage that can be caused by compromised applications or users.
+- term: SIM
+  definition: Subscriber Identity Module – A small, removable smart card used in mobile devices to store data for the subscriber, such as the International Mobile Subscriber Identity (IMSI) and the authentication key, which allows the device to connect to the mobile network and access services, and can also store contacts and text messages.
+- term: SMS
+  definition: Short Message Service – A text messaging service component of most telephone, internet, and mobile device systems, which allows users to send and receive short text messages, typically limited to 160 characters, and is widely used for personal communication, marketing, and two-factor authentication purposes.
+- term: SMTP
+  definition: Simple Mail Transfer Protocol – An internet standard for email transmission, which is used to send and receive email messages between email servers, and is also used by email clients to send outgoing messages to a mail server, which then relays the message to the recipient's mail server, allowing for the exchange of email across the internet.
+- term: SNI
+  definition: Server Name Indication – An extension to the TLS protocol that allows a client to indicate which hostname it is trying to connect to at the start of the handshake process, enabling a server to present multiple SSL/TLS certificates on the same IP address and port number, which is particularly useful for hosting multiple secure websites on a single server without requiring a unique IP address for each site.
+- term: SSD
+  definition: Solid-State Drive – A type of data storage device that uses flash memory to store data, which provides faster data access speeds, lower latency, and improved durability compared to traditional hard disk drives (HDDs), as it has no moving parts and is more resistant to physical shock, making it a popular choice for modern computers and mobile devices.
+- term: SSH
+  definition: Secure Shell – A cryptographic network protocol for operating network services securely over an unsecured network, which provides a secure channel for remote login and other network services, allowing users to access and manage remote servers securely, often used for system administration and file transfers.
+- term: SUID
+  definition: Set Owner User ID – A special type of file permission in Unix and Linux systems that allows a user to execute a file with the permissions of the file's owner, rather than the permissions of the user who is executing the file, which can be a security risk if not used carefully, as it may allow unauthorized users to gain elevated privileges if the SUID program has vulnerabilities.
+- term: SaaS
+  definition: Software as a Service – A software distribution model in which applications are hosted by a service provider and made available to customers over the internet, allowing users to access and use software applications on a subscription basis without needing to install or maintain the software on their own devices, which can provide benefits such as scalability, accessibility, and reduced IT overhead.
+- term: SoC
+  definition: System on Chip – An integrated circuit that incorporates all components of a computer or other electronic system into a single chip, which typically includes a central processing unit (CPU), memory, input/output ports, and other components, allowing for compact and efficient designs commonly used in mobile devices, embedded systems, and Internet of Things (IoT) devices.
+- term: SSO
+  definition: Single sign-on – An authentication process that allows a user to access multiple applications or services with a single set of login credentials, which can improve user convenience and security by reducing the number of passwords a user needs to remember and manage, and can also provide centralized authentication and access control for organizations.
+- term: System Prompt
+  definition: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate, which can include guidelines for tone, style, content, and behavior, and is used to shape the responses generated by the AI model, ensuring that it aligns with the desired outcomes and user expectations.
+- term: AI temperature
+  definition: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text, where a lower temperature (e.g., 0.2) will produce more deterministic and focused responses, while a higher temperature (e.g., 0.8) will produce more diverse and creative responses, allowing users to adjust the output of the AI model based on their needs and preferences.
+- term: TCP
+  definition: Transmission Control Protocol – A core protocol of the Internet Protocol Suite that provides reliable, ordered, and error-checked delivery of data between applications running on hosts communicating via an IP network, which establishes a connection between the sender and receiver before data can be sent, ensuring that data is delivered accurately and in the correct order, and is widely used for applications such as web browsing, email, and file transfers.
+- term: TEE
+  definition: Trusted Execution Environment – A secure area of a main processor that ensures sensitive data is stored, processed, and protected in an isolated environment, which provides a higher level of security for applications and data by preventing unauthorized access and tampering, often used for secure key storage, digital rights management (DRM), and secure payment processing.
+- term: TLS
+  definition: Transport Layer Security – A cryptographic protocol designed to provide secure communication over a computer network, which is widely used for securing web traffic (HTTPS), email, and other forms of data transmission, providing confidentiality, integrity, and authentication by encrypting the data exchanged between parties and verifying the identity of the communicating parties through the use of digital certificates.
+- term: ToS
+  definition: Terms of Service – A legal agreement between a service provider and a user that outlines the rules and guidelines for using the service, which typically includes information about user responsibilities, acceptable use, privacy policies, and limitations of liability, and is intended to protect both the service provider and the user by clearly defining the terms under which the service can be used and the consequences of violating those terms.
+- term: TOTP
+  definition: Time-based One-Time Password – A one-time password algorithm that generates a temporary password based on the current time, which is often used in two-factor authentication systems to provide an additional layer of security, as the generated password is only valid for a short period of time (e.g., 30 seconds) and cannot be reused if intercepted by an attacker, typically implemented in apps like Google Authenticator and Authy.
+- term: TPM
+  definition: Trusted Platform Module – A specialized chip on an endpoint device that stores RSA encryption keys specific to the host system for hardware authentication, which provides a secure environment for cryptographic operations and can be used for tasks such as secure boot, disk encryption, and digital rights management (DRM), enhancing the overall security of the system by protecting sensitive data and ensuring the integrity of the platform.
+- term: U2F
+  definition: Universal 2nd Factor – An open authentication standard that strengthens and simplifies two-factor authentication using specialized USB or NFC devices, which allows users to authenticate themselves by inserting a physical security key into their device or tapping it against an NFC reader, providing a strong form of two-factor authentication that is resistant to phishing attacks and does not require drivers or client software, making it easy to use across different platforms and services.
+- term: UEFI
+  definition: Unified Extensible Firmware Interface – A modern firmware interface for computers that provides a more flexible and powerful environment for booting an operating system, which replaces the traditional BIOS firmware and offers features such as faster boot times, support for larger hard drives, and enhanced security features like Secure Boot, allowing for improved performance and security during the boot process.
+- term: UDP
+  definition: User Datagram Protocol – A communication protocol that is part of the Internet Protocol Suite, which provides a connectionless datagram service that emphasizes reduced latency and overhead, allowing applications to send messages (datagrams) without establishing a connection, but does not guarantee delivery, order, or error checking, making it suitable for applications that require fast, efficient communication, such as streaming media, online gaming, and voice over IP (VoIP).
+- term: VPN
+  definition: Virtual Private Network – A technology that creates a secure and encrypted connection over a less secure network, such as the internet, allowing users to protect their online privacy and security by masking their IP address and encrypting their internet traffic, which can be used to access region-restricted content, protect sensitive data from hackers, and maintain anonymity online.
+- term: VLAN
+  definition: Virtual Local Area Network – A logical grouping of devices on a network that allows them to communicate as if they were on the same physical network, even if they are not, which can improve network performance and security by segmenting the network into smaller, isolated groups, allowing for better control over traffic flow and access to resources.
+- term: VoIP
+  definition: Voice over IP (Internet Protocol) – A technology that allows users to make voice calls using a broadband internet connection instead of a traditional phone line, which converts voice signals into digital data and transmits them over the internet,providing features such as lower costs, increased flexibility, and the ability to integrate with other communication services, making it a popular choice for both personal and business communication.
+- term: W3C
+  definition: World Wide Web Consortium – An international community that develops open standards to ensure the long-term growth of the Web, which is responsible for creating and maintaining web standards such as HTML, CSS, and XML, and works to promote the interoperability and accessibility of web technologies, ensuring that the web remains open and accessible to everyone.
+- term: XMPP
+  definition: Extensible Messaging and Presence Protocol – An open communication protocol for message-oriented middleware based on XML, which is used for instant messaging, presence information, and contact list maintenance, allowing for real-time communication and collaboration across different platforms and services, and is widely used in applications such as chat services, social networking, and online gaming.
+- term: PWA
+  abbr: PWAs
+  definition: Progressive Web App – A type of application software delivered through the web, built using common web technologies including HTML, CSS, and JavaScript, which is intended to work on any platform that uses a standards-compliant browser, providing a user experience similar to native applications, with features such as offline access, push notifications, and the ability to be installed on a user's device, making it a versatile and accessible option for developers and users alike.
+- term: WKD
+  definition: Web Key Directory – A method for publishing OpenPGP public keys on the web, which allows users to easily find and retrieve public keys associated with email addresses, providing a convenient way to facilitate secure communication using OpenPGP by enabling users to look up public keys without needing to rely on centralized key servers, enhancing the accessibility and usability of public key cryptography for secure email communication.

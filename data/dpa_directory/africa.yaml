@@ -1,0 +1,129 @@
+# Africa — DPA directory entries for this region.
+# Tables are rendered via {< dpa-directory-table region="africa" >}.
+
+title: Africa
+table_class: table-africa
+caption: "Data Protection Authority Directory (Africa)"
+entries:
+  - region: Egypt
+    law:
+      name: "Personal Data Protection Law No. 151/2020"
+      url: https://pdpc.gov.eg/assets/pdf-data/PDPL%20no.%20151%20of%202020%20(ar).pdf
+    abbreviation: PDPL
+    dpa:
+      name: "Personal Data Protection Center (PDPC)"
+      url: https://pdpc.gov.eg
+    contact: TBA
+    complaint: TBA
+  - region: Ghana
+    law:
+      name: "Data Protection Act of 2012"
+      url: https://dataprotection.org.gh/for-individuals/
+    abbreviation: "Act 843"
+    dpa:
+      name: "Data Protection Commission (DPC)"
+      url: https://dataprotection.org.gh/
+    contact:
+      label: "Contact Page"
+      url: https://dataprotection.org.gh/contact/
+    complaint:
+      label: "Complaint Link"
+      url: https://dataprotection.org.gh/file-a-complaint/
+  - region: Kenya
+    law:
+      name: "Data Protection Act, 2019"
+      url: https://www.odpc.go.ke/data-protection-laws-kenya/
+    abbreviation: "The Act"
+    dpa:
+      name: "Office of the Data Protection Commissioner (ODPC)"
+      url: https://www.odpc.go.ke/
+    contact:
+      label: "Contact Page"
+      url: https://www.odpc.go.ke/contact-us/
+    complaint:
+      label: "Complaint Link"
+      url: https://cie.odpc.go.ke/
+  - region: Morocco
+    law:
+      name: "Law No. 09-08 on the protection of individuals with regard to the processing of personal data"
+      url: https://www.cndp.ma/loi-09-08/
+    abbreviation: "Law 09-08"
+    dpa:
+      name: "National Commission for the Protection of Personal Data (CNDP)"
+      url: https://www.cndp.ma
+    contact:
+      label: "Contact Page"
+      url: https://www.cndp.ma/contact/
+    complaint:
+      label: "Complaint Link"
+      url: https://www.cndp.ma/deposer-une-plainte/
+  - region: Nigeria
+    law:
+      name: "Nigeria Data Protection Act"
+      url: https://ndpc.gov.ng/wp-content/uploads/2025/07/NDP-ACT-GAID-2025-MARCH-20TH.pdf
+    abbreviation: NDP
+    dpa:
+      name: "Nigeria Data Protection Commission (NDPC)"
+      url: https://ndpc.gov.ng/
+    contact:
+      label: "Contact Page"
+      url: https://ndpc.gov.ng/contact/
+    complaint:
+      label: "Complaint Link"
+      url: https://services.ndpc.gov.ng/breach/
+  - region: Senegal
+    law:
+      name: "Loi n° 2008-12 du 25 janvier 2008 portant protection des données à caractère personnel"
+      url: https://stcc-ssi.sn/wp-content/uploads/2025/03/protection-des-donnees-personnelles.pdf
+    abbreviation: "Loi no. 2008-12"
+    dpa:
+      name: "Commission de Protection des Données Personnelles (CDP)"
+      url: https://www.cdp.sn/
+    contact:
+      label: "Contact Page"
+      url: https://www.cdp.sn/contact
+    complaint:
+      label: "Complaint Link"
+      url: https://www.cdp.sn/plainte
+  - region: "South Africa"
+    law:
+      name: "Protection of Personal Information Act, 2013"
+      url: https://inforegulator.org.za/wp-content/uploads/2025/08/PROTECTION-OF-PERSONAL-INFORMATION-ACT-4-OF-2013.pdf
+    abbreviation: POPIA
+    dpa:
+      name: "Information Regulator"
+      url: https://inforegulator.org.za/
+    contact:
+      label: "Contact Page"
+      url: https://inforegulator.org.za/contact-us/
+    complaint:
+      label: "Complaint Link"
+      url: https://inforegulator.org.za/complaints/
+  - region: Tanzania
+    law:
+      name: "Personal Data Protection Act"
+      url: https://www.pdpc.go.tz/media/media/THE_PERSONAL_DATA_PROTECTION_ACT.pdf
+    abbreviation: '-'
+    dpa:
+      name: "Personal Data Protection Commission (PDPC)"
+      url: https://www.pdpc.go.tz/en/
+    contact:
+      label: "Contact Page"
+      url: https://www.pdpc.go.tz/en/data-alliance/alliances/
+    complaint:
+      label: "Complaint Link"
+      url: https://dataprotection.pdpc.go.tz/complaint-form-one
+  - region: Tunisia
+    law:
+      name: "Organic Act n° 2004-63 of July 27th 2004 on the protection of personal data"
+      url: https://www.inpdp.tn/ressources/loi_2004.pdf
+    abbreviation: "Organic Act No. 2004-63"
+    dpa:
+      name: "National Authority for Protection of Personal Data (INPDP)"
+      url: https://www.inpdp.tn/
+    contact:
+      label: "Contact Page"
+      url: https://www.inpdp.tn/contact.html
+    complaint:
+      label: "Complaint Link"
+      url: https://www.inpdp.tn/Formulaires.html

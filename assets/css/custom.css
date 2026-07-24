@@ -1,0 +1,782 @@
+@font-face {
+    font-family: 'Bagnard';
+    src: url("../../brand/fonts/Bagnard/Bold.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url("../../brand/fonts/Public%20Sans/Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url("../../brand/fonts/Public%20Sans/Thin%20Italic.ttf") format("truetype");
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url("../../brand/fonts/Public%20Sans/ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url("../../brand/fonts/Public%20Sans/ExtraLight%20Italic.ttf") format("truetype");
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url("../../brand/fonts/Public%20Sans/Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url("../../brand/fonts/Public%20Sans/Light%20Italic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url("../../brand/fonts/Public%20Sans/Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url("../../brand/fonts/Public%20Sans/Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url("../../brand/fonts/Public%20Sans/Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url("../../brand/fonts/Public%20Sans/Medium%20Italic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url("../../brand/fonts/Public%20Sans/SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url("../../brand/fonts/Public%20Sans/SemiBold%20Italic.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url("../../brand/fonts/Public%20Sans/Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url("../../brand/fonts/Public%20Sans/Bold%20Italic.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url("../../brand/fonts/Public%20Sans/ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url("../../brand/fonts/Public%20Sans/ExtraBold%20Italic.ttf") format("truetype");
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url("../../brand/fonts/Public%20Sans/Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url("../../brand/fonts/Public%20Sans/Black%20Italic.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Mono';
+    src: url("../../brand/fonts/DM%20Mono/Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Mono';
+    src: url("../../brand/fonts/DM%20Mono/Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.content {
+  font-family: "Public Sans", Helvetica, ui-sans-serif, system-ui, sans-serif;
+}
+h1, .content h1, .content h2, .content h3 {
+  font-family: "Bagnard", "Georgia", ui-serif, serif;
+  font-weight: bold;
+  padding-top: 0.5em;
+  border: none;
+}
+.pg-home h3 {
+  font-weight: 900;
+}
+
+:root {
+  --primary-hue: 40.42deg;
+  --primary-saturation: 100%;
+  --primary-lightness: 71.76%;
+  --hx-font-sans: "Public Sans", Helvetica, ui-sans-serif, system-ui, sans-serif;
+}
+
+:root:has(body.recommended-privacy-tools), body.privacy-guides .hextra-feature-grid a[href*="tools"] {
+  --primary-hue: 200deg;
+  --primary-saturation: 37.75%;
+  --primary-lightness: 70.39%;
+}
+
+:root:has(body.privacy-wiki), body.privacy-guides .hextra-feature-grid a[href*="wiki"] {
+  --primary-hue: 167.57deg;
+  --primary-saturation: 97.13%;
+  --primary-lightness: 40.98%;
+}
+
+:root:has(body.privacy-activism), body.privacy-guides .hextra-feature-grid a[href*="activism"] {
+  --primary-hue: 5deg;
+  --primary-saturation: 96.43%;
+  --primary-lightness: 56.08%;
+}
+
+body.privacy-guides .hextra-feature-grid a[href*="youtube.com"] {
+  --primary-hue: 259.83deg;
+  --primary-saturation: 95.04%;
+  --primary-lightness: 76.27%;
+}
+
+body.privacy-guides .hextra-feature-grid a[href*="discuss.privacyguides.net"] {
+  --primary-hue: 33deg;
+  --primary-saturation: 100%;
+  --primary-lightness: 92.16%;
+}
+
+body.privacy-guides .hextra-feature-grid a[href*="news"] {
+  --primary-hue: 217.97deg;
+  --primary-saturation: 100%;
+  --primary-lightness: 69.02%;
+}
+
+body.privacy-guides .hextra-feature-grid a.pg\:colored-card:has(img) {
+  background: radial-gradient(ellipse at 50% 80%,hsl(var(--primary-hue)var(--primary-saturation)calc(var(--primary-lightness) + calc(calc(100% - var(--primary-lightness))/50)*16)),hsla(0,0%,100%,0));
+}
+
+.hextra-feature-grid img {
+  filter: opacity(85%)
+}
+
+.hextra-nav-container {
+  background: radial-gradient(ellipse at 50% 80%,var(--hx-color-primary-500),hsla(0,0%,100%,0));
+  border-bottom: 1px solid var(--hx-color-primary-500);
+}
+
+.hextra-max-navbar-width a.hx\:text-sm[href*="/about/donate/"] {
+  color: white;
+  background-color: var(--hx-color-primary-800);
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-left: 16px;
+  border-radius: var(--hx-radius-md);
+}
+
+.hextra-search-wrapper {
+  margin-right: 1em;
+}
+
+p.pg\:image\:right img {
+  float: right;
+  width: 150px;
+  margin-left: 1em;
+}
+
+html.light {
+  .content {
+    :where(h1):not(:where([class~=not-prose],[class~=not-prose] *)) {
+      color: var(--hx-color-primary-900)
+    }
+    :where(a):not(:where([class~=not-prose],
+    [class~=not-prose] *)) {
+      color:var(--hx-color-primary-900);
+    }
+    mark {
+      background-color: #ffff0080;
+    }
+    .pg\:title-card {
+      background-color: var(--hx-color-gray-100);
+      .hextra-card {
+        background-color: var(--hx-color-gray-50);
+      }
+      img {
+        float: right;
+        margin-top: 0;
+        max-width: 100px;
+        max-height: 100px;
+        margin: 0em 0em 1em 2em;
+      }
+      p:first-of-type {
+        margin-top: 0;
+      }
+    }
+  }
+  nav.hextra-toc li:has(~ li a.hextra-toc-active) > a {
+    color: var(--hx-color-gray-400);
+    opacity: 0.85;
+  }
+}
+
+html.dark {
+  .content {
+    :where(h1):not(:where([class~=not-prose],[class~=not-prose] *)) {
+      color: var(--hx-color-primary-200)
+    }
+    :where(a):not(:where([class~=not-prose],
+    [class~=not-prose] *)) {
+      color:var(--hx-color-primary-300);
+    }
+    mark {
+      background-color: #4287ff4d;
+      color: white;
+    }
+    .pg\:title-card {
+      background-color: var(--hx-color-gray-800);
+      .hextra-card {
+        background-color: var(--hx-color-gray-900);
+      }
+    }
+  }
+  nav.hextra-toc li:has(~ li a.hextra-toc-active) > a {
+    color: var(--hx-color-gray-500);
+    opacity: 0.9;
+  }
+}
+
+.content :where(a):not(:where([class~=not-prose],
+[class~=not-prose] *)):hover {
+  text-decoration: underline;
+}
+
+a.footnote-ref {
+  font-weight: 900;
+}
+
+.pg-card-logos img {
+  width: 100px;
+  padding: 16px;
+}
+
+.pg-unstyled-cards .hextra-card {
+  border: none;
+  box-shadow: none;
+}
+
+.pg-unstyled-cards .hextra-card:hover {
+  background-color: inherit;
+}
+
+.content .pg\:buttons {
+  a {
+    background-color: var(--hx-color-gray-300);
+    color: var(--hx-color-gray-700);
+    text-decoration: none;
+    padding: 1em;
+    border-radius: var(--hx-radius-md);
+    font-weight: 600;
+    line-height: 4em;
+  }
+  a:hover {
+    background-color: var(--hx-color-gray-400);
+  }
+  a:first-of-type {
+    background-color: var(--hx-color-primary-900);
+    color: var(--hx-color-primary-100)
+  }
+  a:first-of-type:hover {
+    background-color: var(--hx-color-primary-800);
+  }
+}
+
+/*********** Activism Section ***********/
+
+/* Activism Button Colors*/
+.dpadirectory-bg {
+    background-color: #7dbd5b;
+    color: #2d2d2d !important;
+}
+
+/* Toolbox Color Variables */
+:root {
+  --color-toolbox: #21bddc;
+  --color-toolbox-legal: #15678a;
+  --color-toolbox-tools: #457759;
+  --color-toolbox-perspective: #5c7e40;
+  --color-toolbox-community: #717924;
+  --color-toolbox-alliances: #847306;
+  --color-toolbox-accessibility: #926d07;
+  --color-toolbox-integrity: #ad5c14;
+  --color-toolbox-persistence: #ba4d13;
+  --color-toolbox-action: #a83410;
+}
+
+/* Toolbox Button Style*/
+.toolbox-button-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, min(100%/0, max(150px, 100%/4))));
+    grid-gap: 1em 5em;
+}
+
+.content .toolbox-button-grid p {
+  margin-top: auto;
+  color: white;
+  a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 1;
+    height: 11em;
+    width: 11em;
+    color: white;
+    padding: 1em;
+    border-radius: 12px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+.toolbox-button-grid a:hover, .toolbox-button-grid a:focus {
+    position: relative;
+    transform: scale(1.08);
+    /* box-shadow: 5px 10px 10px 5px rgba(0,0,0,0.3); */
+    color: white;
+}
+
+.toolbox-button-grid .toolbox-button-icon {
+    height: 7em;
+    display: inline-flex;
+    padding: 1.1em;
+    overflow: visible;
+}
+
+.toolbox-button-grid .hextra-icon svg {
+    width: 5em;
+    height: 5em;
+    overflow: visible;
+    margin-bottom: 1.4em;
+    fill: white;
+}
+
+/* Toolbox Button Colors*/
+.toolbox-bg {
+    background-color: var(--color-toolbox);
+    color: #2d2d2d !important;
+}
+
+.toolbox-bg-legal a {
+    background-color: var(--color-toolbox-legal);
+}
+
+.toolbox-bg-tools a {
+    background-color: var(--color-toolbox-tools);
+}
+
+.toolbox-bg-perspective a {
+    background-color: var(--color-toolbox-perspective);
+}
+
+.toolbox-bg-community a {
+    background-color: var(--color-toolbox-community);
+}
+
+.toolbox-bg-alliances a {
+    background-color: var(--color-toolbox-alliances);
+}
+
+.toolbox-bg-accessibility a {
+    background-color: var(--color-toolbox-accessibility);
+}
+
+.toolbox-bg-integrity a {
+    background-color: var(--color-toolbox-integrity);
+}
+
+.toolbox-bg-persistence a {
+    background-color: var(--color-toolbox-persistence);
+}
+
+.toolbox-bg-action a {
+    background-color: var(--color-toolbox-action);
+}
+
+/* Toolbox Tip Card Style */
+.toolbox-tip-card {
+    padding-top: 0;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-bottom: 2rem;
+    border: 5px solid var(--hx-color-primary-500);
+    border-radius: 15px;
+}
+
+.toolbox-tip-card-learn-more {
+  text-align: right;
+}
+
+.toolbox-tip-card-list {
+  h2 {
+    margin-bottom: 1em;
+  }
+  a, a:hover {
+    text-decoration: none;
+  }
+}
+
+.light .toolbox-tip-card-list {
+  h3, a {
+    color: black;
+  }
+}
+
+.dark .toolbox-tip-card-list {
+  h3, a {
+    color: white;
+  }
+}
+
+.toolbox-tip-icon {
+    float: left;
+    height: 120px;
+    width: 120px;
+    margin-right: 20px;
+}
+
+.toolbox-tip-card:hover {
+    position: relative;
+    transform: scale(1.01);
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.5);
+}
+
+.toolbox-tip-card a, .toolbox-tip-card a:hover {
+    color: var(--md-typeset-color);
+}
+
+/* Toolbox Tip Card Colors */
+.toolbox-border-legal {
+    border-color: var(--color-toolbox-legal);
+}
+
+.toolbox-border-tools {
+    border-color: var(--color-toolbox-tools);
+}
+
+.toolbox-border-perspective {
+    border-color: var(--color-toolbox-perspective);
+}
+
+.toolbox-border-community {
+    border-color: var(--color-toolbox-community);
+}
+
+.toolbox-border-alliances {
+    border-color: var(--color-toolbox-alliances);
+}
+
+.toolbox-border-accessibility {
+    border-color: var(--color-toolbox-accessibility);
+}
+
+.toolbox-border-integrity {
+    border-color: var(--color-toolbox-integrity);
+}
+
+.toolbox-border-persistence {
+    border-color: var(--color-toolbox-persistence);
+}
+
+.toolbox-border-action {
+    border-color: var(--color-toolbox-action);
+}
+
+/* Toolbox Button Top Style */
+.toolbox-button-top {
+    font-size: 0.7rem;
+    text-align: right;
+}
+
+.toolbox-button-top a, .toolbox-button-top a:visited {
+    color: var(--md-default-fg-color--light);
+}
+
+/* DPA Directory */
+
+.dpadirectory-table {
+    padding-top: 1rem;
+    border-collapse: collapse;
+    width: 100%;
+    line-height: 1.05rem;
+    table-layout: fixed;
+    width: 100%;
+    overflow-wrap: normal;
+    table-layout: fixed;
+}
+
+/* Column Width - Region */
+.dpadirectory-table th:first-child {
+    min-width: 110px;
+}
+
+/* Column Width - Law */
+.dpadirectory-table th:nth-child(2) {
+    min-width: 140px;
+}
+
+/* Column Width - Abbreviation */
+.dpadirectory-table th:nth-child(3) {
+    min-width: 100px;
+}
+
+/* Column Width - DPA */
+.dpadirectory-table th:nth-child(4) {
+    min-width: 150px;
+}
+
+/* Column Width - Contact */
+.dpadirectory-table th:nth-child(5) {
+    min-width: 85px;
+}
+
+/* Column Width - Complaint */
+.dpadirectory-table th:nth-child(6) {
+    min-width: 110px;
+}
+
+.dpadirectory-table caption, th, td {
+    padding: 1rem;
+    text-align: left;
+}
+
+.dpadirectory-table caption, th {
+    font-weight: 700;
+}
+
+.dpadirectory-table caption {
+    text-transform: uppercase;
+    color: #000000 !important;
+    overflow: hidden;
+    background: #7dbd5b;
+    border-radius: 5px 5px 0 0;
+}
+
+.dpadirectory-table th {
+    border-bottom: none;
+}
+
+.dpadirectory-table tr:nth-of-type(2n) {
+    background: hsl(0 0% 0% / 0.03);
+}
+
+.dpadirectory-table tr {
+    border: none;
+}
+
+.dpadirectory-table tr:hover {
+    border: none;
+}
+
+.dpadirectory-table td {
+    padding: 0.8rem;
+}
+
+.dpadirectory-contact-cell hr {
+    margin: 0.3rem;
+    max-width: 100%;
+    margin-left:0;
+}
+
+/* Table Colors Per Region */
+:root {
+    --color-dpadirectory-africa: #ffe26e;
+    --color-dpadirectory-asia: #91d16f;
+    --color-dpadirectory-europe: #7fbcfc;
+    --color-dpadirectory-northamerica: #ff8f75;
+    --color-dpadirectory-oceania: #c394de;
+    --color-dpadirectory-southamerica: #fcb249;
+}
+
+.table-africa caption {
+    background: var(--color-dpadirectory-africa);
+}
+
+.table-africa tbody {
+    border-bottom: 3px solid var(--color-dpadirectory-africa);
+}
+
+.table-asia caption {
+    background: var(--color-dpadirectory-asia);
+}
+
+.table-asia tbody {
+    border-bottom: 3px solid var(--color-dpadirectory-asia);
+}
+
+.table-europe caption {
+    background: var(--color-dpadirectory-europe);
+}
+
+.table-europe tbody {
+    border-bottom: 3px solid var(--color-dpadirectory-europe);
+}
+
+.table-northamerica caption {
+    background: var(--color-dpadirectory-northamerica);
+}
+
+.table-northamerica tbody {
+    border-bottom: 3px solid var(--color-dpadirectory-northamerica);
+}
+
+.table-oceania caption {
+    background: var(--color-dpadirectory-oceania);
+}
+
+.table-oceania tbody {
+    border-bottom: 3px solid var(--color-dpadirectory-oceania);
+}
+
+.table-southamerica caption {
+    background: var(--color-dpadirectory-southamerica);
+}
+
+.table-southamerica tbody {
+    border-bottom: 3px solid var(--color-dpadirectory-southamerica);
+}
+
+/* DPA Directory Buttons */
+.content .toolbox-button-grid .dpadirectory-button {
+  a {
+    color: #000000;
+  }
+  svg {
+    fill: black;
+    width: 6em;
+    height: 6em;
+  }
+}
+
+.dpadirectory-button-africa a {
+    background-color: var(--color-dpadirectory-africa);
+}
+
+.dpadirectory-button-asia a {
+    background-color: var(--color-dpadirectory-asia);
+}
+
+.dpadirectory-button-europe a {
+    background-color: var(--color-dpadirectory-europe);
+}
+
+.dpadirectory-button-northamerica a {
+    background-color: var(--color-dpadirectory-northamerica);
+}
+
+.dpadirectory-button-oceania a {
+    background-color: var(--color-dpadirectory-oceania);
+}
+
+.dpadirectory-button-southamerica a {
+    background-color: var(--color-dpadirectory-southamerica);
+}
+
+@media (max-width: 650px) {
+    .dpadirectory-table th {
+        display: none;
+    }
+
+    .dpadirectory-table td {
+        display: grid;
+        gap: 0.5rem;
+        grid-template-columns: 12ch auto;
+        padding: 0.3rem 1rem;
+    }
+
+    .dpadirectory-table td:first-child {
+        padding-top: 1.2rem;
+        grid-template-columns: 9ch auto;
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+
+    .dpadirectory-table td:last-child {
+        padding-bottom: 1.2rem;
+    }
+
+    .dpadirectory-table td::before {
+        content: attr(data-cell) ": ";
+        font-weight: 700;
+    }
+
+}

@@ -1,0 +1,9 @@
+{{- /*
+  Renders a table cell value: plain text (e.g. TBA) or a link with label + url.
+  Expects dict: label, url, text (only one style used).
+*/ -}}
+{{- if .url -}}
+<a href="{{ .url }}" target="_blank">{{ .label }}</a>
+{{- else -}}
+{{- .text -}}
+{{- end -}}

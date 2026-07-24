@@ -3,36 +3,15 @@ name: 🛠️ Build Website
 on:
   workflow_call:
     inputs:
-      config:
-        type: string
-        default: build
       ref:
         required: true
         type: string
       repo:
         required: true
         type: string
-      lang:
-        type: string
-        default: en
-      context:
-        type: string
-        default: deploy-preview
       continue-on-error:
         type: boolean
         default: true
-      privileged:
-        type: boolean
-        default: true
-      strict:
-        type: boolean
-        default: false
-      cache:
-        type: boolean
-        default: true
-    secrets:
-      MEMBERS_API_URL:
-        required: false
 
 permissions:
   contents: read
@@ -45,218 +24,31 @@ jobs:
       contents: read
 
     steps:
-      - name: Add GitHub Token to Environment
-        run: |
-          echo "GH_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> "$GITHUB_ENV"
-
-      - name: Set Metadata
-        if: inputs.config == 'build'
-        run: |
-          {
-            echo "BUILD_CONTEXT=${{ inputs.context }}"
-            echo "EXTRA_FLAGS=""$EXTRA_FLAGS" --production""
-          } >> "$GITHUB_ENV"
-
-      - name: Set base navigation URLs for production build
-        if: inputs.context == 'production'
-        run: |
-          {
-            echo "MAIN_SITE_BASE_URL=https://www.privacyguides.org/en/"
-            echo "MAIN_SITE_ABOUT_URL=https://www.privacyguides.org/en/about/"
-            echo "MAIN_SITE_RECOMMENDATIONS_URL=https://www.privacyguides.org/en/tools/"
-            echo "MAIN_SITE_KNOWLEDGE_BASE_URL=https://www.privacyguides.org/en/basics/why-privacy-matters/"
-            echo "ARTICLES_SITE_BASE_URL=https://www.privacyguides.org/posts/tag/articles/"
-            echo "VIDEOS_SITE_BASE_URL=https://www.privacyguides.org/videos/"
-            echo "NEWS_SITE_BASE_URL=https://www.privacyguides.org/news/"
-          } >> "$GITHUB_ENV"
-
-      - name: Set Metadata for Privileged Builds
-        if: inputs.privileged
-        run: |
-          echo "BUILD_INSIDERS=true" >> "$GITHUB_ENV"
-          echo "EXTRA_FLAGS=""$EXTRA_FLAGS" --insiders"" >> "$GITHUB_ENV"
-
-      - name: Set Metadata for International Builds
-        if: inputs.lang != 'en'
-        run: |
-          echo "GITREVISIONDATE=false" >> "$GITHUB_ENV"
-          echo "GITAUTHORS=false" >> "$GITHUB_ENV"
-
-      - name: Set Metadata for Offline Mode
-        if: inputs.config == 'offline'
-        run: |
-          {
-            echo "EXTRA_FLAGS=""$EXTRA_FLAGS" --offline""
-          } >> "$GITHUB_ENV"
-
-      - name: Set Metadata for Strict Mode
-        if: inputs.strict
-        run: |
-          echo "EXTRA_FLAGS=""$EXTRA_FLAGS" --cmd_flags=--strict"" >> "$GITHUB_ENV"
-
       - name: Download Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
         with:
           repository: ${{ inputs.repo }}
           ref: ${{ inputs.ref }}
           persist-credentials: "false"
           fetch-depth: 0
+          submodules: recursive
 
-      - name: Download Submodules
-        uses: actions/download-artifact@v4
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@2752ce1d29631191ea3f27c23495fa06139a5b78 # v3.2.1
         with:
-          pattern: repo-*
-          path: modules
-
-      - name: Move mkdocs-material-insiders to mkdocs-material
-        if: inputs.privileged
-        run: |
-          rmdir modules/mkdocs-material
-          mv modules/repo-mkdocs-material-insiders modules/mkdocs-material
-
-      - name: Move brand submodule to theme/assets/brand
-        run: |
-          rmdir theme/assets/brand
-          mv modules/repo-brand theme/assets/brand
-
-      - name: Copy Translation Files
-        if: inputs.lang != 'en'
-        run: |
-          cp -rl modules/repo-i18n/i18n .
-          cp -rl modules/repo-i18n/includes .
-
-      - name: Install Python (pipenv)
-        if: inputs.privileged
-        uses: actions/setup-python@v5
-        with:
-          cache: "pipenv"
-
-      - name: Install Python (no pipenv)
-        if: ${{ !inputs.privileged }}
-        uses: actions/setup-python@v5
-
-      - name: Restore Privacy Plugin Cache
-        uses: actions/cache/restore@v4
-        id: privacy_cache_restore
-        if: inputs.cache
-        with:
-          key: privacy-cache-${{ inputs.repo }}-${{ hashfiles('.cache/plugin/privacy/**') }}
-          path: |
-            .cache/plugin/privacy
-          restore-keys: |
-            privacy-cache-${{ inputs.repo }}-
-            privacy-cache-privacyguides/privacyguides.org-
-            privacy-cache-
-
-      - name: Restore Social Plugin Cache
-        uses: actions/cache/restore@v4
-        id: social_cache_restore
-        if: inputs.cache
-        with:
-          key: social-cache-${{ inputs.repo }}-${{ inputs.lang }}-${{ hashfiles('.cache/plugin/social/manifest.json') }}
-          path: |
-            .cache/plugin/social/manifest.json
-            .cache/plugin/social/assets
-          restore-keys: |
-            social-cache-${{ inputs.repo }}-${{ inputs.lang }}-
-            social-cache-privacyguides/privacyguides.org-${{ inputs.lang }}-
-
-      - name: Install Python Dependencies
-        if: inputs.privileged
-        run: |
-          pip install pipenv
-          pipenv install
-          sudo apt install pngquant
-
-      - name: Install Python Dependencies (Unprivileged)
-        if: ${{ !inputs.privileged }}
-        run: |
-          pip install mkdocs-material
-          sudo apt install pngquant
-          echo "EXTRA_FLAGS=""$EXTRA_FLAGS" --cmd=mkdocs"" >> "$GITHUB_ENV"
-
-      - name: Generate Donating Members List
-        env:
-          MEMBERS_API_URL: ${{ secrets.MEMBERS_API_URL }}
-        continue-on-error: true
-        run: |
-          pip install requests
-          python tools/generate-members.py > includes/members.md
+          hugo-version: 'latest'
 
       - name: Build Website
         run: |
-          eval ./run.sh --build --lang=${{ inputs.lang }} "$EXTRA_FLAGS"
-
-      - name: Run generate-topics.sh for top posts
-        if: inputs.lang == 'en'
-        run: |
-          bash tools/generate-topics.sh \
-            --source='https://discuss.privacyguides.net/top.json?period=weekly' \
-            --tag="top posts" \
-            --destination="./site/en/index.html" \
-            --count=3
-
-      - name: Run generate-topics.sh for latest posts
-        if: inputs.lang == 'en'
-        run: |
-          bash tools/generate-topics.sh \
-            --source='https://discuss.privacyguides.net/latest.json' \
-            --tag="latest posts" \
-            --destination="./site/en/index.html" \
-            --count=12
+          hugo
 
       - name: Package Website
         run: |
-          tar -czf site-${{ inputs.config }}-${{ inputs.lang }}.tar.gz site
-
-      - name: Find Privacy Plugin Cache
-        uses: actions/cache/restore@v4
-        if: steps.privacy_cache_restore.outputs.cache-hit != 'true' && inputs.cache
-        id: privacy_cache_test
-        with:
-          key: privacy-cache-privacyguides/privacyguides.org-${{ hashfiles('.cache/plugin/privacy/**') }}
-          lookup-only: true
-          path: |
-            .cache/plugin/privacy
-
-      - name: Find Social Plugin Cache
-        uses: actions/cache/restore@v4
-        if: steps.social_cache_restore.outputs.cache-hit != 'true' && inputs.cache
-        id: social_cache_test
-        with:
-          key: social-cache-privacyguides/privacyguides.org-${{ inputs.lang }}-${{ hashfiles('.cache/plugin/social/manifest.json') }}
-          lookup-only: true
-          path: |
-            .cache/plugin/social/manifest.json
-            .cache/plugin/social/assets
-
-      - name: Save Privacy Plugin Cache
-        uses: actions/cache/save@v4
-        if: steps.privacy_cache_test.outputs.cache-hit != 'true' && inputs.cache
-        with:
-          key: privacy-cache-${{ inputs.repo }}-${{ hashfiles('.cache/plugin/privacy/**') }}
-          path: .cache/plugin/privacy
-
-      - name: Save Social Plugin Cache
-        uses: actions/cache/save@v4
-        if: steps.social_cache_test.outputs.cache-hit != 'true' && inputs.cache
-        with:
-          key: social-cache-${{ inputs.repo }}-${{ inputs.lang }}-${{ hashfiles('.cache/plugin/social/manifest.json') }}
-          path: |
-            .cache/plugin/social/manifest.json
-            .cache/plugin/social/assets
+          tar -czf site-build.tar.gz public
 
       - name: Upload Site
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
-          name: site-${{ inputs.config }}-${{ inputs.lang }}.tar.gz
-          path: site-${{ inputs.config }}-${{ inputs.lang }}.tar.gz
-          retention-days: 1
-
-      - name: Upload members list
-        uses: actions/upload-artifact@v4
-        if: inputs.config == 'build' && inputs.lang == 'en'
-        with:
-          name: members.md
-          path: includes/members.md
+          name: site-build.tar.gz
+          path: site-build.tar.gz
           retention-days: 1

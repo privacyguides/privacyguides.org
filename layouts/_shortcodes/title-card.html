@@ -1,0 +1,8 @@
+{{- $logo := .Get "logo" -}}
+
+<div class="pg:title-card hx:last-of-type:mb-0 hx:rounded-lg hx:p-6 hx:mt-4 hx:group">
+  {{- with $logo -}}
+  <img loading="lazy" decoding="async" src="{{ $logo | safeURL }}" aria-hidden="true" width="100" height="100">
+  {{- end -}}
+  {{ .InnerDeindent | $.Page.RenderString (dict "display" "block") }}
+</div>

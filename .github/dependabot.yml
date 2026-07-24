@@ -1,0 +1,37 @@
+version: 2
+updates:
+  # Go modules (go.mod / go.sum) — Hugo module dependencies
+  - package-ecosystem: "gomod"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+    groups:
+      # Keep the Hextra theme module and any imfing-published companions together
+      imfing:
+        patterns:
+          - "github.com/imfing/*"
+
+  # Dev Container image and features (.devcontainer/devcontainer.json)
+  - package-ecosystem: "devcontainers"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+    groups:
+      # Coordinate the devcontainers org's base features as one PR
+      devcontainers-features:
+        patterns:
+          - "ghcr.io/devcontainers/*"
+
+  # GitHub Actions used across .github/workflows/*
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+    groups:
+      # Roll all action bumps into a single PR to cut noise
+      actions:
+        patterns:
+          - "*"

@@ -1,0 +1,35 @@
+# Oceania — DPA directory entries for this region.
+# Tables are rendered via {< dpa-directory-table region="oceania" >}.
+
+title: Oceania
+table_class: table-oceania
+caption: "Data Protection Authority Directory (Oceania)"
+entries:
+  - region: Australia
+    law:
+      name: "Privacy Act 1988"
+      url: https://www.legislation.gov.au/C2004A03712/latest/text
+    abbreviation: "Privacy Act"
+    dpa:
+      name: "Office of the Australian Information Commissioner (OAIC)"
+      url: https://www.oaic.gov.au
+    contact:
+      label: "Contact Page"
+      url: https://www.oaic.gov.au/contact-us
+    complaint:
+      label: "Complaint Link"
+      url: https://www.oaic.gov.au/privacy/privacy-complaints/lodge-a-privacy-complaint-with-us
+  - region: "New Zealand"
+    law:
+      name: "Privacy Act 2020"
+      url: https://www.privacy.org.nz/privacy-principles/
+    abbreviation: '-'
+    dpa:
+      name: "Office of the Privacy Commissioner (OPC)"
+      url: https://www.privacy.org.nz/
+    contact:
+      label: "Contact Page"
+      url: https://www.privacy.org.nz/tuhono-connect/contact-us/
+    complaint:
+      label: "Complaint Link"
+      url: https://www.privacy.org.nz/your-rights/making-a-complaint-to-the-privacy-commissioner/

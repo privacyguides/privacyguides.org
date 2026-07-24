@@ -1,0 +1,93 @@
+# Hugo configuration file
+title: Privacy Guides
+baseURL: https://wiki.privacyguides.org
+locale: en-US
+
+# temporarily ignore blog content
+ignoreFiles:
+  - "blog"
+
+# import hextra as module
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+markup:
+  # allow raw html
+  goldmark:
+    renderHooks:
+      link:
+        useEmbedded: always
+    renderer:
+      unsafe: true
+    parser:
+      attribute:
+        block: true
+        title: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: Search
+      weight: 10
+      params:
+        type: search
+    - name: Tools
+      pageRef: /tools
+      weight: 20
+    - name: Wiki
+      pageRef: /wiki
+      weight: 30
+    - name: Activism
+      pageRef: /activism
+      weight: 40
+    - name: Updates
+      url: "https://www.privacyguides.org/"
+      weight: 50
+    - name: Forum
+      url: "https://discuss.privacyguides.net"
+      weight: 60
+    - name: About
+      pageRef: /about
+      weight: 70
+    - name: Donate
+      weight: 80
+      pageRef: donate
+
+params:
+  navbar:
+    displayTitle: false
+    displayLogo: true
+    logo:
+      path: "brand/logos/svg/logo/privacy-guides-logo.svg"
+      dark: "brand/logos/svg/logo/privacy-guides-logo-dark.svg"
+      link: "/"
+      width: 185
+      height: 24
+  # Display the last modification date
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+  # Display the author of the last modification
+  displayUpdatedAuthor: false
+
+  footer:
+    displayCopyright: false
+    displayPoweredBy: false
+
+  editURL:
+    enable: true
+    base: "https://github.com/privacyguides/privacyguides.org/edit/main/content"
+
+  rss:
+    sections:
+      - docs
+
+enableGitInfo: true
+
+outputs:
+  home: [HTML, RSS, llms]
+  page: [HTML, markdown, RSS]
+  section: [HTML, RSS]

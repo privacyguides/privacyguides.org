@@ -1,0 +1,139 @@
+# Asia — DPA directory entries for this region.
+# Tables are rendered via {< dpa-directory-table region="asia" >}.
+
+title: Asia
+table_class: table-asia
+caption: "Data Protection Authority Directory (Asia)"
+entries:
+  - region: Bahrain
+    law:
+      name: "Personal Data Protection Law"
+      url: https://www.pdp.gov.bh/en/regulations.html
+    abbreviation: "Law No. (30)"
+    dpa:
+      name: "Personal Data Protection Authority (PDP)"
+      url: https://www.pdp.gov.bh/en/index.html
+    contact:
+      label: "Contact Page"
+      url: https://www.pdp.gov.bh/en/contact.html
+    complaint:
+      label: "Complaint Link"
+      url: https://www.pdp.gov.bh/en/assets/pdf/forms/Personal%20Data%20Complaint%20Submission%20Form.pdf
+  - region: "Hong Kong"
+    law:
+      name: "Personal Data (Privacy) Ordinance"
+      url: https://www.pcpd.org.hk/english/data_privacy_law/ordinance_at_a_Glance/ordinance.html
+    abbreviation: PDPO
+    dpa:
+      name: "Office of the Privacy Commissioner of Personal Data (PCPD)"
+      url: https://www.pcpd.org.hk/
+    contact:
+      label: "Contact Page"
+      url: https://www.pcpd.org.hk/english/contact_us/contact_us.html
+    complaint:
+      label: "Complaint Link"
+      url: https://www.pcpd.org.hk/english/complaints/how_complaint/complaint/complaint.html
+  - region: India
+    law:
+      name: "Digital Personal Data Protection Act, 2023"
+      url: https://egazette.gov.in/WriteReadData/2023/248045.pdf
+    abbreviation: "DPDP Act"
+    dpa:
+      name: "Data Protection Board of India (DPBI)"
+      url: https://en.wikipedia.org/wiki/Data_Protection_Board_of_India
+    contact: TBA
+    complaint: TBA
+  - region: Indonesia
+    law:
+      name: "Law No. 27 of 2022 on Personal Data Protection"
+      url: https://jdih.komdigi.go.id/produk_hukum/view/id/832/t/undangundang+nomor+27+tahun+2022
+    abbreviation: "PDP Law"
+    dpa:
+      name: "Personal Data Protection Agency"
+      url: https://en.wikipedia.org/wiki/Personal_Data_Protection_Authority
+    contact: TBA
+    complaint: TBA
+  - region: Japan
+    law:
+      name: "Act on the Protection of Personal Information"
+      url: https://www.japaneselawtranslation.go.jp/en/laws/view/4241/en
+    abbreviation: APPI
+    dpa:
+      name: "Personal Information Protection Commission Japan (PPC)"
+      url: https://www.ppc.go.jp/en/
+    contact:
+      label: "Contact Page"
+      url: https://www.ppc.go.jp/en/contactus/piinquiry/
+    complaint:
+      label: "Complaint Link"
+      url: https://www.ppc.go.jp/en/contactus/mnmediation/
+  - region: Malaysia
+    law:
+      name: "Personal Data Protection Act 2010 (Act 709)"
+      url: https://www.pdp.gov.my/ppdpv1/en/akta/pdp-act-2010-en/
+    abbreviation: APDP
+    dpa:
+      name: "Personal Data Protection Commissioner (PPDP)"
+      url: https://www.pdp.gov.my/ppdpv1/en/main-page/
+    contact:
+      label: "Contact Page"
+      url: https://www.pdp.gov.my/ppdpv1/en/ppdp-eng/
+    complaint:
+      label: "Complaint Link"
+      url: https://daftar.pdp.gov.my/p_aduan
+  - region: Singapore
+    law:
+      name: "Personal Data Protection Act"
+      url: https://www.pdpc.gov.sg/overview-of-pdpa/the-legislation/personal-data-protection-act
+    abbreviation: PDPA
+    dpa:
+      name: "Personal Data Protection Commission (PDPC)"
+      url: https://www.pdpc.gov.sg/
+    contact:
+      label: "Contact Page"
+      url: https://www.pdpc.gov.sg/contact-us
+    complaint:
+      label: "Complaint Link"
+      url: https://www.pdpc.gov.sg/complaints-and-reviews/report-a-personal-data-protection-concern
+  - region: "South Korea"
+    law:
+      name: "Personal Information Protection Act"
+      url: https://www.pipc.go.kr/eng/user/lgp/law/lawDetail.do
+    abbreviation: PIPA
+    dpa:
+      name: "Personal Information Protection Commission (PIPC)"
+      url: https://www.pipc.go.kr/eng/index.do
+    contact:
+      label: "Email Address"
+      url: mailto:contactpipc@korea.kr
+    complaint:
+      label: "Complaint Link"
+      url: https://www.privacy.go.kr/front/contents/cntntsView.do?contsNo=45
+  - region: Thailand
+    law:
+      name: "Personal Data Protection Act, B.E. 2562 (2019)"
+      url: https://www.pdpc.or.th/en/10455/
+    abbreviation: PDPA
+    dpa:
+      name: "Office of the Personal Data Protection Committee (PDPC)"
+      url: https://www.pdpc.or.th/en/home/
+    contact:
+      label: "Contact Page"
+      url: https://www.pdpc.or.th/contact-us/
+    complaint:
+      label: "Complaint Link"
+      url: https://complaint.pdpc.or.th/
+  - region: Turkey
+    law:
+      name: "Personal Data Protection Law"
+      url: https://www.kvkk.gov.tr/Icerik/6649/Personal-Data-Protection-Law
+    abbreviation: "Law No. 6698"
+    dpa:
+      name: "Personal Data Protection Authority"
+      url: https://www.kvkk.gov.tr/
+    contact:
+      label: "Contact Page"
+      url: https://www.kvkk.gov.tr/contact
+    complaint:
+      label: "Complaint Link"
+      url: https://sikayet.kvkk.gov.tr/

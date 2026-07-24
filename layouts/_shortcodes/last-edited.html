@@ -1,0 +1,11 @@
+<ul>
+  {{ $path := .Get 0 | default "/wiki/advanced" }}
+  {{ with site.GetPage $path }}
+    {{ range (.RegularPages.ByLastmod.Reverse | first 6) }}
+      <li>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <small> {{ .Lastmod.Format "Jan 2, 2006" }}</small>
+      </li>
+    {{ end }}
+  {{ end }}
+</ul>

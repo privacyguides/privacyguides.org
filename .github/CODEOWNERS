@@ -40,11 +40,6 @@ Dockerfile @jonaharagon
 /docs/financial-services.md @jonaharagon @SamsungGalaxyPlayer
 /docs/advanced/payments.md @jonaharagon @SamsungGalaxyPlayer
 
-# Activism
-
-/docs/activism.md @EmAtPrivacyGuides
-/docs/activism/ @EmAtPrivacyGuides
-
 # Blog authors
 
 /blog/.authors.yml @jonaharagon @dngray @freddy-m

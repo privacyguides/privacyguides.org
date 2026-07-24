@@ -1,0 +1,353 @@
+# North America — DPA directory entries for this region.
+# Tables are rendered via {< dpa-directory-table region="north-america" >}.
+
+title: "North America"
+table_class: table-northamerica
+caption: "Data Protection Authority Directory (North America)"
+entries:
+  - region: Canada
+    law:
+      name: "Personal Information Protection and Electronic Documents Act"
+      url: https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/
+    abbreviation: PIPEDA
+    dpa:
+      name: "Office of the Privacy Commissioner of Canada (OPC)"
+      url: https://www.priv.gc.ca
+    contact:
+      label: "Contact Page"
+      url: https://www.priv.gc.ca/en/contact-the-opc/contact-the-information-centre/
+    complaint:
+      label: "Complaint Link"
+      url: https://www.priv.gc.ca/en/report-a-concern/file-a-formal-privacy-complaint/
+  - region: "Canada (Alberta)"
+    law:
+      name: "Personal Information Protection Act"
+      url: https://kings-printer.alberta.ca/documents/Acts/P06P5.pdf
+    abbreviation: "PIPA (AB)"
+    dpa:
+      name: "Office of the Information and Privacy Commissioner of Alberta (OIPC)"
+      url: https://oipc.ab.ca/
+    contact:
+      label: "Contact Page"
+      url: https://oipc.ab.ca/about-us/contact-us/
+    complaint:
+      label: "Complaint Link"
+      url: https://oipc.ab.ca/privacy-correction-complaint/
+  - region: "Canada (British Columbia)"
+    law:
+      name: "Personal Information Protection Act"
+      url: https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/03063_01
+    abbreviation: "PIPA (BC)"
+    dpa:
+      name: "Office of the Information and Privacy Commissioner for British Columbia (OIPC)"
+      url: https://www.oipc.bc.ca/
+    contact:
+      label: "Contact Page"
+      url: https://www.oipc.bc.ca/about/contact-us/
+    complaint:
+      label: "Complaint Link"
+      url: https://www.oipc.bc.ca/for-the-public/how-do-i-make-a-complaint/
+  - region: "Canada (Québec)"
+    law:
+      name: "Loi modernisant des dispositions législatives en matière de protection des renseignements personnels dans le secteur privé"
+      url: https://www.cai.gouv.qc.ca/protection-renseignements-personnels/citoyens-protection-renseignements-personnels
+    abbreviation: "Loi 25 (Law 25)"
+    dpa:
+      name: "Commission d’accès à l’information du Québec (CIA)"
+      url: https://www.cai.gouv.qc.ca/
+    contact:
+      label: "Contact Page"
+      url: https://www.cai.gouv.qc.ca/commission-acces-information/nous-joindre
+    complaint:
+      label: "Complaint Link"
+      url: https://formulaire.cai.gouv.qc.ca/#ancreDebut
+  - region: "Costa Rica"
+    law:
+      name: "Ley de Protección de la Persona frente al tratamiento de sus datos personales Nº 8968"
+      url: https://pgrweb.go.cr/scij/Busqueda/Normativa/Normas/nrm_texto_completo.aspx?nValor1=1&nValor2=70975
+    abbreviation: "Ley No. 8968"
+    dpa:
+      name: "Agencia de Protección de Datos de los Habitantes (PRODHAB)"
+      url: https://www.prodhab.go.cr/
+    contact:
+      label: "Contact Page"
+      url: https://www.prodhab.go.cr/contactenos/index.aspx
+    complaint:
+      label: "Complaint Link"
+      url: https://www.prodhab.go.cr/tramites%20y%20servicios/Denuncias.aspx
+  - region: Mexico
+    law:
+      name: "Federal Law on the Protection of Personal Data Held by Private Parties"
+      url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf
+    abbreviation: LFPDPPP
+    dpa:
+      name: "Secretaría Anticorrupción y Buen Gobierno (SABG)"
+      url: https://www.gob.mx/buengobierno
+    contact: TBA
+    complaint: TBA
+  - region: "United States (California)"
+    law:
+      name: "California Consumer Privacy Act"
+      url: https://www.oag.ca.gov/privacy/ccpa
+    abbreviation: CCPA
+    dpa:
+      name: "California Privacy Protection Agency (CalPrivacy)"
+      url: https://cppa.ca.gov/
+    contact:
+      label: "Contact Page"
+      url: https://cppa.ca.gov/about_us/contact.html
+    complaint:
+      label: "Complaint Link"
+      url: https://www.cppa.ca.gov/webapplications/complaint
+  - region: "United States (Colorado)"
+    law:
+      name: "Colorado Privacy Act"
+      url: https://coag.gov/resources/colorado-privacy-act/
+    abbreviation: CPA
+    dpa:
+      name: "Office of the Colorado Attorney General (COAG)"
+      url: https://coag.gov/
+    contact:
+      label: "Contact Page"
+      url: https://coag.gov/resources/colorado-privacy-act/colorado-privacy-act-questions/
+    complaint:
+      label: "Complaint Link"
+      url: https://coag.gov/file-a-complaint/data-privacy-data-breach/
+  - region: "United States (Connecticut)"
+    law:
+      name: "Connecticut Data Privacy Act"
+      url: https://www.cga.ct.gov/2022/act/Pa/pdf/2022PA-00015-R00SB-00006-PA.PDF
+    abbreviation: CTDPA
+    dpa:
+      name: "Office of the Connecticut Attorney General"
+      url: https://portal.ct.gov/ag/sections/privacy/the-connecticut-data-privacy-act/
+    contact:
+      label: "Contact Page"
+      url: https://portal.ct.gov/ag/contact-the-attorney-generals-office/contact-the-attorney-generals-office
+    complaint:
+      label: "Complaint Link"
+      url: https://www.dir.ct.gov/ag/complaint/e-complaint.aspx
+  - region: "United States (Delaware)"
+    law:
+      name: "United States (Delaware)"
+      url: https://www.delcode.delaware.gov/title6/c012d/index.html
+    abbreviation: "DPDP Act"
+    dpa:
+      name: "Delaware Department of Justice"
+      url: https://attorneygeneral.delaware.gov/fraud/personal-data-privacy-portal/consumer/
+    contact:
+      label: "Email Address"
+      url: mailto:privacy@delaware.gov
+    complaint:
+      label: "Complaint Link"
+      url: https://attorneygeneral.delaware.gov/fraud/privacy-complaint-form/
+  - region: "United States (Indiana)"
+    law:
+      name: "Indiana Consumer Data Protection"
+      url: https://www.in.gov/attorneygeneral/files/Consumer_Data-Bill-of-Rights.pdf
+    abbreviation: "Indiana CDPA"
+    dpa:
+      name: "Office of the Indiana Attorney General"
+      url: https://www.in.gov/attorneygeneral/consumer-protection-division/
+    contact:
+      label: "Contact Page"
+      url: https://www.in.gov/attorneygeneral/contact-us/
+    complaint:
+      label: "Complaint Link"
+      url: https://inoag.my.site.com/CDPA/s/
+  - region: "United States (Iowa)"
+    law:
+      name: "Iowa Consumer Data Protection Act"
+      url: https://www.legis.iowa.gov/docs/publications/LGE/90/SF262.pdf
+    abbreviation: "Iowa CDPA"
+    dpa:
+      name: "Office of the Iowa Attorney General"
+      url: https://www.iowaattorneygeneral.gov/
+    contact:
+      label: "Contact Page"
+      url: https://www.iowaattorneygeneral.gov/for-consumers
+    complaint:
+      label: "Complaint Link"
+      url: https://www.iowaattorneygeneral.gov/for-consumers/file-a-consumer-complaint
+  - region: "United States (Kentucky)"
+    law:
+      name: "Kentucky Consumer Data Protection Act"
+      url: https://www.ag.ky.gov/about/Office-Divisions/ODP/KCDPA/Pages/default.aspx
+    abbreviation: KCDPA
+    dpa:
+      name: "Office of the Kentucky Attorney General (Office of Data Privacy)"
+      url: https://www.ag.ky.gov/about/Office-Divisions/ODP/Pages/default.aspx
+    contact:
+      label: "Contact Page"
+      url: https://www.ag.ky.gov/about/Office-Divisions/ODP/Pages/default.aspx
+    complaint:
+      label: "Complaint Link"
+      url: https://kyoag.highq.com/kyoag/renderSmartForm.action?formId=dc0f5031-93d0-4d3a-bfb0-e2bf5f5a782a
+  - region: "United States (Maryland)"
+    law:
+      name: "Maryland Online Data Privacy Act"
+      url: https://oag.maryland.gov/resources-info/Pages/data-privacy.aspx
+    abbreviation: MODPA
+    dpa:
+      name: "Office of the Maryland Attorney General"
+      url: https://oag.maryland.gov/Pages/oag.aspx
+    contact:
+      label: "Contact Page"
+      url: https://oag.maryland.gov/i-need-to/Pages/contact-information.aspx
+    complaint:
+      label: "Complaint Link"
+      url: https://oag.maryland.gov/i-need-to/Pages/business-complaints.aspx
+  - region: "United States (Minnesota)"
+    law:
+      name: "Minnesota Consumer Data Privacy Act"
+      url: https://www.ag.state.mn.us/Data-Privacy/Consumer/
+    abbreviation: MCDPA
+    dpa:
+      name: "Office of the Minnesota Attorney General"
+      url: https://www.ag.state.mn.us/Data-Privacy/
+    contact:
+      label: "Contact Page"
+      url: https://www.ag.state.mn.us/Data-Privacy/
+    complaint:
+      label: "Complaint Link"
+      url: https://www.ag.state.mn.us/Data-Privacy/Complaint/
+  - region: "United States (Montana)"
+    law:
+      name: "Montana Consumer Data Privacy Act"
+      url: https://dojmt.gov/office-of-consumer-protection/montana-consumer-data-privacy/
+    abbreviation: MCDPA
+    dpa:
+      name: "Montana Department of Justice (Office of Consumer Protection)"
+      url: https://dojmt.gov/office-of-consumer-protection
+    contact:
+      label: "Contact Page"
+      url: https://dojmt.gov/office-of-consumer-protection
+    complaint:
+      label: "Complaint Link"
+      url: https://dojmt.gov/office-of-consumer-protection/consumer-complaints/
+  - region: "United States (Nebraska)"
+    law:
+      name: "Nebraska Data Privacy Act"
+      url: https://protectthegoodlife.nebraska.gov/data-privacy-homepage
+    abbreviation: NDPA
+    dpa:
+      name: "Office of the Nebraska Attorney General"
+      url: https://ago.nebraska.gov/
+    contact:
+      label: "Contact Page"
+      url: https://protectthegoodlife.nebraska.gov/contact-us
+    complaint:
+      label: "Complaint Link"
+      url: https://ne.accessgov.com/ago/Forms/Page/ago/2efd1471-06a7-4cd1-9bd2-cc8fe4e37c02/eaa18f8a-30e7-48c7-b97b-eaabb1ab6ce8/1
+  - region: "United States (New Hampshire)"
+    law:
+      name: "New Hampshire Data Privacy Act"
+      url: https://www.doj.nh.gov/data-privacy-enforcement
+    abbreviation: NHDPA
+    dpa:
+      name: "Consumer Protection and Antitrust Bureau (Data Privacy Unit)"
+      url: https://www.doj.nh.gov/bureaus
+    contact:
+      label: "Contact Page"
+      url: https://www.doj.nh.gov/contact-us
+    complaint:
+      label: "Complaint Link"
+      url: https://www.doj.nh.gov/citizens/consumer-protection-antitrust-bureau/consumer-complaints
+  - region: "United States (New Jersey)"
+    law:
+      name: "New Jersey Data Protection Act"
+      url: https://www.njconsumeraffairs.gov/ocp/Pages/NJ-Data-Privacy-Law-FAQ.aspx
+    abbreviation: NJDPA
+    dpa:
+      name: "Office of the New Jersey Attorney General (Division of Consumer Affairs)"
+      url: https://www.njoag.gov/
+    contact:
+      label: "Contact Page"
+      url: https://www.njoag.gov/contact/office-of-constituent-services/
+    complaint:
+      label: "Complaint Link"
+      url: https://njconsumeraffairs.nj.gov/file-a-complaint/
+  - region: "United States (Oregon)"
+    law:
+      name: "Oregon Consumer Privacy Act"
+      url: https://www.doj.state.or.us/consumer-protection/id-theft-data-breaches/privacy/
+    abbreviation: OCPA
+    dpa:
+      name: "Oregon Department of Justice (DOJ)"
+      url: https://www.doj.state.or.us/consumer-protection/
+    contact:
+      label: "Contact Page"
+      url: https://www.doj.state.or.us/consumer-protection/contact-us/
+    complaint:
+      label: "Complaint Link"
+      url: https://app.smartsheetgov.com/b/form/02fff1dd26bd4dc19a7297e83012eb4e
+  - region: "United States (Rhode Island)"
+    law:
+      name: "Rhode Island Data Transparency and Privacy Protection Act"
+      url: https://webserver.rilegislature.gov/Statutes/TITLE6/6-48.1/INDEX.htm
+    abbreviation: RIDTPPA
+    dpa:
+      name: "Office of the Rhode Island Attorney General"
+      url: https://riag.ri.gov/
+    contact:
+      label: "Contact Page"
+      url: https://riag.ri.gov/about-our-office/contact-us
+    complaint:
+      label: "Complaint Link"
+      url: https://riag.ri.gov/forms/consumer-complaint
+  - region: "United States (Tennessee)"
+    law:
+      name: "Tennessee Information Protection Act"
+      url: https://www.tn.gov/attorneygeneral/news/2025/4/30/pr25-25.html
+    abbreviation: TIPA
+    dpa:
+      name: "Office of the Tennessee Attorney General (Division of Consumer Affairs)"
+      url: https://www.tn.gov/attorneygeneral/working-for-tennessee/consumer-affairs.html
+    contact:
+      label: "Contact Page"
+      url: https://www.tn.gov/attorneygeneral/working-for-tennessee/consumer/contact.html
+    complaint:
+      label: "Complaint Link"
+      url: https://agtnprod.powerappsportals.us/DCA/
+  - region: "United States (Texas)"
+    law:
+      name: "Texas Data Privacy and Security Act"
+      url: https://www.texasattorneygeneral.gov/consumer-protection/file-consumer-complaint/consumer-privacy-rights/texas-data-privacy-and-security-act
+    abbreviation: TDPSA
+    dpa:
+      name: "Office of the Texas Attorney General (Consumer Protection Division)"
+      url: https://www.texasattorneygeneral.gov/consumer-protection
+    contact:
+      label: "Contact Page"
+      url: https://www.texasattorneygeneral.gov/contact-us
+    complaint:
+      label: "Complaint Link"
+      url: https://consumerprotection.texasattorneygeneral.gov/consumercomplaintportal/s/
+  - region: "United States (Utah)"
+    law:
+      name: "Utah Consumer Privacy Act"
+      url: https://commerce.utah.gov/dcp/ucpa/
+    abbreviation: UCPA
+    dpa:
+      name: "Division of Consumer Protection"
+      url: https://commerce.utah.gov/dcp/
+    contact:
+      label: "Contact Page"
+      url: https://commerce.utah.gov/commerce-contact-list/
+    complaint:
+      label: "Complaint Link"
+      url: https://commerce.utah.gov/wp-content/uploads/2024/02/Data-Privacy-Complaint-Form-Final_2024-02-22-GM.pdf
+  - region: "United States (Virginia)"
+    law:
+      name: "Virginia Consumer Data Protection Act"
+      url: https://law.lis.virginia.gov/vacodefull/title59.1/chapter53/
+    abbreviation: VCDPA
+    dpa:
+      name: "Office of the Virginia Attorney General (OAG)"
+      url: https://www.oag.state.va.us/consumer-protection/
+    contact:
+      label: "Contact Page"
+      url: https://www.oag.state.va.us/consumer-protection/index.php/get-help/contact-us2
+    complaint:
+      label: "Complaint Link"
+      url: https://www.oag.state.va.us/consumer-protection/index.php/file-a-complaint

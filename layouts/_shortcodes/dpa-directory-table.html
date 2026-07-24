@@ -1,0 +1,55 @@
+{{- $regionID := .Get "region" -}}
+{{- $region := index site.Data.dpa_directory $regionID -}}
+{{- if not $region -}}
+  {{- errorf "dpa-directory-table: unknown region %q (valid: africa, asia, europe, north-america, oceania, south-america)" $regionID -}}
+{{- end -}}
+
+<div class="table-wrapper">
+<table role="table" class="dpadirectory-table {{ $region.table_class }}">
+<caption role="caption">{{ $region.caption }}</caption>
+<thead>
+  <tr role="row">
+    <th role="column">Region</th>
+    <th role="column" class="table-large-cell">Privacy Law</th>
+    <th role="column">Abbreviation</th>
+    <th role="column" class="table-large-cell">DPA</th>
+    <th role="column">Contact</th>
+    <th role="column">Complaint</th>
+  </tr>
+</thead>
+<tbody role="rowgroup">
+{{- range $region.entries }}
+  <tr role="row">
+    <td data-cell="Region" role="rowheader">
+      {{- if .region_bold }}<b>{{ end }}{{ .region }}{{ if .region_bold }}</b>{{ end }}
+    </td>
+    <td data-cell="Law" role="cell">
+      <a href="{{ .law.url }}" target="_blank">{{ .law.name }}</a>
+    </td>
+    <td data-cell="Abbreviation" role="cell">{{ .abbreviation }}</td>
+    <td data-cell="DPA" role="cell">
+      <a href="{{ .dpa.url }}" target="_blank">{{ .dpa.name }}</a>
+    </td>
+    <td data-cell="Contact" role="cell">
+      {{- if reflect.IsMap .contact -}}
+        {{- partial "dpa-directory/cell.html" .contact -}}
+      {{- else -}}
+        {{- .contact -}}
+      {{- end -}}
+    </td>
+    <td data-cell="Complaint" role="cell">
+      {{- if reflect.IsMap .complaint -}}
+        {{- partial "dpa-directory/cell.html" .complaint -}}
+      {{- else -}}
+        {{- .complaint -}}
+      {{- end -}}
+    </td>
+  </tr>
+{{- end }}
+</tbody>
+</table>
+</div>
+
+<p class="toolbox-button-top">
+<a href="https://github.com/privacyguides/privacyguides.org/edit/main/data/dpa_directory/{{ $regionID }}.yaml">Edit this table on GitHub →</a>
+</p>

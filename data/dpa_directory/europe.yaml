@@ -1,0 +1,540 @@
+# Europe — DPA directory entries for this region.
+# Tables are rendered via {< dpa-directory-table region="europe" >}.
+
+title: Europe
+table_class: table-europe
+caption: "Data Protection Authority Directory (Europe)"
+entries:
+  - region: "European Union"
+    region_bold: true
+    law:
+      name: "Regulation (EC) 2018/1725"
+      url: https://eur-lex.europa.eu/eli/reg/2018/1725/oj/eng/pdf
+    abbreviation: '-'
+    dpa:
+      name: "European Data Protection Supervisor (EDPS)"
+      url: https://www.edps.europa.eu/
+    contact:
+      label: "Contact Page"
+      url: https://www.edps.europa.eu/about-edps/contact_en
+    complaint:
+      label: "Complaint Link"
+      url: https://www.edps.europa.eu/data-protection/our-role-supervisor/complaints_en
+  - region: Austria
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Austrian Data Protection Authority (DSB)"
+      url: https://data-protection-authority.gv.at/data-protection-in-austria/duplikat-data-protection-in-austria
+    contact:
+      label: "Contact Page"
+      url: https://data-protection-authority.gv.at/
+    complaint:
+      label: "Complaint Link"
+      url: https://data-protection-authority.gv.at/data-protection-in-austria/right-to-lodge-a-complaint
+  - region: Belgium
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Belgian Data Protection Authority (APD-GBA)"
+      url: https://www.dataprotectionauthority.be/citizen
+    contact:
+      label: "Contact Page"
+      url: https://www.dataprotectionauthority.be/citizen/actions/contact
+    complaint:
+      label: "Complaint Link"
+      url: https://www.dataprotectionauthority.be/citizen/actions/lodge-a-complaint
+  - region: Bulgaria
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Commission for Personal Data Protection (CPDP)"
+      url: https://cpdp.bg/en/
+    contact:
+      label: "Contact Page"
+      url: https://cpdp.bg/en/contacts/
+    complaint:
+      label: "Complaint Link"
+      url: https://cpdp.bg/en/lodging-complaints-and-alerts/
+  - region: Croatia
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Croatian Personal Data Protection Agency (AZOP)"
+      url: https://azop.hr/naslovna-english/
+    contact:
+      label: "Contact Page"
+      url: https://azop.hr/contact/
+    complaint:
+      label: "Complaint Link"
+      url: https://azop.hr/how-to-lodge-a-complaint/
+  - region: Cyprus
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Commissioner for Personal Data Protection"
+      url: https://www.dataprotection.gov.cy/
+    contact:
+      label: "Contact Page"
+      url: https://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/contact_en/contact_en?opendocument
+    complaint:
+      label: "Complaint Link"
+      url: https://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/page1i_en/page1i_en?opendocument
+  - region: "Czech Republic"
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Office for Personal Data Protection (UOOU)"
+      url: https://uoou.gov.cz/en
+    contact:
+      label: "Contact Page"
+      url: https://uoou.gov.cz/en/consultation/contact
+    complaint:
+      label: "Complaint Link"
+      url: https://uoou.gov.cz/verejnost/stiznost-na-spravce-nebo-zpracovatele
+  - region: Denmark
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Danish Data Protection Agency"
+      url: https://www.datatilsynet.dk/english
+    contact:
+      label: "Contact Page"
+      url: https://www.datatilsynet.dk/english/contact-us
+    complaint:
+      label: "Complaint Link"
+      url: https://www.datatilsynet.dk/english/file-a-complaint
+  - region: Estonia
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Data Protection Inspectorate"
+      url: https://www.aki.ee/en
+    contact:
+      label: "Contact Page"
+      url: https://www.aki.ee/en/contact
+    complaint:
+      label: "Complaint Link"
+      url: https://www.aki.ee/meist/vota-uhendust/kaebus-isikuandmete-kaitse-asjas#saada-kaebus-isikuan--2
+  - region: Finland
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Office of the Data Protection Ombudsman"
+      url: https://tietosuoja.fi/en/home
+    contact:
+      label: "Contact Page"
+      url: https://tietosuoja.fi/en/contact-information
+    complaint:
+      label: "Complaint Link"
+      url: https://tietosuoja.fi/en/request-for-an-order-concerning-the-rights-of-the-data-subject
+  - region: France
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Commission Nationale de l’Informatique et des Libertés (CNIL)"
+      url: https://www.cnil.fr/en
+    contact:
+      label: "Contact Page"
+      url: https://www.cnil.fr/en/contact-us
+    complaint:
+      label: "Complaint Link"
+      url: https://www.cnil.fr/fr/plaintes
+  - region: Germany
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Federal Commissioner for Data Protection and Freedom of Information (BfDI)"
+      url: https://www.bfdi.bund.de/EN/Home/home_node.html
+    contact:
+      label: "Contact Page"
+      url: https://www.bfdi.bund.de/EN/Service/Kontakt/kontakt_node.html
+    complaint:
+      label: "Complaint Link"
+      url: https://www.bfdi.bund.de/DE/Service/Kontakt/Kontaktfinder/kontaktfinder_node.html
+  - region: Greece
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Hellenic Data Protection Authority (HDPA)"
+      url: https://www.dpa.gr/en
+    contact:
+      label: "Contact Page"
+      url: https://www.dpa.gr/en
+    complaint:
+      label: "Complaint Link"
+      url: https://www.dpa.gr/en/individuals/complaint-to-the-hellenic-dpa
+  - region: Hungary
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Hungarian National Authority for Data Protection and Freedom of Information (NAIH)"
+      url: https://www.naih.hu/about-the-authority
+    contact:
+      label: "Contact Page"
+      url: https://naih.hu/
+    complaint:
+      label: "Complaint Link"
+      url: https://www.naih.hu/adatkezeles-erintettjekent-fordulok-a-hatosaghoz/adatvedelmi-hatosagi-eljaras-gdpr
+  - region: Iceland
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Data Protection Authority"
+      url: https://island.is/en/o/the-data-protection-authority
+    contact:
+      label: "Contact Page"
+      url: https://island.is/en/o/the-data-protection-authority/general-enquiries-form
+    complaint:
+      label: "Complaint Link"
+      url: https://island.is/en/complaint-to-the-data-protection-authority
+  - region: Ireland
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Data Protection Commission (DPC)"
+      url: https://www.dataprotection.ie
+    contact:
+      label: "Contact Page"
+      url: https://www.dataprotection.ie/en/contact/how-contact-us
+    complaint:
+      label: "Complaint Link"
+      url: https://www.dataprotection.ie/en/individuals/exercising-your-rights/raising-concern-commission
+  - region: Italy
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Italian Data Protection Authority (GPDP)"
+      url: https://www.garanteprivacy.it/
+    contact:
+      label: "Contact Page"
+      url: https://www.garanteprivacy.it/web/garante-privacy-en
+    complaint:
+      label: "Complaint Link"
+      url: https://www.garanteprivacy.it/diritti/come-agire-per-tutelare-i-tuoi-dati-personali/reclamo
+  - region: Latvia
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Data State Inspectorate (DVI)"
+      url: https://www.dvi.gov.lv/en
+    contact:
+      label: "Contact Page"
+      url: https://www.dvi.gov.lv/en/contacts-authority
+    complaint:
+      label: "Complaint Link"
+      url: https://www.dvi.gov.lv/lv/iesniegumu-paraugi
+  - region: Liechtenstein
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: Datenschutzstelle
+      url: https://www.datenschutzstelle.li/
+    contact:
+      label: "Contact Page"
+      url: https://www.datenschutzstelle.li/ueber-uns
+    complaint:
+      label: "Complaint Link"
+      url: https://www.datenschutzstelle.li/services-und-downloads/formulare#Beschwerdeformular
+  - region: Lithuania
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "State Data Protection Inspectorate (VDAI)"
+      url: https://vdai.lrv.lt/en/
+    contact:
+      label: "Contact Page"
+      url: https://vdai.lrv.lt/en/structure-and-contacts/contacts-1/
+    complaint:
+      label: "Complaint Link"
+      url: https://vdai.lrv.lt/lt/veiklos-sritys-1/skundu-nagrinejimas/
+  - region: Luxembourg
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "National Commission for Data Protection (CNPD)"
+      url: https://cnpd.public.lu/en.html
+    contact:
+      label: "Contact Page"
+      url: https://cnpd.public.lu/en/support/contact/contact-prive.html
+    complaint:
+      label: "Complaint Link"
+      url: https://cnpd.public.lu/en/particuliers/faire-valoir/formulaire-plainte.html
+  - region: Malta
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Office of the Information and Data Protection Commissioner (IDPC)"
+      url: https://idpc.org.mt/
+    contact:
+      label: "Contact Page"
+      url: https://idpc.org.mt/contact/
+    complaint:
+      label: "Complaint Link"
+      url: https://idpc.org.mt/file-a-complaint/
+  - region: Netherlands
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Autoriteit Persoonsgegevens (AP)"
+      url: https://autoriteitpersoonsgegevens.nl/en
+    contact:
+      label: "Contact Page"
+      url: https://autoriteitpersoonsgegevens.nl/en/contact
+    complaint:
+      label: "Complaint Link"
+      url: https://autoriteitpersoonsgegevens.nl/en/submitting-a-tip-off-or-a-complaint-to-the-ap
+  - region: "North Macedonia"
+    law:
+      name: "Law on the Protection of Personal Data"
+      url: https://azlp.mk/wp-content/uploads/2022/12/lpdp_2020.pdf
+    abbreviation: '-'
+    dpa:
+      name: "Agency for the Protection of Personal Data (AZLP)"
+      url: https://azlp.mk/en/
+    contact:
+      label: "Contact Page"
+      url: https://azlp.mk/en/contact/
+    complaint:
+      label: "Complaint Link"
+      url: https://azlp.mk/en/citizens/directions/request-for-determination-of-violation-of-the-right-to-protection-of-personal-data/
+  - region: Norway
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: Datatilsynet
+      url: https://www.datatilsynet.no/
+    contact:
+      label: "Contact Page"
+      url: https://www.datatilsynet.no/om-datatilsynet/kontakt-oss/
+    complaint:
+      label: "Complaint Link"
+      url: https://www.datatilsynet.no/om-datatilsynet/kontakt-oss/klage-til-datatilsynet/
+  - region: Poland
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "President of Personal Data Protection Office (UODO)"
+      url: https://uodo.gov.pl/en
+    contact:
+      label: "Contact Page"
+      url: https://uodo.gov.pl/en/p/contact
+    complaint:
+      label: "Complaint Link"
+      url: https://uodo.gov.pl/en/681/1404
+  - region: Portugal
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Comissão Nacional de Proteção de Dados (CNPD)"
+      url: https://www.cnpd.pt/
+    contact:
+      label: "Contact Page"
+      url: https://www.cnpd.pt/cnpd/o-que-somos-e-quem-somos/
+    complaint:
+      label: "Complaint Link"
+      url: https://www.cnpd.pt/cidadaos/participacoes/
+  - region: Romania
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "National Supervisory Authority For Personal Data Processing (ANSPDCP)"
+      url: https://www.dataprotection.ro/index.jsp?page=home&lang=en
+    contact:
+      label: "Contact Page"
+      url: https://www.dataprotection.ro/index.jsp?page=contact&lang=en
+    complaint:
+      label: "Complaint Link"
+      url: https://www.dataprotection.ro/index.jsp?page=Plangeri_RGPD
+  - region: Serbia
+    law:
+      name: "Law on Personal Data Protection"
+      url: https://www.poverenik.rs/en/%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%B84/2970-%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD-%D0%BE-%D0%B7%D0%B0%D1%88%D1%82%D0%B8%D1%82%D0%B8-%D0%BF%D0%BE%D0%B4%D0%B0%D1%82%D0%B0%D0%BA%D0%B0-%D0%BE-%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D1%81%D0%BB-%D0%B3%D0%BB%D0%B0%D1%81%D0%BD%D0%B8%D0%BA-%D1%80%D1%81-%D0%B1%D1%80-87-2018-%D0%BE%D0%B4-13-11-2018.html
+    abbreviation: LPDP
+    dpa:
+      name: "Commissioner for Information of Public Importance and Personal Data Protection (Poverenik)"
+      url: https://www.poverenik.rs/en/
+    contact:
+      label: "Contact Page"
+      url: https://www.poverenik.rs/en/contact.html
+    complaint:
+      label: "Complaint Link"
+      url: https://www.poverenik.rs/en/data-protection/%D0%BA%D0%B0%D0%BA%D0%BE-%D0%BE%D1%81%D1%82%D0%B2%D0%B0%D1%80%D0%B8%D1%82%D0%B8-%D0%B7%D0%B0%D1%88%D1%82%D0%B8%D1%82%D1%83-%D0%BF%D1%80%D0%B0%D0%B2%D0%B02.html
+  - region: Slovakia
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Office for Personal Data Protection of the Slovak Republic (UOOU)"
+      url: https://dataprotection.gov.sk/en/
+    contact:
+      label: "Contact Page"
+      url: https://dataprotection.gov.sk/en/contact/
+    complaint:
+      label: "Complaint Link"
+      url: https://dataprotection.gov.sk/en/rights-data-subjects/proposal-initiate-proceedings-on-personal-data-protection/
+  - region: Slovenia
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Information Commissioner of the Republic of Slovenia (IP)"
+      url: https://www.ip-rs.si/en/
+    contact:
+      label: "Contact Page"
+      url: https://www.ip-rs.si/en/about/information-commissioner
+    complaint:
+      label: "Complaint Link"
+      url: https://www.ip-rs.si/en/data-protection/how-to-file-an-application
+  - region: Spain
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Spanish Agency for Data Protection (AEPD)"
+      url: https://www.aepd.es/en
+    contact:
+      label: "Contact Page"
+      url: https://www.aepd.es/la-agencia/donde-encontrarnos
+    complaint:
+      label: "Complaint Link"
+      url: https://sedeaepd.gob.es/sede-electronica/procedures/claims/claims-info
+  - region: "Spain (Andalusia)"
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Consejo de Transparencia y Protección de Datos de Andalucía (CTPDA)"
+      url: https://www.ctpdandalucia.es/
+    contact:
+      label: "Contact Page"
+      url: https://www.ctpdandalucia.es/contacto
+    complaint:
+      label: "Complaint Link"
+      url: https://www.ctpdandalucia.es/area-de-proteccion-de-datos/reclamaciones-ante-el-consejo-por-vulneracion-la-normativa-proteccion-datos-personales
+  - region: "Spain (Basque)"
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Datuak Babesteko Euskal Bulegoa (DBEB)"
+      url: https://www.avpd.eus/inicio/
+    contact:
+      label: "Contact Page"
+      url: https://www.avpd.eus/webavpd00-content/es/contenidos/informacion/contacto/es_9493/index.shtml
+    complaint:
+      label: "Complaint Link"
+      url: https://www.avpd.eus/modelos-para-el-ejercicio-de-derechos-y-modelos-de-reclamaciones/webavpd00-content/es/
+  - region: "Spain (Catalonia)"
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Catalan Data Protection Authority (APDCAT)"
+      url: https://www.apdcat.cat/en
+    contact:
+      label: "Contact Page"
+      url: https://www.apdcat.cat/en/formulari-contacte
+    complaint:
+      label: "Complaint Link"
+      url: https://www.apdcat.cat/en/persones/reclama-i-denuncia
+  - region: Sweden
+    law:
+      name: "General Data Protection Regulation"
+      url: https://gdpr-info.eu/
+    abbreviation: GDPR
+    dpa:
+      name: "Swedish Authority for Privacy Protection (IMY)"
+      url: https://www.imy.se/en/
+    contact:
+      label: "Contact Page"
+      url: https://www.imy.se/en/about-us/contact-us/
+    complaint:
+      label: "Complaint Link"
+      url: https://www.imy.se/en/individuals/forms-and-e-services/file-a-gdpr-complaint/
+  - region: Switzerland
+    law:
+      name: "Federal Act on Data Protection"
+      url: https://www.fedlex.admin.ch/eli/cc/2022/491/en
+    abbreviation: FADP
+    dpa:
+      name: "Federal Data Protection and Information Commissioner (FDPIC)"
+      url: https://www.edoeb.admin.ch
+    contact:
+      label: "Contact Page"
+      url: https://www.edoeb.admin.ch/en/contact-2
+    complaint:
+      label: "Complaint Link"
+      url: https://www.edoeb.admin.ch/en/submitting-a-complaint
+  - region: "United Kingdom"
+    law:
+      name: "UK General Data Protection Regulation"
+      url: https://www.legislation.gov.uk/eur/2016/679/contents
+    abbreviation: "UK GDPR"
+    dpa:
+      name: "Information Commissioner's Office (ICO)"
+      url: https://ico.org.uk/
+    contact:
+      label: "Contact Page"
+      url: https://ico.org.uk/global/contact-us/contact-us-public/
+    complaint:
+      label: "Complaint Link"
+      url: https://ico.org.uk/make-a-complaint/data-protection-complaints/

@@ -1,0 +1,199 @@
+<script>
+(() => {
+  const redirectCache = new Map();
+
+  const forceNavigatePaths = new Set([]);
+
+  function normalizePathname(pathname) {
+    const normalized = pathname.replace(/\/+$/, '');
+    return normalized || '/';
+  }
+
+  function urlsReferToSamePage(firstUrl, secondUrl) {
+    const first = new URL(firstUrl, location.href);
+    const second = new URL(secondUrl, location.href);
+
+    return (
+      first.origin === second.origin &&
+      normalizePathname(first.pathname) ===
+        normalizePathname(second.pathname) &&
+      first.search === second.search
+    );
+  }
+
+  function getMetaRefreshDestination(documentCopy, sourceUrl) {
+    const refresh = documentCopy.querySelector(
+      'meta[http-equiv="refresh" i]'
+    );
+
+    if (!refresh) return null;
+
+    const content = refresh.getAttribute('content') || '';
+    const match = content.match(
+      /^\s*\d+(?:\.\d+)?\s*;\s*url\s*=\s*(.+?)\s*$/i
+    );
+
+    if (!match) return null;
+
+    const destination = match[1]
+      .trim()
+      .replace(/^(['"])(.*)\1$/, '$2');
+
+    try {
+      return new URL(destination, sourceUrl).href;
+    } catch {
+      return null;
+    }
+  }
+
+  async function redirectsToAnotherPage(href) {
+    const requestedUrl = new URL(href, location.href);
+    const cacheKey = requestedUrl.href;
+
+    if (redirectCache.has(cacheKey)) {
+      return redirectCache.get(cacheKey);
+    }
+
+    const checkPromise = (async () => {
+      try {
+        const response = await fetch(requestedUrl.href, {
+          method: 'GET',
+          redirect: 'follow',
+          credentials: 'same-origin',
+          cache: 'force-cache'
+        });
+
+        /*
+         * Detect ordinary HTTP redirects while ignoring redirects that
+         * only add or remove a trailing slash.
+         */
+        if (
+          response.redirected &&
+          !urlsReferToSamePage(requestedUrl.href, response.url)
+        ) {
+          return true;
+        }
+
+        /*
+         * Some static-site generators implement redirects using an HTML
+         * meta-refresh page rather than an HTTP redirect.
+         */
+        const contentType =
+          response.headers.get('content-type') || '';
+
+        if (!contentType.includes('text/html')) {
+          return false;
+        }
+
+        const html = await response.text();
+        const documentCopy = new DOMParser().parseFromString(
+          html,
+          'text/html'
+        );
+
+        const destination = getMetaRefreshDestination(
+          documentCopy,
+          requestedUrl.href
+        );
+
+        return (
+          destination !== null &&
+          !urlsReferToSamePage(requestedUrl.href, destination)
+        );
+      } catch (error) {
+        console.warn(
+          `Could not check whether ${requestedUrl.href} redirects:`,
+          error
+        );
+
+        /*
+         * Preserve normal navigation when detection fails.
+         */
+        return false;
+      }
+    })();
+
+    redirectCache.set(cacheKey, checkPromise);
+    return checkPromise;
+  }
+
+  document.addEventListener(
+    'click',
+    async (event) => {
+      if (!(event.target instanceof Element)) return;
+
+      /*
+       * Preserve middle-clicks and modifier-clicks so users can still
+       * open links in new tabs or windows.
+       */
+      if (
+        event.button !== 0 ||
+        event.ctrlKey ||
+        event.metaKey ||
+        event.shiftKey ||
+        event.altKey
+      ) {
+        return;
+      }
+
+      const link = event.target.closest(
+        '.hextra-sidebar-container a[href]'
+      );
+
+      if (!link) return;
+
+      const linkUrl = new URL(link.href, location.href);
+
+      /*
+       * Do not alter external links.
+       */
+      if (linkUrl.origin !== location.origin) return;
+
+      const row = link.parentElement;
+
+      const toggleButton = row?.querySelector(
+        '.hextra-sidebar-collapsible-button'
+      );
+
+      /*
+       * Links without a collapsible arrow are ordinary page links.
+       */
+      if (!toggleButton) return;
+
+      /*
+       * Explicitly allow known section pages to navigate normally.
+       */
+      if (
+        forceNavigatePaths.has(
+          normalizePathname(linkUrl.pathname)
+        )
+      ) {
+        return;
+      }
+
+      /*
+       * Temporarily prevent navigation while checking whether this is a
+       * redirect-only section link or a real page.
+       */
+      event.preventDefault();
+      event.stopPropagation();
+      event.stopImmediatePropagation();
+
+      const isRedirect = await redirectsToAnotherPage(linkUrl.href);
+
+      if (isRedirect) {
+        /*
+         * Reuse Hextra's existing collapsible-sidebar behavior.
+         */
+        toggleButton.click();
+      } else {
+        /*
+         * This section has its own page, so navigate to it normally.
+         */
+        location.assign(linkUrl.href);
+      }
+    },
+    true
+  );
+})();
+</script>

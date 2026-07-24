@@ -1,0 +1,77 @@
+# South America — DPA directory entries for this region.
+# Tables are rendered via {< dpa-directory-table region="south-america" >}.
+
+title: "South America"
+table_class: table-southamerica
+caption: "Data Protection Authority Directory (South America)"
+entries:
+  - region: Argentina
+    law:
+      name: "Personal Data Protection Law"
+      url: https://www.argentina.gob.ar/normativa/nacional/ley-25326-64790/actualizacion
+    abbreviation: "Law 25.326"
+    dpa:
+      name: "Agencia de Acceso a la Información Pública (AAIP)"
+      url: https://www.argentina.gob.ar/aaip
+    contact:
+      label: "Contact Page"
+      url: https://www.argentina.gob.ar/aaip/datospersonales
+    complaint:
+      label: "Complaint Link"
+      url: https://www.argentina.gob.ar/servicio/denunciar-incumplimientos-de-la-ley-de-proteccion-de-datos-personales
+  - region: Brazil
+    law:
+      name: "Lei Geral de Proteção de Dados (General Personal Data Protection Law)"
+      url: https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia_senacon_ingles.pdf
+    abbreviation: LGPD
+    dpa:
+      name: "Autoridade Nacional de Proteção de Dados (ANPD)"
+      url: https://www.gov.br/anpd/
+    contact:
+      label: "Contact Page"
+      url: https://www.gov.br/anpd/pt-br/canais_atendimento/fale-conosco
+    complaint:
+      label: "Complaint Link"
+      url: https://www.gov.br/anpd/pt-br/canais_atendimento/cidadao-titular-de-dados/denuncia-peticao-de-titular
+  - region: Colombia
+    law:
+      name: "Law 1581 of 2012"
+      url: https://sedeelectronica.sic.gov.co/transparencia/normativa/ley-estatutaria-1581-de-2012
+    abbreviation: "Law 1581"
+    dpa:
+      name: "Deputy Superintendence for Personal Data Protection of the Superintendence of Industry and Commerce (SIC)"
+      url: https://www.sic.gov.co/tema/proteccion-de-datos-personales
+    contact:
+      label: "Contact Page"
+      url: https://www.sic.gov.co/tema/proteccion-de-datos-personales/que-hacemos
+    complaint:
+      label: "Complaint Link"
+      url: https://servicioslinea.sic.gov.co/servilinea/pqrsf/
+  - region: Peru
+    law:
+      name: "Ley de Protección de Datos Personales 29733"
+      url: https://www.gob.pe/institucion/anpd/normas-legales/2018427-29733-2011
+    abbreviation: "Ley No. 29733"
+    dpa:
+      name: "Autoridad Nacional de Protección de Datos Personales (ANPD)"
+      url: https://www.gob.pe/institucion/anpd/organizacion
+    contact:
+      label: "Contact Page"
+      url: https://www.gob.pe/institucion/anpd/contacto-y-numeros-de-emergencias
+    complaint:
+      label: "Complaint Link"
+      url: https://www.gob.pe/9271-denunciar-el-mal-uso-de-datos-personales
+  - region: Uruguay
+    law:
+      name: "Ley de Proteccion de Datos Personales"
+      url: https://www.impo.com.uy/bases/leyes/18331-2008
+    abbreviation: "Law 18.331"
+    dpa:
+      name: "Unidad Reguladora y de Control de Datos Personales (URCDP)"
+      url: https://www.gub.uy/unidad-reguladora-control-datos-personales/
+    contact:
+      label: "Contact Page"
+      url: https://www.gub.uy/unidad-reguladora-control-datos-personales/institucional/contacto
+    complaint:
+      label: "Complaint Link"
+      url: https://www.gub.uy/tramites/denuncias-unidad-reguladora-control-datos-personales-urcdp

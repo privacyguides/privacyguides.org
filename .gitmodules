@@ -1,6 +1,3 @@
-[submodule "theme/assets/brand"]
-	path = theme/assets/brand
-	url = https://github.com/privacyguides/brand.git
-[submodule "modules/mkdocs-material"]
-	path = modules/mkdocs-material
-	url = https://github.com/privacyguides/mkdocs-material-insiders.git
+[submodule "static/brand"]
+	path = static/brand
+	url = https://github.com/privacyguides/brand
