@@ -105,7 +105,7 @@ aliases:
   {{< hextra/feature-card
     title="Newsletter"
     subtitle="Subscribe to our newsletter and never miss an update on the latest in the consumer digital privacy world."
-    link="#/portal"
+    link="https://www.privacyguides.org/#/portal"
     icon="mail-open"
   >}}
   {{< hextra/feature-card

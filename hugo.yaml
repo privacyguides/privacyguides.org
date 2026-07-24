@@ -11,17 +11,6 @@ ignoreFiles:
 module:
   imports:
     - path: github.com/imfing/hextra
-  # mounts:
-  # - source: content
-  #   target: content
-  # - source: prebuild/public/articles
-  #   target: content/articles
-  # - source: prebuild/public/livestreams
-  #   target: content/livestreams
-  # - source: prebuild/public/news
-  #   target: content/news
-  # - source: prebuild/public/videos
-  #   target: content/videos
 
 markup:
   # allow raw html
@@ -56,8 +45,8 @@ menu:
       pageRef: /activism
       weight: 40
     - name: Updates
+      url: "https://www.privacyguides.org/"
       weight: 50
-      pageRef: /news
     - name: Forum
       url: "https://discuss.privacyguides.net"
       weight: 60
