@@ -28,8 +28,7 @@ MAGIC Grants is our fiscal host, and their custom, open-source donation platform
 
     <div class="mdx-specialthanks" markdown>
 
-    [![Power Up Privacy]](https://powerupprivacy.com){ target=_blank title="Power Up Privacy" }
-    [![DeleteMe]](https://joindeleteme.com){ target=_blank title="DeleteMe" }
+    ![Power Up Privacy]{ title="Power Up Privacy" }
     [![Cape]](https://www.cape.co){ target=_blank title="Cape" }
 
       [Power Up Privacy]: ../assets/img/donors/power-up-privacy.webp
@@ -43,6 +42,7 @@ MAGIC Grants is our fiscal host, and their custom, open-source donation platform
     Thank you to these organizations who have substantially supported our project in the past.
 
     - [Safing](https://safing.io){ rel=nofollow target=_blank }: 2019 – 2021
+    - [DeleteMe](https://joindeleteme.com){ rel=nofollow target=_blank }: 2025
 
 ## Active Members
 
