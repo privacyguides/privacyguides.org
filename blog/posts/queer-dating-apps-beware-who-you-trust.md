@@ -125,7 +125,7 @@ Continuing this horrifying trend, Match Group has announced this spring they are
 
 If having to scan your official ID to continue using Tinder is *bad*, having to scan your eyeball from a questionable third party app is even *worse*.
 
-This practice will start for Tinder in Japan, but it's likely the verification process could be expanded to all users of Match Group apps in the near future.  Soon, the only way to avoid having to share biometric data with the World App to continue using your favorite dating app could be to leave the app entirely.
+This practice will start for Tinder in Japan, but it's likely the verification process could be expanded to all users of Match Group apps in the near future. Soon, the only way to avoid having to share biometric data with the World App to continue using your favorite dating app could be to leave the app entirely.
 
 #### Payment information
 
