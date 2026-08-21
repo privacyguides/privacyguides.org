@@ -614,6 +614,12 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
 
 /*********** Activism Section ***********/
 
+/* Activism Button Colors*/
+.dpadirectory-bg {
+    background-color: #7dbd5b;
+    color: #2d2d2d !important;
+}
+
 /* Toolbox Color Variables */
 :root {
   --color-toolbox: #21bddc;
@@ -830,4 +836,231 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
   position: absolute;
   bottom: .75em;
   width: 2rem;
+}
+
+/* DPA Directory */
+.table-wrapper {
+    width: min(900px, 100% -3rem);
+    margin-inline: auto;
+}
+
+.dpadirectory-table {
+    padding: 1rem;
+    border-collapse: collapse;
+    width: 100%;
+    line-height: 1.05rem;
+    table-layout: fixed;
+    width: 100%;   
+    overflow-wrap: normal;
+    table-layout: fixed; 
+}
+
+/* Column Width - Region */
+.dpadirectory-table th:first-child {
+    min-width: 110px;
+    width: 110px; 
+}
+
+/* Column Width - Law */
+.dpadirectory-table th:nth-child(2) {
+    min-width: 140px;
+    width: 140px; 
+}
+
+/* Column Width - Abbreviation */
+.dpadirectory-table th:nth-child(3) {
+    min-width: 100px;
+    width: 100px; 
+}
+
+/* Column Width - DPA */
+.dpadirectory-table th:nth-child(4) {
+    min-width: 150px;
+    width: 150px; 
+}
+
+/* Column Width - Contact */
+.dpadirectory-table th:nth-child(5) {
+    min-width: 85px;
+    width: 85px; 
+}
+
+/* Column Width - Complaint */
+.dpadirectory-table th:nth-child(6) {
+    min-width: 110px;
+    width: 110px; 
+}
+
+.dpadirectory-table caption, th, td {
+    padding: 0.8rem;
+    font-size: 0.65rem;
+    text-align: left;
+}
+
+.dpadirectory-table caption, th {
+    font-weight: 700;
+}
+
+.dpadirectory-table caption {
+    text-transform: uppercase;
+    color: #000000 !important;
+    overflow: hidden;
+    background: #7dbd5b;
+    border-radius: 5px 5px 0 0;
+}
+
+.dpadirectory-table th {
+    border-bottom: 3px solid var(--md-default-fg-color--light);
+}
+
+.dpadirectory-table tr {
+    background: var(--md-default-bg-color--light);
+}
+
+.dpadirectory-table tr:nth-of-type(2n) {
+    background: hsl(0 0% 0% / 0.03);
+}
+
+.dpadirectory-table tr {
+    border: 3px solid transparent;
+    border-bottom: 0.5px solid var(--md-default-fg-color--light);
+}
+
+.dpadirectory-table tr:hover {
+    border: 3px solid var(--md-default-fg-color--light);
+}
+
+.dpadirectory-table td {
+    padding: 0.8rem;
+}
+
+.dpadirectory-contact-cell hr {
+    margin: 0.3rem;
+    max-width: 100%;
+    margin-left:0;
+}
+
+/* Table Colors Per Region */
+:root {
+    --color-dpadirectory-africa: #ffe26e;
+    --color-dpadirectory-asia: #91d16f;
+    --color-dpadirectory-europe: #7fbcfc;
+    --color-dpadirectory-northamerica: #ff8f75;
+    --color-dpadirectory-oceania: #c394de;
+    --color-dpadirectory-southamerica: #fcb249;
+}
+
+.table-africa caption {
+    background: var(--color-dpadirectory-africa);
+}
+
+.table-africa tbody {
+    border-bottom: 3px solid var(--color-dpadirectory-africa);
+}
+
+.table-asia caption {
+    background: var(--color-dpadirectory-asia);
+}
+
+.table-asia tbody {
+    border-bottom: 3px solid var(--color-dpadirectory-asia);
+}
+
+.table-europe caption {
+    background: var(--color-dpadirectory-europe);
+}
+
+.table-europe tbody {
+    border-bottom: 3px solid var(--color-dpadirectory-europe);
+}
+
+.table-northamerica caption {
+    background: var(--color-dpadirectory-northamerica);
+}
+
+.table-northamerica tbody {
+    border-bottom: 3px solid var(--color-dpadirectory-northamerica);
+}
+
+.table-oceania caption {
+    background: var(--color-dpadirectory-oceania);
+}
+
+.table-oceania tbody {
+    border-bottom: 3px solid var(--color-dpadirectory-oceania);
+}
+
+.table-southamerica caption {
+    background: var(--color-dpadirectory-southamerica);
+}
+
+.table-southamerica tbody {
+    border-bottom: 3px solid var(--color-dpadirectory-southamerica);
+}
+
+/* DPA Directory Buttons */
+.dpadirectory-button {
+    color: #000000 !important;
+}
+
+.dpadirectory-button-africa {
+    background-color: var(--color-dpadirectory-africa);
+}
+
+.dpadirectory-button-asia {
+    background-color: var(--color-dpadirectory-asia);
+}
+
+.dpadirectory-button-europe {
+    background-color: var(--color-dpadirectory-europe);
+}
+
+.dpadirectory-button-northamerica {
+    background-color: var(--color-dpadirectory-northamerica);
+}
+
+.dpadirectory-button-oceania {
+    background-color: var(--color-dpadirectory-oceania);
+}
+
+.dpadirectory-button-southamerica {
+    background-color: var(--color-dpadirectory-southamerica);
+}
+
+
+
+
+
+
+
+
+    
+@media (max-width: 650px) {
+    .dpadirectory-table th {
+        display: none;
+    }
+
+    .dpadirectory-table td {
+        display: grid;
+        gap: 0.5rem;
+        grid-template-columns: 12ch auto;
+        padding: 0.3rem 1rem;
+    }
+
+    .dpadirectory-table td:first-child {
+        padding-top: 1.2rem;
+        grid-template-columns: 9ch auto;
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+
+    .dpadirectory-table td:last-child {
+        padding-bottom: 1.2rem;
+    }
+
+    .dpadirectory-table td::before {
+        content: attr(data-cell) ": ";
+        font-weight: 700;
+    }
+
 }

@@ -158,7 +158,7 @@ Here are a few privacy-focused tools and services that can help you to organize 
 
 :video_camera: Use it to share videos with your community free from *YouTube*'s control.
 
-[:octicons-home-16: Homepage](../../social-networks.md#peertube){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://joinpeertube.org/){ .md-button .md-button--primary }
 
 </div>
 
