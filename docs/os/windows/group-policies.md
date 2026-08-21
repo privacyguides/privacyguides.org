@@ -132,11 +132,11 @@ This last setting disables OneDrive on your system; make sure to change it to **
 <div class="admonition info" markdown>
 <p class="admonition-title">Windows Recall</p>
 
-Windows 11 recently introduced a feature called **Recall**, which records all your activity and creates a searchable archive of that activity history. This is a massive privacy vulnerability, because those archives can potentially store highly sensitive information (essentially anything displayed on your screen), and can be trivially accessed by local administrators or malicious actors with user-level access to your device.
+Windows 11 recently introduced a feature called **Recall**, which records all your activity and creates a searchable archive of that activity history. This is a massive privacy vulnerability, because those archives can potentially store highly sensitive information (essentially anything displayed on your screen).
 
 </div>
 
-- Turn off saving snapshots of Windows: **Enabled**
+- Turn off saving snapshots for use with Recall: **Enabled**
 
 #### Windows Error Reporting
 
