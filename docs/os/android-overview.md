@@ -177,7 +177,7 @@ As for Google Wallet, we don't recommend this due to their [privacy policy](http
 
 Apple has released [RCS E2EE support](https://support.apple.com/en-us/104972#:~:text=rates%20might%20apply.-,RCS) for their default Messages app now as well, so depending on if their [carrier](https://support.apple.com/en-us/109526) supports it, you can get E2EE messaging between Android and iOS.
 
-Google Messages requires [Play Services](https://grapheneos.org/usage#sandboxed-google-play) in order to work, so if you're on GrapheneOS and already have Sandboxed Play Services installed, Google Messages is a good choice for a default messaging app. Google Messages is already the default messaging app on the stock Pixel operating system.
+Google Messages requires Google Play services in order to work, so if you're on GrapheneOS and already have [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play) installed, Google Messages is a good choice for a default messaging app. Google Messages is already the default messaging app on the stock Pixel operating system.
 
 Google Messages uses federated learning for privacy-preserving telemetry. You can turn this off by tapping the profile in the top right → **Messages settings** → **Help Improve Messages** and toggling it off. 
 
