@@ -173,28 +173,11 @@ As for Google Wallet, we don't recommend this due to their [privacy policy](http
 
 ### Google Messages
 
-Google is currently pushing for the adoption of [RCS with end to end encryption](https://support.google.com/messages/answer/10262381?hl=en) to compete with iMessage. On certain Android devices, especially Google Pixels with stock OS, [Google Messages](https://messages.google.com/) is set as the default SMS app to provide this feature.
+[Google Messages](https://www.android.com/google-messages/) supports [end-to-end encrypted messaging](https://support.google.com/messages/answer/10262381?hl=en) via RCS by default. When you text other Google Messages users, your chats will automatically use E2EE and you won't have to do anything.
 
-If you are on an OS with Play Services installed, we recommend that you use Google Messages as the SMS app to get opportunistic end to end encryption with your contacts. It works fairly well on GrapheneOS with Sandboxed Play Services, too.
+Apple has released [RCS E2EE support](https://support.apple.com/en-us/104972#:~:text=rates%20might%20apply.-,RCS) for their default Messages app now as well, so depending on if their [carrier](https://support.apple.com/en-us/109526) supports it, you can get E2EE messaging between Android and iOS.
 
-You can disable telemetry in Google Messages by tapping the profile in the top right → **Messages settings** → **Help Improve Messages** and toggling it off. There are also some other configurations in **Messages settings** → **RCS chats** that you might want to go over, such as **Show typing indicators** or **Send read receipts**.
+Google Messages requires [Play Services](https://grapheneos.org/usage#sandboxed-google-play) in order to work, so if you're on GrapheneOS and already have Sandboxed Play Services installed, Google Messages is a good choice for a default messaging app. Google Messages is already the default messaging app on the stock Pixel operating system.
 
-If you have trouble connecting to RCS, try disabling your VPN and the VPN killswitch first, then reconnect to RCS. Once you have connected to the server, you can re-enable your VPN and the killswitch, and it should work just fine across reboots.
+Google Messages uses federated learning for privacy-preserving telemetry. You can turn this off by tapping the profile in the top right → **Messages settings** → **Help Improve Messages** and toggling it off. 
 
-### Google Fi
-
-Google Fi, only available for US residents, provides [opportunistic end-to-end encryption](https://fi.google.com/about/end-to-end-encrypted-calls) for phone calls between Fi users on Android and [includes a VPN service](https://support.google.com/fi/answer/9040000). Fi also implements a unique privacy-bolstering [virtual carrier network](https://www.gstatic.com/fi/wormhole/whitepaper-a00cc4732620f382da5b7aac2bcb6905f970ba6b.pdf) (VCN) architecture on supported devices, but it is [temporarily disabled](https://support.google.com/fi/answer/9040000).
-
-This is not without its caveats:
-
-- Google Fi requires Play Services and the [Fi app](https://play.google.com/store/apps/details?id=com.google.android.apps.tycho&hl=en_US) to work properly. Without Play Services, all of the features mentioned above, along with visual voicemail, will not work. SMS messages will have random strings added at the end of each of them.
-- The Google Fi app needs to be installed in the owner profile for SIM/eSIM activation.
-- Google Fi Wi-Fi calling does not work behind a VPN with the killswitch enabled in the owner profile.
-
-If you live in the United States and use the stock operating system, we recommend using Google Fi as your carrier to take advantage of the end to end encrypted calls. People using up-to-date Google Pixels will benefit the most from the VCN as mentioned.
-
-If you use GrapheneOS and do not mind installing Sandboxed Play Services, Fi is still a better option than other providers thanks to Google's general good security practices and the fact that you can enroll in the Advanced Protection Program to have much better protection for your account. Some other providers do not even have multi-factor authentication support, and most will not let you enforce FIDO2 as the authentication method.
-
-## Sources
-
-- [Android Tips | PrivSec](https://privsec.dev/posts/android/android-tips/#google-messages)
