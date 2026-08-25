@@ -113,7 +113,7 @@ Firefox Relay originally known as Mozilla relay, is an email alias forwarding se
 
 Notable free features:
 
-- [x] Maximum number of 5 Aliases
+- [x] Maximum Number of 50 Aliases
 - [x] Unlimited Replies
 - [x] 1 Recipient Mailbox
 - [x] Removes email trackers from forwarded emails
