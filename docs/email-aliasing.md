@@ -105,6 +105,7 @@ If you cancel your subscription, you will still enjoy the features of your paid 
 [:octicons-eye-16:](https://mozilla.org/privacy/subscription-services){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://support.mozilla.org/en-US/products/relay){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/mozilla/fx-private-relay){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.mozillafoundation.org/en/donate/){ .card-link title="Contribute" }
 
 
 </div>
