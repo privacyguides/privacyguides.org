@@ -106,13 +106,6 @@ If you cancel your subscription, you will still enjoy the features of your paid 
 [:octicons-info-16:](https://support.mozilla.org/en-US/products/relay){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/mozilla/fx-private-relay){ .card-link title="Source Code" }
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/private-relay)
-- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/firefox-relay/lknpoadjjkjcmjhbjpcljdednccbldeb)
-
-</details>
 
 </div>
 
