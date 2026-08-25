@@ -24,7 +24,7 @@ We rely on lots of server-facing services in our day to day lives, whether it's 
 
 ## Privacy Violations
 
-We've surrendered much of our lives to the services we use everyday, including music and video streaming, extensive search engine queries, and long exchanges with AI services like ChatGPT. Even things we don't typically think of as online services like buying things at the store usually query a database somewhere sight unseen.
+We've surrendered much of our lives to the services we use everyday, including music and video streaming, extensive search engine queries, and long exchanges with AI services like ChatGPT. Even things we don't typically think of as online services, like buying things at the store, usually query a database somewhere sight unseen.
 
 This leaves an absolute treasure trove of data for companies to potentially abuse or otherwise leave open to being hacked and leaked to the internet. This has happened and will continue to happen until every service we rely on every day can implement robust, technical privacy protections into their services, not just pinkie-promises in their privacy policies to not abuse your data.
 
@@ -76,7 +76,7 @@ This is a clear violation of user privacy, and it happened out of the blue in a 
 
 ## Beginnings of Homomorphic Encryption
 
-As is typical, the first mention of homomorphic encryption come from a paper from 1978 titled *[ON DATA BANKS AND PRIVACY HOMOMORPHISMS](https://people.csail.mit.edu/rivest/pubs/RAD78.pdf)*.
+As is typical, the first mention of homomorphic encryption comes from a paper from 1978 titled *[ON DATA BANKS AND PRIVACY HOMOMORPHISMS](https://people.csail.mit.edu/rivest/pubs/RAD78.pdf)*.
 
 It's funny seeing the concerns of the time. The paper gives an example of a loan company that uses a time share (i.e., sharing a computer with others and having a limited time window to do your computing) with another company and how they have to choose between that and getting their own computer. With companies now moving more and more of their own infrastructure to cloud services provided by other companies, it seems we've come full circle.
 
@@ -100,7 +100,7 @@ This limits how many operations can be done on the numbers before they become to
 
 However, it's possible to "bootstrap" after it gets too noisy, resetting the noise to below the threshold. This gives this scheme the ability to do as many operations as you want since you can just keep resetting the noise.
 
-It's based around ideal lattices because they have some useful properties allowing for more efficient key generation and algabraic operations. Because it's based on lattices, it's considered quantum resistant as well (there's no known efficient algorithm to solve lattice problems).
+It's based around ideal lattices because they have some useful properties allowing for more efficient key generation and algebraic operations. Because it's based on lattices, it's considered quantum resistant as well (there's no known efficient algorithm to solve lattice problems).
 
 Unfortunately these early homomorphic encryption schemes weren't very performant, taking up to [30 minutes per bootstrapping operation](https://eprint.iacr.org/2010/520). Obviously, this is not ideal and prevents the scheme from being used for any real world tasks.
 
@@ -152,9 +152,9 @@ Microsoft uses FHE for the [Password Monitor](https://microsoft.com/en-us/resear
 
 Apple is making use of [FHE](https://machinelearning.apple.com/research/homomorphic-encryption) mainly for privately looking up info on a server.
 
-It's currenty used for [Enhnaced Visual Search](https://support.apple.com/en-us/122033) to privately look up landmarks in photos, and their [caller ID lookup](https://developer.apple.com/documentation/identitylookup/getting-up-to-date-calling-and-blocking-information-for-your-app) feature, as well as a few other places.
+It's currently used for [Enhanced Visual Search](https://support.apple.com/en-us/122033) to privately look up landmarks in photos, and their [caller ID lookup](https://developer.apple.com/documentation/identitylookup/getting-up-to-date-calling-and-blocking-information-for-your-app) feature, as well as a few other places.
 
-It's a modest start for the technology but I think we'lll see more and more uses over time.
+It's a modest start for the technology but I think we'll see more and more uses over time.
 
 Apple has also developed a [FHE library for Swift](https://github.com/apple/swift-homomorphic-encryption) and open sourced it so anyone developing in Swift can use it.
 
@@ -223,7 +223,7 @@ According to a [Forbes](https://forbes.com/sites/davidprosser/2024/08/19/how-fab
 
 #### Optalsys
 
-This one's a doozy. You're probably familiar with fiber optics that are able to transmit data at a high speed and efficiency compared to electrical signals. [Optalsys](https://optalysys.com/article/silicon-photonics-a-new-approach-to-acceleration) is looking to bring that speed and efficiency to chips themselves, actually processing data using light instead of electricity. They call it "silicon photonics."
+This one's a doozy. You're probably familiar with fiber optics that are able to transmit data at a high speed and efficiency compared to electrical signals. [Optalysys](https://optalysys.com/article/silicon-photonics-a-new-approach-to-acceleration) is looking to bring that speed and efficiency to chips themselves, actually processing data using light instead of electricity. They call it "silicon photonics."
 
 Optalsys believes the extra speed provided by this tech could make FHE more scalable and efficient. They offer FHE through [LightLocker Node](https://optalysys.com/lightlocker-node) and unlike the other products I've listed, it seems that it's actually [launched](https://optalysys.com/resource/lightlocker-launch).
 
