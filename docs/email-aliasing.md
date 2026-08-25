@@ -42,7 +42,7 @@ Email aliasing services also have a number of benefits over "temporary email" se
 <div class="grid cards" markdown>
 
 - ![Addy.io logo](assets/img/email-aliasing/addy.svg){ .twemoji } [Addy.io](email-aliasing.md#addyio)
-- ![FirefoxRelay logo](assets/img/email-aliasing/firefoxrelay.svg){ .twemoji } [FirefoxRelay](email-aliasing.md#firefox-relay)
+- ![Firefox Relay logo](assets/img/email-aliasing/firefoxrelay.svg){ .twemoji } [Firefox Relay](email-aliasing.md#firefox-relay)
 - ![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ .twemoji } [SimpleLogin](email-aliasing.md#simplelogin)
 
 </div>
