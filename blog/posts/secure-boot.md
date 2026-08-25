@@ -44,11 +44,11 @@ If you think about the sheer number of devices in your computer, most made by di
 
 ## BIOS
 
-In the late 1970's, the Basic Input/Output System was created for the [CP/M](https://www.digitalresearch.biz/CPM.HTM) operating system. It facillitated initializing and communication with hardware components other than the CPU.
+In the late 1970's, the Basic Input/Output System was created for the [CP/M](https://www.digitalresearch.biz/CPM.HTM) operating system. It facilitated initializing and communication with hardware components other than the CPU.
 
-The [Intel 8080](https://en.wikipedia.org/wiki/Intel_8080) machines it was designed to run on were only 8-bit, to show how much more primitive the systems BIOS was designed for were.
+The [Intel 8080](https://en.wikipedia.org/wiki/Intel_8080) machines it was designed to run on were only 8-bit, which highlights how primitive the early systems relying on BIOS truly were.
 
-The original BIOS was contained in true Read-Only Memory baked into the motherboard, so it couldn't be changed without replacing the chip it was stored on. Machines back then weren't as madular and upgradeable as many modern PCs, and they mostly didn't have their own onboard firmware like they do now, so the BIOS could handle everything on its own. Any configuration you wanted to do on early BIOS had to be done using physical [DIP switches](https://en.wikipedia.org/wiki/DIP_switch), although later iterations would replace this with an BIOS setup utility controlled with a keyboard, similar to what we have on modern computers.
+The original BIOS was contained in true Read-Only Memory baked into the motherboard, so it couldn't be changed without replacing the chip it was stored on. Machines back then weren't as modular and upgradeable as many modern PCs, and they mostly didn't have their own onboard firmware like they do now, so the BIOS could handle everything on its own. Any configuration you wanted to do on early BIOS had to be done using physical [DIP switches](https://en.wikipedia.org/wiki/DIP_switch), although later iterations would replace this with a BIOS setup utility controlled with a keyboard, similar to what we have on modern computers.
 
 As you can imagine, the more devices you had, the more chances for something to go wrong and stop the boot from completing and the longer each boot would take.
 
@@ -62,7 +62,7 @@ Some of these improvements include support for drives larger than 2 terabytes, s
 
 ### Secure Boot
 
-Along with all of this, UEFI also supports [Secure Boot](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-secure-boot-key-creation-and-management-guidance?view=windows-11), security feature that allows you to verify the firmware, bootloader, and OS hasn't been tampered with.
+Along with all of this, UEFI also supports [Secure Boot](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-secure-boot-key-creation-and-management-guidance?view=windows-11), a security feature that allows you to verify the firmware, bootloader, and OS hasn't been tampered with.
 
 Secure Boot relies on public key infrastructure (PKI) to validate these components.
 
@@ -94,7 +94,7 @@ It also allows booting into non-Microsoft bootloaders like shim, allowing many L
 
 Since the Microsoft KEK CA allows so many different bootloaders to run by default, it allows more attack surface than many users desire. You can use your own machine owner key (MOK) (and delete the default keys) so that only your own bootloader and/or custom kernel module will be allowed to load. Usually this is provided by your distribution.
 
-Usually, Secure Boot only covers the UEFI firmware, bootloader, and OS kernel, many peripneral devices like drives are left out of the process. This can mean a lot of extra attack surface depending on how many extra devices you have on your system. It also leaves out a lot of the operating system, so even if the kernel isn't compromised, any part of your OS outside the kernel could be, including any app you've installed. There's room for improvement to make Secure Boot work all the way down to the application level, similar to how it works on mobile operating sytems like Android and iOS, where all running software is required to be signed.
+Usually, Secure Boot only covers the UEFI firmware, bootloader, and OS kernel, many peripheral devices like drives are left out of the process. This can mean a lot of extra attack surface depending on how many extra devices you have on your system. It also leaves out a lot of the operating system, so even if the kernel isn't compromised, any part of your OS outside the kernel could be, including any app you've installed. There's room for improvement to make Secure Boot work all the way down to the application level, similar to how it works on mobile operating systems like Android and iOS, where all running software is required to be signed.
 
 ## Measured Boot
 
@@ -108,11 +108,11 @@ The hashes are recorded safely in the [TPM](https://learn.microsoft.com/en-us/wi
 
 [Trusted Boot](https://learn.microsoft.com/en-us/windows/security/operating-system-security/system-security/trusted-boot#trusted-boot) is a Windows-specific feature and essentially picks up where Secure Boot leaves off. The Windows bootloader verifies the kernel, then the kernel verifies every other part of the startup process including boot drivers, startup files, and early launch anti-malware driver of your anti-malware software.
 
-Similarly to Secure Boot, if Trusted Boot detects any of these components are tampered with, it refuses to load it. Windows can even repair corrupted components a lot of the time.
+Similarly to Secure Boot, if Trusted Boot detects any of these components are tampered with, it refuses to load it. Windows can even frequently repair corrupted components.
 
 ## Verified Boot
 
-[Verified Boot](https://source.android.com/docs/security/features/verifiedboot/) is more robust than secure boot and strives to ensure that all executed code that's part of the Android version being used are cryptographically verified. This includes the kernel, the [device tree](https://source.android.com/docs/core/architecture/dto), the system partition, the vendor partition, etc.
+[Verified Boot](https://source.android.com/docs/security/features/verifiedboot/) is more robust than secure boot and strives to ensure that all executed code that's part of the Android version being used is cryptographically verified. This includes the kernel, the [device tree](https://source.android.com/docs/core/architecture/dto), the system partition, the vendor partition, etc.
 
 Verified Boot is mainly used by Android and [ChromeOS](https://www.chromium.org/chromium-os/chromiumos-design-docs/verified-boot/), although Apple's version of "[secure boot](https://support.apple.com/guide/security/boot-process-for-iphone-and-ipad-devices-secb3000f149/1/web/1)" is more akin to Verified Boot.
 
@@ -128,7 +128,7 @@ It would be nice to see a greater push toward making Secure Boot more compatible
 
 ### Expansion into More Devices
 
-As it is, boot authentication is mostly limited to regular computers and phones. But we live in 2025, the year of the "smart fridge", so with all the IoT devices in our homes, we need all the security we can get.
+As it is, boot authentication is mostly limited to regular computers and phones. But we live in 2026, the year of the "smart fridge", so with all the IoT devices in our homes, we need all the security we can get.
 
 In a rare bit of good news, some manufacturers like Samsung are starting to incorporate the same [security technology](https://news.samsung.com/global/samsung-electronics-becomes-the-company-with-the-largest-number-of-level-diamond-iot-security-rating-verifications-by-ul-solutions-in-the-home-appliances-industry) such as their [Knox](https://www.samsungknox.com/en/secured-by-knox) into their appliances, which includes secure boot.
 
@@ -144,7 +144,7 @@ Modern cars typically contain over [100 million lines of code](https://globalpla
 
 This poses a problem when any component malfunctioning or being hacked could lead to property damage or deaths. Luckily, new standards like [ISO/SAE 21434:2021](https://www.iso.org/standard/70918.html) exist to provide guidance on best practices for automotive manufacturers. GlobalPlatform provides security specifications and standards for IoT devices such as [PSA certified](https://www.psacertified.org/what-is-psa-certified/why-choose-psa-certified/). They've also been looking into securing automotives with the same technology.
 
-Secure boot and [hardware security modules](https://www.vector.com/int/en/products/products-a-z/embedded-software/microsar-hsm/) for automotives are becoming more common. I think we're going to eventually see similar security to phones on our cars at some point. Semiconductor manufacturer [Renasas](https://www.renesas.com/en/key-technologies/security/automotive-security) supports HSMs in their products There does seem to be a genuine push toward more security.
+Secure boot and [hardware security modules](https://www.vector.com/int/en/products/products-a-z/embedded-software/microsar-hsm/) for automotives are becoming more common. I think we're going to eventually see similar security to phones on our cars at some point. Semiconductor manufacturer [Renesas](https://www.renesas.com/en/key-technologies/security/automotive-security) supports HSMs in their products. There does seem to be a genuine push toward more security.
 
 Multiple companies and even standards bodies like the [FIDO alliance](https://fidoalliance.org/wp-content/uploads/2025/07/Addressing-Cybersecurity-Challenges-in-the-Automotive-Industry-7-2025-1.pdf) are chipping away at the problem of vehicle security. With the ballooning size of codebases and connectivity of cars, it's going to be an [uphill battle](https://www.privacyguides.org/news/2026/01/23/pwn2own-automotive-shows-how-insecure-our-vehicles-are/).
 
