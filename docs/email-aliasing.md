@@ -157,9 +157,9 @@ When you downgrade from Premium to free, you’ll still receive emails forwarded
 
 </div>
 
-SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin is a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing.
+SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) on April 8, 2022, making it an excellent option for users of [Proton Mail](email.md#proton-mail) as their primary mailbox. With this acquisition, you only need to trust a single entity for your email services. SimpleLogin still allows forwarding to any email provider of your choice.
 
-You can link your SimpleLogin account in the settings with your Proton account. If you have Proton Pass Plus, Proton Unlimited, or any multi-user Proton plan, you will have SimpleLogin Premium for free. You can also purchase a voucher code for SimpleLogin Premium anonymously via their official reseller [ProxyStore](https://simplelogin.io/faq).
+You can link your SimpleLogin account in the settings with your Proton account. If you have Proton Pass Plus, Proton Unlimited, or any multi-user Proton plan, you will have SimpleLogin Premium for free. Likewise both the [Free and Premium tiers](https://simplelogin.io/pricing/) of SimpleLogin now include Proton Pass subscriptions. You can also purchase a voucher code for SimpleLogin Premium anonymously via their official reseller [ProxyStore](https://simplelogin.io/faq).
 
 Securitum [audited](https://simplelogin.io/blog/security-audit) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
 
