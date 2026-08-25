@@ -120,7 +120,7 @@ Notable free features:
 - [ ] Create masks on the go with a custom domain[^1] is only available on paid plans
 - [ ] Block promotional emails[^1] is only available on paid plans
 
-When you downgrade from Premium to free, you’ll still receive emails forwarded through your custom email masks, but you’ll no longer be able to create new masks using that subdomain. If you have more than five masks in total, you will not be able to create anymore. You’ll also lose the ability to reply to forwarded messages.
+When you downgrade from Premium to free, you’ll still receive emails forwarded through your custom email masks, but you’ll no longer be able to create new masks using that subdomain. If you have more than fifty masks in total, you will not be able to create any more. You’ll also lose the ability to reply to forwarded messages.
 
 ### SimpleLogin
 
