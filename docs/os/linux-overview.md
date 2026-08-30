@@ -77,6 +77,7 @@ Additionally, we recommend **against** these two Arch derivatives specifically:
 
 - **Manjaro**: This distribution holds packages back for 2 weeks to make sure that their own changes don’t break, not to make sure that upstream is stable. When AUR packages are used, they are often built against the latest [libraries](https://en.wikipedia.org/wiki/Library_(computing)) from Arch’s repositories.
 - **Garuda**: They use [Chaotic-AUR](https://aur.chaotic.cx) which automatically and blindly compiles packages from the AUR. There is no verification process to make sure that the AUR packages don’t suffer from supply chain attacks.
+- **Omarchy**: This distribution combines out-of-date packages and blindly uses the AUR, which we consider extremely risky due to supply chain attacks. It enables `TrustAll` for the pacman repository, which is strongly advised against by Arch Linux. Most recently, it was found to be [exposing the Docker socket](https://0xcc.io/posts/omarchy-root-creds/), thereby allowing any program to escalate privileges to root without a password.
 
 ### Linux-libre kernel and “Libre” distributions
 
