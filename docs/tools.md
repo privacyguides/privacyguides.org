@@ -452,6 +452,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 - ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji loading=lazy } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
 - ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji loading=lazy }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji loading=lazy } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
 - ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji loading=lazy } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
+- ![Materialious logo](assets/img/frontends/materialious.svg){ .twemoji loading=lazy } [Materialious (YouTube, Desktop & Android)](frontends.md#materialious)
 - ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji loading=lazy }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji loading=lazy } [Invidious (YouTube, Web)](frontends.md#invidious)
 - ![Piped logo](assets/img/frontends/piped.svg){ .twemoji loading=lazy } [Piped (YouTube, Web)](frontends.md#piped)
 

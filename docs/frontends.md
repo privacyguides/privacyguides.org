@@ -217,6 +217,42 @@ When using NewPipe, your IP address will be visible to the video providers used.
 
 </div>
 
+### Materialious
+
+<div class="admonition recommendation" markdown>
+
+![Materialious logo](assets/img/frontends/materialious.svg){ align=right }
+
+**Materialious** is a free and open-source desktop & android application for [YouTube](https://youtube.com). Materialious extracts data from YouTube using its built-in API based on [YouTube.js](https://github.com/LuanRT/YouTube.js) or the [Invidious](#invidious) API. You can configure either as the default, with the other serving as a fallback.
+
+When using Materialious, your subscription list, watch history and search history can be saved locally on your device or can be saved remotely on a Invidious instance depending on configuration.
+
+[:octicons-home-16: Homepage](https://materialio.us){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/Materialious/Materialious){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:fontawesome-brands-windows: Windows](https://materialio.us/#download)
+- [:simple-apple: macOS](https://materialio.us/#download)
+- [:simple-linux: Linux](https://materialio.us/#download)
+- [:simple-android: Android](https://materialio.us/#download)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/us.materialio.Materialious)
+- [:simple-fdroid: Fdroid](https://f-droid.org/packages/us.materialio.app)
+
+</details>
+
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+When using Materialious, your IP address may still be known to [YouTube](https://youtube.com), [Invidious](https://instances.invidious.io), or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+
+</div>
+
+By default, Materialious blocks all YouTube advertisements. Additionally, Materialious uses [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments. You are able to fully configure the types of segments that SponsorBlock will skip, or disable it completely.
+
 ## Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
