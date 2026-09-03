@@ -82,6 +82,8 @@ In addition to their paid plans, they offer a number of preconfigured DNS resolv
 
 </div>
 
+In addition to DNS filtering, Control D offers a [Traffic Redirection](https://controld.com/features/traffic-redirection) feature that routes DNS queries through transparent proxy servers across 69+ countries. This lets you mask your source IP and appear as if you're in a different region without using a VPN. A practical privacy benefit: you can bypass age verification requirements on websites by redirecting traffic through a country where such checks aren't mandated, all without uploading any personal identifiable information (PII) to the site or the DNS provider. Custom rules allow granular control — redirect specific domains, services, or your entire traffic through a selected proxy country.  This can be used in conjunction with a VPN, DNS-over-HTTPS, Private DNS on android to further enhance accessibility of bypassing age verification requirements and/or augmenting a VPN.
+
 ### NextDNS
 
 <div class="admonition recommendation" markdown>
