@@ -21,7 +21,7 @@
 {
   "recommendations": [
     "EditorConfig.EditorConfig",
-    "DavidAnson.vscode-markdownlint",
+    "rvben.rumdl",
     "wholroyd.jinja",
     "mikestead.dotenv",
     "redhat.vscode-yaml",

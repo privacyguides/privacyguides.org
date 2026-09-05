@@ -1,0 +1,14 @@
+[global]
+disable = ["md013", "md033", "md046", "md026"]
+
+[md007]
+indent = 4
+
+[md010]
+code_blocks = false
+
+[md024]
+siblings_only = true
+
+[md049]
+style = "asterisk"
