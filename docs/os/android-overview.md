@@ -170,3 +170,14 @@ You will either be given the option to delete your advertising ID or to *Opt out
 [SafetyNet](https://developer.android.com/training/safetynet/attestation) and the [Play Integrity APIs](https://developer.android.com/google/play/integrity) are generally used for [banking apps](https://grapheneos.org/usage#banking-apps). Many banking apps will work fine in GrapheneOS with sandboxed Play services, however some non-financial apps have their own crude anti-tampering mechanisms which might fail. GrapheneOS passes the `basicIntegrity` check, but not the certification check `ctsProfileMatch`. Devices with Android 8 or later have hardware attestation support which cannot be bypassed without leaked keys or serious vulnerabilities.
 
 As for Google Wallet, we don't recommend this due to their [privacy policy](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), which states you must opt out if you don't want your credit rating and personal information shared with affiliate marketing services.
+
+### Google Messages
+
+[Google Messages](https://www.android.com/google-messages/) supports [end-to-end encrypted messaging](https://support.google.com/messages/answer/10262381?hl=en) via RCS by default. When you text other Google Messages users, your chats will automatically use E2EE and you won't have to do anything.
+
+Apple has released [RCS E2EE support](https://support.apple.com/en-us/104972#:~:text=rates%20might%20apply.-,RCS) for their default Messages app now as well, so depending on if their [carrier](https://support.apple.com/en-us/109526) supports it, you can get E2EE messaging between Android and iOS.
+
+Google Messages requires Google Play services in order to work, so if you're on GrapheneOS and already have [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play) installed, Google Messages is a good choice for a default messaging app. Google Messages is already the default messaging app on the stock Pixel operating system.
+
+Google Messages uses federated learning for privacy-preserving telemetry. You can turn this off by tapping the profile in the top right → **Messages settings** → **Help Improve Messages** and toggling it off. 
+
