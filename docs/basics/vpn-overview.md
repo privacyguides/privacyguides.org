@@ -36,11 +36,9 @@ Note that a VPN does not add any security or encryption to your traffic between 
 
 ## Should I use a VPN?
 
-**Yes**, almost certainly. A VPN has many advantages, including:
-
+**Yes**, almost certainly. The advantages of a VPN include:
 1. Hiding your traffic from **only** your Internet Service Provider.
-1. Hiding your downloads (such as torrents) from your ISP and anti-piracy organizations.
-1. Hiding your IP from third-party websites and services, helping you blend in and preventing IP based tracking.
+1. Hiding your IP from third-party websites and services, preventing IP based tracking.
 1. Allowing you to bypass geo-restrictions on certain content.
 
 VPNs can provide *some* of the same benefits Tor provides, such as hiding your IP from the websites you visit and geographically shifting your network traffic, and good VPN providers will not cooperate with e.g. legal authorities from oppressive regimes, especially if you choose a VPN provider outside your own jurisdiction.
@@ -59,7 +57,7 @@ You also should not trust a VPN to secure your connection to an unencrypted, HTT
 
 Unless your VPN provider hosts the encrypted DNS servers themselves, **probably not**. Using DOH/DOT (or any other form of encrypted DNS) with third-party servers will simply add more entities to trust. Your VPN provider can still see which websites you visit based on the IP addresses and other methods. All this being said, there may be some advantages to enabling encrypted DNS in order to enable other security features in your browser, such as ECH. Browser technologies which are reliant on in-browser encrypted DNS are relatively new and not yet widespread, so whether they are relevant to you in particular is an exercise we will leave to you to research independently.
 
-Another common reason encrypted DNS is recommended is that it prevents DNS spoofing. However, your browser should already be checking for [TLS certificates](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) with **HTTPS** and warn you about it. If you are not using **HTTPS**, then an adversary can still just modify anything other than your DNS queries and the end result will be little different.
+Another common reason encrypted DNS is recommended is that it prevents DNS manipulation attacks. However, your browser should already be checking for [TLS certificates](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) with **HTTPS** and warn you about it. If you are not using **HTTPS**, then an adversary can still just modify anything other than your DNS queries and the end result will be little different.
 
 ## Should I use Tor *and* a VPN?
 

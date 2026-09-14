@@ -27,18 +27,6 @@ schema:
   -
     "@context": http://schema.org
     "@type": MobileApplication
-    name: Cromite
-    image: /assets/img/browsers/cromite.svg
-    url: https://cromite.org
-    applicationCategory: Web Browser
-    operatingSystem:
-      - Android
-    subjectOf:
-      "@type": WebPage
-      url: "./"
-  -
-    "@context": http://schema.org
-    "@type": MobileApplication
     name: Safari
     image: /assets/img/browsers/safari.svg
     url: https://apple.com/safari
@@ -89,11 +77,11 @@ Tor Browser is the only way to truly browse the internet anonymously. When you u
 
 === "Android"
 
-    These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**.
+    These options can be found in :material-dots-vertical: → **Settings** → **Brave Shields & privacy**.
 
 === "iOS"
 
-    These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Shields & Privacy**.
 
 #### Brave shields global defaults
 
@@ -121,7 +109,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
     </details>
 
-    - [x] Select **Forget me when I close this site**
+    - [x] Select **Site Tabs Closed** under *Auto Shred*
 
     </div>
 
@@ -150,24 +138,16 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
     1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
-##### Clear browsing data (Android only)
-
-- [x] Select **Clear data on exit**
-
-##### Social Media Blocking (Android only)
-
-- [ ] Uncheck all social media components
-
 #### Other privacy settings
 
 === "Android"
 
     <div class="annotate" markdown>
 
-    - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - [x] (Optional) Select **No protection** under *Safe Browsing* (1)
+    - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
-    - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
+    - [x] Select **Do not speed up sites with Brave's V8 engine but make Brave slightly more resistant to attacks**
     - [x] Select **Close tabs on exit**
     - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
     - [ ] Uncheck **Automatically send diagnostic reports**
@@ -182,88 +162,37 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
     - [ ] Uncheck **Automatically send daily usage ping to Brave**
 
-#### Leo
+#### Leo AI
 
-These options can be found in :material-menu: → **Settings** → **Leo**.
+=== "Android"
 
-<div class="annotate" markdown>
+    These options can be found in :material-dots-vertical: → **Settings** → **Leo AI**.
 
-- [ ] Uncheck **Show autocomplete suggestions in address bar** (1)
+    - [ ] Uncheck **Show autocomplete suggestions in address bar**
 
-</div>
+=== "iOS"
 
-1. This option is not present in Brave's iOS app.
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Leo AI**.
+
+    - [ ] Uncheck **Show In Quick Search Engine Bar**
 
 #### Search engines
 
-These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
+=== "Android"
 
-- [ ] Uncheck **Show search suggestions**
+    These options can be found in :material-dots-vertical: → **Settings** → **Search engines**.
+
+    - [ ] Uncheck **Show search suggestions**
+
+=== "iOS"
+
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Search engines**.
+
+    - [ ] Uncheck **Show In Quick Search Engine Bar**
 
 #### Brave Sync
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
-
-## Cromite (Android)
-
-<div class="admonition recommendation" markdown>
-
-![Cromite logo](assets/img/browsers/cromite.svg){ align=right }
-
-**Cromite** is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and other [privacy and security enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
-
-[:octicons-home-16: Homepage](https://cromite.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-android: F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
-- [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
-
-</details>
-
-</div>
-
-### Recommended Configuration
-
-These options can be found in :material-menu: → :gear: **Settings** → **Privacy and security**.
-
-#### Browsing data
-
-- [x] Select **Close all open tabs on exit**
-
-#### Incognito mode
-
-- [x] Select **Open external links in incognito**
-
-#### Security
-
-- [x] Select **Always use secure connections**
-
-This prevents you from unintentionally connecting to a website in plain-text HTTP. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
-
-#### Adblock Plus settings
-
-These options can be found in :material-menu: → :gear: **Settings** → **Adblock Plus settings**.
-
-Cromite contains a customized version of Adblock Plus with EasyList enabled by default, as well as options to select more filter lists within the **Filter lists** menu.
-
-Using extra lists will make you stand out from other Cromite users and may also increase attack surface if a malicious rule is added to one of the lists you use.
-
-- [x] (Optional) Select **Enable anti-circumvention and snippets**
-
-This setting adds an additional Adblock Plus list that may increase the effectiveness of Cromite's content blocking. The warnings about standing out and potentially increasing attack surface apply.
-
-#### Legacy Adblock settings
-
-These options can be found in :material-menu: → :gear: **Settings** → **Legacy Adblock settings**.
-
-- [ ] Uncheck the autoupdate setting
-
-This disables update checks for the unmaintained Bromite adblock filter.
 
 ## Safari (iOS)
 

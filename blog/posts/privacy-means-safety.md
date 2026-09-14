@@ -208,7 +208,7 @@ If you or someone you know is in one of the situations described above, these ad
 
 **Trans Peer Support** :material-arrow-right-bold: [Trans Lifeline Hotline](https://translifeline.org/hotline/) Phone number US: 1-877-565-8860 / Canada: 1-877-330-6366
 
-**Stalking Victim Support**  :material-arrow-right-bold: US: [SafeHorizon](https://www.safehorizon.org/get-help/stalking/) / Canada: [The Canadian Resource Centre for Victims of Crime](https://crcvc.ca/wp-content/uploads/2021/09/Cyberstalking-_DISCLAIMER_Revised-Aug-2022_FINAL.pdf)
+**Stalking Victim Support** :material-arrow-right-bold: US: [SafeHorizon](https://www.safehorizon.org/get-help/stalking/) / Canada: [The Canadian Resource Centre for Victims of Crime](https://crcvc.ca/wp-content/uploads/2021/09/Cyberstalking-_DISCLAIMER_Revised-Aug-2022_FINAL.pdf)
 
 **Domestic Violence Victim Support** :material-arrow-right-bold: US: [The National Domestic Violence Hotline](https://www.thehotline.org/) Phone number: 1-800-799-7233 / Canada: [Canadian resources by situation and province](https://www.canada.ca/en/public-health/services/health-promotion/stop-family-violence/services.html)
 
