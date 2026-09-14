@@ -18,7 +18,9 @@ Both Android and iOS run on the vast majority of our mobile devices, meaning the
 
 ## Source Model
 
-One of the most glaring differences is the source model of each operating system: iOS is *mostly* closed source while Android is *mostly* open source.
+The source model of an operating system affects how security researchers can access the source code to exampine how it works, as well as whether you can make a fork of the OS to make your own security improvements, such as what GrapheneOS is able to do.
+
+iOS and Android both have open source components, while generally being closed source in the final operating system.
 
 ### iOS
 
