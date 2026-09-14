@@ -294,6 +294,8 @@ It's difficult to know all the exact methods used for fingerpinting as fingerpri
 
 Fingerprint offers an iOS [demo app](https://apps.apple.com/en/app/fingerprint-pro/id1644105278) so you can see how well it works.
 
+The [Loupe](https://apps.apple.com/us/app/loupe-what-apps-can-see/id6766152470) app shows a lot of the identifying information that apps have access to by default and with permissions. It's worth a look if you want to see what apps are able to know about you by default.
+
 Fingerprinting may not be all that necessary however since Apple's [IDFV](https://developer.apple.com/documentation/uikit/uidevice/identifierforvendor) by design allows apps by the same vendor to identify the same device. It changes when all apps by that vendor are deleted but in my testing, I got the same identifier in their demo app even after deleting and reinstalling the apps. Fingerprint claims that the idnetifier will be the same after a device restart, after deleting and reinstalling the app, after installing a provisioning profile, after jailbreaking, after lockdown mode is enabled, and after reseting the device settings to their default values. The only case when it will change is after a full factory reset.
 
 It will also try to detect if your device is jailbroken, or has been factory reset.
