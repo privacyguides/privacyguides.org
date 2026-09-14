@@ -118,15 +118,17 @@ Because Android is used by so many different OEMs, you often don't know what you
 
 There aren't really many examples in the Android world of an OEM with the same level of control over their hardware as Apple. Most Android OEMs are going to use third party SoC's and other components, which introduces possible supply chain issues with trusting third-party firmware and potential delays with security updates.
 
+[Google Pixels](https://store.google.com/category/phones?hl=en-US) are generally considered to be the most secure Android phones, and the only ones that meet the [security requirements for GrapheneOS](https://grapheneos.org/faq#future-devices), that is until their upcoming [partnership with Motorola](https://motorolanews.com/motorola-three-new-b2b-solutions-at-mwc-2026/) materializes.
+
 ## App Store
 
-Android and iOS have very different approaches in terms of downloading and acquiring apps.
+Android and iOS both feature official app stores where you're intended to download apps: the [App Store](https://www.apple.com/app-store/) on iOS and the [Google Play](https://www.apple.com/app-store/) store on Android respectively.
 
 ### iOS
 
 iOS restricts app downloads to their own App Store. Apple claims this is for security purposes, but it restricts user freedom and makes it possible for Apple to [censor](https://9to5mac.com/2024/09/28/apple-cooperating-with-russia-to-remove-vpn-apps-from-app-store) apps in certain regions.
 
-Apple has a [whitepaper](https://www.apple.com/privacy/docs/Building_a_Trusted_Ecosystem_for_Millions_of_Apps.pdf) explaining why they believe restricting to just the App Store is the best approach to security. Unfortuantely, malicious and fruadulent apps [bypass](https://techcrunch.com/2025/10/09/sora-copycats-flooded-apples-app-store-and-some-still-remain/) Apple's App Store review regularly. Automated and human review can only do so much against an onslaught of malicious apps, so I think that a better approach is to design the system to disallow apps from having access to as much as possible and providing users with highly secure devices to prevent malware as much as possible. In the same whitepaper, Apple outlines some things they've done to combat malicious apps in a more systemic way such as SDK package signing. In contrast to their claims, the EU's DMA seems to have spurred them to improve security on iOS in several ways while also increasing user freedom.
+Apple has a [whitepaper](https://www.apple.com/privacy/docs/Building_a_Trusted_Ecosystem_for_Millions_of_Apps.pdf) explaining why they believe restricting to just the App Store is the best approach to security. Unfortuantely, malicious and fruadulent apps [bypass](https://techcrunch.com/2025/10/09/sora-copycats-flooded-apples-app-store-and-some-still-remain/) Apple's [App Store review](https://developer.apple.com/distribute/app-review/) regularly. Automated and human review can only do so much against an onslaught of malicious apps, so I think that a better approach is to design the system to disallow apps from having access to as much as possible and providing users with highly secure devices to prevent malware as much as possible. In the same whitepaper, Apple outlines some things they've done to combat malicious apps in a more systemic way such as SDK package signing.
 
 The App Store does enforce certain [security](https://support.apple.com/guide/security/about-app-store-security-secb8f887a15/1/web/1) properties, mainly through the App Review process. This process can't catch everything though, and [malware](https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385) still slips through the cracks.
 
@@ -139,6 +141,8 @@ In the EU, Apple was forced to allow [third-party app stores](https://developer.
 ### Android
 
 Android takes the opposite approach and lets you simply download and run apps from the internet. This gives you much more freedom as a user but could potentially open you up to more malicious apps, for example, apps that abuse [accessibility permissions](https://blog.pradeo.com/accessibility-services-mobile-analysis-malware) to gain deep access to your device.
+
+Android plans to [prevent](https://developer.android.com/developer-verification) users from installing apps outside the Google Play store by default and require verification for developers who want to distribute on the Play Store. You'll need to explicitly enable installing apps from unknown sources, and wait 24 hours before you're allowed to do so. This only appies to certified Android devices, so projects like GrapheneOS won't be affected.
 
 Google [Play Protect](https://developers.google.com/android/play-protect) is a built-in anti-malware in many Android devices that's meant to protect you against malicious apps, so it's not like you're completely defenseless. In my opinion, though, anti-malware isn't the correct solution. Hardening the sandbox with tighter restrictions and more permissions, such as the user-facing [network permission](https://grapheneos.org/features#network-permission-toggle) in GrapheneOS, is the best approach.
 
