@@ -92,7 +92,7 @@ It is critical to understand the difference between bypassing censorship and eva
 
 ### Tor Browser is not the most *secure* browser
 
-Anonymity can often be at odds with security: Tor's anonymity requires every user to be identical, which creates a monoculture (e.g., the same bugs are present across all Tor Browser users). As a cybersecurity rule of thumb, monocultures are generally regarded as bad: Security through diversity (which Tor lacks) provides natural segmentation by limiting vulnerabilities to smaller groups, and is therefore usually desirable, but this diversity is also less good for anonymity.
+Anonymity can often be at odds with security. Tor achieves anonymity by ensuring every user appears identical, creating a digital monoculture where the same vulnerabilities exist across all installations. In cybersecurity, monocultures are generally considered a risk. Security through diversity provides natural segmentation by limiting the impact of an exploit to a smaller segment of users. While such diversity is structurally desirable for security, it inherently compromises user anonymity by making individuals trackable.
 
 Additionally, Tor Browser is based on Firefox's Extended Support Release builds, which only receives patches for vulnerabilities considered *Critical* and *High* (not *Medium* and *Low*). This means that attackers could (for example):
 
