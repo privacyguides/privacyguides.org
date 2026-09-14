@@ -54,7 +54,7 @@ In contrast, a microkernel design puts as much as possible outside the kernel, w
 
 iOS uses their own open source XNU kernel for their operating systems. It's an interesting design as Apple originally took the [Mach](https://developer.apple.com/library/archive/documentation/Darwin/Conceptual/KernelProgramming/Mach/Mach.html) microkernel and combined it with code from the monolithic [FreeBSD](https://developer.apple.com/library/archive/documentation/Darwin/Conceptual/KernelProgramming/BSD/BSD.html#//apple_ref/doc/uid/TP30000905-CH214-TPXREF101) kernel to create the hybrid [XNU](https://github.com/apple-oss-distributions/xnu) kernel.
 
-This leaves XNU in an interesting place where it's doesn't have the full attack surface of a monolithic kernel nor the full security of a microkernel, since 
+Despite being based on a microkernel design, the XNU kernel ends up having a similar attack surface to a monolithic kernel since
 
 >in OS X, Mach is linked with other kernel components into a single kernel address space. This is primarily for performance; it is much faster to make a direct call between linked components than it is to send messages or do remote procedure calls (RPC) between separate tasks. This modular structure results in a more robust and extensible system than a monolithic kernel would allow, without the performance penalty of a pure microkernel.
 
@@ -74,9 +74,9 @@ This is great news, I hope we hear more about exclaves in the future, especially
 
 #### Memory Safety
 
-Unfortunately, the XNU kernel is still mostly written in C. This is a problem for any piece of software but *especially* so for the kernel. I really hope Apple makes an effort to start replacing the internals with a memory-safe language.
+Unfortunately, the XNU kernel is still mostly written in C. This is a problem for any piece of software but *especially* so for the kernel.
 
-[Embedded Swift](https://docs.swift.org/embedded/documentation/embedded/introduction) is a low level programming language based on [Swift](https://www.swift.org) that aims to preserve the memory safety of Swift while being more suitable for low-level programs like embedded controllers or system kernels. While it's still experimental, I'll be watching. Apple has [switched](https://www.swift.org/blog/swift-at-apple-migrating-the-password-monitoring-service-from-java/) some of their servers to Swift to massive benefit and they've been switching more of their [iOS apps](https://blog.timac.org/2024/1208-state-of-swift-and-swiftui-ios18/) to Swift, so I believe they will eventually work on switching the rest of their code to Swift in due time.
+Apple has [confirmed](https://blog.calif.io/p/apple-internals-swift-in-the-kernel) early work has begun on using their memory-safe language, Swift, in the XNU kernel. While it's still early days, this could be huge for security on iOS.
 
 ### Android
 
