@@ -164,7 +164,7 @@ Support for installing alternate operating systems isn't just important for user
 
 ### iOS
 
-In order to install any apps or use many features on iOS, you need an [Apple Account](https://account.apple.com). Apple Accounts ask for your real name and require a phone number during account creation, on top of tying your app and other purchases to an account. While iOS is known to be privacy-friendly, Apple's [privacy policy](https://www.apple.com/legal/privacy/en-ww) leaves a lot to be desired.
+In order to install any apps or use many features on iOS, you need an [Apple Account](https://account.apple.com). Apple Accounts ask for your real name and require a phone number during account creation, on top of tying your app and other purchases to an account. While iOS offers a lot of privacy and security features at the OS level, Apple's [privacy policy](https://www.apple.com/legal/privacy/en-ww) for their services leaves a lot to be desired.
 
 iOS doesn't allow you to unlock the bootloader to install another OS. While [jailbreaking](https://en.wikipedia.org/wiki/IOS_jailbreaking) is possible, it requires exploiting your device and ultimately undermining your device's security.
 
@@ -225,6 +225,8 @@ These permissions might protect you from third-party apps, but Apple's own apps 
 Android's permissions tend to lag behind iOS, but they usually end up implementing them in the end. The strength on Android is the global toggles for things like camera and microphone, and much wider use of "one time" permissions.
 
 GrapheneOS greatly expands on the permissions AOSP offers, giving highly granular options such as [Contact Scopes](https://grapheneos.org/usage#contact-scopes) that allow you not only to pick what specific contacts you want, but also specific information from each contact.
+
+They also added a [secure paste](https://x.com/GrapheneOS/status/2096685327020933355) feature to restrict apps from accessing the clipboard of other apps, similar to what iOS offers.
 
 GrapheneOS also implements a user-facing [Network permission](https://grapheneos.org/features#network-permission-toggle) allowing apps to individually be granted network access.
 
