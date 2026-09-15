@@ -83,3 +83,25 @@ In many cases you will need to provide a number that you can receive SMS or call
 ### Username and password
 
 Some services allow you to register without using an email address and only require you to set a username and password. These services may provide increased anonymity when combined with a VPN or Tor. Keep in mind that for these accounts there will most likely be **no way to recover your account** in the event you forget your username or password.
+
+### Anonymous sign-in
+
+A newer authentication pattern allows you to create an account without ever giving the service your email address, phone number, or any other personally identifying information. Instead, your client (browser, mobile app, or device) derives a **site-specific pseudonymous identifier** locally using a cryptographic key-derivation function such as HKDF, seeded with a value only you control (often a passkey, a long-lived local key, or a hardware-backed credential).
+
+The service never sees your real identity — it only sees a stable, opaque identifier that is unique *to that one service*. The same user signing into a different service derives a different, uncorrelatable identifier, which makes cross-site tracking by the service operator or by a data broker structurally impossible.
+
+The main advantages are:
+
+- **Data minimization by design**: The service collects no PII at sign-up. Even a complete breach of the service's user table reveals nothing that ties accounts back to real people.
+- **No cross-site correlation**: Because each service sees a different identifier derived from the same seed, even if multiple services collude or share data, they cannot link their user records together.
+- **No deliverability dependency**: Unlike email magic links, there is no message-in-transit that can be delayed, filtered as spam, or intercepted at an upstream mail provider.
+
+But there are disadvantages:
+
+- **Recovery is hard**: If you lose the underlying seed (e.g., wipe the device, lose the passkey) and have not set up an explicit recovery mechanism, the account is unrecoverable. The service has no email address to send a reset link to. This is the same trade-off you accept with [Username and password](#username-and-password) accounts, but it bites harder because there is usually no "I forgot" path at all.
+- **Limited adoption**: Very few services currently offer this method, so it cannot replace your existing accounts. It is most useful for new services you sign up for going forward.
+- **Tooling is early**: The libraries and standards in this space are pre-1.0. Self-hosting an anonymous-sign-in provider is possible but not yet as turnkey as running, say, a Keycloak instance.
+
+This pattern is most appropriate for services where you genuinely do not need recovery via email (e.g., per-app accounts that you treat as disposable, throwaway communities, privacy-sensitive consumer apps). It is **not** a good fit for services tied to real-world identity, payments, or anything where customer support needs to verify it's you.
+
+Open-source implementations of the pattern include [clientn-anonymous-id](https://github.com/clientn/clientn-anonymous-id) (TypeScript, MIT, ~200 LOC, browser + Node, uses HKDF-SHA256 via Web Crypto). The general pattern can also be built on top of WebAuthn / passkey resident credentials without any third-party library, though doing so without a reference implementation is non-trivial.
