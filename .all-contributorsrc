@@ -3118,6 +3118,17 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "regions99rockery",
+      "name": "regions99rockery",
+      "avatar_url": "https://avatars.githubusercontent.com/u/234068936?v=4",
+      "profile": "https://github.com/regions99rockery",
+      "contributions": [
+        "research",
+        "maintenance",
+        "question"
+      ]
     }
   ],
   "contributorsPerLine": 5,

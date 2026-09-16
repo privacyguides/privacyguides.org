@@ -329,7 +329,7 @@ From the Nginx Proxy Manager browser interface, click **Hosts**, **Proxy Hosts**
 | `monerod-rpc.<domain>` | `http` | `<hostname>` | `18089` |
 | `monero-lws.<domain>` | `http` | `<hostname>` | `18090` |
 
-For each entry, enable **Block common exploits**.  Configure the SSL settings with **Request a new SSL Certificate**, **Force SSL** enabled, and **HTTP/2 Support** enabled.
+For each entry, enable **Block common exploits**. Configure the SSL settings with **Request a new SSL Certificate**, **Force SSL** enabled, and **HTTP/2 Support** enabled.
 
 Optionally assign an access list.
 
