@@ -80,7 +80,7 @@ The preloaded models are performant and can analyse an image. However, you might
 </details>
 </div>
 
-## PocketPal AI (Mobile)
+## PocketPal AI
 
 <div class="admonition recommendation" markdown>
 
