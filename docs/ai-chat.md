@@ -98,7 +98,7 @@ The preloaded models are performant and can analyse an image. However, you might
 
 **PocketPal** is an AI client available on both iOS and Android. It focuses on customizability, ease of use, and above all, small language models (SLMs), allowing you to run AI models on basically any phone. However, keep in mind that SLMs aren't useful in many domains.
 
-Other models can easily be imported, either from a Hugging Face repo link, of from a gguf file directly. Models can also be customised, and the client also offers "Pals", which are describe as "personalized AI assistants with different personalities: but are essentially presets of a model and a system prompt. You can chose between an assitant pal and a roleplay Pal.
+Other models can easily be imported, either from a Hugging Face repo link, or from a GGUF file directly. Models can also be customized, and the client also offers "Pals", which are described as "personalized AI assistants with different personalities," but are essentially presets of a model and a system prompt. You can choose between an assistant pal and a role-play pal.
 
 [:octicons-repo-16: Repository](https://github.com/a-ghorbani/pocketpal-ai?tab=readme-ov-file#pocketpal-ai-){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/a-ghorbani/pocketpal-ai?tab=readme-ov-file#table-of-contents){ .card-link title="Documentation" }
