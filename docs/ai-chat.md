@@ -76,7 +76,7 @@ The preloaded models are performant and can analyze an image. However, you might
 
 - [:simple-github: GitHub](https://github.com/google-ai-edge/gallery/releases)
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.google.ai.edge.gallery)
-
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/google-ai-edge-gallery/id6749645337)
 </details>
 </div>
 
