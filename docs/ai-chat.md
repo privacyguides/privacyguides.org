@@ -45,16 +45,6 @@ There are many permissively licensed models available to download. [Hugging Face
 
 To help you choose a model that fits your needs, you can look at leaderboards and benchmarks. The most widely-used leaderboard is the community-driven [LM Arena](https://lmarena.ai). Additionally, the [OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) focuses on the performance of open-weights models on common benchmarks like [MMLU-Pro](https://arxiv.org/abs/2406.01574). There are also specialized benchmarks which measure factors like [emotional intelligence](https://eqbench.com), ["uncensored general intelligence"](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard), and [many others](https://nebuly.com/blog/llm-leaderboards).
 
-#### Recommended models
-
-Below is a table of good models to start with.
-
-|Developer|Model name| Available sizes| Strengths | Weaknesses | Censorship |
-|---|---|---|---|---|---|
-|Google| Gemma 3|1, 4, 12, 27| Multimodal, efficient| Many hallucinations | Sexuality, Drugs |
-|Google| Gemma 3n| >2, >4| Vision capabilities, efficient, mobile-friendly | Many hallucinations | Sexuality, Drugs |
-|Alibaba| Qwen 3|0.7, 1.7, 4, 8, 14, 32, 235|Multilingual, efficient, intelligent|Not multimodal| CCP-sensitive topics|
-
 ## AI Chat Clients
 
 | Feature | [Kobold.cpp](#koboldcpp) | [Ollama](#ollama-cli) | [Llamafile](#llamafile) | [Edge Gallery](#edge-gallery-android)| [PocketPal](#pocketpal-ai-mobile)|
