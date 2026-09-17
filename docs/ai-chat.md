@@ -57,7 +57,7 @@ To help you choose a model that fits your needs, you can look at leaderboards an
 | Custom Parameters | :material-check:{ .pg-green } | :material-close:{ .pg-red } | :material-check:{ .pg-green } |  :material-alert-outline:{ .pg-orange } Model prompt cannot be changed | :material-check:{ .pg-green }|
 | Platform | :simple-linux: Linux \ :fontawesome-brands-windows: Windows \ :simple-apple: macOS :simple-macos:| :simple-gnometerminal: All CLI :simple-linux: Linux :fontawesome-brands-windows: Windows :simple-apple: macOS | :simple-linux: Linux \ :fontawesome-brands-windows: Windows (Size limitations) \ :simple-apple: macOS | :simple-android: Android | :simple-android: Android :simple-apple: :simple-ios: |
 
-## Edge Gallery (Android)
+## Edge Gallery
 
 <div class="admonition recommendation" markdown>
 
