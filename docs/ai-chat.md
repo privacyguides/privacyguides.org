@@ -65,7 +65,7 @@ To help you choose a model that fits your needs, you can look at leaderboards an
 
 **Edge Gallery** is an AI client developed by Google that features Google's latest open-weights models. It runs fully locally. You can import models you downloaded, but the app only accepts the [LiteRT](https://github.com/google-ai-edge/litert) format, which isn't widely used.
 
-The preloaded models are performant and can analyse an image. However, you might not be able to have long conversation or analyse long documents, as the app restricts the maximum context length to an ammount [multiple times smaller](https://github.com/google-ai-edge/gallery/issues/183) than what the AI model can normally support.
+The preloaded models are performant and can analyze an image. However, you might not be able to have long conversations or analyze long documents, as the app restricts the maximum context length to an amount [multiple times smaller](https://github.com/google-ai-edge/gallery/issues/183) than what the AI model can normally support.
 
 [:octicons-repo-16: Repository](https://github.com/google-ai-edge/gallery?tab=readme-ov-file#google-ai-edge-gallery-){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/google-ai-edge/gallery/wiki){ .card-link title="Documentation" }
