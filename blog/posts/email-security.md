@@ -10,7 +10,7 @@ tags:
     - Email
 license: BY-SA
 schema_type: BackgroundNewsArticle
-description: Email is ubiquitous. If you want to function in modern society, you pretty much have to have an email address. But is it really a good idea to still be relying on the same decades old techology? What can we do about replacing it?
+description: Email is ubiquitous. If you want to function in modern society, you pretty much have to have an email address. But is it really a good idea to still be relying on the same decades old technology? What can we do about replacing it?
 preview:
   cover: blog/assets/images/email-security/cover.png
 ---
