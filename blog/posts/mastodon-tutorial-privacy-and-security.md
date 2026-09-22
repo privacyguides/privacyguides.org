@@ -266,7 +266,7 @@ Confirm your choice by clicking on "Save changes" on the upper-right.
 ![Screenshot of the Mastodon web interface showing the "Preferences" page in Preferences.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-posts-default.webp)
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Hide posted media (slighly)</p>
+<p class="admonition-title">Hide posted media (slightly)</p>
 
 Additionally, you might want to check the "Always mark media as sensitive" option from the same section. This will label the media as "Sensitive content", and require others to click on it to view the image. This will **not stop anyone from clicking to view it**, including people without a Mastodon account from your account's public page, but it might *slightly* reduce the visibility for certain media.
 
