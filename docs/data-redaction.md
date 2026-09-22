@@ -5,11 +5,17 @@ icon: material/tag-remove
 description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
 cover: data-redaction.webp
 ---
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information){ .pg-green }
 
-When sharing files, be sure to remove associated metadata. Most common file types (including documents, images, and videos) include metadata. Image files, for example, commonly include [Exif](https://en.wikipedia.org/wiki/Exif) data. Photos sometimes even include GPS coordinates in the file metadata. Windows has a built-in metadata remover, but it has a [very limited number](https://digitalconfidence.com/Remove-Properties-and-Personal-Information-a-Misleading-Feature.html) of supported file types and metadata types, necessitating a reliable third-party tool.
+When sharing files, be sure to remove associated metadata. Most common file types (including documents, images, and videos) include metadata. Image files, for example, commonly include Exif data. Photos sometimes even include GPS coordinates in the file metadata. Windows has a built-in metadata remover, but unfortunately it cannot remove many types of data such as:
+
+- Documents: Comments, author names, tracked changes, hidden worksheets, slide notes, custom XML, and document revision histories.
+- Images: Camera serial numbers, XMP/IPTC data, C2PA metadata, and image thumbnails (which can dangerously expose original details from cropped or erased areas).
+- Audio & Video: XMP metadata, C2PA metadata, and certain ID3v2 tag fields.
+- Embedded Files: Hidden metadata nested inside images that are embedded within your documents.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
