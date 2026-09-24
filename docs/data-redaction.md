@@ -10,12 +10,14 @@ cover: data-redaction.webp
 
 - [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information){ .pg-green }
 
-When sharing files, be sure to remove associated metadata. Most common file types (including documents, images, and videos) include metadata. Image files, for example, commonly include Exif data. Photos sometimes even include GPS coordinates in the file metadata. Windows has a built-in metadata remover, but unfortunately it cannot remove many types of data such as:
+When sharing files, be sure to remove associated metadata. Most common file types (including documents, images, and videos) include metadata. Image files, for example, commonly include Exif data. Photos sometimes even include GPS coordinates in the file metadata.
+
+Windows has a built-in metadata remover, but unfortunately it cannot remove many types of data such as:
 
 - Documents: Comments, author names, tracked changes, hidden worksheets, slide notes, custom XML, and document revision histories.
 - Images: Camera serial numbers, XMP/IPTC data, C2PA metadata, and image thumbnails (which can dangerously expose original details from cropped or erased areas).
 - Audio & Video: XMP metadata, C2PA metadata, and certain ID3v2 tag fields.
-- Embedded Files: Hidden metadata nested inside images that are embedded within your documents.
+- Embedded Files: Hidden metadata nested inside images that are embedded within documents.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
