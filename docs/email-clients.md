@@ -77,7 +77,7 @@ These options can be found in :material-menu: → **Settings** → **Privacy & S
 
 ##### Telemetry
 
-- [ ] Uncheck  **Allow Thunderbird to send technical and interaction data to Mozilla**
+- [ ] Uncheck **Allow Thunderbird to send technical and interaction data to Mozilla**
 
 #### Thunderbird-user.js (advanced)
 

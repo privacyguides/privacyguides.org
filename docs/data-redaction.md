@@ -5,11 +5,19 @@ icon: material/tag-remove
 description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
 cover: data-redaction.webp
 ---
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information){ .pg-green }
 
-When sharing files, be sure to remove associated metadata. Image files commonly include [Exif](https://en.wikipedia.org/wiki/Exif) data. Photos sometimes even include GPS coordinates in the file metadata.
+When sharing files, be sure to remove associated metadata. Most common file types (including documents, images, and videos) include metadata. Image files, for example, commonly include Exif data. Photos sometimes even include GPS coordinates in the file metadata.
+
+Windows has a built-in metadata remover, but unfortunately it cannot remove many types of data such as:
+
+- Documents: Comments, author names, tracked changes, hidden worksheets, slide notes, custom XML, and document revision histories.
+- Images: Camera serial numbers, XMP/IPTC data, C2PA metadata, and image thumbnails (which can dangerously expose original details from cropped or erased areas).
+- Audio & Video: XMP metadata, C2PA metadata, and certain ID3v2 tag fields.
+- Embedded Files: Hidden metadata nested inside images that are embedded within documents.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
@@ -37,6 +45,27 @@ You should **never** use blur to redact [text in images](https://bishopfox.com/b
 - [:simple-apple: macOS](https://github.com/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
 - [:simple-linux: Linux](https://pypi.org/project/mat2)
 - [:octicons-browser-16: Web](https://github.com/jvoisin/mat2#web-interface)
+
+</details>
+
+</div>
+
+## Metadata Cleaner
+
+<div class="admonition recommendation" markdown>
+
+![Metadata Cleaner logo](assets/img/data-redaction/metadatacleaner.svg){ align=right }
+
+**Metadata Cleaner** is a graphical metadata removal tool for Linux powered by [MAT2](https://github.com/jvoisin/mat2).
+
+[:octicons-home-16: Homepage](https://metadatacleaner.gitlab.io/metadatacleaner/){ .md-button .md-button--primary }
+[:octicons-code-16:](https://gitlab.com/metadatacleaner/metadatacleaner/){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://gitlab.com/metadatacleaner/metadatacleaner/-/blob/main/CONTRIBUTING.md){ .card-link title="Contribute" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-flathub: Flathub](https://flathub.org/en/apps/io.gitlab.metadatacleaner.metadatacleaner)
 
 </details>
 

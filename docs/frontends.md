@@ -45,34 +45,6 @@ Redlib is useful if you want to disable JavaScript in your browser, such as [Tor
 
 </div>
 
-## TikTok
-
-### ProxiTok
-
-<div class="admonition recommendation" markdown>
-
-![ProxiTok logo](assets/img/frontends/proxitok.svg){ align=right }
-
-**ProxiTok** is an open-source frontend to the [TikTok](https://tiktok.com) website that is also self-hostable.
-
-There are a number of public instances, with some that offer a [Tor](tor.md) onion service or an [I2P](alternative-networks.md#i2p-the-invisible-internet-project) eepsite.
-
-[:octicons-repo-16: Repository](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="Public Instances" }
-[:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Source Code" }
-
-</details>
-
-</div>
-
-<div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
-
-ProxiTok is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level.
-
-</div>
-
 ## YouTube
 
 **Note:** YouTube has gradually rolled out changes to its video player and API that have thwarted some of the methods used by third-party frontends for extracting YouTube data. If you experience reliability issues with one YouTube frontend, consider trying out another that uses a different extraction method.
@@ -175,41 +147,6 @@ When using FreeTube, your IP address may still be known to YouTube, [Invidious](
 </div>
 
 By default, FreeTube blocks all YouTube advertisements. In addition, FreeTube optionally integrates with [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments.
-
-### Yattee
-
-<div class="admonition recommendation" markdown>
-
-![Yattee logo](assets/img/frontends/yattee.svg){ align=right }
-
-**Yattee** is a free and open-source privacy oriented video player for iOS, tvOS, and macOS for [YouTube](https://youtube.com). Due to App Store restrictions, you will need to take a few [extra steps](https://web.archive.org/web/20230330122839/https://gonzoknows.com/posts/Yattee) before you can use Yattee to watch YouTube. Yattee allows you to connect to instances of [Invidious](#invidious) or [Piped](#piped).
-
-When using Yattee, your subscription list is saved locally on your device.
-
-[:octicons-home-16: Homepage](https://github.com/yattee/yattee){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/yattee/yattee/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/yattee/yattee){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/yattee/yattee/wiki/Donations){ .card-link title="Contribute" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-apple: App Store](https://apps.apple.com/app/id1595136629)
-- [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
-
-</details>
-
-</div>
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
-
-When using Yattee, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances), or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
-
-</div>
-
-By default, Yattee blocks all YouTube advertisements. In addition, Yattee optionally integrates with [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments.
 
 ### LibreTube (Android)
 

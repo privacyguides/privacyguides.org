@@ -385,7 +385,7 @@ Click on the "Change PUK" button and a section will pop up. Enter a new PUK numb
 
 #### 7.4. Change the default Management key
 
-Click on the "Management key" button and a section will pop up. Enter or generate a "New management key" with a maximum of 64 characters. You can also change the encryption algorithm to "TDES", "AES128", "AES192", or "AES256" and add a pin protection by clicking on "Protect with PIN".  Then click "Save".
+Click on the "Management key" button and a section will pop up. Enter or generate a "New management key" with a maximum of 64 characters. You can also change the encryption algorithm to "TDES", "AES128", "AES192", or "AES256" and add a pin protection by clicking on "Protect with PIN". Then click "Save".
 
 ![Screenshot of the Yubico Authenticator application showing a Change management key popup.](../assets/images/yubikey-reset-and-backup/yubikey-17-config-certificateskey.webp)
 
@@ -809,7 +809,7 @@ addkey
 
 When prompted with "Please select what kind of key you want" type `8`.
 
-You will be asked to toggle on or off some subkey options.  Here, we will generate all 3 subkeys at once, but adjust this step to your required usage. You might also need different encryption algorithms for different subkeys (see options available from the previous **`gpg`** program question).
+You will be asked to toggle on or off some subkey options. Here, we will generate all 3 subkeys at once, but adjust this step to your required usage. You might also need different encryption algorithms for different subkeys (see options available from the previous **`gpg`** program question).
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">To generate subkeys separately</p>

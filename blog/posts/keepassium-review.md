@@ -122,7 +122,7 @@ That being said, if you need advanced features, you might want to [pay](https://
 
 Alternatively, if you do not need any advanced features but would like to support the project, you could use the free plan and [donate](https://keepassium.com/donate/) a fix amount to KeePassium.
 
-#### Rent-to-own
+### Rent-to-own
 
 Something interesting about KeePassium Premium's plan is that it offers a "[rent-to-own](https://support.keepassium.com/kb/license-rent-own/)" license. This means that if you pay for a KeePassium subscription for 12 months or more, you will always "own" the features you've paid for, even if you stop paying.
 

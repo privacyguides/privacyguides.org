@@ -409,7 +409,7 @@ There are many ways to help Tor survive and thrive! You can help by:
 - [Proton Mail](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion/)
 - [Tor Project](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion)
 
-***
+---
 
 For more in-depth information about Tor, you can consult our [Tor Overview](https://www.privacyguides.org/en/advanced/tor-overview/).
 

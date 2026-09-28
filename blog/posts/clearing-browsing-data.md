@@ -128,7 +128,7 @@ After making any necessary changes, click **Delete data**.
 
 ## Clearing Browsing Data on Microsoft Edge
 
-Finally, we will finish this tutorial with Microsoft Edge. Start by launching the browser. On the upper right-hand corner, click on the **three-dots icon**. Next, click  **Settings**.
+Finally, we will finish this tutorial with Microsoft Edge. Start by launching the browser. On the upper right-hand corner, click on the **three-dots icon**. Next, click **Settings**.
 
 ![Screenshot: Edge Home Page](../assets/images/clearing-your-browsing-data/edge2.webp)
 
@@ -138,7 +138,7 @@ In the settings page, navigate to **Privacy, Search, and Services**
 
 Under **Delete Browsing Data**, click on **Choose What to Clear**.
 
-![Screenshot: Edge Settings ](../assets/images/clearing-your-browsing-data/edge4.webp)
+![Screenshot: Edge Settings](../assets/images/clearing-your-browsing-data/edge4.webp)
 
 Modify the time range and data to be deleted. Afterwards, click **Clear Now**.
 
