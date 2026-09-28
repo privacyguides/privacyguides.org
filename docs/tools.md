@@ -479,7 +479,6 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 <div class="grid cards" markdown>
 
-- ![LTeX logo](assets/img/language-tools/ltex.svg){ .twemoji loading=lazy } [LTeX](language-tools.md#ltex)
 - ![LibreTranslate logo](assets/img/language-tools/libretranslate.png){ .twemoji } [LibreTranslate](language-tools.md#libretranslate)
 
 </div>
