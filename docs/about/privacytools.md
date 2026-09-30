@@ -107,10 +107,10 @@ This topic has been discussed extensively within our communities in various loca
 
 - [June 28, 2021 request for control of r/privacytoolsIO](https://reddit.com/comments/o9tllh)
 - [July 27, 2021 announcement of our intentions to move on the PrivacyTools blog, written by the team](https://web.archive.org/web/20210729184422/https://blog.privacytools.io/the-future-of-privacytools)
-- [Sept 13, 2021 announcement of the beginning of our transition to Privacy Guides on r/privacytoolsIO](https://reddit.com/pnql46)
+- [Sept 13, 2021 announcement of the beginning of our transition to Privacy Guides on r/privacytoolsIO](https://archive.ph/rMevJ)
 - [Sept 17, 2021 announcement on OpenCollective from Jonah](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides)
 - [Sept 30, 2021 Twitter thread detailing most of the events now described on this page](https://twitter.com/privacy_guides/status/1443633412800225280)
 - [Oct 1, 2021 post by u/dng99 noting subdomain failure](https://reddit.com/comments/pymthv/comment/hexwrps)
 - [Apr 2, 2022 response by u/dng99 to PrivacyTools' accusatory blog post](https://reddit.com/comments/tuo7mm/comment/i35kw5a)
 - [May 16, 2022 response by @TommyTran732 on Twitter](https://twitter.com/TommyTran732/status/1526153497984618496)
-- [Sep 3, 2022 post on Techlore's forum by @dngray](https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)
+- [Sep 3, 2022 post on Techlore's forum by @dngray](https://web.archive.org/web/20260521005749/https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)

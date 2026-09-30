@@ -112,7 +112,7 @@ Committing to this repository requires [signing your commits](https://docs.githu
 
 ## Releasing
 
-It is required to create a GitHub release to publish the current site to privacyguides.org. The current `main` branch can be previewed at [https://main.staging.privacyguides.dev](https://main.staging.privacyguides.dev) prior to release.
+It is required to create a GitHub release to publish the current site to privacyguides.org.
 
 1. Create a new tag: `git tag -s YYYY.MM.DD -m 'Some message'`
     - Tag numbering: `YYYY.MM.DD` - if two+ releases are published on the same day, append short commit to the next release, e.g. `YYYY.MM.DD-6aa14e8`
