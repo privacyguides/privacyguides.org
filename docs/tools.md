@@ -603,13 +603,23 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 ## Hardware
 
+### Hardware Wallets
+
+<div class="grid cards" markdown>
+
+- [Ledger](hardware-wallets.md#ledger-nano-gen-5)
+- [Trezor](hardware-wallets.md#trezor-safe-7)
+
+</div>
+
 ### Security Keys
 
 <div class="grid cards" markdown>
 
 - ![Yubico logo](assets/img/security-keys/mini/yubico.svg){ .twemoji loading=lazy } [Yubico Security Key](security-keys.md#yubico-security-key)
-- ![Yubico logo](assets/img/security-keys/mini/yubico.svg){ .twemoji loading=lazy } [YubiKey](security-keys.md#yubikey)
-- ![Nitrokey](assets/img/security-keys/mini/nitrokey.svg){ .twemoji loading=lazy } [Nitrokey](security-keys.md#nitrokey)
+- ![Yubico logo](assets/img/security-keys/mini/yubico.svg){ .twemoji loading=lazy } [YubiKey](security-keys.md#yubikey-5)
+- [Ledger](security-keys.md#ledger)
+- [Google Titan Security Key](security-keys.md#google-titan-security-key)
 
 </div>
 
