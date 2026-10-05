@@ -45,7 +45,7 @@ A famous example is the AOL search log release. AOL had been logging its users s
 
 #### Strava Heatmap Incident
 
-In 2018, the fitness app Strava announced a major update to its heatmap, showing the the workout patterns of users of fitness trackers like Fitbit.
+In 2018, the fitness app Strava announced a major update to its heatmap, showing the workout patterns of users of fitness trackers like Fitbit.
 
 Analyst [Nathan Ruser](https://x.com/Nrg8000/status/957318498102865920) indicated that these patterns can reveal military bases and troop movement patterns. This is obviously a huge op-sec problem and can endanger the lives of troops.
 

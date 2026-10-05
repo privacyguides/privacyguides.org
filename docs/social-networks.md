@@ -179,7 +179,7 @@ As an end user on a public homeserver, you can consider unchecking the **Enable 
 
 - [ ] (Optional) Uncheck **Record the client name, version, and url to recognize sessions for easily in session manager**
 
-Unchecking this option may make it more diffcult to discern your active sessions if you logged in to your Matrix account on multiple devices.
+Unchecking this option may make it more difficult to discern your active sessions if you logged in to your Matrix account on multiple devices.
 
 #### Encryption
 
