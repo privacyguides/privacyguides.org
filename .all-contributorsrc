@@ -3129,6 +3129,17 @@
         "maintenance",
         "question"
       ]
+    },
+    {
+      "login": "blackaly",
+      "name": "Ali Mashally",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71723982?v=4",
+      "profile": "http://mashally.org",
+      "contributions": [
+        "doc",
+        "maintenance",
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 5,
