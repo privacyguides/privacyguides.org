@@ -89,7 +89,7 @@ SELinux on [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-gett
 
 ### Drive Encryption
 
-Most Linux distributions have an option within its installer for enabling [LUKS](../encryption.md#linux-unified-key-setup) FDE. If this option isn’t set at installation time, you will have to back up your data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. We also suggest securely erasing your storage device:
+Most Linux distributions have an option within its installer for enabling [LUKS](../encryption.md#linux-unified-key-setup) FDE. If this option isn’t enabled during installation, the simplest approach is to back up your data and reinstall, as encryption is normally set up after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning) but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. However, it is also possible in some cases to encrypt an existing installation without reinstalling using `cryptsetup reencrypt`. This process is more complicated and carries a risk of data loss, so you should always back up your data first. We also suggest securely erasing your storage device:
 
 - [Secure Data Erasure :material-arrow-right-drop-circle:](https://www.privacyguides.org/articles/2022/05/25/secure-data-erasure/)
 
