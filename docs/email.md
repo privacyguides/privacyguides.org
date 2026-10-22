@@ -167,7 +167,7 @@ Mailbox Mail doesn't accept any cryptocurrencies as a result of their payment pr
 
 #### :material-check:{ .pg-green } Account Security
 
-Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/security-and-privacy/how-to-use-two-factor-authentication-2fa/) for their webmail only. You can use either TOTP or a [YubiKey](security-keys.md#yubikey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) are not yet supported.
+Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/security-and-privacy/how-to-use-two-factor-authentication-2fa/) for their webmail only. You can use either TOTP or a [YubiKey](security-keys.md#yubikey-5) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) are not yet supported.
 
 #### :material-information-outline:{ .pg-blue } Data Security
 
