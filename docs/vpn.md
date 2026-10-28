@@ -338,7 +338,7 @@ Obscura's protocol combines WireGuard and QUIC. You can also generate standard [
 
 #### :material-information-outline:{ .pg-blue } IPv6 and Remote Port Forwarding
 
-Obscura's only supports outbound IPv6 from Mullvad's servers, no inbound IPv6 to the Obscura realy servers. Full IPv6 support is planned for a future release. Obscura VPN does not support remote port forwarding.
+Obscura's only supports outbound IPv6 from Mullvad's servers, no inbound IPv6 to the Obscura's relay servers. Full IPv6 support is planned for a future release. Obscura VPN does not support remote port forwarding.
 
 #### :material-information-outline:{ .pg-blue } Kill Switch
 
