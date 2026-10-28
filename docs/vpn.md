@@ -346,7 +346,7 @@ Obscura supports using a kill switch on all major platforms, however the feature
 
 #### :material-information-outline:{ .pg-blue } Additional Notes
 
-Obscura is operated by Sovereign Engineering Inc. Its [Terms of Service](https://obscura.com/legal/) designate New York as the service's jurisdiction and apply New York law.
+Obscura is operated by Sovereign Engineering Inc. Its [Terms of Service](https://obscura.com/legal/) designate New York as the service's jurisdiction, therefore it is subject to New York law.
 
 ## Criteria
 
