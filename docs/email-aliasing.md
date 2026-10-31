@@ -103,14 +103,13 @@ If you cancel your subscription, you will still enjoy the features of your paid 
 
 [:octicons-home-16: Homepage](https://relay.firefox.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/subscription-services){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mozilla.org/en-US/products/relay){ .card-link title="Documentation" }
+[:octicons-info-16:](https://support.mozilla.org/products/relay){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/mozilla/fx-private-relay){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://www.mozillafoundation.org/en/donate/){ .card-link title="Contribute" }
 
-
 </div>
 
-Firefox Relay is an email alias forwarding service from Mozilla. Relay is built into the [Firefox browser](https://privacyguides.org/en/desktop-browsers/#firefox), both on desktop and mobile. Firefox Relay requires a Mozilla account, and is designed to forward emails to the email address set in your Mozilla account, automatically removing email trackers from forwarded emails. The premium tier also has promotional email blocking, a feature that will forward you important emails, such as receipts, password resets and confirmations while still blocking marketing messages. In addition, premium users can also reply to emails that have been forwarded within 3 months of receiving the email. If you add a CC or BCC when you reply to an email, your original email address will be exposed to the recipient and those copied on the email. 
+Firefox Relay is an email alias forwarding service from Mozilla. Relay is built into the [Firefox browser](https://privacyguides.org/en/desktop-browsers/#firefox), both on desktop and mobile. Firefox Relay requires a Mozilla account, and is designed to forward emails to the email address set in your Mozilla account, automatically removing email trackers from forwarded emails. The premium tier also has promotional email blocking, a feature that will forward you important emails, such as receipts, password resets and confirmations while still blocking marketing messages. In addition, premium users can also reply to emails that have been forwarded within 3 months of receiving the email. If you add a CC or BCC when you reply to an email, your original email address will be exposed to the recipient and those copied on the email.
 
 Firefox Relay does not store forwarded emails, but under the rare circumstance in which the service is down, Firefox Relay may temporarily store your emails until they can be forwarded. Firefox Relay does not store emails for longer than three days.
 
