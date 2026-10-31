@@ -82,6 +82,32 @@ The app also includes a setting for sharing anonymous data about your downloaded
 
 OsmAnd allows you to overlay or underlay external map data, such as satellite images from Microsoft or [traffic data](https://themm.net/public/osmand_traffic) from Google, although the latter is ignored by the automatic route planning. OsmAnd also has an optional integration of street view images provided by [Mapillary](https://mapillary.com).
 
+## HERE WeGo
+
+<div class="admonition recommendation" markdown>
+
+![HERE WeGo logo](assets/img/maps/here.png){ align=right }
+
+**HERE WeGo** is a proprietary app made by HERE Technologies, a company owned by a consortium of multiple German automakers as well as Intel. The app's features include turn-by-turn navigation for walking, cycling and driving as well as using public transport, live traffic information, speed camera warnings, terrain and satellite maps, the ability to download maps for offline use, and shop info such as opening times or Yelp reviews.
+
+The app can send your location data in order to provide real-time traffic information, but this is an opt-in feature and the data is anonymized (not linked to your personal identity). 
+
+[:octicons-home-16: Homepage](https://www.here.com/products/wego){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://legal.here.com/en-gb/privacy/here-wego-here-application-or-here-maps-privacy-supplement-updated){ .card-link title="Privacy Policy" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.here.app.maps&pli=1)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/here-wego-maps-navigation/id955837609)
+- [:octicons-browser-16: Web](https://wego.here.com/)
+
+</details>
+
+</div>
+
+Unlike the previous recommendations, HERE WeGo uses its own proprietary map data and is therefore a good option for users who live in regions where OpenStreetMap is insufficient. In fact, HERE's map data is used by several car manufacturers for their built-in navigation systems.
+
 ## Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
