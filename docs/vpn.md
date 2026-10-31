@@ -36,6 +36,7 @@ Our recommended providers use encryption, support WireGuard & OpenVPN, and have 
 | [Proton](#proton-vpn) | 127+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Partial Support | :material-information-outline:{ .pg-blue } Limited Support | Cash |
 | [IVPN](#ivpn) | 41+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } | :material-information-outline:{ .pg-blue } Outgoing Only | Monero  Cash |
 | [Mullvad](#mullvad) | 49+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } | :material-check:{ .pg-green } | Monero  Cash |
+| [Obscura](#obscura-vpn) | 27+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } | :material-information-outline:{ .pg-blue } Outgoing only | Monero |
 
 ### Proton VPN
 
@@ -286,6 +287,66 @@ Mullvad has published [App Store](https://apps.apple.com/app/id1488466513) and [
 #### :material-information-outline:{ .pg-blue } Additional Notes
 
 Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers). They also provide the option to enable Defense Against AI-guided Traffic Analysis ([DAITA](https://mullvad.net/en/blog/daita-defense-against-ai-guided-traffic-analysis)) in their apps. DAITA protects against the threat of advanced traffic analysis which can be used to connect patterns in VPN traffic with specific websites.
+
+### Obscura VPN
+
+<div class="admonition recommendation" markdown>
+
+![Obscura VPN logo](assets/img/vpn/obscura.svg){ align=right }
+
+**Obscura VPN** is a 2-party multi-hop VPN service operated by Sovereign Engineering Inc. Its two-party design separates the relay that sees your IP address from the exit server that can see your destination traffic. Obscura has been operating since 2025 and uses currently only uses Mullvad-operated exit servers.
+
+[:octicons-home-16: Homepage](https://obscura.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://obscura.com/legal/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://obscura.com/knowledge/){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/Sovereign-Engineering/obscuravpn-client){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/app/obscura-vpn/id6746820048)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.obscura.vpnclientapp)
+- [:simple-github: GitHub](https://github.com/Sovereign-Engineering/obscuravpn-client/releases)
+- [:simple-apple: macOS](https://obscura.com/download/mac/)
+- [:fontawesome-brands-windows: Windows](https://obscura.com/download/windows/)
+- [:simple-linux: Linux](https://obscura.com/download/linux/)
+- [WireGuard configurations](https://obscura.com/knowledge/using-obscura-via-wireguard/)
+
+</details>
+
+</div>
+
+#### :material-check:{ .pg-green } 27 Countries
+
+Obscura lists [exit servers in 27 countries](https://obscura.com/pricing/). Its exit servers are operated by Mullvad, while Obscura operates the relay servers on rented dedicated server hardware from DataPacket.
+
+#### :material-check:{ .pg-green } Independently Audited
+
+[Cure53 audited Obscura's macOS app, network extension, and protocol](https://obscura.com/blog/obscuras-first-audit/) in 2025. The published report found no high-severity vulnerabilities; Obscura says the lower-severity findings were fixed. The audit did not cover Obscura's full server infrastructure or all client platforms.
+
+#### :material-check:{ .pg-green } Open-Source Clients
+
+Obscura publishes its client source code in its [GitHub repository](https://github.com/Sovereign-Engineering/obscuravpn-client). The repository includes clients for its supported platforms.
+
+#### :material-check:{ .pg-green } Accepts Monero and Bitcoin Lightning
+
+Obscura accepts **Monero** for anonymous payments and **Bitcoin Lightning** for one-time account top-ups. These payment methods are not available for recurring subscriptions. In addition to this they also support subscriptions and top ups with a Credit/Debit card using Stripe.
+
+#### :material-check:{ .pg-green } WireGuard Support
+
+Obscura's protocol combines WireGuard and QUIC. You can also generate standard [WireGuard configurations](https://obscura.com/knowledge/using-obscura-via-wireguard/) for use with generic WireGuard clients.
+
+#### :material-information-outline:{ .pg-blue } IPv6 and Remote Port Forwarding
+
+Obscura's only supports outbound IPv6 from Mullvad's servers, no inbound IPv6 to the Obscura's relay servers. Full IPv6 support is planned for a future release. Obscura VPN does not support remote port forwarding.
+
+#### :material-information-outline:{ .pg-blue } Kill Switch
+
+Obscura supports using a kill switch on all major platforms, however the feature is currently classified as experimental. The kill switch on macOS and iOS have additional quirks, the [current platform documentation](https://obscura.com/knowledge/kill-switch/) gives additional information about those platforms.
+
+#### :material-information-outline:{ .pg-blue } Additional Notes
+
+Obscura is operated by Sovereign Engineering Inc. Its [Terms of Service](https://obscura.com/legal/) designate New York as the service's jurisdiction, therefore it is subject to New York law.
 
 ## Criteria
 
