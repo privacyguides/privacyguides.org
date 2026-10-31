@@ -3140,6 +3140,15 @@
         "maintenance",
         "translation"
       ]
+    },
+    {
+      "login": "louisleesiana",
+      "name": "Louis Lee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/325225420?v=4",
+      "profile": "https://github.com/LouisLeesiana",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 5,

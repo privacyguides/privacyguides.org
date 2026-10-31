@@ -5,6 +5,7 @@ icon: material/chat-processing
 description: Encrypted messengers like Signal and SimpleX keep your sensitive communications secure from prying eyes.
 cover: real-time-communication.webp
 ---
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
@@ -64,37 +65,6 @@ Contact lists on Signal are encrypted using your Signal PIN and the server does 
 Signal supports [private groups](https://signal.org/blog/signal-private-group-system), where the server has no record of your group memberships, group titles, group avatars, or group attributes. Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender) is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server. Sealed Sender is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam.
 
 The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs).
-
-### Molly (Android)
-
-If you use Android and your threat model requires protecting against [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red } you may consider using this alternative app, which features a number of security and usability improvements, to access the Signal network.
-
-<div class="admonition recommendation" markdown>
-
-![Molly logo](assets/img/messengers/molly.svg){ align=right }
-
-**Molly** is an alternative Signal client for Android which allows you to encrypt the local database with a passphrase at rest, to have unused RAM data securely shredded, to route your connection via Tor, and [more](https://www.privacyguides.org/articles/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). It also has usability improvements including scheduled backups, automatic locking, and the ability to use your Android phone as a linked device instead of the primary device for a Signal account.
-
-[:octicons-home-16: Homepage](https://molly.im){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/mollyim/mollyim-android/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mollyim/mollyim-android){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/mollyim){ .card-link title="Contribute" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-fdroid: F-Droid](https://molly.im/fdroid)
-- [:octicons-moon-16: Accrescent](https://accrescent.app/app/im.molly.app)
-- [:simple-github: GitHub](https://github.com/mollyim/mollyim-android/releases)
-
-</details>
-
-</div>
-
-Note that you are trusting multiple parties by using Molly, as you now need to trust the Signal team *and* the Molly team to deliver safe and timely updates.
-
-Molly provides support for [reproducible builds](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), meaning it's possible to confirm that the compiled APKs match the source code.
 
 ## SimpleX Chat
 
@@ -189,4 +159,3 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 [^1]: [Forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
 [^2]: Future secrecy (or [post-compromise security](https://eprint.iacr.org/2016/221.pdf)) is a feature where an attacker is prevented from decrypting **future** messages after compromising a private key, unless they compromise more session keys in the future as well. This effectively forces the attacker to intercept all communication between parties since they lose access as soon as a key exchange occurs that is not intercepted.
-[^3]: You may refer to this step-by-step tutorial in German on how to set up UnifiedPush as the notification provider for Molly: [https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy](https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy).
