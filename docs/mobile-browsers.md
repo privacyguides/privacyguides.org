@@ -287,6 +287,13 @@ The **Advanced Tracking and Fingerprinting Protection** setting will randomize c
 
 - [x] Select **All Browsing** or **Private Browsing**
 
+<details class="warning" markdown>
+<summary>May interfere with Wi-Fi's DNS</summary>
+
+  When enabled, Safari's **Advanced Tracking and Fingerprinting Protection** may interfere with DNS configurations provided by your Wi-Fi network or Manual DNS setup. This could affect the resolution of custom DNS records or disrupt network based DNS sinkholes.
+
+</details>
+
 ##### Privacy Preserving Ad Measurement
 
 - [ ] Disable **Privacy Preserving Ad Measurement**
