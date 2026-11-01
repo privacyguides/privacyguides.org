@@ -171,7 +171,7 @@ Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/priv
 
 #### :material-information-outline:{ .pg-blue } Data Security
 
-Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/encryption/your-encrypted-mailbox/). New messages that you receive will then be immediately encrypted with your public key. Messages in the Sent folder are not stored in encrypted form.
+Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/encryption/your-encrypted-mailbox/). New messages that you receive will then be immediately encrypted with your public key. Messages in the Sent folder are not encrypted with your public key.
 
 However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/business/security-privacy-article/encryption-of-calendar-and-address-book/) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that data.
 
