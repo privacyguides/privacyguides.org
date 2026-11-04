@@ -19,7 +19,7 @@ jobs:
   build:
     strategy:
       matrix:
-        lang: [en, es, fr, he, it, nl, ru, zh-Hant, zh-TW]
+        lang: [en, es, fr, he, it, ja, nl, ru, zh-Hant, zh-TW]
     permissions:
       contents: read
     uses: ./.github/workflows/build.yml
