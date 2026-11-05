@@ -23,7 +23,7 @@ fi
 
 # Defaults
 build=false
-language="en"
+language="${PG_LANG:-en}"
 base_cmd="pipenv run mkdocs"
 offline=false
 cmd_flags=()
