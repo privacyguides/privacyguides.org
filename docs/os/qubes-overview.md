@@ -19,7 +19,7 @@ Some of the information here and on the Qubes OS documentation may contain confl
 ![Qubes architecture](../assets/img/qubes/qubes-trust-level-architecture.png)
 <figcaption>Qubes Architecture, Credit: What is Qubes OS Intro</figcaption>
 
-Each qube has a [colored border](https://qubes-os.org/screenshots) that can help you keep track of the domain in which it runs. You could, for example, use a specific color for your banking browser, while using a different color for a general untrusted browser.
+Each qube's application window has a [colored border](https://qubes-os.org/screenshots) to help you identify which domain it's running in. You could, for example, use a specific color for your banking browser, while using a different color for a general untrusted browser.
 
 ![Colored border](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
 <figcaption>Qubes window borders, Credit: Qubes Screenshots</figcaption>
@@ -46,7 +46,7 @@ To copy and paste files and directories (folders) from one *qube* to another, yo
 <details class="note" markdown>
 <summary>Qubes do not have their own filesystems.</summary>
 
-You can [copy and move files](https://qubes-os.org/doc/how-to-copy-and-move-files) between *qubes*. When doing so the changes aren't immediately made and can be easily undone in case of an accident. When you run a *qube*, it does not have a persistent filesystem. You can create and delete files, but these changes are ephemeral.
+You can [copy and move files](https://qubes-os.org/doc/how-to-copy-and-move-files) between *qubes*. When doing so the changes aren't immediately made and can't be easily undone in case of an accident. When you run a *qube*, it does not have a persistent filesystem. You can create and delete files, but these changes are ephemeral.
 
 </details>
 
