@@ -1,0 +1,88 @@
+# Copyright (c) 2022 Jonah Aragon <jonah@triplebit.net>
+# SPDX-License-Identifier: MIT
+# See LICENSE-CODE.
+
+site_name: Privacy Guides
+
+repo_url:
+  !ENV [BUILD_REPO_URL, "https://github.com/privacyguides/privacyguides.org"]
+repo_name: ""
+
+extra:
+  scope: /
+  homepage: /
+  generator: false
+  context: !ENV [BUILD_CONTEXT, "production"]
+  offline: !ENV [BUILD_OFFLINE, false]
+  deploy: !ENV DEPLOY_ID
+  ghost:
+    base_url: https://www.privacyguides.org
+    admin_url: https://www.privacyguides.org/ghost
+    tb_site_uuid: 5f3bdb03-a1af-4844-85ca-cbc82c89eb9a
+    content_api_key: da9d77deb3e85ee73925167f3a
+
+theme:
+  name: material
+  language: !ENV [BUILD_THEME_LANGUAGE, "en"]
+  font:
+    text: !ENV [BUILD_THEME_FONT_TEXT, "Public Sans"]
+    code: !ENV [BUILD_THEME_FONT_CODE, "DM Mono"]
+  palette:
+    - media: "(prefers-color-scheme)"
+      scheme: default
+      accent: deep purple
+      toggle:
+        icon: material/brightness-auto
+        name: !ENV [THEME_DARK, "Switch to dark mode"]
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      accent: amber
+      toggle:
+        icon: material/brightness-2
+        name: !ENV [THEME_LIGHT, "Switch to light mode"]
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      accent: deep purple
+      toggle:
+        icon: material/brightness-5
+        name: !ENV [THEME_AUTO, "Switch to system theme"]
+  icon:
+    repo: simple/github
+
+markdown_extensions:
+  admonition: {}
+  pymdownx.details: {}
+  pymdownx.superfences:
+    custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format
+  pymdownx.tabbed:
+    alternate_style: true
+  pymdownx.arithmatex:
+    generic: true
+  pymdownx.critic: {}
+  pymdownx.caret: {}
+  pymdownx.keys: {}
+  pymdownx.mark: {}
+  pymdownx.tilde: {}
+  pymdownx.snippets:
+    auto_append:
+      - !ENV [BUILD_ABBREVIATIONS, "includes/abbreviations.en.txt"]
+  pymdownx.tasklist:
+    custom_checkbox: true
+  attr_list: {}
+  def_list: {}
+  md_in_html: {}
+  meta: {}
+  abbr: {}
+  pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    options:
+      custom_icons:
+        - theme/icons
+  tables: {}
+  footnotes: {}
+  toc:
+    toc_depth: 3
