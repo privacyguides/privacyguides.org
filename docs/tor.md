@@ -22,6 +22,12 @@ schema:
       "@type": WebPage
       url: "./"
 ---
+<!--
+SPDX-FileCopyrightText: 2020-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2016-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
 
 <small>Protects against the following threat(s):</small>
 

@@ -4,6 +4,13 @@ icon: material/account-supervisor-circle-outline
 description: Find a new social network that doesn’t pry into your data or monetize your profile.
 cover: social-networks.webp
 ---
+<!--
+SPDX-FileCopyrightText: 2019-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2015-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }

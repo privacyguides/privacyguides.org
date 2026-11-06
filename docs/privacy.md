@@ -2,6 +2,13 @@
 title: "Privacy Policy"
 description: We do not sell or share your data with any third-parties.
 ---
+<!--
+SPDX-FileCopyrightText: 2022-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 ## What is Privacy Guides?
 
 Privacy Guides is a community project operated by a number of active contributors. The public list of team members [can be found on our forum](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all). Privacy Guides is legally administered by [MAGIC Grants](https://magicgrants.org), a 501(c)(3) public charity acting as our fiscal host.

@@ -2,6 +2,13 @@
 title: "Notices and Disclaimers"
 description: Information about our website license, acceptable use policy, and other important details.
 ---
+<!--
+SPDX-FileCopyrightText: 2019-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2019-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 
 ## Legal Disclaimer
 

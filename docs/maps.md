@@ -5,6 +5,12 @@ icon: material/map
 description: Privacy-respecting map providers and navigation apps which don't build an advertising profile based on your searches and locations.
 cover: maps.webp
 ---
+<!--
+SPDX-FileCopyrightText: 2025-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }

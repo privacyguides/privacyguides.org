@@ -4,6 +4,12 @@ icon: material/file-edit-outline
 description: These office suites offer their full functionality without an account and can be used offline.
 cover: office-suites.webp
 ---
+<!--
+SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }

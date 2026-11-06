@@ -2,6 +2,13 @@
 title: Donate
 description: The charitable mission of Privacy Guides relies on contributions from visitors like yourself. Anything you can do to support the project is hugely appreciated.
 ---
+<!--
+SPDX-FileCopyrightText: 2022-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 <!-- markdownlint-disable MD036 -->
 Support our mission to defend digital rights and spread the word about mass surveillance programs and other daily privacy invasions. You can help Privacy Guides researchers, activists, and maintainers create informative content, host private digital services, and protect privacy rights at a time when the world needs it most.
 

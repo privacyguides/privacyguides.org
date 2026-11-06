@@ -4,6 +4,13 @@ description: As privacy activists, we must be a voice for resistance and take a 
 icon: fontawesome/solid/xmark-circle
 cover: activism/banner-toolbox-tip-refuse.webp
 ---
+<!--
+SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 As privacy advocates and activists, it's important to **be a voice for resistance** and take a stand against abusive practices. One substantial way to do this is to refuse to participate in privacy-intrusive requests, or use invasive software.
 
 Here's how you can refuse to comply with privacy-abusive practices, and why it's imperative that you do whenever possible:

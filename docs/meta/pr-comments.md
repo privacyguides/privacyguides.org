@@ -2,6 +2,13 @@
 title: Commenting on PRs
 description: A guide on participating in Pull Request discussions.
 ---
+<!--
+SPDX-FileCopyrightText: 2025-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2025-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 Please refrain from using the general **Add a comment** box in GitHub PRs when leaving a comment or performing a review.
 
 ![Do not use the general "Add a comment" box in GitHub](../assets/images/meta/pr-avoid-general-comments.png)

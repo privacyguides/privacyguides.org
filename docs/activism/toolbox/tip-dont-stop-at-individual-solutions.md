@@ -4,6 +4,13 @@ description: When we think about privacy, we often focus on technical individual
 icon: fontawesome/solid/users-rays
 cover: activism/banner-toolbox-tip-expand.webp
 ---
+<!--
+SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 When we think about our privacy, we often focus on the technical tools we can use to protect it. While this is an important *component*, it's crucial not to lose sight of how regulations and invasive practices impact us collectively.
 
 Here's what to keep in mind to **expand your perspective on data privacy** beyond individual solutions:

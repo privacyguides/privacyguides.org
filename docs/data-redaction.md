@@ -5,6 +5,13 @@ icon: material/tag-remove
 description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
 cover: data-redaction.webp
 ---
+<!--
+SPDX-FileCopyrightText: 2020-2026 Jonah Aragon and Daniel Gray
+SPDX-FileCopyrightText: 2019-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 
 <small>Protects against the following threat(s):</small>
 

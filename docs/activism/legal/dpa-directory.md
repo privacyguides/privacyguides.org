@@ -4,6 +4,12 @@ description: The DPA Directory is a tool to help you find the principal consumer
 #icon: fontawesome/solid/address-card
 cover: activism/banner-activism-dpadirectory.webp
 ---
+<!--
+SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 
 <small>Last update: 2026-03-30</small>
 

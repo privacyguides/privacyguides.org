@@ -4,6 +4,13 @@ hide:
   - toc
 description: A complete list of contributors who have collectively made an enormous impact on the Privacy Guides project.
 ---
+<!--
+SPDX-FileCopyrightText: 2024-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2024-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 <!-- Do NOT manually edit this file, please add yourself to the .all-contributorsrc file instead. See our GitHub Issues for more details -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of **any** kind are welcome to be added to [this list](https://github.com/privacyguides/privacyguides.org/blob/main/.all-contributorsrc), including contributions to Privacy Guides outside this repo, and contributions that aren't content related (like sharing ideas for Privacy Guides, promoting the project, answering questions on the forum, etc.).

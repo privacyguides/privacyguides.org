@@ -4,6 +4,13 @@ title: "Account Creation"
 icon: 'material/account-plus'
 description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
 ---
+<!--
+SPDX-FileCopyrightText: 2022-2026 Jonah Aragon and Daniel Gray
+SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 
 Often people sign up for services without thinking. Maybe it's a streaming service to watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. Whatever the case may be, you should consider the implications for your data now and later on down the line.
 

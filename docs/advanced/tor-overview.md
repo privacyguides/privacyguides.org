@@ -3,6 +3,13 @@ title: "Tor Overview"
 icon: 'simple/torproject'
 description: Tor is a free to use, decentralized network designed for using the internet with as much privacy as possible.
 ---
+<!--
+SPDX-FileCopyrightText: 2022-2026 Jonah Aragon and Daniel Gray
+SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 
 ![Tor logo](../assets/images/self-contained-networks/tor.svg){ align=right }
 

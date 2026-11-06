@@ -4,6 +4,12 @@ icon: material/content-paste
 description: These tools allow you to have full control of any pasted data you share to other parties.
 cover: pastebins.webp
 ---
+<!--
+SPDX-FileCopyrightText: 2016-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }

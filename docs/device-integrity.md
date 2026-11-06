@@ -5,6 +5,13 @@ description: These tools can be used to check your devices for compromise.
 cover: device-integrity.webp
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
+<!--
+SPDX-FileCopyrightText: 2021-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2021-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 
 These tools can be used to validate the integrity of your mobile devices and check them for indicators of compromise by spyware and malware such as Pegasus, Predator, or KingsPawn. This page focuses on **mobile security**, because mobile devices typically have read-only systems with well-known configurations, so detecting malicious modifications is easier than on traditional desktop systems. We may expand the focus of this page in the future.
 

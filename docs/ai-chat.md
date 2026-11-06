@@ -5,6 +5,13 @@ icon: material/assistant
 description: Unlike OpenAI's ChatGPT and its Big Tech competitors, these AI tools run locally so your data never leaves your desktop device.
 cover: ai-chatbots.webp
 ---
+<!--
+SPDX-FileCopyrightText: 2025-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2024-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }

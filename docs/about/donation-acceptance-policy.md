@@ -2,6 +2,13 @@
 title: Donation Acceptance Policy
 description: Privacy Guides aspires to obtain funding from a wide variety of sources to reduce our dependency on any single donor. Please consider donating!
 ---
+<!--
+SPDX-FileCopyrightText: 2025-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2025-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 
 Privacy Guides takes the ethical responsibility of making unbiased recommendations on its website very seriously.
 
