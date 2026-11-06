@@ -36,6 +36,9 @@ jobs:
           fetch-depth: 0
           submodules: true
 
+      - name: Set up Docker build image
+        uses: ./.github/actions/setup-build
+
       - name: Build Blog
         uses: ./.github/actions/build-site
         env:

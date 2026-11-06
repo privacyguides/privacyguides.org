@@ -71,6 +71,9 @@ jobs:
           key: mkdocs-${{ inputs.lang }}-${{ hashFiles('requirements.txt') }}-${{ github.sha }}
           restore-keys: mkdocs-${{ inputs.lang }}-${{ hashFiles('requirements.txt') }}-
 
+      - name: Set up Docker build image
+        uses: ./.github/actions/setup-build
+
       - name: Build Website
         uses: ./.github/actions/build-site
         env:

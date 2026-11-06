@@ -74,6 +74,9 @@ jobs:
           fetch-depth: 0
           submodules: true
 
+      - name: Set up Docker build image
+        uses: ./.github/actions/setup-build
+
       - name: Build English
         if: matrix.edition != 'articles'
         uses: ./.github/actions/build-site
@@ -207,6 +210,9 @@ jobs:
       - name: Copy Translation Files
         if: matrix.lang != 'en'
         run: cp -a translations/i18n translations/includes .
+
+      - name: Set up Docker build image
+        uses: ./.github/actions/setup-build
 
       - name: Build Website
         uses: ./.github/actions/build-site

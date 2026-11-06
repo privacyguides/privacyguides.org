@@ -1,20 +1,12 @@
 name: Build with Docker
-description: Build the repository Dockerfile and run a site command in it.
+description: Run a site command in the container.
 inputs:
   command:
-    description: Shell commands to run inside the build container.
+    description: Shell commands to run inside the container.
     required: true
 runs:
   using: composite
   steps:
-    - uses: docker/setup-buildx-action@v3
-    - uses: docker/build-push-action@v6.9.0
-      with:
-        context: .
-        load: true
-        tags: privacyguides-build:local
-        cache-from: type=gha
-        cache-to: type=gha,mode=max
     - shell: bash
       env:
         BUILD_COMMAND: ${{ inputs.command }}

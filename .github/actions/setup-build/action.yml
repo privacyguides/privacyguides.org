@@ -1,0 +1,13 @@
+name: Set up Docker build image
+description: Build and load the container image.
+runs:
+  using: composite
+  steps:
+    - uses: docker/setup-buildx-action@v3
+    - uses: docker/build-push-action@v6.9.0
+      with:
+        context: .
+        load: true
+        tags: privacyguides-build:local
+        cache-from: type=gha
+        cache-to: type=gha,mode=max
