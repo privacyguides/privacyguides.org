@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2025-2026 Jonah Aragon
+# SPDX-License-Identifier: MIT
+
 import requests
 import os
 

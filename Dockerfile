@@ -1,5 +1,8 @@
 # syntax=docker/dockerfile:1
 
+# SPDX-FileCopyrightText: 2024-2026 Jonah Aragon and the Privacy Guides contributors
+# SPDX-License-Identifier: MIT
+
 FROM python:3.15-slim-bookworm
 
 LABEL org.opencontainers.image.source="https://github.com/privacyguides/privacyguides.org"

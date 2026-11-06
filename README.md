@@ -158,7 +158,7 @@ It is required to create a GitHub release to publish the current site to privacy
 
 ## License
 
-Copyright &copy; 2019 - 2026 [Privacy Guides contributors](#contributors).
+<!-- SPDX-FileCopyrightText: 2020-2026 Jonah Aragon and the Privacy Guides contributors -->
 
 Privacy Guides content is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](/LICENSE), and the underlying source code used to format and display that content on [www.privacyguides.org](https://www.privacyguides.org) is licensed under the [MIT License](/LICENSE-CODE).
 

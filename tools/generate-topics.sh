@@ -1,4 +1,6 @@
 #!/bin/bash
+# SPDX-FileCopyrightText: 2024-2026 Jonah Aragon
+# SPDX-License-Identifier: MIT
 
 DATE_CMD="date"
 

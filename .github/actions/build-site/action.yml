@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
+# SPDX-License-Identifier: MIT
+
 name: Build with Docker
 description: Run a site command in the container.
 inputs:

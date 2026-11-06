@@ -1,4 +1,6 @@
 #!/bin/bash
+# SPDX-FileCopyrightText: 2025-2026 Jonah Aragon
+# SPDX-License-Identifier: MIT
 
 # Script to find and delete unreferenced asset files
 # This script searches through all HTML, CSS, and JavaScript files to see if asset files are referenced

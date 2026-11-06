@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2023-2026 Jonah Aragon and the Privacy Guides contributors
+# SPDX-License-Identifier: MIT
+
 definitions:
   - &site_name >-
     {{ config.site_name }}

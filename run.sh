@@ -1,4 +1,7 @@
 #!/bin/bash
+# SPDX-FileCopyrightText: 2024-2026 Jonah Aragon
+# SPDX-License-Identifier: MIT
+
 # Production: BUILD_CONTEXT=production ./run.sh build --strict
 # Translation: SITE_LANGUAGE=fr BUILD_CONTEXT=production ./run.sh build
 # Blog: ./run.sh --blog build --strict (or ./run.sh --blog to serve)

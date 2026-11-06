@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
+# SPDX-License-Identifier: MIT
+
 name: Set up Docker build image
 description: Build and load the container image.
 runs:
