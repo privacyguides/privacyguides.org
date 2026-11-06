@@ -3,12 +3,6 @@ name: 🛠️ Build Blog
 on:
   workflow_call:
     inputs:
-      ref:
-        required: true
-        type: string
-      repo:
-        required: true
-        type: string
       context:
         type: string
         default: deploy-preview
@@ -30,8 +24,8 @@ jobs:
       - name: Download Repository
         uses: actions/checkout@v4
         with:
-          repository: ${{ inputs.repo }}
-          ref: ${{ inputs.ref }}
+          repository: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name || github.repository }}
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.sha }}
           persist-credentials: false
           fetch-depth: 0
           submodules: true

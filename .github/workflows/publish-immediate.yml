@@ -41,8 +41,6 @@ jobs:
       contents: read
     uses: ./.github/workflows/build-blog.yml
     with:
-      repo: ${{ github.repository }}
-      ref: ${{ github.ref }}
       continue-on-error: false
       context: production
 

@@ -38,8 +38,6 @@ jobs:
     if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build blog') }}
     uses: ./.github/workflows/build-blog.yml
     with:
-      ref: ${{github.event.pull_request.head.sha}}
-      repo: ${{github.event.pull_request.head.repo.full_name}}
       continue-on-error: true
 
   build_zimfile:
