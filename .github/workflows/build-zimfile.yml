@@ -26,19 +26,45 @@ env:
 
 jobs:
   package_eng:
+    name: Package English (${{ matrix.edition }})
     runs-on: ubuntu-latest
     permissions:
       contents: read
-
-    env:
-      LANGUAGE_SWITCHER: false
-      MAIN_SITE_BASE_URL: /en/index.html
-      MAIN_SITE_ABOUT_URL: /en/about.html
-      MAIN_SITE_RECOMMENDATIONS_URL: /en/tools.html
-      MAIN_SITE_KNOWLEDGE_BASE_URL: /en/basics/why-privacy-matters.html
-      ARTICLES_SITE_BASE_URL: /articles/index.html
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - edition: all
+            root: en
+            description: Your central privacy and security resource to protect yourself online.
+            navigation: |
+              LANGUAGE_SWITCHER=false
+              MAIN_SITE_BASE_URL=/en/index.html
+              MAIN_SITE_ABOUT_URL=/en/about.html
+              MAIN_SITE_RECOMMENDATIONS_URL=/en/tools.html
+              MAIN_SITE_KNOWLEDGE_BASE_URL=/en/basics/why-privacy-matters.html
+              ARTICLES_SITE_BASE_URL=/articles/index.html
+          - edition: kb
+            root: en
+            description: Knowledge base articles and recommendations from Privacy Guides.
+            navigation: |
+              LANGUAGE_SWITCHER=false
+              ARTICLES_SITE_BASE_URL=https://www.privacyguides.org/posts/tag/articles/
+          - edition: articles
+            root: articles
+            description: Long-form articles from the Privacy Guides team and other contributors.
+            navigation: |
+              MAIN_SITE_BASE_URL=https://www.privacyguides.org/en/
+              MAIN_SITE_ABOUT_URL=https://www.privacyguides.org/en/about/
+              MAIN_SITE_RECOMMENDATIONS_URL=https://www.privacyguides.org/en/tools/
+              MAIN_SITE_KNOWLEDGE_BASE_URL=https://www.privacyguides.org/en/basics/
 
     steps:
+      - name: Set edition navigation
+        env:
+          EDITION_NAVIGATION: ${{ matrix.navigation }}
+        run: printf '%s\n' "$EDITION_NAVIGATION" >> "$GITHUB_ENV"
+
       - name: Download Repository
         uses: actions/checkout@v4
         with:
@@ -49,20 +75,15 @@ jobs:
           submodules: true
 
       - name: Build English
+        if: matrix.edition != 'articles'
         uses: ./.github/actions/build-site
         with:
           command: |
             python tools/generate-members.py > /tmp/members.md && cp /tmp/members.md includes/members.md || true
             ./run.sh build
 
-      - name: Delete Unreferenced Assets
-        run: |
-          bash tools/delete-unreferenced.sh
-        env:
-          ASSETS_DIR: site/en/assets
-          SEARCH_DIR: site/en
-
       - name: Run generate-topics.sh for top posts
+        if: matrix.edition != 'articles'
         run: |
           bash tools/generate-topics.sh \
             --source='https://discuss.privacyguides.net/top.json?period=weekly' \
@@ -71,6 +92,7 @@ jobs:
             --count=3
 
       - name: Run generate-topics.sh for latest posts
+        if: matrix.edition != 'articles'
         run: |
           bash tools/generate-topics.sh \
             --source='https://discuss.privacyguides.net/latest.json' \
@@ -78,12 +100,22 @@ jobs:
             --destination="./site/en/index.html" \
             --count=12
 
+      - name: Delete Unreferenced English Assets
+        if: matrix.edition != 'articles'
+        run: |
+          bash tools/delete-unreferenced.sh
+        env:
+          ASSETS_DIR: site/en/assets
+          SEARCH_DIR: site/en
+
       - name: Build Articles
+        if: matrix.edition != 'kb'
         uses: ./.github/actions/build-site
         with:
           command: mkdocs build --config-file mkdocs.blog.yml
 
-      - name: Delete Unreferenced Assets
+      - name: Delete Unreferenced Article Assets
+        if: matrix.edition != 'kb'
         run: |
           bash tools/delete-unreferenced.sh
         env:
@@ -93,13 +125,15 @@ jobs:
       - name: Remove Duplicate Files
         run: |
           cd site && bash ../tools/symlink-duplicates.sh
-          ln -s en/index.html index.html
-          ln -s en/about/notices.html license
+          ln -s "${{ matrix.root }}/index.html" index.html
+          if [[ "${{ matrix.root }}" == en ]]; then
+            ln -s en/about/notices.html license
+          fi
           cd ..
 
       - name: Set zimfile name
         run: |
-          echo "ZIMFILE_NAME=privacyguides.org_en_all_$(date +%Y)-$(date +%m).zim" >> "$GITHUB_ENV"
+          echo "ZIMFILE_NAME=privacyguides.org_en_${{ matrix.edition }}_$(date +%Y)-$(date +%m).zim" >> "$GITHUB_ENV"
 
       - name: Create ZIM File
         uses: kohlerdominik/docker-run-action@44bd2138ca4f85c36b2fdc3966ef03518879f7f3
@@ -109,190 +143,14 @@ jobs:
           run: |
             zimwriterfs \
               -w index.html \
-              -I en/assets/brand/logos/png/square/pg-yellow.png \
+              -I ${{ matrix.root }}/assets/brand/logos/png/square/pg-yellow.png \
               -l eng \
               -t "Privacy Guides" \
-              -d "Your central privacy and security resource to protect yourself online." \
+              -d "${{ matrix.description }}" \
               -c "Privacy Guides" \
               -p "Privacy Guides" \
               -e "https://www.privacyguides.org" \
-              -n "privacyguides.org_en_all" \
-              /data/site/ /data/${{ env.ZIMFILE_NAME }}
-
-      - name: Upload ZIM File
-        uses: actions/upload-artifact@v4
-        with:
-          path: ${{ env.ZIMFILE_NAME }}
-          name: ${{ env.ZIMFILE_NAME }}
-          compression-level: 0
-
-      - name: Run zimcheck
-        uses: kohlerdominik/docker-run-action@44bd2138ca4f85c36b2fdc3966ef03518879f7f3
-        continue-on-error: true
-        with:
-          image: ghcr.io/openzim/zim-tools:3.6.0
-          volumes: ${{ github.workspace }}:/data
-          run: |
-            zimcheck /data/${{ env.ZIMFILE_NAME }}
-
-  package_eng_kb:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-
-    env:
-      LANGUAGE_SWITCHER: false
-      ARTICLES_SITE_BASE_URL: https://www.privacyguides.org/posts/tag/articles/
-      NEWS_SITE_BASE_URL: https://www.privacyguides.org/news/
-
-    steps:
-      - name: Download Repository
-        uses: actions/checkout@v4
-        with:
-          repository: ${{ inputs.repo }}
-          ref: ${{ inputs.ref }}
-          persist-credentials: "false"
-          fetch-depth: 0
-          submodules: true
-
-      - name: Build English
-        uses: ./.github/actions/build-site
-        with:
-          command: |
-            python tools/generate-members.py > /tmp/members.md && cp /tmp/members.md includes/members.md || true
-            ./run.sh build
-
-      - name: Run generate-topics.sh for top posts
-        run: |
-          bash tools/generate-topics.sh \
-            --source='https://discuss.privacyguides.net/top.json?period=weekly' \
-            --tag="top posts" \
-            --destination="./site/en/index.html" \
-            --count=3
-
-      - name: Run generate-topics.sh for latest posts
-        run: |
-          bash tools/generate-topics.sh \
-            --source='https://discuss.privacyguides.net/latest.json' \
-            --tag="latest posts" \
-            --destination="./site/en/index.html" \
-            --count=12
-
-      - name: Delete Unreferenced Assets
-        run: |
-          bash tools/delete-unreferenced.sh
-        env:
-          ASSETS_DIR: site/en/assets
-          SEARCH_DIR: site/en
-
-      - name: Remove Duplicate Files
-        run: |
-          cd site && bash ../tools/symlink-duplicates.sh
-          ln -s en/index.html index.html
-          ln -s en/about/notices.html license
-          cd ..
-
-      - name: Set zimfile name
-        run: |
-          echo "ZIMFILE_NAME=privacyguides.org_en_kb_$(date +%Y)-$(date +%m).zim" >> "$GITHUB_ENV"
-
-      - name: List Files (for debugging)
-        run: |
-          ls -la site/
-
-      - name: Create ZIM File
-        uses: kohlerdominik/docker-run-action@44bd2138ca4f85c36b2fdc3966ef03518879f7f3
-        with:
-          image: ghcr.io/openzim/zim-tools:3.6.0
-          volumes: ${{ github.workspace }}:/data
-          run: |
-            zimwriterfs \
-              -w index.html \
-              -I en/assets/brand/logos/png/square/pg-yellow.png \
-              -l eng \
-              -t "Privacy Guides" \
-              -d "Knowledge base articles and recommendations from Privacy Guides." \
-              -c "Privacy Guides" \
-              -p "Privacy Guides" \
-              -e "https://www.privacyguides.org" \
-              -n "privacyguides.org_en_kb" \
-              /data/site/ /data/${{ env.ZIMFILE_NAME }}
-
-      - name: Upload ZIM File
-        uses: actions/upload-artifact@v4
-        with:
-          path: ${{ env.ZIMFILE_NAME }}
-          name: ${{ env.ZIMFILE_NAME }}
-          compression-level: 0
-
-      - name: Run zimcheck
-        uses: kohlerdominik/docker-run-action@44bd2138ca4f85c36b2fdc3966ef03518879f7f3
-        continue-on-error: true
-        with:
-          image: ghcr.io/openzim/zim-tools:3.6.0
-          volumes: ${{ github.workspace }}:/data
-          run: |
-            zimcheck /data/${{ env.ZIMFILE_NAME }}
-
-  package_eng_articles:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-
-    env:
-      MAIN_SITE_BASE_URL: https://www.privacyguides.org/en/
-      MAIN_SITE_ABOUT_URL: https://www.privacyguides.org/en/about/
-      MAIN_SITE_RECOMMENDATIONS_URL: https://www.privacyguides.org/en/tools/
-      MAIN_SITE_KNOWLEDGE_BASE_URL: https://www.privacyguides.org/en/basics/
-
-    steps:
-      - name: Download Repository
-        uses: actions/checkout@v4
-        with:
-          repository: ${{ inputs.repo }}
-          ref: ${{ inputs.ref }}
-          persist-credentials: "false"
-          fetch-depth: 0
-          submodules: true
-
-      - name: Build Articles
-        uses: ./.github/actions/build-site
-        with:
-          command: mkdocs build --config-file mkdocs.blog.yml
-
-      - name: Delete Unreferenced Assets
-        run: |
-          bash tools/delete-unreferenced.sh
-        env:
-          ASSETS_DIR: site/articles/assets
-          SEARCH_DIR: site/articles
-
-      - name: Remove Duplicate Files
-        run: |
-          cd site && bash ../tools/symlink-duplicates.sh
-          ln -s articles/index.html index.html
-          cd ..
-
-      - name: Set zimfile name
-        run: |
-          echo "ZIMFILE_NAME=privacyguides.org_en_articles_$(date +%Y)-$(date +%m).zim" >> "$GITHUB_ENV"
-
-      - name: Create ZIM File
-        uses: kohlerdominik/docker-run-action@44bd2138ca4f85c36b2fdc3966ef03518879f7f3
-        with:
-          image: ghcr.io/openzim/zim-tools:3.6.0
-          volumes: ${{ github.workspace }}:/data
-          run: |
-            zimwriterfs \
-              -w index.html \
-              -I articles/assets/brand/logos/png/square/pg-yellow.png \
-              -l eng \
-              -t "Privacy Guides" \
-              -d "Long-form articles from the Privacy Guides team and other contributors." \
-              -c "Privacy Guides" \
-              -p "Privacy Guides" \
-              -e "https://www.privacyguides.org" \
-              -n "privacyguides.org_en_articles" \
+              -n "privacyguides.org_en_${{ matrix.edition }}" \
               /data/site/ /data/${{ env.ZIMFILE_NAME }}
 
       - name: Upload ZIM File
