@@ -1,0 +1,37 @@
+# Copyright (c) 2024 Jonah Aragon <jonah@triplebit.net>
+# SPDX-License-Identifier: MIT
+# See LICENSE-CODE.
+
+name: Upload to Garage
+description: Upload a built site to a Garage bucket.
+inputs:
+  endpoint:
+    description: Garage S3 endpoint URL.
+    required: true
+  bucket:
+    description: Destination bucket.
+    required: true
+  access_key:
+    description: Garage access key ID.
+    required: true
+  secret_key:
+    description: Garage secret access key.
+    required: true
+  source_dir:
+    description: Local directory to upload.
+    default: site/
+  target_dir:
+    description: Destination path within the bucket.
+    default: /
+runs:
+  using: composite
+  steps:
+    # The main reason this action exists is just to keep the version number in one place instead of in each workflow :)
+    - uses: hkdobrev/minio-deploy-action@c758675f5667336646cbaddbf07ea5edfc7b4854
+      with:
+        endpoint: ${{ inputs.endpoint }}
+        bucket: ${{ inputs.bucket }}
+        access_key: ${{ inputs.access_key }}
+        secret_key: ${{ inputs.secret_key }}
+        source_dir: ${{ inputs.source_dir }}
+        target_dir: ${{ inputs.target_dir }}

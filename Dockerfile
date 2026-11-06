@@ -1,84 +1,55 @@
-FROM python:3.12-slim-bookworm AS base
+# syntax=docker/dockerfile:1
+
+FROM python:3.15-slim-bookworm
 
 LABEL org.opencontainers.image.source="https://github.com/privacyguides/privacyguides.org"
 
-# Setup environment
-ENV LANG=C.UTF-8
-ENV LC_ALL=C.UTF-8
-ENV PYTHONDONTWRITEBYTECODE=1
-ENV PYTHONFAULTHANDLER=1
+# Environment configuration
+ENV LANG=C.UTF-8 \
+    LC_ALL=C.UTF-8 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONFAULTHANDLER=1 \
+    UV_LINK_MODE=copy \
+    UV_PYTHON_DOWNLOADS=0 \
+    VIRTUAL_ENV=/opt/venv \
+    PATH="/opt/venv/bin:$PATH"
 
-####################################################
-# Stage: python-deps
-# Install pipenv and compilation dependencies
-####################################################
-FROM base AS python-deps
-
-# Install pipenv
-RUN pip install --no-cache-dir pipenv
-
-# Install build tools and libraries needed to compile any Python packages
+# Install system libraries and development tools
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-      gcc \
-      libffi-dev \
+      bash \
       build-essential \
-    && rm -rf /var/lib/apt/lists/*
-
-# Copy Pipfile, Pipfile.lock, and any local modules needed for dependency resolution
-COPY modules/mkdocs-material ./modules/mkdocs-material
-COPY Pipfile .
-COPY Pipfile.lock .
-
-# Install all Python dependencies into a project‐local virtual environment at /.venv
-RUN PIPENV_VENV_IN_PROJECT=1 pipenv install --deploy
-
-####################################################
-# Stage: nodejs-deps
-# Install nodejs/npm and compilation dependencies
-####################################################
-FROM node:24-bookworm-slim AS nodejs-deps
-
-RUN npm i -g all-contributors-cli
-RUN npm install -g pkg
-
-RUN cd /usr/local/lib/node_modules/all-contributors-cli && \
-    pkg dist/cli.js -t node18-linux -o /usr/local/bin/all-contributors-cli
-
-####################################################
-# Stage: runtime
-# Install runtime dependencies and copy runtime artifacts
-####################################################
-FROM base AS runtime
-
-# Install runtime packages (GTK/Cairo, image processing libraries, Git, etc.)
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends \
-      libcairo2-dev \
-      libfreetype6-dev \
+      caddy \
+      curl \
       git \
+      jq \
+      libcairo2-dev \
+      libffi-dev \
+      libfreetype6-dev \
       libjpeg-dev \
       libpng-dev \
       openssh-client \
       pngquant \
       tini \
       zlib1g-dev \
-      libffi-dev \
-      bash \
-      caddy \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy virtual environment and local mkdocs-material module from python-deps stage
-COPY --from=python-deps /.venv /.venv
-COPY --from=python-deps /modules/mkdocs-material /modules/mkdocs-material
+# Install uv
+COPY --from=ghcr.io/astral-sh/uv:latest \
+    /uv /uvx /usr/local/bin/
 
-# Copy all-contributors-cli from nodejs-deps stage
-COPY --from=nodejs-deps /usr/local/bin/all-contributors-cli /usr/local/bin/all-contributors-cli
+# Create virtual environment
+RUN uv venv --python /usr/local/bin/python /opt/venv
 
-# Ensure the virtual environment’s bin directory is first in PATH
-ENV PATH="/.venv/bin:$PATH"
+# Install Python dependencies
+COPY requirements.txt /tmp/requirements.txt
 
-HEALTHCHECK NONE
+RUN --mount=type=cache,target=/root/.cache/uv \
+    uv pip sync --python /opt/venv/bin/python \
+    /tmp/requirements.txt
 
-# Entry point script and default cmd for running mkdocs
-ENTRYPOINT ["/bin/bash"]
+# Project directory
+WORKDIR /workspaces/privacyguides.org
+
+# Default command
+CMD ["bash"]

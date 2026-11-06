@@ -7,6 +7,30 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   DATE_CMD="gdate"
 fi
 
+# Update both discussion sections in one call.
+if [[ "${1:-}" == "--all" ]]; then
+  shift
+  destination="./site/en/index.html"
+  for arg in "$@"; do
+    case "$arg" in
+      --destination=*) destination="${arg#*=}" ;;
+      *) echo "Unknown option for --all: $arg" >&2; exit 2 ;;
+    esac
+  done
+
+  bash "$0" \
+    --source='https://discuss.privacyguides.net/top.json?period=weekly' \
+    --tag='top posts' \
+    --destination="$destination" \
+    --count=3
+  bash "$0" \
+    --source='https://discuss.privacyguides.net/latest.json' \
+    --tag='latest posts' \
+    --destination="$destination" \
+    --count=12
+  exit 0
+fi
+
 # Defaults
 source="https://discuss.privacyguides.net/top.json?period=weekly"
 tag="top posts"

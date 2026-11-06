@@ -1,3 +1,7 @@
+# Copyright (c) 2024 Jonah Aragon <jonah@triplebit.net>
+# SPDX-License-Identifier: MIT
+# See LICENSE-CODE.
+
 name: 📦 PR Preview
 
 on:
@@ -12,129 +16,68 @@ permissions:
   pull-requests: write
 
 jobs:
-  metadata:
+  deploy:
     if: >
       github.event.workflow_run.event == 'pull_request' &&
       github.event.workflow_run.conclusion == 'success'
 
     runs-on: ubuntu-latest
 
-    outputs:
-      pr_number: ${{ steps.metadata.outputs.pr_number }}
-      sha: ${{ steps.metadata.outputs.sha }}
-      privileged: ${{ steps.metadata.outputs.privileged }}
-
     steps:
+      - name: Checkout deployment action
+        uses: actions/checkout@v4
+        with:
+          # ref needs to be set so that the action is not run from untrusted PR code
+          ref: ${{ github.sha }}
+          persist-credentials: false
+          sparse-checkout: .github/actions/deploy-garage
+
       - name: Download Website Build Artifact
-        uses: actions/github-script@v7.0.1
+        uses: actions/download-artifact@v4
         with:
-          script: |
-            var artifacts = await github.rest.actions.listWorkflowRunArtifacts({
-               owner: context.repo.owner,
-               repo: context.repo.repo,
-               run_id: ${{github.event.workflow_run.id }},
-            });
-            var matchArtifact = artifacts.data.artifacts.filter((artifact) => {
-              return artifact.name == "site-build-combined"
-            })[0];
-            var download = await github.rest.actions.downloadArtifact({
-               owner: context.repo.owner,
-               repo: context.repo.repo,
-               artifact_id: matchArtifact.id,
-               archive_format: 'zip',
-            });
-            var fs = require('fs');
-            fs.writeFileSync('${{github.workspace}}/site-build-combined.zip', Buffer.from(download.data));
-
-      - name: Unpack Website
-        run: |
-          mkdir -p site
-          unzip site-build-combined.zip -d site
-          tar -czvf site-build-combined.tar.gz site
-
-      - name: Upload Combined Build Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: site-build-combined.tar.gz
-          path: site-build-combined.tar.gz
-          retention-days: 5
+          name: site-build-combined
+          path: site
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Download Metadata Artifact
-        uses: actions/github-script@v7.0.1
+        uses: actions/download-artifact@v4
         with:
-          script: |
-            var artifacts = await github.rest.actions.listWorkflowRunArtifacts({
-               owner: context.repo.owner,
-               repo: context.repo.repo,
-               run_id: ${{github.event.workflow_run.id }},
-            });
-            var matchArtifact = artifacts.data.artifacts.filter((artifact) => {
-              return artifact.name == "metadata"
-            })[0];
-            var download = await github.rest.actions.downloadArtifact({
-               owner: context.repo.owner,
-               repo: context.repo.repo,
-               artifact_id: matchArtifact.id,
-               archive_format: 'zip',
-            });
-            var fs = require('fs');
-            fs.writeFileSync('${{github.workspace}}/metadata.zip', Buffer.from(download.data));
+          name: metadata
+          path: metadata
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set Metadata
         id: metadata
         run: |
-          mkdir -p metadata
-          unzip metadata.zip -d metadata
           echo "pr_number=$(cat metadata/NR)" >> "$GITHUB_OUTPUT"
           echo "sha=$(cat metadata/SHA)" >> "$GITHUB_OUTPUT"
-          echo "privileged=$(cat metadata/PRIVILEGED)" >> "$GITHUB_OUTPUT"
 
-  deploy_garage:
-    needs: metadata
-    permissions:
-      contents: read
+      - name: Limit length of site alias to 12
+        env:
+          PREVIEW_ALIAS: ${{ steps.metadata.outputs.pr_number }}
+        run: echo "SHORT_ALIAS=${PREVIEW_ALIAS:0:12}" >> "$GITHUB_ENV"
 
-    uses: privacyguides/webserver/.github/workflows/deploy-garage-preview.yml@main
-    with:
-      alias: ${{ needs.metadata.outputs.pr_number }}
-      bucket: ${{ vars.PREVIEW_GARAGE_BUCKET }}
-      hostname: ${{ vars.PREVIEW_GARAGE_HOSTNAME }}
-    secrets:
-      PREVIEW_GARAGE_KEY_ID: ${{ secrets.PREVIEW_GARAGE_KEY_ID }}
-      PREVIEW_GARAGE_SECRET_KEY: ${{ secrets.PREVIEW_GARAGE_SECRET_KEY }}
-
-  comment:
-    permissions:
-      pull-requests: write
-    needs: [deploy_garage, metadata]
-    runs-on: ubuntu-latest
-    env:
-      address: ${{ needs.deploy_garage.outputs.address }}
-    steps:
-      - uses: thollander/actions-comment-pull-request@v2.5.0
-        if: ${{ needs.metadata.outputs.privileged == 'true' }}
+      - name: Deploy Preview to Garage
+        uses: ./.github/actions/deploy-garage
         with:
-          pr_number: ${{ needs.metadata.outputs.pr_number }}
+          endpoint: https://${{ vars.PREVIEW_GARAGE_HOSTNAME }}
+          bucket: ${{ vars.PREVIEW_GARAGE_BUCKET }}
+          access_key: ${{ secrets.PREVIEW_GARAGE_KEY_ID }}
+          secret_key: ${{ secrets.PREVIEW_GARAGE_SECRET_KEY }}
+          source_dir: "site/"
+          target_dir: "/${{ env.SHORT_ALIAS }}/"
+
+      - name: Comment with preview link
+        uses: thollander/actions-comment-pull-request@v2.5.0
+        with:
+          pr_number: ${{ steps.metadata.outputs.pr_number }}
           message: |
             ### <span aria-hidden="true">✅</span> Your preview is ready!
 
             |  Name | Link |
             | :---: | ---- |
-            | <span aria-hidden="true">🔨</span> Latest commit | ${{ needs.metadata.outputs.sha }} |
-            | <span aria-hidden="true">😎</span> Preview | ${{ env.address }} |
-          comment_tag: deployment
-
-      - uses: thollander/actions-comment-pull-request@v2.5.0
-        if: ${{ needs.metadata.outputs.privileged == 'false' }}
-        with:
-          pr_number: ${{ needs.metadata.outputs.pr_number }}
-          message: |
-            ### <span aria-hidden="true">✅</span> Your preview is ready!
-
-            |  Name | Link |
-            | :---: | ---- |
-            | <span aria-hidden="true">🔨</span> Latest commit | ${{ needs.metadata.outputs.sha }} |
-            | <span aria-hidden="true">😎</span> Preview | ${{ env.address }} |
-
-            Please note that this preview was built from an untrusted source, so it was not granted access to all mkdocs-material features. Maintainers should ensure this PR has been reviewed locally with a full build before merging.
+            | <span aria-hidden="true">🔨</span> Latest commit | ${{ steps.metadata.outputs.sha }} |
+            | <span aria-hidden="true">😎</span> Preview | https://pr${{ env.SHORT_ALIAS }}.unreviewed.privacyguides.dev/en/ |
           comment_tag: deployment

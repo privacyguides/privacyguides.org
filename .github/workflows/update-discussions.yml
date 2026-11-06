@@ -33,8 +33,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-    environment:
-      name: production
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -55,21 +53,8 @@ jobs:
           source: /en/index.html
           target: ./site/en/
 
-      - name: Run generate-topics.sh for top posts
-        run: |
-          bash tools/generate-topics.sh \
-            --source='https://discuss.privacyguides.net/top.json?period=weekly' \
-            --tag="top posts" \
-            --destination="./site/en/index.html" \
-            --count=3
-
-      - name: Run generate-topics.sh for latest posts
-        run: |
-          bash tools/generate-topics.sh \
-            --source='https://discuss.privacyguides.net/latest.json' \
-            --tag="latest posts" \
-            --destination="./site/en/index.html" \
-            --count=12
+      - name: Update Discussions
+        run: bash tools/generate-topics.sh --all
 
       - name: Upload modified index
         uses: yakubique/minio-upload@v1.1.3

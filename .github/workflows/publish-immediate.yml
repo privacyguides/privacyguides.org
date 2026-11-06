@@ -33,43 +33,45 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: write
-  pages: write
-  id-token: write
-  deployments: write
+  contents: read
 
 jobs:
-  submodule:
-    strategy:
-      matrix:
-        repo: [mkdocs-material-insiders, brand]
-    uses: privacyguides/.github/.github/workflows/download-repo.yml@main
-    with:
-      repo: ${{ matrix.repo }}
-    secrets:
-      ACTIONS_SSH_KEY: ${{ secrets.ACTIONS_SSH_KEY }}
-
   build_blog:
-    needs: submodule
     permissions:
       contents: read
     uses: ./.github/workflows/build-blog.yml
     with:
-      repo: ${{ github.repository }}
-      ref: ${{ github.ref }}
       continue-on-error: false
       context: production
 
   deploy:
     needs: [build_blog]
-    uses: privacyguides/webserver/.github/workflows/deploy-garage.yml@main
-    with:
-      environment: production
-    secrets:
-      PROD_GARAGE_KEY_ID: ${{ secrets.PROD_GARAGE_KEY_ID }}
-      PROD_GARAGE_SECRET_KEY: ${{ secrets.PROD_GARAGE_SECRET_KEY }}
+    runs-on: ubuntu-latest
 
-  cleanup:
-    if: ${{ always() }}
-    needs: [build_blog]
-    uses: privacyguides/.github/.github/workflows/cleanup.yml@main
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout deployment action
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+          sparse-checkout: .github/actions/deploy-garage
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: site-build-*
+          merge-multiple: true
+
+      - run: |
+          for file in *.tar.gz; do tar -zxf "$file"; done
+
+      - uses: ./.github/actions/deploy-garage
+        with:
+          endpoint: https://${{ vars.PROD_GARAGE_HOSTNAME }}
+          bucket: ${{ vars.PROD_GARAGE_BUCKET }}
+          access_key: ${{ secrets.PROD_GARAGE_KEY_ID }}
+          secret_key: ${{ secrets.PROD_GARAGE_SECRET_KEY }}
+          source_dir: "site/"
+          target_dir: "/"
