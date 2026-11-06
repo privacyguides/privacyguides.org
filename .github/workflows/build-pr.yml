@@ -11,21 +11,6 @@ permissions:
   contents: read
 
 jobs:
-  metadata:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Save PR metadata
-        run: |
-          mkdir -p ./metadata
-          echo ${{ github.event.number }} > ./metadata/NR
-          echo ${{ github.event.pull_request.head.sha }} > ./metadata/SHA
-
-      - name: Upload metadata as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: metadata
-          path: metadata
-
   build_english:
     uses: ./.github/workflows/build.yml
     with:
@@ -89,3 +74,15 @@ jobs:
           name: site-build-combined
           path: site
           retention-days: 5
+
+      - name: Save PR metadata
+        run: |
+          mkdir -p ./metadata
+          echo ${{ github.event.number }} > ./metadata/NR
+          echo ${{ github.event.pull_request.head.sha }} > ./metadata/SHA
+
+      - name: Upload metadata as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: metadata
+          path: metadata
