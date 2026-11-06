@@ -25,15 +25,15 @@ name = "pypi"
 
 [packages]
 mkdocs-material = {extras = ["imaging", "git"], version = "*"}
-mkdocs-git-revision-date-localized-plugin = "~=1.2"
-mkdocs-git-authors-plugin = "~=0.8"
-mkdocs-macros-plugin = "~=1.0"
-jieba = "~=0.42"
+mkdocs-git-revision-date-localized-plugin = "*"
+mkdocs-git-authors-plugin = "*"
+mkdocs-macros-plugin = "*"
+jieba = "*"
 mkdocs-rss-plugin = "*"
 mkdocs-glightbox = "*"
 
 [dev-packages]
-scour = "~=0.38"
+scour = "*"
 
 [requires]
 python_version = "3.12"
