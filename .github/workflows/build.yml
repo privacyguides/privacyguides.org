@@ -70,12 +70,6 @@ jobs:
             echo "NEWS_SITE_BASE_URL=https://www.privacyguides.org/news/"
           } >> "$GITHUB_ENV"
 
-      - name: Set Metadata for Privileged Builds
-        if: inputs.privileged
-        run: |
-          echo "BUILD_INSIDERS=true" >> "$GITHUB_ENV"
-          echo "EXTRA_FLAGS=""$EXTRA_FLAGS" --insiders"" >> "$GITHUB_ENV"
-
       - name: Set Metadata for International Builds
         if: inputs.lang != 'en'
         run: |
@@ -101,23 +95,7 @@ jobs:
           ref: ${{ inputs.ref }}
           persist-credentials: "false"
           fetch-depth: 0
-
-      - name: Download Submodules
-        uses: actions/download-artifact@v4
-        with:
-          pattern: repo-*
-          path: modules
-
-      - name: Move mkdocs-material-insiders to mkdocs-material
-        if: inputs.privileged
-        run: |
-          rmdir modules/mkdocs-material
-          mv modules/repo-mkdocs-material-insiders modules/mkdocs-material
-
-      - name: Move brand submodule to theme/assets/brand
-        run: |
-          rmdir theme/assets/brand
-          mv modules/repo-brand theme/assets/brand
+          submodules: true
 
       - name: Copy Translation Files
         if: inputs.lang != 'en'

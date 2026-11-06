@@ -13,9 +13,6 @@ permissions:
 jobs:
   metadata:
     runs-on: ubuntu-latest
-    outputs:
-      submodules: ${{ steps.submodules-fork.outputs.submodules || steps.submodules-main.outputs.submodules }}
-      privileged: ${{ steps.submodules-fork.outputs.privileged || steps.submodules-main.outputs.privileged }}
     env:
       ACTIONS_SSH_KEY: ${{ secrets.ACTIONS_SSH_KEY }}
     steps:
@@ -25,41 +22,14 @@ jobs:
           echo ${{ github.event.number }} > ./metadata/NR
           echo ${{ github.event.pull_request.head.sha }} > ./metadata/SHA
 
-      - name: Set submodules for fork
-        if: env.ACTIONS_SSH_KEY == ''
-        id: submodules-fork
-        run: |
-          echo 'submodules={"repo":["brand","i18n"]}' >> "$GITHUB_OUTPUT"
-          echo "privileged=false" >> "$GITHUB_OUTPUT"
-          echo "false" > ./metadata/PRIVILEGED
-
-      - name: Set submodules for main repo
-        if: env.ACTIONS_SSH_KEY != ''
-        id: submodules-main
-        run: |
-          echo 'submodules={"repo":["brand","i18n","mkdocs-material-insiders"]}' >> "$GITHUB_OUTPUT"
-          echo "privileged=true" >> "$GITHUB_OUTPUT"
-          echo "true" > ./metadata/PRIVILEGED
-
       - name: Upload metadata as artifact
         uses: actions/upload-artifact@v4
         with:
           name: metadata
           path: metadata
 
-  submodule:
-    needs: metadata
-    strategy:
-      matrix: ${{ fromJson(needs.metadata.outputs.submodules) }}
-    uses: privacyguides/.github/.github/workflows/download-repo.yml@main
-    with:
-      repo: ${{ matrix.repo }}
-      privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
-    secrets:
-      ACTIONS_SSH_KEY: ${{ secrets.ACTIONS_SSH_KEY }}
-
   build_english:
-    needs: [submodule, metadata]
+    needs: [metadata]
     strategy:
       matrix:
         lang: [en]
@@ -77,7 +47,7 @@ jobs:
 
   build_i18n:
     if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build i18n') }}
-    needs: [submodule, metadata]
+    needs: [metadata]
     strategy:
       matrix:
         lang: [es, fr, he, it, nl, ru, zh-Hant, zh-TW]
@@ -95,7 +65,7 @@ jobs:
 
   build_blog:
     if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build blog') }}
-    needs: [submodule, metadata]
+    needs: [metadata]
     uses: ./.github/workflows/build-blog.yml
     with:
       ref: ${{github.event.pull_request.head.ref}}
@@ -105,7 +75,7 @@ jobs:
 
   build_zimfile:
     if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build zimfile') }}
-    needs: [submodule, metadata]
+    needs: [metadata]
     uses: ./.github/workflows/build-zimfile.yml
     with:
       ref: ${{github.event.pull_request.head.ref}}

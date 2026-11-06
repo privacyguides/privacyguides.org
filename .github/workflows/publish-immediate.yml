@@ -39,18 +39,7 @@ permissions:
   deployments: write
 
 jobs:
-  submodule:
-    strategy:
-      matrix:
-        repo: [mkdocs-material-insiders, brand]
-    uses: privacyguides/.github/.github/workflows/download-repo.yml@main
-    with:
-      repo: ${{ matrix.repo }}
-    secrets:
-      ACTIONS_SSH_KEY: ${{ secrets.ACTIONS_SSH_KEY }}
-
   build_blog:
-    needs: submodule
     permissions:
       contents: read
     uses: ./.github/workflows/build-blog.yml

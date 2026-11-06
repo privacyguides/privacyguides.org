@@ -41,23 +41,7 @@ jobs:
           ref: ${{ inputs.ref }}
           persist-credentials: "false"
           fetch-depth: 0
-
-      - name: Download Submodules
-        uses: actions/download-artifact@v4
-        with:
-          pattern: repo-*
-          path: modules
-
-      - name: Move mkdocs-material-insiders to mkdocs-material
-        if: inputs.privileged
-        run: |
-          rmdir modules/mkdocs-material
-          mv modules/repo-mkdocs-material-insiders modules/mkdocs-material
-
-      - name: Move brand submodule to theme/assets/brand
-        run: |
-          rmdir theme/assets/brand
-          mv modules/repo-brand theme/assets/brand
+          submodules: true
 
       - name: Install Python (pipenv)
         if: inputs.privileged
