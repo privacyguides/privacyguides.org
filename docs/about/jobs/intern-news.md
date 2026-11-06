@@ -2,6 +2,13 @@
 title: Intern (Community & News)
 description: Privacy Guides is looking for an intern to discover and promote relevant news content on our platform, and to moderate and engage with our online communities.
 ---
+<!--
+SPDX-FileCopyrightText: 2024-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2024-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 
 [:material-arrow-left-drop-circle: Job Openings](../jobs.md)
 

@@ -4,6 +4,13 @@ description: As privacy activists, it's important to lead by example and support
 icon: fontawesome/solid/arrow-right-from-bracket
 cover: activism/banner-toolbox-tip-migrate.webp
 ---
+<!--
+SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 As privacy activists, it's not only important to support the tools and organizations with good privacy practices, but also to lead by example when it comes to **moving away from the surveillance ecosystem**. We cannot afford to compromise our principles simply for [convenience](https://www.privacyguides.org/articles/2025/06/07/selling-surveillance-as-convenience/).
 
 Here's why and how to move away from Big Tech and embrace alternatives:

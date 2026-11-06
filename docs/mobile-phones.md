@@ -25,6 +25,12 @@ schema:
         name: Privacy Guides
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
+<!--
+SPDX-FileCopyrightText: 2021-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }

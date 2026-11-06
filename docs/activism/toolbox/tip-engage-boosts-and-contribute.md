@@ -4,6 +4,13 @@ description: Once you have the knowledge, motivation, and energy to fight for pr
 icon: fontawesome/solid/bullhorn
 cover: activism/banner-toolbox-tip-engage.webp
 ---
+<!--
+SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 Once you have the knowledge, motivation, and energy, **it's time to act**! Perhaps you've read all the tips here, or have read through our [Knowledge Base](../../basics/why-privacy-matters.md) already! But you don't need to know that much about privacy to start contributing.
 
 The most important part is that you care about privacy rights, and want to be part of the movement to defend them.

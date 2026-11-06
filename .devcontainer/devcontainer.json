@@ -120,7 +120,8 @@
         "ms-python.vscode-python-envs",
         "github.vscode-github-actions",
         "matthewpi.caddyfile-support",
-        "ms-vsliveshare.vsliveshare"
+        "ms-vsliveshare.vsliveshare",
+        "zensical.zensical-studio"
       ]
     },
     "codespaces": {

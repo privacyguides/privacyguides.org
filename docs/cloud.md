@@ -5,6 +5,13 @@ icon: material/file-cloud
 description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
 cover: cloud.webp
 ---
+<!--
+SPDX-FileCopyrightText: 2022-2026 Jonah Aragon and Daniel Gray
+SPDX-FileCopyrightText: 2021-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }

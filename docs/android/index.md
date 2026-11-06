@@ -17,6 +17,13 @@ schema:
     url: https://source.android.com/
     sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
 ---
+<!--
+SPDX-FileCopyrightText: 2021-2026 Jonah Aragon and Daniel Gray
+SPDX-FileCopyrightText: 2021-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 
 ![Android logo](../assets/img/android/android.svg){ align=right }
 

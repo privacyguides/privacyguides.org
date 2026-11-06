@@ -2,6 +2,13 @@
 title: Commit Messages
 description: A guide for website contributors on using useful Git commit messages when making website change requests.
 ---
+<!--
+SPDX-FileCopyrightText: 2024-2026 Jonah Aragon and Daniel Gray
+SPDX-FileCopyrightText: 2024-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 
 For our commit messages we follow the style provided by [Conventional Commits](https://conventionalcommits.org). Not all of those suggestions are appropriate for Privacy Guides, so the main ones we use are:
 

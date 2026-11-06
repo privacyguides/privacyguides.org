@@ -4,6 +4,13 @@ title: VPN Overview
 icon: material/vpn
 description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
 ---
+<!--
+SPDX-FileCopyrightText: 2019-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2015-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 
 Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world.
 

@@ -2,6 +2,13 @@
 title: "PrivacyTools FAQ"
 description: The real story behind the team transition from privacytools.io to privacyguides.org
 ---
+<!--
+SPDX-FileCopyrightText: 2022-2026 Jonah Aragon and Daniel Gray
+SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 In September 2021, every active contributor unanimously agreed to move from PrivacyTools to work on this site: Privacy Guides. This decision was made because PrivacyTools’ founder and controller of the domain name had disappeared for an extended period of time and could not be contacted.
 
 Having built a reputable site and set of services on PrivacyTools.io, this caused grave concerns for the future of PrivacyTools, as any future disruption could wipe out the entire organization with no recovery method. This transition was communicated to the PrivacyTools community many months in advance via a variety of channels including its blog, Twitter, Reddit, and Mastodon to ensure the entire process went as smoothly as possible. We did this to ensure nobody was kept in the dark, which has been our modus operandi since our team was created, and to make sure Privacy Guides was recognized as the same reliable organization that PrivacyTools was before the transition.

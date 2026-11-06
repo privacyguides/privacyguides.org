@@ -4,6 +4,13 @@ icon: material/flip-to-front
 description: These open-source frontends for various internet services allow you to access content without JavaScript or other annoyances.
 cover: frontends.webp
 ---
+<!--
+SPDX-FileCopyrightText: 2021-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2021-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
