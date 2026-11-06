@@ -24,6 +24,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout deployment action
+        uses: actions/checkout@v4
+        with:
+          # ref needs to be set so that the action is not run from untrusted PR code
+          ref: ${{ github.sha }}
+          persist-credentials: false
+          sparse-checkout: .github/actions/deploy-garage
+
       - name: Download Website Build Artifact
         uses: actions/download-artifact@v4
         with:
@@ -52,7 +60,7 @@ jobs:
         run: echo "SHORT_ALIAS=${PREVIEW_ALIAS:0:12}" >> "$GITHUB_ENV"
 
       - name: Deploy Preview to Garage
-        uses: hkdobrev/minio-deploy-action@c758675f5667336646cbaddbf07ea5edfc7b4854
+        uses: ./.github/actions/deploy-garage
         with:
           endpoint: https://${{ vars.PREVIEW_GARAGE_HOSTNAME }}
           bucket: ${{ vars.PREVIEW_GARAGE_BUCKET }}

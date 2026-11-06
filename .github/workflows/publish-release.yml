@@ -90,14 +90,39 @@ jobs:
 
   deploy_garage:
     needs: [build, build_blog]
+    runs-on: ubuntu-latest
+
     permissions:
       contents: read
-    uses: ./.github/workflows/deploy-garage.yml
-    with:
-      environment: production
-    secrets:
-      PROD_GARAGE_KEY_ID: ${{ secrets.PROD_GARAGE_KEY_ID }}
-      PROD_GARAGE_SECRET_KEY: ${{ secrets.PROD_GARAGE_SECRET_KEY }}
+
+    environment:
+      name: production
+      url: https://${{ vars.PROD_GARAGE_BUCKET }}.web.${{ vars.PROD_GARAGE_HOSTNAME }}/en/index.html
+
+    steps:
+      - name: Checkout deployment action
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+          sparse-checkout: .github/actions/deploy-garage
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: site-build-*
+          merge-multiple: true
+
+      - run: |
+          for file in *.tar.gz; do tar -zxf "$file"; done
+
+      - uses: ./.github/actions/deploy-garage
+        with:
+          endpoint: https://${{ vars.PROD_GARAGE_HOSTNAME }}
+          bucket: ${{ vars.PROD_GARAGE_BUCKET }}
+          access_key: ${{ secrets.PROD_GARAGE_KEY_ID }}
+          secret_key: ${{ secrets.PROD_GARAGE_SECRET_KEY }}
+          source_dir: "site/"
+          target_dir: "/"
 
   deploy_pages:
     needs: [build, build_blog]
