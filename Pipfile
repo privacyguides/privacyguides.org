@@ -24,7 +24,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-mkdocs-material = {extras = ["imaging"], path = "./modules/mkdocs-material"}
+mkdocs-material = {extras = ["imaging", "git"], version = "*"}
 mkdocs-git-revision-date-localized-plugin = "~=1.2"
 mkdocs-git-authors-plugin = "~=0.8"
 mkdocs-macros-plugin = "~=1.0"
