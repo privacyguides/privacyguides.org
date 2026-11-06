@@ -1,0 +1,6 @@
+mkdocs-material[git,imaging]
+mkdocs-git-authors-plugin
+jieba
+mkdocs-rss-plugin
+mkdocs-glightbox
+scour

@@ -1,11 +1,15 @@
-// For format details, see https://aka.ms/devcontainer.json.
+
 {
   "name": "Privacy Guides",
-  "image": "ghcr.io/privacyguides/privacyguides.org:sha-5648a3f",
-  // "build": {
-  //   "dockerfile": "../Dockerfile",
-  //   "context": ".."
-  // },
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "context": ".."
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "24"
+    }
+  },
   "overrideCommand": true,
   "portsAttributes": {
     "1337": {
@@ -27,10 +31,13 @@
   "mounts": [
     "source=${env:HOME}${env:USERPROFILE}/.config,target=/root/.config,type=bind"
   ],
+  "onCreateCommand": "npm install -g all-contributors-cli",
   "updateContentCommand": "git submodule update --init theme/assets/brand",
   "customizations": {
     "vscode": {
       "settings": {
+        "python.defaultInterpreterPath": "/opt/venv/bin/python",
+        "python.terminal.activateEnvironment": true,
         "tasks": {
           "version": "2.0.0",
           "tasks": [
@@ -94,6 +101,7 @@
         "esbenp.prettier-vscode",
         "ltex-plus.vscode-ltex-plus",
         "ms-python.python",
+        "ms-python.vscode-python-envs",
         "github.vscode-github-actions",
         "matthewpi.caddyfile-support",
         "ms-vsliveshare.vsliveshare"

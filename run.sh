@@ -6,7 +6,7 @@ if [ "$1" == "--help" ]; then
   echo "Options:"
   echo "  --lang=<language code> (default: en)   Language code for the site"
   echo '  --cmd="<base command>"                 Base command to run mkdocs'
-  echo '                                         (default: "pipenv run mkdocs")'
+  echo '                                         (default: "mkdocs")'
   echo '  --cmd_flags="<flags>"                  Flags to pass to the base command'
   echo "  --build                                Build the site instead of serving it"
   echo "  --offline                              Build the site in offline mode"
@@ -23,7 +23,7 @@ fi
 # Defaults
 build=false
 language="en"
-base_cmd="pipenv run mkdocs"
+base_cmd="mkdocs"
 offline=false
 cmd_flags=()
 export PRODUCTION=false
