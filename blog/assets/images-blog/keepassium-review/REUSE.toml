@@ -1,0 +1,51 @@
+version = 1
+
+[[annotations]]
+path = [
+  "keepassium-applelabel.webp",
+  "keepassium-appprotection.webp",
+  "keepassium-appstoremac.webp",
+  "keepassium-attachmentmac.webp",
+  "keepassium-autofill.webp",
+  "keepassium-autofillmac.webp",
+  "keepassium-backup.webp",
+  "keepassium-databaseoptions.webp",
+  "keepassium-dataprotection.webp",
+  "keepassium-encryptionoptions.webp",
+  "keepassium-entries.webp",
+  "keepassium-entrymac.webp",
+  "keepassium-fileinfo.webp",
+  "keepassium-fileinfomac.webp",
+  "keepassium-generator.webp",
+  "keepassium-generatormac.webp",
+  "keepassium-groups.webp",
+  "keepassium-largeindexedfont.webp",
+  "keepassium-loginappmac.webp",
+  "keepassium-loginsafarimac.webp",
+  "keepassium-movedatabase.webp",
+  "keepassium-moveentry.webp",
+  "keepassium-newdatabase.webp",
+  "keepassium-newdatabasemac.webp",
+  "keepassium-newentry.webp",
+  "keepassium-offline.webp",
+  "keepassium-otp.webp",
+  "keepassium-otpentry.webp",
+  "keepassium-pdfviewer.webp",
+  "keepassium-pricing.webp",
+  "keepassium-print.webp",
+  "keepassium-startdatabase.webp",
+  "keepassium-startwelcome.webp",
+  "keepassium-startwelcomemac.webp",
+  "keepassium-textsize.webp",
+  "keepassium.svg",
+]
+SPDX-FileCopyrightText = "2025-2026 MAGIC Privacy Guides Fund (Magic Grants)"
+SPDX-FileContributor = "Em"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "keepassium-cover.webp"
+SPDX-FileCopyrightText = "PicJumbo"
+SPDX-FileContributor = "Modified by Em for Privacy Guides"
+SPDX-License-Identifier = "LicenseRef-Pexels"
+SPDX-LicenseComments = "This image contains trademarked content used for the purpose of identifying the subject, reuse with case."

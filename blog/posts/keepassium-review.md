@@ -33,6 +33,12 @@ review:
     - No app for Linux, Android, or Windows.
 ---
 
+<!--
+SPDX-FileCopyrightText: 2025-2026 Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 ![The KeePassium logo over a yellow background showing Apple devices.](../assets/images-blog/keepassium-review/keepassium-cover.webp)
 
 <small aria-hidden="true">Illustration: Em / Privacy Guides | Photo: PicJumbo / Pexels</small>

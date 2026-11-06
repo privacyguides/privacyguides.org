@@ -13,6 +13,13 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 description: There are a number of procedures you can follow to make your Linux desktop system more secure, some more advanced than others. We cover some general techniques here.
 schema_type: AnalysisNewsArticle
 ---
+
+<!--
+SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Hardening Your Desktop Linux System's Security
 
 There are a number of procedures you can follow to make your Linux desktop system more secure, some more advanced than others. We cover some general techniques here.<!-- more -->

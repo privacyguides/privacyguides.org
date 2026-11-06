@@ -4,6 +4,14 @@ icon: material/image
 description: These photo management tools keep your personal photos safe from the prying eyes of cloud storage providers and other unauthorized parties.
 cover: photo-management.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2023-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2023-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }

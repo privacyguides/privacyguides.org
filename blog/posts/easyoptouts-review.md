@@ -33,6 +33,13 @@ review:
     - The 100+ supported websites is still not close to some of the more expensive alternatives.
     - No manual/human interaction.
 ---
+
+<!--
+SPDX-FileCopyrightText: 2025-2026 Jonah Aragon
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 ![EasyOptOuts logo](../assets/images/data-broker-removals/easyoptouts.svg){ align=right itemprop="image" }
 
 **EasyOptOuts.com** is a $19.99/year [people-search site removal service](https://www.privacyguides.org/en/data-broker-removals/) which will search a number of different data broker sites and automatically submit opt-out requests on your behalf. They will perform the first search and removal process immediately, and then re-run the process every 4 months in case your data shows up on new sites over time.<!-- more -->

@@ -4,6 +4,14 @@ description: Inclusivity is essential to grow our privacy movement. If we want p
 icon: fontawesome/solid/heart-circle-plus
 cover: activism/banner-toolbox-tip-inclusivity.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2026 MAGIC Privacy Guides Fund (Magic Grants)
+SPDX-FileContributor: Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 **Inclusivity** is not only the right thing to do, it's also essential to grow our movement. If we want privacy rights to succeed, it's imperative that we build communities where *everyone* feels safe and welcomed, regardless of who they are or where they come from.
 
 Here's how you can keep your communications and communities inclusive:

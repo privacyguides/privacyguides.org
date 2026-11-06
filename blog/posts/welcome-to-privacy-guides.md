@@ -12,10 +12,17 @@ links:
     - posts/weve-joined-the-open-collective-foundation.md
 tags:
     - Privacy Guides
-license: CC0
 description: Today, Privacy Guides has officially launched by our long-standing volunteer team to carry on the legacy of the now-defunct PrivacyTools project.
 schema_type: NewsArticle
 ---
+
+<!--
+SPDX-FileCopyrightText: 2021-2026 Jonah Aragon and Daniel Gray
+SPDX-FileCopyrightText: 2021-2026 Freddy
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Welcome to Privacy Guides
 
 ![Privacy Guides cover image](../assets/brand/images/png/cover.png)

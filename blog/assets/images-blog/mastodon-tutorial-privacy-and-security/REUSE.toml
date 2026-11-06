@@ -1,0 +1,50 @@
+version = 1
+
+[[annotations]]
+path = [
+  "mastodon-accesses-authorized-apps.webp",
+  "mastodon-accesses-login-history.webp",
+  "mastodon-accesses-sessions-list.webp",
+  "mastodon-account-privacy-options.webp",
+  "mastodon-account-privacy-reach.webp",
+  "mastodon-block-domains-csv.webp",
+  "mastodon-block-domains-file.webp",
+  "mastodon-block-domains-import.webp",
+  "mastodon-block-instance.webp",
+  "mastodon-block-user.webp",
+  "mastodon-deletion-account.webp",
+  "mastodon-deletion.webp",
+  "mastodon-export.webp",
+  "mastodon-move-account-alias.webp",
+  "mastodon-move-account-migration.webp",
+  "mastodon-move-export.webp",
+  "mastodon-move-import.webp",
+  "mastodon-multifactor-enabled.webp",
+  "mastodon-multifactor-mac-popup.webp",
+  "mastodon-multifactor-qrcode.webp",
+  "mastodon-multifactor-securitykey-added.webp",
+  "mastodon-multifactor-securitykey-prompted.webp",
+  "mastodon-multifactor-securitykey.webp",
+  "mastodon-multifactor-setup.webp",
+  "mastodon-personal-note.webp",
+  "mastodon-posts-account-page.webp",
+  "mastodon-posts-default.webp",
+  "mastodon-posts-quote-posts.webp",
+  "mastodon-posts-visibility-types.webp",
+  "mastodon-private-mention.webp",
+  "mastodon-report.webp",
+  "mastodon-verification-author-setup.webp",
+  "mastodon-verification-link-setup.webp",
+  "mastodon-verification-links.webp",
+]
+SPDX-FileCopyrightText = "2025-2026 MAGIC Privacy Guides Fund (Magic Grants)"
+SPDX-FileContributor = "Em"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "mastodon-tutorial-cover.webp"
+SPDX-FileCopyrightText = "2025-2026 MAGIC Privacy Guides Fund (Magic Grants)"
+SPDX-FileContributor = "Em"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+SPDX-FileAttributionText = "Mastodon mascot by @dopatwo@mastodon.social and Mastodon logo used with permission from Mastodon gGmbH."
+SPDX-FileNotice = "This site is not otherwise affiliated with Mastodon gGmbH."

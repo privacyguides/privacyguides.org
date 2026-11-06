@@ -11,6 +11,12 @@ preview:
   cover: blog/assets/images/the-future-of-privacy/cover.webp
 ---
 
+<!--
+SPDX-FileCopyrightText: 2025-2026 Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # The Future of Privacy: How Governments Shape Your Digital Life
 
 ![Black and white photo of a street post at night. The street post has some ripped stickers on it and a stencilled graffiti saying Big Data is Watching You.](../assets/images-blog/the-future-of-privacy/cover.webp)

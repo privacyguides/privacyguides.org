@@ -1,0 +1,13 @@
+version = 1
+
+[[annotations]]
+path = [
+  ".all-contributorsrc",
+  ".allowed_signers",
+  ".mailmap",
+  ".vscode/*",
+  "includes/contributors.md",
+  "requirements.txt",
+]
+SPDX-FileCopyrightText = "2019-2026 Jonah Aragon"
+SPDX-License-Identifier = "MIT"

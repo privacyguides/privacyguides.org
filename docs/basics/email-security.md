@@ -5,6 +5,13 @@ icon: material/email
 description: Email is insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
 ---
 
+<!--
+SPDX-FileCopyrightText: 2020-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2020-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 Email is an insecure form of communication by default. You can improve your email security with tools such as OpenPGP, which add end-to-end encryption to your messages, but OpenPGP still has a number of drawbacks compared to encryption in other messaging applications.
 
 As a result, email is best used for receiving transactional emails (like notifications, verification emails, password resets, etc.) from the services you sign up for online, not for communicating with others.

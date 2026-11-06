@@ -16,6 +16,13 @@ schema_type: OpinionNewsArticle
 preview:
   cover: blog/assets/images/why-i-run-a-tor-relay/cover.png
 ---
+
+<!--
+SPDX-FileCopyrightText: 2020-2026 Sam Howell
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Why I Decided to Run a Tor Relay
 
 ![Tor graphic](../assets/images-blog/why-i-run-a-tor-relay/cover.png)

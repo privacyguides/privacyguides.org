@@ -2,6 +2,12 @@
 title: Editorial Policy
 ---
 
+<!--
+SPDX-FileCopyrightText: 2024-2026 Jonah Aragon
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 This page provides transparent information about Privacy Guides, its editorial process, and how Privacy Guides creates trustworthy news, articles, and reviews.
 
 Moreover, it is a part of Privacy Guides' commitment to [**The Trust Project**](https://thetrustproject.org/), "an international consortium of news organizations implementing transparency standards and working with technology platforms to affirm and amplify journalism’s commitment to transparency, accuracy, inclusion and fairness so that the public can make informed news choices." Privacy Guides is not currently a news partner of the program, but wholeheartedly supports its mission and values.

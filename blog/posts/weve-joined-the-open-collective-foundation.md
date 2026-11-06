@@ -9,9 +9,15 @@ links:
     - posts/welcome-to-privacy-guides.md
 tags:
     - Privacy Guides
-license: CC0
 schema_type: NewsArticle
 ---
+
+<!--
+SPDX-FileCopyrightText: 2019-2026 Jonah Aragon
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # We've Joined the Open Collective Foundation 501(c)(3)
 
 ![Privacy Guides cover image](../assets/brand/images/png/cover.png)

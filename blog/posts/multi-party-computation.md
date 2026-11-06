@@ -12,6 +12,13 @@ description: Learn about Secure Multi-Party Computation and how it can be used t
 preview:
   cover: blog/assets/images/multi-party-computation/cover.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2025-2026 Fria
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # What is Multi-Party Computation?
 
 ![An image of a lock and multiple keys going toward it to unlock it](../assets/images-blog/multi-party-computation/cover.webp)

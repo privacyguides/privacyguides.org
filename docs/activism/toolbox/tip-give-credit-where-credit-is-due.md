@@ -4,6 +4,14 @@ description: To succeed with our movement to defend privacy rights, we must supp
 icon: fontawesome/solid/thumbs-up
 cover: activism/banner-toolbox-tip-credit.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2026 MAGIC Privacy Guides Fund (Magic Grants)
+SPDX-FileContributor: Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 To succeed in our battle, we must **support each other**. One good way to accomplish this is to never forget to give credit where credit is due. When another advocate or organization says something you agree with, boost them up, spread their reach, and thank them publicly.
 
 Here are a few ways you can help your allies feel seen and valued:

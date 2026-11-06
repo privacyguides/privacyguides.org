@@ -23,10 +23,6 @@ extra:
           FOOTER_NOTE,
           "We do not make money from recommending certain products, and we do not use affiliate links.",
         ]
-      copyright:
-        author:
-          !ENV [FOOTER_COPYRIGHT_AUTHOR, "Privacy Guides and contributors."]
-        date: !ENV [FOOTER_COPYRIGHT_DATE, "2019-2026"]
       license:
         - fontawesome/brands/creative-commons
         - fontawesome/brands/creative-commons-by

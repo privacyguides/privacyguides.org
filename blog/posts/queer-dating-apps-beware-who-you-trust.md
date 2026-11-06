@@ -13,6 +13,12 @@ preview:
   cover: blog/assets/images/queer-dating-apps-beware-who-you-trust/dating-cover.webp
 ---
 
+<!--
+SPDX-FileCopyrightText: 2025-2026 Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Queer Dating Apps: Beware Who You Trust With Your Intimate Data
 
 ![Photo of a hand holding a phone with a rainbow gradient and a white heart on it. The hand holds the phone in front of a vertical rainbow background with an open eye displayed transparently over it, symbolizing surveillance.](../assets/images-blog/queer-dating-apps-beware-who-you-trust/dating-cover.webp)

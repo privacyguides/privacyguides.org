@@ -1,0 +1,6 @@
+version = 1
+
+[[annotations]]
+path = "*.webp"
+SPDX-FileCopyrightText = "Respective Photographers"
+SPDX-License-Identifier = "LicenseRef-Unsplash"

@@ -1,6 +1,3 @@
-// SPDX-FileCopyrightText: 2024-2026 Jonah Aragon and the Privacy Guides contributors
-// SPDX-License-Identifier: MIT
-
 {
   "name": "Privacy Guides",
   "build": {
@@ -120,7 +117,8 @@
         "ms-python.vscode-python-envs",
         "github.vscode-github-actions",
         "matthewpi.caddyfile-support",
-        "ms-vsliveshare.vsliveshare"
+        "ms-vsliveshare.vsliveshare",
+        "zensical.zensical-studio"
       ]
     },
     "codespaces": {

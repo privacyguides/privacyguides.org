@@ -120,6 +120,13 @@ schema:
       url: "./"
 ---
 
+<!--
+SPDX-FileCopyrightText: 2019-2026 Jonah Aragon and Daniel Gray
+SPDX-FileCopyrightText: 2019-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }

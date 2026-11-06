@@ -4,6 +4,14 @@ description: People in the privacy community can have different views that can c
 icon: fontawesome/solid/handshake-angle
 cover: activism/banner-toolbox-tip-alliances.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2026 MAGIC Privacy Guides Fund (Magic Grants)
+SPDX-FileContributor: Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 The privacy community consists of a patchwork of individuals, activists, organizations, and businesses that sometimes hold quite different views. These divergences can create conflict and friction at times.
 
 While reporting falseness and abuse is important, when other differences lead to infighting, gossiping, competitive dunking, and organizations attacking others, we need to pause and ask how these internal wars are negatively impacting the community as a whole, both internally and from an outsider's perspective.

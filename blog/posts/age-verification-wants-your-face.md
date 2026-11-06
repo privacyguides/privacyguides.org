@@ -11,6 +11,12 @@ preview:
   cover: blog/assets/images/age-verification-wants-your-face/ageverification-cover.webp
 ---
 
+<!--
+SPDX-FileCopyrightText: 2025-2026 Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Age Verification Wants Your Face, and Your Privacy
 
 ![A stylized photo showing a person holding a printed photo of their face in front of their actual face.](../assets/images-blog/age-verification-wants-your-face/ageverification-cover.webp)

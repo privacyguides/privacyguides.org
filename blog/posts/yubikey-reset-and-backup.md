@@ -10,6 +10,13 @@ schema_type: AnalysisNewsArticle
 preview:
   cover: blog/assets/images/yubikey-reset-and-backup/cover.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2025-2026 Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # How to Reset Your YubiKey and Create a Backup
 
 ![Photo of YubiKey on a table between a MacBook and a phone.](../assets/images-blog/yubikey-reset-and-backup/cover.webp)
