@@ -5,7 +5,6 @@ if [ "$1" == "--help" ]; then
   echo "Usage: ./run.sh [options]"
   echo "Options:"
   echo "  --lang=<language code> (default: en)   Language code for the site"
-  echo "  --insiders                             Enable insiders mode"
   echo '  --cmd="<base command>"                 Base command to run mkdocs'
   echo '                                         (default: "pipenv run mkdocs")'
   echo '  --cmd_flags="<flags>"                  Flags to pass to the base command'
@@ -15,7 +14,7 @@ if [ "$1" == "--help" ]; then
   echo ""
   echo "Examples:"
   echo "  $ bash run.sh"
-  echo "  $ bash run.sh --lang=ru --insiders"
+  echo "  $ bash run.sh --lang=ru"
   echo '  $ bash run.sh --cmd="mkdocs" --cmd_flags="--dev-addr=0.0.0.0:8000"'
   echo "  $ bash run.sh --build"
   exit
@@ -27,7 +26,6 @@ language="en"
 base_cmd="pipenv run mkdocs"
 offline=false
 cmd_flags=()
-insiders=false
 export PRODUCTION=false
 
 # Parse command-line arguments
@@ -36,10 +34,6 @@ do
   case $arg in
     --lang=*)
     language="${arg#*=}"
-    shift
-    ;;
-    --insiders)
-    insiders=true
     shift
     ;;
     --cmd=*)
@@ -109,12 +103,6 @@ fi
 # Set stylesheet if hebrew or russian or chinese
 if [[ "he ru zh-Hant zh-TW" =~ $language ]]; then
   export TRANSLATION_STYLESHEET="assets/stylesheets/lang-$language.css?v=20240410"
-fi
-
-# Set theme if insiders
-if $insiders ; then
-  export BUILD_INSIDERS=true
-  cmd_flags+=("--config-file=$PWD/mkdocs.insiders.yml")
 fi
 
 # Run the command with the specified language

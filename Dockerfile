@@ -26,7 +26,6 @@ RUN apt-get update && \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy Pipfile, Pipfile.lock, and any local modules needed for dependency resolution
-COPY modules/mkdocs-material ./modules/mkdocs-material
 COPY Pipfile .
 COPY Pipfile.lock .
 
