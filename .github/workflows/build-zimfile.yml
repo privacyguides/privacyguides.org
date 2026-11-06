@@ -19,7 +19,7 @@ env:
   HOMEPAGE_CTA_ABOUT_LINK: about.html
   HOMEPAGE_CTA_DONATE_LINK: about/donate.html
   BUILD_OFFLINE: true
-  PRODUCTION: true
+  BUILD_CONTEXT: production
   CARDS: false
   GITREVISIONDATE: false
   GITAUTHORS: false
@@ -190,12 +190,18 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: privacyguides/i18n
-          path: translations
+          ref: main
+          path: .cache/translations
           persist-credentials: false
+          sparse-checkout: |
+            i18n
+            includes
 
       - name: Copy Translation Files
         if: matrix.lang != 'en'
-        run: cp -a translations/i18n translations/includes .
+        run: |
+          cp -a .cache/translations/i18n .cache/translations/includes .
+          rm -rf .cache/translations
 
       - name: Set up Docker build image
         uses: ./.github/actions/setup-build

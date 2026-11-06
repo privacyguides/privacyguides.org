@@ -56,12 +56,18 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: privacyguides/i18n
-          path: translations
+          ref: main
+          path: .cache/translations
           persist-credentials: false
+          sparse-checkout: |
+            i18n
+            includes
 
       - name: Copy Translation Files
         if: inputs.lang != 'en'
-        run: cp -a translations/i18n translations/includes .
+        run: |
+          cp -a .cache/translations/i18n .cache/translations/includes .
+          rm -rf .cache/translations
 
       - name: Cache MkDocs assets
         if: inputs.cache
@@ -80,7 +86,6 @@ jobs:
           SITE_LANGUAGE: ${{ inputs.lang }}
           BUILD_CONTEXT: ${{ inputs.context }}
           BUILD_OFFLINE: ${{ inputs.config == 'offline' }}
-          PRODUCTION: ${{ inputs.config == 'build' }}
           GITAUTHORS: ${{ inputs.lang == 'en' && inputs.config == 'build' }}
           GITREVISIONDATE: ${{ inputs.lang == 'en' && inputs.config == 'build' }}
           MEMBERS_API_URL: ${{ secrets.MEMBERS_API_URL }}

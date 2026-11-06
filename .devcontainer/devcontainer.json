@@ -42,9 +42,9 @@
           "version": "2.0.0",
           "tasks": [
             {
-              "label": "Articles",
+              "label": "Build development blog",
               "type": "shell",
-              "command": "mkdocs serve --config-file=mkdocs.blog.yml --dev-addr=localhost:8001",
+              "command": "./run.sh --blog serve --dev-addr=localhost:8001",
               "group": "test",
               "runOptions": {
                 "runOn": "folderOpen"
@@ -56,9 +56,9 @@
               }
             },
             {
-              "label": "Main",
+              "label": "Build development website",
               "type": "shell",
-              "command": "./run.sh",
+              "command": "./run.sh serve",
               "group": "test",
               "runOptions": {
                 "runOn": "folderOpen"
@@ -69,6 +69,20 @@
                 "group": "Live server",
                 "focus": true
               }
+            },
+            {
+              "label": "Build production website",
+              "type": "shell",
+              "command": "./run.sh build",
+              "options": { "env": { "BUILD_CONTEXT": "production" } },
+              "group": "build"
+            },
+            {
+              "label": "Build production blog",
+              "type": "shell",
+              "command": "./run.sh --blog build --dev-addr=localhost:8001",
+              "options": { "env": { "BUILD_CONTEXT": "production" } },
+              "group": "build"
             },
             {
               "label": "Caddy",

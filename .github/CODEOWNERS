@@ -10,6 +10,7 @@ README.md @jonaharagon @dngray
 # Config
 
 /mkdocs.yml @jonaharagon
+/mkdocs.base.yml @jonaharagon
 /mkdocs.blog.yml @jonaharagon
 /crowdin.yml @jonaharagon
 /includes/ @jonaharagon
@@ -21,7 +22,8 @@ Dockerfile @jonaharagon
 /requirements.txt @jonaharagon
 /.github/ @jonaharagon
 /run.sh @jonaharagon
-/modules/ @jonaharagon
+/.devcontainer/ @jonaharagon
+/tools/ @jonaharagon
 
 # High-traffic pages
 

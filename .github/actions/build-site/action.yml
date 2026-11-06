@@ -14,7 +14,7 @@ runs:
         args=()
         while IFS= read -r name; do
           case "$name" in
-            BUILD_*|SITE_LANGUAGE|PRODUCTION|CARDS|GITAUTHORS|GITREVISIONDATE|LANGUAGE_SWITCHER|MAIN_SITE_*|ARTICLES_SITE_*|VIDEOS_SITE_*|NEWS_SITE_*|HOMEPAGE_*|MEMBERS_API_URL)
+            BUILD_*|SITE_LANGUAGE|CARDS|GITAUTHORS|GITREVISIONDATE|LANGUAGE_SWITCHER|MAIN_SITE_*|ARTICLES_SITE_*|VIDEOS_SITE_*|NEWS_SITE_*|HOMEPAGE_*|MEMBERS_API_URL)
               args+=(--env "$name") ;;
           esac
         done < <(compgen -e)

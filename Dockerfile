@@ -22,6 +22,7 @@ RUN apt-get update && \
       caddy \
       curl \
       git \
+      jq \
       libcairo2-dev \
       libffi-dev \
       libfreetype6-dev \

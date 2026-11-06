@@ -1,5 +1,6 @@
 #!/bin/bash
-# Usage: SITE_LANGUAGE=fr PRODUCTION=true ./run.sh build --strict
+# Production: BUILD_CONTEXT=production ./run.sh build --strict
+# Translation: SITE_LANGUAGE=fr BUILD_CONTEXT=production ./run.sh build
 # Blog: ./run.sh --blog build --strict (or ./run.sh --blog to serve)
 # With no arguments, serve the English site locally.
 set -euo pipefail
@@ -9,8 +10,11 @@ if [[ "${1:-}" == --blog ]]; then
   shift
 fi
 
-# Production navigation shared by the main site and blog.
-if [[ "${BUILD_CONTEXT:-}" == production ]]; then
+# Use the same context locally and in CI
+export BUILD_CONTEXT="${BUILD_CONTEXT:-development}"
+
+# Keep offline navigation in production mode
+if [[ "$BUILD_CONTEXT" == production && "${BUILD_OFFLINE:-false}" != true ]]; then
   export MAIN_SITE_BASE_URL=https://www.privacyguides.org/en/
   export MAIN_SITE_ABOUT_URL=https://www.privacyguides.org/en/about/
   export MAIN_SITE_RECOMMENDATIONS_URL=https://www.privacyguides.org/en/tools/
@@ -20,9 +24,17 @@ if [[ "${BUILD_CONTEXT:-}" == production ]]; then
   export NEWS_SITE_BASE_URL=https://www.privacyguides.org/news/
 fi
 
-# The blog doesn't need website translation settings.
+# The blog doesn't need website translation settings
 if [[ "$blog" == false ]]; then
   language="${SITE_LANGUAGE:-en}"
+
+  # Omit Git metadata for offline builds and translations
+  git_metadata=false
+  if [[ "$language" == en && "$BUILD_CONTEXT" == production && "${BUILD_OFFLINE:-false}" != true ]]; then
+    git_metadata=true
+  fi
+  export GITAUTHORS="${GITAUTHORS:-$git_metadata}"
+  export GITREVISIONDATE="${GITREVISIONDATE:-$git_metadata}"
 
   # Set environment variables if language is not en
   if [ "$language" != "en" ]; then
@@ -61,7 +73,7 @@ else
   export BUILD_THEME_LANGUAGE=en
 fi
 
-# Apply offline links after the language settings.
+# Apply offline links after the language settings
 if [[ "${BUILD_OFFLINE:-false}" == true ]]; then
   export BUILD_EDIT_URI_TEMPLATE='' BUILD_REPO_URL='' CARDS=false
   if [[ "$blog" == false ]]; then

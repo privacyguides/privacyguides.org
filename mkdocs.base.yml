@@ -12,7 +12,7 @@ extra:
   scope: /
   homepage: /
   generator: false
-  context: !ENV [BUILD_CONTEXT, "production"]
+  context: !ENV [BUILD_CONTEXT, "development"]
   offline: !ENV [BUILD_OFFLINE, false]
   deploy: !ENV DEPLOY_ID
   ghost:
