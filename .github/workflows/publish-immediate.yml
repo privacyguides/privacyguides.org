@@ -33,10 +33,7 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: write
-  pages: write
-  id-token: write
-  deployments: write
+  contents: read
 
 jobs:
   build_blog:
@@ -51,14 +48,9 @@ jobs:
 
   deploy:
     needs: [build_blog]
-    uses: privacyguides/webserver/.github/workflows/deploy-garage.yml@main
+    uses: ./.github/workflows/deploy-garage.yml
     with:
       environment: production
     secrets:
       PROD_GARAGE_KEY_ID: ${{ secrets.PROD_GARAGE_KEY_ID }}
       PROD_GARAGE_SECRET_KEY: ${{ secrets.PROD_GARAGE_SECRET_KEY }}
-
-  cleanup:
-    if: ${{ always() }}
-    needs: [build_blog]
-    uses: privacyguides/.github/.github/workflows/cleanup.yml@main

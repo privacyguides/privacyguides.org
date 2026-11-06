@@ -89,8 +89,3 @@ jobs:
           name: site-build-combined
           path: site
           retention-days: 5
-
-  cleanup:
-    if: ${{ always() }}
-    needs: [build_english, build_i18n, build_blog, build_zimfile]
-    uses: privacyguides/.github/.github/workflows/cleanup.yml@main

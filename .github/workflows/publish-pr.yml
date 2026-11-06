@@ -1,3 +1,7 @@
+# Copyright (c) 2024 Jonah Aragon <jonah@triplebit.net>
+# SPDX-License-Identifier: MIT
+# See LICENSE-CODE.
+
 name: 📦 PR Preview
 
 on:
@@ -12,16 +16,12 @@ permissions:
   pull-requests: write
 
 jobs:
-  metadata:
+  deploy:
     if: >
       github.event.workflow_run.event == 'pull_request' &&
       github.event.workflow_run.conclusion == 'success'
 
     runs-on: ubuntu-latest
-
-    outputs:
-      pr_number: ${{ steps.metadata.outputs.pr_number }}
-      sha: ${{ steps.metadata.outputs.sha }}
 
     steps:
       - name: Download Website Build Artifact
@@ -31,16 +31,6 @@ jobs:
           path: site
           run-id: ${{ github.event.workflow_run.id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Package Website
-        run: tar -czf site-build-combined.tar.gz site
-
-      - name: Upload Combined Build Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: site-build-combined.tar.gz
-          path: site-build-combined.tar.gz
-          retention-days: 5
 
       - name: Download Metadata Artifact
         uses: actions/download-artifact@v4
@@ -56,36 +46,30 @@ jobs:
           echo "pr_number=$(cat metadata/NR)" >> "$GITHUB_OUTPUT"
           echo "sha=$(cat metadata/SHA)" >> "$GITHUB_OUTPUT"
 
-  deploy_garage:
-    needs: metadata
-    permissions:
-      contents: read
+      - name: Limit length of site alias to 12
+        env:
+          PREVIEW_ALIAS: ${{ steps.metadata.outputs.pr_number }}
+        run: echo "SHORT_ALIAS=${PREVIEW_ALIAS:0:12}" >> "$GITHUB_ENV"
 
-    uses: privacyguides/webserver/.github/workflows/deploy-garage-preview.yml@main
-    with:
-      alias: ${{ needs.metadata.outputs.pr_number }}
-      bucket: ${{ vars.PREVIEW_GARAGE_BUCKET }}
-      hostname: ${{ vars.PREVIEW_GARAGE_HOSTNAME }}
-    secrets:
-      PREVIEW_GARAGE_KEY_ID: ${{ secrets.PREVIEW_GARAGE_KEY_ID }}
-      PREVIEW_GARAGE_SECRET_KEY: ${{ secrets.PREVIEW_GARAGE_SECRET_KEY }}
-
-  comment:
-    permissions:
-      pull-requests: write
-    needs: [deploy_garage, metadata]
-    runs-on: ubuntu-latest
-    env:
-      address: ${{ needs.deploy_garage.outputs.address }}
-    steps:
-      - uses: thollander/actions-comment-pull-request@v2.5.0
+      - name: Deploy Preview to Garage
+        uses: hkdobrev/minio-deploy-action@c758675f5667336646cbaddbf07ea5edfc7b4854
         with:
-          pr_number: ${{ needs.metadata.outputs.pr_number }}
+          endpoint: https://${{ vars.PREVIEW_GARAGE_HOSTNAME }}
+          bucket: ${{ vars.PREVIEW_GARAGE_BUCKET }}
+          access_key: ${{ secrets.PREVIEW_GARAGE_KEY_ID }}
+          secret_key: ${{ secrets.PREVIEW_GARAGE_SECRET_KEY }}
+          source_dir: "site/"
+          target_dir: "/${{ env.SHORT_ALIAS }}/"
+
+      - name: Comment with preview link
+        uses: thollander/actions-comment-pull-request@v2.5.0
+        with:
+          pr_number: ${{ steps.metadata.outputs.pr_number }}
           message: |
             ### <span aria-hidden="true">✅</span> Your preview is ready!
 
             |  Name | Link |
             | :---: | ---- |
-            | <span aria-hidden="true">🔨</span> Latest commit | ${{ needs.metadata.outputs.sha }} |
-            | <span aria-hidden="true">😎</span> Preview | ${{ env.address }} |
+            | <span aria-hidden="true">🔨</span> Latest commit | ${{ steps.metadata.outputs.sha }} |
+            | <span aria-hidden="true">😎</span> Preview | https://pr${{ env.SHORT_ALIAS }}.unreviewed.privacyguides.dev/en/ |
           comment_tag: deployment

@@ -30,10 +30,7 @@ concurrency:
   cancel-in-progress: true
 
 permissions:
-  contents: write
-  pages: write
-  id-token: write
-  deployments: write
+  contents: read
 
 jobs:
   build:
@@ -91,22 +88,52 @@ jobs:
           artifacts: "*.zim"
           makeLatest: true
 
-  deploy:
+  deploy_garage:
     needs: [build, build_blog]
-    uses: privacyguides/webserver/.github/workflows/deploy-all.yml@main
+    permissions:
+      contents: read
+    uses: ./.github/workflows/deploy-garage.yml
+    with:
+      environment: production
     secrets:
-      PROD_MINIO_KEY_ID: ${{ secrets.PROD_MINIO_KEY_ID }}
-      PROD_MINIO_SECRET_KEY: ${{ secrets.PROD_MINIO_SECRET_KEY }}
       PROD_GARAGE_KEY_ID: ${{ secrets.PROD_GARAGE_KEY_ID }}
       PROD_GARAGE_SECRET_KEY: ${{ secrets.PROD_GARAGE_SECRET_KEY }}
-      CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-      CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
-      CLUSTER_USERNAME: ${{ secrets.CLUSTER_USERNAME }}
-      CLUSTER_PASSWORD: ${{ secrets.CLUSTER_PASSWORD }}
-      CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
-      CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
 
-  cleanup:
-    if: ${{ always() }}
-    needs: [build, build_blog, build_zimfile]
-    uses: privacyguides/.github/.github/workflows/cleanup.yml@main
+  deploy_pages:
+    needs: [build, build_blog]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: site-build-*
+          merge-multiple: true
+
+      - name: Assemble website
+        run: |
+          for file in *.tar.gz; do tar -zxf "$file"; done
+          cat > site/index.html <<'HTML'
+          <html lang="en">
+            <head>
+              <title>Redirecting...</title>
+              <meta http-equiv="refresh" content="0; URL=./en" />
+            </head>
+          </html>
+          HTML
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
