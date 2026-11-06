@@ -85,23 +85,9 @@ jobs:
             python tools/generate-members.py > /tmp/members.md && cp /tmp/members.md includes/members.md || true
             ./run.sh build
 
-      - name: Run generate-topics.sh for top posts
+      - name: Update Discussions
         if: matrix.edition != 'articles'
-        run: |
-          bash tools/generate-topics.sh \
-            --source='https://discuss.privacyguides.net/top.json?period=weekly' \
-            --tag="top posts" \
-            --destination="./site/en/index.html" \
-            --count=3
-
-      - name: Run generate-topics.sh for latest posts
-        if: matrix.edition != 'articles'
-        run: |
-          bash tools/generate-topics.sh \
-            --source='https://discuss.privacyguides.net/latest.json' \
-            --tag="latest posts" \
-            --destination="./site/en/index.html" \
-            --count=12
+        run: bash tools/generate-topics.sh --all
 
       - name: Delete Unreferenced English Assets
         if: matrix.edition != 'articles'
@@ -223,23 +209,9 @@ jobs:
             python tools/generate-members.py > /tmp/members.md && cp /tmp/members.md includes/members.md || true
             ./run.sh build
 
-      - name: Run generate-topics.sh for top posts
+      - name: Update Discussions
         if: matrix.lang == 'en'
-        run: |
-          bash tools/generate-topics.sh \
-            --source='https://discuss.privacyguides.net/top.json?period=weekly' \
-            --tag="top posts" \
-            --destination="./site/en/index.html" \
-            --count=3
-
-      - name: Run generate-topics.sh for latest posts
-        if: matrix.lang == 'en'
-        run: |
-          bash tools/generate-topics.sh \
-            --source='https://discuss.privacyguides.net/latest.json' \
-            --tag="latest posts" \
-            --destination="./site/en/index.html" \
-            --count=12
+        run: bash tools/generate-topics.sh --all
 
       - name: Delete Unreferenced Assets
         run: |

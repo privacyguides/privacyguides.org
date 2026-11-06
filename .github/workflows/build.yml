@@ -92,23 +92,9 @@ jobs:
             if [[ "$BUILD_STRICT" == true ]]; then flags+=(--strict); fi
             ./run.sh build "${flags[@]}"
 
-      - name: Run generate-topics.sh for top posts
+      - name: Update Discussions
         if: inputs.lang == 'en'
-        run: |
-          bash tools/generate-topics.sh \
-            --source='https://discuss.privacyguides.net/top.json?period=weekly' \
-            --tag="top posts" \
-            --destination="./site/en/index.html" \
-            --count=3
-
-      - name: Run generate-topics.sh for latest posts
-        if: inputs.lang == 'en'
-        run: |
-          bash tools/generate-topics.sh \
-            --source='https://discuss.privacyguides.net/latest.json' \
-            --tag="latest posts" \
-            --destination="./site/en/index.html" \
-            --count=12
+        run: bash tools/generate-topics.sh --all
 
       - name: Package Website
         run: |
