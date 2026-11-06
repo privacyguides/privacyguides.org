@@ -22,4 +22,4 @@ runs:
           --env HOME=/tmp \
           --volume "$GITHUB_WORKSPACE:/workspaces/privacyguides.org" \
           "${args[@]}" privacyguides-build:local \
-          bash -e -o pipefail -c 'source tools/build-environment.sh; exec bash -e -o pipefail -c "$BUILD_COMMAND"'
+          bash -e -o pipefail -c "$BUILD_COMMAND"

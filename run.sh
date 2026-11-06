@@ -1,50 +1,79 @@
 #!/bin/bash
 # Usage: SITE_LANGUAGE=fr PRODUCTION=true ./run.sh build --strict
+# Blog: ./run.sh --blog build --strict (or ./run.sh --blog to serve)
 # With no arguments, serve the English site locally.
 set -euo pipefail
-language="${SITE_LANGUAGE:-en}"
-
-# Set environment variables if language is not en
-if [ "$language" != "en" ]; then
-  export BUILD_ABBREVIATIONS="includes/abbreviations.$language.txt"
-  export BUILD_DOCS_DIR="i18n/$language"
-  export BUILD_EDIT_URI_TEMPLATE="https://github.com/privacyguides/i18n/blob/main/i18n/$language/{path}?plain=1"
-  export BUILD_SITE_DIR="site/$language"
-  export BUILD_SITE_URL="https://www.privacyguides.org/$language"
-  export BUILD_THEME_LANGUAGE="$language"
+blog=false
+if [[ "${1:-}" == --blog ]]; then
+  blog=true
+  shift
 fi
 
-# Source per-language strings
-set -a
-  # shellcheck disable=SC1090
-  source "includes/strings.$language.env"
-set +a
-
-# Set font if hebrew
-if [ "$language" == "he" ]; then
-  export BUILD_THEME_FONT_CODE="Cousine"
-  export BUILD_THEME_FONT_TEXT="Open Sans"
+# Production navigation shared by the main site and blog.
+if [[ "${BUILD_CONTEXT:-}" == production ]]; then
+  export MAIN_SITE_BASE_URL=https://www.privacyguides.org/en/
+  export MAIN_SITE_ABOUT_URL=https://www.privacyguides.org/en/about/
+  export MAIN_SITE_RECOMMENDATIONS_URL=https://www.privacyguides.org/en/tools/
+  export MAIN_SITE_KNOWLEDGE_BASE_URL=https://www.privacyguides.org/en/basics/why-privacy-matters/
+  export ARTICLES_SITE_BASE_URL=https://www.privacyguides.org/posts/tag/articles/
+  export VIDEOS_SITE_BASE_URL=https://www.privacyguides.org/videos/
+  export NEWS_SITE_BASE_URL=https://www.privacyguides.org/news/
 fi
 
-# Set font if russian or chinese
-if [[ "ru zh-Hant zh-TW" =~ $language ]]; then
-  export BUILD_THEME_FONT_CODE="Noto Sans TC"
-  export BUILD_THEME_FONT_TEXT="Noto Sans TC"
-fi
+# The blog doesn't need website translation settings.
+if [[ "$blog" == false ]]; then
+  language="${SITE_LANGUAGE:-en}"
 
-# Set stylesheet if hebrew or russian or chinese
-if [[ "he ru zh-Hant zh-TW" =~ $language ]]; then
-  export TRANSLATION_STYLESHEET="assets/stylesheets/lang-$language.css?v=20240410"
+  # Set environment variables if language is not en
+  if [ "$language" != "en" ]; then
+    export BUILD_ABBREVIATIONS="includes/abbreviations.$language.txt"
+    export BUILD_DOCS_DIR="i18n/$language"
+    export BUILD_EDIT_URI_TEMPLATE="https://github.com/privacyguides/i18n/blob/main/i18n/$language/{path}?plain=1"
+    export BUILD_SITE_DIR="site/$language"
+    export BUILD_SITE_URL="https://www.privacyguides.org/$language"
+    export BUILD_THEME_LANGUAGE="$language"
+  fi
+
+  # Source per-language strings
+  set -a
+    # shellcheck disable=SC1090
+    source "includes/strings.$language.env"
+  set +a
+
+  # Set font if hebrew
+  if [ "$language" == "he" ]; then
+    export BUILD_THEME_FONT_CODE="Cousine"
+    export BUILD_THEME_FONT_TEXT="Open Sans"
+  fi
+
+  # Set font if russian or chinese
+  if [[ "ru zh-Hant zh-TW" =~ $language ]]; then
+    export BUILD_THEME_FONT_CODE="Noto Sans TC"
+    export BUILD_THEME_FONT_TEXT="Noto Sans TC"
+  fi
+
+  # Set stylesheet if hebrew or russian or chinese
+  if [[ "he ru zh-Hant zh-TW" =~ $language ]]; then
+    export TRANSLATION_STYLESHEET="assets/stylesheets/lang-$language.css?v=20240410"
+  fi
+
+else
+  export BUILD_THEME_LANGUAGE=en
 fi
 
 # Apply offline links after the language settings.
 if [[ "${BUILD_OFFLINE:-false}" == true ]]; then
   export BUILD_EDIT_URI_TEMPLATE='' BUILD_REPO_URL='' CARDS=false
-  export HOMEPAGE_BUTTON_GET_STARTED_LINK="basics/why-privacy-matters.html"
-  export HOMEPAGE_BUTTON_TOOLS_LINK="tools.html"
+  if [[ "$blog" == false ]]; then
+    export HOMEPAGE_BUTTON_GET_STARTED_LINK="basics/why-privacy-matters.html"
+    export HOMEPAGE_BUTTON_TOOLS_LINK="tools.html"
+  fi
 fi
 
 if [[ $# == 0 ]]; then
   set -- serve
+fi
+if [[ "$blog" == true ]]; then
+  set -- "$@" --config-file mkdocs.blog.yml
 fi
 exec mkdocs "$@"

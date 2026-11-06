@@ -101,7 +101,7 @@ jobs:
         if: matrix.edition != 'kb'
         uses: ./.github/actions/build-site
         with:
-          command: mkdocs build --config-file mkdocs.blog.yml
+          command: ./run.sh --blog build
 
       - name: Delete Unreferenced Article Assets
         if: matrix.edition != 'kb'
@@ -224,7 +224,7 @@ jobs:
         if: matrix.lang == 'en'
         uses: ./.github/actions/build-site
         with:
-          command: mkdocs build --config-file mkdocs.blog.yml
+          command: ./run.sh --blog build
 
       - name: Delete Unreferenced Assets
         if: matrix.lang == 'en'

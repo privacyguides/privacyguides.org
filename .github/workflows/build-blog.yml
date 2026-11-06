@@ -38,7 +38,7 @@ jobs:
         env:
           BUILD_CONTEXT: ${{ inputs.context }}
         with:
-          command: mkdocs build --config-file mkdocs.blog.yml
+          command: ./run.sh --blog build
 
       - name: Package Website
         run: |
