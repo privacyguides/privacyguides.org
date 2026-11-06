@@ -294,7 +294,7 @@ Mullvad is very transparent about which nodes they [own or rent](https://mullvad
 
 ![Obscura VPN logo](assets/img/vpn/obscura.svg){ align=right }
 
-**Obscura VPN** is a 2-party multi-hop VPN service operated by Sovereign Engineering Inc. Its two-party design separates the relay that sees your IP address from the exit server that can see your destination traffic. Obscura has been operating since 2025 and uses currently only uses Mullvad-operated exit servers.
+**Obscura VPN** is a 2-party multi-hop VPN service operated by Sovereign Engineering Inc. Its two-party design separates the relay that sees your IP address from the exit server that can see your destination traffic. Obscura has been operating since 2025 and currently only uses Mullvad-operated exit servers.
 
 [:octicons-home-16: Homepage](https://obscura.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://obscura.com/legal/){ .card-link title="Privacy Policy" }
@@ -338,7 +338,7 @@ Obscura's protocol combines WireGuard and QUIC. You can also generate standard [
 
 #### :material-information-outline:{ .pg-blue } IPv6 and Remote Port Forwarding
 
-Obscura's only supports outbound IPv6 from Mullvad's servers, no inbound IPv6 to the Obscura's relay servers. Full IPv6 support is planned for a future release. Obscura VPN does not support remote port forwarding.
+Obscura only supports outbound IPv6 from Mullvad's servers, no inbound IPv6 to Obscura's relay servers. Full IPv6 support is planned for a future release. Obscura VPN does not support remote port forwarding.
 
 #### :material-information-outline:{ .pg-blue } Kill Switch
 
