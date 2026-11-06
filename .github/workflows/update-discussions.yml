@@ -33,8 +33,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-    environment:
-      name: production
     steps:
       - name: Checkout
         uses: actions/checkout@v4

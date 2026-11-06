@@ -53,10 +53,6 @@ jobs:
     permissions:
       contents: read
 
-    environment:
-      name: production
-      url: https://${{ vars.PROD_GARAGE_BUCKET }}.web.${{ vars.PROD_GARAGE_HOSTNAME }}/en/index.html
-
     steps:
       - name: Checkout deployment action
         uses: actions/checkout@v4
