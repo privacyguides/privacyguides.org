@@ -15,6 +15,13 @@ schema_type: NewsArticle
 preview:
   cover: blog/assets/images/delisting-startpage/cover.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2019-2026 Niek de Wilde
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Delisting Startpage From Privacy Guides
 
 !["Delisting Startpage" cover image](../assets/images-blog/delisting-startpage/cover.webp)

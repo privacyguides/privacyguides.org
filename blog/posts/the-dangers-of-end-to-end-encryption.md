@@ -13,6 +13,13 @@ schema_type: SatiricalArticle
 preview:
   logo: blog/assets/images/the-dangers-of-end-to-end-encryption/fire.svg
 ---
+
+<!--
+SPDX-FileCopyrightText: 2025-2026 April Fools
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # The Dangers of End-to-End Encryption
 
 ![An image showing a burning car](../assets/images-blog/the-dangers-of-end-to-end-encryption/cover.webp)

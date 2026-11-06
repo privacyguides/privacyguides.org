@@ -11,6 +11,13 @@ schema_type: AnalysisNewsArticle
 preview:
   cover: blog/assets/images/activists-guide-securing-your-smartphone/cover.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2025-2026 Jonah Aragon
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # The Protesters' Guide to Smartphone Security
 
 ![Article cover photo showing a phone icon over a protest](../assets/images-blog/activists-guide-securing-your-smartphone/cover.webp)

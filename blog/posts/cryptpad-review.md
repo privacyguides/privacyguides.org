@@ -30,6 +30,13 @@ review:
     - Can be slow.
     - No local offline application.
 ---
+
+<!--
+SPDX-FileCopyrightText: 2025-2026 Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 ![Article cover photo showing a phone icon over a protest](../assets/images-blog/cryptpad-review/cryptpad-cover.webp)
 
 <small aria-hidden="true">Illustration: Jordan Warne / Privacy Guides | Photo: Christin Hume / Unsplash</small>

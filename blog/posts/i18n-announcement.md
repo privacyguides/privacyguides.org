@@ -13,6 +13,15 @@ license: BY-SA
 description: It's finally here. After countless requests, Privacy Guides now has translations.
 schema_type: NewsArticle
 ---
+
+<!--
+SPDX-FileCopyrightText: 2023-2026 Freddy
+SPDX-FileCopyrightText: 2023-2026 Daniel Gray
+SPDX-FileCopyrightText: 2023-2026 Niek de Wilde
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Privacy Guides Is Now Multilingual
 
 It's finally here. After countless requests, Privacy Guides now has translations.

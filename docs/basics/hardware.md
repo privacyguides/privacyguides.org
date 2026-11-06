@@ -4,6 +4,13 @@ icon: 'material/chip'
 description: Software isn't all that matters; learn about the hardware tools you use every day to protect your privacy.
 ---
 
+<!--
+SPDX-FileCopyrightText: 2025-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2023-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 When it comes to discussions about privacy, hardware is often not thought about as much as what software we use. Your hardware should be considered the foundation on which you build the rest of your privacy setup.
 
 ## Picking a Computer

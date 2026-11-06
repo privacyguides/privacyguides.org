@@ -1,0 +1,40 @@
+version = 1
+
+[[annotations]]
+path = [
+  "brave1.webp",
+  "brave2.webp",
+  "brave3.webp",
+  "brave4.webp",
+  "brave5.webp",
+  "brave6.webp",
+  "chrome1.webp",
+  "chrome2.webp",
+  "chrome3.webp",
+  "chrome4.webp",
+  "edge1.webp",
+  "edge2.webp",
+  "edge3.webp",
+  "edge4.webp",
+  "edge5.webp",
+  "firefox1.webp",
+  "firefox2.webp",
+  "firefox3.webp",
+  "firefox4.webp",
+  "firefox5.webp",
+  "firefox6.webp",
+  "history1.webp",
+  "history2.webp",
+  "history3.webp",
+  "safari.webp",
+  "safari_privacy.webp",
+  "safariprivacy1.webp",
+  "safariprivacy2.webp",
+]
+SPDX-FileCopyrightText = "2025-2026 Kevin Pham"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "dimmis-vart-JPu345g_OYM-unsplash.webp"
+SPDX-FileCopyrightText = "Dimmis Vart"
+SPDX-License-Identifier = "LicenseRef-Unsplash"

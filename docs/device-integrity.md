@@ -6,6 +6,13 @@ cover: device-integrity.webp
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
+<!--
+SPDX-FileCopyrightText: 2021-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2021-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 These tools can be used to validate the integrity of your mobile devices and check them for indicators of compromise by spyware and malware such as Pegasus, Predator, or KingsPawn. This page focuses on **mobile security**, because mobile devices typically have read-only systems with well-known configurations, so detecting malicious modifications is easier than on traditional desktop systems. We may expand the focus of this page in the future.
 
 <div class="admonition note" markdown>
@@ -101,8 +108,7 @@ If you use iOS and are at high-risk, we have three additional suggestions for yo
 1. Create and keep regular (monthly) iTunes backups. This allows you to find and diagnose past infections later with MVT, if new threats are discovered in the future.
 2. Trigger *sysdiagnose* logs often and back them up externally. These logs can provide invaluable data to future forensic investigators if need be.
 
-    The process to do so varies by model, but you can trigger it on newer phones by holding down *Power* + *Volume Up* + *Volume Down* until you feel a brief vibration. After a few minutes, the timestamped *sysdiagnose* log will appear in **Settings** > **Privacy & Security** > **Analytics & Improvements** > **Analytics Data**.
-
+   The process to do so varies by model, but you can trigger it on newer phones by holding down *Power* + *Volume Up* + *Volume Down* until you feel a brief vibration. After a few minutes, the timestamped *sysdiagnose* log will appear in **Settings** > **Privacy & Security** > **Analytics & Improvements** > **Analytics Data**.
 3. Enable [Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode).
 
 MVT allows you to perform deeper scans/analysis if your device is jailbroken. Unless you know what you are doing, **do not jailbreak or root your device.** Jailbreaking your device exposes it to considerable security risks.

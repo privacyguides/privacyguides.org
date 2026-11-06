@@ -4,6 +4,14 @@ meta_title: "Self-Hosting Software and Services - Privacy Guides"
 description: For our more technical readers, self-hosting software and services can provide additional privacy assurances since you have maximum control over your data.
 cover: router.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2022-2026 Jonah Aragon and Daniel Gray
+SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-server-network: Service Providers](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }

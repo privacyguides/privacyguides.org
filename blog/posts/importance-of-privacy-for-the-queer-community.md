@@ -12,6 +12,13 @@ schema_type: AnalysisNewsArticle
 preview:
   cover: blog/assets/images/importance-of-privacy-for-the-queer-community/pride-cover.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2025-2026 Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # The Importance of Data Privacy For The Queer Community
 
 ![Photo of a Progress Pride Flag with a semi-transparent padlock icon over it.](../assets/images-blog/importance-of-privacy-for-the-queer-community/pride-cover.webp)

@@ -1,0 +1,9 @@
+version = 1
+
+[[annotations]]
+path = [
+  "network-*.svg",
+  "signal-contact-qr.png"
+]
+SPDX-FileCopyrightText = "2021-2026 The Privacy Guides contributors"
+SPDX-License-Identifier = "CC-BY-SA-4.0"

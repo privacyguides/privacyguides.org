@@ -12,6 +12,11 @@ preview:
   cover: blog/assets/images/sam-altman-wants-your-eyeball/orb-cover.webp
 ---
 
+<!--
+SPDX-FileCopyrightText: 2025-2026 Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
 
 # Sam Altman Wants Your Eyeball
 

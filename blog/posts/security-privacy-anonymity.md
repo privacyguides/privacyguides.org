@@ -16,6 +16,13 @@ schema_type: OpinionNewsArticle
 preview:
   cover: blog/assets/images/security-privacy-anonymity/cover.jpeg
 ---
+
+<!--
+SPDX-FileCopyrightText: 2021-2026 Nate Bartram
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
 # Security, Privacy, and Anonymity
 
 ![](../assets/images-blog/security-privacy-anonymity/cover.jpeg)

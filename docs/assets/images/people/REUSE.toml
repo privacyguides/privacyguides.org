@@ -1,0 +1,6 @@
+version = 1
+
+[[annotations]]
+path = ["**"]
+SPDX-FileCopyrightText = "Respective Copyright Holders"
+SPDX-License-Identifier = "LicenseRef-Exclusive"

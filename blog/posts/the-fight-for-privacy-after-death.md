@@ -10,6 +10,13 @@ schema_type: OpinionNewsArticle
 preview:
   cover: blog/assets/images/the-fight-for-privacy-after-death/cover.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2025-2026 ptrmdn
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Ghosts in the Machine: The Fight for Privacy After Death
 
 ![](../assets/images-blog/the-fight-for-privacy-after-death/cover.webp)

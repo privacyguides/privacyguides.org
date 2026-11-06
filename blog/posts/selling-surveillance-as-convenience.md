@@ -11,6 +11,12 @@ preview:
   cover: blog/assets/images/selling-surveillance-as-convenience/surveillance-cover.webp
 ---
 
+<!--
+SPDX-FileCopyrightText: 2025-2026 Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Selling Surveillance as Convenience
 
 ![Stylized and colorized photo of a large wooden horse standing over a blue sky.](../assets/images-blog/selling-surveillance-as-convenience/surveillance-cover.webp)

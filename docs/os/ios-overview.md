@@ -3,6 +3,14 @@ title: iOS Overview
 icon: simple/apple
 description: iOS is a mobile operating system developed by Apple for the iPhone.
 ---
+
+<!--
+SPDX-FileCopyrightText: 2023-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2023-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 **iOS** and **iPadOS** are proprietary mobile operating systems developed by Apple for their iPhone and iPad products, respectively. If you have an Apple mobile device, you can increase your privacy by disabling some built-in telemetry features, and hardening some privacy and security settings which are built in to the system.
 
 ## Privacy Notes
@@ -126,7 +134,7 @@ Apple Intelligence can integrate with [ChatGPT](https://support.apple.com/guide/
 
 You can also have it ask for confirmation every time if you leave ChatGPT integration on:
 
-- [x] Turn on **Confirm Requests** 
+- [x] Turn on **Confirm Requests**
 
 If you don't want anyone to be able to control your phone with Siri when it is locked, you can turn that off here.
 

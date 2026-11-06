@@ -1,5 +1,3 @@
-// SPDX-FileCopyrightText: 2024-2026 Jonah Aragon and the Privacy Guides contributors
-// SPDX-License-Identifier: MIT
 {
   "recommendations": [
     "EditorConfig.EditorConfig",
@@ -18,6 +16,7 @@
     "ms-python.python",
     "github.vscode-github-actions",
     "ms-vscode-remote.remote-containers",
-    "github.codespaces"
+    "github.codespaces",
+    "zensical.zensical-studio"
   ]
 }

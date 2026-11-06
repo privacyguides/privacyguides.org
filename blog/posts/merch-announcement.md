@@ -12,6 +12,14 @@ license: BY-SA
 description: Privacy Guides has partnered with HELLOTUX to create what we think are the finest garments in the land.
 schema_type: BackgroundNewsArticle
 ---
+
+<!--
+SPDX-FileCopyrightText: 2023-2026 Freddy
+SPDX-FileCopyrightText: 2023-2026 Niek de Wilde
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Privacy Guides Now Has Merchandise
 
 Yes, you read the title correctly: we have merch now. Privacy Guides has partnered with [HELLOTUX](https://www.hellotux.com/privacyguides) to create what we think are the finest garments in the land.<!-- more -->

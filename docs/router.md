@@ -4,6 +4,14 @@ icon: material/router-wireless
 description: Alternative operating systems for securing your router or Wi-Fi access point.
 cover: router.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2021-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2021-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }

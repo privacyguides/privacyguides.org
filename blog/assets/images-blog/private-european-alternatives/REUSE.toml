@@ -1,0 +1,10 @@
+version = 1
+
+[[annotations]]
+path = [
+  "eu-alternatives.svg",
+  "eu-alternatives.webp",
+]
+SPDX-FileCopyrightText = "2025-2026 Jonah Aragon"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+SPDX-LicenseComments = "This image contains trademarked content used for the purpose of identifying the subject, reuse with case."

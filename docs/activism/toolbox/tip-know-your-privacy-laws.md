@@ -4,6 +4,14 @@ description: Being well-informed about the data protection regulations in your o
 icon: fontawesome/solid/balance-scale
 cover: activism/banner-toolbox-tip-laws.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2026 MAGIC Privacy Guides Fund (Magic Grants)
+SPDX-FileContributor: Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 Being well-informed about the **data protection regulations** in your own jurisdiction can be a significant asset for your personal and collective battles to improve privacy, for yourself and for others.
 
 Unfortunately, many people lucky enough to live in jurisdictions benefiting from such regulations often aren't aware of them, or of how to use them.

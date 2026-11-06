@@ -13,6 +13,12 @@ preview:
   cover: blog/assets/images/stay-safe-but-stay-connected/stay-connected-cover.webp
 ---
 
+<!--
+SPDX-FileCopyrightText: 2025-2026 Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Stay Safe, but Stay Connected
 
 ![Photo of a rainbow heart with each color made of a neon light.](../assets/images-blog/stay-safe-but-stay-connected/stay-connected-cover.webp)

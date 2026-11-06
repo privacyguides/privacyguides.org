@@ -10,11 +10,17 @@ links:
 tags:
     - Browsers
     - Firefox
-license: CC0
 schema_type: AnalysisNewsArticle
 preview:
   cover: blog/assets/images/firefox-privacy/cover.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2021-2026 Daniel Gray
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Firefox Privacy: 2021 Update
 
 ![Firefox Privacy cover](../assets/images-blog/firefox-privacy/cover.webp)

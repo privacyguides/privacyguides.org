@@ -1,0 +1,12 @@
+version = 1
+
+[[annotations]]
+path = [
+  "preview-ios.webp",
+  "preview-macos.webp",
+  "preview-windows.jpg",
+  "shortcut-ios.webp",
+  "shortcut-macos.webp",
+]
+SPDX-FileCopyrightText = "2022-2026 The Privacy Guides contributors"
+SPDX-License-Identifier = "CC-BY-SA-4.0"

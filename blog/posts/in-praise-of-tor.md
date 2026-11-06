@@ -14,6 +14,12 @@ preview:
   cover: blog/assets/images/in-praise-of-tor/tor-cover.webp
 ---
 
+<!--
+SPDX-FileCopyrightText: 2025-2026 Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # In Praise of Tor: Why You Should Support and Use Tor
 
 ![The Tor Project logo over a series of Tor icons on a purple background.](../assets/images-blog/in-praise-of-tor/tor-cover.webp)

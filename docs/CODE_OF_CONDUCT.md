@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: 2022-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Community Code of Conduct
 
 **We pledge** to make our community a harassment-free experience for everyone.
@@ -12,15 +19,15 @@ What we expect from members of our communities:
 
 1. **Do not spread misinformation**
 
-      We are creating an evidence-based educational community around information privacy and security, not an information home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive, explain in detail what is collected and how it collected. Claims of this nature must be backed by technical evidence.
+   We are creating an evidence-based educational community around information privacy and security, not an information home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive, explain in detail what is collected and how it collected. Claims of this nature must be backed by technical evidence.
 
 2. **Do not abuse our willingness to help**
 
-      Our community members are not free tech support. We are happy to help with specific steps for your privacy journey, if you are willing to put in effort. We are not obligated to answer endless, repetitive questions about general computer problems solvable with a simple internet search. **Do not** become a [help vampire](https://slash7.com/2006/12/22/vampires).
+   Our community members are not free tech support. We are happy to help with specific steps for your privacy journey, if you are willing to put in effort. We are not obligated to answer endless, repetitive questions about general computer problems solvable with a simple internet search. **Do not** become a [help vampire](https://slash7.com/2006/12/22/vampires).
 
 3. **Behave in a positive and constructive manner**
 
-      Examples of behavior that contributes to a positive environment for our community include:
+   Examples of behavior that contributes to a positive environment for our community include:
 
       - Being respectful of differing opinions, viewpoints, and experiences.
       - Demonstrating empathy and kindness toward others.

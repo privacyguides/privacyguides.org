@@ -15,6 +15,15 @@ license: BY-SA
 description: When sharing files, it's important to remove associated metadata. Image files commonly include Exif data, and sometimes photos even include GPS coordinates within its metadata.
 schema_type: AnalysisNewsArticle
 ---
+
+<!--
+SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
+<!-- rumdl-disable MD077 -->
+
 # Removing Metadata From Your Photos, Videos, and Other Files
 
 When sharing files, it's important to remove associated metadata. Image files commonly include [Exif](https://en.wikipedia.org/wiki/Exif) data, and sometimes photos even include GPS coordinates within its metadata.<!-- more -->
@@ -60,10 +69,10 @@ Shortcuts is quite intuitive to work with, so if you don't like the behavior dem
 4. Add the **Run Shell Script** action to the shortcut. You may need to enable **Allow Running Scripts** in Shortcut.app's settings
 
 5. Set up the shell script action:
-     - Select **zsh** from the shell list
-     - Set the input to **Shortcut Input**
-     - Select **as arguments** for the pass input
-     - Leave **Run as administrator** unchecked
+    - Select **zsh** from the shell list
+    - Set the input to **Shortcut Input**
+    - Select **as arguments** for the pass input
+    - Leave **Run as administrator** unchecked
 
 6. Use the following as the body of the script:
 

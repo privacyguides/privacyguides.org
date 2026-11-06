@@ -18,6 +18,13 @@ schema:
     sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
 ---
 
+<!--
+SPDX-FileCopyrightText: 2021-2026 Jonah Aragon and Daniel Gray
+SPDX-FileCopyrightText: 2021-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 ![Android logo](../assets/images/android/android.svg){ align=right }
 
 The **Android Open Source Project** (AOSP) is an open-source mobile operating system led by Google which powers the majority of the world's mobile devices. Most phones sold with Android are modified to include invasive integrations and apps such as Google Play Services, so you can significantly improve your privacy on your mobile device by replacing your phone's default installation with a version of Android without these invasive features.

@@ -10,6 +10,13 @@ schema_type: NewsArticle
 preview:
   cover: blog/assets/images/interview-with-micah-lee/social-preview-cover.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2025-2026 Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Interview with Micah Lee: Cyd, Lockdown Systems, OnionShare, and more
 
 ![Photo of Micah Lee over a yellow and purple graphic background, and with the name Micah Lee written on the right.](../assets/images-blog/interview-with-micah-lee/micah-lee-cover.webp)

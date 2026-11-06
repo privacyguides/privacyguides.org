@@ -15,6 +15,13 @@ schema_type: AnalysisNewsArticle
 preview:
   cover: blog/assets/images/firefox-privacy/cover.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2019-2026 Jonah Aragon
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Firefox Privacy: Tips and Tricks for Better Browsing
 
 !["Firefox Privacy" cover image](../assets/images-blog/firefox-privacy/cover.webp)

@@ -12,6 +12,12 @@ preview:
   cover: blog/assets/images/privacy-washing-is-a-dirty-business/washing-cover.webp
 ---
 
+<!--
+SPDX-FileCopyrightText: 2025-2026 Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Privacy Washing Is a Dirty Business
 
 ![Filtered photo of a sticker on a metallic surface with graffiti. The sticker has the sentence "We respect your privacy!" written on it, and the whole sentence is barred is a red line over it.](../assets/images-blog/privacy-washing-is-a-dirty-business/washing-cover.webp)

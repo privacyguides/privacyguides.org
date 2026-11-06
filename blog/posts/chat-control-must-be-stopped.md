@@ -13,6 +13,12 @@ preview:
   cover: blog/assets/images/chat-control-must-be-stopped/chatcontrol-cover.webp
 ---
 
+<!--
+SPDX-FileCopyrightText: 2025-2026 Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Chat Control Must Be Stopped, Act Now!
 
 ![Filtered photo of a protest with a protestor holding a sign in first plan. The background is a red monochrome and the sign is in turquoise. The sign says "You won't make me live this 1984 sh*t".](../assets/images-blog/chat-control-must-be-stopped/chatcontrol-cover.webp)

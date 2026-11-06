@@ -1,0 +1,59 @@
+version = 1
+
+[[annotations]]
+path = "cover.webp"
+SPDX-FileCopyrightText = "Yubico"
+SPDX-License-Identifier = "LicenseRef-Proprietary"
+SPDX-LicenseComments = "This image contains trademarked content used for the purpose of identifying the subject, reuse with case."
+
+[[annotations]]
+path = [
+  "yubikey-1-download.webp",
+  "yubikey-10-reset-fido2.webp",
+  "yubikey-11-reset-fido2close.webp",
+  "yubikey-12-reset-piv.webp",
+  "yubikey-13-reset-cli.webp",
+  "yubikey-14-config-certificates.webp",
+  "yubikey-15-config-certificatespin.webp",
+  "yubikey-16-config-certificatespuk.webp",
+  "yubikey-17-config-certificateskey.webp",
+  "yubikey-18-config-otp.webp",
+  "yubikey-19-config-otpfields.webp",
+  "yubikey-2-yubicoapp.webp",
+  "yubikey-20-config-otpfieldsfilled.webp",
+  "yubikey-21-config-otpfile.webp",
+  "yubikey-22-config-register.webp",
+  "yubikey-23-config-registersuccess.webp",
+  "yubikey-24-config-tryitout.webp",
+  "yubikey-25-config-challenge.webp",
+  "yubikey-26-config-challengepopup.webp",
+  "yubikey-27-config-challengespare.webp",
+  "yubikey-28-config-spareconfigured.webp",
+  "yubikey-29-config-oathtotp.webp",
+  "yubikey-3-keysplugged.webp",
+  "yubikey-30-config-passkeys.webp",
+  "yubikey-31-config-passkeyspin.webp",
+  "yubikey-32-deleteslot.webp",
+  "yubikey-33-deleteslotpopup.webp",
+  "yubikey-34-config-static.webp",
+  "yubikey-35-config-statickeyboards.webp",
+  "yubikey-36-config-staticspare.webp",
+  "yubikey-37-config-hotp.webp",
+  "yubikey-38-config-oathhotppopup.webp",
+  "yubikey-39-config-pgppins.webp",
+  "yubikey-4-keyspluggedspare.webp",
+  "yubikey-40-config-pgpgeneratekey.webp",
+  "yubikey-41-config-pgppassphrase.webp",
+  "yubikey-42-config-pgpaddkeys.webp",
+  "yubikey-43-config-pgp3subkeys.webp",
+  "yubikey-44-config-pgpimportsubkeys.webp",
+  "yubikey-45-config-pgpadminpin.webp",
+  "yubikey-5-slots.webp",
+  "yubikey-6-deletecredential.webp",
+  "yubikey-7-deletepopup.webp",
+  "yubikey-8-slotsempty.webp",
+  "yubikey-9-reset-oath.webp",
+]
+SPDX-FileCopyrightText = "2025-2026 MAGIC Privacy Guides Fund (Magic Grants)"
+SPDX-FileContributor = "Em"
+SPDX-License-Identifier = "CC-BY-SA-4.0"

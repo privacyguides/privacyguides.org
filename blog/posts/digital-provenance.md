@@ -11,6 +11,13 @@ tags:
 preview:
   cover: blog/assets/images/digital-provenance/cover.jpg
 ---
+
+<!--
+SPDX-FileCopyrightText: 2025-2026 Fria
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # The Power of Digital Provenance in the Age of AI
 
 ![Article cover showing a painterly background with cool colors and the Content Credentials logo](../assets/images-blog/digital-provenance/cover.jpg)

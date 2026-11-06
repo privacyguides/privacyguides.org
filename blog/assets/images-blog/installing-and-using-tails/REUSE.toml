@@ -1,0 +1,50 @@
+version = 1
+
+[[annotations]]
+path = "cover.webp"
+SPDX-FileCopyrightText = ["Aleksander Dumała", "The Tor Project, Inc."]
+SPDX-FileContributor = "Modified by Jonah Aragon for Privacy Guides"
+SPDX-License-Identifier = "LicenseRef-Pexels AND GPL-3.0-or-later"
+SPDX-LicenseComments = "This image contains trademarked content used for the purpose of identifying the subject, reuse with case."
+
+[[annotations]]
+path = "mac-startup-security-utility.png"
+SPDX-FileCopyrightText = "The Tor Project, Inc."
+SPDX-License-Identifier = "GPL-3.0-or-later"
+
+[[annotations]]
+path = [
+  "tails-installation-mac-1.webp",
+  "tails-installation-mac-10.webp",
+  "tails-installation-mac-11.webp",
+  "tails-installation-mac-12.webp",
+  "tails-installation-mac-13.webp",
+  "tails-installation-mac-14.webp",
+  "tails-installation-mac-15.webp",
+  "tails-installation-mac-16.png",
+  "tails-installation-mac-17.png",
+  "tails-installation-mac-18.png",
+  "tails-installation-mac-2.webp",
+  "tails-installation-mac-3.webp",
+  "tails-installation-mac-4.webp",
+  "tails-installation-mac-5.webp",
+  "tails-installation-mac-6.webp",
+  "tails-installation-mac-7.webp",
+  "tails-installation-mac-8.png",
+  "tails-installation-mac-9.webp",
+  "tails-usage-keepassxc.webp",
+  "tails-usage-onionshare.webp",
+  "tails-usage-persistentstorage.webp",
+  "tails-usage-privacyguides-onion.webp",
+  "tails-usage-tailswebsite.png",
+  "tails-usage-torconnection-successful.webp",
+  "tails-usage-torconnection.webp",
+]
+SPDX-FileCopyrightText = "2025-2026 MAGIC Privacy Guides Fund (Magic Grants)"
+SPDX-FileContributor = "Em"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "tails-logo-flat-inverted.svg"
+SPDX-FileCopyrightText = "The Tor Project, Inc."
+SPDX-License-Identifier = "GPL-3.0-or-later"

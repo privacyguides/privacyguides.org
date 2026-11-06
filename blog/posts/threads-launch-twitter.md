@@ -17,6 +17,13 @@ schema_type: OpinionNewsArticle
 preview:
   cover: blog/assets/images/threads-launch-twitter/cover.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2023-2026 Freddy
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Threads Is the Perfect Twitter Alternative, Just Not for You
 
 !["Threads Cover Image" cover image](../assets/images-blog/threads-launch-twitter/cover.webp)

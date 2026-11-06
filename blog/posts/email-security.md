@@ -14,6 +14,13 @@ description: Email is ubiquitous. If you want to function in modern society, you
 preview:
   cover: blog/assets/images/email-security/cover.png
 ---
+
+<!--
+SPDX-FileCopyrightText: 2025-2026 Fria
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 ![Email icon opening with an alert message inside](../assets/images-blog/email-security/cover.png)
 
 <small aria-hidden="true">Illustration: fria / Privacy Guides</small>

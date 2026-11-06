@@ -14,6 +14,13 @@ description: |
 preview:
   cover: blog/assets/images/privacy-pass/cover.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2025-2026 Fria
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Privacy Pass: The New Protocol for Private Authentication
 
 ![Cover photo of the Privacy Pass logo over a yellow background](../assets/images-blog/privacy-pass/cover.webp)

@@ -5,6 +5,12 @@ hide:
   - footer
 ---
 
+<!--
+SPDX-FileCopyrightText: 2022-2026 Jonah Aragon
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Latest Articles
 
 This is our home for privacy-related news stories, product reviews, opinion pieces, and other important articles.

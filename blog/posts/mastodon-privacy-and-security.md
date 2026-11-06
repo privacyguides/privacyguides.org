@@ -14,6 +14,12 @@ preview:
   cover: blog/assets/images/mastodon-privacy-and-security/mastodon-cover.webp
 ---
 
+<!--
+SPDX-FileCopyrightText: 2025-2026 Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Privacy and Security on Mastodon
 
 ![The Mastodon name and logo over a dark purple background with a large purple padlock icon under it.](../assets/images-blog/mastodon-privacy-and-security/mastodon-cover.webp)

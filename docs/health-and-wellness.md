@@ -5,6 +5,13 @@ icon: material/heart-pulse
 description: These applications are what we currently recommend for all health- and fitness-related activities on your phone.
 cover: health.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2025-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }

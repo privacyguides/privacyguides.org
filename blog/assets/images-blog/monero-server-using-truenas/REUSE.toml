@@ -1,0 +1,21 @@
+version = 1
+
+[[annotations]]
+path = [
+  "01-datasets.webp",
+  "02-edit-acl.webp",
+  "03-arti-shell.webp",
+  "04-arti-shell.webp",
+  "05-i2p-install.webp",
+  "06-i2p-settings.webp",
+  "07-monero-shell.webp",
+  "08-monero-shell.webp",
+  "09-monero-install.webp",
+]
+SPDX-FileCopyrightText = "2025-2026 Justin Ehrenhofer"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "cover.webp"
+SPDX-FileCopyrightText = "2025-2026 Jonah Aragon"
+SPDX-License-Identifier = "CC-BY-SA-4.0"

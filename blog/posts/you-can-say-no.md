@@ -12,6 +12,12 @@ preview:
   cover: blog/assets/images/you-can-say-no/no-cover.webp
 ---
 
+<!--
+SPDX-FileCopyrightText: 2025-2026 Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # You Can Say NO
 
 ![Black and white cutout photos of two hands over a blue background. One hand does an offering gesture and the other one a refusing gesture. The word "No!" is printed in the middle.](../assets/images-blog/you-can-say-no/no-cover.webp)

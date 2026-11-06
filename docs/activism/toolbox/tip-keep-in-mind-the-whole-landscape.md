@@ -4,6 +4,14 @@ description: Privacy isn't just about the tools, or just about the laws, or just
 icon: fontawesome/solid/globe
 cover: activism/banner-toolbox-tip-landscape.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2026 MAGIC Privacy Guides Fund (Magic Grants)
+SPDX-FileContributor: Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 Privacy isn't just about the tools, the laws, or the practices of any individual or organization. It's about *all* of that. To move our society in a place where everyone benefits from privacy by default, we must consider technologies, laws, and culture holistically.
 
 Here's how to get better at **considering the whole landscape**:

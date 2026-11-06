@@ -4,6 +4,14 @@ icon: simple/linux
 description: Linux distributions are commonly recommended for privacy protection and software freedom.
 cover: desktop.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2019-2026 Jonah Aragon and Daniel Gray
+SPDX-FileCopyrightText: 2015-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }

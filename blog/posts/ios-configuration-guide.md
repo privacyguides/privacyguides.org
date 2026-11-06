@@ -13,6 +13,15 @@ license: BY-SA
 description: There are a number of privacy and security-related settings you should consider changing in the Settings app on iOS 16.
 schema_type: AnalysisNewsArticle
 ---
+
+<!--
+SPDX-FileCopyrightText: 2022-2026 mfwmyfacewhen
+SPDX-FileCopyrightText: 2022-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # iOS 16 Privacy Configuration Guide
 
 There are a number of privacy and security-related settings you should consider changing in the **Settings** app on iOS.<!-- more -->

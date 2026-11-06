@@ -21,6 +21,12 @@ schema:
           - https://controlaltdelete.technology/
 ---
 
+<!--
+SPDX-FileCopyrightText: 2025-2026 Jonah Aragon
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Em
 
 ![Profile picture](https://github.com/EmAtPrivacyGuides.png){ align=right }

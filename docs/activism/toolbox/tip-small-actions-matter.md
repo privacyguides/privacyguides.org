@@ -4,6 +4,14 @@ description: There is so much to do to improve privacy rights. So much, that it'
 icon: fontawesome/solid/puzzle-piece
 cover: activism/banner-toolbox-tip-small.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2026 MAGIC Privacy Guides Fund (Magic Grants)
+SPDX-FileContributor: Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 There is so much to do in the movement for better privacy rights. So much, that it's sometimes easy to feel discouraged when facing the scale of what's left to accomplish. But **everything helps**. Every small improvement counts, and every small victory should be celebrated.
 
 Even if you don't feel like you have the [energy](tip-take-time-to-rest.md) to move a mountain today, there are plenty of small actions you can do.

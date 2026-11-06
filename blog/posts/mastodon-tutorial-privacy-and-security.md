@@ -13,9 +13,16 @@ preview:
   cover: blog/assets/images/mastodon-tutorial-privacy-and-security/mastodon-tutorial-cover.webp
 ---
 
+<!--
+SPDX-FileCopyrightText: 2025-2026 Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # How To Improve Your Privacy and Security on Mastodon
 
 ![Illustration of a mastodon mascot pointing at a padlock icon in a cheerful way. Above is the Mastodon logo over a purple background.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-tutorial-cover.webp)
+<!-- rumdl-disable MD034 -->
 <small aria-hidden="true">Montage: Em / Privacy Guides | Illustration: @dopatwo@mastodon.social (1)</small>
 { .annotate }
 

@@ -5,6 +5,13 @@ icon: material/vpn
 description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
 ---
 
+<!--
+SPDX-FileCopyrightText: 2019-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2015-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world.
 
 [:material-movie-open-play-outline: Video: Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn){ .md-button }
@@ -37,6 +44,7 @@ Note that a VPN does not add any security or encryption to your traffic between 
 ## Should I use a VPN?
 
 **Yes**, almost certainly. The advantages of a VPN include:
+
 1. Hiding your traffic from **only** your Internet Service Provider.
 1. Hiding your IP from third-party websites and services, preventing IP based tracking.
 1. Allowing you to bypass geo-restrictions on certain content.
@@ -95,11 +103,11 @@ One example of a commercially available MPR is Apple's iCloud+ Private Relay, wh
 
 1. Firstly, a server operated by Apple.
 
-    This server is able to see your device's IP when you connect to it, and has knowledge of your payment information and Apple ID tied to your iCloud subscription. However, it is unable to see what website you are connecting to.
+   This server is able to see your device's IP when you connect to it, and has knowledge of your payment information and Apple ID tied to your iCloud subscription. However, it is unable to see what website you are connecting to.
 
 2. Secondly, a server operated by a partner CDN, such as Cloudflare or Fastly.
 
-    This server actually makes the connection to your destination website, but has no knowledge of your device. The only IP address it knows about is Apple's server's.
+   This server actually makes the connection to your destination website, but has no knowledge of your device. The only IP address it knows about is Apple's server's.
 
 Other MPRs run by different companies operate in a very similar manner. This protection by segmentation only exists if you trust the two companies to not collude with each other to deanonymize you.
 

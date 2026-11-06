@@ -3,6 +3,13 @@ title: Executive Policy
 description: These are policies formally adopted by our executive committee, and take precedence over all other statements expressed on this website.
 ---
 
+<!--
+SPDX-FileCopyrightText: 2024-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2024-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 These are policies formally adopted by Privacy Guides' executive committee, and take precedence over all other statements expressed on this website.
 
 The keywords **must**, **must not**, **required**, **shall**, **shall not**, **should**, **should not**, **recommended**, **may**, and **optional** are to be interpreted as described in [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119).
