@@ -58,7 +58,7 @@
             {
               "label": "Main",
               "type": "shell",
-              "command": "./run.sh --cmd=mkdocs --insiders",
+              "command": "./run.sh",
               "group": "test",
               "runOptions": {
                 "runOn": "folderOpen"
@@ -109,11 +109,6 @@
     },
     "codespaces": {
       "repositories": {
-        "privacyguides/mkdocs-material-insiders": {
-          "permissions": {
-            "content": "read"
-          }
-        },
         "privacyguides/brand": {
           "permissions": {
             "content": "read"

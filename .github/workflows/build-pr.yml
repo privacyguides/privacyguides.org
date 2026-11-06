@@ -4,7 +4,7 @@ on:
   pull_request:
 
 concurrency:
-  group: ${{github.event.pull_request.head.ref}}
+  group: pr-build-${{ github.event.pull_request.number }}
   cancel-in-progress: true
 
 permissions:
@@ -13,8 +13,6 @@ permissions:
 jobs:
   metadata:
     runs-on: ubuntu-latest
-    env:
-      ACTIONS_SSH_KEY: ${{ secrets.ACTIONS_SSH_KEY }}
     steps:
       - name: Save PR metadata
         run: |
@@ -29,56 +27,41 @@ jobs:
           path: metadata
 
   build_english:
-    needs: [metadata]
-    strategy:
-      matrix:
-        lang: [en]
-      fail-fast: true
     uses: ./.github/workflows/build.yml
     with:
-      ref: ${{github.event.pull_request.head.ref}}
+      ref: ${{github.event.pull_request.head.sha}}
       repo: ${{github.event.pull_request.head.repo.full_name}}
       lang: en
       continue-on-error: false
-      privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
       strict: true
-    secrets:
-      MEMBERS_API_URL: ${{ secrets.MEMBERS_API_URL }}
 
   build_i18n:
     if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build i18n') }}
-    needs: [metadata]
     strategy:
       matrix:
         lang: [es, fr, he, it, nl, ru, zh-Hant, zh-TW]
       fail-fast: false
     uses: ./.github/workflows/build.yml
     with:
-      ref: ${{github.event.pull_request.head.ref}}
+      ref: ${{github.event.pull_request.head.sha}}
       repo: ${{github.event.pull_request.head.repo.full_name}}
       lang: ${{ matrix.lang }}
       continue-on-error: true
-      privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
       strict: true
-    secrets:
-      MEMBERS_API_URL: ${{ secrets.MEMBERS_API_URL }}
 
   build_blog:
     if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build blog') }}
-    needs: [metadata]
     uses: ./.github/workflows/build-blog.yml
     with:
-      ref: ${{github.event.pull_request.head.ref}}
+      ref: ${{github.event.pull_request.head.sha}}
       repo: ${{github.event.pull_request.head.repo.full_name}}
       continue-on-error: true
-      privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
 
   build_zimfile:
     if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build zimfile') }}
-    needs: [metadata]
     uses: ./.github/workflows/build-zimfile.yml
     with:
-      ref: ${{github.event.pull_request.head.ref}}
+      ref: ${{github.event.pull_request.head.sha}}
       repo: ${{github.event.pull_request.head.repo.full_name}}
 
   combine_build:

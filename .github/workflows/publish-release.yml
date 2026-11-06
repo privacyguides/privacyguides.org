@@ -40,12 +40,10 @@ jobs:
     strategy:
       matrix:
         lang: [en, es, fr, he, it, nl, ru, zh-Hant, zh-TW]
-        build: [build]
     permissions:
       contents: read
     uses: ./.github/workflows/build.yml
     with:
-      config: ${{ matrix.build }}
       ref: ${{ github.ref }}
       repo: ${{ github.repository }}
       lang: ${{ matrix.lang }}

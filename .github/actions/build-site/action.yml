@@ -1,0 +1,33 @@
+name: Build with Docker
+description: Build the repository Dockerfile and run a site command in it.
+inputs:
+  command:
+    description: Shell commands to run inside the build container.
+    required: true
+runs:
+  using: composite
+  steps:
+    - uses: docker/setup-buildx-action@v3
+    - uses: docker/build-push-action@v6.9.0
+      with:
+        context: .
+        load: true
+        tags: privacyguides-build:local
+        cache-from: type=gha
+        cache-to: type=gha,mode=max
+    - shell: bash
+      env:
+        BUILD_COMMAND: ${{ inputs.command }}
+      run: |
+        args=()
+        while IFS= read -r name; do
+          case "$name" in
+            BUILD_*|SITE_LANGUAGE|PRODUCTION|CARDS|GITAUTHORS|GITREVISIONDATE|LANGUAGE_SWITCHER|MAIN_SITE_*|ARTICLES_SITE_*|VIDEOS_SITE_*|NEWS_SITE_*|HOMEPAGE_*|MEMBERS_API_URL)
+              args+=(--env "$name") ;;
+          esac
+        done < <(compgen -e)
+        docker run --rm --user "$(id -u):$(id -g)" \
+          --env HOME=/tmp \
+          --volume "$GITHUB_WORKSPACE:/workspaces/privacyguides.org" \
+          "${args[@]}" privacyguides-build:local \
+          bash -e -o pipefail -c 'source tools/build-environment.sh; exec bash -e -o pipefail -c "$BUILD_COMMAND"'

@@ -39,10 +39,6 @@ jobs:
       ARTICLES_SITE_BASE_URL: /articles/index.html
 
     steps:
-      - name: Add GitHub Token to Environment
-        run: |
-          echo "GH_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> "$GITHUB_ENV"
-
       - name: Download Repository
         uses: actions/checkout@v4
         with:
@@ -52,28 +48,12 @@ jobs:
           fetch-depth: 0
           submodules: true
 
-      - name: Install Python (pipenv)
-        uses: actions/setup-python@v5
-        with:
-          cache: "pipenv"
-
-      - name: Install Python Dependencies
-        run: |
-          pip install pipenv
-          pipenv install
-          sudo apt install pngquant
-
-      - name: Generate Donating Members List
-        env:
-          MEMBERS_API_URL: ${{ secrets.MEMBERS_API_URL }}
-        continue-on-error: true
-        run: |
-          pip install requests
-          python tools/generate-members.py > includes/members.md
-
       - name: Build English
-        run: |
-          ./run.sh --build --production --offline --lang=en
+        uses: ./.github/actions/build-site
+        with:
+          command: |
+            python tools/generate-members.py > /tmp/members.md && cp /tmp/members.md includes/members.md || true
+            ./run.sh build
 
       - name: Delete Unreferenced Assets
         run: |
@@ -99,8 +79,9 @@ jobs:
             --count=12
 
       - name: Build Articles
-        run: |
-          pipenv run mkdocs build --config-file mkdocs.blog.yml
+        uses: ./.github/actions/build-site
+        with:
+          command: mkdocs build --config-file mkdocs.blog.yml
 
       - name: Delete Unreferenced Assets
         run: |
@@ -165,10 +146,6 @@ jobs:
       NEWS_SITE_BASE_URL: https://www.privacyguides.org/news/
 
     steps:
-      - name: Add GitHub Token to Environment
-        run: |
-          echo "GH_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> "$GITHUB_ENV"
-
       - name: Download Repository
         uses: actions/checkout@v4
         with:
@@ -178,28 +155,12 @@ jobs:
           fetch-depth: 0
           submodules: true
 
-      - name: Install Python (pipenv)
-        uses: actions/setup-python@v5
-        with:
-          cache: "pipenv"
-
-      - name: Install Python Dependencies
-        run: |
-          pip install pipenv
-          pipenv install
-          sudo apt install pngquant
-
-      - name: Generate Donating Members List
-        env:
-          MEMBERS_API_URL: ${{ secrets.MEMBERS_API_URL }}
-        continue-on-error: true
-        run: |
-          pip install requests
-          python tools/generate-members.py > includes/members.md
-
       - name: Build English
-        run: |
-          ./run.sh --build --production --offline --lang=en
+        uses: ./.github/actions/build-site
+        with:
+          command: |
+            python tools/generate-members.py > /tmp/members.md && cp /tmp/members.md includes/members.md || true
+            ./run.sh build
 
       - name: Run generate-topics.sh for top posts
         run: |
@@ -285,10 +246,6 @@ jobs:
       MAIN_SITE_KNOWLEDGE_BASE_URL: https://www.privacyguides.org/en/basics/
 
     steps:
-      - name: Add GitHub Token to Environment
-        run: |
-          echo "GH_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> "$GITHUB_ENV"
-
       - name: Download Repository
         uses: actions/checkout@v4
         with:
@@ -298,20 +255,10 @@ jobs:
           fetch-depth: 0
           submodules: true
 
-      - name: Install Python (pipenv)
-        uses: actions/setup-python@v5
-        with:
-          cache: "pipenv"
-
-      - name: Install Python Dependencies
-        run: |
-          pip install pipenv
-          pipenv install
-          sudo apt install pngquant
-
       - name: Build Articles
-        run: |
-          pipenv run mkdocs build --config-file mkdocs.blog.yml
+        uses: ./.github/actions/build-site
+        with:
+          command: mkdocs build --config-file mkdocs.blog.yml
 
       - name: Delete Unreferenced Assets
         run: |
@@ -382,10 +329,6 @@ jobs:
         lang: [en, es, fr, he, it, nl, ru, zh-Hant]
 
     steps:
-      - name: Add GitHub Token to Environment
-        run: |
-          echo "GH_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> "$GITHUB_ENV"
-
       - name: Download Repository
         uses: actions/checkout@v4
         with:
@@ -395,34 +338,26 @@ jobs:
           fetch-depth: 0
           submodules: true
 
+      - name: Download Translations
+        if: matrix.lang != 'en'
+        uses: actions/checkout@v4
+        with:
+          repository: privacyguides/i18n
+          path: translations
+          persist-credentials: false
+
       - name: Copy Translation Files
         if: matrix.lang != 'en'
-        run: |
-          cp -rl modules/repo-i18n/i18n .
-          cp -rl modules/repo-i18n/includes .
-
-      - name: Install Python (pipenv)
-        uses: actions/setup-python@v5
-        with:
-          cache: "pipenv"
-
-      - name: Install Python Dependencies
-        run: |
-          pip install pipenv
-          pipenv install
-          sudo apt install pngquant
-
-      - name: Generate Donating Members List
-        env:
-          MEMBERS_API_URL: ${{ secrets.MEMBERS_API_URL }}
-        continue-on-error: true
-        run: |
-          pip install requests
-          python tools/generate-members.py > includes/members.md
+        run: cp -a translations/i18n translations/includes .
 
       - name: Build Website
-        run: |
-          ./run.sh --build --production --offline --lang=${{ matrix.lang }}
+        uses: ./.github/actions/build-site
+        env:
+          SITE_LANGUAGE: ${{ matrix.lang }}
+        with:
+          command: |
+            python tools/generate-members.py > /tmp/members.md && cp /tmp/members.md includes/members.md || true
+            ./run.sh build
 
       - name: Run generate-topics.sh for top posts
         if: matrix.lang == 'en'
@@ -451,8 +386,9 @@ jobs:
 
       - name: Build Articles
         if: matrix.lang == 'en'
-        run: |
-          pipenv run mkdocs build --config-file mkdocs.blog.yml
+        uses: ./.github/actions/build-site
+        with:
+          command: mkdocs build --config-file mkdocs.blog.yml
 
       - name: Delete Unreferenced Assets
         if: matrix.lang == 'en'

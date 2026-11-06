@@ -164,7 +164,6 @@ plugins:
   offline:
     enabled: !ENV [BUILD_OFFLINE, false]
   group:
-    enabled: !ENV [BUILD_INSIDERS, true]
     plugins:
       macros: {}
       meta: {}

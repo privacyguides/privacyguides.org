@@ -15,9 +15,6 @@ on:
       continue-on-error:
         type: boolean
         default: true
-      privileged:
-        type: boolean
-        default: true
 
 permissions:
   contents: read
@@ -30,64 +27,21 @@ jobs:
       contents: read
 
     steps:
-      - name: Add GitHub Token to Environment
-        run: |
-          echo "GH_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> "$GITHUB_ENV"
-
       - name: Download Repository
         uses: actions/checkout@v4
         with:
           repository: ${{ inputs.repo }}
           ref: ${{ inputs.ref }}
-          persist-credentials: "false"
+          persist-credentials: false
           fetch-depth: 0
           submodules: true
 
-      - name: Install Python (pipenv)
-        if: inputs.privileged
-        uses: actions/setup-python@v5
+      - name: Build Blog
+        uses: ./.github/actions/build-site
+        env:
+          BUILD_CONTEXT: ${{ inputs.context }}
         with:
-          cache: "pipenv"
-
-      - name: Install Python (no pipenv)
-        if: ${{ !inputs.privileged }}
-        uses: actions/setup-python@v5
-
-      - name: Install Python Dependencies
-        if: inputs.privileged
-        run: |
-          pip install pipenv
-          pipenv install
-          sudo apt install pngquant
-
-      - name: Install Python Dependencies (Unprivileged)
-        if: ${{ !inputs.privileged }}
-        run: |
-          pip install mkdocs-material mkdocs-rss-plugin mkdocs-glightbox mkdocs-macros-plugin
-          sudo apt install pngquant
-
-      - name: Set base navigation URLs for production build
-        if: inputs.context == 'production'
-        run: |
-          {
-            echo "MAIN_SITE_BASE_URL=https://www.privacyguides.org/en/"
-            echo "MAIN_SITE_ABOUT_URL=https://www.privacyguides.org/en/about/"
-            echo "MAIN_SITE_RECOMMENDATIONS_URL=https://www.privacyguides.org/en/tools/"
-            echo "MAIN_SITE_KNOWLEDGE_BASE_URL=https://www.privacyguides.org/en/basics/why-privacy-matters/"
-            echo "ARTICLES_SITE_BASE_URL=https://www.privacyguides.org/posts/tag/articles/"
-            echo "VIDEOS_SITE_BASE_URL=https://www.privacyguides.org/videos/"
-            echo "NEWS_SITE_BASE_URL=https://www.privacyguides.org/news/"
-          } >> "$GITHUB_ENV"
-
-      - name: Build Website (Privileged)
-        if: inputs.privileged
-        run: |
-          pipenv run mkdocs build --config-file mkdocs.blog.yml
-
-      - name: Build Website (Unprivileged)
-        if: ${{ !inputs.privileged }}
-        run: |
-          BUILD_INSIDERS=false mkdocs build --config-file mkdocs.blog.yml
+          command: mkdocs build --config-file mkdocs.blog.yml
 
       - name: Package Website
         run: |

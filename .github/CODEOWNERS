@@ -17,8 +17,8 @@ README.md @jonaharagon @dngray
 # Ops
 
 Dockerfile @jonaharagon
-/Pipfile @jonaharagon
-/Pipfile.lock @jonaharagon
+/requirements.in @jonaharagon
+/requirements.txt @jonaharagon
 /.github/ @jonaharagon
 /run.sh @jonaharagon
 /modules/ @jonaharagon
