@@ -30,7 +30,7 @@ env:
 jobs:
   package_eng:
     name: Package English (${{ matrix.edition }})
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     permissions:
       contents: read
     strategy:
@@ -162,7 +162,7 @@ jobs:
             zimcheck /data/${{ env.ZIMFILE_NAME }}
 
   build_mul:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     continue-on-error: true
     permissions:
       contents: read
@@ -256,7 +256,7 @@ jobs:
           compression-level: 0
 
   package_mul:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     needs: [build_mul]
     permissions:
       contents: read

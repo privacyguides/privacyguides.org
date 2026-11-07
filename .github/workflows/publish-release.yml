@@ -52,7 +52,7 @@ jobs:
   release:
     name: Create release notes
     needs: [build, build_zimfile]
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     permissions:
       contents: write
 
@@ -71,7 +71,7 @@ jobs:
 
   deploy_garage:
     needs: [build, build_blog]
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
 
     permissions:
       contents: read
@@ -103,7 +103,7 @@ jobs:
 
   deploy_pages:
     needs: [build, build_blog]
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     permissions:
       contents: read
       pages: write
