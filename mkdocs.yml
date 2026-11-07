@@ -167,6 +167,10 @@ extra:
       name: !ENV [SOCIAL_TOR_SITE, "Hidden service"]
   language_switcher: !ENV [LANGUAGE_SWITCHER, true]
   alternate:
+    - name: Deutsch
+      link: /de/
+      lang: de
+      icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1e9-1f1ea.svg
     - name: English
       link: /en/
       lang: en
