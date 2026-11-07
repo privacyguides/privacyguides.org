@@ -9,7 +9,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Tor Browser
-    image: /assets/img/browsers/tor.svg
+    image: /assets/images/browsers/tor.svg
     url: https://torproject.org
     sameAs: https://en.wikipedia.org/wiki/Tor_(network)
     applicationCategory: Web Browser
@@ -22,6 +22,7 @@ schema:
       "@type": WebPage
       url: "./"
 ---
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }

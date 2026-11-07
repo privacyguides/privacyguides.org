@@ -14,7 +14,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Bitwarden
-    image: /assets/img/password-management/bitwarden.svg
+    image: /assets/images/password-management/bitwarden.svg
     url: https://bitwarden.com
     sameAs: https://en.wikipedia.org/wiki/Bitwarden
     applicationCategory: Password Manager
@@ -32,7 +32,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: 1Password
-    image: /assets/img/password-management/1password.svg
+    image: /assets/images/password-management/1password.svg
     url: https://1password.com
     sameAs: https://en.wikipedia.org/wiki/1Password
     applicationCategory: Password Manager
@@ -50,7 +50,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Proton Pass
-    image: /assets/img/password-management/protonpass.svg
+    image: /assets/images/password-management/protonpass.svg
     url: https://proton.me/pass
     applicationCategory: Password Manager
     operatingSystem:
@@ -64,7 +64,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Psono
-    image: /assets/img/password-management/psono.svg
+    image: /assets/images/password-management/psono.svg
     url: https://psono.com
     applicationCategory: Password Manager
     operatingSystem:
@@ -78,7 +78,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: KeePassXC
-    image: /assets/img/password-management/keepassxc.svg
+    image: /assets/images/password-management/keepassxc.svg
     url: https://keepassxc.org
     sameAs: https://en.wikipedia.org/wiki/KeePassXC
     applicationCategory: Password Manager
@@ -94,7 +94,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: KeePassDX
-    image: /assets/img/password-management/keepassdx.svg
+    image: /assets/images/password-management/keepassdx.svg
     url: https://keepassdx.com
     applicationCategory: Password Manager
     operatingSystem: Android
@@ -106,7 +106,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Gopass
-    image: /assets/img/password-management/gopass.svg
+    image: /assets/images/password-management/gopass.svg
     url: https://gopass.pw
     applicationCategory: Password Manager
     operatingSystem:
@@ -119,6 +119,7 @@ schema:
       "@type": WebPage
       url: "./"
 ---
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }

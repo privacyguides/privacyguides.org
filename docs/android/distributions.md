@@ -12,7 +12,7 @@ schema:
     "@context": http://schema.org
     "@type": CreativeWork
     name: GrapheneOS
-    image: /assets/img/android/grapheneos.svg
+    image: /assets/images/android/grapheneos.svg
     url: https://grapheneos.org/
     sameAs: https://en.wikipedia.org/wiki/GrapheneOS
     subjectOf:
@@ -21,6 +21,7 @@ schema:
       url: "./"
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }

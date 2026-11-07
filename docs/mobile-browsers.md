@@ -15,7 +15,7 @@ schema:
     "@context": http://schema.org
     "@type": MobileApplication
     name: Brave
-    image: /assets/img/browsers/brave.svg
+    image: /assets/images/browsers/brave.svg
     url: https://brave.com
     applicationCategory: Web Browser
     operatingSystem:
@@ -28,7 +28,7 @@ schema:
     "@context": http://schema.org
     "@type": MobileApplication
     name: Safari
-    image: /assets/img/browsers/safari.svg
+    image: /assets/images/browsers/safari.svg
     url: https://apple.com/safari
     applicationCategory: Web Browser
     operatingSystem:
@@ -37,6 +37,7 @@ schema:
       "@type": WebPage
       url: "./"
 ---
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }

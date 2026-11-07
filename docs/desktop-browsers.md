@@ -15,7 +15,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Mullvad Browser
-    image: /assets/img/browsers/mullvad_browser.svg
+    image: /assets/images/browsers/mullvad_browser.svg
     url: https://mullvad.net/en/browser
     applicationCategory: Web Browser
     operatingSystem:
@@ -29,7 +29,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Firefox
-    image: /assets/img/browsers/firefox.svg
+    image: /assets/images/browsers/firefox.svg
     url: https://firefox.com
     sameAs: https://en.wikipedia.org/wiki/Firefox
     applicationCategory: Web Browser
@@ -44,7 +44,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Brave
-    image: /assets/img/browsers/brave.svg
+    image: /assets/images/browsers/brave.svg
     url: https://brave.com
     sameAs: https://en.wikipedia.org/wiki/Brave_(web_browser)
     applicationCategory: Web Browser
@@ -56,6 +56,7 @@ schema:
       "@type": WebPage
       url: "./"
 ---
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
