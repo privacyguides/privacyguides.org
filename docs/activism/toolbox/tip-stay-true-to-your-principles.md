@@ -4,6 +4,14 @@ description: If you manage a digital rights group, it's important to make sure y
 icon: fontawesome/solid/star
 cover: activism/banner-toolbox-tip-principles.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 If you manage a digital rights group, meetup, chat room, event, or organization even, make sure you aren't subjecting your members and contributors to the very privacy-invasive tech you're fighting against. Sadly, it's not rare to see organizations and communities that aren't following their own privacy advice for internal practices.
 
 Here's why it's important to **stay true to your principles** and lead by example:

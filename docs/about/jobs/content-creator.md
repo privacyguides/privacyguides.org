@@ -3,6 +3,13 @@ title: Content Creator
 description: Privacy Guides is looking for a video producer and host for informative privacy-related content on YouTube and other platforms.
 ---
 
+<!--
+SPDX-FileCopyrightText: 2024-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2024-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 [:material-arrow-left-drop-circle: Job Openings](../jobs.md)
 
 <div class="admonition info" markdown>

@@ -4,6 +4,14 @@ description: The battle for privacy will be a long one. This isn't a sprint, it'
 icon: fontawesome/solid/battery-quarter
 cover: activism/banner-toolbox-tip-rest.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 The battle for privacy rights will be a long one. This isn't a sprint, it's a marathon.
 
 If you want to be a good advocate, who will be able to fight with us for a long time, you *must* take the time to **rest when needed**.

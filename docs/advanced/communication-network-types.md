@@ -4,6 +4,12 @@ icon: 'material/transit-connection-variant'
 description: An overview of several network architectures commonly used by instant messaging applications.
 ---
 
+<!--
+SPDX-FileCopyrightText: 2019-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 There are several network architectures commonly used to relay messages between people. These networks can provide different privacy guarantees, which is why it's worth considering your [threat model](../basics/threat-modeling.md) when deciding which app to use.
 
 [Recommended Instant Messengers](../real-time-communication.md){ .md-button }

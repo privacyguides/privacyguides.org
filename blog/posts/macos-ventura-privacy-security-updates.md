@@ -14,6 +14,7 @@ license: BY-SA
 description: We cover the improvements macOS Ventura will bring to Apple users when it comes to personal privacy and security.
 schema_type: NewsArticle
 ---
+
 # New Privacy and Security Features in macOS 13 Ventura
 
 macOS Ventura was released this week, and the Apple users among us may be interested in the improvements it brings to your personal privacy and security. We always recommend running the most up-to-date version of your operating system available. Updates add privacy and security improvements all the time—and macOS Ventura is no exception.<!-- more --> Some notable new additions to the macOS privacy ecosystem include:

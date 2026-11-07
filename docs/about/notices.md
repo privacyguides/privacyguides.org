@@ -3,6 +3,13 @@ title: "Notices and Disclaimers"
 description: Information about our website license, acceptable use policy, and other important details.
 ---
 
+<!--
+SPDX-FileCopyrightText: 2019-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2019-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 ## Legal Disclaimer
 
 Privacy Guides is not a law firm. As such, the Privacy Guides website and contributors are not providing legal advice. The material and recommendations in our website and guides do not constitute legal advice nor does contributing to the website or communicating with Privacy Guides or other contributors about our website create an attorney-client relationship.

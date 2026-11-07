@@ -7,6 +7,14 @@ hide:
   - footer
 cover: activism/banner-activism.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 The **Guides and Tools for Privacy Activists** project from [*Privacy Guides*](../about.md) offers a new way to empower the digital rights community.
 
 This section contains information to help you become a better defender of privacy rights, both for individuals and organizations.

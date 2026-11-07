@@ -11,6 +11,7 @@ tags:
     - Web
 license: BY-SA
 ---
+
 # State of the Web App: Current Woes and Promising Futures
 
 The concept of a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) is enticing: an application using web technologies that is inherently cross-platform (since it runs in a browser) and acts like a native app, even functioning offline. Support for PWAs in traditionally locked-down platforms like iOS means that PWAs can give users the freedom to install apps without having to go through Apple’s App Store. But there are problems with web content that PWAs haven't solved.<!-- more -->

@@ -5,6 +5,14 @@ hide:
   - feedback
 cover: activism/banner-activism-toolbox.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 The **Privacy Activist Toolbox** is a resource for anyone interested in becoming a better privacy rights activist, or anyone who wants to start advocating for privacy rights.
 
 This page is also a resource to help digital rights organizations that would like to expand their work focusing on privacy.

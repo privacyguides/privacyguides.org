@@ -18,6 +18,7 @@
     "ms-python.python",
     "github.vscode-github-actions",
     "ms-vscode-remote.remote-containers",
-    "github.codespaces"
+    "github.codespaces",
+    "zensical.zensical-studio"
   ]
 }

@@ -16,6 +16,7 @@ license: BY-SA
 description: You should be aware of a number of issues with Signal’s current proxy implementation.
 schema_type: NewsArticle
 ---
+
 # A Warning About Signal Proxies in Iran and Other Oppressive Countries
 
 People looking to use [Signal Proxies](https://www.signal.org/blog/run-a-proxy/) to bypass censorship programs should be aware of a number of issues with Signal’s current proxy implementation. Currently, Signal does not tunnel all application traffic through the specified proxy, which means authorities could still track people using Signal.<!-- more -->

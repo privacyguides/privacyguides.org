@@ -4,6 +4,14 @@ description: To give actionable privacy advice, it's essential to consider every
 icon: fontawesome/solid/users-between-lines
 cover: activism/banner-toolbox-tip-everyone.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 Everyone has different needs, and everyone faces different dangers when their personal data gets exposed.
 
 To give actionable privacy advices and recommendations, it's essential to **keep in mind everyone's situation**. There isn't a one-size-fits-all approach when it comes to data privacy.

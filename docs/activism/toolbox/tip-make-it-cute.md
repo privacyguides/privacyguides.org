@@ -4,6 +4,14 @@ description: If you are developing a privacy-focused application or website, it'
 icon: fontawesome/solid/cat
 cover: activism/banner-toolbox-tip-cute.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 If you are developing a privacy-focused application or website, it's important that you **do not neglect the design** aspect of it. This is a common mistake that can have a significant negative impact on adoption by a general audience. Make it cute!
 
 Here's why you should make your design appealing and accessible to everyone:

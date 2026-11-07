@@ -4,6 +4,14 @@ description: Fighting for privacy rights is a collective endeavor. This battle c
 icon: fontawesome/solid/hand-holding-heart
 cover: activism/banner-toolbox-tip-support.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 Fighting for better privacy rights, privacy tools, and privacy practices is a collective endeavor. You cannot do it alone. Anyone around you contributing is fighting the same battle by your side. This battle *can* be difficult and isolating at times. That's why it's critical to care for each other.
 
 Here are things you can do to **support your privacy comrades**:

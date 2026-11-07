@@ -14,6 +14,7 @@ description: |
 preview:
   cover: blog/assets/images/biometrics-explained/biometrics.webp
 ---
+
 # Biometrics Explained
 
 ![Glowing fingerprint on glass](../assets/images-blog/biometrics-explained/biometrics.webp)

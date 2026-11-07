@@ -4,6 +4,14 @@ icon: material/rss
 description: These news aggregator clients let you keep up with your favorite blogs and news sites using internet standards like RSS.
 cover: news-aggregators.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2022-2026 Jonah Aragon and Daniel Gray
+SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
