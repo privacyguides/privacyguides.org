@@ -120,8 +120,8 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ad
 
 <div class="admonition recommendation" markdown>
 
-![RethinkDNS logo](assets/images-en/android/rethinkdns.svg#only-light){ align=right }
-![RethinkDNS logo](assets/images-en/android/rethinkdns-dark.svg#only-dark){ align=right }
+![RethinkDNS logo](assets/images/android/rethinkdns.svg#only-light){ align=right }
+![RethinkDNS logo](assets/images/android/rethinkdns-dark.svg#only-dark){ align=right }
 
 **RethinkDNS** is an open-source Android client that supports [DoH](advanced/dns-overview.md#dns-over-https-doh), [DoT](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) and DNS Proxy. It also provides additional functionality such as caching DNS responses, locally logging DNS queries, and using the app as a firewall.
 

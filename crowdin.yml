@@ -7,7 +7,15 @@ project_id: "509862"
 "preserve_hierarchy": true
 files:
   - source: "/docs/**/*.*"
+    ignore:
+      - "/docs/assets/images/**"
+      - "/docs/assets/images-localized/**"
     translation: "/i18n/%two_letters_code%/**/%file_name%.%file_extension%"
+    skip_untranslated_files: false
+  # Keep the existing Crowdin paths to retain image translations.
+  - source: "/docs/assets/images-localized/**/*.*"
+    dest: "/docs/assets/img/**/%file_name%.%file_extension%"
+    translation: "/i18n/%two_letters_code%/assets/images-localized/**/%file_name%.%file_extension%"
     skip_untranslated_files: false
   - source: "/includes/*.en.*"
     translation: "/includes/%file_name%.%two_letters_code%.%file_extension%"

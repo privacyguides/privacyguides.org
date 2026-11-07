@@ -39,7 +39,7 @@ If your device is on Android 15 or greater, we recommend using the native [Priva
 
 <div class="admonition recommendation" markdown>
 
-![Shelter logo](../assets/images-en/android/shelter.svg){ align=right }
+![Shelter logo](../assets/images/android/shelter.svg){ align=right }
 
 **Shelter** is an app that helps you leverage Android's Work Profile functionality to isolate or duplicate apps on your device.
 
@@ -68,8 +68,8 @@ Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) a
 
 <div class="admonition recommendation" markdown>
 
-![Secure camera logo](../assets/images-en/android/secure_camera.svg#only-light){ align=right }
-![Secure camera logo](../assets/images-en/android/secure_camera-dark.svg#only-dark){ align=right }
+![Secure camera logo](../assets/images/android/secure_camera.svg#only-light){ align=right }
+![Secure camera logo](../assets/images/android/secure_camera-dark.svg#only-dark){ align=right }
 
 **Secure Camera** is a camera app focused on privacy and security which can capture images, videos, and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
 
@@ -112,8 +112,8 @@ The image orientation metadata is not deleted. If you enable location (in Secure
 
 <div class="admonition recommendation" markdown>
 
-![Secure PDF Viewer logo](../assets/images-en/android/secure_pdf_viewer.svg#only-light){ align=right }
-![Secure PDF Viewer logo](../assets/images-en/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
+![Secure PDF Viewer logo](../assets/images/android/secure_pdf_viewer.svg#only-light){ align=right }
+![Secure PDF Viewer logo](../assets/images/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
 **Secure PDF Viewer** is a PDF viewer based on [pdf.js](https://en.wikipedia.org/wiki/PDF.js) that doesn't require any permissions. The PDF is fed into a [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_development)) [WebView](https://developer.android.com/guide/webapps/webview). This means that it doesn't require permission directly to access content or files.
 

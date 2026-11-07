@@ -47,6 +47,15 @@ if [[ "$blog" == false ]]; then
     export BUILD_SITE_DIR="site/$language"
     export BUILD_SITE_URL="https://www.privacyguides.org/$language"
     export BUILD_THEME_LANGUAGE="$language"
+
+    # Share non-localized images with translated builds and previews
+    mkdir -p "$BUILD_DOCS_DIR/assets"
+    if [[ -e "$BUILD_DOCS_DIR/assets/images" && ! -L "$BUILD_DOCS_DIR/assets/images" ]]; then
+      echo "Cannot link shared images: $BUILD_DOCS_DIR/assets/images already exists and is not a symlink." >&2
+      exit 1
+    fi
+    ln -sfn ../../../docs/assets/images "$BUILD_DOCS_DIR/assets/images"
+
   fi
 
   # Source per-language strings

@@ -12,7 +12,7 @@ Over time, it can be easy to accumulate a number of online accounts, many of whi
 If you have a password manager that you've used for your entire digital life, this part will be very easy. Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned).
 
 <figure markdown>
-  ![Bitwarden's Data Breach Report feature](../assets/images-en/account-deletion/exposed_passwords.png)
+  ![Bitwarden's Data Breach Report feature](../assets/images-localized/account-deletion/exposed_passwords.png)
 </figure>
 
 Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) or your phone ([Google](https://passwords.google.com/intro) on stock Android, [Passwords](https://support.apple.com/HT211146) on iOS) without even realizing it.

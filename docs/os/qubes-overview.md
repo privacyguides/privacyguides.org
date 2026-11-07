@@ -16,12 +16,12 @@ Some of the information here and on the Qubes OS documentation may contain confl
 
 </details>
 
-![Qubes architecture](../assets/images-en/qubes/qubes-trust-level-architecture.png)
+![Qubes architecture](../assets/images-localized/qubes/qubes-trust-level-architecture.png)
 <figcaption>Qubes Architecture, Credit: What is Qubes OS Intro</figcaption>
 
 Each qube has a [colored border](https://qubes-os.org/screenshots) that can help you keep track of the domain in which it runs. You could, for example, use a specific color for your banking browser, while using a different color for a general untrusted browser.
 
-![Colored border](../assets/images-en/qubes/r4.0-xfce-three-domains-at-work.png)
+![Colored border](../assets/images-localized/qubes/r4.0-xfce-three-domains-at-work.png)
 <figcaption>Qubes window borders, Credit: Qubes Screenshots</figcaption>
 
 ## Why Should I use Qubes?

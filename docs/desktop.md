@@ -198,7 +198,7 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
 
 <div class="admonition recommendation" markdown>
 
-![Qubes OS logo](assets/images-en/qubes/qubes_os.svg){ align=right }
+![Qubes OS logo](assets/images/qubes/qubes_os.svg){ align=right }
 
 **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (or "qubes"). Qubes is based on Xen, the X Window System, and Linux. It can run most Linux applications and use most of the Linux drivers.
 
