@@ -18,7 +18,7 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 
 <div class="admonition recommendation" markdown>
 
-![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
+![Standard Notes logo](assets/images/notebooks/standard-notes.svg){ align=right }
 
 **Standard Notes** is a simple and private notes app that features cross-platform sync for seamless use. It features E2EE on every platform, and a powerful desktop experience with themes and custom editors.
 
@@ -51,7 +51,7 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 <div class="admonition recommendation" markdown>
 
-![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
+![Notesnook logo](assets/images/notebooks/notesnook.svg){ align=right }
 
 **Notesnook** is a free (as in speech), open-source, and easy-to-use E2EE note-taking app focused on user privacy.
 
@@ -85,7 +85,7 @@ It features sync functionality that allows you to access your notes on multiple 
 
 <div class="admonition recommendation" markdown>
 
-![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
+![Joplin logo](assets/images/notebooks/joplin.svg){ align=right }
 
 **Joplin** is a free, open-source, and fully-featured E2EE note-taking and to-do application which can handle numerous Markdown notes organized into notebooks and tags.
 
@@ -119,8 +119,8 @@ Joplin [does not support](https://github.com/laurent22/joplin/issues/289) passwo
 
 <div class="admonition recommendation" markdown>
 
-![Cryptee logo](assets/img/notebooks/cryptee.svg#only-light){ align=right }
-![Cryptee logo](assets/img/notebooks/cryptee-dark.svg#only-dark){ align=right }
+![Cryptee logo](assets/images/notebooks/cryptee.svg#only-light){ align=right }
+![Cryptee logo](assets/images/notebooks/cryptee-dark.svg#only-dark){ align=right }
 
 **Cryptee** is an open-source, web-based E2EE document editor and photo storage application.
 
@@ -148,7 +148,7 @@ Cryptee is a PWA, which means that it works seamlessly across all modern devices
 
 <div class="admonition recommendation" markdown>
 
-![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
+![Org-mode logo](assets/images/notebooks/org-mode.svg){ align=right }
 
 **Org-mode** is a [major mode](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode is for keeping notes, maintaining to-do lists, planning projects, and authoring documents with a fast and effective plain-text system. File synchronization is possible with tools like [Syncthing](file-sharing.md#syncthing-p2p).
 

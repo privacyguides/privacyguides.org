@@ -47,7 +47,7 @@ These are our currently recommended **mobile web browsers** and configurations f
 
 <div class="admonition recommendation" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/images/browsers/brave.svg){ align=right }
 
 **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
@@ -200,7 +200,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 <div class="admonition recommendation" markdown>
 
-![Safari logo](assets/img/browsers/safari.svg){ align=right }
+![Safari logo](assets/images/browsers/safari.svg){ align=right }
 
 **Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites, so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
 

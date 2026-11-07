@@ -4,7 +4,7 @@ icon: 'simple/torproject'
 description: Tor is a free to use, decentralized network designed for using the internet with as much privacy as possible.
 ---
 
-![Tor logo](../assets/img/self-contained-networks/tor.svg){ align=right }
+![Tor logo](../assets/images/self-contained-networks/tor.svg){ align=right }
 
 [**Tor**](../alternative-networks.md#tor) is a free to use, decentralized network designed for using the internet with as much privacy as possible. If used properly, the network enables private and anonymous browsing and communications. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
 

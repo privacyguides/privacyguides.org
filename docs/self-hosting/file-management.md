@@ -17,7 +17,7 @@ Self-hosting your own **file management** tools may be a good idea to reduce the
 
 <div class="admonition recommendation" markdown>
 
-![PhotoPrism logo](../assets/img/self-hosting/photoprism.svg){ align=right }
+![PhotoPrism logo](../assets/images/self-hosting/photoprism.svg){ align=right }
 
 **PhotoPrism** is a platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
 
@@ -34,7 +34,7 @@ Self-hosting your own **file management** tools may be a good idea to reduce the
 
 <div class="admonition recommendation" markdown>
 
-![FreedomBox logo](../assets/img/self-hosting/freedombox.svg){ align=right }
+![FreedomBox logo](../assets/images/self-hosting/freedombox.svg){ align=right }
 
 **FreedomBox** is an operating system designed to be run on a [single-board computer (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). The purpose is to make it easy to set up server applications for use cases like sharing files.
 
@@ -49,7 +49,7 @@ Self-hosting your own **file management** tools may be a good idea to reduce the
 
 <div class="admonition recommendation" markdown>
 
-![Nextcloud logo](../assets/img/self-hosting/nextcloud.svg){ align=right }
+![Nextcloud logo](../assets/images/self-hosting/nextcloud.svg){ align=right }
 
 **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
 

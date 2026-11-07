@@ -21,7 +21,7 @@ These recommendations for encrypted **real-time communication** are great for se
 
 <div class="admonition recommendation" markdown>
 
-![Signal logo](assets/img/messengers/signal.svg){ align=right }
+![Signal logo](assets/images/messengers/signal.svg){ align=right }
 
 **Signal** is a mobile app developed by Signal Messenger LLC. The app provides instant messaging and calls secured with the Signal protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
 
@@ -70,7 +70,7 @@ The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) 
 
 <div class="admonition recommendation" markdown>
 
-![SimpleX Chat logo](assets/img/messengers/simplex.svg){ align=right }
+![SimpleX Chat logo](assets/images/messengers/simplex.svg){ align=right }
 
 **SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
@@ -106,7 +106,7 @@ SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/
 
 <div class="admonition recommendation" markdown>
 
-![Briar logo](assets/img/messengers/briar.svg){ align=right }
+![Briar logo](assets/images/messengers/briar.svg){ align=right }
 
 **Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the [Tor network](alternative-networks.md#tor), making it an effective tool at circumventing [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
 

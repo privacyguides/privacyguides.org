@@ -14,7 +14,7 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 <div class="admonition recommendation" markdown>
 
-![LibreOffice logo](assets/img/office-suites/libreoffice.svg){ align=right }
+![LibreOffice logo](assets/images/office-suites/libreoffice.svg){ align=right }
 
 **LibreOffice** is a free and open-source office suite with extensive functionality.
 
@@ -42,7 +42,7 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 <div class="admonition recommendation" markdown>
 
-![OnlyOffice logo](assets/img/office-suites/onlyoffice.svg){ align=right }
+![OnlyOffice logo](assets/images/office-suites/onlyoffice.svg){ align=right }
 
 **OnlyOffice** is a cloud-based free and open-source office suite with extensive functionality, including integration with Nextcloud.
 

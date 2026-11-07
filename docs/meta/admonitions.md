@@ -180,7 +180,7 @@ This format is used to generate recommendation cards. Notably it is missing the 
 
 <div class="admonition recommendation" markdown>
 
-![PhotoPrism logo](../assets/img/self-hosting/photoprism.svg){ align=right }
+![PhotoPrism logo](../assets/images/self-hosting/photoprism.svg){ align=right }
 
 **PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
 

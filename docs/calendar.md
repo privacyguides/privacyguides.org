@@ -15,8 +15,8 @@ cover: calendar.webp
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
-![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Tuta logo](assets/images/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ align=right }
 
 **Tuta** offers a free and encrypted calendar across their supported platforms. Features include automatic E2EE of all data, sharing features, import/export functionality, multifactor authentication, and [more](https://tuta.com/calendar-app-comparison).
 
@@ -48,7 +48,7 @@ Multiple calendars and extended sharing functionality are limited to paid subscr
 
 <div class="admonition recommendation" markdown>
 
-![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
+![Proton](assets/images/calendar/proton-calendar.svg){ align=right }
 
 **Proton Calendar** is an encrypted calendar service available to Proton members via its web or mobile clients. Features include automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide).
 
