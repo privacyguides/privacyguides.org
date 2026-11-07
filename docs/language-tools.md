@@ -17,7 +17,7 @@ Text inputted to grammar, spelling, and style checkers, as well as translation s
 
 <div class="admonition recommendation" markdown>
 
-![LibreTranslate logo](assets/img/language-tools/libretranslate.png){ align=right }
+![LibreTranslate logo](assets/images/language-tools/libretranslate.png){ align=right }
 
 **LibreTranslate** is a free and open-source machine translation web interface and API server. It uses [Argos Translate](https://github.com/argosopentech/argos-translate) models on the backend for translations.
 

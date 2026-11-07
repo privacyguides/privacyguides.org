@@ -15,7 +15,7 @@ schema:
     "@context": http://schema.org
     "@type": MobileApplication
     name: Brave
-    image: /assets/img/browsers/brave.svg
+    image: /assets/images/browsers/brave.svg
     url: https://brave.com
     applicationCategory: Web Browser
     operatingSystem:
@@ -28,7 +28,7 @@ schema:
     "@context": http://schema.org
     "@type": MobileApplication
     name: Safari
-    image: /assets/img/browsers/safari.svg
+    image: /assets/images/browsers/safari.svg
     url: https://apple.com/safari
     applicationCategory: Web Browser
     operatingSystem:
@@ -37,6 +37,7 @@ schema:
       "@type": WebPage
       url: "./"
 ---
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
@@ -47,7 +48,7 @@ These are our currently recommended **mobile web browsers** and configurations f
 
 <div class="admonition recommendation" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/images/browsers/brave.svg){ align=right }
 
 **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
@@ -200,7 +201,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 <div class="admonition recommendation" markdown>
 
-![Safari logo](assets/img/browsers/safari.svg){ align=right }
+![Safari logo](assets/images/browsers/safari.svg){ align=right }
 
 **Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites, so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
 

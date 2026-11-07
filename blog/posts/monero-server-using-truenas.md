@@ -16,7 +16,7 @@ preview:
 ---
 # Creating a Tricked-Out Monero Server with TrueNAS
 
-![A cover image for this post showing an illustration of a NAS and stacks of coins imprinted with the Monero logo](../assets/images/monero-server-using-truenas/cover.webp)
+![A cover image for this post showing an illustration of a NAS and stacks of coins imprinted with the Monero logo](../assets/images-blog/monero-server-using-truenas/cover.webp)
 
 <small aria-hidden="true">Illustration: Jonah Aragon / Privacy Guides</small>
 
@@ -95,7 +95,7 @@ A dataset is effectively a folder inside a pool. We will make one folder for the
 5. Set the dataset preset to **Apps**.
 6. Click **Save**.
 
-![Screenshot showing the Datasets list in TrueNAS](../assets/images/monero-server-using-truenas/01-datasets.webp)
+![Screenshot showing the Datasets list in TrueNAS](../assets/images-blog/monero-server-using-truenas/01-datasets.webp)
 
 Next, we will assign the ownership of that folder to the `apps` user:
 
@@ -105,7 +105,7 @@ Next, we will assign the ownership of that folder to the `apps` user:
 4. Check **Apply permissions recursively**.
 5. Click **Save Access Control List**.
 
-![Screenshot showing the ACL settings for monero-blockchain](../assets/images/monero-server-using-truenas/02-edit-acl.webp)
+![Screenshot showing the ACL settings for monero-blockchain](../assets/images-blog/monero-server-using-truenas/02-edit-acl.webp)
 
 ## Configure Arti (Tor)
 
@@ -137,11 +137,11 @@ Arti is experimental software. At the time of writing, Arti should not be used f
 
 You will see the Applications screen after it installs. After the Arti app shows the status as **Running**, click on the shell icon under Workloads and to the right of `arti – Running` (not `config` or `perms`).
 
-![Screenshot showing how to click the Arti shell icon](../assets/images/monero-server-using-truenas/03-arti-shell.webp)
+![Screenshot showing how to click the Arti shell icon](../assets/images-blog/monero-server-using-truenas/03-arti-shell.webp)
 
 In the shell, type the command `arti hss --nickname monerodp2p onion-address`. This will return a string that ends in `.onion`. In notepad, Excel, or another app, save the `.onion` address and the service it is associated with (`monerodp2p`). You might need to copy from the shell with ++ctrl+ins++.
 
-![Screenshot showing the command and response to get the onion address](../assets/images/monero-server-using-truenas/04-arti-shell.webp)
+![Screenshot showing the command and response to get the onion address](../assets/images-blog/monero-server-using-truenas/04-arti-shell.webp)
 
 Do this again for the following two commands as well:
 
@@ -165,7 +165,7 @@ You should have three saved and unique `.onion` addresses.
 9. In the same newly exposed fields, set the Container Port as `4447`.
 10. Leave the other settings as default. Click **Install**.
 
-![Screenshot showing the I2P installation settings](../assets/images/monero-server-using-truenas/05-i2p-install.webp)
+![Screenshot showing the I2P installation settings](../assets/images-blog/monero-server-using-truenas/05-i2p-install.webp)
 
 You will see the Applications screen after it installs. After the Arti app shows the status as **Running**, open a browser and direct it to the I2P configuration wizard. This is available at `<hostname>:7657`, for example `192.168.1.100:7657`.
 
@@ -221,7 +221,7 @@ We do not recommend shortening the tunnel lengths for the I2P SOCKS Proxy (in th
 
 You will see the three I2P Hidden Services that you configured. Under each, you will see a `.b32.i2p` address after **Destination:**. You will need to use the destination `.b32.i2p` addresses in later steps (just like the `.onion` addresses), so keep them handy.
 
-![Screenshot showing I2P Hidden Services settings](../assets/images/monero-server-using-truenas/06-i2p-settings.webp)
+![Screenshot showing I2P Hidden Services settings](../assets/images-blog/monero-server-using-truenas/06-i2p-settings.webp)
 
 ## Configure Monero Node
 
@@ -247,13 +247,13 @@ It will take a day or more for most systems to fully sync the Monero blockchain 
 
 To check the status, go to the app page and click on the `monerod` app. Under Workloads and to the right of `monerod – Running`, click on the shell icon.
 
-![Screenshot showing how to click the Monero Node shell icon](../assets/images/monero-server-using-truenas/07-monero-shell.webp)
+![Screenshot showing how to click the Monero Node shell icon](../assets/images-blog/monero-server-using-truenas/07-monero-shell.webp)
 
 Type `monerod status` and press enter.
 
 If the status reports `Height: ####/#### (100.0%) on mainnet`, then your node is fully synced. You can proceed to the next step.
 
-![Screenshot showing the Monero Node sync status command](../assets/images/monero-server-using-truenas/08-monero-shell.webp)
+![Screenshot showing the Monero Node sync status command](../assets/images-blog/monero-server-using-truenas/08-monero-shell.webp)
 
 ### Add Tor and I2P
 
@@ -275,7 +275,7 @@ After your Monero node is fully synced, click on the `monerod` app and then clic
 14. Under **I2P inbound port**, change the **Port Bind Mode** from `None` to `Publish port on the host for external access`.
 15. Click **Update**.
 
-![Screenshot showing the Monero Node install settings](../assets/images/monero-server-using-truenas/09-monero-install.webp)
+![Screenshot showing the Monero Node install settings](../assets/images-blog/monero-server-using-truenas/09-monero-install.webp)
 
 ## Configure Monero LWS
 

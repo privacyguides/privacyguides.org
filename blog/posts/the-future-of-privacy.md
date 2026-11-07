@@ -13,7 +13,7 @@ preview:
 
 # The Future of Privacy: How Governments Shape Your Digital Life
 
-![Black and white photo of a street post at night. The street post has some ripped stickers on it and a stencilled graffiti saying Big Data is Watching You.](../assets/images/the-future-of-privacy/cover.webp)
+![Black and white photo of a street post at night. The street post has some ripped stickers on it and a stencilled graffiti saying Big Data is Watching You.](../assets/images-blog/the-future-of-privacy/cover.webp)
 <small aria-hidden="true">Photo: ev / Unsplash</small>
 
 Data privacy is a vast subject that encompasses so much. Some might think it is a niche focus interesting only a few. But in reality, it is a wide-ranging field influenced by intricate relationships between politics, law, technology, and much more. Further, it affects **everyone** in one way or another, whether they care about it or not.<!-- more -->

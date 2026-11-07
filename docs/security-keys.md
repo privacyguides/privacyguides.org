@@ -16,7 +16,7 @@ A physical **security key** adds a very strong layer of protection to your onlin
 <div class="admonition recommendation" markdown>
 
 <figure markdown="span">
-  ![Security Key Series by Yubico](assets/img/security-keys/yubico-security-key.webp){ width="315" }
+  ![Security Key Series by Yubico](assets/images/security-keys/yubico-security-key.webp){ width="315" }
 </figure>
 
 The **Yubico Security Key** series is the most cost-effective hardware security key with FIDO Level 2 certification[^1]. It supports FIDO2/WebAuthn and FIDO Universal 2nd Factor (U2F), and works out of the box with most services that support a security key as a second factor, as well as many password managers.
@@ -51,7 +51,7 @@ The firmware of Yubico's Security Keys is not updatable. If you want features in
 <div class="admonition recommendation" markdown>
 
 <figure markdown="span">
-  ![YubiKeys](assets/img/security-keys/yubikey.png){ width="400" }
+  ![YubiKeys](assets/images/security-keys/yubikey.png){ width="400" }
 </figure>
 
 The **YubiKey** series from Yubico are among the most popular security keys with FIDO Level 2 Certification[^1]. The **YubiKey 5 Series** has a wide range of features such as FIDO2/WebAuthn and FIDO U2F, [TOTP and HOTP](https://developers.yubico.com/OATH) authentication, [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), and [OpenPGP](https://developers.yubico.com/PGP).
@@ -82,7 +82,7 @@ The firmware of YubiKey is not updatable. If you want features in newer firmware
 <div class="admonition recommendation" markdown>
 
 <figure markdown="span">
-  ![Nitrokey](assets/img/security-keys/nitrokey.jpg){ width="300" }
+  ![Nitrokey](assets/images/security-keys/nitrokey.jpg){ width="300" }
 </figure>
 
 **Nitrokey** has a cost-effective security key capable of FIDO2/WebAuthn and FIDO U2F called the **Nitrokey Passkey**. For support for features such as PIV, OpenPGP, and TOTP and HOTP authentication, you need to purchase one of their other keys like the **Nitrokey 3**. Currently, only the **Nitrokey 3A Mini** has [FIDO Level 1 Certification](https://nitrokey.com/news/2024/nitrokey-3a-mini-receives-official-fido2-certification).

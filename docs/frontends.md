@@ -20,7 +20,7 @@ When you are using an instance run by someone else, make sure to read the privac
 
 <div class="admonition recommendation" markdown>
 
-![Redlib logo](assets/img/frontends/redlib.svg){ align=right }
+![Redlib logo](assets/images/frontends/redlib.svg){ align=right }
 
 **Redlib** is an open-source frontend to the [Reddit](https://reddit.com) website that is also self-hostable. You can access Redlib through a number of public instances.
 
@@ -53,8 +53,8 @@ Redlib is useful if you want to disable JavaScript in your browser, such as [Tor
 
 <div class="admonition recommendation" markdown>
 
-![Invidious logo](assets/img/frontends/invidious.svg#only-light){ align=right }
-![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ align=right }
+![Invidious logo](assets/images/frontends/invidious.svg#only-light){ align=right }
+![Invidious logo](assets/images/frontends/invidious-dark.svg#only-dark){ align=right }
 
 **Invidious** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
 
@@ -88,7 +88,7 @@ Invidious is useful if you want to disable JavaScript in your browser, such as [
 
 <div class="admonition recommendation" markdown>
 
-![Piped logo](assets/img/frontends/piped.svg){ align=right }
+![Piped logo](assets/images/frontends/piped.svg){ align=right }
 
 **Piped** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
 
@@ -115,7 +115,7 @@ Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) with
 
 <div class="admonition recommendation" markdown>
 
-![FreeTube logo](assets/img/frontends/freetube.svg){ align=right }
+![FreeTube logo](assets/images/frontends/freetube.svg){ align=right }
 
 **FreeTube** is a free and open-source desktop application for [YouTube](https://youtube.com). FreeTube extracts data from YouTube using its built-in API based on [YouTube.js](https://github.com/LuanRT/YouTube.js) or the [Invidious](#invidious) API. You can configure either as the default, with the other serving as a fallback.
 
@@ -152,8 +152,8 @@ By default, FreeTube blocks all YouTube advertisements. In addition, FreeTube op
 
 <div class="admonition recommendation" markdown>
 
-![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ align=right }
-![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ align=right }
+![LibreTube logo](assets/images/frontends/libretube.svg#only-light){ align=right }
+![LibreTube logo](assets/images/frontends/libretube-dark.svg#only-dark){ align=right }
 
 **LibreTube** is a free and open-source Android application for [YouTube](https://youtube.com) which uses the [Piped](#piped) API.
 
@@ -187,7 +187,7 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, LibreTube
 
 <div class="admonition recommendation annotate" markdown>
 
-![NewPipe logo](assets/img/frontends/newpipe.svg){ align=right }
+![NewPipe logo](assets/images/frontends/newpipe.svg){ align=right }
 
 **NewPipe** is a free and open-source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org) (1).
 

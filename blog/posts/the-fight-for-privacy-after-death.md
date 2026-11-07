@@ -12,7 +12,7 @@ preview:
 ---
 # Ghosts in the Machine: The Fight for Privacy After Death
 
-![](../assets/images/the-fight-for-privacy-after-death/cover.webp)
+![](../assets/images-blog/the-fight-for-privacy-after-death/cover.webp)
 
 <small aria-hidden="true">Photo: Panyawat Auitpol / Unsplash</small>
 

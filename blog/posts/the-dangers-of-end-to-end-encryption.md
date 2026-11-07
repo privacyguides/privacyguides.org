@@ -15,7 +15,7 @@ preview:
 ---
 # The Dangers of End-to-End Encryption
 
-![An image showing a burning car](../assets/images/the-dangers-of-end-to-end-encryption/cover.webp)
+![An image showing a burning car](../assets/images-blog/the-dangers-of-end-to-end-encryption/cover.webp)
 
 <small aria-hidden="true">Photo: Flavio / Unsplash</small>
 

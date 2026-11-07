@@ -13,7 +13,7 @@ preview:
 ---
 # The Protesters' Guide to Smartphone Security
 
-![Article cover photo showing a phone icon over a protest](../assets/images/activists-guide-securing-your-smartphone/cover.webp)
+![Article cover photo showing a phone icon over a protest](../assets/images-blog/activists-guide-securing-your-smartphone/cover.webp)
 
 <small aria-hidden="true">Illustration: Jonah Aragon / Privacy Guides | Photo: Koshu Kunii / Unsplash</small>
 

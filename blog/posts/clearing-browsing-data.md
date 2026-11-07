@@ -18,7 +18,7 @@ preview:
 ---
 # How to Clear Your Browser History on Chrome, Firefox, and Other Browsers
 
-![Article cover photo showing baked cookies](../assets/images/clearing-your-browsing-data/dimmis-vart-JPu345g_OYM-unsplash.webp)
+![Article cover photo showing baked cookies](../assets/images-blog/clearing-your-browsing-data/dimmis-vart-JPu345g_OYM-unsplash.webp)
 
 <small aria-hidden="true">Photo: Dimmis Vart / Unsplash</small>
 
@@ -36,19 +36,19 @@ Similarly, your browsing history must be deleted. As its name suggest, your web 
 
 To start, **launch** Google Chrome. On the upper right-hand corner, click on the **three-dots icon** to see a list of options. Then, click on **Settings**
 
-![Screenshot: Google Home Page](../assets/images/clearing-your-browsing-data/chrome1.webp)
+![Screenshot: Google Home Page](../assets/images-blog/clearing-your-browsing-data/chrome1.webp)
 
 You should see the following menu.
 
-![Screenshot: Google Chrome Settings](../assets/images/clearing-your-browsing-data/chrome2.webp)
+![Screenshot: Google Chrome Settings](../assets/images-blog/clearing-your-browsing-data/chrome2.webp)
 
 On the left, navigate to **Privacy and Security**. You should see the following screen.
 
-![Screenshot: Google Chrome Privacy and Security Settings](../assets/images/clearing-your-browsing-data/chrome3.webp)
+![Screenshot: Google Chrome Privacy and Security Settings](../assets/images-blog/clearing-your-browsing-data/chrome3.webp)
 
 Click **Delete browsing data.** Here, you can check whether to clear your **browsing history**, **cookies**, and **cached images & files**. Chrome also allows you select the **time range** of the data marked for deletion.
 
-![Screenshot: Google Chrome browser data options](../assets/images/clearing-your-browsing-data/chrome4.webp)
+![Screenshot: Google Chrome browser data options](../assets/images-blog/clearing-your-browsing-data/chrome4.webp)
 
 After making any necessary changes, click **Delete data**.
 
@@ -56,19 +56,19 @@ After making any necessary changes, click **Delete data**.
 
 Start by launching **Firefox**. On the upper right-hand corner, click on the **three-dot icon** to see a list of options. There, click on **Settings**.
 
-![Screenshot: Firefox browser with Privacy Guides Homepage](../assets/images/clearing-your-browsing-data/firefox1.webp)
+![Screenshot: Firefox browser with Privacy Guides Homepage](../assets/images-blog/clearing-your-browsing-data/firefox1.webp)
 
 On the left, navigate to **Privacy and Security**. You should see the following screen.
 
-![Screenshot: Firefox Settings](../assets/images/clearing-your-browsing-data/firefox2.webp)
+![Screenshot: Firefox Settings](../assets/images-blog/clearing-your-browsing-data/firefox2.webp)
 
 Scroll down to **Cookies and Site Data**.
 
-![Screenshot: Firefox Settings](../assets/images/clearing-your-browsing-data/firefox3.webp)
+![Screenshot: Firefox Settings](../assets/images-blog/clearing-your-browsing-data/firefox3.webp)
 
 You have the option of either clearing your browsing data within a time range or in selected websites. Note that the latter deletes the website's cookies and cache, not history.
 
-![Screenshot: Firefox Settings prompt displaying browser data](../assets/images/clearing-your-browsing-data/firefox5.webp)
+![Screenshot: Firefox Settings prompt displaying browser data](../assets/images-blog/clearing-your-browsing-data/firefox5.webp)
 
 Click on **Clear data** if you prefer the former. Like Google Chrome, you can chose what types of data to delete and its time range. After making your selection, click **Clear** to finalize the process.
 
@@ -78,27 +78,27 @@ Unlike Chrome and Firefox, Safari separates history settings from its privacy se
 
 After opening Safari, move your cursor to the upper left-hand corner. Click **History** once the title bar appears.
 
-![Screenshot: Safari with Privacy Guides Homepage](../assets/images/clearing-your-browsing-data/history1.webp)
+![Screenshot: Safari with Privacy Guides Homepage](../assets/images-blog/clearing-your-browsing-data/history1.webp)
 
 If you want to clear browsing history in a specified time range, select **Clear History** at the bottom and follow the prompt. Otherwise, click **Show All History**.
 
-![Screenshot: History Panel in Safari](../assets/images/clearing-your-browsing-data/history2.webp)
+![Screenshot: History Panel in Safari](../assets/images-blog/clearing-your-browsing-data/history2.webp)
 
 In this menu, you can choose websites to delete from your history. Use the search bar to find the exact name of the website. You can also navigate to a specific data and time.
 
-![Screenshot: History Panel in Safari](../assets/images/clearing-your-browsing-data/history3.webp)
+![Screenshot: History Panel in Safari](../assets/images-blog/clearing-your-browsing-data/history3.webp)
 
 Now, lets delete the cookies and cache data. Move your cursor to the title bar again and click **Safari** to see a drop down menu.
 
-![Screenshot: Safari title bar](../assets/images/clearing-your-browsing-data/safari.webp)
+![Screenshot: Safari title bar](../assets/images-blog/clearing-your-browsing-data/safari.webp)
 
 Then, click **Settings** and then navigate to **Privacy**. You will see this screen.
 
-![Screenshot: Safari Privacy Settings](../assets/images/clearing-your-browsing-data/safariprivacy1.webp)
+![Screenshot: Safari Privacy Settings](../assets/images-blog/clearing-your-browsing-data/safariprivacy1.webp)
 
 Click **Manage Website Data...**
 
-![Screenshot: Prompt displaying website browser data](../assets/images/clearing-your-browsing-data/safariprivacy2.webp)
+![Screenshot: Prompt displaying website browser data](../assets/images-blog/clearing-your-browsing-data/safariprivacy2.webp)
 
 Another menu will appear with a list of websites and their corresponding browsing data types. As always, you can mark specified websites for deletion. Once you are done, click **Remove**.
 
@@ -106,23 +106,23 @@ Another menu will appear with a list of websites and their corresponding browsin
 
 As a Chromium-based browser, Brave is quite similar to Chrome. To start, **launch** Brave. On the upper right-hand corner, click on the **three-bars icon** to see a list of options. Then, click on **Settings**
 
-![Screenshot: Brave Home Page](../assets/images/clearing-your-browsing-data/brave2.webp)
+![Screenshot: Brave Home Page](../assets/images-blog/clearing-your-browsing-data/brave2.webp)
 
 You should see the following menu.
 
-![Screenshot: Brave Settings](../assets/images/clearing-your-browsing-data/brave3.webp)
+![Screenshot: Brave Settings](../assets/images-blog/clearing-your-browsing-data/brave3.webp)
 
 On the left, select **Privacy and Security**. You should see the following screen.
 
-![Screenshot: Brave Privacy and Security Settings](../assets/images/clearing-your-browsing-data/brave4.webp)
+![Screenshot: Brave Privacy and Security Settings](../assets/images-blog/clearing-your-browsing-data/brave4.webp)
 
 Click **Delete browsing data.** Here, you can check whether to clear your **browsing history**, **cookies**, and **cached images & files**.
 
-![Screenshot: Brave browser data options](../assets/images/clearing-your-browsing-data/brave5.webp)
+![Screenshot: Brave browser data options](../assets/images-blog/clearing-your-browsing-data/brave5.webp)
 
 Under **Advanced**, Brave also allows you select the **time range** of the data marked for deletion.
 
-![Screenshot: Brave Browser data options](../assets/images/clearing-your-browsing-data/brave6.webp)
+![Screenshot: Brave Browser data options](../assets/images-blog/clearing-your-browsing-data/brave6.webp)
 
 After making any necessary changes, click **Delete data**.
 
@@ -130,16 +130,16 @@ After making any necessary changes, click **Delete data**.
 
 Finally, we will finish this tutorial with Microsoft Edge. Start by launching the browser. On the upper right-hand corner, click on the **three-dots icon**. Next, click **Settings**.
 
-![Screenshot: Edge Home Page](../assets/images/clearing-your-browsing-data/edge2.webp)
+![Screenshot: Edge Home Page](../assets/images-blog/clearing-your-browsing-data/edge2.webp)
 
 In the settings page, navigate to **Privacy, Search, and Services**
 
-![Screenshot: Edge Settings](../assets/images/clearing-your-browsing-data/edge3.webp)
+![Screenshot: Edge Settings](../assets/images-blog/clearing-your-browsing-data/edge3.webp)
 
 Under **Delete Browsing Data**, click on **Choose What to Clear**.
 
-![Screenshot: Edge Settings](../assets/images/clearing-your-browsing-data/edge4.webp)
+![Screenshot: Edge Settings](../assets/images-blog/clearing-your-browsing-data/edge4.webp)
 
 Modify the time range and data to be deleted. Afterwards, click **Clear Now**.
 
-![Screenshot: Edge data options](../assets/images/clearing-your-browsing-data/edge5.webp)
+![Screenshot: Edge data options](../assets/images-blog/clearing-your-browsing-data/edge5.webp)

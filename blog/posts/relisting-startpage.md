@@ -16,7 +16,7 @@ preview:
 ---
 # Relisting Startpage.com
 
-!["Relisting Startpage" cover image](../assets/images/relisting-startpage/cover.webp)
+!["Relisting Startpage" cover image](../assets/images-blog/relisting-startpage/cover.webp)
 
 <small aria-hidden="true">Illustration: Privacy Guides</small>
 

@@ -39,7 +39,7 @@ Enter Multi-Party Relays. Services like iCloud Private Relay and (the unfortunat
 Typically, the first relay is controlled by the provider (either Apple or INVISV in the previous examples), and the second relay is controlled by another company such as Fastly or Cloudflare. These are big names, so you won't need to worry about reliability.
 
 <figure markdown>
-  ![A diagram showing how your IP address is known to your ISP and Apple, and the server you're accessing is known to Cloudflare and the destination, in the case of iCloud Private Relay](../assets/images/where-are-all-the-mprs/icloud-private-relay.png)
+  ![A diagram showing how your IP address is known to your ISP and Apple, and the server you're accessing is known to Cloudflare and the destination, in the case of iCloud Private Relay](../assets/images-blog/where-are-all-the-mprs/icloud-private-relay.png)
   <figcaption>source: <a href="https://blog.cloudflare.com/icloud-private-relay/">blog.cloudflare.com</a></figcaption>
 </figure>
 

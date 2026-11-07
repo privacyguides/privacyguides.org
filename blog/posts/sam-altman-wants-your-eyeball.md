@@ -15,7 +15,7 @@ preview:
 
 # Sam Altman Wants Your Eyeball
 
-![Image of a red circle of light that resembles a human iris over a black background.](../assets/images/sam-altman-wants-your-eyeball/orb-cover.webp)
+![Image of a red circle of light that resembles a human iris over a black background.](../assets/images-blog/sam-altman-wants-your-eyeball/orb-cover.webp)
 
 <small aria-hidden="true">Photo: Flyd / Unsplash</small>
 
