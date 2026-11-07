@@ -60,14 +60,20 @@ if [[ "$blog" == false ]]; then
 
   # Source per-language strings
   set -a
-    # shellcheck disable=SC1090
-    source "includes/strings.$language.env"
+  # shellcheck disable=SC1090
+  source "includes/strings.$language.env"
   set +a
 
   # Set font if hebrew
   if [ "$language" == "he" ]; then
     export BUILD_THEME_FONT_CODE="Cousine"
     export BUILD_THEME_FONT_TEXT="Open Sans"
+  fi
+
+  # set font if japanese
+  if [ "$language" == "ja" ]; then
+    export build_theme_font_code="Noto Sans JP"
+    export build_theme_font_text="Noto Sans JP"
   fi
 
   # Set font if russian or chinese
@@ -77,7 +83,7 @@ if [[ "$blog" == false ]]; then
   fi
 
   # Set stylesheet if hebrew or russian or chinese
-  if [[ "he ru zh-Hant zh-TW" =~ $language ]]; then
+  if [[ "he ja ru zh-Hant zh-TW" =~ $language ]]; then
     export TRANSLATION_STYLESHEET="assets/stylesheets/lang-$language.css?v=20240410"
   fi
 
