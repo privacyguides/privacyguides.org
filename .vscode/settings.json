@@ -98,5 +98,8 @@
     "[github-actions-workflow]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "python-envs.pythonProjects": []
+    "python-envs.pythonProjects": [],
+    "files.associations": {
+      "CODEOWNERS": "text"
+    }
 }

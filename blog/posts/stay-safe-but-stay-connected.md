@@ -15,7 +15,7 @@ preview:
 
 # Stay Safe, but Stay Connected
 
-![Photo of a rainbow heart with each color made of a neon light.](../assets/images/stay-safe-but-stay-connected/stay-connected-cover.webp)
+![Photo of a rainbow heart with each color made of a neon light.](../assets/images-blog/stay-safe-but-stay-connected/stay-connected-cover.webp)
 
 <small aria-hidden="true">Photo: Jiroe Matia Rengel / Unsplash</small>
 

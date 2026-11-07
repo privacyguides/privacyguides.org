@@ -15,7 +15,7 @@ preview:
 
 # Real-Name Policies: The War Against Pseudonymity
 
-![Filtered photo of a "Hello my name is" name-tag sticker on a street post. Over the space for the name is a black graffiti tag.](../assets/images/real-name-policies/realname-cover.webp)
+![Filtered photo of a "Hello my name is" name-tag sticker on a street post. Over the space for the name is a black graffiti tag.](../assets/images-blog/real-name-policies/realname-cover.webp)
 
 <small aria-hidden="true">Illustration: Em / Privacy Guides | Photo: Marija Zaric / Unsplash</small>
 

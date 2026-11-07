@@ -12,7 +12,7 @@ preview:
 ---
 # Privacy Means Safety
 
-![Photo of a padlock with "SOS" written on it and a drawn heart instead of an "O" letter. It is locked on a metal fence.](../assets/images/privacy-means-safety/privacy-means-safety-cover.webp)
+![Photo of a padlock with "SOS" written on it and a drawn heart instead of an "O" letter. It is locked on a metal fence.](../assets/images-blog/privacy-means-safety/privacy-means-safety-cover.webp)
 
 <small aria-hidden="true">Photo: Georgy Rudakov / Unsplash</small>
 

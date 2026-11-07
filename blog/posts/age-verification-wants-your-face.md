@@ -13,7 +13,7 @@ preview:
 
 # Age Verification Wants Your Face, and Your Privacy
 
-![A stylized photo showing a person holding a printed photo of their face in front of their actual face.](../assets/images/age-verification-wants-your-face/ageverification-cover.webp)
+![A stylized photo showing a person holding a printed photo of their face in front of their actual face.](../assets/images-blog/age-verification-wants-your-face/ageverification-cover.webp)
 
 <small aria-hidden="true">Photo: Kyle Glenn / Unsplash</small>
 

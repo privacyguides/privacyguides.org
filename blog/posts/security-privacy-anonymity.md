@@ -18,7 +18,7 @@ preview:
 ---
 # Security, Privacy, and Anonymity
 
-![](../assets/images/security-privacy-anonymity/cover.jpeg)
+![](../assets/images-blog/security-privacy-anonymity/cover.jpeg)
 
 <small aria-hidden="true">Image: Unsplash</small>
 

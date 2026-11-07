@@ -14,7 +14,7 @@ preview:
 
 # You Can Say NO
 
-![Black and white cutout photos of two hands over a blue background. One hand does an offering gesture and the other one a refusing gesture. The word "No!" is printed in the middle.](../assets/images/you-can-say-no/no-cover.webp)
+![Black and white cutout photos of two hands over a blue background. One hand does an offering gesture and the other one a refusing gesture. The word "No!" is printed in the middle.](../assets/images-blog/you-can-say-no/no-cover.webp)
 
 <small aria-hidden="true">Photo: Gabby K / Pexels</small>
 

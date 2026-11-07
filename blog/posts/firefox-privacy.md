@@ -17,7 +17,7 @@ preview:
 ---
 # Firefox Privacy: Tips and Tricks for Better Browsing
 
-!["Firefox Privacy" cover image](../assets/images/firefox-privacy/cover.webp)
+!["Firefox Privacy" cover image](../assets/images-blog/firefox-privacy/cover.webp)
 
 <small aria-hidden="true">Illustration: Jonah Aragon / Privacy Guides | Photo: Unsplash</small>
 

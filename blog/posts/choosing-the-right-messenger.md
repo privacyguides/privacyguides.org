@@ -18,7 +18,7 @@ preview:
 ---
 # Choosing the Right Messenger
 
-!["Choosing The Right Messenger" cover image](../assets/images/choosing-the-right-messenger/cover.webp)
+!["Choosing The Right Messenger" cover image](../assets/images-blog/choosing-the-right-messenger/cover.webp)
 
 <small aria-hidden="true">Illustration: Jonah Aragon / Privacy Guides | Photo: Unsplash</small>
 

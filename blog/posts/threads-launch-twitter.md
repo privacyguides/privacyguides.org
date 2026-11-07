@@ -19,7 +19,7 @@ preview:
 ---
 # Threads Is the Perfect Twitter Alternative, Just Not for You
 
-!["Threads Cover Image" cover image](../assets/images/threads-launch-twitter/cover.webp)
+!["Threads Cover Image" cover image](../assets/images-blog/threads-launch-twitter/cover.webp)
 
 Silicon Valley could well be built on the principle of scrapping principles. Now Elon Musk, perhaps the ultimate tech bro, is shredding another well-regarded convention with an *original business strategy*.<!-- more -->
 

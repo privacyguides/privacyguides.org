@@ -12,7 +12,7 @@ preview:
 ---
 # KeePassXC + YubiKey: How to set up a local-only password manager
 
-![Illustration showing a laptop computer with the KeePassXC logo on it. On the right is a green plus sign and a photo of a YubiKey.](../assets/images/installing-keepassxc-and-yubikey/keepassxc-cover.webp)
+![Illustration showing a laptop computer with the KeePassXC logo on it. On the right is a green plus sign and a photo of a YubiKey.](../assets/images-blog/installing-keepassxc-and-yubikey/keepassxc-cover.webp)
 <small aria-hidden="true">Illustration: Privacy Guides | Graphics: Yubico | Logo: KeePassXC</small>
 
 If you are looking for a good remote password manager you can use from anywhere, there are plenty of excellent [options](https://www.privacyguides.org/en/passwords/) to choose from. However, if you prefer to only store your passwords locally, [KeePassXC](https://www.privacyguides.org/en/passwords/#keepassxc) is what you need. In this tutorial, we will set up KeePassXC to work with [YubiKey](https://www.privacyguides.org/en/security-keys/#yubikey) as an additional factor to secure your local-only password database.<!-- more -->
@@ -85,7 +85,7 @@ For this tutorial you will need:
 
 Go to KeePassXC's download page and download the application version for your operating system. If the website doesn't detect your system automatically, you can change it on the top menu, or click on the "See more options" yellow button for previous versions.
 
-![Screenshot of the KeePassXC website download page.](../assets/images/installing-keepassxc-and-yubikey/keepassxc-1-download.webp)
+![Screenshot of the KeePassXC website download page.](../assets/images-blog/installing-keepassxc-and-yubikey/keepassxc-1-download.webp)
 
 <div class="admonition success" markdown>
 <p class="admonition-title">Verifying signatures</p>
@@ -96,11 +96,11 @@ For ideal security, you can verify the authenticity and integrity of the file yo
 
 Complete the process for your respective OS to install and open the application once verified.
 
-![Screenshot of the application installation window for KeePassXC on macOS.](../assets/images/installing-keepassxc-and-yubikey/keepassxc-2-install.webp)
+![Screenshot of the application installation window for KeePassXC on macOS.](../assets/images-blog/installing-keepassxc-and-yubikey/keepassxc-2-install.webp)
 
 On macOS, you will be prompted with a warning message saying "**“KeePassXC.app” is an app downloaded from the Internet. Are you sure you want to open it?**", click "Open".
 
-![Screenshot of a macOS warning popup before opening an application that was downloaded from the Internet.](../assets/images/installing-keepassxc-and-yubikey/keepassxc-3-installwarning.webp)
+![Screenshot of a macOS warning popup before opening an application that was downloaded from the Internet.](../assets/images-blog/installing-keepassxc-and-yubikey/keepassxc-3-installwarning.webp)
 
 <div class="admonition info" markdown>
 <p class="admonition-title">KeePassXC blocks screenshots by default</p>
@@ -117,7 +117,7 @@ Thankfully for writing this tutorial, there is a way to disable it temporarily, 
 
 Once you have installed and opened KeePassXC, before creating a database for your passwords, click on the "Settings" gear button on the upper-right, on the *toolbar*.
 
-![Screenshot of the KeePassXC application showing the Settings section.](../assets/images/installing-keepassxc-and-yubikey/keepassxc-4-settings.webp)
+![Screenshot of the KeePassXC application showing the Settings section.](../assets/images-blog/installing-keepassxc-and-yubikey/keepassxc-4-settings.webp)
 
 From there, you will see many options you can adjust to your preferences. The default settings are already good, but you might want to tweak a few things to your specific usage.
 
@@ -127,7 +127,7 @@ Scrolling down to the "File Management" section, you might want to enable the op
 
 You can store this backup in the same or a different directory. You can change this backup's name or keep the default that will append `.old` to your database filename.
 
-![Screenshot of the KeePassXC application showing the Settings General section with the Backup database file before saving checkbox checked.](../assets/images/installing-keepassxc-and-yubikey/keepassxc-5-backupprevious.webp)
+![Screenshot of the KeePassXC application showing the Settings General section with the Backup database file before saving checkbox checked.](../assets/images-blog/installing-keepassxc-and-yubikey/keepassxc-5-backupprevious.webp)
 
 #### Add icons specific to each service (optional)
 
@@ -140,7 +140,7 @@ Do not enable this if you wish to use KeePassXC offline only. You will still be 
 
 </div>
 
-![Screenshot of the KeePassXC application showing the Settings Security section with the checkbox for DuckDuckGo checked.](../assets/images/installing-keepassxc-and-yubikey/keepassxc-6-duckduckgo.webp)
+![Screenshot of the KeePassXC application showing the Settings Security section with the checkbox for DuckDuckGo checked.](../assets/images-blog/installing-keepassxc-and-yubikey/keepassxc-6-duckduckgo.webp)
 
 ### Step 3: Create a database
 
@@ -161,11 +161,11 @@ If you already have a password database file in the format `.kdbx`, you can impo
 
 You will see a window pop up with "General Database Information". Pick a name and description for your database and click on "Continue" at the bottom.
 
-![Screenshot of the KeePassXC application showing the popup to Create a new KeePassXC database.](../assets/images/installing-keepassxc-and-yubikey/keepassxc-7-databasecreation.webp)
+![Screenshot of the KeePassXC application showing the popup to Create a new KeePassXC database.](../assets/images-blog/installing-keepassxc-and-yubikey/keepassxc-7-databasecreation.webp)
 
 For the second step, an "Encryption Settings" section will pop up. From there, you will be able to change the settings to your preferences. If you are not familiar with encryption algorithms, simply keep the defaults on and click "Continue" again.
 
-![Screenshot of the KeePassXC application showing the popup to Create a new KeePassXC database in the Encryption Settings.](../assets/images/installing-keepassxc-and-yubikey/keepassxc-8-databaseencryption.webp)
+![Screenshot of the KeePassXC application showing the popup to Create a new KeePassXC database in the Encryption Settings.](../assets/images-blog/installing-keepassxc-and-yubikey/keepassxc-8-databaseencryption.webp)
 
 For the next step, a "Database Credentials" section will pop up. From there, you will be able to choose a main password to lock your entire password database.
 
@@ -175,7 +175,7 @@ At this step, it is very important to [choose a password](https://www.privacygui
 
 If you do not feel inspired, you can use the "Generate password" dice button on the right to help you pick a strong password.
 
-![Screenshot of the KeePassXC application showing the popup to Generate Password.](../assets/images/installing-keepassxc-and-yubikey/keepassxc-9-passwordgenerate.webp)
+![Screenshot of the KeePassXC application showing the popup to Generate Password.](../assets/images-blog/installing-keepassxc-and-yubikey/keepassxc-9-passwordgenerate.webp)
 
 No matter if you invent or generate your main password/passphrase, **make sure to remember this main password well**. You cannot rely on your password manager for this one.
 
@@ -219,7 +219,7 @@ Once your YubiKey's Challenge-Response slot has been properly configured and bac
 
 This will open a new section with "Key File" and "Challenge-Response" options. Scroll down to "Challenge-Response". Plug in your YubiKey in your computer's port (only plug one key at the time), then click on the "Add Challenge-Response" button.
 
-![Screenshot of the KeePassXC application showing the popup to Create a new KeePassXC database in the Database Credentials section and highlighting the Add Challenge-Response button.](../assets/images/installing-keepassxc-and-yubikey/keepassxc-10-challengeresponse.webp)
+![Screenshot of the KeePassXC application showing the popup to Create a new KeePassXC database in the Database Credentials section and highlighting the Add Challenge-Response button.](../assets/images-blog/installing-keepassxc-and-yubikey/keepassxc-10-challengeresponse.webp)
 
 <div class="admonition question" markdown>
 <p class="admonition-title">YubiKey or OnlyKey</p>
@@ -230,7 +230,7 @@ You can also use an OnlyKey to secure your KeePassXC database in the same way.
 
 You should see your YubiKey's model and serial number listed, and also which YubiKey slot you have stored your Challenge-Response in. Once the correct key is selected, click on "Done" at the bottom.
 
-![Screenshot of the KeePassXC application showing the popup to Create a new KeePassXC database in the Database Credentials section when a YubiKey is plugged in.](../assets/images/installing-keepassxc-and-yubikey/keepassxc-11-selectyubikey.webp)
+![Screenshot of the KeePassXC application showing the popup to Create a new KeePassXC database in the Database Credentials section when a YubiKey is plugged in.](../assets/images-blog/installing-keepassxc-and-yubikey/keepassxc-11-selectyubikey.webp)
 
 A window will pop up to ask where you want to save your password database. Name your database file and save it in a secure directory on your computer. You will then be asked to touch your YubiKey.
 
@@ -251,7 +251,7 @@ Using KeePassXC is quite simple and resembles most other password manager applic
 
 All the options to manage and use your entries credentials will be located on the *toolbar* at the top.
 
-![Screenshot of the KeePassXC application showing an empty database section.](../assets/images/installing-keepassxc-and-yubikey/keepassxc-12-databasenew.webp)
+![Screenshot of the KeePassXC application showing an empty database section.](../assets/images-blog/installing-keepassxc-and-yubikey/keepassxc-12-databasenew.webp)
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Locking the database</p>
@@ -268,7 +268,7 @@ To create a [new entry](https://keepassxc.org/docs/KeePassXC_GettingStarted#_ent
 
 From this section, you will be able to register a "Title", "Username", "Password" (or generate one), "URL" (this is important if you use the browser extension), "Tags", "Expires" date, "Notes", and more.
 
-![Screenshot of the KeePassXC application showing the Add entry section filled with information.](../assets/images/installing-keepassxc-and-yubikey/keepassxc-13-newentry.webp)
+![Screenshot of the KeePassXC application showing the Add entry section filled with information.](../assets/images-blog/installing-keepassxc-and-yubikey/keepassxc-13-newentry.webp)
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Keep your YubiKey plugged in when changing your database</p>
@@ -281,17 +281,17 @@ Before saving your entry by clicking "OK" on the lower-right, explore the option
 
 For example, in the "Advanced" section you can add additional attributes and store attachments, in the "Icon" section you can select an icon to represent your password entry (or download one from the web), in the "Auto-type" section you can enable/disable Auto-type, and in the "Properties" section you will see additional metadata for this entry.
 
-![Screenshot of the KeePassXC application showing the Add entry section in the Icon subsection.](../assets/images/installing-keepassxc-and-yubikey/keepassxc-14-entryicons.webp)
+![Screenshot of the KeePassXC application showing the Add entry section in the Icon subsection.](../assets/images-blog/installing-keepassxc-and-yubikey/keepassxc-14-entryicons.webp)
 
 Once you have set up all the information you need for this password entry, click "OK" to save it to your database. You will be prompted to touch the gold part of your YubiKey to complete the operation. You should now see your entry listed in your database.
 
-![Screenshot of the KeePassXC application showing the database section with one password entry filled.](../assets/images/installing-keepassxc-and-yubikey/keepassxc-15-entrycreated.webp)
+![Screenshot of the KeePassXC application showing the database section with one password entry filled.](../assets/images-blog/installing-keepassxc-and-yubikey/keepassxc-15-entrycreated.webp)
 
 Each time you need this information, you can select an entry and click on the "Copy username to clipboard" character-shaped button, or the "Copy password to clipboard" key-shaped button, or the "Copy URL to clipboard" earth-shaped button on the toolbar.
 
 The data will stay in your computer's clipboard for 10 seconds then will get cleared (unless you changed this from the default setting). Once copied, paste this information in the appropriate field for your service.
 
-![Screenshot of the KeePassXC application showing the database section with all three buttons Username, Password, and URL for entry pointed at with arrows.](../assets/images/installing-keepassxc-and-yubikey/keepassxc-16-useentry.webp)
+![Screenshot of the KeePassXC application showing the database section with all three buttons Username, Password, and URL for entry pointed at with arrows.](../assets/images-blog/installing-keepassxc-and-yubikey/keepassxc-16-useentry.webp)
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Accidental deletion danger!</p>
@@ -320,7 +320,7 @@ When your database is unlocked, you can click on the dropdown "Database" menu in
 
 You will have the option to rename this file and choose a different location. Then, you will be prompted to touch your YubiKey to confirm.
 
-![Screenshot of the KeePassXC application showing the application menu with the Database dropdown menu rolled down and the Save Database Backup option selected.](../assets/images/installing-keepassxc-and-yubikey/keepassxc-17-savedatabase.webp)
+![Screenshot of the KeePassXC application showing the application menu with the Database dropdown menu rolled down and the Save Database Backup option selected.](../assets/images-blog/installing-keepassxc-and-yubikey/keepassxc-17-savedatabase.webp)
 
 #### Manual backup from copying the database file
 
@@ -343,7 +343,7 @@ To install the extension, go to [this page](https://keepassxc.org/download/#brow
 
 This means that for any Firefox-based browser, you can click on the Firefox logo, and for any Chromium-based browser, you can click on the Chrome logo. Some browsers might not be supported, however.
 
-![Screenshot of the KeePassXC website page to download the browser extension.](../assets/images/installing-keepassxc-and-yubikey/keepassxc-18-downloadextension.webp)
+![Screenshot of the KeePassXC website page to download the browser extension.](../assets/images-blog/installing-keepassxc-and-yubikey/keepassxc-18-downloadextension.webp)
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Privacy warning</p>
@@ -358,7 +358,7 @@ Additionally, the more unique your combination of hardware, software, and browse
 
 Once you have installed the extension for your browser, go back to the KeePassXC application and click on the "Settings" gear button on toolbar. Click on "Browser Integration" on the left-side menu and check the box for "Enable browser integration" at the top of the section.
 
-![Screenshot of the KeePassXC application showing the Settings section in the Browser Integration subsection with the checkbox for Enable browser integration checked.](../assets/images/installing-keepassxc-and-yubikey/keepassxc-19-browserintegration.webp)
+![Screenshot of the KeePassXC application showing the Settings section in the Browser Integration subsection with the checkbox for Enable browser integration checked.](../assets/images-blog/installing-keepassxc-and-yubikey/keepassxc-19-browserintegration.webp)
 
 From this [section](https://keepassxc.org/docs/KeePassXC_UserGuide#_configure_keepassxc_browser), check the box for the browser(s) or browser type(s) you have installed the extension on. You can also enable the option "Search in all opened databases for matching credentials" if you are using multiple databases. Then click "OK" on the lower-right to save these options.
 
@@ -387,7 +387,7 @@ If this happens, try the following:
 
 5. Look for possible solutions from KeePassXC's [troubleshooting guide](https://github.com/keepassxreboot/keepassxc-browser/wiki/Troubleshooting-guide).
 
-![Screenshot of the CryptPad website login page showing in the Username field the KeePassXC logo greyed out and marked with a red "X".](../assets/images/installing-keepassxc-and-yubikey/keepassxc-20-errorconnection.webp)
+![Screenshot of the CryptPad website login page showing in the Username field the KeePassXC logo greyed out and marked with a red "X".](../assets/images-blog/installing-keepassxc-and-yubikey/keepassxc-20-errorconnection.webp)
 
 #### Filling credentials using the extension
 
@@ -402,7 +402,7 @@ Once configured and connected properly, you should see a green KeePassXC logo in
 
 Click on the green KeePassXC logo to populate all credential fields automatically.
 
-![Screenshot of the CryptPad website login page showing in the Username field the KeePassXC logo in green and both the credentials for Username and Password are filled.](../assets/images/installing-keepassxc-and-yubikey/keepassxc-21-credentialsextension.webp)
+![Screenshot of the CryptPad website login page showing in the Username field the KeePassXC logo in green and both the credentials for Username and Password are filled.](../assets/images-blog/installing-keepassxc-and-yubikey/keepassxc-21-credentialsextension.webp)
 
 <div class="admonition success" markdown>
 <p class="admonition-title">Congratulation! You're in!</p>

@@ -33,13 +33,13 @@ review:
     - No app for Linux, Android, or Windows.
 ---
 
-![The KeePassium logo over a yellow background showing Apple devices.](../assets/images/keepassium-review/keepassium-cover.webp)
+![The KeePassium logo over a yellow background showing Apple devices.](../assets/images-blog/keepassium-review/keepassium-cover.webp)
 
 <small aria-hidden="true">Illustration: Em / Privacy Guides | Photo: PicJumbo / Pexels</small>
 
 If you have been looking for a password manager giving you full control over your data, KeePassium is a fantastic option. The application available for iOS and macOS keeps your password database offline by default. KeePassium still offers synchronization and backup options, but allows you to choose which storage provider to trust with your database, and change it whenever you want.<!-- more -->
 
-![KeePassium logo](../assets/images/keepassium-review/keepassium.svg){align=right itemprop="image"}
+![KeePassium logo](../assets/images-blog/keepassium-review/keepassium.svg){align=right itemprop="image"}
 
 [KeePassium](https://keepassium.com/) is a commercial open-source application made by KeePassium Labs, based in Luxembourg.
 
@@ -128,7 +128,7 @@ Something interesting about KeePassium Premium's plan is that it offers a "[rent
 
 For example, if you pay for Premium for only one year then stop, you will keep access to all the Premium features that were available while you paid for Premium, but will not have access to new features added after your stopped paying. This is an excellent model that more applications should adopt.
 
-![Screenshot from the KeePassium website's Pricing page with a description of which features are included in each plan.](../assets/images/keepassium-review/keepassium-pricing.webp)
+![Screenshot from the KeePassium website's Pricing page with a description of which features are included in each plan.](../assets/images-blog/keepassium-review/keepassium-pricing.webp)
 
 ## :octicons-shield-check-16: Security and Trust
 
@@ -186,7 +186,7 @@ Data privacy and encryption are fundamental aspects of any password managers. Be
 
 On this point, KeePassium delivers. First, a quick look at Apple's privacy label indicates that "the developer does not collect any data from this app". This is a good start, and this description is true for both the iOS and macOS applications.
 
-![Screenshot from Apple's App Store for KeePassium's App Privacy label. The label states that the "developer does not collect any data from this app".](../assets/images/keepassium-review/keepassium-applelabel.webp)
+![Screenshot from Apple's App Store for KeePassium's App Privacy label. The label states that the "developer does not collect any data from this app".](../assets/images-blog/keepassium-review/keepassium-applelabel.webp)
 
 Second, in its current version, KeePassium's [Privacy Policy](https://keepassium.com/privacy/app/) is excellent. This is never a guarantee of course, but the app's [security audit](#independent-security-audit-ios) shows the Privacy Policy statements are likely founded.
 
@@ -242,7 +242,7 @@ Additionally, the LastPass' breach is a great argument in favor of keeping one's
 
 [AES-KDF](https://keepass.info/help/kb/kdbx_4.html#intro) (Key Derivative Function, for KDBX3 only): AES-KDF is a key derivative function based on AES. This method was previously used for the KDBX3 database format, but has since been replaced by Argon2 for KDBX4. This is partly because AES-KDF is not memory-hard, which makes it easier to crack for an attacker using modern technologies.
 
-![Screenshot from the iOS app showing the Encryption Settings.](../assets/images/keepassium-review/keepassium-encryptionoptions.webp){width="400"}
+![Screenshot from the iOS app showing the Encryption Settings.](../assets/images-blog/keepassium-review/keepassium-encryptionoptions.webp){width="400"}
 
 ## :octicons-apps-16: Usage and Features
 
@@ -262,9 +262,9 @@ If you are not familiar with it already, it's a good idea to read each popup fro
 
 <div class="grid" markdown>
 
-![Screenshot from the iOS app showing the Welcome page after installation.](../assets/images/keepassium-review/keepassium-startwelcome.webp)
+![Screenshot from the iOS app showing the Welcome page after installation.](../assets/images-blog/keepassium-review/keepassium-startwelcome.webp)
 
-![Screenshot from the iOS app showing the page giving options to either create a new database, add an existing database, or connect to a server.](../assets/images/keepassium-review/keepassium-startdatabase.webp)
+![Screenshot from the iOS app showing the page giving options to either create a new database, add an existing database, or connect to a server.](../assets/images-blog/keepassium-review/keepassium-startdatabase.webp)
 
 </div>
 
@@ -290,7 +290,7 @@ Due to the nature of end-to-end encryption, there is no way for KeePassium to re
 
 After creating a new database, you will be prompted to unlock it with your new main password ("Master Key").
 
-![Screenshot from the iOS app showing the New Database section.](../assets/images/keepassium-review/keepassium-newdatabase.webp){width="400"}
+![Screenshot from the iOS app showing the New Database section.](../assets/images-blog/keepassium-review/keepassium-newdatabase.webp){width="400"}
 
 After you have either created or imported a database, you are ready to explore KeePassium's features.
 
@@ -298,15 +298,15 @@ After you have either created or imported a database, you are ready to explore K
 
 To download KeePassium on macOS, you will need to go through Apple's App Store. Alternatively, you could also [build](https://github.com/keepassium/KeePassium) the application from the source code, but that is an entirely different process.
 
-![Screenshot from Apple's App Store on macOS showing the KeePassium page.](../assets/images/keepassium-review/keepassium-appstoremac.webp)
+![Screenshot from Apple's App Store on macOS showing the KeePassium page.](../assets/images-blog/keepassium-review/keepassium-appstoremac.webp)
 
 Installing the application is a breeze, and the macOS app shares the same welcome sections and features the iOS version has, with a slightly different format.
 
-![Screenshot from the macOS app showing the Welcome page after installation.](../assets/images/keepassium-review/keepassium-startwelcomemac.webp)
+![Screenshot from the macOS app showing the Welcome page after installation.](../assets/images-blog/keepassium-review/keepassium-startwelcomemac.webp)
 
 The application will guide you to either create or import a database, then you will recognize the same features described below for the iOS version.
 
-![Screenshot from the macOS app showing the New Database section.](../assets/images/keepassium-review/keepassium-newdatabasemac.webp)
+![Screenshot from the macOS app showing the New Database section.](../assets/images-blog/keepassium-review/keepassium-newdatabasemac.webp)
 
 ### Accessibility
 
@@ -318,9 +318,9 @@ Additionally, when tapping on a Password in an entry section, you can quickly ta
 
 <div class="grid" markdown>
 
-![Screenshot from the iOS app showing the Appearance page from the Settings with the Text Size option.](../assets/images/keepassium-review/keepassium-textsize.webp)
+![Screenshot from the iOS app showing the Appearance page from the Settings with the Text Size option.](../assets/images-blog/keepassium-review/keepassium-textsize.webp)
 
-![Screenshot from the iOS app showing an entry's password selected with the large font option, which displays each character from a password in a separate indexed box.](../assets/images/keepassium-review/keepassium-largeindexedfont.webp)
+![Screenshot from the iOS app showing an entry's password selected with the large font option, which displays each character from a password in a separate indexed box.](../assets/images-blog/keepassium-review/keepassium-largeindexedfont.webp)
 
 </div>
 
@@ -340,9 +340,9 @@ A fun (and useful) feature you will find there is that you can decide what happe
 
 <div class="grid" markdown>
 
-![Screenshot from the iOS app showing the App Protection page from the Settings.](../assets/images/keepassium-review/keepassium-appprotection.webp)
+![Screenshot from the iOS app showing the App Protection page from the Settings.](../assets/images-blog/keepassium-review/keepassium-appprotection.webp)
 
-![Screenshot from the iOS app showing the Data Protection page from the Settings.](../assets/images/keepassium-review/keepassium-dataprotection.webp)
+![Screenshot from the iOS app showing the Data Protection page from the Settings.](../assets/images-blog/keepassium-review/keepassium-dataprotection.webp)
 
 </div>
 
@@ -372,7 +372,7 @@ Smart Groups are simply Groups created from a search query. If you imported a da
 
 When creating a new database, KeePassium will suggest some Groups, which you can be used as provided, changed, or deleted. To add a new Group or Smart Group, tap on the 3-dot button on the upper-right from inside a database and select "New Group" or "New Smart Group".
 
-![Screenshot from the iOS app showing different groups created within a database.](../assets/images/keepassium-review/keepassium-groups.webp){width="400"}
+![Screenshot from the iOS app showing different groups created within a database.](../assets/images-blog/keepassium-review/keepassium-groups.webp){width="400"}
 
 <div class="admonition info" markdown>
 <p class="admonition-title">Separate databases vs Groups</p>
@@ -395,19 +395,19 @@ Tapping the plus-sign button at the top will create a new custom text field for 
 
 <div class="grid" markdown>
 
-![Screenshot from the iOS app showing a New Entry page with various empty fields.](../assets/images/keepassium-review/keepassium-newentry.webp)
+![Screenshot from the iOS app showing a New Entry page with various empty fields.](../assets/images-blog/keepassium-review/keepassium-newentry.webp)
 
-![Screenshot from the iOS app showing the page within a Group with four different entries.](../assets/images/keepassium-review/keepassium-entries.webp)
+![Screenshot from the iOS app showing the page within a Group with four different entries.](../assets/images-blog/keepassium-review/keepassium-entries.webp)
 
 </div>
 
 An entry section from macOS:
 
-![Screenshot from the macOS app showing an entry section with the "User Name", "Password", "URL", "Tags", and "Notes" fields filled.](../assets/images/keepassium-review/keepassium-entrymac.webp)
+![Screenshot from the macOS app showing an entry section with the "User Name", "Password", "URL", "Tags", and "Notes" fields filled.](../assets/images-blog/keepassium-review/keepassium-entrymac.webp)
 
 Finally, to edit, move, copy or delete an entry on iOS, a long press over its name from the directory will show these options. Swiping left on a password entry will also show the edit and delete options.
 
-![Screenshot from the iOS app showing the options Edit, Move, Copy, and Delete when long-pressing on a listed entry.](../assets/images/keepassium-review/keepassium-moveentry.webp){width="400"}
+![Screenshot from the iOS app showing the options Edit, Move, Copy, and Delete when long-pressing on a listed entry.](../assets/images-blog/keepassium-review/keepassium-moveentry.webp){width="400"}
 
 ### Password generator
 
@@ -419,9 +419,9 @@ Each time you open the Random Generator, it will automatically generate new rand
 
 <div class="grid" markdown>
 
-![Screenshot from the iOS app showing the tool menu from within a database. The menu shows options for "Random Generator", "Password Audit", "Download Favicons", "Print", "Change Master Key", "Encryption Settings", and "Lock Database".](../assets/images/keepassium-review/keepassium-databaseoptions.webp)
+![Screenshot from the iOS app showing the tool menu from within a database. The menu shows options for "Random Generator", "Password Audit", "Download Favicons", "Print", "Change Master Key", "Encryption Settings", and "Lock Database".](../assets/images-blog/keepassium-review/keepassium-databaseoptions.webp)
 
-![Screenshot from the iOS app showing the Random Generator page that displays three random passwords for "Basic", "Expert", and "Passphrase".](../assets/images/keepassium-review/keepassium-generator.webp)
+![Screenshot from the iOS app showing the Random Generator page that displays three random passwords for "Basic", "Expert", and "Passphrase".](../assets/images-blog/keepassium-review/keepassium-generator.webp)
 
 </div>
 
@@ -429,7 +429,7 @@ The Random Generator can also be customized. To customize each mode, tap on the 
 
 The customization for Passphrase does not include the options for "MIXED" case at this time, however, considering this option was just added to KeePassXC last month, maybe it will be added to KeePassium as well in the near future.
 
-![Screenshot from the macOS app showing the Random Generator page that displays the options to adjust for generated passphrase.](../assets/images/keepassium-review/keepassium-generatormac.webp)
+![Screenshot from the macOS app showing the Random Generator page that displays the options to adjust for generated passphrase.](../assets/images-blog/keepassium-review/keepassium-generatormac.webp)
 
 ### One-Time Password (OTP)
 
@@ -443,9 +443,9 @@ OTP codes are easy to set up and can be entered manually or using a QR code. Onc
 
 <div class="grid" markdown>
 
-![Screenshot from the iOS app showing an entry for Mastodon Social with all credential fields filled, and an arrow pointing at a One-Time Password code.](../assets/images/keepassium-review/keepassium-otp.webp)
+![Screenshot from the iOS app showing an entry for Mastodon Social with all credential fields filled, and an arrow pointing at a One-Time Password code.](../assets/images-blog/keepassium-review/keepassium-otp.webp)
 
-![Screenshot from the iOS app showing an Entry page with the option to "Set up one-time password (OTP)" selected at the bottom and displaying a menu with the options "Scan QR code" and "Enter manually".](../assets/images/keepassium-review/keepassium-otpentry.webp)
+![Screenshot from the iOS app showing an Entry page with the option to "Set up one-time password (OTP)" selected at the bottom and displaying a menu with the options "Scan QR code" and "Enter manually".](../assets/images-blog/keepassium-review/keepassium-otpentry.webp)
 
 </div>
 
@@ -468,7 +468,7 @@ A possible cause of AutoFill issues can be an incorrect entry URL that isn't the
 
 When set up correctly on iOS, a "Passwords" button should appear above the keyboard for websites where credentials have been stored in your database. If it doesn't, this could mean AutoFill was not set up properly from the [iOS Settings](https://support.keepassium.com/kb/autofill-setup-ios/).
 
-![Screenshot from a mobile browser with the login page for mastodon.social displaying empty credential fields and iOS showing a "Passwords" button over the keyboard.](../assets/images/keepassium-review/keepassium-autofill.webp){width="400"}
+![Screenshot from a mobile browser with the login page for mastodon.social displaying empty credential fields and iOS showing a "Passwords" button over the keyboard.](../assets/images-blog/keepassium-review/keepassium-autofill.webp){width="400"}
 
 #### AutoFill for macOS
 
@@ -476,15 +476,15 @@ There isn't a browser extension available for KeePassium on macOS. The desktop A
 
 To set up AutoFill for KeePassium, you will have to enable it from the [macOS Settings](https://support.keepassium.com/kb/autofill-setup-macos/). KeePassium will guide you through the process with clear instructions to follow:
 
-![Screenshot from the macOS app showing a setting popup to "Uncheck Keychain" with the option to enable KeePassium instead.](../assets/images/keepassium-review/keepassium-autofillmac.webp)
+![Screenshot from the macOS app showing a setting popup to "Uncheck Keychain" with the option to enable KeePassium instead.](../assets/images-blog/keepassium-review/keepassium-autofillmac.webp)
 
 Once enabled, every website with a corresponding URL in your database will display a small key icon on the right of the credential fields.
 
-![Screenshot from Safari showing the cryptpad.fr login page and a key icon on the right of the Username empty field, with the option on the left to select either KeePassium or Keychain to fill the credentials.](../assets/images/keepassium-review/keepassium-loginsafarimac.webp)
+![Screenshot from Safari showing the cryptpad.fr login page and a key icon on the right of the Username empty field, with the option on the left to select either KeePassium or Keychain to fill the credentials.](../assets/images-blog/keepassium-review/keepassium-loginsafarimac.webp)
 
 Despite lacking a browser extension, integration with Safari and the macOS ecosystem works smoothly, and it will work with applications that aren't browsers as well.
 
-![Screenshot from the ProtonDrive login popup in macOS showing a menu over the Password field to select either KeePassium or Keychain to fill the credentials.](../assets/images/keepassium-review/keepassium-loginappmac.webp)
+![Screenshot from the ProtonDrive login popup in macOS showing a menu over the Password field to select either KeePassium or Keychain to fill the credentials.](../assets/images-blog/keepassium-review/keepassium-loginappmac.webp)
 
 ### Backups
 
@@ -506,15 +506,15 @@ Secondly, to also exclude the backups created by KeePassium, inside a database t
 
 <div class="grid" markdown>
 
-![Screenshot from the iOS app showing the File Info page for a database, with the "Exclude From iCloud/iTunes Backup" option enabled in green.](../assets/images/keepassium-review/keepassium-fileinfo.webp)
+![Screenshot from the iOS app showing the File Info page for a database, with the "Exclude From iCloud/iTunes Backup" option enabled in green.](../assets/images-blog/keepassium-review/keepassium-fileinfo.webp)
 
-![Screenshot from the iOS app showing the Database backup page from Settings with the "Exclude Backup Files from System Backup" option enabled in green.](../assets/images/keepassium-review/keepassium-backup.webp)
+![Screenshot from the iOS app showing the Database backup page from Settings with the "Exclude Backup Files from System Backup" option enabled in green.](../assets/images-blog/keepassium-review/keepassium-backup.webp)
 
 </div>
 
 You will find the same option on macOS:
 
-![Screenshot from the macOS app showing the File Info for a database, with the "Exclude From iCloud/iTunes Backup" option enabled in yellow.](../assets/images/keepassium-review/keepassium-fileinfomac.webp)
+![Screenshot from the macOS app showing the File Info for a database, with the "Exclude From iCloud/iTunes Backup" option enabled in yellow.](../assets/images-blog/keepassium-review/keepassium-fileinfomac.webp)
 
 #### Auto-delete backup files
 
@@ -528,7 +528,7 @@ To [transfer](https://support.keepassium.com/kb/database-transfer/) your databas
 
 If you stored your database locally on iPhone, you will find the file in Apple's "Files" > "On My iPhone" > "KeePassium". From there, you can long press the file to see options to move or share it.
 
-![Screenshot from the iOS Files showing the menu from a long-press over the local database file with the option to "Move" the file circled.](../assets/images/keepassium-review/keepassium-movedatabase.webp){width="400"}
+![Screenshot from the iOS Files showing the menu from a long-press over the local database file with the option to "Move" the file circled.](../assets/images-blog/keepassium-review/keepassium-movedatabase.webp){width="400"}
 
 #### Restore database from backup
 
@@ -556,7 +556,7 @@ For example, you can store your database file on a cloud storage of your choice,
 
 Be careful however when modifying your database. If synchronization isn't handled properly, this could cause errors that could corrupt your file. This is why it's important to test your setting first, and a good practice to keep a backup in a secure secondary location.
 
-![Screenshot from the iOS app showing the Network Access page with the option "Stay Offline" selected.](../assets/images/keepassium-review/keepassium-offline.webp){width="400"}
+![Screenshot from the iOS app showing the Network Access page with the option "Stay Offline" selected.](../assets/images-blog/keepassium-review/keepassium-offline.webp){width="400"}
 
 <details class="example" markdown>
 <summary>Synchronization through Proton Drive</summary>
@@ -624,7 +624,7 @@ The print function can be [disabled](https://support.keepassium.com/docs/mdm-app
 
 </div>
 
-![Screenshot from the iOS app showing a preview to print a database file in plain text. The file lists the database name at the top, then each group, and within each group all entries' credentials including usernames, passwords in plain text, URL, and notes.](../assets/images/keepassium-review/keepassium-print.webp)
+![Screenshot from the iOS app showing a preview to print a database file in plain text. The file lists the database name at the top, then each group, and within each group all entries' credentials including usernames, passwords in plain text, URL, and notes.](../assets/images-blog/keepassium-review/keepassium-print.webp)
 
 #### Read-only database
 
@@ -646,11 +646,11 @@ You can either add files to an entry already created, or create a new entry name
 
 To add a file, select the paperclip-icon tab at the top of an entry, then tap the plus-sign button at the bottom. Your files (attachments) will be accessible from any other KeePass-compatible application, like KeePassXC for example.
 
-![Screenshot from the macOS app showing the section tab within an Entry to add and view attachment files.](../assets/images/keepassium-review/keepassium-attachmentmac.webp)
+![Screenshot from the macOS app showing the section tab within an Entry to add and view attachment files.](../assets/images-blog/keepassium-review/keepassium-attachmentmac.webp)
 
 Interestingly, KeePassium even uses a quite decent PDF viewer on iOS:
 
-![Screenshot from the iOS app showing a preview for a PDF file, in this case the document for Privacy by Design by Ann Cavoukian.](../assets/images/keepassium-review/keepassium-pdfviewer.webp){width="400"}
+![Screenshot from the iOS app showing a preview for a PDF file, in this case the document for Privacy by Design by Ann Cavoukian.](../assets/images-blog/keepassium-review/keepassium-pdfviewer.webp){width="400"}
 
 ## :material-thumb-up-outline: Nice to have
 

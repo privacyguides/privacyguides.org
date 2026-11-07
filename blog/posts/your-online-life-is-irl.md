@@ -13,7 +13,7 @@ preview:
 
 # Your Online Life Is IRL
 
-![Photo of an illuminated red street sign with the word Internet on it.](../assets/images/your-online-life-is-irl/irl-cover.webp)
+![Photo of an illuminated red street sign with the word Internet on it.](../assets/images-blog/your-online-life-is-irl/irl-cover.webp)
 <small aria-hidden="true">Leon Seibert / Unsplash</small>
 
 If you, like myself, have been inhabiting the internet for a few decades, you're probably familiar with the old adage IRL: In Real Life.

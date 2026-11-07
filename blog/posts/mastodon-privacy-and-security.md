@@ -16,7 +16,7 @@ preview:
 
 # Privacy and Security on Mastodon
 
-![The Mastodon name and logo over a dark purple background with a large purple padlock icon under it.](../assets/images/mastodon-privacy-and-security/mastodon-cover.webp)
+![The Mastodon name and logo over a dark purple background with a large purple padlock icon under it.](../assets/images-blog/mastodon-privacy-and-security/mastodon-cover.webp)
 
 <small aria-hidden="true">Illustration: Em / Privacy Guides | Logo: Mastodon gGmbH</small>
 
@@ -55,7 +55,7 @@ The biggest distinction of Mastodon compared to commercial social media is its t
 
 The Mastodon network is composed of a [multiplicity of instances](https://joinmastodon.org/servers) that connect with each other, through a protocol called [ActivityPub](https://docs.joinmastodon.org/#fediverse). This collection of connected instances, along with other connected software using the same protocol, is called [the Fediverse](https://jointhefediverse.net/).
 
-![Screenshot of the official Mastodon website from the page presenting various Mastodon instances.](../assets/images/mastodon-privacy-and-security/mastodon-choosing-instance.webp)
+![Screenshot of the official Mastodon website from the page presenting various Mastodon instances.](../assets/images-blog/mastodon-privacy-and-security/mastodon-choosing-instance.webp)
 
 This article will not go deep into this topic, but it's important to mention that different instances will offer different degrees of privacy and security. Choosing an instance can have an important impact on this.
 
@@ -252,7 +252,7 @@ However, do **not** type the handle of someone to talk "in private" about them w
 
 Additionally, private mentions on Mastodon, like private messages on other commercial social media, aren't end-to-end encrypted. The Mastodon interface shows this clearly:
 
-![Screenshot of the Mastodon interface showing a warning presented when selecting private mention visibility for a post. The message says: "Posts on Mastodon are not end-to-end encrypted. Do not share any sensitive information over Mastodon. Learn more"](../assets/images/mastodon-privacy-and-security/mastodon-private-mention-encryption.webp){width="400"}
+![Screenshot of the Mastodon interface showing a warning presented when selecting private mention visibility for a post. The message says: "Posts on Mastodon are not end-to-end encrypted. Do not share any sensitive information over Mastodon. Learn more"](../assets/images-blog/mastodon-privacy-and-security/mastodon-private-mention-encryption.webp){width="400"}
 
 This means that all your private mention posts *could* be accessed by the administration and moderation team of your instance. **Never share any sensitive information using private mentions.** The same advice is applicable to any other social media.
 

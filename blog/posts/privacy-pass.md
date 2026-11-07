@@ -16,7 +16,7 @@ preview:
 ---
 # Privacy Pass: The New Protocol for Private Authentication
 
-![Cover photo of the Privacy Pass logo over a yellow background](../assets/images/privacy-pass/cover.webp)
+![Cover photo of the Privacy Pass logo over a yellow background](../assets/images-blog/privacy-pass/cover.webp)
 
 <small aria-hidden="true">Background Image: Thomas Ensley / Unsplash</small>
 
@@ -70,7 +70,7 @@ The organization then signs it, indicating you're a valid customer, and you're a
 
 Later, when you're presented with a request to authenticate as an active subscriber of PrivacyGuides+, you unwrap the envelope and discard it along with the carbon paper. You rewrap it in a new envelope with a window showing the signature and a different pseudonym, and the requester can then be sure that you're allowed to access PrivacyGuides+.
 
-![A diagram showing an envelope being wrapped in carbon paper, transferred to an organization, then passing over a boundary representing the unlinkability between the two transactions. Then the envelope is unwrapped, put in a new envelope with a window showing the signature from the previous organization, and presented to a different organization.](../assets/images/privacy-pass/blind-signatures.webp)
+![A diagram showing an envelope being wrapped in carbon paper, transferred to an organization, then passing over a boundary representing the unlinkability between the two transactions. Then the envelope is unwrapped, put in a new envelope with a window showing the signature from the previous organization, and presented to a different organization.](../assets/images-blog/privacy-pass/blind-signatures.webp)
 
 <small aria-hidden="true">Illustration: [David Chaum](https://dl.acm.org/doi/pdf/10.1145/4372.4373)</small>
 
@@ -144,7 +144,7 @@ The issuer is responsible for issuing tokens in response to requests from client
 
 The client presents tokens to the Origin once they're provided by the issuer.
 
-![diagram showing the structure of Private Access Tokens. The origin asks the client for a token, the client forwards the request to the attester which then forwards it to the issuer which then generates a token, sends it to the client which then sends it to the origin.](../assets/images/privacy-pass/private-access-tokens.webp)
+![diagram showing the structure of Private Access Tokens. The origin asks the client for a token, the client forwards the request to the attester which then forwards it to the issuer which then generates a token, sends it to the client which then sends it to the origin.](../assets/images-blog/privacy-pass/private-access-tokens.webp)
 
 <small aria-hidden="true">Illustration: [Cloudflare](https://blog.cloudflare.com/eliminating-captchas-on-iphones-and-macs-using-new-standard/)</small>
 
@@ -226,7 +226,7 @@ Apple's iCloud Private Relay uses RSA blind signatures to anonymously authentica
 
 Google's former [VPN](https://www.gstatic.com/vpn/google_vpn_white_paper.pdf) service also used blind signatures to protect users.
 
-![Diagram showing Google's blind signature VPN authentication scheme](../assets/images/privacy-pass/google-vpn.webp)
+![Diagram showing Google's blind signature VPN authentication scheme](../assets/images-blog/privacy-pass/google-vpn.webp)
 
 <small aria-hidden="true">Image: [Google](https://www.gstatic.com/vpn/google_vpn_white_paper.pdf)</small>
 
