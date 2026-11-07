@@ -3,6 +3,7 @@ title: "Why Privacy Matters"
 icon: 'material/shield-account'
 description: In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not.
 ---
+
 <!--
 SPDX-FileCopyrightText: 2020-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2020-2026 The Privacy Guides contributors

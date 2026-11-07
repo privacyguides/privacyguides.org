@@ -14,6 +14,7 @@ schema_type: NewsArticle
 preview:
   cover: blog/assets/images/relisting-startpage/cover.webp
 ---
+
 # Relisting Startpage.com
 
 !["Relisting Startpage" cover image](../assets/images/relisting-startpage/cover.webp)

@@ -10,6 +10,7 @@ schema_type: AnalysisNewsArticle
 preview:
   cover: blog/assets/images/installing-and-using-tails/cover.webp
 ---
+
 # Using Tails When Your World Doesn't Feel Safe Anymore
 
 ![Photo of a hand plugging a USB stick into a laptop and the Tails logo under it.](../assets/images/installing-and-using-tails/cover.webp)

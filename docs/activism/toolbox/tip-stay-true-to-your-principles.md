@@ -4,6 +4,7 @@ description: If you manage a digital rights group, it's important to make sure y
 icon: fontawesome/solid/star
 cover: activism/banner-toolbox-tip-principles.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors

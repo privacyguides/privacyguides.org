@@ -15,6 +15,7 @@ schema:
     - https://www.youtube.com/@privacyguides
     - https://mastodon.neat.computer/@privacyguides
 ---
+
 <!--
 SPDX-FileCopyrightText: 2020-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2020-2026 The Privacy Guides contributors

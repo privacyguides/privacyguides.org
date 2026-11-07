@@ -3,6 +3,7 @@ title: Account Deletion
 icon: material/account-remove
 description: It's easy to accumulate a large number of internet accounts. Here are some tips on how to prune your collection.
 ---
+
 <!--
 SPDX-FileCopyrightText: 2022-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors

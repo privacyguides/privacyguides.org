@@ -10,6 +10,7 @@ schema_type: OpinionNewsArticle
 preview:
   cover: blog/assets/images/privacy-is-not-dead/cover.webp
 ---
+
 # No, Privacy is Not Dead: Beware the All-or-Nothing Mindset
 
 ![Photo of a protest with someone holding a sign saying Fight Today For a Better Tomorrow.](../assets/images/privacy-is-not-dead/cover.webp)

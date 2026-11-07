@@ -15,6 +15,7 @@ schema_type: AnalysisNewsArticle
 preview:
   cover: blog/assets/images/firefox-privacy/cover.webp
 ---
+
 # Firefox Privacy: Tips and Tricks for Better Browsing
 
 !["Firefox Privacy" cover image](../assets/images/firefox-privacy/cover.webp)

@@ -2,6 +2,7 @@
 title: Traffic Statistics
 description: We self-host Umami to create a nice visualization of our traffic statistics, which are made public here.
 ---
+
 <!--
 SPDX-FileCopyrightText: 2022-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors

@@ -2,6 +2,7 @@
 title: Git Recommendations
 description: A guide for website contributors on using Git effectively.
 ---
+
 <!--
 SPDX-FileCopyrightText: 2022-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors

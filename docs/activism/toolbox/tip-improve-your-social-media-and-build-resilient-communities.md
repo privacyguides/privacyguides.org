@@ -4,6 +4,7 @@ description: Commercial social media platforms represent one of the biggest sour
 icon: fontawesome/solid/seedling
 cover: activism/banner-toolbox-tip-plant.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors

@@ -7,6 +7,7 @@ cover: search-engines.webp
 global:
  - [randomize-element, "table tbody"]
 ---
+
 <!--
 SPDX-FileCopyrightText: 2021-2026 Jonah Aragon and Daniel Gray
 SPDX-FileCopyrightText: 2021-2026 The Privacy Guides contributors

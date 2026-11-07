@@ -4,6 +4,7 @@ icon: material/vector-polygon
 description: These tools allow you to access networks other than the World Wide Web.
 cover: alternative-networks.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2020-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2016-2026 The Privacy Guides contributors

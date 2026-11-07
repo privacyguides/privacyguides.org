@@ -5,6 +5,7 @@ icon: material/file-multiple-outline
 description: For our more technical readers, self-hosting file management tools can provide additional privacy assurances by having maximum control over your data.
 cover: cloud.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2022-2026 Jonah Aragon and Daniel Gray
 SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors

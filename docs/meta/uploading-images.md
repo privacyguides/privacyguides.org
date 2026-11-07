@@ -2,13 +2,13 @@
 title: Uploading Images
 description: A guide for website contributors on uploading images in the proper format and location.
 ---
+
 <!--
 SPDX-FileCopyrightText: 2022-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors
 
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
-
 
 If you make changes to this website that involve adding new images or replacing existing ones, here are a couple of general recommendations:
 

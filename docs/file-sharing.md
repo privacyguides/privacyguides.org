@@ -4,6 +4,7 @@ icon: material/share-variant
 description: Discover how to privately share your files between your devices, with your friends and family, or anonymously online.
 cover: file-sharing.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2019-2026 Jonah Aragon and Daniel Gray
 SPDX-FileCopyrightText: 2015-2026 The Privacy Guides contributors

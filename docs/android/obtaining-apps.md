@@ -2,6 +2,7 @@
 title: "Obtaining Applications"
 description: We recommend these methods for obtaining applications on Android without interacting with Google Play Services.
 ---
+
 <!--
 SPDX-FileCopyrightText: 2022-2026 Jonah Aragon and Daniel Gray
 SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors

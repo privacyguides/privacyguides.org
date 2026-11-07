@@ -12,6 +12,7 @@ description: Learn about Secure Multi-Party Computation and how it can be used t
 preview:
   cover: blog/assets/images/multi-party-computation/cover.webp
 ---
+
 # What is Multi-Party Computation?
 
 ![An image of a lock and multiple keys going toward it to unlock it](../assets/images/multi-party-computation/cover.webp)

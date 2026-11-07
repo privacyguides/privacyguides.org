@@ -10,6 +10,7 @@ schema_type: ReportageNewsArticle
 preview:
   cover: blog/assets/images/uk-forced-apple-to-remove-adp/cover.webp
 ---
+
 # The UK Government Forced Apple to Remove Advanced Data Protection: What Does This Mean for You?
 
 ![Photo of a person reading a book. The book is George Orwell's 1984. In the upper left corner is an Apple logo with two bites taken off.](../assets/images/uk-forced-apple-to-remove-adp/cover.webp)

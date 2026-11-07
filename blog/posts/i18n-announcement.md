@@ -13,6 +13,7 @@ license: BY-SA
 description: It's finally here. After countless requests, Privacy Guides now has translations.
 schema_type: NewsArticle
 ---
+
 # Privacy Guides Is Now Multilingual
 
 It's finally here. After countless requests, Privacy Guides now has translations.

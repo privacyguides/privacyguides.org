@@ -14,6 +14,7 @@ license: BY-SA
 description: On Mark Zuckerberg, Facebook, and the Metaverse.
 schema_type: OpinionNewsArticle
 ---
+
 # Virtual Insanity
 
 Not so long ago, the world was predicting the end for Facebook. Now it is no more. Gone from the face of the planet – never to be seen again. Except it isn’t.

@@ -11,6 +11,7 @@ tags:
 preview:
   cover: blog/assets/images/digital-provenance/cover.jpg
 ---
+
 # The Power of Digital Provenance in the Age of AI
 
 ![Article cover showing a painterly background with cool colors and the Content Credentials logo](../assets/images/digital-provenance/cover.jpg)

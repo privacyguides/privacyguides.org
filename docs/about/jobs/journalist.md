@@ -2,13 +2,13 @@
 title: Journalist
 description: Privacy Guides is looking for a determined and focused journalist to research and write stories from the privacy and cybersecurity space on a regular basis.
 ---
+
 <!--
 SPDX-FileCopyrightText: 2024-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2024-2026 The Privacy Guides contributors
 
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
-
 
 [:material-arrow-left-drop-circle: Job Openings](../jobs.md)
 

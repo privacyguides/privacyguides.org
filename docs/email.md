@@ -7,6 +7,7 @@ cover: email.webp
 global:
  - [randomize-element, "table tbody"]
 ---
+
 <!--
 SPDX-FileCopyrightText: 2019-2026 Jonah Aragon and Daniel Gray
 SPDX-FileCopyrightText: 2015-2026 The Privacy Guides contributors

@@ -15,6 +15,7 @@ license: BY-SA
 description: When sharing files, it's important to remove associated metadata. Image files commonly include Exif data, and sometimes photos even include GPS coordinates within its metadata.
 schema_type: AnalysisNewsArticle
 ---
+
 # Removing Metadata From Your Photos, Videos, and Other Files
 
 When sharing files, it's important to remove associated metadata. Image files commonly include [Exif](https://en.wikipedia.org/wiki/Exif) data, and sometimes photos even include GPS coordinates within its metadata.<!-- more -->
@@ -60,10 +61,10 @@ Shortcuts is quite intuitive to work with, so if you don't like the behavior dem
 4. Add the **Run Shell Script** action to the shortcut. You may need to enable **Allow Running Scripts** in Shortcut.app's settings
 
 5. Set up the shell script action:
-     - Select **zsh** from the shell list
-     - Set the input to **Shortcut Input**
-     - Select **as arguments** for the pass input
-     - Leave **Run as administrator** unchecked
+    - Select **zsh** from the shell list
+    - Set the input to **Shortcut Input**
+    - Select **as arguments** for the pass input
+    - Leave **Run as administrator** unchecked
 
 6. Use the following as the body of the script:
 
@@ -151,8 +152,8 @@ Windows allows you to place files in a **SendTo** folder which then appear in th
 
 3. Name the file `ExifTool.bat` (any name works, however it must end in `.bat`)
 
-    !!! note
-        You may need to check if [file name extensions](https://support.microsoft.com/en-us/windows/common-file-name-extensions-in-windows-da4a4430-8e76-89c5-59f7-1cdbbc75cb01) are enabled.
+   !!! note
+   You may need to check if [file name extensions](https://support.microsoft.com/en-us/windows/common-file-name-extensions-in-windows-da4a4430-8e76-89c5-59f7-1cdbbc75cb01) are enabled.
 
 4. Open **ExifTool.bat** in Notepad
 

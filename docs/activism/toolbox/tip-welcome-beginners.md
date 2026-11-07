@@ -4,6 +4,7 @@ description: For our privacy rights movement to grow, we must bring more people 
 icon: fontawesome/solid/user-plus
 cover: activism/banner-toolbox-tip-beginners.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors

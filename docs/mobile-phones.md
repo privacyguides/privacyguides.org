@@ -25,6 +25,7 @@ schema:
         name: Privacy Guides
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
+
 <!--
 SPDX-FileCopyrightText: 2021-2026 The Privacy Guides contributors
 
@@ -95,17 +96,17 @@ A few more tips for purchasing a Google Pixel:
 - Consider price beating options and specials offered at physical stores.
 - Look at online community bargain sites in your country. These can alert you to good sales.
 - Google provides a list showing the [support cycle](https://support.google.com/nexus/answer/4457705) for each one of their devices. The price per day for a device can be calculated as:
-    <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;">
-      <mfrac>
-        <mtext>Cost</mtext>
-        <mrow>
-          <mtext>End of Life Date</mtext>
-          <mo>−</mo>
-          <mtext>Current Date</mtext>
-        </mrow>
-      </mfrac>
-    </math>
-    , meaning that the longer use of the device the lower cost per day.
+  <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;">
+  <mfrac>
+  <mtext>Cost</mtext>
+  <mrow>
+  <mtext>End of Life Date</mtext>
+  <mo>−</mo>
+  <mtext>Current Date</mtext>
+  </mrow>
+  </mfrac>
+  </math>
+  , meaning that the longer use of the device the lower cost per day.
 - If the Pixel is unavailable in your region, the [NitroPhone](https://shop.nitrokey.com/shop) can be shipped globally.
 
 The installation of GrapheneOS on a Pixel phone is easy with their [web installer](https://grapheneos.org/install/web). If you don't feel comfortable doing it yourself and are willing to spend a bit of extra money, check out the [NitroPhone](https://shop.nitrokey.com/shop) as they come preloaded with GrapheneOS from the reputable [Nitrokey](https://nitrokey.com/about) company.

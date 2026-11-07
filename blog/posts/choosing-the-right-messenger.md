@@ -16,6 +16,7 @@ schema_type: AnalysisNewsArticle
 preview:
   cover: blog/assets/images/choosing-the-right-messenger/cover.webp
 ---
+
 # Choosing the Right Messenger
 
 !["Choosing The Right Messenger" cover image](../assets/images/choosing-the-right-messenger/cover.webp)

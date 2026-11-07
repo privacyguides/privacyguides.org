@@ -5,13 +5,13 @@ icon: material/chat-processing
 description: Encrypted messengers like Signal and SimpleX keep your sensitive communications secure from prying eyes.
 cover: real-time-communication.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2019-2026 Jonah Aragon and Daniel Gray
 SPDX-FileCopyrightText: 2019-2026 The Privacy Guides contributors
 
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
-
 
 <small>Protects against the following threat(s):</small>
 

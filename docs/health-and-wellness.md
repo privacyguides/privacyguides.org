@@ -5,6 +5,7 @@ icon: material/heart-pulse
 description: These applications are what we currently recommend for all health- and fitness-related activities on your phone.
 cover: health.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2025-2026 The Privacy Guides contributors
 

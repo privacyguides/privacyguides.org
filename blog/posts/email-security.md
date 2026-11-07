@@ -14,6 +14,7 @@ description: Email is ubiquitous. If you want to function in modern society, you
 preview:
   cover: blog/assets/images/email-security/cover.png
 ---
+
 ![Email icon opening with an alert message inside](../assets/images/email-security/cover.png)
 
 <small aria-hidden="true">Illustration: fria / Privacy Guides</small>

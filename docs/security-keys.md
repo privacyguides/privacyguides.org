@@ -4,6 +4,7 @@ icon: material/key-chain
 description: These security keys provide a form of phishing-immune authentication for accounts that support it.
 cover: multi-factor-authentication.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2022-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors

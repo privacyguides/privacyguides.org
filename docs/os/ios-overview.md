@@ -3,6 +3,7 @@ title: iOS Overview
 icon: simple/apple
 description: iOS is a mobile operating system developed by Apple for the iPhone.
 ---
+
 <!--
 SPDX-FileCopyrightText: 2023-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2023-2026 The Privacy Guides contributors
@@ -133,7 +134,7 @@ Apple Intelligence can integrate with [ChatGPT](https://support.apple.com/guide/
 
 You can also have it ask for confirmation every time if you leave ChatGPT integration on:
 
-- [x] Turn on **Confirm Requests** 
+- [x] Turn on **Confirm Requests**
 
 If you don't want anyone to be able to control your phone with Siri when it is locked, you can turn that off here.
 

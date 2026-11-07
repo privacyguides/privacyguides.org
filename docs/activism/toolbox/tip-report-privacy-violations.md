@@ -4,6 +4,7 @@ description: Submitting an official complaint for violation of your privacy righ
 icon: fontawesome/solid/gavel
 cover: activism/banner-toolbox-tip-report.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors

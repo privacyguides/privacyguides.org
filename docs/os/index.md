@@ -2,6 +2,7 @@
 title: Operating Systems
 description: An overview of our operating system-related recommendations for all major computing hardware.
 ---
+
 <!--
 SPDX-FileCopyrightText: 2024-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2024-2026 The Privacy Guides contributors

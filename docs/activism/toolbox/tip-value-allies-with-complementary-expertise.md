@@ -4,6 +4,7 @@ description: In privacy like everywhere else, diversity is a strength. If you wa
 icon: fontawesome/solid/circle-half-stroke
 cover: activism/banner-toolbox-tip-complement.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors

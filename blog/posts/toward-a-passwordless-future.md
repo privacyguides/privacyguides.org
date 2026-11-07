@@ -12,6 +12,7 @@ license: BY-SA
 preview:
   cover: blog/assets/images/toward-a-passwordless-future/cover.webp
 ---
+
 # Toward a Passwordless Future
 
 ![Article cover showing a rusted, broken lock on a door latch](../assets/images/toward-a-passwordless-future/cover.webp)
