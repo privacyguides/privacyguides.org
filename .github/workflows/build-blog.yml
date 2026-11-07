@@ -18,14 +18,14 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     continue-on-error: ${{ inputs.continue-on-error }}
     permissions:
       contents: read
 
     steps:
       - name: Download Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           repository: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name || github.repository }}
           ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.sha }}
@@ -48,7 +48,7 @@ jobs:
           tar -czf site-build-blog.tar.gz site
 
       - name: Upload Site
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: site-build-blog.tar.gz
           path: site-build-blog.tar.gz

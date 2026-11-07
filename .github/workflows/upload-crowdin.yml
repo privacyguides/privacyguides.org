@@ -17,14 +17,14 @@ concurrency:
 
 jobs:
   synchronize-with-crowdin:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: crowdin action
-        uses: crowdin/github-action@v2.2.0
+        uses: crowdin/github-action@d651c77756acbe11a31d77a6fb79d8a239e1e05a # v3.6.0
         with:
           upload_sources: true
           upload_sources_args: "--auto-update --delete-obsolete"
