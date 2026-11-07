@@ -119,8 +119,8 @@ Joplin [does not support](https://github.com/laurent22/joplin/issues/289) passwo
 
 <div class="admonition recommendation" markdown>
 
-![Cryptee logo](./assets/img/notebooks/cryptee.svg#only-light){ align=right }
-![Cryptee logo](./assets/img/notebooks/cryptee-dark.svg#only-dark){ align=right }
+![Cryptee logo](assets/img/notebooks/cryptee.svg#only-light){ align=right }
+![Cryptee logo](assets/img/notebooks/cryptee-dark.svg#only-dark){ align=right }
 
 **Cryptee** is an open-source, web-based E2EE document editor and photo storage application.
 

@@ -284,7 +284,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ .twemoji loading=lazy }![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ .twemoji loading=lazy } [RethinkDNS](dns.md#rethinkdns)
+- ![RethinkDNS logo](assets/images-en/android/rethinkdns.svg#only-light){ .twemoji loading=lazy }![RethinkDNS logo](assets/images-en/android/rethinkdns-dark.svg#only-dark){ .twemoji loading=lazy } [RethinkDNS](dns.md#rethinkdns)
 - ![DNSCrypt-Proxy logo](assets/img/dns/dnscrypt-proxy.svg){ .twemoji loading=lazy } [DNSCrypt-Proxy](dns.md#dnscrypt-proxy)
 
 </div>
@@ -502,8 +502,8 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 <div class="grid cards" markdown>
 
-- ![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.svg){ .twemoji loading=lazy } [Ente Auth](multi-factor-authentication.md#ente-auth)
-- ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ .twemoji loading=lazy } [Aegis Authenticator (Android)](multi-factor-authentication.md#aegis-authenticator-android)
+- ![Ente Auth logo](assets/images-en/multi-factor-authentication/ente-auth.svg){ .twemoji loading=lazy } [Ente Auth](multi-factor-authentication.md#ente-auth)
+- ![Aegis logo](assets/images-en/multi-factor-authentication/aegis.png){ .twemoji loading=lazy } [Aegis Authenticator (Android)](multi-factor-authentication.md#aegis-authenticator-android)
 
 </div>
 
@@ -618,7 +618,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 <div class="grid cards" markdown>
 
-- ![Google Pixel 6](assets/img/android/google-pixel.png){ .twemoji loading=lazy } [Google Pixel](mobile-phones.md#google-pixel)
+- ![Google Pixel 6](assets/images-en/android/google-pixel.png){ .twemoji loading=lazy } [Google Pixel](mobile-phones.md#google-pixel)
 
 </div>
 
@@ -632,7 +632,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 <div class="grid cards" markdown>
 
-- ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji loading=lazy }![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji loading=lazy } [GrapheneOS](android/distributions.md#grapheneos)
+- ![GrapheneOS logo](assets/images-en/android/grapheneos.svg#only-light){ .twemoji loading=lazy }![GrapheneOS logo](assets/images-en/android/grapheneos-dark.svg#only-dark){ .twemoji loading=lazy } [GrapheneOS](android/distributions.md#grapheneos)
 
 </div>
 
@@ -642,9 +642,9 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 <div class="grid cards" markdown>
 
-- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji loading=lazy } [Shelter (Work Profiles)](android/general-apps.md#shelter)
-- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji loading=lazy }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji loading=lazy } [Secure Camera](android/general-apps.md#secure-camera)
-- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji loading=lazy }![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji loading=lazy } [Secure PDF Viewer](android/general-apps.md#secure-pdf-viewer)
+- ![Shelter logo](assets/images-en/android/mini/shelter.svg){ .twemoji loading=lazy } [Shelter (Work Profiles)](android/general-apps.md#shelter)
+- ![Secure Camera logo](assets/images-en/android/secure_camera.svg#only-light){ .twemoji loading=lazy }![Secure Camera logo](assets/images-en/android/secure_camera-dark.svg#only-dark){ .twemoji loading=lazy } [Secure Camera](android/general-apps.md#secure-camera)
+- ![Secure PDF Viewer logo](assets/images-en/android/secure_pdf_viewer.svg#only-light){ .twemoji loading=lazy }![Secure PDF Viewer logo](assets/images-en/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji loading=lazy } [Secure PDF Viewer](android/general-apps.md#secure-pdf-viewer)
 
 </div>
 
@@ -654,8 +654,8 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 <div class="grid cards" markdown>
 
-- ![Obtainium logo](assets/img/android/obtainium.svg){ .twemoji loading=lazy } [Obtainium (App Manager)](android/obtaining-apps.md#obtainium)
-- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji loading=lazy } [Aurora Store (Google Play Client)](android/obtaining-apps.md#aurora-store)
+- ![Obtainium logo](assets/images-en/android/obtainium.svg){ .twemoji loading=lazy } [Obtainium (App Manager)](android/obtaining-apps.md#obtainium)
+- ![Aurora Store logo](assets/images-en/android/aurora-store.webp){ .twemoji loading=lazy } [Aurora Store (Google Play Client)](android/obtaining-apps.md#aurora-store)
 
 </div>
 
@@ -665,7 +665,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 <div class="grid cards" markdown>
 
-- ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ .twemoji loading=lazy } [Qubes OS (Xen VM Distribution)](desktop.md#qubes-os)
+- ![Qubes OS logo](assets/images-en/qubes/qubes_os.svg){ .twemoji loading=lazy } [Qubes OS (Xen VM Distribution)](desktop.md#qubes-os)
 - ![Fedora logo](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Linux](desktop.md#fedora-linux)
 - ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji loading=lazy } [openSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
 - ![Arch logo](assets/img/linux-desktop/archlinux.svg){ .twemoji loading=lazy } [Arch Linux](desktop.md#arch-linux)
