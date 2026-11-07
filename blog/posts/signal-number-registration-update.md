@@ -16,6 +16,7 @@ license: BY-SA
 description: Signal has changed how it handles registration. This primarily affects people who are using a number for Signal that they don't have exclusive access to.
 schema_type: ReportageNewsArticle
 ---
+
 # Important Changes to Signal Registration and Registration Lock
 
 **EDIT: This change has been temporarily rolled back after discussions that took place in the [Signal community](https://community.signalusers.org/t/phone-numbers-can-be-hogged-or-hijacked-permanently-using-registration-lock/6907/62). It will likely be the way things work in the future, but it seems that the old behavior is now back in place for the time being.**

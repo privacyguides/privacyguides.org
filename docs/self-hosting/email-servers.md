@@ -5,6 +5,7 @@ icon: material/email
 description: For our more technical readers, self-hosting your own email can provide additional privacy assurances by having maximum control over your data.
 cover: email.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2019-2026 Jonah Aragon and Daniel Gray
 SPDX-FileCopyrightText: 2020-2026 The Privacy Guides contributors

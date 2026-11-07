@@ -36,6 +36,7 @@ schema:
         urlTemplate: "https://www.privacyguides.org/?q={search_term_string}"
       query-input: required name=search_term_string
 ---
+
 <!--
 SPDX-FileCopyrightText: 2020-2026 Jonah Aragon and Daniel Gray
 SPDX-FileCopyrightText: 2020-2026 The Privacy Guides contributors

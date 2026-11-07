@@ -4,6 +4,7 @@ icon: material/account-supervisor-circle-outline
 description: Find a new social network that doesn’t pry into your data or monetize your profile.
 cover: social-networks.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2019-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2015-2026 The Privacy Guides contributors
@@ -42,9 +43,9 @@ If you are greatly concerned about an existing server censoring your content, th
 
 2. **Use a managed hosting service.** We don't have any specific recommendations, but there are a variety of hosting services which will create a brand-new server on your own domain (or occasionally a subdomain of their domain, but we recommend against this unless registering your own domain presents too much of a burden to your privacy).
 
-    Typically, hosting providers will handle the *technical* side of your server, but completely leave the *moderation* side up to you. This often represents a better approach than self-hosting for most people because you can benefit from greater control over your own server without worrying about technical problems or unpatched security vulnerabilities.
+   Typically, hosting providers will handle the *technical* side of your server, but completely leave the *moderation* side up to you. This often represents a better approach than self-hosting for most people because you can benefit from greater control over your own server without worrying about technical problems or unpatched security vulnerabilities.
 
-    You should look closely at your hosting provider's terms of service and acceptable use policies before registering. These are often far more broad than typical hosted server rules, and they are far less likely to be enforced without recourse, but they can still be restrictive in undesirable ways.
+   You should look closely at your hosting provider's terms of service and acceptable use policies before registering. These are often far more broad than typical hosted server rules, and they are far less likely to be enforced without recourse, but they can still be restrictive in undesirable ways.
 
 ## Mastodon
 
@@ -83,7 +84,7 @@ There are a number of privacy controls under the **privacy and reach** tab here.
 
 - [ ] **Automatically accept new followers**: You should consider unchecking this box to have a private profile. This will allow you to review who can follow your account before accepting them.
 
-    In contrast to most social media platforms, if you have a private profile you still have the *option* to publish posts which are publicly visible to non-followers and can still be boosted by non-followers. Therefore, unchecking this box is the only way to have the *choice* to publish to either the entire world or a select group of people.
+  In contrast to most social media platforms, if you have a private profile you still have the *option* to publish posts which are publicly visible to non-followers and can still be boosted by non-followers. Therefore, unchecking this box is the only way to have the *choice* to publish to either the entire world or a select group of people.
 
 - [ ] **Show follows and followers on profile**: You should uncheck this box to hide your social graph from the public. It is fairly uncommon for the list of people you follow to have some genuine benefit to others, but that information can present a risk to you.
 

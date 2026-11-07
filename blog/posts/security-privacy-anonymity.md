@@ -16,6 +16,7 @@ schema_type: OpinionNewsArticle
 preview:
   cover: blog/assets/images/security-privacy-anonymity/cover.jpeg
 ---
+
 # Security, Privacy, and Anonymity
 
 ![](../assets/images-blog/security-privacy-anonymity/cover.jpeg)

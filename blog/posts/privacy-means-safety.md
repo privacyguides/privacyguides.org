@@ -10,6 +10,7 @@ schema_type: NewsArticle
 preview:
   cover: blog/assets/images/privacy-means-safety/privacy-means-safety-cover.webp
 ---
+
 # Privacy Means Safety
 
 ![Photo of a padlock with "SOS" written on it and a drawn heart instead of an "O" letter. It is locked on a metal fence.](../assets/images-blog/privacy-means-safety/privacy-means-safety-cover.webp)
@@ -222,4 +223,4 @@ If you or someone you know is in one of the situations described above, these ad
 
 ---
 
-**Correction (Mar. 27):** This article was updated to correct a typo in a date. The previous version wrongly described the arrest of a French climate activist happening in 2012, when these events actually happened in 2021. 
+**Correction (Mar. 27):** This article was updated to correct a typo in a date. The previous version wrongly described the arrest of a French climate activist happening in 2012, when these events actually happened in 2021.

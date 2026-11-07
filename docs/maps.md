@@ -5,6 +5,7 @@ icon: material/map
 description: Privacy-respecting map providers and navigation apps which don't build an advertising profile based on your searches and locations.
 cover: maps.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2025-2026 The Privacy Guides contributors
 

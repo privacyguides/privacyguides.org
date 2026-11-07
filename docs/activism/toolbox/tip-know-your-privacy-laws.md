@@ -4,6 +4,7 @@ description: Being well-informed about the data protection regulations in your o
 icon: fontawesome/solid/balance-scale
 cover: activism/banner-toolbox-tip-laws.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors

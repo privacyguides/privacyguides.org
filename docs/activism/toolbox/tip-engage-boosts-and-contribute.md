@@ -4,6 +4,7 @@ description: Once you have the knowledge, motivation, and energy to fight for pr
 icon: fontawesome/solid/bullhorn
 cover: activism/banner-toolbox-tip-engage.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors

@@ -3,6 +3,7 @@ title: Multifactor Authentication
 icon: material/two-factor-authentication
 description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
 ---
+
 <!--
 SPDX-FileCopyrightText: 2022-2026 Jonah Aragon and Daniel Gray
 SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors

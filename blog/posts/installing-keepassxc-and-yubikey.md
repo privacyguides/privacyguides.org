@@ -10,6 +10,7 @@ schema_type: AnalysisNewsArticle
 preview:
   cover: blog/assets/images/installing-keepassxc-and-yubikey/keepassxc-cover.webp
 ---
+
 # KeePassXC + YubiKey: How to set up a local-only password manager
 
 ![Illustration showing a laptop computer with the KeePassXC logo on it. On the right is a green plus sign and a photo of a YubiKey.](../assets/images-blog/installing-keepassxc-and-yubikey/keepassxc-cover.webp)

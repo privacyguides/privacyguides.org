@@ -4,6 +4,7 @@ hide:
   - toc
 description: A complete list of contributors who have collectively made an enormous impact on the Privacy Guides project.
 ---
+
 <!--
 SPDX-FileCopyrightText: 2024-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2024-2026 The Privacy Guides contributors

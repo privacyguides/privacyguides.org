@@ -13,6 +13,7 @@ schema_type: SatiricalArticle
 preview:
   logo: blog/assets/images/the-dangers-of-end-to-end-encryption/fire.svg
 ---
+
 # The Dangers of End-to-End Encryption
 
 ![An image showing a burning car](../assets/images-blog/the-dangers-of-end-to-end-encryption/cover.webp)

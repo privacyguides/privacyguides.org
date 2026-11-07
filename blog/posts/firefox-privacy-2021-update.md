@@ -15,6 +15,7 @@ schema_type: AnalysisNewsArticle
 preview:
   cover: blog/assets/images/firefox-privacy/cover.webp
 ---
+
 # Firefox Privacy: 2021 Update
 
 ![Firefox Privacy cover](../assets/images-blog/firefox-privacy/cover.webp)

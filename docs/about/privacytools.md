@@ -2,6 +2,7 @@
 title: "PrivacyTools FAQ"
 description: The real story behind the team transition from privacytools.io to privacyguides.org
 ---
+
 <!--
 SPDX-FileCopyrightText: 2022-2026 Jonah Aragon and Daniel Gray
 SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors

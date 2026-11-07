@@ -14,6 +14,7 @@ license: BY-SA
 description: Erasing data from your computer may seem like a simple task, but if you want to make sure the data is truly unrecoverable, there are some things you should consider.
 schema_type: AnalysisNewsArticle
 ---
+
 # Erasing Data Securely From Your SSD or HDD
 
 **Erasing data** from your computer may seem like a simple task, but if you want to make sure the data is truly unrecoverable, there are some things you should consider.<!-- more -->

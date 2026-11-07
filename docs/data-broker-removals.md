@@ -4,6 +4,7 @@ icon: material/database-off
 description: Our recommended methods for removing your personal information from data brokers and people search sites.
 cover: data-broker-removals.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2024-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2024-2026 The Privacy Guides contributors

@@ -4,6 +4,7 @@ description: Privacy isn't just about the tools, or just about the laws, or just
 icon: fontawesome/solid/globe
 cover: activism/banner-toolbox-tip-landscape.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors

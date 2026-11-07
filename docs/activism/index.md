@@ -7,6 +7,7 @@ hide:
   - footer
 cover: activism/banner-activism.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors

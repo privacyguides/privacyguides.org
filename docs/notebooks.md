@@ -4,6 +4,7 @@ icon: material/notebook-edit-outline
 description: These encrypted note-taking apps let you keep track of your notes without giving them to a third party.
 cover: notebooks.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2019-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2016-2026 The Privacy Guides contributors

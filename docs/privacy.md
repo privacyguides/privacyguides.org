@@ -2,6 +2,7 @@
 title: "Privacy Policy"
 description: We do not sell or share your data with any third-parties.
 ---
+
 <!--
 SPDX-FileCopyrightText: 2022-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors

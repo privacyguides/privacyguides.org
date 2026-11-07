@@ -15,6 +15,7 @@ schema_type: ReportageNewsArticle
 preview:
   cover: blog/assets/images/tor-security-slider-flaw/cover.png
 ---
+
 # A Flaw With the Security Level Slider in Tor Browser
 
 ![Illustration showing Tor's security level options with question marks next to the selected Safer level](../assets/images-blog/tor-security-slider-flaw/cover.png)

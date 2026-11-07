@@ -4,6 +4,7 @@ icon: material/account-group
 description: Most online office suites do not support end-to-end encryption, meaning the cloud provider has access to everything you do.
 cover: document-collaboration.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2016-2026 The Privacy Guides contributors
 

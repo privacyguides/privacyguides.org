@@ -2,6 +2,7 @@
 title: Group Policy Settings
 description: A quick guide to configuring Group Policy to make Windows a bit more privacy respecting.
 ---
+
 <!--
 SPDX-FileCopyrightText: 2024-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2024-2026 The Privacy Guides contributors

@@ -5,6 +5,7 @@ title: Cryptocurrency
 icon: material/bank-circle
 cover: cryptocurrency.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2022-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors

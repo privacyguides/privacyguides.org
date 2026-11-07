@@ -14,6 +14,7 @@ description: |
 preview:
   cover: blog/assets/images/privacy-pass/cover.webp
 ---
+
 # Privacy Pass: The New Protocol for Private Authentication
 
 ![Cover photo of the Privacy Pass logo over a yellow background](../assets/images-blog/privacy-pass/cover.webp)

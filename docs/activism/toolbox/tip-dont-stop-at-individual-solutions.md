@@ -4,6 +4,7 @@ description: When we think about privacy, we often focus on technical individual
 icon: fontawesome/solid/users-rays
 cover: activism/banner-toolbox-tip-expand.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors

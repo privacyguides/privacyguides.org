@@ -2,6 +2,7 @@
 title: Donate
 description: The charitable mission of Privacy Guides relies on contributions from visitors like yourself. Anything you can do to support the project is hugely appreciated.
 ---
+
 <!--
 SPDX-FileCopyrightText: 2022-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors

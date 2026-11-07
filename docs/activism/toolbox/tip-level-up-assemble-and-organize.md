@@ -4,6 +4,7 @@ description: If you've been a privacy advocate for a while, maybe it's time to l
 icon: fontawesome/solid/fist-raised
 cover: activism/banner-toolbox-tip-organize.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors

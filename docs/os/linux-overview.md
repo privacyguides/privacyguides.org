@@ -3,13 +3,13 @@ title: Linux Overview
 icon: simple/linux
 description: Linux is an open-source, privacy-focused desktop operating system, but not all distributions are created equal.
 ---
+
 <!--
 SPDX-FileCopyrightText: 2021-2026 Jonah Aragon and Daniel Gray
 SPDX-FileCopyrightText: 2021-2026 The Privacy Guides contributors
 
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
-
 
 **Linux** is an open-source, privacy-focused desktop operating system. In the face of pervasive telemetry and other privacy-encroaching technologies in mainstream operating systems, desktop Linux has remained the clear choice for people looking for total control over their computers from the ground up.
 

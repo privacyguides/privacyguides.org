@@ -4,6 +4,7 @@ description: The battle for privacy rights is difficult, and its defenders are s
 icon: fontawesome/solid/hand-holding-hand
 cover: activism/banner-toolbox-tip-lift.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors

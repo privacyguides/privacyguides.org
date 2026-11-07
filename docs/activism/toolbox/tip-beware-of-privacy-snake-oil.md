@@ -4,6 +4,7 @@ description: In your privacy advocacy, it's important to recommend tools that re
 icon: fontawesome/solid/skull-crossbones
 cover: activism/banner-toolbox-tip-snakeoil.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors

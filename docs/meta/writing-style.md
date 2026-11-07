@@ -2,13 +2,13 @@
 title: Writing Style
 description: Our official writing style handbook for website contributors.
 ---
+
 <!--
 SPDX-FileCopyrightText: 2022-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors
 
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
-
 
 Privacy Guides is written in American English, and you should refer to [APA Style guidelines](https://apastyle.apa.org/style-grammar-guidelines/grammar) when in doubt.
 

@@ -13,6 +13,7 @@ preview:
   site_logo: privacy-guides-logo-notext-colorbg-white.svg
   icon: simple/europeanunion
 ---
+
 # Privacy-Respecting European Tech Alternatives
 
 ![European Union flag and Privacy Guides logo side by side](../assets/images-blog/private-european-alternatives/eu-alternatives.webp)

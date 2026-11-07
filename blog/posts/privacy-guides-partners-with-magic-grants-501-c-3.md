@@ -10,6 +10,7 @@ schema_type: BackgroundNewsArticle
 preview:
   cover: blog/assets/images/privacy-guides-partners-with-magic-grants-501-c-3/magicblog.webp
 ---
+
 # Privacy Guides Partners With MAGIC Grants 501(c)(3)
 
 ![](../assets/images-blog/privacy-guides-partners-with-magic-grants-501-c-3/magicblog.webp)

@@ -2,13 +2,13 @@
 title: General Criteria
 description: A list of general priorities we consider for all submissions to Privacy Guides.
 ---
+
 <!--
 SPDX-FileCopyrightText: 2022-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors
 
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
-
 
 Below are some general priorities we consider for all submissions to Privacy Guides. Each category will have additional requirements for inclusion.
 

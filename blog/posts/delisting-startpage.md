@@ -15,6 +15,7 @@ schema_type: NewsArticle
 preview:
   cover: blog/assets/images/delisting-startpage/cover.webp
 ---
+
 # Delisting Startpage From Privacy Guides
 
 !["Delisting Startpage" cover image](../assets/images-blog/delisting-startpage/cover.webp)

@@ -4,6 +4,7 @@ description: As privacy activists, it's important to lead by example and support
 icon: fontawesome/solid/arrow-right-from-bracket
 cover: activism/banner-toolbox-tip-migrate.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors

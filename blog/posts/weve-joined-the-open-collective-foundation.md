@@ -12,6 +12,7 @@ tags:
 license: CC0
 schema_type: NewsArticle
 ---
+
 # We've Joined the Open Collective Foundation 501(c)(3)
 
 ![Privacy Guides cover image](../assets/brand/images/png/cover.png)

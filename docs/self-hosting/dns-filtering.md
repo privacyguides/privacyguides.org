@@ -5,6 +5,7 @@ icon: material/dns
 description: For our more technical readers, self-hosting a DNS solution can provide filtering for devices not covered by cloud-based DNS solutions.
 cover: dns.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2022-2026 Jonah Aragon and Daniel Gray
 SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors

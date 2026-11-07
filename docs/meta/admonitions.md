@@ -2,13 +2,13 @@
 title: Admonitions
 description: A guide for website contributors on creating admonitions.
 ---
+
 <!--
 SPDX-FileCopyrightText: 2023-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2023-2026 The Privacy Guides contributors
 
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
-
 
 **Admonitions** (or "call-outs") are tools that writers can use to include side content in an article without interrupting the document flow.
 

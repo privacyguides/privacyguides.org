@@ -25,6 +25,7 @@ schema:
         name: Privacy Guides
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
+
 <!--
 SPDX-FileCopyrightText: 2021-2026 The Privacy Guides contributors
 

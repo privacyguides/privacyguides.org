@@ -4,6 +4,7 @@ icon: material/two-factor-authentication
 description: These tools assist you with securing your internet accounts with multifactor authentication without sending your secrets to a third party.
 cover: multi-factor-authentication.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2022-2026 Jonah Aragon and Daniel Gray
 SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors

@@ -14,6 +14,7 @@ schema_type: AnalysisNewsArticle
 preview:
   cover: blog/assets/images/monero-server-using-truenas/cover.webp
 ---
+
 # Creating a Tricked-Out Monero Server with TrueNAS
 
 ![A cover image for this post showing an illustration of a NAS and stacks of coins imprinted with the Monero logo](../assets/images-blog/monero-server-using-truenas/cover.webp)

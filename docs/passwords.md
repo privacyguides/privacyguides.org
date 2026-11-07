@@ -119,6 +119,7 @@ schema:
       "@type": WebPage
       url: "./"
 ---
+
 <!--
 SPDX-FileCopyrightText: 2019-2026 Jonah Aragon and Daniel Gray
 SPDX-FileCopyrightText: 2019-2026 The Privacy Guides contributors

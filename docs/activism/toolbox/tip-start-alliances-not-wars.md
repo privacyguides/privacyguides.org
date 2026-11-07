@@ -4,6 +4,7 @@ description: People in the privacy community can have different views that can c
 icon: fontawesome/solid/handshake-angle
 cover: activism/banner-toolbox-tip-alliances.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors

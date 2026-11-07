@@ -4,6 +4,7 @@ description: Through your privacy work, it's crucial to protect the data of your
 icon: fontawesome/solid/shield-heart
 cover: activism/banner-toolbox-tip-protect.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors

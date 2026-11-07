@@ -3,13 +3,13 @@ title: "DNS Overview"
 icon: material/dns
 description: The Domain Name System is the "phonebook of the internet," helping your browser find the website it's looking for.
 ---
+
 <!--
 SPDX-FileCopyrightText: 2022-2026 Jonah Aragon and Daniel Gray
 SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors
 
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
-
 
 The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phone book of the Internet'. DNS translates domain names to IP addresses so browsers and other services can load Internet resources, through a decentralized network of servers.
 
@@ -33,13 +33,13 @@ Below, we discuss and provide a tutorial to prove what an outside observer may s
 
 2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, macOS, etc.) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Software such as web browsers do these lookups automatically, unless they are configured to use encrypted DNS.
 
-    === "Linux, macOS"
+   === "Linux, macOS"
 
         ```
         dig +noall +answer privacyguides.org @1.1.1.1
         dig +noall +answer privacyguides.org @8.8.8.8
         ```
-    === "Windows"
+   === "Windows"
 
         ```
         nslookup privacyguides.org 1.1.1.1
@@ -48,13 +48,13 @@ Below, we discuss and provide a tutorial to prove what an outside observer may s
 
 3. Next, we want to [analyze](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
 
-    === "Wireshark"
+   === "Wireshark"
 
         ```
         wireshark -r /tmp/dns.pcap
         ```
 
-    === "tshark"
+   === "tshark"
 
         ```
         tshark -r /tmp/dns.pcap
@@ -165,7 +165,7 @@ Server Name Indication is typically used when an IP address hosts many websites.
     wireshark -r /tmp/pg.pcap
     ```
 
-    We will see the connection establishment, followed by the TLS handshake for the Privacy Guides website. Around frame 5. you'll see a "Client Hello".
+   We will see the connection establishment, followed by the TLS handshake for the Privacy Guides website. Around frame 5. you'll see a "Client Hello".
 
 5. Expand the triangle &#9656; next to each field:
 
@@ -222,8 +222,8 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
     openssl x509 -noout -ocsp_uri -in /tmp/pg_server.cert
     ```
 
-    Our certificate shows the Lets Encrypt certificate responder.
-    If we want to see all the details of the certificate we can use:
+   Our certificate shows the Lets Encrypt certificate responder.
+   If we want to see all the details of the certificate we can use:
 
     ```bash
     openssl x509 -text -noout -in /tmp/pg_server.cert
@@ -250,7 +250,7 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
     wireshark -r /tmp/pg_ocsp.pcap
     ```
 
-    There will be two packets with the "OCSP" protocol: a "Request" and a "Response". For the "Request" we can see the "serial number" by expanding the triangle &#9656; next to each field:
+   There will be two packets with the "OCSP" protocol: a "Request" and a "Response". For the "Request" we can see the "serial number" by expanding the triangle &#9656; next to each field:
 
     ```bash
     ▸ Online Certificate Status Protocol
@@ -261,7 +261,7 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
               serialNumber
     ```
 
-    For the "Response" we can also see the "serial number":
+   For the "Response" we can also see the "serial number":
 
     ```bash
     ▸ Online Certificate Status Protocol

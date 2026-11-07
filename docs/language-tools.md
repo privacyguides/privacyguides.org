@@ -4,6 +4,7 @@ icon: material/alphabetical-variant
 description: These language tools do not send your input text to a server and can be used offline and self-hosted.
 cover: language-tools.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2024-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2024-2026 The Privacy Guides contributors

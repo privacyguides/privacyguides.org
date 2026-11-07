@@ -4,6 +4,7 @@ description: Fighting for privacy rights is a collective endeavor. This battle c
 icon: fontawesome/solid/hand-holding-heart
 cover: activism/banner-toolbox-tip-support.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors

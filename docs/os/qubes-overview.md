@@ -3,6 +3,7 @@ title: "Qubes Overview"
 icon: simple/qubesos
 description: Qubes is an operating system built around isolating apps within *qubes* (formerly "VMs") for heightened security.
 ---
+
 <!--
 SPDX-FileCopyrightText: 2022-2026 Jonah Aragon and Daniel Gray
 SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors

@@ -16,6 +16,7 @@ schema_type: BackgroundNewsArticle
 preview:
   cover: blog/assets/images/clearing-your-browsing-data/dimmis-vart-JPu345g_OYM-unsplash.webp
 ---
+
 # How to Clear Your Browser History on Chrome, Firefox, and Other Browsers
 
 ![Article cover photo showing baked cookies](../assets/images-blog/clearing-your-browsing-data/dimmis-vart-JPu345g_OYM-unsplash.webp)

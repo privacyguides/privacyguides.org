@@ -10,6 +10,7 @@ schema_type: OpinionNewsArticle
 preview:
   cover: blog/assets/images/encryption-is-not-a-crime/encryption-is-not-a-crime-cover.webp
 ---
+
 # Encryption Is Not a Crime
 
 ![Photo of a red key on an all black background.](../assets/images-blog/encryption-is-not-a-crime/encryption-is-not-a-crime-cover.webp)

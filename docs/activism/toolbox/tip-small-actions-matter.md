@@ -4,6 +4,7 @@ description: There is so much to do to improve privacy rights. So much, that it'
 icon: fontawesome/solid/puzzle-piece
 cover: activism/banner-toolbox-tip-small.webp
 ---
+
 <!--
 SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2026-2026 The Privacy Guides contributors
