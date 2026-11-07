@@ -5,7 +5,7 @@
 
 {% if page and page.meta and page.meta.cover %}
   <div class="cover center-cropped">
-      <img itemprop="image" src="{{ 'assets/img/cover/' | url }}{{ page.meta.cover }}" alt="">
+      <img itemprop="image" src="{{ 'assets/images/cover/' | url }}{{ page.meta.cover }}" alt="">
   </div>
   <h1>{{ page.title | d(config.site_name, true)}}</h1>
 {% endif %}

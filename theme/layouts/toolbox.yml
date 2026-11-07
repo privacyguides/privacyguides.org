@@ -4,7 +4,7 @@
 definitions:
   - &background_image >-
     {%- if page.meta.cover -%}
-      theme/assets/img/cover/{{ page.meta.cover }}
+      docs/assets/images/cover/{{ page.meta.cover }}
     {%- else -%}
       {{ layout.background_image or "" }}
     {%- endif -%}
