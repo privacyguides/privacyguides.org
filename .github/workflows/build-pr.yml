@@ -60,7 +60,7 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
           pattern: site-build-*
           merge-multiple: true
@@ -70,7 +70,7 @@ jobs:
           ls -la site/
 
       - name: Upload Site
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: site-build-combined
           path: site
@@ -83,7 +83,7 @@ jobs:
           echo ${{ github.event.pull_request.head.sha }} > ./metadata/SHA
 
       - name: Upload metadata as artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: metadata
           path: metadata

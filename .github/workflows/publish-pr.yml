@@ -24,7 +24,7 @@ jobs:
 
     steps:
       - name: Checkout deployment action
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           # ref needs to be set so that the action is not run from untrusted PR code
           ref: ${{ github.sha }}
@@ -32,7 +32,7 @@ jobs:
           sparse-checkout: .github/actions/deploy-garage
 
       - name: Download Website Build Artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
           name: site-build-combined
           path: site
@@ -40,7 +40,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Download Metadata Artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
           name: metadata
           path: metadata
@@ -69,9 +69,9 @@ jobs:
           target_dir: "/${{ env.SHORT_ALIAS }}/"
 
       - name: Comment with preview link
-        uses: thollander/actions-comment-pull-request@v2.5.0
+        uses: thollander/actions-comment-pull-request@24bffb9b452ba05a4f3f77933840a6a841d1b32b # v3.0.1
         with:
-          pr_number: ${{ steps.metadata.outputs.pr_number }}
+          pr-number: ${{ steps.metadata.outputs.pr_number }}
           message: |
             ### <span aria-hidden="true">✅</span> Your preview is ready!
 
@@ -79,4 +79,4 @@ jobs:
             | :---: | ---- |
             | <span aria-hidden="true">🔨</span> Latest commit | ${{ steps.metadata.outputs.sha }} |
             | <span aria-hidden="true">😎</span> Preview | https://pr${{ env.SHORT_ALIAS }}.unreviewed.privacyguides.dev/en/ |
-          comment_tag: deployment
+          comment-tag: deployment

@@ -26,7 +26,7 @@ runs:
   using: composite
   steps:
     # The main reason this action exists is just to keep the version number in one place instead of in each workflow :)
-    - uses: hkdobrev/minio-deploy-action@c758675f5667336646cbaddbf07ea5edfc7b4854
+    - uses: hkdobrev/minio-deploy-action@c758675f5667336646cbaddbf07ea5edfc7b4854 # 1.1.1
       with:
         endpoint: ${{ inputs.endpoint }}
         bucket: ${{ inputs.bucket }}

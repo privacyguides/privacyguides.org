@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Mirror to GitLab
-        uses: wearerequired/git-mirror-action@v1
+        uses: wearerequired/git-mirror-action@6bbc55f2f0082bca533b72dc711f7d37154d40cc # v1.3.1
         env:
           SSH_PRIVATE_KEY: ${{ secrets.ACTIONS_SSH_KEY }}
         with:
@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Mirror to Codeberg
-        uses: wearerequired/git-mirror-action@v1
+        uses: wearerequired/git-mirror-action@6bbc55f2f0082bca533b72dc711f7d37154d40cc # v1.3.1
         env:
           SSH_PRIVATE_KEY: ${{ secrets.ACTIONS_SSH_KEY }}
         with:

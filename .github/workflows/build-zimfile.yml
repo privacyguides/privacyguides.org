@@ -69,7 +69,7 @@ jobs:
         run: printf '%s\n' "$EDITION_NAVIGATION" >> "$GITHUB_ENV"
 
       - name: Download Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           repository: ${{ inputs.repo }}
           ref: ${{ inputs.ref }}
@@ -128,7 +128,7 @@ jobs:
           echo "ZIMFILE_NAME=privacyguides.org_en_${{ matrix.edition }}_$(date +%Y)-$(date +%m).zim" >> "$GITHUB_ENV"
 
       - name: Create ZIM File
-        uses: kohlerdominik/docker-run-action@44bd2138ca4f85c36b2fdc3966ef03518879f7f3
+        uses: kohlerdominik/docker-run-action@1c78cb433a3a55b1940eb8c48a3e73eb752e5082 # v2.2.0
         with:
           image: ghcr.io/openzim/zim-tools:3.6.0
           volumes: ${{ github.workspace }}:/data
@@ -146,14 +146,14 @@ jobs:
               /data/site/ /data/${{ env.ZIMFILE_NAME }}
 
       - name: Upload ZIM File
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           path: ${{ env.ZIMFILE_NAME }}
           name: ${{ env.ZIMFILE_NAME }}
           compression-level: 0
 
       - name: Run zimcheck
-        uses: kohlerdominik/docker-run-action@44bd2138ca4f85c36b2fdc3966ef03518879f7f3
+        uses: kohlerdominik/docker-run-action@1c78cb433a3a55b1940eb8c48a3e73eb752e5082 # v2.2.0
         continue-on-error: true
         with:
           image: ghcr.io/openzim/zim-tools:3.6.0
@@ -180,7 +180,7 @@ jobs:
 
     steps:
       - name: Download Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           repository: ${{ inputs.repo }}
           ref: ${{ inputs.ref }}
@@ -190,7 +190,7 @@ jobs:
 
       - name: Download Translations
         if: matrix.lang != 'en'
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           repository: privacyguides/i18n
           ref: main
@@ -248,7 +248,7 @@ jobs:
           tar -czf site-zimready-${{ matrix.lang }}.tar.gz site
 
       - name: Upload Site
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: site-zimready-${{ matrix.lang }}.tar.gz
           path: site-zimready-${{ matrix.lang }}.tar.gz
@@ -263,7 +263,7 @@ jobs:
 
     steps:
       - name: Download Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           repository: ${{ inputs.repo }}
           ref: ${{ inputs.ref }}
@@ -271,7 +271,7 @@ jobs:
           fetch-depth: 0
 
       - name: Download All Sites
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
           pattern: site-zimready-*
           merge-multiple: true
@@ -296,7 +296,7 @@ jobs:
           ls -la site/
 
       - name: Create ZIM File
-        uses: kohlerdominik/docker-run-action@44bd2138ca4f85c36b2fdc3966ef03518879f7f3
+        uses: kohlerdominik/docker-run-action@1c78cb433a3a55b1940eb8c48a3e73eb752e5082 # v2.2.0
         with:
           image: ghcr.io/openzim/zim-tools:3.6.0
           volumes: ${{ github.workspace }}:/data
@@ -314,14 +314,14 @@ jobs:
               /data/site/ /data/${{ env.ZIMFILE_NAME }}
 
       - name: Upload ZIM File
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           path: ${{ env.ZIMFILE_NAME }}
           name: ${{ env.ZIMFILE_NAME }}
           compression-level: 0
 
       - name: Run zimcheck
-        uses: kohlerdominik/docker-run-action@44bd2138ca4f85c36b2fdc3966ef03518879f7f3
+        uses: kohlerdominik/docker-run-action@1c78cb433a3a55b1940eb8c48a3e73eb752e5082 # v2.2.0
         continue-on-error: true
         with:
           image: ghcr.io/openzim/zim-tools:3.6.0
