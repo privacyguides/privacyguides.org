@@ -48,7 +48,7 @@ The initial free storage is limited to 2 GB, but with the completion of [certai
 
 </div>
 
-The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/community/open-source), but the brand new mobile clients have not yet been publicly audited by a third party.
+The Proton Drive web application was independently audited by Securitum in [2021](https://proton.me/community/open-source), and its Android and iOS apps underwent independent security audits by the same company in [2022](https://proton.me/blog/drive-mobile-apps-open-source). The audit reports are publicly available.
 
 ## Tresorit
 
