@@ -25,7 +25,7 @@ For more technical readers, Nextcloud is [still a recommended tool](self-hosting
 
 <div class="admonition recommendation" markdown>
 
-![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
+![Proton Drive logo](assets/images/cloud/protondrive.svg){ align=right }
 
 **Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail).
 
@@ -48,13 +48,13 @@ The initial free storage is limited to 2 GB, but with the completion of [certai
 
 </div>
 
-The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/community/open-source), but the brand new mobile clients have not yet been publicly audited by a third party.
+The Proton Drive web application was independently audited by Securitum in [2021](https://proton.me/community/open-source), and its Android and iOS apps underwent independent security audits by the same company in [2022](https://proton.me/blog/drive-mobile-apps-open-source). The audit reports are publicly available.
 
 ## Tresorit
 
 <div class="admonition recommendation" markdown>
 
-![Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
+![Tresorit logo](assets/images/cloud/tresorit.svg){ align=right }
 
 **Tresorit** is a Swiss-Hungarian encrypted cloud storage provider founded in 2011. Tresorit is owned by the Swiss Post, the national postal service of Switzerland.
 
@@ -93,7 +93,7 @@ Tresorit has received a number of independent security audits:
 
 <div class="admonition recommendation" markdown>
 
-![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
+![Peergos logo](assets/images/cloud/peergos.svg){ align=right }
 
 **Peergos** is a decentralized protocol and open-source platform for storage, social media, and applications. It provides a secure and private space where users can store, share, view, and edit their photos, videos, documents, etc.
 

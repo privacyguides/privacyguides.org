@@ -1,0 +1,28 @@
+# SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
+# SPDX-License-Identifier: MIT
+
+name: Build with Docker
+description: Run a site command in the container.
+inputs:
+  command:
+    description: Shell commands to run inside the container.
+    required: true
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      env:
+        BUILD_COMMAND: ${{ inputs.command }}
+      run: |
+        args=()
+        while IFS= read -r name; do
+          case "$name" in
+            BUILD_*|SITE_LANGUAGE|CARDS|GITAUTHORS|GITREVISIONDATE|LANGUAGE_SWITCHER|MAIN_SITE_*|ARTICLES_SITE_*|VIDEOS_SITE_*|NEWS_SITE_*|HOMEPAGE_*|MEMBERS_API_URL)
+              args+=(--env "$name") ;;
+          esac
+        done < <(compgen -e)
+        docker run --rm --user "$(id -u):$(id -g)" \
+          --env HOME=/tmp \
+          --volume "$GITHUB_WORKSPACE:/workspaces/privacyguides.org" \
+          "${args[@]}" privacyguides-build:local \
+          bash -e -o pipefail -c "$BUILD_COMMAND"

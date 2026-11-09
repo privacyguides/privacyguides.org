@@ -17,7 +17,7 @@ preview:
 ---
 # A Flaw With the Security Level Slider in Tor Browser
 
-![Illustration showing Tor's security level options with question marks next to the selected Safer level](../assets/images/tor-security-slider-flaw/cover.png)
+![Illustration showing Tor's security level options with question marks next to the selected Safer level](../assets/images-blog/tor-security-slider-flaw/cover.png)
 
 <small aria-hidden="true">Illustration: Jonah Aragon / Privacy Guides</small>
 

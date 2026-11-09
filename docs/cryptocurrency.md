@@ -25,7 +25,7 @@ Many if not most cryptocurrency projects are scams. Make transactions carefully 
 
 <div class="admonition recommendation" markdown>
 
-![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
+![Monero logo](assets/images/cryptocurrency/monero.svg){ align=right }
 
 **Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }. Every Monero transaction hides the transaction amount, sending and receiving addresses, and source of funds without any hoops to jump through, making it an ideal choice for cryptocurrency novices.
 

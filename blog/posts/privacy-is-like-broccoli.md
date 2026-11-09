@@ -13,7 +13,7 @@ preview:
 
 # Privacy Is Like Broccoli
 
-![Background filled with numbers from 0 to 2, representing binary code separated by the character 2. Outlined in bright green color is the shape of a piece of broccoli.](../assets/images/privacy-is-like-broccoli/broccoli-cover.webp)
+![Background filled with numbers from 0 to 2, representing binary code separated by the character 2. Outlined in bright green color is the shape of a piece of broccoli.](../assets/images-blog/privacy-is-like-broccoli/broccoli-cover.webp)
 
 <small aria-hidden="true">Illustration: Em / Privacy Guides</small>
 

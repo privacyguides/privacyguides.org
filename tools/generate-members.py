@@ -1,8 +1,11 @@
+# SPDX-FileCopyrightText: 2025-2026 Jonah Aragon
+# SPDX-License-Identifier: MIT
+
 import requests
 import os
 
 # Fetch members from the API
-members_api_url = os.getenv('MEMBERS_API_URL', 'https://ghost.privacyguides.org/cache/members.json')
+members_api_url = os.getenv('MEMBERS_API_URL') or 'https://ghost.privacyguides.org/cache/members.json'
 members_response = requests.get(members_api_url)
 members_data = members_response.json()[0]
 

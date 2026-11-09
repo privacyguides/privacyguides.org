@@ -13,7 +13,7 @@ preview:
 ---
 # The Power of Digital Provenance in the Age of AI
 
-![Article cover showing a painterly background with cool colors and the Content Credentials logo](../assets/images/digital-provenance/cover.jpg)
+![Article cover showing a painterly background with cool colors and the Content Credentials logo](../assets/images-blog/digital-provenance/cover.jpg)
 <small aria-hidden="true">Photo: Kseniya Lapteva / Pexels | Logo: Content Credentials</small>
 
 With the popularity of generative AI, it's becoming more and more difficult to [distinguish](https://uwaterloo.ca/news/media/can-you-tell-ai-generated-people-real-ones) reality from fiction. Can this problem be solved using cryptography? What are the privacy implications of the currently proposed systems?<!-- more -->
@@ -24,13 +24,13 @@ Can you tell which of these images are AI generated?
 
 <div class="grid" markdown>
 
-![Group of geese by some water](../assets/images/digital-provenance/geese1.jpeg)
+![Group of geese by some water](../assets/images-blog/digital-provenance/geese1.jpeg)
 
-![Group of geese by some water](../assets/images/digital-provenance/geese2.jpeg)
+![Group of geese by some water](../assets/images-blog/digital-provenance/geese2.jpeg)
 
-![Group of geese by some water](../assets/images/digital-provenance/geese3.jpeg)
+![Group of geese by some water](../assets/images-blog/digital-provenance/geese3.jpeg)
 
-![Group of geese by some water](../assets/images/digital-provenance/geese4.jpeg)
+![Group of geese by some water](../assets/images-blog/digital-provenance/geese4.jpeg)
 
 </div>
 
@@ -64,7 +64,7 @@ He settled on burying the giant in Cardiff, New York, where he cut a deal with a
 
 On October 16, 1869, Newell hired an unsuspecting pair of workers to dig a well on his property. After they inevitably uncovered the giant, it wasn't long before the whole town was in a frenzy.
 
-![men surrounding a stone sculpture of a man in a hole in the ground doffing their hats](../assets/images/digital-provenance/cardiff-giant.jpg)
+![men surrounding a stone sculpture of a man in a hole in the ground doffing their hats](../assets/images-blog/digital-provenance/cardiff-giant.jpg)
 
 <small aria-hidden="true">Photo: Wikimedia Commons (Public Domain)</small>
 
@@ -114,7 +114,7 @@ It's important to note that Content Credentials aren't attempting to determine "
 
 Content Credentials are contained in what's called the **manifest**. The manifest consists of the claim, claim signature, and assertions.
 
-![Example of a Manifest, with the Claim, Claim Signature, and Assertions inside](../assets/images/digital-provenance/manifest.svg)
+![Example of a Manifest, with the Claim, Claim Signature, and Assertions inside](../assets/images-blog/digital-provenance/manifest.svg)
 
 <small aria-hidden="true">Illustration: [C2PA](https://c2pa.org/specifications/specifications/2.1/specs/C2PA_Specification.html)</small>
 

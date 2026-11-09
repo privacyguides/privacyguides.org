@@ -1,38 +1,16 @@
-# Copyright (c) 2022-2024 Jonah Aragon <jonah@triplebit.net>
+# SPDX-FileCopyrightText: 2024-2026 Jonah Aragon and the Privacy Guides contributors
+# SPDX-License-Identifier: MIT
 
-# Permission is hereby granted, free of charge, to any person obtaining a copy
-# of this software and associated documentation files (the "Software"), to
-# deal in the Software without restriction, including without limitation the
-# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
-# sell copies of the Software, and to permit persons to whom the Software is
-# furnished to do so, subject to the following conditions:
-
-# The above copyright notice and this permission notice shall be included in
-# all copies or substantial portions of the Software.
-
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
-# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
-# IN THE SOFTWARE.
+INHERIT: mkdocs.base.yml
 
 docs_dir: "blog"
 site_url: "https://www.privacyguides.org/articles/"
 site_dir: "site/articles"
 
-site_name: Privacy Guides
 site_description: "Privacy Guides is the most popular & trustworthy non-profit privacy resource to find privacy tools and learn about protecting your digital life."
 edit_uri_template: blob/main/blog/{path}?plain=1
 
 extra:
-  scope: /
-  ghost:
-    base_url: https://www.privacyguides.org
-    admin_url: https://www.privacyguides.org/ghost
-    tb_site_uuid: 5f3bdb03-a1af-4844-85ca-cbc82c89eb9a
-    content_api_key: da9d77deb3e85ee73925167f3a
   privacy_guides:
     footer:
       intro:
@@ -48,16 +26,11 @@ extra:
       copyright:
         author:
           !ENV [FOOTER_COPYRIGHT_AUTHOR, "Privacy Guides and contributors."]
-        date: !ENV [FOOTER_COPYRIGHT_DATE, "2019-2025"]
+        date: !ENV [FOOTER_COPYRIGHT_DATE, "2019-2026"]
       license:
         - fontawesome/brands/creative-commons
         - fontawesome/brands/creative-commons-by
         - fontawesome/brands/creative-commons-sa
-  homepage: /
-  generator: false
-  context: !ENV [BUILD_CONTEXT, "production"]
-  offline: !ENV [BUILD_OFFLINE, false]
-  deploy: !ENV DEPLOY_ID
   social:
     - icon: simple/mastodon
       link: https://mastodon.neat.computer/@privacyguides
@@ -78,39 +51,9 @@ extra:
       link: https://www.privacyguides.org/articles/feed_rss_created.xml
       name: Articles RSS Feed
 
-repo_url:
-  !ENV [BUILD_REPO_URL, "https://github.com/privacyguides/privacyguides.org"]
-repo_name: ""
-
 theme:
-  name: material
-  language: en
   custom_dir: theme
-  font:
-    text: Public Sans
-    code: DM Mono
-  palette:
-    - media: "(prefers-color-scheme)"
-      scheme: default
-      accent: deep purple
-      toggle:
-        icon: material/brightness-auto
-        name: !ENV [THEME_DARK, "Switch to dark mode"]
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      accent: amber
-      toggle:
-        icon: material/brightness-2
-        name: !ENV [THEME_LIGHT, "Switch to light mode"]
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      accent: deep purple
-      toggle:
-        icon: material/brightness-5
-        name: !ENV [THEME_AUTO, "Switch to system theme"]
   favicon: assets/brand/logos/png/favicon-32x32.png
-  icon:
-    repo: simple/github
   features:
     - announce.dismiss
     - navigation.tracking
@@ -121,7 +64,6 @@ theme:
     - content.tabs.link
     - content.tooltips
     - search.highlight
-
 extra_css:
   - assets/stylesheets/extra.css?v=20250723
 
@@ -164,7 +106,6 @@ plugins:
   offline:
     enabled: !ENV [BUILD_OFFLINE, false]
   group:
-    enabled: !ENV [BUILD_INSIDERS, true]
     plugins:
       macros: {}
       meta: {}
@@ -174,44 +115,6 @@ plugins:
         cards_dir: assets/img/social
         cards_layout_dir: theme/layouts
         cards_layout: page
-
-markdown_extensions:
-  admonition: {}
-  pymdownx.details: {}
-  pymdownx.superfences:
-    custom_fences:
-      - name: mermaid
-        class: mermaid
-        format: !!python/name:pymdownx.superfences.fence_code_format
-  pymdownx.tabbed:
-    alternate_style: true
-  pymdownx.arithmatex:
-    generic: true
-  pymdownx.critic: {}
-  pymdownx.caret: {}
-  pymdownx.keys: {}
-  pymdownx.mark: {}
-  pymdownx.tilde: {}
-  pymdownx.snippets:
-    auto_append:
-      - !ENV [BUILD_ABBREVIATIONS, "includes/abbreviations.en.txt"]
-  pymdownx.tasklist:
-    custom_checkbox: true
-  attr_list: {}
-  def_list: {}
-  md_in_html: {}
-  meta: {}
-  abbr: {}
-  pymdownx.emoji:
-    emoji_index: !!python/name:material.extensions.emoji.twemoji
-    emoji_generator: !!python/name:material.extensions.emoji.to_svg
-    options:
-      custom_icons:
-        - theme/icons
-  tables: {}
-  footnotes: {}
-  toc:
-    toc_depth: 3
 
 nav:
   - !ENV [NAV_HOME, "Home"]: !ENV [MAIN_SITE_BASE_URL, "/en/"]

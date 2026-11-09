@@ -12,7 +12,7 @@ preview:
 ---
 # Using Tails When Your World Doesn't Feel Safe Anymore
 
-![Photo of a hand plugging a USB stick into a laptop and the Tails logo under it.](../assets/images/installing-and-using-tails/cover.webp)
+![Photo of a hand plugging a USB stick into a laptop and the Tails logo under it.](../assets/images-blog/installing-and-using-tails/cover.webp)
 <small aria-hidden="true">Illustration: Jonah Aragon / Privacy Guides | Photo: Aleksander Dumała / Pexels</small>
 
 There is a growing number of people who no longer feel safe in their own home or country. Whatever the reason, many people might not feel safe to browse certain topics online. With all the information getting collected for each internet search, it is difficult to access sometime vital information without leaving a trace. These digital footprints might not threaten your personal safety if you are living with a supportive family, and in a democratic and free country. However, there are situations where someone might be put in great danger simply for looking at a website.<!-- more -->
@@ -40,7 +40,7 @@ If you are completing this installation for someone else, or if the device you a
 
 ## What is Tails?
 
-![Illustration of the Tails logo.](../assets/images/installing-and-using-tails/tails-logo-flat-inverted.svg)
+![Illustration of the Tails logo.](../assets/images-blog/installing-and-using-tails/tails-logo-flat-inverted.svg)
 
 <small aria-hidden="true">Illustration: Tails / Tor Project</small>
 
@@ -166,7 +166,7 @@ If you encounter any issues during the installation or running processes, you ca
 
 Visit this website and select your installation computer's operating system: [https://tails.net/install/](https://tails.net/install/)
 
-![Screenshot of a browser window showing Tails' installation page.](../assets/images/installing-and-using-tails/tails-installation-mac-1.webp)
+![Screenshot of a browser window showing Tails' installation page.](../assets/images-blog/installing-and-using-tails/tails-installation-mac-1.webp)
 
 Scroll down to the "**Download Tails**" section and click on the green download button. Make sure to save the installation file in a folder where you can find it back easily and not forget to **delete it afterwards**.
 
@@ -184,7 +184,7 @@ The download link is not shared directly here because you should always make sur
 
 </div>
 
-![Screenshot of a browser window showing Tails' download step.](../assets/images/installing-and-using-tails/tails-installation-mac-2.webp)
+![Screenshot of a browser window showing Tails' download step.](../assets/images-blog/installing-and-using-tails/tails-installation-mac-2.webp)
 
 ### Step 2: Verify the file you just downloaded
 
@@ -197,11 +197,11 @@ This step is important to ensure the file you just downloaded has not been tampe
 
 </div>
 
-![Screenshot of a browser window showing Tails' verification step.](../assets/images/installing-and-using-tails/tails-installation-mac-3.webp)
+![Screenshot of a browser window showing Tails' verification step.](../assets/images-blog/installing-and-using-tails/tails-installation-mac-3.webp)
 
 Once the verification is completed (this might take a few minutes), you should see a green checkmark with "**Verification successful!**" followed by the file name. If you do not see this, delete the file and repeat [Step 1](#step-1-download-tails) and [Step 2](#step-2-verify-the-file-you-just-downloaded).
 
-![Screenshot of a browser window showing Tails' successful verification with file name.](../assets/images/installing-and-using-tails/tails-installation-mac-4.webp)
+![Screenshot of a browser window showing Tails' successful verification with file name.](../assets/images-blog/installing-and-using-tails/tails-installation-mac-4.webp)
 
 ### Step 3: Download and install balenaEtcher
 
@@ -218,11 +218,11 @@ You can download *balenaEtcher* from this link: [https://tails.net/etcher/balena
 
 Open the folder where you downloaded the *balenaEtcher* installation file (keep it open to delete this file after the installation is completed), and double-click on the "**balenaEtcher.dmg**" file. Drag the "**balenaEtcher.app**" icon over the "**Applications**" folder icon when prompted from the window below:
 
-![Screenshot of a macOS application installation window for balenaEtcher.](../assets/images/installing-and-using-tails/tails-installation-mac-5.webp)
+![Screenshot of a macOS application installation window for balenaEtcher.](../assets/images-blog/installing-and-using-tails/tails-installation-mac-5.webp)
 
 Once the file is copied to you "**Applications**" folder, go on your computer's desktop and right-click on the "**balenaEtcher**" icon. Select '**Eject "balenaEtcher"**'
 
-![Screenshot of a desktop showing the balenaEtcher installation icon and a macOS menu with the option to Eject balenaEtcher.](../assets/images/installing-and-using-tails/tails-installation-mac-6.webp)
+![Screenshot of a desktop showing the balenaEtcher installation icon and a macOS menu with the option to Eject balenaEtcher.](../assets/images-blog/installing-and-using-tails/tails-installation-mac-6.webp)
 
 ### Step 4: Install Tails on your USB stick using balenaEtcher
 
@@ -230,23 +230,23 @@ Once the file is copied to you "**Applications**" folder, go on your computer's 
 
 Depending on your macOS version, your Mac might open a popup window saying '**Verifying "balenaEtcher.app"...**'. This is normal, let it complete its verification. Next, you will likely see another popup window with '**"balenaEtcher.app” is an app downloaded from the Internet. Are you sure you want to open it?**'. Click "**Open**".
 
-![Screenshot of a macOS popup with a verifying loading bar.](../assets/images/installing-and-using-tails/tails-installation-mac-7.webp)
+![Screenshot of a macOS popup with a verifying loading bar.](../assets/images-blog/installing-and-using-tails/tails-installation-mac-7.webp)
 
-![Screenshot of a macOS popup with a warning message with the options to Cancel or Open.](../assets/images/installing-and-using-tails/tails-installation-mac-8.png)
+![Screenshot of a macOS popup with a warning message with the options to Cancel or Open.](../assets/images-blog/installing-and-using-tails/tails-installation-mac-8.png)
 
 4.2. Open *balenaEtcher* and click on the settings gear button on the upper-right. Disable the option "**Anonymously report errors and usage statistics to balena.io**", then click "**OK**".
 
-![Screenshot of a balenaEtcher window showing a gear icon on the upper-right, and a disabled option to share anonymous error reports.](../assets/images/installing-and-using-tails/tails-installation-mac-9.webp)
+![Screenshot of a balenaEtcher window showing a gear icon on the upper-right, and a disabled option to share anonymous error reports.](../assets/images-blog/installing-and-using-tails/tails-installation-mac-9.webp)
 
 4.3. Eject and unplug any other external USB stick(s) or external USB drive(s) that might be plugged into your computer if possible, and plug in the USB stick you wish to erase and install Tails on.
 
 4.4. Once it is plugged in, return to *balenaEtcher* and click on the "**Flash from file**" blue button on the left. You will be prompted to select a file. Select the Tails "**.img**" file you have downloaded and verified earlier.
 
-![Screenshot of a balenaEtcher window showing 3 buttons. The button on the left is blue and labeled Flash from file.](../assets/images/installing-and-using-tails/tails-installation-mac-10.webp)
+![Screenshot of a balenaEtcher window showing 3 buttons. The button on the left is blue and labeled Flash from file.](../assets/images-blog/installing-and-using-tails/tails-installation-mac-10.webp)
 
 4.5. Click on the "**Select target**" blue button in the middle, and select your USB stick.
 
-![Screenshot of a balenaEtcher window showing 3 buttons. The button in the middle is blue and labeled "Select target".](../assets/images/installing-and-using-tails/tails-installation-mac-11.webp)
+![Screenshot of a balenaEtcher window showing 3 buttons. The button in the middle is blue and labeled "Select target".](../assets/images-blog/installing-and-using-tails/tails-installation-mac-11.webp)
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Caution! Select the correct USB stick!</p>
@@ -255,23 +255,23 @@ Make sure you are not selecting a USB stick or drive different from the one you 
 
 </div>
 
-![Screenshot of a balenaEtcher window inside a menu with one or more checkboxes. One checkbox is selected next to a USB stick name and description.](../assets/images/installing-and-using-tails/tails-installation-mac-12.webp)
+![Screenshot of a balenaEtcher window inside a menu with one or more checkboxes. One checkbox is selected next to a USB stick name and description.](../assets/images-blog/installing-and-using-tails/tails-installation-mac-12.webp)
 
 4.6. Once you have verified that all the information is correct, click on the "**Flash!**" blue button on the right.
 
-![Screenshot of a balenaEtcher window showing 3 buttons. The button on the right is blue and labeled "Flash!".](../assets/images/installing-and-using-tails/tails-installation-mac-13.webp)
+![Screenshot of a balenaEtcher window showing 3 buttons. The button on the right is blue and labeled "Flash!".](../assets/images-blog/installing-and-using-tails/tails-installation-mac-13.webp)
 
 You will see a *balenaEtcher* popup window saying: "**balenaEtcher needs privileged access in order to flash disks. Type your password to allow this.**". Type your computer's password and click "**Ok**".
 
-![Screenshot of a macOS popup warning with a password field.](../assets/images/installing-and-using-tails/tails-installation-mac-14.webp)
+![Screenshot of a macOS popup warning with a password field.](../assets/images-blog/installing-and-using-tails/tails-installation-mac-14.webp)
 
 Depending on the version of macOS you use, you might see another popup window saying '**"balenaEtcher.app" would like to access files on a removable volume.**'. Click "**OK**" and wait for the installation to start.
 
-![Screenshot of a macOS popup warning with the options to "Don't Allow" or "OK".](../assets/images/installing-and-using-tails/tails-installation-mac-15.webp)
+![Screenshot of a macOS popup warning with the options to "Don't Allow" or "OK".](../assets/images-blog/installing-and-using-tails/tails-installation-mac-15.webp)
 
 While Tails is getting installed, you should see a window that looks like this with "**Flashing...**". The operation might take a few minutes. Do not interrupt this process!
 
-![Screenshot of a balenaEtcher window showing on the left a Flashing progression bar.](../assets/images/installing-and-using-tails/tails-installation-mac-16.png)
+![Screenshot of a balenaEtcher window showing on the left a Flashing progression bar.](../assets/images-blog/installing-and-using-tails/tails-installation-mac-16.png)
 
 4.7. Once Flashing is completed, you will see *balenaEtcher* validating the installation with "**Validating...**". This process should be quick.
 
@@ -282,7 +282,7 @@ If the validation fails, close *balenaEtcher*, eject your USB stick, and try the
 
 </div>
 
-![Screenshot of a balenaEtcher window showing on the left a Validating progression bar.](../assets/images/installing-and-using-tails/tails-installation-mac-17.png)
+![Screenshot of a balenaEtcher window showing on the left a Validating progression bar.](../assets/images-blog/installing-and-using-tails/tails-installation-mac-17.png)
 
 Once the installation is completed successfully, you should see a window like this with "**Flash Completed!**" on the left. You can now close *balenaEtcher* and unplug your USB stick.
 
@@ -293,7 +293,7 @@ If you see a notification about a USB stick that appears to be unreadable, click
 
 </div>
 
-![Screenshot of a balenaEtcher window showing on the left a green checkmark with "Flash Completed!".](../assets/images/installing-and-using-tails/tails-installation-mac-18.png)
+![Screenshot of a balenaEtcher window showing on the left a green checkmark with "Flash Completed!".](../assets/images-blog/installing-and-using-tails/tails-installation-mac-18.png)
 
 ### Step 5: Continue this tutorial from paper or from another device (if you can do so safely)
 
@@ -339,7 +339,7 @@ If you want to hide that you are using Tails from the people near you, I would r
 
 </div>
 
-![Screenshot of a macOS "Startup Security Utility" window from the recovery mode. In the "Secure Boot" section the option "No Security" is selected. In the "External Boot" section the option "Allow booting from external media" is selected.](../assets/images/installing-and-using-tails/mac-startup-security-utility.png)
+![Screenshot of a macOS "Startup Security Utility" window from the recovery mode. In the "Secure Boot" section the option "No Security" is selected. In the "External Boot" section the option "Allow booting from external media" is selected.](../assets/images-blog/installing-and-using-tails/mac-startup-security-utility.png)
 
 <small aria-hidden="true">Screenshot: Tails / Tor Project</small>
 
@@ -425,7 +425,7 @@ If you decide to set up Persistent Storage:
 
 2. After setting up Persistent Storage, you will see a window like this with additional options:
 
-![Screenshot of a window within Tails titled "Persistent Storage" and showing various options.](../assets/images/installing-and-using-tails/tails-usage-persistentstorage.webp)
+![Screenshot of a window within Tails titled "Persistent Storage" and showing various options.](../assets/images-blog/installing-and-using-tails/tails-usage-persistentstorage.webp)
 
 ### Connecting to the internet
 
@@ -438,25 +438,25 @@ If using Tor is dangerous for you, read more about the other options before deci
 
 </div>
 
-![Screenshot of a window within Tails titled "Tor Connection" and showing various options.](../assets/images/installing-and-using-tails/tails-usage-torconnection.webp)
+![Screenshot of a window within Tails titled "Tor Connection" and showing various options.](../assets/images-blog/installing-and-using-tails/tails-usage-torconnection.webp)
 
 If the connection is successful, you should see this window, and you will be ready to browse the internet anonymously:
 
-![Screenshot of a window within Tails titled "Tor Connection" indicating the connection to Tor was successful. There is a button at the bottom labeled "Start Tor Browser".](../assets/images/installing-and-using-tails/tails-usage-torconnection-successful.webp)
+![Screenshot of a window within Tails titled "Tor Connection" indicating the connection to Tor was successful. There is a button at the bottom labeled "Start Tor Browser".](../assets/images-blog/installing-and-using-tails/tails-usage-torconnection-successful.webp)
 
-![Screenshot within Tails showing the Tor Browser application displaying the onion version of the Privacy Guides website.](../assets/images/installing-and-using-tails/tails-usage-privacyguides-onion.webp)
+![Screenshot within Tails showing the Tor Browser application displaying the onion version of the Privacy Guides website.](../assets/images-blog/installing-and-using-tails/tails-usage-privacyguides-onion.webp)
 
 ### Sharing files with others
 
 There is a lot of great applications already installed on Tails to help you! You will find them listed in the "**Applications**" drop-menu on the upper-left top bar. One of these applications is [OnionShare](https://onionshare.org/), which you can use to share files with others anonymously.
 
-![Screenshot within Tails showing the application OnionShare open.](../assets/images/installing-and-using-tails/tails-usage-onionshare.webp)
+![Screenshot within Tails showing the application OnionShare open.](../assets/images-blog/installing-and-using-tails/tails-usage-onionshare.webp)
 
 ### Storing passwords
 
 If you are using the Persistent Storage with Tails, and need to store passwords, you can use the pre-installed [KeePassXC](https://keepassxc.org/) application. This application will store your passwords encrypted, locally-only, and protected by a main password (ideally, a **passphrase**). Be careful however if you store important passwords in there. Remember that if a bug occurs or if you forget your Persistent Storage's password, you could lose access to all of it.
 
-![Screenshot within Tails showing the application KeePassXC open.](../assets/images/installing-and-using-tails/tails-usage-keepassxc.webp)
+![Screenshot within Tails showing the application KeePassXC open.](../assets/images-blog/installing-and-using-tails/tails-usage-keepassxc.webp)
 
 ### Shutting down Tails
 
@@ -498,6 +498,6 @@ Support Tails (if it is safe for you to do so): [https://tails.net/donate/](http
 
 Support the Tor Project (if it is safe for you to do so): [https://donate.torproject.org/](https://donate.torproject.org/)
 
-![Screenshot within Tails showing the Tor Browser application displaying the Tails website welcome page.](../assets/images/installing-and-using-tails/tails-usage-tailswebsite.png)
+![Screenshot within Tails showing the Tor Browser application displaying the Tails website welcome page.](../assets/images-blog/installing-and-using-tails/tails-usage-tailswebsite.png)
 
 <small aria-hidden="true">Unless credited otherwise, all screenshots from: Privacy Guides</small>

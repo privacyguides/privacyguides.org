@@ -16,7 +16,7 @@ preview:
 
 # In Praise of Tor: Why You Should Support and Use Tor
 
-![The Tor Project logo over a series of Tor icons on a purple background.](../assets/images/in-praise-of-tor/tor-cover.webp)
+![The Tor Project logo over a series of Tor icons on a purple background.](../assets/images-blog/in-praise-of-tor/tor-cover.webp)
 
 <small aria-hidden="true">Illustration: Em / Privacy Guides | Logo and icons: The Tor Project</small>
 
@@ -71,7 +71,7 @@ Tor works a bit as if you put a letter (request) into an envelope with someone's
 
 Each envelope protects the content of the other, and can only be opened one at the time by each recipient. In this analogy, each recipient (relay) has a key that can only open the envelope addressed to them, and not the others.
 
-![Graphic representation of a Tor Circuit composed of a Guard Relay, a Middle Relay, and an Exit Relay using a letter and envelopes analogy.](../assets/images/in-praise-of-tor/tor-diagram.webp)
+![Graphic representation of a Tor Circuit composed of a Guard Relay, a Middle Relay, and an Exit Relay using a letter and envelopes analogy.](../assets/images-blog/in-praise-of-tor/tor-diagram.webp)
 <small aria-hidden="true">Illustration: Em / Privacy Guides</small>
 
 #### What is a Tor Circuit
@@ -80,7 +80,7 @@ The network of randomly selected relays to complete a request on the Tor Network
 
 From the Tor Browser, you can see each relay that was selected for a circuit, and even change it manually. To generate a new circuit, click on the "Tor Circuit" button on the upper-left of the browser, then on "New Tor circuit for this site" at the bottom.
 
-![Screenshot from the Tor Browser showing a popup window from the Tor Circuit button.](../assets/images/in-praise-of-tor/tor-torcircuit.webp)
+![Screenshot from the Tor Browser showing a popup window from the Tor Circuit button.](../assets/images-blog/in-praise-of-tor/tor-torcircuit.webp)
 
 ### The Tor Browser
 
@@ -99,7 +99,7 @@ For this, click on the shield icon on the upper-right, then on the "Settings" bu
 
 </div>
 
-![Screenshot from the Tor Browser showing a warning from the SecureDrop website to adjust Tor security level to Safest.](../assets/images/in-praise-of-tor/tor-safestsetting.webp)
+![Screenshot from the Tor Browser showing a warning from the SecureDrop website to adjust Tor security level to Safest.](../assets/images-blog/in-praise-of-tor/tor-safestsetting.webp)
 
 The default search engine is the privacy-focused [DuckDuckGo](https://www.privacyguides.org/en/search-engines/#duckduckgo). You will not even find Google in the options for the default search engine. More browsers should follow this good practice.
 
@@ -112,7 +112,7 @@ Be careful when using Tor from a country where Tor might be blocked or perceived
 
 </div>
 
-![Screenshot from the Tor Browser showing the "Connect to Tor" welcome page.](../assets/images/in-praise-of-tor/tor-torbrowser.webp)
+![Screenshot from the Tor Browser showing the "Connect to Tor" welcome page.](../assets/images-blog/in-praise-of-tor/tor-torbrowser.webp)
 
 Once connected to the Tor Network, you will be directed to the DuckDuckGo welcome page, and you can search or type any URLs in the address bar, like you would with any other browser.
 
@@ -120,7 +120,7 @@ If you know an organization has an onion site (a website that is only accessible
 
 If you don't know if an organization has an onion site, you might find it from its regular URL. For example, if you visit privacyguides.org from the Tor Browser, you will notice a purple button on the right informing you that an onion version of this website is available, click on it to get redirected to it.
 
-![Screenshot from the Tor Browser showing the Privacy Guides website with an onion available purple button right to the address bar.](../assets/images/in-praise-of-tor/tor-privacyguides.webp)
+![Screenshot from the Tor Browser showing the Privacy Guides website with an onion available purple button right to the address bar.](../assets/images-blog/in-praise-of-tor/tor-privacyguides.webp)
 
 <div class="admonition info" markdown>
 <p class="admonition-title">Mullvad Browser and the Tor Project</p>
@@ -304,7 +304,7 @@ If you use Tor to visit the Privacy Guides onion site, you will be using the dar
 
 The dark web is part of the deep web, which is simply all the online information that isn't indexed by any standard web search engines. Aren't you happy your bank account is on the deep web?
 
-![Illustration of an iceberg where the tip above water represents the surface web, the part underwater represents the deep web, and the part under the iceberg represents the dark web.](../assets/images/in-praise-of-tor/tor-darkweb.webp)
+![Illustration of an iceberg where the tip above water represents the surface web, the part underwater represents the deep web, and the part under the iceberg represents the dark web.](../assets/images-blog/in-praise-of-tor/tor-darkweb.webp)
 <small aria-hidden="true">Illustration: Em / Privacy Guides | Inspired by: [Ranjithsiji](https://commons.wikimedia.org/wiki/File:Iceberg_of_Webs.svg)</small>
 
 ### Criminals use envelopes, doors, and clothing too

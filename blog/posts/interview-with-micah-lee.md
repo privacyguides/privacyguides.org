@@ -12,7 +12,7 @@ preview:
 ---
 # Interview with Micah Lee: Cyd, Lockdown Systems, OnionShare, and more
 
-![Photo of Micah Lee over a yellow and purple graphic background, and with the name Micah Lee written on the right.](../assets/images/interview-with-micah-lee/micah-lee-cover.webp)
+![Photo of Micah Lee over a yellow and purple graphic background, and with the name Micah Lee written on the right.](../assets/images-blog/interview-with-micah-lee/micah-lee-cover.webp)
 
 <small aria-hidden="true">Illustration: Jonah Aragon / Privacy Guides | Photo: Micah Lee</small>
 

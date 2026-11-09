@@ -12,7 +12,7 @@ preview:
 ---
 # Privacy Guides Partners With MAGIC Grants 501(c)(3)
 
-![](../assets/images/privacy-guides-partners-with-magic-grants-501-c-3/magicblog.webp)
+![](../assets/images-blog/privacy-guides-partners-with-magic-grants-501-c-3/magicblog.webp)
 
 <small aria-hidden="true">Illustration: Jonah Aragon / Privacy Guides</small>
 

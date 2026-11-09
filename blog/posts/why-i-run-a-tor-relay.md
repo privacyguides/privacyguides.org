@@ -18,7 +18,7 @@ preview:
 ---
 # Why I Decided to Run a Tor Relay
 
-![Tor graphic](../assets/images/why-i-run-a-tor-relay/cover.png)
+![Tor graphic](../assets/images-blog/why-i-run-a-tor-relay/cover.png)
 
 <small aria-hidden="true">Illustration: Tor Project</small>
 

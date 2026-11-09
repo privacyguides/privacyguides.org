@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: 2026-2026 Jonah Aragon
+# SPDX-License-Identifier: MIT
+
+mkdocs-material[git,imaging]
+mkdocs-git-authors-plugin
+jieba
+mkdocs-rss-plugin
+mkdocs-glightbox
+scour
+mkdocs-macros-plugin

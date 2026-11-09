@@ -34,7 +34,7 @@ If the disk is a magnetic storage device, such as a spinning hard disk, we sugge
 
 Once you have your boot media, enter your system's UEFI settings and boot from the USB stick. Commonly used keys to access UEFI are ++f2++, ++f12++, or ++del++. Follow the on-screen prompts to wipe your data.
 
-![ShredOS](../assets/images/data-erasure/shredos.png)
+![ShredOS](../assets/images-blog/data-erasure/shredos.png)
 
 ### Flash Storage
 

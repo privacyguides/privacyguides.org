@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026-2026 Jonah Aragon and the Privacy Guides contributors
+# SPDX-License-Identifier: MIT
+
 [global]
 disable = ["md013", "md033", "md046", "md026"]
 

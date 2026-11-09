@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2024-2026 Jonah Aragon
+// SPDX-License-Identifier: MIT
+
 var feedback = document.forms.feedback
 feedback.hidden = false
 

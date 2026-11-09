@@ -42,7 +42,7 @@ Our recommended providers use encryption, support WireGuard & OpenVPN, and have 
 
 <div class="admonition recommendation" markdown>
 
-![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
+![Proton VPN logo](assets/images/vpn/protonvpn.svg){ align=right }
 
 **Proton VPN** is a strong contender in the VPN space, and they have been in operation since 2016. Proton AG is based in Switzerland and offers a limited free tier, as well as a more featured premium option.
 
@@ -136,7 +136,7 @@ Additionally, system crashes [may occur](https://protonvpn.com/support/macos-t2-
 
 <div class="admonition recommendation" markdown>
 
-![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
+![IVPN logo](assets/images/vpn/ivpn.svg){ align=right }
 
 **IVPN** is another premium VPN provider, and they have been in operation since 2009. IVPN is based in Gibraltar and does not offer a free trial.
 
@@ -211,7 +211,7 @@ IVPN clients support two-factor authentication. IVPN also provides "[AntiTracker
 
 <div class="admonition recommendation" markdown>
 
-![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
+![Mullvad logo](assets/images/vpn/mullvad.svg){ align=right }
 
 **Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. They have been in operation since 2009. Mullvad is based in Sweden and offers a 14-day money-back guarantee for [payment methods](https://mullvad.net/en/help/refunds) that allow it.
 

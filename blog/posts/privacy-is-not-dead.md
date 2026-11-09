@@ -12,7 +12,7 @@ preview:
 ---
 # No, Privacy is Not Dead: Beware the All-or-Nothing Mindset
 
-![Photo of a protest with someone holding a sign saying Fight Today For a Better Tomorrow.](../assets/images/privacy-is-not-dead/cover.webp)
+![Photo of a protest with someone holding a sign saying Fight Today For a Better Tomorrow.](../assets/images-blog/privacy-is-not-dead/cover.webp)
 
 <small aria-hidden="true">Photo: Markus Spiske / Pexels</small>
 

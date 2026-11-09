@@ -16,7 +16,7 @@ preview:
 
 # "Privacy-Preserving" Attribution: Mozilla Disappoints Us Yet Again
 
-![](../assets/images/mozilla-disappoints-us-yet-again-2/cover.webp)
+![](../assets/images-blog/mozilla-disappoints-us-yet-again-2/cover.webp)
 
 <small aria-hidden="true">Image: Unsplash</small>
 

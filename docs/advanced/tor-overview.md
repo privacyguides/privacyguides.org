@@ -4,7 +4,7 @@ icon: 'simple/torproject'
 description: Tor is a free to use, decentralized network designed for using the internet with as much privacy as possible.
 ---
 
-![Tor logo](../assets/img/self-contained-networks/tor.svg){ align=right }
+![Tor logo](../assets/images/self-contained-networks/tor.svg){ align=right }
 
 [**Tor**](../alternative-networks.md#tor) is a free to use, decentralized network designed for using the internet with as much privacy as possible. If used properly, the network enables private and anonymous browsing and communications. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
 
@@ -112,8 +112,8 @@ Those at risk of browser vulnerabilities should consider additional protections 
 Every time you [connect to Tor](../tor.md), it will choose three nodes to build a path to the internet—this path is called a "circuit."
 
 <figure markdown>
-  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/images-localized/how-tor-works/tor-path.svg#only-light)
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/images-localized/how-tor-works/tor-path-dark.svg#only-dark)
   <figcaption>Tor circuit pathway</figcaption>
 </figure>
 
@@ -148,8 +148,8 @@ The exit node will be chosen at random from all available Tor nodes ran with an 
 Connecting to an Onion Service in Tor works very similarly to connecting to a clearnet service, but your traffic is routed through a total of **six** nodes before reaching the destination server. Just like before, however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
 
 <figure style="width:100%" markdown>
-  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
-  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/images-localized/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/images-localized/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
   <figcaption>Tor circuit pathway with Onion Services. Nodes in the <span class="pg-blue">blue</span> fence belong to your browser, while nodes in the <span class="pg-red">red</span> fence belong to the server, so their identity is hidden from you.</figcaption>
 </figure>
 
@@ -168,8 +168,8 @@ Once Tor has built a circuit, data transmission is done as follows:
 Below is an alternative diagram showing the process. Each node removes its own layer of encryption, and when the destination server returns data, the same process happens entirely in reverse. For example, the exit node does not know who you are, but it does know which node it came from, and so it adds its own layer of encryption and sends it back.
 
 <figure markdown>
-  ![Tor encryption](../assets/img/how-tor-works/tor-encryption.svg#only-light)
-  ![Tor encryption](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
+  ![Tor encryption](../assets/images-localized/how-tor-works/tor-encryption.svg#only-light)
+  ![Tor encryption](../assets/images-localized/how-tor-works/tor-encryption-dark.svg#only-dark)
   <figcaption>Sending and receiving data through the Tor Network</figcaption>
 </figure>
 

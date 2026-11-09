@@ -31,8 +31,8 @@ Many banks and credit card providers offer native virtual card functionality. If
 
 <div class="admonition recommendation" markdown>
 
-![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
-![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
+![Privacy.com logo](assets/images/financial-services/privacy_com.svg#only-light){ align=right }
+![Privacy.com logo](assets/images/financial-services/privacy_com-dark.svg#only-dark){ align=right }
 
 **Privacy.com**'s free plan allows you to create up to 12 virtual cards per month, set spend limits on those cards, and shut off cards instantly. Their paid plans provide higher limits on the number of cards that can be created each month.
 
@@ -50,8 +50,8 @@ Privacy.com gives information about the merchants you purchase from to your bank
 
 <div class="admonition recommendation" markdown>
 
-![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ align=right }
-![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
+![MySudo logo](assets/images/financial-services/mysudo.svg#only-light){ align=right }
+![MySudo logo](assets/images/financial-services/mysudo-dark.svg#only-dark){ align=right }
 
 **MySudo** provides up to 9 virtual cards depending on the plan you purchase. Their paid plans additionally include functionality which may be useful for making purchases privately, such as virtual phone numbers and email addresses, although we typically recommend other [email aliasing providers](email-aliasing.md) for extensive email aliasing use.
 
@@ -84,7 +84,7 @@ These services allow you to purchase gift cards for a variety of merchants onlin
 
 <div class="admonition recommendation" markdown>
 
-![Coincards logo](assets/img/financial-services/coincards.svg){ align=right }
+![Coincards logo](assets/images/financial-services/coincards.svg){ align=right }
 
 **Coincards** allows you to purchase gift cards for a large variety of merchants. Their homepage has a complete listing of the various countries where their service is available.
 

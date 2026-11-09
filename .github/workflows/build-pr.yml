@@ -1,114 +1,53 @@
+# SPDX-FileCopyrightText: 2024-2026 Jonah Aragon
+# SPDX-License-Identifier: MIT
+
 name: 🛠️ Build PR Preview
 
 on:
   pull_request:
 
 concurrency:
-  group: ${{github.event.pull_request.head.ref}}
+  group: pr-build-${{ github.event.pull_request.number }}
   cancel-in-progress: true
 
 permissions:
   contents: read
 
 jobs:
-  metadata:
-    runs-on: ubuntu-latest
-    outputs:
-      submodules: ${{ steps.submodules-fork.outputs.submodules || steps.submodules-main.outputs.submodules }}
-      privileged: ${{ steps.submodules-fork.outputs.privileged || steps.submodules-main.outputs.privileged }}
-    env:
-      ACTIONS_SSH_KEY: ${{ secrets.ACTIONS_SSH_KEY }}
-    steps:
-      - name: Save PR metadata
-        run: |
-          mkdir -p ./metadata
-          echo ${{ github.event.number }} > ./metadata/NR
-          echo ${{ github.event.pull_request.head.sha }} > ./metadata/SHA
-
-      - name: Set submodules for fork
-        if: env.ACTIONS_SSH_KEY == ''
-        id: submodules-fork
-        run: |
-          echo 'submodules={"repo":["brand","i18n"]}' >> "$GITHUB_OUTPUT"
-          echo "privileged=false" >> "$GITHUB_OUTPUT"
-          echo "false" > ./metadata/PRIVILEGED
-
-      - name: Set submodules for main repo
-        if: env.ACTIONS_SSH_KEY != ''
-        id: submodules-main
-        run: |
-          echo 'submodules={"repo":["brand","i18n","mkdocs-material-insiders"]}' >> "$GITHUB_OUTPUT"
-          echo "privileged=true" >> "$GITHUB_OUTPUT"
-          echo "true" > ./metadata/PRIVILEGED
-
-      - name: Upload metadata as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: metadata
-          path: metadata
-
-  submodule:
-    needs: metadata
-    strategy:
-      matrix: ${{ fromJson(needs.metadata.outputs.submodules) }}
-    uses: privacyguides/.github/.github/workflows/download-repo.yml@main
-    with:
-      repo: ${{ matrix.repo }}
-      privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
-    secrets:
-      ACTIONS_SSH_KEY: ${{ secrets.ACTIONS_SSH_KEY }}
-
   build_english:
-    needs: [submodule, metadata]
-    strategy:
-      matrix:
-        lang: [en]
-      fail-fast: true
     uses: ./.github/workflows/build.yml
     with:
-      ref: ${{github.event.pull_request.head.ref}}
+      ref: ${{github.event.pull_request.head.sha}}
       repo: ${{github.event.pull_request.head.repo.full_name}}
       lang: en
       continue-on-error: false
-      privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
       strict: true
-    secrets:
-      MEMBERS_API_URL: ${{ secrets.MEMBERS_API_URL }}
 
   build_i18n:
     if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build i18n') }}
-    needs: [submodule, metadata]
     strategy:
       matrix:
         lang: [es, fr, he, it, nl, ru, zh-Hant, zh-TW]
       fail-fast: false
     uses: ./.github/workflows/build.yml
     with:
-      ref: ${{github.event.pull_request.head.ref}}
+      ref: ${{github.event.pull_request.head.sha}}
       repo: ${{github.event.pull_request.head.repo.full_name}}
       lang: ${{ matrix.lang }}
       continue-on-error: true
-      privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
       strict: true
-    secrets:
-      MEMBERS_API_URL: ${{ secrets.MEMBERS_API_URL }}
 
   build_blog:
     if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build blog') }}
-    needs: [submodule, metadata]
     uses: ./.github/workflows/build-blog.yml
     with:
-      ref: ${{github.event.pull_request.head.ref}}
-      repo: ${{github.event.pull_request.head.repo.full_name}}
       continue-on-error: true
-      privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
 
   build_zimfile:
     if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build zimfile') }}
-    needs: [submodule, metadata]
     uses: ./.github/workflows/build-zimfile.yml
     with:
-      ref: ${{github.event.pull_request.head.ref}}
+      ref: ${{github.event.pull_request.head.sha}}
       repo: ${{github.event.pull_request.head.repo.full_name}}
 
   combine_build:
@@ -119,9 +58,9 @@ jobs:
       (needs.build_i18n.result == 'success' || needs.build_i18n.result == 'skipped') &&
       (needs.build_blog.result == 'success' || needs.build_blog.result == 'skipped')
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     steps:
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
           pattern: site-build-*
           merge-multiple: true
@@ -131,13 +70,20 @@ jobs:
           ls -la site/
 
       - name: Upload Site
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: site-build-combined
           path: site
           retention-days: 5
 
-  cleanup:
-    if: ${{ always() }}
-    needs: [build_english, build_i18n, build_blog, build_zimfile]
-    uses: privacyguides/.github/.github/workflows/cleanup.yml@main
+      - name: Save PR metadata
+        run: |
+          mkdir -p ./metadata
+          echo ${{ github.event.number }} > ./metadata/NR
+          echo ${{ github.event.pull_request.head.sha }} > ./metadata/SHA
+
+      - name: Upload metadata as artifact
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: metadata
+          path: metadata

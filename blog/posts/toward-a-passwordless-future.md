@@ -14,7 +14,7 @@ preview:
 ---
 # Toward a Passwordless Future
 
-![Article cover showing a rusted, broken lock on a door latch](../assets/images/toward-a-passwordless-future/cover.webp)
+![Article cover showing a rusted, broken lock on a door latch](../assets/images-blog/toward-a-passwordless-future/cover.webp)
 
 <small aria-hidden="true">Illustration: Jordan / Privacy Guides | Photo: Gowtham AGM / Unsplash</small>
 
@@ -42,7 +42,7 @@ MIT's Compatible Time Sharing System (CTSS), pioneered by Fernando Corbató, aim
 
 These passwords weren't designed to be very secure. Fred Schneider, a computer science professor at Cornell University, said in the same Wired article "nobody wanted to devote many machine resources to this authentication stuff."
 
-![Fernando Corbató standing next to the CTSS](../assets/images/toward-a-passwordless-future/ctss.webp)
+![Fernando Corbató standing next to the CTSS](../assets/images-blog/toward-a-passwordless-future/ctss.webp)
 
 <small aria-hidden="true">Fernando Corbató with the CTSS | Photo: <a href="https://www.computerhistory.org/timeline/1961/">Computer History Museum</a></small>
 

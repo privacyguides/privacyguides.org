@@ -18,7 +18,7 @@ When it comes to anonymizing networks, we want to specially note that [Tor](adva
 
 <div class="admonition recommendation" markdown>
 
-![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
+![Tor logo](assets/images/self-contained-networks/tor.svg){ align=right }
 
 The **Tor** network is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } circumvention tool.
 
@@ -47,7 +47,7 @@ You can try connecting to *Privacy Guides* via Tor at [xoe4vn5uwdztif6goazfbmogh
 
 <div class="admonition recommendation" markdown>
 
-![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
+![Orbot logo](assets/images/self-contained-networks/orbot.svg){ align=right }
 
 **Orbot** is a mobile application which routes traffic from any app on your device through the Tor network.
 
@@ -85,8 +85,8 @@ We previously recommended enabling the *Isolate Destination Address* preference 
 
 <div class="admonition recommendation" markdown>
 
-![Snowflake logo](assets/img/self-contained-networks/snowflake.svg#only-light){ align=right }
-![Snowflake logo](assets/img/self-contained-networks/snowflake-dark.svg#only-dark){ align=right }
+![Snowflake logo](assets/images/self-contained-networks/snowflake.svg#only-light){ align=right }
+![Snowflake logo](assets/images/self-contained-networks/snowflake-dark.svg#only-dark){ align=right }
 
 **Snowflake** allows you to donate bandwidth to the Tor Project by operating a "Snowflake proxy" within your browser.
 
@@ -113,8 +113,8 @@ Running a Snowflake proxy is low-risk, even more so than running a Tor relay or 
 
 <div class="admonition recommendation" markdown>
 
-![I2P logo](assets/img/self-contained-networks/i2p.svg#only-light){ align=right }
-![I2P logo](assets/img/self-contained-networks/i2p-dark.svg#only-dark){ align=right }
+![I2P logo](assets/images/self-contained-networks/i2p.svg#only-light){ align=right }
+![I2P logo](assets/images/self-contained-networks/i2p-dark.svg#only-dark){ align=right }
 
 **I2P** is a network layer which encrypts your connections and routes them via a network of computers distributed around the world. It is mainly focused on creating an alternative, privacy-protecting network rather than making regular internet connections anonymous.
 
