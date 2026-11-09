@@ -32,6 +32,13 @@ review:
     - Some inconsistent and confusing settings.
     - Doesn't provide the same protections as Tor Browser.
 ---
+
+<!--
+SPDX-FileCopyrightText: 2024-2026 Jonah Aragon
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 ![Onion Browser logo](../assets/images/self-contained-networks/onion_browser.svg){ align=right }
 
 Search the App Store for "Tor Browser" and you'll be flooded with a variety of ways to connect to the Tor network from your iPhone. However, there's only one solution officially [endorsed](https://support.torproject.org/tormobile/tormobile-3/) by the Tor Project themselves: **Onion Browser**.<!-- more -->

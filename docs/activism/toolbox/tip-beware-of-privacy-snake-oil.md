@@ -4,6 +4,14 @@ description: In your privacy advocacy, it's important to recommend tools that re
 icon: fontawesome/solid/skull-crossbones
 cover: activism/banner-toolbox-tip-snakeoil.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2026 MAGIC Privacy Guides Fund (Magic Grants)
+SPDX-FileContributor: Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 In your privacy advocacy, it's essential to use and recommend tools that *reliably* protect privacy. For this, you need to **investigate and remain highly skeptical** of any dangerous or unproven marketing claims.
 
 Here's how to evaluate privacy claims, and recommend tools that are trustworthy:

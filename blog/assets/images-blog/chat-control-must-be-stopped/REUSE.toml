@@ -1,0 +1,36 @@
+version = 1
+
+[[annotations]]
+path = [
+  "chatcontrol-LornaSchutte-chatcontroleu-1.webp",
+  "chatcontrol-LornaSchutte-chatcontroleu-2.webp",
+  "chatcontrol-LornaSchutte-chatcontroleu-3.webp",
+]
+SPDX-FileCopyrightText = "Lorna Schütte"
+SPDX-License-Identifier = "CC-BY-3.0-DE"
+
+[[annotations]]
+path = "chatcontrol-cover.webp"
+SPDX-FileCopyrightText = "Ramaz Bluashvili"
+SPDX-FileContributor = "Modified by Em for Privacy Guides"
+SPDX-License-Identifier = "LicenseRef-Pexels"
+
+[[annotations]]
+path = "chatcontrol-fightchatcontrol-website.webp"
+SPDX-FileCopyrightText = "fightchatcontrol.eu"
+SPDX-License-Identifier = "LicenseRef-Proprietary"
+
+[[annotations]]
+path = "chatcontrol-map-chatcontroleu-20250903.webp"
+SPDX-FileCopyrightText = "MAGIC Privacy Guides Fund (Magic Grants)"
+SPDX-FileContributor = "Em"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = [
+  "chatcontrol-stopscanningme-meme-2.webp",
+  "chatcontrol-stopscanningme-meme-4.webp",
+  "chatcontrol-stopscanningme-video.webp"
+]
+SPDX-FileCopyrightText = "European Digital Rights (EDRi)"
+SPDX-License-Identifier = "CC-BY-4.0"

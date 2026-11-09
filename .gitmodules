@@ -2,5 +2,5 @@
 # SPDX-License-Identifier: MIT
 
 [submodule "theme/assets/brand"]
-	path = theme/assets/brand
+	path = docs/assets/brand
 	url = https://github.com/privacyguides/brand.git

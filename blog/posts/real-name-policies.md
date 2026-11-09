@@ -13,6 +13,13 @@ preview:
   cover: blog/assets/images/real-name-policies/realname-cover.webp
 ---
 
+<!--
+SPDX-FileCopyrightText: 2025-2026 Em
+SPDX-FileCopyrightText: 2025-2026 Jordan Gwyn
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Real-Name Policies: The War Against Pseudonymity
 
 ![Filtered photo of a "Hello my name is" name-tag sticker on a street post. Over the space for the name is a black graffiti tag.](../assets/images-blog/real-name-policies/realname-cover.webp)

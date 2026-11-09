@@ -1,5 +1,11 @@
 # Freddy
 
+<!--
+SPDX-FileCopyrightText: 2019-2026 Jonah Aragon and Freddy
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 ![Profile picture](https://github.com/freddy-m.png){ align=right }
 
 [**Freddy**](https://freddy.lol) is a founding team member of Privacy Guides and part of its [executive committee](https://www.privacyguides.org/en/about/#executive-committee). He writes in American English reluctantly.

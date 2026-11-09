@@ -12,6 +12,13 @@ description: Differential privacy is a mathematically rigorous framework for add
 preview:
   cover: blog/assets/images/differential-privacy/cover.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2025-2026 Fria
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # What is Differential Privacy?
 
 !["Differential Privacy" text with a series of ones and zeros being obscured with a blur filter](../assets/images-blog/differential-privacy/cover.webp)

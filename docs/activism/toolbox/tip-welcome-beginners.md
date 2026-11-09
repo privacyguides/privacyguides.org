@@ -4,6 +4,14 @@ description: For our privacy rights movement to grow, we must bring more people 
 icon: fontawesome/solid/user-plus
 cover: activism/banner-toolbox-tip-beginners.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2026 MAGIC Privacy Guides Fund (Magic Grants)
+SPDX-FileContributor: Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 For our privacy rights movement to grow, we must **bring more people in**. To accomplish this, it's fundamental to discuss privacy in ways that are accessible to newcomers who aren't familiar with the basic concepts yet.
 
 Here's how you can improve your advocacy work to make it more approachable to beginners:

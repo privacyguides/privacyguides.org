@@ -16,6 +16,13 @@ schema_type: AnalysisNewsArticle
 preview:
   cover: blog/assets/images/choosing-the-right-messenger/cover.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2019-2026 Dan Arel
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Choosing the Right Messenger
 
 !["Choosing The Right Messenger" cover image](../assets/images-blog/choosing-the-right-messenger/cover.webp)

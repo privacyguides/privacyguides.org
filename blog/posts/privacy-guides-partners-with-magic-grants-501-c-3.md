@@ -10,6 +10,13 @@ schema_type: BackgroundNewsArticle
 preview:
   cover: blog/assets/images/privacy-guides-partners-with-magic-grants-501-c-3/magicblog.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2024-2026 Jonah Aragon
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Privacy Guides Partners With MAGIC Grants 501(c)(3)
 
 ![](../assets/images-blog/privacy-guides-partners-with-magic-grants-501-c-3/magicblog.webp)

@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2021-2026 Jonah Aragon and the Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Daniel Gray
 
 ![Profile picture](https://github.com/dngray.png){ align=right }

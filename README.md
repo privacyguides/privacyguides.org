@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2019-2026 Jonah Aragon and the Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 <!-- markdownlint-disable MD041 MD045 -->
 <div align="center">
   <a href="https://www.privacyguides.org">
@@ -156,21 +162,35 @@ It is required to create a GitHub release to publish the current site to privacy
 3. A GitHub Release will be automatically created and deployed to the live site.
     - You may wish to manually check or edit the release changelog/title after it is published for accuracy.
 
+<!-- SPDX-SnippetBegin -->
+<!--
+SPDX-SnippetCopyrightText: Open Source Guides authors
+SPDX-SnippetCopyrightText: 2019-2026 Jonah Aragon and the Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
 ## License
 
-<!-- SPDX-FileCopyrightText: 2020-2026 Jonah Aragon and the Privacy Guides contributors -->
+Generally speaking, content contributed to Privacy Guides is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](/LICENSE) (CC-BY-SA-4.0) unless otherwise noted. Source code written for Privacy Guides is licensed under the [MIT License](/LICENSE-CODE) unless otherwise noted. Source code includes the code in this repo for building this website, and code snippets on the website itself.
 
-Privacy Guides content is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](/LICENSE), and the underlying source code used to format and display that content on [www.privacyguides.org](https://www.privacyguides.org) is licensed under the [MIT License](/LICENSE-CODE).
+<!-- REUSE-IgnoreStart -->
 
-Generally speaking, **content** can be found in the [`/docs`](/docs), [`/theme/assets/img`](/theme/assets/img) and [`/includes`](/includes) folders; and **source code** and configuration files can be found in the [`/config`](/config) and [`/theme`](/theme) folders, and in the root of this repository. Any source code snippets contained within documentation files are [MIT Licensed](/LICENSE-CODE). Please contact us if you require clarification on any of these terms.
+This repository is compliant with the [REUSE](https://reuse.software/) specification. This means that every single file in this repository is tagged with metadata indicating the copyright holder(s) of the file and the license that asset is licensed under. For the avoidance of doubt, the REUSE/SPDX metadata is the only definitive source of what license a file in this project is licensed under. This metadata is typically found as a comment in the file's header, a `.license` sidecar file, or the `REUSE.toml` file. The metadata will indicate `SPDX-License-Identifier` alongside the name of the license, and the full text of the indicated license can be read in the corresponding file under [`LICENSES/`](/LICENSES/).
 
-These licenses do not apply to any work where another license is otherwise noted.
+<!-- REUSE-IgnoreEnd -->
+
+Please contact us if you require clarification on any of these terms.
 
 **Logos** in the [`/theme/assets/img`](/theme/assets/img) folder may not be original works of Privacy Guides and therefore cannot be (re)licensed by us. We believe that these logos obtained from third-party providers are either in the public domain or **fair use**. In a nutshell, legal [fair use doctrine](https://copyright.gov/fair-use/more-info.html) allows the use of copyrighted images in order to identify the subject for purposes of public comment. However, these logos and other images may still be subject to trademark laws in one or more jurisdictions. Before using this content, please ensure that it is used to identify the entity or organization that owns the trademark and that you have the right to use it under the laws which apply in the circumstances of your intended use. *When copying content from this website, you are solely responsible for ensuring that you do not infringe someone else's trademark or copyright.*
 
-You may comply with our license terms in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use. You **may not** use the Privacy Guides branding in your own project without express approval from this project. Privacy Guides's brand trademarks include the "Privacy Guides" wordmark and shield logo.
+You may comply with our license terms in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use.
 
-When you contribute to this repository you are doing so under the above licenses, and you are granting Privacy Guides a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
+You **may not** use the Privacy Guides branding in your own project without express approval from this project. Privacy Guides's brand trademarks include the "Privacy Guides" wordmark and shield logo.
+
+When you contribute to our website you remain the copyright holder of your contributions, but you agree to contribute any creative content under the CC-BY-SA-4.0 license, any machine-readable code under the MIT license, and you agree to grant Privacy Guides a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
+
+<!-- SPDX-SnippetEnd -->
 
 ## Contributors
 

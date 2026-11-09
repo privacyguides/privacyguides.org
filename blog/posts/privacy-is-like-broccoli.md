@@ -11,6 +11,12 @@ preview:
   cover: blog/assets/images/privacy-is-like-broccoli/broccoli-cover.webp
 ---
 
+<!--
+SPDX-FileCopyrightText: 2025-2026 Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Privacy Is Like Broccoli
 
 ![Background filled with numbers from 0 to 2, representing binary code separated by the character 2. Outlined in bright green color is the shape of a piece of broccoli.](../assets/images-blog/privacy-is-like-broccoli/broccoli-cover.webp)

@@ -13,6 +13,13 @@ tags:
 description: Wire has been removed from Privacy Guides' recommendations following their acquisition by a US holding company and VC investments.
 schema_type: NewsArticle
 ---
+
+<!--
+SPDX-FileCopyrightText: 2019-2026 Dan Arel
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Delisting Wire From Privacy Guides
 
 !["Delisting Wire" cover image](../assets/images-blog/delisting-wire/cover.avif)

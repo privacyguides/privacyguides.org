@@ -14,6 +14,12 @@ preview:
   cover: blog/assets/images/mozilla-disappoints-us-yet-again-2/cover.webp
 ---
 
+<!--
+SPDX-FileCopyrightText: 2024-2026 Jonah Aragon
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # "Privacy-Preserving" Attribution: Mozilla Disappoints Us Yet Again
 
 ![](../assets/images-blog/mozilla-disappoints-us-yet-again-2/cover.webp)

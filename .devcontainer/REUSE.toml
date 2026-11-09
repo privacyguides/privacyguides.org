@@ -1,0 +1,10 @@
+version = 1
+
+[[annotations]]
+path = [
+  "Caddyfile",
+  "devcontainer.json",
+  "devcontainer-lock.json"
+]
+SPDX-FileCopyrightText = "2024-2026 Jonah Aragon"
+SPDX-License-Identifier = "MIT"

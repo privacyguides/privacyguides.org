@@ -12,6 +12,13 @@ license: BY-SA
 preview:
   cover: blog/assets/images/toward-a-passwordless-future/cover.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2025-2026 Fria
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Toward a Passwordless Future
 
 ![Article cover showing a rusted, broken lock on a door latch](../assets/images-blog/toward-a-passwordless-future/cover.webp)

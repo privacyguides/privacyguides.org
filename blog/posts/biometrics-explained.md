@@ -14,6 +14,13 @@ description: |
 preview:
   cover: blog/assets/images/biometrics-explained/biometrics.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2025-2026 Fria
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Biometrics Explained
 
 ![Glowing fingerprint on glass](../assets/images-blog/biometrics-explained/biometrics.webp)

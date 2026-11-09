@@ -14,6 +14,13 @@ schema_type: NewsArticle
 preview:
   cover: blog/assets/images/relisting-startpage/cover.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2020-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Relisting Startpage.com
 
 !["Relisting Startpage" cover image](../assets/images-blog/relisting-startpage/cover.webp)

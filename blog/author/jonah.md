@@ -25,6 +25,12 @@ schema:
           - https://www.wikidata.org/wiki/Q117304062
 ---
 
+<!--
+SPDX-FileCopyrightText: 2019-2026 Jonah Aragon
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Jonah Aragon
 
 ![Profile picture](https://github.com/jonaharagon.png){ align=right }

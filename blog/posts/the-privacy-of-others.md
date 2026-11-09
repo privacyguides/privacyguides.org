@@ -10,6 +10,13 @@ schema_type: NewsArticle
 preview:
   cover: blog/assets/images/the-privacy-of-others/cover.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2025-2026 Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Privacy is Also Protecting the Data of Others
 
 ![Illustration from a photo of two children standing in a grass field. The taller child holds a yellow umbrella protecting the smaller child.](../assets/images-blog/the-privacy-of-others/cover.webp)

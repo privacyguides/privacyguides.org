@@ -15,6 +15,13 @@ canonical: https://www.jonaharagon.com/posts/restrict-act/
 description: The RESTRICT Act would grant the government broad powers to restrict access to any site or service they claim could pose a threat to national security, akin to China's Great Firewall.
 schema_type: OpinionNewsArticle
 ---
+
+<!--
+SPDX-FileCopyrightText: 2023-2026 Jonah Aragon
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Worried About TikTok? The RESTRICT Act Is Not the Answer Americans Are Looking For
 
 Privacy advocates have been calling for the United States to adopt strong consumer privacy protection laws along the lines of the EU's GDPR for a long time now, but the proposed *Restricting the Emergence of Security Threats that Risk Information and Communications Technology* (RESTRICT) *Act* isn't the answer we're looking for.<!-- more -->

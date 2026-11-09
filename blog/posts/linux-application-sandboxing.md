@@ -12,6 +12,13 @@ license: BY-SA
 description: We outline a few projects which aim to solve the poor sandboxing situation in Linux relative to operating systems like macOS and ChromeOS.
 schema_type: AnalysisNewsArticle
 ---
+
+<!--
+SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Sandboxing Applications on Desktop Linux
 
 Some sandboxing solutions for desktop Linux distributions do exist, however they are not as strict as those found in macOS or ChromeOS. Applications installed from the package manager (`dnf`, `apt`, etc.) typically have **no** sandboxing or confinement whatsoever. Below are a few projects that aim to solve this problem:<!-- more -->

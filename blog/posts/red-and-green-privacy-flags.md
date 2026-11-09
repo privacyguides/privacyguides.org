@@ -12,6 +12,12 @@ preview:
   cover: blog/assets/images/red-and-green-privacy-flags/dontcare-cover.webp
 ---
 
+<!--
+SPDX-FileCopyrightText: 2025-2026 Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # &ldquo;We [Don't] Care About Your Privacy&rdquo;
 
 ![Filtered photo of a metal container left on the street, with on it the painted sentence "We've updated our privacy policy." with three faded happy face icons around it. On and around the container are icons of hidden red flags.](../assets/images-blog/red-and-green-privacy-flags/dontcare-cover.webp)

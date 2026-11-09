@@ -11,6 +11,12 @@ preview:
   cover: blog/assets/images/your-online-life-is-irl/irl-cover.webp
 ---
 
+<!--
+SPDX-FileCopyrightText: 2025-2026 Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Your Online Life Is IRL
 
 ![Photo of an illuminated red street sign with the word Internet on it.](../assets/images-blog/your-online-life-is-irl/irl-cover.webp)

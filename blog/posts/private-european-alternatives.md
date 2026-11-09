@@ -13,6 +13,13 @@ preview:
   site_logo: privacy-guides-logo-notext-colorbg-white.svg
   icon: simple/europeanunion
 ---
+
+<!--
+SPDX-FileCopyrightText: 2025-2026 Jonah Aragon
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Privacy-Respecting European Tech Alternatives
 
 ![European Union flag and Privacy Guides logo side by side](../assets/images-blog/private-european-alternatives/eu-alternatives.webp)

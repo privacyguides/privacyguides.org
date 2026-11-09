@@ -2,6 +2,13 @@
 description: We run a number of web services to test out features and promote cool decentralized, federated, and/or open-source projects.
 ---
 
+<!--
+SPDX-FileCopyrightText: 2022-2026 Jonah Aragon and Daniel Gray
+SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Privacy Guides Services
 
 We run a number of web services to test out features and promote cool decentralized, federated, and/or open-source projects. Many of these services are available to the public and are detailed below.

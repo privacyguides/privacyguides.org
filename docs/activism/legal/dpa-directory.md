@@ -5,6 +5,13 @@ description: The DPA Directory is a tool to help you find the principal consumer
 cover: activism/banner-activism-dpadirectory.webp
 ---
 
+<!--
+SPDX-FileCopyrightText: 2026 MAGIC Privacy Guides Fund (Magic Grants)
+SPDX-FileContributor: Em
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 <small>Last update: 2026-03-30</small>
 
 The **Data Protection Authority** (DPA) **Directory** is a tool to help you find the main consumer privacy law in your region, and the authority mandated to enforce the law.

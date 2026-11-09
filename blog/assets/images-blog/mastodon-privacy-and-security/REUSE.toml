@@ -1,0 +1,18 @@
+version = 1
+
+[[annotations]]
+path = [
+  "mastodon-choosing-instance.webp",
+  "mastodon-private-mention-encryption.webp",
+]
+SPDX-FileCopyrightText = "2025-2026 MAGIC Privacy Guides Fund (Magic Grants)"
+SPDX-FileContributor = "Em"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "mastodon-cover.webp"
+SPDX-FileCopyrightText = "2025-2026 MAGIC Privacy Guides Fund (Magic Grants)"
+SPDX-FileContributor = "Em"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+SPDX-FileAttributionText = "Mastodon mascot by @dopatwo@mastodon.social and Mastodon logo used with permission from Mastodon gGmbH."
+SPDX-FileNotice = "This site is not otherwise affiliated with Mastodon gGmbH."

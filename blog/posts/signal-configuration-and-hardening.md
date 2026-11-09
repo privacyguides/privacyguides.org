@@ -16,6 +16,15 @@ license: BY-SA
 description: This guide details actions you can take to configure and harden Signal in accordance with your threat model.
 schema_type: AnalysisNewsArticle
 ---
+
+<!--
+SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors
+SPDX-FileCopyrightText: 2022-2026 matchboxbananasynergy
+SPDX-FileCopyrightText: 2022-2026 Daniel Gray
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Signal Configuration and Hardening Guide
 
 [Signal](https://www.privacyguides.org/en/real-time-communication#signal) is a widely regarded instant messaging service that is not only easy to use but is also private and secure. Signal's strong end-to-end encryption implementation and metadata protections provide a level of assurance that only you and your intended recipients are able to read communications.<!-- more -->

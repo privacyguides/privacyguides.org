@@ -9,6 +9,13 @@ tags:
     - Privacy Guides
 license: BY-SA
 ---
+
+<!--
+SPDX-FileCopyrightText: 2024-2026 Jonah Aragon
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Bad-Faith Arguments in the Privacy Community
 
 The Privacy Guides community is one of the best privacy-related communities on the internet, and I think we have generally done a good job at promoting a positive and respectful environment where people can learn and grow.
@@ -35,14 +42,14 @@ To give an example, there are two specific behaviors we want to discourage with 
 
 1. The constant use of words like "shilling," "fanboys," etc. to describe people who have a difference in opinion to your own is not acceptable.
 
-    To "[shill](https://en.wikipedia.org/wiki/Shill)" something is to promote something you have an employer relationship or some other actual conflict of interest with. To accuse someone in our community of being a planted shill without any evidence, simply because they like something that you dislike, is both a serious accusation and a bad-faith argument.
+   To "[shill](https://en.wikipedia.org/wiki/Shill)" something is to promote something you have an employer relationship or some other actual conflict of interest with. To accuse someone in our community of being a planted shill without any evidence, simply because they like something that you dislike, is both a serious accusation and a bad-faith argument.
 
-    Even the use of terms like these informally to describe people who like a certain product more than others is disrespectful, and sows uncertainty and distrust within our community, so it will no longer be tolerated.
+   Even the use of terms like these informally to describe people who like a certain product more than others is disrespectful, and sows uncertainty and distrust within our community, so it will no longer be tolerated.
 
 2. A very small portion of GrapheneOS community members continually attempt to derail any conversations mentioning GrapheneOS with irrelevant details and confrontational attitudes.
 
-    This is not a reflection on the GrapheneOS project itself, but unfortunately this has become a repeated situation with certain community members of this specific project more than anyone else, so we have to call it out.
+   This is not a reflection on the GrapheneOS project itself, but unfortunately this has become a repeated situation with certain community members of this specific project more than anyone else, so we have to call it out.
 
-    Making unfounded accusations against Privacy Guides community members of harassment towards GrapheneOS simply because they presented their criticism of the project is not a good faith argument. Similarly, presenting unverified statements from the GrapheneOS community as factual has led to misinformation being spread in the past. It is critical to always differentiate between opinions/beliefs and factual information.
+   Making unfounded accusations against Privacy Guides community members of harassment towards GrapheneOS simply because they presented their criticism of the project is not a good faith argument. Similarly, presenting unverified statements from the GrapheneOS community as factual has led to misinformation being spread in the past. It is critical to always differentiate between opinions/beliefs and factual information.
 
-    **Privacy Guides community spaces are not GrapheneOS discussion forums, and the drama from their community is not automatically on-topic in ours.** Please do not make new topics in our forum that simply link to drama posts from the GrapheneOS community. A good rule of thumb is that unless a post from GrapheneOS is specifically talking about GrapheneOS-specific, privacy-related functionality and not about other projects/software/etc., it is probably off-topic here.
+   **Privacy Guides community spaces are not GrapheneOS discussion forums, and the drama from their community is not automatically on-topic in ours.** Please do not make new topics in our forum that simply link to drama posts from the GrapheneOS community. A good rule of thumb is that unless a post from GrapheneOS is specifically talking about GrapheneOS-specific, privacy-related functionality and not about other projects/software/etc., it is probably off-topic here.

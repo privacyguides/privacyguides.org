@@ -5,6 +5,12 @@ description: An email aliasing service allows you to easily generate a new email
 cover: email-aliasing.webp
 ---
 
+<!--
+SPDX-FileCopyrightText: 2022-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
