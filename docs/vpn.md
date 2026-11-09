@@ -342,7 +342,7 @@ Obscura only supports outbound IPv6 from Mullvad's servers, no inbound IPv6 to O
 
 #### :material-information-outline:{ .pg-blue } Kill Switch
 
-Obscura supports using a kill switch on all major platforms, however the feature is currently classified as experimental. The kill switch on macOS and iOS have additional quirks, the [current platform documentation](https://obscura.com/knowledge/kill-switch/) gives additional information about those platforms.
+Obscura supports using a kill switch on all major platforms, however the feature is currently classified as experimental on macOS & iOS. The [current platform documentation](https://obscura.com/knowledge/kill-switch/) gives additional information about those platforms.
 
 #### :material-information-outline:{ .pg-blue } Additional Notes
 
