@@ -30,7 +30,7 @@ review:
     - Can be slow.
     - No local offline application.
 ---
-![Article cover photo showing a phone icon over a protest](../assets/images/cryptpad-review/cryptpad-cover.webp)
+![Article cover photo showing a phone icon over a protest](../assets/images-blog/cryptpad-review/cryptpad-cover.webp)
 
 <small aria-hidden="true">Illustration: Jordan Warne / Privacy Guides | Photo: Christin Hume / Unsplash</small>
 
@@ -48,7 +48,7 @@ But you shouldn't trust anyone else either.
 
 ## Why use CryptPad instead?
 
-![CryptPad logo](../assets/img/document-collaboration/cryptpad.svg){ align=right itemprop="image" }
+![CryptPad logo](../assets/images/document-collaboration/cryptpad.svg){ align=right itemprop="image" }
 
 [CryptPad](https://cryptpad.org/) is an open-source collaborative office suite that offers everything that Google Docs offers, but better. And most importantly, in private.
 
@@ -101,7 +101,7 @@ If you would be at risk if your CryptPad usage was discovered later, and you do 
 
 You will see that *Privacy by Design* starts at the account creation level with CryptPad. You do not even have to provide an email address to start. All that you need to create an account is a cool username and a [secure and unique password](https://www.privacyguides.org/en/basics/passwords-overview/) (like all passwords should be).
 
-![Screenshot from the CryptPad login page showing several application choices.](../assets/images/cryptpad-review/cryptpad-login.webp)
+![Screenshot from the CryptPad login page showing several application choices.](../assets/images-blog/cryptpad-review/cryptpad-login.webp)
 
 <small aria-hidden="true">Unless credited otherwise, all screenshots from: Privacy Guides</small>
 
@@ -124,7 +124,7 @@ Another option that CryptPad offers on the "Settings" page is a quick way to "De
 
 You can also delete files individually. To do this, once you have created a document you can click on the "Access" button on the top menu, and you will see an option to "Destroy this document or folder permanently". After you've clicked on "Destroy" once, you will see the button change to "Are you sure?" and you'll have to click it again to confirm. This is a well-designed safeguard because this action is irrevocable. Test it with an empty document just to see how it works first.
 
-![Screenshot from a CryptPad document page showing the "destroy document" option.](../assets/images/cryptpad-review/cryptpad-deletingfiles.webp)
+![Screenshot from a CryptPad document page showing the "destroy document" option.](../assets/images-blog/cryptpad-review/cryptpad-deletingfiles.webp)
 
 ### Backing up data
 
@@ -183,7 +183,7 @@ For any sensitive document, it's a great idea to enable the auto-destruction fea
 
 Because sharing the link to a document without a password makes it accessible to anyone with this link, you should add a password to any sensitive document and share this password on a secure channel only. Make sure you select a password that is different from your account password and is also unique from other passwords you use. Ideally, always prefer a *passphrase*.
 
-![Screenshot from a CryptPad document creation popup showing the option to add a password.](../assets/images/cryptpad-review/cryptpad-creatingfile.webp)
+![Screenshot from a CryptPad document creation popup showing the option to add a password.](../assets/images-blog/cryptpad-review/cryptpad-creatingfile.webp)
 
 ### Access control
 
@@ -197,7 +197,7 @@ CryptPad offers a wide variety of applications, or document types, making CryptP
 
 That's a lot of choice!
 
-![Screenshot from the CryptPad new document popup showing all the types of document that can be created.](../assets/images/cryptpad-review/cryptpad-filetypes.webp)
+![Screenshot from the CryptPad new document popup showing all the types of document that can be created.](../assets/images-blog/cryptpad-review/cryptpad-filetypes.webp)
 
 <div class="admonition success" markdown>
 <p class="admonition-title">New from this week!</p>
@@ -214,73 +214,73 @@ Here are screenshots of each application included in CryptPad to give you a bett
 
 The usual classic spreadsheet for all your calculation needs. If you are familiar with Google Docs' spreadsheet, you will likely find this one easy to use:
 
-![Screenshot from a CryptPad spreadsheet document.](../assets/images/cryptpad-review/cryptpad-sheet.webp)
+![Screenshot from a CryptPad spreadsheet document.](../assets/images-blog/cryptpad-review/cryptpad-sheet.webp)
 
 ### Document
 
 The classic text document with advanced formatting features:
 
-![Screenshot from a CryptPad doc-type document.](../assets/images/cryptpad-review/cryptpad-document.webp)
+![Screenshot from a CryptPad doc-type document.](../assets/images-blog/cryptpad-review/cryptpad-document.webp)
 
 #### Tracking changes
 
 If you want to enable change tracking in this application, click on the "Collaboration" tab, then click on the "Track Changes" button, and select your preferred tracking option:
 
-![Screenshot from a CryptPad doc-type document showing the menu option to track changes.](../assets/images/cryptpad-review/cryptpad-trackingchanges.webp)
+![Screenshot from a CryptPad doc-type document showing the menu option to track changes.](../assets/images-blog/cryptpad-review/cryptpad-trackingchanges.webp)
 
 ### Presentation
 
 Another classic application to help you create slideshows:
 
-![Screenshot from a CryptPad presentation document.](../assets/images/cryptpad-review/cryptpad-presentation.webp)
+![Screenshot from a CryptPad presentation document.](../assets/images-blog/cryptpad-review/cryptpad-presentation.webp)
 
 ### Rich text
 
 A basic text document type for simpler text files:
 
-![Screenshot from a CryptPad rich text document.](../assets/images/cryptpad-review/cryptpad-richtext.webp)
+![Screenshot from a CryptPad rich text document.](../assets/images-blog/cryptpad-review/cryptpad-richtext.webp)
 
 ### Kanban
 
 A useful kanban organization tool to plan your projects:
 
-![Screenshot from a CryptPad kanban document.](../assets/images/cryptpad-review/cryptpad-kanban.webp)
+![Screenshot from a CryptPad kanban document.](../assets/images-blog/cryptpad-review/cryptpad-kanban.webp)
 
 ### Code
 
 A light code editor with previewing feature. This is especially useful for HTML files:
 
-![Screenshot from a CryptPad code document.](../assets/images/cryptpad-review/cryptpad-code.webp)
+![Screenshot from a CryptPad code document.](../assets/images-blog/cryptpad-review/cryptpad-code.webp)
 
 ### Form
 
 A form tool to create and share surveys, without sharing your survey data with unwanted third-parties:
 
-![Screenshot from a CryptPad form document.](../assets/images/cryptpad-review/cryptpad-form.webp)
+![Screenshot from a CryptPad form document.](../assets/images-blog/cryptpad-review/cryptpad-form.webp)
 
 ### Whiteboard
 
 A fun whiteboard tool if you feel creative, need to draw to explain, need to write and collaborate on complex math equations, and much more:
 
-![Screenshot from a CryptPad whiteboard document.](../assets/images/cryptpad-review/cryptpad-whiteboard.webp)
+![Screenshot from a CryptPad whiteboard document.](../assets/images-blog/cryptpad-review/cryptpad-whiteboard.webp)
 
 ### Markdown slides
 
 A simple application to quickly create and preview slides in Markdown format:
 
-![Screenshot from a CryptPad markdown slide document.](../assets/images/cryptpad-review/cryptpad-markdown.webp)
+![Screenshot from a CryptPad markdown slide document.](../assets/images-blog/cryptpad-review/cryptpad-markdown.webp)
 
 ### Diagram
 
 A flexible tool to create diagrams, for all your visual explanatory needs:
 
-![Screenshot from a CryptPad diagram document.](../assets/images/cryptpad-review/cryptpad-diagram.webp)
+![Screenshot from a CryptPad diagram document.](../assets/images-blog/cryptpad-review/cryptpad-diagram.webp)
 
 ### Calendar
 
 And finally, this isn't a document type per se, but you might be happy to hear CryptPad also integrates a Calendar application. This can be a fantastic tool to organize with your team and events. You can access it by clicking on your username on the upper-right, then selecting "Calendar":
 
-![Screenshot from the CryptPad calendar application.](../assets/images/cryptpad-review/cryptpad-calendar.webp)
+![Screenshot from the CryptPad calendar application.](../assets/images-blog/cryptpad-review/cryptpad-calendar.webp)
 
 ## Privacy and Encryption
 
@@ -300,7 +300,7 @@ Keep in mind however than when you share a link to a document, this link contain
 
 If you want to access your own CryptPad public key, you can click on your username on the upper-right, then select "Profile" and click on "View my profile". There you can click on "Copy public key" and this will copy your key to your device's clipboard.
 
-![Screenshot from a CryptPad profile page showing the copy public key button.](../assets/images/cryptpad-review/cryptpad-profile.webp)
+![Screenshot from a CryptPad profile page showing the copy public key button.](../assets/images-blog/cryptpad-review/cryptpad-profile.webp)
 
 ### Encryption algorithms
 

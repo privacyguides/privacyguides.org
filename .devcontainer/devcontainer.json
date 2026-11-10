@@ -1,11 +1,17 @@
-// For format details, see https://aka.ms/devcontainer.json.
+// SPDX-FileCopyrightText: 2024-2026 Jonah Aragon and the Privacy Guides contributors
+// SPDX-License-Identifier: MIT
+
 {
   "name": "Privacy Guides",
-  "image": "ghcr.io/privacyguides/privacyguides.org:sha-5648a3f",
-  // "build": {
-  //   "dockerfile": "../Dockerfile",
-  //   "context": ".."
-  // },
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "context": ".."
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "24"
+    }
+  },
   "overrideCommand": true,
   "portsAttributes": {
     "1337": {
@@ -27,17 +33,20 @@
   "mounts": [
     "source=${env:HOME}${env:USERPROFILE}/.config,target=/root/.config,type=bind"
   ],
+  "onCreateCommand": "npm install -g all-contributors-cli",
   "updateContentCommand": "git submodule update --init theme/assets/brand",
   "customizations": {
     "vscode": {
       "settings": {
+        "python.defaultInterpreterPath": "/opt/venv/bin/python",
+        "python.terminal.activateEnvironment": true,
         "tasks": {
           "version": "2.0.0",
           "tasks": [
             {
-              "label": "Articles",
+              "label": "Build development blog",
               "type": "shell",
-              "command": "mkdocs serve --config-file=mkdocs.blog.yml --dev-addr=localhost:8001",
+              "command": "./run.sh --blog serve --dev-addr=localhost:8001",
               "group": "test",
               "runOptions": {
                 "runOn": "folderOpen"
@@ -49,9 +58,9 @@
               }
             },
             {
-              "label": "Main",
+              "label": "Build development website",
               "type": "shell",
-              "command": "./run.sh --cmd=mkdocs --insiders",
+              "command": "./run.sh serve",
               "group": "test",
               "runOptions": {
                 "runOn": "folderOpen"
@@ -62,6 +71,20 @@
                 "group": "Live server",
                 "focus": true
               }
+            },
+            {
+              "label": "Build production website",
+              "type": "shell",
+              "command": "./run.sh build",
+              "options": { "env": { "BUILD_CONTEXT": "production" } },
+              "group": "build"
+            },
+            {
+              "label": "Build production blog",
+              "type": "shell",
+              "command": "./run.sh --blog build --dev-addr=localhost:8001",
+              "options": { "env": { "BUILD_CONTEXT": "production" } },
+              "group": "build"
             },
             {
               "label": "Caddy",
@@ -94,6 +117,7 @@
         "esbenp.prettier-vscode",
         "ltex-plus.vscode-ltex-plus",
         "ms-python.python",
+        "ms-python.vscode-python-envs",
         "github.vscode-github-actions",
         "matthewpi.caddyfile-support",
         "ms-vsliveshare.vsliveshare"
@@ -101,11 +125,6 @@
     },
     "codespaces": {
       "repositories": {
-        "privacyguides/mkdocs-material-insiders": {
-          "permissions": {
-            "content": "read"
-          }
-        },
         "privacyguides/brand": {
           "permissions": {
             "content": "read"

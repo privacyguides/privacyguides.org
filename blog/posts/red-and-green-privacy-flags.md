@@ -14,7 +14,7 @@ preview:
 
 # &ldquo;We [Don't] Care About Your Privacy&rdquo;
 
-![Filtered photo of a metal container left on the street, with on it the painted sentence "We've updated our privacy policy." with three faded happy face icons around it. On and around the container are icons of hidden red flags.](../assets/images/red-and-green-privacy-flags/dontcare-cover.webp)
+![Filtered photo of a metal container left on the street, with on it the painted sentence "We've updated our privacy policy." with three faded happy face icons around it. On and around the container are icons of hidden red flags.](../assets/images-blog/red-and-green-privacy-flags/dontcare-cover.webp)
 
 <small aria-hidden="true">Illustration: Em / Privacy Guides | Photo: Lilartsy / Unsplash</small>
 

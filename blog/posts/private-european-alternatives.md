@@ -15,7 +15,7 @@ preview:
 ---
 # Privacy-Respecting European Tech Alternatives
 
-![European Union flag and Privacy Guides logo side by side](../assets/images/private-european-alternatives/eu-alternatives.webp)
+![European Union flag and Privacy Guides logo side by side](../assets/images-blog/private-european-alternatives/eu-alternatives.webp)
 
 <small aria-hidden="true">Illustration: Jonah Aragon / Privacy Guides</small>
 
@@ -35,8 +35,8 @@ Many people and businesses are tied to Google's Gmail or Microsoft's Outlook pro
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](../assets/img/email/tuta.svg#only-light){ align=right }
-![Tuta logo](../assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Tuta logo](../assets/images/email/tuta.svg#only-light){ align=right }
+![Tuta logo](../assets/images/email/tuta-dark.svg#only-dark){ align=right }
 
 Based in Hanover, Germany, **Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011.
 
@@ -51,7 +51,7 @@ Free accounts start with 1 GB of storage.
 
 <div class="admonition recommendation" markdown>
 
-![Proton Mail logo](../assets/img/email/protonmail.svg){ align=right }
+![Proton Mail logo](../assets/images/email/protonmail.svg){ align=right }
 
 Based in Geneva, Switzerland, **Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013.
 
@@ -74,7 +74,7 @@ Developed and hosted by *XWiki* in Paris, France, **CryptPad** is a complete onl
 
 <div class="admonition recommendation" markdown>
 
-![CryptPad logo](../assets/img/document-collaboration/cryptpad.svg){ align=right }
+![CryptPad logo](../assets/images/document-collaboration/cryptpad.svg){ align=right }
 
 **CryptPad** is a private-by-design alternative to popular office tools. All content on this web service is end-to-end encrypted and can be shared with other users easily.
 
@@ -91,7 +91,7 @@ Developed and hosted by *XWiki* in Paris, France, **CryptPad** is a complete onl
 
 <div class="admonition recommendation" markdown>
 
-![Nextcloud logo](../assets/img/self-hosting/nextcloud.svg){ align=right }
+![Nextcloud logo](../assets/images/self-hosting/nextcloud.svg){ align=right }
 
 **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
 
@@ -106,7 +106,7 @@ Developed and hosted by *XWiki* in Paris, France, **CryptPad** is a complete onl
 
 <div class="admonition recommendation" markdown>
 
-![LibreOffice logo](../assets/img/office-suites/libreoffice.svg){ align=right }
+![LibreOffice logo](../assets/images/office-suites/libreoffice.svg){ align=right }
 
 Web-based editors aren't for everyone. If you need a full-fledged office suite that runs locally on your computer, **LibreOffice** is a fantastic alternative to Microsoft Office.
 
@@ -125,8 +125,8 @@ Headquartered and developed in the Netherlands, Startpage is one great alternati
 
 <div class="admonition recommendation" markdown>
 
-![Startpage logo](../assets/img/search-engines/startpage.svg#only-light){ align=right }
-![Startpage logo](../assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
+![Startpage logo](../assets/images/search-engines/startpage.svg#only-light){ align=right }
+![Startpage logo](../assets/images/search-engines/startpage-dark.svg#only-dark){ align=right }
 
 **Startpage** is a private search engine. One of Startpage's unique features is the [Anonymous View](https://startpage.com/en/anonymous-view), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. However, unlike the name suggests, the feature should not be relied upon for *total* anonymity.
 
@@ -147,7 +147,7 @@ One of our [recommended browsers](https://www.privacyguides.org/en/desktop-brows
 
 <div class="admonition recommendation" markdown>
 
-![Mullvad Browser logo](../assets/img/browsers/mullvad_browser.svg){ align=right }
+![Mullvad Browser logo](../assets/images/browsers/mullvad_browser.svg){ align=right }
 
 **Mullvad Browser** is a version of Tor Browser with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against mass surveillance programs. It is developed by the Tor Project and distributed by Mullvad, although it does *not* require the use of Mullvad's VPN.
 
@@ -164,7 +164,7 @@ Mapping and location apps like Google Maps can track your every move, and that d
 
 <div class="admonition recommendation" markdown>
 
-![Organic Maps logo](../assets/img/maps/organic-maps.svg){ align=right }
+![Organic Maps logo](../assets/images/maps/organic-maps.svg){ align=right }
 
 Based in Estonia, **Organic Maps** is an open source, community-developed map display and satnav-style navigation app for walkers, drivers, and cyclists. The app offers worldwide offline maps based on OpenStreetMap data, and navigation with privacy — no location tracking, no data collection, and no ads. The app can be used completely offline.
 
@@ -177,7 +177,7 @@ Based in Estonia, **Organic Maps** is an open source, community-developed map di
 
 <div class="admonition recommendation" markdown>
 
-![OsmAnd logo](../assets/img/maps/osmand.svg){ align=right }
+![OsmAnd logo](../assets/images/maps/osmand.svg){ align=right }
 
 Based in the Netherlands, **OsmAnd** is an offline map and navigation application based on OpenStreetMap, offering turn-by-turn navigation for walking, cycling, driving, as well as public transport. It is open-source and does not collect any user data.
 
@@ -192,7 +192,7 @@ Based in the Netherlands, **OsmAnd** is an offline map and navigation applicatio
 
 <div class="admonition recommendation" markdown>
 
-![KeePassXC logo](../assets/img/password-management/keepassxc.svg){ align=right }
+![KeePassXC logo](../assets/images/password-management/keepassxc.svg){ align=right }
 
 **KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bug fixes to provide a feature-rich, cross-platform, and modern open-source password manager.
 
@@ -207,7 +207,7 @@ Based in the Netherlands, **OsmAnd** is an offline map and navigation applicatio
 
 <div class="admonition recommendation" markdown>
 
-![Proton Pass logo](../assets/img/password-management/protonpass.svg){ align=right }
+![Proton Pass logo](../assets/images/password-management/protonpass.svg){ align=right }
 
 **Proton Pass** is an open-source, end-to-end encrypted password manager developed by the Swiss company Proton AG, the team behind Proton Mail. It securely stores your login credentials, generates unique email aliases, and supports and stores passkeys.
 
@@ -226,7 +226,7 @@ Element is based in the United Kingdom, which is of course no longer in the Euro
 
 <div class="admonition recommendation" markdown>
 
-![Element logo](../assets/img/social-networks/element.svg){ align=right }
+![Element logo](../assets/images/social-networks/element.svg){ align=right }
 
 **Element** is the flagship client for the [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im) protocol, an [open standard](https://spec.matrix.org/latest) for secure decentralized real-time communication.
 
@@ -243,7 +243,7 @@ Another open-source option from the United Kingdom, SimpleX chat has very strong
 
 <div class="admonition recommendation" markdown>
 
-![Simplex logo](../assets/img/messengers/simplex.svg){ align=right }
+![Simplex logo](../assets/images/messengers/simplex.svg){ align=right }
 
 **SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against censorship.
 
@@ -258,7 +258,7 @@ Briar is an open source project not legally incorporated in any jurisdiction, al
 
 <div class="admonition recommendation" markdown>
 
-![Briar logo](../assets/img/messengers/briar.svg){ align=right }
+![Briar logo](../assets/images/messengers/briar.svg){ align=right }
 
 **Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the Tor Network, making it an effective tool at circumventing censorship. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
 

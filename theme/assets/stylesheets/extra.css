@@ -1,23 +1,6 @@
 /*
-/// Copyright (c) 2022-2024 Jonah Aragon <jonah@triplebit.net>
-///
-/// Permission is hereby granted, free of charge, to any person obtaining a
-/// copy of this software and associated documentation files (the "Software"),
-/// to deal in the Software without restriction, including without limitation
-/// the rights to use, copy, modify, merge, publish, distribute, sublicense,
-/// and/or sell copies of the Software, and to permit persons to whom the
-/// Software is furnished to do so, subject to the following conditions:
-///
-/// The above copyright notice and this permission notice shall be included in
-/// all copies or substantial portions of the Software.
-///
-/// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-/// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-/// FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL
-/// THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-/// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-/// FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-/// DEALINGS
+SPDX-FileCopyrightText: 2022-2026 Jonah Aragon and the Privacy Guides contributors
+SPDX-License-Identifier: MIT
 */
 
 @font-face {
@@ -214,7 +197,6 @@ details[class="downloads annotate"] > p .md-annotation span span::before {
     align-items: center;
     list-style-type: none;
 }
-
 
 .md-typeset .admonition.person,
 .md-typeset details.person {
@@ -611,7 +593,6 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
   color-scheme: light;
 }
 
-
 /*********** Activism Section ***********/
 
 /* Activism Button Colors*/
@@ -850,45 +831,45 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
     width: 100%;
     line-height: 1.05rem;
     table-layout: fixed;
-    width: 100%;   
+    width: 100%;
     overflow-wrap: normal;
-    table-layout: fixed; 
+    table-layout: fixed;
 }
 
 /* Column Width - Region */
 .dpadirectory-table th:first-child {
     min-width: 110px;
-    width: 110px; 
+    width: 110px;
 }
 
 /* Column Width - Law */
 .dpadirectory-table th:nth-child(2) {
     min-width: 140px;
-    width: 140px; 
+    width: 140px;
 }
 
 /* Column Width - Abbreviation */
 .dpadirectory-table th:nth-child(3) {
     min-width: 100px;
-    width: 100px; 
+    width: 100px;
 }
 
 /* Column Width - DPA */
 .dpadirectory-table th:nth-child(4) {
     min-width: 150px;
-    width: 150px; 
+    width: 150px;
 }
 
 /* Column Width - Contact */
 .dpadirectory-table th:nth-child(5) {
     min-width: 85px;
-    width: 85px; 
+    width: 85px;
 }
 
 /* Column Width - Complaint */
 .dpadirectory-table th:nth-child(6) {
     min-width: 110px;
-    width: 110px; 
+    width: 110px;
 }
 
 .dpadirectory-table caption, th, td {
@@ -1028,13 +1009,6 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
 }
 
 
-
-
-
-
-
-
-    
 @media (max-width: 650px) {
     .dpadirectory-table th {
         display: none;

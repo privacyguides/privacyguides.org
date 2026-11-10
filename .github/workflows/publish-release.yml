@@ -1,22 +1,5 @@
-# Copyright (c) 2021-2024 Jonah Aragon <jonah@triplebit.net>
-
-# Permission is hereby granted, free of charge, to any person obtaining a copy
-# of this software and associated documentation files (the "Software"), to
-# deal in the Software without restriction, including without limitation the
-# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
-# sell copies of the Software, and to permit persons to whom the Software is
-# furnished to do so, subject to the following conditions:
-
-# The above copyright notice and this permission notice shall be included in
-# all copies or substantial portions of the Software.
-
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
-# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
-# IN THE SOFTWARE.
+# SPDX-FileCopyrightText: 2024-2026 Jonah Aragon
+# SPDX-License-Identifier: MIT
 
 name: 📦 Release
 
@@ -30,33 +13,17 @@ concurrency:
   cancel-in-progress: true
 
 permissions:
-  contents: write
-  pages: write
-  id-token: write
-  deployments: write
+  contents: read
 
 jobs:
-  submodule:
-    strategy:
-      matrix:
-        repo: [mkdocs-material-insiders, brand, i18n]
-    uses: privacyguides/.github/.github/workflows/download-repo.yml@main
-    with:
-      repo: ${{ matrix.repo }}
-    secrets:
-      ACTIONS_SSH_KEY: ${{ secrets.ACTIONS_SSH_KEY }}
-
   build:
-    needs: submodule
     strategy:
       matrix:
         lang: [en, es, fr, he, it, nl, ru, zh-Hant, zh-TW]
-        build: [build]
     permissions:
       contents: read
     uses: ./.github/workflows/build.yml
     with:
-      config: ${{ matrix.build }}
       ref: ${{ github.ref }}
       repo: ${{ github.repository }}
       lang: ${{ matrix.lang }}
@@ -67,18 +34,14 @@ jobs:
       MEMBERS_API_URL: ${{ secrets.MEMBERS_API_URL }}
 
   build_blog:
-    needs: submodule
     permissions:
       contents: read
     uses: ./.github/workflows/build-blog.yml
     with:
-      repo: ${{ github.repository }}
-      ref: ${{ github.ref }}
       continue-on-error: false
       context: production
 
   build_zimfile:
-    needs: submodule
     permissions:
       contents: read
     uses: ./.github/workflows/build-zimfile.yml
@@ -89,39 +52,90 @@ jobs:
   release:
     name: Create release notes
     needs: [build, build_zimfile]
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     permissions:
       contents: write
 
     steps:
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
           pattern: "*.zim"
           merge-multiple: true
 
       - name: Create release notes
-        uses: ncipollo/release-action@v1
+        uses: ncipollo/release-action@339a81892b84b4eeb0f6e744e4574d79d0d9b8dd # v1.21.0
         with:
           generateReleaseNotes: true
           artifacts: "*.zim"
           makeLatest: true
 
-  deploy:
+  deploy_garage:
     needs: [build, build_blog]
-    uses: privacyguides/webserver/.github/workflows/deploy-all.yml@main
-    secrets:
-      PROD_MINIO_KEY_ID: ${{ secrets.PROD_MINIO_KEY_ID }}
-      PROD_MINIO_SECRET_KEY: ${{ secrets.PROD_MINIO_SECRET_KEY }}
-      PROD_GARAGE_KEY_ID: ${{ secrets.PROD_GARAGE_KEY_ID }}
-      PROD_GARAGE_SECRET_KEY: ${{ secrets.PROD_GARAGE_SECRET_KEY }}
-      CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-      CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
-      CLUSTER_USERNAME: ${{ secrets.CLUSTER_USERNAME }}
-      CLUSTER_PASSWORD: ${{ secrets.CLUSTER_PASSWORD }}
-      CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
-      CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
+    runs-on: ubuntu-26.04
 
-  cleanup:
-    if: ${{ always() }}
-    needs: [build, build_blog, build_zimfile]
-    uses: privacyguides/.github/.github/workflows/cleanup.yml@main
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout deployment action
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+          sparse-checkout: .github/actions/deploy-garage
+
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          pattern: site-build-*
+          merge-multiple: true
+
+      - run: |
+          for file in *.tar.gz; do tar -zxf "$file"; done
+
+      - uses: ./.github/actions/deploy-garage
+        with:
+          endpoint: https://${{ vars.PROD_GARAGE_HOSTNAME }}
+          bucket: ${{ vars.PROD_GARAGE_BUCKET }}
+          access_key: ${{ secrets.PROD_GARAGE_KEY_ID }}
+          secret_key: ${{ secrets.PROD_GARAGE_SECRET_KEY }}
+          source_dir: "site/"
+          target_dir: "/"
+
+  deploy_pages:
+    needs: [build, build_blog]
+    runs-on: ubuntu-26.04
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          pattern: site-build-*
+          merge-multiple: true
+
+      - name: Assemble website
+        run: |
+          for file in *.tar.gz; do tar -zxf "$file"; done
+          cat > site/index.html <<'HTML'
+          <html lang="en">
+            <head>
+              <title>Redirecting...</title>
+              <meta http-equiv="refresh" content="0; URL=./en" />
+            </head>
+          </html>
+          HTML
+
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: site
+
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

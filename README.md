@@ -60,18 +60,6 @@ The current list of team members can be found on [the executive committee page](
 
 All contributors to the site are listed [here](#contributors). If you have contributed to the website or project, please [add yourself](https://github.com/privacyguides/privacyguides.org/issues/2524) to the list or ask @jonaharagon to make the change.
 
-## Mirrors
-
-- **GitHub Pages:** [privacyguides.github.io/privacyguides.org](https://privacyguides.github.io/privacyguides.org/en/)
-- **BunnyCDN:** [privacyguides-org-production.b-cdn.net](https://privacyguides-org-production.b-cdn.net/en/)
-
-### Alternative Networks
-
-> [!NOTE]
-> Most hidden service providers are not very extensively used or tested, [which is why we strongly recommend Tor](https://www.privacyguides.org/en/tor/). Using other networks could be more likely to endanger your anonymity, so make sure you know what you're doing.
-
-- **Tor/onion:** [xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion](http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion)
-
 ### Git Mirrors
 
 [![GitHub](https://img.shields.io/static/v1?logo=github&label=&message=GitHub&color=000&style=for-the-badge)](https://github.com/privacyguides/privacyguides.org)
@@ -80,9 +68,97 @@ All contributors to the site are listed [here](#contributors). If you have contr
 [![Gitea](https://img.shields.io/static/v1?logo=gitea&label=&message=Gitea&color=000&style=for-the-badge)](https://code.privacyguides.dev/privacyguides/privacyguides.org)
 [![Forgejo](https://img.shields.io/static/v1?logo=forgejo&label=&message=Forgejo&color=000&style=for-the-badge)](https://git.jonaharagon.net/privacyguides/privacyguides.org)
 
+## Developing
+
+The easiest way to develop this website in your browser without installing any software is to use [GitHub Codespaces](https://codespaces.new/privacyguides/privacyguides.org). To build the website *locally*, you will need the following software:
+
+- macOS/Windows: [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- Linux: [Docker CE](https://docs.docker.com/get-started/get-docker/#supported-platforms)
+- [VS Code](https://code.visualstudio.com/)
+- [Dev Containers for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension
+- [GitHub Desktop](https://github.com/apps/desktop) (optional)
+
+You can technically use any IDE which supports [development containers](https://containers.dev/), but YMMV. We are only testing with the combination of software above.
+
+Committing to this repository requires [signing your commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) (`git config commit.gpgsign true`) unless you are making edits via the GitHub.com text editor interface. As of August 2022 the preferred signing method is [SSH commit signatures](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification), but GPG signing is also acceptable. You should add your signing key to your GitHub profile.
+
+### Local builds
+
+Run these commands from the repository root inside the development container. (These commands run automatically if you are using a devcontainer/codespace)
+
+```sh
+./run.sh serve
+./run.sh --blog serve --dev-addr=localhost:8001
+```
+
+To build the production version locally, you use the same context as the release workflows:
+
+```sh
+BUILD_CONTEXT=production ./run.sh build
+BUILD_CONTEXT=production ./run.sh --blog build
+```
+
+These produce `site/en/` and `site/articles/`. The production context enables hardcoded navigation and template behavior, plus Git metadata for the English website.
+
+For translations, use the Crowdin client with `crowdin.yml`, or download the exported translations from `privacyguides/i18n` with Git, as workflows do:
+
+```sh
+(
+  translation_checkout=$(mktemp -d)
+  trap 'rm -rf "$translation_checkout"' EXIT
+  git clone --depth 1 --branch main https://github.com/privacyguides/i18n.git "$translation_checkout/repo" &&
+    cp -a "$translation_checkout/repo/i18n" "$translation_checkout/repo/includes" .
+)
+SITE_LANGUAGE=fr BUILD_CONTEXT=production ./run.sh build
+```
+
+This copies `/i18n/` and `/includes/` from a temporary checkout of `main` into this repository then removes the checkout. Repeat the above commands to refresh the files.
+
+To preview a translation inside the devcontainer, download the translation files as above, then run this from the repository root:
+
+```sh
+SITE_LANGUAGE=fr ./run.sh serve --dev-addr=0.0.0.0:8002
+```
+
+Replace `fr` with the language code you want to preview. Port 8002 avoids the English and articles previews already running on ports 8000 and 8001 respectively. Open `http://localhost:8002` directly, because the shared preview on port 1337 routes only English and articles.
+
+### Docker without an editor
+
+You can also build locally without VS Code or GitHub Actions. Initialize the brand assets and build the same image used by CI:
+
+```sh
+git submodule update --init theme/assets/brand
+docker build -t privacyguides-build:local .
+docker run --rm -it --user "$(id -u):$(id -g)" --env HOME=/tmp \
+  --volume "$PWD:/workspaces/privacyguides.org" privacyguides-build:local bash
+```
+
+This will give you a terminal where you can use the production commands above.
+
+CI also refreshes the members list before website builds and discussion lists after English builds. To reproduce those live-data updates locally, run the following inside the container around the website build:
+
+```sh
+python tools/generate-members.py > /tmp/members.md && cp /tmp/members.md includes/members.md
+BUILD_CONTEXT=production ./run.sh build
+bash tools/generate-topics.sh --all
+```
+
+Offline HTML can be built with `BUILD_OFFLINE=true ./run.sh build` or `BUILD_OFFLINE=true ./run.sh --blog build`.
+
+## Releasing
+
+It is required to create a GitHub release to publish the current site to privacyguides.org.
+
+1. Create a new tag: `git tag -s YYYY.MM.DD -m 'Some message'`
+    - Tag numbering: `YYYY.MM.DD` - if two+ releases are published on the same day, append short commit to the next release, e.g. `YYYY.MM.DD-6aa14e8`
+    - Enable GPG tag signing by default (`git config tag.gpgSign true`) to avoid missing signatures
+2. Push the tag to GitHub: `git push --tags`
+3. A GitHub Release will be automatically created and deployed to the live site.
+    - You may wish to manually check or edit the release changelog/title after it is published for accuracy.
+
 ## License
 
-Copyright &copy; 2019 - 2024 [Privacy Guides contributors](#contributors).
+<!-- SPDX-FileCopyrightText: 2020-2026 Jonah Aragon and the Privacy Guides contributors -->
 
 Privacy Guides content is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](/LICENSE), and the underlying source code used to format and display that content on [www.privacyguides.org](https://www.privacyguides.org) is licensed under the [MIT License](/LICENSE-CODE).
 
@@ -95,31 +171,6 @@ These licenses do not apply to any work where another license is otherwise noted
 You may comply with our license terms in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use. You **may not** use the Privacy Guides branding in your own project without express approval from this project. Privacy Guides's brand trademarks include the "Privacy Guides" wordmark and shield logo.
 
 When you contribute to this repository you are doing so under the above licenses, and you are granting Privacy Guides a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
-
-## Developing
-
-The only supported method of building and previewing this website locally is by running the automatic dev container. The easiest way to do this in your web browser without installing any software is to use [GitHub Codespaces](https://codespaces.new/privacyguides/privacyguides.org). To build the website locally, you will need the following software:
-
-- macOS/Windows: [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- Linux: [Docker CE](https://docs.docker.com/get-started/get-docker/#supported-platforms)
-- [VS Code](https://code.visualstudio.com/)
-- [Dev Containers for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension
-- [GitHub Desktop](https://github.com/apps/desktop) (optional)
-
-You can technically use any IDE which supports [development containers](https://containers.dev/), but YMMV. Docker Desktop has an experimental Dev Environments option which allows you to use any text editor under Settings > Features in development. We are only testing with the combination of software above.
-
-Committing to this repository requires [signing your commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) (`git config commit.gpgsign true`) unless you are making edits via the GitHub.com text editor interface. As of August 2022 the preferred signing method is [SSH commit signatures](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification), but GPG signing is also acceptable. You should add your signing key to your GitHub profile.
-
-## Releasing
-
-It is required to create a GitHub release to publish the current site to privacyguides.org.
-
-1. Create a new tag: `git tag -s YYYY.MM.DD -m 'Some message'`
-    - Tag numbering: `YYYY.MM.DD` - if two+ releases are published on the same day, append short commit to the next release, e.g. `YYYY.MM.DD-6aa14e8`
-    - Enable GPG tag signing by default (`git config tag.gpgSign true`) to avoid missing signatures
-2. Push the tag to GitHub: `git push --tags`
-3. A GitHub Release will be automatically created and deployed to the live site.
-    - You may wish to manually check or edit the release changelog/title after it is published for accuracy.
 
 ## Contributors
 

@@ -1,22 +1,5 @@
-# Copyright (c) 2023 Jonah Aragon <jonah@triplebit.net>
-
-# Permission is hereby granted, free of charge, to any person obtaining a copy
-# of this software and associated documentation files (the "Software"), to
-# deal in the Software without restriction, including without limitation the
-# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
-# sell copies of the Software, and to permit persons to whom the Software is
-# furnished to do so, subject to the following conditions:
-
-# The above copyright notice and this permission notice shall be included in
-# all copies or substantial portions of the Software.
-
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
-# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
-# IN THE SOFTWARE.
+# SPDX-FileCopyrightText: 2022-2026 Jonah Aragon and the Privacy Guides contributors
+# SPDX-License-Identifier: MIT
 
 #checkov:skip=CKV_SECRET_6:obviously a variable name and not a secret
 api_token_env: CROWDIN_PERSONAL_TOKEN
@@ -24,7 +7,15 @@ project_id: "509862"
 "preserve_hierarchy": true
 files:
   - source: "/docs/**/*.*"
+    ignore:
+      - "/docs/assets/images/**"
+      - "/docs/assets/images-localized/**"
     translation: "/i18n/%two_letters_code%/**/%file_name%.%file_extension%"
+    skip_untranslated_files: false
+  # Keep the existing Crowdin paths to retain image translations.
+  - source: "/docs/assets/images-localized/**/*.*"
+    dest: "/docs/assets/img/**/%file_name%.%file_extension%"
+    translation: "/i18n/%two_letters_code%/assets/images-localized/**/%file_name%.%file_extension%"
     skip_untranslated_files: false
   - source: "/includes/*.en.*"
     translation: "/includes/%file_name%.%two_letters_code%.%file_extension%"

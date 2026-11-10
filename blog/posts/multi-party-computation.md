@@ -14,7 +14,7 @@ preview:
 ---
 # What is Multi-Party Computation?
 
-![An image of a lock and multiple keys going toward it to unlock it](../assets/images/multi-party-computation/cover.webp)
+![An image of a lock and multiple keys going toward it to unlock it](../assets/images-blog/multi-party-computation/cover.webp)
 
 <small aria-hidden="true">Illustration: Jordan Warne / Privacy Guides</small>
 

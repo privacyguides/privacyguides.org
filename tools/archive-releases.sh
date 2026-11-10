@@ -1,4 +1,7 @@
 #!/bin/bash
+# SPDX-FileCopyrightText: 2025-2026 Jonah Aragon
+# SPDX-License-Identifier: MIT
+
 set -euo pipefail
 
 REPO="privacyguides/privacyguides.org"

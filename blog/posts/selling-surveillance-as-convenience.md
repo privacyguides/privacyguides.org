@@ -13,7 +13,7 @@ preview:
 
 # Selling Surveillance as Convenience
 
-![Stylized and colorized photo of a large wooden horse standing over a blue sky.](../assets/images/selling-surveillance-as-convenience/surveillance-cover.webp)
+![Stylized and colorized photo of a large wooden horse standing over a blue sky.](../assets/images-blog/selling-surveillance-as-convenience/surveillance-cover.webp)
 <small aria-hidden="true">Illustration: Em / Privacy Guides | Photo: Zeki Okur / Unsplash</small>
 
 Increasingly, surveillance is being normalized and integrated in our lives. Under the guise of convenience, applications and features are sold to us as being the new better way to do things. While some might be useful, **this convenience is a Trojan horse**. The cost of it is the continuous degradation of our privacy rights, with all that that entails.<!-- more -->

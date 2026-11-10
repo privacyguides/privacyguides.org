@@ -1,6 +1,6 @@
+# SPDX-FileCopyrightText: 2022-2026 Jonah Aragon and the Privacy Guides contributors
+# SPDX-License-Identifier: MIT
+
 [submodule "theme/assets/brand"]
 	path = theme/assets/brand
 	url = https://github.com/privacyguides/brand.git
-[submodule "modules/mkdocs-material"]
-	path = modules/mkdocs-material
-	url = https://github.com/privacyguides/mkdocs-material-insiders.git

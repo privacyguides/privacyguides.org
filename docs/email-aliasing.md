@@ -44,6 +44,8 @@ Email aliasing services also have a number of benefits over "temporary email" se
 - ![Addy.io logo](assets/img/email-aliasing/addy.svg){ .twemoji } [Addy.io](email-aliasing.md#addyio)
 - ![Firefox Relay logo](assets/img/email-aliasing/firefoxrelay.svg){ .twemoji } [Firefox Relay](email-aliasing.md#firefox-relay)
 - ![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ .twemoji } [SimpleLogin](email-aliasing.md#simplelogin)
+- ![Addy.io logo](assets/images/email-aliasing/addy.svg){ .twemoji } [Addy.io](email-aliasing.md#addyio)
+- ![SimpleLogin logo](assets/images/email-aliasing/simplelogin.svg){ .twemoji } [SimpleLogin](email-aliasing.md#simplelogin)
 
 </div>
 
@@ -55,7 +57,7 @@ Using an aliasing service requires trusting both your email provider and your al
 
 <div class="admonition recommendation" markdown>
 
-![Addy.io logo](assets/img/email-aliasing/addy.svg){ align=right }
+![Addy.io logo](assets/images/email-aliasing/addy.svg){ align=right }
 
 **Addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited ["standard" aliases](https://addy.io/faq/#what-is-a-standard-alias).
 
@@ -128,7 +130,7 @@ When you downgrade from Premium to free, you’ll still receive emails forwarded
 
 <div class="admonition recommendation" markdown>
 
-![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ align=right }
+![SimpleLogin logo](assets/images/email-aliasing/simplelogin.svg){ align=right }
 
 **SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides paid features like unlimited aliases and custom domains.
 

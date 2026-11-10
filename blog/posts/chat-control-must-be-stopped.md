@@ -15,7 +15,7 @@ preview:
 
 # Chat Control Must Be Stopped, Act Now!
 
-![Filtered photo of a protest with a protestor holding a sign in first plan. The background is a red monochrome and the sign is in turquoise. The sign says "You won't make me live this 1984 sh*t".](../assets/images/chat-control-must-be-stopped/chatcontrol-cover.webp)
+![Filtered photo of a protest with a protestor holding a sign in first plan. The background is a red monochrome and the sign is in turquoise. The sign says "You won't make me live this 1984 sh*t".](../assets/images-blog/chat-control-must-be-stopped/chatcontrol-cover.webp)
 
 <small aria-hidden="true">Illustration: Em / Privacy Guides | Photo: Ramaz Bluashvili / Pexels</small>
 
@@ -72,7 +72,7 @@ At the time of this writing, the list of countries to contact is:
 
 </div>
 
-![A map of countries part of the European Union. Countries opposing Chat Control are represented in green, countries undecided in blue, and countries in favor are in red. Below there is text saying "Act now! www.chatcontrol.eu".](../assets/images/chat-control-must-be-stopped/chatcontrol-map-chatcontroleu-20250903.webp)
+![A map of countries part of the European Union. Countries opposing Chat Control are represented in green, countries undecided in blue, and countries in favor are in red. Below there is text saying "Act now! www.chatcontrol.eu".](../assets/images-blog/chat-control-must-be-stopped/chatcontrol-map-chatcontroleu-20250903.webp)
 <small aria-hidden="true">Image: Patrick Breyer / [chatcontrol.eu](https://www.chatcontrol.eu)</small>
 
 ## What is Chat Control?
@@ -97,7 +97,7 @@ The CSAR proposal (which *is* the latest iteration of Chat Control) could be imp
 
 Even if you are not in Europe, know that Chat Control will affect everyone inside *and* outside of Europe one way or another. Regardless of where you are, you should be concerned and pay attention, and there are things you can do to fight back. This is important.
 
-![Still image from a video showing an illustration of three cellphones being scanned by a red light, with lines leading to a law enforcement icon.](../assets/images/chat-control-must-be-stopped/chatcontrol-stopscanningme-video.webp)
+![Still image from a video showing an illustration of three cellphones being scanned by a red light, with lines leading to a law enforcement icon.](../assets/images-blog/chat-control-must-be-stopped/chatcontrol-stopscanningme-video.webp)
 <small aria-hidden="true">Still image from [video](https://stopscanningme.eu/video/csar-explainer.mp4): Stop Scanning Me / EDRi</small>
 
 ## Why is this bad?
@@ -112,14 +112,14 @@ Here's a summary of some dangers this regulation would create if approved:
 
 - **Mission creep**: Once this mass surveillance system is in place, authorities can decide to add more criteria such as searching all communications for references to drug use, protest attendances, political dissidence, or even [negative comments](https://www.lemonde.fr/en/international/article/2025/03/22/how-a-french-researcher-being-refused-entry-to-the-us-turned-into-a-diplomatic-mess_6739415_4.html) about a leader. Europol (the EU law enforcement agency) has already called for [expanding the program](https://www.youtube.com/watch?v=L933xDcSS3o&t=2016s).
 
-![A cartoon illustration explaining that chat control is planning to monitor all chats, emails, and messenger conversations, and use artificial intelligence to automatically report flagged content to the police.](../assets/images/chat-control-must-be-stopped/chatcontrol-LornaSchutte-chatcontroleu-1.webp)
+![A cartoon illustration explaining that chat control is planning to monitor all chats, emails, and messenger conversations, and use artificial intelligence to automatically report flagged content to the police.](../assets/images-blog/chat-control-must-be-stopped/chatcontrol-LornaSchutte-chatcontroleu-1.webp)
 <small aria-hidden="true">Image: Lorna Schütte / [chatcontrol.eu](https://www.chatcontrol.eu)</small>
 
 - **Criminal attacks**: Each time a backdoor exists, it doesn't take long for criminals to find access and steal our information. This could include criminals finding access to each service independently or to the entire database authorities would keep. A database that would be filled with material tagged as sexually explicit text or photos of children. This could even *create* new Child Sexual Abuse Material (CSAM) for criminals. For example, consenting teenagers innocently sexting together could have their photos collected in this database, after being wrongly flagged by the automated system. Then, criminals could steal their intimate photos from the governments.
 
 - **False positives**: With a mass surveillance system this large, moreover a system with no transparency and little oversight, false positives are inevitable. Despite marketing promises from the [organizations lobbying government officials](https://www.patrick-breyer.de/en/chat-control-eu-ombudsman-criticises-revolving-door-between-europol-and-chat-control-tech-lobbyist-thorn/), we all know AI technologies regularly misfire and cannot be reliable for anything of such importance. Loving parents could get flagged as pedophiles just for innocently uploading a photo of their child in the bathtub on their *private* cloud. Teenagers exploring their sexuality consensually with each other could get tagged as sexual predators (a label that might stick on them decades later). The police could receive reports for breastfeeding mothers. The list is infinite.
 
-![A cartoon illustration summarizing why chat control is dangerous.](../assets/images/chat-control-must-be-stopped/chatcontrol-LornaSchutte-chatcontroleu-3.webp)
+![A cartoon illustration summarizing why chat control is dangerous.](../assets/images-blog/chat-control-must-be-stopped/chatcontrol-LornaSchutte-chatcontroleu-3.webp)
 <small aria-hidden="true">Image: Lorna Schütte / [chatcontrol.eu](https://www.chatcontrol.eu)</small>
 
 - **Overwhelming resources**: The inevitable false positives will completely overwhelm the agencies responsible for investigating flagged material. This will cost them precious time they will not have to investigate *actual* abuse cases. Organizations fighting child sexual abuse are already overwhelmed and lack resources to prosecute real criminals.
@@ -128,7 +128,7 @@ Here's a summary of some dangers this regulation would create if approved:
 
 - **Self-censorship**: With Chat Control in place, not only victims might censor themselves and stop reaching out for help, but everyone else as well. When people know they are being observed, they feel less free to be themselves and to share openly. This is doubly true for anyone who is part of a marginalized group, such as [LGBTQ+ people](importance-of-privacy-for-the-queer-community.md), or anyone who is being victimized or at risk of victimization.
 
-![A cartoon illustration explaining how chat control does not protect the victims and might silence them due to loss of confidentiality.](../assets/images/chat-control-must-be-stopped/chatcontrol-LornaSchutte-chatcontroleu-2.webp)
+![A cartoon illustration explaining how chat control does not protect the victims and might silence them due to loss of confidentiality.](../assets/images-blog/chat-control-must-be-stopped/chatcontrol-LornaSchutte-chatcontroleu-2.webp)
 <small aria-hidden="true">Image: Lorna Schütte / [chatcontrol.eu](https://www.chatcontrol.eu)</small>
 
 - **Undermining democracy**: This surveillance system would allow governments to spy on opposition. Chat logs from opposing candidates, activists, and journalists could all be accessed by authorities in order to silence opponents or blackmail candidates. Even if you trust your government to not do this now, this doesn't mean it could not be used in this way by the next government. We have all seen how fast the political landscape can change.
@@ -149,7 +149,7 @@ Last year, the civil and human rights association European Digital Rights (EDRi)
 
 There are many things we can do as a society to increase protections for children and fight abusers and criminals, but Chat Control is far from it all. Protection of the children is clearly only an excuse here, and a very misleading one.
 
-![A popular No Yes meme, with the face replaced with the European Commission logo. In the No-part is: "Invest in: social workers, help for victims, support hotlines, prevention, education, targeted police work, IT-security", and in the Yes-part below is: "Buy Chat Control filter technology that doesn't solve the problem".](../assets/images/chat-control-must-be-stopped/chatcontrol-stopscanningme-meme-4.webp)
+![A popular No Yes meme, with the face replaced with the European Commission logo. In the No-part is: "Invest in: social workers, help for victims, support hotlines, prevention, education, targeted police work, IT-security", and in the Yes-part below is: "Buy Chat Control filter technology that doesn't solve the problem".](../assets/images-blog/chat-control-must-be-stopped/chatcontrol-stopscanningme-meme-4.webp)
 <small aria-hidden="true">[Image](https://stopscanningme.eu/en/organise-now.html): Stop Scanning Me / EDRi</small>
 
 ### Mislabelling children as criminals
@@ -244,7 +244,7 @@ The data of vulnerable people would be exposed and their safety put at risk. Vic
 
 Chat Control is completely antithetical to the values the European Union has been presenting to the world in recent years.
 
-![The popular Red Dress meme, with the offended woman overlaid with the words "Fundamental Rights", the whistling man the words "European Commission", and woman wearing the red dress the words "Scanning private messages and controlling how citizens use the internet".](../assets/images/chat-control-must-be-stopped/chatcontrol-stopscanningme-meme-2.webp)
+![The popular Red Dress meme, with the offended woman overlaid with the words "Fundamental Rights", the whistling man the words "European Commission", and woman wearing the red dress the words "Scanning private messages and controlling how citizens use the internet".](../assets/images-blog/chat-control-must-be-stopped/chatcontrol-stopscanningme-meme-2.webp)
 <small aria-hidden="true">[Image](https://stopscanningme.eu/en/organise-now.html): Stop Scanning Me / EDRi</small>
 
 ## What can I do about it?
@@ -271,7 +271,7 @@ Even if the landscape seems dismal, **the battle isn't over**. There are many th
 
 We need your help to fight this. For democracy, for privacy, and for all other human rights, we cannot afford to lose this battle.
 
-![Screenshot of the Fight Chat Control website in a browser.](../assets/images/chat-control-must-be-stopped/chatcontrol-fightchatcontrol-website.webp)
+![Screenshot of the Fight Chat Control website in a browser.](../assets/images-blog/chat-control-must-be-stopped/chatcontrol-fightchatcontrol-website.webp)
 <small aria-hidden="true">Screenshot: [fightchatcontrol.eu](https://fightchatcontrol.eu/)</small>
 
 ## Resources to learn more, and fight for human rights

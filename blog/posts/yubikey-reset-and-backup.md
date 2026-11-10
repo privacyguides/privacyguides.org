@@ -12,7 +12,7 @@ preview:
 ---
 # How to Reset Your YubiKey and Create a Backup
 
-![Photo of YubiKey on a table between a MacBook and a phone.](../assets/images/yubikey-reset-and-backup/cover.webp)
+![Photo of YubiKey on a table between a MacBook and a phone.](../assets/images-blog/yubikey-reset-and-backup/cover.webp)
 <small aria-hidden="true">Photo: Yubico</small>
 
 If you are not familiar with it already, a YubiKey is a physical [security key](https://www.privacyguides.org/en/security-keys/) produced by [Yubico](https://www.yubico.com/) that can be used for various authentication and security purposes. One common usage is to use it as a second factor of authentication for a [service or product](https://www.yubico.com/works-with-yubikey/catalog/). This tutorial explains how to reset a YubiKey to factory defaults and create a near copy of it for backup purposes.<!-- more -->
@@ -94,19 +94,19 @@ Except for the YubiKey Bio Series Multi-protocol Edition (which we don't cover i
 
 Go to this Yubico website [page](https://www.yubico.com/products/yubico-authenticator/#h-download-yubico-authenticator), click on the link for your specific Operating System, then download and [install](https://docs.yubico.com/software/yubikey/tools/authenticator/auth-guide/installation.html) the **Yubico Authenticator** application on your computer.
 
-![Screenshot of a browser showing the page to download the Yubico Authenticator.](../assets/images/yubikey-reset-and-backup/yubikey-1-download.webp)
+![Screenshot of a browser showing the page to download the Yubico Authenticator.](../assets/images-blog/yubikey-reset-and-backup/yubikey-1-download.webp)
 
-![Screenshot of the Yubico Authenticator application showing a YubiKey icon with "Insert your YubiKey".](../assets/images/yubikey-reset-and-backup/yubikey-2-yubicoapp.webp)
+![Screenshot of the Yubico Authenticator application showing a YubiKey icon with "Insert your YubiKey".](../assets/images-blog/yubikey-reset-and-backup/yubikey-2-yubicoapp.webp)
 
 ### Step 3: Open the Yubico Authenticator and plug in your keys
 
 Open the **Yubico Authenticator** application. If you can, insert both your YubiKeys in your computer's ports. If you can't insert both keys at once, insert your main YubiKey first, then for each step unplug your main key once you are done, plug in your spare key, and repeat each step.
 
-![Screenshot of the Yubico Authenticator application showing a Home menu and 2 YubiKeys plugged in. The application window showing the main YubiKey is colored green.](../assets/images/yubikey-reset-and-backup/yubikey-3-keysplugged.webp)
+![Screenshot of the Yubico Authenticator application showing a Home menu and 2 YubiKeys plugged in. The application window showing the main YubiKey is colored green.](../assets/images-blog/yubikey-reset-and-backup/yubikey-3-keysplugged.webp)
 
 From the "Home" section, you can see your keys' serial number, firmware version, as well as which applications are installed on your key. You can also set labels for each key and change the interface's color to make it easier to see which key you are configuring.
 
-![Screenshot of the Yubico Authenticator application showing a Home menu with a spare YubiKey. The application window is colored teal.](../assets/images/yubikey-reset-and-backup/yubikey-4-keyspluggedspare.webp)
+![Screenshot of the Yubico Authenticator application showing a Home menu with a spare YubiKey. The application window is colored teal.](../assets/images-blog/yubikey-reset-and-backup/yubikey-4-keyspluggedspare.webp)
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">If you don't see the menu options</p>
@@ -132,21 +132,21 @@ This step will not reset your YubiKey's OTP application to exact factory default
 
 Click on the "Slots" button in the left-side menu. You will see 2 slots listed there labeled as "Short touch" and "Long touch" slots. If these slots are configured already, under the label you will see "Slot is configured". Click on each configured slot.
 
-![Screenshot of the Yubico Authenticator application showing the Slots section.](../assets/images/yubikey-reset-and-backup/yubikey-5-slots.webp)
+![Screenshot of the Yubico Authenticator application showing the Slots section.](../assets/images-blog/yubikey-reset-and-backup/yubikey-5-slots.webp)
 
 #### 4.2. Delete credential
 
 This will open a new menu on the right. Click on "Delete credential" (if you cannot see this option, it could be because your program window isn't big enough, scroll down to see more options).
 
-![Screenshot of the Yubico Authenticator application showing the Slots section with the Short touch slot selected.](../assets/images/yubikey-reset-and-backup/yubikey-6-deletecredential.webp)
+![Screenshot of the Yubico Authenticator application showing the Slots section with the Short touch slot selected.](../assets/images-blog/yubikey-reset-and-backup/yubikey-6-deletecredential.webp)
 
 A "Delete credential" message will pop up with a warning, click "Delete" on the lower-right.
 
-![Screenshot of the Yubico Authenticator application showing a Delete credential popup.](../assets/images/yubikey-reset-and-backup/yubikey-7-deletepopup.webp)
+![Screenshot of the Yubico Authenticator application showing a Delete credential popup.](../assets/images-blog/yubikey-reset-and-backup/yubikey-7-deletepopup.webp)
 
 Verify that you see both slots labeled with "Slot is empty" in the Slots section.
 
-![Screenshot of the Yubico Authenticator application showing the Slots section with the two slots labeled empty.](../assets/images/yubikey-reset-and-backup/yubikey-8-slotsempty.webp)
+![Screenshot of the Yubico Authenticator application showing the Slots section with the two slots labeled empty.](../assets/images-blog/yubikey-reset-and-backup/yubikey-8-slotsempty.webp)
 
 ### Step 5: Reset your YubiKey's FIDO2, OATH, and PIV applications
 
@@ -168,13 +168,13 @@ From the **Yubico Authenticator**, in the "Device" menu on the right, click on "
 
 </div>
 
-![Screenshot of the Yubico Authenticator application showing a Factory reset popup with the OATH option selected.](../assets/images/yubikey-reset-and-backup/yubikey-9-reset-oath.webp)
+![Screenshot of the Yubico Authenticator application showing a Factory reset popup with the OATH option selected.](../assets/images-blog/yubikey-reset-and-backup/yubikey-9-reset-oath.webp)
 
 #### 5.2. Reset FIDO2
 
 From the "Device" menu, click on "Factory reset" again. This time click on "FIDO2". You will see a checkmark appear over "FIDO2", then click on "Reset" on the lower-right.
 
-![Screenshot of the Yubico Authenticator application showing Factory reset popup with the FIDO2 option selected.](../assets/images/yubikey-reset-and-backup/yubikey-10-reset-fido2.webp)
+![Screenshot of the Yubico Authenticator application showing Factory reset popup with the FIDO2 option selected.](../assets/images-blog/yubikey-reset-and-backup/yubikey-10-reset-fido2.webp)
 
 You will be prompted to unplug your YubiKey from your computer. Unplug it, wait for the Status message to change with "Reinsert your YubiKey" then plug it in again.
 
@@ -182,13 +182,13 @@ When prompted to "Touch the button on your YubiKey now", touch the gold part of 
 
 You will see a confirmation message saying "FIDO application reset". You can now click on "Close" on the lower-right.
 
-![Screenshot of the Yubico Authenticator application showing Factory reset popup with a warning before reset.](../assets/images/yubikey-reset-and-backup/yubikey-11-reset-fido2close.webp)
+![Screenshot of the Yubico Authenticator application showing Factory reset popup with a warning before reset.](../assets/images-blog/yubikey-reset-and-backup/yubikey-11-reset-fido2close.webp)
 
 #### 5.3. Reset PIV
 
 From the "Device" menu again, click on "Factory reset" again. This time click on "PIV". You will see a checkmark appear over "PIV", then click on "Reset" on the lower-right.
 
-![Screenshot of the Yubico Authenticator application showing Factory reset popup with the PIV option selected.](../assets/images/yubikey-reset-and-backup/yubikey-12-reset-piv.webp)
+![Screenshot of the Yubico Authenticator application showing Factory reset popup with the PIV option selected.](../assets/images-blog/yubikey-reset-and-backup/yubikey-12-reset-piv.webp)
 
 <div class="admonition success" markdown>
 <p class="admonition-title">Reset your spare key too!</p>
@@ -339,7 +339,7 @@ You should see this confirmation message:
 "Reset complete. All YubiHSM Auth data has been cleared from the YubiKey."
 ```
 
-![Screenshot of a terminal window showing the two commands for the OpenPGP and HSMauth resets.](../assets/images/yubikey-reset-and-backup/yubikey-13-reset-cli.webp)
+![Screenshot of a terminal window showing the two commands for the OpenPGP and HSMauth resets.](../assets/images-blog/yubikey-reset-and-backup/yubikey-13-reset-cli.webp)
 
 <div class="admonition success" markdown>
 <p class="admonition-title">Reset your spare key too!</p>
@@ -369,25 +369,25 @@ Before starting to use your keys, Yubico [recommends](https://docs.yubico.com/so
 
 On the left-side menu, click on the "Certificates" button. You will see a section for various certificates in the center and in the right-side "Manage" menu, buttons to "Change PIN", "Change PUK", and "Management key".
 
-![Screenshot of the Yubico Authenticator application showing the Certificates section.](../assets/images/yubikey-reset-and-backup/yubikey-14-config-certificates.webp)
+![Screenshot of the Yubico Authenticator application showing the Certificates section.](../assets/images-blog/yubikey-reset-and-backup/yubikey-14-config-certificates.webp)
 
 #### 7.2. Change the default PIN
 
 Click on the "Change PIN" button and a section will pop up. Enter a new PIN that is between 6 and 8 characters long, then click "Save".
 
-![Screenshot of the Yubico Authenticator application showing a Change PIN popup.](../assets/images/yubikey-reset-and-backup/yubikey-15-config-certificatespin.webp)
+![Screenshot of the Yubico Authenticator application showing a Change PIN popup.](../assets/images-blog/yubikey-reset-and-backup/yubikey-15-config-certificatespin.webp)
 
 #### 7.3. Change the default PUK
 
 Click on the "Change PUK" button and a section will pop up. Enter a new PUK number that is between 6 and 8 characters long, then click "Save".
 
-![Screenshot of the Yubico Authenticator application showing a Change PUK popup.](../assets/images/yubikey-reset-and-backup/yubikey-16-config-certificatespuk.webp)
+![Screenshot of the Yubico Authenticator application showing a Change PUK popup.](../assets/images-blog/yubikey-reset-and-backup/yubikey-16-config-certificatespuk.webp)
 
 #### 7.4. Change the default Management key
 
 Click on the "Management key" button and a section will pop up. Enter or generate a "New management key" with a maximum of 64 characters. You can also change the encryption algorithm to "TDES", "AES128", "AES192", or "AES256" and add a pin protection by clicking on "Protect with PIN". Then click "Save".
 
-![Screenshot of the Yubico Authenticator application showing a Change management key popup.](../assets/images/yubikey-reset-and-backup/yubikey-17-config-certificateskey.webp)
+![Screenshot of the Yubico Authenticator application showing a Change management key popup.](../assets/images-blog/yubikey-reset-and-backup/yubikey-17-config-certificateskey.webp)
 
 <div class="admonition success" markdown>
 <p class="admonition-title">Secure your spare key too! Don't forget to repeat all of these steps for your spare key!</p></div>
@@ -409,9 +409,9 @@ Click on the "Slots" button in the left-side menu. You will see 2 slots listed t
 
 Click on the first "Short touch" slot, then on the right-side menu, click on the "Yubico OTP" button in "Setup". A "Yubico OTP" section will pop up with three text fields.
 
-![Screenshot of the Yubico Authenticator application showing the Slots section with the Yubico OTP button selected on the right.](../assets/images/yubikey-reset-and-backup/yubikey-18-config-otp.webp)
+![Screenshot of the Yubico Authenticator application showing the Slots section with the Yubico OTP button selected on the right.](../assets/images-blog/yubikey-reset-and-backup/yubikey-18-config-otp.webp)
 
-![Screenshot of the Yubico Authenticator application showing a Yubico OTP popup.](../assets/images/yubikey-reset-and-backup/yubikey-19-config-otpfields.webp)
+![Screenshot of the Yubico Authenticator application showing a Yubico OTP popup.](../assets/images-blog/yubikey-reset-and-backup/yubikey-19-config-otpfields.webp)
 
 #### 8.2. For the Public ID field
 
@@ -469,9 +469,9 @@ This text file contains sensitive information in plain text. Make sure to pick a
 
 </div>
 
-![Screenshot of the Yubico Authenticator application showing a Yubico OTP popup with all text fields filled.](../assets/images/yubikey-reset-and-backup/yubikey-20-config-otpfieldsfilled.webp)
+![Screenshot of the Yubico Authenticator application showing a Yubico OTP popup with all text fields filled.](../assets/images-blog/yubikey-reset-and-backup/yubikey-20-config-otpfieldsfilled.webp)
 
-![Screenshot of a popup Choose File Name window to save a file.](../assets/images/yubikey-reset-and-backup/yubikey-21-config-otpfile.webp)
+![Screenshot of a popup Choose File Name window to save a file.](../assets/images-blog/yubikey-reset-and-backup/yubikey-21-config-otpfile.webp)
 
 Once all the information is filled, click on "Save" at the lower-right. The file you save will have the following coma-separated format:
 
@@ -489,7 +489,7 @@ Now you will need to upload your keys' OTP credentials to the YubiCloud validati
 
 Go to Yubico's [validation page](https://upload.yubico.com/) from a secure browser. Open the credentials file you have saved on [Step 8.5](#85-save-your-otp-credentials) and copy each field in the corresponding section.
 
-![Screenshot of a browser window showing the Yubico OTP key upload web page.](../assets/images/yubikey-reset-and-backup/yubikey-22-config-register.webp)
+![Screenshot of a browser window showing the Yubico OTP key upload web page.](../assets/images-blog/yubikey-reset-and-backup/yubikey-22-config-register.webp)
 
 For the "OTP from YubiKey" field, click on the text field and touch your key's gold part to generate it. Then click on "I'm not a robot", solve the annoying CAPTCHA, and click on "Upload".
 
@@ -499,11 +499,11 @@ Under you key's Public ID, you will see 3 steps validating your key. This can ta
 
 Once your key's OTP credentials are fully uploaded to YubiCloud's validation server, you will see a "Try it out" green button appear. Click on it.
 
-![Screenshot of a browser window showing the Yubico OTP key upload web page validating a key registration.](../assets/images/yubikey-reset-and-backup/yubikey-23-config-registersuccess.webp)
+![Screenshot of a browser window showing the Yubico OTP key upload web page validating a key registration.](../assets/images-blog/yubikey-reset-and-backup/yubikey-23-config-registersuccess.webp)
 
 On this testing page, you can verify that your key's OTP slot works properly. Click on the "Yubico OTP" text field and touch the gold part of your key. You should see a small popup message on the lower-left confirming "OTP is valid". Try it a few times, then you can close this page.
 
-![Screenshot of a browser window showing the Yubico OTP testing web page.](../assets/images/yubikey-reset-and-backup/yubikey-24-config-tryitout.webp)
+![Screenshot of a browser window showing the Yubico OTP testing web page.](../assets/images-blog/yubikey-reset-and-backup/yubikey-24-config-tryitout.webp)
 
 Finally, unplug your main key, plug in your *spare* key, and repeat this step using your spare key's saved credentials. It's important to **register both your main and spare keys**.
 
@@ -522,7 +522,7 @@ If you can, insert both your main and spare keys at once, and start configuring 
 
 Click on the "Slots" button in the left-side menu. You will see 2 slots listed there labeled as "Short touch" and "Long touch" slots.
 
-![Screenshot of the Yubico Authenticator application showing the Slots section with the Long touch slot selected and the Challenge-response button selected on the right.](../assets/images/yubikey-reset-and-backup/yubikey-25-config-challenge.webp)
+![Screenshot of the Yubico Authenticator application showing the Slots section with the Long touch slot selected and the Challenge-response button selected on the right.](../assets/images-blog/yubikey-reset-and-backup/yubikey-25-config-challenge.webp)
 
 <div class="admonition success" markdown>
 <p class="admonition-title">Verify configuration</p>
@@ -533,7 +533,7 @@ If you have configured your keys' OTP in the previous step, the "Short touch" sl
 
 Click on the "Long touch" slot, and on the right-side menu click on the "Challenge-response" button in "Setup". A "Challenge-response" section will pop up with a "Secret key" text field.
 
-![Screenshot of the Yubico Authenticator application showing a Challenge-response popup.](../assets/images/yubikey-reset-and-backup/yubikey-26-config-challengepopup.webp)
+![Screenshot of the Yubico Authenticator application showing a Challenge-response popup.](../assets/images-blog/yubikey-reset-and-backup/yubikey-26-config-challengepopup.webp)
 
 #### 9.2. Generate a Secret key and save it
 
@@ -556,11 +556,11 @@ Click on "Require touch" if you wish to have to touch your YubiKey each time you
 
 Back to the "Slots" section, click on your *spare* key in the upper-left key menu. The click on "Long touch" and on "Challenge-response" again. Make sure you have selected your *spare key* this time.
 
-![Screenshot of the Yubico Authenticator application showing the Slots section with the spare key selected. The Long touch is labeled empty.](../assets/images/yubikey-reset-and-backup/yubikey-27-config-challengespare.webp)
+![Screenshot of the Yubico Authenticator application showing the Slots section with the spare key selected. The Long touch is labeled empty.](../assets/images-blog/yubikey-reset-and-backup/yubikey-27-config-challengespare.webp)
 
 In the "Challenge-response" text field for your "Secret key", instead of generating a random one, paste the Secret key you have copied from your main key in the previous step. Click again on "Require touch" to enable it if you wish (optional), then click "Save". You should now see both your spare key's "Short touch" and "Long touch" labeled as configured.
 
-![Screenshot of the Yubico Authenticator application showing the Slots section with the spare key selected. The Long touch is labeled configured.](../assets/images/yubikey-reset-and-backup/yubikey-28-config-spareconfigured.webp)
+![Screenshot of the Yubico Authenticator application showing the Slots section with the spare key selected. The Long touch is labeled configured.](../assets/images-blog/yubikey-reset-and-backup/yubikey-28-config-spareconfigured.webp)
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Make a note of which application is in each slot</p>
@@ -599,7 +599,7 @@ Once you have registered a new OATH-TOTP code on your main key, you will not nee
 
 If you successfully completed the setup for both your main and spare keys, the OATH-TOTP code generated should be the same on both keys. You will be able to see all the OATH-TOTP codes registered on your keys from the **Yubico Authenticator**. For this, click on the "Accounts" button on the left-side menu.
 
-![Screenshot of the Yubico Authenticator application showing the Accounts section.](../assets/images/yubikey-reset-and-backup/yubikey-29-config-oathtotp.webp)
+![Screenshot of the Yubico Authenticator application showing the Accounts section.](../assets/images-blog/yubikey-reset-and-backup/yubikey-29-config-oathtotp.webp)
 
 To keep your accounts secure, delete the copy of the QR code you have kept once you have completed the registration setup for a new OATH-TOTP account on both your main and spare key (unless you need to keep a backup for other purposes).
 
@@ -609,11 +609,11 @@ Additionally, always make sure to note and secure well any account recovery info
 
 To copy your [**Passkeys**](https://docs.yubico.com/software/yubikey/tools/authenticator/auth-guide/fido2.html#fido2) to your spare key, simply repeat the same setup process that was used to register the Passkey to your main YubiKey. To see a list of all the Passkeys stored on your key, in the **Yubico Authenticator** click on the "Passkeys" button on the left-side menu.
 
-![Screenshot of the Yubico Authenticator application showing the Passkeys section.](../assets/images/yubikey-reset-and-backup/yubikey-30-config-passkeys.webp)
+![Screenshot of the Yubico Authenticator application showing the Passkeys section.](../assets/images-blog/yubikey-reset-and-backup/yubikey-30-config-passkeys.webp)
 
 From the "Passkeys" section, you can also click on the "Set PIN" button the on right to [set up a password](https://docs.yubico.com/software/yubikey/tools/authenticator/auth-guide/fido2.html#creating-and-managing-the-fido2-pin) protection for your Passkeys.
 
-![Screenshot of the Yubico Authenticator application showing a Set PIN popup.](../assets/images/yubikey-reset-and-backup/yubikey-31-config-passkeyspin.webp)
+![Screenshot of the Yubico Authenticator application showing a Set PIN popup.](../assets/images-blog/yubikey-reset-and-backup/yubikey-31-config-passkeyspin.webp)
 
 #### 10.3. Optional: Delete YubiKey's slot(s) to install other application(s)
 
@@ -621,27 +621,27 @@ If you are not using the **Yubico OTP** and/or **Challenge-response** applicatio
 
 To delete a slot, click on the "Slots" button on the left-side menu, then select the slot you wish to delete. On the right-side menu, scroll down the "Setup" menu and click on "Delete credential".
 
-![Screenshot of the Yubico Authenticator application showing the Slots section with the Long touch selected and the Delete credential button selected on the right.](../assets/images/yubikey-reset-and-backup/yubikey-32-deleteslot.webp)
+![Screenshot of the Yubico Authenticator application showing the Slots section with the Long touch selected and the Delete credential button selected on the right.](../assets/images-blog/yubikey-reset-and-backup/yubikey-32-deleteslot.webp)
 
 You will be prompted with a warning message, then select "Delete". **Be careful however**, once deleted, there will be no way to restore the credentials you had stored there unless you have noted it elsewhere.
 
-![Screenshot of the Yubico Authenticator application showing a Delete credential popup.](../assets/images/yubikey-reset-and-backup/yubikey-33-deleteslotpopup.webp)
+![Screenshot of the Yubico Authenticator application showing a Delete credential popup.](../assets/images-blog/yubikey-reset-and-backup/yubikey-33-deleteslotpopup.webp)
 
 #### 10.4. Optional: Setup and copy Static passwords
 
 To set up the [**Static password**](https://docs.yubico.com/software/yubikey/tools/authenticator/auth-guide/yubico-otp.html#static-passwords) application on your key, you must first allocate a slot to it. Click on the "Slots" button on the left-side menu, select the slot you wish to use, then click on "Static password" in the right-side menu.
 
-![Screenshot of the Yubico Authenticator application showing the Slots section with the Long touch slot selected, and the Static password button selected on the right.](../assets/images/yubikey-reset-and-backup/yubikey-34-config-static.webp)
+![Screenshot of the Yubico Authenticator application showing the Slots section with the Long touch slot selected, and the Static password button selected on the right.](../assets/images-blog/yubikey-reset-and-backup/yubikey-34-config-static.webp)
 
 A section will pop up with a text field, click on the "Generate random" circle-arrow button on the right to generate a **Password**. You can click on "Append" to deselect the carriage return if you prefer it removed from the end of your Password. This means you will have to press ++return++ manually to confirm each entry.
 
 By default, the "Keyboard MODHEX" will be selected, but you can select a different "keyboard" if you prefer. This will change the type of characters used in your random Password.
 
-![Screenshot of the Yubico Authenticator application showing a Static password popup with a keyboard selection drop-down menu.](../assets/images/yubikey-reset-and-backup/yubikey-35-config-statickeyboards.webp)
+![Screenshot of the Yubico Authenticator application showing a Static password popup with a keyboard selection drop-down menu.](../assets/images-blog/yubikey-reset-and-backup/yubikey-35-config-statickeyboards.webp)
 
 Before confirming, copy this Password in a secure local text file temporarily. Then click "Save". Back to the "Slots" section, click on your *spare* key in the upper-left key menu. Then click on the same slot you have used with you main key and select again "Static password" on the right. When prompted with the text field again, paste the Password you have copied (make sure to select the same "keyboard" type). Then, click on "Save".
 
-![Screenshot of the Yubico Authenticator application showing a Static Password popup with a Password field filled.](../assets/images/yubikey-reset-and-backup/yubikey-36-config-staticspare.webp)
+![Screenshot of the Yubico Authenticator application showing a Static Password popup with a Password field filled.](../assets/images-blog/yubikey-reset-and-backup/yubikey-36-config-staticspare.webp)
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">If you forgot to note your Static password</p>
@@ -654,7 +654,7 @@ You can trigger your **Static password** from your main key by opening a secure 
 
 To set up [**OATH-HOTP**](https://docs.yubico.com/software/yubikey/tools/authenticator/auth-guide/yubico-otp.html#yubico-otp-hotp) 6 or 8 digits counter-based codes on your YubiKeys, you must first allocate a slot to it. Click on the "Slots" button on the left-side menu, select the slot you wish to use, then click on "OATH-HOTP" in the right-side menu.
 
-![Screenshot of the Yubico Authenticator application showing the Slots section with the Long touch slot selected, and the OATH-HOTP button selected in the right.](../assets/images/yubikey-reset-and-backup/yubikey-37-config-hotp.webp)
+![Screenshot of the Yubico Authenticator application showing the Slots section with the Long touch slot selected, and the OATH-HOTP button selected in the right.](../assets/images-blog/yubikey-reset-and-backup/yubikey-37-config-hotp.webp)
 
 An "OATH-HOTP" section will pop up with a "Secret key" text field. Enter a unique and secure Secret key of your choice.
 
@@ -673,7 +673,7 @@ If you type a Secret key that is longer than 32 characters, you might encounter 
 
 </div>
 
-![Screenshot of the Yubico Authenticator application showing an OATH-HOTP popup with a Secret key field filled.](../assets/images/yubikey-reset-and-backup/yubikey-38-config-oathhotppopup.webp)
+![Screenshot of the Yubico Authenticator application showing an OATH-HOTP popup with a Secret key field filled.](../assets/images-blog/yubikey-reset-and-backup/yubikey-38-config-oathhotppopup.webp)
 
 Keep a **secure copy of this Secret key in a local text file**. You will need it to register with the validation server for each account, and for your spare key.
 
@@ -720,7 +720,7 @@ Then, enter a **new unique 8-127 digits PIN**, and confirm this new Admin PIN.
 
 Your terminal should confirm with the message "Admin PIN has been changed." Note this new Admin PIN somewhere secure where you will find it back easily, you will need it for the next steps.
 
-![Screenshot of a terminal window showing the commands to change the OpenPGP PIN and Admin PIN.](../assets/images/yubikey-reset-and-backup/yubikey-39-config-pgppins.webp)
+![Screenshot of a terminal window showing the commands to change the OpenPGP PIN and Admin PIN.](../assets/images-blog/yubikey-reset-and-backup/yubikey-39-config-pgppins.webp)
 
 <div class="admonition success" markdown>
 <p class="admonition-title">Secure your spare key as well!</p>
@@ -752,7 +752,7 @@ When prompted to select the type of key you wish to generate, enter `1` for "RSA
 
 When asked "What keysize do you want?", type `4096`. Type `4096` as well for the subkey.
 
-![Screenshot of a terminal window showing an OpenPGP key generation.](../assets/images/yubikey-reset-and-backup/yubikey-40-config-pgpgeneratekey.webp)
+![Screenshot of a terminal window showing an OpenPGP key generation.](../assets/images-blog/yubikey-reset-and-backup/yubikey-40-config-pgpgeneratekey.webp)
 
 Follow the instructions to choose an expiration date for your OpenPGP key, and confirm with ++y++.
 
@@ -760,7 +760,7 @@ When prompted with "GnuPG needs to construct a user ID to identify your key", en
 
 Once confirmed, a dialogue box should pop up from your **GPG software**. Create a **passphrase** to protect your OpenPGP key.
 
-![Screenshot of a GPG software application asking to set up a passphrase.](../assets/images/yubikey-reset-and-backup/yubikey-41-config-pgppassphrase.webp)
+![Screenshot of a GPG software application asking to set up a passphrase.](../assets/images-blog/yubikey-reset-and-backup/yubikey-41-config-pgppassphrase.webp)
 
 Go back to your terminal application, and type this command to find your OpenPGP key's ID:
 
@@ -805,7 +805,7 @@ This will start a **`gpg`** program prompt in your terminal. From there, type:
 addkey
 ```
 
-![Screenshot of a terminal window showing the command to edit and add subkeys.](../assets/images/yubikey-reset-and-backup/yubikey-42-config-pgpaddkeys.webp)
+![Screenshot of a terminal window showing the command to edit and add subkeys.](../assets/images-blog/yubikey-reset-and-backup/yubikey-42-config-pgpaddkeys.webp)
 
 When prompted with "Please select what kind of key you want" type `8`.
 
@@ -826,7 +826,7 @@ To generate all 3 subkeys, type ++a++ to *enable* Authenticate as well (Sign and
 
 The type ++q++ to confirm your selection (Finished).
 
-![Screenshot of a terminal window showing the option for subkey types.](../assets/images/yubikey-reset-and-backup/yubikey-43-config-pgp3subkeys.webp)
+![Screenshot of a terminal window showing the option for subkey types.](../assets/images-blog/yubikey-reset-and-backup/yubikey-43-config-pgp3subkeys.webp)
 
 You will then be asked to choose a keysize, type `4096`.
 
@@ -893,7 +893,7 @@ In the terminal **`gpg`** prompt, type the command:
 keytocard
 ```
 
-![Screenshot of a terminal window showing details of the OpenPGP key and its subkeys.](../assets/images/yubikey-reset-and-backup/yubikey-44-config-pgpimportsubkeys.webp)
+![Screenshot of a terminal window showing details of the OpenPGP key and its subkeys.](../assets/images-blog/yubikey-reset-and-backup/yubikey-44-config-pgpimportsubkeys.webp)
 
 When prompted with "Really move the primary key? (y/N)" type ++y++.
 
@@ -917,7 +917,7 @@ Your selection? 1
 
 Your GPG software will pop up and require you enter your OpenPGP key's passphrase. There will then be 2 more popups requiring you enter the OpenPGP application's **Admin PIN** you have just setup on [Step 11.1](#111-secure-your-yubikeys-openpgp-application-with-a-new-pin-and-admin-pin). You will be asked for your Admin PIN *twice*.
 
-![Screenshot of a GPG software popup window requiring to enter an Admin PIN.](../assets/images/yubikey-reset-and-backup/yubikey-45-config-pgpadminpin.webp)
+![Screenshot of a GPG software popup window requiring to enter an Admin PIN.](../assets/images-blog/yubikey-reset-and-backup/yubikey-45-config-pgpadminpin.webp)
 
 Back to the terminal **`gpg`** prompt, type `key 1` then `keytocard` again. This time select `2` to move the **Encryption subkey** to your YubiKey:
 

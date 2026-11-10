@@ -15,7 +15,7 @@ preview:
 
 # How To Improve Your Privacy and Security on Mastodon
 
-![Illustration of a mastodon mascot pointing at a padlock icon in a cheerful way. Above is the Mastodon logo over a purple background.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-tutorial-cover.webp)
+![Illustration of a mastodon mascot pointing at a padlock icon in a cheerful way. Above is the Mastodon logo over a purple background.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-tutorial-cover.webp)
 <small aria-hidden="true">Montage: Em / Privacy Guides | Illustration: @dopatwo@mastodon.social (1)</small>
 { .annotate }
 
@@ -78,19 +78,19 @@ Additionally, you should enable multifactor authentication for your account as s
 
 For this, go to "Preferences" (in the right-side menu) > "Account" > "Two-factor Auth", then click on the purple "Set up" button at the bottom.
 
-![Screenshot of the Mastodon web interface showing the Two-factor Auth page in Preferences.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-multifactor-setup.webp)
+![Screenshot of the Mastodon web interface showing the Two-factor Auth page in Preferences.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-multifactor-setup.webp)
 
 #### Authenticator app
 
 Confirm your password when prompted. Then scan the QR code with your [authenticator app](https://www.privacyguides.org/en/multi-factor-authentication/), or enter manually the plain-text secret on the right of the QR code. Confirm with entering the two-factor code from your authenticator app, then click "Enable" at the bottom.
 
-![Screenshot of the Mastodon web interface showing the Two-factor Auth page in Preferences. This shows a QR code to scan or a plain-text secret to register a code for an authenticator app.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-multifactor-qrcode.webp)
+![Screenshot of the Mastodon web interface showing the Two-factor Auth page in Preferences. This shows a QR code to scan or a plain-text secret to register a code for an authenticator app.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-multifactor-qrcode.webp)
 
 **Carefully note the recovery codes** provided. You will need to use them if you lose access to your authenticator, for example if you were to lose your phone.
 
 If you need to change your authenticator app later, you can go back to this menu and select "Edit" on the right of "Authenticator app". You can also return to this menu to generate new recovery codes, if you have lost your older ones or if they were compromised. Generating new recovery codes will invalidate your previous ones.
 
-![Screenshot of the Mastodon web interface showing the Two-factor Auth page in Preferences. The page displays a confirmation message that authentication is enabled, and options to "Edit", "Add", or "Disable 2FA" methods.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-multifactor-enabled.webp)
+![Screenshot of the Mastodon web interface showing the Two-factor Auth page in Preferences. The page displays a confirmation message that authentication is enabled, and options to "Edit", "Add", or "Disable 2FA" methods.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-multifactor-enabled.webp)
 
 #### Security key
 
@@ -105,17 +105,17 @@ Some browsers will not support security key authentication. For example, the Mul
 
 To add a security key, click on "Add" on the right of the listing. Insert your security key, choose a "Nickname" for it, then click on the "Add new security key" purple button.
 
-![Screenshot of the Mastodon web interface showing the Security keys page in Preferences.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-multifactor-securitykey.webp)
+![Screenshot of the Mastodon web interface showing the Security keys page in Preferences.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-multifactor-securitykey.webp)
 
 On macOS, you might be prompted with an option to "Choose how to manage your passkeys". If you get this pop-up, click on "Other Options" at the bottom.
 
-![Screenshot of the Mastodon web interface showing the Security keys page with a macOS pop-up window over it. The pop-up gives options to "Choose how to manage your passkeys".](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-multifactor-mac-popup.webp)
+![Screenshot of the Mastodon web interface showing the Security keys page with a macOS pop-up window over it. The pop-up gives options to "Choose how to manage your passkeys".](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-multifactor-mac-popup.webp)
 
 On the second pop-up, select "Security key" then "Continue". When prompted with "Set Up Security Key", activate your security key (for some keys, this means touching the metal part of it). This step may differ depending on your operating system type and version.
 
 Once completed, you should see a confirmation that "Your security key was successfully added" on the page.
 
-![Screenshot of the Mastodon web interface showing the Two-factor Auth page in Preferences. The page displays a confirmation message and options to "Edit" both two-factor methods.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-multifactor-securitykey-added.webp)
+![Screenshot of the Mastodon web interface showing the Two-factor Auth page in Preferences. The page displays a confirmation message and options to "Edit" both two-factor methods.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-multifactor-securitykey-added.webp)
 
 From now, each time you log in your Mastodon account, you will be prompted to select one of your authentication methods after entering your email address and password:
 
@@ -125,7 +125,7 @@ From now, each time you log in your Mastodon account, you will be prompted to se
 
 If you try to sign in from a browser that doesn't support security keys after enabling it (or if you lost access to your security key), you can still log in your account using your authenticator app as described above.
 
-![Screenshot of the Mastodon web interface showing the login page for the second factor of authentication. The page gives the option to "Use security key" or "Enter a two-factor code from your phone or a recovery code".](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-multifactor-securitykey-prompted.webp)
+![Screenshot of the Mastodon web interface showing the login page for the second factor of authentication. The page gives the option to "Use security key" or "Enter a two-factor code from your phone or a recovery code".](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-multifactor-securitykey-prompted.webp)
 
 Keep in mind that adding *more* methods of authentication to your account *doesn't* make it more secure, it's the opposite.
 
@@ -146,19 +146,19 @@ There, you will see every application you have granted access to. If you no long
 
 If you do not recognize a listed service, you can ask your instance administrator to know if this is a legitimate application (some administrators might connect legitimate services to your account you may not recognize, such as Matrix).
 
-![Screenshot of the Mastodon web interface showing the "Your authorized applications" page in Preferences.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-accesses-authorized-apps.webp)
+![Screenshot of the Mastodon web interface showing the "Your authorized applications" page in Preferences.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-accesses-authorized-apps.webp)
 
 ### Sessions and login history
 
 Additionally, in "Preferences" > "Account" > "Account settings", in the "Sessions" section, you will find a list of authorized browser sessions. Again, you can revoke access to any sessions you no longer use, or do not recognize.
 
-![Screenshot of the Mastodon web interface showing the Account settings page in Preferences.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-accesses-sessions-list.webp)
+![Screenshot of the Mastodon web interface showing the Account settings page in Preferences.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-accesses-sessions-list.webp)
 
 Just above this sessions list, you will see a link labeled "View authentication history of your account". Click on it to see a list of past logins, including applications used and IP addresses.
 
 If you see a login that isn't legitimate, you should *immediately* revoke accesses you aren't using, and consider changing your password.
 
-![Screenshot of the Mastodon web interface showing the Authentication history page from clicking on the "View authentication history of your account" link on the previous Account settings page.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-accesses-login-history.webp)
+![Screenshot of the Mastodon web interface showing the Authentication history page from clicking on the "View authentication history of your account" link on the previous Account settings page.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-accesses-login-history.webp)
 
 ## :octicons-lock-16: Adjusting privacy vs discovery
 
@@ -170,7 +170,7 @@ You might decide to enable the most restrictions on your account's visibility (m
 
 On Mastodon, you have many options to adjust this to your preferences and needs. In "Preferences" > "Public profile", select the "Privacy and reach" tab at the top.
 
-![Screenshot of the Mastodon web interface showing the Public profile page in Preferences, from the "Privacy and reach" tab.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-account-privacy-reach.webp)
+![Screenshot of the Mastodon web interface showing the Public profile page in Preferences, from the "Privacy and reach" tab.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-account-privacy-reach.webp)
 
 ### Reach
 
@@ -192,7 +192,7 @@ On Mastodon, you have many options to adjust this to your preferences and needs.
 
 Once you have adjusted the account options to your preferences, click on "Save changes" at the bottom to confirm your choices.
 
-![Screenshot of the Mastodon web interface showing the Public profile page in Preferences, from the "Privacy and reach" tab. The page is scrolled down to the "Save changes" button at the very bottom of the six unchecked options.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-account-privacy-options.webp)
+![Screenshot of the Mastodon web interface showing the Public profile page in Preferences, from the "Privacy and reach" tab. The page is scrolled down to the "Save changes" button at the very bottom of the six unchecked options.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-account-privacy-options.webp)
 
 ## :material-message-lock-outline: Selecting post visibility and access
 
@@ -200,7 +200,7 @@ In addition to your account's privacy preferences, you can also adjust visibilit
 
 On Mastodon, you can choose between 4 types of visibility for each post: Public, Quiet public, Followers, and Private mention.
 
-![Screenshot of the Mastodon web interface showing the post composition window. The image shows the drop-menu from the "Change post privacy" button, with four different post visibility options.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-posts-visibility-types.webp){width="400"}
+![Screenshot of the Mastodon web interface showing the post composition window. The image shows the drop-menu from the "Change post privacy" button, with four different post visibility options.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-posts-visibility-types.webp){width="400"}
 
 ### Public post
 
@@ -208,7 +208,7 @@ This post is visible to anyone, whether they follow you or not. This post will a
 
 For example, if you log *out* of your account, then go to `https://YOUR_INSTANCE_ADDRESS/@YOUR_USERNAME`, you will see what someone outside of Mastodon could see from your public page.
 
-![Screenshot of a Mastodon account's public page from a browser. A yellow arrow points at the account's URL, and three red arrows point at information visible to the public such as a public post, a quiet-public post, and the fact that this account is locked.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-posts-account-page.webp)
+![Screenshot of a Mastodon account's public page from a browser. A yellow arrow points at the account's URL, and three red arrows point at information visible to the public such as a public post, a quiet-public post, and the fact that this account is locked.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-posts-account-page.webp)
 <small aria-hidden="true">Note: Please do not follow this account. This account is for research purposes only, and is not an official Privacy Guides account.</small>
 
 ### Quiet public post
@@ -240,7 +240,7 @@ Be careful not to write the handle of someone you do not want included in this c
 
 Additionally, always keep in mind that the administration and moderation team of your instance *could* see all your posts, including your Private mention posts (like it is the case for any other social media). Never share sensitive information in Private mention posts!
 
-![Screenshot of the Mastodon web interface showing the post composition window for a Private mention post. There is a warning message above saying that "Posts on Mastodon are not end-to-end encrypted. Do not share any sensitive information over Mastodon. Learn more".](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-private-mention.webp){width="400"}
+![Screenshot of the Mastodon web interface showing the post composition window for a Private mention post. There is a warning message above saying that "Posts on Mastodon are not end-to-end encrypted. Do not share any sensitive information over Mastodon. Learn more".](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-private-mention.webp){width="400"}
 
 <div class="admonition info" markdown>
 <p class="admonition-title">End-to-end encryption for private mentions</p>
@@ -263,7 +263,7 @@ To adjust the default post visibility, go to "Preferences" > "Preferences" > "Ot
 
 Confirm your choice by clicking on "Save changes" on the upper-right.
 
-![Screenshot of the Mastodon web interface showing the "Preferences" page in Preferences.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-posts-default.webp)
+![Screenshot of the Mastodon web interface showing the "Preferences" page in Preferences.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-posts-default.webp)
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Hide posted media (slightly)</p>
@@ -296,7 +296,7 @@ To adjust this in preparation, go to "Preferences" > "Preferences" > "Other". Fr
 
 Confirm your choice by clicking on "Save changes" on the upper-right.
 
-![Screenshot of the Mastodon web interface showing the "Preferences" page in Preferences.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-posts-quote-posts.webp)
+![Screenshot of the Mastodon web interface showing the "Preferences" page in Preferences.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-posts-quote-posts.webp)
 
 ## :material-checkbox-marked-circle-outline: Verifying yourself and others
 
@@ -308,7 +308,7 @@ For example, if you are the official Mastodon account for the privacyguides.org 
 
 From a profile page, it looks like this:
 
-![Screenshot of the Privacy Guides Mastodon account's public page. The profile page shows multiple verified links in green with a checkmark on the left, including the official Privacy Guides website, forum, articles, videos, and donation pages.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-verification-links.webp)
+![Screenshot of the Privacy Guides Mastodon account's public page. The profile page shows multiple verified links in green with a checkmark on the left, including the official Privacy Guides website, forum, articles, videos, and donation pages.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-verification-links.webp)
 
 All the links displayed in green with a checkmark have been verified from the listed websites.
 
@@ -324,7 +324,7 @@ It's easy, and it's free!
 
 Go to "Preferences" > "Public profile", then select the "Verification" tab at the top. From there, follow the instructions to copy the link to the web page you want to use to verify your account.
 
-![Screenshot of the Mastodon web interface showing the Public profile page in Preferences, from the "Verification" tab. The page shows a link to copy containing the account's address, and a confirmation of links already verified.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-verification-link-setup.webp)
+![Screenshot of the Mastodon web interface showing the Public profile page in Preferences, from the "Verification" tab. The page shows a link to copy containing the account's address, and a confirmation of links already verified.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-verification-link-setup.webp)
 
 If you prefer not to add a Mastodon link to your web page, you can simply add this HTML line in the web page's head section (replacing `https://YOUR_INSTANCE_ADDRESS/@YOUR_USERNAME` with the link to your own Mastodon account):
 
@@ -346,7 +346,7 @@ To add author attributions to your articles, scroll down the same page and simpl
 <meta property="fediverse:creator" content="@YOUR_USERNAME@YOUR_INSTANCE_ADDRESS">
 ```
 
-![Screenshot of the Mastodon web interface showing the Public profile page in Preferences, from the "Verification" tab. The page is scrolled down to the very bottom, showing the option and instructions to add Author attribution to articles.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-verification-author-setup.webp)
+![Screenshot of the Mastodon web interface showing the Public profile page in Preferences, from the "Verification" tab. The page is scrolled down to the very bottom, showing the option and instructions to add Author attribution to articles.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-verification-author-setup.webp)
 
 ## :material-folder-multiple-outline: Deleting and accessing your data
 
@@ -364,7 +364,7 @@ In the "Exceptions" section below, you can select a number of variables to custo
 
 You can also keep the option checked to protect from deletion your own posts that you have favorited. This is very convenient to get a more granular control over automated deletion, purposefully keeping some posts while letting others getting automatically deleted.
 
-![Screenshot of the Mastodon web interface showing the Automated post deletion page in Preferences.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-deletion.webp)
+![Screenshot of the Mastodon web interface showing the Automated post deletion page in Preferences.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-deletion.webp)
 
 In the "Exceptions based on interactions" section, you can select a threshold of favorites and/or boosts to protect posts from automatic deletion.
 
@@ -376,7 +376,7 @@ Another important side of digital rights is access to your own data. Here again,
 
 For this, go to "Preferences" > "Import and export" > "Export". From there, you can request a compressed archive of all your posts and uploaded media once every 7 days. This archive will be readable by any ActivityPub-compatible software, or you can open it with any simple text software.
 
-![Screenshot of the Mastodon web interface showing the Export page in Preferences.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-export.webp)
+![Screenshot of the Mastodon web interface showing the Export page in Preferences.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-export.webp)
 
 Additionally, you can download lists of your Follows, Followers, Lists, Mutes, Blocks, Domain Blocks, and Bookmarks in CSV format any time (also readable with any simple text software).
 
@@ -388,7 +388,7 @@ Finally, if you decide to delete your *whole* account, this is again incredibly 
 
 Once you are ready to delete your data (and have downloaded the data you wish to keep), click on the "proceed here" link. Read the information from the "Account deletion" page, and enter your password when you are ready to confirm.
 
-![Screenshot of the Mastodon web interface showing the Account deletion page, from the "proceed here" link on the previous "Account" page.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-deletion-account.webp)
+![Screenshot of the Mastodon web interface showing the Account deletion page, from the "proceed here" link on the previous "Account" page.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-deletion-account.webp)
 
 ## :octicons-blocked-16: Blocking users and instances
 
@@ -412,13 +412,13 @@ If you block a user, this person will not be able to interact with you, and will
 
 If you want to remember why you blocked (or muted) someone, you can [add a Personal Note](https://fedi.tips/what-are-notes-on-mastodon-what-does-click-to-add-note-mean-on-mastodon-profiles/) on their profile page. They will not be able to see this note, but your notes could be read by your instance's administration or moderation team. Be careful what you write there. Notes cannot be transferred during account migration at this time.
 
-![Screenshot of the Mastodon web interface showing a user's profile page viewed from within a logged-in user interface. A yellow arrow points at the section to add a Personal Note on a user's profile page.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-personal-note.webp)
+![Screenshot of the Mastodon web interface showing a user's profile page viewed from within a logged-in user interface. A yellow arrow points at the section to add a Personal Note on a user's profile page.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-personal-note.webp)
 
 </div>
 
 To block a single user, find their profile and click on the 3-dot "Menu" button on the upper-right. From the drop-menu, select "Block `USERNAME`".
 
-![Screenshot of the Mastodon web interface showing a user's profile page viewed from within a logged-in user interface. A yellow arrow points at the drop-menu from the profile page's "Menu" button, with the selection to Block that user.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-block-user.webp)
+![Screenshot of the Mastodon web interface showing a user's profile page viewed from within a logged-in user interface. A yellow arrow points at the drop-menu from the profile page's "Menu" button, with the selection to Block that user.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-block-user.webp)
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Blocked users can still visit your account's public page</p>
@@ -440,17 +440,17 @@ Remember this will block *everyone* using this instance at once, and you will lo
 
 </div>
 
-![Screenshot of the Mastodon web interface showing a user's profile page viewed from within a logged-in user interface. A yellow arrow points at the drop-menu from the profile page's "Menu" button, with the selection to Block domain the whole instance this user is from.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-block-instance.webp)
+![Screenshot of the Mastodon web interface showing a user's profile page viewed from within a logged-in user interface. A yellow arrow points at the drop-menu from the profile page's "Menu" button, with the selection to Block domain the whole instance this user is from.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-block-instance.webp)
 
 Alternatively, you can even "pre-block" an instance on Mastodon. For example, many people used this method when Meta's Threads announced they would connect to the Fediverse, but didn't have any connected accounts yet.
 
 To do this, go to "Preferences" > "Import and export" > "Export", then download the "CSV" file for your "Domain blocks".
 
-![Screenshot of the Mastodon web interface showing the Export page in Preferences.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-block-domains-csv.webp)
+![Screenshot of the Mastodon web interface showing the Export page in Preferences.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-block-domains-csv.webp)
 
 Open the `blocked_domains.csv` file as a text file, then type each domain you wish to block. Use one line for each domain (if you want to block more than one). Save this file using the same filename.
 
-![Screenshot of the "blocked domains" CSV file opened with TextEdit. The file contains two different domains written on each a separate line.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-block-domains-file.webp)
+![Screenshot of the "blocked domains" CSV file opened with TextEdit. The file contains two different domains written on each a separate line.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-block-domains-file.webp)
 
 Back to your account, move to the "Import" section from the left-side menu. From the "Import type", select "Domain blocking list".
 
@@ -463,7 +463,7 @@ Make sure to select "Domain blocking list" in the "Import type" or you could acc
 
 </div>
 
-![Screenshot of the Mastodon web interface showing the Import page in Preferences.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-block-domains-import.webp)
+![Screenshot of the Mastodon web interface showing the Import page in Preferences.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-block-domains-import.webp)
 
 You will be prompted to confirm. Verify the information is correct, then click "Confirm". You should see a confirmation message with "Your data was successfully uploaded and will be processed in due time". You can now leave this page.
 
@@ -479,7 +479,7 @@ To report a post, click on the 3-dot "More" button on the lower-right of the pro
 
 Answer the form to the best of your knowledge, and **try to be as helpful to your instance's moderation team as you can, without overwhelming them**.
 
-![Screenshot of the Mastodon web interface showing a user's profile page viewed from within a logged-in user interface. A red arrow points at the "More" button of a post, and another red arrow points at the "Report" selection from the drop-menu.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-report.webp)
+![Screenshot of the Mastodon web interface showing a user's profile page viewed from within a logged-in user interface. A red arrow points at the "More" button of a post, and another red arrow points at the "Report" selection from the drop-menu.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-report.webp)
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Do not report if there are no policy violations</p>
@@ -553,7 +553,7 @@ Do not stop there!
 
 You also need to download the CSV files above to import them manually to your new account. For each line with a CSV option on the table below ("Follows", "Lists", "You mute", "You block", "Domain blocks", and "Bookmarks"), download the CSV file in a secure location. Be careful not to forget anything.
 
-![Screenshot of the Mastodon web interface showing the Export page in Preferences. The downloadable CSV files are highlighted.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-move-export.webp)
+![Screenshot of the Mastodon web interface showing the Export page in Preferences. The downloadable CSV files are highlighted.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-move-export.webp)
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Your posts will not be moved!</p>
@@ -574,7 +574,7 @@ In the field labeled "Handle of the old account", enter the complete handle (`@Y
 
 This will not initiate the migration yet. It will only create an alias, and it is reversible.
 
-![Screenshot of the Mastodon web interface showing the Account aliases page in Preferences, from the "Moving from a different account" link on the Account settings page.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-move-account-alias.webp)
+![Screenshot of the Mastodon web interface showing the Account aliases page in Preferences, from the "Moving from a different account" link on the Account settings page.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-move-account-alias.webp)
 
 **From your old account:** Go to "Preferences" > "Account" > "Account settings", scroll down to "Move **to** a different account", and click on "configure it here".
 
@@ -582,7 +582,7 @@ Carefully read the information on this page. Enter the *complete handle* (`@YOUR
 
 **This will initiate the migration process.**
 
-![Screenshot of the Mastodon web interface showing the Account aliases page in Preferences, from the "Move to a different account" link on the Account settings page.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-move-account-migration.webp)
+![Screenshot of the Mastodon web interface showing the Account aliases page in Preferences, from the "Move to a different account" link on the Account settings page.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-move-account-migration.webp)
 
 Moving all your followers to your new account might take some time, but normally should be fully completed within 24 hours.
 
@@ -592,7 +592,7 @@ For **each** of these 6 types of data, select a type in the "Import type" drop-m
 
 Choose "Merge" on the right if you want to *add* this old data to data your already have on your new account, or "Overwrite" if you want to only keep data from your old account. Then click "Upload" below.
 
-![Screenshot of the Mastodon web interface showing the Import page in Preferences.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-move-import.webp)
+![Screenshot of the Mastodon web interface showing the Import page in Preferences.](../assets/images-blog/mastodon-tutorial-privacy-and-security/mastodon-move-import.webp)
 
 There you go! Your Mastodon account was successfully moved from one Mastodon instance to another!
 
