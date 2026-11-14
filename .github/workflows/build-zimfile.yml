@@ -176,7 +176,7 @@ jobs:
 
     strategy:
       matrix:
-        lang: [en, es, fr, he, it, nl, ru, zh-Hant]
+        lang: [en, es, fr, he, it, nl, pl, ru, zh-Hant]
 
     steps:
       - name: Download Repository
