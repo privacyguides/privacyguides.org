@@ -27,7 +27,7 @@ jobs:
     if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build i18n') }}
     strategy:
       matrix:
-        lang: [es, fr, he, it, nl, ru, zh-Hant, zh-TW]
+        lang: [de, es, fr, he, it, nl, ru, zh-Hant, zh-TW]
       fail-fast: false
     uses: ./.github/workflows/build.yml
     with:
