@@ -141,3 +141,9 @@ The image orientation metadata is not deleted. If you enable location (in Secure
 - Applications on this page must not be applicable to any other software category on the site.
 - General applications should extend or replace core system functionality.
 - Applications should receive regular updates and maintenance.
+
+## TacitVault
+- **Website:** [tacitvault.app](https://tacitvault.app)
+- **Source Code:** [GitHub](https://github.com/paulhaueisen-create/tacitvault-app)
+
+Open-source Android zero-knowledge local file locker utilizing hardware-backed Android Keystore and AES-256-GCM encryption with zero internet access.
