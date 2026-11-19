@@ -48,7 +48,7 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 [:octicons-home-16: Homepage](https://onlyoffice.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentation}
+[:octicons-info-16:](https://helpcenter.onlyoffice.com/docs/getting-started){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
