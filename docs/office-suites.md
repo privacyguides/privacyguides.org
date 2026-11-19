@@ -29,9 +29,9 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.documentfoundation.libreoffice)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/libreoffice/id1630474372)
-- [:fontawesome-brands-windows: Windows](https://libreoffice.org/download/download)
-- [:simple-apple: macOS](https://libreoffice.org/download/download)
-- [:simple-linux: Linux](https://libreoffice.org/download/download)
+- [:fontawesome-brands-windows: Windows](https://libreoffice.org/download)
+- [:simple-apple: macOS](https://libreoffice.org/download)
+- [:simple-linux: Linux](https://libreoffice.org/download)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.libreoffice.LibreOffice)
 
 </details>
