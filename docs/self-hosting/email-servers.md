@@ -23,7 +23,7 @@ Advanced system administrators may consider setting up their own **email server*
 **Stalwart** is a newer mail server written in Rust which supports JMAP in addition to the standard IMAP, POP3, and SMTP. It has a wide variety of configuration options, but also defaults to very reasonable settings in terms of both security and features, making it easy to use immediately. It has web-based administration with TOTP 2FA support and allows you to enter your public PGP key to encrypt **all** incoming messages.
 
 [:octicons-home-16: Homepage](https://stalw.art){ .md-button .md-button--primary }
-[:octicons-info-16:](https://stalw.art/docs/get-started){ .card-link title="Documentation" }
+[:octicons-info-16:](https://stalw.art/docs/install){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/stalwartlabs){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/sponsors/stalwartlabs){ .card-link title="Contribute" }
 
