@@ -30,7 +30,6 @@ You should search for your information on these sites first, and submit an opt-o
 - Advanced Background Checks ([Search](https://advancedbackgroundchecks.com), [Opt-Out](https://www.advancedbackgroundchecks.com/opt-out))
 - BeenVerified ([Search](https://beenverified.com/app/optout/search), [Opt-Out](https://beenverified.com/app/optout/address-search))
 - CheckPeople ([Search](https://checkpeople.com/do-not-sell-info), select *Remove Record* to opt-out)
-- ClustrMaps ([Search](https://clustrmaps.com), [Opt-Out](https://clustrmaps.com/bl/opt-out))
 - InfoTracer ([Search](https://infotracer.com), [Opt-Out](https://infotracer.com/optout))
 - Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
 - PublicDataUSA ([Search](https://publicdatausa.com), [Opt-Out](https://publicdatausa.com/remove.php))
