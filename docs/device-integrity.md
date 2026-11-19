@@ -6,6 +6,8 @@ cover: device-integrity.webp
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
+---
+
 <!--
 SPDX-FileCopyrightText: 2021-2026 Jonah Aragon
 SPDX-FileCopyrightText: 2021-2026 The Privacy Guides contributors
@@ -109,7 +111,7 @@ If you use iOS and are at high-risk, we have three additional suggestions for yo
 2. Trigger *sysdiagnose* logs often and back them up externally. These logs can provide invaluable data to future forensic investigators if need be.
 
    The process to do so varies by model, but you can trigger it on newer phones by holding down *Power* + *Volume Up* + *Volume Down* until you feel a brief vibration. After a few minutes, the timestamped *sysdiagnose* log will appear in **Settings** > **Privacy & Security** > **Analytics & Improvements** > **Analytics Data**.
-3. Enable [Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode).
+3. Enable [Lockdown Mode](https://support.apple.com/guide/iphone/use-lockdown-mode-iph845f6f40c/ios).
 
 MVT allows you to perform deeper scans/analysis if your device is jailbroken. Unless you know what you are doing, **do not jailbreak or root your device.** Jailbreaking your device exposes it to considerable security risks.
 

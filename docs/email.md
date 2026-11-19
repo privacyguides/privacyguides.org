@@ -191,7 +191,7 @@ Mailbox Mail also supports the discovery of public keys via HTTP from their WKD.
 
 #### :material-information-outline:{ .pg-blue } Account Termination
 
-Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/en/private/account/reactivate-a-deleted-account/).
+Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/account/reactivate-a-deleted-account).
 
 #### :material-information-outline:{ .pg-blue } Additional Functionality
 

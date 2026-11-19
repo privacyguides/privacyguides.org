@@ -63,7 +63,7 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 **Notesnook** is a free (as in speech), open-source, and easy-to-use E2EE note-taking app focused on user privacy.
 
-It features sync functionality that allows you to access your notes on multiple platforms. You can easily import your notes from Evernote, OneNote, and other apps using their [official importer](https://importer.notesnook.com).
+It features sync functionality that allows you to access your notes on multiple platforms. You can easily [import](https://notesnook.com/help/importing-notes) your notes from Evernote, OneNote, and other apps.
 
 [:octicons-home-16: Homepage](https://notesnook.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Privacy Policy" }
