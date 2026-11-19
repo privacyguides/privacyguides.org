@@ -21,7 +21,7 @@ Choose an **office suite** that does not require logging in to an account to acc
 [:octicons-home-16: Homepage](https://libreoffice.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://libreoffice.org/about-us/privacy/privacy-policy-en){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation){ .card-link title=Documentation}
-[:octicons-code-16:](https://libreoffice.org/about-us/source-code){ .card-link title="Source Code" }
+[:octicons-code-16:](https://git.libreoffice.org){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://libreoffice.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
