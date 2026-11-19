@@ -68,7 +68,7 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
 [:octicons-home-16: Homepage](https://veracrypt.fr){ .md-button .md-button--primary }
 [:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://veracrypt.fr/code){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/veracrypt/VeraCrypt){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
