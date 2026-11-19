@@ -251,7 +251,7 @@ When encrypting with PGP, you have the option to configure different options in 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Use future defaults when generating a key</p>
 
-When [generating keys](https://gnupg.org/gph/en/manual/c14.html) we suggest using the `future-default` command as this will instruct GnuPG use modern cryptography such as [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) and [Ed25519](https://ed25519.cr.yp.to):
+When [generating keys](https://www.gnupg.org/documentation/manuals/gnupg/Agent-GENKEY.html#Agent-GENKEY) we suggest using the `future-default` command as this will instruct GnuPG use modern cryptography such as [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) and [Ed25519](https://ed25519.cr.yp.to):
 
 ```bash
 gpg --quick-gen-key alice@example.com future-default
