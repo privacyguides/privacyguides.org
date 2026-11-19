@@ -32,7 +32,6 @@ You should search for your information on these sites first, and submit an opt-o
 - CheckPeople ([Search](https://checkpeople.com/do-not-sell-info), select *Remove Record* to opt-out)
 - InfoTracer ([Search](https://infotracer.com), [Opt-Out](https://infotracer.com/optout))
 - Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
-- PublicDataUSA ([Search](https://publicdatausa.com), [Opt-Out](https://publicdatausa.com/remove.php))
 - Spokeo ([Search](https://spokeo.com/search), [Opt-Out](https://spokeo.com/optout))
 - That's Them ([Search](https://thatsthem.com), [Opt-Out](https://thatsthem.com/optout))
 - USPhonebook ([Search and Opt-Out](https://usphonebook.com/opt-out))
