@@ -21,17 +21,17 @@ Choose an **office suite** that does not require logging in to an account to acc
 [:octicons-home-16: Homepage](https://libreoffice.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://libreoffice.org/about-us/privacy/privacy-policy-en){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation){ .card-link title=Documentation}
-[:octicons-code-16:](https://libreoffice.org/about-us/source-code){ .card-link title="Source Code" }
+[:octicons-code-16:](https://git.libreoffice.org){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://libreoffice.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://libreoffice.org/download/android-and-ios)
-- [:simple-appstore: App Store](https://libreoffice.org/download/android-and-ios)
-- [:fontawesome-brands-windows: Windows](https://libreoffice.org/download/download)
-- [:simple-apple: macOS](https://libreoffice.org/download/download)
-- [:simple-linux: Linux](https://libreoffice.org/download/download)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.documentfoundation.libreoffice)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/libreoffice/id1630474372)
+- [:fontawesome-brands-windows: Windows](https://libreoffice.org/download)
+- [:simple-apple: macOS](https://libreoffice.org/download)
+- [:simple-linux: Linux](https://libreoffice.org/download)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.libreoffice.LibreOffice)
 
 </details>
@@ -48,7 +48,7 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 [:octicons-home-16: Homepage](https://onlyoffice.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentation}
+[:octicons-info-16:](https://helpcenter.onlyoffice.com/docs/getting-started){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>

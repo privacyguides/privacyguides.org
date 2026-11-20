@@ -147,7 +147,6 @@ Additionally, system crashes [may occur](https://protonvpn.com/support/macos-t2-
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1193122683)
 - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
 - [:simple-github: GitHub](https://github.com/ivpn/android-app/releases)
@@ -200,7 +199,7 @@ IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index) which helps
 
 #### :material-check:{ .pg-green } Mobile Clients
 
-IVPN has published [App Store](https://apps.apple.com/app/id1193122683) and [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/ivpn/android-app/releases).
+IVPN has published [App Store](https://apps.apple.com/app/id1193122683) and Android clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/ivpn/android-app/releases).
 
 #### :material-information-outline:{ .pg-blue } Additional Notes
 
