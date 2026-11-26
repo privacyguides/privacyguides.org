@@ -18,6 +18,8 @@ definitions:
   - &title_font_family >-
     {%- if config.theme.language == "he" -%}
       Suez One
+    {%- elif config.theme.language == "ja" -%}
+      Noto Serif JP
     {%- elif config.theme.language == ("ru" or "zh-Hant" or "zh-TW") -%}
       Noto Serif TC
     {%- else -%}
@@ -27,6 +29,8 @@ definitions:
   - &font_family >-
     {%- if config.theme.language == "he" -%}
       Suez One
+    {%- elif config.theme.language == "ja" -%}
+      Noto Serif JP
     {%- elif config.theme.language == ("ru" or "zh-Hant" or "zh-TW") -%}
       Noto Sans TC
     {%- else -%}
