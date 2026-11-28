@@ -20,6 +20,8 @@ definitions:
       Suez One
     {%- elif config.theme.language == ("ru" or "zh-Hant" or "zh-TW") -%}
       Noto Serif TC
+    {%- elif config.theme.language == ("ko") -%}
+      Noto Serif KR
     {%- else -%}
       Bagnard
     {%- endif -%}
@@ -29,6 +31,8 @@ definitions:
       Suez One
     {%- elif config.theme.language == ("ru" or "zh-Hant" or "zh-TW") -%}
       Noto Sans TC
+    {%- elif config.theme.language == ("ko") -%}
+      Noto Serif KR
     {%- else -%}
       Public Sans
     {%- endif -%}
